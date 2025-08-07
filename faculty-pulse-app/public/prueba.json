@@ -1,0 +1,46 @@
+{
+    "nombre": "César Iván Abrajan Barraza",
+    "universidad": "Instituto Tecnológico de Culiacán",
+    "departamento": "Metal-Mecánica",
+    "promedio_general": 6.5,
+    "porcentaje_recomienda": 59,
+    "dificultad_promedio": 3.1,
+    "etiquetas": [
+      "muchas tareas",
+      "asistencia obligatoria",
+      "realiza trabajos largos",
+      "respeta a los estudiantes",
+      "buena ayuda",
+      "tomas su clase otra vez",
+      "pocos exámenes",
+      "clases excelentes"
+    ],
+    "numero_calificaciones": 32,
+    "calificaciones": [
+      {
+        "fecha": "03/Jul/2023",
+        "materia": "Clínica dental",
+        "calificacion_general": 8.0,
+        "comentario": "Es un profesor justo si le pones ganas vas a pasar la materia. Desde el primer día deja claro cómo se va a calificar y se le nota, deja tarea no es fácil pero la mayor parte del tiempo tienes que aprender por tu cuenta."
+      },
+      {
+        "fecha": "28/Jul/2023",
+        "materia": "Metodología para la administración de proyectos",
+        "calificacion_general": 10.0,
+        "comentario": "Con lo que se ve en clase mientras las prácticas profesionales les serán más fáciles. Búsquenlo para que sea su asesor, te revisa muy bien el proyecto."
+      },
+      {
+        "fecha": "05/Jul/2023",
+        "materia": "Software de aplicación ejecutiva",
+        "calificacion_general": 5.0,
+        "comentario": "[Comentario esperado ocultado]"
+      },
+      {
+        "fecha": "01/Jul/2023",
+        "materia": "Software de aplicación ejecutiva",
+        "calificacion_general": 8.0,
+        "comentario": "Estuvimos haciendo prácticas todas la asignatura, a la mayoría les agrado nunca falta y de inicio al final te entrega las calificaciones de cada unidad y cuantas tareas serían."
+      }
+    ]
+  }
+  

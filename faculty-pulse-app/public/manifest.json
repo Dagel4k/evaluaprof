@@ -1,0 +1,31 @@
+{
+  "name": "EvaluaProf - Análisis de Profesores Universitarios",
+  "short_name": "EvaluaProf",
+  "description": "Plataforma de análisis y visualización de perfiles académicos de profesores universitarios con inteligencia artificial",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#3b82f6",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/favicon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ],
+  "categories": ["education", "productivity", "utilities"],
+  "lang": "es",
+  "dir": "ltr"
+} 

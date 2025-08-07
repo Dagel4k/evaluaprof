@@ -1,0 +1,11 @@
+# EvaluaProf - Robots.txt
+# Plataforma de análisis de profesores universitarios
+
+User-agent: *
+Allow: /
+
+# Sitemap (cuando se implemente)
+# Sitemap: https://evaluaprof.com/sitemap.xml
+
+# Crawl-delay para ser respetuoso con el servidor
+Crawl-delay: 1
