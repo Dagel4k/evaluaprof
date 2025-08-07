@@ -1,0 +1,542 @@
+{
+  "professor_id": "José_Luis_Reyes_Sánchez",
+  "nombre": "José Luis Reyes Sánchez",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 8.231430408264636,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 8.225023615452784,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.862,
+    "wilson_interval": [
+      0.6944064228730067,
+      0.9450264914795217
+    ],
+    "n_recommendations": 29
+  },
+  "subject_normalization": {
+    "z_mean": 0.38,
+    "z_mean_decayed": 0.28,
+    "per_subject": [
+      {
+        "materia": "MÉTODOS NUMERICOS",
+        "z_decayed": 1.0,
+        "n": 3
+      },
+      {
+        "materia": "MÉTODOS NUMÉRICOS",
+        "z_decayed": 0.6675855994050168,
+        "n": 24
+      },
+      {
+        "materia": "METODOS NUMERICOS",
+        "z_decayed": 0.6578022975491529,
+        "n": 25
+      },
+      {
+        "materia": "PROYECTO INTEGRADOR",
+        "z_decayed": 0.08985632044292881,
+        "n": 13
+      },
+      {
+        "materia": "CUALQUIERA",
+        "z_decayed": -0.25318484177091666,
+        "n": 6
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "pasar",
+          "profe",
+          "mas",
+          "es buen",
+          "es"
+        ],
+        "weight": 0.09262745197299531
+      },
+      {
+        "id": 1,
+        "words": [
+          "si",
+          "buen",
+          "buen profesor",
+          "excelente",
+          "profesor"
+        ],
+        "weight": 0.12650523375585054
+      },
+      {
+        "id": 2,
+        "words": [
+          "maestro te",
+          "buen maestro",
+          "explica",
+          "preparado",
+          "bien"
+        ],
+        "weight": 0.07762416631991335
+      },
+      {
+        "id": 3,
+        "words": [
+          "te",
+          "buen maestro",
+          "area",
+          "comentarios",
+          "maestro"
+        ],
+        "weight": 0.15417309800492046
+      },
+      {
+        "id": 4,
+        "words": [
+          "preparado",
+          "es",
+          "maestro",
+          "exelente maestro",
+          "exelente"
+        ],
+        "weight": 0.04823038937499013
+      }
+    ],
+    "sentiment": {
+      "overall": 0.09090909090909091,
+      "by_month": {
+        "2025-02": 0.0,
+        "2023-10": 0.0,
+        "2022-12": -1.0,
+        "2021-12": 0.0,
+        "2021-06": 0.5,
+        "2021-01": 0.0,
+        "2020-12": 0.07692307692307693,
+        "2020-01": 1.0,
+        "2019-12": 0.0
+      }
+    },
+    "n_comments": 22
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [
+      {
+        "from": "2020-12-23T00:00:00",
+        "to": "2020-12-23T00:00:00",
+        "count": 3
+      },
+      {
+        "from": "2020-12-23T00:00:00",
+        "to": "2020-12-23T00:00:00",
+        "count": 4
+      },
+      {
+        "from": "2020-12-23T00:00:00",
+        "to": "2020-12-23T00:00:00",
+        "count": 5
+      },
+      {
+        "from": "2020-12-23T00:00:00",
+        "to": "2020-12-23T00:00:00",
+        "count": 6
+      },
+      {
+        "from": "2020-12-23T00:00:00",
+        "to": "2020-12-23T00:00:00",
+        "count": 7
+      },
+      {
+        "from": "2020-12-23T00:00:00",
+        "to": "2020-12-23T00:00:00",
+        "count": 8
+      },
+      {
+        "from": "2020-12-23T00:00:00",
+        "to": "2020-12-23T00:00:00",
+        "count": 9
+      },
+      {
+        "from": "2020-12-23T00:00:00",
+        "to": "2020-12-23T00:00:00",
+        "count": 10
+      },
+      {
+        "from": "2020-12-23T00:00:00",
+        "to": "2020-12-23T00:00:00",
+        "count": 11
+      },
+      {
+        "from": "2020-12-23T00:00:00",
+        "to": "2020-12-23T00:00:00",
+        "count": 12
+      },
+      {
+        "from": "2020-12-23T00:00:00",
+        "to": "2020-12-23T00:00:00",
+        "count": 13
+      },
+      {
+        "from": "2020-12-23T00:00:00",
+        "to": "2020-12-23T00:00:00",
+        "count": 14
+      },
+      {
+        "from": "2020-12-23T00:00:00",
+        "to": "2020-12-23T00:00:00",
+        "count": 15
+      },
+      {
+        "from": "2020-12-23T00:00:00",
+        "to": "2020-12-23T00:00:00",
+        "count": 16
+      },
+      {
+        "from": "2020-12-23T00:00:00",
+        "to": "2020-12-23T00:00:00",
+        "count": 17
+      },
+      {
+        "from": "2020-12-23T00:00:00",
+        "to": "2020-12-23T00:00:00",
+        "count": 18
+      },
+      {
+        "from": "2020-12-23T00:00:00",
+        "to": "2020-12-23T00:00:00",
+        "count": 19
+      },
+      {
+        "from": "2021-06-14T00:00:00",
+        "to": "2021-06-14T00:00:00",
+        "count": 3
+      }
+    ],
+    "low_variance_flag": 0,
+    "trust_score": 0.7
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        10.0,
+        10.0,
+        8.842105263157896,
+        6.0,
+        9.0,
+        9.0,
+        7.0,
+        10.0,
+        4.0
+      ],
+      "ewma": [
+        10.0,
+        10.0,
+        9.652631578947368,
+        8.556842105263158,
+        8.68978947368421,
+        8.782852631578946,
+        8.247996842105263,
+        8.773597789473683,
+        7.341518452631578
+      ],
+      "sigma": 1.4701048535250616
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 7.341518452631578,
+      "quality_band": [
+        4.460112939722458,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2025-02-20T00:00:00",
+      "materia": "CUALQUIERA",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 0,
+      "comentario": "No vale madre como maestro, por algo lo obligaron a renunciar.\nTe sacaba de clase por bostezar y vendía wifi de la misma institución de  forma clandestina](le decían el caimán).\nA todos los de centro de computo del área de sistemas los trataba mal.\nSu mejor apodo puesto por alumnos fue el XBOX"
+    },
+    {
+      "fecha_iso": "2023-10-26T00:00:00",
+      "materia": "COPPEL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 7.5,
+      "recomienda": 1,
+      "comentario": "Es un pendejo"
+    },
+    {
+      "fecha_iso": "2022-12-21T00:00:00",
+      "materia": "PROYECTO INTEGRADOR",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 1,
+      "comentario": "Profe barco me dijo que me iba a reprobar por sus webos y me la pelo, lo más  difícil es pasar con moya"
+    },
+    {
+      "fecha_iso": "2021-12-09T00:00:00",
+      "materia": "MÉTODOS NUMÉRICOS",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Participa siempre que puedas..."
+    },
+    {
+      "fecha_iso": "2021-06-14T00:00:00",
+      "materia": "PROYECTO INTEGRADOR",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 7.5,
+      "recomienda": 1,
+      "comentario": "Excelente Profesor!!"
+    },
+    {
+      "fecha_iso": "2021-06-14T00:00:00",
+      "materia": "PROYECTO INTEGRADOR DE INGENIERIA DE SOFTWARE",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": "Buen profesor, buenas enseñanzas."
+    },
+    {
+      "fecha_iso": "2021-06-14T00:00:00",
+      "materia": "PROYECTO INTEGRADOR",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2021-01-26T00:00:00",
+      "materia": "PROYECTO INTEGRADOR",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 0,
+      "comentario": "Sin comentarios"
+    },
+    {
+      "fecha_iso": "2020-12-23T00:00:00",
+      "materia": "PROYECTO INTEGRADOR",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 0,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2020-12-23T00:00:00",
+      "materia": "METODOS NUMERICOS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2020-12-23T00:00:00",
+      "materia": "MÉTODOS NUMÉRICOS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Excelente maestro, realmente tienes que aprender si quieres pasar, y cuando te esfuerzas el profesor se da cuenta, pocos maestros pueden hacer eso"
+    },
+    {
+      "fecha_iso": "2020-12-23T00:00:00",
+      "materia": "MÉTODOS NUMÉRICOS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2020-12-23T00:00:00",
+      "materia": "MÉTODOS NUMÉRICOS",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Muchas gracias profesor"
+    },
+    {
+      "fecha_iso": "2020-12-23T00:00:00",
+      "materia": "PROYECTO INTEGRADOR",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 1,
+      "comentario": "Muy buen maestro esta muy preparado tiene mucha experiencia en el area tanto como docente como desarrollador"
+    },
+    {
+      "fecha_iso": "2020-12-23T00:00:00",
+      "materia": "PROYECTO INTEGRADOR DE SOFTWARE",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Muy buen maestro, realista en aspectos del campo laboral. En algunas ocasiones puede ser muy duro con sus comentarios pero visto en retrospectiva sirve para forjar carácter. Cuida mucho las participaciones que tengas. En resumen, un maestro que vale la pena"
+    },
+    {
+      "fecha_iso": "2020-12-23T00:00:00",
+      "materia": "MÉTODOS NUMÉRICOS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2020-12-23T00:00:00",
+      "materia": "PROYECTO INTEGRADOR",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2020-12-23T00:00:00",
+      "materia": "PROYECTO INTEGRADOR",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 24.0,
+      "recomienda": 1,
+      "comentario": "La participación puede hacer la diferencia."
+    },
+    {
+      "fecha_iso": "2020-12-23T00:00:00",
+      "materia": "MÉTODOS NUMÉRICOS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Explica muy bien, está bien preparado para las clases"
+    },
+    {
+      "fecha_iso": "2020-12-23T00:00:00",
+      "materia": "MÉTODOS NUMÉRICOS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Uno de los mejores profe que e tenido le doy un 100"
+    },
+    {
+      "fecha_iso": "2020-12-23T00:00:00",
+      "materia": "MÉTODOS NUMERICOS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": "Es un exelente maestro sipre apoyado y aportado su conosimiento y pues muy calificado"
+    },
+    {
+      "fecha_iso": "2020-12-23T00:00:00",
+      "materia": "PROYECTO INTEGRADOR",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 1,
+      "comentario": "Es un buen maestro, te prepara para el campo laboral. No es duro, solo que le gustan las cosas bien hechas. Quizas la participación si importa un poco mas de lo que debería, pero al final es un buen profesor y lo recomienda."
+    },
+    {
+      "fecha_iso": "2020-12-23T00:00:00",
+      "materia": "MÉTODOS NUMÉRICOS",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Es un buen profesor, tomaría su clase otra vez."
+    },
+    {
+      "fecha_iso": "2020-12-23T00:00:00",
+      "materia": "PROYECTO INTEGRADOR",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": "Es un buen maestro, te da lecciones que te van a servir para cuando trabajes, es estricto y siento que a veces hace comentarios que hacen sentir mal, pero fuera de eso está bien la clase\nla participación cuenta mucho"
+    },
+    {
+      "fecha_iso": "2020-12-23T00:00:00",
+      "materia": "PROYECTO INTEGRADOR",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 6.5,
+      "recomienda": 1,
+      "comentario": "Exelente maestro"
+    },
+    {
+      "fecha_iso": "2020-12-23T00:00:00",
+      "materia": "METODOS NUMERICOS",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2020-12-23T00:00:00",
+      "materia": "PROYECTO INTEGRADOR DE INGENIERÍA DE SOFTWARE",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 0,
+      "comentario": "????"
+    },
+    {
+      "fecha_iso": "2020-01-10T00:00:00",
+      "materia": "PROYECTO INTEGRADOR DE ING. DE SOFTWARE",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "En gran ser humano y como profesor ni se diga. Explica claro las cosas, pero si no entiendes puedes preguntarle. Calificación justa y da muy buena retroalimentación. Muy amable y amigable, aunque hecha carrilla aveces xD. Sin duda uno de los mejores profesores del área de Sistemas."
+    },
+    {
+      "fecha_iso": "2019-12-16T00:00:00",
+      "materia": "PROYECTO INTEGRADOR",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": "Estudien bien la documentación del Enterprice Architect"
+    }
+  ],
+  "comments_recent": [
+    "No vale madre como maestro, por algo lo obligaron a renunciar.\nTe sacaba de clase por bostezar y vendía wifi de la misma institución de  forma clandestina](le decían el caimán).\nA todos los de centro de computo del área de sistemas los trataba mal.\nSu mejor apodo puesto por alumnos fue el XBOX",
+    "Es un pendejo",
+    "Profe barco me dijo que me iba a reprobar por sus webos y me la pelo, lo más  difícil es pasar con moya",
+    "Participa siempre que puedas...",
+    "Excelente Profesor!!",
+    "Buen profesor, buenas enseñanzas.",
+    "Sin comentarios"
+  ],
+  "n_reviews": 29
+}

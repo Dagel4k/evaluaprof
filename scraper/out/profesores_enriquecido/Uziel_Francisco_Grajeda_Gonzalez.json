@@ -1,0 +1,271 @@
+{
+  "professor_id": "Uziel_Francisco_Grajeda_Gonzalez",
+  "nombre": "Uziel Francisco Grajeda Gonzalez",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 5.92928824686944,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 6.238796050132928,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.3,
+    "wilson_interval": [
+      0.10778928748621182,
+      0.6032267800204347
+    ],
+    "n_recommendations": 10
+  },
+  "subject_normalization": {
+    "z_mean": -0.47,
+    "z_mean_decayed": -0.64,
+    "per_subject": [
+      {
+        "materia": "PRINCIPIOS ELECTRICOS Y APLICACIONES DIGITALES",
+        "z_decayed": 0.8164965809277264,
+        "n": 6
+      },
+      {
+        "materia": "CONTROL",
+        "z_decayed": -0.20862533137159844,
+        "n": 14
+      },
+      {
+        "materia": "ELECTRÓNICA DIGITAL",
+        "z_decayed": -0.34807338054342063,
+        "n": 5
+      },
+      {
+        "materia": "MECATRONICA APLICADA",
+        "z_decayed": -0.3761773969316393,
+        "n": 6
+      },
+      {
+        "materia": "---",
+        "z_decayed": -0.9627852966533862,
+        "n": 521
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "mucha teoria",
+          "mucha",
+          "sabe materia",
+          "teoria",
+          "sabe"
+        ],
+        "weight": 0.11851744571951896
+      },
+      {
+        "id": 1,
+        "words": [
+          "clases",
+          "facil",
+          "asi",
+          "solo",
+          "final"
+        ],
+        "weight": 0.17963061011906178
+      },
+      {
+        "id": 2,
+        "words": [
+          "asi",
+          "mas",
+          "facil",
+          "clases",
+          "es"
+        ],
+        "weight": 0.16048670029734424
+      },
+      {
+        "id": 3,
+        "words": [
+          "hace",
+          "da",
+          "profesor",
+          "nota",
+          "asi"
+        ],
+        "weight": 0.14626505496301284
+      }
+    ],
+    "sentiment": {
+      "overall": 0.0,
+      "by_month": {
+        "2022-02": 0.0,
+        "2021-01": 0.0,
+        "2020-09": 1.0,
+        "2020-01": 0.0,
+        "2019-12": -1.0,
+        "2016-03": 0.0,
+        "2015-08": 0.0,
+        "2014-09": 0.0
+      }
+    },
+    "n_comments": 8
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        4.0,
+        10.0,
+        5.0,
+        2.0,
+        3.0,
+        4.0,
+        8.0,
+        5.0,
+        6.0,
+        8.0
+      ],
+      "ewma": [
+        4.0,
+        5.8,
+        5.56,
+        4.491999999999999,
+        4.0443999999999996,
+        4.031079999999999,
+        5.221755999999999,
+        5.155229199999999,
+        5.4086604399999985,
+        6.186062307999999
+      ],
+      "sigma": 1.9446896702206207
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 6.186062307999999,
+      "quality_band": [
+        2.374470554367582,
+        9.997654061632415
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2022-02-10T00:00:00",
+      "materia": "ESTÁTICA",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "En clases en línea faltaba mucho, todos los problemas los sacaba de un solo libro, así que era fácil estudiar. Al final dio puntos extra a todos."
+    },
+    {
+      "fecha_iso": "2021-06-28T00:00:00",
+      "materia": "DINÁMICA DE SISTEMAS",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 0,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2021-01-02T00:00:00",
+      "materia": "MECATRONICA APLICADA",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 0,
+      "comentario": "Solo te pide un proyecto final con el que trabajas todo el curso, en realidad no te enseña nada en el semestre"
+    },
+    {
+      "fecha_iso": "2020-09-07T00:00:00",
+      "materia": "CONTROL",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Sabe mucho de la materia, da mucha teoria pero cuando empiezan los ejercicios se vuelve muy claro todo. Es buen profe, los examenes estan 2/3 y al final hace paro"
+    },
+    {
+      "fecha_iso": "2020-01-01T00:00:00",
+      "materia": "CONTROL",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": "La manera adecuada de describir a este profesor es: Mucha teoría, poca práctica. Sabe de la materia e incluso logra transmitir lo que sabe, se nota que se esfuerza pero honestamente, no le sale. No aporta ayuda en nada, exige más de lo que él puede dar y amenaza con reprobar, injustamente. F."
+    },
+    {
+      "fecha_iso": "2019-12-27T00:00:00",
+      "materia": "CONTROL",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": 7.5,
+      "recomienda": 0,
+      "comentario": "No se le nota que tenga doctorado apesar de que lo tiene, no sabe explicar los temas y solo se la pasa diciendo que no tenemos lo suficientes conocimientos en matematicas para llevar la materia, pero aun asi que se da cuenta no hace nada por enseñar los temas que nos hacen falta, pesimo profesor"
+    },
+    {
+      "fecha_iso": "2016-03-31T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2015-08-16T00:00:00",
+      "materia": "PRINCIPIOS ELECTRICOS Y APLICACIONES DIGITALES",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 0,
+      "comentario": "Sus trabajos son sencillos, sus clases tienden a ser confusas por que es  recientemente maestro. es fácil de pasar  mas si le entregas todas las tareas"
+    },
+    {
+      "fecha_iso": "2014-12-11T00:00:00",
+      "materia": "ELECTRÓNICA DIGITAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2014-09-23T00:00:00",
+      "materia": "ELECTRÓNICA DIGITAL",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Sin comentarios"
+    }
+  ],
+  "comments_recent": [
+    "En clases en línea faltaba mucho, todos los problemas los sacaba de un solo libro, así que era fácil estudiar. Al final dio puntos extra a todos.",
+    "Solo te pide un proyecto final con el que trabajas todo el curso, en realidad no te enseña nada en el semestre",
+    "Sabe mucho de la materia, da mucha teoria pero cuando empiezan los ejercicios se vuelve muy claro todo. Es buen profe, los examenes estan 2/3 y al final hace paro",
+    "La manera adecuada de describir a este profesor es: Mucha teoría, poca práctica. Sabe de la materia e incluso logra transmitir lo que sabe, se nota que se esfuerza pero honestamente, no le sale. No aporta ayuda en nada, exige más de lo que él puede dar y amenaza con reprobar, injustamente. F.",
+    "No se le nota que tenga doctorado apesar de que lo tiene, no sabe explicar los temas y solo se la pasa diciendo que no tenemos lo suficientes conocimientos en matematicas para llevar la materia, pero aun asi que se da cuenta no hace nada por enseñar los temas que nos hacen falta, pesimo profesor",
+    "[Comentario esperando revisión]",
+    "Sus trabajos son sencillos, sus clases tienden a ser confusas por que es  recientemente maestro. es fácil de pasar  mas si le entregas todas las tareas",
+    "Sin comentarios"
+  ],
+  "n_reviews": 10
+}

@@ -1,0 +1,329 @@
+{
+  "professor_id": "Yunive_Salcido",
+  "nombre": "Yunive Salcido",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 6.700140910321718,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 6.990663375110773,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.643,
+    "wilson_interval": [
+      0.3876400468214041,
+      0.8365550926279727
+    ],
+    "n_recommendations": 14
+  },
+  "subject_normalization": {
+    "z_mean": -0.22,
+    "z_mean_decayed": -0.28,
+    "per_subject": [
+      {
+        "materia": "ADMON DE PROYECTOS",
+        "z_decayed": 0.5773502691896257,
+        "n": 3
+      },
+      {
+        "materia": "ADMINISTRACION DE PROYECTOS",
+        "z_decayed": -0.15075567228888181,
+        "n": 4
+      },
+      {
+        "materia": "ADMINISTRACIÓN DE PROYECTOS",
+        "z_decayed": -0.21350420507344964,
+        "n": 9
+      },
+      {
+        "materia": "CONTROL ESTADÍSTICO DE CALIDAD",
+        "z_decayed": -0.5612408310354059,
+        "n": 8
+      },
+      {
+        "materia": "---",
+        "z_decayed": -0.9627852966533862,
+        "n": 521
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "clases",
+          "deja",
+          "todas",
+          "es",
+          "tareas"
+        ],
+        "weight": 0.1239923604707444
+      },
+      {
+        "id": 1,
+        "words": [
+          "tiene caracter",
+          "caracter",
+          "bien",
+          "si",
+          "falta"
+        ],
+        "weight": 0.12219624023602665
+      },
+      {
+        "id": 2,
+        "words": [
+          "si",
+          "materia",
+          "buena",
+          "hace",
+          "excelente"
+        ],
+        "weight": 0.11152144914801464
+      },
+      {
+        "id": 3,
+        "words": [
+          "esencial",
+          "siempre",
+          "mal",
+          "hacen",
+          "justa"
+        ],
+        "weight": 0.10817711046505879
+      },
+      {
+        "id": 4,
+        "words": [
+          "bipolar",
+          "bien",
+          "cosita",
+          "examen",
+          "maestra"
+        ],
+        "weight": 0.15909267771032723
+      }
+    ],
+    "sentiment": {
+      "overall": 0.07692307692307693,
+      "by_month": {
+        "2023-08": 0.0,
+        "2022-06": 1.0,
+        "2020-12": -1.0,
+        "2019-01": 0.0,
+        "2017-11": 0.0,
+        "2015-01": 1.0,
+        "2014-06": 0.0,
+        "2014-04": 0.0,
+        "2013-12": 0.0,
+        "2013-06": 0.0,
+        "2012-01": 0.0,
+        "2011-10": 0.0
+      }
+    },
+    "n_comments": 13
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        2.0,
+        7.0,
+        10.0,
+        7.0,
+        10.0,
+        6.0,
+        10.0,
+        8.0,
+        7.0,
+        5.0,
+        5.0,
+        10.0,
+        5.0
+      ],
+      "ewma": [
+        2.0,
+        3.5,
+        5.449999999999999,
+        5.914999999999999,
+        7.140499999999999,
+        6.798349999999999,
+        7.758844999999999,
+        7.831191499999999,
+        7.581834049999999,
+        6.807283834999999,
+        6.265098684499999,
+        7.385569079149999,
+        6.669898355404999
+      ],
+      "sigma": 2.1152412330463832
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 6.669898355404999,
+      "quality_band": [
+        2.5240255386340875,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2023-08-10T00:00:00",
+      "materia": "ADMINISTRACION DE PROYECTOS",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 0,
+      "comentario": "Siempre faltaba o llegaba tarde, una vez llego 15 mins antes de que fuera la clase, como no nos daba los tiempos pensaba que estaba todo explicado, una cosita mal en el examen y vales, te contesta teams 1 dia despues y nos dejo trabajo final como si hubiera explicado todo super bien"
+    },
+    {
+      "fecha_iso": "2022-06-22T00:00:00",
+      "materia": "CONTROL ESTADÍSTICO",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Excelente profesora, muy buena explicación de cómo se aplica la materia en campo laboral, muy clara con lo que trata de comunicar, pero si hace exámenes con frecuencia"
+    },
+    {
+      "fecha_iso": "2020-12-02T00:00:00",
+      "materia": "CONTROL ESTADÍSTICO DE CALIDAD",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 0,
+      "comentario": "Deja muchas tareas, no está difícil pero debes de entrar a todas sus clases, le importa mucho la asistencia y que entregues las tareas es importante."
+    },
+    {
+      "fecha_iso": "2019-01-31T00:00:00",
+      "materia": "ADMINISTRACIÓN DE PROYECTOS",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 0,
+      "comentario": "Falta mucho a clase (y cuando no falta llega media hora tarde) y al final quiere ver todo apresurado. Si enseña bien pero tiene un carácter bastante pesado y poca accesibilidad. Si puedes carga con alguien más."
+    },
+    {
+      "fecha_iso": "2018-01-13T00:00:00",
+      "materia": "CONTROL ESTADÍSTICO DE CALIDAD",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2017-11-08T00:00:00",
+      "materia": "CONTROL ESTADISTICO DE CALIDAD",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Es muy dura pero es buena maestra. A veces deja tareas de cosas que no explica. No faltes con esta profe y entrega todas las tareas y tiene mucha chanza de pasar"
+    },
+    {
+      "fecha_iso": "2015-01-08T00:00:00",
+      "materia": "DOS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Excelente oportunidad para aprender de las únicas"
+    },
+    {
+      "fecha_iso": "2014-06-21T00:00:00",
+      "materia": "CONTROL ESTADISTICO",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Empieza bien la materia pero después las clases se vuelven aburridas y monótonas, tiene un carácter un poco bipolar pero explica bien y lo esencial, es exigente y deja muchos trabajos"
+    },
+    {
+      "fecha_iso": "2014-06-04T00:00:00",
+      "materia": "ADMINISTRACION DE PROYECTOS",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Es bien bipolar la maestra y se fija en cualquier cosita para bajarte calificacion en el examen"
+    },
+    {
+      "fecha_iso": "2014-04-05T00:00:00",
+      "materia": "CONTROL DE CALIDAD & ADMON DE PROYECTOS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Una maestra que definitivamente hace la diferencia, sus clases muy interesantes, la mejor maestra que pude tener y eso que me dio clases en su primer semestre de maestra, la verdad es una super maestra en toda la extension, siempre sera mi favorita."
+    },
+    {
+      "fecha_iso": "2013-12-17T00:00:00",
+      "materia": "CONTROL ESTADÍSTICO DE CALIDAD",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Las clases fueron muy monotonas, muchos trabajos en equipo, cada dia se veia tema nuevo y no se aterrizaba, es buena maestra pero creo que le falta para la importancia que tiene esa materia. Esperaba mas."
+    },
+    {
+      "fecha_iso": "2013-06-10T00:00:00",
+      "materia": "ADMON DE PROYECTOS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "En lo personal se me hizo que explicaba lo esencial, siempre esta disponible para asesorias y si se porta mal pero con los que no hacen tareas muy justa al calificar pero se fija en todos los detalles"
+    },
+    {
+      "fecha_iso": "2012-01-12T00:00:00",
+      "materia": "CONTROL ESTADÍSTICO DE CALIDAD",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 1,
+      "comentario": "Tiene un carácter especial, pero con los que no hacen trabajos y tareas ya que suelen ser los que mas se quejan, la maestra es bipolar pero es justa cuando te toma en cuenta trabajos y tareas pero eso si no es fácil con ella pero aprendes mucho"
+    },
+    {
+      "fecha_iso": "2011-10-02T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    }
+  ],
+  "comments_recent": [
+    "Siempre faltaba o llegaba tarde, una vez llego 15 mins antes de que fuera la clase, como no nos daba los tiempos pensaba que estaba todo explicado, una cosita mal en el examen y vales, te contesta teams 1 dia despues y nos dejo trabajo final como si hubiera explicado todo super bien",
+    "Excelente profesora, muy buena explicación de cómo se aplica la materia en campo laboral, muy clara con lo que trata de comunicar, pero si hace exámenes con frecuencia",
+    "Deja muchas tareas, no está difícil pero debes de entrar a todas sus clases, le importa mucho la asistencia y que entregues las tareas es importante.",
+    "Falta mucho a clase (y cuando no falta llega media hora tarde) y al final quiere ver todo apresurado. Si enseña bien pero tiene un carácter bastante pesado y poca accesibilidad. Si puedes carga con alguien más.",
+    "Es muy dura pero es buena maestra. A veces deja tareas de cosas que no explica. No faltes con esta profe y entrega todas las tareas y tiene mucha chanza de pasar",
+    "Excelente oportunidad para aprender de las únicas",
+    "Empieza bien la materia pero después las clases se vuelven aburridas y monótonas, tiene un carácter un poco bipolar pero explica bien y lo esencial, es exigente y deja muchos trabajos",
+    "Es bien bipolar la maestra y se fija en cualquier cosita para bajarte calificacion en el examen",
+    "Una maestra que definitivamente hace la diferencia, sus clases muy interesantes, la mejor maestra que pude tener y eso que me dio clases en su primer semestre de maestra, la verdad es una super maestra en toda la extension, siempre sera mi favorita."
+  ],
+  "n_reviews": 14
+}

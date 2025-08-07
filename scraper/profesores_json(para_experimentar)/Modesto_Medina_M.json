@@ -1,0 +1,68 @@
+{
+  "nombre": "Modesto Medina M",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "ciudad": "Ciudad: culiacan, sinaloa",
+  "departamento": "Departamento/Facultad: Electrónica",
+  "calidad_general": 8.7,
+  "porcentaje_recomienda": 100,
+  "nivel_dificultad": 4.7,
+  "etiquetas": [
+    "MUCHAS TAREAS (2)",
+    "DEJA TRABAJOS LARGOS (1)",
+    "TOMARÍA SU CLASE OTRA VEZ (2)",
+    "DA BUENA RETROALIMENTACIÓN (1)"
+  ],
+  "numero_calificaciones": 3,
+  "calificaciones": [
+    {
+      "fecha": "17/Jun/2021",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Teoría Electromagnetica",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "9",
+      "interes_clase": "",
+      "comentario": "Hace 17 años que lo conocí en clases, en Teoría electromagnética. El enfoque que utilizó para desarrollar la asignatura me pareció muy bueno, primero dominar la matemática que involucra y después a darle, con un método deductivo. Claro que el no invento el método, pero lo desarrollo muy bien.",
+      "etiquetas_comentario": [
+        "Da buena retroalimentación",
+        "Muchas tareas",
+        "Tomaría su clase otra vez"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "14/Ago/2016",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 9.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Todas",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "9",
+      "interes_clase": "",
+      "comentario": "Es un desgraciado. Exige trabajos y de verdad te hace ir al nivel ingeneril...a la buena, o a la mala.\n\nGracias a el es que subí de nivel de conocimiento.",
+      "etiquetas_comentario": [
+        "Muchas tareas",
+        "Deja trabajos largos",
+        "Tomaría su clase otra vez"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "11/Feb/2015",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 7.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "..",
+      "asistencia": "",
+      "calificacion_recibida": "N/A",
+      "interes_clase": "N/A",
+      "comentario": "exigente pero aprendes, muy claro al explicar",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    }
+  ]
+}

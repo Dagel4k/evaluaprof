@@ -1,0 +1,255 @@
+{
+  "nombre": "Segundo Castañeda Gallo",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "ciudad": "Ciudad: culiacan, sinaloa",
+  "departamento": "Departamento/Facultad: Metal-Mecanica",
+  "calidad_general": 7.1,
+  "porcentaje_recomienda": 67,
+  "nivel_dificultad": 2.0,
+  "etiquetas": [
+    "BARCO (6)",
+    "POCOS EXÁMENES (3)",
+    "MUCHOS PROYECTOS GRUPALES (1)",
+    "DA BUENA RETROALIMENTACIÓN (1)",
+    "BRINDA APOYO (1)",
+    "TOMARÍA SU CLASE OTRA VEZ (2)",
+    "MUCHAS TAREAS (1)",
+    "LAS CLASES SON LARGAS (1)"
+  ],
+  "numero_calificaciones": 15,
+  "calificaciones": [
+    {
+      "fecha": "05/Dic/2024",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 2.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Mecanismos",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "9.5",
+      "interes_clase": "",
+      "comentario": "En todo el tec es el segundo profesor mas inutil que me ha tocado, el primero es Patron Jr.",
+      "etiquetas_comentario": [
+        "Barco",
+        "Muchas tareas",
+        "Las clases son largas"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "11/Jun/2024",
+      "tipo_calificacion": "REGULAR",
+      "puntaje_calidad_general": 5.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Ingeniería de Materiales Metálicos",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "9.5",
+      "interes_clase": "",
+      "comentario": "Es un profe muy relajado, tanto en su forma de ser, como docente. Barquísimo. No aprendes mucho de él, tienes que aprender por tu cuenta si te interesa la clase, pero si no, no hay bronca, a todos les pone 90 0 95 al final. Nomás tienes que entregar trabajos y ya",
+      "etiquetas_comentario": [
+        "Barco",
+        "Pocos Exámenes"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "19/Feb/2024",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 7.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "materiales metalicos",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "8",
+      "interes_clase": "",
+      "comentario": "Clases bastante tranquilas y siempre se nota calmado lo que genera sueño",
+      "etiquetas_comentario": [
+        "Barco"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "12/Ene/2020",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 9.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Análisis de fluidos",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "9",
+      "interes_clase": "",
+      "comentario": "Falta mucho pero domina bien la materia. Cuando cargas con el tienes un 90 seguro aunque no aprendas mucho.",
+      "etiquetas_comentario": [
+        "Barco",
+        "Pocos Exámenes",
+        "Tomaría su clase otra vez"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "02/Nov/2019",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 9.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Analisis de Fluidos",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "9",
+      "interes_clase": "",
+      "comentario": "Muy accesible, brinda ayuda y aclara tus dudas.\nGrande Garcia",
+      "etiquetas_comentario": [
+        "Da buena retroalimentación",
+        "Brinda apoyo",
+        "Tomaría su clase otra vez"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "19/Ago/2019",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 8.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Mecanismos",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "",
+      "etiquetas_comentario": [
+        "Barco"
+      ],
+      "votos_utiles": "1",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "08/Ago/2019",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 7.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Mecanismos",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "Pasas con buena calificacion pero no aprendes",
+      "etiquetas_comentario": [
+        "Barco",
+        "Pocos Exámenes",
+        "Muchos proyectos grupales"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "1"
+    },
+    {
+      "fecha": "15/Oct/2018",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "materiales",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "profe si lee esto, le apesta mucho el rifle, como lo se? , saque 100 :).",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "22/Dic/2017",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Analisis de fluidos",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "N/A",
+      "interes_clase": "",
+      "comentario": "Es muy buen maestro, no ves mucho con el pero lo que ves lo ves muy bien, cualquier duda te la responde claramente, es un amor, al final pone 95 a todos anque no hayas ido ni pasado los examenes, lo recomiendo al cien, aprendes y no batallas",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "02/Oct/2013",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 2.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Cien e Ing de Materiales",
+      "asistencia": "",
+      "calificacion_recibida": "8.5",
+      "interes_clase": "8.5",
+      "comentario": "No te enseña nada en su curso, te manda pdf 1-3 dias antes del examen (pdf de 10-30 hojas para preguntar lo menos relevante) y al momento de revisar te pone medios puntos por no ponerlo tal cual dice en los pdf y a veces poniendolo tal cual dice te pone !/2 por que se le dio la gana ¬¬",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "07/Jun/2013",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 2.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "ciencia e ingenieria de los materiales",
+      "asistencia": "",
+      "calificacion_recibida": "N/A",
+      "interes_clase": "N/A",
+      "comentario": "",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "19/Oct/2012",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 8.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Ciencia e ingeniería de materiales",
+      "asistencia": "",
+      "calificacion_recibida": "10",
+      "interes_clase": "10",
+      "comentario": "Sus clases son muy ligths, si aprendes, te lleva a hacer prácticas, es buena onda y es un amor.",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "25/Mar/2012",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 7.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Ingenieria de los materiales metálicos",
+      "asistencia": "",
+      "calificacion_recibida": "9.5",
+      "interes_clase": "9.5",
+      "comentario": "Con este maestro no vas a aprender nada, el único tema que explica es el de las estructuras cristalinas, lo demás ni siquiera lo ve.\nEn conclusión, cuando pases a Materiales 2 con Dominguez, te va a dar cuello porque no sabes nada de  la 1, no lo recomiendo.",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "31/Dic/2011",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "procesos de fabricacion",
+      "asistencia": "",
+      "calificacion_recibida": "10",
+      "interes_clase": "10",
+      "comentario": "excelente su clase, recomendable!",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "15/Dic/2011",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Procesos de Fabricacion",
+      "asistencia": "",
+      "calificacion_recibida": "10",
+      "interes_clase": "10",
+      "comentario": "Excelente profesor ademas nos lleva hacer practica",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    }
+  ]
+}

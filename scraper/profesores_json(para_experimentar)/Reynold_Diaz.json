@@ -1,0 +1,73 @@
+{
+  "nombre": "Reynold Diaz",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "ciudad": "Ciudad: culiacan, sinaloa",
+  "departamento": "Departamento/Facultad: Coutiño",
+  "calidad_general": 5.5,
+  "porcentaje_recomienda": 50,
+  "nivel_dificultad": 5.0,
+  "etiquetas": [
+    "CALIFICA DURO (1)"
+  ],
+  "numero_calificaciones": 4,
+  "calificaciones": [
+    {
+      "fecha": "17/Oct/2016",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 2.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "maestria",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "Odioso y siempre trata de hacer sentir inferior al alumno, lleno de complejos y una persona con un síndrome de inferioridad muy grande. Es discriminador y solo ayudará a quienes crea son tan inteligentes como él. Poco le importa los problemas que tengas o vayas a pasar por su método desconsiderado.",
+      "etiquetas_comentario": [
+        "Califica Duro"
+      ],
+      "votos_utiles": "2",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "17/Ene/2016",
+      "tipo_calificacion": "REGULAR",
+      "puntaje_calidad_general": 4.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Economía",
+      "asistencia": "",
+      "calificacion_recibida": "7.5",
+      "interes_clase": "7.5",
+      "comentario": "Es prepotente, su método de 'motivación' es hacer sentir inferior a los alumnos, tiene favoritismos, sus exámenes son complicados y su método de evaluación se basa en los exámenes.\nEs súmamente perfeccionista, si no sabes inglés, ni cargues con él.",
+      "etiquetas_comentario": [],
+      "votos_utiles": "1",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "24/Mar/2014",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "---",
+      "asistencia": "",
+      "calificacion_recibida": "10",
+      "interes_clase": "10",
+      "comentario": "[Comentario esperando revisión]",
+      "etiquetas_comentario": [],
+      "votos_utiles": "1",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "17/Mar/2014",
+      "tipo_calificacion": "REGULAR",
+      "puntaje_calidad_general": 6.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "industrial",
+      "asistencia": "",
+      "calificacion_recibida": "10",
+      "interes_clase": "10",
+      "comentario": "Excelente profesor!",
+      "etiquetas_comentario": [],
+      "votos_utiles": "1",
+      "votos_no_utiles": "0"
+    }
+  ]
+}

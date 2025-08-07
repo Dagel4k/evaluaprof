@@ -1,0 +1,302 @@
+{
+  "nombre": "Dolores Cano",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "ciudad": "Ciudad: culiacan, sinaloa",
+  "departamento": "Departamento/Facultad:  Bioquimica",
+  "calidad_general": 5.2,
+  "porcentaje_recomienda": 39,
+  "nivel_dificultad": 4.0,
+  "etiquetas": [
+    "BARCO (4)",
+    "CALIFICA DURO (2)",
+    "ASISTENCIA OBLIGATORIA (2)",
+    "CLASES EXCELENTES (3)",
+    "BRINDA APOYO (2)",
+    "TOMARÍA SU CLASE OTRA VEZ (2)",
+    "DA BUENA RETROALIMENTACIÓN (1)",
+    "LA PARTICIPACIÓN IMPORTA (1)",
+    "POCOS EXÁMENES (2)"
+  ],
+  "numero_calificaciones": 18,
+  "calificaciones": [
+    {
+      "fecha": "01/Jun/2021",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 3.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "quimica de alimentos",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "9",
+      "interes_clase": "",
+      "comentario": "Nada de clases, solo se conecta algunas veces y habla cosas nada que ver, suelta groserías y habla mal de todos",
+      "etiquetas_comentario": [
+        "Barco",
+        "Pocos Exámenes"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "28/Sep/2020",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 2.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Quimica de alimentos",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "8",
+      "interes_clase": "",
+      "comentario": "Mala maestra seria decir poco, solo se queja durante las clases de todos y nos dice groserias, no recomiendo llevar clases con ella, pesima.",
+      "etiquetas_comentario": [
+        "Califica Duro",
+        "Barco",
+        "Pocos Exámenes"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "11/Jun/2020",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 2.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "quimica de alimentos",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "9",
+      "interes_clase": "",
+      "comentario": "otra vez hace de las suyas nos insulta nos dice groserías y la reportamos y no pasa nada, nunca tomaría una clase de ella.",
+      "etiquetas_comentario": [
+        "Barco"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "17/Mar/2020",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Quimica de los alimentos",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "8.5",
+      "interes_clase": "",
+      "comentario": "Es muy buena profe, me dio química de los alimentos todo muy claro, 100% recomendable",
+      "etiquetas_comentario": [
+        "La Participación Importa",
+        "Asistencia obligatoria",
+        "Brinda apoyo"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "15/Mar/2020",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Quimica",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "8.5",
+      "interes_clase": "",
+      "comentario": "Profe súper preparada",
+      "etiquetas_comentario": [
+        "Da buena retroalimentación",
+        "Clases excelentes",
+        "Tomaría su clase otra vez"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "15/Mar/2020",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Bioquimica",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "8.5",
+      "interes_clase": "",
+      "comentario": "Muy buena maestra \nHay alumnos sin educación y sin respeto a los profesores , no solo en sus materias, en todas.",
+      "etiquetas_comentario": [
+        "Brinda apoyo",
+        "Clases excelentes",
+        "Tomaría su clase otra vez"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "15/Mar/2020",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Química de los alimentos",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "8",
+      "interes_clase": "",
+      "comentario": "",
+      "etiquetas_comentario": [
+        "Califica Duro",
+        "Asistencia obligatoria",
+        "Clases excelentes"
+      ],
+      "votos_utiles": "1",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "11/Dic/2019",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 3.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "---",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "N/A",
+      "interes_clase": "",
+      "comentario": "[Comentario esperando revisión]",
+      "etiquetas_comentario": [
+        "Barco"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "05/Dic/2019",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 2.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "---",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "9",
+      "interes_clase": "",
+      "comentario": "[Comentario esperando revisión]",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "08/Ago/2017",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 8.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "estdistica inferencial I",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "N/A",
+      "interes_clase": "",
+      "comentario": "es bastante estricta y algo sangrona",
+      "etiquetas_comentario": [],
+      "votos_utiles": "1",
+      "votos_no_utiles": "1"
+    },
+    {
+      "fecha": "27/Ene/2016",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 2.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "---",
+      "asistencia": "",
+      "calificacion_recibida": "N/A",
+      "interes_clase": "N/A",
+      "comentario": "[Comentario esperando revisión]",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "1"
+    },
+    {
+      "fecha": "14/Ene/2016",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 2.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "---",
+      "asistencia": "",
+      "calificacion_recibida": "N/A",
+      "interes_clase": "N/A",
+      "comentario": "[Comentario esperando revisión]",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "1"
+    },
+    {
+      "fecha": "15/Ene/2015",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 8.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "---",
+      "asistencia": "",
+      "calificacion_recibida": "N/A",
+      "interes_clase": "N/A",
+      "comentario": "[Comentario esperando revisión]",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "17/Jun/2014",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 7.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "química orgánica",
+      "asistencia": "",
+      "calificacion_recibida": "8",
+      "interes_clase": "8",
+      "comentario": "Tiene una forma muy rara de explicar se confunde mucho y es muy enojona no sabes cuando anda de malas y grita mucho me siento en la primaria con la maestra amargada xD ayuda que la materia no estaba dificil, y es fácil pasar con ella. Los examenes aveces confusos..",
+      "etiquetas_comentario": [],
+      "votos_utiles": "1",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "16/Ago/2012",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 2.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "---",
+      "asistencia": "",
+      "calificacion_recibida": "N/A",
+      "interes_clase": "N/A",
+      "comentario": "[Comentario esperando revisión]",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "06/May/2011",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 2.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "analisis sensorial",
+      "asistencia": "",
+      "calificacion_recibida": "7",
+      "interes_clase": "7",
+      "comentario": "denle un buchanan",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "02/Abr/2011",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 2.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "---",
+      "asistencia": "",
+      "calificacion_recibida": "N/A",
+      "interes_clase": "N/A",
+      "comentario": "[Comentario esperando revisión]",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "15/Mar/2011",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 8.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "química",
+      "asistencia": "",
+      "calificacion_recibida": "9",
+      "interes_clase": "9",
+      "comentario": "Es buena maestra y explica muy bien.",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "professor_id": "carmen_guadalupe_Lopez_valera",
+  "nombre": "carmen guadalupe Lopez valera",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 9.676496310662381,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.76970864304704,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 1.0,
+    "wilson_interval": [
+      0.5100999795960008,
+      1
+    ],
+    "n_recommendations": 4
+  },
+  "subject_normalization": {
+    "z_mean": 0.59,
+    "z_mean_decayed": 0.52,
+    "per_subject": [
+      {
+        "materia": "INVESTIGACIÓN DE OPERACIONES I",
+        "z_decayed": 0.8432740427115681,
+        "n": 9
+      },
+      {
+        "materia": "PLANEACION Y DISEÑO DE INSTALACIONES",
+        "z_decayed": 0.5,
+        "n": 4
+      },
+      {
+        "materia": "INVESTIGACION DE OPERACIONES",
+        "z_decayed": 0.4974404938855025,
+        "n": 16
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [],
+    "sentiment": {
+      "overall": 0.3333333333333333,
+      "by_month": {
+        "2018-01": 0.0,
+        "2017-08": 0.0,
+        "2013-08": 1.0
+      }
+    },
+    "n_comments": 3
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        10.0,
+        10.0,
+        9.5
+      ],
+      "ewma": [
+        10.0,
+        10.0,
+        9.85
+      ],
+      "sigma": 0.20207259421636883
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 9.85,
+      "quality_band": [
+        9.453937715335917,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2018-01-30T00:00:00",
+      "materia": "PLANEACION Y DISEÑO DE INSTALACIONES",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2018-01-13T00:00:00",
+      "materia": "INVESTIGACION DE OPERACIONES",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "mis respetos para esta maestra, ojala todos dieran la clase como ella, la mejor"
+    },
+    {
+      "fecha_iso": "2017-08-06T00:00:00",
+      "materia": "INVESTIGACION DE OPERACIONES",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "la mejor en la materia, súper preparada, se interesa mucho en los alumnos, estricta pero aprenderás bastante, sus examanes son extensos"
+    },
+    {
+      "fecha_iso": "2013-08-06T00:00:00",
+      "materia": "INVESTIGACIÓN DE OPERACIONES I",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Excelente docente, la mejor que puedes encontrar, recomendada totalment"
+    }
+  ],
+  "comments_recent": [
+    "mis respetos para esta maestra, ojala todos dieran la clase como ella, la mejor",
+    "la mejor en la materia, súper preparada, se interesa mucho en los alumnos, estricta pero aprenderás bastante, sus examanes son extensos",
+    "Excelente docente, la mejor que puedes encontrar, recomendada totalment"
+  ],
+  "n_reviews": 4
+}

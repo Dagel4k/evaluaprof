@@ -1,0 +1,301 @@
+{
+  "professor_id": "Lourdes_Sanchez_Acosta",
+  "nombre": "Lourdes Sanchez Acosta",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 9.682179487720967,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 8.262541863757207,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.917,
+    "wilson_interval": [
+      0.6461140782014047,
+      0.9851352905492264
+    ],
+    "n_recommendations": 12
+  },
+  "subject_normalization": {
+    "z_mean": 0.75,
+    "z_mean_decayed": 0.93,
+    "per_subject": [
+      {
+        "materia": "HERRAMIENTAS INTELECTUALES",
+        "z_decayed": 1.6658995284644431,
+        "n": 5
+      },
+      {
+        "materia": "DESARROLLO SUSTENTABLE",
+        "z_decayed": 1.0485430103364652,
+        "n": 52
+      },
+      {
+        "materia": "FUNDAMENTOS DE INVESTIGACIÓN",
+        "z_decayed": 0.7297514873769433,
+        "n": 29
+      },
+      {
+        "materia": "RELLENO SUSTENTABLE",
+        "z_decayed": 0.6977939181541912,
+        "n": 3
+      },
+      {
+        "materia": "GESTIÓN DE COSTOS",
+        "z_decayed": 0.27435797244449284,
+        "n": 15
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "seguro",
+          "es buena",
+          "buena maestra",
+          "maestra",
+          "buena"
+        ],
+        "weight": 0.10394640232385359
+      },
+      {
+        "id": 1,
+        "words": [
+          "ideal",
+          "ideal materias",
+          "materias",
+          "materias relleno",
+          "relleno"
+        ],
+        "weight": 0.1284722729725098
+      },
+      {
+        "id": 2,
+        "words": [
+          "faciles",
+          "buena onda",
+          "onda",
+          "clases",
+          "es"
+        ],
+        "weight": 0.1281541995902908
+      },
+      {
+        "id": 3,
+        "words": [
+          "solo",
+          "examenes",
+          "seguro",
+          "si",
+          "deja"
+        ],
+        "weight": 0.17391999679632972
+      },
+      {
+        "id": 4,
+        "words": [
+          "clases",
+          "clase",
+          "bien",
+          "hora",
+          "casi"
+        ],
+        "weight": 0.16064940622511756
+      }
+    ],
+    "sentiment": {
+      "overall": -0.1,
+      "by_month": {
+        "2021-11": 0.0,
+        "2021-09": 0.0,
+        "2021-03": -1.0,
+        "2020-11": 0.0,
+        "2020-08": 0.0,
+        "2019-08": 0.0,
+        "2019-05": 0.0,
+        "2019-04": 0.0,
+        "2016-10": 0.0
+      }
+    },
+    "n_comments": 10
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        6.0,
+        8.0,
+        9.0,
+        10.0,
+        10.0,
+        10.0,
+        9.0,
+        10.0,
+        10.0,
+        10.0
+      ],
+      "ewma": [
+        6.0,
+        6.6,
+        7.3199999999999985,
+        8.123999999999999,
+        8.686799999999998,
+        9.080759999999998,
+        9.056531999999997,
+        9.339572399999998,
+        9.537700679999999,
+        9.676390475999998
+      ],
+      "sigma": 0.6888354835566117
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 9.676390475999998,
+      "quality_band": [
+        8.32627292822904,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2022-02-21T00:00:00",
+      "materia": "DESARROLLO SUSTENTABLE",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2021-11-18T00:00:00",
+      "materia": "RELLENO SUSTENTABLE",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Ideal para materias de relleno, es un crack la profe"
+    },
+    {
+      "fecha_iso": "2021-09-29T00:00:00",
+      "materia": "DESARROLLO RELLENABLE",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2021-09-15T00:00:00",
+      "materia": "DESARROLLO SUSTENTABLE",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "casi casi hora libre"
+    },
+    {
+      "fecha_iso": "2021-09-03T00:00:00",
+      "materia": "RELLENO SUSTENTABLE XD",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Es muy facil pasar con ella y no es nada estresante, clases cortas y examenes faciles que respondes con puro sentido comun, muy flexible y buena onda"
+    },
+    {
+      "fecha_iso": "2021-03-05T00:00:00",
+      "materia": "FUNDAMENTOS DE INVESTIGACIÓN",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Buena maestra pero sus clases son casi pura teoría y a mi me aparece un poco aburrido eso. Es buena ayudando a los demás y es clara."
+    },
+    {
+      "fecha_iso": "2020-11-26T00:00:00",
+      "materia": "HERRAMIENTAS INTELECTUALES",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Muy buena maestra, buena persona y amable, entiende a sus alumnos"
+    },
+    {
+      "fecha_iso": "2020-08-26T00:00:00",
+      "materia": "DESARROLLO SUSTENTABLE",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Ideal para las materias de relleno, muchas veces falta y otras llega tarde, esta bien si la cargas en tu hora de comida Solo son como 15 minutos de clase y los examenes estan regalados, es buena onda"
+    },
+    {
+      "fecha_iso": "2019-08-09T00:00:00",
+      "materia": "GESTIÓN DE COSTOS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Buena maestra, ayuda mucho, 90 seguro, deja pocas tareas, pero los exámenes son extensos"
+    },
+    {
+      "fecha_iso": "2019-05-27T00:00:00",
+      "materia": "DESARROLLO SUSTENTABLE",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Me impartió desarrollo sustentable y esta bastante bien, la clase es corta y casi nunca tuve clases los viernes, si tienes mala asistencia solo tienes que hacer un examen muy sencillo y ya"
+    },
+    {
+      "fecha_iso": "2019-04-11T00:00:00",
+      "materia": "RELLENO SUSTENTABLE",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Buena maestra xd, carga con ella solo para materias de relleno como esta. Explica algo corto, deja unos trabajos sencillos y sus examenes son faciles si prestas atencion. Recomendada"
+    },
+    {
+      "fecha_iso": "2016-10-23T00:00:00",
+      "materia": "GESTIÓN DE COSTOS",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 0,
+      "comentario": "100 seguro en los examenes deja sacar los apuntes, nomas que si da hueva por que toda la clase nomas habla y habla. Tampoco domina mucho los temas y cuando le preguntas solo te enrreda mas, con ir todos los dias y hablar con ella el ultimo dia te deja el 100 si quieres aprender busca otro profesor"
+    }
+  ],
+  "comments_recent": [
+    "Ideal para materias de relleno, es un crack la profe",
+    "casi casi hora libre",
+    "Es muy facil pasar con ella y no es nada estresante, clases cortas y examenes faciles que respondes con puro sentido comun, muy flexible y buena onda",
+    "Buena maestra pero sus clases son casi pura teoría y a mi me aparece un poco aburrido eso. Es buena ayudando a los demás y es clara.",
+    "Muy buena maestra, buena persona y amable, entiende a sus alumnos",
+    "Ideal para las materias de relleno, muchas veces falta y otras llega tarde, esta bien si la cargas en tu hora de comida Solo son como 15 minutos de clase y los examenes estan regalados, es buena onda",
+    "Buena maestra, ayuda mucho, 90 seguro, deja pocas tareas, pero los exámenes son extensos",
+    "Me impartió desarrollo sustentable y esta bastante bien, la clase es corta y casi nunca tuve clases los viernes, si tienes mala asistencia solo tienes que hacer un examen muy sencillo y ya"
+  ],
+  "n_reviews": 12
+}

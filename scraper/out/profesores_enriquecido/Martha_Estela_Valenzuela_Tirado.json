@@ -1,0 +1,526 @@
+{
+  "professor_id": "Martha_Estela_Valenzuela_Tirado",
+  "nombre": "Martha Estela Valenzuela Tirado",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 6.352076455621787,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 6.18965660982094,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.387,
+    "wilson_interval": [
+      0.23732875351271562,
+      0.5617619885886803
+    ],
+    "n_recommendations": 31
+  },
+  "subject_normalization": {
+    "z_mean": 0.07,
+    "z_mean_decayed": 0.09,
+    "per_subject": [
+      {
+        "materia": "INGENIERÍA DE SOFTWARE",
+        "z_decayed": 0.8355551076130289,
+        "n": 8
+      },
+      {
+        "materia": "ING. SOFTWARE",
+        "z_decayed": 0.8207826816681235,
+        "n": 5
+      },
+      {
+        "materia": "---",
+        "z_decayed": -0.06036370745218126,
+        "n": 521
+      },
+      {
+        "materia": "INGENIERIA DE SOFTWARE",
+        "z_decayed": -0.19115230473994835,
+        "n": 11
+      },
+      {
+        "materia": "ING SOFTWARE",
+        "z_decayed": -0.26064158905453216,
+        "n": 8
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "esperando revision",
+          "esperando",
+          "comentario esperando",
+          "comentario",
+          "revision"
+        ],
+        "weight": 0.19387864715926467
+      },
+      {
+        "id": 1,
+        "words": [
+          "final",
+          "bien",
+          "te",
+          "diapositivas",
+          "examen"
+        ],
+        "weight": 0.07929402501406271
+      },
+      {
+        "id": 2,
+        "words": [
+          "persona",
+          "clases",
+          "buena",
+          "es",
+          "maestra"
+        ],
+        "weight": 0.10340239099596336
+      },
+      {
+        "id": 3,
+        "words": [
+          "examenes",
+          "manera",
+          "califica",
+          "quiere",
+          "recomendada"
+        ],
+        "weight": 0.07982572741635462
+      },
+      {
+        "id": 4,
+        "words": [
+          "lee diapositivas",
+          "mal",
+          "mejor",
+          "lee",
+          "si"
+        ],
+        "weight": 0.10949694593211841
+      }
+    ],
+    "sentiment": {
+      "overall": 0.034482758620689655,
+      "by_month": {
+        "2024-07": 0.0,
+        "2023-06": 0.0,
+        "2022-12": 0.0,
+        "2022-06": 0.0,
+        "2022-04": 0.0,
+        "2021-12": 0.0,
+        "2021-11": 0.0,
+        "2021-08": 0.0,
+        "2021-06": 0.0,
+        "2021-04": 1.0,
+        "2021-03": 0.0,
+        "2018-11": 0.0,
+        "2016-01": 0.0,
+        "2015-08": 0.0,
+        "2013-08": 0.0,
+        "2013-01": 0.0,
+        "2012-08": 0.0,
+        "2012-03": 0.0,
+        "2012-02": 0.0,
+        "2012-01": 0.0,
+        "2011-11": 0.0,
+        "2011-10": 0.0,
+        "2011-04": 0.0,
+        "2011-01": 0.0,
+        "2010-10": 0.0,
+        "2010-09": 0.0
+      }
+    },
+    "n_comments": 29
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.135,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 0.93
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        8.0,
+        8.0,
+        2.5,
+        2.0,
+        2.0,
+        5.0,
+        8.0,
+        10.0,
+        5.0,
+        4.0,
+        9.0,
+        6.0,
+        5.0,
+        7.0,
+        9.0,
+        7.0,
+        6.0,
+        5.0,
+        5.0,
+        5.0,
+        6.0,
+        6.0,
+        4.0,
+        4.0,
+        5.0,
+        5.0,
+        9.0,
+        10.0
+      ],
+      "ewma": [
+        8.0,
+        8.0,
+        6.35,
+        5.044999999999999,
+        4.131499999999999,
+        4.392049999999999,
+        5.474435,
+        6.8321045,
+        6.2824731499999995,
+        5.597731205,
+        6.618411843499999,
+        6.432888290449998,
+        6.003021803314999,
+        6.302115262320498,
+        7.1114806836243485,
+        7.078036478537044,
+        6.75462553497593,
+        6.228237874483151,
+        5.859766512138205,
+        5.601836558496744,
+        5.72128559094772,
+        5.804899913663403,
+        5.263429939564382,
+        4.8844009576950675,
+        4.919080670386547,
+        4.943356469270583,
+        6.160349528489407,
+        7.312244669942585
+      ],
+      "sigma": 1.736567649722975
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 7.312244669942585,
+      "quality_band": [
+        3.908572076485554,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2024-07-25T00:00:00",
+      "materia": "METODOS AGILES",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Muy buena profesora, sus exámenes no son memorizar todas las diapositivas solo es entender el tema, es muy buena persona y amable."
+    },
+    {
+      "fecha_iso": "2023-06-01T00:00:00",
+      "materia": "INGENIERÍA DE SOFTWARE",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Explica bastante bien los temas, se nota que sabe de lo que habla. Deja muy pocas tareas y los exámenes son bastante fáciles, si pusiste algo de atención durante el curso con un repaso rápido de las diapositivas pasas."
+    },
+    {
+      "fecha_iso": "2023-03-15T00:00:00",
+      "materia": "ING SW",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2022-12-02T00:00:00",
+      "materia": "FUNDAMENTO DE ING. DE SOFTWARE",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 6.0,
+      "recomienda": 0,
+      "comentario": "- Debes de memorizar muy bien las diapositivas si quieres pasar el examen, de lo contrario es imposible.\n- Explica bien el tema aunque en el examen no te servira de nada.\n- Entrega las calificaciones hasta el final del semestre\n- Ella pedira que entres a teams para adelantar la clases."
+    },
+    {
+      "fecha_iso": "2022-06-09T00:00:00",
+      "materia": "---",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2022-04-01T00:00:00",
+      "materia": "INGENIERIA DE SOFTWARE",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": "La verdad si pueden elegir otro profe haganlo, las cosas tienen que estar exactamente como ella quiere y sino esta mal, lleven mejor con marco antonio aviles que es un crack y aprendes"
+    },
+    {
+      "fecha_iso": "2021-12-09T00:00:00",
+      "materia": "---",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2021-11-24T00:00:00",
+      "materia": "ING SOFTWARE",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": "Califica bien raro"
+    },
+    {
+      "fecha_iso": "2021-08-27T00:00:00",
+      "materia": "ING SOFTWARE",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 7.5,
+      "recomienda": 0,
+      "comentario": "Quiere todo de una manera exacta y no es nada flexible con las evaluaciones, no recomendada"
+    },
+    {
+      "fecha_iso": "2021-06-09T00:00:00",
+      "materia": "ING SOFTWARE",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": "Un horror, califica los examenes como ella quiere y todo tiene que estar igualito. para nada recomendada"
+    },
+    {
+      "fecha_iso": "2021-04-19T00:00:00",
+      "materia": "ING. SOFTWARE",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": "clases eternas. bueno al menos no es tan mala como mirna xD"
+    },
+    {
+      "fecha_iso": "2021-03-04T00:00:00",
+      "materia": "INGENIERIA DE SOFTWARE",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 5.5,
+      "recomienda": 0,
+      "comentario": "Experiencia de hace ya varios años...nomas lee diapositivas y si no contestas el examen tal cual esta en la diapositiva palabra por palabra estaba mal."
+    },
+    {
+      "fecha_iso": "2018-11-06T00:00:00",
+      "materia": "INGENIERÍA EN SOFTWARE",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 1,
+      "comentario": "Llega a leer diapositivas, ponle atención aunque te estés durmiendo, porque eso pasa. No toma lista y te manda las diapositivas MUY tarde, como 2 o 3 días antes del examen. Recuperaciones hasta el final."
+    },
+    {
+      "fecha_iso": "2016-01-14T00:00:00",
+      "materia": "FUNDAMENTOS DE ING. DE SOFTWARE",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 1,
+      "comentario": "No es facil pasar con ella, sus clases son de puras diapositivas, si explica bien, sus examenes son algo dificiles y de preguntas abiertas, y siempre esta dipuesta a ayudarte si tienes dudas con el proyecto que deja, si la recomiendo."
+    },
+    {
+      "fecha_iso": "2015-08-22T00:00:00",
+      "materia": "ING DE SW",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": "SIN COMENTARIOS"
+    },
+    {
+      "fecha_iso": "2013-08-09T00:00:00",
+      "materia": "INGENIERIA DE SOFTWARE",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 0,
+      "comentario": "Pues la verdad , unicamente diapositivas leidas, y un examen que ella califica de manera arbitraria(califica a como quiere) tienes que aprenderte la teoria como fotocopia para pasar el examen, cuidado con los acordeones que te reprueba el examen, bastante estricta."
+    },
+    {
+      "fecha_iso": "2013-01-23T00:00:00",
+      "materia": "---",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 1,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2013-01-15T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 3.5,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2012-08-01T00:00:00",
+      "materia": "INSOROB",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Muy buena maestra para saber sobre el paradigma OO"
+    },
+    {
+      "fecha_iso": "2012-07-21T00:00:00",
+      "materia": "INSOROB",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2012-03-30T00:00:00",
+      "materia": "ING. EN SOFTWARE",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": "Se la lleva toda la clase leyendo diapositivas, y si le preguntas, muchas veces no sabe responderte, la verdad es muy buena persona, pero para sus examenes tienes que aprenderte alrededor de 100 diapositivas D:"
+    },
+    {
+      "fecha_iso": "2012-02-26T00:00:00",
+      "materia": "---",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2012-01-27T00:00:00",
+      "materia": "ISOROB",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Si deseas aprender ISOROB esta maestra es la adecuada."
+    },
+    {
+      "fecha_iso": "2012-01-26T00:00:00",
+      "materia": "---",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2011-11-16T00:00:00",
+      "materia": "---",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 5.0,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2011-10-20T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 6.5,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2011-04-12T00:00:00",
+      "materia": "ESTRUTURA DE DATOS- ING SOFT",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 7.5,
+      "recomienda": 0,
+      "comentario": "Vale Queso La Doña No Explica Nada, Si Tienes Dudas No Te Ayuda, Los Examenes Ni Se Entienden, Califica Con 2/3 y 1/18 y Puras de Esas, Solo Lee y Lee Diapositivas Durante Todaaas Las Horas!! No Manchen Mejor LLeven Carrera Autodidacta Que Se Yo!! Huyan Si Pueden!!"
+    },
+    {
+      "fecha_iso": "2011-01-15T00:00:00",
+      "materia": "---",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2011-01-06T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2010-10-13T00:00:00",
+      "materia": "ING DE SW",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 1,
+      "comentario": "Si no son capaces de machetearse de 100 a 130 diapositivas para un examen mejor esperence a ver con que otro maestro la llevan en verano."
+    },
+    {
+      "fecha_iso": "2010-09-21T00:00:00",
+      "materia": "---",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "[Comentario esperando revisión]"
+    }
+  ],
+  "comments_recent": [
+    "Muy buena profesora, sus exámenes no son memorizar todas las diapositivas solo es entender el tema, es muy buena persona y amable.",
+    "Explica bastante bien los temas, se nota que sabe de lo que habla. Deja muy pocas tareas y los exámenes son bastante fáciles, si pusiste algo de atención durante el curso con un repaso rápido de las diapositivas pasas.",
+    "- Debes de memorizar muy bien las diapositivas si quieres pasar el examen, de lo contrario es imposible.\n- Explica bien el tema aunque en el examen no te servira de nada.\n- Entrega las calificaciones hasta el final del semestre\n- Ella pedira que entres a teams para adelantar la clases.",
+    "[Comentario esperando revisión]",
+    "La verdad si pueden elegir otro profe haganlo, las cosas tienen que estar exactamente como ella quiere y sino esta mal, lleven mejor con marco antonio aviles que es un crack y aprendes",
+    "[Comentario esperando revisión]",
+    "Califica bien raro",
+    "Quiere todo de una manera exacta y no es nada flexible con las evaluaciones, no recomendada",
+    "Un horror, califica los examenes como ella quiere y todo tiene que estar igualito. para nada recomendada"
+  ],
+  "n_reviews": 31
+}

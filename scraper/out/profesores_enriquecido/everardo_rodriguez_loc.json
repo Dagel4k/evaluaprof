@@ -1,0 +1,314 @@
+{
+  "professor_id": "everardo_rodriguez_loc",
+  "nombre": "everardo rodriguez loc",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 3.3192208843523656,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 5.25112700011559,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.154,
+    "wilson_interval": [
+      0.04325726318273798,
+      0.4223517050863101
+    ],
+    "n_recommendations": 13
+  },
+  "subject_normalization": {
+    "z_mean": -0.43,
+    "z_mean_decayed": -0.67,
+    "per_subject": [
+      {
+        "materia": "ESTUDIO DEL TRABAJO 1",
+        "z_decayed": 1.1330579506414626,
+        "n": 5
+      },
+      {
+        "materia": "ADMINISTRACIÓN DEL MANTENIMIENTO",
+        "z_decayed": 0.707945082347779,
+        "n": 6
+      },
+      {
+        "materia": "PROPIEDADES DE LOS MATERIALES",
+        "z_decayed": -0.3581067645418791,
+        "n": 16
+      },
+      {
+        "materia": "PROCESOS DE FABRICACION",
+        "z_decayed": -0.625790639152291,
+        "n": 16
+      },
+      {
+        "materia": "VARIAS",
+        "z_decayed": -0.9072647087265548,
+        "n": 3
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "nunca",
+          "materia",
+          "va",
+          "es",
+          "te"
+        ],
+        "weight": 0.1165367189637458
+      },
+      {
+        "id": 1,
+        "words": [
+          "es",
+          "algun",
+          "preguntas",
+          "debe",
+          "clases"
+        ],
+        "weight": 0.09956786970637073
+      },
+      {
+        "id": 2,
+        "words": [
+          "preguntas",
+          "debe",
+          "aparte",
+          "profe",
+          "maestro"
+        ],
+        "weight": 0.1678509789710667
+      },
+      {
+        "id": 3,
+        "words": [
+          "es",
+          "te",
+          "cualquier",
+          "calificacion",
+          "harinera"
+        ],
+        "weight": 0.07997201104787433
+      },
+      {
+        "id": 4,
+        "words": [
+          "materia",
+          "es",
+          "toda",
+          "vida",
+          "si"
+        ],
+        "weight": 0.14339370174951147
+      }
+    ],
+    "sentiment": {
+      "overall": 0.0,
+      "by_month": {
+        "2021-03": 0.0,
+        "2016-10": 0.0,
+        "2015-03": 0.0,
+        "2013-08": 0.0,
+        "2013-06": 0.0,
+        "2012-05": 0.0,
+        "2012-02": 0.0,
+        "2012-01": 0.0,
+        "2011-10": 0.0,
+        "2011-08": 0.0
+      }
+    },
+    "n_comments": 12
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        5.0,
+        2.0,
+        3.0,
+        2.0,
+        4.0,
+        3.0,
+        2.0,
+        10.0,
+        6.0,
+        4.0,
+        2.0
+      ],
+      "ewma": [
+        5.0,
+        4.1,
+        3.7699999999999996,
+        3.2389999999999994,
+        3.4673,
+        3.32711,
+        2.9289769999999997,
+        5.0502839,
+        5.33519873,
+        4.934639111,
+        4.054247377699999
+      ],
+      "sigma": 1.9334998233095817
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 4.054247377699999,
+      "quality_band": [
+        0.2645877240132193,
+        7.843907031386779
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2021-03-05T00:00:00",
+      "materia": "ESTUDIO DEL TRABAJO",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 0,
+      "comentario": "El peor maestro aparte del profe obeso"
+    },
+    {
+      "fecha_iso": "2016-10-16T00:00:00",
+      "materia": "PROCESOS DE FABRICACION",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 0,
+      "comentario": "Nunca carguen con el, ya esta viejito y se le va el rollo, es picudo, y no te ayuda en nada.\nSi tienes alguna duda, no te la soluciona, ni nada.\nQuise dar de baja la materia pero ya no podía."
+    },
+    {
+      "fecha_iso": "2015-03-22T00:00:00",
+      "materia": "ESTUDIO DEL TRABAJO",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Ya debe jubilarse no se que hace todavia dando clases"
+    },
+    {
+      "fecha_iso": "2015-03-08T00:00:00",
+      "materia": "ESTUDIO DEL TRABAJO 1",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 1,
+      "comentario": "buen maestro."
+    },
+    {
+      "fecha_iso": "2014-08-29T00:00:00",
+      "materia": "ADMINISTRACIÓN DEL MANTENIMIENTO",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2013-08-07T00:00:00",
+      "materia": "EST. TRABAJO",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 1.5,
+      "recomienda": 0,
+      "comentario": "Nel morros no agarren con chuquito, esta materia es pelada y sacas 100 con cualquier otro profe, este wey nomas te va pasar apenas."
+    },
+    {
+      "fecha_iso": "2013-06-11T00:00:00",
+      "materia": "ESTUDIO DEL TRABAJO",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": "si es cierto es bien castroso con su harinera, no aprendes nada aparte y te pone baja calificacion ademas de que se pone mucho al brinco es pucidillo.. nunca lo carguen"
+    },
+    {
+      "fecha_iso": "2012-05-17T00:00:00",
+      "materia": "ESTUDIO DEL TRABAJO 1",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 0,
+      "comentario": "Falta seriedad a las clases."
+    },
+    {
+      "fecha_iso": "2012-02-22T00:00:00",
+      "materia": "VARIAS",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 3.5,
+      "recomienda": 0,
+      "comentario": "La harinera... la harinera... LA BENDITA Harinera!! ... y para colmo te castiga la calificacion por cualquier cosa."
+    },
+    {
+      "fecha_iso": "2012-01-06T00:00:00",
+      "materia": "PROPIEDADES DE LOS MATERIALES",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": 2.5,
+      "recomienda": 0,
+      "comentario": "Si esperas a un profesor que hable toda la clase de su vida, y que si le preguntas algo o surge algun error en dudas o examenes, olvidalo, se altera. No es recomendable, no aprenderas en si la materia que imparte."
+    },
+    {
+      "fecha_iso": "2011-10-28T00:00:00",
+      "materia": "ESTUDIO DEL TRABAJO",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 0.5,
+      "recomienda": 0,
+      "comentario": "Este tipejo ni maestro es, no sabe explicar y cuando le preguntas se enoja, ofende sobre todo a las alumnas, debe tener algun trauma"
+    },
+    {
+      "fecha_iso": "2011-10-27T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 0.5,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2011-08-17T00:00:00",
+      "materia": "PROPIEDADES DE LOS MATERIALES",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 6.5,
+      "recomienda": 0,
+      "comentario": "Nos aplico un examen de otra de las materias que impartia, aunque no supieramos nada sobre el tema. Es muy cerrado de mente y te cuenta toda la historia de su vida y nada de su materia."
+    }
+  ],
+  "comments_recent": [
+    "El peor maestro aparte del profe obeso",
+    "Nunca carguen con el, ya esta viejito y se le va el rollo, es picudo, y no te ayuda en nada.\nSi tienes alguna duda, no te la soluciona, ni nada.\nQuise dar de baja la materia pero ya no podía.",
+    "Ya debe jubilarse no se que hace todavia dando clases",
+    "buen maestro.",
+    "Nel morros no agarren con chuquito, esta materia es pelada y sacas 100 con cualquier otro profe, este wey nomas te va pasar apenas.",
+    "si es cierto es bien castroso con su harinera, no aprendes nada aparte y te pone baja calificacion ademas de que se pone mucho al brinco es pucidillo.. nunca lo carguen",
+    "Falta seriedad a las clases.",
+    "La harinera... la harinera... LA BENDITA Harinera!! ... y para colmo te castiga la calificacion por cualquier cosa.",
+    "Si esperas a un profesor que hable toda la clase de su vida, y que si le preguntas algo o surge algun error en dudas o examenes, olvidalo, se altera. No es recomendable, no aprenderas en si la materia que imparte."
+  ],
+  "n_reviews": 13
+}

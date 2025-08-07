@@ -1,0 +1,77 @@
+{
+  "nombre": "Isaac Andrey Estrada Manjarrez",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "ciudad": "Ciudad: culiacan, sinaloa",
+  "departamento": "Departamento/Facultad: Ingenieria Industrial",
+  "calidad_general": 7.8,
+  "porcentaje_recomienda": 75,
+  "nivel_dificultad": 4.0,
+  "etiquetas": [
+    "RESPETADO POR LOS ESTUDIANTES (1)",
+    "INSPIRACIONAL (1)",
+    "TOMARÍA SU CLASE OTRA VEZ (1)"
+  ],
+  "numero_calificaciones": 4,
+  "calificaciones": [
+    {
+      "fecha": "19/Abr/2023",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 2.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "ING INDUSTRIAL",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "N/A",
+      "interes_clase": "",
+      "comentario": "ERA PROFESOR Y SE FUE A LA EMPRESA IPX COMETIENDO FRAUDE MILLONARIO JUNTO CON LOS DEMAS ACCIONISTAS.",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "14/Ene/2018",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 9.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Adm. de Proyectos",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "9",
+      "interes_clase": "",
+      "comentario": "",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "30/Ago/2017",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Administracion de Proyectos",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "9.5",
+      "interes_clase": "",
+      "comentario": "Maestro jóven con ideas innovadoras y creativas. Es  cuestión de poner atención (Que no es tan dificil por que la mayoria de los temas que abarca son interesantes). Se lleva con los alumnos pero se siente el respeto hacia él. Buen profe volvería a cargar con el :)",
+      "etiquetas_comentario": [
+        "Respetado por los estudiantes",
+        "Inspiracional",
+        "Tomaría su clase otra vez"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "01/Nov/2016",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Administración de proyectos",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "9.5",
+      "interes_clase": "",
+      "comentario": "Gran profesor. Muy joven y con ideas nuevas que se preocupa que el alumno realmente aprenda y sepa aplicar los conocimientos en la vida real. Muy buena onda pero eso si los trabajos muy largos y medio dificiles tampoco esperes que sera light todo el semestre. Recomendado",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    }
+  ]
+}

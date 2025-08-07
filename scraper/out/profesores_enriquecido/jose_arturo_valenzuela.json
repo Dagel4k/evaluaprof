@@ -1,0 +1,558 @@
+{
+  "professor_id": "jose_arturo_valenzuela",
+  "nombre": "jose arturo valenzuela",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 6.475227431564034,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 6.842954804405621,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.583,
+    "wilson_interval": [
+      0.4219996966427768,
+      0.7285966649491272
+    ],
+    "n_recommendations": 36
+  },
+  "subject_normalization": {
+    "z_mean": -0.39,
+    "z_mean_decayed": -0.6,
+    "per_subject": [
+      {
+        "materia": "CALCULO INTEGRAL",
+        "z_decayed": 0.19882889285404728,
+        "n": 84
+      },
+      {
+        "materia": "MATE V",
+        "z_decayed": 0.0,
+        "n": 5
+      },
+      {
+        "materia": "CALCULO DIFERENCIAL",
+        "z_decayed": -0.5544452412419195,
+        "n": 110
+      },
+      {
+        "materia": "MATEMATICAS",
+        "z_decayed": -0.632086277958298,
+        "n": 17
+      },
+      {
+        "materia": "ECUACIONES DIFERENCIALES",
+        "z_decayed": -0.6339198134353586,
+        "n": 56
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "esperando",
+          "comentario",
+          "comentario esperando",
+          "esperando revision",
+          "revision"
+        ],
+        "weight": 0.09723213222313566
+      },
+      {
+        "id": 1,
+        "words": [
+          "pasar",
+          "quieres pasar",
+          "quieres",
+          "si quieres",
+          "si"
+        ],
+        "weight": 0.07855928487517165
+      },
+      {
+        "id": 2,
+        "words": [
+          "sabe",
+          "es",
+          "maestro",
+          "buen maestro",
+          "buen"
+        ],
+        "weight": 0.1042829325759426
+      },
+      {
+        "id": 3,
+        "words": [
+          "lastima",
+          "es",
+          "excelente",
+          "excelente profesor",
+          "profesor"
+        ],
+        "weight": 0.13312188049879423
+      },
+      {
+        "id": 4,
+        "words": [
+          "ademas",
+          "recomiendo",
+          "maestro",
+          "exelente",
+          "exelente maestro"
+        ],
+        "weight": 0.07698539945934493
+      }
+    ],
+    "sentiment": {
+      "overall": 0.08823529411764706,
+      "by_month": {
+        "2019-08": 0.0,
+        "2019-06": 0.0,
+        "2017-12": 0.0,
+        "2017-08": -0.5,
+        "2017-05": 0.0,
+        "2016-08": 0.0,
+        "2015-10": 1.0,
+        "2015-07": 1.0,
+        "2015-05": 0.0,
+        "2015-03": 0.0,
+        "2013-08": 0.0,
+        "2013-07": 0.5,
+        "2013-03": 0.0,
+        "2013-01": 0.0,
+        "2012-12": 1.0,
+        "2012-08": 0.0,
+        "2012-06": 0.0,
+        "2011-11": 0.0,
+        "2011-10": 0.0,
+        "2011-05": 0.0,
+        "2011-01": 0.2,
+        "2010-06": -1.0
+      }
+    },
+    "n_comments": 34
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.018,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 0.99
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        3.0,
+        2.0,
+        8.166666666666666,
+        2.6666666666666665,
+        9.0,
+        9.5,
+        10.0,
+        10.0,
+        10.0,
+        6.0,
+        2.0,
+        10.0,
+        5.0,
+        4.0,
+        2.0,
+        10.0,
+        10.0,
+        10.0,
+        8.0,
+        7.0,
+        6.0,
+        7.0,
+        4.5
+      ],
+      "ewma": [
+        3.0,
+        2.6999999999999997,
+        4.34,
+        3.8379999999999996,
+        5.3866,
+        6.62062,
+        7.634434,
+        8.3441038,
+        8.840872659999999,
+        7.988610861999999,
+        6.192027603399999,
+        7.334419322379999,
+        6.634093525665999,
+        5.843865467966199,
+        4.6907058275763385,
+        6.283494079303437,
+        7.3984458555124055,
+        8.178912098858683,
+        8.125238469201078,
+        7.787666928440753,
+        7.251366849908527,
+        7.175956794935969,
+        6.3731697564551775
+      ],
+      "sigma": 2.300420411880304
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 6.3731697564551775,
+      "quality_band": [
+        1.8643457491697815,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2019-08-08T00:00:00",
+      "materia": "ECUACIONES DIFERENCIALES",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 1,
+      "comentario": "El maestro va rápido pero es claro a la hora de explicar los temas, su principal problema es que deja demasiada tarea, pero mucha, si piensas cargar con el tienes que tener mucho tiempo y dedicación"
+    },
+    {
+      "fecha_iso": "2019-08-04T00:00:00",
+      "materia": "ECUACIONES DIFERENCIALES",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Como maestro es pésimo, se ve que sabe mucho pero no explica. Se burla de nosotros cuando no sabemos algún tema o cuando le preguntamos algo que según el ya deberíamos de saber."
+    },
+    {
+      "fecha_iso": "2019-06-07T00:00:00",
+      "materia": "ECUACIONES DIFERENCIALES",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 1,
+      "comentario": "Rézale a todos los dioses que existan si quieres pasar"
+    },
+    {
+      "fecha_iso": "2017-12-28T00:00:00",
+      "materia": "CALCULO DIFERENCIAL",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "NO cargues con el si quieres una buena calificación.Sabe muchas matemáticas pero NO enseña de una forma en la que aprendas. El llega al pizarrón y se pone a resolver el solo ejercicios por lo que nunca vas a practicar y por eso reprobarás. Examenes muy dificiles. Pero es compa y se agarra cura. RC"
+    },
+    {
+      "fecha_iso": "2017-08-05T00:00:00",
+      "materia": "CÁLCULO INTEGRAL",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 21.0,
+      "recomienda": 0,
+      "comentario": "Buen ingenierio, con conocimiento. Pero pésimo maestro, no sabe transmitirlo. Puedes pasar con 70 haciendo tareas y haciéndole la barba, pero no vas a aprender."
+    },
+    {
+      "fecha_iso": "2017-08-04T00:00:00",
+      "materia": "ECUACIONES DIFERENCIALES",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "es muy buen maestro, sabe mucho y explica bien solo que a veces si le preguntas no te explica pero no siempre. aprendes bastante y sus examenes estan pa 100, anque si deja bastante tarea"
+    },
+    {
+      "fecha_iso": "2017-05-03T00:00:00",
+      "materia": "CALCULO INTEGRAL",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 1,
+      "comentario": "Un profesor como deben de ser, quiza sea muy duro al calificar, pero explica de manera muy detallada haciendote pensar y a veces resolver tus propias dudas. Sin duda se ve que domina por completo la materia e inclusive busca maneras para motivar a los alumnos por medio de otros metodos."
+    },
+    {
+      "fecha_iso": "2016-08-04T00:00:00",
+      "materia": "ECUACIONES DIFERENCIALES",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": "Deja mucha tarea y te troza en el examen pero da chance y es bien compa, aprendes mucho y te diviertes con los chistes que echa."
+    },
+    {
+      "fecha_iso": "2015-10-22T00:00:00",
+      "materia": "ECUACIONES DIFERENCIALES",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Excelente profesor, el mejor que he tenido en lo que llevo en el TEC, es muy justo y sabe mucho."
+    },
+    {
+      "fecha_iso": "2015-07-10T00:00:00",
+      "materia": "CALCULO DE VERANO",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "excelente profesor lastima que se la pasa en cafe  cuando requiero asesoria"
+    },
+    {
+      "fecha_iso": "2015-05-04T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2015-03-08T00:00:00",
+      "materia": "CALCULO DIFERENCIAL",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": "muy bacilador."
+    },
+    {
+      "fecha_iso": "2013-08-02T00:00:00",
+      "materia": "CALCULO INTEGRAL",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 4.5,
+      "recomienda": 0,
+      "comentario": "Este profesor si sabe de la materia, pero el semestre que yo lo lleve no se se la paso dándome largas a los asuntos y al momento de calificar truena bien gacho, si quieres aventurarte pero si hay otra opción te recomiendo que te vallas a la otra opción"
+    },
+    {
+      "fecha_iso": "2013-07-19T00:00:00",
+      "materia": "CALCULO INTEGRAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Exelente profesor sabe mucho, hace muchos ejercicios en el pisaron y además se apoya en la computadora y así es un placer recibir clases con el, domina como 7 paquetes de matemáticas. Nos pasa vídeos de prueba de Universidades de USA y se ve que lo que enseña tiene nivel. Es muy exigente y estricto pero vale la pena ya que de que aprendes, aprendes. Es muy serio y responsable. Nunca falta. Sufrimos con el pero se aprende bastante. Si quieres aprender lleva con el, es buena onda."
+    },
+    {
+      "fecha_iso": "2013-07-18T00:00:00",
+      "materia": "ECUACIONES DIFERENCIALES",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Muy buen maestro, se ve que sabe bastante de matemáticas y de Ingeniería, las aplicaciones que nos da motiva a aprender y querer ser Ingeniero. Yo disfrute las Ecuaciones Diferenciales con el, se los recomiendo si es que quieren aprender, sino es así mejor ni la carguen con el. Es muy Bueno."
+    },
+    {
+      "fecha_iso": "2013-03-15T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2013-03-09T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2013-01-23T00:00:00",
+      "materia": "ECUACIONES DIFERENCIALES",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 4.5,
+      "recomienda": 0,
+      "comentario": "Ess buueno,  pero a veces se le va la onda, en los veranos nadie quiere llevarle con el."
+    },
+    {
+      "fecha_iso": "2012-12-18T00:00:00",
+      "materia": "ECUACIONES DIFERENCIALES",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Excelente Profesor, tiene un profundo conocimiento del uso de las Matematicas, domina muy bien los temas y se apoya en Software muy variado, es muy duro y critico, pero te da muchas aplicaciones en la Ingenieria, lo que haces ver la importancia de la materia en nuestra carrera y en la vida. Se los recomiendo ampliamente, es muy humano."
+    },
+    {
+      "fecha_iso": "2012-08-16T00:00:00",
+      "materia": "ECUACIONES DIFERENCIALES",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Exelente Maestro y Persona, se los recomiendo ampliamente, nos trata con mucha dignidad y sabe mucho, pero eso si tienes que asistir y hacer las tareas, se basa mucho en estas para los examenes."
+    },
+    {
+      "fecha_iso": "2012-06-22T00:00:00",
+      "materia": "ECUACIONES DIFERENCIALES",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Este maestro da muchas aplicaciones de las matemáticas, pero tienes que asistir yestudiar no hay de otra"
+    },
+    {
+      "fecha_iso": "2012-06-05T00:00:00",
+      "materia": "CALCULO INTEGRAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Buen maestro, se lo recomiendo es muy justo"
+    },
+    {
+      "fecha_iso": "2011-11-25T00:00:00",
+      "materia": "MATEMATICAS V",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Exelente Maestro,muy preparado, ademas es muy atractivo, se los recomiendo chicas de Industrial, Bioquimica y Sistemas."
+    },
+    {
+      "fecha_iso": "2011-11-11T00:00:00",
+      "materia": "MAT I",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 1,
+      "comentario": "Es muy inteligente y con mucha enería, LASTIMA que ese potencial lo desvíe para destruir a los que lo rodean.\nLuego se ve que está frustrado, o tiene problemas de IDENTIDAD."
+    },
+    {
+      "fecha_iso": "2011-10-27T00:00:00",
+      "materia": "MATEMÁTICAS V",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Exelente maestro"
+    },
+    {
+      "fecha_iso": "2011-05-10T00:00:00",
+      "materia": "---",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2011-05-06T00:00:00",
+      "materia": "MATEMATICAS V",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": "puros chismes cuenta en la clase"
+    },
+    {
+      "fecha_iso": "2011-05-06T00:00:00",
+      "materia": "MATEMATICAS I",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": "con un buchana pasas"
+    },
+    {
+      "fecha_iso": "2011-01-31T00:00:00",
+      "materia": "MATE V",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Buen maestro"
+    },
+    {
+      "fecha_iso": "2011-01-30T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 1.0,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2011-01-21T00:00:00",
+      "materia": "MATE V",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2011-01-19T00:00:00",
+      "materia": "MATE V",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Excelente profesor, muy comprensivo y explica muy bien, es estricto pero muy buena onda."
+    },
+    {
+      "fecha_iso": "2011-01-17T00:00:00",
+      "materia": "MATEMÁTICAS II",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Es un buen teacher, sabe mucho de matemáticas y su aplicación."
+    },
+    {
+      "fecha_iso": "2011-01-16T00:00:00",
+      "materia": "MATEMATICAS",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Siempre pone problemas de donde se aplican las matemáticas, es muy exigente y no deja copiar. Si quieres aprender carga con el, si quieres pasar nada mas ni lo intentes"
+    },
+    {
+      "fecha_iso": "2010-12-16T00:00:00",
+      "materia": "MATEMATICAS V",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2010-06-17T00:00:00",
+      "materia": "MATEMATICAS",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "NO SABE EXPLICAR BIEN ESTE MAESTRO, HACE LOS PROBLEMAS PARA EL, HACE TODO MUY DIFICIL, NO CARGUEN CON EL, REPROBO AL 91% DE LOS ALUMNOS"
+    }
+  ],
+  "comments_recent": [
+    "El maestro va rápido pero es claro a la hora de explicar los temas, su principal problema es que deja demasiada tarea, pero mucha, si piensas cargar con el tienes que tener mucho tiempo y dedicación",
+    "Como maestro es pésimo, se ve que sabe mucho pero no explica. Se burla de nosotros cuando no sabemos algún tema o cuando le preguntamos algo que según el ya deberíamos de saber.",
+    "Rézale a todos los dioses que existan si quieres pasar",
+    "NO cargues con el si quieres una buena calificación.Sabe muchas matemáticas pero NO enseña de una forma en la que aprendas. El llega al pizarrón y se pone a resolver el solo ejercicios por lo que nunca vas a practicar y por eso reprobarás. Examenes muy dificiles. Pero es compa y se agarra cura. RC",
+    "Buen ingenierio, con conocimiento. Pero pésimo maestro, no sabe transmitirlo. Puedes pasar con 70 haciendo tareas y haciéndole la barba, pero no vas a aprender.",
+    "es muy buen maestro, sabe mucho y explica bien solo que a veces si le preguntas no te explica pero no siempre. aprendes bastante y sus examenes estan pa 100, anque si deja bastante tarea",
+    "Un profesor como deben de ser, quiza sea muy duro al calificar, pero explica de manera muy detallada haciendote pensar y a veces resolver tus propias dudas. Sin duda se ve que domina por completo la materia e inclusive busca maneras para motivar a los alumnos por medio de otros metodos.",
+    "Deja mucha tarea y te troza en el examen pero da chance y es bien compa, aprendes mucho y te diviertes con los chistes que echa.",
+    "Excelente profesor, el mejor que he tenido en lo que llevo en el TEC, es muy justo y sabe mucho.",
+    "excelente profesor lastima que se la pasa en cafe  cuando requiero asesoria"
+  ],
+  "n_reviews": 36
+}

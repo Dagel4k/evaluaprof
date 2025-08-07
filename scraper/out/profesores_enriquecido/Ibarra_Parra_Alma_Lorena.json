@@ -1,0 +1,217 @@
+{
+  "professor_id": "Ibarra_Parra_Alma_Lorena",
+  "nombre": "Ibarra Parra Alma Lorena",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 9.182655428065782,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.927995353097562,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 1.0,
+    "wilson_interval": [
+      0.6456611570247934,
+      1
+    ],
+    "n_recommendations": 7
+  },
+  "subject_normalization": {
+    "z_mean": 0.41,
+    "z_mean_decayed": 0.25,
+    "per_subject": [
+      {
+        "materia": "DESARROLLO SUSTENTABLE",
+        "z_decayed": 1.0915110334382296,
+        "n": 52
+      },
+      {
+        "materia": "TALLER DE INVESTIGACIÓN 1",
+        "z_decayed": 0.6708203932499365,
+        "n": 5
+      },
+      {
+        "materia": "FUNDAMENTOS DE INVESTIGACIÓN",
+        "z_decayed": 0.6241508214910447,
+        "n": 29
+      },
+      {
+        "materia": "LEGISLACIÓN LABORAL",
+        "z_decayed": -1.5,
+        "n": 4
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "es facil",
+          "sabe",
+          "carga",
+          "tienes",
+          "si"
+        ],
+        "weight": 0.24381171850853658
+      },
+      {
+        "id": 1,
+        "words": [
+          "materia",
+          "hace",
+          "buena",
+          "es buena",
+          "es"
+        ],
+        "weight": 0.2269109061296839
+      },
+      {
+        "id": 2,
+        "words": [
+          "pasar si",
+          "hace",
+          "facil",
+          "facil pasar",
+          "pasar"
+        ],
+        "weight": 0.16642482127547029
+      }
+    ],
+    "sentiment": {
+      "overall": 0.0,
+      "by_month": {
+        "2023-01": 0.0,
+        "2022-06": 0.0,
+        "2021-09": 0.0,
+        "2020-10": 0.0,
+        "2017-08": 0.0,
+        "2016-12": 0.0
+      }
+    },
+    "n_comments": 7
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        10.0,
+        9.0,
+        8.0,
+        9.0,
+        10.0,
+        9.0
+      ],
+      "ewma": [
+        10.0,
+        9.7,
+        9.19,
+        9.133,
+        9.393099999999999,
+        9.27517
+      ],
+      "sigma": 0.6149963853687815
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 9.27517,
+      "quality_band": [
+        8.069777084677188,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2023-01-15T00:00:00",
+      "materia": "FUNDAMENTOS DE INVESTIGACIÓN",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "No es profesora para la materia, su conocimiento la hace ver que sabe mucho de temas relacionados a empresarial y leyes, se podría desempeñar mejor en ellas.\nEso sí, no te carga con trabajos, en una linda persona y es fácil pasar con ella.\nSi cuentan asistencias."
+    },
+    {
+      "fecha_iso": "2022-06-13T00:00:00",
+      "materia": "TALLER DE INVESTIGACIÓN 1",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Es muy fácil de pasar, si tienes la oportunidad carga con ella, siempre pregunta por la calificación que tienes antes de que las suba la plataforma."
+    },
+    {
+      "fecha_iso": "2021-09-03T00:00:00",
+      "materia": "LEGISLACIÓN LABORAL",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Muy fácil pasar, no te va a cargar la mano con trabajos o tareas. Es muy clara y sabe sobre los temas de la materia, si tienes la oportunidad carga con ella"
+    },
+    {
+      "fecha_iso": "2020-10-15T00:00:00",
+      "materia": "FUNDAMENTOS DE INVESTIGACIÓN",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Sabe de la materia que da, su contenido es fácil, se aprende bien con ella."
+    },
+    {
+      "fecha_iso": "2017-08-08T00:00:00",
+      "materia": "LEGISLACION LABORAL",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "super facil pasar con ella"
+    },
+    {
+      "fecha_iso": "2016-12-23T00:00:00",
+      "materia": "DESARROLLO SUSTENTABLE",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Es esta materia es buena, se explica con claridad y atiende todas las dudas. Al ultimo toma en cuenta las asistencias, además es muy recomendada."
+    },
+    {
+      "fecha_iso": "2016-12-22T00:00:00",
+      "materia": "DESARROLLO SUSTENTABLE",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "es muy buena maestra y hace de su material algo muy facil, la recomiendo al cien"
+    }
+  ],
+  "comments_recent": [
+    "No es profesora para la materia, su conocimiento la hace ver que sabe mucho de temas relacionados a empresarial y leyes, se podría desempeñar mejor en ellas.\nEso sí, no te carga con trabajos, en una linda persona y es fácil pasar con ella.\nSi cuentan asistencias.",
+    "Es muy fácil de pasar, si tienes la oportunidad carga con ella, siempre pregunta por la calificación que tienes antes de que las suba la plataforma.",
+    "Muy fácil pasar, no te va a cargar la mano con trabajos o tareas. Es muy clara y sabe sobre los temas de la materia, si tienes la oportunidad carga con ella",
+    "Sabe de la materia que da, su contenido es fácil, se aprende bien con ella.",
+    "super facil pasar con ella",
+    "Es esta materia es buena, se explica con claridad y atiende todas las dudas. Al ultimo toma en cuenta las asistencias, además es muy recomendada.",
+    "es muy buena maestra y hace de su material algo muy facil, la recomiendo al cien"
+  ],
+  "n_reviews": 7
+}

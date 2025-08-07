@@ -1,0 +1,72 @@
+{
+  "nombre": "Aida Beatriz Peña Ramírez",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "ciudad": "Ciudad: culiacan, sinaloa",
+  "departamento": "Departamento/Facultad: Economicas administrativas",
+  "calidad_general": 9.0,
+  "porcentaje_recomienda": 100,
+  "nivel_dificultad": 0.0,
+  "etiquetas": [
+    "MUCHAS TAREAS (1)",
+    "LA PARTICIPACIÓN IMPORTA (1)",
+    "TOMARÍA SU CLASE OTRA VEZ (2)",
+    "BARCO (1)",
+    "ASISTENCIA OBLIGATORIA (1)",
+    "BRINDA APOYO (1)"
+  ],
+  "numero_calificaciones": 3,
+  "calificaciones": [
+    {
+      "fecha": "09/Ago/2024",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Administración y Contabilidad",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "Es muy sencillo pasar, siempre y cuando des el mínimo esfuerzo. Es carismática y vuelve interesante la contabilidad aunque a veces se vuelvla tediosa la materia. Hace como 20 recuperaciones hasta que pases, y deja que mejores tu calificación. Sólo no seas huevón y pasas con 100.",
+      "etiquetas_comentario": [
+        "Asistencia obligatoria",
+        "Brinda apoyo",
+        "Tomaría su clase otra vez"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "14/Ene/2018",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 7.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Economía",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "Super fácil su clase. Es muuuuy flexible y fácilmente sacas 100, aunque no obtienes mucho aprendizaje. cargala si quieres subir tu promedio y aligerarte un poco el semestre.",
+      "etiquetas_comentario": [
+        "Barco"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "18/Ene/2017",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Economía",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "Excelente profe! Es un amor sus clases, faciles mucha tarea pero la profe es estricta pero accesible, 100 seguro si te aplicas!",
+      "etiquetas_comentario": [
+        "Muchas tareas",
+        "La Participación Importa",
+        "Tomaría su clase otra vez"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    }
+  ]
+}

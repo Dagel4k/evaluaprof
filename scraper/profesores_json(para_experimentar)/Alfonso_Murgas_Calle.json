@@ -1,0 +1,35 @@
+{
+  "nombre": "Alfonso Murgas Calle",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "ciudad": "Ciudad: culiacan, sinaloa",
+  "departamento": "Departamento/Facultad: Economico/Administrativo",
+  "calidad_general": 5.0,
+  "porcentaje_recomienda": 0,
+  "nivel_dificultad": 8.0,
+  "etiquetas": [
+    "PREPÁRATE PARA LEER (1)",
+    "HACE EXÁMENES SORPRESA (1)",
+    "MUCHOS PROYECTOS GRUPALES (1)"
+  ],
+  "numero_calificaciones": 1,
+  "calificaciones": [
+    {
+      "fecha": "28/Ene/2019",
+      "tipo_calificacion": "REGULAR",
+      "puntaje_calidad_general": 5.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Fundamentos de Investigacion",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "7.5",
+      "interes_clase": "",
+      "comentario": "Comenzo como un profesor estricto, puso sus reglas y entendimos que se trabajaria sobre ellas. \nFalto un dia, luego dos, luego tres y despues queria darnos clases por internet. \nJamas entendimos como iba a calificar y paso a todo el grupo con 75 despues de pelear mucho.",
+      "etiquetas_comentario": [
+        "Prepárate para leer",
+        "Hace exámenes sorpresa",
+        "Muchos proyectos grupales"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    }
+  ]
+}

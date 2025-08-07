@@ -1,0 +1,221 @@
+{
+  "professor_id": "Angelina_Escobar_Machado",
+  "nombre": "Angelina Escobar Machado",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 9.223830788127575,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.598662277925475,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.875,
+    "wilson_interval": [
+      0.5291051942301385,
+      0.9775830911367039
+    ],
+    "n_recommendations": 8
+  },
+  "subject_normalization": {
+    "z_mean": 0.41,
+    "z_mean_decayed": 0.78,
+    "per_subject": [
+      {
+        "materia": "ELECTROMAGNETISMO",
+        "z_decayed": 1.1786916584020983,
+        "n": 31
+      },
+      {
+        "materia": "MÁQUINAS ELÉCTRICAS",
+        "z_decayed": -1.136459050353462,
+        "n": 13
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "general",
+          "profesora",
+          "buena",
+          "clase",
+          "clases"
+        ],
+        "weight": 0.21554910997577684
+      },
+      {
+        "id": 1,
+        "words": [
+          "apegadas",
+          "es",
+          "ayuda pasar",
+          "pasar",
+          "ayuda"
+        ],
+        "weight": 0.21036691761905743
+      },
+      {
+        "id": 2,
+        "words": [
+          "es buena",
+          "ayuda",
+          "tiene",
+          "materia",
+          "es"
+        ],
+        "weight": 0.2576429134702552
+      }
+    ],
+    "sentiment": {
+      "overall": 0.0,
+      "by_month": {
+        "2021-12": 0.0,
+        "2021-06": 0.0,
+        "2019-01": 0.0,
+        "2018-11": 0.0,
+        "2018-03": 0.0,
+        "2016-01": 0.0,
+        "2015-01": 0.0
+      }
+    },
+    "n_comments": 7
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        8.0,
+        8.0,
+        3.0,
+        10.0,
+        10.0,
+        9.0,
+        9.0,
+        10.0
+      ],
+      "ewma": [
+        8.0,
+        8.0,
+        6.5,
+        7.55,
+        8.285,
+        8.4995,
+        8.64965,
+        9.054755
+      ],
+      "sigma": 1.7608169738442792
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 9.054755,
+      "quality_band": [
+        5.6035537312652135,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2021-12-28T00:00:00",
+      "materia": "MAQUINAS ELECTIRAS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "muy buenas clases, excelentes retroalimentaciones una gran conocimiento en cultura general. clases muy teoricas y apegadas a los libres pero con parte practica explicada en clase por medio de videos o ayudas visuales."
+    },
+    {
+      "fecha_iso": "2021-06-11T00:00:00",
+      "materia": "MOTORES DE INDUCCIÓN Y ESPECIALES",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Su clases son muy teóricas y van muy apegadas a los libros, por lo que no se aprende mucho. Pero en general es mejor que otras opciones que andan por ahi. Como persona es muy buena, ayuda a pasar a todo el que muestra el mínimo interés y pone calificaciones altas."
+    },
+    {
+      "fecha_iso": "2019-01-15T00:00:00",
+      "materia": "CIRCUITOS ELÉCTRICOS 2",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "te ayuda a pasar y si tienes duda explica"
+    },
+    {
+      "fecha_iso": "2018-11-02T00:00:00",
+      "materia": "ELECTROMAGNETISMO",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 7.5,
+      "recomienda": 1,
+      "comentario": "Muy buena profesora"
+    },
+    {
+      "fecha_iso": "2018-03-13T00:00:00",
+      "materia": "ELECTROMAGNETISMO",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Yo tomé clase con esta profesora con comentarios como \"no es muy buena\" y acabé encantada con sus clases. Son muy sencillas y la profe tiene mucho conocimiento tanto de su materia como de cultura general. Yo volvería a tomar clase con ella. La amo. ?"
+    },
+    {
+      "fecha_iso": "2016-01-14T00:00:00",
+      "materia": "MÁQUINAS ELÉCTRICAS",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": 1.5,
+      "recomienda": 0,
+      "comentario": "No me gustó esta maestra, sabe mucho pero no sabe enseñarlo además va muy rápido, es fácil copiar en sus examenes porque parece que no le importa y la verdad no aprendí nada de ella, y sigue paso a paso el libro, no se como hay personas que les guste llevar materia con ella, yo no repito."
+    },
+    {
+      "fecha_iso": "2015-01-08T00:00:00",
+      "materia": "ELCTROMAGNETISMO",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "tiene dominio y lo hace saber, a veces es muy rapida pero ayuda mucho para ompensarlo"
+    },
+    {
+      "fecha_iso": "2014-02-13T00:00:00",
+      "materia": "MAQUINAS SINCRONAS",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": ""
+    }
+  ],
+  "comments_recent": [
+    "muy buenas clases, excelentes retroalimentaciones una gran conocimiento en cultura general. clases muy teoricas y apegadas a los libres pero con parte practica explicada en clase por medio de videos o ayudas visuales.",
+    "Su clases son muy teóricas y van muy apegadas a los libros, por lo que no se aprende mucho. Pero en general es mejor que otras opciones que andan por ahi. Como persona es muy buena, ayuda a pasar a todo el que muestra el mínimo interés y pone calificaciones altas.",
+    "te ayuda a pasar y si tienes duda explica",
+    "Muy buena profesora",
+    "Yo tomé clase con esta profesora con comentarios como \"no es muy buena\" y acabé encantada con sus clases. Son muy sencillas y la profe tiene mucho conocimiento tanto de su materia como de cultura general. Yo volvería a tomar clase con ella. La amo. ?",
+    "No me gustó esta maestra, sabe mucho pero no sabe enseñarlo además va muy rápido, es fácil copiar en sus examenes porque parece que no le importa y la verdad no aprendí nada de ella, y sigue paso a paso el libro, no se como hay personas que les guste llevar materia con ella, yo no repito.",
+    "tiene dominio y lo hace saber, a veces es muy rapida pero ayuda mucho para ompensarlo"
+  ],
+  "n_reviews": 8
+}

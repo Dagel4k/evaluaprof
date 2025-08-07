@@ -1,0 +1,329 @@
+{
+  "professor_id": "Jesus_Oralia_lopez_cardenas",
+  "nombre": "Jesus Oralia lopez cardenas",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 5.209040280900543,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 5.907330041777439,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.286,
+    "wilson_interval": [
+      0.11721187910109102,
+      0.546495411724844
+    ],
+    "n_recommendations": 14
+  },
+  "subject_normalization": {
+    "z_mean": -0.35,
+    "z_mean_decayed": -0.22,
+    "per_subject": [
+      {
+        "materia": "MATEMATICAS",
+        "z_decayed": 0.8169471328572091,
+        "n": 17
+      },
+      {
+        "materia": "CIENCIA E INGENIERIA DE MATERIALES",
+        "z_decayed": 0.2981423969999721,
+        "n": 9
+      },
+      {
+        "materia": "MECANICA",
+        "z_decayed": 0.099767966888094,
+        "n": 7
+      },
+      {
+        "materia": "PROCESOS DE FABRICACION",
+        "z_decayed": -0.4360889586194568,
+        "n": 16
+      },
+      {
+        "materia": "PROCESOS DE FABRICACIÓN",
+        "z_decayed": -1.1262148119272575,
+        "n": 24
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "tan",
+          "proyecta",
+          "proyecta informacion",
+          "bien",
+          "es"
+        ],
+        "weight": 0.10104345110888106
+      },
+      {
+        "id": 1,
+        "words": [
+          "mas",
+          "maestra",
+          "pasar",
+          "sabe",
+          "buena"
+        ],
+        "weight": 0.1351817607120232
+      },
+      {
+        "id": 2,
+        "words": [
+          "solo",
+          "dice",
+          "clases",
+          "informacion",
+          "internet"
+        ],
+        "weight": 0.14791168455186726
+      },
+      {
+        "id": 3,
+        "words": [
+          "sepas",
+          "quiere",
+          "apuntes",
+          "quiere sepas",
+          "maestra"
+        ],
+        "weight": 0.172495016809442
+      },
+      {
+        "id": 4,
+        "words": [
+          "bien",
+          "sabe",
+          "mas",
+          "es asco",
+          "asco"
+        ],
+        "weight": 0.14631693527375628
+      }
+    ],
+    "sentiment": {
+      "overall": -0.2,
+      "by_month": {
+        "2018-06": 0.0,
+        "2015-08": 0.0,
+        "2013-01": -1.0,
+        "2012-10": 0.0,
+        "2012-04": 0.0,
+        "2012-01": 0.0,
+        "2011-12": -0.25
+      }
+    },
+    "n_comments": 10
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [
+      {
+        "from": "2011-12-13T00:00:00",
+        "to": "2011-12-14T00:00:00",
+        "count": 3
+      },
+      {
+        "from": "2011-12-13T00:00:00",
+        "to": "2011-12-14T00:00:00",
+        "count": 4
+      },
+      {
+        "from": "2011-12-14T00:00:00",
+        "to": "2011-12-15T00:00:00",
+        "count": 4
+      }
+    ],
+    "low_variance_flag": 0,
+    "trust_score": 0.7
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        2.0,
+        10.0,
+        10.0,
+        4.0,
+        9.5,
+        4.0,
+        5.0,
+        5.0,
+        5.0
+      ],
+      "ewma": [
+        2.0,
+        4.4,
+        6.08,
+        5.4559999999999995,
+        6.6692,
+        5.86844,
+        5.607907999999999,
+        5.425535599999999,
+        5.297874919999999
+      ],
+      "sigma": 2.6079421699374676
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 5.297874919999999,
+      "quality_band": [
+        0.18630826692256264,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2018-06-13T00:00:00",
+      "materia": "CIENCIA E INGENIERIA DE MATERIALES",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "No sabe mucho, le hace falta dominio del tema pero carga con ella si quieres pasar fácil y con buena calificación. No aprenderás mucho."
+    },
+    {
+      "fecha_iso": "2015-08-04T00:00:00",
+      "materia": "PROCESOS DE MANUFACTURA",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 1.0,
+      "recomienda": 0,
+      "comentario": "No sirve de maestra, se nota que no sabe mas que los alumnos."
+    },
+    {
+      "fecha_iso": "2014-02-27T00:00:00",
+      "materia": "MECANICA",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 0,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2013-01-14T00:00:00",
+      "materia": "PROCESOS DE FABRICACION",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "proyecta informacion que se encuantra muy facilmente en internet, en sus clases solo lee lo que dicen las diapositivas, trata de explicar pero no es clara al momento de hacerlo, reliza practicas, que son la parte mas amenas, no es muy dificil pasar con ella y no esta tan buena como algunos dicen"
+    },
+    {
+      "fecha_iso": "2012-12-31T00:00:00",
+      "materia": "MATEMATICAS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2012-12-10T00:00:00",
+      "materia": "PROCESOS DE FABRICACION",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2012-10-25T00:00:00",
+      "materia": "PROCESOS DE FABRICACIÓN",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "No es tan mala como se dice pero sus clases son aburridas, se ve que no maneja bien los temas, proyecta información de internet, no habla bien,  no sale de ejemplos muy básicos y en sus exámenes te pide escribir unas bíblias que son de puro machetear y así no se debe llevar esta materia..."
+    },
+    {
+      "fecha_iso": "2012-04-16T00:00:00",
+      "materia": "MATEMATICAS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 1,
+      "comentario": "muy buena maestra, inteligente, honesta y responsable con una capacidad intelectual como pocos maestros"
+    },
+    {
+      "fecha_iso": "2012-01-27T00:00:00",
+      "materia": "MECANICA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "esta profesora es una mamasita chula"
+    },
+    {
+      "fecha_iso": "2011-12-15T00:00:00",
+      "materia": "PROCESOS DE FABRICACION",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2011-12-14T00:00:00",
+      "materia": "PROCESOS DE FABRICACIÓN",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Es un asco no enseña bien, da malos apuntes que ni son cosas concretas sino pura basura o relleno, quiere que sepas todo y califica horrible, es tonta. No cargues con ella jamas :)."
+    },
+    {
+      "fecha_iso": "2011-12-14T00:00:00",
+      "materia": "PROCESOS DE FABRICACIÓN",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 0,
+      "comentario": "\"Y nos dice que, por lo tanto tenemos que\" \nNo hay un solo día en que no comience sus clases con alguna de esas frases, seguidas por una \"encantadora\" lectura de información recobrada de la Internet, un tiempo muy especial para soñar una linda pesadilla causada por su inigualable aspecto y su voz."
+    },
+    {
+      "fecha_iso": "2011-12-14T00:00:00",
+      "materia": "PROCESOS DE FABRICACION",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 3.5,
+      "recomienda": 0,
+      "comentario": "ES UN ASCO, APRENDERIAS MAS DE UNA PIEDRA QUE CON ELLA.. HAY QUE TACLEARLA.. (:"
+    },
+    {
+      "fecha_iso": "2011-12-13T00:00:00",
+      "materia": "PROCESOS DE FABRICACON",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "ESTA MAESTRA NO ENSAÑA NADA Y QUIERE QUE SEPAS TODO Y SUS APUNTES SON DE WIKIPEDIA LA VERDAD NO LES RECOMIENDO CARGAR CON ESA MAESTRA"
+    }
+  ],
+  "comments_recent": [
+    "No sabe mucho, le hace falta dominio del tema pero carga con ella si quieres pasar fácil y con buena calificación. No aprenderás mucho.",
+    "No sirve de maestra, se nota que no sabe mas que los alumnos.",
+    "proyecta informacion que se encuantra muy facilmente en internet, en sus clases solo lee lo que dicen las diapositivas, trata de explicar pero no es clara al momento de hacerlo, reliza practicas, que son la parte mas amenas, no es muy dificil pasar con ella y no esta tan buena como algunos dicen",
+    "No es tan mala como se dice pero sus clases son aburridas, se ve que no maneja bien los temas, proyecta información de internet, no habla bien,  no sale de ejemplos muy básicos y en sus exámenes te pide escribir unas bíblias que son de puro machetear y así no se debe llevar esta materia...",
+    "muy buena maestra, inteligente, honesta y responsable con una capacidad intelectual como pocos maestros",
+    "esta profesora es una mamasita chula"
+  ],
+  "n_reviews": 14
+}

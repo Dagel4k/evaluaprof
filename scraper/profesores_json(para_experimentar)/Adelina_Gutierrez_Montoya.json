@@ -1,0 +1,63 @@
+{
+  "nombre": "Adelina Gutierrez Montoya",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "ciudad": "Ciudad: culiacan, sinaloa",
+  "departamento": "Departamento/Facultad: Ing. Industrial",
+  "calidad_general": 9.0,
+  "porcentaje_recomienda": 67,
+  "nivel_dificultad": 0.7,
+  "etiquetas": [
+    "CALIFICA DURO (1)",
+    "BRINDA APOYO (1)",
+    "TOMARÍA SU CLASE OTRA VEZ (1)"
+  ],
+  "numero_calificaciones": 3,
+  "calificaciones": [
+    {
+      "fecha": "25/Ene/2023",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "DESARROLLO DE PROYECTOS",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "EXCELENTE MAESTRA DE GRAN CALIDAD HUMANA.",
+      "etiquetas_comentario": [
+        "Califica Duro",
+        "Brinda apoyo",
+        "Tomaría su clase otra vez"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "09/Oct/2013",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Etica",
+      "asistencia": "",
+      "calificacion_recibida": "9",
+      "interes_clase": "9",
+      "comentario": "La mejor maestra, aun con su calendario y situación tan apretada nos apoya de todas las formas posibles.",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "18/Dic/2012",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 7.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Economía",
+      "asistencia": "",
+      "calificacion_recibida": "7",
+      "interes_clase": "7",
+      "comentario": "Es buena onda y casi siempre va, pero no aprendes nada y se califica muy estrictamente, si acaso aprendes puras cosas de la región debería de dar mejor Análisis de la Realidad Nacional.",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    }
+  ]
+}

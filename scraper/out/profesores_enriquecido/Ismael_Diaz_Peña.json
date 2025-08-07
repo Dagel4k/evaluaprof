@@ -1,0 +1,380 @@
+{
+  "professor_id": "Ismael_Diaz_Peña",
+  "nombre": "Ismael Diaz Peña",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 4.865641062896037,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 5.647445551815812,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.263,
+    "wilson_interval": [
+      0.11806238339540162,
+      0.48791968441070643
+    ],
+    "n_recommendations": 19
+  },
+  "subject_normalization": {
+    "z_mean": -0.53,
+    "z_mean_decayed": -0.64,
+    "per_subject": [
+      {
+        "materia": "FISICA",
+        "z_decayed": 0.3112600135537709,
+        "n": 41
+      },
+      {
+        "materia": "MATERIALES",
+        "z_decayed": 0.21236797720012404,
+        "n": 10
+      },
+      {
+        "materia": "TERMODINÁMICA",
+        "z_decayed": 0.007975257572415443,
+        "n": 14
+      },
+      {
+        "materia": "PROCESOS DE FABRICACION",
+        "z_decayed": -0.018963352701584574,
+        "n": 16
+      },
+      {
+        "materia": "---",
+        "z_decayed": -0.6631370651382045,
+        "n": 521
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "ningun",
+          "si",
+          "tu",
+          "solo",
+          "es"
+        ],
+        "weight": 0.07926738803429982
+      },
+      {
+        "id": 1,
+        "words": [
+          "toco",
+          "linea",
+          "toco clases",
+          "sabe",
+          "clases"
+        ],
+        "weight": 0.14048914559421025
+      },
+      {
+        "id": 2,
+        "words": [
+          "siempre",
+          "problemas",
+          "es",
+          "diapositivas",
+          "examenes"
+        ],
+        "weight": 0.1688989544393729
+      },
+      {
+        "id": 3,
+        "words": [
+          "dar clases",
+          "era",
+          "clase",
+          "dar",
+          "verdad"
+        ],
+        "weight": 0.11427555000270492
+      },
+      {
+        "id": 4,
+        "words": [
+          "aunque",
+          "baja",
+          "mejor",
+          "materias",
+          "peor"
+        ],
+        "weight": 0.10011395350164715
+      }
+    ],
+    "sentiment": {
+      "overall": 0.06666666666666667,
+      "by_month": {
+        "2022-06": 0.0,
+        "2021-12": 0.0,
+        "2021-11": 0.0,
+        "2021-08": 0.0,
+        "2021-06": 0.0,
+        "2021-03": 0.0,
+        "2019-08": 0.0,
+        "2019-07": 0.0,
+        "2019-06": -1.0,
+        "2019-02": 0.0,
+        "2019-01": 1.0,
+        "2018-01": 1.0,
+        "2017-12": 0.0
+      }
+    },
+    "n_comments": 15
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        6.0,
+        8.0,
+        6.0,
+        9.0,
+        2.0,
+        4.0,
+        2.0,
+        3.5,
+        10.0,
+        6.0,
+        6.0,
+        2.0,
+        7.0,
+        3.0,
+        2.0,
+        7.0
+      ],
+      "ewma": [
+        6.0,
+        6.6,
+        6.419999999999999,
+        7.193999999999999,
+        5.635799999999999,
+        5.145059999999999,
+        4.201541999999999,
+        3.9910793999999994,
+        5.793755579999999,
+        5.855628905999999,
+        5.898940234199999,
+        4.729258163939998,
+        5.410480714757998,
+        4.6873365003305985,
+        3.8811355502314187,
+        4.816794885161993
+      ],
+      "sigma": 2.055738892797193
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 4.816794885161993,
+      "quality_band": [
+        0.7875466552794954,
+        8.846043115044491
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2024-03-14T00:00:00",
+      "materia": "MECÁNICA",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 23.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2023-11-19T00:00:00",
+      "materia": "MECANICA",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2022-06-11T00:00:00",
+      "materia": "---",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2021-12-21T00:00:00",
+      "materia": "INGENIERIA DE MATERIALES NO METALICOS",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "me toco clases en linea con el, es muy barco jamas me dio una semana completa, le falta eso del saber explicar porque sabe mucho este porfe, tambien tiene que ayuda mucho en proyectos tanto como del tec como proyectos de el mismo y le va a los Tigres."
+    },
+    {
+      "fecha_iso": "2021-11-29T00:00:00",
+      "materia": "CUALQUIERA",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Es una lástima que estos sean los \"profes jóvenes\" que van a vivir del tec mucho tiempo, 0% comprensible y muy exigente como si enseñara mucho, solo es un ing frustrado."
+    },
+    {
+      "fecha_iso": "2021-08-12T00:00:00",
+      "materia": "MATERIALES",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": "La verdad el profe esta guapo, pero como que le falta en eso de dar clases, lo le sabe y aparte no vale brg como TOplanner"
+    },
+    {
+      "fecha_iso": "2021-06-18T00:00:00",
+      "materia": "INGENIERIA DE MATERIALES METALICOS",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 0,
+      "comentario": "Me toco clases e linea con el y era un profe barco, no daba clases todos los dias y ningun examen hicimos con el, eso si el tipo sabe bastante de esa materia"
+    },
+    {
+      "fecha_iso": "2021-03-25T00:00:00",
+      "materia": "MATERIALES",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "La verdad los examenes son dificiles pero todo viene en las diapositivas, no la cuenta si no pones exactamente lo que venia en la diapositiva, Al final todos pasan con 70, Es malisimo en el LoL. Si no vas a su clase no te deja hacer el examen final aunque diga que no importa la asistencia"
+    },
+    {
+      "fecha_iso": "2019-08-19T00:00:00",
+      "materia": "TECNOLOGÍA DE LOS MATERIALES",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": "pues la verdad agarramos cura, pero su manera de dar la clase era demasiado aburrida y califica del qlo, pero pues aveces se agarraba cura"
+    },
+    {
+      "fecha_iso": "2019-08-07T00:00:00",
+      "materia": "TERMODINAMICA",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 7.5,
+      "recomienda": 0,
+      "comentario": "El peor maestro del Tec, mejor da la materia de baja, aunque la mayoría de las veces las materias que son pendiente por asignar las termina dando él"
+    },
+    {
+      "fecha_iso": "2019-08-04T00:00:00",
+      "materia": "TERMODINÁMICA",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Sólo te daré un consejo: No cargues con el. Y si lo haces no faltes ningún día, será tu única opción de no reprobar."
+    },
+    {
+      "fecha_iso": "2019-08-04T00:00:00",
+      "materia": "FÍSICA",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2019-07-25T00:00:00",
+      "materia": "FUNDAMENTOS DE TERMODINÁMICA",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 0,
+      "comentario": "Le cerraron el grupo de verano por p3nd3j0, nadie lo quiere."
+    },
+    {
+      "fecha_iso": "2019-06-12T00:00:00",
+      "materia": "TERMODINAMICA",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 0,
+      "comentario": "Pésimo, pero es lo que hay.\nDice que la asistencia no es parte de la calificación pero si para tener derecho a examen.\nEstarás solo por tu cuenta.\nMejor dala de baja... o arriésgate es tu pex."
+    },
+    {
+      "fecha_iso": "2019-05-05T00:00:00",
+      "materia": "FUNDAMENTOS DE LA TERMODINAMICA",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 21.0,
+      "recomienda": 0,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2019-02-26T00:00:00",
+      "materia": "TERMODINÁMICA",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Trae sus diapositivas siempre, pero explica muy bien las actividades y problemas prácticos, la teoría es un poco tediosa, pero también lo explica todo."
+    },
+    {
+      "fecha_iso": "2019-01-12T00:00:00",
+      "materia": "MATERIALES",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": "Las clases son a diapositivas, no es muy bueno explicando, es recomendable tomar asesorías de sus materias, los exámenes son difíciles y las recuperaciones son peor. con dos unidades aprobadas, apruebas la tercera"
+    },
+    {
+      "fecha_iso": "2018-01-03T00:00:00",
+      "materia": "FISICA",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 1,
+      "comentario": "es bueno explicando los problemas, en los exámenes siempre los pone parecidos. Tienes que tomar nota de las diapositivas porque de ahí saca material para los exámenes, al final si le echaste ganas y le debes alguna unidad te pasa."
+    },
+    {
+      "fecha_iso": "2017-12-15T00:00:00",
+      "materia": "PROCESOS DE FABRICACION",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 0,
+      "comentario": "No sabe dar clases, las clases son tediosas porque pone puras diapositivas en todo el semestre, en los exámenes prepárate para machetearle"
+    }
+  ],
+  "comments_recent": [
+    "[Comentario esperando revisión]",
+    "me toco clases en linea con el, es muy barco jamas me dio una semana completa, le falta eso del saber explicar porque sabe mucho este porfe, tambien tiene que ayuda mucho en proyectos tanto como del tec como proyectos de el mismo y le va a los Tigres.",
+    "Es una lástima que estos sean los \"profes jóvenes\" que van a vivir del tec mucho tiempo, 0% comprensible y muy exigente como si enseñara mucho, solo es un ing frustrado.",
+    "La verdad el profe esta guapo, pero como que le falta en eso de dar clases, lo le sabe y aparte no vale brg como TOplanner",
+    "Me toco clases e linea con el y era un profe barco, no daba clases todos los dias y ningun examen hicimos con el, eso si el tipo sabe bastante de esa materia",
+    "La verdad los examenes son dificiles pero todo viene en las diapositivas, no la cuenta si no pones exactamente lo que venia en la diapositiva, Al final todos pasan con 70, Es malisimo en el LoL. Si no vas a su clase no te deja hacer el examen final aunque diga que no importa la asistencia",
+    "pues la verdad agarramos cura, pero su manera de dar la clase era demasiado aburrida y califica del qlo, pero pues aveces se agarraba cura",
+    "El peor maestro del Tec, mejor da la materia de baja, aunque la mayoría de las veces las materias que son pendiente por asignar las termina dando él"
+  ],
+  "n_reviews": 19
+}

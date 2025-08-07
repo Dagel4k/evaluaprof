@@ -1,0 +1,113 @@
+{
+  "nombre": "Ernesto Astorga Vergara",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "ciudad": "Ciudad: culiacan, sinaloa",
+  "departamento": "Departamento/Facultad: Económico",
+  "calidad_general": 7.8,
+  "porcentaje_recomienda": 80,
+  "nivel_dificultad": 3.6,
+  "etiquetas": [
+    "PREPÁRATE PARA LEER (1)",
+    "DEJA TRABAJOS LARGOS (1)",
+    "CALIFICA DURO (3)",
+    "RESPETADO POR LOS ESTUDIANTES (1)",
+    "ASPECTOS DE CALIFICACIÓN CLAROS (1)",
+    "BRINDA APOYO (2)",
+    "CLASES EXCELENTES (2)",
+    "MUY CÓMICO (1)",
+    "ASISTENCIA OBLIGATORIA (1)",
+    "TOMARÍA SU CLASE OTRA VEZ (1)"
+  ],
+  "numero_calificaciones": 5,
+  "calificaciones": [
+    {
+      "fecha": "29/Abr/2025",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Presupuestos Empresariales",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "8.5",
+      "interes_clase": "",
+      "comentario": "Mis respetos para su trayectoria profesional, es un excelente contador y maestro. Si eres una persona que no tolera comentarios fuera de lugar no te recomiendo tomar una clase con él, tiene un humor algo pesado, sin embargo tiene mis respetos totalmente para su carrera y manera de enseñar.",
+      "etiquetas_comentario": [
+        "Brinda apoyo",
+        "Clases excelentes",
+        "Tomaría su clase otra vez"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "21/Nov/2023",
+      "tipo_calificacion": "REGULAR",
+      "puntaje_calidad_general": 6.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Planeación financiera",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "9",
+      "interes_clase": "",
+      "comentario": "Explica muy bien y de forma natural, si no se le volteara el cristo con comentarios machistas e imprudentes de la nada sería un excelente maestro.",
+      "etiquetas_comentario": [
+        "Califica Duro",
+        "Muy cómico",
+        "Asistencia obligatoria"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "05/Sep/2022",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Economía",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "9",
+      "interes_clase": "",
+      "comentario": "",
+      "etiquetas_comentario": [
+        "Califica Duro",
+        "Brinda apoyo",
+        "Clases excelentes"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "19/Feb/2020",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 7.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Administración y contabilidad",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "23",
+      "interes_clase": "",
+      "comentario": "Es justo con la calificación, a veces sus comentarios no son lo más apropiados, pasa el que aprende. Si eres flojo no cargues con él.",
+      "etiquetas_comentario": [
+        "Califica Duro",
+        "Respetado por los estudiantes",
+        "Aspectos de calificación claros"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "1"
+    },
+    {
+      "fecha": "18/Feb/2020",
+      "tipo_calificacion": "REGULAR",
+      "puntaje_calidad_general": 6.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Contabilidad y Administración",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "Grosero, prepotente, arrogante, patán, déspota. Este individuo no tiene ni una pizca de humildad, le gusta humillar a sus alumnos con frecuencia. Eso sí, sabe mucho de su materia pero al menos habrá una clase de la cual saldrás de mal humor por sus comentarios innecesarios.",
+      "etiquetas_comentario": [
+        "Prepárate para leer",
+        "Deja trabajos largos"
+      ],
+      "votos_utiles": "1",
+      "votos_no_utiles": "1"
+    }
+  ]
+}

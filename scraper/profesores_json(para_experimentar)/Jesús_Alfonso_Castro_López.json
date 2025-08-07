@@ -1,0 +1,41 @@
+{
+  "nombre": "Jesús Alfonso Castro López",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "ciudad": "Ciudad: culiacan, sinaloa",
+  "departamento": "Departamento/Facultad: Económico-Administrativo",
+  "calidad_general": 8.0,
+  "porcentaje_recomienda": 100,
+  "nivel_dificultad": 3.0,
+  "etiquetas": [],
+  "numero_calificaciones": 2,
+  "calificaciones": [
+    {
+      "fecha": "17/Ene/2016",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 7.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Contabilidad",
+      "asistencia": "",
+      "calificacion_recibida": "8.5",
+      "interes_clase": "8.5",
+      "comentario": "Sabe mucho de su materia, sin embargo sus exámenes son memorísticos. Su método de evaluación es pésimo, sólamente promedia los exámenes, no cuentan las asistencias ni las participaciones.",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "17/Dic/2013",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 9.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Gestión de Costos",
+      "asistencia": "",
+      "calificacion_recibida": "10",
+      "interes_clase": "10",
+      "comentario": "Excelente profesor el vea, es uno de los pocos maestros que hacen bien su trabajo, tiene ganas enormes de enseñar, te impulsa a estudiar, te motiva a ser alguien, te da el \"material\" el cual es muy bueno y te hará reir jaja. Eso si a echarle ganas y NUNCA falta.",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    }
+  ]
+}

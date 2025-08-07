@@ -1,0 +1,368 @@
+{
+  "professor_id": "Felipe_Muñiz_Ramos",
+  "nombre": "Felipe Muñiz Ramos",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 7.597764868326261,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 6.88485432152352,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.611,
+    "wilson_interval": [
+      0.3861866858065617,
+      0.7969500807306884
+    ],
+    "n_recommendations": 18
+  },
+  "subject_normalization": {
+    "z_mean": -0.17,
+    "z_mean_decayed": -0.09,
+    "per_subject": [
+      {
+        "materia": "FUNDAMENTOS DE PROGRAMACION",
+        "z_decayed": 1.0438140536219738,
+        "n": 43
+      },
+      {
+        "materia": "FUNDAMENTOS DE PROGRAMACIÓN",
+        "z_decayed": 0.8694600370824765,
+        "n": 36
+      },
+      {
+        "materia": "PROGRAMACION ORIENTADA A OBJETOS",
+        "z_decayed": 0.4082482904638633,
+        "n": 6
+      },
+      {
+        "materia": "POO",
+        "z_decayed": 0.4043866939920447,
+        "n": 62
+      },
+      {
+        "materia": "TOPICOS AVANZADOS DE PROGRAMACION",
+        "z_decayed": -0.18257418583505478,
+        "n": 5
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "basico",
+          "maestro",
+          "ensena basico",
+          "buen",
+          "buen maestro"
+        ],
+        "weight": 0.09557248497504822
+      },
+      {
+        "id": 1,
+        "words": [
+          "cualquier",
+          "onda",
+          "buena",
+          "buena onda",
+          "es"
+        ],
+        "weight": 0.12418354151229243
+      },
+      {
+        "id": 2,
+        "words": [
+          "dijo",
+          "ve",
+          "sabe",
+          "tienes",
+          "proyectos"
+        ],
+        "weight": 0.1410652714650786
+      },
+      {
+        "id": 3,
+        "words": [
+          "sabe",
+          "alumnos",
+          "mal maestro",
+          "maestro",
+          "mal"
+        ],
+        "weight": 0.1288265911601681
+      },
+      {
+        "id": 4,
+        "words": [
+          "examenes",
+          "solo",
+          "profe",
+          "100",
+          "siempre"
+        ],
+        "weight": 0.08827372049169577
+      }
+    ],
+    "sentiment": {
+      "overall": 0.17647058823529413,
+      "by_month": {
+        "2020-09": 0.0,
+        "2018-08": 0.0,
+        "2017-08": 1.0,
+        "2016-01": 0.0,
+        "2014-03": 1.0,
+        "2012-08": 0.0,
+        "2012-01": 0.0,
+        "2011-09": 0.0,
+        "2011-08": 0.0,
+        "2011-04": 0.0,
+        "2011-01": 0.0,
+        "2010-09": 0.0,
+        "2010-08": 0.0
+      }
+    },
+    "n_comments": 17
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        6.0,
+        10.0,
+        2.0,
+        6.0,
+        3.0,
+        6.0,
+        9.0,
+        7.0,
+        10.0,
+        10.0,
+        7.0,
+        9.0,
+        6.5,
+        8.0
+      ],
+      "ewma": [
+        6.0,
+        7.199999999999999,
+        5.639999999999999,
+        5.747999999999999,
+        4.923599999999999,
+        5.2465199999999985,
+        6.372563999999999,
+        6.560794799999998,
+        7.592556359999999,
+        8.314789452,
+        7.920352616399999,
+        8.244246831479998,
+        7.720972782035998,
+        7.804680947425199
+      ],
+      "sigma": 1.8151856801109798
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 7.804680947425199,
+      "quality_band": [
+        4.246917014407678,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2020-09-03T00:00:00",
+      "materia": "TOPICOS AVANZADOS DE PROGRAMACION",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "tienes que ser un pendejazo para reprobar con él, haces los 3 proyectos que pide y cienon"
+    },
+    {
+      "fecha_iso": "2018-08-24T00:00:00",
+      "materia": "TÓPICOS Y FUNDAMENTOS DE PROGRAMACIÓN",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 24.0,
+      "recomienda": 0,
+      "comentario": "Pues se ve que el sabe de la materia, pero poco se le da explicar, ejemplo en la unidad de concurrencia dejo un proyecto y solo explico un poco las diapositivas  de (clemente) dijo que las copiáramos y ya con eso quería el proyecto, los proyectos no revisa el código, y puedes copiarlos y pasas"
+    },
+    {
+      "fecha_iso": "2018-08-16T00:00:00",
+      "materia": "POO",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Muy buena onda, se agarra cura y todo, enseña bien y resuelve cualquier duda"
+    },
+    {
+      "fecha_iso": "2017-08-05T00:00:00",
+      "materia": "FUNDAMENTOS DE PROGRAMACIÓN & POO",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Excelente profesor, explica de maravilla, al principio del curso solo verá poca teoría y después se va con la práctica, exámenes cortos, y solo pone lo que enseñó. Super recomendado, es muy accesible y siempre está para brindarte ayuda en cualquier tema. Sus exámenes valen 100."
+    },
+    {
+      "fecha_iso": "2017-08-02T00:00:00",
+      "materia": "TÓPICOS AVANZADOS DE PROGRAMACIÓN",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Muy buen profesor. Explica las cosas con claridad, casi no ve teoría es mas practico. Eso si, es carrilludo, pero muy buena onda. Hace que te de interés por la clase, ademas de que sabe mucho. No es tan estricto al momento de calificar, pero debes echarle ganas de todas maneras."
+    },
+    {
+      "fecha_iso": "2016-01-14T00:00:00",
+      "materia": "TOPICOS AVANZADOS",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 1,
+      "comentario": "Si quieres pasar sin batallar, carga con el, se ve que el profe sabe programar, pero a veces no sabe como hacernos entender lo que nos quiere decir, tienes que investigar mucho para hacer sus proyectos, ya q lo que ves en clase no es de gran ayuda a veces, es un profesor promedio."
+    },
+    {
+      "fecha_iso": "2015-01-14T00:00:00",
+      "materia": "FUNDAMENTOS DE PROGRAMACION",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2014-03-06T00:00:00",
+      "materia": "PROGRAMACION ORIENTADA A OBJETOS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Excelente profesor, explica bien, sus examenes son de puras cosas que vimos en clase y es pura practica, es buena onda y responde cualquier duda."
+    },
+    {
+      "fecha_iso": "2012-08-08T00:00:00",
+      "materia": "ESTRUCTURA DE DATOS",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Buen maestro , si lo que quieren es llevarsela relax en el semestre y aprender lo normal , han llegado con el profesor correcto."
+    },
+    {
+      "fecha_iso": "2012-01-24T00:00:00",
+      "materia": "FUNDAMENTOS DE PROGRAMACION",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "A mi me dio fundamentos de programacion y la verdad aprendi mucho mas que los que fueron con otros maestros, lo recomiendo, al menos en fundamentos de programacion"
+    },
+    {
+      "fecha_iso": "2011-09-15T00:00:00",
+      "materia": "POO",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "No se de que hablan sinceramente, el profe siempre anda al 100."
+    },
+    {
+      "fecha_iso": "2011-09-11T00:00:00",
+      "materia": "REDES DE COMPUTADORAS",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Quien le dijo a este maestro, si \"maestro\" se le puede llamar que sabe de redes??? no sabe ni hacer un cable, no sabe lo básico y dice muchas incoherencias."
+    },
+    {
+      "fecha_iso": "2011-08-28T00:00:00",
+      "materia": "ESTRUCTURA DE DATOS",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": 1.0,
+      "recomienda": 0,
+      "comentario": "Mal maestro, si maestro se le puede decir.\nno tiene nivel para impartir clases ni en una secundaria, hace daño a los alumnos con sus \"clases\" no sabe."
+    },
+    {
+      "fecha_iso": "2011-04-07T00:00:00",
+      "materia": "POO",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 0,
+      "comentario": "La verdad este profesor nos hecho a perder... Se preguntaran porque? Lo que pasa es q en sistemas todo mundo eneseña en JAVA pero a este señor se le ocurrio enseñarnos en C#. Y eso nos afecto en las materias siguientes. Pero de ahi en fuera buen maestro enseña los basico y de manera clara."
+    },
+    {
+      "fecha_iso": "2011-01-30T00:00:00",
+      "materia": "ESTRUCTURA",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 1.0,
+      "recomienda": 0,
+      "comentario": "poco profecionalismo, mal trato hacia los estudiantes, muy grosero con los alumnos, en pocas palabras... mal maestro"
+    },
+    {
+      "fecha_iso": "2011-01-30T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2010-09-21T00:00:00",
+      "materia": "FUNDAMENTOS DE PROGRAMACIÓN",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "De los mejores profesores del Tec."
+    },
+    {
+      "fecha_iso": "2010-08-29T00:00:00",
+      "materia": "ESTRUCTURA DE DATOS",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 0,
+      "comentario": "Buen maestro, te enseña lo basico, no se complica mucho, con asistir y prestar atención apruebas."
+    }
+  ],
+  "comments_recent": [
+    "tienes que ser un pendejazo para reprobar con él, haces los 3 proyectos que pide y cienon",
+    "Pues se ve que el sabe de la materia, pero poco se le da explicar, ejemplo en la unidad de concurrencia dejo un proyecto y solo explico un poco las diapositivas  de (clemente) dijo que las copiáramos y ya con eso quería el proyecto, los proyectos no revisa el código, y puedes copiarlos y pasas",
+    "Muy buena onda, se agarra cura y todo, enseña bien y resuelve cualquier duda",
+    "Excelente profesor, explica de maravilla, al principio del curso solo verá poca teoría y después se va con la práctica, exámenes cortos, y solo pone lo que enseñó. Super recomendado, es muy accesible y siempre está para brindarte ayuda en cualquier tema. Sus exámenes valen 100.",
+    "Muy buen profesor. Explica las cosas con claridad, casi no ve teoría es mas practico. Eso si, es carrilludo, pero muy buena onda. Hace que te de interés por la clase, ademas de que sabe mucho. No es tan estricto al momento de calificar, pero debes echarle ganas de todas maneras.",
+    "Si quieres pasar sin batallar, carga con el, se ve que el profe sabe programar, pero a veces no sabe como hacernos entender lo que nos quiere decir, tienes que investigar mucho para hacer sus proyectos, ya q lo que ves en clase no es de gran ayuda a veces, es un profesor promedio.",
+    "Excelente profesor, explica bien, sus examenes son de puras cosas que vimos en clase y es pura practica, es buena onda y responde cualquier duda.",
+    "Buen maestro , si lo que quieren es llevarsela relax en el semestre y aprender lo normal , han llegado con el profesor correcto.",
+    "A mi me dio fundamentos de programacion y la verdad aprendi mucho mas que los que fueron con otros maestros, lo recomiendo, al menos en fundamentos de programacion"
+  ],
+  "n_reviews": 18
+}

@@ -1,0 +1,107 @@
+{
+  "nombre": "carlos aguilar diaz",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "ciudad": "Ciudad: culiacan, sinaloa",
+  "departamento": "Departamento/Facultad:",
+  "calidad_general": 9.6,
+  "porcentaje_recomienda": 100,
+  "nivel_dificultad": 0.8,
+  "etiquetas": [
+    "DA BUENA RETROALIMENTACIÓN (3)",
+    "LA PARTICIPACIÓN IMPORTA (3)",
+    "BRINDA APOYO (2)",
+    "INSPIRACIONAL (1)",
+    "CLASES EXCELENTES (1)",
+    "ASPECTOS DE CALIFICACIÓN CLAROS (1)",
+    "LAS CLASES SON LARGAS (1)"
+  ],
+  "numero_calificaciones": 5,
+  "calificaciones": [
+    {
+      "fecha": "23/Ene/2023",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Ergonomía",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "Siempre es claro en sus clases y aprenderás bastante, siempre dispuesto a aclarar dudas, habla mucho y a veces puede parecer aburrido, no deja mucha tarea y las que deja son la mayoría en equipo y sus exámenes son fáciles",
+      "etiquetas_comentario": [
+        "Da buena retroalimentación",
+        "Las clases son largas",
+        "Brinda apoyo"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "07/Ago/2019",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Higiene y seguridad industrial",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "Muy buen profesor, explica muy bien, hace las clases interesantes, se preocupa por que los estudiantes realmente estén aprendiendo",
+      "etiquetas_comentario": [
+        "Da buena retroalimentación",
+        "La Participación Importa",
+        "Aspectos de calificación claros"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "04/Ago/2019",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 9.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Higiene y seguridad industrial",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "Es de los profesores más comprometidos que he tenido en el Tec, en verdad se preocupa por tu aprendizaje. Además de carismático, el sujeto es bueno explicando los temas, lo hace ver todo fácil y lo aprendes bien.",
+      "etiquetas_comentario": [
+        "La Participación Importa",
+        "Inspiracional",
+        "Clases excelentes"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "13/Ene/2018",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Muy buen profesor",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "27/Dic/2016",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 9.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "higiene y seguridad industrial",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "9",
+      "interes_clase": "",
+      "comentario": "",
+      "etiquetas_comentario": [
+        "Da buena retroalimentación",
+        "La Participación Importa",
+        "Brinda apoyo"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    }
+  ]
+}

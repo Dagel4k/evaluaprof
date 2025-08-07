@@ -1,0 +1,137 @@
+{
+  "professor_id": "Ricardo_Bautista_Quintero",
+  "nombre": "Ricardo Bautista Quintero",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 9.793457618074854,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.918394733510571,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 1.0,
+    "wilson_interval": [
+      0.565508505247919,
+      1
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": 1.11,
+    "z_mean_decayed": 1.11,
+    "per_subject": [
+      {
+        "materia": "MICROCONTROLADORES",
+        "z_decayed": 1.109464287749958,
+        "n": 18
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [],
+    "sentiment": {
+      "overall": null,
+      "by_month": {}
+    },
+    "n_comments": 3
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        10.0,
+        10.0,
+        10.0,
+        9.0,
+        10.0
+      ],
+      "ewma": [
+        10.0,
+        10.0,
+        10.0,
+        9.7,
+        9.79
+      ],
+      "sigma": 0.3485971887436844
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 9.79,
+      "quality_band": [
+        9.106749510062377,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2015-11-27T00:00:00",
+      "materia": "MICROCONTROLADORES",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Este profe es de lo mejor. Lástima que ya no dé microcontroladores, y ahora da otra maestra, Jaredt, que la verdad, no sabe programar; sólo sabe interpretar programas, y exponerlos con diapositivas. Esa maestra nada que ver con Bautista, ya que se desespera mucho y se estresa."
+    },
+    {
+      "fecha_iso": "2013-12-01T00:00:00",
+      "materia": "MICROCONTROLADORES/ROBÓTICA 1",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Sabe casi de todos los temas y materias, es de lo mejor que hay en el tec, su especialidad es la programación y la electrónica, muy recomendable para la materia de Microcontroladores, se nota que tiene doctorado no como Santiesteban Cos."
+    },
+    {
+      "fecha_iso": "2013-08-04T00:00:00",
+      "materia": "MICROCONTROLADORES Y ROBOTICA I - MECATRONICA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Excelente maestro en todos los aspectos, de lo mejor del tec."
+    },
+    {
+      "fecha_iso": "2011-12-31T00:00:00",
+      "materia": "MICROCONTROLADORES",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2011-07-21T00:00:00",
+      "materia": "MICROCONTROLADORES",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": ""
+    }
+  ],
+  "comments_recent": [
+    "Este profe es de lo mejor. Lástima que ya no dé microcontroladores, y ahora da otra maestra, Jaredt, que la verdad, no sabe programar; sólo sabe interpretar programas, y exponerlos con diapositivas. Esa maestra nada que ver con Bautista, ya que se desespera mucho y se estresa.",
+    "Sabe casi de todos los temas y materias, es de lo mejor que hay en el tec, su especialidad es la programación y la electrónica, muy recomendable para la materia de Microcontroladores, se nota que tiene doctorado no como Santiesteban Cos.",
+    "Excelente maestro en todos los aspectos, de lo mejor del tec."
+  ],
+  "n_reviews": 5
+}

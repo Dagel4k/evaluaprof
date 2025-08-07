@@ -1,0 +1,610 @@
+{
+  "professor_id": "Jorge_Antonio_Achoy_Bustamante",
+  "nombre": "Jorge Antonio Achoy Bustamante",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 7.641261019598031,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.260733081686909,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.769,
+    "wilson_interval": [
+      0.6166343954261705,
+      0.8735433757121625
+    ],
+    "n_recommendations": 39
+  },
+  "subject_normalization": {
+    "z_mean": 0.03,
+    "z_mean_decayed": 0.14,
+    "per_subject": [
+      {
+        "materia": "PROBABILIDAD Y ESTADÍSTICA",
+        "z_decayed": 0.9163885787378423,
+        "n": 23
+      },
+      {
+        "materia": "MÉTODOS NUMÉRICOS",
+        "z_decayed": 0.8802955499054923,
+        "n": 24
+      },
+      {
+        "materia": "---",
+        "z_decayed": 0.8351040924377041,
+        "n": 521
+      },
+      {
+        "materia": "ESTADISTICA Y PROBABILIDAD",
+        "z_decayed": 0.6882472016116852,
+        "n": 3
+      },
+      {
+        "materia": "PROBABILIDAD Y ESTADISTICA",
+        "z_decayed": 0.5406606374607077,
+        "n": 32
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "quieren",
+          "si quieren",
+          "buen",
+          "maestro",
+          "buen maestro"
+        ],
+        "weight": 0.06801884113845287
+      },
+      {
+        "id": 1,
+        "words": [
+          "buen profesor",
+          "buen",
+          "aprenderas",
+          "si",
+          "profesor"
+        ],
+        "weight": 0.11160097489945547
+      },
+      {
+        "id": 2,
+        "words": [
+          "profes",
+          "es",
+          "bien",
+          "explica bien",
+          "explica"
+        ],
+        "weight": 0.09977702119628579
+      },
+      {
+        "id": 3,
+        "words": [
+          "tema dia",
+          "mejores",
+          "quieres",
+          "si quieres",
+          "tema"
+        ],
+        "weight": 0.10511688492713066
+      },
+      {
+        "id": 4,
+        "words": [
+          "aprender",
+          "clases",
+          "es estricto",
+          "es",
+          "estricto"
+        ],
+        "weight": 0.11400926412078297
+      }
+    ],
+    "sentiment": {
+      "overall": 0.03333333333333333,
+      "by_month": {
+        "2018-08": 0.0,
+        "2018-01": 1.0,
+        "2017-10": 0.0,
+        "2017-01": 0.0,
+        "2016-08": 0.0,
+        "2016-06": 0.0,
+        "2016-01": 0.0,
+        "2015-12": 0.0,
+        "2015-09": 0.0,
+        "2015-08": 0.0,
+        "2015-03": 0.0,
+        "2014-05": 1.0,
+        "2014-03": 0.0,
+        "2013-12": -1.0,
+        "2013-11": 0.0,
+        "2013-08": 0.0,
+        "2013-02": 0.0,
+        "2012-08": 0.0,
+        "2012-07": 0.0,
+        "2012-06": 0.0,
+        "2012-05": -1.0,
+        "2012-03": 1.0,
+        "2012-01": 0.0,
+        "2011-12": 0.0,
+        "2011-10": 0.0,
+        "2011-05": 0.0,
+        "2011-02": 0.0,
+        "2011-01": 0.0
+      }
+    },
+    "n_comments": 30
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.002,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        3.0,
+        10.0,
+        6.0,
+        7.0,
+        7.0,
+        10.0,
+        9.0,
+        8.0,
+        10.0,
+        9.0,
+        5.0,
+        6.666666666666667,
+        8.0,
+        7.0,
+        3.0,
+        9.0,
+        2.0,
+        9.0,
+        9.0,
+        10.0,
+        7.0,
+        10.0,
+        9.0,
+        4.5,
+        6.0,
+        9.0,
+        7.0,
+        8.0,
+        2.0,
+        9.0,
+        10.0,
+        8.0,
+        10.0,
+        7.0,
+        8.0
+      ],
+      "ewma": [
+        3.0,
+        5.1,
+        5.369999999999999,
+        5.858999999999999,
+        6.2013,
+        7.340909999999999,
+        7.8386369999999985,
+        7.887045899999999,
+        8.520932129999998,
+        8.664652490999998,
+        7.565256743699998,
+        7.295679720589998,
+        7.506975804412999,
+        7.354883063089099,
+        6.048418144162369,
+        6.933892700913658,
+        5.45372489063956,
+        6.517607423447691,
+        7.262325196413384,
+        8.083627637489368,
+        7.758539346242557,
+        8.430977542369789,
+        8.601684279658851,
+        7.371178995761195,
+        6.959825297032836,
+        7.571877707922985,
+        7.40031439554609,
+        7.580220076882263,
+        5.906154053817583,
+        6.834307837672307,
+        7.784015486370615,
+        7.84881084045943,
+        8.494167588321602,
+        8.045917311825121,
+        8.032142118277585
+      ],
+      "sigma": 1.8927913232849447
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 8.032142118277585,
+      "quality_band": [
+        4.322271124639094,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2020-08-12T00:00:00",
+      "materia": "PROBABILIDAD",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2020-01-11T00:00:00",
+      "materia": "PROBABILIDAD Y ESTADÍSTICA DESCRIPTIVA",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 7.5,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2019-08-04T00:00:00",
+      "materia": "ESTADISTICA Y PROBABILIDAD",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2018-08-04T00:00:00",
+      "materia": "---",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 1,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2018-05-12T00:00:00",
+      "materia": "PROBABILIDAD Y ESTADÍSTICA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2018-01-13T00:00:00",
+      "materia": "CALCULO INTEGRAL",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "De los mejores profes,explica muy claro todo"
+    },
+    {
+      "fecha_iso": "2017-10-09T00:00:00",
+      "materia": "CÁLCULO DIFERENCIAL",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 1.5,
+      "recomienda": 0,
+      "comentario": "No lo tolero"
+    },
+    {
+      "fecha_iso": "2017-08-06T00:00:00",
+      "materia": "CALCULO INTEGRAL",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2017-01-18T00:00:00",
+      "materia": "CÁLCULO DIFERENCIAL",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 1,
+      "comentario": "Buen maestro. Va a lo que va, sus clases son toda la hora y un tema por día. Hay mejores opciones."
+    },
+    {
+      "fecha_iso": "2016-08-11T00:00:00",
+      "materia": "PROBABILIDAD Y ESTADISTICA",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 24.0,
+      "recomienda": 1,
+      "comentario": "La verdad es de los pocos profes que en verdad ven todo el plan de estudios, es prohibidisimo faltar con el ya que el nunca se detiene. Explica cada uno de los temas de cada unidad con lujo de detalle. es muy puntual y no puedes llegar tarde. antes de los examenes deja una tarea. Execelente profe"
+    },
+    {
+      "fecha_iso": "2016-06-09T00:00:00",
+      "materia": "CALCULO DIFERENCIAL",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 0,
+      "comentario": "Casi nunca falta y es muy puntual, los exámenes son de todo lo visto en clases y tareas.\nSi piensas cargar con el para ir a picarte el ombligo mejor no lo hagas, con él vas a aprender."
+    },
+    {
+      "fecha_iso": "2016-01-18T00:00:00",
+      "materia": "CALCULO",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 1.5,
+      "recomienda": 0,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2016-01-18T00:00:00",
+      "materia": "CALCULO DIFERENCIAL",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "A mi parecer es un buen maestro, avanza muy rapido en las clases por lo tanto recomiendo no faltar, para pasar con el necesitas estudiar, normalmente dejaba una tarea antes del examen y de ahi lo sacaba, es estricto pero si le hechas ganas si aprendes."
+    },
+    {
+      "fecha_iso": "2015-12-23T00:00:00",
+      "materia": "CALCULO DIFERENCIAL",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "explica todo con claridad"
+    },
+    {
+      "fecha_iso": "2015-09-30T00:00:00",
+      "materia": "CALCULO INTEGRAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 1,
+      "comentario": "muy buen maestro, por eso lo recomiendo, si quieren aprender."
+    },
+    {
+      "fecha_iso": "2015-08-05T00:00:00",
+      "materia": "CALCULO DIFERENCIAL E INTEGRAL",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 1,
+      "comentario": "Un profesor muy estricto, no le gusta para nada atrasarse pero vale la pena cargar con el, la verdad que si eres disciplinado y le pones mucha antencion te sera facil con el y si tienes dudas preguntar rapido porque avanza muy rapido en sus clases.\nComo persona si es un tanto amargado pero de que aprendes con el aprendes y escribes un buen"
+    },
+    {
+      "fecha_iso": "2015-03-08T00:00:00",
+      "materia": "PROB Y EST",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 1,
+      "comentario": "buen maestro"
+    },
+    {
+      "fecha_iso": "2014-05-07T00:00:00",
+      "materia": "PROBABILIDAD Y ESTADISTICA",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Muy buenas explicaciones. Y buena adaptacion del tema a lo practico, lo unico que llega demasiado puntual. La clase"
+    },
+    {
+      "fecha_iso": "2014-03-26T00:00:00",
+      "materia": "PROBABILIDAD",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Uno de los mejores profesores que hay en el tec, explica muy bien , examenes sencillos y clases interesantes siempre te hace interesarte por los temas :)"
+    },
+    {
+      "fecha_iso": "2013-12-17T00:00:00",
+      "materia": "MATEMATICAS",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Esta dificil,pocos pasan,le preguntas algo 2 veces y se amarga,se ve un tema al dia,y generalmente no lo vuelve a repetir,hay mejores opciones si quieres aprender."
+    },
+    {
+      "fecha_iso": "2013-11-14T00:00:00",
+      "materia": "ESTADISTICA INFERENCIAL",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "MUY BUEN PROFESOR, SI SE LA QUIEREN LLEVAR LIGERA NO LO AGARREN, ES MUY CRITICADO PERO EXPLICA MUY BIEN Y ADEMAS ES MUY JUSTO CON LA CALIFICACION."
+    },
+    {
+      "fecha_iso": "2013-08-06T00:00:00",
+      "materia": "PROBABILIDAD",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": 3.0,
+      "recomienda": 0,
+      "comentario": "clases muy estresante"
+    },
+    {
+      "fecha_iso": "2013-06-12T00:00:00",
+      "materia": "PROBABILIDAD Y ESTADÍSTICA",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 7.5,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2013-02-11T00:00:00",
+      "materia": "ESTADISTICA INFERENCIAL",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "muy buen profesor explica los problemas muy claros, asiste diariamente y haz la tarea asi se te hará muy facil la materia ademas que aprenderas bastante y es uno de los pocos profesores que terminan el programa en esta materia, la tarea es muy similar al examen y aveces hasta igual"
+    },
+    {
+      "fecha_iso": "2012-08-16T00:00:00",
+      "materia": "CALCULO",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 1.0,
+      "recomienda": 0,
+      "comentario": "Si quieres pasar facil, sigue tu camino y no agarres a este cabron"
+    },
+    {
+      "fecha_iso": "2012-08-13T00:00:00",
+      "materia": "CÁLCULO INTEGRAL",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2012-08-08T00:00:00",
+      "materia": "CALCULO INTEGRAL",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "ok"
+    },
+    {
+      "fecha_iso": "2012-07-16T00:00:00",
+      "materia": "CALCULO",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "..i.."
+    },
+    {
+      "fecha_iso": "2012-06-14T00:00:00",
+      "materia": "CALCULO INTEGRAL",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Buen profe, siempre asiste y sabe explicar muy bien siempre y cuando asistas a todas las clases y pongas atención porque si no te pierdes, aparte con los ejercicios que deja antes de cada examen te facilita mucho al estudiar ya que los hace muy parecido,lo recomiendo aunque tendra que estudiar mucho"
+    },
+    {
+      "fecha_iso": "2012-05-16T00:00:00",
+      "materia": "MÉTODOS NUMÉRICOS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Muy buen maestro, uno de los mejores y más preparados, eso si, si piensas faltar pierdes el hilo de la clase y pues es muy dificil recuperarse"
+    },
+    {
+      "fecha_iso": "2012-03-25T00:00:00",
+      "materia": "CÁLCULO INTEGRAL",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Excelente profesor, enseña muy bien los temas. \nSi eres una persona floja que no quiere batallar no lo cargues, pero si quieres aprender no dudes en cargarlo."
+    },
+    {
+      "fecha_iso": "2012-01-26T00:00:00",
+      "materia": "CÁLCULO DIFERENCIAL",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Aprenderás mucho con este profesor. Siempre apoya al alumno, antes de cada examen te facilita una hoja con ejercicios para que practiques. Si no puedes pasar con él, la ingeniería no es para tí, cámbiate a corte y confección, o vete a la UAS."
+    },
+    {
+      "fecha_iso": "2011-12-14T00:00:00",
+      "materia": "CALCULO",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 1,
+      "comentario": "muy buen profesor"
+    },
+    {
+      "fecha_iso": "2011-10-30T00:00:00",
+      "materia": "MATEMÁTICAS L",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": "Si eres un buen estudiante y asistes a sus clses, ten por seguro que aprenderás mucho con este profesor."
+    },
+    {
+      "fecha_iso": "2011-08-15T00:00:00",
+      "materia": "MATEMATICAS",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2011-05-10T00:00:00",
+      "materia": "MATEMATICAS I",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": "muy estricto"
+    },
+    {
+      "fecha_iso": "2011-05-06T00:00:00",
+      "materia": "MATEMATICAS I",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 1,
+      "comentario": "buen maestro"
+    },
+    {
+      "fecha_iso": "2011-02-18T00:00:00",
+      "materia": "PROBABILIDAD",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "El maestro es estricto, recomendado para quienes realmente quieran aprender."
+    },
+    {
+      "fecha_iso": "2011-01-21T00:00:00",
+      "materia": "PROBABILIDAD Y ESTADÍSTICA",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": 3.0,
+      "recomienda": 0,
+      "comentario": "No explica bien, es muy corajudo y gruñón no se lo recomiendo."
+    }
+  ],
+  "comments_recent": [
+    "[Comentario esperando revisión]",
+    "De los mejores profes,explica muy claro todo",
+    "No lo tolero",
+    "Buen maestro. Va a lo que va, sus clases son toda la hora y un tema por día. Hay mejores opciones.",
+    "La verdad es de los pocos profes que en verdad ven todo el plan de estudios, es prohibidisimo faltar con el ya que el nunca se detiene. Explica cada uno de los temas de cada unidad con lujo de detalle. es muy puntual y no puedes llegar tarde. antes de los examenes deja una tarea. Execelente profe"
+  ],
+  "n_reviews": 39
+}

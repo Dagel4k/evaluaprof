@@ -1,0 +1,288 @@
+{
+  "professor_id": "Edgar_Chucuán",
+  "nombre": "Edgar Chucuán",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 5.681820832371544,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.535269136484479,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.667,
+    "wilson_interval": [
+      0.3906175873976139,
+      0.8618821601026386
+    ],
+    "n_recommendations": 12
+  },
+  "subject_normalization": {
+    "z_mean": 0.24,
+    "z_mean_decayed": -0.57,
+    "per_subject": [
+      {
+        "materia": "FISICA GENERAL",
+        "z_decayed": 0.9769370106182802,
+        "n": 12
+      },
+      {
+        "materia": "FISICA",
+        "z_decayed": 0.9493430413390013,
+        "n": 41
+      },
+      {
+        "materia": "MATEMATICAS",
+        "z_decayed": 0.8169471328572091,
+        "n": 17
+      },
+      {
+        "materia": "ALGEBRA LINEAL",
+        "z_decayed": 0.6691618448014931,
+        "n": 35
+      },
+      {
+        "materia": "FÍSICA",
+        "z_decayed": -0.14034696021997844,
+        "n": 27
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "super recomendado",
+          "super",
+          "bien",
+          "explica bien",
+          "explica"
+        ],
+        "weight": 0.13629901081294946
+      },
+      {
+        "id": 1,
+        "words": [
+          "tareas",
+          "es",
+          "mejor",
+          "aunque",
+          "profesor"
+        ],
+        "weight": 0.13805824951939416
+      },
+      {
+        "id": 2,
+        "words": [
+          "carga",
+          "profe",
+          "clases",
+          "tareas",
+          "te"
+        ],
+        "weight": 0.17011814939150396
+      },
+      {
+        "id": 3,
+        "words": [
+          "es",
+          "falta",
+          "dias semana",
+          "dias",
+          "semana"
+        ],
+        "weight": 0.1676164868109908
+      }
+    ],
+    "sentiment": {
+      "overall": 0.1111111111111111,
+      "by_month": {
+        "2024-11": 0.0,
+        "2022-08": 0.0,
+        "2021-12": 0.0,
+        "2018-08": 0.0,
+        "2018-03": 0.0,
+        "2018-02": 0.0,
+        "2015-08": 0.5,
+        "2014-01": 0.0
+      }
+    },
+    "n_comments": 9
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        6.0,
+        10.0,
+        10.0,
+        8.0,
+        10.0,
+        10.0,
+        10.0,
+        5.0,
+        2.0,
+        5.0
+      ],
+      "ewma": [
+        6.0,
+        7.199999999999999,
+        8.04,
+        8.027999999999999,
+        8.619599999999998,
+        9.033719999999999,
+        9.323604,
+        8.026522799999999,
+        6.2185659599999985,
+        5.852996171999998
+      ],
+      "sigma": 2.176926291859695
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 5.852996171999998,
+      "quality_band": [
+        1.5862206399549965,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2024-11-04T00:00:00",
+      "materia": "APLICACIÓN DE LAS LEYES",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 0,
+      "comentario": "Pone en duda tus creencias y explica muy bien, pero es un profesor que no está pendiente de sus estudiantes, no explica bien las actividades, califica cosas que no pidió en estas, a veces no asiste a clases y no explica las mismas cosas a todos sus grupos, siendo esta la misma materia."
+    },
+    {
+      "fecha_iso": "2022-08-11T00:00:00",
+      "materia": "PROBABILIDAD Y ESTADISTICA",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Nunca se presento ni en linea ni en presencial,  hasta nos tuvieron que cambiar de profesor"
+    },
+    {
+      "fecha_iso": "2021-12-17T00:00:00",
+      "materia": "FISICA ISC (LINEA)",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 0,
+      "comentario": "Este profe da clases muy diferentes a los demás profesores, sus clases son más de entender la física y muy poco de aplicarla con formulas o problemas. Da clases dos días a la semana, las tareas son obligatorias (con eso califica) y al final desapareció 3 semanas. Carga si no te importa la materia"
+    },
+    {
+      "fecha_iso": "2018-08-09T00:00:00",
+      "materia": "FISICA GENERAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Súper recomendado, el mejor profe. Sus clases son muy interesantes y te pone en duda todo lo que crees saber. Hace pocos exámenes y todos son de las tareas. \n\nSe la rifa bien machin. Carguen con el, se van a divertir."
+    },
+    {
+      "fecha_iso": "2018-08-04T00:00:00",
+      "materia": "FISICA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2018-03-21T00:00:00",
+      "materia": "FISICA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "ES EL MEJOR PROFESOR AUNQUE NO TENGO CLASE CON EL LO AMO"
+    },
+    {
+      "fecha_iso": "2018-02-28T00:00:00",
+      "materia": "FÍSICA PA' PENDEJOS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Es una verga. El compa falta 3 días a la semana y cuando llega, llega rompiendo madres, se la pasa diciéndonos pendejos y que valemos verga, recomendado a full. Cargaría toda mi vida con él, me encanta que me diga que estoy bien pendejo."
+    },
+    {
+      "fecha_iso": "2017-07-19T00:00:00",
+      "materia": "FÍSICA",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2016-06-13T00:00:00",
+      "materia": "MATEMATICAS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2015-08-07T00:00:00",
+      "materia": "ALGEBRA LINEAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Muy buen profe explica con claridad, sus examenes son parecidos a los de las tareas, aunque a veces son las mismas tareas, si estas interesado en aprender y aprobar la materia, no lo dudes carga con el no te arrepentiras."
+    },
+    {
+      "fecha_iso": "2015-08-04T00:00:00",
+      "materia": "ALGEBRA LINEAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "EXCELENTE PROFESOR! Si tuviera la oportunidad de volver a tener clases con el lo haría, explica muy bien y con que tengas disciplina y seas responsables ya la hiciste!.\nAdemas sus exámenes son en su mayoría en equipos ¡Super Recomendado!"
+    },
+    {
+      "fecha_iso": "2014-01-11T00:00:00",
+      "materia": "FÍSICA",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 6.5,
+      "recomienda": 0,
+      "comentario": "Las clases no son tan aburridas porque no le gusta perderse mucho en la teoría, te enseña las fórmulas, a usarlas y a razonar. Falta seguido, sus exámenes son fáciles, a veces se molesta con el grupo y los hace complicados. Es poco objetivo con las calif. Te puede poner de 70 a 100, no reprueba."
+    }
+  ],
+  "comments_recent": [
+    "Pone en duda tus creencias y explica muy bien, pero es un profesor que no está pendiente de sus estudiantes, no explica bien las actividades, califica cosas que no pidió en estas, a veces no asiste a clases y no explica las mismas cosas a todos sus grupos, siendo esta la misma materia.",
+    "Nunca se presento ni en linea ni en presencial,  hasta nos tuvieron que cambiar de profesor",
+    "Este profe da clases muy diferentes a los demás profesores, sus clases son más de entender la física y muy poco de aplicarla con formulas o problemas. Da clases dos días a la semana, las tareas son obligatorias (con eso califica) y al final desapareció 3 semanas. Carga si no te importa la materia",
+    "Súper recomendado, el mejor profe. Sus clases son muy interesantes y te pone en duda todo lo que crees saber. Hace pocos exámenes y todos son de las tareas. \n\nSe la rifa bien machin. Carguen con el, se van a divertir.",
+    "ES EL MEJOR PROFESOR AUNQUE NO TENGO CLASE CON EL LO AMO",
+    "Es una verga. El compa falta 3 días a la semana y cuando llega, llega rompiendo madres, se la pasa diciéndonos pendejos y que valemos verga, recomendado a full. Cargaría toda mi vida con él, me encanta que me diga que estoy bien pendejo.",
+    "Muy buen profe explica con claridad, sus examenes son parecidos a los de las tareas, aunque a veces son las mismas tareas, si estas interesado en aprender y aprobar la materia, no lo dudes carga con el no te arrepentiras."
+  ],
+  "n_reviews": 12
+}

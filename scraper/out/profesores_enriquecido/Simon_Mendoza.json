@@ -1,0 +1,132 @@
+{
+  "professor_id": "Simon_Mendoza",
+  "nombre": "Simon Mendoza",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 4.396770683170743,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 6.126851500189898,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.0,
+    "wilson_interval": [
+      0,
+      0.48990002040399916
+    ],
+    "n_recommendations": 4
+  },
+  "subject_normalization": {
+    "z_mean": -1.15,
+    "z_mean_decayed": -1.15,
+    "per_subject": [
+      {
+        "materia": "ELECTRICIDAD",
+        "z_decayed": -1.1473505296660065,
+        "n": 8
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [],
+    "sentiment": {
+      "overall": -0.25,
+      "by_month": {
+        "2014-07": 0.0,
+        "2014-06": 0.0,
+        "2013-11": 0.0,
+        "2012-08": -1.0
+      }
+    },
+    "n_comments": 4
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        2.0,
+        2.0,
+        6.0,
+        6.0
+      ],
+      "ewma": [
+        2.0,
+        2.0,
+        3.1999999999999997,
+        4.039999999999999
+      ],
+      "sigma": 1.4162391511793953
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 4.039999999999999,
+      "quality_band": [
+        1.2641712636883846,
+        6.815828736311614
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2014-07-09T00:00:00",
+      "materia": "LIDER SINDICAL",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 0,
+      "comentario": "Fue un gran político y un mal docente. Como político se reconoce su trayectoria y sus logros. Lo recuerdo como un hombre de palabra, quien ayudo a muchos fue un gran líder. DEP"
+    },
+    {
+      "fecha_iso": "2014-06-04T00:00:00",
+      "materia": "ELECTRIC",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "YA SE MURIO DE TODOS MODOS!"
+    },
+    {
+      "fecha_iso": "2013-11-14T00:00:00",
+      "materia": "ELECTRICIDAD",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "DE LO PEOR DEL TEC"
+    },
+    {
+      "fecha_iso": "2012-08-16T00:00:00",
+      "materia": "ELECTRICIDAD",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Pesimo como maestro, nunca asiste a clases, manda a otros a darnos clases, es un inepto no sabe nada, se la lleva en el Sindicato. Deberian correrlo del Tec. es una verguenza para la Institucion"
+    }
+  ],
+  "comments_recent": [
+    "Fue un gran político y un mal docente. Como político se reconoce su trayectoria y sus logros. Lo recuerdo como un hombre de palabra, quien ayudo a muchos fue un gran líder. DEP",
+    "YA SE MURIO DE TODOS MODOS!",
+    "DE LO PEOR DEL TEC",
+    "Pesimo como maestro, nunca asiste a clases, manda a otros a darnos clases, es un inepto no sabe nada, se la lleva en el Sindicato. Deberian correrlo del Tec. es una verguenza para la Institucion"
+  ],
+  "n_reviews": 4
+}

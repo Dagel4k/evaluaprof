@@ -1,0 +1,51 @@
+{
+  "nombre": "Daniela Lizarraga Russell",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "ciudad": "Ciudad: culiacan, sinaloa",
+  "departamento": "Departamento/Facultad: Ing. Gestión Empresarial",
+  "calidad_general": 6.5,
+  "porcentaje_recomienda": 50,
+  "nivel_dificultad": 2.0,
+  "etiquetas": [
+    "PREPÁRATE PARA LEER (2)",
+    "DA BUENA RETROALIMENTACIÓN (1)",
+    "DEJA TRABAJOS LARGOS (1)"
+  ],
+  "numero_calificaciones": 2,
+  "calificaciones": [
+    {
+      "fecha": "10/Ago/2024",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 7.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Fundamentos de investigacion",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "9",
+      "interes_clase": "",
+      "comentario": "Es fácil pasar, no es muy exigente con los exámenes y la clase es entendible, las tareas pueden ser largas pero muchas son en equipo lo que facilita hacerlas.",
+      "etiquetas_comentario": [
+        "Da buena retroalimentación",
+        "Prepárate para leer",
+        "Deja trabajos largos"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "15/Ene/2023",
+      "tipo_calificacion": "REGULAR",
+      "puntaje_calidad_general": 6.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Desarrollo Humano",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "Vas a ir a leer y hacer resúmenes, está buena la hora para ir a desayunar/comer.",
+      "etiquetas_comentario": [
+        "Prepárate para leer"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    }
+  ]
+}

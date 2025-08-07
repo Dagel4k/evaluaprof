@@ -1,0 +1,275 @@
+{
+  "professor_id": "Jennifer_Félix_Medina",
+  "nombre": "Jennifer Félix Medina",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 6.765974762023578,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.275043857269455,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.636,
+    "wilson_interval": [
+      0.35379677689163724,
+      0.8483377638586862
+    ],
+    "n_recommendations": 11
+  },
+  "subject_normalization": {
+    "z_mean": 0.25,
+    "z_mean_decayed": -0.15,
+    "per_subject": [
+      {
+        "materia": "QUIMICA",
+        "z_decayed": 0.9150981641546115,
+        "n": 83
+      },
+      {
+        "materia": "QUÍMICA",
+        "z_decayed": 0.5861200772603267,
+        "n": 44
+      },
+      {
+        "materia": "---",
+        "z_decayed": 0.23580762940734076,
+        "n": 521
+      },
+      {
+        "materia": "BIOQUIMICA",
+        "z_decayed": 0.15905112354485643,
+        "n": 10
+      },
+      {
+        "materia": "QUÍMICA DE LOS ALIMENTOS",
+        "z_decayed": -1.1208970766356101,
+        "n": 3
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "buena",
+          "maestra",
+          "es buena",
+          "buena maestra",
+          "es"
+        ],
+        "weight": 0.16458805135952845
+      },
+      {
+        "id": 1,
+        "words": [
+          "es agradable",
+          "mas",
+          "clases",
+          "da clases",
+          "da"
+        ],
+        "weight": 0.13474563010271995
+      },
+      {
+        "id": 2,
+        "words": [
+          "mejor",
+          "agradable",
+          "sabe",
+          "atencion",
+          "ambiente"
+        ],
+        "weight": 0.20514688812681942
+      },
+      {
+        "id": 3,
+        "words": [
+          "es",
+          "sabe",
+          "temas",
+          "bonilla",
+          "materia"
+        ],
+        "weight": 0.1456395727401177
+      }
+    ],
+    "sentiment": {
+      "overall": 0.0,
+      "by_month": {
+        "2022-11": 0.0,
+        "2020-06": 0.0,
+        "2018-12": 0.0,
+        "2018-01": 0.0,
+        "2017-08": 0.0,
+        "2016-12": 0.0
+      }
+    },
+    "n_comments": 8
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        8.0,
+        10.0,
+        10.0,
+        6.0,
+        7.0,
+        6.0,
+        10.0,
+        4.0,
+        6.0
+      ],
+      "ewma": [
+        8.0,
+        8.6,
+        9.02,
+        8.113999999999999,
+        7.7798,
+        7.2458599999999995,
+        8.072102,
+        6.850471399999999,
+        6.595329979999999
+      ],
+      "sigma": 1.6028273633292418
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 6.595329979999999,
+      "quality_band": [
+        3.453788347874685,
+        9.736871612125313
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2022-11-06T00:00:00",
+      "materia": "BIOQUIMICA",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 0,
+      "comentario": "Me toco cuando recien empezo a dar clases, se notaba que al inicio le daba mucho pavor callar a la gente y daba la clase sin llamarles la atención.\nNo fue nada agradable el ambiente que dejaba crear, pero a lo mejor tambien era la gente que no sabe que se venia a estudiar."
+    },
+    {
+      "fecha_iso": "2021-11-05T00:00:00",
+      "materia": "TALLER DE INVESTIGACIÓN",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2020-06-15T00:00:00",
+      "materia": "BIOQUIMICA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": "Está maestra es super buena en lo que hace, sabe mucho y lo mas importante lo sabe transmitir, es agradable, pero si tienes que poner mucha atención porque la materia lo exige, tienes que comprender y relacionar muchas cosas, y me encanto que le preocupa el medio ambiente, 10/10."
+    },
+    {
+      "fecha_iso": "2018-12-03T00:00:00",
+      "materia": "QUÍMICA DE LOS ALIMENTOS",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 0,
+      "comentario": "Da clases de pdf´s"
+    },
+    {
+      "fecha_iso": "2018-08-14T00:00:00",
+      "materia": "QUÍMICA",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 7.5,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2018-01-13T00:00:00",
+      "materia": "---",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2017-12-12T00:00:00",
+      "materia": "BIOQUIMICA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2017-08-08T00:00:00",
+      "materia": "QUÍMICA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Es muy buena profesora y da sus clases del modo más fácil posible. Entiendes muy bien y fuera del aula es muy agradable."
+    },
+    {
+      "fecha_iso": "2016-12-11T00:00:00",
+      "materia": "QUIMICA",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Es muy buena maestra, las clases son muy claras y te enseña todos los temas del programa sin complicarse tanto"
+    },
+    {
+      "fecha_iso": "2016-12-09T00:00:00",
+      "materia": "QUIMICA",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "La verdad que si es muy buena maestra, mucho mejor que Bonilla y su forma de evaluar es muy justa ya que sus clases no las hace aburridas pero tampoco comicas, un termino ideal."
+    },
+    {
+      "fecha_iso": "2016-12-07T00:00:00",
+      "materia": "QUÍMICA",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": "Es nueva, llegó por Bonilla, sus exámenes están ligeros, pero abarcan todos los temas, esta estudiando el doctorado y sabe mucho de la materia, la recomiendo, y ademas esta guapa:D"
+    }
+  ],
+  "comments_recent": [
+    "Me toco cuando recien empezo a dar clases, se notaba que al inicio le daba mucho pavor callar a la gente y daba la clase sin llamarles la atención.\nNo fue nada agradable el ambiente que dejaba crear, pero a lo mejor tambien era la gente que no sabe que se venia a estudiar.",
+    "Está maestra es super buena en lo que hace, sabe mucho y lo mas importante lo sabe transmitir, es agradable, pero si tienes que poner mucha atención porque la materia lo exige, tienes que comprender y relacionar muchas cosas, y me encanto que le preocupa el medio ambiente, 10/10.",
+    "Da clases de pdf´s",
+    "[Comentario esperando revisión]",
+    "Es muy buena profesora y da sus clases del modo más fácil posible. Entiendes muy bien y fuera del aula es muy agradable.",
+    "Es muy buena maestra, las clases son muy claras y te enseña todos los temas del programa sin complicarse tanto",
+    "La verdad que si es muy buena maestra, mucho mejor que Bonilla y su forma de evaluar es muy justa ya que sus clases no las hace aburridas pero tampoco comicas, un termino ideal."
+  ],
+  "n_reviews": 11
+}

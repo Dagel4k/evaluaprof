@@ -1,0 +1,27 @@
+{
+  "nombre": "fernando hernandez silva",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "ciudad": "Ciudad: culiacan, sinaloa",
+  "departamento": "Departamento/Facultad: doctorado",
+  "calidad_general": 10.0,
+  "porcentaje_recomienda": 100,
+  "nivel_dificultad": 2.0,
+  "etiquetas": [],
+  "numero_calificaciones": 1,
+  "calificaciones": [
+    {
+      "fecha": "07/Ago/2012",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Simulaciòn, IOI & IOII",
+      "asistencia": "",
+      "calificacion_recibida": "10",
+      "interes_clase": "10",
+      "comentario": "Muy buen profesor, mucha paciencia con los alumnos y muy preparado, sus clases claras y sencillas, recomendable.",
+      "etiquetas_comentario": [],
+      "votos_utiles": "1",
+      "votos_no_utiles": "0"
+    }
+  ]
+}

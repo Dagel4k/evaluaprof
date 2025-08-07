@@ -1,0 +1,170 @@
+{
+  "professor_id": "Pedro_Rochin_Angulo",
+  "nombre": "Pedro Rochin Angulo",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 8.468183904076788,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.585061400177238,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.8,
+    "wilson_interval": [
+      0.37552826411853885,
+      0.9637768390302125
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": 0.42,
+    "z_mean_decayed": 0.43,
+    "per_subject": [
+      {
+        "materia": "TERMODINÁMICA",
+        "z_decayed": 0.8829315411243912,
+        "n": 14
+      },
+      {
+        "materia": "TERMODINAMICA",
+        "z_decayed": 0.2050939078856696,
+        "n": 18
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "persona",
+          "buen",
+          "buen profesor",
+          "profesor",
+          "es"
+        ],
+        "weight": 0.3046393314274436
+      },
+      {
+        "id": 1,
+        "words": [
+          "persona",
+          "profesor",
+          "excelente maestro",
+          "excelente",
+          "maestro"
+        ],
+        "weight": 0.27846704657100146
+      }
+    ],
+    "sentiment": {
+      "overall": 0.6,
+      "by_month": {
+        "2014-01": 0.5,
+        "2013-11": 0.0,
+        "2011-11": 1.0,
+        "2011-03": 1.0
+      }
+    },
+    "n_comments": 5
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        10.0,
+        10.0,
+        6.0,
+        9.0
+      ],
+      "ewma": [
+        10.0,
+        10.0,
+        8.8,
+        8.86
+      ],
+      "sigma": 1.4248625664720562
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 8.86,
+      "quality_band": [
+        6.0672693697147695,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2014-01-29T00:00:00",
+      "materia": "TERMODINAMICA",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 1,
+      "comentario": "muy buen profesor y muy buena persona c:"
+    },
+    {
+      "fecha_iso": "2014-01-07T00:00:00",
+      "materia": "TERMODINÁMICA",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Es buen profesor, muuuuuy comprensivo y da muchas oportunidades para pasar, es claro y nunca se enoja (:"
+    },
+    {
+      "fecha_iso": "2013-11-29T00:00:00",
+      "materia": "TERMODINAMICA",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "es un muy buen profesor y persona"
+    },
+    {
+      "fecha_iso": "2011-11-15T00:00:00",
+      "materia": "OP",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "EXCELENTE MAESTRO"
+    },
+    {
+      "fecha_iso": "2011-03-11T00:00:00",
+      "materia": "OPERACIONES UNITARIAS II",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": "Excelente maestro con experiencia, conocimientos y facilidad para enseñar, ojala todos fueran como él."
+    }
+  ],
+  "comments_recent": [
+    "muy buen profesor y muy buena persona c:",
+    "Es buen profesor, muuuuuy comprensivo y da muchas oportunidades para pasar, es claro y nunca se enoja (:",
+    "es un muy buen profesor y persona",
+    "EXCELENTE MAESTRO",
+    "Excelente maestro con experiencia, conocimientos y facilidad para enseñar, ojala todos fueran como él."
+  ],
+  "n_reviews": 5
+}

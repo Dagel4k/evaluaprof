@@ -1,0 +1,532 @@
+{
+  "professor_id": "Jorge_Balcazar",
+  "nombre": "Jorge Balcazar",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 2.9677677644067684,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 4.313089113696785,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.206,
+    "wilson_interval": [
+      0.10349396022351322,
+      0.3679871610821398
+    ],
+    "n_recommendations": 34
+  },
+  "subject_normalization": {
+    "z_mean": -0.79,
+    "z_mean_decayed": -0.84,
+    "per_subject": [
+      {
+        "materia": "MANUFACTURA AVANZADA",
+        "z_decayed": 0.6081211398682973,
+        "n": 5
+      },
+      {
+        "materia": "DIBUJO ASISTIDO POR COMPUTADORA",
+        "z_decayed": -0.27290875347850285,
+        "n": 15
+      },
+      {
+        "materia": "DIBUJO POR COMPUTADORA",
+        "z_decayed": -0.42915662758659157,
+        "n": 3
+      },
+      {
+        "materia": "MECATRÓNICA APLICADA",
+        "z_decayed": -0.8837879163470619,
+        "n": 5
+      },
+      {
+        "materia": "---",
+        "z_decayed": -0.9627852966533861,
+        "n": 521
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "comentario esperando",
+          "revision",
+          "comentario",
+          "esperando",
+          "esperando revision"
+        ],
+        "weight": 0.24100967455555639
+      },
+      {
+        "id": 1,
+        "words": [
+          "hace",
+          "profe es",
+          "profe",
+          "buen",
+          "es"
+        ],
+        "weight": 0.06893123392162004
+      },
+      {
+        "id": 2,
+        "words": [
+          "manda rc",
+          "te manda",
+          "rc",
+          "si",
+          "te"
+        ],
+        "weight": 0.0945190871890775
+      },
+      {
+        "id": 3,
+        "words": [
+          "saber",
+          "tienes saber",
+          "buen profesor",
+          "https",
+          "com"
+        ],
+        "weight": 0.04595652160857662
+      },
+      {
+        "id": 4,
+        "words": [
+          "es",
+          "buen",
+          "aprendes",
+          "profesor",
+          "materia"
+        ],
+        "weight": 0.068652616065216
+      }
+    ],
+    "sentiment": {
+      "overall": 0.0,
+      "by_month": {
+        "2023-11": 0.0,
+        "2023-07": 0.0,
+        "2022-11": 0.0,
+        "2022-10": 0.0,
+        "2022-01": 0.0,
+        "2021-10": 0.0,
+        "2020-12": 0.0,
+        "2020-11": 0.0,
+        "2020-10": 0.0,
+        "2020-09": 0.0,
+        "2020-08": 0.0,
+        "2020-07": 0.0,
+        "2020-02": 0.0,
+        "2020-01": 0.0,
+        "2019-12": 0.0,
+        "2019-08": 0.0,
+        "2019-06": 0.0,
+        "2017-12": 0.0,
+        "2017-01": 0.0,
+        "2016-12": 0.0
+      }
+    },
+    "n_comments": 33
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.29,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 0.86
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        6.5,
+        10.0,
+        7.0,
+        7.0,
+        10.0,
+        2.0,
+        5.5,
+        2.0,
+        2.0,
+        2.5,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        10.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0
+      ],
+      "ewma": [
+        6.5,
+        7.55,
+        7.385,
+        7.269499999999999,
+        8.088649999999998,
+        6.2620549999999975,
+        6.033438499999997,
+        4.823406949999997,
+        3.9763848649999978,
+        3.533469405499998,
+        3.073428583849999,
+        2.7514000086949992,
+        2.5259800060864994,
+        2.3681860042605494,
+        2.2577302029823842,
+        4.580411142087669,
+        3.8062877994613684,
+        3.264401459622958,
+        2.8850810217360703,
+        2.619556715215249
+      ],
+      "sigma": 1.9837368835393963
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 2.619556715215249,
+      "quality_band": [
+        0.0,
+        6.507681006952465
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2023-11-07T00:00:00",
+      "materia": "MECATRÓNICA APLICADA",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Si así como tú evalúas te hubieran evaluado cuando eras estudiante, pura vrg te hubieras graduado."
+    },
+    {
+      "fecha_iso": "2023-07-20T00:00:00",
+      "materia": "MECATRONICA APLICADA",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "no vale verga este imbecil"
+    },
+    {
+      "fecha_iso": "2022-11-04T00:00:00",
+      "materia": "MECATRÓNICA APLICADA",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "El peor maestro y ser humano de toda la universidad, jamás lleven una materia con él"
+    },
+    {
+      "fecha_iso": "2022-10-06T00:00:00",
+      "materia": "ROBA PROYECTOS",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "https://mobile.twitter.com/lauravaldezv/status/1261009534861996032"
+    },
+    {
+      "fecha_iso": "2022-01-19T00:00:00",
+      "materia": "DIBUJO ASISTIDO POR COMPUTADORA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "La neta esta bien cabron pasar con el pero es buen profe y lo que le preguntes te lo explica muy bien. Es muy buen rollo Tienes que echarle un chingo de ganas para pasar con el pero desde el inicio te explica lo que espera de ti. Yo si lo recomiendo si aguantas vara y quieres aprender de su materia."
+    },
+    {
+      "fecha_iso": "2021-10-04T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2020-12-29T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2020-12-22T00:00:00",
+      "materia": "RATA",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "https://www.linkedin.com/in/jorge-balcazar-padilla-0a26b6138?originalSubdomain=mx"
+    },
+    {
+      "fecha_iso": "2020-12-21T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2020-12-13T00:00:00",
+      "materia": "DIBUJO ASISTIDO POR COMPUTADORA",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Este tipo es una reverenda basura, te trae a pan y verga todo el semestre, te pide cosas hasta de lo que te vas a morir, al final nada vale y si le da la gana te manda a RC"
+    },
+    {
+      "fecha_iso": "2020-12-05T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2020-11-28T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2020-11-17T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2020-11-06T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2020-10-03T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2020-09-06T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2020-08-28T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2020-08-22T00:00:00",
+      "materia": "INGENIERIA DE LOS MATERIALES",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 0,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2020-08-18T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2020-08-08T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2020-07-24T00:00:00",
+      "materia": "MECATRONICA APLICADA",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "pinche enfermo"
+    },
+    {
+      "fecha_iso": "2020-07-20T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2020-07-15T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2020-02-24T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2020-01-10T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2020-01-01T00:00:00",
+      "materia": "MANUFACTURA AVANZADA",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "El profe es compa, sus exámenes son teóricos (excepto por uno que es programación), y le gusta ver sufrir a los alumnos. Tienes que saber llevarte con él. No hace paros."
+    },
+    {
+      "fecha_iso": "2019-12-08T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2019-12-05T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2019-08-11T00:00:00",
+      "materia": "DIBUJO ASISTIDO POR COMPUTADORA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Profesor que domina la materia y está abierto a resolver dudas, es justo a la hora de calificar, no te regala ni un punto pero aprendes machin"
+    },
+    {
+      "fecha_iso": "2019-06-06T00:00:00",
+      "materia": "MANOFACTURA AVANZADA",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "su materia es facil si asistes y expones bien te da puntos extra para el examen pero solo cuando presentas el examen por primera vez,sus recuperaciones son mas dificiles y si no sacas 70 te manda a RC,  recomendacion pasen a la primera porque nos tronara en recuperacion"
+    },
+    {
+      "fecha_iso": "2017-12-28T00:00:00",
+      "materia": "DIBUJO POR COMPUTADORA",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Es buen profe pero es estricto, no hace ningún paro y le gusta reprobar. Aprendes con el pero probablemente no tengas buena calificación."
+    },
+    {
+      "fecha_iso": "2017-01-18T00:00:00",
+      "materia": "DIBUJO POR COMPUTADORA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Muy buen profesor. Es algo llevado pero tienes que saber comportarte. Le encanta la \"trozadera\" pero enseña muy bien. Volvería a tomar clase con él."
+    },
+    {
+      "fecha_iso": "2016-12-11T00:00:00",
+      "materia": "DIBUJO MECANICO ASISTIDO POR COMPUTADORA",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Es buen profesor, tiene buen control sobre su materia, en lo que le preguntes te va a ayudar"
+    },
+    {
+      "fecha_iso": "2016-12-09T00:00:00",
+      "materia": "DIBUJO ASISTIDO POR COMPUTADORA",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 0,
+      "comentario": "Es buen profe pero es muy bacilador y se la quiere llevar con todos, mas que nada que te mete presion cada rato diciendo... Los voy a trozar a cada que puede hasta en los mismos examenes hace eso"
+    }
+  ],
+  "comments_recent": [
+    "Si así como tú evalúas te hubieran evaluado cuando eras estudiante, pura vrg te hubieras graduado.",
+    "no vale verga este imbecil",
+    "El peor maestro y ser humano de toda la universidad, jamás lleven una materia con él",
+    "https://mobile.twitter.com/lauravaldezv/status/1261009534861996032",
+    "La neta esta bien cabron pasar con el pero es buen profe y lo que le preguntes te lo explica muy bien. Es muy buen rollo Tienes que echarle un chingo de ganas para pasar con el pero desde el inicio te explica lo que espera de ti. Yo si lo recomiendo si aguantas vara y quieres aprender de su materia.",
+    "[Comentario esperando revisión]",
+    "[Comentario esperando revisión]",
+    "https://www.linkedin.com/in/jorge-balcazar-padilla-0a26b6138?originalSubdomain=mx",
+    "[Comentario esperando revisión]",
+    "Este tipo es una reverenda basura, te trae a pan y verga todo el semestre, te pide cosas hasta de lo que te vas a morir, al final nada vale y si le da la gana te manda a RC"
+  ],
+  "n_reviews": 34
+}

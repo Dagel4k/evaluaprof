@@ -1,0 +1,75 @@
+{
+  "nombre": "María De Lourdes Noriega Bonilla",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "ciudad": "Ciudad: culiacan, sinaloa",
+  "departamento": "Departamento/Facultad: Instituto Tecnológico de Culiacán/ Fundamentos de",
+  "calidad_general": 7.7,
+  "porcentaje_recomienda": 67,
+  "nivel_dificultad": 1.3,
+  "etiquetas": [
+    "LA PARTICIPACIÓN IMPORTA (1)",
+    "BRINDA APOYO (1)",
+    "CLASES EXCELENTES (2)",
+    "ASPECTOS DE CALIFICACIÓN CLAROS (2)",
+    "TOMARÍA SU CLASE OTRA VEZ (1)",
+    "CALIFICA DURO (1)",
+    "ASISTENCIA OBLIGATORIA (1)"
+  ],
+  "numero_calificaciones": 3,
+  "calificaciones": [
+    {
+      "fecha": "14/Ene/2023",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 3.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Fundamentos de la investigación",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "9",
+      "interes_clase": "",
+      "comentario": "Es una profesora confusa de entender, su clase no es particularmente dificil pero suele molestarse al dar segundas explicaciones y es poco flexible. Personalmente no me encantaria tenerla de profesora.",
+      "etiquetas_comentario": [
+        "Califica Duro",
+        "Asistencia obligatoria",
+        "Aspectos de calificación claros"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "03/Dic/2017",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Fundamentos de la investigacion",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "9",
+      "interes_clase": "",
+      "comentario": "",
+      "etiquetas_comentario": [
+        "Aspectos de calificación claros",
+        "Clases excelentes",
+        "Tomaría su clase otra vez"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "09/Oct/2017",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Fundamentos de Investigación",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "9",
+      "interes_clase": "",
+      "comentario": "Buena profesora, excelente clase",
+      "etiquetas_comentario": [
+        "La Participación Importa",
+        "Brinda apoyo",
+        "Clases excelentes"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    }
+  ]
+}

@@ -1,0 +1,466 @@
+{
+  "professor_id": "NOEL_GARCIA_INZUNZA",
+  "nombre": "NOEL GARCIA INZUNZA",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 9.29214467412949,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 8.669880029489958,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 1.0,
+    "wilson_interval": [
+      0.8620194241710247,
+      1
+    ],
+    "n_recommendations": 24
+  },
+  "subject_normalization": {
+    "z_mean": -0.01,
+    "z_mean_decayed": 0.0,
+    "per_subject": [
+      {
+        "materia": "TECNOLOGÍAS INALÁMBRICAS",
+        "z_decayed": 0.10903730070395631,
+        "n": 6
+      },
+      {
+        "materia": "ADMINISTRACION Y SEGURIDAD DE REDES",
+        "z_decayed": 0.0360092090314846,
+        "n": 3
+      },
+      {
+        "materia": "ADMINISTRACIÓN Y SEGURIDAD DE REDES",
+        "z_decayed": 4.166652327621183e-17,
+        "n": 4
+      },
+      {
+        "materia": "REDES EMERGENTES",
+        "z_decayed": -0.19699128476820904,
+        "n": 6
+      },
+      {
+        "materia": "FUNDAMENTOS DE TELECOMUNICACIONES",
+        "z_decayed": -0.287072303330861,
+        "n": 11
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "ademas",
+          "buen",
+          "duda",
+          "buen maestro",
+          "maestro"
+        ],
+        "weight": 0.11373459419447328
+      },
+      {
+        "id": 1,
+        "words": [
+          "ejemplos",
+          "ser",
+          "explica",
+          "bien",
+          "examenes"
+        ],
+        "weight": 0.13137502948074287
+      },
+      {
+        "id": 2,
+        "words": [
+          "materia",
+          "todas",
+          "dudas",
+          "dispuesto",
+          "siempre dispuesto"
+        ],
+        "weight": 0.119198704797562
+      },
+      {
+        "id": 3,
+        "words": [
+          "da",
+          "facil",
+          "es facil",
+          "profe",
+          "es"
+        ],
+        "weight": 0.13615317081783868
+      },
+      {
+        "id": 4,
+        "words": [
+          "recomendado",
+          "empeno",
+          "ponerle",
+          "ponerle empeno",
+          "solo"
+        ],
+        "weight": 0.10253377119972862
+      }
+    ],
+    "sentiment": {
+      "overall": 0.125,
+      "by_month": {
+        "2025-05": 0.16666666666666666,
+        "2020-06": 0.125,
+        "2019-08": 0.0
+      }
+    },
+    "n_comments": 16
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [
+      {
+        "from": "2020-06-05T00:00:00",
+        "to": "2020-06-05T00:00:00",
+        "count": 3
+      },
+      {
+        "from": "2020-06-05T00:00:00",
+        "to": "2020-06-05T00:00:00",
+        "count": 4
+      },
+      {
+        "from": "2020-06-05T00:00:00",
+        "to": "2020-06-05T00:00:00",
+        "count": 5
+      },
+      {
+        "from": "2020-06-05T00:00:00",
+        "to": "2020-06-05T00:00:00",
+        "count": 6
+      },
+      {
+        "from": "2020-06-05T00:00:00",
+        "to": "2020-06-05T00:00:00",
+        "count": 7
+      },
+      {
+        "from": "2020-06-05T00:00:00",
+        "to": "2020-06-05T00:00:00",
+        "count": 8
+      },
+      {
+        "from": "2020-06-05T00:00:00",
+        "to": "2020-06-06T00:00:00",
+        "count": 9
+      },
+      {
+        "from": "2025-05-29T00:00:00",
+        "to": "2025-05-29T00:00:00",
+        "count": 3
+      },
+      {
+        "from": "2025-05-29T00:00:00",
+        "to": "2025-05-29T00:00:00",
+        "count": 4
+      },
+      {
+        "from": "2025-05-29T00:00:00",
+        "to": "2025-05-29T00:00:00",
+        "count": 5
+      },
+      {
+        "from": "2025-05-29T00:00:00",
+        "to": "2025-05-29T00:00:00",
+        "count": 6
+      },
+      {
+        "from": "2025-05-29T00:00:00",
+        "to": "2025-05-29T00:00:00",
+        "count": 7
+      },
+      {
+        "from": "2025-05-29T00:00:00",
+        "to": "2025-05-29T00:00:00",
+        "count": 8
+      },
+      {
+        "from": "2025-05-29T00:00:00",
+        "to": "2025-05-29T00:00:00",
+        "count": 9
+      }
+    ],
+    "low_variance_flag": 0,
+    "trust_score": 0.7
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        10.0,
+        7.0,
+        8.0,
+        9.5,
+        9.777777777777779,
+        10.0,
+        9.222222222222221
+      ],
+      "ewma": [
+        10.0,
+        9.1,
+        8.77,
+        8.988999999999999,
+        9.225633333333333,
+        9.457943333333333,
+        9.387227
+      ],
+      "sigma": 0.9659096000966619
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 9.387227,
+      "quality_band": [
+        7.4940441838105425,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2025-05-29T00:00:00",
+      "materia": "REDES EMERGENTES",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2025-05-29T00:00:00",
+      "materia": "REDES EMERGENTES",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Exelente maestro, cargen con el"
+    },
+    {
+      "fecha_iso": "2025-05-29T00:00:00",
+      "materia": "TECNOLOGÍAS INALAMBRICAS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 7.5,
+      "recomienda": 1,
+      "comentario": "Excelente profe, explica super bien y da muy bueno ejemplos, solo tienes que ponerle empeño y no ser flojo"
+    },
+    {
+      "fecha_iso": "2025-05-29T00:00:00",
+      "materia": "TECNOLOGÍAS INALÁMBRICAS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 7.5,
+      "recomienda": 1,
+      "comentario": "Si cumples con todo lo que solicita y estudias para los exámenes es fácil pasar. Las rúbricas de revisión son estrictas pero siempre las da a conocer al dejar los trabajos m."
+    },
+    {
+      "fecha_iso": "2025-05-29T00:00:00",
+      "materia": "TECNOLOGÍAS INALAMBRICAS",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 23.0,
+      "recomienda": 1,
+      "comentario": "Hecharle ganas y los exámenes pueden ser confusos pero todo bien"
+    },
+    {
+      "fecha_iso": "2025-05-29T00:00:00",
+      "materia": "TECNOLOGÍAS INALÁMBRICAS",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": "Recomendado, solo hay que ponerle empeño"
+    },
+    {
+      "fecha_iso": "2025-05-29T00:00:00",
+      "materia": "TECNOLOGÍAS INALÁMBRICAS",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2025-05-29T00:00:00",
+      "materia": "TECNOLOGÍAS INALÁMBRICAS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 1,
+      "comentario": "Es mi profe fav"
+    },
+    {
+      "fecha_iso": "2025-05-29T00:00:00",
+      "materia": "TECNOLOGÍAS INALÁMBRICAS",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2020-12-14T00:00:00",
+      "materia": "ADMINISTRACION Y SEGURIDAD DE REDES",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2020-06-06T00:00:00",
+      "materia": "REDES EMERGENTES",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2020-06-05T00:00:00",
+      "materia": "REDES EMERGENTES",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": "Muy buen maestro, las clases son bastante claras y los trabajos no son complicados además de que siempre que tienes una duda puede atenderte y resolverla con gusto"
+    },
+    {
+      "fecha_iso": "2020-06-05T00:00:00",
+      "materia": "TECNOLOGIAS INALÁMBRICAS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Si tienes alguna duda con gusto te ayuda, por su manera de explicar se te quedan los conceptos muy bien grabados pero también tienes que estudiar por ti para sus exámenes, recomendado."
+    },
+    {
+      "fecha_iso": "2020-06-05T00:00:00",
+      "materia": "ADMINISTRACION Y SEGURIDAD DE REDES",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Uno de los maestros que mas ayuda me ha dado en toda la carrera, siempre dispuesto a ayudarme en sus tiempos libres cuando podia y aclaraba todas mis dudas, hayan sido de su propia materia o de otras."
+    },
+    {
+      "fecha_iso": "2020-06-05T00:00:00",
+      "materia": "ADMINISTRACIÓN Y SEGURIDAD DE REDES",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": "El profesor sabe impartir clases, explica de manera clara y con ejemplos en contexto real. Se aclaran los criterios de evaluación desde un inicio y en los exámenes viene únicamente lo visto en clase."
+    },
+    {
+      "fecha_iso": "2020-06-05T00:00:00",
+      "materia": "ADMINISTRACIÓN Y SEGURIDAD DE REDES",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": "Es muy fácil abordar cualquier duda con el profe además de que siempre es muy amable, en general muy buen maestro , además sus clases no son aburridas"
+    },
+    {
+      "fecha_iso": "2020-06-05T00:00:00",
+      "materia": "ADMINISTRACIÓN Y SEGURIDAD DE REDES",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Es un buen maestro, siempre que tienes una duda esta ahí ya sea en la escuela o por mensaje. Eh llevado 3 materias con el y en todas tiene el mismo ritmo de trabajo, sabe mucho de los temas de las materias."
+    },
+    {
+      "fecha_iso": "2020-06-05T00:00:00",
+      "materia": "ADMINISTRACIÓN Y SEGURIDAD DE REDES",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Es un muy buen profesor, te aclara todas las dudas, siempre está dispuesto a ayudar"
+    },
+    {
+      "fecha_iso": "2020-06-05T00:00:00",
+      "materia": "ADMINISTRACION Y SEGURIDAD DE REDES",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Es un excelente maestro, merece dar la materia y se aprende mucho con el y cuando no se entiende un tema siempre esta disponible para ayudarnos"
+    },
+    {
+      "fecha_iso": "2019-08-22T00:00:00",
+      "materia": "FUNDAMENTOS DE TELECOMONICACIONES",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": "DIGAMOS QUE EL QUE REPRUEBA CON EL ES POR QUE NO SE PUSO LAS PILAS EL PROFE SABE MUCHO Y EXPLICA MUY BIEN, LOS EXAMENES ESTAN BIEN NO SON MUY COMPLICADOS DIGAMOS QUE ES MUY JUSTO"
+    },
+    {
+      "fecha_iso": "2019-08-03T00:00:00",
+      "materia": "TECNOLOGÍAS INALÁMBRICAS",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": "Es buen maestro, te explica con ejemplos de la vida real, sus exámenes son idénticos alas diapositivas ."
+    },
+    {
+      "fecha_iso": "2019-05-15T00:00:00",
+      "materia": "REDES EMERGENTES",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 23.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2019-03-25T00:00:00",
+      "materia": "FUNDAMENTOS DE TELECOMUNICACIONES",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 23.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2018-11-07T00:00:00",
+      "materia": "REDES EMERGENTES",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": ""
+    }
+  ],
+  "comments_recent": [
+    "Exelente maestro, cargen con el",
+    "Excelente profe, explica super bien y da muy bueno ejemplos, solo tienes que ponerle empeño y no ser flojo",
+    "Si cumples con todo lo que solicita y estudias para los exámenes es fácil pasar. Las rúbricas de revisión son estrictas pero siempre las da a conocer al dejar los trabajos m.",
+    "Hecharle ganas y los exámenes pueden ser confusos pero todo bien",
+    "Recomendado, solo hay que ponerle empeño",
+    "Es mi profe fav"
+  ],
+  "n_reviews": 24
+}

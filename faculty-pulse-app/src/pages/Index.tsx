@@ -1,46 +1,68 @@
-import React, { useState } from 'react';
-import { Professor } from '@/types/professor';
-import { FileUploader } from '@/components/FileUploader';
+import React, { useState, useEffect } from 'react';
+import { Professor, ProfessorError } from '@/types/professor';
 import { ProfessorList } from '@/components/ProfessorList';
 import { ProfessorProfile } from '@/components/ProfessorProfile';
+import { ErrorProfessors } from '@/components/ErrorProfessors';
 import { Button } from '@/components/ui/button';
-import { GraduationCap, ArrowRight, Database } from 'lucide-react';
+import { GraduationCap, ArrowRight, Database, Loader2, RefreshCw, Trash2 } from 'lucide-react';
 import { useToast } from '@/hooks/use-toast';
+import { ProfessorLoaderService } from '@/services/professorLoader';
+import { useApiKey } from '@/hooks/useApiKey';
 
-type ViewMode = 'upload' | 'list' | 'profile';
+type ViewMode = 'loading' | 'list' | 'profile';
 
 const Index = () => {
   const [professors, setProfessors] = useState<Professor[]>([]);
+  const [errorProfessors, setErrorProfessors] = useState<ProfessorError[]>([]);
   const [selectedProfessor, setSelectedProfessor] = useState<Professor | null>(null);
-  const [viewMode, setViewMode] = useState<ViewMode>('upload');
+  const [viewMode, setViewMode] = useState<ViewMode>('loading');
+  const [isLoading, setIsLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
+  const [loadingProgress, setLoadingProgress] = useState<{current: number, total: number, loaded: number, errors: number}>({current: 0, total: 0, loaded: 0, errors: 0});
   const { toast } = useToast();
+  const { clearApiKey, isConfigured } = useApiKey();
 
-  const handleFilesLoaded = (loadedProfessors: Professor[]) => {
-    setProfessors(loadedProfessors);
-    setViewMode('list');
-  };
+  // Cargar profesores automáticamente al iniciar
+  useEffect(() => {
+    loadProfessors();
+  }, []);
 
-  const handleLoadSampleData = async () => {
+  const loadProfessors = async () => {
+    setIsLoading(true);
+    setError(null);
+    setLoadingProgress({current: 0, total: 0, loaded: 0, errors: 0});
+    
     try {
-      const response = await fetch('/prueba.json');
-      const data = await response.json();
+      toast({
+        title: "Cargando profesores",
+        description: "Obteniendo datos de archivos JSON...",
+      });
+
+      const result = await ProfessorLoaderService.loadAllProfessors(
+        (current, total, loaded, errors) => {
+          setLoadingProgress({current, total, loaded, errors});
+        }
+      );
       
-      // Handle both single professor object and array of professors
-      const professorsArray = Array.isArray(data) ? data : [data];
-      
-      setProfessors(professorsArray);
+      setProfessors(result.professors);
+      setErrorProfessors(result.errors);
       setViewMode('list');
       
       toast({
-        title: "Datos de ejemplo cargados",
-        description: `Se cargó ${professorsArray.length} profesor(es) desde prueba.json`,
+        title: "Carga completada",
+        description: `${result.professors.length} profesores y ${result.errors.length} errores procesados`,
       });
     } catch (error) {
+      console.error('Error cargando profesores:', error);
+      setError('Error al cargar los profesores. Intenta recargar la página.');
+      
       toast({
-        title: "Error al cargar datos de ejemplo",
-        description: "No se pudo cargar el archivo prueba.json",
+        title: "Error al cargar profesores",
+        description: "No se pudieron cargar los datos de los profesores",
         variant: "destructive",
       });
+    } finally {
+      setIsLoading(false);
     }
   };
 
@@ -69,69 +91,106 @@ const Index = () => {
     }, 2000);
   };
 
+  const handleClearApiKey = () => {
+    clearApiKey();
+    toast({
+      title: "API Key eliminada",
+      description: "La clave ha sido eliminada del navegador",
+      variant: "destructive",
+    });
+  };
+
   const renderContent = () => {
     switch (viewMode) {
-      case 'upload':
+      case 'loading':
         return (
-          <div className="max-w-2xl mx-auto">
-            <div className="text-center mb-8">
-              <div className="flex items-center justify-center gap-2 mb-4">
-                <GraduationCap className="h-8 w-8 text-primary" />
-                <h1 className="text-4xl font-bold bg-gradient-to-r from-primary to-academic-info bg-clip-text text-transparent">
-                  EvaluaProf
-                </h1>
-              </div>
-              <p className="text-xl text-muted-foreground mb-6">
-                Plataforma de análisis y visualización de perfiles académicos
-              </p>
-              <div className="flex items-center justify-center gap-2 text-sm text-muted-foreground">
-                <span>Carga archivos JSON</span>
-                <ArrowRight className="h-4 w-4" />
-                <span>Explora perfiles</span>
-                <ArrowRight className="h-4 w-4" />
-                <span>Análisis IA</span>
-              </div>
+          <div className="max-w-2xl mx-auto text-center px-4">
+            <div className="flex items-center justify-center gap-2 mb-4">
+              <GraduationCap className="h-6 w-6 sm:h-8 sm:w-8 text-primary" />
+              <h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold bg-gradient-to-r from-primary to-academic-info bg-clip-text text-transparent">
+                EvaluaProf
+              </h1>
             </div>
+            <p className="text-lg sm:text-xl text-muted-foreground mb-4 sm:mb-6">
+              Herramienta open source de análisis de perfiles académicos
+            </p>
             
-            <div className="space-y-4">
-              <FileUploader onFilesLoaded={handleFilesLoaded} />
-              
-              <div className="text-center">
-                <p className="text-sm text-muted-foreground mb-2">O prueba con datos de ejemplo</p>
-                <Button 
-                  variant="outline" 
-                  onClick={handleLoadSampleData}
-                  className="gap-2"
-                >
-                  <Database className="h-4 w-4" />
-                  Cargar prueba.json
-                </Button>
+            {isLoading ? (
+              <div className="space-y-3 sm:space-y-4">
+                <Loader2 className="h-6 w-6 sm:h-8 sm:w-8 animate-spin mx-auto text-primary" />
+                <p className="text-base sm:text-lg font-medium">Cargando archivos JSON de profesores...</p>
+                {loadingProgress.total > 0 && (
+                  <div className="space-y-1 sm:space-y-2">
+                    <p className="text-sm sm:text-base font-medium text-primary">
+                      Procesados {loadingProgress.current}/{loadingProgress.total}
+                    </p>
+                    <div className="flex flex-col sm:flex-row gap-2 sm:gap-4 text-xs sm:text-sm justify-center">
+                      <p className="text-green-600">
+                        ✓ Cargados: {loadingProgress.loaded}
+                      </p>
+                      <p className="text-orange-600">
+                        ⚠ Errores: {loadingProgress.errors}
+                      </p>
+                    </div>
+                  </div>
+                )}
+                <p className="text-xs sm:text-sm text-muted-foreground">
+                  Esto puede tomar unos segundos
+                </p>
               </div>
-            </div>
+            ) : error ? (
+              <div className="space-y-3 sm:space-y-4">
+                <div className="p-3 sm:p-4 border border-red-200 bg-red-50 rounded-lg">
+                  <p className="text-red-700 mb-3 sm:mb-4 text-sm sm:text-base">{error}</p>
+                  <Button onClick={loadProfessors} className="gap-2 w-full sm:w-auto">
+                    <RefreshCw className="h-4 w-4" />
+                    Intentar de nuevo
+                  </Button>
+                </div>
+              </div>
+            ) : null}
           </div>
         );
       
       case 'list':
         return (
           <div>
-            <div className="flex items-center justify-between mb-6">
-              <div>
-                <h1 className="text-3xl font-bold">Profesores</h1>
-                <p className="text-muted-foreground">
-                  Explora y filtra los perfiles académicos cargados
+            <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 mb-4 sm:mb-6">
+              <div className="min-w-0">
+                <h1 className="text-2xl sm:text-3xl font-bold truncate">Profesores</h1>
+                <p className="text-sm sm:text-base text-muted-foreground">
+                  Archivos JSON con {professors.length} perfiles académicos
                 </p>
               </div>
-              <Button 
-                variant="outline" 
-                onClick={() => setViewMode('upload')}
-              >
-                Cargar más archivos
-              </Button>
+              <div className="flex flex-col sm:flex-row gap-2 sm:gap-2 shrink-0">
+                <Button 
+                  variant="outline" 
+                  onClick={loadProfessors}
+                  className="gap-2 w-full sm:w-auto"
+                  size="sm"
+                >
+                  <RefreshCw className="h-4 w-4" />
+                  <span className="hidden sm:inline">Recargar</span>
+                  <span className="sm:hidden">Recargar datos</span>
+                </Button>
+                <Button 
+                  variant="outline" 
+                  onClick={handleClearApiKey}
+                  className="gap-2 text-red-600 hover:text-red-700 hover:bg-red-50 w-full sm:w-auto"
+                  title="Debug: Limpiar API Key de OpenAI"
+                  size="sm"
+                >
+                  <Trash2 className="h-4 w-4" />
+                  <span className="hidden sm:inline">Debug API</span>
+                  <span className="sm:hidden">Debug</span>
+                </Button>
+              </div>
             </div>
             <ProfessorList 
               professors={professors} 
               onProfessorSelect={handleProfessorSelect} 
             />
+            <ErrorProfessors errors={errorProfessors} />
           </div>
         );
       
@@ -151,7 +210,7 @@ const Index = () => {
 
   return (
     <div className="min-h-screen bg-background">
-      <div className="container mx-auto px-4 py-8">
+      <div className="container mx-auto px-2 sm:px-4 lg:px-6 py-4 sm:py-6 lg:py-8">
         {renderContent()}
       </div>
     </div>

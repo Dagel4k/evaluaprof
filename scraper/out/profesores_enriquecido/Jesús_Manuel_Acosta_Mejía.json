@@ -1,0 +1,576 @@
+{
+  "professor_id": "Jesús_Manuel_Acosta_Mejía",
+  "nombre": "Jesús Manuel Acosta Mejía",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 5.989915175008514,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.165445127716139,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.676,
+    "wilson_interval": [
+      0.5146336850482394,
+      0.8036692217918452
+    ],
+    "n_recommendations": 37
+  },
+  "subject_normalization": {
+    "z_mean": -0.17,
+    "z_mean_decayed": -0.56,
+    "per_subject": [
+      {
+        "materia": "CALCULO DIFERENCIAL",
+        "z_decayed": 0.9421633023090474,
+        "n": 110
+      },
+      {
+        "materia": "ECONOMIA",
+        "z_decayed": 0.8,
+        "n": 17
+      },
+      {
+        "materia": "CONTABILIDAD ORIENTADA A LOS NEGOCIOS",
+        "z_decayed": 0.5773502691896257,
+        "n": 3
+      },
+      {
+        "materia": "GESTION DE COSTOS",
+        "z_decayed": 0.5004360538658276,
+        "n": 5
+      },
+      {
+        "materia": "GESTIÓN DE COSTOS",
+        "z_decayed": 0.21342679053640043,
+        "n": 15
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "quieres",
+          "aprender",
+          "bien",
+          "es",
+          "si"
+        ],
+        "weight": 0.08671328391837509
+      },
+      {
+        "id": 1,
+        "words": [
+          "ayuda",
+          "maestro es",
+          "excelente",
+          "excelente maestro",
+          "maestro"
+        ],
+        "weight": 0.09106883405491335
+      },
+      {
+        "id": 2,
+        "words": [
+          "ensena",
+          "recomendado",
+          "profesor",
+          "aprendas",
+          "te"
+        ],
+        "weight": 0.11838095708212872
+      },
+      {
+        "id": 3,
+        "words": [
+          "habla bajo",
+          "es buen",
+          "maestro",
+          "buen maestro",
+          "buen"
+        ],
+        "weight": 0.09529255509503368
+      },
+      {
+        "id": 4,
+        "words": [
+          "evitenlo",
+          "vez",
+          "explica",
+          "profe",
+          "paso"
+        ],
+        "weight": 0.10484406330526133
+      }
+    ],
+    "sentiment": {
+      "overall": 0.18181818181818182,
+      "by_month": {
+        "2025-06": 1.0,
+        "2025-05": -0.3333333333333333,
+        "2025-04": 0.0,
+        "2024-11": 0.0,
+        "2024-10": 0.0,
+        "2024-06": 0.0,
+        "2024-03": 1.0,
+        "2023-12": 0.0,
+        "2021-01": 1.0,
+        "2020-06": 1.0,
+        "2020-03": 0.0,
+        "2020-01": 0.0,
+        "2019-01": 0.5,
+        "2018-06": 0.3333333333333333,
+        "2018-05": 0.0,
+        "2018-03": 1.0,
+        "2017-08": 0.0,
+        "2016-06": 0.0,
+        "2015-01": 0.0,
+        "2014-02": 0.0,
+        "2014-01": 0.0,
+        "2013-07": 0.0,
+        "2013-01": 0.0,
+        "2012-10": 0.0
+      }
+    },
+    "n_comments": 33
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        10.0,
+        10.0,
+        6.0,
+        7.0,
+        10.0,
+        8.0,
+        10.0,
+        10.0,
+        4.0,
+        10.0,
+        2.0,
+        8.0,
+        2.0,
+        10.0,
+        9.0,
+        2.0,
+        10.0,
+        10.0,
+        2.0,
+        10.0,
+        10.0,
+        7.0,
+        10.0,
+        7.0,
+        2.0,
+        4.666666666666667,
+        2.0
+      ],
+      "ewma": [
+        10.0,
+        10.0,
+        8.8,
+        8.26,
+        8.782,
+        8.5474,
+        8.983179999999999,
+        9.288225999999998,
+        7.701758199999999,
+        8.391230739999997,
+        6.473861517999998,
+        6.931703062599999,
+        5.452192143819999,
+        6.816534500673999,
+        7.471574150471799,
+        5.830101905330259,
+        7.081071333731181,
+        7.956749933611826,
+        6.169724953528278,
+        7.318807467469794,
+        8.123165227228856,
+        7.786215659060199,
+        8.450350961342139,
+        8.015245672939496,
+        6.210671971057646,
+        5.747470379740353,
+        4.623229265818247
+      ],
+      "sigma": 2.4341316078029136
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 4.623229265818247,
+      "quality_band": [
+        0.0,
+        9.394127217111958
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2025-06-03T00:00:00",
+      "materia": "CONTABILIDAD FINANCIERA",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 0,
+      "comentario": "el peor profesor con el que pude tratar, si quieres hacerte la vida imposible, carga con el, exámenes a deshoras(3 am), califica como le da su gana y nunca es claro con sus clases, se burla de ti y es super soberbio"
+    },
+    {
+      "fecha_iso": "2025-05-25T00:00:00",
+      "materia": "CONTABILIDAD FINANCIERA",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 23.0,
+      "recomienda": 1,
+      "comentario": "Big Show. Profe horrible, explica demasiado rápido pero si puedes seguirle el paso entonces aprendes una que otra cosa. Es muy exigente tanto con sus exámenes como con sus tareas, sus recuperaciones valen cada vez menos dependiendo del intento que hagas. Si tienen la oportunidad, evitenlo"
+    },
+    {
+      "fecha_iso": "2025-05-13T00:00:00",
+      "materia": "CONTABILIDAD FINANCIERA",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 5.0,
+      "recomienda": 0,
+      "comentario": "muy mal profe en todos los aspectos del estudio podra tener personalidad agradable pero lo unico que hace es perjudicarte, no enseñarte y estresarte mas en vez de enseñar con claridad"
+    },
+    {
+      "fecha_iso": "2025-05-07T00:00:00",
+      "materia": "ADMINISTRACIÓN",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": "Explica muy rápido en poco tiempo los temas, solo el 5% como de 4 salones pasaron, en mi opinión no lo recomiendo, evítenlo para quitarse un dolor de cabeza, eso sí es buena persona en el aspecto de personalidad, pero tratándose de estudio nada que ver."
+    },
+    {
+      "fecha_iso": "2025-04-12T00:00:00",
+      "materia": "CONTABILIDAD FINANCIERA",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": "Se pasó de verga, me hizo una chokeslam desde lo alto del Up"
+    },
+    {
+      "fecha_iso": "2024-11-22T00:00:00",
+      "materia": "COSTOS EMPRESARIALES",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Muy buen profe, si exige mucho, pero aprendes bastante bien y cuando anda de buenas hasta cae bien"
+    },
+    {
+      "fecha_iso": "2024-10-10T00:00:00",
+      "materia": "COSTOS EMPRESARIALES",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Muy buen maestro solo que a veces va muy rápidos con los temas, pero manda videos y sirven bastante de apoyo"
+    },
+    {
+      "fecha_iso": "2024-08-13T00:00:00",
+      "materia": "COSTOS EMPRESARIALES",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2024-06-23T00:00:00",
+      "materia": "CONTABILIDAD FINANCIERA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Recomendado"
+    },
+    {
+      "fecha_iso": "2024-03-15T00:00:00",
+      "materia": "GESTIÓN DE COSTOS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Excelente maestro, ayuda mucho"
+    },
+    {
+      "fecha_iso": "2023-12-15T00:00:00",
+      "materia": "GESTION",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "B"
+    },
+    {
+      "fecha_iso": "2021-01-21T00:00:00",
+      "materia": "CALCULO DIFERENCIAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Es un muy buen maestro, comprensivo y explica súper bien, para pasar con el solo ocupas poner atención"
+    },
+    {
+      "fecha_iso": "2020-06-13T00:00:00",
+      "materia": "CONTABILIDAD FINANCIERA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Es un excelente maestro, es comprensivo cuando no le entiendes y te explica"
+    },
+    {
+      "fecha_iso": "2020-03-03T00:00:00",
+      "materia": "COSTOS",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 6.5,
+      "recomienda": 0,
+      "comentario": "no sirve como maestro"
+    },
+    {
+      "fecha_iso": "2020-01-12T00:00:00",
+      "materia": "GESTIÓN DE COSTOS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Es un profesor muy completo, interesado por su materia y por sus alumnos. Deja demasiados trabajos pero siempre con la finalidad de que aprendas."
+    },
+    {
+      "fecha_iso": "2020-01-12T00:00:00",
+      "materia": "GESTIÓN DE COSTOS",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": "Es fácil si le echas ganas y te gusta la materia, por el contrario creerás que es RC desde el principio, pero neta te da muchísimas oportunidades y si ve que te esforzaste al final te pasará. Aprendes muchísimo."
+    },
+    {
+      "fecha_iso": "2019-01-14T00:00:00",
+      "materia": "GESTIÓN DE COSTOS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Es un excelente profesor! Muy estricto, pero te ayuda si le echas ganas. Resuelve todas tus dudas, yo lo recomiendo si quieres aprender. Si vas solo por la calificación, no cargues con el."
+    },
+    {
+      "fecha_iso": "2019-01-10T00:00:00",
+      "materia": "GESTIÓN DE COSTOS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Es muy extricto el cabron, explica muy bien, califica algo duro nada fuera de lo normal, da asesoría los viernes , pero si eres de los que te vale v... No carges porque el bigshow te dará su super golpe... Jajajaja jajajaja"
+    },
+    {
+      "fecha_iso": "2018-08-17T00:00:00",
+      "materia": "CONTABILIDAD",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 25.0,
+      "recomienda": 0,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2018-06-12T00:00:00",
+      "materia": "GESTION DE COSTOS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Es un maestro excelente bastante duro dificil sus examenes debido a que hay que razonarlo es muy pasciente te brinda asesorias los viernes, pero si eres flojo mejor no carges con el es bien canijo."
+    },
+    {
+      "fecha_iso": "2018-06-11T00:00:00",
+      "materia": "GESTIÓN DE COSTOS",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 24.0,
+      "recomienda": 0,
+      "comentario": "Malísimo"
+    },
+    {
+      "fecha_iso": "2018-06-09T00:00:00",
+      "materia": "GESTIÓN DE COSTOS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Excelente maestro la verdad solo no pasa el que es huevon, te hace pensar lo que muchos no quieren, si eres flojo y no quieres aprender no cargues con el. Buscate los otros maestros barcos."
+    },
+    {
+      "fecha_iso": "2018-06-07T00:00:00",
+      "materia": "GESTIÓN DE COSTOS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2018-05-16T00:00:00",
+      "materia": "GESTIÓN DE COSTOS",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 22.0,
+      "recomienda": 0,
+      "comentario": "Explica muuuuy mal, sus clases muuy confusas, examenes muy largos y dificiles, se clava mucho en la materia y cree que todos somos contadores, NO LO RECOMIENDO PARA NADA."
+    },
+    {
+      "fecha_iso": "2018-03-20T00:00:00",
+      "materia": "GESTIÓN DE COSTOS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Excelente maestro, es fuerte con los comentarios pero hacen falta."
+    },
+    {
+      "fecha_iso": "2018-01-14T00:00:00",
+      "materia": "GESTIÓN DE COSTOS",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 0,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2017-08-08T00:00:00",
+      "materia": "CONTABILIDAD ORIENTADA A LOS NEGOCIOS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "si quieres aprender de contabilidad el es el indicado pero si tienes que estudiar explica muy bien"
+    },
+    {
+      "fecha_iso": "2016-06-05T00:00:00",
+      "materia": "CONTABILIDAD ORIENTADA A LOS NEGOCIOS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "LA VERDAD NO ES UN MAESTRO QUE TE CAIGA BIEN, ES MUY DURO EXPLICA MUY BIEN, SE LOS RECOMIENDO SI QUIEREN APRENDER Y SUFRIR"
+    },
+    {
+      "fecha_iso": "2015-01-15T00:00:00",
+      "materia": "CONTABILIDAD FINANCIERA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Habla muy bajo, pero es muy buen maestro"
+    },
+    {
+      "fecha_iso": "2015-01-14T00:00:00",
+      "materia": "CONTABLIDAD",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Habla bajo, no se le entiende bien, no sabe explicar. Es fácil pasar si se estudia de verdad (de forma independiente) pero él no es muy comprensible."
+    },
+    {
+      "fecha_iso": "2015-01-07T00:00:00",
+      "materia": "COSTOS",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Muy buen profesor, exámenes fáciles ademas que aprendes mucho. Enseña cosas practicas que te sirven mucho"
+    },
+    {
+      "fecha_iso": "2014-02-03T00:00:00",
+      "materia": "GESTION DE COSTOS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "100% RECOMENDADO TE ENSEÑA Y TE AYUDA APRENDAS DE MANERA PRACTICA SIN TANTA TEORIA ENFADOSA"
+    },
+    {
+      "fecha_iso": "2014-01-13T00:00:00",
+      "materia": "GESTION DE COSTOS",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "explica medio enredoso, aprendes mas o menos, los examenes estan faciles, pero te apoya un monton"
+    },
+    {
+      "fecha_iso": "2013-07-27T00:00:00",
+      "materia": "ECONOMIA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Es un buen profesor se preocupa para que aprendas cuando uno le interesa saber te apoya hay muchos."
+    },
+    {
+      "fecha_iso": "2013-07-18T00:00:00",
+      "materia": "ECONOMÍA",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Falta mucho y no sabe nada, así que no se sí es mejor que no asista regularmente, porque no aclara nada, le vale y al final nos pasa a todos aunque no sepamos nada, creo que así comienza no asistir. No se lo recomiendo, no aprendes nada."
+    },
+    {
+      "fecha_iso": "2013-01-16T00:00:00",
+      "materia": "ECONOMIA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Este maestro lleva las materias muy fáciles, falta mucho pero hace exámenes orales o escritos y al final te ayuda con calificación."
+    },
+    {
+      "fecha_iso": "2012-10-30T00:00:00",
+      "materia": "FUDAMENTOS DE INVESTIGACIÓN",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Este profe sabe que esta materia no es gran cosa y te no te exige gran cosa, falta mucho como parte de eso, sus exámenes sean orales o escritos son fáciles y el proyecto que pide puede ser algo muy sencillo."
+    }
+  ],
+  "comments_recent": [
+    "el peor profesor con el que pude tratar, si quieres hacerte la vida imposible, carga con el, exámenes a deshoras(3 am), califica como le da su gana y nunca es claro con sus clases, se burla de ti y es super soberbio",
+    "Big Show. Profe horrible, explica demasiado rápido pero si puedes seguirle el paso entonces aprendes una que otra cosa. Es muy exigente tanto con sus exámenes como con sus tareas, sus recuperaciones valen cada vez menos dependiendo del intento que hagas. Si tienen la oportunidad, evitenlo",
+    "muy mal profe en todos los aspectos del estudio podra tener personalidad agradable pero lo unico que hace es perjudicarte, no enseñarte y estresarte mas en vez de enseñar con claridad",
+    "Explica muy rápido en poco tiempo los temas, solo el 5% como de 4 salones pasaron, en mi opinión no lo recomiendo, evítenlo para quitarse un dolor de cabeza, eso sí es buena persona en el aspecto de personalidad, pero tratándose de estudio nada que ver.",
+    "Se pasó de verga, me hizo una chokeslam desde lo alto del Up",
+    "Muy buen profe, si exige mucho, pero aprendes bastante bien y cuando anda de buenas hasta cae bien",
+    "Muy buen maestro solo que a veces va muy rápidos con los temas, pero manda videos y sirven bastante de apoyo",
+    "Recomendado",
+    "Excelente maestro, ayuda mucho"
+  ],
+  "n_reviews": 37
+}

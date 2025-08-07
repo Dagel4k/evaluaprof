@@ -1,0 +1,322 @@
+{
+  "professor_id": "Carlos_Aragón_Hernandez",
+  "nombre": "Carlos Aragón Hernandez",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 6.791104212630492,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 6.990663375110773,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.643,
+    "wilson_interval": [
+      0.3876400468214041,
+      0.8365550926279727
+    ],
+    "n_recommendations": 14
+  },
+  "subject_normalization": {
+    "z_mean": 0.17,
+    "z_mean_decayed": 0.11,
+    "per_subject": [
+      {
+        "materia": "MATEMATICAS",
+        "z_decayed": 0.8169471328572092,
+        "n": 17
+      },
+      {
+        "materia": "---",
+        "z_decayed": 0.3754377852428686,
+        "n": 521
+      },
+      {
+        "materia": "ALGEBRA LINEAL",
+        "z_decayed": 0.27881743533395525,
+        "n": 35
+      },
+      {
+        "materia": "ÁLGEBRA LINEAL",
+        "z_decayed": -0.08166054689165982,
+        "n": 23
+      },
+      {
+        "materia": "MATEMATICAS V",
+        "z_decayed": -0.607453009370909,
+        "n": 22
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "excelente",
+          "excelente maestro",
+          "maestro",
+          "buen",
+          "buen maestro"
+        ],
+        "weight": 0.13515688949645746
+      },
+      {
+        "id": 1,
+        "words": [
+          "si pasas",
+          "mas",
+          "es",
+          "es libidinoso",
+          "libidinoso"
+        ],
+        "weight": 0.10252303694149192
+      },
+      {
+        "id": 2,
+        "words": [
+          "esperando",
+          "esperando revision",
+          "comentario",
+          "comentario esperando",
+          "revision"
+        ],
+        "weight": 0.1104867455735644
+      },
+      {
+        "id": 3,
+        "words": [
+          "te",
+          "pasas",
+          "eres",
+          "si eres",
+          "si"
+        ],
+        "weight": 0.154389132871863
+      },
+      {
+        "id": 4,
+        "words": [
+          "examenes",
+          "excelente maestro",
+          "compa",
+          "excelente",
+          "es"
+        ],
+        "weight": 0.19724314400290438
+      }
+    ],
+    "sentiment": {
+      "overall": 0.23076923076923078,
+      "by_month": {
+        "2013-11": 0.0,
+        "2013-08": 1.0,
+        "2012-12": 1.0,
+        "2012-08": 0.0,
+        "2012-05": 0.0,
+        "2011-10": 0.0,
+        "2011-08": 0.0,
+        "2011-05": 0.0,
+        "2011-04": 0.0,
+        "2011-01": 0.5
+      }
+    },
+    "n_comments": 13
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.026,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 0.99
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        6.5,
+        10.0,
+        7.666666666666667,
+        9.0,
+        2.0,
+        8.0,
+        2.0,
+        8.0,
+        8.0,
+        5.0
+      ],
+      "ewma": [
+        6.5,
+        7.55,
+        7.584999999999999,
+        8.0095,
+        6.206649999999999,
+        6.744654999999998,
+        5.321258499999998,
+        6.124880949999998,
+        6.687416664999999,
+        6.181191665499999
+      ],
+      "sigma": 2.2078555852630593
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 6.181191665499999,
+      "quality_band": [
+        1.8537947183844032,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2013-11-14T00:00:00",
+      "materia": "---",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2013-08-04T00:00:00",
+      "materia": "ECU. DIFERENCIALES MATE V",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 1,
+      "comentario": "Si eres Bueno en mate y no se te dificulta si pasas, es buen profesor explica bien pero si hace examenes medio dificiles, pero todo lo enseña en clases, si no faltas haces tareas y pasas el examen te lo recomiendo, si eres mujer hay mas probabilidad de pasar"
+    },
+    {
+      "fecha_iso": "2012-12-17T00:00:00",
+      "materia": "ÁLGEBRA LINEAL",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Mis respetos para Aragón es un excelente maestro, explica EXCELENTE de una manera muy calmada y precisa, es muy buena onda y compa PERO....................NO ES NADA ACCESIBLE y pss me pesa.. es lo unico \"no bueno\" de él. \n**pd. si ya pasaste con 70 no te deja subir."
+    },
+    {
+      "fecha_iso": "2012-08-16T00:00:00",
+      "materia": "CALCULO INT",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Si eres huevon y no quieres batallar no cargues con el"
+    },
+    {
+      "fecha_iso": "2012-05-16T00:00:00",
+      "materia": "MATEMÁTICAS 3",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Buen maestro, razonable en la calificación final"
+    },
+    {
+      "fecha_iso": "2011-10-27T00:00:00",
+      "materia": "MATEMÁTICAS 5",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Es un libidinoso"
+    },
+    {
+      "fecha_iso": "2011-08-25T00:00:00",
+      "materia": "ALGEBRA LINEAL",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": "Sus examenes son pasado de dificiles pero es compa x))"
+    },
+    {
+      "fecha_iso": "2011-05-29T00:00:00",
+      "materia": "MATE 3, 4 Y 5",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Altamente recomendado. De plano necesitas ser muy bruto para no entenderle. Yo creo que es el mejor maestro del Tec de Culiacan. Sus examenes, muy duros. Creo que asi debe ser. Si le pasas sus materias, casi es garantia de que egresaras."
+    },
+    {
+      "fecha_iso": "2011-05-10T00:00:00",
+      "materia": "MATEMATICAS V",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": "buen maestro"
+    },
+    {
+      "fecha_iso": "2011-05-06T00:00:00",
+      "materia": "MATEMATICAS V",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 1,
+      "comentario": "muy buen maestro"
+    },
+    {
+      "fecha_iso": "2011-04-30T00:00:00",
+      "materia": "---",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2011-04-12T00:00:00",
+      "materia": "MATEMATICAS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2011-01-31T00:00:00",
+      "materia": "MATEMÁTICAS III",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": 0.5,
+      "recomienda": 0,
+      "comentario": "Nada mas les esplica a las mujeres, es un libidinoso, ojete."
+    },
+    {
+      "fecha_iso": "2011-01-30T00:00:00",
+      "materia": "MATE II",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "EXCELENTE MAESTRO, MUCHO CONOCIMIENTO Y MUY CLARO AL EXPLICAR,"
+    }
+  ],
+  "comments_recent": [
+    "[Comentario esperando revisión]",
+    "Si eres Bueno en mate y no se te dificulta si pasas, es buen profesor explica bien pero si hace examenes medio dificiles, pero todo lo enseña en clases, si no faltas haces tareas y pasas el examen te lo recomiendo, si eres mujer hay mas probabilidad de pasar",
+    "Mis respetos para Aragón es un excelente maestro, explica EXCELENTE de una manera muy calmada y precisa, es muy buena onda y compa PERO....................NO ES NADA ACCESIBLE y pss me pesa.. es lo unico \"no bueno\" de él. \n**pd. si ya pasaste con 70 no te deja subir.",
+    "Si eres huevon y no quieres batallar no cargues con el",
+    "Buen maestro, razonable en la calificación final",
+    "Es un libidinoso",
+    "Sus examenes son pasado de dificiles pero es compa x))",
+    "Altamente recomendado. De plano necesitas ser muy bruto para no entenderle. Yo creo que es el mejor maestro del Tec de Culiacan. Sus examenes, muy duros. Creo que asi debe ser. Si le pasas sus materias, casi es garantia de que egresaras.",
+    "buen maestro",
+    "muy buen maestro"
+  ],
+  "n_reviews": 14
+}

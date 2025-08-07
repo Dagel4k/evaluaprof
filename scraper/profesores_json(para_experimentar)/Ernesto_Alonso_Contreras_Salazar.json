@@ -1,0 +1,84 @@
+{
+  "nombre": "Ernesto Alonso Contreras Salazar",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "ciudad": "Ciudad: culiacan, sinaloa",
+  "departamento": "Departamento/Facultad: Ingeniería Industrial",
+  "calidad_general": 4.5,
+  "porcentaje_recomienda": 25,
+  "nivel_dificultad": 4.5,
+  "etiquetas": [
+    "HACE EXÁMENES SORPRESA (1)",
+    "LAS CLASES SON LARGAS (1)",
+    "MUCHOS PROYECTOS GRUPALES (1)",
+    "CALIFICA DURO (1)",
+    "PREPÁRATE PARA LEER (1)",
+    "ASISTENCIA OBLIGATORIA (1)"
+  ],
+  "numero_calificaciones": 4,
+  "calificaciones": [
+    {
+      "fecha": "04/Dic/2022",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 9.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Ing. De Sistemas",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "8",
+      "interes_clase": "",
+      "comentario": "",
+      "etiquetas_comentario": [
+        "Califica Duro",
+        "Prepárate para leer",
+        "Asistencia obligatoria"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "07/May/2021",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 2.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "taller de liderazgo",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "9.5",
+      "interes_clase": "",
+      "comentario": "es un dolor de hvs, su religión son los eneatipos, nos pedía grabarnos meditando (sesiones de 1hr)... totalmente innecesario, siempre estaba tratando de joder al grupo. \nA la hora de calificar era estricto.\nSe toma demasiado en serio la clase.",
+      "etiquetas_comentario": [
+        "Hace exámenes sorpresa",
+        "Las clases son largas",
+        "Muchos proyectos grupales"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "28/Ago/2015",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 2.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Maestría",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "9",
+      "interes_clase": "",
+      "comentario": "Pésimo, deja mucho que desear, manipulador",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "14/Nov/2013",
+      "tipo_calificacion": "REGULAR",
+      "puntaje_calidad_general": 5.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Ing. de productos y servicios",
+      "asistencia": "",
+      "calificacion_recibida": "N/A",
+      "interes_clase": "N/A",
+      "comentario": "Aprendes con el, ya que te presiona en extremo para que estudies. Es bipolar e irrespetuoso con los alumnos, no cumple lo que dice y siempre busca la manera de perjudicar al grupo. NO lo recomiendo si quieren un clase tranquila, clara y con un maestro de criterio.",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    }
+  ]
+}

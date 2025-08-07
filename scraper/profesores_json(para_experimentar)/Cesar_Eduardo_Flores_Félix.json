@@ -1,0 +1,35 @@
+{
+  "nombre": "Cesar Eduardo Flores Félix",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "ciudad": "Ciudad: culiacan, sinaloa",
+  "departamento": "Departamento/Facultad: Industrial",
+  "calidad_general": 10.0,
+  "porcentaje_recomienda": 100,
+  "nivel_dificultad": 4.0,
+  "etiquetas": [
+    "DA BUENA RETROALIMENTACIÓN (1)",
+    "CLASES EXCELENTES (1)",
+    "TOMARÍA SU CLASE OTRA VEZ (1)"
+  ],
+  "numero_calificaciones": 1,
+  "calificaciones": [
+    {
+      "fecha": "23/Nov/2022",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Estadistica Inferencial I",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "9",
+      "interes_clase": "",
+      "comentario": "Muy buen profesor si te sale para cargar en cualquier materia, no la pienses y carga con el 10 de 10.",
+      "etiquetas_comentario": [
+        "Da buena retroalimentación",
+        "Clases excelentes",
+        "Tomaría su clase otra vez"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    }
+  ]
+}

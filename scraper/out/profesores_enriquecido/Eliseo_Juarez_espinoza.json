@@ -1,0 +1,203 @@
+{
+  "professor_id": "Eliseo_Juarez_espinoza",
+  "nombre": "Eliseo Juarez espinoza",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 6.270707326677529,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 6.457407117803445,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.429,
+    "wilson_interval": [
+      0.1582169222626268,
+      0.7495457695909742
+    ],
+    "n_recommendations": 7
+  },
+  "subject_normalization": {
+    "z_mean": -0.1,
+    "z_mean_decayed": -0.18,
+    "per_subject": [
+      {
+        "materia": "CIRCUITOS ELÉCTRICOS",
+        "z_decayed": -0.18272158053341866,
+        "n": 4
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "preguntas",
+          "si preguntas",
+          "regular",
+          "te",
+          "si"
+        ],
+        "weight": 0.26898289574290635
+      },
+      {
+        "id": 1,
+        "words": [
+          "si",
+          "bien",
+          "ensena",
+          "es",
+          "ahi"
+        ],
+        "weight": 0.21146050486508275
+      },
+      {
+        "id": 2,
+        "words": [
+          "cosas",
+          "es",
+          "explica",
+          "bien",
+          "recomiendo"
+        ],
+        "weight": 0.1818448754678795
+      }
+    ],
+    "sentiment": {
+      "overall": 0.0,
+      "by_month": {
+        "2022-02": 0.0,
+        "2019-08": 0.0,
+        "2017-08": 0.0,
+        "2015-09": 0.0,
+        "2015-01": 0.0,
+        "2013-06": 0.0
+      }
+    },
+    "n_comments": 6
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        6.0,
+        2.0,
+        2.0,
+        10.0,
+        7.0,
+        7.0,
+        6.0
+      ],
+      "ewma": [
+        6.0,
+        4.799999999999999,
+        3.959999999999999,
+        5.771999999999999,
+        6.1404,
+        6.39828,
+        6.278795999999999
+      ],
+      "sigma": 2.261114615687287
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 6.278795999999999,
+      "quality_band": [
+        1.8470113532529169,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2022-02-18T00:00:00",
+      "materia": "CIRCUITOS ELÉCTRICOS",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 0,
+      "comentario": "No enseña bien, enseña cosas sencillas y en los exámenes pone algo un poco diferente ,que si no tienes conocimientos previos, ni vas a saber como hacerlo. Es muy terco, si dice que no le entregaste algo, de ahí no lo vas a sacar, así tengas evidencia. No carguen con él."
+    },
+    {
+      "fecha_iso": "2019-08-04T00:00:00",
+      "materia": "CIRCUITOS ELÉCTRICOS",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Pues es regular, es medio barco y algo sencillo con el. Si eres mujer no te preocupes, el nunca reprueba mujeres."
+    },
+    {
+      "fecha_iso": "2017-08-04T00:00:00",
+      "materia": "ANALISIS DE CIRCUITOS ELECTRICOS",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "es un maestro regular, enseña mas o menos, algunas veces si le preguntas no te explica pero no siempre, pero al final si ayuda bastante con la calificacion"
+    },
+    {
+      "fecha_iso": "2015-09-05T00:00:00",
+      "materia": "CIRCUITOS 2",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "para mi es un buen profe , solo ahi que estudiar lo de la libreta"
+    },
+    {
+      "fecha_iso": "2015-01-09T00:00:00",
+      "materia": "CONTROL 1",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Muy mal prosefor no sabe muchas cosas nomas las apunta y si le preguntas lo que sea no te contesta... no lo recomiendo"
+    },
+    {
+      "fecha_iso": "2013-06-14T00:00:00",
+      "materia": "CIRCUITOS ELECTRICOS I",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "no explica muy bien y cree que todo lo sabemos \"Eso es pura talacha\" se salta muchos pasos y quedan muy confusos los temas no lo recomiendo"
+    },
+    {
+      "fecha_iso": "2011-07-21T00:00:00",
+      "materia": "ANALISI DE CIRCUITOS ELECTRICOS",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": ""
+    }
+  ],
+  "comments_recent": [
+    "No enseña bien, enseña cosas sencillas y en los exámenes pone algo un poco diferente ,que si no tienes conocimientos previos, ni vas a saber como hacerlo. Es muy terco, si dice que no le entregaste algo, de ahí no lo vas a sacar, así tengas evidencia. No carguen con él.",
+    "Pues es regular, es medio barco y algo sencillo con el. Si eres mujer no te preocupes, el nunca reprueba mujeres.",
+    "es un maestro regular, enseña mas o menos, algunas veces si le preguntas no te explica pero no siempre, pero al final si ayuda bastante con la calificacion",
+    "para mi es un buen profe , solo ahi que estudiar lo de la libreta",
+    "Muy mal prosefor no sabe muchas cosas nomas las apunta y si le preguntas lo que sea no te contesta... no lo recomiendo",
+    "no explica muy bien y cree que todo lo sabemos \"Eso es pura talacha\" se salta muchos pasos y quedan muy confusos los temas no lo recomiendo"
+  ],
+  "n_reviews": 7
+}

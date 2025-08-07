@@ -1,0 +1,334 @@
+{
+  "professor_id": "Alejandra_Garcia_Sandoval",
+  "nombre": "Alejandra Garcia Sandoval",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 9.295497387343568,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 8.311036840106341,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.933,
+    "wilson_interval": [
+      0.70182922447576,
+      0.9881334113938052
+    ],
+    "n_recommendations": 15
+  },
+  "subject_normalization": {
+    "z_mean": 0.75,
+    "z_mean_decayed": 0.87,
+    "per_subject": [
+      {
+        "materia": "PRUEBAS DE SOFTWARE",
+        "z_decayed": 1.613743060919757,
+        "n": 11
+      },
+      {
+        "materia": "PROGRAMACION",
+        "z_decayed": 1.091594021073081,
+        "n": 20
+      },
+      {
+        "materia": "FUNDAMENTOS DE PROGRAMACION",
+        "z_decayed": 0.8120039953779177,
+        "n": 43
+      },
+      {
+        "materia": "PROGRAMACIÓN BÁSICA",
+        "z_decayed": 0.7040213308991611,
+        "n": 14
+      },
+      {
+        "materia": "FUNDAMENTOS DE PROGRAMACIÓN",
+        "z_decayed": 0.35252505597866074,
+        "n": 36
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "clase",
+          "buena",
+          "maestra",
+          "es buena",
+          "es"
+        ],
+        "weight": 0.08395274498937562
+      },
+      {
+        "id": 1,
+        "words": [
+          "excelente",
+          "sabe",
+          "explica",
+          "bien",
+          "explica bien"
+        ],
+        "weight": 0.15920276966586486
+      },
+      {
+        "id": 2,
+        "words": [
+          "programacion",
+          "si",
+          "entendiste",
+          "entender",
+          "si entendiste"
+        ],
+        "weight": 0.1196879470297833
+      },
+      {
+        "id": 3,
+        "words": [
+          "estricta es",
+          "es",
+          "si",
+          "estricta",
+          "es estricta"
+        ],
+        "weight": 0.11448524919674777
+      },
+      {
+        "id": 4,
+        "words": [
+          "temas",
+          "vas",
+          "mi",
+          "tiene",
+          "materia"
+        ],
+        "weight": 0.15213725581441276
+      }
+    ],
+    "sentiment": {
+      "overall": 0.2,
+      "by_month": {
+        "2022-07": 1.0,
+        "2022-06": 0.0,
+        "2022-03": 0.0,
+        "2022-02": 0.0,
+        "2022-01": 0.5,
+        "2021-06": 0.0,
+        "2020-08": 0.5,
+        "2020-01": 0.0,
+        "2019-08": 0.0,
+        "2019-01": 0.0,
+        "2018-11": 0.0
+      }
+    },
+    "n_comments": 15
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        10.0,
+        10.0,
+        8.0,
+        10.0,
+        8.5,
+        8.0,
+        9.5,
+        8.0,
+        10.0,
+        10.0,
+        10.0
+      ],
+      "ewma": [
+        10.0,
+        10.0,
+        9.4,
+        9.58,
+        9.256,
+        8.879199999999999,
+        9.065439999999999,
+        8.745807999999998,
+        9.122065599999999,
+        9.385445919999999,
+        9.569812143999998
+      ],
+      "sigma": 0.7394532834898511
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 9.569812143999998,
+      "quality_band": [
+        8.12048370835989,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2022-07-14T00:00:00",
+      "materia": "PRUEBAS DE SOFTWARE",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Excelente maestra, siempre pregunta por dudas para aclarártelas, los exámenes son fáciles básicamente lo que se vio en clase tal cual en las diapositivas. Al final de cada unidad te deja una tarea que es pase al examen que es básicamente un estudio para pasar. Aprender de manera practica también."
+    },
+    {
+      "fecha_iso": "2022-06-11T00:00:00",
+      "materia": "PRUEBAS DE SOFTWARE",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Qué lástima que no de más materias de la carrera para cargarlas todas con ella, es estricta y es necesario aprender con ella para pasar, no la haces tonta, no te descuides, aparte aprendes mucho sobre cosas importantes"
+    },
+    {
+      "fecha_iso": "2022-06-02T00:00:00",
+      "materia": "PRUEBA DE SOFTWARE",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 23.0,
+      "recomienda": 1,
+      "comentario": "Es una maestra muy amable y muy buena onda, te ayuda si no le entendiste, aparte que te explica de una forma en la que tu puedas entender"
+    },
+    {
+      "fecha_iso": "2022-03-26T00:00:00",
+      "materia": "PROGRAMACION",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Explica bien perro y ademas es linda y sabe mucho"
+    },
+    {
+      "fecha_iso": "2022-02-02T00:00:00",
+      "materia": "FUNDAMENTOS DE PROGRAMACIÓN",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Llevé el semestre pasado esta materia con ella, a mi parecer, tiene muy buenos conocimientos sobre la materia, siempre trata de que uno como alumno entienda los temas que se llevan a lo largo del curso, si es que no supiste algo, se para a explicarlo una vez más. Volvería a cargar con ella."
+    },
+    {
+      "fecha_iso": "2022-01-19T00:00:00",
+      "materia": "FUNDAMENTOS DE PROGRAMACION",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "es estricta pero si le interesa que aprendas, no copies nunca con ella ya que si es algo estricta es de las que si revisan todas las tareas y si copiaste te tendra en la mira, pero seguro aprendes, enseña C# en fundamentos de programacion"
+    },
+    {
+      "fecha_iso": "2022-01-17T00:00:00",
+      "materia": "FUNDAMENTOS DE PROGRAMACIÓN",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Es una excelente profesora, se las recomiendo mucho, en ocasiones la sentía un poco lenta pero en realidad explica muy bien, está muy preparada y le sabe."
+    },
+    {
+      "fecha_iso": "2021-06-18T00:00:00",
+      "materia": "ALGORITMOS Y PROGRAMACION",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 1,
+      "comentario": "Es una buena maestra, participa siempre eso te ayudara, es un poco dura pero nada fuera de lo normal, creo que lo hace para que no le faltemos el resperto ya que ella es joven aun."
+    },
+    {
+      "fecha_iso": "2020-08-12T00:00:00",
+      "materia": "FUNDAMENTOS DE PROGRAMACIÓN",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 5.0,
+      "recomienda": 1,
+      "comentario": "Tiene un método de enseñanza muy claro y un modo de calificar muy raro. Al principio crees que vas bien y que si vas a pasar pero las últimas unidades las da muy equis en mi caso calificó 3 unidades en una sola lo cual no ayudó en absoluto y aparte no hace global. No miramos las dos ultimas unidades"
+    },
+    {
+      "fecha_iso": "2020-08-11T00:00:00",
+      "materia": "PROGRAMACIÓN BÁSICA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Es muy buena profesora, no dudes en cargar con ella, vas a aprender mucho y en los exámenes solo pone lo visto en clase"
+    },
+    {
+      "fecha_iso": "2020-01-16T00:00:00",
+      "materia": "PROGRAMACIÓN BÁSICA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Si ves este nombre, lo cargas sin dudar. A esta profesora realmente le interesa que aprendas y se esfuerza por ayudarte en todo lo posible y ella sabe a la perfección de la materia y como enseñarlo."
+    },
+    {
+      "fecha_iso": "2019-08-20T00:00:00",
+      "materia": "PROGRAMACIÓN BÁSICA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Enseña muy bien y sus clases son muy claras, sus exámenes prácticamente los explica en sus clases y si no tienes con las clases deja material para que repases en linea."
+    },
+    {
+      "fecha_iso": "2019-08-04T00:00:00",
+      "materia": "---",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2019-01-12T00:00:00",
+      "materia": "PROGRAMACIÓN BÁSICA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Yo no sabía absolutamente nada sobre programación, me asignaron a esta profesora y me hizo entender toda su materia. Es cuestión de ponerle atención, si no entendiste a la primera, ella vuelve a explicar y hacen ejercicios muy similares para que vayan entendiendo. Compredan sus examenes y 100."
+    },
+    {
+      "fecha_iso": "2018-11-29T00:00:00",
+      "materia": "PROGRAMACION BÁSICA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Una de las mejores maestras que he tenido, explica muy bien los temas, te resuelve las dudas que tengas, deja muchas tareas en el semestre, los exámenes se podrían considerar difíciles para personas que cursan con otros maestros de programación, sin duda la mejor para esta materia."
+    }
+  ],
+  "comments_recent": [
+    "Excelente maestra, siempre pregunta por dudas para aclarártelas, los exámenes son fáciles básicamente lo que se vio en clase tal cual en las diapositivas. Al final de cada unidad te deja una tarea que es pase al examen que es básicamente un estudio para pasar. Aprender de manera practica también.",
+    "Qué lástima que no de más materias de la carrera para cargarlas todas con ella, es estricta y es necesario aprender con ella para pasar, no la haces tonta, no te descuides, aparte aprendes mucho sobre cosas importantes",
+    "Es una maestra muy amable y muy buena onda, te ayuda si no le entendiste, aparte que te explica de una forma en la que tu puedas entender",
+    "Explica bien perro y ademas es linda y sabe mucho",
+    "Llevé el semestre pasado esta materia con ella, a mi parecer, tiene muy buenos conocimientos sobre la materia, siempre trata de que uno como alumno entienda los temas que se llevan a lo largo del curso, si es que no supiste algo, se para a explicarlo una vez más. Volvería a cargar con ella.",
+    "es estricta pero si le interesa que aprendas, no copies nunca con ella ya que si es algo estricta es de las que si revisan todas las tareas y si copiaste te tendra en la mira, pero seguro aprendes, enseña C# en fundamentos de programacion",
+    "Es una excelente profesora, se las recomiendo mucho, en ocasiones la sentía un poco lenta pero en realidad explica muy bien, está muy preparada y le sabe.",
+    "Es una buena maestra, participa siempre eso te ayudara, es un poco dura pero nada fuera de lo normal, creo que lo hace para que no le faltemos el resperto ya que ella es joven aun.",
+    "Tiene un método de enseñanza muy claro y un modo de calificar muy raro. Al principio crees que vas bien y que si vas a pasar pero las últimas unidades las da muy equis en mi caso calificó 3 unidades en una sola lo cual no ayudó en absoluto y aparte no hace global. No miramos las dos ultimas unidades",
+    "Es muy buena profesora, no dudes en cargar con ella, vas a aprender mucho y en los exámenes solo pone lo visto en clase"
+  ],
+  "n_reviews": 15
+}

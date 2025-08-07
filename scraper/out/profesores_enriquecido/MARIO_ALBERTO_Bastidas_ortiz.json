@@ -1,0 +1,76 @@
+{
+  "professor_id": "MARIO_ALBERTO_Bastidas_ortiz",
+  "nombre": "MARIO ALBERTO Bastidas ortiz",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 4.0,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 6.706901909332597,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.0,
+    "wilson_interval": [
+      0,
+      0.7934567085261071
+    ],
+    "n_recommendations": 1
+  },
+  "subject_normalization": {
+    "z_mean": -0.96,
+    "z_mean_decayed": -0.96,
+    "per_subject": [
+      {
+        "materia": "MATEMATICAS DISCRETAS",
+        "z_decayed": -0.9620103683898447,
+        "n": 19
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [],
+    "sentiment": {
+      "overall": null,
+      "by_month": {}
+    },
+    "n_comments": 1
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": null,
+    "difficulty_trend": null,
+    "forecast": null,
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2024-10-15T00:00:00",
+      "materia": "MATEMATICAS DISCRETAS",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": "el examen vale 100% y no explica nada bien, el mismo se equivoca y lo corregimos diario."
+    }
+  ],
+  "comments_recent": [
+    "el examen vale 100% y no explica nada bien, el mismo se equivoca y lo corregimos diario."
+  ],
+  "n_reviews": 1
+}

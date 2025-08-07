@@ -1,0 +1,132 @@
+{
+  "nombre": "Jose Mario Rios Felix",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "ciudad": "Ciudad: culiacan, sinaloa",
+  "departamento": "Departamento/Facultad: Sistemas",
+  "calidad_general": 9.5,
+  "porcentaje_recomienda": 100,
+  "nivel_dificultad": 2.3,
+  "etiquetas": [
+    "CALIFICA DURO (1)",
+    "MUCHAS TAREAS (1)",
+    "LAS CLASES SON LARGAS (1)",
+    "INSPIRACIONAL (1)",
+    "BRINDA APOYO (2)",
+    "CLASES EXCELENTES (1)",
+    "MUY CÓMICO (3)",
+    "ASISTENCIA OBLIGATORIA (1)",
+    "TOMARÍA SU CLASE OTRA VEZ (2)",
+    "LA PARTICIPACIÓN IMPORTA (1)"
+  ],
+  "numero_calificaciones": 6,
+  "calificaciones": [
+    {
+      "fecha": "25/May/2025",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "fundamentos de programacion",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "9.5",
+      "interes_clase": "",
+      "comentario": "Si estas en mi primer semestre y de pura casualidad te da, te va a ayudar bastante, es un profe que siempre es atento y demuestra tener un gran conocimiento en el tema, incluso te da consejos para el ambito laboral. Preparate para el examen final ya que, en mi caso, fue un poco complicado.",
+      "etiquetas_comentario": [
+        "Muy cómico",
+        "Da buena retroalimentación",
+        "Brinda apoyo"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "24/Ago/2018",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Fundamentos de base de datos",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "La verdad si enseña, es muy fácil pasar con el y el que quiere aprende, puedes pasar y saber poco, el es muy accesible, lastima que en la actualidad dejo de dar clases, esta mejor que con chayito y más fácil que esparza",
+      "etiquetas_comentario": [
+        "Muy cómico",
+        "Da buena retroalimentación",
+        "Pocos Exámenes"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "11/Ene/2018",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Taller de Bases de Datos",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "9.5",
+      "interes_clase": "",
+      "comentario": "Es buen profe, te explica cosas que ocuparas en el futuro, te explica las cosas bien y si no entiendes te las puede volver a explicar. Es buena onda y pues sus examenes no estan tan dificiles.",
+      "etiquetas_comentario": [
+        "La Participación Importa",
+        "Respetado por los estudiantes",
+        "Tomaría su clase otra vez"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "22/Nov/2017",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Taller de Base de Datos",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "9.5",
+      "interes_clase": "",
+      "comentario": "Profesor excelente, divertido y aunque no lo esperes, terminas aprendiendo xD",
+      "etiquetas_comentario": [
+        "Muy cómico",
+        "Asistencia obligatoria",
+        "Tomaría su clase otra vez"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "17/Ene/2017",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Lenguajes y automatas I",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "9",
+      "interes_clase": "",
+      "comentario": "Profe ,si lee esto, lo quiero un chingo, la neta plebes es su mejor opción sea la materia que les salga,es bien camarada, explica claro, esta joven asi que supongo que entiende como hacerlos entender a ustedes, te ayuda como ningun otro profe te va ayudar solo te pide que tambien pongas de tu parte.",
+      "etiquetas_comentario": [
+        "Inspiracional",
+        "Brinda apoyo",
+        "Clases excelentes"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "29/May/2016",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 7.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Algoritmos y lenguaje de programación",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "8",
+      "interes_clase": "",
+      "comentario": "Maestro regular, explica bien y le hecha algo de carrilla a los industriales por que segun la carrera esta bien facil pero de todos los maestros de algoritmos este es el mas pasable. Mucho cuidado si manda a RC y mas a los que tienen muchas faltas y no pasan los examenes",
+      "etiquetas_comentario": [
+        "Califica Duro",
+        "Muchas tareas",
+        "Las clases son largas"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    }
+  ]
+}

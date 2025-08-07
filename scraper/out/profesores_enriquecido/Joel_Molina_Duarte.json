@@ -1,0 +1,400 @@
+{
+  "professor_id": "Joel_Molina_Duarte",
+  "nombre": "Joel Molina Duarte",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 9.749147835068497,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 8.859197366755286,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 1.0,
+    "wilson_interval": [
+      0.8388698745050667,
+      0.9999999999999998
+    ],
+    "n_recommendations": 20
+  },
+  "subject_normalization": {
+    "z_mean": 0.6,
+    "z_mean_decayed": 0.61,
+    "per_subject": [
+      {
+        "materia": "CALCULO DIFERENCIAL",
+        "z_decayed": 0.9421633023090474,
+        "n": 110
+      },
+      {
+        "materia": "CÁLCULO INTEGRAL",
+        "z_decayed": 0.7884298457197201,
+        "n": 24
+      },
+      {
+        "materia": "CÁLCULO DIFERENCIAL",
+        "z_decayed": 0.7526588922815561,
+        "n": 46
+      },
+      {
+        "materia": "ÁLGEBRA LINEAL",
+        "z_decayed": 0.6696164845116104,
+        "n": 23
+      },
+      {
+        "materia": "CALCULO VECTORIAL",
+        "z_decayed": 0.6166598013093814,
+        "n": 57
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "excelente persona",
+          "excelente maestro",
+          "maestro",
+          "si",
+          "excelente"
+        ],
+        "weight": 0.08208967538992241
+      },
+      {
+        "id": 1,
+        "words": [
+          "tiene",
+          "clase",
+          "si",
+          "siempre",
+          "es"
+        ],
+        "weight": 0.14669849268914756
+      },
+      {
+        "id": 2,
+        "words": [
+          "llevar",
+          "ojala",
+          "semestres",
+          "profe",
+          "moligod"
+        ],
+        "weight": 0.12093095583583655
+      },
+      {
+        "id": 3,
+        "words": [
+          "explica",
+          "buena onda",
+          "buena",
+          "onda",
+          "te"
+        ],
+        "weight": 0.15417618329241617
+      },
+      {
+        "id": 4,
+        "words": [
+          "temas",
+          "materias",
+          "mejores",
+          "todas",
+          "carga"
+        ],
+        "weight": 0.09707482678715618
+      }
+    ],
+    "sentiment": {
+      "overall": 0.3,
+      "by_month": {
+        "2024-09": 1.0,
+        "2024-08": 0.0,
+        "2024-06": 0.0,
+        "2024-01": 0.0,
+        "2023-03": 1.0,
+        "2022-05": 0.0,
+        "2022-03": 0.0,
+        "2021-09": 0.0,
+        "2021-08": 0.0,
+        "2021-06": 0.5,
+        "2021-05": 0.0,
+        "2021-01": 1.0,
+        "2020-08": 0.0,
+        "2019-11": 0.0,
+        "2019-04": 0.0,
+        "2018-11": 1.0,
+        "2018-10": 1.0,
+        "2018-01": 0.0
+      }
+    },
+    "n_comments": 20
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        9.0,
+        10.0,
+        10.0,
+        10.0,
+        9.5,
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        8.0,
+        10.0,
+        10.0,
+        10.0
+      ],
+      "ewma": [
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        9.7,
+        9.79,
+        9.852999999999998,
+        9.897099999999998,
+        9.777969999999998,
+        9.844579,
+        9.8912053,
+        9.92384371,
+        9.946690597,
+        9.9626834179,
+        9.373878392529999,
+        9.561714874770999,
+        9.6932004123397,
+        9.78524028863779
+      ],
+      "sigma": 0.4127044173214718
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 9.78524028863779,
+      "quality_band": [
+        8.976339630687704,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2024-09-20T00:00:00",
+      "materia": "CÁLCULO INTEGRAL Y CALCULÓ VECTORIAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Es un excelente profesor, sus clases, son muy claras y no tiene problemas en explicar las veces que haga falta para que entiendas si tienes algún problema, es muy alegre y amable, tomaría su clase de nuevo si pudiera"
+    },
+    {
+      "fecha_iso": "2024-08-09T00:00:00",
+      "materia": "CÁLCULO INTEGRAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Es una excelente persona, sincero y sabe demasiado de física y matemáticas. Enseña rápido entonces debes tener las bases claras y seguir el ritmo. Puede ser difícil si llegas sin saber nada, pero si sabes diferencial, y pones atención, aprenderás bastante bien."
+    },
+    {
+      "fecha_iso": "2024-06-05T00:00:00",
+      "materia": "CÁLCULO VECTORIAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 7.5,
+      "recomienda": 1,
+      "comentario": "Un gran profesor, todo lo que explica viene en el exámen, las tareas y pre examen suelen ser fáciles, gran profesor."
+    },
+    {
+      "fecha_iso": "2024-01-17T00:00:00",
+      "materia": "ÁLEGEBRA LINEAL",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Molina es uno de los mejores profesores que he podido toparme en el tecnológico. Tiene un gran dominio de los temas que te enseña y no duda en ayudarte y en responder todas las dudas que surjan. Va  rápido en los temas pero es muy accesible y flexible. Incluso sin muchas bases disruté su clase ."
+    },
+    {
+      "fecha_iso": "2023-03-31T00:00:00",
+      "materia": "CÁLCULO DIFERENCIAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Definitivamente tomaría clases con mucho gusto con el, excelente maestro, no importa cuántas veces le preguntes el explica de todas las formas posibles con gusto hasta que logres comprender, inspira a seguir aprendiendo, en sus exámenes te hace pensar para que apliques todo lo que te enseñó,"
+    },
+    {
+      "fecha_iso": "2022-05-23T00:00:00",
+      "materia": "ÁLGEBRA LINEAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "MOLIGOD"
+    },
+    {
+      "fecha_iso": "2022-03-15T00:00:00",
+      "materia": "ECUACIONES DIFERENCIALES",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 1,
+      "comentario": "Esta buenisimo para el rellenon"
+    },
+    {
+      "fecha_iso": "2021-09-15T00:00:00",
+      "materia": "ECUACIONES DIF",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "molicock"
+    },
+    {
+      "fecha_iso": "2021-09-03T00:00:00",
+      "materia": "ECUACIONES DIFERENCIALES",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "ES UN DIOS"
+    },
+    {
+      "fecha_iso": "2021-08-11T00:00:00",
+      "materia": "CÁLCULO INTEGRAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Carga todas las materias que puedas con el. De los mejores del Tec."
+    },
+    {
+      "fecha_iso": "2021-06-18T00:00:00",
+      "materia": "CALCULO INTEGRAL",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "EXCELENTE MAESTRO, si te sale para cargar en culaquier materia, no la pienses y carga con el."
+    },
+    {
+      "fecha_iso": "2021-06-03T00:00:00",
+      "materia": "ECUACIONES DIFERENCIALES",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "MOLIGOD, ojala llevar mas semestres o materias con él, una chulada de profe y es compa"
+    },
+    {
+      "fecha_iso": "2021-05-14T00:00:00",
+      "materia": "ECUACIONES DIFERENCIALES",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "No se puede ser tan crack como profesor, MoliGod definitivamente, ojalá poder llevar todos los semestres con este profe\nNo pasa lista, deja examenes de tarea y las clases son entendibles y relajadas, ayuda con la calificacion\nEste profe no domina el mundo porque no quiere xD"
+    },
+    {
+      "fecha_iso": "2021-01-21T00:00:00",
+      "materia": "CALCULO DIFERENCIAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Un excelente maestro domina sus temas muy bien recomendado totalmente. un CRACK de maestro y una excelente persona también."
+    },
+    {
+      "fecha_iso": "2020-08-07T00:00:00",
+      "materia": "CALCULO VECTORIAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Es MoliGod, explica super rápido pero aprendes porque aprendes. Aquí queda el \"No puedo describirlo, tienes que vivirlo\""
+    },
+    {
+      "fecha_iso": "2019-11-02T00:00:00",
+      "materia": "ECUACIONES DIFERENCIALES",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": "Cada explicación es una éxtasis en el cerebro, siempre trata de que comprendas el tema."
+    },
+    {
+      "fecha_iso": "2019-04-09T00:00:00",
+      "materia": "CALCULO VECTORIAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "super buena onda, tolerante,amigable,amable, te puedes llevar con el en buena onda con respeto, bromear con el ; ademas en las clases nunca te aburres aprendes y entiendes TODO lo que te explica, te inspira a seguir aprendiendo y estudiando"
+    },
+    {
+      "fecha_iso": "2018-11-11T00:00:00",
+      "materia": "CÁLCULO VECTORIAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "De los mejores maestros en la escuela, es el claro ejemplo de aprender y pasar; usualmente pasa la mayoría porque sí da oportunidades y se preocupa porque aprendas, te puedes llevar con él y ya que te ubica es más sencillo poderle pedir ayuda."
+    },
+    {
+      "fecha_iso": "2018-10-15T00:00:00",
+      "materia": "CALCULO VECTORIAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": "Muy buen maestro, explica claro y en lo que sea que tengas dudas el te ayuda, en sus exámenes solo pone cosas que haya visto en clases."
+    },
+    {
+      "fecha_iso": "2018-01-22T00:00:00",
+      "materia": "ECUACIONES DIFERENCIALES",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Buena onda y accesible, siempre busca la forma de ayudar a sus alumnos, super recomendado"
+    }
+  ],
+  "comments_recent": [
+    "Es un excelente profesor, sus clases, son muy claras y no tiene problemas en explicar las veces que haga falta para que entiendas si tienes algún problema, es muy alegre y amable, tomaría su clase de nuevo si pudiera",
+    "Es una excelente persona, sincero y sabe demasiado de física y matemáticas. Enseña rápido entonces debes tener las bases claras y seguir el ritmo. Puede ser difícil si llegas sin saber nada, pero si sabes diferencial, y pones atención, aprenderás bastante bien.",
+    "Un gran profesor, todo lo que explica viene en el exámen, las tareas y pre examen suelen ser fáciles, gran profesor.",
+    "Molina es uno de los mejores profesores que he podido toparme en el tecnológico. Tiene un gran dominio de los temas que te enseña y no duda en ayudarte y en responder todas las dudas que surjan. Va  rápido en los temas pero es muy accesible y flexible. Incluso sin muchas bases disruté su clase .",
+    "Definitivamente tomaría clases con mucho gusto con el, excelente maestro, no importa cuántas veces le preguntes el explica de todas las formas posibles con gusto hasta que logres comprender, inspira a seguir aprendiendo, en sus exámenes te hace pensar para que apliques todo lo que te enseñó,",
+    "MOLIGOD",
+    "Esta buenisimo para el rellenon",
+    "molicock",
+    "ES UN DIOS",
+    "Carga todas las materias que puedas con el. De los mejores del Tec."
+  ],
+  "n_reviews": 20
+}

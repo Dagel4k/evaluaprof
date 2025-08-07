@@ -1,0 +1,324 @@
+{
+  "professor_id": "Jesus_Miguel_Castro_Montoya",
+  "nombre": "Jesus Miguel Castro Montoya",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 9.12830567777707,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 8.198996708444106,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.857,
+    "wilson_interval": [
+      0.600580922361363,
+      0.9599069262620787
+    ],
+    "n_recommendations": 14
+  },
+  "subject_normalization": {
+    "z_mean": 0.2,
+    "z_mean_decayed": 0.54,
+    "per_subject": [
+      {
+        "materia": "QUÍMICA",
+        "z_decayed": 1.2690618333458525,
+        "n": 44
+      },
+      {
+        "materia": "PROBABILIDAD Y ESTADÍSTICA",
+        "z_decayed": 1.2237197401989313,
+        "n": 23
+      },
+      {
+        "materia": "BIOQUÍMICA",
+        "z_decayed": 0.7999533568492156,
+        "n": 8
+      },
+      {
+        "materia": "ESTADÍSTICA",
+        "z_decayed": 0.75955452531275,
+        "n": 6
+      },
+      {
+        "materia": "QUÍMICA ANALÍTICA",
+        "z_decayed": 0.577350269189626,
+        "n": 3
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "quimica",
+          "si",
+          "ser",
+          "paciente",
+          "es"
+        ],
+        "weight": 0.11000753695110153
+      },
+      {
+        "id": 1,
+        "words": [
+          "maestro",
+          "super",
+          "excelente",
+          "buen",
+          "profesor"
+        ],
+        "weight": 0.19904982098355573
+      },
+      {
+        "id": 2,
+        "words": [
+          "super buen",
+          "examenes",
+          "hace",
+          "trabajos",
+          "te"
+        ],
+        "weight": 0.12655716725856606
+      },
+      {
+        "id": 3,
+        "words": [
+          "explica bien",
+          "explica",
+          "clase",
+          "excelente profesor",
+          "mejor"
+        ],
+        "weight": 0.1157214103848838
+      },
+      {
+        "id": 4,
+        "words": [
+          "quimica",
+          "te gusta",
+          "si",
+          "mal",
+          "siempre"
+        ],
+        "weight": 0.13142597949626147
+      }
+    ],
+    "sentiment": {
+      "overall": 0.45454545454545453,
+      "by_month": {
+        "2025-06": 0.0,
+        "2024-03": 1.0,
+        "2023-11": 1.0,
+        "2023-01": 0.0,
+        "2021-06": 1.0,
+        "2020-12": 0.5,
+        "2020-06": 1.0,
+        "2019-08": 0.0,
+        "2019-01": 0.0,
+        "2017-04": 0.0
+      }
+    },
+    "n_comments": 11
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        9.0,
+        10.0,
+        10.0,
+        6.5,
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        5.0,
+        10.0,
+        10.0
+      ],
+      "ewma": [
+        9.0,
+        9.3,
+        9.51,
+        8.607,
+        9.024899999999999,
+        9.317429999999998,
+        9.522200999999999,
+        9.6655407,
+        9.765878489999999,
+        8.336114942999998,
+        8.835280460099998,
+        9.184696322069998
+      ],
+      "sigma": 1.3523285015889432
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 9.184696322069998,
+      "quality_band": [
+        6.5341324589556695,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2025-06-12T00:00:00",
+      "materia": "MICROBIOLOGÍA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "El mejor de todos"
+    },
+    {
+      "fecha_iso": "2024-03-22T00:00:00",
+      "materia": "ESTADÍSTICA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Súper buen profe, explica todo muy bien y las veces que se lo pidas, deja pocas tareas, o ejercicios que se hacen en clase. Los exámenes son fáciles. Excelente profesor se nota que ama lo que hace y excelente ser humano. Si tienen la oportunidad de cargar con el aprovechenla"
+    },
+    {
+      "fecha_iso": "2023-11-01T00:00:00",
+      "materia": "FUNDAMENTOS DE QUÍMICA",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 5.5,
+      "recomienda": 0,
+      "comentario": "Si de verdad te gusta la química y le sabes el será perfecto, pero si no comprendes a la primera no vayas con el. Nos contó que la mayoría de sus alumnos siempre reprueban la unidad dos, por alguna razón es verdad, la mitad de mi salón le fue mal y eso que mi salón es muy aplicado."
+    },
+    {
+      "fecha_iso": "2023-01-15T00:00:00",
+      "materia": "QUÍMICA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Si no te gusta la química, este profe hace que te guste.\nSuper buen pedo, super buen maestro, pocos trabajos que pueden llegar a ser un poco \"tediosos\" pero que de una forma u otra se le pueden sacar provecho. Los exámenes son fáciles, ojo con el ultimo (no hay opción múltiple)"
+    },
+    {
+      "fecha_iso": "2022-06-10T00:00:00",
+      "materia": "BIOQUÍMICA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2021-06-03T00:00:00",
+      "materia": "PROBABILIDAD Y ESTADÍSTICA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Súper tranquilo, paciente, claro. Excelente maestro."
+    },
+    {
+      "fecha_iso": "2020-12-16T00:00:00",
+      "materia": "QUÍMICA ANALÍTICA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Es un ejemplo de como deberían ser los maestros. Paciente, claridad, respeto."
+    },
+    {
+      "fecha_iso": "2020-12-02T00:00:00",
+      "materia": "MICROBIOLOGIA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "muy buen profesor"
+    },
+    {
+      "fecha_iso": "2020-06-15T00:00:00",
+      "materia": "MICROBIOLOGIA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Excelente profesor, en todos los aspectos, llevar clase con el es de lo mejor porque no es estresante, explica muy bien."
+    },
+    {
+      "fecha_iso": "2019-08-07T00:00:00",
+      "materia": "MICROBIOLOGIA",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2019-08-04T00:00:00",
+      "materia": "MICROBIOLOGÍA",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Siempre agarra a 2 o 3 que le caen mal"
+    },
+    {
+      "fecha_iso": "2019-03-08T00:00:00",
+      "materia": "MICROBIOLOGÍA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2019-01-15T00:00:00",
+      "materia": "BIOQUIMICCA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "sabe mucho, es muy accesible para resolver dudas, ayuda a pasar"
+    },
+    {
+      "fecha_iso": "2017-04-07T00:00:00",
+      "materia": "MICROBIOLOGIA",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Aprendes mucho por que hace muchas practicas y te exige que de manera individual hagas las cosas, sus examenes estan un tanto dificiles pero los reportes de practicas y trabajos te ayudan mucho a subir la calificación, recomiendo que carguen con el."
+    }
+  ],
+  "comments_recent": [
+    "El mejor de todos",
+    "Súper buen profe, explica todo muy bien y las veces que se lo pidas, deja pocas tareas, o ejercicios que se hacen en clase. Los exámenes son fáciles. Excelente profesor se nota que ama lo que hace y excelente ser humano. Si tienen la oportunidad de cargar con el aprovechenla",
+    "Si de verdad te gusta la química y le sabes el será perfecto, pero si no comprendes a la primera no vayas con el. Nos contó que la mayoría de sus alumnos siempre reprueban la unidad dos, por alguna razón es verdad, la mitad de mi salón le fue mal y eso que mi salón es muy aplicado.",
+    "Si no te gusta la química, este profe hace que te guste.\nSuper buen pedo, super buen maestro, pocos trabajos que pueden llegar a ser un poco \"tediosos\" pero que de una forma u otra se le pueden sacar provecho. Los exámenes son fáciles, ojo con el ultimo (no hay opción múltiple)",
+    "Súper tranquilo, paciente, claro. Excelente maestro.",
+    "Es un ejemplo de como deberían ser los maestros. Paciente, claridad, respeto.",
+    "muy buen profesor",
+    "Excelente profesor, en todos los aspectos, llevar clase con el es de lo mejor porque no es estresante, explica muy bien."
+  ],
+  "n_reviews": 14
+}

@@ -1,0 +1,582 @@
+{
+  "professor_id": "Daniel_Esparza_Soto",
+  "nombre": "Daniel Esparza Soto",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 7.1067056729617875,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 6.929911326144751,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.611,
+    "wilson_interval": [
+      0.4486417029674348,
+      0.7521534458217706
+    ],
+    "n_recommendations": 36
+  },
+  "subject_normalization": {
+    "z_mean": -0.37,
+    "z_mean_decayed": -0.45,
+    "per_subject": [
+      {
+        "materia": "ALGEBRA",
+        "z_decayed": 0.7284927963857741,
+        "n": 4
+      },
+      {
+        "materia": "SISTEMAS",
+        "z_decayed": 0.11442591353812454,
+        "n": 13
+      },
+      {
+        "materia": "TESEBADA",
+        "z_decayed": -0.09405537377434126,
+        "n": 13
+      },
+      {
+        "materia": "TALLER DE BASE DE DATOS",
+        "z_decayed": -0.3428156526431669,
+        "n": 22
+      },
+      {
+        "materia": "BASE DE DATOS",
+        "z_decayed": -0.396808569439325,
+        "n": 10
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "maestro",
+          "vuelta",
+          "tareas",
+          "si",
+          "te"
+        ],
+        "weight": 0.10594881746902055
+      },
+      {
+        "id": 1,
+        "words": [
+          "comentario esperando",
+          "comentario",
+          "esperando revision",
+          "esperando",
+          "revision"
+        ],
+        "weight": 0.05626869190704535
+      },
+      {
+        "id": 2,
+        "words": [
+          "vi",
+          "nino",
+          "partida",
+          "nino partida",
+          "dia"
+        ],
+        "weight": 0.07227948429024335
+      },
+      {
+        "id": 3,
+        "words": [
+          "es buen",
+          "exigente",
+          "buen",
+          "buen profesor",
+          "profesor"
+        ],
+        "weight": 0.09214093503601152
+      },
+      {
+        "id": 4,
+        "words": [
+          "clase",
+          "pues",
+          "atencion",
+          "mas",
+          "es"
+        ],
+        "weight": 0.16943238674916788
+      }
+    ],
+    "sentiment": {
+      "overall": 0.06896551724137931,
+      "by_month": {
+        "2025-08": -1.0,
+        "2025-05": 0.0,
+        "2024-01": 0.0,
+        "2023-06": 0.0,
+        "2022-06": 0.0,
+        "2022-05": 0.0,
+        "2022-04": 0.0,
+        "2022-02": 1.0,
+        "2022-01": 0.0,
+        "2021-12": 0.0,
+        "2021-11": 1.0,
+        "2021-10": 0.0,
+        "2021-09": 0.0,
+        "2018-11": 0.0,
+        "2018-08": 0.0,
+        "2017-09": 0.0,
+        "2016-08": 1.0,
+        "2016-01": 0.5,
+        "2014-04": 0.0,
+        "2013-08": -1.0,
+        "2012-11": 0.0,
+        "2012-10": 0.0,
+        "2011-11": 0.0,
+        "2011-05": 0.0,
+        "2011-01": 0.0
+      }
+    },
+    "n_comments": 29
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.002,
+    "bursts": [
+      {
+        "from": "2021-12-17T00:00:00",
+        "to": "2021-12-17T00:00:00",
+        "count": 3
+      }
+    ],
+    "low_variance_flag": 0,
+    "trust_score": 0.7
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        2.0,
+        3.0,
+        7.0,
+        10.0,
+        3.0,
+        6.0,
+        5.0,
+        8.0,
+        9.0,
+        8.0,
+        8.0,
+        6.0,
+        8.0,
+        7.0,
+        5.0,
+        6.5,
+        6.0,
+        6.0,
+        7.333333333333333,
+        7.0,
+        9.0,
+        7.0,
+        8.0,
+        6.0,
+        8.0,
+        8.0,
+        8.0,
+        7.0,
+        10.0,
+        9.0,
+        5.0,
+        6.0
+      ],
+      "ewma": [
+        2.0,
+        2.3,
+        3.71,
+        5.5969999999999995,
+        4.8179,
+        5.17253,
+        5.1207709999999995,
+        5.984539699999999,
+        6.88917779,
+        7.222424452999999,
+        7.455697117099998,
+        7.018987981969998,
+        7.313291587378998,
+        7.2193041111652985,
+        6.553512877815709,
+        6.537459014470996,
+        6.376221310129697,
+        6.263354917090788,
+        6.5843484419635505,
+        6.7090439093744845,
+        7.396330736562138,
+        7.277431515593497,
+        7.4942020609154465,
+        7.045941442640812,
+        7.332159009848567,
+        7.532511306893996,
+        7.672757914825796,
+        7.470930540378058,
+        8.229651378264641,
+        8.460755964785248,
+        7.422529175349673,
+        6.995770422744771
+      ],
+      "sigma": 1.3910225137455352
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 6.995770422744771,
+      "quality_band": [
+        4.269366295803522,
+        9.72217454968602
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2025-08-07T00:00:00",
+      "materia": "TALLER DE BASE DE DATOS",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 0,
+      "comentario": "Con el profesor se aprende por que se aprende, pero se vuelve muy complicado en algunos temas y suele estar muy obsoleto en varias cosas, si cargas con el vas a aprender y es posible que repruebes, pero no es extremadamente complicado pasar con el."
+    },
+    {
+      "fecha_iso": "2025-05-22T00:00:00",
+      "materia": "FUNDAMENTOS DE BD",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 6.5,
+      "recomienda": 0,
+      "comentario": "Es bien mamon se burla de los alumnos y no te ayuda en nada, en el semestre quiso que fueramos a hacer examen a la hora que le dio la gana siendo que la clase era en linea"
+    },
+    {
+      "fecha_iso": "2024-01-26T00:00:00",
+      "materia": "TALLER DE BASES DE DATOS",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 1,
+      "comentario": "Buen profesor, algo exigente pero solo hay que esforzarse"
+    },
+    {
+      "fecha_iso": "2023-10-30T00:00:00",
+      "materia": "ALGEBRA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2023-06-01T00:00:00",
+      "materia": "TODAS LAS DE BASE DE DATOS",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "es muy exigente , es el tigre de las base de datos"
+    },
+    {
+      "fecha_iso": "2022-12-17T00:00:00",
+      "materia": "TALLER DE BASE DE DATOS",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2022-10-12T00:00:00",
+      "materia": "TALLER DE BASE DE DATOS",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2022-06-08T00:00:00",
+      "materia": "TESEBADA",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": "No te descuides, si te ve de huevon te va a trozar rico sin piedad, si anda de buenas y te pones las pilas desde el inicio hace paro"
+    },
+    {
+      "fecha_iso": "2022-05-18T00:00:00",
+      "materia": "TALLER DE BASE DE DATOS",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 0,
+      "comentario": "Es un maestro regular pero se aprende, su manera de ser es super rara pero se agarra cura, algo egocéntrico si el grupo se deja los agarra de bajada por otro lado, deja muchas tareas, los exámenes son largos y difíciles si estudias y practicas seguro pasas, no le saques la vuelta!"
+    },
+    {
+      "fecha_iso": "2022-04-07T00:00:00",
+      "materia": "TALLER DE BASE DE DATOS",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": "Puro ojete huevon le saca la vuelta"
+    },
+    {
+      "fecha_iso": "2022-03-15T00:00:00",
+      "materia": "TALLER DE BD",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2022-02-01T00:00:00",
+      "materia": "TALLER DE BASES DE DATOS",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 1,
+      "comentario": "Para aprender es excelente porque es de los maestros más desafiantes que he tenido, muy seguramente repruebes pero aprendes. Muchos lo tachan de sangrón o mala onda pero da hasta 3 chanzas de aprobar y más para los que son especial, fue considerado conmigo al final del semestre!"
+    },
+    {
+      "fecha_iso": "2022-01-14T00:00:00",
+      "materia": "TALLER DE BASE DE DATOS",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": "si llevaste sql en la prepa, ya pasaste. en el otro caso, tienes que practicar machin para pasar con calificacion decente. Es medio mamon a veces pero nos dio chance de 3 especiales para pasar su materia"
+    },
+    {
+      "fecha_iso": "2021-12-17T00:00:00",
+      "materia": "RESEÑA VAREJONAL 3ER EPISODIO",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "3.- ... camionetas conocidas, pese que muy pocos se habían levantado, me agüite pero ni modo, el dia parecía agradable para empezarlo tan negativo. Mi sorpresa fue antes de el limoncito, IBAN COMO 10 PEDALEANDO!!! entre los que vi..."
+    },
+    {
+      "fecha_iso": "2021-12-17T00:00:00",
+      "materia": "RESEÑA VAREJONAL",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 0,
+      "comentario": "2. Por fin la hora señalada, le hable al joto del cabrito y me canceló la ida, Nino y Partida ya habían cancelado un dia antes por la lluvia, El Chuyón de plano no podía, le dolían lo ovarios. Por mi condición no pude arrancar desde el oxxo a las 6, pase por ahí como a las 6.30 y solo ví 2..."
+    },
+    {
+      "fecha_iso": "2021-12-17T00:00:00",
+      "materia": "RESEÑA VAREJONAL",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "1.- El sábado me acosté con el temor de no ir a pedalear el domingo por los ciclones que andaban rodando la costa, por merito no se hacia, pero gracias a dios llovió a las 3 de la madrugada y no se cumplió la mala sal que un día antes me estaba echando el Nino y Partida."
+    },
+    {
+      "fecha_iso": "2021-11-03T00:00:00",
+      "materia": "TALLER DE BASE DE DATOS",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 23.0,
+      "recomienda": 0,
+      "comentario": "La neta.... para clases en linea no me parece bueno, no deja copear el codigo, y lo unico que escucho es..\"¿Ya lo copiaron?\"\nEn si, mucho verbo tambien"
+    },
+    {
+      "fecha_iso": "2021-10-28T00:00:00",
+      "materia": "TALLER DE BASE DE DATOS",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": "pues la verdad la vez que lleve con el tuvo un metodo de enseñar y de calificar bien raro tuve q aprender x mi cuent, a veces no da ni tiempo de que copies el codigo y pone los problemas de sql mas dificiles de lo que deberia me recordó a bastidas nunca pensé que habria un profe mas estricto que él"
+    },
+    {
+      "fecha_iso": "2021-09-22T00:00:00",
+      "materia": "TALLER DE BASE DE DATOS",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": "esparzzzzzzzzzzzzza"
+    },
+    {
+      "fecha_iso": "2021-09-06T00:00:00",
+      "materia": "TALLER DE BD",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 7.5,
+      "recomienda": 1,
+      "comentario": "Mucho barbero detras de el"
+    },
+    {
+      "fecha_iso": "2020-06-05T00:00:00",
+      "materia": "BASE DE DATOS",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 23.0,
+      "recomienda": 0,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2019-06-04T00:00:00",
+      "materia": "FUNDAMENTOS BD",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2018-11-14T00:00:00",
+      "materia": "TALLER DE BASE DE DATOS",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "En mi opinión si se aprende con el, no estoy muy de acuerdo con su método de enseñanza, pero terminas aprendiendo. Si es cierto el profe se ríe de los alumnos pero es algo en lo que te acostumbras. Si eres muy flojo si vas a reprobar pero si haces las tareas por tu cuenta y pones atención, pasarás."
+    },
+    {
+      "fecha_iso": "2018-08-04T00:00:00",
+      "materia": "TEMAS SELECTOS DE BASES DE DATOS",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 7.5,
+      "recomienda": 0,
+      "comentario": "La verdad como que no le interesa mucho la clase, lee diapositivas y te explica pero hay veces que no comprendes las cosas, tendras que investigar mucho si quieres sacar adelante sus proyectos."
+    },
+    {
+      "fecha_iso": "2017-09-08T00:00:00",
+      "materia": "TALLER DE BASE DE DATOS",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Muchos le sacan la vuelta desde FBD, pero tarde o temprano te toparas con el, Se los recomiendo si quieren aprender Base de datos, explica con claridad, deja muchas tareas de las cuales te sirven para estudio del examen, ademas de que te sube puntos con las tareas."
+    },
+    {
+      "fecha_iso": "2016-08-08T00:00:00",
+      "materia": "TALLER DE BD",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Es un maestro que sabe de su materia, explica claro, le gusta dejar muchas tareas para practicar, sube puntos extras, sus exámenes son fáciles si haces las tareas, si quieres aprender base de datos carga con este maestro."
+    },
+    {
+      "fecha_iso": "2016-01-17T00:00:00",
+      "materia": "TALLER BASE DE DATOS",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": "Es raro que falte, explica bien. Un poco serio, no faltes a su clase y pon mucha atención. Haz las tareas porque sus exámenes están un poco difíciles."
+    },
+    {
+      "fecha_iso": "2016-01-14T00:00:00",
+      "materia": "FUNDAMENTOS DE BASE DE DATOS.",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Es buen profesor, explica claro, contesta dudas, profesor muy capacitado, muchos le sacan la vuelta en fund. de BD, pero tendras que cargar con el mas adelante, y muchos reprueban a causa de eso, ademas de que aprendes bien sobre lo de base de datos si le hechas ganas y haces las tareas."
+    },
+    {
+      "fecha_iso": "2014-04-22T00:00:00",
+      "materia": "SISTEMAS",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "con el reprobé turbo pascal y de nuevo agarre con el y ya le entendi mejor saludos profe..!"
+    },
+    {
+      "fecha_iso": "2013-08-09T00:00:00",
+      "materia": "MATEMATICAS DISCRETAS",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 0,
+      "comentario": "Pues llega , apunta su clase en el pintarron, explica las cosas , deja pocos trabajos de muchos ejercicios antes del examen,  tienes que poner atencion en esta materia pues si no el examen se pone dificil, es firme al calificar, nunca falta. Se rie extraño, un profesor de actitud seria."
+    },
+    {
+      "fecha_iso": "2012-11-03T00:00:00",
+      "materia": "MATEMATICAS DISCRETAS",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": "poner mucha atencion en sus clases"
+    },
+    {
+      "fecha_iso": "2012-10-05T00:00:00",
+      "materia": "MATEMATICAS DISCRETAS",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": 2.5,
+      "recomienda": 0,
+      "comentario": "No le entiendo y se rie muy feo de nosotros"
+    },
+    {
+      "fecha_iso": "2012-08-01T00:00:00",
+      "materia": "TESEBADA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2011-11-04T00:00:00",
+      "materia": "BASE DE DATOS",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Creo que esta un poco desactualizado pero es buen profesor, aprendi mucho y siempre me subia puntos por buena letra"
+    },
+    {
+      "fecha_iso": "2011-05-12T00:00:00",
+      "materia": "---",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": 0.5,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2011-01-29T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    }
+  ],
+  "comments_recent": [
+    "Con el profesor se aprende por que se aprende, pero se vuelve muy complicado en algunos temas y suele estar muy obsoleto en varias cosas, si cargas con el vas a aprender y es posible que repruebes, pero no es extremadamente complicado pasar con el.",
+    "Es bien mamon se burla de los alumnos y no te ayuda en nada, en el semestre quiso que fueramos a hacer examen a la hora que le dio la gana siendo que la clase era en linea",
+    "Buen profesor, algo exigente pero solo hay que esforzarse",
+    "es muy exigente , es el tigre de las base de datos",
+    "No te descuides, si te ve de huevon te va a trozar rico sin piedad, si anda de buenas y te pones las pilas desde el inicio hace paro",
+    "Es un maestro regular pero se aprende, su manera de ser es super rara pero se agarra cura, algo egocéntrico si el grupo se deja los agarra de bajada por otro lado, deja muchas tareas, los exámenes son largos y difíciles si estudias y practicas seguro pasas, no le saques la vuelta!",
+    "Puro ojete huevon le saca la vuelta"
+  ],
+  "n_reviews": 36
+}

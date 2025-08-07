@@ -1,0 +1,194 @@
+{
+  "professor_id": "Rosa_Cristina_Soto_Monsivais",
+  "nombre": "Rosa Cristina Soto Monsivais",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 4.008861968913278,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 6.67349506266616,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.5,
+    "wilson_interval": [
+      0.1876128068994087,
+      0.8123871931005913
+    ],
+    "n_recommendations": 6
+  },
+  "subject_normalization": {
+    "z_mean": -0.2,
+    "z_mean_decayed": -1.09,
+    "per_subject": [
+      {
+        "materia": "ESTUDIO DEL TRABAJO 2",
+        "z_decayed": 0.5201564866102991,
+        "n": 6
+      },
+      {
+        "materia": "---",
+        "z_decayed": -0.063840602107841,
+        "n": 521
+      },
+      {
+        "materia": "METROLOGÍA Y NORMALIZACIÓN",
+        "z_decayed": -0.12794157892978963,
+        "n": 12
+      },
+      {
+        "materia": "METROLOGIA",
+        "z_decayed": -1.7580021511992983,
+        "n": 20
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "comentario",
+          "esperando",
+          "comentario esperando",
+          "esperando revision",
+          "revision"
+        ],
+        "weight": 0.25148411405170173
+      },
+      {
+        "id": 1,
+        "words": [
+          "esperando revision",
+          "revision",
+          "te",
+          "es",
+          "maestra"
+        ],
+        "weight": 0.34785047570906724
+      }
+    ],
+    "sentiment": {
+      "overall": 0.2,
+      "by_month": {
+        "2025-05": 0.0,
+        "2022-12": 0.0,
+        "2018-06": 1.0,
+        "2018-01": 0.0,
+        "2015-10": 0.0
+      }
+    },
+    "n_comments": 5
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.1,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 0.95
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        8.0,
+        5.0,
+        5.0,
+        10.0,
+        7.0,
+        2.0
+      ],
+      "ewma": [
+        8.0,
+        7.1,
+        6.47,
+        7.529,
+        7.3703,
+        5.7592099999999995
+      ],
+      "sigma": 2.116095623741202
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 5.7592099999999995,
+      "quality_band": [
+        1.6116625774672437,
+        9.906757422532756
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2025-05-26T00:00:00",
+      "materia": "METROLOGIA",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 0,
+      "comentario": "es una maestra sin seriedad, poco ética  y no resuelve mucho realmente te recomiendo que elijas otro maestro antes que ella ya que no es buena haciendo su trabajo de maestra"
+    },
+    {
+      "fecha_iso": "2022-12-24T00:00:00",
+      "materia": "METROLOGÍA Y NORMALIZACIÓN",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Si entregas todas las actividades en tiempo y forma es un 80 seguro.\nSi quieres aprender de verdad NO cargues con ella, sus constantes inasistencias te quitan muchas horas de aprendizaje."
+    },
+    {
+      "fecha_iso": "2018-06-13T00:00:00",
+      "materia": "ESTUDIO DEL TRABAJO 2",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Excelente maestra, explica muy bien, los metodos bien desarrollados, examenes conforme a los visto en clase, con trampas para pensar pero bien!"
+    },
+    {
+      "fecha_iso": "2018-01-13T00:00:00",
+      "materia": "---",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2015-10-05T00:00:00",
+      "materia": "---",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2013-08-02T00:00:00",
+      "materia": "METROLOGIA",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": ""
+    }
+  ],
+  "comments_recent": [
+    "es una maestra sin seriedad, poco ética  y no resuelve mucho realmente te recomiendo que elijas otro maestro antes que ella ya que no es buena haciendo su trabajo de maestra",
+    "Si entregas todas las actividades en tiempo y forma es un 80 seguro.\nSi quieres aprender de verdad NO cargues con ella, sus constantes inasistencias te quitan muchas horas de aprendizaje.",
+    "Excelente maestra, explica muy bien, los metodos bien desarrollados, examenes conforme a los visto en clase, con trampas para pensar pero bien!",
+    "[Comentario esperando revisión]",
+    "[Comentario esperando revisión]"
+  ],
+  "n_reviews": 6
+}

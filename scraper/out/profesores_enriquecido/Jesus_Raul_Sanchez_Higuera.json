@@ -1,0 +1,278 @@
+{
+  "professor_id": "Jesus_Raul_Sanchez_Higuera",
+  "nombre": "Jesus Raul Sanchez Higuera",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 6.227027760270589,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 6.171632772848116,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.333,
+    "wilson_interval": [
+      0.13811783989736134,
+      0.609382412602386
+    ],
+    "n_recommendations": 12
+  },
+  "subject_normalization": {
+    "z_mean": -0.72,
+    "z_mean_decayed": -0.52,
+    "per_subject": [
+      {
+        "materia": "DIBUJO",
+        "z_decayed": -0.13582503075000693,
+        "n": 14
+      },
+      {
+        "materia": "DIBUJO INDUSTRIAL",
+        "z_decayed": -0.5254428972202602,
+        "n": 43
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "laminas",
+          "te",
+          "bien",
+          "si",
+          "es"
+        ],
+        "weight": 0.2164766375672677
+      },
+      {
+        "id": 1,
+        "words": [
+          "practicas",
+          "facil",
+          "porque",
+          "te",
+          "profesor"
+        ],
+        "weight": 0.12373804562573791
+      },
+      {
+        "id": 2,
+        "words": [
+          "alumnos",
+          "recomiendo",
+          "maestro",
+          "alumnos es",
+          "es"
+        ],
+        "weight": 0.14141490876102258
+      },
+      {
+        "id": 3,
+        "words": [
+          "buen profesor",
+          "buen",
+          "tu",
+          "atencion",
+          "porque"
+        ],
+        "weight": 0.14185379741369314
+      }
+    ],
+    "sentiment": {
+      "overall": -0.1111111111111111,
+      "by_month": {
+        "2024-01": 0.0,
+        "2022-01": 0.0,
+        "2021-11": 0.0,
+        "2018-01": 0.0,
+        "2017-05": 0.0,
+        "2016-01": 0.0,
+        "2015-12": -1.0,
+        "2015-08": 0.0,
+        "2014-01": 0.0
+      }
+    },
+    "n_comments": 9
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        3.0,
+        5.0,
+        6.0,
+        6.0,
+        2.0,
+        3.0,
+        8.0,
+        8.0,
+        10.0,
+        2.0,
+        6.0,
+        7.0
+      ],
+      "ewma": [
+        3.0,
+        3.5999999999999996,
+        4.319999999999999,
+        4.824,
+        3.9768,
+        3.6837599999999995,
+        4.978631999999999,
+        5.8850424,
+        7.119529679999999,
+        5.583670775999999,
+        5.708569543199999,
+        6.095998680239999
+      ],
+      "sigma": 1.950185620976595
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 6.095998680239999,
+      "quality_band": [
+        2.273634863125873,
+        9.918362497354126
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2025-01-15T00:00:00",
+      "materia": "DIBUJO INDUSTRIAL",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2024-01-12T00:00:00",
+      "materia": "DIBUJO INDUSTRIAL",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 24.0,
+      "recomienda": 0,
+      "comentario": "Es buen profesor, la materia con el la aprendes, es muy sarcástico, si no prácticas te irá mal, es estricto, si quieres tomar una clase de dibujo y quieres aprender, el es la única opción, no es apto para sensibles, puede llegar a humillarte si no haces lo más mínimo bien."
+    },
+    {
+      "fecha_iso": "2023-01-18T00:00:00",
+      "materia": "DIBUJO INDUSTRIAL",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 0,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2022-01-18T00:00:00",
+      "materia": "DIBUJO INDUSTRIAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Muy buen profesor, de verdad se preocupa porque aprendamos. Procura hacer las cosas bien desde el inicio porque toma mucho en cuenta tu esfuerzo e interés. Entra a todas las clases y pon atención, con eso seguro pasas."
+    },
+    {
+      "fecha_iso": "2021-11-11T00:00:00",
+      "materia": "DIBUJO INDUSTRIAL",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Es muy buen profe, si le pones atención y eres sincero en su materia, pasaras con un 100%, explica muy bien y es bastante respetuoso con todos los alumnos."
+    },
+    {
+      "fecha_iso": "2018-01-13T00:00:00",
+      "materia": "DIBUJO INDUSTRIAL",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Recomiendo 100% a este profesor porque es uno de los pocos que te enseña el respeto que se tiene que tener hacia un profesor. Esto es fácil, SI PRACTICAS sus laminas, el AutoCAD(porque no es fácil dominar un software solo con ver) y no te metes con él haciendote el gracioso te va a ir muy muy bien."
+    },
+    {
+      "fecha_iso": "2017-05-26T00:00:00",
+      "materia": "DIBUJO INDUSTRIAL",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": "Profesor humillante nada  recomendable"
+    },
+    {
+      "fecha_iso": "2016-05-18T00:00:00",
+      "materia": "DIBUJO INDUSTRIAL",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 0,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2016-01-20T00:00:00",
+      "materia": "DIBUJO",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "No es mal maestro, en lo que es su clase está bien, aunque debería usar más AutoCAD que láminas a mano ya que las láminas a mano ya están obsoletas en la vida laboral. Eso y que es muy contradictorio cuando habla del respeto que debe haber entre alumnos y maestro. El no tiene respeto y si lo exige."
+    },
+    {
+      "fecha_iso": "2015-12-15T00:00:00",
+      "materia": "DIBUJO INDUSTRIAL",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": "Es miuy dificil pasar su materia, hace comentarios que te quedas pasmado, el utocad lo explica super facil pero las laminas estan bien dificiles, hace examen escrito (Que no deberia hacer), el examen esta bien dificl, si cargas con el estudia mucha simbologia, en general es un maestro promedio."
+    },
+    {
+      "fecha_iso": "2015-08-07T00:00:00",
+      "materia": "DIBUJO INDUSTRIAL.",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 0,
+      "comentario": "No lo recomiendo para nada. \nSe cree lo mejor de lo mejor, humilla a sus alumnos, es súper exigente, cree que con una sola explicación de dos minutos tú ya lo vas a poder hacer igual que él, mete mucha presión, es demasiado estresante estar en su clase."
+    },
+    {
+      "fecha_iso": "2014-01-16T00:00:00",
+      "materia": "DIBUJO INDUSTRIAL",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 0,
+      "comentario": "Es un despota no sirve para ser maestro, se burla de los alumnos, es sarcastico.\nSimplemente un asco de maestro por su caracter\nNo lo recomiendo para nada"
+    }
+  ],
+  "comments_recent": [
+    "Es buen profesor, la materia con el la aprendes, es muy sarcástico, si no prácticas te irá mal, es estricto, si quieres tomar una clase de dibujo y quieres aprender, el es la única opción, no es apto para sensibles, puede llegar a humillarte si no haces lo más mínimo bien.",
+    "Muy buen profesor, de verdad se preocupa porque aprendamos. Procura hacer las cosas bien desde el inicio porque toma mucho en cuenta tu esfuerzo e interés. Entra a todas las clases y pon atención, con eso seguro pasas.",
+    "Es muy buen profe, si le pones atención y eres sincero en su materia, pasaras con un 100%, explica muy bien y es bastante respetuoso con todos los alumnos.",
+    "Recomiendo 100% a este profesor porque es uno de los pocos que te enseña el respeto que se tiene que tener hacia un profesor. Esto es fácil, SI PRACTICAS sus laminas, el AutoCAD(porque no es fácil dominar un software solo con ver) y no te metes con él haciendote el gracioso te va a ir muy muy bien.",
+    "Profesor humillante nada  recomendable",
+    "No es mal maestro, en lo que es su clase está bien, aunque debería usar más AutoCAD que láminas a mano ya que las láminas a mano ya están obsoletas en la vida laboral. Eso y que es muy contradictorio cuando habla del respeto que debe haber entre alumnos y maestro. El no tiene respeto y si lo exige.",
+    "Es miuy dificil pasar su materia, hace comentarios que te quedas pasmado, el utocad lo explica super facil pero las laminas estan bien dificiles, hace examen escrito (Que no deberia hacer), el examen esta bien dificl, si cargas con el estudia mucha simbologia, en general es un maestro promedio."
+  ],
+  "n_reviews": 12
+}

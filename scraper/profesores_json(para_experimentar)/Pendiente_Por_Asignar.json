@@ -1,0 +1,56 @@
+{
+  "nombre": "Pendiente Por Asignar",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "ciudad": "Ciudad: culiacan, sinaloa",
+  "departamento": "Departamento/Facultad: Todos",
+  "calidad_general": 10.0,
+  "porcentaje_recomienda": 100,
+  "nivel_dificultad": 0.0,
+  "etiquetas": [
+    "MUY CÓMICO (1)",
+    "INSPIRACIONAL (1)",
+    "POCOS EXÁMENES (1)",
+    "RESPETADO POR LOS ESTUDIANTES (1)",
+    "DA CRÉDITO EXTRA (1)",
+    "TOMARÍA SU CLASE OTRA VEZ (1)"
+  ],
+  "numero_calificaciones": 2,
+  "calificaciones": [
+    {
+      "fecha": "25/Dic/2020",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Todas",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "Muy recomendable... me dio las primeras dos semanas del semestre. Lamentablemente me lo cambiaron por otro profe, segun porque es muy solicitado entre los alumnos",
+      "etiquetas_comentario": [
+        "Respetado por los estudiantes",
+        "Da Crédito Extra",
+        "Tomaría su clase otra vez"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "15/Oct/2018",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Cualquiera",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "este bato, es un dios,lo amo, siempre lo estoy esperando al principio del semestre la neta, dura como 2 semanas llendo nomas pero lo disfruto mucho cuando me toca :) y la clase también.",
+      "etiquetas_comentario": [
+        "Muy cómico",
+        "Inspiracional",
+        "Pocos Exámenes"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    }
+  ]
+}

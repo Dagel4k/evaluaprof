@@ -1,0 +1,56 @@
+{
+  "nombre": "Elthon Vega  Alvarez",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "ciudad": "Ciudad: culiacan, sinaloa",
+  "departamento": "Departamento/Facultad: Bioquímica",
+  "calidad_general": 8.0,
+  "porcentaje_recomienda": 50,
+  "nivel_dificultad": 2.0,
+  "etiquetas": [
+    "DA CRÉDITO EXTRA (1)",
+    "BRINDA APOYO (1)",
+    "TOMARÍA SU CLASE OTRA VEZ (1)",
+    "CALIFICA DURO (1)",
+    "DEJA TRABAJOS LARGOS (1)",
+    "LOS EXÁMENES SON DIFÍCILES (1)"
+  ],
+  "numero_calificaciones": 2,
+  "calificaciones": [
+    {
+      "fecha": "14/May/2024",
+      "tipo_calificacion": "REGULAR",
+      "puntaje_calidad_general": 6.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Bioquímica",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "8",
+      "interes_clase": "",
+      "comentario": "",
+      "etiquetas_comentario": [
+        "Califica Duro",
+        "Deja trabajos largos",
+        "Los exámenes son difíciles"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "06/Jun/2023",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Fenómenos de transporte",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "8.5",
+      "interes_clase": "",
+      "comentario": "Excelente profesor la verdad, lo recomendaría 100%",
+      "etiquetas_comentario": [
+        "Da Crédito Extra",
+        "Brinda apoyo",
+        "Tomaría su clase otra vez"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    }
+  ]
+}

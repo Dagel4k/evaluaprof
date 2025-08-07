@@ -1,0 +1,120 @@
+{
+  "professor_id": "Aida_Beatriz_Peña_Ramírez",
+  "nombre": "Aida Beatriz Peña Ramírez",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 9.738111129360425,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.44430161558912,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 1.0,
+    "wilson_interval": [
+      0.4384939195509822,
+      1
+    ],
+    "n_recommendations": 3
+  },
+  "subject_normalization": {
+    "z_mean": 0.41,
+    "z_mean_decayed": 0.62,
+    "per_subject": [
+      {
+        "materia": "ADMINISTRACIÓN Y CONTABILIDAD",
+        "z_decayed": 0.6961075244319018,
+        "n": 7
+      },
+      {
+        "materia": "ECONOMÍA",
+        "z_decayed": 0.17554701759202546,
+        "n": 13
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [],
+    "sentiment": {
+      "overall": null,
+      "by_month": {}
+    },
+    "n_comments": 3
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        10.0,
+        7.0,
+        10.0
+      ],
+      "ewma": [
+        10.0,
+        9.1,
+        9.37
+      ],
+      "sigma": 1.4294404499663498
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 9.37,
+      "quality_band": [
+        6.5682967180659535,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2024-08-09T00:00:00",
+      "materia": "ADMINISTRACIÓN Y CONTABILIDAD",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Es muy sencillo pasar, siempre y cuando des el mínimo esfuerzo. Es carismática y vuelve interesante la contabilidad aunque a veces se vuelvla tediosa la materia. Hace como 20 recuperaciones hasta que pases, y deja que mejores tu calificación. Sólo no seas huevón y pasas con 100."
+    },
+    {
+      "fecha_iso": "2018-01-14T00:00:00",
+      "materia": "ECONOMÍA",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Super fácil su clase. Es muuuuy flexible y fácilmente sacas 100, aunque no obtienes mucho aprendizaje. cargala si quieres subir tu promedio y aligerarte un poco el semestre."
+    },
+    {
+      "fecha_iso": "2017-01-18T00:00:00",
+      "materia": "ECONOMÍA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Excelente profe! Es un amor sus clases, faciles mucha tarea pero la profe es estricta pero accesible, 100 seguro si te aplicas!"
+    }
+  ],
+  "comments_recent": [
+    "Es muy sencillo pasar, siempre y cuando des el mínimo esfuerzo. Es carismática y vuelve interesante la contabilidad aunque a veces se vuelvla tediosa la materia. Hace como 20 recuperaciones hasta que pases, y deja que mejores tu calificación. Sólo no seas huevón y pasas con 100.",
+    "Super fácil su clase. Es muuuuy flexible y fácilmente sacas 100, aunque no obtienes mucho aprendizaje. cargala si quieres subir tu promedio y aligerarte un poco el semestre.",
+    "Excelente profe! Es un amor sus clases, faciles mucha tarea pero la profe es estricta pero accesible, 100 seguro si te aplicas!"
+  ],
+  "n_reviews": 3
+}

@@ -1,0 +1,86 @@
+{
+  "professor_id": "Job_Ismael_Gutierrez_Madrigal",
+  "nombre": "Job Ismael Gutierrez Madrigal",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 8.578996469947223,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.231326750221547,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 1.0,
+    "wilson_interval": [
+      0.3423719528896193,
+      1
+    ],
+    "n_recommendations": 2
+  },
+  "subject_normalization": {
+    "z_mean": 0.76,
+    "z_mean_decayed": 0.79,
+    "per_subject": [
+      {
+        "materia": "METROLOGIA Y NORMALIZACION",
+        "z_decayed": 0.7862739859707898,
+        "n": 15
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [],
+    "sentiment": {
+      "overall": null,
+      "by_month": {}
+    },
+    "n_comments": 2
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": null,
+    "difficulty_trend": null,
+    "forecast": null,
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2018-11-29T00:00:00",
+      "materia": "METROLOGIA Y NORMALIZACION",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Muy buen maestro, con el que de verdad vas aprender, los exámenes son muy largos pero no tan complicados, pueda que lo mires muy enchuecado pero es bien compa."
+    },
+    {
+      "fecha_iso": "2017-12-28T00:00:00",
+      "materia": "METROLOGIA Y NORMALIZACION",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Es buen profe, te enseña lo que debes aprender y aparte practicas algunas veces. Los exámenes son largos pero sencillos. Al final te hace el paro."
+    }
+  ],
+  "comments_recent": [
+    "Muy buen maestro, con el que de verdad vas aprender, los exámenes son muy largos pero no tan complicados, pueda que lo mires muy enchuecado pero es bien compa.",
+    "Es buen profe, te enseña lo que debes aprender y aparte practicas algunas veces. Los exámenes son largos pero sencillos. Al final te hace el paro."
+  ],
+  "n_reviews": 2
+}

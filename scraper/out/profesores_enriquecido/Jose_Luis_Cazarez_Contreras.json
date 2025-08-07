@@ -1,0 +1,334 @@
+{
+  "professor_id": "Jose_Luis_Cazarez_Contreras",
+  "nombre": "jose luis cazarez contreras",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 8.878483812790678,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.751036840106342,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.867,
+    "wilson_interval": [
+      0.6211750079348376,
+      0.9626395301086408
+    ],
+    "n_recommendations": 15
+  },
+  "subject_normalization": {
+    "z_mean": -0.11,
+    "z_mean_decayed": -0.06,
+    "per_subject": [
+      {
+        "materia": "CALCULO",
+        "z_decayed": 1.0700898076746443,
+        "n": 50
+      },
+      {
+        "materia": "CALCULO DIFERENCIAL",
+        "z_decayed": 0.8090231065651105,
+        "n": 110
+      },
+      {
+        "materia": "CÁLCULO DIFERENCIAL",
+        "z_decayed": 0.7526588922815561,
+        "n": 46
+      },
+      {
+        "materia": "ALGEBRA LINEAL",
+        "z_decayed": 0.669161844801493,
+        "n": 35
+      },
+      {
+        "materia": "FISICA",
+        "z_decayed": -0.007781500338844279,
+        "n": 41
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "aprende",
+          "examen",
+          "explica",
+          "te explica",
+          "te"
+        ],
+        "weight": 0.10575551760751142
+      },
+      {
+        "id": 1,
+        "words": [
+          "casi",
+          "estan",
+          "examenes",
+          "domina",
+          "bien"
+        ],
+        "weight": 0.14218943681983126
+      },
+      {
+        "id": 2,
+        "words": [
+          "aprende",
+          "maestros",
+          "es",
+          "maestro",
+          "gracias"
+        ],
+        "weight": 0.09637085772996196
+      },
+      {
+        "id": 3,
+        "words": [
+          "explica",
+          "maestros",
+          "mejores maestros",
+          "mejores",
+          "es"
+        ],
+        "weight": 0.17318971300288666
+      },
+      {
+        "id": 4,
+        "words": [
+          "buen profesor",
+          "es",
+          "estan",
+          "te",
+          "clase"
+        ],
+        "weight": 0.14754043659941013
+      }
+    ],
+    "sentiment": {
+      "overall": 0.1,
+      "by_month": {
+        "2018-07": 0.0,
+        "2017-10": 0.0,
+        "2015-08": 0.5,
+        "2014-12": 0.0,
+        "2014-01": 0.0,
+        "2013-07": 0.0,
+        "2013-06": 0.0,
+        "2013-02": 0.0,
+        "2012-08": 0.0
+      }
+    },
+    "n_comments": 10
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        10.0,
+        10.0,
+        7.0,
+        7.0,
+        6.0,
+        2.0,
+        10.0,
+        10.0,
+        9.5,
+        10.0,
+        8.0,
+        10.0,
+        9.0
+      ],
+      "ewma": [
+        10.0,
+        10.0,
+        9.1,
+        8.469999999999999,
+        7.728999999999998,
+        6.010299999999998,
+        7.207209999999998,
+        8.045046999999999,
+        8.4815329,
+        8.93707303,
+        8.655951121,
+        9.0591657847,
+        9.04141604929
+      ],
+      "sigma": 1.8340251280747875
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 9.04141604929,
+      "quality_band": [
+        5.446726798263416,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2022-01-20T00:00:00",
+      "materia": "CALCULO VECTORIAL",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2018-07-31T00:00:00",
+      "materia": "CÁLCULO INTEGRAL/ CÁLCULO VECTORIAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Nunca te arrepentirás por llevar una clase con él."
+    },
+    {
+      "fecha_iso": "2017-10-03T00:00:00",
+      "materia": "CALCULO VECTORIAL",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "maestro la verdad domina la materia, te presenta mediante un graficador todo lo que explica, todo lo que viene en el examen realmente lo vemos en clases. Lo recomiendo!!!!"
+    },
+    {
+      "fecha_iso": "2016-09-21T00:00:00",
+      "materia": "CALCULO DIFERENCIAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2015-08-11T00:00:00",
+      "materia": "CÁLCULO DIFERENCIAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "De los mejores maestros, explica muy bien, domina el tema, da oportunidad si ve que le echaste ganas, sus exámenes son largos, pero fáciles"
+    },
+    {
+      "fecha_iso": "2015-08-10T00:00:00",
+      "materia": "CALCULO DIFERENCIAL",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 1,
+      "comentario": "Muy buen profesor, exámenes algo largos pero todo se vio en clases. Eso si no se confíen y pásenlo a la primera por que las recuperaciones están bien difíciles y la mayoría reprueba. Al final del curso si miro que echabas ganas te puede ayudar. Explica muy claro y deja tareas para dejar en claro la clase la verdad un gran maestro."
+    },
+    {
+      "fecha_iso": "2014-12-26T00:00:00",
+      "materia": "ECUACIANES DIFERENCIALES",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "se aprende porque aprendes, es de los pocos maestros que te ponen atención si tienes dudas te las explica.Gracias Maestro"
+    },
+    {
+      "fecha_iso": "2014-01-14T00:00:00",
+      "materia": "CÁLCULO INTEGRAL Y ECUACIONES DIFERENCIALES",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "nosotros como alumnos necesitamos ser escuchado y apoyado para poder adquirir las herramientas para nuestra vida, y agradezco al maestro por ser así. Gracias"
+    },
+    {
+      "fecha_iso": "2013-07-19T00:00:00",
+      "materia": "ECUACIONES DIFERENCIALES",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 1.0,
+      "recomienda": 0,
+      "comentario": "Malísimo para las ecuaciones diferenciales, no las domina muy bien. No vimos casi nada, me arrepiento de haberle hecho caso a Perez Soto y a Pimienta de llevarla con el de Verano, no aprendí nada."
+    },
+    {
+      "fecha_iso": "2013-06-27T00:00:00",
+      "materia": "ALGEBRA LINEAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Es un muy buen profesor, explica la clase con claridad y es accesible, puedes pedirle ayuda y te atiende con gusto. Uno de los mejores maestros que eh tenido."
+    },
+    {
+      "fecha_iso": "2013-06-11T00:00:00",
+      "materia": "REDES",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2013-02-11T00:00:00",
+      "materia": "CALCULO VECTORIAL",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 7.5,
+      "recomienda": 1,
+      "comentario": "esta muy facil pasar con este profesor pero casi no se aprende ya que te explica poco, ademas llega tarde al salon y se pone a platicar por el telefono con si amigo erazmo (mayatones) deja mucha tarea que al final no te cuenta para nada y en el examen no pone las cosas como te las explica"
+    },
+    {
+      "fecha_iso": "2012-08-15T00:00:00",
+      "materia": "FISICA",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 7.5,
+      "recomienda": 1,
+      "comentario": "Enseña bien pero los examenes estan endemoniados pase kn 76 pero por que me puse las pilas No te regala calificcion"
+    },
+    {
+      "fecha_iso": "2012-06-25T00:00:00",
+      "materia": "CALCULO",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2011-08-15T00:00:00",
+      "materia": "CALCULO",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": ""
+    }
+  ],
+  "comments_recent": [
+    "Nunca te arrepentirás por llevar una clase con él.",
+    "maestro la verdad domina la materia, te presenta mediante un graficador todo lo que explica, todo lo que viene en el examen realmente lo vemos en clases. Lo recomiendo!!!!",
+    "De los mejores maestros, explica muy bien, domina el tema, da oportunidad si ve que le echaste ganas, sus exámenes son largos, pero fáciles",
+    "Muy buen profesor, exámenes algo largos pero todo se vio en clases. Eso si no se confíen y pásenlo a la primera por que las recuperaciones están bien difíciles y la mayoría reprueba. Al final del curso si miro que echabas ganas te puede ayudar. Explica muy claro y deja tareas para dejar en claro la clase la verdad un gran maestro.",
+    "se aprende porque aprendes, es de los pocos maestros que te ponen atención si tienes dudas te las explica.Gracias Maestro",
+    "nosotros como alumnos necesitamos ser escuchado y apoyado para poder adquirir las herramientas para nuestra vida, y agradezco al maestro por ser así. Gracias",
+    "Malísimo para las ecuaciones diferenciales, no las domina muy bien. No vimos casi nada, me arrepiento de haberle hecho caso a Perez Soto y a Pimienta de llevarla con el de Verano, no aprendí nada.",
+    "Es un muy buen profesor, explica la clase con claridad y es accesible, puedes pedirle ayuda y te atiende con gusto. Uno de los mejores maestros que eh tenido."
+  ],
+  "n_reviews": 15
+}

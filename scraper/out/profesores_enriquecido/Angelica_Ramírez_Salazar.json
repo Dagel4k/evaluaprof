@@ -1,0 +1,352 @@
+{
+  "professor_id": "Angelica_Ramírez_Salazar",
+  "nombre": "Angelica Ramírez Salazar",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 9.819397931584641,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.880589666765132,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.824,
+    "wilson_interval": [
+      0.5897007098262422,
+      0.9380898628745102
+    ],
+    "n_recommendations": 17
+  },
+  "subject_normalization": {
+    "z_mean": 0.38,
+    "z_mean_decayed": 0.87,
+    "per_subject": [
+      {
+        "materia": "REDES DE COMPUTADORAS",
+        "z_decayed": 0.9102544564384313,
+        "n": 15
+      },
+      {
+        "materia": "REDES",
+        "z_decayed": 0.7189420262655407,
+        "n": 21
+      },
+      {
+        "materia": "TALLER DE INVESTIGACIÓN I",
+        "z_decayed": -0.3595600413646628,
+        "n": 11
+      },
+      {
+        "materia": "---",
+        "z_decayed": -0.9627852966533862,
+        "n": 521
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "es",
+          "semestre",
+          "maestra",
+          "buena",
+          "buena maestra"
+        ],
+        "weight": 0.11433434614442951
+      },
+      {
+        "id": 1,
+        "words": [
+          "es",
+          "aprender",
+          "profesora",
+          "mejor",
+          "redes"
+        ],
+        "weight": 0.11625990475546523
+      },
+      {
+        "id": 2,
+        "words": [
+          "practicas",
+          "califica",
+          "examenes cisco",
+          "examenes",
+          "cisco"
+        ],
+        "weight": 0.1498424258799588
+      },
+      {
+        "id": 3,
+        "words": [
+          "maestra",
+          "ensena",
+          "es",
+          "maestra te",
+          "te"
+        ],
+        "weight": 0.15352102316987232
+      },
+      {
+        "id": 4,
+        "words": [
+          "redes",
+          "es",
+          "mejor",
+          "pasar",
+          "da"
+        ],
+        "weight": 0.1086544752038684
+      }
+    ],
+    "sentiment": {
+      "overall": 0.14285714285714285,
+      "by_month": {
+        "2023-08": 1.0,
+        "2022-05": 0.5,
+        "2022-02": 0.0,
+        "2022-01": 0.0,
+        "2021-12": 0.5,
+        "2021-09": 0.0,
+        "2021-06": 0.0,
+        "2011-11": -1.0,
+        "2011-02": 0.0,
+        "2011-01": 0.0,
+        "2010-08": 0.0
+      }
+    },
+    "n_comments": 14
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        2.0,
+        10.0,
+        3.0,
+        2.0,
+        10.0,
+        8.0,
+        8.0,
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        10.0
+      ],
+      "ewma": [
+        2.0,
+        4.4,
+        3.98,
+        3.386,
+        5.3702000000000005,
+        6.15914,
+        6.711397999999999,
+        7.697978599999999,
+        8.388585019999999,
+        8.872009513999998,
+        9.210406659799999,
+        9.44728466186,
+        9.613099263301999,
+        9.729169484311399
+      ],
+      "sigma": 1.9178067464660156
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 9.729169484311399,
+      "quality_band": [
+        5.970268261238008,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2023-08-11T00:00:00",
+      "materia": "REDES DE COMPUTADORAS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Muy buena profesora, desde el inicio te deja todo muy claro con las fechas y como se va a calificar, solo es cuestion de ir al dia con las tareas y un cienazo"
+    },
+    {
+      "fecha_iso": "2022-09-15T00:00:00",
+      "materia": "CONMUTACION DE REDES",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2022-05-26T00:00:00",
+      "materia": "CONMUTACION",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "La mejor profesora de redes. Es dueña de cisco"
+    },
+    {
+      "fecha_iso": "2022-05-12T00:00:00",
+      "materia": "CONMUTACIÓN Y ENRUTAMIENTO DE REDES DE DATOS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Excelente maestra, te hace aprender para pasar y enseña bien perro, además si le echaste ganas al final es muy considerada contigo"
+    },
+    {
+      "fecha_iso": "2022-02-25T00:00:00",
+      "materia": "REDES",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Califica con una tarea semanal, una practica por unidad y examenes en cisco regalados\nSiempre está abierta a resolver dudas"
+    },
+    {
+      "fecha_iso": "2022-02-15T00:00:00",
+      "materia": "REDES DE COMPUTADORAS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Muy buena maestra"
+    },
+    {
+      "fecha_iso": "2022-01-14T00:00:00",
+      "materia": "REDES DE COMPUTADORAS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "La mejor de redes y aunque da demasiadas oportunidades para pasar, no es barco."
+    },
+    {
+      "fecha_iso": "2021-12-09T00:00:00",
+      "materia": "CONMUTACIÓN Y ENRUTAMIENTO DE REDES",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Buena maestra, explica muy claro, solo deja una tarea de practica por semana. Es muy fácil el semestre con ella y aprendes lo que debes."
+    },
+    {
+      "fecha_iso": "2021-12-08T00:00:00",
+      "materia": "REDES DE COMPUTADORAS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Muy buena para aprender sobre redes"
+    },
+    {
+      "fecha_iso": "2021-09-30T00:00:00",
+      "materia": "REDES DE COMPUTADORAS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Deja muchas tareas pero enseña muy padre las clases en especial las prácticas, los examenes en cisco son practicamente 20 puntos gratis a tu calificacion, recomendada"
+    },
+    {
+      "fecha_iso": "2021-06-15T00:00:00",
+      "materia": "REDES DE COMPUTADORAS",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Califica mayormente con tareas y prácticas. Inscribe a todo el grupo para seguir un curso de cisco que es parte de la calificación. En general es muy buena maestra y aprendes mucho."
+    },
+    {
+      "fecha_iso": "2011-11-08T00:00:00",
+      "materia": "TALLER DE INVESTIGACIÓN I",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 1,
+      "comentario": "El semestre que me dio clase fue indulgente y buena maestra. Es una persona difícil de tratar debido a que tiene una personalidad algo complicada pero al final de cuentas nada que sea imposible."
+    },
+    {
+      "fecha_iso": "2011-09-19T00:00:00",
+      "materia": "REDES",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2011-02-07T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2011-01-30T00:00:00",
+      "materia": "TECNOLOGIAS EMERGENTES",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": 2.0,
+      "recomienda": 0,
+      "comentario": "\"PREDICA CON EL EJEMPLO\" NO SE LE DA.\n\nPOCO ACCESIBLE"
+    },
+    {
+      "fecha_iso": "2010-09-28T00:00:00",
+      "materia": "TALLER DE INVESTIGACIÓN I",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2010-08-29T00:00:00",
+      "materia": "TALLER DE INVESTIGACIÓN I",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Pesima maestra, no te enseña nada, es poco indulgente, te exige mucho y no sabe explicar lo que quiere. También exige puntualidad y ella es muy impuntual, realmente no la recomiendo."
+    }
+  ],
+  "comments_recent": [
+    "Muy buena profesora, desde el inicio te deja todo muy claro con las fechas y como se va a calificar, solo es cuestion de ir al dia con las tareas y un cienazo",
+    "La mejor profesora de redes. Es dueña de cisco",
+    "Excelente maestra, te hace aprender para pasar y enseña bien perro, además si le echaste ganas al final es muy considerada contigo",
+    "Califica con una tarea semanal, una practica por unidad y examenes en cisco regalados\nSiempre está abierta a resolver dudas",
+    "Muy buena maestra",
+    "La mejor de redes y aunque da demasiadas oportunidades para pasar, no es barco.",
+    "Buena maestra, explica muy claro, solo deja una tarea de practica por semana. Es muy fácil el semestre con ella y aprendes lo que debes.",
+    "Muy buena para aprender sobre redes",
+    "Deja muchas tareas pero enseña muy padre las clases en especial las prácticas, los examenes en cisco son practicamente 20 puntos gratis a tu calificacion, recomendada"
+  ],
+  "n_reviews": 17
+}

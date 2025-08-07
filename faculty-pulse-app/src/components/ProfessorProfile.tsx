@@ -13,12 +13,22 @@ import {
   Calendar,
   Bot,
   AlertTriangle,
-  CheckCircle
+  CheckCircle,
+  MapPin,
+  Shield,
+  Heart,
+  Activity,
+  Brain,
+  Target,
+  BarChart3,
+  LineChart,
+  Zap
 } from 'lucide-react';
 import { Professor } from '@/types/professor';
-import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts';
+import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, LineChart as RechartsLineChart, Line, Area, AreaChart } from 'recharts';
 import ReactWordcloud from 'react-wordcloud';
 import { AIAnalysisModal } from './AIAnalysisModal';
+import { AdvancedAnalyticsModal } from './AdvancedAnalyticsModal';
 
 interface ProfessorProfileProps {
   professor: Professor;
@@ -32,6 +42,7 @@ export const ProfessorProfile: React.FC<ProfessorProfileProps> = ({
   onAIAnalysis 
 }) => {
   const [isAIModalOpen, setIsAIModalOpen] = useState(false);
+  const [isAnalyticsModalOpen, setIsAnalyticsModalOpen] = useState(false);
 
   // Preparar datos para el gráfico de distribución (escala 1-10)
   const gradeDistribution = Array.from({length: 10}, (_, i) => {
@@ -39,7 +50,7 @@ export const ProfessorProfile: React.FC<ProfessorProfileProps> = ({
     return {
       grade: grade.toString(),
       count: professor.calificaciones.filter(c => 
-        Math.floor(c.calificacion_general) === grade
+        Math.floor(c.puntaje_calidad_general) === grade
       ).length
     };
   });
@@ -96,11 +107,11 @@ export const ProfessorProfile: React.FC<ProfessorProfileProps> = ({
   const subjects = [...new Set(professor.calificaciones.map(c => c.materia))];
   const subjectStats = subjects.map(subject => {
     const subjectGrades = professor.calificaciones.filter(c => c.materia === subject);
-    const avgGrade = subjectGrades.reduce((sum, c) => sum + c.calificacion_general, 0) / subjectGrades.length;
+    const avgGrade = subjectGrades.reduce((sum, c) => sum + c.puntaje_calidad_general, 0) / subjectGrades.length;
     return { subject, avgGrade, count: subjectGrades.length };
   });
 
-  const difficulty = getDifficultyLevel(professor.dificultad_promedio);
+  const difficulty = getDifficultyLevel(professor.nivel_dificultad);
 
   const handleAIAnalysis = () => {
     setIsAIModalOpen(true);
@@ -130,6 +141,12 @@ export const ProfessorProfile: React.FC<ProfessorProfileProps> = ({
                     <Building className="h-4 w-4" />
                     <span>{professor.universidad}</span>
                   </div>
+                  {professor.ciudad && (
+                    <div className="flex items-center gap-1">
+                      <MapPin className="h-4 w-4" />
+                      <span>{professor.ciudad}</span>
+                    </div>
+                  )}
                   <div className="flex items-center gap-1">
                     <GraduationCap className="h-4 w-4" />
                     <span>{professor.departamento}</span>
@@ -141,10 +158,10 @@ export const ProfessorProfile: React.FC<ProfessorProfileProps> = ({
                 <div className="text-center p-4 bg-gradient-to-br from-green-50 to-green-100 rounded-lg">
                   <div className="flex items-center justify-center gap-2 mb-2">
                     <Star className="h-5 w-5 text-yellow-500 fill-current" />
-                    <span className="text-sm text-muted-foreground">Promedio</span>
+                    <span className="text-sm text-muted-foreground">Calidad</span>
                   </div>
-                  <span className={`text-2xl font-bold ${getGradeColor(professor.promedio_general)}`}>
-                    {professor.promedio_general.toFixed(1)}
+                  <span className={`text-2xl font-bold ${getGradeColor(professor.calidad_general)}`}>
+                    {professor.calidad_general.toFixed(1)}
                   </span>
                 </div>
 
@@ -180,20 +197,136 @@ export const ProfessorProfile: React.FC<ProfessorProfileProps> = ({
               </div>
             </div>
 
-            <Button 
-              onClick={handleAIAnalysis}
-              className="gap-2 bg-gradient-to-r from-blue-600 to-purple-600 hover:opacity-90"
-            >
-              <Bot className="h-4 w-4" />
-              Análisis IA
-            </Button>
+            <div className="flex gap-2">
+              <Button 
+                onClick={handleAIAnalysis}
+                className="gap-2 bg-gradient-to-r from-blue-600 to-purple-600 hover:opacity-90"
+              >
+                <Bot className="h-4 w-4" />
+                Análisis IA
+              </Button>
+              {professor.analisis_avanzado && (
+                <Button 
+                  onClick={() => setIsAnalyticsModalOpen(true)}
+                  className="gap-2 bg-gradient-to-r from-purple-600 to-pink-600 hover:opacity-90"
+                >
+                  <BarChart3 className="h-4 w-4" />
+                  Análisis Detallado
+                </Button>
+              )}
+            </div>
           </div>
         </Card>
+
+        {/* Análisis Avanzado - Solo si está disponible */}
+        {professor.analisis_avanzado && (
+          <Card className="p-6 bg-gradient-to-br from-purple-50 to-blue-50 border-purple-200">
+            <div className="flex items-center gap-2 mb-6">
+              <Zap className="h-5 w-5 text-purple-600" />
+              <h3 className="text-lg font-semibold">Análisis Avanzado con IA</h3>
+            </div>
+            
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mb-6">
+              {/* Trust Score */}
+              {professor.analisis_avanzado.trust_score !== null && (
+                <div className="text-center p-4 bg-white rounded-lg shadow-sm">
+                  <div className="flex items-center justify-center gap-2 mb-2">
+                    <Shield className="h-5 w-5 text-green-500" />
+                    <span className="text-sm text-muted-foreground">Confiabilidad</span>
+                  </div>
+                  <span className="text-2xl font-bold text-green-600">
+                    {(professor.analisis_avanzado.trust_score * 100).toFixed(0)}%
+                  </span>
+                </div>
+              )}
+
+              {/* Sentiment Score */}
+              {professor.analisis_avanzado.sentiment_score !== null && (
+                <div className="text-center p-4 bg-white rounded-lg shadow-sm">
+                  <div className="flex items-center justify-center gap-2 mb-2">
+                    <Heart className="h-5 w-5 text-pink-500" />
+                    <span className="text-sm text-muted-foreground">Sentimiento</span>
+                  </div>
+                  <span className={`text-2xl font-bold ${
+                    professor.analisis_avanzado.sentiment_score >= 0.3 ? 'text-green-600' :
+                    professor.analisis_avanzado.sentiment_score >= -0.1 ? 'text-yellow-600' : 'text-red-600'
+                  }`}>
+                    {professor.analisis_avanzado.sentiment_score >= 0.3 ? 'Positivo' :
+                     professor.analisis_avanzado.sentiment_score >= -0.1 ? 'Neutro' : 'Negativo'}
+                  </span>
+                </div>
+              )}
+
+              {/* Forecast Quality */}
+              {professor.analisis_avanzado.forecast_quality && (
+                <div className="text-center p-4 bg-white rounded-lg shadow-sm">
+                  <div className="flex items-center justify-center gap-2 mb-2">
+                    <Target className="h-5 w-5 text-blue-500" />
+                    <span className="text-sm text-muted-foreground">Pronóstico</span>
+                  </div>
+                  <span className={`text-2xl font-bold ${getGradeColor(professor.analisis_avanzado.forecast_quality)}`}>
+                    {professor.analisis_avanzado.forecast_quality.toFixed(1)}
+                  </span>
+                </div>
+              )}
+
+              {/* Trend Indicator */}
+              {professor.analisis_avanzado.quality_trend && professor.analisis_avanzado.quality_trend.length > 1 && (
+                <div className="text-center p-4 bg-white rounded-lg shadow-sm">
+                  <div className="flex items-center justify-center gap-2 mb-2">
+                    <TrendingUp className="h-5 w-5 text-purple-500" />
+                    <span className="text-sm text-muted-foreground">Tendencia</span>
+                  </div>
+                  <span className={`text-2xl font-bold ${
+                    professor.analisis_avanzado.quality_trend[professor.analisis_avanzado.quality_trend.length - 1] > 
+                    professor.analisis_avanzado.quality_trend[0] ? 'text-green-600' : 'text-yellow-600'
+                  }`}>
+                    {professor.analisis_avanzado.quality_trend[professor.analisis_avanzado.quality_trend.length - 1] > 
+                     professor.analisis_avanzado.quality_trend[0] ? '↗ Mejorando' : '→ Estable'}
+                  </span>
+                </div>
+              )}
+            </div>
+
+            {/* Gráfico de Tendencia de Calidad */}
+            {professor.analisis_avanzado.quality_trend && professor.analisis_avanzado.quality_trend.length > 1 && (
+              <div className="bg-white rounded-lg p-4 shadow-sm">
+                <h4 className="font-semibold mb-4 flex items-center gap-2">
+                  <LineChart className="h-4 w-4" />
+                  Tendencia de Calidad en el Tiempo
+                </h4>
+                <ResponsiveContainer width="100%" height={250}>
+                  <AreaChart data={professor.analisis_avanzado.quality_trend.map((value, index) => ({
+                    period: `P${index + 1}`,
+                    calidad: value
+                  }))}>
+                    <CartesianGrid strokeDasharray="3 3" />
+                    <XAxis dataKey="period" />
+                    <YAxis domain={[0, 10]} />
+                    <Tooltip 
+                      formatter={(value: any) => [`${value.toFixed(1)}`, 'Calidad']}
+                    />
+                    <Area 
+                      type="monotone" 
+                      dataKey="calidad" 
+                      stroke="hsl(var(--primary))" 
+                      fill="hsl(var(--primary))"
+                      fillOpacity={0.3}
+                    />
+                  </AreaChart>
+                </ResponsiveContainer>
+              </div>
+            )}
+          </Card>
+        )}
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
           {/* Gráfico de Distribución */}
           <Card className="p-6">
-            <h3 className="text-lg font-semibold mb-4">Distribución de Calificaciones</h3>
+            <h3 className="text-lg font-semibold mb-4 flex items-center gap-2">
+              <BarChart3 className="h-5 w-5" />
+              Distribución de Calificaciones
+            </h3>
             <ResponsiveContainer width="100%" height={300}>
               <BarChart data={gradeDistribution}>
                 <CartesianGrid strokeDasharray="3 3" />
@@ -207,7 +340,10 @@ export const ProfessorProfile: React.FC<ProfessorProfileProps> = ({
 
           {/* Word Cloud */}
           <Card className="p-6">
-            <h3 className="text-lg font-semibold mb-4">Etiquetas Comunes</h3>
+            <h3 className="text-lg font-semibold mb-4 flex items-center gap-2">
+              <Brain className="h-5 w-5" />
+              Etiquetas Comunes
+            </h3>
             {wordCloudData.length > 0 ? (
               <div style={{ height: 300 }}>
                 <ReactWordcloud
@@ -261,17 +397,46 @@ export const ProfessorProfile: React.FC<ProfessorProfileProps> = ({
                     <Badge variant="outline">{calificacion.materia}</Badge>
                     <div className="flex items-center gap-1">
                       <Star className="h-4 w-4 text-yellow-500 fill-current" />
-                      <span className={`font-semibold ${getGradeColor(calificacion.calificacion_general)}`}>
-                        {calificacion.calificacion_general.toFixed(1)}
+                      <span className={`font-semibold ${getGradeColor(calificacion.puntaje_calidad_general)}`}>
+                        {calificacion.puntaje_calidad_general.toFixed(1)}
                       </span>
                     </div>
+                    {calificacion.tipo_calificacion && (
+                      <Badge variant="secondary" className="text-xs">
+                        {calificacion.tipo_calificacion}
+                      </Badge>
+                    )}
                   </div>
                   <div className="flex items-center gap-1 text-sm text-muted-foreground">
                     <Calendar className="h-4 w-4" />
                     <span>{formatDate(calificacion.fecha)}</span>
                   </div>
                 </div>
-                <p className="text-foreground">{calificacion.comentario}</p>
+                <div className="space-y-2">
+                  {calificacion.comentario && (
+                    <p className="text-foreground">{calificacion.comentario}</p>
+                  )}
+                  <div className="flex flex-wrap gap-2 text-xs text-muted-foreground">
+                    {calificacion.asistencia && (
+                      <span>Asistencia: {calificacion.asistencia}</span>
+                    )}
+                    {calificacion.calificacion_recibida && (
+                      <span>Calificación: {calificacion.calificacion_recibida}</span>
+                    )}
+                    {calificacion.interes_clase && (
+                      <span>Interés: {calificacion.interes_clase}</span>
+                    )}
+                  </div>
+                  {calificacion.etiquetas_comentario && calificacion.etiquetas_comentario.length > 0 && (
+                    <div className="flex flex-wrap gap-1 mt-2">
+                      {calificacion.etiquetas_comentario.map((tag, tagIndex) => (
+                        <Badge key={tagIndex} variant="outline" className="text-xs">
+                          {tag}
+                        </Badge>
+                      ))}
+                    </div>
+                  )}
+                </div>
                 {index < 4 && <Separator className="mt-4" />}
               </div>
             ))}
@@ -284,6 +449,13 @@ export const ProfessorProfile: React.FC<ProfessorProfileProps> = ({
         professor={professor}
         isOpen={isAIModalOpen}
         onClose={() => setIsAIModalOpen(false)}
+      />
+
+      {/* Modal de Analytics Avanzado */}
+      <AdvancedAnalyticsModal
+        professor={professor}
+        isOpen={isAnalyticsModalOpen}
+        onClose={() => setIsAnalyticsModalOpen(false)}
       />
     </>
   );

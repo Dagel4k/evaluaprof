@@ -1,0 +1,214 @@
+{
+  "professor_id": "Federico_Cuautemoc_Ramirez_Gonzales",
+  "nombre": "Federico Cuautemoc Ramirez Gonzales",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 7.543120943534599,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.751524764862268,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 1.0,
+    "wilson_interval": [
+      0.6456611570247934,
+      1
+    ],
+    "n_recommendations": 7
+  },
+  "subject_normalization": {
+    "z_mean": 0.73,
+    "z_mean_decayed": 0.12,
+    "per_subject": [
+      {
+        "materia": "CIENCIA E INGENIERÍA DE MATERIALES",
+        "z_decayed": 1.146139766187512,
+        "n": 5
+      },
+      {
+        "materia": "METROLOGIA Y NORMALIZACION",
+        "z_decayed": 0.9192412931276526,
+        "n": 15
+      },
+      {
+        "materia": "METROLOGIA",
+        "z_decayed": 0.3163305541768797,
+        "n": 20
+      },
+      {
+        "materia": "METROLOGÍA Y NORMALIZACIÓN",
+        "z_decayed": -0.08785383541799201,
+        "n": 12
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "es buen",
+          "buen profesor",
+          "manera",
+          "explica",
+          "profesor"
+        ],
+        "weight": 0.21667358226629105
+      },
+      {
+        "id": 1,
+        "words": [
+          "clase",
+          "examen",
+          "temas",
+          "si",
+          "pasar"
+        ],
+        "weight": 0.24804550292599412
+      },
+      {
+        "id": 2,
+        "words": [
+          "es buen",
+          "profesor explica",
+          "clases",
+          "es",
+          "verdad"
+        ],
+        "weight": 0.19636826653433578
+      }
+    ],
+    "sentiment": {
+      "overall": 0.2857142857142857,
+      "by_month": {
+        "2024-08": 0.0,
+        "2017-08": 0.0,
+        "2016-01": 0.6666666666666666,
+        "2015-01": 0.0,
+        "2014-01": 0.0
+      }
+    },
+    "n_comments": 7
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        8.0,
+        10.0,
+        9.0,
+        10.0,
+        7.0
+      ],
+      "ewma": [
+        8.0,
+        8.6,
+        8.719999999999999,
+        9.104,
+        8.4728
+      ],
+      "sigma": 1.0916668209669103
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 8.4728,
+      "quality_band": [
+        6.333133030904856,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2024-08-09T00:00:00",
+      "materia": "METROLOGÍA Y NORMALIZACIÓN",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Está curiosón, nunca te vas a aburrir, pero deja a los alumnos exponer temas que nunca se vieron ni se verán en clase, y de esa exposición puede que haga el examen. Si enseña bin algunas cosas como medir con vernier y micrómetro, pero otra veces no estará porque fue a reparar la planta de la japac."
+    },
+    {
+      "fecha_iso": "2017-08-08T00:00:00",
+      "materia": "CIENCIA E INGENIERÍA DE MATERIALES",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Se agarra cura en su clase, pero la mayoría de los temas los exponen los alumnos y de ahí crean un cuestionario que será un examen. Es muy fácil pasar. Hace exámenes en casa y te lleva a prácticas. Sólo lo recomiendo en caso de que quieran pasar fácilmente."
+    },
+    {
+      "fecha_iso": "2016-01-26T00:00:00",
+      "materia": "METROLOGIA Y NORMALIZACION",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "es muy buen profesor, te explica de forma teorica y practica\ndeja pocas tareas y temarios para sus examenes pero no los ocupas pues durante sus clases explica todo de manera clara. sin duda es el profesor ideal para esta materia :)"
+    },
+    {
+      "fecha_iso": "2016-01-14T00:00:00",
+      "materia": "METROLOGIA Y NORMALIZACION",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 1,
+      "comentario": "En lo practico es muy buen profesor, explica muy bien, pero en lo teorico la verdad es que todo lo contrario"
+    },
+    {
+      "fecha_iso": "2016-01-14T00:00:00",
+      "materia": "METROLOGIA Y NORMALIZACION",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Muy buen profeson, exigente en sus trabajos pero nada imposible, da oportunidades para pasar y siempre deja claro si le preguntas algo"
+    },
+    {
+      "fecha_iso": "2015-01-08T00:00:00",
+      "materia": "METROLOGÍA Y NORMALIZACIÓN",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Es muy buen profesor, explica de manera clara sus clases y siempre resuelve las dudas de los alumnos de buena manera. 100 % recomendado."
+    },
+    {
+      "fecha_iso": "2014-01-25T00:00:00",
+      "materia": "METROLOGIA",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "2013\nMuy ligth sus clases la verdad, le gusta la disiplina, es entrenador de beisbol ."
+    }
+  ],
+  "comments_recent": [
+    "Está curiosón, nunca te vas a aburrir, pero deja a los alumnos exponer temas que nunca se vieron ni se verán en clase, y de esa exposición puede que haga el examen. Si enseña bin algunas cosas como medir con vernier y micrómetro, pero otra veces no estará porque fue a reparar la planta de la japac.",
+    "Se agarra cura en su clase, pero la mayoría de los temas los exponen los alumnos y de ahí crean un cuestionario que será un examen. Es muy fácil pasar. Hace exámenes en casa y te lleva a prácticas. Sólo lo recomiendo en caso de que quieran pasar fácilmente.",
+    "es muy buen profesor, te explica de forma teorica y practica\ndeja pocas tareas y temarios para sus examenes pero no los ocupas pues durante sus clases explica todo de manera clara. sin duda es el profesor ideal para esta materia :)",
+    "En lo practico es muy buen profesor, explica muy bien, pero en lo teorico la verdad es que todo lo contrario",
+    "Muy buen profeson, exigente en sus trabajos pero nada imposible, da oportunidades para pasar y siempre deja claro si le preguntas algo",
+    "Es muy buen profesor, explica de manera clara sus clases y siempre resuelve las dudas de los alumnos de buena manera. 100 % recomendado.",
+    "2013\nMuy ligth sus clases la verdad, le gusta la disiplina, es entrenador de beisbol ."
+  ],
+  "n_reviews": 7
+}

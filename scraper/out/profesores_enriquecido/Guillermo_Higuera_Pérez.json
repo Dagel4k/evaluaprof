@@ -1,0 +1,321 @@
+{
+  "professor_id": "Guillermo_Higuera_Pérez",
+  "nombre": "Guillermo Higuera Pérez",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 7.594654263122499,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.948996708444106,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.786,
+    "wilson_interval": [
+      0.5241027622679172,
+      0.9242875166308363
+    ],
+    "n_recommendations": 14
+  },
+  "subject_normalization": {
+    "z_mean": 0.26,
+    "z_mean_decayed": -0.13,
+    "per_subject": [
+      {
+        "materia": "CIRCUITOS HIDRAULICOS Y NEUMATICOS",
+        "z_decayed": 0.5,
+        "n": 4
+      },
+      {
+        "materia": "CIRCUITOS HIDRÁULICOS Y NEUMÁTICOS",
+        "z_decayed": -0.22619714010275285,
+        "n": 8
+      },
+      {
+        "materia": "---",
+        "z_decayed": -0.36348883362302276,
+        "n": 521
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "muchas",
+          "excelente",
+          "examenes",
+          "es",
+          "profesor"
+        ],
+        "weight": 0.0815112739478967
+      },
+      {
+        "id": 1,
+        "words": [
+          "clases",
+          "calificacion",
+          "aunque",
+          "te",
+          "bien"
+        ],
+        "weight": 0.1292012984158541
+      },
+      {
+        "id": 2,
+        "words": [
+          "pasar",
+          "he",
+          "he tenido",
+          "tenido",
+          "manera"
+        ],
+        "weight": 0.12483632908247023
+      },
+      {
+        "id": 3,
+        "words": [
+          "deja mucha",
+          "diario",
+          "material",
+          "clase",
+          "es"
+        ],
+        "weight": 0.12137548704647008
+      },
+      {
+        "id": 4,
+        "words": [
+          "muchas",
+          "esos",
+          "aprendes",
+          "si",
+          "porque"
+        ],
+        "weight": 0.14651905750127542
+      }
+    ],
+    "sentiment": {
+      "overall": 0.2857142857142857,
+      "by_month": {
+        "2023-02": 0.0,
+        "2022-06": 0.0,
+        "2021-10": 0.0,
+        "2021-05": 0.0,
+        "2020-01": 1.0,
+        "2019-12": 0.0,
+        "2018-12": 1.0,
+        "2018-06": 0.0,
+        "2018-04": 0.0,
+        "2018-01": 1.0,
+        "2017-03": 0.0,
+        "2016-01": 0.0,
+        "2014-11": 1.0
+      }
+    },
+    "n_comments": 14
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        4.0,
+        8.0,
+        4.5,
+        10.0
+      ],
+      "ewma": [
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        8.2,
+        8.139999999999999,
+        7.047999999999998,
+        7.933599999999998
+      ],
+      "sigma": 1.4897879773430502
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 7.933599999999998,
+      "quality_band": [
+        5.01361556440762,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2023-02-05T00:00:00",
+      "materia": "CIRCUITOS HIDRÁULICOS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Explica muy bien, siempre resuelve dudas, califica muy raro, pero si ve que participas al final te sube puntos. Entregar todas las tarea te sirve de mucho igual para tu calificación final. Si le pones empeño aprenderás demasiado."
+    },
+    {
+      "fecha_iso": "2022-06-11T00:00:00",
+      "materia": "CIRCUITOS HIDRÁULICOS Y NEUMÁTICOS",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": "Es un profesor que es muy poco flexible, deja muchas tareas y muy largas, y no da criterio de evaluación, sino que califica como quiere, ademas los exámenes si los hace difíciles. No recomiendo a este profesor solo por el hecho de ser poco flexible. Por mas que pongas empeño sacas un 70 o repruebas"
+    },
+    {
+      "fecha_iso": "2022-06-11T00:00:00",
+      "materia": "---",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 7.5,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2021-10-06T00:00:00",
+      "materia": "CIRCUITOS HIDRÁULICOS Y NEUMÁTICOS",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": "Este profesor sabe todo lo que se requiere de la materia, explica de una manera ambigua al inicio pero te adaptas y aprendes bastante sobre los circuitos de manera teórica y práctica (en linea es mediante un simulador virutal), para calificar pareciera que pone lo que se le antoja, aunque este bien."
+    },
+    {
+      "fecha_iso": "2021-05-06T00:00:00",
+      "materia": "CIRCUITOS HIDRAULICOS & NEUMATICA",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 23.0,
+      "recomienda": 0,
+      "comentario": "Con esto de clases en líneas esta calificando muy mal, aunque el circuito este bien no te pondrá calificación bien"
+    },
+    {
+      "fecha_iso": "2020-01-01T00:00:00",
+      "materia": "CIRCUITOS HIDRÁULICOS Y NEUMÁTICOS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 1,
+      "comentario": "Este es el 72 más hermoso que he tenido. El profesor explica bastante claro y paso a paso. Para pasar sus exámenes hay que practicar mucho. Sus prácticas son geniales y sus clases tienen un ambiente muy tranquilo."
+    },
+    {
+      "fecha_iso": "2019-12-27T00:00:00",
+      "materia": "CIRCUITOS HIDRAULICOS Y NEUMATICOS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": "Es uno de los mejores profesores que he tenido, te ayuda mucho en la calificacion, hay mucha oportunidad de pasar, respecto a la materia se enfocó mucho a los circuitos neumaticos, casi no vimos nada de hidraulica. Pero todo el contenido de manera muy clara."
+    },
+    {
+      "fecha_iso": "2018-12-17T00:00:00",
+      "materia": "CIRCUITOS HIDRAULICOS Y NEUMATICOS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "increible maestro, es de esos maestros que realmente aman su trabajo se esfuerzan por hacerlo bien  y enseñar,  es super puntual jamas llega tarde, da hojas con apuntes para que sea mas facil estudiar y aprender, explica muy bien con el aprendes porque aprendes y sales bien"
+    },
+    {
+      "fecha_iso": "2018-06-30T00:00:00",
+      "materia": "CIRCUITOS HIDRÁULICOS Y NEUMÁTICOS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Pinche botetón se la rifa"
+    },
+    {
+      "fecha_iso": "2018-04-16T00:00:00",
+      "materia": "CIRCUITOS HIDRÁULICOS Y NEUMÁTICOS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Es tu mejor opción en la materia, es uno de los mejores profesores del Tec, lleva material muy bien preparado y te diviertes mucho en la clase.\nCalifica muy duro los exámenes, deja mucha tarea, pasa lista diario y es muy exigente al momento de exponer, pero en todo momento accesible."
+    },
+    {
+      "fecha_iso": "2018-01-30T00:00:00",
+      "materia": "CIRCUITOS HIDRÁULICOS Y NEUMÁTICOS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Este profe es excelente, el material con el que da ma clase es también excelente, super preparado, ojalá diera más materias. Califica duro los exámenes, toma lista diario  y deja mucha tarea. Es muy chistoso pero sin que afecte la clase."
+    },
+    {
+      "fecha_iso": "2017-03-09T00:00:00",
+      "materia": "CIRCUITOS HIDRÁULICOS Y NEUMATICOS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Muy buen maestro, si quieres aprender debes de cargar con el. Ojo, no distraerte en su clase porque agarra al mas desprevenido y lo pasa al pizarron. Le gusta realizar muchas practicas, es didáctico."
+    },
+    {
+      "fecha_iso": "2016-01-14T00:00:00",
+      "materia": "CIRCUITOS HIDRAULICOS Y NEUMATICOS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "De esos profesores que de verdad enseñan. Muchas oportunidades para pasar, realize practical, someone dispuesto a aclarar dudas y dar asesorías. Si no aprendes o pasas es porque de plano no te paraste en el salón."
+    },
+    {
+      "fecha_iso": "2014-11-09T00:00:00",
+      "materia": "CIRCUITOS HIDRÁULICOS Y NEUMÁTICOS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Excelente profesor, sus clases son muy amenas, a la hora de calificar los exámenes es un poco especial, pero de ahí en fuera es una excelente opción altamente recomendado, se hacen muchas prácticas tanto en el Tec como en el centro de ciencias para esta materia con él."
+    }
+  ],
+  "comments_recent": [
+    "Explica muy bien, siempre resuelve dudas, califica muy raro, pero si ve que participas al final te sube puntos. Entregar todas las tarea te sirve de mucho igual para tu calificación final. Si le pones empeño aprenderás demasiado.",
+    "Es un profesor que es muy poco flexible, deja muchas tareas y muy largas, y no da criterio de evaluación, sino que califica como quiere, ademas los exámenes si los hace difíciles. No recomiendo a este profesor solo por el hecho de ser poco flexible. Por mas que pongas empeño sacas un 70 o repruebas",
+    "[Comentario esperando revisión]",
+    "Este profesor sabe todo lo que se requiere de la materia, explica de una manera ambigua al inicio pero te adaptas y aprendes bastante sobre los circuitos de manera teórica y práctica (en linea es mediante un simulador virutal), para calificar pareciera que pone lo que se le antoja, aunque este bien.",
+    "Con esto de clases en líneas esta calificando muy mal, aunque el circuito este bien no te pondrá calificación bien",
+    "Este es el 72 más hermoso que he tenido. El profesor explica bastante claro y paso a paso. Para pasar sus exámenes hay que practicar mucho. Sus prácticas son geniales y sus clases tienen un ambiente muy tranquilo.",
+    "Es uno de los mejores profesores que he tenido, te ayuda mucho en la calificacion, hay mucha oportunidad de pasar, respecto a la materia se enfocó mucho a los circuitos neumaticos, casi no vimos nada de hidraulica. Pero todo el contenido de manera muy clara.",
+    "increible maestro, es de esos maestros que realmente aman su trabajo se esfuerzan por hacerlo bien  y enseñar,  es super puntual jamas llega tarde, da hojas con apuntes para que sea mas facil estudiar y aprender, explica muy bien con el aprendes porque aprendes y sales bien",
+    "Pinche botetón se la rifa",
+    "Es tu mejor opción en la materia, es uno de los mejores profesores del Tec, lleva material muy bien preparado y te diviertes mucho en la clase.\nCalifica muy duro los exámenes, deja mucha tarea, pasa lista diario y es muy exigente al momento de exponer, pero en todo momento accesible."
+  ],
+  "n_reviews": 14
+}

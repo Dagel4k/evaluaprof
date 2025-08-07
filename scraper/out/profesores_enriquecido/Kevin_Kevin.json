@@ -1,0 +1,166 @@
+{
+  "professor_id": "Kevin_Kevin",
+  "nombre": "Kevin Kevin",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 5.9120133938929635,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 6.985061400177238,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.4,
+    "wilson_interval": [
+      0.11761823115925325,
+      0.769280067791163
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": 0.35,
+    "z_mean_decayed": -0.05,
+    "per_subject": [
+      {
+        "materia": "MECANISMOS",
+        "z_decayed": -0.04542412177963637,
+        "n": 27
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "examenes",
+          "faciles",
+          "examenes faciles",
+          "proyectos",
+          "te"
+        ],
+        "weight": 0.31612750896762454
+      },
+      {
+        "id": 1,
+        "words": [
+          "ensena",
+          "vida",
+          "es",
+          "bien",
+          "aprendes"
+        ],
+        "weight": 0.33920401178355186
+      }
+    ],
+    "sentiment": {
+      "overall": 0.25,
+      "by_month": {
+        "2019-06": 0.0,
+        "2018-12": 1.0,
+        "2013-12": 0.0,
+        "2013-11": 0.0
+      }
+    },
+    "n_comments": 4
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        10.0,
+        10.0,
+        4.0,
+        6.0,
+        5.0
+      ],
+      "ewma": [
+        10.0,
+        10.0,
+        8.2,
+        7.539999999999999,
+        6.777999999999999
+      ],
+      "sigma": 1.7225576332883608
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 6.777999999999999,
+      "quality_band": [
+        3.4017870387548115,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2019-06-06T00:00:00",
+      "materia": "MECANISMOS",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": "sus clases no son aburridas,te es algo duro pero te enseña muchas cosas del mundo laboral, deja 3 proyectos muy laboriosos pero sus examenes son faciles, reprueva a todo el grupo péro al final los pasa en el global"
+    },
+    {
+      "fecha_iso": "2018-12-14T00:00:00",
+      "materia": "MECANISMOS",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 0,
+      "comentario": "No le gusta complicarse la vida, no le gusta que le rueguen y no ayuda con calificaciones si se lo pides, le tiene que nacer a él solito. Es muy claro con sus reglas y te encarga tres proyectos algo pesados a lo largo del semestre. Exámenes fáciles."
+    },
+    {
+      "fecha_iso": "2014-08-18T00:00:00",
+      "materia": "MECANISMOS",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 5.0,
+      "recomienda": 0,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2013-12-01T00:00:00",
+      "materia": "MECANISMOS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Explica muy bien los temas, no los hace muy compicados, aprendes mucho y pide prácticas con las que aprendes más. No está peleado con la vida como Tolosa, piña, fabio, velazco, gaspar pinto, entre muchos otros."
+    },
+    {
+      "fecha_iso": "2013-11-14T00:00:00",
+      "materia": "MECANISMOS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "El es Keven, y es super freson, pero el bato enseña machin, y aprendes bien, aparte el bato juega arrancones en el autodromo. WACHEN ESTE SENTRITA\nhttp://www.youtube.com/watch?v=e3TQXuBvtm0"
+    }
+  ],
+  "comments_recent": [
+    "sus clases no son aburridas,te es algo duro pero te enseña muchas cosas del mundo laboral, deja 3 proyectos muy laboriosos pero sus examenes son faciles, reprueva a todo el grupo péro al final los pasa en el global",
+    "No le gusta complicarse la vida, no le gusta que le rueguen y no ayuda con calificaciones si se lo pides, le tiene que nacer a él solito. Es muy claro con sus reglas y te encarga tres proyectos algo pesados a lo largo del semestre. Exámenes fáciles.",
+    "Explica muy bien los temas, no los hace muy compicados, aprendes mucho y pide prácticas con las que aprendes más. No está peleado con la vida como Tolosa, piña, fabio, velazco, gaspar pinto, entre muchos otros.",
+    "El es Keven, y es super freson, pero el bato enseña machin, y aprendes bien, aparte el bato juega arrancones en el autodromo. WACHEN ESTE SENTRITA\nhttp://www.youtube.com/watch?v=e3TQXuBvtm0"
+  ],
+  "n_reviews": 5
+}

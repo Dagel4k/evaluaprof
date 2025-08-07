@@ -1,0 +1,72 @@
+{
+  "nombre": "Guillermo Javier Rubio Astorga",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "ciudad": "Ciudad: culiacan, sinaloa",
+  "departamento": "Departamento/Facultad: Eléctrica-Electrónica",
+  "calidad_general": 9.0,
+  "porcentaje_recomienda": 100,
+  "nivel_dificultad": 6.0,
+  "etiquetas": [
+    "CALIFICA DURO (3)",
+    "CLASES EXCELENTES (1)",
+    "LOS EXÁMENES SON DIFÍCILES (3)",
+    "ASISTENCIA OBLIGATORIA (2)"
+  ],
+  "numero_calificaciones": 3,
+  "calificaciones": [
+    {
+      "fecha": "02/Dic/2022",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 7.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Control",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "8",
+      "interes_clase": "",
+      "comentario": "",
+      "etiquetas_comentario": [
+        "Califica Duro",
+        "Asistencia obligatoria",
+        "Los exámenes son difíciles"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "11/Jun/2022",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "control",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "8.5",
+      "interes_clase": "",
+      "comentario": "de los mejores maestro que he tenido en el tec, es exigente pero aprendes mucho",
+      "etiquetas_comentario": [
+        "Califica Duro",
+        "Asistencia obligatoria",
+        "Los exámenes son difíciles"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "18/Jun/2021",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Control 2",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "9",
+      "interes_clase": "",
+      "comentario": "Este es el verdadero filtro en eléctrica. \nLas clases son bastantes claras y el material didáctico dado es de gran ayuda. Los exámenes son bastante largos (12 horas como mínimo), pero todos tienen conexión con el anterior, lo cual los hace más \"sencillos\". Y no olvides ser un huevón exitoso.",
+      "etiquetas_comentario": [
+        "Califica Duro",
+        "Clases excelentes",
+        "Los exámenes son difíciles"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    }
+  ]
+}

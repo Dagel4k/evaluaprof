@@ -1,0 +1,98 @@
+{
+  "nombre": "La Chacala",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "ciudad": "Ciudad: culiacan, sinaloa",
+  "departamento": "Departamento/Facultad: Ciencias Basicas",
+  "calidad_general": 8.4,
+  "porcentaje_recomienda": 100,
+  "nivel_dificultad": 2.0,
+  "etiquetas": [
+    "BRINDA APOYO (1)",
+    "CLASES EXCELENTES (1)",
+    "TOMARÍA SU CLASE OTRA VEZ (1)",
+    "CALIFICA DURO (1)",
+    "LA PARTICIPACIÓN IMPORTA (1)",
+    "RESPETADO POR LOS ESTUDIANTES (1)"
+  ],
+  "numero_calificaciones": 5,
+  "calificaciones": [
+    {
+      "fecha": "30/Ago/2017",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Fisica",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "Es una de las mejores maestras del Tec, es una muy buena persona. Al principio de las clases es muy reservada y se mantiene al margen con los alumnos, si le echas ganas puede que después se lleve bien contigo. El último examen es el más dificil y te ayuda si ve que le echaste ganas todo el semestre.",
+      "etiquetas_comentario": [
+        "Califica Duro",
+        "La Participación Importa",
+        "Respetado por los estudiantes"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "09/Ago/2016",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "fisica",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "9",
+      "interes_clase": "",
+      "comentario": "super buena profesora, me atrevo a decir que una de las mejores maestras de todo el tec, explica super bien, da asesorías ademas si en el examen tienes dudas te las resuelve, recomendada, si no tienes bases no te preocupes ella es muy buena explicando, el unico examen dificil es el final, y ayuda",
+      "etiquetas_comentario": [
+        "Brinda apoyo",
+        "Clases excelentes",
+        "Tomaría su clase otra vez"
+      ],
+      "votos_utiles": "1",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "21/Oct/2015",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 8.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "---",
+      "asistencia": "",
+      "calificacion_recibida": "9",
+      "interes_clase": "9",
+      "comentario": "[Comentario esperando revisión]",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "1"
+    },
+    {
+      "fecha": "08/Mar/2015",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 8.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "---",
+      "asistencia": "",
+      "calificacion_recibida": "N/A",
+      "interes_clase": "N/A",
+      "comentario": "[Comentario esperando revisión]",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "24/Jun/2014",
+      "tipo_calificacion": "REGULAR",
+      "puntaje_calidad_general": 6.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "---",
+      "asistencia": "",
+      "calificacion_recibida": "10",
+      "interes_clase": "10",
+      "comentario": "[Comentario esperando revisión]",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    }
+  ]
+}

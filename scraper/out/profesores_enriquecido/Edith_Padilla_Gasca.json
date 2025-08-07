@@ -1,0 +1,628 @@
+{
+  "professor_id": "Edith_Padilla_Gasca",
+  "nombre": "Edith Padilla Gasca",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 7.590536809179092,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.485802372601148,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.683,
+    "wilson_interval": [
+      0.5301551434425416,
+      0.8043556679468827
+    ],
+    "n_recommendations": 41
+  },
+  "subject_normalization": {
+    "z_mean": -0.18,
+    "z_mean_decayed": -0.16,
+    "per_subject": [
+      {
+        "materia": "INFERENCIAL 2",
+        "z_decayed": 1.390758974918296,
+        "n": 4
+      },
+      {
+        "materia": "ESTADÍSTICA INFERENCIAL I",
+        "z_decayed": 0.8939711995397412,
+        "n": 9
+      },
+      {
+        "materia": "INGENIERIA DE CALIDAD",
+        "z_decayed": 0.639009650422694,
+        "n": 5
+      },
+      {
+        "materia": "ESTADISTICA INFERENCIAL 2",
+        "z_decayed": 0.5535835666156722,
+        "n": 4
+      },
+      {
+        "materia": "ESTADISTICA",
+        "z_decayed": 0.49248246212541763,
+        "n": 10
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "porque",
+          "si",
+          "aprender",
+          "ensena",
+          "es"
+        ],
+        "weight": 0.10090735788944719
+      },
+      {
+        "id": 1,
+        "words": [
+          "comentario",
+          "esperando revision",
+          "revision",
+          "comentario esperando",
+          "esperando"
+        ],
+        "weight": 0.05683686768313155
+      },
+      {
+        "id": 2,
+        "words": [
+          "clases",
+          "mi",
+          "he",
+          "maestra he",
+          "peor"
+        ],
+        "weight": 0.07921099253913776
+      },
+      {
+        "id": 3,
+        "words": [
+          "da",
+          "si te",
+          "bien",
+          "si",
+          "te"
+        ],
+        "weight": 0.1286583587417089
+      },
+      {
+        "id": 4,
+        "words": [
+          "flojos",
+          "explica",
+          "maestra",
+          "excelente",
+          "excelente maestra"
+        ],
+        "weight": 0.10051390981521893
+      }
+    ],
+    "sentiment": {
+      "overall": 0.23076923076923078,
+      "by_month": {
+        "2025-06": 1.0,
+        "2025-04": 1.0,
+        "2024-08": 0.0,
+        "2024-07": 0.0,
+        "2023-12": 0.0,
+        "2023-11": 0.0,
+        "2023-06": 0.3333333333333333,
+        "2021-10": 0.0,
+        "2021-08": 1.0,
+        "2020-05": 0.0,
+        "2020-01": 0.0,
+        "2019-12": 0.0,
+        "2019-09": 0.0,
+        "2019-06": 1.0,
+        "2019-01": 0.0,
+        "2018-08": 0.0,
+        "2018-01": 1.0,
+        "2017-01": 1.0,
+        "2016-11": 1.0,
+        "2016-10": 0.0,
+        "2016-06": 0.0,
+        "2015-08": 0.0,
+        "2015-01": 0.5,
+        "2014-07": 0.0,
+        "2014-06": 0.0,
+        "2014-05": 1.0,
+        "2014-01": -1.0,
+        "2013-11": 0.0,
+        "2013-08": 0.0,
+        "2013-06": 0.0,
+        "2013-05": 0.0
+      }
+    },
+    "n_comments": 39
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.004,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        6.0,
+        5.0,
+        6.0,
+        2.0,
+        10.0,
+        10.0,
+        4.0,
+        7.5,
+        10.0,
+        7.5,
+        8.0,
+        10.0,
+        10.0,
+        8.0,
+        10.0,
+        6.5,
+        7.0,
+        9.0,
+        10.0,
+        10.0,
+        9.5,
+        5.0,
+        10.0,
+        8.0,
+        7.333333333333333,
+        6.0,
+        2.0,
+        10.0,
+        4.0,
+        10.0,
+        9.0
+      ],
+      "ewma": [
+        6.0,
+        5.699999999999999,
+        5.789999999999999,
+        4.652999999999999,
+        6.257099999999999,
+        7.379969999999999,
+        6.365978999999999,
+        6.7061853,
+        7.694329709999999,
+        7.636030796999999,
+        7.745221557899999,
+        8.421655090529999,
+        8.895158563370998,
+        8.626610994359698,
+        9.038627696051789,
+        8.277039387236252,
+        7.893927571065376,
+        8.225749299745763,
+        8.758024509822032,
+        9.130617156875422,
+        9.241432009812796,
+        7.969002406868957,
+        8.57830168480827,
+        8.404811179365788,
+        8.083367825556051,
+        7.458357477889235,
+        5.820850234522464,
+        7.074595164165724,
+        6.152216614916007,
+        7.306551630441205,
+        7.814586141308842
+      ],
+      "sigma": 1.8401466001952613
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 7.814586141308842,
+      "quality_band": [
+        4.207898804926129,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2025-06-09T00:00:00",
+      "materia": "INGENIERÍA DE CALIDAD",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Excelente docente, necesitas entrar con la mentalidad de aprender, tomar apuntes de notas importantes de los ejercicios porque TODO lo verás en examenes teóricos y prácticos. La participación en clase es lo más importante y échele ganas que Edith no se anda con rodeos, enseña con muchas ganas."
+    },
+    {
+      "fecha_iso": "2025-04-29T00:00:00",
+      "materia": "ESTADÍSTICA INFERENCIAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Excelente maestra. Los que le tiran hate son los ingenacos y flojos."
+    },
+    {
+      "fecha_iso": "2024-08-08T00:00:00",
+      "materia": "ESTADISTICA INFERENCIAL 1",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 0,
+      "comentario": "Tomara cualquier oportuidad para humillarte, se toma todo personal, asi que si dices algo que aunque estes en lo correcto, no le parezca te agarra de bajada todo el semestre y de 40 solo pasamos 8, solo para que te des una idea."
+    },
+    {
+      "fecha_iso": "2024-07-14T00:00:00",
+      "materia": "ESTADÍSTICA INFERENCIAL 2",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Le mejor miss del tec, enseña super bien, es clara en cómo se va a desarrollar el programa y responde tus preguntas"
+    },
+    {
+      "fecha_iso": "2023-12-18T00:00:00",
+      "materia": "ESTADÍSTICA INFERENCIAL",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Evítate la pena de cargar con ella"
+    },
+    {
+      "fecha_iso": "2023-11-21T00:00:00",
+      "materia": "INGENIERÍA DE CALIDAD",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 0,
+      "comentario": "Se justifica demasiado de que es buena maestra y nadie la aprecia. Enseña bien pero da demasiada información importante en muy poco tiempo y no sabes si realmente estás aprendiendo todo lo que te va a pedir."
+    },
+    {
+      "fecha_iso": "2023-06-14T00:00:00",
+      "materia": "INGENIERIA DE CALIDAD",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Es una excelente maestra mis respetos eternos para ella."
+    },
+    {
+      "fecha_iso": "2023-06-11T00:00:00",
+      "materia": "ING DE CALIDAD",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 24.0,
+      "recomienda": 0,
+      "comentario": "Mi peor experiencia de la vida me hizo odiar menos a la Chacala"
+    },
+    {
+      "fecha_iso": "2023-06-07T00:00:00",
+      "materia": "ESTADÍSTICA INFERENCIAL 2",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": "Es muy buena docente, fomenta MUCHO la lectura y explica los temas muy bien.  Tienes que estar preparad@ para realizar apuntes de TODO lo que se vea en clase para poder tener un apoyo para estudiar para los exámenes. Puedes cargar con ella de preferencia si tienes buenas bases de estadística."
+    },
+    {
+      "fecha_iso": "2021-10-25T00:00:00",
+      "materia": "ESTADÍSTICA INFERENCIAL II",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "De verdad mis respetos para esta profe, en los videos que proporciona explica todo muy bien y de manera muy detallada, te da varios ejemplos antes de hacer el examen y además da asesorías Lunes y Viernes.\nMe da coraje que mis compañeros se quejen cuando se nota que ni ven los videos ni entran clase"
+    },
+    {
+      "fecha_iso": "2021-08-09T00:00:00",
+      "materia": "ESTADÍSTICA INFERENCIAL 2",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Es una excelente profesora para esta materia. Muy exigente. Si no te gusta trabajar, no cargues con ella. Aprendes mucho."
+    },
+    {
+      "fecha_iso": "2020-05-23T00:00:00",
+      "materia": "CALIDAD",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 0,
+      "comentario": "LA MASTER EN CALIDAD, SIMPLEMENTE EXCEPCIONAL. MI RESPETO ETERNO PARA ELLA, AGRADEZCO SUS ENSEÑANZAS PERO SOBRETODO SU CALIDAD HUMANA. QUIEN DIGA LO CONTRARIO SERÁ PORQUE QUIERE PASAR FÁCIL. ELLA ES LA MEJOR, NOSOTROS SOMOS FLOJOS. BUENOS LIBROS, PERO ME HUBIERA GUSTADO APRENDER A DISEÑAR."
+    },
+    {
+      "fecha_iso": "2020-01-12T00:00:00",
+      "materia": "ESTADISTICA INFERENCIAL 2",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": "Es una profesora muy completa, le importa mucho que sus estudiantes tengan la iniciativa de aprender y leer. Aprendí bastante durante  su curso. si tu finalidad es aprender de la materia es la maestra indicada. Nada complicada, es clara y sin pelos en la lengua, no se va con nimiedades."
+    },
+    {
+      "fecha_iso": "2020-01-02T00:00:00",
+      "materia": "ESTADÍSTICA INFERENCIAL LL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Una de las mejores profesoras que te puedes encontrar en el tec, sabe mucho. Es fácil pasar con ella si lees los libros que te recomienda y estudias, te inspira mucho y al final reconoce tu esfuerzo."
+    },
+    {
+      "fecha_iso": "2019-12-19T00:00:00",
+      "materia": "INGENIERIA DE CALIDAD",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 1,
+      "comentario": "La mejor maestra que he tenido, inspira mucho a dedicarte al área de calidad, aclara todas tus dudas, domina el tema, participa y cumple, no le faltes al respeto, muestra interés en sus clases y al final serás ayudado, yo solo le pase una unidad, pero asistí a asesorías y siempre mostré interés."
+    },
+    {
+      "fecha_iso": "2019-09-19T00:00:00",
+      "materia": "CALIDAD",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "LA MEJOR PROFESORA QUE TUVE EN MI CARRERA. ES DE LLS PROFES QUE VALEN LA PENA QUE INSPIRAN Y QUE ENSEÑAN REALMENTE. SIEMPRE FUI MUY FELIZ A SUS CLASES Y AL FINAL RECONOCIÓ MI ESFUERZO, ALGO QUE NADIE HACE EN EL TEC. 100/100 LE DESEO LO MEJOR DE ESTE MUNDO."
+    },
+    {
+      "fecha_iso": "2019-06-06T00:00:00",
+      "materia": "INGENIERÍA DE CALIDAD",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Una excelente profesora. Dispuesta a ayudarte si realmente te interesa su clase ya que no va a perder el tiempo. Aprovechen todos sus conocimientos, sabe muchísimo y traten de resolver todas sus dudas con anticipación. Tomen notas y lean los libros que les sugiere. Nadie como ella."
+    },
+    {
+      "fecha_iso": "2019-01-12T00:00:00",
+      "materia": "ESTADÍSTICA INFERENCIAL 1",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Es una de las mejores maestras, si realmente quieres aprender carga con ella, tendras que estudiar y pensar como ingeniero. Si te gustan las cosas fáciles o no te gusta esforzarte, en tal caso, no es para ti."
+    },
+    {
+      "fecha_iso": "2018-08-07T00:00:00",
+      "materia": "ESTADISTICA INFERENCIAL II",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "La maestra explica súper bien depende de ti ponerte las pilas porque tienes que estudiar en serio.  Si quieres aprender bien la materia carga con ella, aprendes porque aprendes."
+    },
+    {
+      "fecha_iso": "2018-08-06T00:00:00",
+      "materia": "ESTADÍSTICA INFERENCIAL II",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 0,
+      "comentario": "Se nota que está super preparada, lamentablemente no sabe transmitir estos conocimientos a sus alumnos. Las clases son confusas y al ver que nadie le entiende pierde la paciencia y te contesta de mala manera, los exámenes son difíciles. Hay mejores maestros para esta metería, ahorrate el sufrimiento"
+    },
+    {
+      "fecha_iso": "2018-01-15T00:00:00",
+      "materia": "ESTADÍSTICA 2",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Una excelente maestra. Siempre con buena actitud cuando le preguntas siempre te contesta. Si no te gusta estudiar no cargues con ella. trabajas mucho porque deja un chingo de tareas pero siempre te da tiempo para entregarlas y te sirven para los examenes."
+    },
+    {
+      "fecha_iso": "2017-01-18T00:00:00",
+      "materia": "ESTADISTICA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": "Excelente maestra no falta a clases, es estricta y enseña todo el programa. Si eres flojo no cargues con ella."
+    },
+    {
+      "fecha_iso": "2017-01-17T00:00:00",
+      "materia": "ESTADISTICA Y CONTROL DE CALIDAD",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2016-11-04T00:00:00",
+      "materia": "INFERENCIAL 2",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Excelente maestra. NO viene a hacerse tonta a la escuela como muchos. Muy clara al explicar y trabajas mucho en el semestre. Aunque ojala fuera mas flexible para calificar. Ojala tuvieramos mas maestros asi."
+    },
+    {
+      "fecha_iso": "2016-10-27T00:00:00",
+      "materia": "ESTADÍSTICA INFERENCIAL I",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Si quieres aprender, y no eres FLOJO, carga con ella, la mejor para la materia igual que su esposo  recomendadisimos."
+    },
+    {
+      "fecha_iso": "2016-06-12T00:00:00",
+      "materia": "ESTADISTICA Y CONTROL DE CALIDAD",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "esta profe es la mejor profe de estadistica que hay, enseña super claro, con ella aprendes porque aprendes. pero solo enseña las primeras 2 unidades, las ultimas 2 son puras exposisiones y es cuando mas dificiles pone los examenes, ademas de que es muy dificil pasar con una buena calificacion."
+    },
+    {
+      "fecha_iso": "2015-08-07T00:00:00",
+      "materia": "ESTADISTICA INFERENCIAL II",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "La mejor maestra que he tenido hasta ahora, te hace trabajar y pesar durante sus clases, eso conlleva buen aprendizaje. por lo general la unidad 4 es una exposición donde SI reprueba alumnos, y la unidad 5 es un examen en casa yen equipo donde también reprueba. sus clases no son nada aburridas si le pones atención y los exámenes son fáciles."
+    },
+    {
+      "fecha_iso": "2015-08-05T00:00:00",
+      "materia": "---",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2015-01-15T00:00:00",
+      "materia": "DISEÑO DE EXPERIMENTOS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Excelente maestra, explica muy bien, y exige lo que debe de exigir. Te explica con programas ( cosa que es un extra) y con toda la paciencia. \nEso si te tienes que esforzar mucho pero vale la pena por que aprendes un monton."
+    },
+    {
+      "fecha_iso": "2015-01-11T00:00:00",
+      "materia": "ESTADÍSTICA INFERENCIAL I",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": "Es una maestra muy completa, explica muy bien de una manera muy clara, al finalizar cada parcial tenemos que hacer apuntes y tareas a computadora. Hace preexámenes y exámenes, estudia para los preexámenes son más fáciles, la recomiendo mucho, nunca aprendí tanto con alguien como con ella."
+    },
+    {
+      "fecha_iso": "2014-07-15T00:00:00",
+      "materia": "ESTADISTICA INFERENCIAL II",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Explica claramente todos los procedimientos, enseña como utilizar software y los exámenes son fáciles (Es mejor realizarlos en Software). La mayoria de las veces baja puntos por las conclusiones. Es muy fácil sacar 100 en los parciales. Es accesible si no la hacen enojar o si no platican."
+    },
+    {
+      "fecha_iso": "2014-07-11T00:00:00",
+      "materia": "ESTADÍSTICA INFERENCIAL II",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 7.5,
+      "recomienda": 1,
+      "comentario": "La maestra enseña todo el programa, es pesado llevar clase con ella lo cual conlleva aprender mucho, enseña procedimientos a mano y también en software, si eres flojo o no se te dan las matemáticas ni te arriesgues a cargar con ella porque alumnos dedicados pasan con 75."
+    },
+    {
+      "fecha_iso": "2014-06-04T00:00:00",
+      "materia": "ESTADISTICA I",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Bien bipolar y los examenes bien complicados, si te ofrece el 70 aceptalo"
+    },
+    {
+      "fecha_iso": "2014-05-17T00:00:00",
+      "materia": "ESTADISTICA INFERENCIAL II",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "excelente maestra, explica muy bien y si es algo pesado pero la verdada que e la mejor maestra de estadística inferencial 2 que hay explica muy a detalle y si n le entiendes te lo explica de nuevo y es extricta pero enseña"
+    },
+    {
+      "fecha_iso": "2014-01-14T00:00:00",
+      "materia": "ESTADISTICA INFERENCIAL I",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Una maestra muy completa, enseña muy bien, enseña con ejemplos de la vida real, ayuda a quien se quiere ayudar, la mejor maestra que me ha dado clases, estoy muy agradecido con ella, estuvo algo complicado el semestre pero como dijera ella lo aprendido quien no los quita."
+    },
+    {
+      "fecha_iso": "2013-11-14T00:00:00",
+      "materia": "ESTADISTICA INFERENCIAL 2",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "LA PEOR MAESTRA CON LA QUE ME HE TOPADO"
+    },
+    {
+      "fecha_iso": "2013-08-09T00:00:00",
+      "materia": "ECONOMIA",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 0,
+      "comentario": "esta maestra esta muy bien, por que siempre al comenzar la clase como q da una repasada al dia anterior para resolver dudas y asi los exan estan facil un 80% porciento y al final da oportunidades para que salgas bien , igual y aveces si se enoja por q no partisipan CONSEJO: interactuen sobre el tema q esten mirando eso le gusta mucho a ella y se portara muy amable :3"
+    },
+    {
+      "fecha_iso": "2013-06-24T00:00:00",
+      "materia": "ESTADÍSTICA Y CONTROL DE CALIDAD",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 1,
+      "comentario": "La unica razon por la cual no recomiendo a esta docente, es por su mal caracter. Aunque de buenas clases y sea facil pasar con ella su actitud te hace pasar un mal momento. Pareciera que es bipolar mucho, se enoja por cualquier cosa, y si va enojada a tu salon se las cobra con ustedes."
+    },
+    {
+      "fecha_iso": "2013-06-02T00:00:00",
+      "materia": "---",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2013-05-28T00:00:00",
+      "materia": "ESTADÍSTICA INFERENCIAL I",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2013-05-20T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    }
+  ],
+  "comments_recent": [
+    "Excelente docente, necesitas entrar con la mentalidad de aprender, tomar apuntes de notas importantes de los ejercicios porque TODO lo verás en examenes teóricos y prácticos. La participación en clase es lo más importante y échele ganas que Edith no se anda con rodeos, enseña con muchas ganas.",
+    "Excelente maestra. Los que le tiran hate son los ingenacos y flojos.",
+    "Tomara cualquier oportuidad para humillarte, se toma todo personal, asi que si dices algo que aunque estes en lo correcto, no le parezca te agarra de bajada todo el semestre y de 40 solo pasamos 8, solo para que te des una idea.",
+    "Le mejor miss del tec, enseña super bien, es clara en cómo se va a desarrollar el programa y responde tus preguntas",
+    "Evítate la pena de cargar con ella",
+    "Se justifica demasiado de que es buena maestra y nadie la aprecia. Enseña bien pero da demasiada información importante en muy poco tiempo y no sabes si realmente estás aprendiendo todo lo que te va a pedir.",
+    "Es una excelente maestra mis respetos eternos para ella.",
+    "Mi peor experiencia de la vida me hizo odiar menos a la Chacala",
+    "Es muy buena docente, fomenta MUCHO la lectura y explica los temas muy bien.  Tienes que estar preparad@ para realizar apuntes de TODO lo que se vea en clase para poder tener un apoyo para estudiar para los exámenes. Puedes cargar con ella de preferencia si tienes buenas bases de estadística.",
+    "De verdad mis respetos para esta profe, en los videos que proporciona explica todo muy bien y de manera muy detallada, te da varios ejemplos antes de hacer el examen y además da asesorías Lunes y Viernes.\nMe da coraje que mis compañeros se quejen cuando se nota que ni ven los videos ni entran clase"
+  ],
+  "n_reviews": 41
+}

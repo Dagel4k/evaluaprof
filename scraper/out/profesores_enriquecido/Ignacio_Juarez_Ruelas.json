@@ -1,0 +1,179 @@
+{
+  "professor_id": "Ignacio_Juarez_Ruelas",
+  "nombre": "Ignacio Juarez Ruelas",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 9.649137330463903,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.98599506266616,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 1.0,
+    "wilson_interval": [
+      0.6096569663469354,
+      1
+    ],
+    "n_recommendations": 6
+  },
+  "subject_normalization": {
+    "z_mean": 0.83,
+    "z_mean_decayed": 0.85,
+    "per_subject": [
+      {
+        "materia": "MATEMATICAS DISCRETAS",
+        "z_decayed": 0.9271075157744103,
+        "n": 19
+      },
+      {
+        "materia": "MATEMÁTICAS DISCRETAS",
+        "z_decayed": 0.7510101014678422,
+        "n": 28
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "complicados",
+          "si",
+          "solo",
+          "10",
+          "es"
+        ],
+        "weight": 0.2803483565072842
+      },
+      {
+        "id": 1,
+        "words": [
+          "explica",
+          "excelente",
+          "profesor",
+          "excelente profesor",
+          "si"
+        ],
+        "weight": 0.38557888562606835
+      }
+    ],
+    "sentiment": {
+      "overall": 0.4,
+      "by_month": {
+        "2019-12": 1.0,
+        "2018-11": 0.0,
+        "2018-01": 0.5,
+        "2017-12": 0.0
+      }
+    },
+    "n_comments": 5
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        10.0,
+        10.0,
+        9.0,
+        10.0
+      ],
+      "ewma": [
+        10.0,
+        10.0,
+        9.7,
+        9.79
+      ],
+      "sigma": 0.397523584206019
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 9.79,
+      "quality_band": [
+        9.010853774956201,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2019-12-15T00:00:00",
+      "materia": "MATEMATICAS DISCRETAS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Excelente profesor, sigue su programa muy bien, explica perfecto y lo repite las veces que sean solicitadas."
+    },
+    {
+      "fecha_iso": "2018-11-13T00:00:00",
+      "materia": "MATEMÁTICAS DISCRETAS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2018-11-13T00:00:00",
+      "materia": "MATEMATICAS DISCRETAS",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": "si buscar dormir en la escuela, esta clase es perfecta, en tan solo 10 minutos quedas dormido..."
+    },
+    {
+      "fecha_iso": "2018-01-17T00:00:00",
+      "materia": "MATEMÁTICAS DISCRETAS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Unos de los mejores profesores que eh tenido. Te explica con calma y si no le entiendes vuelve a repetirlo. Si son buen grupo la tendrán fácil, pero deben hacer toda la tarea que les deja con tiempo porque si no estas se les acumularan y reprobaran."
+    },
+    {
+      "fecha_iso": "2018-01-16T00:00:00",
+      "materia": "MATEMÁTICAS DISCRETAS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": "Excelente profesor, paciente y todo entendible, si le pones atención claro, exámenes algo complicados, pero da ayuda si te lo mereces"
+    },
+    {
+      "fecha_iso": "2017-12-28T00:00:00",
+      "materia": "MATEMATICAS DISCRETAS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Es un crack, los examenes los hace medio complicados, pero nada que no se haya visto en clases, siempre trata de ayudar a sus alumnos, solo no lo hagan enojar y veran que es buena gente, si no faltan nunca sube 10 puntos al final en la calificacion final"
+    }
+  ],
+  "comments_recent": [
+    "Excelente profesor, sigue su programa muy bien, explica perfecto y lo repite las veces que sean solicitadas.",
+    "si buscar dormir en la escuela, esta clase es perfecta, en tan solo 10 minutos quedas dormido...",
+    "Unos de los mejores profesores que eh tenido. Te explica con calma y si no le entiendes vuelve a repetirlo. Si son buen grupo la tendrán fácil, pero deben hacer toda la tarea que les deja con tiempo porque si no estas se les acumularan y reprobaran.",
+    "Excelente profesor, paciente y todo entendible, si le pones atención claro, exámenes algo complicados, pero da ayuda si te lo mereces",
+    "Es un crack, los examenes los hace medio complicados, pero nada que no se haya visto en clases, siempre trata de ayudar a sus alumnos, solo no lo hagan enojar y veran que es buena gente, si no faltan nunca sube 10 puntos al final en la calificacion final"
+  ],
+  "n_reviews": 6
+}

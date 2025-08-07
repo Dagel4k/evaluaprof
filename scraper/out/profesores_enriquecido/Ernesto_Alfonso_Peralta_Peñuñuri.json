@@ -1,0 +1,175 @@
+{
+  "professor_id": "Ernesto_Alfonso_Peralta_Peñuñuri",
+  "nombre": "Ernesto Alfonso Peralta Peñuñuri",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 8.532573013140443,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.585061400177238,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.8,
+    "wilson_interval": [
+      0.37552826411853885,
+      0.9637768390302125
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": 0.62,
+    "z_mean_decayed": 0.61,
+    "per_subject": [
+      {
+        "materia": "ESTUDIO DEL TRABAJO II",
+        "z_decayed": 0.8660254037844387,
+        "n": 7
+      },
+      {
+        "materia": "LOGISTICA",
+        "z_decayed": 0.6603381797442178,
+        "n": 4
+      },
+      {
+        "materia": "ESTADÍSTICA INFERENCIAL I",
+        "z_decayed": 0.31927542840705037,
+        "n": 9
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "hace examenes",
+          "asistencia",
+          "hace",
+          "es",
+          "te"
+        ],
+        "weight": 0.31941552562560394
+      },
+      {
+        "id": 1,
+        "words": [
+          "te",
+          "sencillo",
+          "materia",
+          "mejor materia",
+          "mejor"
+        ],
+        "weight": 0.3211819325310033
+      }
+    ],
+    "sentiment": {
+      "overall": 0.2,
+      "by_month": {
+        "2019-09": 0.0,
+        "2019-06": 0.0,
+        "2018-01": 0.0,
+        "2017-04": 1.0
+      }
+    },
+    "n_comments": 5
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        10.0,
+        9.5,
+        5.0,
+        10.0
+      ],
+      "ewma": [
+        10.0,
+        9.85,
+        8.395,
+        8.8765
+      ],
+      "sigma": 1.931554787168444
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 8.8765,
+      "quality_band": [
+        5.09065261714985,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2019-09-28T00:00:00",
+      "materia": "LOGISTICA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "EL MEJOR, LO AMO, DISFRUTABA IR A SUS CLASES, GUAPO ADEMASSSS"
+    },
+    {
+      "fecha_iso": "2019-06-07T00:00:00",
+      "materia": "LOGÍSTICA",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 23.0,
+      "recomienda": 0,
+      "comentario": "No vuelvo a cargar con él. Solo deja material de copias, explicaciones malas y confusas. Hace muchos exámenes y aunque saques 100 te baja calificación por asistencia o participaciones. No dudo que sepa pero le falta mucho para esa materia. No es lo que esperaba y quedó a deber mucho"
+    },
+    {
+      "fecha_iso": "2018-01-16T00:00:00",
+      "materia": "ESTADISTCA INFERENCIAL 1",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Es un muy profesor la verdad, explica muy bien, si tienes dudas te las responde, lo que veas en clase eso es el examen y te da oportunidades, la verdad el mejor en esta materia."
+    },
+    {
+      "fecha_iso": "2018-01-13T00:00:00",
+      "materia": "ESTADÍSTICA INFERENCIAL I",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Muy buena su actitud, explica sencillo, te hace exámenes muy cortos y fáciles. Es muy fácil pasar y aprender con él pero la asistencia cuenta mucho. Un amor de persona."
+    },
+    {
+      "fecha_iso": "2017-04-27T00:00:00",
+      "materia": "ESTUDIO DEL TRABAJO II",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "El mejor para la materia, claro y sencillo :D"
+    }
+  ],
+  "comments_recent": [
+    "EL MEJOR, LO AMO, DISFRUTABA IR A SUS CLASES, GUAPO ADEMASSSS",
+    "No vuelvo a cargar con él. Solo deja material de copias, explicaciones malas y confusas. Hace muchos exámenes y aunque saques 100 te baja calificación por asistencia o participaciones. No dudo que sepa pero le falta mucho para esa materia. No es lo que esperaba y quedó a deber mucho",
+    "Es un muy profesor la verdad, explica muy bien, si tienes dudas te las responde, lo que veas en clase eso es el examen y te da oportunidades, la verdad el mejor en esta materia.",
+    "Muy buena su actitud, explica sencillo, te hace exámenes muy cortos y fáciles. Es muy fácil pasar y aprender con él pero la asistencia cuenta mucho. Un amor de persona.",
+    "El mejor para la materia, claro y sencillo :D"
+  ],
+  "n_reviews": 5
+}

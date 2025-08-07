@@ -1,0 +1,434 @@
+{
+  "professor_id": "joel_bacilio_carlos_parra",
+  "nombre": "joel bacilio carlos parra",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 8.70845905009122,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.934585911842898,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.833,
+    "wilson_interval": [
+      0.6414652961213058,
+      0.9332143199927109
+    ],
+    "n_recommendations": 24
+  },
+  "subject_normalization": {
+    "z_mean": 0.52,
+    "z_mean_decayed": 0.61,
+    "per_subject": [
+      {
+        "materia": "ELECTRÓNICA ANALÓGICA",
+        "z_decayed": 1.6465501978057773,
+        "n": 19
+      },
+      {
+        "materia": "ELECTRONICA ANALOGICA",
+        "z_decayed": 1.6445184092936256,
+        "n": 17
+      },
+      {
+        "materia": "ELECTROMAGNETISMO",
+        "z_decayed": 1.1786916584020983,
+        "n": 31
+      },
+      {
+        "materia": "CALCULO",
+        "z_decayed": 1.0700898076746443,
+        "n": 50
+      },
+      {
+        "materia": "ELECTRICIDAD Y ELECTRÓNICA INDUSTRIAL",
+        "z_decayed": 1.0675210253672474,
+        "n": 9
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "si",
+          "te sirven",
+          "ademas",
+          "sirven",
+          "te"
+        ],
+        "weight": 0.0682888922233428
+      },
+      {
+        "id": 1,
+        "words": [
+          "tarea",
+          "clase",
+          "facil",
+          "atencion",
+          "es"
+        ],
+        "weight": 0.15313927682212475
+      },
+      {
+        "id": 2,
+        "words": [
+          "da clase",
+          "si",
+          "sabe",
+          "profe",
+          "da"
+        ],
+        "weight": 0.13547401983207008
+      },
+      {
+        "id": 3,
+        "words": [
+          "es",
+          "explica",
+          "verdad",
+          "bien",
+          "explica bien"
+        ],
+        "weight": 0.12379978861875106
+      },
+      {
+        "id": 4,
+        "words": [
+          "mitad clase",
+          "mas",
+          "aprender",
+          "cosas",
+          "pasar"
+        ],
+        "weight": 0.1258415263944922
+      }
+    ],
+    "sentiment": {
+      "overall": 0.2222222222222222,
+      "by_month": {
+        "2022-06": 0.0,
+        "2021-08": 0.0,
+        "2020-12": 1.0,
+        "2020-09": 0.0,
+        "2020-06": 0.0,
+        "2019-12": 0.5,
+        "2018-12": 0.0,
+        "2018-08": 0.0,
+        "2018-01": 0.0,
+        "2017-10": 0.0,
+        "2017-08": 0.0,
+        "2016-12": 1.0,
+        "2016-05": 1.0
+      }
+    },
+    "n_comments": 18
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [
+      {
+        "from": "2018-12-13T00:00:00",
+        "to": "2018-12-14T00:00:00",
+        "count": 3
+      }
+    ],
+    "low_variance_flag": 0,
+    "trust_score": 0.7
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        8.0,
+        10.0,
+        8.0,
+        9.0,
+        10.0,
+        2.0,
+        7.0,
+        8.0,
+        6.0,
+        10.0,
+        8.5,
+        8.5,
+        8.5,
+        10.0,
+        10.0,
+        10.0,
+        9.0
+      ],
+      "ewma": [
+        8.0,
+        8.6,
+        8.42,
+        8.594,
+        9.015799999999999,
+        6.911059999999998,
+        6.937741999999998,
+        7.256419399999999,
+        6.879493579999998,
+        7.815645505999998,
+        8.020951854199998,
+        8.164666297939998,
+        8.265266408557999,
+        8.785686485990599,
+        9.149980540193418,
+        9.404986378135392,
+        9.283490464694774
+      ],
+      "sigma": 1.4998135259068717
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 9.283490464694774,
+      "quality_band": [
+        6.343855953917306,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2022-06-03T00:00:00",
+      "materia": "SISTEMAS PROGRAMABLES",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "trocilio"
+    },
+    {
+      "fecha_iso": "2021-08-27T00:00:00",
+      "materia": "CALCULO INTEGRAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "pone una tarea en equipo que no revisa pero en realidad en examen es mas facil a la tarea, son los mismos problemas de las clases pero con otros numeros, prestas atencion y aprendes chilo, a veces no da en viernes"
+    },
+    {
+      "fecha_iso": "2020-12-22T00:00:00",
+      "materia": "ELECTRÓNICA DE POTENCIA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "De los mejores profes del tec, muy claro y es muy compa. Aprendes y agarras cura (solo debes aguantar carrilla). Volvería a cargar clase con el. Examenes fácil y proyectos sencillos."
+    },
+    {
+      "fecha_iso": "2020-09-25T00:00:00",
+      "materia": "CALCULO INTEGRAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "un crack, ni sientes el semestre prestandole atencion"
+    },
+    {
+      "fecha_iso": "2020-06-05T00:00:00",
+      "materia": "CALCULO DIFERENCIAL",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2020-06-02T00:00:00",
+      "materia": "CALCULO INTEGRAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Volveria a tomar su clase sin duda. Comparado con otros maestros de calculo Es muy bueno, en la clase se va lento con problemas faciles y en medio de ellos charla con los alumnos para que la clase no se sienta ligera. deja una tarea en equipo, y el examen es muy parecido, es facil, presta atencion"
+    },
+    {
+      "fecha_iso": "2019-12-10T00:00:00",
+      "materia": "CALCULO INTEGRAL",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Sin duda tomaría su clase de nuevo. A veces llega algo de malas pero sus clases son fáciles de entender y es fácil pasar con él. Normalmente deja sacar apuntes en los examenes. Excelente maestro"
+    },
+    {
+      "fecha_iso": "2019-12-08T00:00:00",
+      "materia": "CALCULO INTEGRAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Muy buen maestro lo recomiendo. Si aprendes y si sabe, sus clases no son aburridas."
+    },
+    {
+      "fecha_iso": "2018-12-14T00:00:00",
+      "materia": "ELECTRÓNICA ANALÓGICA",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Este profe la neta da risa, pero sí sabe de la materia y te hace el paro. Encarga hacer simulaciones en Proteus y prácticas en equipo. Casi toda la clase habla de experiencias personales y al final ya da la clase normal."
+    },
+    {
+      "fecha_iso": "2018-12-14T00:00:00",
+      "materia": "CALCULO INTEGRAL",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": "Es buen profesor, explica muy bien, empieza el curso con cosas muy basicas para que nadie se pierda, la mitad de la clase es el contandos sus cosas, y ya despues clase normal, lo recomiendo si quieres aprender y pasar pasar, con que vayas a todas las clases y entregues tareas ya la armas."
+    },
+    {
+      "fecha_iso": "2018-12-13T00:00:00",
+      "materia": "ELECTRONICA ANALOGICA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 1,
+      "comentario": "Es muy buen profesor en materias de electronica la verdad. Ademas te enseña cosas que te sirven para la vida. Definitivamente cargaria con el otra vez."
+    },
+    {
+      "fecha_iso": "2018-12-08T00:00:00",
+      "materia": "ALGEBRA LINEAL",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Explica bien aunque es verdad que a veces se equivoca."
+    },
+    {
+      "fecha_iso": "2018-08-23T00:00:00",
+      "materia": "ELECTRÓNICA ANALÓGICA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 1,
+      "comentario": "Buen profe, si sabe mucho, estricto con asistencia y prácticas, muy flojo pero cuando da clase la da y bien."
+    },
+    {
+      "fecha_iso": "2018-01-13T00:00:00",
+      "materia": "ECUACIONES DIFERENCIALES",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "si quieres pasar sin aprender nada carga con el pero no lo recomiendo, se lleva mas de la mitad de la clase hablando de cosas personales, y puede calificar un examen con NA y otro con 100 aunque tengan la misma respuesta."
+    },
+    {
+      "fecha_iso": "2017-10-25T00:00:00",
+      "materia": "ELECTRICIDAD Y ELECTRÓNICA INDUSTRIAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "El  mejor profe para esta clase en mi opinión, sabe mucho y enseña puras cosas útiles, entre más ganas tengas de aprender más te enseña y está fácil pasar con él"
+    },
+    {
+      "fecha_iso": "2017-10-23T00:00:00",
+      "materia": "ELECTRONICA ANALOGICA",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 23.0,
+      "recomienda": 0,
+      "comentario": "Se nota que el profe sabe mucho pero siempre trae hueva y falta mucho a clases, pero cuando se pone a dar la clase si explica muy bien, no cargues con el en la tarde porque casi no irá y cuando vaya irá con toda la hueva del mundo"
+    },
+    {
+      "fecha_iso": "2017-08-08T00:00:00",
+      "materia": "ELECTRONICA DE POTENCIA",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 0,
+      "comentario": "Me arrepiento de haber cargado con el, me paso con buena calificacion pero la verdad es que ni el sabia que estaba poniendo. se la tira de diva y no explica bien, las practicas no le salen y espera que te salgan a ti. No lo recomiendo, mejor Salazar"
+    },
+    {
+      "fecha_iso": "2017-08-07T00:00:00",
+      "materia": "CALCULO INTEGRAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2017-05-17T00:00:00",
+      "materia": "CALCULO INTEGRAL",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2016-12-15T00:00:00",
+      "materia": "ELECTROMAGNETISMO",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 1,
+      "comentario": "Sus examenes son un poco duros pero si asistes a clase y haces tarea, ya estas asegurando tu pase. Muy bueno con la materia, es un maestro muy inteligente y te explica un poco de materias mas avanzadas y como relacionarla con la actual que el te imparte, excelente!!"
+    },
+    {
+      "fecha_iso": "2016-08-17T00:00:00",
+      "materia": "CURSO DE INDUCCIÓN",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2016-05-30T00:00:00",
+      "materia": "ECUACIONES DIFERENCIALES",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Cargue la materia de ecuaciones con maestro pendiente y me dio Bacilio si sabe, las clases son divertidas, ademas explica claro y deja tareas con las cuales te sirven de apoyo para la calificacion ademas de que te sirven para estudiar se los recomiendo ya si quieren saber a fondo Perez Soto"
+    },
+    {
+      "fecha_iso": "2015-01-27T00:00:00",
+      "materia": "CALCULO",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2014-11-04T00:00:00",
+      "materia": "ALGEBRA LINEAL",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": ""
+    }
+  ],
+  "comments_recent": [
+    "trocilio",
+    "pone una tarea en equipo que no revisa pero en realidad en examen es mas facil a la tarea, son los mismos problemas de las clases pero con otros numeros, prestas atencion y aprendes chilo, a veces no da en viernes",
+    "De los mejores profes del tec, muy claro y es muy compa. Aprendes y agarras cura (solo debes aguantar carrilla). Volvería a cargar clase con el. Examenes fácil y proyectos sencillos.",
+    "un crack, ni sientes el semestre prestandole atencion",
+    "Volveria a tomar su clase sin duda. Comparado con otros maestros de calculo Es muy bueno, en la clase se va lento con problemas faciles y en medio de ellos charla con los alumnos para que la clase no se sienta ligera. deja una tarea en equipo, y el examen es muy parecido, es facil, presta atencion",
+    "Sin duda tomaría su clase de nuevo. A veces llega algo de malas pero sus clases son fáciles de entender y es fácil pasar con él. Normalmente deja sacar apuntes en los examenes. Excelente maestro",
+    "Muy buen maestro lo recomiendo. Si aprendes y si sabe, sus clases no son aburridas.",
+    "Este profe la neta da risa, pero sí sabe de la materia y te hace el paro. Encarga hacer simulaciones en Proteus y prácticas en equipo. Casi toda la clase habla de experiencias personales y al final ya da la clase normal.",
+    "Es buen profesor, explica muy bien, empieza el curso con cosas muy basicas para que nadie se pierda, la mitad de la clase es el contandos sus cosas, y ya despues clase normal, lo recomiendo si quieres aprender y pasar pasar, con que vayas a todas las clases y entregues tareas ya la armas."
+  ],
+  "n_reviews": 24
+}

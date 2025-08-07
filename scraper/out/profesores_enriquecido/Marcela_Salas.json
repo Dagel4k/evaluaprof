@@ -1,0 +1,441 @@
+{
+  "professor_id": "Marcela_Salas",
+  "nombre": "Marcela Salas",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 4.744356906147294,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 5.7650263143616725,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.36,
+    "wilson_interval": [
+      0.20247656431735636,
+      0.5548184539895337
+    ],
+    "n_recommendations": 25
+  },
+  "subject_normalization": {
+    "z_mean": -0.62,
+    "z_mean_decayed": -0.86,
+    "per_subject": [
+      {
+        "materia": "IO II",
+        "z_decayed": 1.1547005383792515,
+        "n": 3
+      },
+      {
+        "materia": "INVESTIGACIÓN DE OPERACIONES 2",
+        "z_decayed": -0.05430184679504803,
+        "n": 4
+      },
+      {
+        "materia": "INVESTIGACIÓN DE OPERACIONES II",
+        "z_decayed": -0.13789516534774512,
+        "n": 6
+      },
+      {
+        "materia": "IO",
+        "z_decayed": -0.5773502691896257,
+        "n": 3
+      },
+      {
+        "materia": "INVESTIGACION DE OPERACIONES",
+        "z_decayed": -0.6042799561351782,
+        "n": 16
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "si",
+          "maestra",
+          "buena maestra",
+          "bien",
+          "buena"
+        ],
+        "weight": 0.10607349230227277
+      },
+      {
+        "id": 1,
+        "words": [
+          "loca",
+          "sabe",
+          "deberian correrla",
+          "correrla",
+          "deberian"
+        ],
+        "weight": 0.11040245527886074
+      },
+      {
+        "id": 2,
+        "words": [
+          "dar",
+          "clases",
+          "cree",
+          "es",
+          "profesora"
+        ],
+        "weight": 0.10879456090271128
+      },
+      {
+        "id": 3,
+        "words": [
+          "es",
+          "solo",
+          "alumnos",
+          "final",
+          "igual"
+        ],
+        "weight": 0.13592540878770212
+      },
+      {
+        "id": 4,
+        "words": [
+          "sabe",
+          "explica",
+          "maestra",
+          "es",
+          "es maestra"
+        ],
+        "weight": 0.11774363463859344
+      }
+    ],
+    "sentiment": {
+      "overall": 0.045454545454545456,
+      "by_month": {
+        "2025-06": 0.0,
+        "2025-01": 0.0,
+        "2024-10": 0.0,
+        "2023-06": 0.0,
+        "2023-01": 0.0,
+        "2020-11": 0.0,
+        "2019-12": 0.0,
+        "2019-01": 0.0,
+        "2018-11": 0.0,
+        "2018-01": 0.0,
+        "2014-02": 0.0,
+        "2012-02": 0.0,
+        "2012-01": 0.0,
+        "2011-10": 0.3333333333333333,
+        "2011-07": 0.0,
+        "2011-01": 0.0
+      }
+    },
+    "n_comments": 22
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        4.0,
+        2.0,
+        8.0,
+        4.0,
+        6.0,
+        2.0,
+        10.0,
+        2.0,
+        7.0,
+        3.0,
+        9.0,
+        2.0,
+        9.0,
+        9.0,
+        2.0,
+        4.0,
+        5.5,
+        2.0
+      ],
+      "ewma": [
+        4.0,
+        3.4,
+        4.779999999999999,
+        4.545999999999999,
+        4.982199999999999,
+        4.087539999999999,
+        5.861277999999999,
+        4.702894599999999,
+        5.392026219999999,
+        4.674418353999998,
+        5.972092847799999,
+        4.780464993459999,
+        6.046325495421999,
+        6.932427846795399,
+        5.4526994927567785,
+        5.016889644929744,
+        5.161822751450821,
+        4.213275926015574
+      ],
+      "sigma": 2.372598734193103
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 4.213275926015574,
+      "quality_band": [
+        0.0,
+        8.863569445034056
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2025-06-03T00:00:00",
+      "materia": "INVESTIGACIÓN DE OPERACIONES",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 24.0,
+      "recomienda": 0,
+      "comentario": "Está señora, Califica de la patada los exámenes no son claros y si está preñada la cargues, te tratara como si tú la hubieras preñado y te reprobará, Hazme caso..no vale la pena, mejora cargarla con Edna ????????"
+    },
+    {
+      "fecha_iso": "2025-01-24T00:00:00",
+      "materia": "INVESTIGACIÓN DE OPERACIONES II",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": "Parece que odia su trabajo y a todos los alumnos en general, es buena explicando pero pareciera que le cobran por contestar dudas. Y al final de cuentas no es clara con la manera en la que califica, solo te pone un numero, basado en quién sabe qué, igual que su papá y su hermano, pésimos maestros."
+    },
+    {
+      "fecha_iso": "2025-01-07T00:00:00",
+      "materia": "INVESTIGACIÓN DE OPERACIONES",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 22.0,
+      "recomienda": 0,
+      "comentario": "No termine la segunda unidad de lo mal que me cayo la maestra... pero lo que estuve ahí me pareció que era muy irritable da la clase y no quiere volver a repetir, si te confundiste en algo es por su método de puras diapositivas ya que solo da las formulas y pocos ejemplos para ya soltarte muchaTarea"
+    },
+    {
+      "fecha_iso": "2024-12-13T00:00:00",
+      "materia": "INVESTIGACIÓN DE LAS OPERACIONES 2",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 24.0,
+      "recomienda": 0,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2024-10-12T00:00:00",
+      "materia": "IO",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 0,
+      "comentario": "La profesora esta medio loca, enseña lo que se le pega la gana y ni siquiera lo explica bien, no la recomiendo,  se queja de todo,  es muy insensible con las situaciones por las que pasan algunos de sus alumnos llegando a burlarse. Es una mala maestra y una mala persona."
+    },
+    {
+      "fecha_iso": "2023-06-06T00:00:00",
+      "materia": "INV DE OPERACIONES",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "me la pase muy agusto con ella, por almenos con sistemas es buena profe, y es bien camarada."
+    },
+    {
+      "fecha_iso": "2023-01-14T00:00:00",
+      "materia": "INVESTIGACIÓN DE OPERACIONES 2",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Buena maestra, sus clases son cortas, responde todas las dudas y es buena onda, es justa para calificar pero da oportunidades"
+    },
+    {
+      "fecha_iso": "2020-11-17T00:00:00",
+      "materia": "IO",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 7.5,
+      "recomienda": 0,
+      "comentario": "Es una basura de profesora"
+    },
+    {
+      "fecha_iso": "2019-12-11T00:00:00",
+      "materia": "INVESTIGACIÓN DE OPERACIONES 2",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 1,
+      "comentario": "Es buena maestra, se tarda mucho en dar calificación. Las faltas te afectan muchísimo si nunca faltas ya la hiciste."
+    },
+    {
+      "fecha_iso": "2019-05-10T00:00:00",
+      "materia": "IO2",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2019-01-31T00:00:00",
+      "materia": "INVESTIGACIÓN DE OPERACIONES 2",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Tiene un carácter medio raro, pero si le agarras el modo es buena onda. No explica muy bien pero los exámenes son generalmente fáciles"
+    },
+    {
+      "fecha_iso": "2018-11-29T00:00:00",
+      "materia": "INVESTIGACIÓN DE OPERACIONES 1",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "De lo peor del tec. es bipolar. casi siempre se la pasa comiendo en el aula. no explica casi nada pero sus examenes son muy extensos y complicados. No la recomiendo para nada."
+    },
+    {
+      "fecha_iso": "2018-01-13T00:00:00",
+      "materia": "INVESTIGACIÓN DE OPERACIONES II",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Buena maestra, explica bien,  muy comprensiva.\nSi suele faltar pero avisa cuando lo va a hacer"
+    },
+    {
+      "fecha_iso": "2014-02-18T00:00:00",
+      "materia": "INGENIERIA",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 0.5,
+      "recomienda": 0,
+      "comentario": "Esta profesora cometió deshonestidad académica en la Universidad TecMilenio, estudiaba maestría en calidad y se fusiló completa la tesis de otro estudiante en otra universidad, cuando se dieron cuenta la humillaron en la sesión de presentación de su tesis frente a sus padres, que vergüenza"
+    },
+    {
+      "fecha_iso": "2012-02-22T00:00:00",
+      "materia": "IO2",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 7.5,
+      "recomienda": 0,
+      "comentario": "Pues no la vi en todo el semestre al final solo llegue a su direccion preguntando quien era para entregarle un trabajo y 95 final. Igual dicen los que si la conocen que es buena profesora."
+    },
+    {
+      "fecha_iso": "2012-01-18T00:00:00",
+      "materia": "I.O",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 1.0,
+      "recomienda": 0,
+      "comentario": "profesora bipolar que no ayuda,se cree mucho en su trabajo y en verdad no sabe dar buenas  clases"
+    },
+    {
+      "fecha_iso": "2011-10-13T00:00:00",
+      "materia": "IO 2",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Es una tristeza que siga dando clases este tipo de maestras y cuando vamos a su oficina se cree la gran cagada, estaba mejor el otro jefe era mas amable y buscaba la forma de ayudarnos"
+    },
+    {
+      "fecha_iso": "2011-10-05T00:00:00",
+      "materia": "INVESTIGACION DE OPERACIONES",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "a los que deberia de seleccionar es a los alumnos .. que se escudan detras del maestro en igual de estudiar ... en fin !! gente mediocre!"
+    },
+    {
+      "fecha_iso": "2011-10-02T00:00:00",
+      "materia": "INVESTIGACION DE OPERACIONES II",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": "Es una maestra excelente. Explica detenidamente los temas. Aquellos que la critican es pq en realidad estan ARDIDOS."
+    },
+    {
+      "fecha_iso": "2011-10-01T00:00:00",
+      "materia": "IO II",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2011-07-22T00:00:00",
+      "materia": "INVESTIGACION DE OPERACIONES",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 3.0,
+      "recomienda": 0,
+      "comentario": "no sabe nada esta loca por eso estamos como estamos porque el tec no selecciona bien a susw maestros..deberian correrla."
+    },
+    {
+      "fecha_iso": "2011-01-31T00:00:00",
+      "materia": "IO I",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 1.0,
+      "recomienda": 0,
+      "comentario": "Esta no es maestra no sabe nada."
+    },
+    {
+      "fecha_iso": "2011-01-30T00:00:00",
+      "materia": "INVESTIGACION DE OPERACIONES",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "ES A TODA MADRE LA MAESTRA EXIGE PERO A LA VEZ TE ENSEÑA, BIEN PREPARADA Y MUY BUENA MAESTRA."
+    },
+    {
+      "fecha_iso": "2011-01-21T00:00:00",
+      "materia": "INVESTIGACIÓN DE OPERACIONES",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 1.5,
+      "recomienda": 0,
+      "comentario": "Esta maestra es bipolar, esta loca, no sabe nada, no se le entiende, deberían correrla."
+    },
+    {
+      "fecha_iso": "2011-01-21T00:00:00",
+      "materia": "INVESTIGACION DE OPERACIONES",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Es una necia, no sabe nada, no se que hace como maestra deberian correrla.Ni de loco vuelvo a cargar con ella no se la recomiendo."
+    }
+  ],
+  "comments_recent": [
+    "Está señora, Califica de la patada los exámenes no son claros y si está preñada la cargues, te tratara como si tú la hubieras preñado y te reprobará, Hazme caso..no vale la pena, mejora cargarla con Edna ????????",
+    "Parece que odia su trabajo y a todos los alumnos en general, es buena explicando pero pareciera que le cobran por contestar dudas. Y al final de cuentas no es clara con la manera en la que califica, solo te pone un numero, basado en quién sabe qué, igual que su papá y su hermano, pésimos maestros.",
+    "No termine la segunda unidad de lo mal que me cayo la maestra... pero lo que estuve ahí me pareció que era muy irritable da la clase y no quiere volver a repetir, si te confundiste en algo es por su método de puras diapositivas ya que solo da las formulas y pocos ejemplos para ya soltarte muchaTarea",
+    "La profesora esta medio loca, enseña lo que se le pega la gana y ni siquiera lo explica bien, no la recomiendo,  se queja de todo,  es muy insensible con las situaciones por las que pasan algunos de sus alumnos llegando a burlarse. Es una mala maestra y una mala persona.",
+    "me la pase muy agusto con ella, por almenos con sistemas es buena profe, y es bien camarada.",
+    "Buena maestra, sus clases son cortas, responde todas las dudas y es buena onda, es justa para calificar pero da oportunidades",
+    "Es una basura de profesora",
+    "Es buena maestra, se tarda mucho en dar calificación. Las faltas te afectan muchísimo si nunca faltas ya la hiciste."
+  ],
+  "n_reviews": 25
+}

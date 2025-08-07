@@ -1,0 +1,86 @@
+{
+  "professor_id": "Francisco_Saldaña_Ibarra",
+  "nombre": "Francisco Saldaña Ibarra",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 6.292141032816026,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 6.81466008355488,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.5,
+    "wilson_interval": [
+      0.09452865480086611,
+      0.905471345199134
+    ],
+    "n_recommendations": 2
+  },
+  "subject_normalization": {
+    "z_mean": -0.18,
+    "z_mean_decayed": -0.12,
+    "per_subject": [
+      {
+        "materia": "LIDERAZGO",
+        "z_decayed": -0.11590242181580794,
+        "n": 5
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [],
+    "sentiment": {
+      "overall": null,
+      "by_month": {}
+    },
+    "n_comments": 2
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": null,
+    "difficulty_trend": null,
+    "forecast": null,
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2013-12-21T00:00:00",
+      "materia": "LIDERAZGO",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Fue el mejor director que ha tenido el instituto tecnológico de culiacán, con su aporte ayudo a que saliera nuestro tec de culiacan de la mediocridad con la que estaba y si con un director tenemos que ser agradecido es con el  ING. FRANCISCO RAFAEL SALDAÑA IBARRA.  GRACIAS :)"
+    },
+    {
+      "fecha_iso": "2013-07-19T00:00:00",
+      "materia": "LIDERAZGO",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 0.5,
+      "recomienda": 0,
+      "comentario": "Malo, muy malo. Por eso ya no da clases el hovon desde hace mas de 25 años. Es un farsante y muy grosero. Es un vividor el muy corriente, pero esta amafiado con los del Sindicato. No sabe nada de Educacion en muy caon. Le dicen el YoYo."
+    }
+  ],
+  "comments_recent": [
+    "Fue el mejor director que ha tenido el instituto tecnológico de culiacán, con su aporte ayudo a que saliera nuestro tec de culiacan de la mediocridad con la que estaba y si con un director tenemos que ser agradecido es con el  ING. FRANCISCO RAFAEL SALDAÑA IBARRA.  GRACIAS :)",
+    "Malo, muy malo. Por eso ya no da clases el hovon desde hace mas de 25 años. Es un farsante y muy grosero. Es un vividor el muy corriente, pero esta amafiado con los del Sindicato. No sabe nada de Educacion en muy caon. Le dicen el YoYo."
+  ],
+  "n_reviews": 2
+}

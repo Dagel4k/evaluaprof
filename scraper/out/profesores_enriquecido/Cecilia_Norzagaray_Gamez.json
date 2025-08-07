@@ -1,0 +1,337 @@
+{
+  "professor_id": "Cecilia_Norzagaray_Gamez",
+  "nombre": "Cecilia Norzagaray Gamez",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 8.777932624704185,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.591036840106342,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.8,
+    "wilson_interval": [
+      0.5481406466534955,
+      0.9295257935638959
+    ],
+    "n_recommendations": 15
+  },
+  "subject_normalization": {
+    "z_mean": 0.04,
+    "z_mean_decayed": 0.37,
+    "per_subject": [
+      {
+        "materia": "PROBABILIDAD Y ESTADÍSTICA",
+        "z_decayed": 1.1293843086969992,
+        "n": 23
+      },
+      {
+        "materia": "PROBABILIDAD",
+        "z_decayed": 0.7599851569224804,
+        "n": 14
+      },
+      {
+        "materia": "ESTADÍSTICA",
+        "z_decayed": 0.75955452531275,
+        "n": 6
+      },
+      {
+        "materia": "ESTADISTICA INFERENCIAL 1",
+        "z_decayed": 0.7027819284987273,
+        "n": 4
+      },
+      {
+        "materia": "ESTADISTICA 1",
+        "z_decayed": 0.5773502691896267,
+        "n": 3
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "excelente",
+          "es excelente",
+          "ayuda",
+          "es",
+          "maestra"
+        ],
+        "weight": 0.10426212412084676
+      },
+      {
+        "id": 1,
+        "words": [
+          "estaba",
+          "es",
+          "calidad humana",
+          "calidad",
+          "humana"
+        ],
+        "weight": 0.12689095493490815
+      },
+      {
+        "id": 2,
+        "words": [
+          "examen",
+          "profesora",
+          "tiene",
+          "caracter",
+          "es"
+        ],
+        "weight": 0.17627306706955911
+      },
+      {
+        "id": 3,
+        "words": [
+          "aprendes",
+          "si aprendes",
+          "si",
+          "final",
+          "falta"
+        ],
+        "weight": 0.08664110164087065
+      },
+      {
+        "id": 4,
+        "words": [
+          "examenes",
+          "bien",
+          "si",
+          "te",
+          "buena"
+        ],
+        "weight": 0.14663313349005175
+      }
+    ],
+    "sentiment": {
+      "overall": 0.23076923076923078,
+      "by_month": {
+        "2022-03": 0.0,
+        "2017-08": 0.0,
+        "2017-06": 0.0,
+        "2015-07": 1.0,
+        "2015-05": 0.0,
+        "2013-09": 1.0,
+        "2013-01": 0.0,
+        "2012-06": 1.0,
+        "2011-11": 0.0,
+        "2011-06": 0.0,
+        "2011-05": 0.0
+      }
+    },
+    "n_comments": 13
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        10.0,
+        2.3333333333333335,
+        8.0,
+        10.0,
+        9.0,
+        9.0,
+        10.0,
+        10.0,
+        10.0,
+        9.0,
+        10.0,
+        10.0,
+        8.0
+      ],
+      "ewma": [
+        10.0,
+        7.7,
+        7.789999999999999,
+        8.453,
+        8.617099999999999,
+        8.731969999999999,
+        9.112378999999999,
+        9.378665299999998,
+        9.565065709999999,
+        9.395545997,
+        9.576882197899998,
+        9.703817538529998,
+        9.192672276970999
+      ],
+      "sigma": 1.6929431456291881
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 9.192672276970999,
+      "quality_band": [
+        5.87450371153779,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2022-03-30T00:00:00",
+      "materia": "PROBABILIDAD Y ESTADISTICA",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "La profesora no cuenta asistencia, Trabajos, Participaciones, Solo califica con un Examen y si sales mal por mera casualidad, El rc es hasta el final de semestre"
+    },
+    {
+      "fecha_iso": "2020-01-30T00:00:00",
+      "materia": "PROBABILIDAD",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2017-08-30T00:00:00",
+      "materia": "PROBABILIDAD Y EST, ESTADISTICA INFERENCIAL 1, Y 2",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Es de las maestras con mejor calidad humana. Es realmente buena con los alumnos, explica claramente todos los temas, se ve que los estudia primero y los hace claros para nosotros. Le tengo mucho aprecio porque siempre estaba preocupada por que aprendieramos. De las mejores ?"
+    },
+    {
+      "fecha_iso": "2017-06-08T00:00:00",
+      "materia": "PROBABILIDAD Y ESTADISTICA",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "una excelente profesora, no esta difícil pero tienes que prestarle atención, tiene un carácter demasiado agradable y es muy buena enseñando, es justa calificando, eso si, no se les ocurra copiar en un examen de ella porque aunque tiene buen carácter te manda directo a recursamiento."
+    },
+    {
+      "fecha_iso": "2015-07-17T00:00:00",
+      "materia": "ESTADÍSTICA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Esta maestra es excelente, prepara muy bien sus clases, tiene muy buen carácter y es justa en las calificaciones, realmente me gusta."
+    },
+    {
+      "fecha_iso": "2015-05-04T00:00:00",
+      "materia": "PROBABILIDAD Y ESTADÍSTICA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Buenísima maestra, es muy buena persona en serio :). Yo que realmente no me considero un buen alumno, con ella todo muy bien. La clase no es nada aburrida, o sea no es payasa ni comoda, pero cae bien y es buena persona. Siempre ofrece ayuda, los examenes incluso son bastantes sencillos."
+    },
+    {
+      "fecha_iso": "2013-09-01T00:00:00",
+      "materia": "ESTADISTICA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "es una excelente maestra asi como uns ser humano te ayuda y orienta ademas es una guia"
+    },
+    {
+      "fecha_iso": "2013-01-16T00:00:00",
+      "materia": "ESTADISTICA INFERENCIAL 1",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Se la rifa! a veces te deja los exámenes de tarea y si te llevas bien con ella te pone buena calificación y SI APRENDES!"
+    },
+    {
+      "fecha_iso": "2012-06-11T00:00:00",
+      "materia": "PROBABILIDAD Y ESTADÍSTICA",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "EXCELENTE calidad humana! le falta un poquito, pero si aprendes con ella, almenos yo aprendi mucho por que estaba en 0's, al final no sube decimas pero, es muy buena tanto en la materia como en calidad humana, tiene muchas facilidades DEMAS, examenes en compu, en equipos *FUENTECONFIABLE*"
+    },
+    {
+      "fecha_iso": "2011-11-10T00:00:00",
+      "materia": "PROB. Y ESTADISTICA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Muy linda Maestra y muy responsable."
+    },
+    {
+      "fecha_iso": "2011-06-21T00:00:00",
+      "materia": "ESTADISTICA",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "muy buena mestra, comprensiva y amigable"
+    },
+    {
+      "fecha_iso": "2011-05-10T00:00:00",
+      "materia": "ESTADISTICA",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": "no domina"
+    },
+    {
+      "fecha_iso": "2011-05-06T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2011-05-06T00:00:00",
+      "materia": "FISICA",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": "no sabe nada, le falta marido."
+    },
+    {
+      "fecha_iso": "2011-04-12T00:00:00",
+      "materia": "ESTADISTICA 1",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": ""
+    }
+  ],
+  "comments_recent": [
+    "La profesora no cuenta asistencia, Trabajos, Participaciones, Solo califica con un Examen y si sales mal por mera casualidad, El rc es hasta el final de semestre",
+    "Es de las maestras con mejor calidad humana. Es realmente buena con los alumnos, explica claramente todos los temas, se ve que los estudia primero y los hace claros para nosotros. Le tengo mucho aprecio porque siempre estaba preocupada por que aprendieramos. De las mejores ?",
+    "una excelente profesora, no esta difícil pero tienes que prestarle atención, tiene un carácter demasiado agradable y es muy buena enseñando, es justa calificando, eso si, no se les ocurra copiar en un examen de ella porque aunque tiene buen carácter te manda directo a recursamiento.",
+    "Esta maestra es excelente, prepara muy bien sus clases, tiene muy buen carácter y es justa en las calificaciones, realmente me gusta.",
+    "Buenísima maestra, es muy buena persona en serio :). Yo que realmente no me considero un buen alumno, con ella todo muy bien. La clase no es nada aburrida, o sea no es payasa ni comoda, pero cae bien y es buena persona. Siempre ofrece ayuda, los examenes incluso son bastantes sencillos.",
+    "es una excelente maestra asi como uns ser humano te ayuda y orienta ademas es una guia",
+    "Se la rifa! a veces te deja los exámenes de tarea y si te llevas bien con ella te pone buena calificación y SI APRENDES!",
+    "EXCELENTE calidad humana! le falta un poquito, pero si aprendes con ella, almenos yo aprendi mucho por que estaba en 0's, al final no sube decimas pero, es muy buena tanto en la materia como en calidad humana, tiene muchas facilidades DEMAS, examenes en compu, en equipos *FUENTECONFIABLE*",
+    "Muy linda Maestra y muy responsable."
+  ],
+  "n_reviews": 15
+}

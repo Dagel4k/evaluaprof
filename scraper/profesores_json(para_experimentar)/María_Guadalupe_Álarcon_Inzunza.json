@@ -1,0 +1,192 @@
+{
+  "nombre": "María Guadalupe Álarcon Inzunza",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "ciudad": "Ciudad: culiacan, sinaloa",
+  "departamento": "Departamento/Facultad: Gestión",
+  "calidad_general": 4.4,
+  "porcentaje_recomienda": 20,
+  "nivel_dificultad": 5.0,
+  "etiquetas": [
+    "CALIFICA DURO (4)",
+    "MUCHAS TAREAS (5)",
+    "DEJA TRABAJOS LARGOS (3)",
+    "ASISTENCIA OBLIGATORIA (4)",
+    "LOS EXÁMENES SON DIFÍCILES (1)",
+    "MUCHOS EXÁMENES (1)",
+    "LAS CLASES SON LARGAS (3)",
+    "MUY CÓMICO (1)"
+  ],
+  "numero_calificaciones": 10,
+  "calificaciones": [
+    {
+      "fecha": "17/Ene/2025",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 2.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "economia",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "7.5",
+      "interes_clase": "",
+      "comentario": "",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "06/Dic/2024",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 2.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Administración y contabilidad",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "9",
+      "interes_clase": "",
+      "comentario": "",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "12/Ago/2024",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 3.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Taller de Investigación 2",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "9",
+      "interes_clase": "",
+      "comentario": "Es una aberración de docente, jamás me había tocado un docente de tan bajo nivel, no se le entiende nada, solo habla y habla de los temas los cuales aburren en cuestiones de segundos, todas las demás pésimas referencias son completamente acertadas.",
+      "etiquetas_comentario": [
+        "Asistencia obligatoria",
+        "Las clases son largas"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "10/May/2024",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 3.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Entorno Macroeconómico",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "Baja autoestima, pareciera que es maestra porque quiere tener amigos, no la recomiendo, que pena tener este tipo de  “docente”.",
+      "etiquetas_comentario": [
+        "Muy cómico",
+        "Las clases son largas"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "04/Sep/2022",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 2.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "economia empresarial",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "23",
+      "interes_clase": "",
+      "comentario": "Es muy mala onda como persona, no ayuda a sus alumnos aunque le expliques la situación, no esta a disposición de hacer nada por ti y da favoritismo a los alumnos.",
+      "etiquetas_comentario": [
+        "Califica Duro",
+        "Muchas tareas",
+        "Asistencia obligatoria"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "03/Sep/2021",
+      "tipo_calificacion": "REGULAR",
+      "puntaje_calidad_general": 5.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Economía",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "Mis respetos para lo responsable que es (nunca faltaron sus clases), pero es muy tedioso, habla toda la hora y en ocasiones te enreda al explicar. Sube los trabajos que debes hacer desde mucho tiempo antes y suele ser enredoso. Si tienes otra opción mejor",
+      "etiquetas_comentario": [
+        "Califica Duro",
+        "Muchas tareas",
+        "Las clases son largas"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "01/Feb/2021",
+      "tipo_calificacion": "REGULAR",
+      "puntaje_calidad_general": 4.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Ingeniería económica",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "9.5",
+      "interes_clase": "",
+      "comentario": "No aprendí nada",
+      "etiquetas_comentario": [
+        "Muchas tareas",
+        "Muchos Exámenes",
+        "Deja trabajos largos"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "11/Ene/2020",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 8.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Economía empresarial",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "9",
+      "interes_clase": "",
+      "comentario": "",
+      "etiquetas_comentario": [
+        "Califica Duro",
+        "Asistencia obligatoria",
+        "Deja trabajos largos"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "11/Ene/2020",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 7.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Entorno Macroeconómico",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "9.5",
+      "interes_clase": "",
+      "comentario": "",
+      "etiquetas_comentario": [
+        "Muchas tareas",
+        "Asistencia obligatoria",
+        "Los exámenes son difíciles"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "04/Ago/2019",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 8.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Ingeniería Económica",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "9.5",
+      "interes_clase": "",
+      "comentario": "",
+      "etiquetas_comentario": [
+        "Califica Duro",
+        "Muchas tareas",
+        "Deja trabajos largos"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    }
+  ]
+}

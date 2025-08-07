@@ -1,0 +1,111 @@
+{
+  "nombre": "David Obeso Montoya",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "ciudad": "Ciudad: culiacan, sinaloa",
+  "departamento": "Departamento/Facultad: Ingeniería Industrial",
+  "calidad_general": 8.2,
+  "porcentaje_recomienda": 71,
+  "nivel_dificultad": 0.0,
+  "etiquetas": [
+    "ASISTENCIA OBLIGATORIA (1)",
+    "DEJA TRABAJOS LARGOS (1)",
+    "TOMARÍA SU CLASE OTRA VEZ (2)",
+    "RESPETADO POR LOS ESTUDIANTES (1)",
+    "INSPIRACIONAL (1)"
+  ],
+  "numero_calificaciones": 6,
+  "calificaciones": [
+    {
+      "fecha": "14/Nov/2016",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Estudio del Trabajo 1 y 2",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "9.5",
+      "interes_clase": "",
+      "comentario": "Excelente Maestro!.... sin palabras 8:32",
+      "etiquetas_comentario": [
+        "Respetado por los estudiantes",
+        "Inspiracional",
+        "Tomaría su clase otra vez"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "30/Jul/2016",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Estudio del trabajo 2",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "Excelente maestro",
+      "etiquetas_comentario": [
+        "Asistencia obligatoria",
+        "Deja trabajos largos",
+        "Tomaría su clase otra vez"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "10/Ene/2014",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "---",
+      "asistencia": "",
+      "calificacion_recibida": "10",
+      "interes_clase": "10",
+      "comentario": "[Comentario esperando revisión]",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "08/Ene/2014",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Estudio del trabajo",
+      "asistencia": "",
+      "calificacion_recibida": "10",
+      "interes_clase": "10",
+      "comentario": "Puro exponer esta bien facil.",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "14/Nov/2013",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 2.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "---",
+      "asistencia": "",
+      "calificacion_recibida": "N/A",
+      "interes_clase": "N/A",
+      "comentario": "[Comentario esperando revisión]",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "04/Ago/2013",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Estudio del Trabajo II",
+      "asistencia": "",
+      "calificacion_recibida": "10",
+      "interes_clase": "10",
+      "comentario": "EL Gran Señor de las Mil Mentiras. Te vas a reír de TODAS las hazañas de este vato, vas a exponer una sola vez en TODO el semestre y te va a dejar un trabajo final de 50 hojas que ni revisa y lo puedes bajar de internet. 100 pelado, para asegurarlo no le faltes ni un día.",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    }
+  ]
+}

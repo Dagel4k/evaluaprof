@@ -1,0 +1,273 @@
+{
+  "professor_id": "Marco_Antonio_Astorga_Padilla",
+  "nombre": "Marco Antonio Astorga Padilla",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 9.762234145326774,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.638796050132927,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.8,
+    "wilson_interval": [
+      0.49015684672072346,
+      0.9433190520193067
+    ],
+    "n_recommendations": 10
+  },
+  "subject_normalization": {
+    "z_mean": 0.3,
+    "z_mean_decayed": 0.44,
+    "per_subject": [
+      {
+        "materia": "ANALISIS DE LA REALIDAD NACIONAL",
+        "z_decayed": 0.8502651466878617,
+        "n": 10
+      },
+      {
+        "materia": "LEGISLACIÓN LABORAL",
+        "z_decayed": 0.5,
+        "n": 4
+      },
+      {
+        "materia": "TALLER DE ÉTICA",
+        "z_decayed": 0.39448815451131075,
+        "n": 22
+      },
+      {
+        "materia": "ANALISIS",
+        "z_decayed": -0.25837312311498406,
+        "n": 5
+      },
+      {
+        "materia": "---",
+        "z_decayed": -0.9627852966533862,
+        "n": 521
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "hace",
+          "es",
+          "explica",
+          "bien",
+          "explica bien"
+        ],
+        "weight": 0.15173510580683147
+      },
+      {
+        "id": 1,
+        "words": [
+          "examen",
+          "si",
+          "hace",
+          "es",
+          "examenes"
+        ],
+        "weight": 0.10499614783717168
+      },
+      {
+        "id": 2,
+        "words": [
+          "examen",
+          "si",
+          "explica bien",
+          "es",
+          "maestro"
+        ],
+        "weight": 0.14500895928232904
+      },
+      {
+        "id": 3,
+        "words": [
+          "bien",
+          "es",
+          "explica",
+          "examen",
+          "si"
+        ],
+        "weight": 0.17565101099851732
+      }
+    ],
+    "sentiment": {
+      "overall": 0.1111111111111111,
+      "by_month": {
+        "2024-11": 0.0,
+        "2022-01": 1.0,
+        "2020-01": 0.0,
+        "2015-03": 0.0,
+        "2013-11": 0.0,
+        "2013-08": 0.0,
+        "2013-06": 0.0,
+        "2013-03": 0.0,
+        "2012-08": 0.0
+      }
+    },
+    "n_comments": 9
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        9.0,
+        10.0,
+        10.0,
+        2.0,
+        10.0,
+        2.0,
+        10.0,
+        10.0,
+        10.0,
+        10.0
+      ],
+      "ewma": [
+        9.0,
+        9.3,
+        9.51,
+        7.256999999999999,
+        8.079899999999999,
+        6.255929999999998,
+        7.3791509999999985,
+        8.165405699999997,
+        8.715783989999998,
+        9.101048792999999
+      ],
+      "sigma": 2.6426464784164314
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 9.101048792999999,
+      "quality_band": [
+        3.921461695303793,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2024-11-22T00:00:00",
+      "materia": "MARCO LEGAL EJECUTIVO",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Gran maestro, sus clases si son algo aburridas por qué es pura teoría pero él las hace menos pesadas y cómicas, explica tal cual lo que pone en el examen, tiene mucha facilidad y explica y se le entiende muy bien"
+    },
+    {
+      "fecha_iso": "2022-01-27T00:00:00",
+      "materia": "LEGISLACIÓN LABORAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "excelente maestro"
+    },
+    {
+      "fecha_iso": "2020-06-13T00:00:00",
+      "materia": "LEGISLACIÓN LABORAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2020-01-11T00:00:00",
+      "materia": "LEGISLACIÓN LABORAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Sabe mucho y lo explica muy bien, si estudias los apuntes el examen es muy fácil, es muy buena persona y también maestro, lo super recomiendo!"
+    },
+    {
+      "fecha_iso": "2015-03-16T00:00:00",
+      "materia": "ANALISIS",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "?????"
+    },
+    {
+      "fecha_iso": "2013-11-18T00:00:00",
+      "materia": "ANALISIS DE LA REALIDAD NACIONAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "domina perfectamente los temas"
+    },
+    {
+      "fecha_iso": "2013-08-04T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 2.5,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2013-06-18T00:00:00",
+      "materia": "ANALISIS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "los examenes muy faciles, no te deja casi tareas, y es considerado con las calificacioness"
+    },
+    {
+      "fecha_iso": "2013-03-11T00:00:00",
+      "materia": "ANALISIS DE LA REALIDAD NACIONAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "ES UN BUEN MAESTRO EXPLICA MUY BIEN, ALTAMENTE RECOMENDADO"
+    },
+    {
+      "fecha_iso": "2012-08-22T00:00:00",
+      "materia": "TALLER DE ÉTICA",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": "falta MUCHO pero pues es accesible y cuando llega a ir se entra en su papel y explica... bien, sus examenes los hace igual que todos sus grupos."
+    }
+  ],
+  "comments_recent": [
+    "Gran maestro, sus clases si son algo aburridas por qué es pura teoría pero él las hace menos pesadas y cómicas, explica tal cual lo que pone en el examen, tiene mucha facilidad y explica y se le entiende muy bien",
+    "excelente maestro",
+    "Sabe mucho y lo explica muy bien, si estudias los apuntes el examen es muy fácil, es muy buena persona y también maestro, lo super recomiendo!",
+    "?????",
+    "domina perfectamente los temas",
+    "[Comentario esperando revisión]",
+    "los examenes muy faciles, no te deja casi tareas, y es considerado con las calificacioness",
+    "ES UN BUEN MAESTRO EXPLICA MUY BIEN, ALTAMENTE RECOMENDADO",
+    "falta MUCHO pero pues es accesible y cuando llega a ir se entra en su papel y explica... bien, sus examenes los hace igual que todos sus grupos."
+  ],
+  "n_reviews": 10
+}

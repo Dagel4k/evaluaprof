@@ -1,0 +1,216 @@
+{
+  "professor_id": "Maria_Aracely_Martinez_Amaya",
+  "nombre": "Maria Aracely Martinez Amaya",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 5.750430643982131,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 6.320884500147698,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.375,
+    "wilson_interval": [
+      0.13684175946152105,
+      0.6942621454161982
+    ],
+    "n_recommendations": 8
+  },
+  "subject_normalization": {
+    "z_mean": -0.18,
+    "z_mean_decayed": 0.03,
+    "per_subject": [
+      {
+        "materia": "FUNDAMENTOS DE BASES DE DATOS",
+        "z_decayed": 0.7593381753215109,
+        "n": 15
+      },
+      {
+        "materia": "---",
+        "z_decayed": 0.23580762940734074,
+        "n": 521
+      },
+      {
+        "materia": "SISTEMAS",
+        "z_decayed": 0.11442591353812454,
+        "n": 13
+      },
+      {
+        "materia": "TALLER DE SISTEMAS OPERATIVOS",
+        "z_decayed": -0.24964362063136586,
+        "n": 8
+      },
+      {
+        "materia": "FUNDAMENTOS DE BASE DE DATOS",
+        "z_decayed": -0.2944844258253041,
+        "n": 16
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "clara",
+          "criterios",
+          "clara criterios",
+          "es clara",
+          "es"
+        ],
+        "weight": 0.3327248989404394
+      },
+      {
+        "id": 1,
+        "words": [
+          "clara criterios",
+          "es clara",
+          "si",
+          "enreda",
+          "explica"
+        ],
+        "weight": 0.2769776953098975
+      }
+    ],
+    "sentiment": {
+      "overall": -0.2,
+      "by_month": {
+        "2021-06": -0.5,
+        "2019-10": 0.0,
+        "2019-08": 0.0,
+        "2017-08": 0.0
+      }
+    },
+    "n_comments": 5
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        6.0,
+        2.0,
+        6.0,
+        7.0,
+        6.0,
+        5.5
+      ],
+      "ewma": [
+        6.0,
+        4.799999999999999,
+        5.159999999999998,
+        5.711999999999999,
+        5.798399999999999,
+        5.708879999999999
+      ],
+      "sigma": 1.4291195794147762
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 5.708879999999999,
+      "quality_band": [
+        2.9078056243470374,
+        8.50995437565296
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2021-06-15T00:00:00",
+      "materia": "FUNDAMENTOS DE BASES DE DATOS",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": "Casi nunca prepara las clases, es poco clara con los criterios de evaluación ya que los cambio luego de un tiempo. Deja muchos trabajos en equipo que al final siento que no contaron para nada. La materia no es difícil, pero califica estricto para lo poco que enseña."
+    },
+    {
+      "fecha_iso": "2021-06-09T00:00:00",
+      "materia": "FUNDAMENTOS DE BASE DE DATOS",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 0,
+      "comentario": "No explica bien, se enreda ella sola, dice una cosa y en la siguiente clase termina siendo otra. No es clara con los criterios de evauliacion. Nos amenazo con reprobarnos si no firmabamos evidencia docente, mal profe en general."
+    },
+    {
+      "fecha_iso": "2019-10-01T00:00:00",
+      "materia": "---",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 23.0,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2019-08-08T00:00:00",
+      "materia": "FUNDAMENTOS DE BASE DE DATOS",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "La maestra se ve que sabe mas no domina el tema pero tampoco es exigente, no me animo a decir que es barco pero tampoco se complica, si repruebas es porque de plano no entrabas o no sabes nada"
+    },
+    {
+      "fecha_iso": "2017-08-02T00:00:00",
+      "materia": "MÉTODOS NUMÉRICOS",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 0,
+      "comentario": "Te enreda a la hora de explicar, algunas cosas suelen ser confusas. Te obliga a usar Matlab pero no te explica como usarlo y no da algoritmos de los métodos. Los exámenes no son tan largos y si le hechas ganas puedes pasar."
+    },
+    {
+      "fecha_iso": "2015-01-08T00:00:00",
+      "materia": "BASE DE DATOS",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2013-06-18T00:00:00",
+      "materia": "SISTEMAS",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2013-06-03T00:00:00",
+      "materia": "TALLER DE SISTEMAS OPERATIVOS",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 0,
+      "comentario": ""
+    }
+  ],
+  "comments_recent": [
+    "Casi nunca prepara las clases, es poco clara con los criterios de evaluación ya que los cambio luego de un tiempo. Deja muchos trabajos en equipo que al final siento que no contaron para nada. La materia no es difícil, pero califica estricto para lo poco que enseña.",
+    "No explica bien, se enreda ella sola, dice una cosa y en la siguiente clase termina siendo otra. No es clara con los criterios de evauliacion. Nos amenazo con reprobarnos si no firmabamos evidencia docente, mal profe en general.",
+    "[Comentario esperando revisión]",
+    "La maestra se ve que sabe mas no domina el tema pero tampoco es exigente, no me animo a decir que es barco pero tampoco se complica, si repruebas es porque de plano no entrabas o no sabes nada",
+    "Te enreda a la hora de explicar, algunas cosas suelen ser confusas. Te obliga a usar Matlab pero no te explica como usarlo y no da algoritmos de los métodos. Los exámenes no son tan largos y si le hechas ganas puedes pasar."
+  ],
+  "n_reviews": 8
+}

@@ -1,0 +1,460 @@
+{
+  "professor_id": "LORENZO_PEREZ_VILA",
+  "nombre": "LORENZO PEREZ VILA",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 4.003877326593257,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 6.215997805629404,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.423,
+    "wilson_interval": [
+      0.255441899027294,
+      0.6105170307888017
+    ],
+    "n_recommendations": 26
+  },
+  "subject_normalization": {
+    "z_mean": -0.76,
+    "z_mean_decayed": -0.93,
+    "per_subject": [
+      {
+        "materia": "INVESTIGACION DE OPERACIONES",
+        "z_decayed": 0.672862469185958,
+        "n": 16
+      },
+      {
+        "materia": "IO II",
+        "z_decayed": -0.577350269189626,
+        "n": 3
+      },
+      {
+        "materia": "ING. ECONOMICA",
+        "z_decayed": -0.8660254037844387,
+        "n": 4
+      },
+      {
+        "materia": "---",
+        "z_decayed": -0.9627852966533861,
+        "n": 521
+      },
+      {
+        "materia": "SIMULACION",
+        "z_decayed": -1.043300196749722,
+        "n": 23
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "mejores maestros",
+          "reales",
+          "maestros",
+          "explica",
+          "te"
+        ],
+        "weight": 0.09536093841757833
+      },
+      {
+        "id": 1,
+        "words": [
+          "materia",
+          "es",
+          "califica",
+          "examenes",
+          "inteligente"
+        ],
+        "weight": 0.11956232607385653
+      },
+      {
+        "id": 2,
+        "words": [
+          "incapaz",
+          "es incapaz",
+          "dar",
+          "es",
+          "profesor"
+        ],
+        "weight": 0.10755282760048882
+      },
+      {
+        "id": 3,
+        "words": [
+          "viola",
+          "perez viola",
+          "perez",
+          "criterio",
+          "recomiendo"
+        ],
+        "weight": 0.10253550353053892
+      },
+      {
+        "id": 4,
+        "words": [
+          "tiene tec",
+          "es",
+          "ahi",
+          "tec",
+          "maestro"
+        ],
+        "weight": 0.11345677167666
+      }
+    ],
+    "sentiment": {
+      "overall": 0.045454545454545456,
+      "by_month": {
+        "2021-08": -1.0,
+        "2020-09": 0.0,
+        "2020-01": -0.3333333333333333,
+        "2014-06": 0.0,
+        "2014-05": 0.0,
+        "2014-04": 0.0,
+        "2014-01": 1.0,
+        "2013-11": 0.0,
+        "2013-08": 0.0,
+        "2013-05": 0.0,
+        "2013-03": 0.0,
+        "2013-02": 0.0,
+        "2012-08": 0.0,
+        "2012-05": 0.0,
+        "2012-03": 1.0,
+        "2012-02": 0.0,
+        "2012-01": 0.0,
+        "2011-10": 0.0,
+        "2011-05": 1.0
+      }
+    },
+    "n_comments": 22
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        4.0,
+        2.0,
+        2.0,
+        10.0,
+        3.0,
+        10.0,
+        10.0,
+        10.0,
+        9.0,
+        10.0,
+        5.0,
+        4.0,
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        7.0,
+        3.0,
+        3.3333333333333335,
+        4.0,
+        2.0
+      ],
+      "ewma": [
+        4.0,
+        3.4,
+        2.98,
+        5.086,
+        4.4602,
+        6.12214,
+        7.285498,
+        8.0998486,
+        8.369894019999998,
+        8.858925814,
+        7.701248069799999,
+        6.59087364886,
+        7.6136115542019995,
+        8.3295280879414,
+        8.830669661558979,
+        9.181468763091285,
+        8.5270281341639,
+        6.868919693914728,
+        5.808243785740309,
+        5.265770650018217,
+        4.286039455012752
+      ],
+      "sigma": 2.3630536889511884
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 4.286039455012752,
+      "quality_band": [
+        0.0,
+        8.91762468535708
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2021-08-25T00:00:00",
+      "materia": "ADMINISTRACIÓN DE OPERACIONES 2",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Este profesor ya no debería dar clase. No tiene paciencia. Si es dificil presencial no me lo imagino en virtual."
+    },
+    {
+      "fecha_iso": "2020-09-18T00:00:00",
+      "materia": "AO2",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 0,
+      "comentario": "Pérez Vila, o mejor conocido como Pérez viola.\nno recomiendo para nada a este profesor, es un genio pero no es capaz de transmitir ese conocimiento. si ya cargaste con el te recomiendo que no te sientes al frente."
+    },
+    {
+      "fecha_iso": "2020-01-12T00:00:00",
+      "materia": "INVESTIGACIÓN DE OPERACIONES II",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 0,
+      "comentario": "Siendo claros, lleve el semestre con este profesor y no es un buen docente. Posee bastantes conocimientos pero es incapaz de transmitirlo. Ademas, de explotar muy fácilmente al exponerle una duda o pedir apoyo respecto a un tema. sin duda alguna no aprendí mucho por no decir nada."
+    },
+    {
+      "fecha_iso": "2020-01-11T00:00:00",
+      "materia": "INVESTIGACIÓN DE OPERACIONES II",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 0,
+      "comentario": "Profesor más mediocre no puede haber. Muy viejo, lento, falta demasiado, enseña horrible y tiene problemas de ira, odio que esta página no me da suficientes caracteres para explicar porque es el peor profesor de mi vida, sin exagerar. Sería fácil pasar con él, suponiendo que subiera calificaciones."
+    },
+    {
+      "fecha_iso": "2020-01-10T00:00:00",
+      "materia": "IO II",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 0,
+      "comentario": "No lo carguen ya es incapaz de dar clases, los hará vivir un semestre amargo y lleno de frustraciones... no vale la pena ya está muy viejo, más bien acabado."
+    },
+    {
+      "fecha_iso": "2016-12-22T00:00:00",
+      "materia": "AO1",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": 6.5,
+      "recomienda": 0,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2014-06-21T00:00:00",
+      "materia": "ADMINISTRACIÓN DE OPERACIONES 2",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": "En esta materia no lo recomiendo, no la domina lo suficiente, contesta ejercicios a su criterio contradiciendo el libro y no terminamos de ver el programa completo"
+    },
+    {
+      "fecha_iso": "2014-05-01T00:00:00",
+      "materia": "ADMINISTRACION DEL MANTTO IND",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Realmente un Ingeniero Industrial que aplica Modelos Matematicos en aplicaciones reales de problemas de la industria."
+    },
+    {
+      "fecha_iso": "2014-04-22T00:00:00",
+      "materia": "INVESTIGACION DE OPERACIONES 1 Y 2",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Es muy buen maestro ojala todos lo que dan clases en el tec fueran como el !! salieramos bien chingones de ahi..!"
+    },
+    {
+      "fecha_iso": "2014-01-09T00:00:00",
+      "materia": "INVEST DE OP II",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Uno de los mejores maestros que tiene el Tec actualmente,te explica muy claro y en los exámenes te aclara tus dudas no como otros maestros,esta muy bien preparado,si no faltas mucho te ayuda."
+    },
+    {
+      "fecha_iso": "2013-11-14T00:00:00",
+      "materia": "ADMINISTRACIÓN DE MANTENIMIENTO INDUSTRIAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Uno de los mejores Maestros que tuve en la carrera, explica la solución de problemas reales mediante métodos matemáticos de una manera muy explicita, lo que enseña en clase viene en el examen y explica las veces que sea necesario el mismo tema.\n\nJ. Iñiguez"
+    },
+    {
+      "fecha_iso": "2013-08-09T00:00:00",
+      "materia": "MATEMATICAS PARA TOMA DE DESICIONES",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": "Comportamiento erratico, sus examenes son complicados y es con lo unico que califica, , la materia esta interesante. una personalidad rara. Dentadura fea, da miedo cuando sonrrie."
+    },
+    {
+      "fecha_iso": "2013-08-04T00:00:00",
+      "materia": "I O II",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 3.0,
+      "recomienda": 0,
+      "comentario": "Si le dicen Perez VIOLA, ahí se los dejo a su criterio..."
+    },
+    {
+      "fecha_iso": "2013-05-11T00:00:00",
+      "materia": "IO II",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 5.5,
+      "recomienda": 0,
+      "comentario": "hay salones enteros que reprueban, solo califica los examenes. pero super inteligente.. y muy antisocial"
+    },
+    {
+      "fecha_iso": "2013-03-22T00:00:00",
+      "materia": "ING. DE  SISTEMAS, FUNDAMENTOS, Y MUCHAS MAS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Es un genio poco apreciado. Es un verdadero maestro de Ingeniería, después de casi 20 años lo recuerdo. Es maestro de maestros. El que no llevo clase con el no es ingeniero industrial del tec, asi de facil."
+    },
+    {
+      "fecha_iso": "2013-02-11T00:00:00",
+      "materia": "ADMINISTRACION DE OPERACIONES",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "exelente profesor, explica con problemas reales claridad y te repite las veces que sea necesario es exigente pero tambien es comprensible, de los mejores maestros que eh tenido y que tiene el tec"
+    },
+    {
+      "fecha_iso": "2012-08-15T00:00:00",
+      "materia": "IO (INV DE OP)",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Un chingonazo. Sabe machin, pero es muy exigente en los examenes. Misrespetos sabe demasiado pero como que se quedo poquito arriba esta medio pirata."
+    },
+    {
+      "fecha_iso": "2012-05-16T00:00:00",
+      "materia": "IO I & II",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Dicen que los mejores maestros son de los que más te acuerdas, después de 10 años no se me olvida su nombre, Para mi dió una de las materias más interesantes de la carrera, quien mejor que esta eminencia para eso, eso sí todo un personaje"
+    },
+    {
+      "fecha_iso": "2012-03-30T00:00:00",
+      "materia": "INVESTIGACION DE OPERACIONES",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Es una muy buena persona, ademas de ser muy inteligente, aunque no lo parezca, es comprensivo, habla algo fuerte en varias ocasiones y se enoja pero es muy respetuoso. Te enseña a resolver problemas reales, y te explicara las veces que se lo pidas."
+    },
+    {
+      "fecha_iso": "2012-02-22T00:00:00",
+      "materia": "SIMULACION",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 3.5,
+      "recomienda": 0,
+      "comentario": "La leyenda."
+    },
+    {
+      "fecha_iso": "2012-02-11T00:00:00",
+      "materia": "I.O.",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2012-01-24T00:00:00",
+      "materia": "I.O",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Muy recomendado, es muy inteligente"
+    },
+    {
+      "fecha_iso": "2011-10-11T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2011-10-06T00:00:00",
+      "materia": "I.O.",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2011-05-22T00:00:00",
+      "materia": "ING. ECONOMICA",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 0.5,
+      "recomienda": 0,
+      "comentario": "ESTE SEÑOR SE CREE MENTE BRILLANTE DICE QUE LA FORMULA GENERAL ESTA MAL AHI CHEQUEN EL PUNTO QUE BUENN MAESTRO ESTE ES DE LOS MEJORES QUE TIENE EL TEC CULIACAN"
+    },
+    {
+      "fecha_iso": "2010-09-09T00:00:00",
+      "materia": "SIMULACIÓN",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": ""
+    }
+  ],
+  "comments_recent": [
+    "Este profesor ya no debería dar clase. No tiene paciencia. Si es dificil presencial no me lo imagino en virtual.",
+    "Pérez Vila, o mejor conocido como Pérez viola.\nno recomiendo para nada a este profesor, es un genio pero no es capaz de transmitir ese conocimiento. si ya cargaste con el te recomiendo que no te sientes al frente.",
+    "Siendo claros, lleve el semestre con este profesor y no es un buen docente. Posee bastantes conocimientos pero es incapaz de transmitirlo. Ademas, de explotar muy fácilmente al exponerle una duda o pedir apoyo respecto a un tema. sin duda alguna no aprendí mucho por no decir nada.",
+    "Profesor más mediocre no puede haber. Muy viejo, lento, falta demasiado, enseña horrible y tiene problemas de ira, odio que esta página no me da suficientes caracteres para explicar porque es el peor profesor de mi vida, sin exagerar. Sería fácil pasar con él, suponiendo que subiera calificaciones.",
+    "No lo carguen ya es incapaz de dar clases, los hará vivir un semestre amargo y lleno de frustraciones... no vale la pena ya está muy viejo, más bien acabado.",
+    "En esta materia no lo recomiendo, no la domina lo suficiente, contesta ejercicios a su criterio contradiciendo el libro y no terminamos de ver el programa completo",
+    "Realmente un Ingeniero Industrial que aplica Modelos Matematicos en aplicaciones reales de problemas de la industria.",
+    "Es muy buen maestro ojala todos lo que dan clases en el tec fueran como el !! salieramos bien chingones de ahi..!",
+    "Uno de los mejores maestros que tiene el Tec actualmente,te explica muy claro y en los exámenes te aclara tus dudas no como otros maestros,esta muy bien preparado,si no faltas mucho te ayuda."
+  ],
+  "n_reviews": 26
+}

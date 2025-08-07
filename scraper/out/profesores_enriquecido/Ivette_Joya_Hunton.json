@@ -1,0 +1,259 @@
+{
+  "professor_id": "Ivette_Joya_Hunton",
+  "nombre": "Ivette Joya Hunton",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 9.571558719662503,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.938796050132927,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.9,
+    "wilson_interval": [
+      0.5958436145024278,
+      0.9821242504842789
+    ],
+    "n_recommendations": 10
+  },
+  "subject_normalization": {
+    "z_mean": 0.84,
+    "z_mean_decayed": 0.7,
+    "per_subject": [
+      {
+        "materia": "TALLER DE HERRAMIENTAS INTELECTUALES",
+        "z_decayed": 1.204717984375411,
+        "n": 18
+      },
+      {
+        "materia": "FUNDAMENTOS DE INVESTIGACION",
+        "z_decayed": 0.7313966258486402,
+        "n": 24
+      },
+      {
+        "materia": "TALLER DE INVESTIGACIÓN I",
+        "z_decayed": 0.6454972243679027,
+        "n": 11
+      },
+      {
+        "materia": "FUNDAMENTOS DE INVESTIGACIÓN",
+        "z_decayed": 0.3938341360446996,
+        "n": 29
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "maestra",
+          "bien",
+          "deja",
+          "tareas",
+          "te"
+        ],
+        "weight": 0.13347682714431558
+      },
+      {
+        "id": 1,
+        "words": [
+          "ademas",
+          "momento",
+          "maestra es",
+          "maestra",
+          "excelente"
+        ],
+        "weight": 0.11637196728535439
+      },
+      {
+        "id": 2,
+        "words": [
+          "clases",
+          "es buena",
+          "buena",
+          "bien",
+          "es"
+        ],
+        "weight": 0.170071833569134
+      },
+      {
+        "id": 3,
+        "words": [
+          "quita",
+          "quita te",
+          "nunca",
+          "falta",
+          "te"
+        ],
+        "weight": 0.24229551604393476
+      }
+    ],
+    "sentiment": {
+      "overall": 0.1111111111111111,
+      "by_month": {
+        "2021-01": 1.0,
+        "2016-01": 0.3333333333333333,
+        "2013-08": 0.0,
+        "2013-01": -1.0,
+        "2012-06": 0.0,
+        "2011-11": 0.0
+      }
+    },
+    "n_comments": 9
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        7.0,
+        8.0,
+        8.0,
+        10.0,
+        10.0,
+        9.333333333333334,
+        10.0
+      ],
+      "ewma": [
+        7.0,
+        7.299999999999999,
+        7.509999999999998,
+        8.256999999999998,
+        8.779899999999998,
+        8.945929999999999,
+        9.262151
+      ],
+      "sigma": 0.5731713186412947
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 9.262151,
+      "quality_band": [
+        8.138735215463061,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2021-01-16T00:00:00",
+      "materia": "TALLER DE INVESTIGACIÓN I",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Esta maestra es las pocas que te recuerdan que hay profesores que les importa que aprendas de la materia y da todo de su parte por ayudarte en cualquier momento, ademas de tener un excelente manejo del contenido y buen carácter."
+    },
+    {
+      "fecha_iso": "2016-01-25T00:00:00",
+      "materia": "TALLER DE INVESTIGACIÓN I",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Excelente maestra."
+    },
+    {
+      "fecha_iso": "2016-01-18T00:00:00",
+      "materia": "FUNDAMENTOS DE INVESTIGACIÓN",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Es muy buena profe, prepara muy bien sus clases y si enseña bien, siempre va y es justa a la hora de calificar"
+    },
+    {
+      "fecha_iso": "2016-01-14T00:00:00",
+      "materia": "TALLER DE INVESTIGACIÓN I",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Muy buena profesora además de que es muy comprometida con la materia que de, ella no regala calificaciones ni te quita ni te pone, con respecto a los que otros dicen de que falta mucho cuando a mi me dio clases nunca faltó."
+    },
+    {
+      "fecha_iso": "2013-08-05T00:00:00",
+      "materia": "TALLER DE HERRAMIENTAS INTELECTUALES",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Muy buena maestra!\nes muy comprometida con sus clases,muy rara vez falta porque tiene un cargo administrativo y aveces tiene que dar la cara en reuniones o asi, pero se disculpa como mil veces por no haber asistido.\nes justa al momento de calif. ni regala calif. ni te quita, te deja lo q te ganaste"
+    },
+    {
+      "fecha_iso": "2013-01-10T00:00:00",
+      "materia": "TALLER DE HERRAMIENTAS INTELECTUALES",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Es una muy buena maestra en todos los sentidos, es comprometida con sus alumnos y en las clases, lleva muy bien el programa, Se preocupa por el entendimiento de su clase. Lo único malo es que debería ser un poco mas exigente y hacer mas difíciles sus evaluaciones, es demasiado fácil."
+    },
+    {
+      "fecha_iso": "2012-11-13T00:00:00",
+      "materia": "FUNDAMENTOS DE INVESTIGACION",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2012-06-14T00:00:00",
+      "materia": "TALLER DE HERRAMIENTAS INTELECTUALES",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Esta maestra se porta muy bien no te carga de tareas ni de examenes deja poco trabajos y te ayuda mucho"
+    },
+    {
+      "fecha_iso": "2012-06-14T00:00:00",
+      "materia": "TALLER DE HERRAMIENTAS INTELECTUALES",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": "A pesar de ser buena persona en cuanto a personalidad, no la considero buena maestra porque de los 4 dias de clases a la semana falta 2, los cuales no avisa, nunca lleva el hilo de lo que hemos visto y a veces se pone exigente a pesar de que nunca es clara con la información ni las tareas."
+    },
+    {
+      "fecha_iso": "2011-11-28T00:00:00",
+      "materia": "FUNDAMENTOS DE INVESTIGACION",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "es una buena maestra, te explica bien aunque algunas veces te enredas, solo es necesario que hagas las tareas que ella pide en tiempo y forma y bastara para una buena calificacion, ojo no es facil, pero al final algo de lo que hallas hecho se te pegara"
+    }
+  ],
+  "comments_recent": [
+    "Esta maestra es las pocas que te recuerdan que hay profesores que les importa que aprendas de la materia y da todo de su parte por ayudarte en cualquier momento, ademas de tener un excelente manejo del contenido y buen carácter.",
+    "Excelente maestra.",
+    "Es muy buena profe, prepara muy bien sus clases y si enseña bien, siempre va y es justa a la hora de calificar",
+    "Muy buena profesora además de que es muy comprometida con la materia que de, ella no regala calificaciones ni te quita ni te pone, con respecto a los que otros dicen de que falta mucho cuando a mi me dio clases nunca faltó.",
+    "Muy buena maestra!\nes muy comprometida con sus clases,muy rara vez falta porque tiene un cargo administrativo y aveces tiene que dar la cara en reuniones o asi, pero se disculpa como mil veces por no haber asistido.\nes justa al momento de calif. ni regala calif. ni te quita, te deja lo q te ganaste",
+    "Es una muy buena maestra en todos los sentidos, es comprometida con sus alumnos y en las clases, lleva muy bien el programa, Se preocupa por el entendimiento de su clase. Lo único malo es que debería ser un poco mas exigente y hacer mas difíciles sus evaluaciones, es demasiado fácil.",
+    "Esta maestra se porta muy bien no te carga de tareas ni de examenes deja poco trabajos y te ayuda mucho",
+    "A pesar de ser buena persona en cuanto a personalidad, no la considero buena maestra porque de los 4 dias de clases a la semana falta 2, los cuales no avisa, nunca lleva el hilo de lo que hemos visto y a veces se pone exigente a pesar de que nunca es clara con la información ni las tareas.",
+    "es una buena maestra, te explica bien aunque algunas veces te enredas, solo es necesario que hagas las tareas que ella pide en tiempo y forma y bastara para una buena calificacion, ojo no es facil, pero al final algo de lo que hallas hecho se te pegara"
+  ],
+  "n_reviews": 10
+}

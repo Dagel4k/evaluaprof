@@ -1,0 +1,212 @@
+{
+  "professor_id": "Jose_Mario_Rios_Felix",
+  "nombre": "Jose Mario Rios Felix",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 9.901244734775185,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.92349506266616,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 1.0,
+    "wilson_interval": [
+      0.6096569663469354,
+      1
+    ],
+    "n_recommendations": 6
+  },
+  "subject_normalization": {
+    "z_mean": 1.1,
+    "z_mean_decayed": 1.12,
+    "per_subject": [
+      {
+        "materia": "FUNDAMENTOS DE BASE DE DATOS",
+        "z_decayed": 1.224744871391589,
+        "n": 16
+      },
+      {
+        "materia": "TALLER DE BASE DE DATOS",
+        "z_decayed": 1.1602387022306426,
+        "n": 22
+      },
+      {
+        "materia": "FUNDAMENTOS DE PROGRAMACION",
+        "z_decayed": 1.1265641016954895,
+        "n": 43
+      },
+      {
+        "materia": "TALLER DE BASES DE DATOS",
+        "z_decayed": 1.0954451150103315,
+        "n": 5
+      },
+      {
+        "materia": "LENGUAJES Y AUTOMATAS I",
+        "z_decayed": 0.8728715609439698,
+        "n": 3
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "va",
+          "te va",
+          "profe",
+          "es",
+          "te"
+        ],
+        "weight": 0.25748535378472215
+      },
+      {
+        "id": 1,
+        "words": [
+          "si",
+          "mejor",
+          "mas",
+          "es",
+          "facil"
+        ],
+        "weight": 0.18928050920056225
+      },
+      {
+        "id": 2,
+        "words": [
+          "si",
+          "examenes",
+          "mas",
+          "explica",
+          "bien"
+        ],
+        "weight": 0.15495558003427065
+      }
+    ],
+    "sentiment": {
+      "overall": 0.16666666666666666,
+      "by_month": {
+        "2025-05": -1.0,
+        "2018-08": 0.0,
+        "2018-01": 0.0,
+        "2017-11": 1.0,
+        "2017-01": 1.0,
+        "2016-05": 0.0
+      }
+    },
+    "n_comments": 6
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        7.0,
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        10.0
+      ],
+      "ewma": [
+        7.0,
+        7.8999999999999995,
+        8.53,
+        8.971,
+        9.2797,
+        9.49579
+      ],
+      "sigma": 0.7416993138395102
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 9.49579,
+      "quality_band": [
+        8.04205934487456,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2025-05-25T00:00:00",
+      "materia": "FUNDAMENTOS DE PROGRAMACION",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Si estas en mi primer semestre y de pura casualidad te da, te va a ayudar bastante, es un profe que siempre es atento y demuestra tener un gran conocimiento en el tema, incluso te da consejos para el ambito laboral. Preparate para el examen final ya que, en mi caso, fue un poco complicado."
+    },
+    {
+      "fecha_iso": "2018-08-24T00:00:00",
+      "materia": "FUNDAMENTOS DE BASE DE DATOS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "La verdad si enseña, es muy fácil pasar con el y el que quiere aprende, puedes pasar y saber poco, el es muy accesible, lastima que en la actualidad dejo de dar clases, esta mejor que con chayito y más fácil que esparza"
+    },
+    {
+      "fecha_iso": "2018-01-11T00:00:00",
+      "materia": "TALLER DE BASES DE DATOS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Es buen profe, te explica cosas que ocuparas en el futuro, te explica las cosas bien y si no entiendes te las puede volver a explicar. Es buena onda y pues sus examenes no estan tan dificiles."
+    },
+    {
+      "fecha_iso": "2017-11-22T00:00:00",
+      "materia": "TALLER DE BASE DE DATOS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Profesor excelente, divertido y aunque no lo esperes, terminas aprendiendo xD"
+    },
+    {
+      "fecha_iso": "2017-01-17T00:00:00",
+      "materia": "LENGUAJES Y AUTOMATAS I",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Profe ,si lee esto, lo quiero un chingo, la neta plebes es su mejor opción sea la materia que les salga,es bien camarada, explica claro, esta joven asi que supongo que entiende como hacerlos entender a ustedes, te ayuda como ningun otro profe te va ayudar solo te pide que tambien pongas de tu parte."
+    },
+    {
+      "fecha_iso": "2016-05-29T00:00:00",
+      "materia": "ALGORITMOS Y LENGUAJE DE PROGRAMACIÓN",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 1,
+      "comentario": "Maestro regular, explica bien y le hecha algo de carrilla a los industriales por que segun la carrera esta bien facil pero de todos los maestros de algoritmos este es el mas pasable. Mucho cuidado si manda a RC y mas a los que tienen muchas faltas y no pasan los examenes"
+    }
+  ],
+  "comments_recent": [
+    "Si estas en mi primer semestre y de pura casualidad te da, te va a ayudar bastante, es un profe que siempre es atento y demuestra tener un gran conocimiento en el tema, incluso te da consejos para el ambito laboral. Preparate para el examen final ya que, en mi caso, fue un poco complicado.",
+    "La verdad si enseña, es muy fácil pasar con el y el que quiere aprende, puedes pasar y saber poco, el es muy accesible, lastima que en la actualidad dejo de dar clases, esta mejor que con chayito y más fácil que esparza",
+    "Es buen profe, te explica cosas que ocuparas en el futuro, te explica las cosas bien y si no entiendes te las puede volver a explicar. Es buena onda y pues sus examenes no estan tan dificiles.",
+    "Profesor excelente, divertido y aunque no lo esperes, terminas aprendiendo xD",
+    "Profe ,si lee esto, lo quiero un chingo, la neta plebes es su mejor opción sea la materia que les salga,es bien camarada, explica claro, esta joven asi que supongo que entiende como hacerlos entender a ustedes, te ayuda como ningun otro profe te va ayudar solo te pide que tambien pongas de tu parte.",
+    "Maestro regular, explica bien y le hecha algo de carrilla a los industriales por que segun la carrera esta bien facil pero de todos los maestros de algoritmos este es el mas pasable. Mucho cuidado si manda a RC y mas a los que tienen muchas faltas y no pasan los examenes"
+  ],
+  "n_reviews": 6
+}

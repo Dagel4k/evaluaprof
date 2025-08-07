@@ -1,0 +1,112 @@
+{
+  "nombre": "Johana Paulina Ibarra García",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "ciudad": "Ciudad: culiacan, sinaloa",
+  "departamento": "Departamento/Facultad: Ciencias básicas",
+  "calidad_general": 9.2,
+  "porcentaje_recomienda": 100,
+  "nivel_dificultad": 1.6,
+  "etiquetas": [
+    "LA PARTICIPACIÓN IMPORTA (2)",
+    "ASISTENCIA OBLIGATORIA (2)",
+    "TOMARÍA SU CLASE OTRA VEZ (4)",
+    "BRINDA APOYO (2)",
+    "CLASES EXCELENTES (2)",
+    "DEJA TRABAJOS LARGOS (1)",
+    "MUCHAS TAREAS (1)",
+    "ASPECTOS DE CALIFICACIÓN CLAROS (1)"
+  ],
+  "numero_calificaciones": 5,
+  "calificaciones": [
+    {
+      "fecha": "15/Ene/2023",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 9.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Cálculo diferencial",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "Sus clases son claras, pero es necesario poner atención e interesarse en comprender. Siempre está dispuesta a ayudar con una grandiosa actitud. Las pocas tareas que deja son largas y con ejercicios sencillos; da bastante tiempo para entregarlas.\nExámenes cortos, siempre sobre lo visto en clase.",
+      "etiquetas_comentario": [
+        "Muchas tareas",
+        "Aspectos de calificación claros",
+        "Tomaría su clase otra vez"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "20/Feb/2022",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 9.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Cálculo diferencial",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "9",
+      "interes_clase": "",
+      "comentario": "Es muy buena profe, en sus clases explica las cosas paso por paso y si tienes duda en algún tema, te ayudará aunque ya hayan pasado días que explicó eso, eso sí, es rigurosa al momento de calificar los examenes, pero nada de otro mundo, siempre que puedas cargar con ella, hazlo.",
+      "etiquetas_comentario": [
+        "Brinda apoyo",
+        "Deja trabajos largos",
+        "Clases excelentes"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "18/Dic/2021",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 9.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Cálculo diferencial",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "9.5",
+      "interes_clase": "",
+      "comentario": "es buena maestra, lo unico que podria mencionar de ella es que en los examenes es algo \"estricta\" al calificar y facilmente puedes bajar puntos si se te pasa poner algo, pero la verdad me parecio muy buena maestra y accesible si necesitas ayuda",
+      "etiquetas_comentario": [
+        "Brinda apoyo",
+        "Clases excelentes",
+        "Tomaría su clase otra vez"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "16/Ene/2020",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 9.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "calculo vectorial",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "9",
+      "interes_clase": "",
+      "comentario": "es muy buena profe mis 10",
+      "etiquetas_comentario": [
+        "La Participación Importa",
+        "Asistencia obligatoria",
+        "Tomaría su clase otra vez"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "24/Oct/2019",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Calculo vectorial",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "",
+      "etiquetas_comentario": [
+        "La Participación Importa",
+        "Asistencia obligatoria",
+        "Tomaría su clase otra vez"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    }
+  ]
+}

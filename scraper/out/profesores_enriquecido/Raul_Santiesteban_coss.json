@@ -1,0 +1,215 @@
+{
+  "professor_id": "Raul_Santiesteban_coss",
+  "nombre": "Raul Santiesteban coss",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 5.099025869955475,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 6.045642411921092,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.143,
+    "wilson_interval": [
+      0.02567895594897479,
+      0.5131345033190299
+    ],
+    "n_recommendations": 7
+  },
+  "subject_normalization": {
+    "z_mean": -0.27,
+    "z_mean_decayed": -0.21,
+    "per_subject": [
+      {
+        "materia": "TERMODINÁMICA",
+        "z_decayed": -0.09294016222362007,
+        "n": 14
+      },
+      {
+        "materia": "CONTROL",
+        "z_decayed": -0.23655159435527565,
+        "n": 14
+      },
+      {
+        "materia": "---",
+        "z_decayed": -0.36348883362302276,
+        "n": 521
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "final",
+          "proyecto",
+          "clases",
+          "sabe",
+          "si"
+        ],
+        "weight": 0.1664653344074259
+      },
+      {
+        "id": 1,
+        "words": [
+          "solo",
+          "ayuda",
+          "pone",
+          "te",
+          "es"
+        ],
+        "weight": 0.21777975412628128
+      },
+      {
+        "id": 2,
+        "words": [
+          "si",
+          "control",
+          "puedes",
+          "puedes aprender",
+          "aprender"
+        ],
+        "weight": 0.24172746894158006
+      }
+    ],
+    "sentiment": {
+      "overall": 0.0,
+      "by_month": {
+        "2018-01": 0.0,
+        "2017-06": 0.0,
+        "2016-05": 0.0,
+        "2014-11": 0.0,
+        "2013-12": 0.0,
+        "2013-08": 0.0,
+        "2011-07": 0.0
+      }
+    },
+    "n_comments": 7
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        4.0,
+        6.0,
+        2.0,
+        5.0,
+        6.0,
+        3.0,
+        7.0
+      ],
+      "ewma": [
+        4.0,
+        4.6,
+        3.82,
+        4.1739999999999995,
+        4.721799999999999,
+        4.205259999999999,
+        5.043681999999999
+      ],
+      "sigma": 1.4154558381237712
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 5.043681999999999,
+      "quality_band": [
+        2.269388557277407,
+        7.81797544272259
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2018-01-19T00:00:00",
+      "materia": "CONTROL",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Miren, este profesor le ayuda al que le interesa, tu estudia por tu cuenta, pariticpa, pregunta y vas a aprender de el, si tu ya sabes que no puedes aprender solo no esperes aprender mucho.\nHaz un proyecto que tenga control, presenta avances regularmente y te va ir muy bien en tu calificación."
+    },
+    {
+      "fecha_iso": "2017-06-12T00:00:00",
+      "materia": "CONTROL",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": "De flojera su clase. Al final no importa si asististe o no porque con solo entregar el proyecto final y exponer, pasas. No necesitas más.\nSi pueden evitar su clase, háganlo porque ni van a aprender nada aunque si hacen el proyecto y exponen ya aseguran pasar. \nSabe mucho pero no sabe impartir clases"
+    },
+    {
+      "fecha_iso": "2016-05-04T00:00:00",
+      "materia": "TERMODINÁMICA",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 0,
+      "comentario": "Sus materias no son fáciles, sin embargo si tienes la dedicación y la proactividad necesaria, es una persona de la cual puedes aprender muchísimo, no solamente de matemáticas o control."
+    },
+    {
+      "fecha_iso": "2014-11-09T00:00:00",
+      "materia": "CONTROL",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Este doctor no es mala persona, simplemente maneja el nivel muy alto en ingeniería, da las clases como si fueras alumno de posgrado, te deja muy solo y la ayuda que te ofrece es muy poca por no decir nada, te evalúa con un proyecto final nada mas, al final te pone lo que quiere."
+    },
+    {
+      "fecha_iso": "2013-12-01T00:00:00",
+      "materia": "DINÁMICA DE SISTEMAS/CONTROL",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 0,
+      "comentario": "No ayuda ni explica absolutamente nada, sales de sus materias casi igual que como entraste, solo se sienta y pone ecuaciones que nadie entiende y que no explica, al parecer tiene muchos conocimientos pero la docencia no es lo suyo. Es muy probable que te mande a RC o Especial sin compasión."
+    },
+    {
+      "fecha_iso": "2013-08-04T00:00:00",
+      "materia": "CONTROL - MECATRONICA",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 0,
+      "comentario": "Si de verdad quieres ser ingeniero, tienes que tomar clases con el, los sistemas de control son su especialidad y sabe muchísimo, eso si, las clases son aburridas y todo el semestre lo debes de dedicar a un proyecto que vale casi toda la calificacion de semestre."
+    },
+    {
+      "fecha_iso": "2011-07-21T00:00:00",
+      "materia": "---",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    }
+  ],
+  "comments_recent": [
+    "Miren, este profesor le ayuda al que le interesa, tu estudia por tu cuenta, pariticpa, pregunta y vas a aprender de el, si tu ya sabes que no puedes aprender solo no esperes aprender mucho.\nHaz un proyecto que tenga control, presenta avances regularmente y te va ir muy bien en tu calificación.",
+    "De flojera su clase. Al final no importa si asististe o no porque con solo entregar el proyecto final y exponer, pasas. No necesitas más.\nSi pueden evitar su clase, háganlo porque ni van a aprender nada aunque si hacen el proyecto y exponen ya aseguran pasar. \nSabe mucho pero no sabe impartir clases",
+    "Sus materias no son fáciles, sin embargo si tienes la dedicación y la proactividad necesaria, es una persona de la cual puedes aprender muchísimo, no solamente de matemáticas o control.",
+    "Este doctor no es mala persona, simplemente maneja el nivel muy alto en ingeniería, da las clases como si fueras alumno de posgrado, te deja muy solo y la ayuda que te ofrece es muy poca por no decir nada, te evalúa con un proyecto final nada mas, al final te pone lo que quiere.",
+    "No ayuda ni explica absolutamente nada, sales de sus materias casi igual que como entraste, solo se sienta y pone ecuaciones que nadie entiende y que no explica, al parecer tiene muchos conocimientos pero la docencia no es lo suyo. Es muy probable que te mande a RC o Especial sin compasión.",
+    "Si de verdad quieres ser ingeniero, tienes que tomar clases con el, los sistemas de control son su especialidad y sabe muchísimo, eso si, las clases son aburridas y todo el semestre lo debes de dedicar a un proyecto que vale casi toda la calificacion de semestre.",
+    "[Comentario esperando revisión]"
+  ],
+  "n_reviews": 7
+}

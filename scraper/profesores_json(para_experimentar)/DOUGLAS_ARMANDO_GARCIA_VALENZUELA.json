@@ -1,0 +1,165 @@
+{
+  "nombre": "DOUGLAS ARMANDO GARCIA VALENZUELA",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "ciudad": "Ciudad: culiacan, sinaloa",
+  "departamento": "Departamento/Facultad: Bioquimica",
+  "calidad_general": 6.7,
+  "porcentaje_recomienda": 56,
+  "nivel_dificultad": 3.8,
+  "etiquetas": [
+    "CALIFICA DURO (2)",
+    "PREPÁRATE PARA LEER (2)",
+    "LOS EXÁMENES SON DIFÍCILES (1)",
+    "MUCHAS TAREAS (2)",
+    "POCOS EXÁMENES (1)",
+    "DA BUENA RETROALIMENTACIÓN (1)",
+    "CLASES EXCELENTES (1)",
+    "HACE EXÁMENES SORPRESA (1)",
+    "LAS CLASES SON LARGAS (1)"
+  ],
+  "numero_calificaciones": 9,
+  "calificaciones": [
+    {
+      "fecha": "12/Jun/2025",
+      "tipo_calificacion": "REGULAR",
+      "puntaje_calidad_general": 4.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Ingeniería y gestión ambiental",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "24",
+      "interes_clase": "",
+      "comentario": "vimos dos temas en todo el semestre, se pasa de la hora de clase y siempre está enojado, deja demasiada tarea y no califica a tiempo",
+      "etiquetas_comentario": [
+        "Muchas tareas",
+        "Hace exámenes sorpresa",
+        "Las clases son largas"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "04/Feb/2021",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "gestión ambiental",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "8.5",
+      "interes_clase": "",
+      "comentario": "",
+      "etiquetas_comentario": [
+        "Da buena retroalimentación",
+        "Prepárate para leer",
+        "Clases excelentes"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "09/Dic/2020",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 2.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Gestión de residuos",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "9.5",
+      "interes_clase": "",
+      "comentario": "No es congruente lo que enseña con la materia",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "12/Ene/2019",
+      "tipo_calificacion": "REGULAR",
+      "puntaje_calidad_general": 6.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Dessarrollo sustentables",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "N/A",
+      "interes_clase": "",
+      "comentario": "Le toma mucha importancia a esta materia de relleno,deja mucha tarea y sus clases son muchos documentales. 100 seguro",
+      "etiquetas_comentario": [
+        "Califica Duro",
+        "Muchas tareas",
+        "Pocos Exámenes"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "15/Dic/2016",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 7.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "desarrollo sustentable",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "4.5",
+      "interes_clase": "",
+      "comentario": "",
+      "etiquetas_comentario": [
+        "Califica Duro",
+        "Prepárate para leer",
+        "Los exámenes son difíciles"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "28/Feb/2014",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "QUIMICA ANALITICA",
+      "asistencia": "",
+      "calificacion_recibida": "10",
+      "interes_clase": "10",
+      "comentario": "Fui alumno del mto Douglas, el mto es estricto pero buen Mto. Lo que aprendi me sirbio en Termo y Valance. El pedo del año pasado fueron 2 ambientales que boicoteaban la clase, un Cedano y un tal Bladimir; estos vatos son unas lakras, al Cedano lo expulsaron por amenazar de muerte a un mto del Tek",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "29/Nov/2013",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 8.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "RC quimica analitica.",
+      "asistencia": "",
+      "calificacion_recibida": "N/A",
+      "interes_clase": "N/A",
+      "comentario": "Es buen profesor, como todos los huamnos tiene sus defectos y aveces puede sacar de onda o caer mal, pero explica bien,nomas es entenderle.",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "14/Jun/2013",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Análisis Químico, Desarrollo Sustentable",
+      "asistencia": "",
+      "calificacion_recibida": "9",
+      "interes_clase": "9",
+      "comentario": "Es uno de los mejores y auténticos maestros que tiene la carrera de Bioquímica, ya que no se presta a la simulación. Si bien es cierto que es exigente en su clase, domina excelentemente sus materias y siempre esta en la mejor disposición de dar asesorías; es el tipo de maestro que evalua a los alumnos de forma clara y objetiva. Recomiendo a todos aquellos alumnos llevar clase con el; si en realidad desean aprender.",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "31/May/2013",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 3.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "---",
+      "asistencia": "",
+      "calificacion_recibida": "2",
+      "interes_clase": "2",
+      "comentario": "[Comentario esperando revisión]",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    }
+  ]
+}

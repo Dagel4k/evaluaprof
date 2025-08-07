@@ -1,0 +1,278 @@
+{
+  "professor_id": "Octavio_Alessander_Rodríguez_Pérez",
+  "nombre": "Octavio Alessander Rodríguez Pérez",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 9.122510588992848,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.894091476317074,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.909,
+    "wilson_interval": [
+      0.6226353745137962,
+      0.9837682477371741
+    ],
+    "n_recommendations": 11
+  },
+  "subject_normalization": {
+    "z_mean": 0.32,
+    "z_mean_decayed": 0.52,
+    "per_subject": [
+      {
+        "materia": "CALCULO DIFERENCIAL",
+        "z_decayed": 0.9421633023090474,
+        "n": 110
+      },
+      {
+        "materia": "FÍSICA",
+        "z_decayed": 0.6536853303567551,
+        "n": 27
+      },
+      {
+        "materia": "FISICA GENERAL",
+        "z_decayed": 0.4939018556249842,
+        "n": 12
+      },
+      {
+        "materia": "CÁLCULO INTEGRAL",
+        "z_decayed": 0.39421492285986004,
+        "n": 24
+      },
+      {
+        "materia": "---",
+        "z_decayed": 0.23580762940734074,
+        "n": 521
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "buen profesor",
+          "profesor",
+          "es buen",
+          "es",
+          "problemas"
+        ],
+        "weight": 0.12108315328030289
+      },
+      {
+        "id": 1,
+        "words": [
+          "es",
+          "examenes",
+          "casi",
+          "si",
+          "iguales"
+        ],
+        "weight": 0.13168488844024606
+      },
+      {
+        "id": 2,
+        "words": [
+          "examenes",
+          "buen",
+          "recuperaciones",
+          "nomas",
+          "mismo"
+        ],
+        "weight": 0.11923804630527594
+      },
+      {
+        "id": 3,
+        "words": [
+          "ademas",
+          "aburriras",
+          "es",
+          "te",
+          "explica"
+        ],
+        "weight": 0.21770847878545288
+      }
+    ],
+    "sentiment": {
+      "overall": 0.0,
+      "by_month": {
+        "2024-03": 0.0,
+        "2021-08": 0.0,
+        "2020-10": 0.0,
+        "2020-09": 0.0,
+        "2020-06": 0.0,
+        "2019-12": 0.0,
+        "2019-08": 0.0,
+        "2018-12": 0.0
+      }
+    },
+    "n_comments": 9
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        7.0,
+        8.5,
+        10.0,
+        9.0,
+        8.0,
+        9.0,
+        10.0,
+        9.0,
+        10.0
+      ],
+      "ewma": [
+        7.0,
+        7.449999999999999,
+        8.215,
+        8.4505,
+        8.315349999999999,
+        8.520744999999998,
+        8.964521499999998,
+        8.975165049999998,
+        9.282615534999998
+      ],
+      "sigma": 0.6476253687135419
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 9.282615534999998,
+      "quality_band": [
+        8.013269812321456,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2024-03-22T00:00:00",
+      "materia": "CALCULO DIFERENCIAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "La verdad es muy buen profesor, explica demasiado bien y si tienes algunas dudas te las resuelve, también deja preexámenes y tareas en los cuales pone los mismos problemas ya vistos"
+    },
+    {
+      "fecha_iso": "2021-08-27T00:00:00",
+      "materia": "FISICA GENERAL",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Es un crack, los examenes de recu son casi iguales o iguales al original si reprobaste, hace paro si te portas bien, no da los viernes o casi nunca, es un dios"
+    },
+    {
+      "fecha_iso": "2020-10-27T00:00:00",
+      "materia": "CALCULO DIFERENCIAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Sus clases son muy claras y se le entiende cuuando explica algún tema, es bien camarada y te resuelve cualquier duda que tengas, nomas q no interrumpir mientras explica, los exámenes y actividades son casi lo mismo, lo recomiendo mucho"
+    },
+    {
+      "fecha_iso": "2020-09-03T00:00:00",
+      "materia": "FISICA GENERAL",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Buen rollo, ideal para llevarse el semestre con calma y de chill, si quieres nomas ve a los examenes, las recuperaciones son el mismo examen como dicen abajo, cienon"
+    },
+    {
+      "fecha_iso": "2020-06-10T00:00:00",
+      "materia": "FISICA GENERAL",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Recomendado. Los examenes son muy parecidos o a veces iguales a las tareas, y las recuperaciones son los mismos examenes. El mejor profe de fisica. Eso si, en clase callate mientras explique porque sino, bay"
+    },
+    {
+      "fecha_iso": "2020-01-13T00:00:00",
+      "materia": "FÍSICA",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2019-12-16T00:00:00",
+      "materia": "FÍSICA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "De los mejores, nunca te aburriras por que es muy c omicoy además explica muy bien y si no le entendiste el te lo explica, los exámenes siempre son de lo que se vio en clase así que están fáciles, recomendado este profe sin duda alguna."
+    },
+    {
+      "fecha_iso": "2019-08-05T00:00:00",
+      "materia": "FÍSICA GENERAL",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Es buen profesor, además que sus clases no son tediosas. Ciertas ocasiones no le importa mucho dar una clase, sino solo dar ciertos conceptos del tema. Es muy cómico por lo cual no te aburrirás."
+    },
+    {
+      "fecha_iso": "2019-08-04T00:00:00",
+      "materia": "CÁLCULO INTEGRAL",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 7.5,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2018-12-14T00:00:00",
+      "materia": "FÍSICA GENERAL",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": "Es buen profesor, muy camarada y buena onda, a veces se salta pasos del problema, pero cuando explica lo hace muy bien, con leer los problemas, encontrarles la logica e intentar resolverlo, ya le entiendes. Siempre anota lo que escriba en el pizarron, es algo flexible en los examenes, ya tu sabe."
+    },
+    {
+      "fecha_iso": "2018-12-08T00:00:00",
+      "materia": "---",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    }
+  ],
+  "comments_recent": [
+    "La verdad es muy buen profesor, explica demasiado bien y si tienes algunas dudas te las resuelve, también deja preexámenes y tareas en los cuales pone los mismos problemas ya vistos",
+    "Es un crack, los examenes de recu son casi iguales o iguales al original si reprobaste, hace paro si te portas bien, no da los viernes o casi nunca, es un dios",
+    "Sus clases son muy claras y se le entiende cuuando explica algún tema, es bien camarada y te resuelve cualquier duda que tengas, nomas q no interrumpir mientras explica, los exámenes y actividades son casi lo mismo, lo recomiendo mucho",
+    "Buen rollo, ideal para llevarse el semestre con calma y de chill, si quieres nomas ve a los examenes, las recuperaciones son el mismo examen como dicen abajo, cienon",
+    "Recomendado. Los examenes son muy parecidos o a veces iguales a las tareas, y las recuperaciones son los mismos examenes. El mejor profe de fisica. Eso si, en clase callate mientras explique porque sino, bay",
+    "De los mejores, nunca te aburriras por que es muy c omicoy además explica muy bien y si no le entendiste el te lo explica, los exámenes siempre son de lo que se vio en clase así que están fáciles, recomendado este profe sin duda alguna.",
+    "Es buen profesor, además que sus clases no son tediosas. Ciertas ocasiones no le importa mucho dar una clase, sino solo dar ciertos conceptos del tema. Es muy cómico por lo cual no te aburrirás.",
+    "Es buen profesor, muy camarada y buena onda, a veces se salta pasos del problema, pero cuando explica lo hace muy bien, con leer los problemas, encontrarles la logica e intentar resolverlo, ya le entiendes. Siempre anota lo que escriba en el pizarron, es algo flexible en los examenes, ya tu sabe."
+  ],
+  "n_reviews": 11
+}

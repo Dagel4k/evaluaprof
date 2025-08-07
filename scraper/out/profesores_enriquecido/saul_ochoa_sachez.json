@@ -1,0 +1,118 @@
+{
+  "professor_id": "saul_ochoa_sachez",
+  "nombre": "saul ochoa sachez",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 10.0,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.675070846358351,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 1.0,
+    "wilson_interval": [
+      0.4384939195509822,
+      1
+    ],
+    "n_recommendations": 3
+  },
+  "subject_normalization": {
+    "z_mean": 0.98,
+    "z_mean_decayed": 1.03,
+    "per_subject": [
+      {
+        "materia": "MAQUINAS ELECTRICAS",
+        "z_decayed": 1.4442058026649847,
+        "n": 9
+      },
+      {
+        "materia": "MÁQUINAS ELÉCTRICAS",
+        "z_decayed": 0.7438641056859022,
+        "n": 13
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [],
+    "sentiment": {
+      "overall": null,
+      "by_month": {}
+    },
+    "n_comments": 3
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        10.0,
+        10.0
+      ],
+      "ewma": [
+        10.0,
+        10.0
+      ],
+      "sigma": 0.0
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 10.0,
+      "quality_band": [
+        10.0,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2016-01-04T00:00:00",
+      "materia": "MAQUINAS ELECTRICAS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Excelente profesor, de lo mejor del tec, muchas practicas y sabe demasiado de la materia, y muy accesible, muy recomendado!"
+    },
+    {
+      "fecha_iso": "2016-01-02T00:00:00",
+      "materia": "MÁQUINAS ELÉCTRICAS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Excelente maestro en todos los aspectos."
+    },
+    {
+      "fecha_iso": "2013-10-05T00:00:00",
+      "materia": "MÁQUINAS ELÉCTRICAS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Este profe maneja puras practicas que estan al 100! lo malo es que está enfermo del corazón, ya tuvo un infarto y no sabemos si dure mucho tiempo mas trabajando..."
+    }
+  ],
+  "comments_recent": [
+    "Excelente profesor, de lo mejor del tec, muchas practicas y sabe demasiado de la materia, y muy accesible, muy recomendado!",
+    "Excelente maestro en todos los aspectos.",
+    "Este profe maneja puras practicas que estan al 100! lo malo es que está enfermo del corazón, ya tuvo un infarto y no sabemos si dure mucho tiempo mas trabajando..."
+  ],
+  "n_reviews": 3
+}

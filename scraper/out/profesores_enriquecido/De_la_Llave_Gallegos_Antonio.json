@@ -1,0 +1,313 @@
+{
+  "professor_id": "De_la_Llave_Gallegos_Antonio",
+  "nombre": "De la Llave Gallegos Antonio",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 8.428099841628832,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.42504004359385,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.692,
+    "wilson_interval": [
+      0.4236888781333764,
+      0.873195028383819
+    ],
+    "n_recommendations": 13
+  },
+  "subject_normalization": {
+    "z_mean": 0.09,
+    "z_mean_decayed": 0.47,
+    "per_subject": [
+      {
+        "materia": "FUNDAMENTOS DE LA INVESTIGACIÓN",
+        "z_decayed": 0.6408978860011839,
+        "n": 9
+      },
+      {
+        "materia": "ADMINISTRACIÓN DE OPERACIONES 1",
+        "z_decayed": 0.6002450479987809,
+        "n": 8
+      },
+      {
+        "materia": "SIMULACIÓN",
+        "z_decayed": 0.1299686169615707,
+        "n": 18
+      },
+      {
+        "materia": "SIMULACION",
+        "z_decayed": -1.043300196749722,
+        "n": 23
+      },
+      {
+        "materia": "ADMON DE PROYECTOS",
+        "z_decayed": -1.1547005383792512,
+        "n": 3
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "es accesible",
+          "ayuda",
+          "explica claro",
+          "tiene",
+          "es"
+        ],
+        "weight": 0.06260712389387968
+      },
+      {
+        "id": 1,
+        "words": [
+          "industrial",
+          "veces",
+          "te",
+          "es",
+          "necesario"
+        ],
+        "weight": 0.12160026720863248
+      },
+      {
+        "id": 2,
+        "words": [
+          "examen",
+          "maestro",
+          "da",
+          "facil",
+          "materia"
+        ],
+        "weight": 0.1453071930841118
+      },
+      {
+        "id": 3,
+        "words": [
+          "atencion",
+          "siempre",
+          "pones atencion",
+          "examenes",
+          "si"
+        ],
+        "weight": 0.16698311446523154
+      },
+      {
+        "id": 4,
+        "words": [
+          "100",
+          "explica claro",
+          "recomendadisimo",
+          "es maestro",
+          "itc"
+        ],
+        "weight": 0.13814356217150808
+      }
+    ],
+    "sentiment": {
+      "overall": 0.2,
+      "by_month": {
+        "2023-01": 1.0,
+        "2021-10": 0.0,
+        "2017-06": -1.0,
+        "2015-08": 0.0,
+        "2015-01": 0.0,
+        "2014-12": 1.0,
+        "2014-06": 1.0,
+        "2013-12": 0.0,
+        "2013-11": 0.0
+      }
+    },
+    "n_comments": 10
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        10.0,
+        8.0,
+        6.0,
+        8.0,
+        10.0,
+        4.0,
+        8.0,
+        6.0,
+        5.0,
+        10.0,
+        10.0
+      ],
+      "ewma": [
+        10.0,
+        9.4,
+        8.379999999999999,
+        8.265999999999998,
+        8.786199999999997,
+        7.350339999999998,
+        7.545237999999998,
+        7.0816665999999975,
+        6.457166619999998,
+        7.520016633999998,
+        8.264011643799998
+      ],
+      "sigma": 1.7766754343154716
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 8.264011643799998,
+      "quality_band": [
+        4.781727792541674,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2023-01-19T00:00:00",
+      "materia": "ADMINISTRACIÓN DE OPERACIONES 1",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Explica muy bien y claro, no toma en cuenta la asistencia ni deja tareas. Los exámenes valen 100% pero siempre hace un preexamen que ayuda mucho para practicar. Si asistes regularmente y pones atención, si pasas."
+    },
+    {
+      "fecha_iso": "2022-08-11T00:00:00",
+      "materia": "FUNDAMENTOS DE LA INVESTIGACIÓN",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2021-10-25T00:00:00",
+      "materia": "ADMINISTRACIÓN DE OPERACIONES",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 0,
+      "comentario": "Nos da todo lo necesario para llevar a cabo la materia mediante videos, me gusta como explica, solo que algunas veces sus explicaciones podrían resultar confusas, más al hacer el examen, pero en general te da lo necesario."
+    },
+    {
+      "fecha_iso": "2017-06-04T00:00:00",
+      "materia": "SIMULACIÓN",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 0,
+      "comentario": "La materia está facil, lo unico malo que al profe le vale el alumno y comete errores como no subir el pre examen a la plataforma, equivocarse en los ejercicios y no hacerse responsable de esto en los examenes. No es nada accesible y con una unidad que tengas reprobada o si tienes muchas faltas RC"
+    },
+    {
+      "fecha_iso": "2015-08-05T00:00:00",
+      "materia": "SIMULACIÓN",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Es el maestro más responsable y correcto del ITC. Sus clases son muy sencillas y claras. No le importa si faltas o si pones atención, pero resuelve cualquier duda que tengas. Es accesible y sus exámenes son MUY fáciles. Se ven muchos métodos en sus clases pero siempre pone lo más sencillo. Cuando anda de buenas es cómico."
+    },
+    {
+      "fecha_iso": "2015-01-07T00:00:00",
+      "materia": "SIMULACION",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": ".."
+    },
+    {
+      "fecha_iso": "2014-12-14T00:00:00",
+      "materia": "SIMULACIÓN",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Es un maestro de verdad, de calidad y con muy buena imagen; explica claro, consiso, de los mejores del ITC, sus examenes no son difíciles, de verdad aprendes muchisimo, recomendadísimo al 100%."
+    },
+    {
+      "fecha_iso": "2014-06-21T00:00:00",
+      "materia": "SIMULACIÓN",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 1,
+      "comentario": "Explica muy claro, asiste diariamente y abarca todos los temas, sin embargo como persona es un asco, no es nada accesible, no te ayuda en nada, tiene diferentes criterios para calificar con el fin de joderte y termina siendo arrogante, lastima"
+    },
+    {
+      "fecha_iso": "2013-12-21T00:00:00",
+      "materia": "ADMON DE PROYECTOS",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Da wueva este maestro, que se hubique en que tiempos esta, la materia super facil, incluso para los wuevones alumnos que buscan promedio."
+    },
+    {
+      "fecha_iso": "2013-12-17T00:00:00",
+      "materia": "ADMÓN. PROY.",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Excelente profesor! es responsable, estricto, tiene porte de maestro de universidad, es uno de los mejores de Industrial y de los pocos que valen la pena. Lo que te da, te exige, solo su primer examen es confuso. RECOMENDADISIMO."
+    },
+    {
+      "fecha_iso": "2013-11-14T00:00:00",
+      "materia": "ADM DE PROYECTOS Y SIMULACION",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Es uno de los mejores profesores de Ing. Industrial. Domina las materias que imparte y te explica cuantas veces sea necesario. Es muy correcto. Lo recomiendo al 100%"
+    },
+    {
+      "fecha_iso": "2013-08-12T00:00:00",
+      "materia": "LK",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2013-08-06T00:00:00",
+      "materia": "SIMULACIÓN",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": ""
+    }
+  ],
+  "comments_recent": [
+    "Explica muy bien y claro, no toma en cuenta la asistencia ni deja tareas. Los exámenes valen 100% pero siempre hace un preexamen que ayuda mucho para practicar. Si asistes regularmente y pones atención, si pasas.",
+    "Nos da todo lo necesario para llevar a cabo la materia mediante videos, me gusta como explica, solo que algunas veces sus explicaciones podrían resultar confusas, más al hacer el examen, pero en general te da lo necesario.",
+    "La materia está facil, lo unico malo que al profe le vale el alumno y comete errores como no subir el pre examen a la plataforma, equivocarse en los ejercicios y no hacerse responsable de esto en los examenes. No es nada accesible y con una unidad que tengas reprobada o si tienes muchas faltas RC",
+    "Es el maestro más responsable y correcto del ITC. Sus clases son muy sencillas y claras. No le importa si faltas o si pones atención, pero resuelve cualquier duda que tengas. Es accesible y sus exámenes son MUY fáciles. Se ven muchos métodos en sus clases pero siempre pone lo más sencillo. Cuando anda de buenas es cómico.",
+    "..",
+    "Es un maestro de verdad, de calidad y con muy buena imagen; explica claro, consiso, de los mejores del ITC, sus examenes no son difíciles, de verdad aprendes muchisimo, recomendadísimo al 100%.",
+    "Explica muy claro, asiste diariamente y abarca todos los temas, sin embargo como persona es un asco, no es nada accesible, no te ayuda en nada, tiene diferentes criterios para calificar con el fin de joderte y termina siendo arrogante, lastima",
+    "Da wueva este maestro, que se hubique en que tiempos esta, la materia super facil, incluso para los wuevones alumnos que buscan promedio.",
+    "Excelente profesor! es responsable, estricto, tiene porte de maestro de universidad, es uno de los mejores de Industrial y de los pocos que valen la pena. Lo que te da, te exige, solo su primer examen es confuso. RECOMENDADISIMO."
+  ],
+  "n_reviews": 13
+}

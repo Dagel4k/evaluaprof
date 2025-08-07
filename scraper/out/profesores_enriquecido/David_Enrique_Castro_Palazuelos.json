@@ -1,0 +1,324 @@
+{
+  "professor_id": "David_Enrique_Castro_Palazuelos",
+  "nombre": "David Enrique Castro Palazuelos",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 5.839039953577711,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 6.951036840106342,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.533,
+    "wilson_interval": [
+      0.3011663015105079,
+      0.7519077474025356
+    ],
+    "n_recommendations": 15
+  },
+  "subject_normalization": {
+    "z_mean": 0.12,
+    "z_mean_decayed": 0.04,
+    "per_subject": [
+      {
+        "materia": "ELECTRÓNICA ANALOGICA",
+        "z_decayed": 1.1666666666666667,
+        "n": 4
+      },
+      {
+        "materia": "OPTICA Y SEMICONDUCTORES",
+        "z_decayed": -0.006441264491891579,
+        "n": 3
+      },
+      {
+        "materia": "ELECTRÓNICA ANALÓGICA",
+        "z_decayed": -0.1479862753213124,
+        "n": 19
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "solo",
+          "demasiado",
+          "tienes",
+          "si",
+          "te"
+        ],
+        "weight": 0.17276464046771725
+      },
+      {
+        "id": 1,
+        "words": [
+          "quieres",
+          "si quieres",
+          "duro",
+          "es",
+          "bueno"
+        ],
+        "weight": 0.091445726993675
+      },
+      {
+        "id": 2,
+        "words": [
+          "deja sacar",
+          "hara sufrir",
+          "sufrir",
+          "maestro",
+          "excelente"
+        ],
+        "weight": 0.09181940960318284
+      },
+      {
+        "id": 3,
+        "words": [
+          "te hara",
+          "neta",
+          "te",
+          "es",
+          "buena"
+        ],
+        "weight": 0.10057147504102507
+      },
+      {
+        "id": 4,
+        "words": [
+          "acreditar",
+          "deseas",
+          "deseas acreditar",
+          "estudiar",
+          "si deseas"
+        ],
+        "weight": 0.12482429209046972
+      }
+    ],
+    "sentiment": {
+      "overall": 0.26666666666666666,
+      "by_month": {
+        "2024-06": 0.0,
+        "2023-08": 0.0,
+        "2023-01": 0.0,
+        "2022-12": 0.0,
+        "2021-04": 1.0,
+        "2019-08": 0.0,
+        "2019-07": 1.0,
+        "2019-06": 0.5,
+        "2019-02": 1.0,
+        "2019-01": 0.0,
+        "2016-01": 0.0
+      }
+    },
+    "n_comments": 15
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        8.0,
+        8.0,
+        10.0,
+        7.0,
+        10.0,
+        6.5,
+        10.0,
+        6.0,
+        5.666666666666667,
+        6.0,
+        2.0
+      ],
+      "ewma": [
+        8.0,
+        8.0,
+        8.6,
+        8.12,
+        8.684,
+        8.028799999999999,
+        8.620159999999998,
+        7.834111999999998,
+        7.183878399999998,
+        6.828714879999999,
+        5.3801004159999986
+      ],
+      "sigma": 1.5351846282062982
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 5.3801004159999986,
+      "quality_band": [
+        2.371138544715654,
+        8.389062287284343
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2024-06-06T00:00:00",
+      "materia": "ELECTRÓNICA ANALÓGICA",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 24.0,
+      "recomienda": 0,
+      "comentario": "Solo escuchen este comentario, todos los demás son bots o es el mismo profe calificándose bien para que no esté su calificación, evita a este profe y ahórrate un problema, si te cargan con el neta no tienes salvación, te hará sufrir y te hará venir hasta el último día, solo pasarán máximo 3 personas"
+    },
+    {
+      "fecha_iso": "2023-08-10T00:00:00",
+      "materia": "ELECTRÓNICA ANALÓGICA",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": "La electronica hecha persona, muy mamón la neta pero si enseña bastante, tal vez demasiado para un solo semestre pero a la hora de evaluar asume que te aprendiste todo lo que enseño y a la hora de contestar en los exámenes tienes que poner todo lo que te acuerdes porque pregunta por todo"
+    },
+    {
+      "fecha_iso": "2023-01-18T00:00:00",
+      "materia": "ELECTRÓNICA ANALOGICA",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Yo creo que es el maestro que mas sabe de su materia de todo el Tecnologico pero el te hara sufrir, si quieres cargar con el, que no te lo recomiendo, debes elegir tu equipo de trabajo y hacer el mejor trabajo posible, en los examenes apenas y deja sacar la calculadora y son muchos temas en los exam"
+    },
+    {
+      "fecha_iso": "2023-01-15T00:00:00",
+      "materia": "ELECTRÓNICA ANALÓGICA",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "\"Con otros profes apruebas, conmigo aprendes\", califica demasiado duro, selecciona perfectamente a tus compañeros de equipo, en el examen apenas te deja sacar un lápiz y la calculadora. Por lo general nadie pasa, pero se aprende demasiado. Si lo que quieres es un profe en pañales no cargues con el."
+    },
+    {
+      "fecha_iso": "2023-01-13T00:00:00",
+      "materia": "ELECTRÓNICA ANALÓGICA",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 22.0,
+      "recomienda": 1,
+      "comentario": "Deja trabajos y prácticas que debes ponerle mucho empeño ya que califica duro,  de igual forma en los exámenes, si deseas acreditar estudia mucho y práctica diario. Si quieres aprender carga con el, solo unos 12 de 40 acreditaron la materia con el, es posible solo es cuestión de repasar y estudiar."
+    },
+    {
+      "fecha_iso": "2022-12-21T00:00:00",
+      "materia": "ELECTRÓNICA ANALÓGICA",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": "No le hagas caso a los demás comentarios son bots, si aprendes muy bien con este profe pero al ser doctor de califica como si te hubieras aprendido todo lo visto, hechale muchas ganas para poder pasar y escoge bien a tus compañeros de equipo"
+    },
+    {
+      "fecha_iso": "2021-04-16T00:00:00",
+      "materia": "PDS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 7.5,
+      "recomienda": 1,
+      "comentario": "Es muy bueno, la verdad."
+    },
+    {
+      "fecha_iso": "2019-08-08T00:00:00",
+      "materia": "OPTICA Y SEMICONDUCTORES",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Muy buen maestro, si deseas acreditar realmente debes estudiar."
+    },
+    {
+      "fecha_iso": "2019-08-07T00:00:00",
+      "materia": "OPTICA Y SEMICONDUCTORES",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": 25.0,
+      "recomienda": 0,
+      "comentario": "Deja todas las investigaciones a mano, si tienes alguna duda te manda a buscar en lugar de responderte, en una clase dijo - y cito: \"no vienen a entenderle a lo que les explico, si tienen dudas investiguen\". Entonces para que era la asistencia obligatoria?"
+    },
+    {
+      "fecha_iso": "2019-07-01T00:00:00",
+      "materia": "OPTICA Y SEMICONDUCTORES",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 24.0,
+      "recomienda": 1,
+      "comentario": "Excelente maestro!"
+    },
+    {
+      "fecha_iso": "2019-06-24T00:00:00",
+      "materia": "ÓPTICA Y SEMICONDUCTORES",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Excelente"
+    },
+    {
+      "fecha_iso": "2019-06-05T00:00:00",
+      "materia": "ÓPTICA Y SEMICONDUCTORES",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "todos Los días llena los dos pizzarones de pura teoría"
+    },
+    {
+      "fecha_iso": "2019-02-15T00:00:00",
+      "materia": "PDS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": "Muy bueno"
+    },
+    {
+      "fecha_iso": "2019-01-28T00:00:00",
+      "materia": "PROCESAMIENTO DIGITAL DE SEÑALES",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 1,
+      "comentario": "Buena explicación"
+    },
+    {
+      "fecha_iso": "2016-01-14T00:00:00",
+      "materia": "PROC DIG SEÑALES",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Es super buena onda neta es super buena onda, no te estrenas tanto va muy calmado, sobre todo te ayuda mucho"
+    }
+  ],
+  "comments_recent": [
+    "Solo escuchen este comentario, todos los demás son bots o es el mismo profe calificándose bien para que no esté su calificación, evita a este profe y ahórrate un problema, si te cargan con el neta no tienes salvación, te hará sufrir y te hará venir hasta el último día, solo pasarán máximo 3 personas",
+    "La electronica hecha persona, muy mamón la neta pero si enseña bastante, tal vez demasiado para un solo semestre pero a la hora de evaluar asume que te aprendiste todo lo que enseño y a la hora de contestar en los exámenes tienes que poner todo lo que te acuerdes porque pregunta por todo",
+    "Yo creo que es el maestro que mas sabe de su materia de todo el Tecnologico pero el te hara sufrir, si quieres cargar con el, que no te lo recomiendo, debes elegir tu equipo de trabajo y hacer el mejor trabajo posible, en los examenes apenas y deja sacar la calculadora y son muchos temas en los exam",
+    "\"Con otros profes apruebas, conmigo aprendes\", califica demasiado duro, selecciona perfectamente a tus compañeros de equipo, en el examen apenas te deja sacar un lápiz y la calculadora. Por lo general nadie pasa, pero se aprende demasiado. Si lo que quieres es un profe en pañales no cargues con el.",
+    "Deja trabajos y prácticas que debes ponerle mucho empeño ya que califica duro,  de igual forma en los exámenes, si deseas acreditar estudia mucho y práctica diario. Si quieres aprender carga con el, solo unos 12 de 40 acreditaron la materia con el, es posible solo es cuestión de repasar y estudiar.",
+    "No le hagas caso a los demás comentarios son bots, si aprendes muy bien con este profe pero al ser doctor de califica como si te hubieras aprendido todo lo visto, hechale muchas ganas para poder pasar y escoge bien a tus compañeros de equipo",
+    "Es muy bueno, la verdad.",
+    "Muy buen maestro, si deseas acreditar realmente debes estudiar.",
+    "Deja todas las investigaciones a mano, si tienes alguna duda te manda a buscar en lugar de responderte, en una clase dijo - y cito: \"no vienen a entenderle a lo que les explico, si tienen dudas investiguen\". Entonces para que era la asistencia obligatoria?",
+    "Excelente maestro!"
+  ],
+  "n_reviews": 15
+}

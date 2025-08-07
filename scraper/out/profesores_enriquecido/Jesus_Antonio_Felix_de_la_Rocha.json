@@ -1,0 +1,763 @@
+{
+  "professor_id": "Jesus_Antonio_Felix_de_la_Rocha",
+  "nombre": "Jesus Antonio Felix de la Rocha",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 9.553690890217684,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 8.99649876566654,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.963,
+    "wilson_interval": [
+      0.8746459065659667,
+      0.9897838464145869
+    ],
+    "n_recommendations": 54
+  },
+  "subject_normalization": {
+    "z_mean": 0.57,
+    "z_mean_decayed": 0.57,
+    "per_subject": [
+      {
+        "materia": "CALCULO",
+        "z_decayed": 1.0700898076746443,
+        "n": 50
+      },
+      {
+        "materia": "CALCULO INTEGRAL",
+        "z_decayed": 0.837414531326936,
+        "n": 84
+      },
+      {
+        "materia": "MATEMATICAS",
+        "z_decayed": 0.8169471328572092,
+        "n": 17
+      },
+      {
+        "materia": "CÁLCULO DIFERENCIAL",
+        "z_decayed": 0.7526588922815561,
+        "n": 46
+      },
+      {
+        "materia": "---",
+        "z_decayed": 0.7502576282697861,
+        "n": 521
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "comentario",
+          "esperando revision",
+          "esperando",
+          "comentario esperando",
+          "revision"
+        ],
+        "weight": 0.1024706550778964
+      },
+      {
+        "id": 1,
+        "words": [
+          "ayuda",
+          "te ayuda",
+          "si",
+          "es",
+          "te"
+        ],
+        "weight": 0.09343188584221851
+      },
+      {
+        "id": 2,
+        "words": [
+          "buena onda",
+          "onda",
+          "maestro",
+          "buen maestro",
+          "buen"
+        ],
+        "weight": 0.0984680334125293
+      },
+      {
+        "id": 3,
+        "words": [
+          "perfectamente materia",
+          "matematicas",
+          "materia",
+          "perfectamente",
+          "domina"
+        ],
+        "weight": 0.08613520813934351
+      },
+      {
+        "id": 4,
+        "words": [
+          "opcion cualquier",
+          "matematicas",
+          "cualquier matematicas",
+          "cualquier",
+          "excelente"
+        ],
+        "weight": 0.08772637439134252
+      }
+    ],
+    "sentiment": {
+      "overall": 0.17391304347826086,
+      "by_month": {
+        "2025-06": 0.0,
+        "2024-01": 1.0,
+        "2023-05": 0.0,
+        "2023-01": 0.0,
+        "2022-01": 0.0,
+        "2021-12": 0.0,
+        "2021-08": 0.0,
+        "2020-01": 1.0,
+        "2019-08": 0.0,
+        "2019-07": 0.0,
+        "2019-01": 0.0,
+        "2018-06": 0.0,
+        "2018-03": 1.0,
+        "2017-08": 0.5,
+        "2017-06": 0.0,
+        "2016-01": 0.0,
+        "2015-09": 0.0,
+        "2015-08": 1.0,
+        "2015-06": 1.0,
+        "2015-03": 0.0,
+        "2015-01": 0.5,
+        "2014-12": 0.0,
+        "2014-01": 0.0,
+        "2013-07": 0.0,
+        "2013-02": 0.0,
+        "2012-10": 0.0,
+        "2012-06": 0.0,
+        "2012-04": 0.0,
+        "2012-02": 0.0,
+        "2012-01": 0.0,
+        "2011-12": 0.0,
+        "2011-11": 1.0,
+        "2011-10": 0.0,
+        "2011-07": 0.0,
+        "2011-06": 0.0,
+        "2011-05": 0.0,
+        "2011-04": 0.0,
+        "2011-01": 0.0
+      }
+    },
+    "n_comments": 46
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.027,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 0.99
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        10.0,
+        10.0,
+        6.0,
+        9.0,
+        10.0,
+        7.0,
+        10.0,
+        10.0,
+        7.0,
+        10.0,
+        9.0,
+        8.0,
+        9.0,
+        10.0,
+        9.0,
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        8.0,
+        10.0,
+        10.0,
+        9.0,
+        9.0,
+        10.0,
+        9.333333333333334,
+        9.0,
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        9.0,
+        10.0,
+        9.0,
+        10.0,
+        10.0,
+        9.0
+      ],
+      "ewma": [
+        10.0,
+        10.0,
+        8.8,
+        8.86,
+        9.201999999999998,
+        8.541399999999998,
+        8.978979999999998,
+        9.285286,
+        8.5997002,
+        9.019790139999998,
+        9.013853097999998,
+        8.709697168599998,
+        8.796788018019997,
+        9.157751612613998,
+        9.110426128829799,
+        9.377298290180859,
+        9.5641088031266,
+        9.69487616218862,
+        9.786413313532034,
+        9.850489319472423,
+        9.295342523630696,
+        9.506739766541486,
+        9.654717836579039,
+        9.458302485605326,
+        9.320811739923728,
+        9.524568217946609,
+        9.467197752562626,
+        9.327038426793838,
+        9.528926898755685,
+        9.67024882912898,
+        9.769174180390285,
+        9.838421926273199,
+        9.886895348391239,
+        9.620826743873867,
+        9.734578720711706,
+        9.514205104498194,
+        9.659943573148734,
+        9.761960501204113,
+        9.533372350842878
+      ],
+      "sigma": 0.7647641414830018
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 9.533372350842878,
+      "quality_band": [
+        8.034434633536195,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2025-06-28T00:00:00",
+      "materia": "MATEMATICAS 4",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2025-06-12T00:00:00",
+      "materia": "ECUACIONES DIFERENCIALES",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Gran maestro y gran persona, a pesar de solo convivir con el en clase es de esas personas que te motivan y sientes su genuinidad e interés porque te vaya bien, explica súper bien y te ayuda si eres constante en las clases, si pueden cargar con el no lo piensen dos veces"
+    },
+    {
+      "fecha_iso": "2024-01-26T00:00:00",
+      "materia": "ECUACIONES DIFERENCIALES",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": "excelente"
+    },
+    {
+      "fecha_iso": "2024-01-12T00:00:00",
+      "materia": "CÁLCULO VECTORIAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2023-08-10T00:00:00",
+      "materia": "ÁLGEBRA LINEAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2023-05-29T00:00:00",
+      "materia": "CALCULO INTEGRAK¿L",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Antonio de la Rocha >>>>>>>>>>>> Noe de la rocha"
+    },
+    {
+      "fecha_iso": "2023-01-17T00:00:00",
+      "materia": "CALCULO VECTORIAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Es el profe mas lindo y buena onda, ya esta grande y cuenta historias de su vida y como salio adelante con el estudio, y te motiva que tu tambien lo puedes lograr y pasas por que pasas ademas de que si enseña bien."
+    },
+    {
+      "fecha_iso": "2023-01-14T00:00:00",
+      "materia": "CALCULO VERCTORIAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2022-01-20T00:00:00",
+      "materia": "ECUACIONES DIFERENCIALES",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "El mejor profe, te ayuda con la calificación siempre, pero entrega las tareas que pide, tampoco seas abusivo..."
+    },
+    {
+      "fecha_iso": "2021-12-15T00:00:00",
+      "materia": "ECUACIONES DIFERENCIALES",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2021-12-09T00:00:00",
+      "materia": "ECUACIONES DIFERENCIALES",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Es un crack, te ayuda siempre con tu calificación"
+    },
+    {
+      "fecha_iso": "2021-08-09T00:00:00",
+      "materia": "CÁLCULO INTEGRAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Sin duda uno de los mejores profesores del TEC"
+    },
+    {
+      "fecha_iso": "2020-01-13T00:00:00",
+      "materia": "ECUACIONES DIFERENCIALES",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Excelente maestro"
+    },
+    {
+      "fecha_iso": "2019-08-04T00:00:00",
+      "materia": "CALCULO INTEGRAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Es muy buen maestro y buena onda, nunca falta"
+    },
+    {
+      "fecha_iso": "2019-08-03T00:00:00",
+      "materia": "CALCULO",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2019-07-01T00:00:00",
+      "materia": "CÁLCULO INTEGRAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 1,
+      "comentario": "Sin temor a equivocarme, este es el mejor profesor que eh tenido de cálculo en mi vida. Sus clases son excelentes. Si no le entendiste a algo te lo vuelve a explicar sin problemas y con lujo de detalles. \nAdemás de que es una gran clase de consejos matrimoniales xD"
+    },
+    {
+      "fecha_iso": "2019-01-12T00:00:00",
+      "materia": "CALCULO DIFERENCIAL",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 1,
+      "comentario": "de la rocha explica muy bien las clases y si no le entiendes vuelve a explicar hasta que lo entiendas, da el tiempo suficiente para anotar y no te aburres en su clase. es muy facil pasar con el ,sus examenes por lo general son con tu libreta. obviamente debes de asistir para que el te ayude"
+    },
+    {
+      "fecha_iso": "2018-06-08T00:00:00",
+      "materia": "ALGEBRA LINEAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 1,
+      "comentario": "Es muy buen profesor y explica muy bien, explica todo muy despacio y si le preguntas te contesta, siempre esta de buen humor, sus examenes son largos, pero deja sacar apuntes, asi que apunta todo lo que vean en el pizarron, solo que no solo lo copies, fijate porque a veces se confunde al anotar algo"
+    },
+    {
+      "fecha_iso": "2018-06-08T00:00:00",
+      "materia": "ALGEBRA LINEAL",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2018-06-02T00:00:00",
+      "materia": "ECUACIONES DIFERENCIALES",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 7.5,
+      "recomienda": 1,
+      "comentario": "El profesor es demasiada buena persona y tiene un sentido del humor muy grato. Sus exámenes están largos y solo te da una hora para resolverlos, así que tienes que estudiar mucho para poder hacerlos rápidamente."
+    },
+    {
+      "fecha_iso": "2018-03-13T00:00:00",
+      "materia": "CÁLCULO INTEGRAL/VECTORIAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Es un excelente profesor, de una calidad humana excepcional. Me encanta su sentido del humor y siempre te ayuda en la calificación si prestas atención. No ignoren sus clases, el profe es demasiado bueno y sabe mucho."
+    },
+    {
+      "fecha_iso": "2017-08-22T00:00:00",
+      "materia": "CALCULO INTEGRAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "De lo mejor del tec. Este maestro es super amable, relajado y sabe mucho sobre su materia. Te pone las cosas super claras y está super dispuesto a volver a explicar si no entendiste algo. Un amor de persona y excelente maestro:) además parece Santa claus!"
+    },
+    {
+      "fecha_iso": "2017-08-03T00:00:00",
+      "materia": "CÁLCULO INTEGRAL",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Explica bien, te enseña lo que necesitas, haciendo las tareas la haces. Lo amo."
+    },
+    {
+      "fecha_iso": "2017-06-08T00:00:00",
+      "materia": "CÁLCULO INTEGRAL",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Mis respetos para este profesor, domina excelentemente bien la materia y todas las demás matemáticas. Sus clases son muy claras y los exámenes son tal y lo que ves en clase. De lo mejor que tiene el Tec este profesor."
+    },
+    {
+      "fecha_iso": "2016-01-18T00:00:00",
+      "materia": "CALCULO INTEGRAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": "Felix de la rocha es lo mejor la neta, es facil aprender con el, aparte de que te cae bien, y se esfuerza para que uno aprenda, y no te regaña , es 100% recomendable, a mi me dio Calculo Integral, y fue de lo mejor pues venia de RC con Leoncio nuñez armenta ."
+    },
+    {
+      "fecha_iso": "2016-01-15T00:00:00",
+      "materia": "CÁLCULO VECTORIAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2016-01-06T00:00:00",
+      "materia": "CÁLCULO VECTORIAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "EXAMEN EL LUNEEEEEEEEEEEEEEEEEEEEEeees"
+    },
+    {
+      "fecha_iso": "2015-09-28T00:00:00",
+      "materia": "ECUACIONES DIFERENCIALES, CALCULOS Y ALGEBRAS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "NO Hay Mas\n\nEL MEJOR DE TODOS \n\nBY JR"
+    },
+    {
+      "fecha_iso": "2015-08-05T00:00:00",
+      "materia": "CALCULO VECTORIAL",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 1,
+      "comentario": "Un excelente Profesor la verdad que si quieres aprender de la manera mas sencilla carga con el, es super buena persona y en sus clases son muy entretenidas y se preocupa por que pases y no te atrases, aunque ya sea una persona mayor su intelecto es incomparable, deja tarea y sus exámenes los hace muy parecidos, uno de los mejor maestros que tienen."
+    },
+    {
+      "fecha_iso": "2015-06-09T00:00:00",
+      "materia": "ECUACIONES DIFERENCIALES",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Excelente profesor, sin duda una gran opción en cualquier matemáticas."
+    },
+    {
+      "fecha_iso": "2015-03-08T00:00:00",
+      "materia": "ALGEBRA LINEAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 1,
+      "comentario": "muy buen maestro."
+    },
+    {
+      "fecha_iso": "2015-01-16T00:00:00",
+      "materia": "CALCULO VECTORIAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Este profesor es de los mejores, nunca falta, da bien sus clases, deja tarea y se preocupa por que aprendas, en definitiva de las mejores opciones para cualquier matemáticas."
+    },
+    {
+      "fecha_iso": "2015-01-13T00:00:00",
+      "materia": "CÁLCULO VECTORIAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "De los mejores maestros de matemáticas (junto con Palma López), domina la materia, no consulta ningún apunte, da oportunidad de pasar, es claro, responsable y muy buena persona :)"
+    },
+    {
+      "fecha_iso": "2014-12-12T00:00:00",
+      "materia": "CALCULO VECTORIAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "La mejor opción para cualquier matemáticas."
+    },
+    {
+      "fecha_iso": "2014-01-31T00:00:00",
+      "materia": "CALCULO VECTORIAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Domina perfectamente la materia, fue uno de los mejores evaluados en el Tec de Monterrey. Si quieres aprender, carguen con él."
+    },
+    {
+      "fecha_iso": "2013-07-19T00:00:00",
+      "materia": "---",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2013-02-15T00:00:00",
+      "materia": "ALGEBRA LINEAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Muy buen profesor"
+    },
+    {
+      "fecha_iso": "2013-02-09T00:00:00",
+      "materia": "CALCULO VECTORIAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "ES EL MEJOR MAESTRO DE MATEMATICAS DEL TEC"
+    },
+    {
+      "fecha_iso": "2012-10-29T00:00:00",
+      "materia": "---",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2012-06-08T00:00:00",
+      "materia": "MATEMATICAS V",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Explica sin ver apuntes, domina las materias \nperfectamente."
+    },
+    {
+      "fecha_iso": "2012-06-05T00:00:00",
+      "materia": "---",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 6.0,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2012-04-11T00:00:00",
+      "materia": "CALCULO II",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "BUEN MAESTRO...........DOMINa completamente la materia."
+    },
+    {
+      "fecha_iso": "2012-02-11T00:00:00",
+      "materia": "CÁLCULO DIFERENCIAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": "Domina todas las matemáticas,  \"DUÉLALE A QUIEN LE DUELA\" \nDió formación a varios Profesores de Matemáticas."
+    },
+    {
+      "fecha_iso": "2012-01-23T00:00:00",
+      "materia": "---",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2011-12-15T00:00:00",
+      "materia": "---",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2011-12-14T00:00:00",
+      "materia": "CALCULO II",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Exelente profesor, le gusta su materia y sabe mucho, te pone muchos ejemplos, si no lo cargas te arrepentiras toda tu vida."
+    },
+    {
+      "fecha_iso": "2011-11-26T00:00:00",
+      "materia": "MATEMÁTICAS 3",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Es muy buen maestro. Dicen que deja copiar, pero pienso que el copia, él mismo se hace daño.\nSi no aprendió con Félix difícilmente aprende esa materia con otro profesor.\nÉl es muy bueno en explicar. Claro, muy claro."
+    },
+    {
+      "fecha_iso": "2011-10-27T00:00:00",
+      "materia": "---",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 2.0,
+      "recomienda": 1,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2011-07-28T00:00:00",
+      "materia": "MATEMATICAS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Domina perfectamente la materia de Matemàticas y Estadìstica"
+    },
+    {
+      "fecha_iso": "2011-06-25T00:00:00",
+      "materia": "CALCULO INTEGRAL",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "de que pasas pasas"
+    },
+    {
+      "fecha_iso": "2011-05-10T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2011-05-06T00:00:00",
+      "materia": "---",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 1,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2011-04-12T00:00:00",
+      "materia": "",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Muy buen maestro enseña exelentemente bien su clase es muy clara"
+    },
+    {
+      "fecha_iso": "2011-01-21T00:00:00",
+      "materia": "MATE IV",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Muy buen maestro, explica bien, es buena onda."
+    }
+  ],
+  "comments_recent": [
+    "Gran maestro y gran persona, a pesar de solo convivir con el en clase es de esas personas que te motivan y sientes su genuinidad e interés porque te vaya bien, explica súper bien y te ayuda si eres constante en las clases, si pueden cargar con el no lo piensen dos veces",
+    "excelente",
+    "Antonio de la Rocha >>>>>>>>>>>> Noe de la rocha",
+    "Es el profe mas lindo y buena onda, ya esta grande y cuenta historias de su vida y como salio adelante con el estudio, y te motiva que tu tambien lo puedes lograr y pasas por que pasas ademas de que si enseña bien.",
+    "El mejor profe, te ayuda con la calificación siempre, pero entrega las tareas que pide, tampoco seas abusivo..."
+  ],
+  "n_reviews": 54
+}

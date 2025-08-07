@@ -1,0 +1,41 @@
+{
+  "nombre": "ESTRADA MADUEÑO",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "ciudad": "Ciudad: culiacan, sinaloa",
+  "departamento": "Departamento/Facultad: CIENCIAS BASICAS/ BIOQUIMICA",
+  "calidad_general": 7.0,
+  "porcentaje_recomienda": 50,
+  "nivel_dificultad": 0.0,
+  "etiquetas": [],
+  "numero_calificaciones": 2,
+  "calificaciones": [
+    {
+      "fecha": "09/Ago/2016",
+      "tipo_calificacion": "REGULAR",
+      "puntaje_calidad_general": 6.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Algebra lineal",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "8",
+      "interes_clase": "",
+      "comentario": "afortunadamente ya se jubilo, es buen profesor, pero da la materia como si estuviera en la materia de métodos numéricos, esta loquito, exámenes de hasta 3 horas, conmigo fue muy injusto, no lo recomiendo, aclaro si explica bien",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "19/Jun/2014",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 8.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Programacion y metodos numericos.",
+      "asistencia": "",
+      "calificacion_recibida": "9",
+      "interes_clase": "9",
+      "comentario": "Muy troll el señor pero al final de todo es buen profesor.",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    }
+  ]
+}

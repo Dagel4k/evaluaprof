@@ -1,0 +1,141 @@
+{
+  "professor_id": "Karen_Colin_Ojeda",
+  "nombre": "Karen Colin Ojeda",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 7.9925117100166485,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.26970864304704,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.75,
+    "wilson_interval": [
+      0.30063605244263664,
+      0.9544139373553638
+    ],
+    "n_recommendations": 4
+  },
+  "subject_normalization": {
+    "z_mean": 0.1,
+    "z_mean_decayed": 0.12,
+    "per_subject": [
+      {
+        "materia": "CALCULO INTEGRAL",
+        "z_decayed": 0.8481796604891912,
+        "n": 84
+      },
+      {
+        "materia": "CÁLCULO",
+        "z_decayed": 0.20989507868443216,
+        "n": 10
+      },
+      {
+        "materia": "CÁLCULO DIFERENCIAL",
+        "z_decayed": 0.053218305514857574,
+        "n": 46
+      },
+      {
+        "materia": "CALCULO DIFERENCIAL",
+        "z_decayed": -0.7028837334686546,
+        "n": 110
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [],
+    "sentiment": {
+      "overall": null,
+      "by_month": {}
+    },
+    "n_comments": 3
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        9.0,
+        5.0,
+        8.0,
+        10.0
+      ],
+      "ewma": [
+        9.0,
+        7.8,
+        7.859999999999999,
+        8.501999999999999
+      ],
+      "sigma": 1.804258203990401
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 8.501999999999999,
+      "quality_band": [
+        4.965653920178813,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2024-05-25T00:00:00",
+      "materia": "CALCULO INTEGRAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "no creo que exista alguna profesora mejor que ella, sus clases son interesantes porque es muy buena explicando y siempre se asegura de que todos entiendan, resuelve dudas, es muy buena onda y amable, sin duda cargaría de nuevo con ella????. si te cae mal es pq eres un huevon de primera."
+    },
+    {
+      "fecha_iso": "2024-03-06T00:00:00",
+      "materia": "CÁLCULO DIFERENCIAL",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": "Algo exigente pero muy bien explicado todo lo que da"
+    },
+    {
+      "fecha_iso": "2024-01-16T00:00:00",
+      "materia": "CALCULO DIFERENCIAL",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 2.0,
+      "recomienda": 0,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2023-01-15T00:00:00",
+      "materia": "CÁLCULO",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 1,
+      "comentario": "Es una alivio gigante si no traes base, ayuda muchísimo y es justa para calificar. Sus clases son claras y se esfuerza en buscar ejemplos que resulten de provecho.\nEstudia y pasas el examen.\nOjalá y le vaya bien en la vida."
+    }
+  ],
+  "comments_recent": [
+    "no creo que exista alguna profesora mejor que ella, sus clases son interesantes porque es muy buena explicando y siempre se asegura de que todos entiendan, resuelve dudas, es muy buena onda y amable, sin duda cargaría de nuevo con ella????. si te cae mal es pq eres un huevon de primera.",
+    "Algo exigente pero muy bien explicado todo lo que da",
+    "Es una alivio gigante si no traes base, ayuda muchísimo y es justa para calificar. Sus clases son claras y se esfuerza en buscar ejemplos que resulten de provecho.\nEstudia y pasas el examen.\nOjalá y le vaya bien en la vida."
+  ],
+  "n_reviews": 4
+}

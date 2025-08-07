@@ -1,0 +1,234 @@
+{
+  "professor_id": "Jose_Luis_Velazquez_Felix",
+  "nombre": "Jose Luis Velazquez Felix",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 9.37656249672488,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.672416894876766,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.778,
+    "wilson_interval": [
+      0.4525833436728054,
+      0.9367762376877727
+    ],
+    "n_recommendations": 9
+  },
+  "subject_normalization": {
+    "z_mean": 0.57,
+    "z_mean_decayed": 0.55,
+    "per_subject": [
+      {
+        "materia": "PROCESOS DE FABRICACION",
+        "z_decayed": 1.1946912201998283,
+        "n": 16
+      },
+      {
+        "materia": "ADMINISTRACIÓN DE LA PRODUCTIVIDAD",
+        "z_decayed": 0.539782020115205,
+        "n": 8
+      },
+      {
+        "materia": "PROCESOS DE FABRICACIÓN",
+        "z_decayed": 0.26202318352915654,
+        "n": 24
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "maestros",
+          "buen",
+          "examenes",
+          "sale",
+          "es"
+        ],
+        "weight": 0.16964144145750376
+      },
+      {
+        "id": 1,
+        "words": [
+          "examenes",
+          "sale",
+          "maestros",
+          "mejores",
+          "mejores maestros"
+        ],
+        "weight": 0.1952169877237597
+      },
+      {
+        "id": 2,
+        "words": [
+          "maestros",
+          "es",
+          "examenes",
+          "buen",
+          "dinamicas"
+        ],
+        "weight": 0.24407685528459316
+      }
+    ],
+    "sentiment": {
+      "overall": 0.14285714285714285,
+      "by_month": {
+        "2025-07": 0.0,
+        "2021-01": 0.0,
+        "2020-05": 0.0,
+        "2014-05": 0.0,
+        "2013-11": 0.0,
+        "2013-06": 1.0
+      }
+    },
+    "n_comments": 7
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        7.0,
+        6.0,
+        9.5,
+        10.0,
+        5.0,
+        9.0,
+        10.0,
+        10.0
+      ],
+      "ewma": [
+        7.0,
+        6.699999999999999,
+        7.539999999999999,
+        8.277999999999999,
+        7.294599999999999,
+        7.806219999999998,
+        8.464353999999998,
+        8.925047799999998
+      ],
+      "sigma": 1.4628204554046291
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 8.925047799999998,
+      "quality_band": [
+        6.057919707406925,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2025-07-02T00:00:00",
+      "materia": "ADMINISTRACIÓN DE LA PRODUCTIVIDAD",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Uno de los mejores maestros"
+    },
+    {
+      "fecha_iso": "2023-01-23T00:00:00",
+      "materia": "ADMINISTRACIÓN DE LA PRODUCTIVIDAD",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2021-01-25T00:00:00",
+      "materia": "ADMINISTRACIÓN DE LA PRODUCTIVIDAD",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": "Uno de los mejores maestros del tec, recomendadisimo"
+    },
+    {
+      "fecha_iso": "2020-05-23T00:00:00",
+      "materia": "ADMÓN DE LA PRODUCTIVIDAD",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 0,
+      "comentario": "Recomiendo participar en sus clases, son muy dinámicas y los exámenes verdaderamente sencillos si dominas los temas. Son temas básicos de la carrera. Buena onda pero es favoritista con la gente lamiscona."
+    },
+    {
+      "fecha_iso": "2016-04-29T00:00:00",
+      "materia": "ADMINISTRACIÓN DE LA PRODUCTIVIDAD",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2014-05-24T00:00:00",
+      "materia": "PROCESOS DE FABRICACION",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Muy buen cierre de semestre, excelentes dinamicas"
+    },
+    {
+      "fecha_iso": "2014-05-13T00:00:00",
+      "materia": "INGENIERIA DE PRODUCTOS",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Te prepara para ser ingeniero y no solo egresa do... tiene mucha experiencia."
+    },
+    {
+      "fecha_iso": "2013-11-14T00:00:00",
+      "materia": "GESTION DE LOS SIST DE CALIDAD",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "ES BUEN MAESTRO. TODO MUY BIEN, NADAMAS SE SALE CON LOS EXAMENES"
+    },
+    {
+      "fecha_iso": "2013-06-05T00:00:00",
+      "materia": "PROCESOS DE FABRICACIÓN",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": "Hace ver las cosas difíciles de manera muy fácil, es bueno con los ejemplos, se sale con la puntualidad."
+    }
+  ],
+  "comments_recent": [
+    "Uno de los mejores maestros",
+    "Uno de los mejores maestros del tec, recomendadisimo",
+    "Recomiendo participar en sus clases, son muy dinámicas y los exámenes verdaderamente sencillos si dominas los temas. Son temas básicos de la carrera. Buena onda pero es favoritista con la gente lamiscona.",
+    "Muy buen cierre de semestre, excelentes dinamicas",
+    "Te prepara para ser ingeniero y no solo egresa do... tiene mucha experiencia.",
+    "ES BUEN MAESTRO. TODO MUY BIEN, NADAMAS SE SALE CON LOS EXAMENES",
+    "Hace ver las cosas difíciles de manera muy fácil, es bueno con los ejemplos, se sale con la puntualidad."
+  ],
+  "n_reviews": 9
+}

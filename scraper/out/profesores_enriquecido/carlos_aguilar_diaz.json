@@ -1,0 +1,140 @@
+{
+  "professor_id": "carlos_aguilar_diaz",
+  "nombre": "carlos aguilar diaz",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 9.777555386733297,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.851728066843904,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 1.0,
+    "wilson_interval": [
+      0.565508505247919,
+      1
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": 0.44,
+    "z_mean_decayed": 0.53,
+    "per_subject": [
+      {
+        "materia": "ERGONOMÍA",
+        "z_decayed": 0.5976143046671968,
+        "n": 6
+      },
+      {
+        "materia": "HIGIENE Y SEGURIDAD INDUSTRIAL",
+        "z_decayed": 0.4275006948553678,
+        "n": 15
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [],
+    "sentiment": {
+      "overall": null,
+      "by_month": {}
+    },
+    "n_comments": 3
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        9.0,
+        10.0,
+        9.5,
+        10.0
+      ],
+      "ewma": [
+        9.0,
+        9.3,
+        9.36,
+        9.552
+      ],
+      "sigma": 0.3138832054549374
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 9.552,
+      "quality_band": [
+        8.936788917308322,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2023-01-23T00:00:00",
+      "materia": "ERGONOMÍA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Siempre es claro en sus clases y aprenderás bastante, siempre dispuesto a aclarar dudas, habla mucho y a veces puede parecer aburrido, no deja mucha tarea y las que deja son la mayoría en equipo y sus exámenes son fáciles"
+    },
+    {
+      "fecha_iso": "2019-08-07T00:00:00",
+      "materia": "HIGIENE Y SEGURIDAD INDUSTRIAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Muy buen profesor, explica muy bien, hace las clases interesantes, se preocupa por que los estudiantes realmente estén aprendiendo"
+    },
+    {
+      "fecha_iso": "2019-08-04T00:00:00",
+      "materia": "HIGIENE Y SEGURIDAD INDUSTRIAL",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Es de los profesores más comprometidos que he tenido en el Tec, en verdad se preocupa por tu aprendizaje. Además de carismático, el sujeto es bueno explicando los temas, lo hace ver todo fácil y lo aprendes bien."
+    },
+    {
+      "fecha_iso": "2018-01-13T00:00:00",
+      "materia": "MUY BUEN PROFESOR",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2016-12-27T00:00:00",
+      "materia": "HIGIENE Y SEGURIDAD INDUSTRIAL",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": ""
+    }
+  ],
+  "comments_recent": [
+    "Siempre es claro en sus clases y aprenderás bastante, siempre dispuesto a aclarar dudas, habla mucho y a veces puede parecer aburrido, no deja mucha tarea y las que deja son la mayoría en equipo y sus exámenes son fáciles",
+    "Muy buen profesor, explica muy bien, hace las clases interesantes, se preocupa por que los estudiantes realmente estén aprendiendo",
+    "Es de los profesores más comprometidos que he tenido en el Tec, en verdad se preocupa por tu aprendizaje. Además de carismático, el sujeto es bueno explicando los temas, lo hace ver todo fácil y lo aprendes bien."
+  ],
+  "n_reviews": 5
+}

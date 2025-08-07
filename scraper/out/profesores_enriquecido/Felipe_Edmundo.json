@@ -1,0 +1,281 @@
+{
+  "professor_id": "Felipe_Edmundo",
+  "nombre": "Felipe Edmundo",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 7.1883203591970855,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.0887960501329275,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.8,
+    "wilson_interval": [
+      0.49015684672072346,
+      0.9433190520193067
+    ],
+    "n_recommendations": 10
+  },
+  "subject_normalization": {
+    "z_mean": -0.33,
+    "z_mean_decayed": -0.34,
+    "per_subject": [
+      {
+        "materia": "TOPICOS",
+        "z_decayed": 0.425753431759195,
+        "n": 8
+      },
+      {
+        "materia": "TÓPICOS AVANZADOS DE PROGRAMACIÓN",
+        "z_decayed": 0.0,
+        "n": 3
+      },
+      {
+        "materia": "TOPICOS AVANZADOS DE PROGRAMACION",
+        "z_decayed": -0.5962923162229795,
+        "n": 5
+      },
+      {
+        "materia": "POO",
+        "z_decayed": -0.6044758553515566,
+        "n": 62
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "barco",
+          "semestre",
+          "deja",
+          "bien",
+          "profe"
+        ],
+        "weight": 0.07315490880886324
+      },
+      {
+        "id": 1,
+        "words": [
+          "te",
+          "califica",
+          "es",
+          "camarada",
+          "es camarada"
+        ],
+        "weight": 0.12646460097748555
+      },
+      {
+        "id": 2,
+        "words": [
+          "semestre",
+          "clases",
+          "te",
+          "codigo",
+          "linea"
+        ],
+        "weight": 0.14264082280960771
+      },
+      {
+        "id": 3,
+        "words": [
+          "es camarada",
+          "camarada",
+          "es",
+          "barco",
+          "compa"
+        ],
+        "weight": 0.10571324370138306
+      },
+      {
+        "id": 4,
+        "words": [
+          "final",
+          "clases",
+          "bien",
+          "explica bien",
+          "explica"
+        ],
+        "weight": 0.16413188743560997
+      }
+    ],
+    "sentiment": {
+      "overall": 0.0,
+      "by_month": {
+        "2025-05": 0.0,
+        "2025-02": 0.0,
+        "2023-03": 0.0,
+        "2022-06": 0.0,
+        "2022-03": 0.0,
+        "2021-09": 0.0,
+        "2021-08": 0.0,
+        "2021-05": 0.0,
+        "2021-01": 0.0,
+        "2020-01": 0.0
+      }
+    },
+    "n_comments": 10
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        9.0,
+        9.0,
+        6.0,
+        7.0,
+        8.0,
+        8.0,
+        2.0,
+        8.0,
+        7.0,
+        8.0
+      ],
+      "ewma": [
+        9.0,
+        9.0,
+        8.1,
+        7.77,
+        7.838999999999999,
+        7.887299999999998,
+        6.121109999999998,
+        6.684776999999999,
+        6.779343899999999,
+        7.145540729999999
+      ],
+      "sigma": 1.586796784975248
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 7.145540729999999,
+      "quality_band": [
+        4.035419031448512,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2025-05-31T00:00:00",
+      "materia": "FUNDAMENTOS DE LA PROGRAMACION/POO",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Barcomundo, godworld, deidadmundo, si quieres pasar carga con el, no le importa la asistencia para nada, eso si, califica tarde casi terminando el semestre, es camarada, casi no falta, sus examenes son en moodle y no te esta viendo si haces trampa ;) recomendado para el inicio de la carrera"
+    },
+    {
+      "fecha_iso": "2025-02-21T00:00:00",
+      "materia": "POO",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "La neta no tengo quejas con este profe, ta bien"
+    },
+    {
+      "fecha_iso": "2023-03-07T00:00:00",
+      "materia": "TOPICOS",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 1,
+      "comentario": "Edbarco"
+    },
+    {
+      "fecha_iso": "2022-06-08T00:00:00",
+      "materia": "POO",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 0,
+      "comentario": "no sabe programar a la verga no aprendi nada hijo de su puta madre bien barco, ya al final del semestre pinche profe no supo de donde verga copio el codigo y mando a la verga todo nos puso examen teorico y en linea el verga."
+    },
+    {
+      "fecha_iso": "2022-03-15T00:00:00",
+      "materia": "TOPICOS AVANZADOS DE PROGRAMACION",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 7.5,
+      "recomienda": 1,
+      "comentario": "Es barco y compa"
+    },
+    {
+      "fecha_iso": "2021-09-29T00:00:00",
+      "materia": "TOPICOS",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": "Es camarada el compa aunque medio enredoso"
+    },
+    {
+      "fecha_iso": "2021-08-30T00:00:00",
+      "materia": "TOPICOS AVANZADOS DE PROGRAMACION",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Pues el profe como persona me parece buena persona pero como maestro me parece que deja que desear al momento de enseñar"
+    },
+    {
+      "fecha_iso": "2021-05-11T00:00:00",
+      "materia": "POO",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 0,
+      "comentario": "[Opinion de clases en linea]Puede que sea solo porque es en linea pero, la mayoria de veces el profesor tiende a copiar codigo de algunos pdf y modificarlos el mismo, sin explicar muchas veces las bases del tema, haciendo que te pierdas facil y no aprendas lo que deberias. pasas muy facil"
+    },
+    {
+      "fecha_iso": "2021-01-22T00:00:00",
+      "materia": "POO",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 7.5,
+      "recomienda": 1,
+      "comentario": "Buen profe, explica bien y se lleva con los alumnos pero tampoco le faltan al respeto. Sus clases son prácticas y así debería ser en la programación"
+    },
+    {
+      "fecha_iso": "2020-01-13T00:00:00",
+      "materia": "TÓPICOS AVANZADOS DE PROGRAMACIÓN",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Explica bien, la clase es mayormente práctica.\nDeja un par de proyectos al final con los que califica."
+    }
+  ],
+  "comments_recent": [
+    "Barcomundo, godworld, deidadmundo, si quieres pasar carga con el, no le importa la asistencia para nada, eso si, califica tarde casi terminando el semestre, es camarada, casi no falta, sus examenes son en moodle y no te esta viendo si haces trampa ;) recomendado para el inicio de la carrera",
+    "La neta no tengo quejas con este profe, ta bien",
+    "Edbarco",
+    "no sabe programar a la verga no aprendi nada hijo de su puta madre bien barco, ya al final del semestre pinche profe no supo de donde verga copio el codigo y mando a la verga todo nos puso examen teorico y en linea el verga.",
+    "Es barco y compa",
+    "Es camarada el compa aunque medio enredoso",
+    "Pues el profe como persona me parece buena persona pero como maestro me parece que deja que desear al momento de enseñar",
+    "[Opinion de clases en linea]Puede que sea solo porque es en linea pero, la mayoria de veces el profesor tiende a copiar codigo de algunos pdf y modificarlos el mismo, sin explicar muchas veces las bases del tema, haciendo que te pierdas facil y no aprendas lo que deberias. pasas muy facil",
+    "Buen profe, explica bien y se lleva con los alumnos pero tampoco le faltan al respeto. Sus clases son prácticas y así debería ser en la programación",
+    "Explica bien, la clase es mayormente práctica.\nDeja un par de proyectos al final con los que califica."
+  ],
+  "n_reviews": 10
+}

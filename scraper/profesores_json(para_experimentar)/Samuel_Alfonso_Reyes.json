@@ -1,0 +1,41 @@
+{
+  "nombre": "Samuel Alfonso Reyes",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "ciudad": "Ciudad: culiacan, sinaloa",
+  "departamento": "Departamento/Facultad: Varios",
+  "calidad_general": 5.0,
+  "porcentaje_recomienda": 50,
+  "nivel_dificultad": 0.0,
+  "etiquetas": [],
+  "numero_calificaciones": 2,
+  "calificaciones": [
+    {
+      "fecha": "24/Feb/2013",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 2.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "calculo diferencial",
+      "asistencia": "",
+      "calificacion_recibida": "8.5",
+      "interes_clase": "8.5",
+      "comentario": "Si quieres pasar sin aprender, esta es tu opcion, solo leeras un libro, iras al centro de ciencias y listo",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "24/Ene/2012",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 8.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Calculo Diferencial",
+      "asistencia": "",
+      "calificacion_recibida": "10",
+      "interes_clase": "10",
+      "comentario": "Lo remcomiendo si no quieres aprender nada y pasar",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    }
+  ]
+}

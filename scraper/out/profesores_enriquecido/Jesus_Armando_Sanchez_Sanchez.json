@@ -1,0 +1,908 @@
+{
+  "professor_id": "Jesus_Armando_Sanchez_Sanchez",
+  "nombre": "Jesus Armando Sanchez Sanchez",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 5.961664435883857,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 5.3087781948397215,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.388,
+    "wilson_interval": [
+      0.2804887105692933,
+      0.5077712948512505
+    ],
+    "n_recommendations": 67
+  },
+  "subject_normalization": {
+    "z_mean": -0.36,
+    "z_mean_decayed": -0.15,
+    "per_subject": [
+      {
+        "materia": "CALCULO DIFERENCIAL",
+        "z_decayed": 0.864547106408639,
+        "n": 110
+      },
+      {
+        "materia": "CÁLCULO INTEGRAL",
+        "z_decayed": 0.7884298457197201,
+        "n": 24
+      },
+      {
+        "materia": "CÁLCULO DIFERENCIAL",
+        "z_decayed": 0.7526588922815562,
+        "n": 46
+      },
+      {
+        "materia": "CALCULO INTEGRAL",
+        "z_decayed": 0.6429228914759159,
+        "n": 84
+      },
+      {
+        "materia": "FISICA",
+        "z_decayed": 0.23648708776172872,
+        "n": 41
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "comentario",
+          "comentario esperando",
+          "esperando revision",
+          "esperando",
+          "revision"
+        ],
+        "weight": 0.1842493870434685
+      },
+      {
+        "id": 1,
+        "words": [
+          "buen profesor",
+          "buen",
+          "profesor",
+          "maestro",
+          "es"
+        ],
+        "weight": 0.05734032679017487
+      },
+      {
+        "id": 2,
+        "words": [
+          "da",
+          "clases",
+          "bien",
+          "explica bien",
+          "explica"
+        ],
+        "weight": 0.0652902094709654
+      },
+      {
+        "id": 3,
+        "words": [
+          "pone",
+          "recomiendo",
+          "solo",
+          "pasar",
+          "te"
+        ],
+        "weight": 0.05881356083480091
+      },
+      {
+        "id": 4,
+        "words": [
+          "utiliza",
+          "tecnologia",
+          "clara",
+          "sirve",
+          "clase"
+        ],
+        "weight": 0.049714236795917036
+      }
+    ],
+    "sentiment": {
+      "overall": 0.015625,
+      "by_month": {
+        "2021-08": 0.0,
+        "2021-03": 0.0,
+        "2021-01": 0.0,
+        "2020-12": 0.0,
+        "2020-03": 0.0,
+        "2020-02": 0.0,
+        "2019-07": 0.0,
+        "2019-06": 0.5,
+        "2019-03": 0.0,
+        "2018-08": 0.0,
+        "2018-07": 0.0,
+        "2018-03": 0.0,
+        "2018-01": 0.0,
+        "2017-02": 0.0,
+        "2017-01": 0.0,
+        "2016-08": 0.0,
+        "2016-05": 0.0,
+        "2016-03": 0.0,
+        "2016-02": 0.0,
+        "2016-01": 0.0,
+        "2015-12": 0.0,
+        "2015-10": 0.0,
+        "2015-08": 0.0,
+        "2015-04": 0.0,
+        "2015-03": 0.0,
+        "2014-12": 0.0,
+        "2014-11": 0.0,
+        "2014-03": 0.0,
+        "2014-01": 0.0,
+        "2013-12": 0.0,
+        "2013-10": 0.0,
+        "2013-09": 0.0,
+        "2013-08": 0.0
+      }
+    },
+    "n_comments": 64
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.188,
+    "bursts": [
+      {
+        "from": "2019-07-10T00:00:00",
+        "to": "2019-07-10T00:00:00",
+        "count": 3
+      },
+      {
+        "from": "2019-07-10T00:00:00",
+        "to": "2019-07-10T00:00:00",
+        "count": 4
+      },
+      {
+        "from": "2019-07-10T00:00:00",
+        "to": "2019-07-11T00:00:00",
+        "count": 5
+      },
+      {
+        "from": "2019-07-16T00:00:00",
+        "to": "2019-07-17T00:00:00",
+        "count": 3
+      },
+      {
+        "from": "2019-07-16T00:00:00",
+        "to": "2019-07-17T00:00:00",
+        "count": 4
+      },
+      {
+        "from": "2019-07-16T00:00:00",
+        "to": "2019-07-17T00:00:00",
+        "count": 5
+      },
+      {
+        "from": "2020-02-12T00:00:00",
+        "to": "2020-02-12T00:00:00",
+        "count": 3
+      }
+    ],
+    "low_variance_flag": 0,
+    "trust_score": 0.61
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        6.0,
+        2.0,
+        10.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        10.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        8.0,
+        3.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        10.0,
+        2.5,
+        8.0,
+        2.0,
+        6.0,
+        10.0,
+        9.928571428571429,
+        10.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0
+      ],
+      "ewma": [
+        6.0,
+        4.799999999999999,
+        6.359999999999999,
+        5.051999999999999,
+        4.136399999999998,
+        3.495479999999999,
+        3.046835999999999,
+        2.732785199999999,
+        4.912949639999999,
+        4.039064747999999,
+        3.427345323599999,
+        2.999141726519999,
+        2.6993992085639995,
+        2.4895794459947993,
+        2.3427056121963594,
+        2.2398939285374513,
+        3.9679257499762155,
+        3.6775480249833508,
+        3.1742836174883453,
+        2.8219985322418415,
+        2.575398972569289,
+        2.402779280798502,
+        4.681945496558951,
+        4.027361847591266,
+        5.2191532933138856,
+        4.25340730531972,
+        4.7773851137238035,
+        6.344169579606662,
+        7.419490134296092,
+        8.193643094007264,
+        6.335550165805084,
+        5.034885116063558,
+        4.12441958124449,
+        3.487093706871143,
+        3.0409655948098
+      ],
+      "sigma": 2.3910079773926904
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 3.0409655948098,
+      "quality_band": [
+        0.0,
+        7.727341230499473
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2021-08-10T00:00:00",
+      "materia": "QUIMICA",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "El peor profesor que he tenido en mi vida. Es más, no creo que se le pueda llamar profesor. Un asco."
+    },
+    {
+      "fecha_iso": "2021-08-10T00:00:00",
+      "materia": "QUIMICA",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 0,
+      "comentario": "uuuuh me recuerda ami infancia cuando estaba en el quinder y ise una obra jaaaaaaaaaa que risa armando con tus payasadas eres un naco estupido"
+    },
+    {
+      "fecha_iso": "2021-03-24T00:00:00",
+      "materia": "QUÍMICA",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "No explica nada, nunca da clase solo deja trabajos y te pide expongas, con exponer un minuto ya te cuenta, no lo recomiendo a menos que quieras pasar sin hacer ni aprender nada"
+    },
+    {
+      "fecha_iso": "2021-01-26T00:00:00",
+      "materia": "QUÍMICA",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Había tenido maestros malos, pero este maestro es el peor de todos... No lo haga compa"
+    },
+    {
+      "fecha_iso": "2020-12-06T00:00:00",
+      "materia": "QUÍMICA",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 0,
+      "comentario": "realmente no sirve de nada su clase, es muy cómico y definitivamente no tomaría su clase de nuevo"
+    },
+    {
+      "fecha_iso": "2020-03-27T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2020-02-12T00:00:00",
+      "materia": "CALCULO DIFERENCIAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 25.0,
+      "recomienda": 1,
+      "comentario": "Explica muy bien y se entienden las clases"
+    },
+    {
+      "fecha_iso": "2020-02-12T00:00:00",
+      "materia": "CALCULO DIFERENCIAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Es un maestro que le gusta dar buenas clases y ademas se preocupa porque aprendes y el nivel es parejo.\nMuchas gracias es el mejor maestro de cálculo diferencial.\nMuy recomendado."
+    },
+    {
+      "fecha_iso": "2020-02-12T00:00:00",
+      "materia": "CALCULO DIFERENCIAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Se la rifa????????"
+    },
+    {
+      "fecha_iso": "2019-07-25T00:00:00",
+      "materia": "CALCULO INTEGRAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": "Me sirvierón mucho los cursos para retroalimentar"
+    },
+    {
+      "fecha_iso": "2019-07-25T00:00:00",
+      "materia": "CÁLCULO DIFERENCIAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Nos aconseja mucho"
+    },
+    {
+      "fecha_iso": "2019-07-23T00:00:00",
+      "materia": "CÁLCULO INTEGRAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": "Muy buena su clase nos propone a seguir aprendiendo nosotros mismos"
+    },
+    {
+      "fecha_iso": "2019-07-17T00:00:00",
+      "materia": "CALCULO INTEGRAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Nos hace actividades interactivas para entender mejor los problemas al igual que nos deja ver videos en youtube para guiarnos de ejercicios"
+    },
+    {
+      "fecha_iso": "2019-07-17T00:00:00",
+      "materia": "QUÍMICA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": "Muy recomendado el profesor, ya que tiene una manera muy clara de explicar y se facilita la conversación con el"
+    },
+    {
+      "fecha_iso": "2019-07-17T00:00:00",
+      "materia": "FISICA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "No ps el profesos explica muy bien se da a entender luego"
+    },
+    {
+      "fecha_iso": "2019-07-16T00:00:00",
+      "materia": "CALCULO INTEGRAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Explica muy bien sus clases, nos brinda retroalimentación de temas que no recordamos, nos proporciona materiales para el estudio como videos,etc."
+    },
+    {
+      "fecha_iso": "2019-07-16T00:00:00",
+      "materia": "CÁLCULO DIFERENCIAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Utiliza ejercicicios de youtube, consultamos en Internet"
+    },
+    {
+      "fecha_iso": "2019-07-12T00:00:00",
+      "materia": "CALCULO DIFERENCIAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 1,
+      "comentario": "Explica claramente y esta actualizado a los medios usados hoy en día"
+    },
+    {
+      "fecha_iso": "2019-07-11T00:00:00",
+      "materia": "CALCULO DIFERENCIAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Es muy buen maestro nos enseña bien repite mucho para que entendamos  además a clara todas las dudas en clase y si algunos no entienden insiste para que salgan de su duda me gusta como sabe manejar la tecnología con nosotros esta avanzado sobre eso"
+    },
+    {
+      "fecha_iso": "2019-07-10T00:00:00",
+      "materia": "CALCULO INTEGRAL",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "es buen profesor y me agradan sus clases pero puede ser un poco mas exacto en la forma de dar a entender una operación y creo que la clase puede ser un poco mas rápida pero en realidad es muy completa y agradable y solo esos pequeños puntos son los que podrían mejorarse"
+    },
+    {
+      "fecha_iso": "2019-07-10T00:00:00",
+      "materia": "CALCULO INTEGRAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "explica de manera muy clara, utiliza las tecnicas de la tecnologia, hace interesante la clase y brinda antencion."
+    },
+    {
+      "fecha_iso": "2019-07-10T00:00:00",
+      "materia": "CALCULO INTEGRAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 23.0,
+      "recomienda": 1,
+      "comentario": "es muy buen profesor y da muy bien las clases"
+    },
+    {
+      "fecha_iso": "2019-07-10T00:00:00",
+      "materia": "CÁLCULO INTEGRAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Muy buen maestro, explica con claridad y hace sus clases dinámicas"
+    },
+    {
+      "fecha_iso": "2019-06-14T00:00:00",
+      "materia": "CALCULO INTEGRAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 7.5,
+      "recomienda": 1,
+      "comentario": "Muy Buen Profesor"
+    },
+    {
+      "fecha_iso": "2019-06-14T00:00:00",
+      "materia": "CALCULO DIFERENCIAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 1,
+      "comentario": "excelente"
+    },
+    {
+      "fecha_iso": "2019-03-28T00:00:00",
+      "materia": "CALCULO",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "bueno"
+    },
+    {
+      "fecha_iso": "2019-03-27T00:00:00",
+      "materia": "CALCULO",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 0,
+      "comentario": "Es muy confuso y lo sacaron de la católica"
+    },
+    {
+      "fecha_iso": "2019-02-12T00:00:00",
+      "materia": "CÁLCULO",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 0,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2018-10-18T00:00:00",
+      "materia": "CALCULO",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 7.5,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2018-08-18T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 1.0,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2018-08-16T00:00:00",
+      "materia": "---",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2018-07-20T00:00:00",
+      "materia": "---",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2018-03-17T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 1.0,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2018-01-29T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2018-01-17T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2018-01-16T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2017-02-02T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2017-01-06T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 1.0,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2016-08-05T00:00:00",
+      "materia": "---",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2016-05-30T00:00:00",
+      "materia": "FISICA Y ALGEBRA LINEAL",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Meh, veo puros comentarios malos de sanchez sanchez y a mi nunca me trato mal, a veces venia medio amargadon pero ya mas o menos le agarras la onda cuando no decirle nada, esta muy facil pasar las materias con el, en algebra lineal es barco, en fisica no tanto pero sigue siendo facil."
+    },
+    {
+      "fecha_iso": "2016-03-02T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 1.0,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2016-03-01T00:00:00",
+      "materia": "FISICA GENERAL",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 0,
+      "comentario": "este viejo siempre esta amargado, se enojo también porque le dijeron unos alumnos que no se sabia ni una formula (lo cual es cierto), y la agarro contra ellos, tuvieron que reportarlo. También dice esto: pueden usar su formulario en el examen, y el día del examen dice no pueden sacar nada. .i."
+    },
+    {
+      "fecha_iso": "2016-02-26T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 1.0,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2016-01-26T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 5.0,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2016-01-18T00:00:00",
+      "materia": "CALCULO INTEGRAL",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "El peor profesor del tec. Nisiquiera deberia estar dando clases ahí. No sabe nada y no tiene actitud"
+    },
+    {
+      "fecha_iso": "2016-01-14T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2016-01-04T00:00:00",
+      "materia": "FISICA",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 1.0,
+      "recomienda": 0,
+      "comentario": "ESTE MAESTRO NO SIRVE PARA NADA."
+    },
+    {
+      "fecha_iso": "2015-12-10T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 1.0,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2015-12-07T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 1.0,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2015-10-02T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 1.0,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2015-08-07T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2015-04-27T00:00:00",
+      "materia": "ALGREBRA LINEAL",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 1.0,
+      "recomienda": 0,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2015-04-15T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 1.0,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2015-03-08T00:00:00",
+      "materia": "CALCULO DIFERENCIAL.",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 1,
+      "comentario": "buen maestro."
+    },
+    {
+      "fecha_iso": "2014-12-10T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2014-11-30T00:00:00",
+      "materia": "CALCULO DIFERENCIAL",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 7.5,
+      "recomienda": 0,
+      "comentario": "Estoy tipos de profesores no deben de existir en el TEC DE CULIACAN uno viene aprender  y el no enseña bien \nLa verdad no lo recomiendo"
+    },
+    {
+      "fecha_iso": "2014-03-07T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 5.0,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2014-01-17T00:00:00",
+      "materia": "CALCULO INTEGRAL",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": "Durante todo el semestre se la lleva muy tranquilon con sus examenes facilitos cada jueves y al final del semestre te termina poniendo o que el quiere , no lo recomiendo. pero si no hay mas adelante es para llevartela concha con el."
+    },
+    {
+      "fecha_iso": "2014-01-16T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 1.0,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2014-01-15T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2014-01-13T00:00:00",
+      "materia": "CALCULO DIFERENCIAL E INTEGRAL",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "No sabe ni madre, pero si solo quieres pasar jalate, esta muy pelado pasar pero no aprenderas..."
+    },
+    {
+      "fecha_iso": "2013-12-12T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 6.5,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2013-12-09T00:00:00",
+      "materia": "FISICA",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 3.5,
+      "recomienda": 0,
+      "comentario": "No enseña nada y espera que sepas de lo que te pone en el examen"
+    },
+    {
+      "fecha_iso": "2013-10-14T00:00:00",
+      "materia": "---",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2013-09-11T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 1.0,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2013-08-13T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 1.0,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2013-08-07T00:00:00",
+      "materia": "FISICA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "jajaja este vato no sabe NADA, te va y te hecha un verbo de 5 minutos y vamonos o de plano ni va, te hace como 10 exámenes pero son 1 solo ejercicio que bien lo puedes hacer en equipo o hacerlo tu solo porque esta facilisimos. No pone 100. Recomendado para los que nomás van de paso y quieren pasar."
+    }
+  ],
+  "comments_recent": [
+    "El peor profesor que he tenido en mi vida. Es más, no creo que se le pueda llamar profesor. Un asco.",
+    "uuuuh me recuerda ami infancia cuando estaba en el quinder y ise una obra jaaaaaaaaaa que risa armando con tus payasadas eres un naco estupido",
+    "No explica nada, nunca da clase solo deja trabajos y te pide expongas, con exponer un minuto ya te cuenta, no lo recomiendo a menos que quieras pasar sin hacer ni aprender nada",
+    "Había tenido maestros malos, pero este maestro es el peor de todos... No lo haga compa",
+    "realmente no sirve de nada su clase, es muy cómico y definitivamente no tomaría su clase de nuevo",
+    "[Comentario esperando revisión]",
+    "Explica muy bien y se entienden las clases",
+    "Es un maestro que le gusta dar buenas clases y ademas se preocupa porque aprendes y el nivel es parejo.\nMuchas gracias es el mejor maestro de cálculo diferencial.\nMuy recomendado.",
+    "Se la rifa????????",
+    "Me sirvierón mucho los cursos para retroalimentar"
+  ],
+  "n_reviews": 67
+}

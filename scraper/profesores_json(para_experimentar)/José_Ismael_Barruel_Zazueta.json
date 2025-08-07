@@ -1,0 +1,35 @@
+{
+  "nombre": "José Ismael Barruel Zazueta",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "ciudad": "Ciudad: culiacan, sinaloa",
+  "departamento": "Departamento/Facultad: Ingeniería Mecatrónica",
+  "calidad_general": 10.0,
+  "porcentaje_recomienda": 100,
+  "nivel_dificultad": 0.0,
+  "etiquetas": [
+    "DA BUENA RETROALIMENTACIÓN (1)",
+    "BRINDA APOYO (1)",
+    "CLASES EXCELENTES (1)"
+  ],
+  "numero_calificaciones": 1,
+  "calificaciones": [
+    {
+      "fecha": "11/Ene/2023",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Dibujo por computadora",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "8.5",
+      "interes_clase": "",
+      "comentario": "Es camarada y ayuda mucho a sus estudiantes, no dudes en preguntarle cosas cuando no entiendas algo, si da flojera por qué son dos horas pero valen la pena, nada más que si es de ahuevo acabar las piezas, por qué al final si califica con estas. (Crackeate el solidworks)",
+      "etiquetas_comentario": [
+        "Da buena retroalimentación",
+        "Brinda apoyo",
+        "Clases excelentes"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    }
+  ]
+}

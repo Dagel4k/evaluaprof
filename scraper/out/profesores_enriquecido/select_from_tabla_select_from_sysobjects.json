@@ -1,0 +1,68 @@
+{
+  "professor_id": "select_from_tabla_select_from_sysobjects",
+  "nombre": "select * from tabla select * from sys.objects",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 4.0,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 6.706901909332597,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.0,
+    "wilson_interval": [
+      0,
+      0.7934567085261071
+    ],
+    "n_recommendations": 1
+  },
+  "subject_normalization": {
+    "z_mean": null,
+    "z_mean_decayed": null,
+    "per_subject": []
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [],
+    "sentiment": {
+      "overall": null,
+      "by_month": {}
+    },
+    "n_comments": 0
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": null,
+    "difficulty_trend": null,
+    "forecast": null,
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2017-09-08T00:00:00",
+      "materia": "SELECT * FROM SYS.OBJECTS",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 1.5,
+      "recomienda": 0,
+      "comentario": ""
+    }
+  ],
+  "comments_recent": [],
+  "n_reviews": 1
+}

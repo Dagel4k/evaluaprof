@@ -1,0 +1,91 @@
+{
+  "professor_id": "Jose_Toledo",
+  "nombre": "Jose Toledo",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 10.0,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.481326750221547,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 1.0,
+    "wilson_interval": [
+      0.3423719528896193,
+      1
+    ],
+    "n_recommendations": 2
+  },
+  "subject_normalization": {
+    "z_mean": 1.87,
+    "z_mean_decayed": 1.77,
+    "per_subject": [
+      {
+        "materia": "PRINCIPIOS ELECTRICOS",
+        "z_decayed": 2.6432618082272867,
+        "n": 13
+      },
+      {
+        "materia": "ELECTRONICA DIGITAL",
+        "z_decayed": 1.0914103126634984,
+        "n": 4
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [],
+    "sentiment": {
+      "overall": null,
+      "by_month": {}
+    },
+    "n_comments": 2
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": null,
+    "difficulty_trend": null,
+    "forecast": null,
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2018-08-02T00:00:00",
+      "materia": "ELECTRONICA DIGITAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "excelente maestro, sabe mucho , enseña claramente y si tienes alguna duda te la explica claramente ademas de que ayuda mucho a los alumnos para pasar"
+    },
+    {
+      "fecha_iso": "2017-11-22T00:00:00",
+      "materia": "PRINCIPIOS ELECTRICOS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Muy buen profesor, aunque te puedes llegar a dormir en sus clases. :)"
+    }
+  ],
+  "comments_recent": [
+    "excelente maestro, sabe mucho , enseña claramente y si tienes alguna duda te la explica claramente ademas de que ayuda mucho a los alumnos para pasar",
+    "Muy buen profesor, aunque te puedes llegar a dormir en sus clases. :)"
+  ],
+  "n_reviews": 2
+}

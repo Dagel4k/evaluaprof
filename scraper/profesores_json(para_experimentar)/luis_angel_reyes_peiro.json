@@ -1,0 +1,35 @@
+{
+  "nombre": "luis angel reyes peiro",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "ciudad": "Ciudad: culiacan, sinaloa",
+  "departamento": "Departamento/Facultad: electricidad",
+  "calidad_general": 10.0,
+  "porcentaje_recomienda": 100,
+  "nivel_dificultad": 8.0,
+  "etiquetas": [
+    "BARCO (1)",
+    "MUY CÓMICO (1)",
+    "DEJA TRABAJOS LARGOS (1)"
+  ],
+  "numero_calificaciones": 1,
+  "calificaciones": [
+    {
+      "fecha": "16/Mar/2016",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "---",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "7.5",
+      "interes_clase": "",
+      "comentario": "[Comentario esperando revisión]",
+      "etiquetas_comentario": [
+        "Barco",
+        "Muy cómico",
+        "Deja trabajos largos"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "nombre": "Miriam Virginia Rojas Arenas",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "ciudad": "Ciudad: culiacan, sinaloa",
+  "departamento": "Departamento/Facultad: Ingeniería Industrial",
+  "calidad_general": 5.5,
+  "porcentaje_recomienda": 25,
+  "nivel_dificultad": 1.5,
+  "etiquetas": [],
+  "numero_calificaciones": 4,
+  "calificaciones": [
+    {
+      "fecha": "06/Jun/2018",
+      "tipo_calificacion": "REGULAR",
+      "puntaje_calidad_general": 5.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Relaciones Industriales",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "9",
+      "interes_clase": "",
+      "comentario": "Las clases son ella leyendo diapositivas o en el peor de los casos su celular durante toda la hora. Falta hasta una semana entera pero cuando va deja demasiada tarea. Los examenes los saca de las diapositivas pero son como 50 y a final de semestre deja muchos trabajos que solo te quitan tiempo.",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "09/Ene/2015",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 7.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Relaciones industriales",
+      "asistencia": "",
+      "calificacion_recibida": "9",
+      "interes_clase": "9",
+      "comentario": "Falta con regularidad, sus clases consisten en ella leyendo diapositivas y luego \"explicándolas\", así tema tras tema y al final del tema deja un trabajo practico, sus clases muy aburridas, calificaciones bajas y ves todo de manera superficial y rápida.",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "1"
+    },
+    {
+      "fecha": "14/Dic/2014",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 3.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Logística y Cadena de Suministros",
+      "asistencia": "",
+      "calificacion_recibida": "10",
+      "interes_clase": "10",
+      "comentario": "No domina los temas de la asignatura, es algo exigente, la clase es súper aburrida y casi no falta, igual creo que es la opción menos peor.",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "17/Ene/2014",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 7.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Administración Gerencial",
+      "asistencia": "",
+      "calificacion_recibida": "8.5",
+      "interes_clase": "8.5",
+      "comentario": "Muy tediosa su clase por la materia que imparte",
+      "etiquetas_comentario": [],
+      "votos_utiles": "1",
+      "votos_no_utiles": "0"
+    }
+  ]
+}

@@ -1,0 +1,370 @@
+{
+  "professor_id": "Martin_Leonardo_Nevarez_Rivas",
+  "nombre": "Martin Leonardo Nevarez Rivas",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 9.931748053193049,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 8.20628289295209,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.889,
+    "wilson_interval": [
+      0.6719975513339578,
+      0.9689811315464172
+    ],
+    "n_recommendations": 18
+  },
+  "subject_normalization": {
+    "z_mean": 0.54,
+    "z_mean_decayed": 0.69,
+    "per_subject": [
+      {
+        "materia": "TODAS",
+        "z_decayed": 0.819891591749923,
+        "n": 5
+      },
+      {
+        "materia": "PROGRAMACIÓN WEB",
+        "z_decayed": 0.8006407690254355,
+        "n": 3
+      },
+      {
+        "materia": "ESTRUCTURA DE DATOS",
+        "z_decayed": 0.6090824674492769,
+        "n": 31
+      },
+      {
+        "materia": "PROG. WEB",
+        "z_decayed": 0.5773502691896268,
+        "n": 3
+      },
+      {
+        "materia": "---",
+        "z_decayed": 0.3669551140670921,
+        "n": 521
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "sabe explica",
+          "explica",
+          "bien",
+          "es",
+          "sabe"
+        ],
+        "weight": 0.13992062209794243
+      },
+      {
+        "id": 1,
+        "words": [
+          "llega",
+          "si",
+          "profesor",
+          "excelente",
+          "excelente profesor"
+        ],
+        "weight": 0.11832073285064869
+      },
+      {
+        "id": 2,
+        "words": [
+          "comentario esperando",
+          "comentario",
+          "esperando",
+          "esperando revision",
+          "revision"
+        ],
+        "weight": 0.09908893705630564
+      },
+      {
+        "id": 3,
+        "words": [
+          "si",
+          "llega",
+          "mejores",
+          "lastima",
+          "faltar"
+        ],
+        "weight": 0.10032439013920877
+      },
+      {
+        "id": 4,
+        "words": [
+          "te",
+          "llega",
+          "si",
+          "mi",
+          "maestro"
+        ],
+        "weight": 0.13228831359313178
+      }
+    ],
+    "sentiment": {
+      "overall": 0.26666666666666666,
+      "by_month": {
+        "2024-04": 1.0,
+        "2023-10": 1.0,
+        "2023-06": 0.0,
+        "2022-12": 0.0,
+        "2012-08": 1.0,
+        "2012-03": 0.0,
+        "2011-12": 0.0,
+        "2011-08": 0.0,
+        "2011-06": 0.0,
+        "2011-05": 0.0,
+        "2011-04": 0.0,
+        "2011-03": 0.0,
+        "2011-01": 1.0
+      }
+    },
+    "n_comments": 15
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.019,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 0.99
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        10.0,
+        10.0,
+        9.0,
+        3.0,
+        2.0,
+        10.0,
+        10.0,
+        8.0,
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        10.0
+      ],
+      "ewma": [
+        10.0,
+        10.0,
+        9.7,
+        7.6899999999999995,
+        5.982999999999999,
+        7.188099999999999,
+        8.031669999999998,
+        8.022168999999998,
+        8.615518299999998,
+        9.030862809999999,
+        9.321603966999998,
+        9.525122776899998,
+        9.667585943829998,
+        9.767310160681,
+        9.8371171124767,
+        9.885981978733689
+      ],
+      "sigma": 1.8951425988698753
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 9.885981978733689,
+      "quality_band": [
+        6.171502484948734,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2024-04-18T00:00:00",
+      "materia": "PROGRAMACIÓN WEB",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Excelente profesor"
+    },
+    {
+      "fecha_iso": "2023-10-06T00:00:00",
+      "materia": "PROG. WEB",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Es muy buen profesor, sabe del tema y explica claro, pero falta demasiado, a veces llega a faltar hasta una semana entera y da lastima porque la materia si está muy interesante, en mi semestre llego a faltar mas de un mes en total :/."
+    },
+    {
+      "fecha_iso": "2023-06-01T00:00:00",
+      "materia": "PROGAM WEB",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "con los ojos cerrados cargaria de nuevo con el"
+    },
+    {
+      "fecha_iso": "2022-12-17T00:00:00",
+      "materia": "PROG WEB",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "De los mejores profes de sistemas, bastante infravalorado, lastima que suele faltar a menudo"
+    },
+    {
+      "fecha_iso": "2013-11-15T00:00:00",
+      "materia": "TODAS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2013-09-09T00:00:00",
+      "materia": "DADM",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2012-08-22T00:00:00",
+      "materia": "PROGRAMACIÓN DE SISTEMAS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Excelente profesor :)"
+    },
+    {
+      "fecha_iso": "2012-03-30T00:00:00",
+      "materia": "ESTRUCTURA DE DATOS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Sabe mucho y explica muy bien, ademas tiene buen sentido del humor, es de los mejores maestros que he tenido, no te pasa solo por pasarte pero tampoco se esfuerza por reprobarte, lo recomiendo mucho xD"
+    },
+    {
+      "fecha_iso": "2011-12-14T00:00:00",
+      "materia": "ESTRUCTURA DE DATOS",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Sabe mucho Explica con mucha claridad"
+    },
+    {
+      "fecha_iso": "2011-11-24T00:00:00",
+      "materia": "ESTRUCTURA DE DATOS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2011-08-28T00:00:00",
+      "materia": "SOFTWARE DE SIST.",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Muy buen maestro, sabe mucho y te explica muy bien, no fallando a las clases y participando aprendes. Lo recomiendo ampliamente."
+    },
+    {
+      "fecha_iso": "2011-06-08T00:00:00",
+      "materia": "ESTRUCTURA",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "me cai gordo y es bien culero"
+    },
+    {
+      "fecha_iso": "2011-05-07T00:00:00",
+      "materia": "---",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2011-04-26T00:00:00",
+      "materia": "SISTEMAS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "De lo mejor del tec!!!"
+    },
+    {
+      "fecha_iso": "2011-04-12T00:00:00",
+      "materia": "MUCHAS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Es La Mera Onda Super Recomendado, Sabe Muchisimo!! FElicidades Profe, Admiracio y respeto! Grax."
+    },
+    {
+      "fecha_iso": "2011-04-07T00:00:00",
+      "materia": "SISTEMAS",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Exelente maestro me enseño hacerle el Jailbreak untethered a mi Iphone. Se la rifa."
+    },
+    {
+      "fecha_iso": "2011-03-30T00:00:00",
+      "materia": "---",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2011-01-30T00:00:00",
+      "materia": "SOFTWARE DE SIST.",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "EXCELENTE MAESTRO, SIEMPRE TIENE UNA RESPUESTA PARA TODO, Y SI NO ES ASÍ AL DÍA SIGUIENTE TE LLEGA CON ALGO."
+    }
+  ],
+  "comments_recent": [
+    "Excelente profesor",
+    "Es muy buen profesor, sabe del tema y explica claro, pero falta demasiado, a veces llega a faltar hasta una semana entera y da lastima porque la materia si está muy interesante, en mi semestre llego a faltar mas de un mes en total :/.",
+    "con los ojos cerrados cargaria de nuevo con el",
+    "De los mejores profes de sistemas, bastante infravalorado, lastima que suele faltar a menudo",
+    "Excelente profesor :)",
+    "Sabe mucho y explica muy bien, ademas tiene buen sentido del humor, es de los mejores maestros que he tenido, no te pasa solo por pasarte pero tampoco se esfuerza por reprobarte, lo recomiendo mucho xD",
+    "Sabe mucho Explica con mucha claridad"
+  ],
+  "n_reviews": 18
+}

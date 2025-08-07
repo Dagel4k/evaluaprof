@@ -1,0 +1,267 @@
+{
+  "professor_id": "José_Luis_López_Audeves",
+  "nombre": "José Luis López Audeves",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 8.883125772379701,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 6.608377190602788,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.545,
+    "wilson_interval": [
+      0.2800877556899882,
+      0.7872904245601196
+    ],
+    "n_recommendations": 11
+  },
+  "subject_normalization": {
+    "z_mean": -0.31,
+    "z_mean_decayed": -0.18,
+    "per_subject": [
+      {
+        "materia": "REDES",
+        "z_decayed": 0.7189420262655407,
+        "n": 21
+      },
+      {
+        "materia": "REDES DE COMPUTADORAS",
+        "z_decayed": -0.9607585945170108,
+        "n": 15
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "aprendes",
+          "buen",
+          "si",
+          "profesor",
+          "es"
+        ],
+        "weight": 0.15116378843691444
+      },
+      {
+        "id": 1,
+        "words": [
+          "si",
+          "buen",
+          "realmente",
+          "buen maestro",
+          "maestro"
+        ],
+        "weight": 0.19500411207362495
+      },
+      {
+        "id": 2,
+        "words": [
+          "aprendes",
+          "realmente",
+          "dice",
+          "tiene",
+          "alumnos"
+        ],
+        "weight": 0.2583380458156408
+      },
+      {
+        "id": 3,
+        "words": [
+          "buen",
+          "solo",
+          "cosas",
+          "te",
+          "examenes"
+        ],
+        "weight": 0.1688483122859353
+      }
+    ],
+    "sentiment": {
+      "overall": 0.1111111111111111,
+      "by_month": {
+        "2022-12": 0.0,
+        "2017-01": 0.0,
+        "2016-02": 1.0,
+        "2015-05": 0.0,
+        "2014-08": 0.0,
+        "2013-06": 0.0,
+        "2012-08": 0.0,
+        "2011-08": 0.0,
+        "2011-01": 0.0
+      }
+    },
+    "n_comments": 9
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        10.0,
+        2.0,
+        2.0,
+        5.0,
+        2.0,
+        2.0,
+        10.0,
+        9.0,
+        7.0,
+        10.0
+      ],
+      "ewma": [
+        10.0,
+        7.6,
+        5.919999999999999,
+        5.643999999999999,
+        4.550799999999999,
+        3.785559999999999,
+        5.6498919999999995,
+        6.654924399999999,
+        6.758447079999998,
+        7.730912955999998
+      ],
+      "sigma": 3.048909687707602
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 7.730912955999998,
+      "quality_band": [
+        1.7550499680930987,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2022-12-11T00:00:00",
+      "materia": "FUNDAMENTOS DE REDES",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "La neta la gente que dice que no le entiende es la misma gente que tiene una papa en la cabeza ya que con el si entenderas mucho y aprenderas bastante"
+    },
+    {
+      "fecha_iso": "2017-01-30T00:00:00",
+      "materia": "FUNDAMENTOS DE REDES",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 1,
+      "comentario": "Aprendes mucho con el pero tiene preferencias por ciertos alumnos,"
+    },
+    {
+      "fecha_iso": "2016-02-05T00:00:00",
+      "materia": "INTRODUCTION.",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": "Realmente buen maestro, claro para explicar, deja muchos trabajos que tienes que entender o no cuentan como calificación, te enseña a trabajar y ver las cosas de otra perspectiva. realmente si pueden carguen con el y aprenderán mucho no solo su materia."
+    },
+    {
+      "fecha_iso": "2015-05-15T00:00:00",
+      "materia": "REDES",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "muy buen profesor , aprendes..y no solo es de teoría y cisco como muchos profesores, el te explica lo que es en la vida real y como son todas las cosas, en mi opinion muy buen profesor no es facil pasar con el ni sus examenes pero aprendes por que prendes si asi lo deseas :)"
+    },
+    {
+      "fecha_iso": "2014-08-06T00:00:00",
+      "materia": "REDES DE COMPUTADORAS",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 7.5,
+      "recomienda": 0,
+      "comentario": "No combine con audeves!! Cree saber mas de lo que realmente sabe. . dice puras estupideces en sus clases... y así seas un buen alumnos siempre paga con una calificación mala!! Mi recomendación nadie lleve clases con el"
+    },
+    {
+      "fecha_iso": "2013-06-18T00:00:00",
+      "materia": "INT A LA ING EN SIST. Y REDES",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 1.0,
+      "recomienda": 0,
+      "comentario": "de los peores maestros del tec, segun el quiere que de acostumbres a sufrir y estudiar por que los maestros del tec son pesados, pero a costa de que?, de que no aprendas nada en su clase y aparte te ponga examenes y proyectos muy dificiles que ni el podria hacer."
+    },
+    {
+      "fecha_iso": "2012-08-14T00:00:00",
+      "materia": "REDES DE COMPUTADORAS",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 7.5,
+      "recomienda": 0,
+      "comentario": "Es un buen maestro, pero su manera de enseñar no es muy recomendable, hay mejores maestro que el, y los demas si te explican mejor con claridad, es la ultima opcion que puedes tener"
+    },
+    {
+      "fecha_iso": "2011-08-18T00:00:00",
+      "materia": "INT. A LA ING. EN SUS TEMAS O QUE DIGA SISTEMAS ¬¬",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "El peor profesor que me pudo haber tocado es un asco"
+    },
+    {
+      "fecha_iso": "2011-01-10T00:00:00",
+      "materia": "INTRODUCCIÓN A INGENIERÍA EN SISTEMAS",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 0,
+      "comentario": "Muy mal maestro."
+    },
+    {
+      "fecha_iso": "2010-09-28T00:00:00",
+      "materia": "INTR. A LA ING. EN SISTEMAS COMPUTACIONALES",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2010-09-21T00:00:00",
+      "materia": "INTRODUCCIÓN A LA INGENIERÍA EN SISTEMAS COMPUTACIONALE",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": ""
+    }
+  ],
+  "comments_recent": [
+    "La neta la gente que dice que no le entiende es la misma gente que tiene una papa en la cabeza ya que con el si entenderas mucho y aprenderas bastante",
+    "Aprendes mucho con el pero tiene preferencias por ciertos alumnos,",
+    "Realmente buen maestro, claro para explicar, deja muchos trabajos que tienes que entender o no cuentan como calificación, te enseña a trabajar y ver las cosas de otra perspectiva. realmente si pueden carguen con el y aprenderán mucho no solo su materia.",
+    "muy buen profesor , aprendes..y no solo es de teoría y cisco como muchos profesores, el te explica lo que es en la vida real y como son todas las cosas, en mi opinion muy buen profesor no es facil pasar con el ni sus examenes pero aprendes por que prendes si asi lo deseas :)",
+    "No combine con audeves!! Cree saber mas de lo que realmente sabe. . dice puras estupideces en sus clases... y así seas un buen alumnos siempre paga con una calificación mala!! Mi recomendación nadie lleve clases con el",
+    "de los peores maestros del tec, segun el quiere que de acostumbres a sufrir y estudiar por que los maestros del tec son pesados, pero a costa de que?, de que no aprendas nada en su clase y aparte te ponga examenes y proyectos muy dificiles que ni el podria hacer.",
+    "Es un buen maestro, pero su manera de enseñar no es muy recomendable, hay mejores maestro que el, y los demas si te explican mejor con claridad, es la ultima opcion que puedes tener",
+    "El peor profesor que me pudo haber tocado es un asco",
+    "Muy mal maestro."
+  ],
+  "n_reviews": 11
+}

@@ -1,0 +1,618 @@
+{
+  "nombre": "Jesús Manuel Acosta Mejía",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "ciudad": "Ciudad: culiacan, sinaloa",
+  "departamento": "Departamento/Facultad: Economico-administrativo",
+  "calidad_general": 7.3,
+  "porcentaje_recomienda": 65,
+  "nivel_dificultad": 3.8,
+  "etiquetas": [
+    "CALIFICA DURO (12)",
+    "DEJA TRABAJOS LARGOS (5)",
+    "LOS EXÁMENES SON DIFÍCILES (9)",
+    "RESPETADO POR LOS ESTUDIANTES (5)",
+    "DA CRÉDITO EXTRA (1)",
+    "BRINDA APOYO (3)",
+    "TOMARÍA SU CLASE OTRA VEZ (3)",
+    "DA BUENA RETROALIMENTACIÓN (2)",
+    "MUCHOS EXÁMENES (2)",
+    "MUCHAS TAREAS (4)"
+  ],
+  "numero_calificaciones": 37,
+  "calificaciones": [
+    {
+      "fecha": "03/Jun/2025",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 2.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "contabilidad financiera",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "9",
+      "interes_clase": "",
+      "comentario": "el peor profesor con el que pude tratar, si quieres hacerte la vida imposible, carga con el, exámenes a deshoras(3 am), califica como le da su gana y nunca es claro con sus clases, se burla de ti y es super soberbio",
+      "etiquetas_comentario": [
+        "Califica Duro",
+        "Las clases son largas",
+        "Los exámenes son difíciles"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "25/May/2025",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 7.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Contabilidad Financiera",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "23",
+      "interes_clase": "",
+      "comentario": "Big Show. Profe horrible, explica demasiado rápido pero si puedes seguirle el paso entonces aprendes una que otra cosa. Es muy exigente tanto con sus exámenes como con sus tareas, sus recuperaciones valen cada vez menos dependiendo del intento que hagas. Si tienen la oportunidad, evitenlo",
+      "etiquetas_comentario": [
+        "Califica Duro",
+        "Muchas tareas",
+        "Los exámenes son difíciles"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "13/May/2025",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 2.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Contabilidad Financiera",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "5",
+      "interes_clase": "",
+      "comentario": "muy mal profe en todos los aspectos del estudio podra tener personalidad agradable pero lo unico que hace es perjudicarte, no enseñarte y estresarte mas en vez de enseñar con claridad",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "07/May/2025",
+      "tipo_calificacion": "REGULAR",
+      "puntaje_calidad_general": 5.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Administración",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "7",
+      "interes_clase": "",
+      "comentario": "Explica muy rápido en poco tiempo los temas, solo el 5% como de 4 salones pasaron, en mi opinión no lo recomiendo, evítenlo para quitarse un dolor de cabeza, eso sí es buena persona en el aspecto de personalidad, pero tratándose de estudio nada que ver.",
+      "etiquetas_comentario": [
+        "Califica Duro"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "12/Abr/2025",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 2.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Contabilidad financiera",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "7",
+      "interes_clase": "",
+      "comentario": "Se pasó de verga, me hizo una chokeslam desde lo alto del Up",
+      "etiquetas_comentario": [
+        "Califica Duro",
+        "Las clases son largas",
+        "Deja trabajos largos"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "22/Nov/2024",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 7.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Costos empresariales",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "9.5",
+      "interes_clase": "",
+      "comentario": "Muy buen profe, si exige mucho, pero aprendes bastante bien y cuando anda de buenas hasta cae bien",
+      "etiquetas_comentario": [
+        "Califica Duro",
+        "Los exámenes son difíciles",
+        "Tomaría su clase otra vez"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "10/Oct/2024",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Costos empresariales",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "Muy buen maestro solo que a veces va muy rápidos con los temas, pero manda videos y sirven bastante de apoyo",
+      "etiquetas_comentario": [
+        "La Participación Importa",
+        "Deja trabajos largos"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "13/Ago/2024",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 7.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Costos empresariales",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "7",
+      "interes_clase": "",
+      "comentario": "",
+      "etiquetas_comentario": [
+        "Califica Duro",
+        "Los exámenes son difíciles"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "23/Jun/2024",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Contabilidad financiera",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "Recomendado",
+      "etiquetas_comentario": [
+        "Califica Duro",
+        "Muchas tareas",
+        "Respetado por los estudiantes"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "15/Mar/2024",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Gestión de costos",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "Excelente maestro, ayuda mucho",
+      "etiquetas_comentario": [
+        "Respetado por los estudiantes"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "15/Dic/2023",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 2.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "GESTION",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "N/A",
+      "interes_clase": "",
+      "comentario": "B",
+      "etiquetas_comentario": [
+        "Muchas tareas",
+        "Deja trabajos largos",
+        "Los exámenes son difíciles"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "21/Ene/2021",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Calculo Diferencial",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "Es un muy buen maestro, comprensivo y explica súper bien, para pasar con el solo ocupas poner atención",
+      "etiquetas_comentario": [
+        "Da buena retroalimentación",
+        "Brinda apoyo",
+        "Tomaría su clase otra vez"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "13/Jun/2020",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Contabilidad financiera",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "Es un excelente maestro, es comprensivo cuando no le entiendes y te explica",
+      "etiquetas_comentario": [
+        "Prepárate para leer",
+        "Respetado por los estudiantes",
+        "Los exámenes son difíciles"
+      ],
+      "votos_utiles": "1",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "03/Mar/2020",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 2.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "costos",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "6.5",
+      "interes_clase": "",
+      "comentario": "no sirve como maestro",
+      "etiquetas_comentario": [
+        "Barco"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "1"
+    },
+    {
+      "fecha": "12/Ene/2020",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "GESTIÓN DE COSTOS",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "9",
+      "interes_clase": "",
+      "comentario": "Es un profesor muy completo, interesado por su materia y por sus alumnos. Deja demasiados trabajos pero siempre con la finalidad de que aprendas.",
+      "etiquetas_comentario": [
+        "Muchos Exámenes",
+        "Deja trabajos largos",
+        "Clases excelentes"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "12/Ene/2020",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 8.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Gestión de costos",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "8.5",
+      "interes_clase": "",
+      "comentario": "Es fácil si le echas ganas y te gusta la materia, por el contrario creerás que es RC desde el principio, pero neta te da muchísimas oportunidades y si ve que te esforzaste al final te pasará. Aprendes muchísimo.",
+      "etiquetas_comentario": [
+        "Califica Duro",
+        "Muchas tareas",
+        "Respetado por los estudiantes"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "14/Ene/2019",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Gestión de Costos",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "N/A",
+      "interes_clase": "",
+      "comentario": "Es un excelente profesor! Muy estricto, pero te ayuda si le echas ganas. Resuelve todas tus dudas, yo lo recomiendo si quieres aprender. Si vas solo por la calificación, no cargues con el.",
+      "etiquetas_comentario": [],
+      "votos_utiles": "2",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "10/Ene/2019",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Gestión de costos",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "Es muy extricto el cabron, explica muy bien, califica algo duro nada fuera de lo normal, da asesoría los viernes , pero si eres de los que te vale v... No carges porque el bigshow te dará su super golpe... Jajajaja jajajaja",
+      "etiquetas_comentario": [
+        "Califica Duro"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "2"
+    },
+    {
+      "fecha": "17/Ago/2018",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 2.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Contabilidad",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "25",
+      "interes_clase": "",
+      "comentario": "",
+      "etiquetas_comentario": [
+        "Califica Duro",
+        "Muchos Exámenes",
+        "Los exámenes son difíciles"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "1"
+    },
+    {
+      "fecha": "12/Jun/2018",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "GESTION DE COSTOS",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "Es un maestro excelente bastante duro dificil sus examenes debido a que hay que razonarlo es muy pasciente te brinda asesorias los viernes, pero si eres flojo mejor no carges con el es bien canijo.",
+      "etiquetas_comentario": [
+        "Brinda apoyo"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "11/Jun/2018",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 2.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Gestión de costos",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "24",
+      "interes_clase": "",
+      "comentario": "Malísimo",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "1"
+    },
+    {
+      "fecha": "09/Jun/2018",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Gestión de costos",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "Excelente maestro la verdad solo no pasa el que es huevon, te hace pensar lo que muchos no quieren, si eres flojo y no quieres aprender no cargues con el. Buscate los otros maestros barcos.",
+      "etiquetas_comentario": [
+        "Da buena retroalimentación"
+      ],
+      "votos_utiles": "1",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "07/Jun/2018",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Gestión de Costos",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "8",
+      "interes_clase": "",
+      "comentario": "",
+      "etiquetas_comentario": [
+        "Da Crédito Extra",
+        "Brinda apoyo",
+        "Tomaría su clase otra vez"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "16/May/2018",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 2.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Gestión de costos",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "22",
+      "interes_clase": "",
+      "comentario": "Explica muuuuy mal, sus clases muuy confusas, examenes muy largos y dificiles, se clava mucho en la materia y cree que todos somos contadores, NO LO RECOMIENDO PARA NADA.",
+      "etiquetas_comentario": [
+        "Los exámenes son difíciles"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "2"
+    },
+    {
+      "fecha": "20/Mar/2018",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Gestión de costos",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "Excelente maestro, es fuerte con los comentarios pero hacen falta.",
+      "etiquetas_comentario": [
+        "Respetado por los estudiantes"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "14/Ene/2018",
+      "tipo_calificacion": "REGULAR",
+      "puntaje_calidad_general": 4.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Gestión de costos",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "8",
+      "interes_clase": "",
+      "comentario": "",
+      "etiquetas_comentario": [
+        "Califica Duro",
+        "Deja trabajos largos",
+        "Los exámenes son difíciles"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "08/Ago/2017",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "contabilidad orientada a los negocios",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "si quieres aprender de contabilidad el es el indicado pero si tienes que estudiar explica muy bien",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "05/Jun/2016",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "CONTABILIDAD ORIENTADA A LOS NEGOCIOS",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "LA VERDAD NO ES UN MAESTRO QUE TE CAIGA BIEN, ES MUY DURO EXPLICA MUY BIEN, SE LOS RECOMIENDO SI QUIEREN APRENDER Y SUFRIR",
+      "etiquetas_comentario": [
+        "Califica Duro"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "15/Ene/2015",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Contabilidad Financiera",
+      "asistencia": "",
+      "calificacion_recibida": "9.5",
+      "interes_clase": "9.5",
+      "comentario": "Habla muy bajo, pero es muy buen maestro",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "14/Ene/2015",
+      "tipo_calificacion": "REGULAR",
+      "puntaje_calidad_general": 5.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Contablidad",
+      "asistencia": "",
+      "calificacion_recibida": "N/A",
+      "interes_clase": "N/A",
+      "comentario": "Habla bajo, no se le entiende bien, no sabe explicar. Es fácil pasar si se estudia de verdad (de forma independiente) pero él no es muy comprensible.",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "07/Ene/2015",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 9.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Costos",
+      "asistencia": "",
+      "calificacion_recibida": "N/A",
+      "interes_clase": "N/A",
+      "comentario": "Muy buen profesor, exámenes fáciles ademas que aprendes mucho. Enseña cosas practicas que te sirven mucho",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "03/Feb/2014",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "GESTION DE COSTOS",
+      "asistencia": "",
+      "calificacion_recibida": "10",
+      "interes_clase": "10",
+      "comentario": "100% RECOMENDADO TE ENSEÑA Y TE AYUDA APRENDAS DE MANERA PRACTICA SIN TANTA TEORIA ENFADOSA",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "13/Ene/2014",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 7.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Gestion de Costos",
+      "asistencia": "",
+      "calificacion_recibida": "10",
+      "interes_clase": "10",
+      "comentario": "explica medio enredoso, aprendes mas o menos, los examenes estan faciles, pero te apoya un monton",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "27/Jul/2013",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "economia",
+      "asistencia": "",
+      "calificacion_recibida": "10",
+      "interes_clase": "10",
+      "comentario": "Es un buen profesor se preocupa para que aprendas cuando uno le interesa saber te apoya hay muchos.",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "18/Jul/2013",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 2.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Economía",
+      "asistencia": "",
+      "calificacion_recibida": "N/A",
+      "interes_clase": "N/A",
+      "comentario": "Falta mucho y no sabe nada, así que no se sí es mejor que no asista regularmente, porque no aclara nada, le vale y al final nos pasa a todos aunque no sepamos nada, creo que así comienza no asistir. No se lo recomiendo, no aprendes nada.",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "16/Ene/2013",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "economia",
+      "asistencia": "",
+      "calificacion_recibida": "N/A",
+      "interes_clase": "N/A",
+      "comentario": "Este maestro lleva las materias muy fáciles, falta mucho pero hace exámenes orales o escritos y al final te ayuda con calificación.",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "30/Oct/2012",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Fudamentos de Investigación",
+      "asistencia": "",
+      "calificacion_recibida": "10",
+      "interes_clase": "10",
+      "comentario": "Este profe sabe que esta materia no es gran cosa y te no te exige gran cosa, falta mucho como parte de eso, sus exámenes sean orales o escritos son fáciles y el proyecto que pide puede ser algo muy sencillo.",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    }
+  ]
+}

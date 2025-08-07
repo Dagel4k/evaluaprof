@@ -1,0 +1,313 @@
+{
+  "professor_id": "Eraclio_Bernal_Salcedo",
+  "nombre": "Eraclio Bernal Salcedo",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 3.203655462943639,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 5.3380835218547205,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.308,
+    "wilson_interval": [
+      0.1268049716161809,
+      0.5763111218666236
+    ],
+    "n_recommendations": 13
+  },
+  "subject_normalization": {
+    "z_mean": -0.78,
+    "z_mean_decayed": -1.0,
+    "per_subject": [
+      {
+        "materia": "CONTROL ESTADÍSTICO DE LA CALIDAD",
+        "z_decayed": 0.0,
+        "n": 3
+      },
+      {
+        "materia": "MANTENIMIENTO",
+        "z_decayed": -0.6040183018376609,
+        "n": 22
+      },
+      {
+        "materia": "ADMINISTRACIÓN DEL MANTENIMIENTO",
+        "z_decayed": -1.0945772132578837,
+        "n": 6
+      },
+      {
+        "materia": "CONTROL",
+        "z_decayed": -1.4688260880052868,
+        "n": 14
+      },
+      {
+        "materia": "CONTROL ESTADÍSTICO DE CALIDAD",
+        "z_decayed": -1.8644976136620155,
+        "n": 8
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "examen",
+          "reprueba",
+          "solo te",
+          "solo",
+          "te"
+        ],
+        "weight": 0.07108688389955548
+      },
+      {
+        "id": 1,
+        "words": [
+          "clases aburridas",
+          "aburridas puros",
+          "dictados diapositivas",
+          "puros dictados",
+          "puros"
+        ],
+        "weight": 0.14060635265326152
+      },
+      {
+        "id": 2,
+        "words": [
+          "recomiendo",
+          "ensena",
+          "peor",
+          "siempre",
+          "es"
+        ],
+        "weight": 0.17851774702352438
+      },
+      {
+        "id": 3,
+        "words": [
+          "recomiendo",
+          "materia",
+          "clases",
+          "da",
+          "debe"
+        ],
+        "weight": 0.12372356622744164
+      },
+      {
+        "id": 4,
+        "words": [
+          "anecdotas",
+          "sencillos",
+          "si",
+          "tu",
+          "te"
+        ],
+        "weight": 0.13086885161105558
+      }
+    ],
+    "sentiment": {
+      "overall": 0.07692307692307693,
+      "by_month": {
+        "2023-06": 0.0,
+        "2021-01": 0.0,
+        "2020-08": 0.0,
+        "2019-09": 0.0,
+        "2018-04": 0.0,
+        "2018-01": 0.0,
+        "2015-12": 0.0,
+        "2015-08": 0.0,
+        "2015-01": 0.3333333333333333,
+        "2014-06": 0.0
+      }
+    },
+    "n_comments": 13
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        7.0,
+        5.0,
+        7.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        10.0,
+        2.0
+      ],
+      "ewma": [
+        7.0,
+        6.3999999999999995,
+        6.58,
+        5.2059999999999995,
+        4.244199999999999,
+        3.5709399999999993,
+        3.0996579999999994,
+        2.7697605999999997,
+        4.93883242,
+        4.057182694
+      ],
+      "sigma": 2.2816498824372426
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 4.057182694,
+      "quality_band": [
+        0.0,
+        8.529216463576995
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2023-06-30T00:00:00",
+      "materia": "ADM. DE PRODUCTIVIDAD",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 5.0,
+      "recomienda": 0,
+      "comentario": "te manda a rc aunque hayas pasado, no puedes hacer nada al respecto porque en finales no entrega ningún examen ni da aclaraciones, no cargues con el, solo te va a atrasar.\nreprueba grupos enteros por sus ganas."
+    },
+    {
+      "fecha_iso": "2023-06-07T00:00:00",
+      "materia": "ADMN DE  PDD",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "ES UN MAESTRO QUE NO SABE ENSEÑAR, SOLO LEE DIAPOSITIVAS Y CUANDO QUIERE EXPLICAR ALGO EN EXCEL SOLO TE CONFUNDE MAS, TODO ES JUEGO PARA EL Y TE REPRUEBA PARA QUE LLEVES VERANO"
+    },
+    {
+      "fecha_iso": "2021-01-20T00:00:00",
+      "materia": "CONTROL ESTADÍSTICO DE LA CALIDAD",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "lo funaron."
+    },
+    {
+      "fecha_iso": "2020-08-14T00:00:00",
+      "materia": "CONTROL ESTADÍSTICO DE CALIDAD",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 0,
+      "comentario": "No lo recomiendo para nada. No tiene idea de la materia sus clases son puro dictar. Vas a pasar sin aprender nada"
+    },
+    {
+      "fecha_iso": "2019-09-19T00:00:00",
+      "materia": "CONTROL",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 0,
+      "comentario": "No lo recomiendo para nada. Cargar con el es una pérdida de tiempo. Es de lo peor qué hay en el tec, prepotente como la chacala. Siempre anda buscando a los profes para que pasen a su hijo. No se dejen manipular"
+    },
+    {
+      "fecha_iso": "2018-04-12T00:00:00",
+      "materia": "ADMINISTRACIÓN DEL MANTENIMIENTO",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 0,
+      "comentario": "mierda pura"
+    },
+    {
+      "fecha_iso": "2018-01-14T00:00:00",
+      "materia": "ADMINISTRACION DE LA PRODUCTIVIDAD",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "La materia es sencilla pero este maestro no enseña nada. No lo recomiendo. Debe aver mejores opciones"
+    },
+    {
+      "fecha_iso": "2015-12-21T00:00:00",
+      "materia": ".",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "No da sus clases como debe"
+    },
+    {
+      "fecha_iso": "2015-08-05T00:00:00",
+      "materia": "ADMINISTRACIÓN DEL MANTENIMIENTO",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Sus clases es escucharlo exponer sus diapositivas , escuchar sus anécdotas y escribir en tu libreta. Los exámenes sencillos, si faltas mucho te baja puntos y no le gusta que platiquen en el salón."
+    },
+    {
+      "fecha_iso": "2015-01-31T00:00:00",
+      "materia": "ADMINISTRACIÓN DEL MANTENIMIENTO",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Excelente maestro, te explica muy bien, te da ejemplos de cada tema que ve, sus exámenes están sencillos, prestale atención asus anecdotas, las pregunta en el examen. Llega tarde, pero si tu llegas tarde no te deja entrar."
+    },
+    {
+      "fecha_iso": "2015-01-08T00:00:00",
+      "materia": "PRODUCTIVIDAD",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 0,
+      "comentario": "De 51 materias que tiene industrial este personaje fue el peor maestro de todos. La razón, siempre busca la manera de humillarte y no enseña nada"
+    },
+    {
+      "fecha_iso": "2015-01-07T00:00:00",
+      "materia": "MANTENIMIENTO",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Clases aburridas, puros dictados y diapositivas. No vas a aprender nada y el que no saca mas de 95 es champion"
+    },
+    {
+      "fecha_iso": "2014-06-21T00:00:00",
+      "materia": "MANTENIMIENTO",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "No lo recomiendo, no vimos casi nada y mas que nada fueron conceptos, sus clases muy aburridas, puros dictados y diapositivas"
+    }
+  ],
+  "comments_recent": [
+    "te manda a rc aunque hayas pasado, no puedes hacer nada al respecto porque en finales no entrega ningún examen ni da aclaraciones, no cargues con el, solo te va a atrasar.\nreprueba grupos enteros por sus ganas.",
+    "ES UN MAESTRO QUE NO SABE ENSEÑAR, SOLO LEE DIAPOSITIVAS Y CUANDO QUIERE EXPLICAR ALGO EN EXCEL SOLO TE CONFUNDE MAS, TODO ES JUEGO PARA EL Y TE REPRUEBA PARA QUE LLEVES VERANO",
+    "lo funaron.",
+    "No lo recomiendo para nada. No tiene idea de la materia sus clases son puro dictar. Vas a pasar sin aprender nada",
+    "No lo recomiendo para nada. Cargar con el es una pérdida de tiempo. Es de lo peor qué hay en el tec, prepotente como la chacala. Siempre anda buscando a los profes para que pasen a su hijo. No se dejen manipular",
+    "mierda pura",
+    "La materia es sencilla pero este maestro no enseña nada. No lo recomiendo. Debe aver mejores opciones",
+    "No da sus clases como debe",
+    "Sus clases es escucharlo exponer sus diapositivas , escuchar sus anécdotas y escribir en tu libreta. Los exámenes sencillos, si faltas mucho te baja puntos y no le gusta que platiquen en el salón.",
+    "Excelente maestro, te explica muy bien, te da ejemplos de cada tema que ve, sus exámenes están sencillos, prestale atención asus anecdotas, las pregunta en el examen. Llega tarde, pero si tu llegas tarde no te deja entrar."
+  ],
+  "n_reviews": 13
+}

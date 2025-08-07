@@ -1,0 +1,499 @@
+{
+  "professor_id": "jose_alessandri_pimienta_dominguez",
+  "nombre": "jose alessandri pimienta dominguez",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 8.58683305803488,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.507074897504065,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.655,
+    "wilson_interval": [
+      0.47344776507155983,
+      0.8005949125080952
+    ],
+    "n_recommendations": 29
+  },
+  "subject_normalization": {
+    "z_mean": 0.24,
+    "z_mean_decayed": 0.44,
+    "per_subject": [
+      {
+        "materia": "CALCULO INTEGRAL",
+        "z_decayed": 0.6026301168357524,
+        "n": 84
+      },
+      {
+        "materia": "CALCULO DIFERENCIAL",
+        "z_decayed": 0.5775445006124648,
+        "n": 110
+      },
+      {
+        "materia": "CÁLCULO DIFERENCIAL",
+        "z_decayed": 0.08380620985427228,
+        "n": 46
+      },
+      {
+        "materia": "CÁLCULO INTEGRAL",
+        "z_decayed": -0.39421492285986004,
+        "n": 24
+      },
+      {
+        "materia": "---",
+        "z_decayed": -0.7310458567187247,
+        "n": 521
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "profesor",
+          "ayuda",
+          "te ayuda",
+          "es",
+          "te"
+        ],
+        "weight": 0.1298176749632358
+      },
+      {
+        "id": 1,
+        "words": [
+          "comentario esperando",
+          "comentario",
+          "esperando revision",
+          "esperando",
+          "revision"
+        ],
+        "weight": 0.06429654271769902
+      },
+      {
+        "id": 2,
+        "words": [
+          "dinamicas",
+          "materia",
+          "es",
+          "verdad",
+          "aprender"
+        ],
+        "weight": 0.11244922580654222
+      },
+      {
+        "id": 3,
+        "words": [
+          "mas",
+          "pone",
+          "examenes",
+          "solo",
+          "clase"
+        ],
+        "weight": 0.12198868409105139
+      },
+      {
+        "id": 4,
+        "words": [
+          "profesor",
+          "bien",
+          "mymathlab",
+          "exelente profesor",
+          "exelente"
+        ],
+        "weight": 0.0815474318202042
+      }
+    ],
+    "sentiment": {
+      "overall": -0.04,
+      "by_month": {
+        "2025-06": 0.0,
+        "2025-05": -1.0,
+        "2024-06": 0.0,
+        "2022-10": 0.0,
+        "2021-03": -1.0,
+        "2020-12": 1.0,
+        "2018-07": -1.0,
+        "2017-02": 0.0,
+        "2016-01": 0.0,
+        "2015-12": -1.0,
+        "2015-08": 0.0,
+        "2015-03": 0.0,
+        "2014-01": 0.0,
+        "2013-10": 0.5,
+        "2013-08": 0.0,
+        "2013-07": 0.0,
+        "2013-06": 1.0,
+        "2012-11": 0.0,
+        "2012-08": 0.0,
+        "2012-06": 1.0,
+        "2012-03": 0.0,
+        "2011-10": -1.0,
+        "2011-08": 0.0
+      }
+    },
+    "n_comments": 25
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.003,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        5.0,
+        4.0,
+        9.5,
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        2.0,
+        10.0,
+        9.0,
+        10.0,
+        4.0,
+        7.0,
+        10.0,
+        9.0,
+        3.0,
+        3.0,
+        5.0,
+        6.0,
+        9.0,
+        4.0,
+        6.0,
+        10.0,
+        10.0,
+        9.0,
+        10.0
+      ],
+      "ewma": [
+        5.0,
+        4.7,
+        6.140000000000001,
+        7.298,
+        8.1086,
+        8.67602,
+        9.073214,
+        6.951249799999999,
+        7.865874859999999,
+        8.206112401999999,
+        8.744278681399999,
+        7.320995076979999,
+        7.224696553886,
+        8.0572875877202,
+        8.340101311404139,
+        6.738070917982897,
+        5.616649642588028,
+        5.431654749811619,
+        5.6021583248681335,
+        6.621510827407693,
+        5.835057579185385,
+        5.884540305429769,
+        7.119178213800838,
+        7.983424749660586,
+        8.28839732476241,
+        8.801878127333687
+      ],
+      "sigma": 2.1290246730125606
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 8.801878127333687,
+      "quality_band": [
+        4.628989768229069,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2025-06-16T00:00:00",
+      "materia": "CALCULO INTEGRAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 24.0,
+      "recomienda": 1,
+      "comentario": "Si le cumples con todo y te ve con brillo te exenta sin problema, lo unico pesado es cuando deje el proyecto pero con una buena organizacion se hace facil."
+    },
+    {
+      "fecha_iso": "2025-05-31T00:00:00",
+      "materia": "CALCULO INTEGRAL",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Al principio parecía un profesor complicado y que no te dejaría las cosas fáciles, conforme avanzan las clases ves que es un profesor tranquilo pero serio, si asistes y participas en clase te exenta de los exámenes, deja tareas sencillas y te ayuda si tienes problemas"
+    },
+    {
+      "fecha_iso": "2024-06-06T00:00:00",
+      "materia": "CALCULO INTEGRAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Este profesor es bueno pero siempre se va por lo mas fácil, si buscas un nivel mas difícil no cargues con el. Este maestro exenta a la mayoría, pero no a todos, y en mi semestre falto unas 13 veces aproximadamente. Cumple con todos los temas y deja tareas ????????."
+    },
+    {
+      "fecha_iso": "2023-10-31T00:00:00",
+      "materia": "CÁLCULO DIFERENCIAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2022-10-28T00:00:00",
+      "materia": "CÁLCULO DIFERENCIAL",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 0,
+      "comentario": "Es muy seco en como corrige, no se tomen nada personal"
+    },
+    {
+      "fecha_iso": "2021-03-17T00:00:00",
+      "materia": "CALCULO INTEGRA",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": "Solo pone sus diapositivas donde escribe horrible y enseña horrible, clases aburridisimas aparte sus examenes si tienen nivel complicado, no lo recomiendo."
+    },
+    {
+      "fecha_iso": "2020-12-29T00:00:00",
+      "materia": "CALCULO DIFERENCIAL.",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Es un profesor claro y estricto , se da a respetar como todo profesor deberia de hacerlo, lo mejor de todo que materias dificiles poniendo atencion, las hara ver faciles, el te ayuda bastante."
+    },
+    {
+      "fecha_iso": "2019-08-04T00:00:00",
+      "materia": "CÁLCULO DIFERENCIAL",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 0,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2018-08-04T00:00:00",
+      "materia": "CALCULO INTEGRAL",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 24.0,
+      "recomienda": 0,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2018-07-30T00:00:00",
+      "materia": "CALCULO INTEGRAL",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 0,
+      "comentario": "Nunca vuelvo a cargar con él, no faltó ni un dia y queria que todo lo trajeramos nosotros y el nomas apuntar en el pizarron, me hizo muy dificil una materia que era sencilla la verdad siento que no me enseño nada él, investigue me maté y me quedo un maldito 80. Tienes que aprender por ti mismo todo."
+    },
+    {
+      "fecha_iso": "2017-02-04T00:00:00",
+      "materia": "---",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2016-01-16T00:00:00",
+      "materia": "CALCULO INTEGRAL",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Buen maestro, cuando te mande a realizar los RC ve y presentalos asi se dara cuenta que te interesa la materia y puede que te ayude."
+    },
+    {
+      "fecha_iso": "2015-12-24T00:00:00",
+      "materia": "CALCULO DIFERENCIAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Es buen profesor lo recomiendo, enseña claramente y si tienes duda te las aclara ya sea en su clase o en alguna asesoria, no es muy dificil sacar una buena calificacion siempre y cuando estudies. lo unico malo es que no vez mucho en cuanto a su materia, podrias ver mas con otros profesores"
+    },
+    {
+      "fecha_iso": "2015-08-20T00:00:00",
+      "materia": "CÁLCULO INTEGRAL",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Te pone a trabajar en clase y deja tareas, toma asistencia diario también, pero si te aplicas en clase y repasas un poco los ejercicios de tarea y en clase pasas los exámenes con más de 90 fácil."
+    },
+    {
+      "fecha_iso": "2015-03-08T00:00:00",
+      "materia": "CALCULO DIFERENCIAL",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": "le falta experiencia."
+    },
+    {
+      "fecha_iso": "2014-01-25T00:00:00",
+      "materia": "CALCULO DIFERENCIAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "2013\nMuy buen profesor, respetable el señor , por eso tiene el puesto k tiene la verdad"
+    },
+    {
+      "fecha_iso": "2013-10-14T00:00:00",
+      "materia": "CALCULO DIFERENCIAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Yo super recomiendo a este maestro, te explica bien, asiendo todo antes tiene su recompensa, ademas si tienes dudas te las aclara cuando tenga tiempo claro ñ.ñ' yo les recomiendo cargar en la mañana con el y en la tarde como a las 3 30 =P ir con el te aclara dudas =)"
+    },
+    {
+      "fecha_iso": "2013-10-02T00:00:00",
+      "materia": "CALCULO INTEGRAL",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "No aprendi casi nada nuevo es muy facil de pasar su materia pero si en verdad quieres aprender no cargues con el pase con excelente califi. (98) pero la verdad siento que pude aprender mas con otro maestro pero no digo que es del todo malo si enseña bastante pero la verdad no creo cargarlo de nuevo."
+    },
+    {
+      "fecha_iso": "2013-08-09T00:00:00",
+      "materia": "CALCULO DIFERENCIAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Yo lo recomiendo es un profesor que te tiene mucha calma para explicar ademas de que aprendes mucho y te explica cosas que no te tendria que explicar y no se burla ni se rie de los alumnos y siempre esta dispuesto a explicarte"
+    },
+    {
+      "fecha_iso": "2013-07-19T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 1.0,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2013-06-18T00:00:00",
+      "materia": "CURSOS DE MATEMATICAS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Pues yo no lleve alguna materia en si con el, pero me dio los cursos, se supo bajar a nuestro nivel, es muy claro al explicar, hace dinámicas en donde TODOS aprenden."
+    },
+    {
+      "fecha_iso": "2012-11-16T00:00:00",
+      "materia": "CALCULO DIFERENCIAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Explica de una manera clara y ase dinamicas para aprender"
+    },
+    {
+      "fecha_iso": "2012-08-13T00:00:00",
+      "materia": "CÁLCULO DIFERENCIAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2012-08-08T00:00:00",
+      "materia": "CALCULO INTEGRAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Exelente profesor, sabe enseñar lo que pocos aqui saben ya que la mayoria se cree demasiado y son sobervios. Cuanto muchisima MyMathLab y siempre pasas bien con el, no trozo a nadie y todos pasamos bien a comparacion de los otros profes faciles que pasan pero buen bajo. Suerte!"
+    },
+    {
+      "fecha_iso": "2012-06-14T00:00:00",
+      "materia": "CALCULO DIFERENCIAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "La verdad un profesor muy bueno ya que te da muchas oportunidades y te ayuda mucho es casi imposible reprobar con el"
+    },
+    {
+      "fecha_iso": "2012-03-30T00:00:00",
+      "materia": "CALCULO DIFERENCIAL",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Es una persona seria y explica bien, te ayuda mucho el hacer todas las tareas con el, aun asi esten mal xD"
+    },
+    {
+      "fecha_iso": "2012-03-06T00:00:00",
+      "materia": "CALCULO DIFERENCIAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": "Exelente profesor, a mi me dio cálculo diferencial y si aprendí, toma mucho en cuenta Mymathlab."
+    },
+    {
+      "fecha_iso": "2011-10-11T00:00:00",
+      "materia": "FISICA GENERA",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 0,
+      "comentario": "es buen maestro explica bien y se entiende lo que explica ala primera solo que en los examenes ay veces que se pasa y pone solo lo mas dificil que vimos en el parcial"
+    },
+    {
+      "fecha_iso": "2011-08-17T00:00:00",
+      "materia": "FISICA 2",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": "no da clases los viernes.. em y pues a mi se me hizo bien D: peroo ocupas poner mucha atencion y hacer las tareas para ke te exente xD"
+    }
+  ],
+  "comments_recent": [
+    "Si le cumples con todo y te ve con brillo te exenta sin problema, lo unico pesado es cuando deje el proyecto pero con una buena organizacion se hace facil.",
+    "Al principio parecía un profesor complicado y que no te dejaría las cosas fáciles, conforme avanzan las clases ves que es un profesor tranquilo pero serio, si asistes y participas en clase te exenta de los exámenes, deja tareas sencillas y te ayuda si tienes problemas",
+    "Este profesor es bueno pero siempre se va por lo mas fácil, si buscas un nivel mas difícil no cargues con el. Este maestro exenta a la mayoría, pero no a todos, y en mi semestre falto unas 13 veces aproximadamente. Cumple con todos los temas y deja tareas ????????.",
+    "Es muy seco en como corrige, no se tomen nada personal",
+    "Solo pone sus diapositivas donde escribe horrible y enseña horrible, clases aburridisimas aparte sus examenes si tienen nivel complicado, no lo recomiendo.",
+    "Es un profesor claro y estricto , se da a respetar como todo profesor deberia de hacerlo, lo mejor de todo que materias dificiles poniendo atencion, las hara ver faciles, el te ayuda bastante.",
+    "Nunca vuelvo a cargar con él, no faltó ni un dia y queria que todo lo trajeramos nosotros y el nomas apuntar en el pizarron, me hizo muy dificil una materia que era sencilla la verdad siento que no me enseño nada él, investigue me maté y me quedo un maldito 80. Tienes que aprender por ti mismo todo."
+  ],
+  "n_reviews": 29
+}

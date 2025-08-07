@@ -1,0 +1,49 @@
+{
+  "nombre": "Jesús Ayon Zuñiga",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "ciudad": "Ciudad: culiacan, sinaloa",
+  "departamento": "Departamento/Facultad: Industrial",
+  "calidad_general": 9.0,
+  "porcentaje_recomienda": 100,
+  "nivel_dificultad": 1.0,
+  "etiquetas": [
+    "LA PARTICIPACIÓN IMPORTA (1)",
+    "BRINDA APOYO (1)",
+    "CLASES EXCELENTES (1)"
+  ],
+  "numero_calificaciones": 2,
+  "calificaciones": [
+    {
+      "fecha": "06/Jun/2018",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 8.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Ingenieria de calidad",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "8",
+      "interes_clase": "",
+      "comentario": "Es nuevo dando clases pero domina bien los temas. Examenes medio enrredosos pero es de lo visto en clases y muchos ejercicios los usa para este. Recomendado",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "15/Dic/2017",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Estadistica y Control de calidad",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "9.5",
+      "interes_clase": "",
+      "comentario": "Es un excelente profesor, las clases son bastante claras, aprendes mucho, los exámenes son fáciles si pusiste atención en clase, de los mejores profesores que he tenido",
+      "etiquetas_comentario": [
+        "La Participación Importa",
+        "Brinda apoyo",
+        "Clases excelentes"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    }
+  ]
+}

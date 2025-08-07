@@ -1,0 +1,122 @@
+{
+  "nombre": "Lourdes Pérez Uriarte",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "ciudad": "Ciudad: culiacan, sinaloa",
+  "departamento": "Departamento/Facultad: Sistemas",
+  "calidad_general": 6.2,
+  "porcentaje_recomienda": 50,
+  "nivel_dificultad": 2.0,
+  "etiquetas": [
+    "BARCO (3)",
+    "PREPÁRATE PARA LEER (4)",
+    "ASISTENCIA OBLIGATORIA (1)",
+    "LOS EXÁMENES SON DIFÍCILES (2)",
+    "BRINDA APOYO (2)",
+    "TOMARÍA SU CLASE OTRA VEZ (1)"
+  ],
+  "numero_calificaciones": 6,
+  "calificaciones": [
+    {
+      "fecha": "18/Ene/2024",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 8.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Taller de Ética",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "8",
+      "interes_clase": "",
+      "comentario": "Es una maestra muy extraña. Sus clases se tratan de que ella habla y a ratos hace trabajos de lectura y responder preguntas. Más que calificar duro califica raro. De que pasas pasas, pero con la calificación que quiera (de 80 a 90). Hasta los trabajos revisa raro (a unos les pone 80 y a otros 95).",
+      "etiquetas_comentario": [
+        "Prepárate para leer",
+        "Brinda apoyo",
+        "Los exámenes son difíciles"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "15/Dic/2022",
+      "tipo_calificacion": "REGULAR",
+      "puntaje_calidad_general": 6.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Ética",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "9.5",
+      "interes_clase": "",
+      "comentario": "Es una maestra buena para materias de relleno, si entregas las actividades vas a pasar,  se pasa las clases comentando los temas que debería de enseñar, los exámenes son de estos mismos temas, y difícilmente sacarás el 100, sin embargo no hay interés en la clase y la vuelve algo aburrida",
+      "etiquetas_comentario": [
+        "Barco",
+        "Prepárate para leer"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "08/Feb/2022",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 8.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Fundamentos de investigación",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "9",
+      "interes_clase": "",
+      "comentario": "Con que estés en las clases y hagas las tareas todo bien pero aguas en los examenes a veces pueden ser confusos",
+      "etiquetas_comentario": [
+        "Barco",
+        "Brinda apoyo",
+        "Tomaría su clase otra vez"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "19/Ene/2022",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 2.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "fundamentos de investigación",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "9.5",
+      "interes_clase": "",
+      "comentario": "mala maestra, solo nos ponía a leer y el examen como si enseñara, de proyecto final no nos explico como hacerlo y no dejaba de criticar nuestro trabajo pero si es medio barco si te pasan su exxamen ya la hiciste nunca deja tareas",
+      "etiquetas_comentario": [
+        "Prepárate para leer",
+        "Los exámenes son difíciles"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "07/Dic/2021",
+      "tipo_calificacion": "REGULAR",
+      "puntaje_calidad_general": 4.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Fundamentos de Investigación",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "9.5",
+      "interes_clase": "",
+      "comentario": "Todo el semestre no hicimos nada con ella, hasta antes de la evaluación final, nos la pasamos \"leyendo\" y \"comentando\" sobre los temas de la materia, creo que no cabe resaltar que no aprendimos nada, pero mi mayor queja es que un pdf explica mas que ella, no la recomiendo.",
+      "etiquetas_comentario": [
+        "Barco",
+        "Prepárate para leer",
+        "Asistencia obligatoria"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "30/Mar/2014",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 9.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "---",
+      "asistencia": "",
+      "calificacion_recibida": "N/A",
+      "interes_clase": "N/A",
+      "comentario": "[Comentario esperando revisión]",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    }
+  ]
+}

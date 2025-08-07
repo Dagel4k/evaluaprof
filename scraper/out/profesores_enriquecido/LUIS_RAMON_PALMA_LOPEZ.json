@@ -1,0 +1,559 @@
+{
+  "professor_id": "LUIS_RAMON_PALMA_LOPEZ",
+  "nombre": "LUIS RAMON PALMA LOPEZ",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 9.231597108835619,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 8.417242688947967,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.886,
+    "wilson_interval": [
+      0.7404820521187976,
+      0.9546489414551025
+    ],
+    "n_recommendations": 35
+  },
+  "subject_normalization": {
+    "z_mean": 0.44,
+    "z_mean_decayed": 0.48,
+    "per_subject": [
+      {
+        "materia": "PROBABILIDAD Y ESTADÍSTICA",
+        "z_decayed": 1.1433922847214824,
+        "n": 23
+      },
+      {
+        "materia": "CALCULO DIFERENCIAL",
+        "z_decayed": 0.9281362191433393,
+        "n": 110
+      },
+      {
+        "materia": "ESTADÍSTICA INFERENCIAL II",
+        "z_decayed": 0.9036961141150639,
+        "n": 6
+      },
+      {
+        "materia": "CALCULO",
+        "z_decayed": 0.8833343145884801,
+        "n": 50
+      },
+      {
+        "materia": "CALCULO INTEGRAL",
+        "z_decayed": 0.8481796604891912,
+        "n": 84
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "muchas",
+          "clase",
+          "oportunidades",
+          "te",
+          "da"
+        ],
+        "weight": 0.10362307540065968
+      },
+      {
+        "id": 1,
+        "words": [
+          "esperando",
+          "comentario esperando",
+          "comentario",
+          "esperando revision",
+          "revision"
+        ],
+        "weight": 0.05558232235922724
+      },
+      {
+        "id": 2,
+        "words": [
+          "verdad",
+          "mejor",
+          "es mejor",
+          "profesor",
+          "es"
+        ],
+        "weight": 0.14290340002779717
+      },
+      {
+        "id": 3,
+        "words": [
+          "te",
+          "repite",
+          "profesor",
+          "exelente",
+          "exelente profesor"
+        ],
+        "weight": 0.07787651930242212
+      },
+      {
+        "id": 4,
+        "words": [
+          "excelente",
+          "si",
+          "clases",
+          "maestro",
+          "explica"
+        ],
+        "weight": 0.13476686706909222
+      }
+    ],
+    "sentiment": {
+      "overall": 0.5172413793103449,
+      "by_month": {
+        "2025-01": 0.0,
+        "2024-08": 0.0,
+        "2023-08": 0.0,
+        "2023-01": 0.0,
+        "2021-01": 0.5,
+        "2020-08": 1.0,
+        "2020-01": 1.0,
+        "2019-08": 1.0,
+        "2018-11": 1.0,
+        "2018-10": 1.0,
+        "2017-08": 1.0,
+        "2017-02": 1.0,
+        "2016-11": 0.0,
+        "2016-08": 1.0,
+        "2016-04": 1.0,
+        "2015-12": 1.0,
+        "2015-01": 0.0,
+        "2013-12": 0.0,
+        "2013-11": 0.0,
+        "2013-08": 0.0,
+        "2013-06": 0.0,
+        "2013-05": 1.0,
+        "2013-01": 0.0,
+        "2012-10": 1.0
+      }
+    },
+    "n_comments": 29
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.002,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        4.0,
+        7.0,
+        8.0,
+        8.0,
+        9.0,
+        10.0,
+        10.0,
+        9.0,
+        10.0,
+        6.0,
+        10.0,
+        9.0,
+        9.0,
+        10.0,
+        9.0,
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        9.0,
+        10.0,
+        10.0,
+        6.0,
+        10.0,
+        7.0,
+        10.0,
+        10.0,
+        10.0
+      ],
+      "ewma": [
+        4.0,
+        4.9,
+        5.83,
+        6.481,
+        7.236699999999999,
+        8.06569,
+        8.645983,
+        8.7521881,
+        9.126531669999999,
+        8.188572168999999,
+        8.732000518299998,
+        8.812400362809997,
+        8.868680253966998,
+        9.2080761777769,
+        9.14565332444383,
+        9.40195732711068,
+        9.581370128977476,
+        9.706959090284233,
+        9.794871363198963,
+        9.556409954239273,
+        9.68948696796749,
+        9.782640877577244,
+        8.64784861430407,
+        9.05349403001285,
+        8.437445821008994,
+        8.906212074706296,
+        9.234348452294407,
+        9.464043916606084
+      ],
+      "sigma": 1.1447969612894835
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 9.464043916606084,
+      "quality_band": [
+        7.220241872478696,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2025-01-16T00:00:00",
+      "materia": "CALCULO VECTORIAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Curse con el y es un gran maestro, te da muchas oportunidades y enseña muy bien. Lo que ves en clase es lo mismo que viene en el examen, ademas da un repaso de lo que vendra en este."
+    },
+    {
+      "fecha_iso": "2024-08-24T00:00:00",
+      "materia": "CÁLCULO VECTORIAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Palma, el mejor profesor y más preparado de todo el tec; aparte de que es un amor de persona y muy inteligente. Aprendes en una clase y si no el te ayuda con explicaciones...avanza rápido pero bien explicado."
+    },
+    {
+      "fecha_iso": "2024-06-04T00:00:00",
+      "materia": "CALCULO INTEGRAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2023-08-07T00:00:00",
+      "materia": "CÁLCULO INTEGRAL",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Si de verdad quieres aprender te recomiendo cargar con el. Te da muchas oportunidades y haces pre exámenes para que pases; pone pocos problemas, además,  te puede explicar las veces que sean necesarias hasta que le entiendas.\nTambién tienes que poner de tu parte porque la calificación no la regala"
+    },
+    {
+      "fecha_iso": "2023-01-13T00:00:00",
+      "materia": "CALCULO DIFERENCIAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Siempre te ayuda si tienes alguna duda de la clase ademas que da muchas oportunidades de pasar"
+    },
+    {
+      "fecha_iso": "2021-01-23T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 21.0,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2021-01-21T00:00:00",
+      "materia": "CÁLCULO INTEGRAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Excelente profesor. Avanza rápido y explica muy bien. Muy accesible y también te da muchas oportunidades de pasar."
+    },
+    {
+      "fecha_iso": "2020-08-12T00:00:00",
+      "materia": "ALGEBRA LINEAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Es un excelente maestro, sus exámenes son fáciles y cortos, ademas que explica muy claro y te da muchas oportunidades."
+    },
+    {
+      "fecha_iso": "2020-02-14T00:00:00",
+      "materia": "PROBABILIDAD Y ESTADÍSTICA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2020-01-16T00:00:00",
+      "materia": "ÁLGEBRA LINEAL",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Este profesor es excelente en como explica, ademas te ayuda en todo lo posible, lo repite cuantas veces sea y es casi imposible salir con menos de 100 con el por como califica y no deja tareas. ¿Qué mas quieres, carnal?"
+    },
+    {
+      "fecha_iso": "2019-08-16T00:00:00",
+      "materia": "ALGEBRA LINEAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Es un profesor EXCELENTE! sus clases son super entendibles, si tienes dudas y no te queda claro te lo explica de la mejor manera, sabe perfectamente la materia y tomaría mil veces clases con el, más profesores así Faltan!!"
+    },
+    {
+      "fecha_iso": "2019-08-03T00:00:00",
+      "materia": "ÁLGEBRA LINEAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Uff, excelencia. Cargaría todas mis materias con él si fuera posible. Clases 100% bien explicadas, trabajos en clase, no deja tarea (amenos que no hayas podido acabar el trabajo en la misma clase), miles de oportunidades (bueno, tres). Cualquier duda, está ahí para escucharla."
+    },
+    {
+      "fecha_iso": "2018-11-13T00:00:00",
+      "materia": "CALCULO",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2018-11-13T00:00:00",
+      "materia": "CÁLCULO DIFERENCIAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Excelente maestro, le dedica tiempo y esfuerzo a sus clases, explica de manera muy clara y entendible, también habla sobre aspectos del ambiente laboral donde se aplican estos conocimientos, muy útil"
+    },
+    {
+      "fecha_iso": "2018-10-15T00:00:00",
+      "materia": "CALCULO DIFERENCIAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "El mejor maestro que eh tenido, explica de manera claro, si no entendiste algo, te trabaste o tienes alguna duda el con todo gusto te explicara si le preguntas."
+    },
+    {
+      "fecha_iso": "2017-08-22T00:00:00",
+      "materia": "PROBABILIDAD Y CÁLCULO VECTORIAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "El mejor profe! Explica excelente y se nota que está super preparado. Va rápido en sus clases pero no tiene problema en regresarse si le preguntas algo. Hace prexamenes antes del examen así que está muy fácil pasar. Eso si, es super puntual siempre."
+    },
+    {
+      "fecha_iso": "2017-02-23T00:00:00",
+      "materia": "CALCULO DIFERENCIAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": "Excelente profesor la verdad.Si quieres aprender es la mejor opcion."
+    },
+    {
+      "fecha_iso": "2017-02-02T00:00:00",
+      "materia": "PROBABILIDAD",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Va muy rápido, pero explica excelente.. si ocupas ayuda te  explica"
+    },
+    {
+      "fecha_iso": "2016-11-16T00:00:00",
+      "materia": "CALCULO DIFERENCIAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": "Exelente profesor"
+    },
+    {
+      "fecha_iso": "2016-08-09T00:00:00",
+      "materia": "PROBABILIDAD Y ESTADÍSTICA",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Muy buen profesor en verdad , aunque suele ir muy rápido , pero te explica cuanto lo necesites , eso si se puntual con el porque suele llegar temprano, ademas de ser claro. Ademas , deja muchos pre-examen antes del examen de unidad , si pasas el pre-examen ya no ocupas presentar examen."
+    },
+    {
+      "fecha_iso": "2016-04-30T00:00:00",
+      "materia": "ESTADISTICA Y PROBABILIDAD",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 22.0,
+      "recomienda": 1,
+      "comentario": "excelente maestro, aprendes porque aprendes aunque vaya explicando a su estilo rápido"
+    },
+    {
+      "fecha_iso": "2015-12-06T00:00:00",
+      "materia": "ESTADISTICA INFERENCIAL I",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Excelente profesor, es muy puntual y falta como 2 veces máximo en todo el semestre. Los exámenes si están largos pero deja ejercicios para dejar todo claro y pre exámenes que son iguales al original. Si son mujeres con mas razón carguen con el se hechan un buen taco de ojo en las clases."
+    },
+    {
+      "fecha_iso": "2015-01-11T00:00:00",
+      "materia": "ESTADÍSTICA INFERENCIAL II",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Es el mejor profesor, la verdad explica muy bien, hay ocasiones en las que se trababa porque hacía mucho que no daba estadísticas, la verdad es un profesor muy completo, ayuda mucho al alumno, sus exámenes muy fáciles, solo que si cargas a las 7:00am deberás estar como a las 6:30am."
+    },
+    {
+      "fecha_iso": "2015-01-07T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2013-12-03T00:00:00",
+      "materia": "CALCULO DIFERENCIAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "este profe es jesucristo enseña muy bien y da muchos ejemplos te aclara todas las dudas que preguntes, asiste todos los dias, solo repruebas con el si no te importa la escuela y pues no le echas ni el minimo"
+    },
+    {
+      "fecha_iso": "2013-11-14T00:00:00",
+      "materia": "ALGEBRA LINEAL",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Es de los mejores profesores de toda el tec!"
+    },
+    {
+      "fecha_iso": "2013-08-06T00:00:00",
+      "materia": "ALGEBRA LINEAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "muy buen maestro, da muchos ejemplos y aprendes todo, aveces desespera porque explica como si fueramos de kinder pero muy buen maestro, no lleguen tarde porque se pierden buena parte de la clase"
+    },
+    {
+      "fecha_iso": "2013-06-27T00:00:00",
+      "materia": "CALCULO DIFERENCIAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2013-06-10T00:00:00",
+      "materia": "ÁLGEBRA LINEAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Muy buen profesor. No se desvía del tema, explica las veces que sean necesarias y no es injusto a la hora de calificar."
+    },
+    {
+      "fecha_iso": "2013-05-31T00:00:00",
+      "materia": "ALGEBRA LINEAL",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "me atrevo a decir que es de el mejor profesor de ciencias basicas, es una excelente persona."
+    },
+    {
+      "fecha_iso": "2013-04-08T00:00:00",
+      "materia": "CALCULO DIFERENCIAL",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2013-01-09T00:00:00",
+      "materia": "MATE 3",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 0,
+      "comentario": "a un amigo lo mando a especial.. pero esta facil pasar con el solo entreguenle las hojas que te pida en clase yo saque 100 con el jaja"
+    },
+    {
+      "fecha_iso": "2013-01-06T00:00:00",
+      "materia": "ESTADISTICA INFERENCIAL Y CALCULO DIFERENCIAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "exelente profesor te explica y repite las cosas hasta que te las aprendes"
+    },
+    {
+      "fecha_iso": "2012-10-24T00:00:00",
+      "materia": "MATE",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "es de los mejores profesores en el tecnologico, claro que en si conlleba el ser muy estricto y exigente .! pero a la ves muy considerado al momento de calificar.. haha y esta muy nalgon ;D"
+    },
+    {
+      "fecha_iso": "2012-08-21T00:00:00",
+      "materia": "CALCULO",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": ""
+    }
+  ],
+  "comments_recent": [
+    "Curse con el y es un gran maestro, te da muchas oportunidades y enseña muy bien. Lo que ves en clase es lo mismo que viene en el examen, ademas da un repaso de lo que vendra en este.",
+    "Palma, el mejor profesor y más preparado de todo el tec; aparte de que es un amor de persona y muy inteligente. Aprendes en una clase y si no el te ayuda con explicaciones...avanza rápido pero bien explicado.",
+    "Si de verdad quieres aprender te recomiendo cargar con el. Te da muchas oportunidades y haces pre exámenes para que pases; pone pocos problemas, además,  te puede explicar las veces que sean necesarias hasta que le entiendas.\nTambién tienes que poner de tu parte porque la calificación no la regala",
+    "Siempre te ayuda si tienes alguna duda de la clase ademas que da muchas oportunidades de pasar",
+    "[Comentario esperando revisión]",
+    "Excelente profesor. Avanza rápido y explica muy bien. Muy accesible y también te da muchas oportunidades de pasar.",
+    "Es un excelente maestro, sus exámenes son fáciles y cortos, ademas que explica muy claro y te da muchas oportunidades.",
+    "Este profesor es excelente en como explica, ademas te ayuda en todo lo posible, lo repite cuantas veces sea y es casi imposible salir con menos de 100 con el por como califica y no deja tareas. ¿Qué mas quieres, carnal?"
+  ],
+  "n_reviews": 35
+}

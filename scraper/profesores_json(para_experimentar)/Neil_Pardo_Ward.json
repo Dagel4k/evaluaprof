@@ -1,0 +1,55 @@
+{
+  "nombre": "Neil Pardo Ward",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "ciudad": "Ciudad: culiacan, sinaloa",
+  "departamento": "Departamento/Facultad: Informática",
+  "calidad_general": 10.0,
+  "porcentaje_recomienda": 100,
+  "nivel_dificultad": 0.0,
+  "etiquetas": [
+    "BARCO (2)",
+    "BRINDA APOYO (1)",
+    "CLASES EXCELENTES (1)",
+    "MUY CÓMICO (1)",
+    "INSPIRACIONAL (1)"
+  ],
+  "numero_calificaciones": 2,
+  "calificaciones": [
+    {
+      "fecha": "27/Ago/2019",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "---",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "9.5",
+      "interes_clase": "",
+      "comentario": "[Comentario esperando revisión]",
+      "etiquetas_comentario": [
+        "Barco",
+        "Muy cómico",
+        "Inspiracional"
+      ],
+      "votos_utiles": "2",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "06/Ago/2019",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Lenguaje Ensamblador",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "El Ingeniero Pardo Ward, es uno de los mejores profesores de ensamblador, domina la materia al 100%.  Pura Personalidad!!",
+      "etiquetas_comentario": [
+        "Barco",
+        "Brinda apoyo",
+        "Clases excelentes"
+      ],
+      "votos_utiles": "4",
+      "votos_no_utiles": "0"
+    }
+  ]
+}

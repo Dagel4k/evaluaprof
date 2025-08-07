@@ -1,0 +1,225 @@
+{
+  "professor_id": "douglas_mooool",
+  "nombre": "douglas mooool",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 5.468092440892505,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 6.320884500147698,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.5,
+    "wilson_interval": [
+      0.2152125268244419,
+      0.7847874731755581
+    ],
+    "n_recommendations": 8
+  },
+  "subject_normalization": {
+    "z_mean": -0.31,
+    "z_mean_decayed": -0.06,
+    "per_subject": [
+      {
+        "materia": "QUÍMICA ANALÍTICA",
+        "z_decayed": 0.577350269189626,
+        "n": 3
+      },
+      {
+        "materia": "QUIMICA ANALITICA",
+        "z_decayed": 0.1254535861046142,
+        "n": 7
+      },
+      {
+        "materia": "---",
+        "z_decayed": -0.9627852966533861,
+        "n": 521
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "buen",
+          "asco",
+          "douglas",
+          "mto douglas",
+          "mto"
+        ],
+        "weight": 0.15285187342166298
+      },
+      {
+        "id": 1,
+        "words": [
+          "comentario esperando",
+          "comentario",
+          "esperando revision",
+          "esperando",
+          "revision"
+        ],
+        "weight": 0.2256675867264305
+      },
+      {
+        "id": 2,
+        "words": [
+          "mto douglas",
+          "mto",
+          "asco",
+          "buen",
+          "es"
+        ],
+        "weight": 0.2804267718562672
+      }
+    ],
+    "sentiment": {
+      "overall": 0.0,
+      "by_month": {
+        "2014-02": 0.0,
+        "2014-01": 0.0,
+        "2013-12": 0.0,
+        "2013-05": 0.0,
+        "2011-11": 0.0
+      }
+    },
+    "n_comments": 6
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.067,
+    "bursts": [
+      {
+        "from": "2011-11-14T00:00:00",
+        "to": "2011-11-14T00:00:00",
+        "count": 3
+      }
+    ],
+    "low_variance_flag": 0,
+    "trust_score": 0.67
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        3.6666666666666665,
+        2.0,
+        10.0,
+        9.0,
+        10.0,
+        2.0
+      ],
+      "ewma": [
+        3.6666666666666665,
+        3.1666666666666665,
+        5.216666666666667,
+        6.351666666666667,
+        7.446166666666667,
+        5.812316666666666
+      ],
+      "sigma": 3.1026874331495384
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 5.812316666666666,
+      "quality_band": [
+        0.0,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2016-03-17T00:00:00",
+      "materia": "QUÍMICA ANALITICA",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 7.5,
+      "recomienda": 0,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2014-02-28T00:00:00",
+      "materia": "QUIMICA ANALITICA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Fui alumno del mto Douglas, el mto es estricto pero buen Mto. Lo que aprendi me sirbio en Termo y Valance. El pedo del año pasado fueron 2 ambientales que boicoteaban la clase, un Cedano y un tal Bladimir; estos vatos son unas lakras, al Cedano lo expulsaron por amenazar de muerte a un mto del Tek"
+    },
+    {
+      "fecha_iso": "2014-01-29T00:00:00",
+      "materia": "QUIMICA ANALITICA",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Es muy buen maestro, solo se le necesita poner atención,me reprobó una vez, pero ya en RC me di cuenta que el que estaba mal era yo :) hagan los problemas,practicas y reportes y ya esta facil."
+    },
+    {
+      "fecha_iso": "2013-12-15T00:00:00",
+      "materia": "QUÍMICA ANALÍTICA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "El Mto Douglas me impartió clases y fué padrino de mi generación, lo conozco mejor que Uds. Laboro en el área de A. de Alimentos. Admiro al Mto por su preparación, dedicación y gran ética. Siento asco por Uds (seguramente reprobaron). Terminarán como empleados en un SUBWAY  por imbéciles o  flojos."
+    },
+    {
+      "fecha_iso": "2013-05-31T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2011-11-14T00:00:00",
+      "materia": "QUIMICA ANALITICA",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2011-11-14T00:00:00",
+      "materia": "QUIMICA ANALITICA",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "es una escoria de profesor, por maestros como la gente ya no quieres estudiar, no carguen con el es un asco, amargado, no sabe nada."
+    },
+    {
+      "fecha_iso": "2011-11-14T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    }
+  ],
+  "comments_recent": [
+    "Fui alumno del mto Douglas, el mto es estricto pero buen Mto. Lo que aprendi me sirbio en Termo y Valance. El pedo del año pasado fueron 2 ambientales que boicoteaban la clase, un Cedano y un tal Bladimir; estos vatos son unas lakras, al Cedano lo expulsaron por amenazar de muerte a un mto del Tek",
+    "Es muy buen maestro, solo se le necesita poner atención,me reprobó una vez, pero ya en RC me di cuenta que el que estaba mal era yo :) hagan los problemas,practicas y reportes y ya esta facil.",
+    "El Mto Douglas me impartió clases y fué padrino de mi generación, lo conozco mejor que Uds. Laboro en el área de A. de Alimentos. Admiro al Mto por su preparación, dedicación y gran ética. Siento asco por Uds (seguramente reprobaron). Terminarán como empleados en un SUBWAY  por imbéciles o  flojos.",
+    "[Comentario esperando revisión]",
+    "es una escoria de profesor, por maestros como la gente ya no quieres estudiar, no carguen con el es un asco, amargado, no sabe nada.",
+    "[Comentario esperando revisión]"
+  ],
+  "n_reviews": 8
+}

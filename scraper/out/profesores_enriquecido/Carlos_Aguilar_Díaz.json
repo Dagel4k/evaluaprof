@@ -1,0 +1,333 @@
+{
+  "professor_id": "Carlos_Aguilar_Díaz",
+  "nombre": "Carlos Aguilar Díaz",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 9.273291008886622,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.683689269333021,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.75,
+    "wilson_interval": [
+      0.5050123107060135,
+      0.8981809801576265
+    ],
+    "n_recommendations": 16
+  },
+  "subject_normalization": {
+    "z_mean": 0.03,
+    "z_mean_decayed": 0.37,
+    "per_subject": [
+      {
+        "materia": "HIGIENE Y SEGURIDAD INDUSTRIAL",
+        "z_decayed": 0.5043128142362657,
+        "n": 15
+      },
+      {
+        "materia": "ERGONOMÍA",
+        "z_decayed": 0.4537659281638283,
+        "n": 6
+      },
+      {
+        "materia": "---",
+        "z_decayed": -0.9627852966533862,
+        "n": 521
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "sacar 100",
+          "falta",
+          "aburrida",
+          "100",
+          "es"
+        ],
+        "weight": 0.09322614823831273
+      },
+      {
+        "id": 1,
+        "words": [
+          "falta ser",
+          "mas dinamico",
+          "ser mas",
+          "profesor",
+          "falta"
+        ],
+        "weight": 0.1570017013584721
+      },
+      {
+        "id": 2,
+        "words": [
+          "recomiendo",
+          "te",
+          "hace",
+          "sabe",
+          "materia"
+        ],
+        "weight": 0.1340534701154669
+      },
+      {
+        "id": 3,
+        "words": [
+          "final",
+          "ergonomia",
+          "clases",
+          "practicas",
+          "par"
+        ],
+        "weight": 0.11605538103180414
+      },
+      {
+        "id": 4,
+        "words": [
+          "te",
+          "da",
+          "asistencia",
+          "cuenta",
+          "si"
+        ],
+        "weight": 0.11312550336676534
+      }
+    ],
+    "sentiment": {
+      "overall": -0.07142857142857142,
+      "by_month": {
+        "2023-01": 0.0,
+        "2020-06": 0.0,
+        "2019-01": 0.0,
+        "2018-06": 0.0,
+        "2018-01": 0.0,
+        "2017-01": 0.0,
+        "2016-08": 0.0,
+        "2016-01": -1.0,
+        "2014-07": 0.0,
+        "2014-06": 0.0,
+        "2013-06": 0.0
+      }
+    },
+    "n_comments": 14
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        8.5,
+        5.0,
+        7.0,
+        2.0,
+        10.0,
+        10.0,
+        10.0,
+        2.0,
+        10.0,
+        10.0,
+        10.0,
+        10.0
+      ],
+      "ewma": [
+        8.5,
+        7.449999999999999,
+        7.3149999999999995,
+        5.720499999999999,
+        7.004349999999999,
+        7.903044999999999,
+        8.532131499999998,
+        6.572492049999998,
+        7.600744434999998,
+        8.3205211045,
+        8.824364773149998,
+        9.177055341204998
+      ],
+      "sigma": 2.46439664544096
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 9.177055341204998,
+      "quality_band": [
+        4.346837916140716,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2023-01-19T00:00:00",
+      "materia": "ERGONOMÍA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Buen profesor, explica claramente y sus exámenes son en plataforma lo que hace la materia sencilla."
+    },
+    {
+      "fecha_iso": "2023-01-19T00:00:00",
+      "materia": "HIGIENE Y SEGURIDAD I",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2020-06-14T00:00:00",
+      "materia": "HIGIENE Y SEGURIDAD",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Sabe demasiado de la materia, como sabe mucho de los temas pero el semestre te lo están dividiendo en 7 unidades tiene que brindarte casi la misma información una y otra vez para respetar los tiempos de evaluación, es por eso que muchos dicen que hace aburrida la materia.\n\nYo lo recomiendo"
+    },
+    {
+      "fecha_iso": "2020-01-25T00:00:00",
+      "materia": "HIGIENE Y SEGURIDAD INDUSTRIAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2019-01-31T00:00:00",
+      "materia": "ERGONOMÍA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Las clases son fáciles, la asistencia si la cuenta y los viernes si da clase. Es muy buena onda pero sus clases son medias aburridas aunque si te enseña bien"
+    },
+    {
+      "fecha_iso": "2018-06-05T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 7.5,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2018-01-14T00:00:00",
+      "materia": "HIGIENE Y SEGURIDAD INDUSTRIAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "muy buen profe esta muy facil con el la asistencia no cuenta, te da resumido lo que vendra en el examen y literalmente son los mismos examenes  de todos los años"
+    },
+    {
+      "fecha_iso": "2018-01-14T00:00:00",
+      "materia": "HIGIENE Y SEGURIDAD INDUSTRIAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Es un maestro que sabe mucho del tema, es muy inteligente pero las clases con él son bastantes monótonas, al punto de que te duerme. Te recomiendo que TÚ pongas el interés y te informes acerca de todos los temas que ve en clase para que le expongas todas tus dudas."
+    },
+    {
+      "fecha_iso": "2017-01-18T00:00:00",
+      "materia": "ERGONOMÍA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "El mejor maestro para Ergonomía. Tal vez la manera que él tiene NO es la mejor pero sin duda alguna aprendes. Las clases son escuchar ya que el profe lee TODA la clase. Al final deja un proyecto en equipo en el que es fácil sacar 100."
+    },
+    {
+      "fecha_iso": "2016-08-09T00:00:00",
+      "materia": "HIGIENE Y SEGURIDAD INDUSTRIAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "buen profesor, pero muy aburridas sus clases le falta ser mas dinámico solo habla el, pero si aprendes"
+    },
+    {
+      "fecha_iso": "2016-01-17T00:00:00",
+      "materia": "ERGONOMÍA",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 0,
+      "comentario": "Sólamente habla de lo mismo en las clases; y su clase se resume en un monólogo de él hablando durante una hora sobre ergonomía, a veces leyendo, no aprendes nada. Sólamente se ven un par de prácticas y los exámenes son ridículamente fáciles.\n\nPésimo maestro."
+    },
+    {
+      "fecha_iso": "2014-07-15T00:00:00",
+      "materia": "HIGIENE Y SEGURIDAD INDUSTRIAL",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 0,
+      "comentario": "Las clases son muy aburridas y aparte son a las primeras horas, se sienta a leer y explicarte los temas y nada más. Califica con un examen, un par de exposiciones, practicas y un trabajo final. Todos sacan 100."
+    },
+    {
+      "fecha_iso": "2014-07-11T00:00:00",
+      "materia": "HIGIENE Y SEGURIDAD INDUSTRIAL",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Es una clase muy aburrida, yo diría que aprendes lo básico puesto que el maestro falta mucho a clases, es fácil sacar 100 con el, ademas que, te enseña a manipular el equipo correspondiente."
+    },
+    {
+      "fecha_iso": "2014-06-04T00:00:00",
+      "materia": "HIGIENE",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "bien aburrida las lases y falta mucho.. El que no saca 100 con el es un ..."
+    },
+    {
+      "fecha_iso": "2013-06-11T00:00:00",
+      "materia": "HIGIENE Y SEGURIDAD INDUSTRIAL",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Falta mucho a clases. Las clases son un poco aburridas y teóricas. El profesor tiene el conocimiento pero le falta ser más dinamico. Todos pasan."
+    },
+    {
+      "fecha_iso": "2013-06-08T00:00:00",
+      "materia": "HIGIENE Y SEGURIDAD INDUSTRIAL",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Es buen profesor y te enseña a manipular aparatos de medición y tips para la vida profesional, lamentablemente como tiene jefatura falta un 70% del curso y solo ve una pequeñísima parte del programa establecido."
+    }
+  ],
+  "comments_recent": [
+    "Buen profesor, explica claramente y sus exámenes son en plataforma lo que hace la materia sencilla.",
+    "Sabe demasiado de la materia, como sabe mucho de los temas pero el semestre te lo están dividiendo en 7 unidades tiene que brindarte casi la misma información una y otra vez para respetar los tiempos de evaluación, es por eso que muchos dicen que hace aburrida la materia.\n\nYo lo recomiendo",
+    "Las clases son fáciles, la asistencia si la cuenta y los viernes si da clase. Es muy buena onda pero sus clases son medias aburridas aunque si te enseña bien",
+    "[Comentario esperando revisión]",
+    "muy buen profe esta muy facil con el la asistencia no cuenta, te da resumido lo que vendra en el examen y literalmente son los mismos examenes  de todos los años",
+    "Es un maestro que sabe mucho del tema, es muy inteligente pero las clases con él son bastantes monótonas, al punto de que te duerme. Te recomiendo que TÚ pongas el interés y te informes acerca de todos los temas que ve en clase para que le expongas todas tus dudas.",
+    "El mejor maestro para Ergonomía. Tal vez la manera que él tiene NO es la mejor pero sin duda alguna aprendes. Las clases son escuchar ya que el profe lee TODA la clase. Al final deja un proyecto en equipo en el que es fácil sacar 100.",
+    "buen profesor, pero muy aburridas sus clases le falta ser mas dinámico solo habla el, pero si aprendes"
+  ],
+  "n_reviews": 16
+}

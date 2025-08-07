@@ -1,0 +1,120 @@
+{
+  "professor_id": "Luis_Alfredo_Marroquín_Yañez",
+  "nombre": "Luis Alfredo Marroquín Yañez",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 8.939547588212646,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.44430161558912,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 1.0,
+    "wilson_interval": [
+      0.4384939195509822,
+      1
+    ],
+    "n_recommendations": 3
+  },
+  "subject_normalization": {
+    "z_mean": 0.67,
+    "z_mean_decayed": 0.69,
+    "per_subject": [
+      {
+        "materia": "DESARROLLO HUMANO",
+        "z_decayed": 0.8080084763427465,
+        "n": 4
+      },
+      {
+        "materia": "TALLER DE HERRAMIENTAS INTELECTUALES",
+        "z_decayed": 0.535843113986198,
+        "n": 18
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [],
+    "sentiment": {
+      "overall": null,
+      "by_month": {}
+    },
+    "n_comments": 3
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        10.0,
+        7.0,
+        10.0
+      ],
+      "ewma": [
+        10.0,
+        9.1,
+        9.37
+      ],
+      "sigma": 1.4294404499663498
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 9.37,
+      "quality_band": [
+        6.5682967180659535,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2024-12-30T00:00:00",
+      "materia": "DESARROLLO HUMANO",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 24.0,
+      "recomienda": 1,
+      "comentario": "Sus clases es de puro habla, casi no hacemos trabajos y al final te va a poner una calificacion alta."
+    },
+    {
+      "fecha_iso": "2024-01-18T00:00:00",
+      "materia": "TALLER DE HERRAMIENTAS INTELECTUALES",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Un poco barco pero sus clases son buenas si los alumnos participan, deja pocos trabajos y su clase es bastante fácil. En general es buen profe y te enseña bien la materia."
+    },
+    {
+      "fecha_iso": "2021-09-03T00:00:00",
+      "materia": "HABILIDADES DIRECTIVAS I",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Una persona bastante comprensible que te apoyará en lo necesario, se esfuerza en que su materia no cause estrés, tareas sencillas y trata de hacer la clase muy amena, muy recomendado, participen y pónganle atención plebes:)"
+    }
+  ],
+  "comments_recent": [
+    "Sus clases es de puro habla, casi no hacemos trabajos y al final te va a poner una calificacion alta.",
+    "Un poco barco pero sus clases son buenas si los alumnos participan, deja pocos trabajos y su clase es bastante fácil. En general es buen profe y te enseña bien la materia.",
+    "Una persona bastante comprensible que te apoyará en lo necesario, se esfuerza en que su materia no cause estrés, tareas sencillas y trata de hacer la clase muy amena, muy recomendado, participen y pónganle atención plebes:)"
+  ],
+  "n_reviews": 3
+}

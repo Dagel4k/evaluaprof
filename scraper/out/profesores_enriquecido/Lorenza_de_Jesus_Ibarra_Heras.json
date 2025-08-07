@@ -1,0 +1,421 @@
+{
+  "professor_id": "Lorenza_de_Jesus_Ibarra_Heras",
+  "nombre": "Lorenza de Jesus Ibarra Heras",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 5.056343052677575,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 5.629573363716926,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.261,
+    "wilson_interval": [
+      0.1254844588924897,
+      0.4647039054375056
+    ],
+    "n_recommendations": 23
+  },
+  "subject_normalization": {
+    "z_mean": -0.85,
+    "z_mean_decayed": -1.01,
+    "per_subject": [
+      {
+        "materia": "ALGEBRA LINEAL",
+        "z_decayed": 0.6691618448014929,
+        "n": 35
+      },
+      {
+        "materia": "CÁLCULO DIFERENCIAL",
+        "z_decayed": 0.23127652962664091,
+        "n": 46
+      },
+      {
+        "materia": "---",
+        "z_decayed": -0.36348883362302276,
+        "n": 521
+      },
+      {
+        "materia": "CÁLCULO INTEGRAL",
+        "z_decayed": -0.7884298457197201,
+        "n": 24
+      },
+      {
+        "materia": "CALCULO",
+        "z_decayed": -0.8621207125922706,
+        "n": 50
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "explicar",
+          "pasar",
+          "es",
+          "dificil",
+          "si"
+        ],
+        "weight": 0.08879316806825077
+      },
+      {
+        "id": 1,
+        "words": [
+          "opinion",
+          "mi opinion",
+          "poner",
+          "excelente",
+          "excelente maestra"
+        ],
+        "weight": 0.08847849070339343
+      },
+      {
+        "id": 2,
+        "words": [
+          "recomiendo",
+          "es maestra",
+          "clase",
+          "explica",
+          "clases"
+        ],
+        "weight": 0.13737918921975875
+      },
+      {
+        "id": 3,
+        "words": [
+          "mas",
+          "preguntas te",
+          "si preguntas",
+          "preguntas",
+          "te"
+        ],
+        "weight": 0.13281924507517381
+      },
+      {
+        "id": 4,
+        "words": [
+          "da",
+          "habla",
+          "examenes",
+          "bajito",
+          "habla bajito"
+        ],
+        "weight": 0.11889272426432876
+      }
+    ],
+    "sentiment": {
+      "overall": -0.047619047619047616,
+      "by_month": {
+        "2020-08": 0.0,
+        "2020-01": 0.0,
+        "2019-01": 0.0,
+        "2018-10": 0.0,
+        "2018-01": 0.0,
+        "2016-09": 0.0,
+        "2015-01": -1.0,
+        "2014-10": 0.0,
+        "2014-05": 0.0,
+        "2013-12": -0.5,
+        "2013-11": -1.0,
+        "2013-09": 1.0,
+        "2013-08": 0.0,
+        "2013-07": 0.0,
+        "2013-05": 0.5,
+        "2013-01": 0.0
+      }
+    },
+    "n_comments": 21
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        4.0,
+        10.0,
+        2.0,
+        5.75,
+        9.0,
+        2.0,
+        2.0,
+        2.0,
+        10.0,
+        3.5,
+        4.0,
+        3.0,
+        4.0,
+        2.0,
+        10.0,
+        6.0,
+        4.0
+      ],
+      "ewma": [
+        4.0,
+        5.8,
+        4.659999999999999,
+        4.986999999999999,
+        6.190899999999999,
+        4.933629999999999,
+        4.053540999999999,
+        3.4374786999999993,
+        5.406235089999999,
+        4.834364562999999,
+        4.584055194099999,
+        4.108838635869999,
+        4.076187045108999,
+        3.4533309315762994,
+        5.417331652103409,
+        5.5921321564723865,
+        5.11449250953067
+      ],
+      "sigma": 2.4579170599486333
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 5.11449250953067,
+      "quality_band": [
+        0.29697507203134954,
+        9.932009947029991
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2020-08-12T00:00:00",
+      "materia": "CALCULO INTEGRAL",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 0,
+      "comentario": "Habla muy bajito, hace muchos problemas por si sola y si tienes dudas te confunde mucho más, no es accesible pero si sabes del tema está muy facil.\nTienes que investigar por tu cuenta y además deja mucha tarea pero los examenes están bien faciles."
+    },
+    {
+      "fecha_iso": "2020-01-13T00:00:00",
+      "materia": "CÁLCULO INTEGRAL",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Habla muy bajito y hace muchos ejercicios en poco tiempo. Los exámenes no son tan complicados."
+    },
+    {
+      "fecha_iso": "2019-10-24T00:00:00",
+      "materia": "6-7 CÁLCULO INTEGRAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2019-01-31T00:00:00",
+      "materia": "CALCULO DIFERENCIAL",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 0,
+      "comentario": "Sabe mucho, pero no explica para nada. Le pides explicaciones y se enreda sola. No se las recomiendo. No aprendes nada a menos que tomes clases aparte"
+    },
+    {
+      "fecha_iso": "2018-10-10T00:00:00",
+      "materia": "CALCULO",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": "Como empezar esta profe se ve que quiere enseñar pero de verdad que no se le da eso. Habla muy bajito, hay veces que los alumnos la tienen que corregir \n\nPor suerte da examenes para recuperación pero tocó la desgracia de que los problemas que hubo en el examen son trabajos que ni de tarea vimos..."
+    },
+    {
+      "fecha_iso": "2018-01-16T00:00:00",
+      "materia": "CALCULO INTEGRAL",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": "No explica nada bien, si le preguntas te confunde mas y aveces no sabe ni como resuelve los ejercicios, te pide que descargues una aplicación en el celular y no sirve de mucho."
+    },
+    {
+      "fecha_iso": "2016-09-14T00:00:00",
+      "materia": "CALCULO DIFERENCIAL",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 0,
+      "comentario": "no sabe explicar se queda trabada, avanza muy rapido con los temas, para pasar tienes que comprar un libro en que la profe se basa, deja tareas basadas en el libro, si leiste el libro y haces la tarea si aprendes"
+    },
+    {
+      "fecha_iso": "2015-01-09T00:00:00",
+      "materia": "CALCULO",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2015-01-08T00:00:00",
+      "materia": "CALCULO DIFERENCIAL",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 0,
+      "comentario": "ella sabe hacer las cosas, lo qe se le dificulta es explicar, me fue muy dificil entenderle, si no es porqe ya sabia no paso"
+    },
+    {
+      "fecha_iso": "2014-10-07T00:00:00",
+      "materia": "CALCULO DIFERENCIAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Excelente profesora!, pienso que igual de criticar a los profesores, deberián de ponerse a estudiar. Es una materia difícil y no pueden pasar la maetria si no practican."
+    },
+    {
+      "fecha_iso": "2014-05-22T00:00:00",
+      "materia": "CALCULO DIFERENCIAL",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 1.0,
+      "recomienda": 0,
+      "comentario": "Mala maestra, habla muy despacito y no sabe explicar sólo hace los ejemplos para allá y es todo lo que hace y si le preguntas te deja con más duda, una vez no pudo resolver un ejercicio que ella misma puso."
+    },
+    {
+      "fecha_iso": "2013-12-11T00:00:00",
+      "materia": "CALCULO DIFERENCIAL",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": "Esta maestra no sabe explicar, si sabias algo,te deja en ceros. Habla bien bajito, y no explica nada, te da la clase como si ya supieras todo y quiere que uno le conteste todo siendo que ella nunca explico, no es dificil pasar con ella pero si quieres aprender no cargues con ella."
+    },
+    {
+      "fecha_iso": "2013-12-08T00:00:00",
+      "materia": "CALCULO DIFERENCIAL",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 1.0,
+      "recomienda": 0,
+      "comentario": "No explica nada y si le preguntas te deja mas confundido"
+    },
+    {
+      "fecha_iso": "2013-11-30T00:00:00",
+      "materia": "CALCULO DIFERENCIAL",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Inaccesible,muy complicado entender algo dado que parece que explica solo para ella"
+    },
+    {
+      "fecha_iso": "2013-09-13T00:00:00",
+      "materia": "CÁLCULO DIFERENCIAL",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Excelente maestra, sabe demasiado. Basta con poner atencion y estudiar en casa. Al final sacas lo que mereces. No se dejen engañar por los comentarios negativos, en mi opinión los que mas hablan mal de los maestros son los mas flojos, solo quieren que les den las cosas en la mano."
+    },
+    {
+      "fecha_iso": "2013-08-30T00:00:00",
+      "materia": "CALCULO DIFERENCIAL",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 0,
+      "comentario": "es una maestra que no explica. se supone que debe aclarar las dudas pero deja mas tonto al alumno. me da pena."
+    },
+    {
+      "fecha_iso": "2013-08-30T00:00:00",
+      "materia": "CALCULO DIFERENCIAL",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 6.0,
+      "recomienda": 0,
+      "comentario": "Su tono de voz es muy bajo, la clase la explica super rápido, pienso que tomándose la clase con calma seria mejor."
+    },
+    {
+      "fecha_iso": "2013-08-05T00:00:00",
+      "materia": "CÁLCULO DIFERENCIAL",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Muy buena maestra. Muchos se quejan de ella pero la realidad es que a los estudiantes les gusta que les regalen las cosas. En mi opinión basta con poner atención y estudiar en casa."
+    },
+    {
+      "fecha_iso": "2013-08-04T00:00:00",
+      "materia": "CALCULO DIFERENCIAL",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 5.0,
+      "recomienda": 0,
+      "comentario": "Es una maestra constante y puntual y hace su trabajo, sin embargo, sus clases son a bases de exposiciones y cuando explica un ejercicio en el pizarrón, los explica hacia ella misma y no hacia la clase, sus exámenes son sencillos."
+    },
+    {
+      "fecha_iso": "2013-07-19T00:00:00",
+      "materia": "CALCULO DIFERENCIAL",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 1.5,
+      "recomienda": 0,
+      "comentario": "Esta maestra no sirve para nada. No debería dar clases de matemáticas porque no sabe explicar y no domina los temas. No se quien le dijo que podía dar clases. No debería estar dando clases es una burla para todos los estudiantes del Tec."
+    },
+    {
+      "fecha_iso": "2013-05-20T00:00:00",
+      "materia": "ALGEBRA LINEAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Yo fui una alumna de Álgebra Lineal de la maestra Lorenza y la recomiendo a todo alumno que tenga ganas de aprender. Porque no solamente explica muy bien y sus exámenes si son largos y tienen el valor justo, ya que complementa la calificación con tareas, si eres un alumno flojo busca otra opción =D."
+    },
+    {
+      "fecha_iso": "2013-05-17T00:00:00",
+      "materia": "CACULO INTEGRAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Excelente maestra"
+    },
+    {
+      "fecha_iso": "2013-01-22T00:00:00",
+      "materia": "---",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    }
+  ],
+  "comments_recent": [
+    "Habla muy bajito, hace muchos problemas por si sola y si tienes dudas te confunde mucho más, no es accesible pero si sabes del tema está muy facil.\nTienes que investigar por tu cuenta y además deja mucha tarea pero los examenes están bien faciles.",
+    "Habla muy bajito y hace muchos ejercicios en poco tiempo. Los exámenes no son tan complicados.",
+    "Sabe mucho, pero no explica para nada. Le pides explicaciones y se enreda sola. No se las recomiendo. No aprendes nada a menos que tomes clases aparte",
+    "Como empezar esta profe se ve que quiere enseñar pero de verdad que no se le da eso. Habla muy bajito, hay veces que los alumnos la tienen que corregir \n\nPor suerte da examenes para recuperación pero tocó la desgracia de que los problemas que hubo en el examen son trabajos que ni de tarea vimos...",
+    "No explica nada bien, si le preguntas te confunde mas y aveces no sabe ni como resuelve los ejercicios, te pide que descargues una aplicación en el celular y no sirve de mucho.",
+    "no sabe explicar se queda trabada, avanza muy rapido con los temas, para pasar tienes que comprar un libro en que la profe se basa, deja tareas basadas en el libro, si leiste el libro y haces la tarea si aprendes",
+    "ella sabe hacer las cosas, lo qe se le dificulta es explicar, me fue muy dificil entenderle, si no es porqe ya sabia no paso",
+    "Excelente profesora!, pienso que igual de criticar a los profesores, deberián de ponerse a estudiar. Es una materia difícil y no pueden pasar la maetria si no practican."
+  ],
+  "n_reviews": 23
+}

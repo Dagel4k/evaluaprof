@@ -1,0 +1,136 @@
+{
+  "professor_id": "Juán_José_Ibarra_Patrón",
+  "nombre": "Juán José Ibarra Patrón",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 8.141887679257257,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.341137214475611,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.75,
+    "wilson_interval": [
+      0.30063605244263664,
+      0.9544139373553638
+    ],
+    "n_recommendations": 4
+  },
+  "subject_normalization": {
+    "z_mean": 0.16,
+    "z_mean_decayed": 0.13,
+    "per_subject": [
+      {
+        "materia": "TALLER DE BASES DE DATOS",
+        "z_decayed": 1.0954451150103315,
+        "n": 5
+      },
+      {
+        "materia": "ALGORITMOS Y LENGUAJES DE PROGRAMACIÓN",
+        "z_decayed": 0.0,
+        "n": 5
+      },
+      {
+        "materia": "TALLER DE BASE DE DATOS",
+        "z_decayed": -0.20189434926654076,
+        "n": 22
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [],
+    "sentiment": {
+      "overall": null,
+      "by_month": {}
+    },
+    "n_comments": 3
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        9.0,
+        10.0,
+        4.0,
+        10.0
+      ],
+      "ewma": [
+        9.0,
+        9.3,
+        7.71,
+        8.396999999999998
+      ],
+      "sigma": 2.3330092691628983
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 8.396999999999998,
+      "quality_band": [
+        3.8243018324407183,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2013-12-21T00:00:00",
+      "materia": "TALLER DE BASE DE DATOS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "es un maestro que explica con claridad todos los temas que se ven, la verdad yo si le entendi a todo, si lo recomiendo"
+    },
+    {
+      "fecha_iso": "2013-11-06T00:00:00",
+      "materia": "TALLER DE BASE DE DATOS",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 0,
+      "comentario": "No explica nada claro , pone ejemplos muy enredosos y no se calla en toda la clase, se equivoca mucho en cosas muy simples .... PARA ANDA LO RECOMIENDO"
+    },
+    {
+      "fecha_iso": "2013-04-09T00:00:00",
+      "materia": "TALLER DE BASES DE DATOS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2013-03-03T00:00:00",
+      "materia": "ALGORITMOS Y LENGUAJES DE PROGRAMACIÓN",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Nunca falta, es buen profesor enseñó cosas prácticas nomas que su material no es muy conciso, es buena onda y accesible. Para Industrial lo recomiendo, para sistemas no se."
+    }
+  ],
+  "comments_recent": [
+    "es un maestro que explica con claridad todos los temas que se ven, la verdad yo si le entendi a todo, si lo recomiendo",
+    "No explica nada claro , pone ejemplos muy enredosos y no se calla en toda la clase, se equivoca mucho en cosas muy simples .... PARA ANDA LO RECOMIENDO",
+    "Nunca falta, es buen profesor enseñó cosas prácticas nomas que su material no es muy conciso, es buena onda y accesible. Para Industrial lo recomiendo, para sistemas no se."
+  ],
+  "n_reviews": 4
+}

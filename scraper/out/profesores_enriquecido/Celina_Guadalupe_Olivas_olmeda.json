@@ -1,0 +1,244 @@
+{
+  "professor_id": "Celina_Guadalupe_Olivas_olmeda",
+  "nombre": "Celina Guadalupe Olivas olmeda",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 8.53768675817254,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.51452215803466,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.778,
+    "wilson_interval": [
+      0.4525833436728054,
+      0.9367762376877727
+    ],
+    "n_recommendations": 9
+  },
+  "subject_normalization": {
+    "z_mean": 0.19,
+    "z_mean_decayed": 0.35,
+    "per_subject": [
+      {
+        "materia": "CÁLCULO DIFERENCIAL",
+        "z_decayed": 0.4029385988982069,
+        "n": 46
+      },
+      {
+        "materia": "PROBABILIDAD Y ESTADISTICA",
+        "z_decayed": 0.36122820624607527,
+        "n": 32
+      },
+      {
+        "materia": "PROBABILIDAD Y ESTADÍSTICA",
+        "z_decayed": 0.18045405401377013,
+        "n": 23
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "apoya",
+          "aprender",
+          "es",
+          "te",
+          "si"
+        ],
+        "weight": 0.18956638361396574
+      },
+      {
+        "id": 1,
+        "words": [
+          "quieres",
+          "quieres aprender",
+          "es",
+          "diferencial",
+          "calculo"
+        ],
+        "weight": 0.13381399108550718
+      },
+      {
+        "id": 2,
+        "words": [
+          "es buena",
+          "entregas",
+          "tienes",
+          "sabe",
+          "explicar"
+        ],
+        "weight": 0.15300758421746713
+      },
+      {
+        "id": 3,
+        "words": [
+          "dos unidades",
+          "pesadas",
+          "dos",
+          "final",
+          "unidades"
+        ],
+        "weight": 0.15828453533207523
+      }
+    ],
+    "sentiment": {
+      "overall": -0.25,
+      "by_month": {
+        "2024-08": -1.0,
+        "2024-05": -1.0,
+        "2021-09": 0.0,
+        "2021-08": 0.0,
+        "2020-09": 0.0,
+        "2019-05": 0.0
+      }
+    },
+    "n_comments": 8
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        6.0,
+        10.0,
+        9.0,
+        10.0,
+        9.0,
+        8.0,
+        9.0
+      ],
+      "ewma": [
+        6.0,
+        7.199999999999999,
+        7.739999999999998,
+        8.418,
+        8.5926,
+        8.414819999999999,
+        8.590373999999999
+      ],
+      "sigma": 1.0967565688526024
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 8.590373999999999,
+      "quality_band": [
+        6.440731125048899,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2024-08-09T00:00:00",
+      "materia": "CÁLCULO DIFERENCIAL",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Es buena maestra, sabe de diferencial  y domina los temas que imparte, es un buen inicio si quieres aprender de verdad calculo. \nLo único malo sería que son tantos temas en calculo que aveces se puede sentir que va rápido, pero lo hace lo mejor posible."
+    },
+    {
+      "fecha_iso": "2024-05-15T00:00:00",
+      "materia": "CALCULO DIFERENCIAL RC",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 1,
+      "comentario": "tome RC de calculo diferencial con ella y me ayudo mucho a pasar la materia que anteriormente se me había complicado mucho"
+    },
+    {
+      "fecha_iso": "2022-03-15T00:00:00",
+      "materia": "PROBABILIDAD Y ESTADISTICA",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2021-09-03T00:00:00",
+      "materia": "FUNDAMENTOS DE FÍSICA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Si quieres tirar concha no es con ella, suele dejar muchas tareas pero sencillas. Los exámenes son algo difíciles pero nada imposible. Se esfuerza en hacer interactivas sus clases y apoya en cualquier duda. Si quieres aprender aprovéchala"
+    },
+    {
+      "fecha_iso": "2021-08-27T00:00:00",
+      "materia": "PROBABILIDAD Y ESTADISTICA",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Las clases son pesadas y deja muchas tareas, eso si si le preguntas te resuelve cualquier duda aunque las repitas xD y si tienes buena asistencia al final te pasa una o dos unidades, te matas algo las primeras 4 unidades pero al final vale la pena"
+    },
+    {
+      "fecha_iso": "2020-09-03T00:00:00",
+      "materia": "PROBABILIDAD Y ESTADISTICA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "deja muchas tareas y están pesadas, los examenes son dificiles pero siempre esta abierta a ayudarte con las dudas, yo le entregué todo y no falté y al final me excentó dos unidades, rifados pa los que les gusta chambear"
+    },
+    {
+      "fecha_iso": "2019-05-27T00:00:00",
+      "materia": "PROBABILIDAD Y ESTADÍSTICA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Muy buena maestra, muy clara, eso sí, deja mucha tarea, pero si entregas todo te apoya si te va mal en el examen. Los que comentaron abajo han de ser de esos huevones que todo quieren fácil. Si no quieren aprender carguen con barcos, otra cosa es que ustedes no le echen ganas. Muy recomendada :)"
+    },
+    {
+      "fecha_iso": "2019-05-25T00:00:00",
+      "materia": "PROBABILIDAD Y ESTADISTICA",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": "No sabe explicar, tienes que estar al pendiente de lo que le entregas porque todo se le olvida. Sus ponderaciones y forma de calificar son malas, más 90% repruobó con ella."
+    },
+    {
+      "fecha_iso": "2019-05-03T00:00:00",
+      "materia": "PROBABILIDAD Y ESTADÍSTICA",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Da mucha flojera su clase , es buena onda pero para explicar muy mensa"
+    }
+  ],
+  "comments_recent": [
+    "Es buena maestra, sabe de diferencial  y domina los temas que imparte, es un buen inicio si quieres aprender de verdad calculo. \nLo único malo sería que son tantos temas en calculo que aveces se puede sentir que va rápido, pero lo hace lo mejor posible.",
+    "tome RC de calculo diferencial con ella y me ayudo mucho a pasar la materia que anteriormente se me había complicado mucho",
+    "Si quieres tirar concha no es con ella, suele dejar muchas tareas pero sencillas. Los exámenes son algo difíciles pero nada imposible. Se esfuerza en hacer interactivas sus clases y apoya en cualquier duda. Si quieres aprender aprovéchala",
+    "Las clases son pesadas y deja muchas tareas, eso si si le preguntas te resuelve cualquier duda aunque las repitas xD y si tienes buena asistencia al final te pasa una o dos unidades, te matas algo las primeras 4 unidades pero al final vale la pena",
+    "deja muchas tareas y están pesadas, los examenes son dificiles pero siempre esta abierta a ayudarte con las dudas, yo le entregué todo y no falté y al final me excentó dos unidades, rifados pa los que les gusta chambear",
+    "Muy buena maestra, muy clara, eso sí, deja mucha tarea, pero si entregas todo te apoya si te va mal en el examen. Los que comentaron abajo han de ser de esos huevones que todo quieren fácil. Si no quieren aprender carguen con barcos, otra cosa es que ustedes no le echen ganas. Muy recomendada :)",
+    "No sabe explicar, tienes que estar al pendiente de lo que le entregas porque todo se le olvida. Sus ponderaciones y forma de calificar son malas, más 90% repruobó con ella.",
+    "Da mucha flojera su clase , es buena onda pero para explicar muy mensa"
+  ],
+  "n_reviews": 9
+}

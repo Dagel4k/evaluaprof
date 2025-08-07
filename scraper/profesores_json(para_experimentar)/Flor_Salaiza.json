@@ -1,0 +1,136 @@
+{
+  "nombre": "Flor Salaiza",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "ciudad": "Ciudad: culiacan, sinaloa",
+  "departamento": "Departamento/Facultad: Ing. Industrial",
+  "calidad_general": 7.3,
+  "porcentaje_recomienda": 71,
+  "nivel_dificultad": 2.6,
+  "etiquetas": [
+    "PREPÁRATE PARA LEER (4)",
+    "DEJA TRABAJOS LARGOS (1)",
+    "MUCHOS PROYECTOS GRUPALES (1)",
+    "BRINDA APOYO (2)",
+    "TOMARÍA SU CLASE OTRA VEZ (1)",
+    "ASISTENCIA OBLIGATORIA (1)",
+    "CALIFICA DURO (1)",
+    "CLASES EXCELENTES (1)"
+  ],
+  "numero_calificaciones": 7,
+  "calificaciones": [
+    {
+      "fecha": "16/Ene/2021",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Taller de investigación",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "Siempre intenta que aprendamos, explica muy bien, fomenta la lectura y es estricta y deja tareas pero eso no le quita lo buena onda y servicial. Si quieren aprender ella es la opción, sabe mucho de todo.",
+      "etiquetas_comentario": [
+        "Califica Duro",
+        "Prepárate para leer",
+        "Clases excelentes"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "28/Ago/2020",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Taller de Investigación 2",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "9",
+      "interes_clase": "",
+      "comentario": "Es buena la Dra. Fomenta la lectura y sabe mucho de metodología de investigación.",
+      "etiquetas_comentario": [
+        "Prepárate para leer",
+        "Asistencia obligatoria",
+        "Brinda apoyo"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "14/Jun/2019",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 2.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Taller de investigacion II",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "N/A",
+      "interes_clase": "",
+      "comentario": "no enseña nada y califica como le da la gana, por mas bien que este el trabajo siempre dira que esta mal aunque ya te haya dicho que esta bien, esta facil pasar pero no aprendes nada y sales pesimo",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "1"
+    },
+    {
+      "fecha": "10/Jun/2018",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 8.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "taller de investigacion",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "N/A",
+      "interes_clase": "",
+      "comentario": "todo el semestre es leer libros y una exposision, te la pasas agusto",
+      "etiquetas_comentario": [],
+      "votos_utiles": "1",
+      "votos_no_utiles": "1"
+    },
+    {
+      "fecha": "12/Jun/2017",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 8.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Taller de investigación II",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "8.5",
+      "interes_clase": "",
+      "comentario": "Muy buena profesora. Califica justo y aprendes mucho. Te fomenta el hábito de la lectura haciendo exámenes de algún libro, que dichos exámenes te pueden favorecer en tus calificaciones de las unidades.\nAl final tienes que entregar un informe final de algún proyecto que te deja desde el principio.",
+      "etiquetas_comentario": [
+        "Prepárate para leer",
+        "Brinda apoyo",
+        "Tomaría su clase otra vez"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "18/Dic/2016",
+      "tipo_calificacion": "REGULAR",
+      "puntaje_calidad_general": 5.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Formulación y evaluación de proyectos",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "7.5",
+      "interes_clase": "",
+      "comentario": "",
+      "etiquetas_comentario": [
+        "Prepárate para leer",
+        "Deja trabajos largos",
+        "Muchos proyectos grupales"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "30/Ene/2012",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 8.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Cultura empresarial",
+      "asistencia": "",
+      "calificacion_recibida": "8.5",
+      "interes_clase": "8.5",
+      "comentario": "",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    }
+  ]
+}

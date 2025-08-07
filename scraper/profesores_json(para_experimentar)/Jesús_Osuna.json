@@ -1,0 +1,87 @@
+{
+  "nombre": "Jesús Osuna",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "ciudad": "Ciudad: culiacan, sinaloa",
+  "departamento": "Departamento/Facultad: Bioquímica",
+  "calidad_general": 4.0,
+  "porcentaje_recomienda": 20,
+  "nivel_dificultad": 6.8,
+  "etiquetas": [
+    "BARCO (1)"
+  ],
+  "numero_calificaciones": 5,
+  "calificaciones": [
+    {
+      "fecha": "08/Nov/2017",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 3.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Bioquimica",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "N/A",
+      "interes_clase": "",
+      "comentario": "Nunca llevare clase con el otra vez",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "14/Jul/2017",
+      "tipo_calificacion": "REGULAR",
+      "puntaje_calidad_general": 4.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Bioquimica",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "8",
+      "interes_clase": "",
+      "comentario": "Simplemente mal maestro",
+      "etiquetas_comentario": [
+        "Barco"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "31/Dic/2013",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 2.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "BIOQUIMICA",
+      "asistencia": "",
+      "calificacion_recibida": "0.5",
+      "interes_clase": "0.5",
+      "comentario": "ESTE ES UN HUEVON DE PRIMERA, LE DICEN EL YOYO,SE LA PASA PRESUMIENDO DE SU PUESTO QUE LE VIENE GUANGO,PUES NO HA HECHO NADA, NI SABE TRABAJAR, VEAN LOS RESULTADOS DE LIMPIEZA Y MANTENIMIENTO,SOLO LE INTERESA SUS LARGAS PLATICAS CON CAFECITO CON SU SECRE, ELLA ES LA JEFA,ES LA TIANGUERA.",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "04/Ago/2013",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 2.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Diseño de experimentos",
+      "asistencia": "",
+      "calificacion_recibida": "1",
+      "interes_clase": "1",
+      "comentario": "Este guevon no es maestro porque no se le entiende ni madres a este bato y desparrama mierda como si fuera la gran cacona. No se quien le regalo el titulo porque esta desgraciando a los alumnos. Falta mucho y no enseña nada.",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "10/Nov/2011",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 9.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "probabilidad y estadistica",
+      "asistencia": "",
+      "calificacion_recibida": "N/A",
+      "interes_clase": "N/A",
+      "comentario": "",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    }
+  ]
+}

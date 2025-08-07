@@ -1,0 +1,93 @@
+{
+  "nombre": "Edy Ramirez Valverde",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "ciudad": "Ciudad: culiacan, sinaloa",
+  "departamento": "Departamento/Facultad: Electromagnetismo",
+  "calidad_general": 6.2,
+  "porcentaje_recomienda": 60,
+  "nivel_dificultad": 2.8,
+  "etiquetas": [
+    "MUCHAS TAREAS (2)",
+    "ASISTENCIA OBLIGATORIA (1)",
+    "DEJA TRABAJOS LARGOS (1)"
+  ],
+  "numero_calificaciones": 5,
+  "calificaciones": [
+    {
+      "fecha": "12/Ene/2019",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 9.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Electromagnetismo",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "8",
+      "interes_clase": "",
+      "comentario": "",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "30/Jul/2018",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 8.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Electricidad",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "9",
+      "interes_clase": "",
+      "comentario": "Todo es por plataforma y si toma lista, pasas facilmente si sabes usar bien la pagina",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "12/Jun/2018",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 3.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Electricidad industrial",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "9",
+      "interes_clase": "",
+      "comentario": "En todo el semestre fue raro cuando el nos daba clase, todo es por plataforma y es muy impuntual, puede llegar hasta media hora tarde a clase y toma asistencia",
+      "etiquetas_comentario": [
+        "Muchas tareas"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "13/Ene/2018",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 7.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Electromagetismo",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "8",
+      "interes_clase": "",
+      "comentario": "Todo es por plataforma",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "09/Dic/2017",
+      "tipo_calificacion": "REGULAR",
+      "puntaje_calidad_general": 4.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Electromagnetismo",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "7.5",
+      "interes_clase": "",
+      "comentario": "Nah no mucho que decir, asistencia obligatoria, todas las tareas las dejara en la plataforma, y los examenes tambien son para subirse en la plataforma, no enseña casi nada en clase, si tienes el pdf de el ya chingaste.",
+      "etiquetas_comentario": [
+        "Muchas tareas",
+        "Asistencia obligatoria",
+        "Deja trabajos largos"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    }
+  ]
+}

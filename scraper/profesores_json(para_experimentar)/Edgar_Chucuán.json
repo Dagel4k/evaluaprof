@@ -1,0 +1,224 @@
+{
+  "nombre": "Edgar Chucuán",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "ciudad": "Ciudad: culiacan, sinaloa",
+  "departamento": "Departamento/Facultad: Ciencias Básicas",
+  "calidad_general": 8.0,
+  "porcentaje_recomienda": 67,
+  "nivel_dificultad": 1.7,
+  "etiquetas": [
+    "LA PARTICIPACIÓN IMPORTA (1)",
+    "RESPETADO POR LOS ESTUDIANTES (2)",
+    "DA CRÉDITO EXTRA (1)",
+    "DA BUENA RETROALIMENTACIÓN (2)",
+    "ASISTENCIA OBLIGATORIA (1)",
+    "TOMARÍA SU CLASE OTRA VEZ (4)",
+    "BARCO (2)",
+    "MUY CÓMICO (1)",
+    "INSPIRACIONAL (3)",
+    "CLASES EXCELENTES (3)"
+  ],
+  "numero_calificaciones": 12,
+  "calificaciones": [
+    {
+      "fecha": "04/Nov/2024",
+      "tipo_calificacion": "REGULAR",
+      "puntaje_calidad_general": 5.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Aplicación de las leyes",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "9.5",
+      "interes_clase": "",
+      "comentario": "Pone en duda tus creencias y explica muy bien, pero es un profesor que no está pendiente de sus estudiantes, no explica bien las actividades, califica cosas que no pidió en estas, a veces no asiste a clases y no explica las mismas cosas a todos sus grupos, siendo esta la misma materia.",
+      "etiquetas_comentario": [
+        "Califica Duro",
+        "Pocos Exámenes",
+        "Deja trabajos largos"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "11/Ago/2022",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 2.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Probabilidad Y Estadistica",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "N/A",
+      "interes_clase": "",
+      "comentario": "Nunca se presento ni en linea ni en presencial,  hasta nos tuvieron que cambiar de profesor",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "17/Dic/2021",
+      "tipo_calificacion": "REGULAR",
+      "puntaje_calidad_general": 5.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Fisica ISC (Linea)",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "Este profe da clases muy diferentes a los demás profesores, sus clases son más de entender la física y muy poco de aplicarla con formulas o problemas. Da clases dos días a la semana, las tareas son obligatorias (con eso califica) y al final desapareció 3 semanas. Carga si no te importa la materia",
+      "etiquetas_comentario": [
+        "Barco",
+        "Inspiracional",
+        "Clases excelentes"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "09/Ago/2018",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Fisica General",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "9",
+      "interes_clase": "",
+      "comentario": "Súper recomendado, el mejor profe. Sus clases son muy interesantes y te pone en duda todo lo que crees saber. Hace pocos exámenes y todos son de las tareas. \n\nSe la rifa bien machin. Carguen con el, se van a divertir.",
+      "etiquetas_comentario": [
+        "Inspiracional",
+        "Clases excelentes",
+        "Tomaría su clase otra vez"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "04/Ago/2018",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Fisica",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "9.5",
+      "interes_clase": "",
+      "comentario": "",
+      "etiquetas_comentario": [
+        "Da buena retroalimentación",
+        "Respetado por los estudiantes",
+        "Pocos Exámenes"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "21/Mar/2018",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Fisica",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "ES EL MEJOR PROFESOR AUNQUE NO TENGO CLASE CON EL LO AMO",
+      "etiquetas_comentario": [
+        "Inspiracional",
+        "Clases excelentes",
+        "Tomaría su clase otra vez"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "28/Feb/2018",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Física Pa' Pendejos",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "Es una verga. El compa falta 3 días a la semana y cuando llega, llega rompiendo madres, se la pasa diciéndonos pendejos y que valemos verga, recomendado a full. Cargaría toda mi vida con él, me encanta que me diga que estoy bien pendejo.",
+      "etiquetas_comentario": [
+        "Barco",
+        "Muy cómico",
+        "Tomaría su clase otra vez"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "19/Jul/2017",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 8.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Física",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "9.5",
+      "interes_clase": "",
+      "comentario": "",
+      "etiquetas_comentario": [
+        "Da buena retroalimentación",
+        "Asistencia obligatoria",
+        "Tomaría su clase otra vez"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "13/Jun/2016",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "matematicas",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "9.5",
+      "interes_clase": "",
+      "comentario": "",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "07/Ago/2015",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "algebra lineal",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "Muy buen profe explica con claridad, sus examenes son parecidos a los de las tareas, aunque a veces son las mismas tareas, si estas interesado en aprender y aprobar la materia, no lo dudes carga con el no te arrepentiras.",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "04/Ago/2015",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Algebra Lineal",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "EXCELENTE PROFESOR! Si tuviera la oportunidad de volver a tener clases con el lo haría, explica muy bien y con que tengas disciplina y seas responsables ya la hiciste!.\nAdemas sus exámenes son en su mayoría en equipos ¡Super Recomendado!",
+      "etiquetas_comentario": [
+        "La Participación Importa",
+        "Respetado por los estudiantes",
+        "Da Crédito Extra"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "11/Ene/2014",
+      "tipo_calificacion": "REGULAR",
+      "puntaje_calidad_general": 6.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Física",
+      "asistencia": "",
+      "calificacion_recibida": "6.5",
+      "interes_clase": "6.5",
+      "comentario": "Las clases no son tan aburridas porque no le gusta perderse mucho en la teoría, te enseña las fórmulas, a usarlas y a razonar. Falta seguido, sus exámenes son fáciles, a veces se molesta con el grupo y los hace complicados. Es poco objetivo con las calif. Te puede poner de 70 a 100, no reprueba.",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    }
+  ]
+}

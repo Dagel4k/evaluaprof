@@ -1,0 +1,574 @@
+{
+  "nombre": "Jacobo Natanael López Valazquez",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "ciudad": "Ciudad: culiacan, sinaloa",
+  "departamento": "Departamento/Facultad: Sistemas",
+  "calidad_general": 7.4,
+  "porcentaje_recomienda": 71,
+  "nivel_dificultad": 1.7,
+  "etiquetas": [
+    "CALIFICA DURO (2)",
+    "HACE EXÁMENES SORPRESA (1)",
+    "CLASES EXCELENTES (3)",
+    "BARCO (10)",
+    "MUY CÓMICO (7)",
+    "LA PARTICIPACIÓN IMPORTA (1)",
+    "INSPIRACIONAL (2)",
+    "DA CRÉDITO EXTRA (3)",
+    "BRINDA APOYO (4)",
+    "ASISTENCIA OBLIGATORIA (6)"
+  ],
+  "numero_calificaciones": 34,
+  "calificaciones": [
+    {
+      "fecha": "30/May/2025",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 2.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "METODO NUMERICOS",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "9",
+      "interes_clase": "",
+      "comentario": "PURAS PNDJDS, ENSEÑA DLV EXPLICA NADA Y TE MANDA ALV, A LAS MUJERES LAS PASA Y SIEMPRE DICE DE CHISTE QUE ES DE GUADSAVE QUE CON ESO",
+      "etiquetas_comentario": [
+        "Asistencia obligatoria"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "12/Feb/2025",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 7.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Metodos Numericos",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "8",
+      "interes_clase": "",
+      "comentario": "Ratacuen por eso le decian Ratanael, Imaginate que te traen desde Guasave y te avientan en la peni por ser un bandido Dice haberse aventado 2 o 3 cholos alla en Guasave cuando estaba morro, si puedes carga con el te aseguro Consejos de vida y anecdotas buenas.",
+      "etiquetas_comentario": [
+        "Muy cómico",
+        "Respetado por los estudiantes",
+        "Clases excelentes"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "31/Oct/2024",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 8.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Metodos numericos",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "9.5",
+      "interes_clase": "",
+      "comentario": "el Ratanael Agarra cura maziso comentarios muy funables y comicos, preguntale de su juventud en Guasave el como lo amarraron a un arbol por andar asaltando expendios y como paso de ser malandrin a ser un hijo de Dios . No apto para la generacion de cristal",
+      "etiquetas_comentario": [
+        "Muy cómico",
+        "Inspiracional",
+        "Tomaría su clase otra vez"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "09/Ago/2024",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 9.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Programación Básica",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "8.5",
+      "interes_clase": "",
+      "comentario": "Es una personalidad de esás que no encuentras a menudo pero quisieras en todas las materias. Aprendimos poco mientras él recordaba cómo programar, pero lo que enseññó lo hizo bien. El pedo fue que nunca tuvimos sala de cómputo, entonces todo fue a mano, y hubo problemas con la calificación.",
+      "etiquetas_comentario": [
+        "Muy cómico",
+        "Da buena retroalimentación"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "01/Jun/2023",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Metodos numericos!!",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "9.5",
+      "interes_clase": "",
+      "comentario": "Es bien griton en las clases para explicar pero le da el toque, siempre trae toda la actitud",
+      "etiquetas_comentario": [
+        "Barco",
+        "Muy cómico",
+        "Tomaría su clase otra vez"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "23/May/2022",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 8.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Métodos Numéricos",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "Clase barco. La mitad de la clase es hablar sobre anécdotas de su vida y la otra mitad (o menos) es hablar sobre la clase. No deja exámenes y califica con proyectos de programación muy fáciles. Cienón fácil si asistes y entregas los trabajos",
+      "etiquetas_comentario": [
+        "Barco",
+        "Asistencia obligatoria",
+        "Da Crédito Extra"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "07/Abr/2022",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "metodos numericos",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "9.5",
+      "interes_clase": "",
+      "comentario": "natagod",
+      "etiquetas_comentario": [
+        "Barco",
+        "Da buena retroalimentación",
+        "Da Crédito Extra"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "15/Mar/2022",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Metodos numericos",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "9.5",
+      "interes_clase": "",
+      "comentario": "Estaba medio acabando el examen y me dijo asi entregalo y me puso 100 XD",
+      "etiquetas_comentario": [
+        "Barco",
+        "Brinda apoyo",
+        "Tomaría su clase otra vez"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "02/Feb/2022",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Metodos Numéricos",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "Barcazo",
+      "etiquetas_comentario": [
+        "Barco",
+        "Tomaría su clase otra vez"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "29/Sep/2021",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 9.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Metodos Numericos",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "8.5",
+      "interes_clase": "",
+      "comentario": "Programas sencillos y hay dias que no da\nEs religioso pero nomas es seguirle la cura",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "03/Sep/2021",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 9.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Metodos numericos",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "9.5",
+      "interes_clase": "",
+      "comentario": "Esta bueno para materias de relleno xd",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "25/May/2021",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 9.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Metodos numericos",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "izi pisi crack, explica de forma clara, aprendes logica y no es nada estresante llevar con él, no entiendo porqué le tiran tanto hate xDDDDD",
+      "etiquetas_comentario": [
+        "Tomaría su clase otra vez"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "02/May/2021",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 2.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Metodos numericos",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "No lleves perfume en clase de natanael o se acercara a Olerte de una manera muy incomoda y mas si eres hombre, este profe no sabe nada de su materia, no sabe enseñar.",
+      "etiquetas_comentario": [
+        "Barco"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "02/Jun/2020",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 9.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Metodos Numericos",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "Cienon jaja, la verdad es que si es fácil pasar con el, los examenes son bastante faciles, deja como un programa por semana. Solo necesitas saber programar hasta fundamentos y ya está. Sino aprenden es porque no quieren",
+      "etiquetas_comentario": [
+        "Barco",
+        "Tomaría su clase otra vez"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "16/Ene/2020",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 2.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Métodos numericos",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "Hazte un favor y no cargues con el, cualquiera que lo recomiende es porque con el, sus exámenes son regalados y  ademas de eso, con puras tareas pasas. Pero el no sabe transmitir ningún conocimiento y siempre termina divagando o haciendo malos chistes",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "13/Ene/2020",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 8.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "---",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "N/A",
+      "interes_clase": "",
+      "comentario": "[Comentario esperando revisión]",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "02/Nov/2019",
+      "tipo_calificacion": "REGULAR",
+      "puntaje_calidad_general": 5.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Métodos Numéricos",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "9",
+      "interes_clase": "",
+      "comentario": "Tu ya tienes que saber programar, el no te va a explicar todo solo lo que sabe (el diagrama de flujo), su mentalidad es a la antigua.\nQuiere cambiar tu manera de pensar sobre la vida, la Coca-Cola es del biablo.\nAprenderás algo bien\nES LO QUE HAY!!!",
+      "etiquetas_comentario": [
+        "Asistencia obligatoria"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "30/Sep/2019",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 2.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Métodos Numéricos",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "9.5",
+      "interes_clase": "",
+      "comentario": "Es de Guasave.",
+      "etiquetas_comentario": [
+        "Barco"
+      ],
+      "votos_utiles": "1",
+      "votos_no_utiles": "1"
+    },
+    {
+      "fecha": "19/Ago/2019",
+      "tipo_calificacion": "REGULAR",
+      "puntaje_calidad_general": 5.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Métodos Numéricos",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "9",
+      "interes_clase": "",
+      "comentario": "es bien especialito, si le contradices se ofende, pero es el único que le sabe al pedo.",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "1"
+    },
+    {
+      "fecha": "08/Ago/2019",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 7.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Métodos numéricos",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "9",
+      "interes_clase": "",
+      "comentario": "Es un meme este profe, está bien para cursar ésta materia",
+      "etiquetas_comentario": [
+        "Muy cómico",
+        "Aspectos de calificación claros"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "05/Ago/2019",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 9.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Métodos Numéricos",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "9",
+      "interes_clase": "",
+      "comentario": "Es buen profesor, pero como persona no lo creo.\nExplica muy bien su clase y hace que la entiendas, pero el ambiente que genera es desagradable a causa de sus comentarios innecesarios.",
+      "etiquetas_comentario": [
+        "Asistencia obligatoria",
+        "Brinda apoyo",
+        "Clases excelentes"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "12/Jun/2019",
+      "tipo_calificacion": "REGULAR",
+      "puntaje_calidad_general": 6.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Métodos Numericos",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "Es una persona muy desagradable por los comentarios que hace en clase, su forma de dar clases no esta mal, si le pones atención si aprendes y pasas fácil, entregale todos los trabajos no importa que sean copiados, si al final debes una unidad te la pasa, si le tienes que echar ganitas. Suerte",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "12/Jun/2019",
+      "tipo_calificacion": "REGULAR",
+      "puntaje_calidad_general": 5.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Métodos Numéricos",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "7.5",
+      "interes_clase": "",
+      "comentario": "Es muy especializo, dice ayudar pero nunca dice las cosas de manera claras.",
+      "etiquetas_comentario": [
+        "Muchas tareas",
+        "Asistencia obligatoria",
+        "Deja trabajos largos"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "04/Jun/2019",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 9.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Metodos numericos",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "Es un viejo lesbiano religioso",
+      "etiquetas_comentario": [
+        "Muy cómico",
+        "Asistencia obligatoria",
+        "Brinda apoyo"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "30/Ene/2019",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 8.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Métodos numéricos",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "9",
+      "interes_clase": "",
+      "comentario": "Si bien, su materia es sencilla, su actitud misógina y religiosa extremista lo vuelve alguien detestable. Como que no conecta cerebro con boca.",
+      "etiquetas_comentario": [],
+      "votos_utiles": "2",
+      "votos_no_utiles": "1"
+    },
+    {
+      "fecha": "15/Ene/2019",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 9.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Metodos Númericos",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "9.5",
+      "interes_clase": "",
+      "comentario": "La materia debería de ser asistida por equipos de computo en la escuela,\nlo cual nunca fué así.  (Desde mi punto de vista no lo veo correcto).\nEs sumamente cerrado con lo que explica y revisa.\nDescuida demasiado su imagen púbica como docente.\nComo dato positivo es gracioso en clase.\n7/10",
+      "etiquetas_comentario": [
+        "Califica Duro"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "15/Oct/2018",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "metodos numericos",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "9",
+      "interes_clase": "",
+      "comentario": "es un viejo lesbiano.",
+      "etiquetas_comentario": [
+        "Inspiracional",
+        "Da Crédito Extra",
+        "Brinda apoyo"
+      ],
+      "votos_utiles": "1",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "24/Ago/2018",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 8.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Metodos numéricos",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "Es shrek hecho maestro nada más le faltan las orejas y ser verde",
+      "etiquetas_comentario": [
+        "Barco",
+        "Muy cómico",
+        "La Participación Importa"
+      ],
+      "votos_utiles": "2",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "26/Feb/2018",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 8.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Métodos numéricos",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "Es la persona más desagradable que conozco, hace comentarios machistas y homofobicos, tiene costumbres desagradables como tragarse las flemas haciendo mucho ruido, limpiarse la cerilla de oídos con una pluma  o sus lentes pero por lo menos sabe de lo que esta dando clase.",
+      "etiquetas_comentario": [
+        "Barco"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "22/Dic/2016",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Metodos numericos",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "N/A",
+      "interes_clase": "",
+      "comentario": "excelente profesor, posee amplios conocimientos de programacion ademas que explica de una manera super clara cuantas veces necesites y cualquier duda que tengas te la responde, tambien ayuda mucho a sus alumnos si no faltan y le echan ganas, lo recomiendo al cien",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "20/Jun/2016",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Programación Básica",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "Si asistes y le pones atención si aprendes a programar y por consiguiente pasas los examenes ...\nla asistencia es muy importante",
+      "etiquetas_comentario": [
+        "Califica Duro",
+        "Hace exámenes sorpresa",
+        "Clases excelentes"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "08/Ene/2015",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 3.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "metodos numericos",
+      "asistencia": "",
+      "calificacion_recibida": "10",
+      "interes_clase": "10",
+      "comentario": "no me gusto, y si no tienes ni idea de programar mejor no vayas con el",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "13/Ago/2013",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 8.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "metodos numericos",
+      "asistencia": "",
+      "calificacion_recibida": "9",
+      "interes_clase": "9",
+      "comentario": "El profesor le pone muchas ganas a sus clases no pasa al que falta a la clase, ayuda al que asiste aunque repruebe, da muchas oportunidades de pasar",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "30/Oct/2012",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 7.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Programación básica",
+      "asistencia": "",
+      "calificacion_recibida": "10",
+      "interes_clase": "10",
+      "comentario": "Si no sabes programar nada, échale muchas ganas o no cargues con él, el trabaja asumiendo que todo tienen conocimientos base de programación por lo que se te dificultará mucho la materia y no aprenderás gran cosa, si sabes programar no te preocupes que si pasas tienes buena calificación con él.",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "1"
+    }
+  ]
+}

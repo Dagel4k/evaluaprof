@@ -1,0 +1,120 @@
+{
+  "professor_id": "Manuel_Garcia",
+  "nombre": "Manuel Garcia",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 8.829172237742261,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.367378538666044,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 1.0,
+    "wilson_interval": [
+      0.4384939195509822,
+      1
+    ],
+    "n_recommendations": 3
+  },
+  "subject_normalization": {
+    "z_mean": 0.6,
+    "z_mean_decayed": 0.5,
+    "per_subject": [
+      {
+        "materia": "FUNDAMENTOS DE INVESTIGACION",
+        "z_decayed": 0.8752422814280783,
+        "n": 24
+      },
+      {
+        "materia": "TALLER DE LIDERAZGO",
+        "z_decayed": 0.44376422067816346,
+        "n": 38
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [],
+    "sentiment": {
+      "overall": null,
+      "by_month": {}
+    },
+    "n_comments": 3
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        8.0,
+        10.0,
+        8.0
+      ],
+      "ewma": [
+        8.0,
+        8.6,
+        8.42
+      ],
+      "sigma": 0.9529602999775665
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 8.42,
+      "quality_band": [
+        6.5521978120439694,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2017-08-08T00:00:00",
+      "materia": "TALLER DE LIDERAZGO",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Su clase fue muy fácil, deja trabajos de investigación fáciles y si los tienes todos, pasas. El examen lo hacen los alumnos, al menos en mi clase. Lo volvería a cargar sin duda. Nunca falten."
+    },
+    {
+      "fecha_iso": "2017-05-07T00:00:00",
+      "materia": "TALLER DE LIDERAZGO",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Es muy buen profesor."
+    },
+    {
+      "fecha_iso": "2014-01-25T00:00:00",
+      "materia": "FUNDAMENTOS DE INVESTIGACION",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Muy humanista el profesor, no faltando te pasa y muy bien la verdad, hay k saber ser callado a la hora de explicar :) lo recomiendo ampliamente"
+    }
+  ],
+  "comments_recent": [
+    "Su clase fue muy fácil, deja trabajos de investigación fáciles y si los tienes todos, pasas. El examen lo hacen los alumnos, al menos en mi clase. Lo volvería a cargar sin duda. Nunca falten.",
+    "Es muy buen profesor.",
+    "Muy humanista el profesor, no faltando te pasa y muy bien la verdad, hay k saber ser callado a la hora de explicar :) lo recomiendo ampliamente"
+  ],
+  "n_reviews": 3
+}

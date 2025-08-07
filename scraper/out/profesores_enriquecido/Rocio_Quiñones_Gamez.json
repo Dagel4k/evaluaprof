@@ -1,0 +1,120 @@
+{
+  "professor_id": "Rocio_Quiñones_Gamez",
+  "nombre": "Rocio Quiñones Gamez",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 2.5134874521295867,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 5.905840077127582,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.0,
+    "wilson_interval": [
+      0,
+      0.5615060804490177
+    ],
+    "n_recommendations": 3
+  },
+  "subject_normalization": {
+    "z_mean": -1.11,
+    "z_mean_decayed": -1.09,
+    "per_subject": [
+      {
+        "materia": "QUÍMICA",
+        "z_decayed": -1.0437845848229201,
+        "n": 44
+      },
+      {
+        "materia": "QUIMICA",
+        "z_decayed": -1.1378786355963753,
+        "n": 83
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [],
+    "sentiment": {
+      "overall": null,
+      "by_month": {}
+    },
+    "n_comments": 3
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        2.0,
+        2.0,
+        3.0
+      ],
+      "ewma": [
+        2.0,
+        2.0,
+        2.3
+      ],
+      "sigma": 0.4041451884327381
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 2.3,
+      "quality_band": [
+        1.5078754306718332,
+        3.0921245693281665
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2021-09-07T00:00:00",
+      "materia": "QUÍMICA",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 0,
+      "comentario": "Muy buena persona, pero muy mala enseñando. Sus clases son largas y no explica nada bien. \n\nEs una lastima porque la química me gusta mucho, pero ella hace que le pierda el amor a las clases de química."
+    },
+    {
+      "fecha_iso": "2020-01-11T00:00:00",
+      "materia": "QUIMICA",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 0,
+      "comentario": "te dejara muuuuuuuuy confundido, pero si asistes pasaras la materia"
+    },
+    {
+      "fecha_iso": "2018-12-03T00:00:00",
+      "materia": "QUIMICA",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": "No sabe dar clases, no explica , yo tuve que llevar química por mi cuenta y aprendí mas"
+    }
+  ],
+  "comments_recent": [
+    "Muy buena persona, pero muy mala enseñando. Sus clases son largas y no explica nada bien. \n\nEs una lastima porque la química me gusta mucho, pero ella hace que le pierda el amor a las clases de química.",
+    "te dejara muuuuuuuuy confundido, pero si asistes pasaras la materia",
+    "No sabe dar clases, no explica , yo tuve que llevar química por mi cuenta y aprendí mas"
+  ],
+  "n_reviews": 3
+}

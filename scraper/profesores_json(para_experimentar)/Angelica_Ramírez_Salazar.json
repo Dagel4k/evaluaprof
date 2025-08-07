@@ -1,0 +1,291 @@
+{
+  "nombre": "Angelica Ramírez Salazar",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "ciudad": "Ciudad: culiacan, sinaloa",
+  "departamento": "Departamento/Facultad: Informatíca",
+  "calidad_general": 8.5,
+  "porcentaje_recomienda": 82,
+  "nivel_dificultad": 2.4,
+  "etiquetas": [
+    "DA BUENA RETROALIMENTACIÓN (6)",
+    "RESPETADO POR LOS ESTUDIANTES (5)",
+    "TOMARÍA SU CLASE OTRA VEZ (5)",
+    "BRINDA APOYO (2)",
+    "ASISTENCIA OBLIGATORIA (1)",
+    "ASPECTOS DE CALIFICACIÓN CLAROS (2)",
+    "CLASES EXCELENTES (2)"
+  ],
+  "numero_calificaciones": 17,
+  "calificaciones": [
+    {
+      "fecha": "11/Ago/2023",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Redes de computadoras",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "Muy buena profesora, desde el inicio te deja todo muy claro con las fechas y como se va a calificar, solo es cuestion de ir al dia con las tareas y un cienazo",
+      "etiquetas_comentario": [
+        "Brinda apoyo",
+        "Clases excelentes",
+        "Tomaría su clase otra vez"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "15/Sep/2022",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Conmutacion de Redes",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "",
+      "etiquetas_comentario": [
+        "Aspectos de calificación claros",
+        "Clases excelentes",
+        "Tomaría su clase otra vez"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "26/May/2022",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Conmutacion",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "9.5",
+      "interes_clase": "",
+      "comentario": "La mejor profesora de redes. Es dueña de cisco",
+      "etiquetas_comentario": [
+        "Da buena retroalimentación",
+        "Respetado por los estudiantes",
+        "Aspectos de calificación claros"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "12/May/2022",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Conmutación y Enrutamiento de Redes de Datos",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "Excelente maestra, te hace aprender para pasar y enseña bien perro, además si le echaste ganas al final es muy considerada contigo",
+      "etiquetas_comentario": [
+        "Da buena retroalimentación",
+        "Respetado por los estudiantes",
+        "Tomaría su clase otra vez"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "25/Feb/2022",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Redes",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "9.5",
+      "interes_clase": "",
+      "comentario": "Califica con una tarea semanal, una practica por unidad y examenes en cisco regalados\nSiempre está abierta a resolver dudas",
+      "etiquetas_comentario": [
+        "Asistencia obligatoria",
+        "Respetado por los estudiantes",
+        "Tomaría su clase otra vez"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "15/Feb/2022",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Redes de Computadoras",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "Muy buena maestra",
+      "etiquetas_comentario": [
+        "Da buena retroalimentación"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "14/Ene/2022",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Redes de Computadoras",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "9.5",
+      "interes_clase": "",
+      "comentario": "La mejor de redes y aunque da demasiadas oportunidades para pasar, no es barco.",
+      "etiquetas_comentario": [
+        "Da buena retroalimentación",
+        "Respetado por los estudiantes",
+        "Brinda apoyo"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "09/Dic/2021",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Conmutación y Enrutamiento de Redes",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "Buena maestra, explica muy claro, solo deja una tarea de practica por semana. Es muy fácil el semestre con ella y aprendes lo que debes.",
+      "etiquetas_comentario": [
+        "Da buena retroalimentación"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "08/Dic/2021",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Redes de Computadoras",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "Muy buena para aprender sobre redes",
+      "etiquetas_comentario": [
+        "Da buena retroalimentación",
+        "Respetado por los estudiantes",
+        "Tomaría su clase otra vez"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "30/Sep/2021",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Redes de Computadoras",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "Deja muchas tareas pero enseña muy padre las clases en especial las prácticas, los examenes en cisco son practicamente 20 puntos gratis a tu calificacion, recomendada",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "15/Jun/2021",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 8.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Redes de Computadoras",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "Califica mayormente con tareas y prácticas. Inscribe a todo el grupo para seguir un curso de cisco que es parte de la calificación. En general es muy buena maestra y aprendes mucho.",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "08/Nov/2011",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 8.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Taller de investigación I",
+      "asistencia": "",
+      "calificacion_recibida": "7",
+      "interes_clase": "7",
+      "comentario": "El semestre que me dio clase fue indulgente y buena maestra. Es una persona difícil de tratar debido a que tiene una personalidad algo complicada pero al final de cuentas nada que sea imposible.",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "19/Sep/2011",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "REDES",
+      "asistencia": "",
+      "calificacion_recibida": "9",
+      "interes_clase": "9",
+      "comentario": "",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "07/Feb/2011",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 2.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "---",
+      "asistencia": "",
+      "calificacion_recibida": "N/A",
+      "interes_clase": "N/A",
+      "comentario": "[Comentario esperando revisión]",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "30/Ene/2011",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 3.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "TECNOLOGIAS EMERGENTES",
+      "asistencia": "",
+      "calificacion_recibida": "2",
+      "interes_clase": "2",
+      "comentario": "\"PREDICA CON EL EJEMPLO\" NO SE LE DA.\n\nPOCO ACCESIBLE",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "28/Sep/2010",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Taller de investigación I",
+      "asistencia": "",
+      "calificacion_recibida": "10",
+      "interes_clase": "10",
+      "comentario": "",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "29/Ago/2010",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 2.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Taller de Investigación I",
+      "asistencia": "",
+      "calificacion_recibida": "N/A",
+      "interes_clase": "N/A",
+      "comentario": "Pesima maestra, no te enseña nada, es poco indulgente, te exige mucho y no sabe explicar lo que quiere. También exige puntualidad y ella es muy impuntual, realmente no la recomiendo.",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    }
+  ]
+}

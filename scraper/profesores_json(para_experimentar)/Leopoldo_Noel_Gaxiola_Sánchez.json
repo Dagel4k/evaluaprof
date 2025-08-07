@@ -1,0 +1,108 @@
+{
+  "nombre": "Leopoldo Noel Gaxiola Sánchez",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "ciudad": "Ciudad: culiacan, sinaloa",
+  "departamento": "Departamento/Facultad: Mecatrónica",
+  "calidad_general": 9.0,
+  "porcentaje_recomienda": 100,
+  "nivel_dificultad": 0.8,
+  "etiquetas": [
+    "ASISTENCIA OBLIGATORIA (2)",
+    "ASPECTOS DE CALIFICACIÓN CLAROS (2)",
+    "BRINDA APOYO (2)",
+    "DA BUENA RETROALIMENTACIÓN (2)",
+    "RESPETADO POR LOS ESTUDIANTES (1)",
+    "PREPÁRATE PARA LEER (1)",
+    "TOMARÍA SU CLASE OTRA VEZ (1)",
+    "CLASES EXCELENTES (1)"
+  ],
+  "numero_calificaciones": 5,
+  "calificaciones": [
+    {
+      "fecha": "02/Dic/2022",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 9.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Electrónica de Potencia",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "8",
+      "interes_clase": "",
+      "comentario": "Sus clases son tranquilas, pero te hará escribir mucho pero sus apuntes te serán de mucha ayuda.",
+      "etiquetas_comentario": [
+        "Da buena retroalimentación",
+        "Aspectos de calificación claros",
+        "Clases excelentes"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "16/Feb/2018",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 8.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Circuitos 1",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "7",
+      "interes_clase": "",
+      "comentario": "Muy buen profe.",
+      "etiquetas_comentario": [
+        "Prepárate para leer",
+        "Asistencia obligatoria",
+        "Tomaría su clase otra vez"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "31/Oct/2017",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "programacion basica",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "9",
+      "interes_clase": "",
+      "comentario": "A pesar de que nos dieron un profe 1 mes tarde, el profe alcanzo ver mas alla del programa y daba otras 7 materias diferentes",
+      "etiquetas_comentario": [
+        "Da buena retroalimentación",
+        "Respetado por los estudiantes",
+        "Brinda apoyo"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "09/Ago/2017",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 8.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Electrónica de Potencia",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "9",
+      "interes_clase": "",
+      "comentario": "Es buena onda y te da chance de ponerte al corriente , el mismo nos dijo que no era su área pero me siento conforme con mi nivel, deja tareas y prácticas interesantes. Con más experiencia y será uno de los mejores profes.",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "08/Ago/2017",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Programación Básica",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "9.5",
+      "interes_clase": "",
+      "comentario": "Es un muy buen profesor, es muy comprensivo y es muy claro en sus clases. Trata de que sus alumnos aprendan y se enfoca en sus dificultades. Los programas que deja están fáciles y sus exámenes son lo visto en clase. Lo amo.",
+      "etiquetas_comentario": [
+        "Asistencia obligatoria",
+        "Aspectos de calificación claros",
+        "Brinda apoyo"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    }
+  ]
+}

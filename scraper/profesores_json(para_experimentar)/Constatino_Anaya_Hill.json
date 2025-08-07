@@ -1,0 +1,209 @@
+{
+  "nombre": "Constatino Anaya Hill",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "ciudad": "Ciudad: culiacan, sinaloa",
+  "departamento": "Departamento/Facultad: Mecánica",
+  "calidad_general": 7.3,
+  "porcentaje_recomienda": 75,
+  "nivel_dificultad": 0.8,
+  "etiquetas": [
+    "CALIFICA DURO (1)",
+    "BRINDA APOYO (2)",
+    "TOMARÍA SU CLASE OTRA VEZ (3)",
+    "ASPECTOS DE CALIFICACIÓN CLAROS (1)",
+    "BARCO (2)",
+    "MUCHAS TAREAS (2)",
+    "MUY CÓMICO (1)",
+    "DEJA TRABAJOS LARGOS (2)"
+  ],
+  "numero_calificaciones": 12,
+  "calificaciones": [
+    {
+      "fecha": "06/Jun/2023",
+      "tipo_calificacion": "REGULAR",
+      "puntaje_calidad_general": 6.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Vibraciones Mecánicas",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "Literal puedes nunca ir y sacar 100, exámenes en línea, trabajos a mano, todo por Moodle y falta mucho.",
+      "etiquetas_comentario": [
+        "Barco",
+        "Muchas tareas",
+        "Deja trabajos largos"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "01/Abr/2023",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 8.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Vibraciones Mecánicas",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "23",
+      "interes_clase": "",
+      "comentario": "Hace exámenes en línea, nunca toma asistencia, muchas veces divaga en la clase y habla sobre su vida, y si es bastante cómico la verdad. Importante mencionar que los trabajos que deja son muy largos y algunas veces sin mucho sentido, tienes que escribir demasiado (a mano).",
+      "etiquetas_comentario": [
+        "Muy cómico",
+        "Deja trabajos largos",
+        "Tomaría su clase otra vez"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "25/Sep/2020",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Residencias",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "N/A",
+      "interes_clase": "",
+      "comentario": "Excelente persona y muy accesible, siempre está para ayudarte y asesorarte",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "27/Dic/2019",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 7.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Vibraciones Mecanicas",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "9.5",
+      "interes_clase": "",
+      "comentario": "Es un maestro que explica los temas muy bien y claros, pero el problema es que se queda corto con los temas, los toca de manera muy breve en la clase, dice que solamente enseñará lo basico y depende de los alumnos en una maestria indagar mas, lo otro bueno que tiene es que es muy barco",
+      "etiquetas_comentario": [
+        "Barco",
+        "Muchas tareas"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "26/Nov/2016",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 8.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Cálculo diferencial",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "7.5",
+      "interes_clase": "",
+      "comentario": "",
+      "etiquetas_comentario": [
+        "Aspectos de calificación claros",
+        "Brinda apoyo",
+        "Tomaría su clase otra vez"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "28/Sep/2016",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "CALCULO DIFERENCIAL",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "8.5",
+      "interes_clase": "",
+      "comentario": "Anaya es la clase de profesor que le gusta llevarse bien con los alumnos, sus clases son claras y explicadas en mi opinion un exelente maestro con experiencia",
+      "etiquetas_comentario": [
+        "Califica Duro",
+        "Brinda apoyo",
+        "Tomaría su clase otra vez"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "14/Ene/2016",
+      "tipo_calificacion": "REGULAR",
+      "puntaje_calidad_general": 4.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Manufactura Avanzada",
+      "asistencia": "",
+      "calificacion_recibida": "9.5",
+      "interes_clase": "9.5",
+      "comentario": "Falta mucho, sus clases son mucho verbo y poca acción, te promete prácticas las cuales nunca realiza,no hace exámenes, si lo que quieted ex pasar sin batallar él es la opción, eso si no aprenderás nada.",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "15/Ene/2014",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "vibraciones",
+      "asistencia": "",
+      "calificacion_recibida": "10",
+      "interes_clase": "10",
+      "comentario": "",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "18/Nov/2013",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 8.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "vibraciones",
+      "asistencia": "",
+      "calificacion_recibida": "8.5",
+      "interes_clase": "8.5",
+      "comentario": "",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "15/Nov/2013",
+      "tipo_calificacion": "REGULAR",
+      "puntaje_calidad_general": 4.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "analisis de vibraciones",
+      "asistencia": "",
+      "calificacion_recibida": "8",
+      "interes_clase": "8",
+      "comentario": "",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "14/Nov/2013",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 2.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "analisis de vibraciones",
+      "asistencia": "",
+      "calificacion_recibida": "N/A",
+      "interes_clase": "N/A",
+      "comentario": "",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "23/Nov/2011",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "dinamica de maquinaria",
+      "asistencia": "",
+      "calificacion_recibida": "7.5",
+      "interes_clase": "7.5",
+      "comentario": "falta mucho",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    }
+  ]
+}

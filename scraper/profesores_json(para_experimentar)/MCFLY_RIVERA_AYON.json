@@ -1,0 +1,313 @@
+{
+  "nombre": "MCFLY RIVERA AYON",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "ciudad": "Ciudad: culiacan, sinaloa",
+  "departamento": "Departamento/Facultad: ELÉCTRICA-ELECTRONICA",
+  "calidad_general": 4.0,
+  "porcentaje_recomienda": 28,
+  "nivel_dificultad": 5.8,
+  "etiquetas": [
+    "ASISTENCIA OBLIGATORIA (6)",
+    "CALIFICA DURO (3)",
+    "LA PARTICIPACIÓN IMPORTA (2)",
+    "LOS EXÁMENES SON DIFÍCILES (2)",
+    "DEJA TRABAJOS LARGOS (3)",
+    "PREPÁRATE PARA LEER (1)",
+    "MUCHOS PROYECTOS GRUPALES (5)",
+    "MUCHAS TAREAS (3)",
+    "POCOS EXÁMENES (1)",
+    "TOMARÍA SU CLASE OTRA VEZ (1)"
+  ],
+  "numero_calificaciones": 18,
+  "calificaciones": [
+    {
+      "fecha": "15/Ene/2023",
+      "tipo_calificacion": "REGULAR",
+      "puntaje_calidad_general": 5.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Máquinas Eléctricas",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "8.5",
+      "interes_clase": "",
+      "comentario": "Definitivamente revisa los trabajos con lupa y siempre en el formato que el pide, no hace exámenes, todo lo califica con reportes de práctica por lo tanto estos deben ser de 100/100, la asistencia importa bastante.",
+      "etiquetas_comentario": [
+        "Asistencia obligatoria",
+        "Muchos proyectos grupales",
+        "Tomaría su clase otra vez"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "27/Ago/2021",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 2.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Maquinas Síncronas y de C.D",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "8",
+      "interes_clase": "",
+      "comentario": "Que Dios te bendiga, y el diablo de pasada también, por si las moscas",
+      "etiquetas_comentario": [
+        "Califica Duro",
+        "Muchas tareas",
+        "Los exámenes son difíciles"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "11/Jun/2021",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 7.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Maquinas Síncronas y de C.D.",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "8.5",
+      "interes_clase": "",
+      "comentario": "Todo el semestre deja trabajos de investigacion que deben ir en un formato que el te da. Sus clases son muy teoricas y la mayoria de veces no estan preparadas. Se las da de correcto pero cambia las cosas de una y pone fechas de entrega bien apresuradas. Califica los trabajos con lupa.",
+      "etiquetas_comentario": [
+        "Califica Duro",
+        "Muchas tareas",
+        "La Participación Importa"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "17/Ene/2021",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 2.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Electronica",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "N/A",
+      "interes_clase": "",
+      "comentario": "Cómo ser humano es una mierda y lo que le sigue, y como maestro no sirve pa nada",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "12/Ene/2021",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 2.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "maquinas electricas",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "N/A",
+      "interes_clase": "",
+      "comentario": "no vale pa pura verga",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "07/Ene/2021",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 2.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "la que de",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "N/A",
+      "interes_clase": "",
+      "comentario": "UN PENDEJO",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "06/Ene/2021",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 2.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Máquinas eléctricas",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "N/A",
+      "interes_clase": "",
+      "comentario": "Vale pura vrg",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "10/Nov/2020",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 2.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Electrónica de potencia",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "N/A",
+      "interes_clase": "",
+      "comentario": "Reverenda mierda que es este tipo",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "25/Oct/2020",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 2.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Electronica de potencia",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "N/A",
+      "interes_clase": "",
+      "comentario": "un imbecil este tipo",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "26/Jun/2020",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 2.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Electronica de potencia",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "N/A",
+      "interes_clase": "",
+      "comentario": "Como maestro es regular, pero como persona es una reverenda mierda",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "24/Jun/2020",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 2.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Maquinas Electricas",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "9",
+      "interes_clase": "",
+      "comentario": "Es un maestro muy especial, no acepta sugerencias y comentarios, si llegas a decirle algo, se lo toma a mal. Mas vale a pasar desapercibido en su clase. Tiene criterios de calificación muy raros, nunca da resultados. Los examenes son generalmente sacados de libros y casi siempre de problemas de clas",
+      "etiquetas_comentario": [
+        "Asistencia obligatoria",
+        "Deja trabajos largos",
+        "Muchos proyectos grupales"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "16/Ene/2020",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Maquinas eléctricas",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "9",
+      "interes_clase": "",
+      "comentario": "Tiene buen domio, aprendes mucho y es fácil pasar la materia. No hay exámenes, el califica con Reportes de prácticas que haces en el laboratorio. Procura que el formato de los reportes sean idénticos al formato que el te pide y tendrás buena calificación. Recomendado!",
+      "etiquetas_comentario": [
+        "Pocos Exámenes",
+        "Deja trabajos largos",
+        "Muchos proyectos grupales"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "04/Ene/2020",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 7.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Maquinas Electricas",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "9",
+      "interes_clase": "",
+      "comentario": "Uno de mis mejores maestros de la carrera.\nMás que un maestro es alguien que va más allá de. Pone mucho de su parte para que no solo entiendas algo sino que lo comprendas.\n\nHace muchas practicas.\nConducta, actitud y disciplina son consideradas.\nOjala hubiese más maestros con esa dedicación.",
+      "etiquetas_comentario": [
+        "Muchas tareas",
+        "Asistencia obligatoria",
+        "Muchos proyectos grupales"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "02/Nov/2019",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 3.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Maquinas Electricas",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "23",
+      "interes_clase": "",
+      "comentario": "Deja traducir textos y videos de ingles a español.\nTodos los reportes y trabajos escritos son en formato que el te dará.\nNunca da calificaciones, cualquier cosita lo molesta, te la tienes que arreglar solo ya que apoyo no da.\nSuper mmon",
+      "etiquetas_comentario": [
+        "Prepárate para leer",
+        "Asistencia obligatoria",
+        "Muchos proyectos grupales"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "04/Sep/2019",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 3.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Maquinas Electricas",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "9.5",
+      "interes_clase": "",
+      "comentario": "Quiere hacer las cosas de manera muy formal aunque no tenga una buena organización de sus clases, sus clases son vídeos en ingles que tienes que transcribir y contestar preguntas en relación al video (algunas no tienen sentido).\n\nCambia las cosas a ultimo momento.",
+      "etiquetas_comentario": [
+        "Asistencia obligatoria",
+        "Deja trabajos largos"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "02/Ago/2018",
+      "tipo_calificacion": "REGULAR",
+      "puntaje_calidad_general": 6.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Electronica de potencia",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "N/A",
+      "interes_clase": "",
+      "comentario": "no enseña casi pero es muy facil pasar con el, no hace examenes, la lista ni la toma en cuenta, solamente es entregar las practicas y con que medio funcionen esta bien, esta muy agusto con el",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "17/Ene/2018",
+      "tipo_calificacion": "REGULAR",
+      "puntaje_calidad_general": 6.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Maquinas sincronas y de CD",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "7",
+      "interes_clase": "",
+      "comentario": "Es un profesor muy estricto en especial con los reportes de practica, te hace sufrir al momento de calificar y para poder pasar tienes que mostrar interes por la clase y minimo saber que es lo que estas haciendo",
+      "etiquetas_comentario": [
+        "Califica Duro",
+        "La Participación Importa",
+        "Los exámenes son difíciles"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "17/Ene/2017",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 7.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "sistemas eléctricos de potencia",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "8",
+      "interes_clase": "",
+      "comentario": "es un buen profesor, solo que aveces es muy exigente con cosas que ni al caso, pero enseña muy bien y domina el tema",
+      "etiquetas_comentario": [
+        "Asistencia obligatoria"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    }
+  ]
+}

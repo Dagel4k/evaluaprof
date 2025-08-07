@@ -1,0 +1,619 @@
+{
+  "professor_id": "Rosalío_Zataraín_Cabada",
+  "nombre": "Rosalío Zataraín Cabada",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 7.6282198487704855,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 6.3219575714828276,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.538,
+    "wilson_interval": [
+      0.38569186821738816,
+      0.6843335276595165
+    ],
+    "n_recommendations": 39
+  },
+  "subject_normalization": {
+    "z_mean": -0.14,
+    "z_mean_decayed": -0.01,
+    "per_subject": [
+      {
+        "materia": "LENGUAJES Y AUTOMATAS 1",
+        "z_decayed": 1.414213562373095,
+        "n": 4
+      },
+      {
+        "materia": "MATES DISCRETAS",
+        "z_decayed": 0.5773502691896252,
+        "n": 3
+      },
+      {
+        "materia": "LENGUAJES DE INTERFAZ",
+        "z_decayed": 0.5400617248673217,
+        "n": 8
+      },
+      {
+        "materia": "LENGUAJES Y AUTOMATAS II",
+        "z_decayed": 0.4318470263050038,
+        "n": 4
+      },
+      {
+        "materia": "PROGRAMACION AVANZADA",
+        "z_decayed": 0.23247767707020323,
+        "n": 3
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "esperando revision",
+          "comentario esperando",
+          "comentario",
+          "esperando",
+          "revision"
+        ],
+        "weight": 0.08989366995977086
+      },
+      {
+        "id": 1,
+        "words": [
+          "examenes",
+          "temas",
+          "bien",
+          "explica",
+          "si"
+        ],
+        "weight": 0.09926963741863495
+      },
+      {
+        "id": 2,
+        "words": [
+          "dificil",
+          "maestria",
+          "maestria es",
+          "mas",
+          "es"
+        ],
+        "weight": 0.09849068102515406
+      },
+      {
+        "id": 3,
+        "words": [
+          "hacer",
+          "ensena",
+          "python util",
+          "python",
+          "util"
+        ],
+        "weight": 0.045433482879265956
+      },
+      {
+        "id": 4,
+        "words": [
+          "alguien",
+          "dejo",
+          "dejen",
+          "12",
+          "nunca"
+        ],
+        "weight": 0.09723675365919697
+      }
+    ],
+    "sentiment": {
+      "overall": 0.24324324324324326,
+      "by_month": {
+        "2025-06": 0.0,
+        "2023-11": 0.0,
+        "2023-08": 0.0,
+        "2023-06": 0.0,
+        "2023-05": 0.0,
+        "2022-10": 1.0,
+        "2022-06": 0.0,
+        "2022-05": 0.0,
+        "2022-01": 0.0,
+        "2021-12": 0.0,
+        "2021-06": 1.0,
+        "2021-03": 1.0,
+        "2020-07": 0.0,
+        "2019-08": 1.0,
+        "2019-03": 1.0,
+        "2018-11": 0.5,
+        "2018-04": 0.0,
+        "2018-01": 0.0,
+        "2016-08": 0.0,
+        "2016-04": 1.0,
+        "2015-12": 0.0,
+        "2015-10": -1.0,
+        "2015-05": 0.0,
+        "2015-01": 0.0,
+        "2014-09": 0.0,
+        "2014-05": 0.0,
+        "2014-03": 0.0,
+        "2014-02": 0.0,
+        "2014-01": 0.0,
+        "2013-11": 1.0,
+        "2013-09": 0.0,
+        "2013-08": 0.0,
+        "2013-07": 1.0
+      }
+    },
+    "n_comments": 37
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.015,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 0.99
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        10.0,
+        2.0,
+        6.0,
+        2.0,
+        7.0,
+        10.0,
+        7.0,
+        2.0,
+        2.0,
+        10.0,
+        9.0,
+        9.0,
+        10.0,
+        9.0,
+        9.0,
+        6.0,
+        5.0,
+        8.0,
+        9.0,
+        8.0,
+        10.0,
+        2.0,
+        9.0,
+        9.0,
+        10.0,
+        4.0,
+        10.0
+      ],
+      "ewma": [
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        4.4,
+        3.68,
+        4.3759999999999994,
+        3.6631999999999993,
+        4.6642399999999995,
+        6.264968,
+        6.485477599999999,
+        5.1398343199999985,
+        4.197884023999999,
+        5.9385188167999985,
+        6.856963171759999,
+        7.499874220231998,
+        8.249911954162398,
+        8.474938367913678,
+        8.632456857539575,
+        7.842719800277702,
+        6.989903860194391,
+        7.292932702136074,
+        7.805052891495251,
+        7.863537024046675,
+        8.504475916832671,
+        6.553133141782869,
+        7.287193199248007,
+        7.801035239473604,
+        8.460724667631522,
+        7.1225072673420655,
+        7.985755087139445
+      ],
+      "sigma": 2.086386075461246
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 7.985755087139445,
+      "quality_band": [
+        3.896438379235403,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2025-06-01T00:00:00",
+      "materia": "MATEMÁTICAS DISCRETAS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "NO recomendado para los que quieran algo ligero, no importa si no vas de martes a jueves, los lunes toma asistencia y entregas la tarea, las clases estan bien y los examenes también son sencillos si pones atencion, yo si pase con buena calificacion pero muchos otros si los reprobo xd"
+    },
+    {
+      "fecha_iso": "2025-01-16T00:00:00",
+      "materia": "MATEMÁTICAS DISCRETAS",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 6.0,
+      "recomienda": 0,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2023-11-15T00:00:00",
+      "materia": "LENGUAJES Y AUTOMATAS 1",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": "Me gusto hacer el Scaner"
+    },
+    {
+      "fecha_iso": "2023-08-07T00:00:00",
+      "materia": "LENGUAJES Y AUTOMATAS 2",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": "Trabajar en equipo"
+    },
+    {
+      "fecha_iso": "2023-06-01T00:00:00",
+      "materia": "AUTOMATAS 2",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Zatita"
+    },
+    {
+      "fecha_iso": "2023-05-28T00:00:00",
+      "materia": "MATEMATICAS DISCRETAS",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 0,
+      "comentario": "no lo dejen entrar al baño de edifcio c dejo un troncote la otra vez y no le bajo"
+    },
+    {
+      "fecha_iso": "2022-10-05T00:00:00",
+      "materia": "MATES DISCRETAS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Muy bueno"
+    },
+    {
+      "fecha_iso": "2022-06-08T00:00:00",
+      "materia": "LENGUAJES Y AUTOMATAS 2",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 7.5,
+      "recomienda": 1,
+      "comentario": "Están concha sus clases, si entregas todas las revisiones del proyecto a tiempo es mas considerado contigo"
+    },
+    {
+      "fecha_iso": "2022-05-26T00:00:00",
+      "materia": "AUTOMATAS 2",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": "Excelente profe, muchos se rinden en la unidad 1 porque es la mas dificil pero las demas son faciles de pasar. Siempre termina los proyectos antes de la entrega, es lo mas importante"
+    },
+    {
+      "fecha_iso": "2022-05-25T00:00:00",
+      "materia": "LENGUAJES Y AUTÓMATAS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 1,
+      "comentario": "ZataraGOD\nSi ve que le echaste ganas a todas las revisiones del proyecto y quizá te va algo mal en el examen, hace paro al final\nIdeal para aprender sino aprendiste nada en la parte 1"
+    },
+    {
+      "fecha_iso": "2022-03-03T00:00:00",
+      "materia": "LENGUAJES Y AUTOMATAS II",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2022-01-17T00:00:00",
+      "materia": "MATEMATICAS DISCRETAS",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 5.0,
+      "recomienda": 0,
+      "comentario": "clase aburrida explica los temas pero no pone chispa a nada ni emociones tiene"
+    },
+    {
+      "fecha_iso": "2021-12-18T00:00:00",
+      "materia": "---",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2021-06-18T00:00:00",
+      "materia": "LENGUAJES Y AUTÓMATAS I",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "El profesor explica claro todos los temas, algunas veces pide participar con trabajos en clase y cuenta como parte de la calificación. Primero deja como proyecto hacer el Scanner y después el parser. No enseña programación, solo explica como funciona y a partir de ahí tu haces los proyectos."
+    },
+    {
+      "fecha_iso": "2021-03-04T00:00:00",
+      "materia": "JAVASCRIPT",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Muy fácil y practico"
+    },
+    {
+      "fecha_iso": "2020-07-15T00:00:00",
+      "materia": "MATEMÁTICAS DISCRETAS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Termino el curso en línea muy bien, con temas y exámenes en línea."
+    },
+    {
+      "fecha_iso": "2019-08-20T00:00:00",
+      "materia": "LENGUAJES Y AUTOMATAS II",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": "Repasa la parte inicial del compilador, el scaner y el parser. Despues continua con el semantico hasta llegar al codigo final. Excelente si no aprendiste en la parte uno."
+    },
+    {
+      "fecha_iso": "2019-08-05T00:00:00",
+      "materia": "MATEMÁTICAS DISCRETAS",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Es un muy buen profesor, pero tiene fama de que no le importa la clase (no es verdad), explica de manera excelente, y los exámenes son base a las clases. En ocasiones deja exposiciones, pero nada del otro mundo. Es justo al momento de calificar."
+    },
+    {
+      "fecha_iso": "2019-03-27T00:00:00",
+      "materia": "PROGRAMACION AVANZADA",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": "Enseña a programar Objetos con Python. Muy util para microcontroladores. Me sirvio mucho en la Robobatalla."
+    },
+    {
+      "fecha_iso": "2018-11-12T00:00:00",
+      "materia": "PROGRAMACION AVANZADA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 1,
+      "comentario": "Aprendes el lenguaje Python, muy util para microcntroladores."
+    },
+    {
+      "fecha_iso": "2018-11-06T00:00:00",
+      "materia": "LENGUAJES DE INTERFAZ",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": "Explica muy bien el procesador, deja programas y los revisa uno por uno. Si te salen es seguro que pasas."
+    },
+    {
+      "fecha_iso": "2018-04-25T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 6.5,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2018-01-16T00:00:00",
+      "materia": "INFORMÁTICA",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 0,
+      "comentario": "Desactualizado"
+    },
+    {
+      "fecha_iso": "2016-08-08T00:00:00",
+      "materia": "LENGUAJES Y AUTOMATAS I",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Es un maestro muy preparado, sabe de lo que esta hablando y explica muy claro, sus exámenes son fáciles, pero el proyecto final si es algo pesado y difícil, no toma en cuenta asistencia ni las tareas, solo los exámenes y presentaciones valen, si lo recomiendo."
+    },
+    {
+      "fecha_iso": "2016-04-20T00:00:00",
+      "materia": "MATEMATICAS DISCRETAS 7U7",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": "Me daba muy bien 7u7 las clases\nme enseño todo muy claro de las clases\ny me encanto las clases"
+    },
+    {
+      "fecha_iso": "2015-12-31T00:00:00",
+      "materia": "MATEMÁTICAS DISCRETAS",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Explica muy bien, domina el tema completamente, va a la clase a lo que va, no contesta muchas dudas."
+    },
+    {
+      "fecha_iso": "2015-10-04T00:00:00",
+      "materia": "COORDINADOR",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "No me da informacion sobre la maestria, es muy dificil localizarlo. La recepcion fueron muy groseros conmig"
+    },
+    {
+      "fecha_iso": "2015-05-01T00:00:00",
+      "materia": "FLOJERA 1",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 0,
+      "comentario": "SR director cheque muy bien a la familia zatatain-barron. MArcial los tiene muy apoyados y para ejemplo una muestra: coordinador de 12 a 2 en el tec y tiempo completo en otra escuela donde si cumple. Les da horario abierto y 2 grupos como coordinador!! Viva el Tec de CLN"
+    },
+    {
+      "fecha_iso": "2015-01-29T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 1.0,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2014-09-07T00:00:00",
+      "materia": "MATEMÁTICAS DISCRETAS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "El mejor maestro que yo he tenido, lo recomiendo a todo aquel que esté dispuesto a aprender."
+    },
+    {
+      "fecha_iso": "2014-05-27T00:00:00",
+      "materia": "COORDINADOR",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 0,
+      "comentario": "Alguien me puede decir a que horas se encuentra en la coordinacion. Lo he buscado mucho y me dicen que entra a las 12 y que sale a comer a las 3. Por el amor de dios !"
+    },
+    {
+      "fecha_iso": "2014-03-07T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2014-02-26T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2014-01-12T00:00:00",
+      "materia": "ENTREVISTA MAESTRIA",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 7.5,
+      "recomienda": 0,
+      "comentario": "Afortunadamente no entramos me he enterado por otras paginas que esta maestria es un fraude esta muy quemada gracias a esa gentusa pero de que aceptaron puro empleado del tecnologico y exalumnos es verdad, sin moral ni etica"
+    },
+    {
+      "fecha_iso": "2013-11-30T00:00:00",
+      "materia": "MAESTRIA",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "ES INCREIBLE QUE EL TECNOLÓGICO PERMITA COORDINADORES VIRTUALES, ÉSTO LO COMENTO PORQUE EL MAESTRO ROSALIO JAMAS SE ENCUENTRA EN SU PUESTO DE TRABAJO Y SU HERMANO Y CUÑADA TRATAN DE SALVARLE LA CHAMBA Y LO PEOR LO SABE EL SUBDIRECTOR ACADÉMICO DE LA INSTITUCIÓN, QUE ASCO."
+    },
+    {
+      "fecha_iso": "2013-09-05T00:00:00",
+      "materia": "COORDINADOR MCC",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 1.5,
+      "recomienda": 0,
+      "comentario": "nunca esta, nunca resuelve un tramite o una duda, estara muy acreditada la escuela pero no se ve en la practica"
+    },
+    {
+      "fecha_iso": "2013-08-12T00:00:00",
+      "materia": "POSGRADO",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Yo le hablaba a su oficina. Por eso lo encontraba. Yo no vivo en culiacan, vivo en chihuahua. Deberian de tener en cuenta el esfuerzo que representa ir y el gasto como para no ser admitido, por no ser ex-alumno, ni trabajador, ni residente de la ciudad. Deberia de poner mas atencion a su puesto y tener un poco mas de criterio en la seleccion de aspirantes. Es mi humilde opinion."
+    },
+    {
+      "fecha_iso": "2013-08-05T00:00:00",
+      "materia": "COORDINADOR",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Al menos lo encontraste. Yo lo busque y nunca esta en su oficina. Dicen que va de 12 a 3 pm. Que chulada. Su hermano y su cuñada le cubren las espaldas en la maestría, el tec esta muy mal."
+    },
+    {
+      "fecha_iso": "2013-07-09T00:00:00",
+      "materia": "POSGRADO",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Como coordinador nunca me dejo claro los requisitos y criterios de seleccion al posgrado MCC. Te deja a medias cuando le preguntas algo o hace como que no le has dicho nada. No lo recomiendo, dejen a alguien con mas calidad humana."
+    }
+  ],
+  "comments_recent": [
+    "NO recomendado para los que quieran algo ligero, no importa si no vas de martes a jueves, los lunes toma asistencia y entregas la tarea, las clases estan bien y los examenes también son sencillos si pones atencion, yo si pase con buena calificacion pero muchos otros si los reprobo xd",
+    "Me gusto hacer el Scaner",
+    "Trabajar en equipo",
+    "Zatita",
+    "no lo dejen entrar al baño de edifcio c dejo un troncote la otra vez y no le bajo",
+    "Muy bueno",
+    "Están concha sus clases, si entregas todas las revisiones del proyecto a tiempo es mas considerado contigo",
+    "Excelente profe, muchos se rinden en la unidad 1 porque es la mas dificil pero las demas son faciles de pasar. Siempre termina los proyectos antes de la entrega, es lo mas importante",
+    "ZataraGOD\nSi ve que le echaste ganas a todas las revisiones del proyecto y quizá te va algo mal en el examen, hace paro al final\nIdeal para aprender sino aprendiste nada en la parte 1"
+  ],
+  "n_reviews": 39
+}

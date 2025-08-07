@@ -1,0 +1,153 @@
+{
+  "nombre": "Adolfo Jiménez Rodriguez",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "ciudad": "Ciudad: culiacan, sinaloa",
+  "departamento": "Departamento/Facultad: Económico administrativo",
+  "calidad_general": 10.0,
+  "porcentaje_recomienda": 100,
+  "nivel_dificultad": 0.5,
+  "etiquetas": [
+    "BARCO (1)",
+    "ASPECTOS DE CALIFICACIÓN CLAROS (2)",
+    "CLASES EXCELENTES (4)",
+    "RESPETADO POR LOS ESTUDIANTES (3)",
+    "INSPIRACIONAL (1)",
+    "TOMARÍA SU CLASE OTRA VEZ (3)",
+    "DA BUENA RETROALIMENTACIÓN (1)"
+  ],
+  "numero_calificaciones": 8,
+  "calificaciones": [
+    {
+      "fecha": "15/Ene/2023",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Taller de administración",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "Muy buena onda, sabe mucho, explica claramente y te hace interesarte. Incluso te responde dudas fuera del tema: hipotecas, campo laboral, emprendimiento, impuestos, salarios... que te ayudan en la vida.\nCalifica con un ensayo de 10 pág. en cada unidad, para el cual el mismo te da la información.",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "03/Ago/2019",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Economía",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "9.5",
+      "interes_clase": "",
+      "comentario": "Muy buen profesor. Sus clases son muy entretenidas. Es muy interesante todo lo que dice, lo relaciona con cosas de la vida real. Un ejemplo de profesor, de lo que le preguntes te sabe responder. Tiene muy buen caracter , se nota que le gusta dar clases.",
+      "etiquetas_comentario": [
+        "Respetado por los estudiantes",
+        "Clases excelentes",
+        "Tomaría su clase otra vez"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "14/Ene/2018",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Taller de ética",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "Exelente profesor, domina muy bien la materia y te inspira mucho, un gran ejemplo. No hay cosa que no comprendas de su clase y cualquier duda que tengas te la aclara y te habla más del tema.\nEso sí prepárate para exponer.",
+      "etiquetas_comentario": [
+        "Da buena retroalimentación",
+        "Respetado por los estudiantes",
+        "Tomaría su clase otra vez"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "14/Ene/2018",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Economía",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "El mejor profesor que hay para esta materia, tiene mucha labia para explicar, nunca te vas a aburrir, las evaluaciones son fáciles y no hay tema de esta materia que él no domine.",
+      "etiquetas_comentario": [
+        "Aspectos de calificación claros",
+        "Clases excelentes",
+        "Tomaría su clase otra vez"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "12/Nov/2017",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Taller de ética",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "No hay un tema que no domine este profesor, es el profesor mas inteligente que conozco, no toma asistencia nunca y aun asi cuenta con toda la clase presente porque es super interesante escucharlo hablar,el mejor profe del tec seguro que si",
+      "etiquetas_comentario": [
+        "Respetado por los estudiantes",
+        "Inspiracional",
+        "Clases excelentes"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "09/Oct/2017",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Economia Empresarial",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "El mejor profe",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "08/Ago/2017",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "economia empresarial",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "9.5",
+      "interes_clase": "",
+      "comentario": "no existe otro profesosr mejor para esta materia",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "05/Dic/2016",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Economia",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "9",
+      "interes_clase": "",
+      "comentario": "Un profesor muy claro , va a lo que va. Su clase consiste en ensayos para calificaciones promediados con asistencias. Si hace exámenes si prestas atención en la clase sera sencillo. Usa buenas dinámicas en sus clases.",
+      "etiquetas_comentario": [
+        "Barco",
+        "Aspectos de calificación claros",
+        "Clases excelentes"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    }
+  ]
+}

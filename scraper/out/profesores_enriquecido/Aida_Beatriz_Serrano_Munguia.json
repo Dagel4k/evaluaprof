@@ -1,0 +1,271 @@
+{
+  "professor_id": "Aida_Beatriz_Serrano_Munguia",
+  "nombre": "Aida Beatriz Serrano Munguia",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 5.103775365600528,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 6.12617822739357,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.25,
+    "wilson_interval": [
+      0.08894003962896137,
+      0.53231033912066
+    ],
+    "n_recommendations": 12
+  },
+  "subject_normalization": {
+    "z_mean": -0.02,
+    "z_mean_decayed": -0.08,
+    "per_subject": [
+      {
+        "materia": "QUIMICA",
+        "z_decayed": 0.039537615060559764,
+        "n": 83
+      },
+      {
+        "materia": "QUÍMICA",
+        "z_decayed": -0.319544829873339,
+        "n": 44
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "maestra",
+          "tambien",
+          "hace",
+          "si",
+          "es"
+        ],
+        "weight": 0.17358220015451603
+      },
+      {
+        "id": 1,
+        "words": [
+          "te perjudica",
+          "solo",
+          "te",
+          "tarea",
+          "mi"
+        ],
+        "weight": 0.1486658223126467
+      },
+      {
+        "id": 2,
+        "words": [
+          "experto",
+          "deja",
+          "examenes",
+          "explica",
+          "tareas"
+        ],
+        "weight": 0.15265394120184353
+      },
+      {
+        "id": 3,
+        "words": [
+          "recomiendo",
+          "experto",
+          "materia",
+          "si",
+          "te"
+        ],
+        "weight": 0.1670863759838799
+      }
+    ],
+    "sentiment": {
+      "overall": 0.0,
+      "by_month": {
+        "2024-12": 0.0,
+        "2024-02": 0.0,
+        "2022-01": 0.0,
+        "2018-06": 0.0,
+        "2018-01": 0.0,
+        "2016-01": 0.0
+      }
+    },
+    "n_comments": 8
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        3.0,
+        6.0,
+        5.5,
+        10.0,
+        10.0,
+        2.0,
+        4.5,
+        3.0,
+        5.0,
+        6.0
+      ],
+      "ewma": [
+        3.0,
+        3.8999999999999995,
+        4.379999999999999,
+        6.065999999999999,
+        7.246199999999999,
+        5.672339999999998,
+        5.320637999999999,
+        4.624446599999999,
+        4.7371126199999996,
+        5.115978834
+      ],
+      "sigma": 2.209460741625328
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 5.115978834,
+      "quality_band": [
+        0.7854357804143577,
+        9.446521887585643
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2024-12-30T00:00:00",
+      "materia": "QUIMICA",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 24.0,
+      "recomienda": 0,
+      "comentario": "Casi todo su material de clases son de presentaciones y casi no escribe en el pizarron, por mi parte a mi no me gusta ver solo diapositiva la verdad y casi no aprendi, aparte si no entregas una tarea bien, o no la entregas como te lo especifica te perjudica mucho en la calificacion."
+    },
+    {
+      "fecha_iso": "2024-02-19T00:00:00",
+      "materia": "QUÍMICA - MECÁNICA",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 0,
+      "comentario": "Solo se levanta tres veces en el semestre, deja mucha tarea en canvas en vez de teams retardando las cosas, no avisa algunas tareas, se omitió todo una unidad a base de tareas y, no tiene buena ortografía para escribir los exámenes impresos, una tarea no entregada te perjudica gravemente."
+    },
+    {
+      "fecha_iso": "2023-01-16T00:00:00",
+      "materia": "LO",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 0,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2022-01-20T00:00:00",
+      "materia": "QUÍMICA",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 0,
+      "comentario": "No te ayuda en ninguna duda"
+    },
+    {
+      "fecha_iso": "2022-01-18T00:00:00",
+      "materia": "QUÍMICA",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Es buena profesora. Sabe mucho de su materia, aunque eso hace que explique como si nosotros también supiéramos todo. Si pones atención y te aplicas, si aprendes con ella y pasas. Si buscas pasar fácil, no es para ti."
+    },
+    {
+      "fecha_iso": "2021-01-21T00:00:00",
+      "materia": "QUIMICA",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 0,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2020-04-06T00:00:00",
+      "materia": "QUIMICA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2018-06-19T00:00:00",
+      "materia": "QUÍMICA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Esta maestra tiene mucho conocimiento, es clara cuando explica y en cuestión de los trabajos usa una plataforma que en mi opinión lo hace mas fácil.\nAparte es muy humana, yo si la recomiendo.\nCumple con todo y te va a ir bien"
+    },
+    {
+      "fecha_iso": "2018-01-14T00:00:00",
+      "materia": "QUIMICA",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 0,
+      "comentario": "La maestra es una señora de edad mayor este semestre tuvo un accidente por tanto falto como 2 semanas y cuando regreso creia que éramos unos expertos, todo lo hace por plataforma y si no subes los archivos a tiempo no califica, los examen tambien y son complicados por que no enseña nada."
+    },
+    {
+      "fecha_iso": "2018-01-13T00:00:00",
+      "materia": "QUIMICA",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 0,
+      "comentario": "Deja tareas que ni explica y piensa que eres un experto en quimica cuando explica algo nuevo que ni sabes. Los examenes, tareas y todo son en plataforma y estan dificiles no la recomiendo"
+    },
+    {
+      "fecha_iso": "2016-02-22T00:00:00",
+      "materia": "QUIMICA",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 0,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2016-01-11T00:00:00",
+      "materia": "QUIMICA",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 0,
+      "comentario": "La maestra te quiere explicar como si fueras experto en la materia y si le preguntas te tacha de tonto, no la recomiendo!"
+    }
+  ],
+  "comments_recent": [
+    "Casi todo su material de clases son de presentaciones y casi no escribe en el pizarron, por mi parte a mi no me gusta ver solo diapositiva la verdad y casi no aprendi, aparte si no entregas una tarea bien, o no la entregas como te lo especifica te perjudica mucho en la calificacion.",
+    "Solo se levanta tres veces en el semestre, deja mucha tarea en canvas en vez de teams retardando las cosas, no avisa algunas tareas, se omitió todo una unidad a base de tareas y, no tiene buena ortografía para escribir los exámenes impresos, una tarea no entregada te perjudica gravemente.",
+    "No te ayuda en ninguna duda",
+    "Es buena profesora. Sabe mucho de su materia, aunque eso hace que explique como si nosotros también supiéramos todo. Si pones atención y te aplicas, si aprendes con ella y pasas. Si buscas pasar fácil, no es para ti.",
+    "Esta maestra tiene mucho conocimiento, es clara cuando explica y en cuestión de los trabajos usa una plataforma que en mi opinión lo hace mas fácil.\nAparte es muy humana, yo si la recomiendo.\nCumple con todo y te va a ir bien",
+    "La maestra es una señora de edad mayor este semestre tuvo un accidente por tanto falto como 2 semanas y cuando regreso creia que éramos unos expertos, todo lo hace por plataforma y si no subes los archivos a tiempo no califica, los examen tambien y son complicados por que no enseña nada.",
+    "Deja tareas que ni explica y piensa que eres un experto en quimica cuando explica algo nuevo que ni sabes. Los examenes, tareas y todo son en plataforma y estan dificiles no la recomiendo"
+  ],
+  "n_reviews": 12
+}

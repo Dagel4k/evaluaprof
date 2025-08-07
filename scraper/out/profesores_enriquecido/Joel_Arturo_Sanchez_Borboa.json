@@ -1,0 +1,223 @@
+{
+  "professor_id": "Joel_Arturo_Sanchez_Borboa",
+  "nombre": "Joel Arturo Sanchez Borboa",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 9.47491593333269,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.869171823685797,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.857,
+    "wilson_interval": [
+      0.4868654966809702,
+      0.9743210440510253
+    ],
+    "n_recommendations": 7
+  },
+  "subject_normalization": {
+    "z_mean": 0.69,
+    "z_mean_decayed": 0.81,
+    "per_subject": [
+      {
+        "materia": "FORMULACIÓN Y EVALUACIÓN DE PROYECTOS",
+        "z_decayed": 1.0696766043178936,
+        "n": 9
+      },
+      {
+        "materia": "ANALISIS DE LA REALIDAD NACIONAL",
+        "z_decayed": 0.8502651466878618,
+        "n": 10
+      },
+      {
+        "materia": "ECONOMIA",
+        "z_decayed": 0.8,
+        "n": 17
+      },
+      {
+        "materia": "ANÁLISIS DE LA REALIDAD NACIONAL",
+        "z_decayed": 0.5153385008824816,
+        "n": 5
+      },
+      {
+        "materia": "INGENIERIA",
+        "z_decayed": 0.27231738924854304,
+        "n": 3
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "excelente",
+          "excelente profesor",
+          "profesor",
+          "clase",
+          "es"
+        ],
+        "weight": 0.19358432871381193
+      },
+      {
+        "id": 1,
+        "words": [
+          "excelente",
+          "excelente profesor",
+          "es",
+          "clase",
+          "bien"
+        ],
+        "weight": 0.20058871991691404
+      },
+      {
+        "id": 2,
+        "words": [
+          "es",
+          "clase",
+          "profesor",
+          "excelente",
+          "excelente profesor"
+        ],
+        "weight": 0.23544231125462553
+      }
+    ],
+    "sentiment": {
+      "overall": 0.3333333333333333,
+      "by_month": {
+        "2015-10": 1.0,
+        "2013-12": 0.0,
+        "2011-05": 0.0,
+        "2010-10": 0.0,
+        "2010-04": 1.0,
+        "2009-11": 0.0
+      }
+    },
+    "n_comments": 6
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        10.0,
+        10.0,
+        10.0,
+        4.0,
+        10.0,
+        10.0,
+        10.0
+      ],
+      "ewma": [
+        10.0,
+        10.0,
+        10.0,
+        8.2,
+        8.739999999999998,
+        9.117999999999999,
+        9.382599999999998
+      ],
+      "sigma": 1.8298556992287676
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 9.382599999999998,
+      "quality_band": [
+        5.796082829511613,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2015-10-11T00:00:00",
+      "materia": "FORMULACIÓN Y EVALUACIÓN DE PROYECTOS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Excelente profesor. Se nota que es un experto en las áreas financieras. Su clase no está fácil pero sin duda aprendes demasiado y se agarra cura en su clase."
+    },
+    {
+      "fecha_iso": "2013-12-16T00:00:00",
+      "materia": "ECONOMIA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Bien aburrida la clase!! Pero los examenes bien faciles"
+    },
+    {
+      "fecha_iso": "2011-11-28T00:00:00",
+      "materia": "ECONOMIA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2011-05-07T00:00:00",
+      "materia": "INGENIERIA",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": "no domina"
+    },
+    {
+      "fecha_iso": "2010-10-01T00:00:00",
+      "materia": "ANÁLISIS DE LA REALIDAD NACIONAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "es un gran profesor!! hace sus clases amenas, y con un contenido muy interesante... aparte de buen profesor es buena persona...\nsu clase es mi favorita!!!"
+    },
+    {
+      "fecha_iso": "2010-04-24T00:00:00",
+      "materia": "INGENIERIA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "EXCELENTE PROFESOR"
+    },
+    {
+      "fecha_iso": "2009-11-06T00:00:00",
+      "materia": "ANALISIS DE LA REALIDAD NACIONAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "es un maestro que trabaja muy bien y se presta para que su clase no sea muy tadiosa"
+    }
+  ],
+  "comments_recent": [
+    "Excelente profesor. Se nota que es un experto en las áreas financieras. Su clase no está fácil pero sin duda aprendes demasiado y se agarra cura en su clase.",
+    "Bien aburrida la clase!! Pero los examenes bien faciles",
+    "no domina",
+    "es un gran profesor!! hace sus clases amenas, y con un contenido muy interesante... aparte de buen profesor es buena persona...\nsu clase es mi favorita!!!",
+    "EXCELENTE PROFESOR",
+    "es un maestro que trabaja muy bien y se presta para que su clase no sea muy tadiosa"
+  ],
+  "n_reviews": 7
+}

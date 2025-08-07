@@ -1,0 +1,173 @@
+{
+  "professor_id": "Ernesto_Astorga_Vergara",
+  "nombre": "Ernesto Astorga Vergara",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 8.465666234170136,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.251728066843905,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.6,
+    "wilson_interval": [
+      0.23071993220883702,
+      0.8823817688407467
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": -0.23,
+    "z_mean_decayed": -0.39,
+    "per_subject": [
+      {
+        "materia": "ECONOMÍA",
+        "z_decayed": 0.8223297470063812,
+        "n": 13
+      },
+      {
+        "materia": "ADMINISTRACIÓN Y CONTABILIDAD",
+        "z_decayed": -0.27844300977276054,
+        "n": 7
+      },
+      {
+        "materia": "PLANEACIÓN FINANCIERA",
+        "z_decayed": -1.2197356689220888,
+        "n": 10
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "eres",
+          "si eres",
+          "clase",
+          "humor",
+          "tiene"
+        ],
+        "weight": 0.3815495145237163
+      },
+      {
+        "id": 1,
+        "words": [
+          "humor",
+          "si eres",
+          "tiene",
+          "excelente",
+          "maestro"
+        ],
+        "weight": 0.2751483475740955
+      }
+    ],
+    "sentiment": {
+      "overall": 0.5,
+      "by_month": {
+        "2025-04": 1.0,
+        "2023-11": 1.0,
+        "2020-02": 0.0
+      }
+    },
+    "n_comments": 4
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        6.5,
+        10.0,
+        6.0,
+        10.0
+      ],
+      "ewma": [
+        6.5,
+        7.55,
+        7.084999999999999,
+        7.959499999999999
+      ],
+      "sigma": 1.6776975976518134
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 7.959499999999999,
+      "quality_band": [
+        4.671212708602445,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2025-04-29T00:00:00",
+      "materia": "PRESUPUESTOS EMPRESARIALES",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": "Mis respetos para su trayectoria profesional, es un excelente contador y maestro. Si eres una persona que no tolera comentarios fuera de lugar no te recomiendo tomar una clase con él, tiene un humor algo pesado, sin embargo tiene mis respetos totalmente para su carrera y manera de enseñar."
+    },
+    {
+      "fecha_iso": "2023-11-21T00:00:00",
+      "materia": "PLANEACIÓN FINANCIERA",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 0,
+      "comentario": "Explica muy bien y de forma natural, si no se le volteara el cristo con comentarios machistas e imprudentes de la nada sería un excelente maestro."
+    },
+    {
+      "fecha_iso": "2022-09-05T00:00:00",
+      "materia": "ECONOMÍA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2020-02-19T00:00:00",
+      "materia": "ADMINISTRACIÓN Y CONTABILIDAD",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 23.0,
+      "recomienda": 1,
+      "comentario": "Es justo con la calificación, a veces sus comentarios no son lo más apropiados, pasa el que aprende. Si eres flojo no cargues con él."
+    },
+    {
+      "fecha_iso": "2020-02-18T00:00:00",
+      "materia": "CONTABILIDAD Y ADMINISTRACIÓN",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 0,
+      "comentario": "Grosero, prepotente, arrogante, patán, déspota. Este individuo no tiene ni una pizca de humildad, le gusta humillar a sus alumnos con frecuencia. Eso sí, sabe mucho de su materia pero al menos habrá una clase de la cual saldrás de mal humor por sus comentarios innecesarios."
+    }
+  ],
+  "comments_recent": [
+    "Mis respetos para su trayectoria profesional, es un excelente contador y maestro. Si eres una persona que no tolera comentarios fuera de lugar no te recomiendo tomar una clase con él, tiene un humor algo pesado, sin embargo tiene mis respetos totalmente para su carrera y manera de enseñar.",
+    "Explica muy bien y de forma natural, si no se le volteara el cristo con comentarios machistas e imprudentes de la nada sería un excelente maestro.",
+    "Es justo con la calificación, a veces sus comentarios no son lo más apropiados, pasa el que aprende. Si eres flojo no cargues con él.",
+    "Grosero, prepotente, arrogante, patán, déspota. Este individuo no tiene ni una pizca de humildad, le gusta humillar a sus alumnos con frecuencia. Eso sí, sabe mucho de su materia pero al menos habrá una clase de la cual saldrás de mal humor por sus comentarios innecesarios."
+  ],
+  "n_reviews": 5
+}

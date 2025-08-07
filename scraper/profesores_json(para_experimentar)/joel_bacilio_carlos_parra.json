@@ -1,0 +1,416 @@
+{
+  "nombre": "joel bacilio carlos parra",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "ciudad": "Ciudad: culiacan, sinaloa",
+  "departamento": "Departamento/Facultad:",
+  "calidad_general": 8.4,
+  "porcentaje_recomienda": 83,
+  "nivel_dificultad": 2.0,
+  "etiquetas": [
+    "BRINDA APOYO (4)",
+    "CLASES EXCELENTES (5)",
+    "TOMARÍA SU CLASE OTRA VEZ (8)",
+    "PREPÁRATE PARA LEER (1)",
+    "ASISTENCIA OBLIGATORIA (5)",
+    "BARCO (2)",
+    "HACE EXÁMENES SORPRESA (1)",
+    "LOS EXÁMENES SON DIFÍCILES (2)",
+    "DA BUENA RETROALIMENTACIÓN (1)",
+    "LA PARTICIPACIÓN IMPORTA (1)"
+  ],
+  "numero_calificaciones": 24,
+  "calificaciones": [
+    {
+      "fecha": "03/Jun/2022",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 9.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Sistemas Programables",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "9.5",
+      "interes_clase": "",
+      "comentario": "trocilio",
+      "etiquetas_comentario": [
+        "Barco"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "27/Ago/2021",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Calculo integral",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "pone una tarea en equipo que no revisa pero en realidad en examen es mas facil a la tarea, son los mismos problemas de las clases pero con otros numeros, prestas atencion y aprendes chilo, a veces no da en viernes",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "22/Dic/2020",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Electrónica de potencia",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "N/A",
+      "interes_clase": "",
+      "comentario": "De los mejores profes del tec, muy claro y es muy compa. Aprendes y agarras cura (solo debes aguantar carrilla). Volvería a cargar clase con el. Examenes fácil y proyectos sencillos.",
+      "etiquetas_comentario": [
+        "Asistencia obligatoria",
+        "Clases excelentes",
+        "Tomaría su clase otra vez"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "25/Sep/2020",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "calculo integral",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "un crack, ni sientes el semestre prestandole atencion",
+      "etiquetas_comentario": [
+        "Muchas tareas",
+        "Tomaría su clase otra vez"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "05/Jun/2020",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 7.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Calculo diferencial",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "9",
+      "interes_clase": "",
+      "comentario": "",
+      "etiquetas_comentario": [
+        "Respetado por los estudiantes",
+        "Pocos Exámenes",
+        "Tomaría su clase otra vez"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "02/Jun/2020",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Calculo Integral",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "Volveria a tomar su clase sin duda. Comparado con otros maestros de calculo Es muy bueno, en la clase se va lento con problemas faciles y en medio de ellos charla con los alumnos para que la clase no se sienta ligera. deja una tarea en equipo, y el examen es muy parecido, es facil, presta atencion",
+      "etiquetas_comentario": [
+        "Brinda apoyo",
+        "Tomaría su clase otra vez"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "1"
+    },
+    {
+      "fecha": "10/Dic/2019",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 7.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Calculo Integral",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "9.5",
+      "interes_clase": "",
+      "comentario": "Sin duda tomaría su clase de nuevo. A veces llega algo de malas pero sus clases son fáciles de entender y es fácil pasar con él. Normalmente deja sacar apuntes en los examenes. Excelente maestro",
+      "etiquetas_comentario": [
+        "Tomaría su clase otra vez"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "08/Dic/2019",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Calculo integral",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "9",
+      "interes_clase": "",
+      "comentario": "Muy buen maestro lo recomiendo. Si aprendes y si sabe, sus clases no son aburridas.",
+      "etiquetas_comentario": [
+        "Muchas tareas",
+        "Muchos Exámenes",
+        "Clases excelentes"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "14/Dic/2018",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 9.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Electrónica Analógica",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "9",
+      "interes_clase": "",
+      "comentario": "Este profe la neta da risa, pero sí sabe de la materia y te hace el paro. Encarga hacer simulaciones en Proteus y prácticas en equipo. Casi toda la clase habla de experiencias personales y al final ya da la clase normal.",
+      "etiquetas_comentario": [
+        "Muy cómico",
+        "Asistencia obligatoria",
+        "Aspectos de calificación claros"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "14/Dic/2018",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 7.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Calculo Integral",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "8.5",
+      "interes_clase": "",
+      "comentario": "Es buen profesor, explica muy bien, empieza el curso con cosas muy basicas para que nadie se pierda, la mitad de la clase es el contandos sus cosas, y ya despues clase normal, lo recomiendo si quieres aprender y pasar pasar, con que vayas a todas las clases y entregues tareas ya la armas.",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "13/Dic/2018",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Electronica Analogica",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "7",
+      "interes_clase": "",
+      "comentario": "Es muy buen profesor en materias de electronica la verdad. Ademas te enseña cosas que te sirven para la vida. Definitivamente cargaria con el otra vez.",
+      "etiquetas_comentario": [
+        "Inspiracional",
+        "Brinda apoyo",
+        "Tomaría su clase otra vez"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "08/Dic/2018",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 8.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Algebra Lineal",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "Explica bien aunque es verdad que a veces se equivoca.",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "23/Ago/2018",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Electrónica analógica",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "8",
+      "interes_clase": "",
+      "comentario": "Buen profe, si sabe mucho, estricto con asistencia y prácticas, muy flojo pero cuando da clase la da y bien.",
+      "etiquetas_comentario": [
+        "Asistencia obligatoria",
+        "Los exámenes son difíciles",
+        "Muchos proyectos grupales"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "13/Ene/2018",
+      "tipo_calificacion": "REGULAR",
+      "puntaje_calidad_general": 6.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "ecuaciones diferenciales",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "N/A",
+      "interes_clase": "",
+      "comentario": "si quieres pasar sin aprender nada carga con el pero no lo recomiendo, se lleva mas de la mitad de la clase hablando de cosas personales, y puede calificar un examen con NA y otro con 100 aunque tengan la misma respuesta.",
+      "etiquetas_comentario": [
+        "Asistencia obligatoria"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "1"
+    },
+    {
+      "fecha": "25/Oct/2017",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Electricidad y Electrónica Industrial",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "El  mejor profe para esta clase en mi opinión, sabe mucho y enseña puras cosas útiles, entre más ganas tengas de aprender más te enseña y está fácil pasar con él",
+      "etiquetas_comentario": [
+        "Inspiracional",
+        "Clases excelentes",
+        "Tomaría su clase otra vez"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "23/Oct/2017",
+      "tipo_calificacion": "REGULAR",
+      "puntaje_calidad_general": 6.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Electronica analogica",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "23",
+      "interes_clase": "",
+      "comentario": "Se nota que el profe sabe mucho pero siempre trae hueva y falta mucho a clases, pero cuando se pone a dar la clase si explica muy bien, no cargues con el en la tarde porque casi no irá y cuando vaya irá con toda la hueva del mundo",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "08/Ago/2017",
+      "tipo_calificacion": "REGULAR",
+      "puntaje_calidad_general": 4.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Electronica de potencia",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "9.5",
+      "interes_clase": "",
+      "comentario": "Me arrepiento de haber cargado con el, me paso con buena calificacion pero la verdad es que ni el sabia que estaba poniendo. se la tira de diva y no explica bien, las practicas no le salen y espera que te salgan a ti. No lo recomiendo, mejor Salazar",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "07/Ago/2017",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Calculo integral",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "9",
+      "interes_clase": "",
+      "comentario": "",
+      "etiquetas_comentario": [
+        "Da buena retroalimentación",
+        "La Participación Importa",
+        "Brinda apoyo"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "17/May/2017",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 2.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "calculo integral",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "7",
+      "interes_clase": "",
+      "comentario": "",
+      "etiquetas_comentario": [
+        "Barco",
+        "Hace exámenes sorpresa",
+        "Los exámenes son difíciles"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "15/Dic/2016",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Electromagnetismo",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "8",
+      "interes_clase": "",
+      "comentario": "Sus examenes son un poco duros pero si asistes a clase y haces tarea, ya estas asegurando tu pase. Muy bueno con la materia, es un maestro muy inteligente y te explica un poco de materias mas avanzadas y como relacionarla con la actual que el te imparte, excelente!!",
+      "etiquetas_comentario": [
+        "Prepárate para leer",
+        "Asistencia obligatoria",
+        "Clases excelentes"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "17/Ago/2016",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 9.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Curso de inducción",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "N/A",
+      "interes_clase": "",
+      "comentario": "",
+      "etiquetas_comentario": [],
+      "votos_utiles": "1",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "30/May/2016",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 8.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Ecuaciones Diferenciales",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "9",
+      "interes_clase": "",
+      "comentario": "Cargue la materia de ecuaciones con maestro pendiente y me dio Bacilio si sabe, las clases son divertidas, ademas explica claro y deja tareas con las cuales te sirven de apoyo para la calificacion ademas de que te sirven para estudiar se los recomiendo ya si quieren saber a fondo Perez Soto",
+      "etiquetas_comentario": [
+        "Brinda apoyo",
+        "Clases excelentes",
+        "Tomaría su clase otra vez"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "27/Ene/2015",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "calculo",
+      "asistencia": "",
+      "calificacion_recibida": "9",
+      "interes_clase": "9",
+      "comentario": "",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "04/Nov/2014",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 8.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Algebra lineal",
+      "asistencia": "",
+      "calificacion_recibida": "8.5",
+      "interes_clase": "8.5",
+      "comentario": "",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    }
+  ]
+}

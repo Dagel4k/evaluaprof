@@ -1,0 +1,506 @@
+{
+  "professor_id": "María_Guadalupe_López_Álvarez",
+  "nombre": "María Guadalupe López Álvarez",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 4.519012632384954,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 5.604290756162404,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.323,
+    "wilson_interval": [
+      0.18569230747313034,
+      0.4985931444004919
+    ],
+    "n_recommendations": 31
+  },
+  "subject_normalization": {
+    "z_mean": -0.46,
+    "z_mean_decayed": -0.78,
+    "per_subject": [
+      {
+        "materia": "---",
+        "z_decayed": -0.27484468084090874,
+        "n": 521
+      },
+      {
+        "materia": "QUIMICA",
+        "z_decayed": -0.6086671907677268,
+        "n": 83
+      },
+      {
+        "materia": "QUÍMICA",
+        "z_decayed": -0.7564036866745544,
+        "n": 44
+      },
+      {
+        "materia": "QUIMICA ORGANICA",
+        "z_decayed": -1.1338934190276817,
+        "n": 3
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "aprender",
+          "quieres",
+          "es",
+          "te",
+          "si"
+        ],
+        "weight": 0.11696068072760539
+      },
+      {
+        "id": 1,
+        "words": [
+          "revision",
+          "comentario",
+          "comentario esperando",
+          "esperando revision",
+          "esperando"
+        ],
+        "weight": 0.07009100737735305
+      },
+      {
+        "id": 2,
+        "words": [
+          "clases",
+          "manera",
+          "explica manera",
+          "aunque",
+          "examenes"
+        ],
+        "weight": 0.1213559500733832
+      },
+      {
+        "id": 3,
+        "words": [
+          "tiene",
+          "veces",
+          "temas",
+          "mayoria",
+          "humor"
+        ],
+        "weight": 0.07240051826881536
+      },
+      {
+        "id": 4,
+        "words": [
+          "buena",
+          "ademas",
+          "maestra",
+          "porque",
+          "buena maestra"
+        ],
+        "weight": 0.15032807718960053
+      }
+    ],
+    "sentiment": {
+      "overall": -0.08695652173913043,
+      "by_month": {
+        "2025-06": 0.0,
+        "2022-06": 0.0,
+        "2022-03": 0.0,
+        "2021-08": 0.0,
+        "2021-02": 0.0,
+        "2021-01": 0.0,
+        "2020-11": 0.0,
+        "2020-01": 0.0,
+        "2018-08": 0.0,
+        "2018-06": 0.0,
+        "2018-05": 0.0,
+        "2017-11": 0.0,
+        "2017-10": -0.5,
+        "2017-08": -1.0,
+        "2016-08": 0.0,
+        "2016-05": 0.0,
+        "2015-08": 0.0,
+        "2014-08": 0.0
+      }
+    },
+    "n_comments": 23
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.004,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        10.0,
+        9.0,
+        2.0,
+        6.0,
+        5.0,
+        4.0,
+        9.0,
+        5.5,
+        5.0,
+        5.0,
+        5.0,
+        6.0,
+        8.0,
+        2.0,
+        6.0,
+        8.0,
+        2.5,
+        7.0,
+        2.0,
+        3.0,
+        5.0,
+        4.0,
+        2.0,
+        2.0,
+        5.0
+      ],
+      "ewma": [
+        10.0,
+        9.7,
+        7.389999999999999,
+        6.972999999999999,
+        6.381099999999999,
+        5.66677,
+        6.666739,
+        6.316717299999999,
+        5.921702109999999,
+        5.645191476999999,
+        5.4516340339,
+        5.616143823729999,
+        6.331300676610999,
+        5.031910473627699,
+        5.322337331539389,
+        6.125636132077572,
+        5.0379452924543004,
+        5.626561704718011,
+        4.538593193302607,
+        4.0770152353118245,
+        4.353910664718277,
+        4.2477374653027935,
+        3.5734162257119553,
+        3.1013913579983687,
+        3.670973950598858
+      ],
+      "sigma": 1.7319841187849554
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 3.670973950598858,
+      "quality_band": [
+        0.2762850777803454,
+        7.06566282341737
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2025-06-05T00:00:00",
+      "materia": "QUIMICA ORGANICA",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "No la recomiendo, no sabe explicar, aparte como que es bipolar. No te brinda el material de sus diapositivas y eso me parece absurdo, no es nada accesible, mejor evitarla y llevar la materia con otro profe."
+    },
+    {
+      "fecha_iso": "2023-01-20T00:00:00",
+      "materia": "QUÍMICA",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 4.0,
+      "recomienda": 0,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2022-06-10T00:00:00",
+      "materia": "QUÍMICA",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 21.0,
+      "recomienda": 0,
+      "comentario": "La peor maestra que he conocido en toda mi vida, mando a todo mi grupo a RC y cuando le preguntábamos dudas simplemente nos ignoraba, si te toca ella, prepárate para RC. y bipolar."
+    },
+    {
+      "fecha_iso": "2022-05-05T00:00:00",
+      "materia": "QUÍMICA",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2022-03-27T00:00:00",
+      "materia": "QUÍMICA",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 0,
+      "comentario": "no lo hagan."
+    },
+    {
+      "fecha_iso": "2021-08-12T00:00:00",
+      "materia": "QUIMICA",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 0,
+      "comentario": "Que qlerada la neta"
+    },
+    {
+      "fecha_iso": "2021-02-02T00:00:00",
+      "materia": "QUIMICA",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 5.0,
+      "recomienda": 0,
+      "comentario": "La neta si te toca con esta profe ponte a rezar es la profe más mamona del tec, es bipolar al 100% , conoce mucho de los temas de química pero simplemente no es buena profesora y no sabe explicar en lo más mínimo, si le preguntas 2 veces algo ella se enoja, simplemente intenten evitarla"
+    },
+    {
+      "fecha_iso": "2021-01-23T00:00:00",
+      "materia": "QUÍMICA 1",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 1,
+      "comentario": "Si quieres aprender (reforzar conocimientos de química de preparatoria) es para ti. No regala la calificación y no enseña nada del otro mundo, o que no se haya visto ya en la prepa. Es justa para calificar. Sus clases son súper entretenidas, aparte que está más buena que un arroz con pollo. Hermosa."
+    },
+    {
+      "fecha_iso": "2021-01-21T00:00:00",
+      "materia": "QUIMICA INDUSTRIAL",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 0,
+      "comentario": "Que “maestra” tan mas mala, bipolar en toda la extensión de la palabra. Ella sabe bastante, pero buena maestra no es. Deja trabajos larguísimos que no te llevan a nada porque se trata de que memorices si quieres pasar no de aprender.Si cargas con ella es para que no te de alzheimer de tanto memoriza"
+    },
+    {
+      "fecha_iso": "2020-11-26T00:00:00",
+      "materia": "---",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2020-11-11T00:00:00",
+      "materia": "QUÍMICA",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 0,
+      "comentario": "Muy mala maestra, se enoja cuando le preguntas algo, nomas porque no nos dice “pendejos”, pero lo da a entender, aparte que en el examen debes memorizar todo lo de la clase porque pones cosas que solo menciono una vez en toda la unidad y que no es nada relevante, debes memorizar mas que comprender"
+    },
+    {
+      "fecha_iso": "2020-08-22T00:00:00",
+      "materia": "QUIMICA 1",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2020-01-24T00:00:00",
+      "materia": "QUÍMICA",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 7.5,
+      "recomienda": 0,
+      "comentario": "Cambia de humor constantemente"
+    },
+    {
+      "fecha_iso": "2020-01-13T00:00:00",
+      "materia": "QUÍMICA",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Su humor cambiaba de un día al otro.\nCubre la mayoría de los temas."
+    },
+    {
+      "fecha_iso": "2019-03-18T00:00:00",
+      "materia": "QUÍMICA",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 23.0,
+      "recomienda": 0,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2018-08-16T00:00:00",
+      "materia": "QUÍMICA",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Si te vale madres química y no quieres aprender. Esta maestra no es para ti, en cambio si te gusta y quieres aprender sobre química está muy bien"
+    },
+    {
+      "fecha_iso": "2018-06-08T00:00:00",
+      "materia": "QUIMICA",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Es una profesara buena onda, que quiere que sus alumnos pasen, aunque sus clases no inspiran mucho poner atención, ademas que es una materia relleno y da flojera entrar, los examenes son complicados tienes que leer mucho."
+    },
+    {
+      "fecha_iso": "2018-06-08T00:00:00",
+      "materia": "QUIMICA",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 0,
+      "comentario": "Explica de manera muy rara la profe, aunque pase, tuve que aprenderme casi todo alv."
+    },
+    {
+      "fecha_iso": "2018-05-08T00:00:00",
+      "materia": "QUÍMICA",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 23.0,
+      "recomienda": 0,
+      "comentario": "Se pasa de verni en los examenes"
+    },
+    {
+      "fecha_iso": "2018-03-04T00:00:00",
+      "materia": "QUIMICA",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 23.0,
+      "recomienda": 0,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2017-11-16T00:00:00",
+      "materia": "QUÍMICA",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 24.0,
+      "recomienda": 0,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2017-11-15T00:00:00",
+      "materia": "---",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 1,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2017-10-29T00:00:00",
+      "materia": "QUÍMICA",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 6.5,
+      "recomienda": 1,
+      "comentario": "es muy estricta"
+    },
+    {
+      "fecha_iso": "2017-10-11T00:00:00",
+      "materia": "QUIMICA",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 23.0,
+      "recomienda": 0,
+      "comentario": "Estaba muy difícil el examen de recuperación de la unidad uno me ubiera gustado hacer un examen como el primero que ise ya que fue para lo que me prepare."
+    },
+    {
+      "fecha_iso": "2017-08-05T00:00:00",
+      "materia": "QUÍMICA",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Es muy buena maestra, es estricta, deja proyectos en equipo y la mayoría de las veces son exposiciones pero a pesar de eso enseña muy bien, tiene un método algo difícil de asimilar al principio pero si le echas ganas la verdad si pasas, y hace varias recuperaciones (al último). Recomendada"
+    },
+    {
+      "fecha_iso": "2016-10-29T00:00:00",
+      "materia": "QUIMICA",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 6.5,
+      "recomienda": 0,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2016-08-09T00:00:00",
+      "materia": "QUIMICA",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 0,
+      "comentario": "No tiene muy buen método de enseñanza, solo lee diapositivas y debes en cuando explica, la manera de calificar de sus exámenes no es buena, para pasar con ella no ocupas esforzarte, necesitas memorizar todas sus clases y mucha suerte. No volvería a cargar con ella."
+    },
+    {
+      "fecha_iso": "2016-05-15T00:00:00",
+      "materia": "QUÍMICA",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 0,
+      "comentario": "Particularmente no apoyo su método de enseñanza.\nSi quieres pasar fácil no cargues con ella."
+    },
+    {
+      "fecha_iso": "2016-03-19T00:00:00",
+      "materia": "QUIMICA",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 0,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2015-08-11T00:00:00",
+      "materia": "QUÍMICA I",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Muy buena maestra, no se porque tantos la odiaban, si nos ayudó mucho, además explica muy bien:)"
+    },
+    {
+      "fecha_iso": "2014-08-20T00:00:00",
+      "materia": "QUÍMICA / PROPIEDAD DE LOS MATERIALES",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "No se porqué le tienen tanto miedo.. para mi es buena maestra siempre y cuando pongas de tu parte, además aprendes."
+    }
+  ],
+  "comments_recent": [
+    "No la recomiendo, no sabe explicar, aparte como que es bipolar. No te brinda el material de sus diapositivas y eso me parece absurdo, no es nada accesible, mejor evitarla y llevar la materia con otro profe.",
+    "La peor maestra que he conocido en toda mi vida, mando a todo mi grupo a RC y cuando le preguntábamos dudas simplemente nos ignoraba, si te toca ella, prepárate para RC. y bipolar.",
+    "no lo hagan.",
+    "Que qlerada la neta",
+    "La neta si te toca con esta profe ponte a rezar es la profe más mamona del tec, es bipolar al 100% , conoce mucho de los temas de química pero simplemente no es buena profesora y no sabe explicar en lo más mínimo, si le preguntas 2 veces algo ella se enoja, simplemente intenten evitarla",
+    "Si quieres aprender (reforzar conocimientos de química de preparatoria) es para ti. No regala la calificación y no enseña nada del otro mundo, o que no se haya visto ya en la prepa. Es justa para calificar. Sus clases son súper entretenidas, aparte que está más buena que un arroz con pollo. Hermosa.",
+    "Que “maestra” tan mas mala, bipolar en toda la extensión de la palabra. Ella sabe bastante, pero buena maestra no es. Deja trabajos larguísimos que no te llevan a nada porque se trata de que memorices si quieres pasar no de aprender.Si cargas con ella es para que no te de alzheimer de tanto memoriza",
+    "[Comentario esperando revisión]"
+  ],
+  "n_reviews": 31
+}

@@ -1,0 +1,370 @@
+{
+  "professor_id": "FRANCISCA_PIÑA",
+  "nombre": "FRANCISCA PIÑA",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 7.385362463675674,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.547256333431798,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.824,
+    "wilson_interval": [
+      0.5897007098262422,
+      0.9380898628745102
+    ],
+    "n_recommendations": 17
+  },
+  "subject_normalization": {
+    "z_mean": 0.4,
+    "z_mean_decayed": 0.29,
+    "per_subject": [
+      {
+        "materia": "ANALISIS",
+        "z_decayed": 0.8491918278948405,
+        "n": 5
+      },
+      {
+        "materia": "DESAROLLO SUSTENTABLE",
+        "z_decayed": 0.6603381797442178,
+        "n": 4
+      },
+      {
+        "materia": "DESARROLLO SUSTENTABLE",
+        "z_decayed": 0.559138013519464,
+        "n": 52
+      },
+      {
+        "materia": "TALLER DE HERRAMIENTAS",
+        "z_decayed": 0.3377785641610183,
+        "n": 5
+      },
+      {
+        "materia": "ANALISIS DE LA REALIDAD NACIONAL",
+        "z_decayed": 0.24293289905367474,
+        "n": 10
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "comentario",
+          "esperando",
+          "comentario esperando",
+          "esperando revision",
+          "revision"
+        ],
+        "weight": 0.17296817585975371
+      },
+      {
+        "id": 1,
+        "words": [
+          "tiene",
+          "buena",
+          "explica bien",
+          "bien",
+          "explica"
+        ],
+        "weight": 0.1160810376629073
+      },
+      {
+        "id": 2,
+        "words": [
+          "onda",
+          "es buena",
+          "examenes",
+          "clases",
+          "falta"
+        ],
+        "weight": 0.09071322977333698
+      },
+      {
+        "id": 3,
+        "words": [
+          "agradable",
+          "guapa",
+          "mas",
+          "maestra",
+          "es"
+        ],
+        "weight": 0.13804463960325297
+      },
+      {
+        "id": 4,
+        "words": [
+          "verla",
+          "encanta",
+          "seria",
+          "guapisima",
+          "siempre"
+        ],
+        "weight": 0.12051924661490006
+      }
+    ],
+    "sentiment": {
+      "overall": 0.0,
+      "by_month": {
+        "2017-11": 0.0,
+        "2016-01": 0.0,
+        "2015-06": -1.0,
+        "2014-02": 0.0,
+        "2014-01": 0.0,
+        "2013-11": 0.0,
+        "2013-06": 0.0,
+        "2013-03": 1.0,
+        "2012-10": 0.0,
+        "2012-08": 0.0,
+        "2012-06": 0.0,
+        "2011-10": 0.0,
+        "2011-08": 0.0,
+        "2011-07": 0.0,
+        "2011-03": 0.0
+      }
+    },
+    "n_comments": 16
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.05,
+    "bursts": [
+      {
+        "from": "2011-03-15T00:00:00",
+        "to": "2011-03-16T00:00:00",
+        "count": 3
+      }
+    ],
+    "low_variance_flag": 0,
+    "trust_score": 0.68
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        8.333333333333334,
+        9.0,
+        9.0,
+        9.0,
+        4.0,
+        10.0,
+        10.0,
+        9.0,
+        10.0,
+        2.0,
+        8.0,
+        7.0,
+        8.0,
+        8.0,
+        6.0
+      ],
+      "ewma": [
+        8.333333333333334,
+        8.533333333333333,
+        8.673333333333332,
+        8.771333333333331,
+        7.339933333333332,
+        8.137953333333332,
+        8.696567333333332,
+        8.787597133333332,
+        9.151317993333333,
+        7.005922595333332,
+        7.304145816733332,
+        7.212902071713332,
+        7.449031450199332,
+        7.614322015139532,
+        7.130025410597672
+      ],
+      "sigma": 1.7779599681315286
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 7.130025410597672,
+      "quality_band": [
+        3.645223873059876,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2017-11-20T00:00:00",
+      "materia": "TALLER DE HERRAMIENTAS",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 0,
+      "comentario": "Buena maestra seria explica bien pues creo que ya tiene tiempo dando la materia, es muy propia con sus comentarios eso si siempre muy arreglada es elegante, los exámenes no son complicados"
+    },
+    {
+      "fecha_iso": "2016-01-31T00:00:00",
+      "materia": "DESARROLLO SUSTENTABLE",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Buena maestra es un poco seria explica bien pero muy apegada al programa, la materia es mucha teoria a veces hace actividades para hacer mas amena la clase y cuando falta avisa porque tiene algun evento del tec"
+    },
+    {
+      "fecha_iso": "2015-06-08T00:00:00",
+      "materia": "ANALISIS DE LA REALIDAD NACIONAL",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Casi no da clases, falta mucho. Los examenes los saca de las copias que te deja y hace una exposición para evaluar un parcial lo malo que con una falta que tengas te bajara mucho la calificación. Pero es muy buena onda solamente estudienle para los examenes y 100 seguro"
+    },
+    {
+      "fecha_iso": "2014-02-18T00:00:00",
+      "materia": "ANALISIS DE LA REALIDAD",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Explica muy amena la clase y nos da tips para que la materia se nos haga mas fácil, es buena onda pero muy seria, es fácil la materia son temas aburridones pero esta bien."
+    },
+    {
+      "fecha_iso": "2014-01-20T00:00:00",
+      "materia": "TALLER DE HERRAMIENTAS",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "lo que pasa es que es una materia super sencilla de historia de mexico solo se trata de poner atencion cosas wu trata que ya hemos visto desde secundaria y preparatoria y algunos temas nuevos, con esa maestra entras porque entras esta guapa y muy elegante para vestir, es agradable, y educada"
+    },
+    {
+      "fecha_iso": "2013-11-14T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2013-06-18T00:00:00",
+      "materia": "---",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2013-03-05T00:00:00",
+      "materia": "ANALISIS",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Excelente maestra tiene muy buen caracter solo que cuando platicamos mucho la hacemos enojar, aparte esta muy guapa siempre se arregla mucho es de las mas arregladas, me encanta verla muy agradable."
+    },
+    {
+      "fecha_iso": "2012-10-29T00:00:00",
+      "materia": "ANALISIS DE LA REALIDAD",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Facílisimo de pasar. Falta mucho a clases."
+    },
+    {
+      "fecha_iso": "2012-08-08T00:00:00",
+      "materia": "DESAROLLO SUSTENTABLE",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "ok"
+    },
+    {
+      "fecha_iso": "2012-06-14T00:00:00",
+      "materia": "---",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 5.0,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2011-10-05T00:00:00",
+      "materia": "ANALISIS DE LA REALIDD",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "ME ENCANTA ENTRAR A LA CLASE SOLO PARA VERLA, GUAPISIMA SIEMPRE . ES MUY SERIA QUE FUERA MAS HABIERTA ME ENCANTARIA MAS."
+    },
+    {
+      "fecha_iso": "2011-08-03T00:00:00",
+      "materia": "TALLER DE HERRAMIENTAS",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "buena maesta muy educada y muy propia con sus comentarios en clase, explica bien solo que en ocaciones tiene reuniones y nos queda mal,pero la recomiendo"
+    },
+    {
+      "fecha_iso": "2011-07-22T00:00:00",
+      "materia": "DESARROLLOS SUSTENTABLE",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Domina muy bien los temas siempre guapisima y tiene un gran porte, seria e inteligente"
+    },
+    {
+      "fecha_iso": "2011-03-16T00:00:00",
+      "materia": "ANALISIS DE LA REALIDAD",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "CONSIDERO MAL TU COMENTARIO YA QUE YO OPINO MUY DIFERNTE DE LA MAESTRA, LA MANERA DE DAR LA CLASE EN NUESTRO GRUPO ES MUY DINAMICA Y CASOS PRACTICOS Y TODO EL GRUPO ESTA MUY CONTENTA CON ELLA ESO ES LO QUE YO ESCUCHADO EN NUESTRO GRUPO.RECUEDA SE ESTA TRABAJANDO POR COMPETENCIA Y LOS ALUMNOS TENEMOS QUE APORTAR MAS."
+    },
+    {
+      "fecha_iso": "2011-03-16T00:00:00",
+      "materia": "DESARROLLO SUSTENTABLE",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2011-03-15T00:00:00",
+      "materia": "---",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "[Comentario esperando revisión]"
+    }
+  ],
+  "comments_recent": [
+    "Buena maestra seria explica bien pues creo que ya tiene tiempo dando la materia, es muy propia con sus comentarios eso si siempre muy arreglada es elegante, los exámenes no son complicados",
+    "Buena maestra es un poco seria explica bien pero muy apegada al programa, la materia es mucha teoria a veces hace actividades para hacer mas amena la clase y cuando falta avisa porque tiene algun evento del tec",
+    "Casi no da clases, falta mucho. Los examenes los saca de las copias que te deja y hace una exposición para evaluar un parcial lo malo que con una falta que tengas te bajara mucho la calificación. Pero es muy buena onda solamente estudienle para los examenes y 100 seguro",
+    "Explica muy amena la clase y nos da tips para que la materia se nos haga mas fácil, es buena onda pero muy seria, es fácil la materia son temas aburridones pero esta bien.",
+    "lo que pasa es que es una materia super sencilla de historia de mexico solo se trata de poner atencion cosas wu trata que ya hemos visto desde secundaria y preparatoria y algunos temas nuevos, con esa maestra entras porque entras esta guapa y muy elegante para vestir, es agradable, y educada",
+    "[Comentario esperando revisión]",
+    "[Comentario esperando revisión]",
+    "Excelente maestra tiene muy buen caracter solo que cuando platicamos mucho la hacemos enojar, aparte esta muy guapa siempre se arregla mucho es de las mas arregladas, me encanta verla muy agradable.",
+    "Facílisimo de pasar. Falta mucho a clases.",
+    "ok"
+  ],
+  "n_reviews": 17
+}

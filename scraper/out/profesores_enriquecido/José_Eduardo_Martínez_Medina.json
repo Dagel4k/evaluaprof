@@ -1,0 +1,213 @@
+{
+  "professor_id": "José_Eduardo_Martínez_Medina",
+  "nombre": "José Eduardo Martínez Medina",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 8.19967160612649,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.598662277925475,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.875,
+    "wilson_interval": [
+      0.5291051942301385,
+      0.9775830911367039
+    ],
+    "n_recommendations": 8
+  },
+  "subject_normalization": {
+    "z_mean": 0.5,
+    "z_mean_decayed": 0.52,
+    "per_subject": [
+      {
+        "materia": "ELECTRICIDAD Y ELECTRÓNICA INDUSTRIAL",
+        "z_decayed": 0.7582055402166771,
+        "n": 9
+      },
+      {
+        "materia": "ELECTRICIDAD Y ELECTRONICA INDUSTRIAL",
+        "z_decayed": 0.363293751832712,
+        "n": 9
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "buen",
+          "es",
+          "buen profe",
+          "profe",
+          "ademas"
+        ],
+        "weight": 0.16711330920922585
+      },
+      {
+        "id": 1,
+        "words": [
+          "bien",
+          "explica",
+          "mas",
+          "semestre",
+          "es"
+        ],
+        "weight": 0.19709878865648175
+      },
+      {
+        "id": 2,
+        "words": [
+          "explica bien",
+          "bien",
+          "buen",
+          "buen profesor",
+          "profesor"
+        ],
+        "weight": 0.25940681887179357
+      }
+    ],
+    "sentiment": {
+      "overall": 0.14285714285714285,
+      "by_month": {
+        "2022-06": 0.0,
+        "2021-08": 0.0,
+        "2015-01": 0.0,
+        "2012-08": 0.0,
+        "2012-06": 0.5
+      }
+    },
+    "n_comments": 7
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        6.5,
+        9.666666666666666,
+        9.0,
+        7.0,
+        9.0
+      ],
+      "ewma": [
+        6.5,
+        7.449999999999999,
+        7.914999999999999,
+        7.640499999999999,
+        8.04835
+      ],
+      "sigma": 1.0950142955941513
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 8.04835,
+      "quality_band": [
+        5.902121980635463,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2022-06-19T00:00:00",
+      "materia": "CONSTRUCCIÓN DE REDES DE DISTRIBUCIÓN",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Muy buen profesor, el cual no tiene reparo en apoyarte con las dudas que tengas, además de que durante las clases presenta bastantes ejemplos reales. Califica con un par de proyectos, los cuales son algo tediosos, pero no muy difíciles."
+    },
+    {
+      "fecha_iso": "2021-08-22T00:00:00",
+      "materia": "MEDIACIONES ELÉCTRICAS",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": "(En presencial) Es medio barco, pero no deja de ser buen profe, además de ser respetuoso con el alumno y no tener problemas en aclarar dudas. Las clases en el aula son medio irrelevantes (de vez en cuando no da), pero las prácticas en el laboratorio son bastante decentes."
+    },
+    {
+      "fecha_iso": "2015-01-16T00:00:00",
+      "materia": "TECNOLOGIA MAT",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Buen Profesor"
+    },
+    {
+      "fecha_iso": "2012-08-22T00:00:00",
+      "materia": "ELECTRICIDAD Y ELECTRÓNICA INDUSTRIAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2012-08-20T00:00:00",
+      "materia": "ELECTRICIDAD Y ELECTRONICA INDUSTRIAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "muy buen profesor, explica bien la clase, me gusto el curso"
+    },
+    {
+      "fecha_iso": "2012-08-08T00:00:00",
+      "materia": "ELECTRICIDAD Y ELECTRONICA INDUSTRIAL",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "muy buen profe en su materia y ademas es accesible"
+    },
+    {
+      "fecha_iso": "2012-06-14T00:00:00",
+      "materia": "ELECTRICIDAD Y ELECTRONICA INDUSTRIAL",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 4.0,
+      "recomienda": 0,
+      "comentario": "A pesar de que explica bien y es muy flexible con los estudiantes es demasiado webón, falto mas de la mitad del semestre y cuando llegaba a ir no daba las clases completas, no lo recomiendo aunque seas de los que quieran pasar sin ningún esfuerzo porque es estricto a la hora de calificar."
+    },
+    {
+      "fecha_iso": "2012-06-11T00:00:00",
+      "materia": "ELECTRICIDAD Y ELECTRÓNICA INDUSTRIAL",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 6.0,
+      "recomienda": 1,
+      "comentario": "Falta mucho en todo el semestre, y nomas enseña la primera unidad de cuatro, es bueno explicando pero insisto nomas se hecha una unidad en lo que va del semestre y parale! pd. es el maestro mas flojo que existe."
+    }
+  ],
+  "comments_recent": [
+    "Muy buen profesor, el cual no tiene reparo en apoyarte con las dudas que tengas, además de que durante las clases presenta bastantes ejemplos reales. Califica con un par de proyectos, los cuales son algo tediosos, pero no muy difíciles.",
+    "(En presencial) Es medio barco, pero no deja de ser buen profe, además de ser respetuoso con el alumno y no tener problemas en aclarar dudas. Las clases en el aula son medio irrelevantes (de vez en cuando no da), pero las prácticas en el laboratorio son bastante decentes.",
+    "Buen Profesor",
+    "muy buen profesor, explica bien la clase, me gusto el curso",
+    "muy buen profe en su materia y ademas es accesible",
+    "A pesar de que explica bien y es muy flexible con los estudiantes es demasiado webón, falto mas de la mitad del semestre y cuando llegaba a ir no daba las clases completas, no lo recomiendo aunque seas de los que quieran pasar sin ningún esfuerzo porque es estricto a la hora de calificar.",
+    "Falta mucho en todo el semestre, y nomas enseña la primera unidad de cuatro, es bueno explicando pero insisto nomas se hecha una unidad en lo que va del semestre y parale! pd. es el maestro mas flojo que existe."
+  ],
+  "n_reviews": 8
+}

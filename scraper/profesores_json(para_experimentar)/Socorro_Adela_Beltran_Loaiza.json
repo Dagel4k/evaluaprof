@@ -1,0 +1,130 @@
+{
+  "nombre": "Socorro Adela Beltran Loaiza",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "ciudad": "Ciudad: culiacan, sinaloa",
+  "departamento": "Departamento/Facultad: Ingenieria Industrial",
+  "calidad_general": 5.6,
+  "porcentaje_recomienda": 43,
+  "nivel_dificultad": 3.1,
+  "etiquetas": [
+    "LOS EXÁMENES SON DIFÍCILES (1)",
+    "MUCHOS PROYECTOS GRUPALES (2)",
+    "BARCO (1)",
+    "MUCHAS TAREAS (1)",
+    "CALIFICA DURO (1)",
+    "LA PARTICIPACIÓN IMPORTA (1)",
+    "ASISTENCIA OBLIGATORIA (1)"
+  ],
+  "numero_calificaciones": 7,
+  "calificaciones": [
+    {
+      "fecha": "13/Ago/2023",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 9.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Administración del mantenimiento",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "9.5",
+      "interes_clase": "",
+      "comentario": "Tienes que asistir por lo menos a la mayoría de las clases y te ayuda en pasar, si no asistes no te va tomar en consideración, el proyecto que deja es fácil y al final parece que es muy dura pero es muy abierta y da varias oportunidades en el proyecto y da varias oportunidades",
+      "etiquetas_comentario": [
+        "Califica Duro",
+        "La Participación Importa",
+        "Asistencia obligatoria"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "02/Dic/2020",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Administración del mantenimiento",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "9",
+      "interes_clase": "",
+      "comentario": "Si es buena maestra, pero deja muchas tareas y aveces no se explica muy bien que es lo que quiere, pero es fácil de llevar.",
+      "etiquetas_comentario": [
+        "Barco",
+        "Muchas tareas",
+        "Muchos proyectos grupales"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "28/Oct/2019",
+      "tipo_calificacion": "REGULAR",
+      "puntaje_calidad_general": 4.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Administración de mantenimiento",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "7.5",
+      "interes_clase": "",
+      "comentario": "Sus clases es leer sus diapositivas, bipolar, exige demasiado en sus trabajos cuando en clase no explica lo que es necesario llevar, no ayuda, solo grita y grita, nada recomendable, es un dolor de cabeza llevar clases con ella",
+      "etiquetas_comentario": [
+        "Los exámenes son difíciles",
+        "Muchos proyectos grupales"
+      ],
+      "votos_utiles": "1",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "03/May/2017",
+      "tipo_calificacion": "REGULAR",
+      "puntaje_calidad_general": 6.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Administración de mantenimiento",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "8",
+      "interes_clase": "",
+      "comentario": "Es exigente la maestra, es necesario echarle ganas en las revisiones de trabajos por que con eso se trabajara todo el semestre. Muy exigente en las exposiciones y agarra de baja a los grupos que no hacen bien los trabajos y exponen mal. Pero si se aprende y te motiva mucho a aprender por tu cuenta",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "21/Dic/2013",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 2.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "mantenimiento",
+      "asistencia": "",
+      "calificacion_recibida": "N/A",
+      "interes_clase": "N/A",
+      "comentario": "NO sabe nada esta mujer bipolar, cuidado si la contradices ya no te la acabas todo el semestre tener otra idea es fatal si ella no esta dispuesta, CERO clara con lo que \" EXPLICA\", Y RENCOROSA al ponerte calificacion, CERO recomendable para el que quiera aprender",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "12/Ene/2012",
+      "tipo_calificacion": "REGULAR",
+      "puntaje_calidad_general": 6.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "administracion de mantenimiento",
+      "asistencia": "",
+      "calificacion_recibida": "8",
+      "interes_clase": "8",
+      "comentario": "No es mala maestra, pero es muy dura para calificar y muchas veces no sabe explicar.",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "02/Oct/2011",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 2.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Mantenimiento",
+      "asistencia": "",
+      "calificacion_recibida": "9.5",
+      "interes_clase": "9.5",
+      "comentario": "Nunca da clases.Solo nos hace exponer.Es maestro eso acaso.",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "professor_id": "felipe_muñiz",
+  "nombre": "felipe muñiz",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 9.999999999999998,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.481326750221547,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 1.0,
+    "wilson_interval": [
+      0.3423719528896193,
+      1
+    ],
+    "n_recommendations": 2
+  },
+  "subject_normalization": {
+    "z_mean": 1.13,
+    "z_mean_decayed": 1.13,
+    "per_subject": [
+      {
+        "materia": "FUNDAMENTOS DE PROGRAMACION",
+        "z_decayed": 1.1265641016954895,
+        "n": 43
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [],
+    "sentiment": {
+      "overall": null,
+      "by_month": {}
+    },
+    "n_comments": 1
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": null,
+    "difficulty_trend": null,
+    "forecast": null,
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2014-01-09T00:00:00",
+      "materia": "FUNDAMENTOS DE PROGRAMACION",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Se pasa la teoria rapido y te pone a programar desde un principio, te da las clases en el salon con computadoras a diferencia de otros y esta atento a las opiniones del grupo. sus examenes son largos pero te pide unicamente lo que te enseñó."
+    },
+    {
+      "fecha_iso": "2013-06-10T00:00:00",
+      "materia": "FUNDAMENTOS/POO",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": ""
+    }
+  ],
+  "comments_recent": [
+    "Se pasa la teoria rapido y te pone a programar desde un principio, te da las clases en el salon con computadoras a diferencia de otros y esta atento a las opiniones del grupo. sus examenes son largos pero te pide unicamente lo que te enseñó."
+  ],
+  "n_reviews": 2
+}

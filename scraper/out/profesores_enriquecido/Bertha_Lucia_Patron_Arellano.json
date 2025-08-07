@@ -1,0 +1,181 @@
+{
+  "professor_id": "Bertha_Lucia_Patron_Arellano",
+  "nombre": "Bertha Lucia Patron Arellano",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 10.000000000000002,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 8.11099506266616,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 1.0,
+    "wilson_interval": [
+      0.6096569663469354,
+      1
+    ],
+    "n_recommendations": 6
+  },
+  "subject_normalization": {
+    "z_mean": 0.67,
+    "z_mean_decayed": 0.67,
+    "per_subject": [
+      {
+        "materia": "ÁLGEBRA LINEAL",
+        "z_decayed": 0.6696164845116104,
+        "n": 23
+      },
+      {
+        "materia": "ALGEBRA LINEAL",
+        "z_decayed": 0.6691618448014931,
+        "n": 35
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "tareas",
+          "cortas",
+          "te",
+          "clases",
+          "clase"
+        ],
+        "weight": 0.4040818972795793
+      },
+      {
+        "id": 1,
+        "words": [
+          "cortas",
+          "cada",
+          "tema",
+          "claras",
+          "si"
+        ],
+        "weight": 0.2843942648836189
+      }
+    ],
+    "sentiment": {
+      "overall": 0.2,
+      "by_month": {
+        "2025-06": 1.0,
+        "2022-12": 0.0,
+        "2022-08": 0.0,
+        "2021-05": 0.0
+      }
+    },
+    "n_comments": 5
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 1,
+    "trust_score": 0.8
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        10.0
+      ],
+      "ewma": [
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        10.0
+      ],
+      "sigma": 0.0
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 10.0,
+      "quality_band": [
+        10.0,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2025-06-16T00:00:00",
+      "materia": "ALGEBRA LINEAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 24.0,
+      "recomienda": 1,
+      "comentario": "Muy buena maestra, sus clases son cortas pero la verdad si te deja muy en claro los temas vistos."
+    },
+    {
+      "fecha_iso": "2022-12-24T00:00:00",
+      "materia": "ALGEBRA LINEAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Normalmente solo da clases a un grupo a la vez y eso hace que le ponga demasiada atención a cada integrante del grupo, es demasiado comprensible con tareas, exámenes y actividades.\nTodas sus clases están bien preparadas y las lleva de manera directa y en un entorno de aprendizaje"
+    },
+    {
+      "fecha_iso": "2022-08-10T00:00:00",
+      "materia": "ÁLGEBRA LINEAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Verdaderamente una profesora que le gusta y se toma su trabajo en serio. Se encarga de que sus alumnos entiendan y apliquen su materia. Sus explicaciones son claras, completas y se detiene con cada tema a preguntar si alguien no entiende lo que se está viendo para explicarlo. Proactiva y eficiente."
+    },
+    {
+      "fecha_iso": "2022-08-10T00:00:00",
+      "materia": "ALGEBRA LINEAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "La mejor maestra del tec, explica muy bien y hace que te intereses en la clase, no te aburres. Participa en clase, eso puede ayudarte a subir calificación, deja tareas de lo visto en clase, entregalas todas ayuda mucho en el promedio y la asistencia también. Los exámenes son fáciles."
+    },
+    {
+      "fecha_iso": "2021-06-04T00:00:00",
+      "materia": "ALGEBRA LINEAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2021-05-15T00:00:00",
+      "materia": "ALGEBRA LINEAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Da muchas facilidades para que aprendas aún en línea, sus clases son muy cortas y claras(media hora),después se queda el resto de la clase con los que no entendieron y además manda por WhatsApp videos explicando el tema y las diapositivas, practicas mucho en clase y con las tareas, que son cortas"
+    }
+  ],
+  "comments_recent": [
+    "Muy buena maestra, sus clases son cortas pero la verdad si te deja muy en claro los temas vistos.",
+    "Normalmente solo da clases a un grupo a la vez y eso hace que le ponga demasiada atención a cada integrante del grupo, es demasiado comprensible con tareas, exámenes y actividades.\nTodas sus clases están bien preparadas y las lleva de manera directa y en un entorno de aprendizaje",
+    "Verdaderamente una profesora que le gusta y se toma su trabajo en serio. Se encarga de que sus alumnos entiendan y apliquen su materia. Sus explicaciones son claras, completas y se detiene con cada tema a preguntar si alguien no entiende lo que se está viendo para explicarlo. Proactiva y eficiente.",
+    "La mejor maestra del tec, explica muy bien y hace que te intereses en la clase, no te aburres. Participa en clase, eso puede ayudarte a subir calificación, deja tareas de lo visto en clase, entregalas todas ayuda mucho en el promedio y la asistencia también. Los exámenes son fáciles.",
+    "Da muchas facilidades para que aprendas aún en línea, sus clases son muy cortas y claras(media hora),después se queda el resto de la clase con los que no entendieron y además manda por WhatsApp videos explicando el tema y las diapositivas, practicas mucho en clase y con las tareas, que son cortas"
+  ],
+  "n_reviews": 6
+}

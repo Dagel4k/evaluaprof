@@ -1,0 +1,76 @@
+{
+  "professor_id": "Marysol_Moreno_Quiñonez",
+  "nombre": "Marysol Moreno Quiñonez",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 6.0,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 6.888720091150779,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.0,
+    "wilson_interval": [
+      0,
+      0.7934567085261071
+    ],
+    "n_recommendations": 1
+  },
+  "subject_normalization": {
+    "z_mean": -0.31,
+    "z_mean_decayed": -0.31,
+    "per_subject": [
+      {
+        "materia": "MERCADOTECNIA",
+        "z_decayed": -0.3125031140851317,
+        "n": 9
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [],
+    "sentiment": {
+      "overall": null,
+      "by_month": {}
+    },
+    "n_comments": 1
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": null,
+    "difficulty_trend": null,
+    "forecast": null,
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2015-01-07T00:00:00",
+      "materia": "MERCADOTECNIA",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Puras exposiciones y no aprendes nada. Todos sacan menos de 90."
+    }
+  ],
+  "comments_recent": [
+    "Puras exposiciones y no aprendes nada. Todos sacan menos de 90."
+  ],
+  "n_reviews": 1
+}

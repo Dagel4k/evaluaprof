@@ -1,0 +1,456 @@
+{
+  "professor_id": "juan_zambada_tinoco",
+  "nombre": "Juan Zambada Tinoco",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 4.740616066395255,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 5.669619486558339,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.333,
+    "wilson_interval": [
+      0.1864305444359335,
+      0.521755801278945
+    ],
+    "n_recommendations": 27
+  },
+  "subject_normalization": {
+    "z_mean": -0.6,
+    "z_mean_decayed": -0.61,
+    "per_subject": [
+      {
+        "materia": "MICROPROCESADORES",
+        "z_decayed": 0.0020068452129497305,
+        "n": 3
+      },
+      {
+        "materia": "ELECTRONICA",
+        "z_decayed": -0.28997255746722667,
+        "n": 9
+      },
+      {
+        "materia": "MICROCONTROLADORES",
+        "z_decayed": -0.48253478021378277,
+        "n": 18
+      },
+      {
+        "materia": "PROGRAMACION 2",
+        "z_decayed": -0.5773502691896258,
+        "n": 3
+      },
+      {
+        "materia": "---",
+        "z_decayed": -0.9627852966533862,
+        "n": 521
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "esperando revision",
+          "esperando",
+          "comentario esperando",
+          "comentario",
+          "revision"
+        ],
+        "weight": 0.14627321984429512
+      },
+      {
+        "id": 1,
+        "words": [
+          "muchas",
+          "materias",
+          "llegamos",
+          "sabe",
+          "materia"
+        ],
+        "weight": 0.07020590804181538
+      },
+      {
+        "id": 2,
+        "words": [
+          "pasas",
+          "materia",
+          "maestro",
+          "recomiendo",
+          "es"
+        ],
+        "weight": 0.1446742213612989
+      },
+      {
+        "id": 3,
+        "words": [
+          "pasas",
+          "te",
+          "final",
+          "tiene",
+          "si"
+        ],
+        "weight": 0.13876396308339647
+      },
+      {
+        "id": 4,
+        "words": [
+          "cosa",
+          "maestros",
+          "tinoco",
+          "maestro tinoco",
+          "maestro"
+        ],
+        "weight": 0.09389160726186614
+      }
+    ],
+    "sentiment": {
+      "overall": -0.041666666666666664,
+      "by_month": {
+        "2024-03": 0.0,
+        "2023-12": 0.0,
+        "2021-11": 0.0,
+        "2019-12": 0.0,
+        "2019-01": 0.0,
+        "2018-12": 0.0,
+        "2017-06": 0.0,
+        "2015-09": 0.0,
+        "2013-08": 0.0,
+        "2011-06": 0.0,
+        "2011-05": -0.5,
+        "2011-04": 0.0,
+        "2011-03": 0.0,
+        "2011-02": 0.0,
+        "2011-01": 0.0
+      }
+    },
+    "n_comments": 24
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.054,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 0.97
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        2.0,
+        6.2,
+        7.0,
+        7.0,
+        4.5,
+        10.0,
+        3.0,
+        10.0,
+        4.0,
+        7.0,
+        2.0,
+        2.5,
+        2.0,
+        5.0,
+        2.0,
+        6.0,
+        6.0
+      ],
+      "ewma": [
+        2.0,
+        3.26,
+        4.382,
+        5.1674,
+        4.967179999999999,
+        6.477025999999999,
+        5.433918199999999,
+        6.803742739999999,
+        5.962619917999999,
+        6.2738339426,
+        4.991683759819999,
+        4.244178631873999,
+        3.5709250423117993,
+        3.9996475296182594,
+        3.3997532707327816,
+        4.1798272895129465,
+        4.7258791026590625
+      ],
+      "sigma": 2.121049996937225
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 4.7258791026590625,
+      "quality_band": [
+        0.5686211086621018,
+        8.883137096656023
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2024-03-01T00:00:00",
+      "materia": "MICROCONTROLADORES",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 0,
+      "comentario": "Si ya eres RC o especial de Perez Luque, Tinoco es tu salvación. Si o si pasas, solo no le pidas proyecto final, intenta que le caiga bien el grupo y jamás menciones delay en su clase."
+    },
+    {
+      "fecha_iso": "2023-12-26T00:00:00",
+      "materia": "MICROCONTROLADORES",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 0,
+      "comentario": "Sabe de su materia pero no tiene criterio de evaluación, no veras calificación hasta el sitec sus clases dan flojera, si le cae bien el grupo los pasa, dice que no cuenta la asistencia pero si fuiste al final te ayuda, hace exámenes y le cgan los delays"
+    },
+    {
+      "fecha_iso": "2021-11-26T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 24.0,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2021-06-25T00:00:00",
+      "materia": "MICROCONTROLADORES",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2019-12-27T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2019-01-29T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2019-01-12T00:00:00",
+      "materia": "MICROCONTROLADORES",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": 24.0,
+      "recomienda": 0,
+      "comentario": "nunca asiste a clases, se la pasa criticando a otros maestros y no lleva un criterio de evaluación. Si quieren aprender no lo recomiendo, no van a aprender nada, tendrán que ser autodidactas prácticamente."
+    },
+    {
+      "fecha_iso": "2018-12-17T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2017-06-12T00:00:00",
+      "materia": "MICROCONTROLADORES",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 1,
+      "comentario": "Su actitud es muy de flojera, no se le nota ánimos en dar clase y quizá eso haga que casi no aprendas. Los exámenes son de lo que se ve en clase pero un poco más dificiles. Te da muchas oportunidades y al final pasas con lo que saques en el global. Según el cuenta la asistencia pero al final no."
+    },
+    {
+      "fecha_iso": "2017-03-07T00:00:00",
+      "materia": "MICROCONTROLADORES",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 23.0,
+      "recomienda": 0,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2015-09-08T00:00:00",
+      "materia": "HUEVON 1 Y 2",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Ezte huevon vive del zistema viva el tek verdad kompa zambada"
+    },
+    {
+      "fecha_iso": "2013-08-04T00:00:00",
+      "materia": "MICROCONTROLADORES - MECATRONICA",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 0,
+      "comentario": "pasar la materia es un volado."
+    },
+    {
+      "fecha_iso": "2013-08-04T00:00:00",
+      "materia": "MICROCONTROLADORES",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 1.5,
+      "recomienda": 0,
+      "comentario": "Es un ojete, te insulta y subaja como alumno, se cree la gran cosa pero para nada, abusa con nosotros de lo que otros maestros no nos enseña, critica a todos los demás maestros, o no le pagan bien o les tiene envidia. Es un flojo y le copia todo mundo ya que te deja solo en el examen y por lo tanto pasa todo el mundo aunque no aprendas. No tiene oficio de maestro."
+    },
+    {
+      "fecha_iso": "2011-06-20T00:00:00",
+      "materia": "MICROCONTROLADORES",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Aprendes mucho porque tiene experiencia en cosas reales."
+    },
+    {
+      "fecha_iso": "2011-06-19T00:00:00",
+      "materia": "PROGRAMACIÒN II",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2011-05-11T00:00:00",
+      "materia": "MICROCONTROLADORES",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 0,
+      "comentario": "Sabe mucho, debería dejar de preocuparse por los otros maestros que no enseñan, lo malo que nos faltan conocimientos para llegar a su materia, eso nadie lo puede negar..."
+    },
+    {
+      "fecha_iso": "2011-05-10T00:00:00",
+      "materia": "ELECTRONICA",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": "mas o menos"
+    },
+    {
+      "fecha_iso": "2011-04-24T00:00:00",
+      "materia": "MICROCONTROLADORES",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 6.0,
+      "recomienda": 0,
+      "comentario": "Sabe mucho, y se la rifa cuando en el examen se va por media hora y te deja solo para copear todo. Tambien se la rifa en insultarte y tratarte como basura, ningun maestro tiene tanta cultura en degradar a sus alumnos como el, pero pasas... Es lo que cuenta no!!! aprendas o no pero PASAS!!!!!!"
+    },
+    {
+      "fecha_iso": "2011-04-01T00:00:00",
+      "materia": "PROGRAMACION 1",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Es muy buen maestro"
+    },
+    {
+      "fecha_iso": "2011-03-04T00:00:00",
+      "materia": "PROGRAMACION 2",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Sabe mucho el maestro, pero si me dí cuenta que llegamos muy verdes a su materia."
+    },
+    {
+      "fecha_iso": "2011-02-24T00:00:00",
+      "materia": "MICROPROCESADORES",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "El maestro Tinoco sabe mucho de las materias que da. Pero es cierto lo que nos dice, que hay que estudiarle muy duro para poder sacar buenas notas con el."
+    },
+    {
+      "fecha_iso": "2011-02-15T00:00:00",
+      "materia": "PROGRAMACION 2",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Es muy chingón"
+    },
+    {
+      "fecha_iso": "2011-02-08T00:00:00",
+      "materia": "MICROPROCESADORES",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Ahora que estoy trabajando aprecio mucho lo que el maestro Tinoco nos enseño. Ojalá todos los maestros sean así de duros, otra cosa fuera."
+    },
+    {
+      "fecha_iso": "2011-02-07T00:00:00",
+      "materia": "MICROPROCESADORES",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 0,
+      "comentario": "Sabe mucho, pero creo que llegamos a su materia con muchas lagunas de otras materias"
+    },
+    {
+      "fecha_iso": "2011-02-01T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 1.0,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2011-01-21T00:00:00",
+      "materia": "LENGUAJES",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Es un pedante, necesita un curso de relaciones humanas, siempre esta amargado. No se los recomiendo."
+    },
+    {
+      "fecha_iso": "2011-01-20T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    }
+  ],
+  "comments_recent": [
+    "Si ya eres RC o especial de Perez Luque, Tinoco es tu salvación. Si o si pasas, solo no le pidas proyecto final, intenta que le caiga bien el grupo y jamás menciones delay en su clase.",
+    "Sabe de su materia pero no tiene criterio de evaluación, no veras calificación hasta el sitec sus clases dan flojera, si le cae bien el grupo los pasa, dice que no cuenta la asistencia pero si fuiste al final te ayuda, hace exámenes y le cgan los delays",
+    "[Comentario esperando revisión]",
+    "[Comentario esperando revisión]",
+    "[Comentario esperando revisión]",
+    "nunca asiste a clases, se la pasa criticando a otros maestros y no lleva un criterio de evaluación. Si quieren aprender no lo recomiendo, no van a aprender nada, tendrán que ser autodidactas prácticamente.",
+    "[Comentario esperando revisión]",
+    "Su actitud es muy de flojera, no se le nota ánimos en dar clase y quizá eso haga que casi no aprendas. Los exámenes son de lo que se ve en clase pero un poco más dificiles. Te da muchas oportunidades y al final pasas con lo que saques en el global. Según el cuenta la asistencia pero al final no."
+  ],
+  "n_reviews": 27
+}

@@ -1,0 +1,514 @@
+{
+  "professor_id": "Elizabeth_Barraza_Garcia",
+  "nombre": "Elizabeth Barraza Garcia",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 9.065273760381265,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 8.319398025066464,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.867,
+    "wilson_interval": [
+      0.7031831605558306,
+      0.9469043057578189
+    ],
+    "n_recommendations": 30
+  },
+  "subject_normalization": {
+    "z_mean": 0.73,
+    "z_mean_decayed": 0.73,
+    "per_subject": [
+      {
+        "materia": "ADMINISTRACION",
+        "z_decayed": 2.420839754357787,
+        "n": 15
+      },
+      {
+        "materia": "TALLER DE BD",
+        "z_decayed": 1.825741858350554,
+        "n": 6
+      },
+      {
+        "materia": "---",
+        "z_decayed": 1.1561794496152813,
+        "n": 521
+      },
+      {
+        "materia": "DESARROLLO SUSTENTABLE",
+        "z_decayed": 0.7761856237782967,
+        "n": 52
+      },
+      {
+        "materia": "CULTURA EMPRESARIAL",
+        "z_decayed": 0.6836900669583996,
+        "n": 17
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "comentario esperando",
+          "comentario",
+          "esperando",
+          "esperando revision",
+          "revision"
+        ],
+        "weight": 0.13121202280199226
+      },
+      {
+        "id": 1,
+        "words": [
+          "excelente",
+          "siempre",
+          "explica",
+          "es",
+          "te"
+        ],
+        "weight": 0.09765162443895871
+      },
+      {
+        "id": 2,
+        "words": [
+          "debe",
+          "veces",
+          "buena",
+          "maestra",
+          "buena maestra"
+        ],
+        "weight": 0.12766173389654192
+      },
+      {
+        "id": 3,
+        "words": [
+          "profesora",
+          "bien",
+          "ensena",
+          "tiene",
+          "mas"
+        ],
+        "weight": 0.12199978519607281
+      },
+      {
+        "id": 4,
+        "words": [
+          "floja",
+          "da clases",
+          "maestros",
+          "da",
+          "clases"
+        ],
+        "weight": 0.09758328845565865
+      }
+    ],
+    "sentiment": {
+      "overall": 0.25,
+      "by_month": {
+        "2023-01": 0.0,
+        "2022-08": 1.0,
+        "2022-06": 0.0,
+        "2022-05": 0.0,
+        "2021-05": 0.0,
+        "2018-10": 0.0,
+        "2018-09": 0.0,
+        "2018-06": 0.0,
+        "2017-01": 0.0,
+        "2016-05": 0.0,
+        "2016-01": 1.0,
+        "2015-01": 1.0,
+        "2014-12": 0.0,
+        "2014-10": 0.0,
+        "2014-08": 0.0,
+        "2013-11": 1.0,
+        "2013-08": 0.5,
+        "2013-01": 0.0,
+        "2012-08": 0.0,
+        "2012-01": 0.0,
+        "2011-12": 1.0,
+        "2011-11": 0.5,
+        "2011-07": 0.0,
+        "2011-03": 0.0,
+        "2011-02": 0.0,
+        "2011-01": 0.0
+      }
+    },
+    "n_comments": 28
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.042,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 0.98
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        8.0,
+        10.0,
+        6.0,
+        5.0,
+        8.5,
+        9.0,
+        9.5,
+        9.0,
+        10.0,
+        7.5,
+        10.0,
+        10.0,
+        10.0,
+        5.0,
+        10.0,
+        9.0,
+        8.0,
+        9.0,
+        9.0,
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        9.0,
+        10.0,
+        7.0
+      ],
+      "ewma": [
+        8.0,
+        8.6,
+        7.819999999999999,
+        6.973999999999999,
+        7.431799999999999,
+        7.902259999999998,
+        8.381581999999998,
+        8.567107399999998,
+        8.996975179999998,
+        8.547882625999998,
+        8.983517838199997,
+        9.288462486739999,
+        9.501923740717999,
+        8.151346618502599,
+        8.705942632951817,
+        8.794159843066272,
+        8.55591189014639,
+        8.689138323102473,
+        8.78239682617173,
+        9.147677778320212,
+        9.403374444824149,
+        9.582362111376904,
+        9.707653477963833,
+        9.495357434574682,
+        9.646750204202277,
+        8.852725142941594
+      ],
+      "sigma": 1.1651419042508966
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 8.852725142941594,
+      "quality_band": [
+        6.569047010609837,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2023-01-07T00:00:00",
+      "materia": "FLOJA",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 6.5,
+      "recomienda": 1,
+      "comentario": "Es escandalosamente floja, este semestre los inicio 1 semanas de atraso, da clases de 25 minutos ,\n termino el semestre 4 semanas antes de lo programado.\n No entiendo por qué las autoridades no hacen algo con estos maestros flojos y eso que son ejemplo de uno."
+    },
+    {
+      "fecha_iso": "2022-08-18T00:00:00",
+      "materia": "CULTURA EMPRESARIAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Fue una maestra que para lo personal fue excelente, te enseña lo que es la vida laboral realmente, a problemas que te puedes enfrentar , ademas de darte consejos que te ayudaran con tu vida laboral. Si tienes la oportunidad de cargar con ella, es muy buena opcion."
+    },
+    {
+      "fecha_iso": "2022-06-17T00:00:00",
+      "materia": "DESARROLLO SUSTENTABLE",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": "Es buena maestra pero a veces se pasa un poco a la hora de calificar y te deja muchas exposiciones"
+    },
+    {
+      "fecha_iso": "2022-05-23T00:00:00",
+      "materia": "CULTURA EMPRESARIAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Buena profesora para esta materia de relleno"
+    },
+    {
+      "fecha_iso": "2021-05-20T00:00:00",
+      "materia": "CLASES A DISTANCIA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Clases presenciales nunca Da. Llega tarde, sale a prepararse el cafecito, chismea y regresa y habla 10 minutos de su vida exitosa. \nPero en clases a distancias es una chingoneria, se atreve a insinuar que otros maestros no trabajan y ella si. Vieja floja da clases presenciales bien y depues habla."
+    },
+    {
+      "fecha_iso": "2018-10-23T00:00:00",
+      "materia": "---",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2018-09-20T00:00:00",
+      "materia": "---",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2018-06-07T00:00:00",
+      "materia": "CULTURA EMPRESARIAL",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Explica lo que es de la materia, te ayuda para que te des cuenta como es la vida que debes afrontar hablando de manera profesional. Muy amable y sus clases siempre son entretenidas, pone ejemplos y sus exámenes (cuando llegue a hacer) nos fáciles."
+    },
+    {
+      "fecha_iso": "2017-01-11T00:00:00",
+      "materia": "CULTURA EMPRESARIAL",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Buena profesora, te explica los temas con gran animo, te motiva a que emprendas un negocio, muy interesantes sus clases, da consejos que realmente necesitaras y te ayudara para cualquier cosa que ocupes. Solo que no te vea con el celular porque te ira ir a recogerlo a la oficina de ingles."
+    },
+    {
+      "fecha_iso": "2016-05-19T00:00:00",
+      "materia": "---",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 1,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2016-01-14T00:00:00",
+      "materia": "CULTURA EMPRESARIAL.",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Excelente profesora, siempre trata sobre temas interesantes, te motiva a ser emprendedor, explica muy bien, es algo estricta para calificar, sus exámenes son de preguntas abiertas, pero no difíciles, la recomiendo ampliamente."
+    },
+    {
+      "fecha_iso": "2015-01-14T00:00:00",
+      "materia": "CULTURA EMPRESARIAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Muy buena profe., aclara dudas al instante, explica muy bien, es algo estricta pero es muy fácil pasar con ella, sólo se debe hablar claro en sus exposiciones. Rara vez hace examen y es muy comprensiva. Recomendada."
+    },
+    {
+      "fecha_iso": "2014-12-17T00:00:00",
+      "materia": "---",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2014-10-10T00:00:00",
+      "materia": "LAMBISCONERIA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Tiene bien inflada a la barron le es incondicional nonas falta que le bese los pies. mujer sin criterio y mas falsa que le mentira"
+    },
+    {
+      "fecha_iso": "2014-08-06T00:00:00",
+      "materia": "ADMINISTRACIÓN GERENCIAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Me gustaron sus clases! Siempre aprendí de ellas, aparte de que es una muy buena persona \nCarguen con ella!! ^^"
+    },
+    {
+      "fecha_iso": "2013-11-15T00:00:00",
+      "materia": "ADMINISTRACION",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Excelente maestra, califica como se debe..."
+    },
+    {
+      "fecha_iso": "2013-08-21T00:00:00",
+      "materia": "CULT EMP",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 1.5,
+      "recomienda": 0,
+      "comentario": "Bueno Enseña lo que tiene que enseñar, las operaciones por cierto ahora que iniciaron las clases se ve acabada y parece buchoncita operadas"
+    },
+    {
+      "fecha_iso": "2013-08-04T00:00:00",
+      "materia": "CULTURA EMPRESARIAL",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Muy Buena profesora literalmente le gusta su trabajo, honesta en ese sentido, enseña bien, generalmente tienes que exponer y trabajo en equipo."
+    },
+    {
+      "fecha_iso": "2013-01-16T00:00:00",
+      "materia": "DESARROLO SUSTENTABLE",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Buena maestra"
+    },
+    {
+      "fecha_iso": "2012-08-14T00:00:00",
+      "materia": "CULTURA EMPRESARIAL",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Muy BUENA maestra, explica muy BUENA las clases, vale la pena cargar con ella, te enamoraras con sus clases, asi de Hermosa y Buena esta asi explica las clases, RECOMENDABLE"
+    },
+    {
+      "fecha_iso": "2012-01-12T00:00:00",
+      "materia": "CULTURA EMPRESARIAL",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Buena maestra"
+    },
+    {
+      "fecha_iso": "2012-01-04T00:00:00",
+      "materia": "CULTURA EMPRESARIAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2011-12-14T00:00:00",
+      "materia": "CULT. EMPRESARIAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Si tienes la oportunidad de cargarla no la dejes ir, excelente profesora, muy profesional, clases dinamicas, excelente."
+    },
+    {
+      "fecha_iso": "2011-12-12T00:00:00",
+      "materia": "CULTURA EMPRESARIAL",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2011-11-16T00:00:00",
+      "materia": "TALLER DE BD",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Muy buena maestra y se vé que le gusta la enseñanza. Enseña lo necesario, y a veces más ;)mas es mejor claro."
+    },
+    {
+      "fecha_iso": "2011-11-04T00:00:00",
+      "materia": "BASE DE DATOS",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "La profesora mas hermosa del tecnologico de culiacan, solo que faltaba mucho"
+    },
+    {
+      "fecha_iso": "2011-07-22T00:00:00",
+      "materia": "CULTURA EMPRESARIAL.",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 7.5,
+      "recomienda": 0,
+      "comentario": "muy presumida y pero nada es suyo todo postizo."
+    },
+    {
+      "fecha_iso": "2011-03-16T00:00:00",
+      "materia": "---",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 5.0,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2011-02-02T00:00:00",
+      "materia": "CULTURA EMPRESARIAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "casos prácticos, muy dinámica la clase"
+    },
+    {
+      "fecha_iso": "2011-01-30T00:00:00",
+      "materia": "---",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "[Comentario esperando revisión]"
+    }
+  ],
+  "comments_recent": [
+    "Es escandalosamente floja, este semestre los inicio 1 semanas de atraso, da clases de 25 minutos ,\n termino el semestre 4 semanas antes de lo programado.\n No entiendo por qué las autoridades no hacen algo con estos maestros flojos y eso que son ejemplo de uno.",
+    "Fue una maestra que para lo personal fue excelente, te enseña lo que es la vida laboral realmente, a problemas que te puedes enfrentar , ademas de darte consejos que te ayudaran con tu vida laboral. Si tienes la oportunidad de cargar con ella, es muy buena opcion.",
+    "Es buena maestra pero a veces se pasa un poco a la hora de calificar y te deja muchas exposiciones",
+    "Buena profesora para esta materia de relleno",
+    "Clases presenciales nunca Da. Llega tarde, sale a prepararse el cafecito, chismea y regresa y habla 10 minutos de su vida exitosa. \nPero en clases a distancias es una chingoneria, se atreve a insinuar que otros maestros no trabajan y ella si. Vieja floja da clases presenciales bien y depues habla.",
+    "[Comentario esperando revisión]",
+    "[Comentario esperando revisión]",
+    "Explica lo que es de la materia, te ayuda para que te des cuenta como es la vida que debes afrontar hablando de manera profesional. Muy amable y sus clases siempre son entretenidas, pone ejemplos y sus exámenes (cuando llegue a hacer) nos fáciles.",
+    "Buena profesora, te explica los temas con gran animo, te motiva a que emprendas un negocio, muy interesantes sus clases, da consejos que realmente necesitaras y te ayudara para cualquier cosa que ocupes. Solo que no te vea con el celular porque te ira ir a recogerlo a la oficina de ingles.",
+    "[Comentario esperando revisión]"
+  ],
+  "n_reviews": 30
+}

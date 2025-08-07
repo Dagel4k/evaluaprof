@@ -1,0 +1,259 @@
+{
+  "professor_id": "Jesus_Ramon_Villarreal_Salazar",
+  "nombre": "Jesus Ramon Villarreal Salazar",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 4.1496063994370544,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 6.040837947508345,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.222,
+    "wilson_interval": [
+      0.0632237623122272,
+      0.5474166563271946
+    ],
+    "n_recommendations": 9
+  },
+  "subject_normalization": {
+    "z_mean": -0.19,
+    "z_mean_decayed": -0.5,
+    "per_subject": [
+      {
+        "materia": "PRINCIPIOS ELECTRICOS",
+        "z_decayed": 0.22337423731498204,
+        "n": 13
+      },
+      {
+        "materia": "PRINCIPIOS ELÉCTRICOS Y APLICACIONES DIGITALES",
+        "z_decayed": 0.06054346693956091,
+        "n": 3
+      },
+      {
+        "materia": "PRINCIPIOS ELECTRICOS Y APLICACIONES DIGITALES",
+        "z_decayed": -0.40824829046386263,
+        "n": 6
+      },
+      {
+        "materia": "METODOS NUMERICOS",
+        "z_decayed": -0.5003003389810459,
+        "n": 25
+      },
+      {
+        "materia": "TALLER DE INVESTIGACION II",
+        "z_decayed": -1.059400819844585,
+        "n": 5
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "bueno",
+          "casi",
+          "pasar",
+          "si",
+          "es"
+        ],
+        "weight": 0.15188649138579474
+      },
+      {
+        "id": 1,
+        "words": [
+          "entregas",
+          "sabe",
+          "nunca",
+          "pasas",
+          "si entregas"
+        ],
+        "weight": 0.1428901149023195
+      },
+      {
+        "id": 2,
+        "words": [
+          "da",
+          "asistencia",
+          "te da",
+          "deja",
+          "te"
+        ],
+        "weight": 0.2260273253367373
+      },
+      {
+        "id": 3,
+        "words": [
+          "pasar",
+          "examenes",
+          "portafolio",
+          "ir",
+          "falta"
+        ],
+        "weight": 0.1971971333791968
+      }
+    ],
+    "sentiment": {
+      "overall": 0.2222222222222222,
+      "by_month": {
+        "2023-11": 0.0,
+        "2021-06": 0.0,
+        "2020-06": 1.0,
+        "2020-01": 0.0,
+        "2019-08": -0.5,
+        "2019-06": 0.0,
+        "2017-08": 1.0,
+        "2016-01": 1.0
+      }
+    },
+    "n_comments": 9
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        5.0,
+        6.0,
+        5.0,
+        4.5,
+        7.0,
+        7.0,
+        4.0,
+        2.0
+      ],
+      "ewma": [
+        5.0,
+        5.3,
+        5.209999999999999,
+        4.996999999999999,
+        5.597899999999999,
+        6.018529999999999,
+        5.412971,
+        4.389079699999999
+      ],
+      "sigma": 1.262676648316924
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 4.389079699999999,
+      "quality_band": [
+        1.914233469298828,
+        6.8639259307011695
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2023-11-21T00:00:00",
+      "materia": "TALLER DE INVESTIGACION II",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 23.0,
+      "recomienda": 0,
+      "comentario": "Falta sin avisar pero su asistencia es obligatoria, te deja un proyecto desde el dia 1 pero solo te da ese dia para decidir cual es, te deja puras mamadas durante todo el semestre, la neta no sirve para nada solo te frustrara tener que hacer su plan merlin y asistir al InnovaTEC."
+    },
+    {
+      "fecha_iso": "2021-06-11T00:00:00",
+      "materia": "TALLER DE INVESTIGACION 1",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 0,
+      "comentario": "Falta muchísimo y no avisa. No te puedes ir porque cuando menos esperas asiste y toma la asistencia en cuenta. Te da un formato a seguir para un trabajo de investigación y no importa que tan bien o mal lo hagas, al final te califica como quiere. 0% recomendado."
+    },
+    {
+      "fecha_iso": "2020-06-07T00:00:00",
+      "materia": "METODOS NUMERICOS",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Muy facil pasar con él, eso si, casi no se le da enseñar. Es bueno para traer una materia menos."
+    },
+    {
+      "fecha_iso": "2020-01-13T00:00:00",
+      "materia": "PRINCIPIOS ELÉCTRICOS Y APLICACIONES DIGITALES",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Reprueba a partir de la tercera falta, pero el suele faltar bastante. Basta con ir, pasar los exámenes y entregar el portafolio."
+    },
+    {
+      "fecha_iso": "2019-08-08T00:00:00",
+      "materia": "PRINCIPIOS ELÉCTRICOS Y APLICACIONES DIGITALES",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 0,
+      "comentario": "Nunca había visto a un maestro que le importara tan poco su clase, el bato sabe pero no enseña, si le entregas lo que pide pasas"
+    },
+    {
+      "fecha_iso": "2019-08-05T00:00:00",
+      "materia": "PRINCIPIOS ELECTRICOS Y APLICACIONES DIGITALES",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": "Es un pésimo profesor, tiene cero interés por su clase, además de que no explica con claridad. Falta frecuentemente y no da explicación de por que. Califica a su gusto."
+    },
+    {
+      "fecha_iso": "2019-06-04T00:00:00",
+      "materia": "PRINCIPIOS ELECTRICOS",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 23.0,
+      "recomienda": 0,
+      "comentario": "Falta mucho"
+    },
+    {
+      "fecha_iso": "2017-08-02T00:00:00",
+      "materia": "PRINCIPIOS ELÉCTRICOS Y APLICACIONES DIGITALES",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 0,
+      "comentario": "Falta mucho, nunca sabes si te dará clases o no. Algunas cosas no las explica muy bien. lo único bueno es que haces practicas(algunas) pero deja reportes que ni el sabe que quiere en ese reporte. Si le entregas el portafolio y haces todo, pasas. Como casi no viene te la llevaras relax."
+    },
+    {
+      "fecha_iso": "2016-01-14T00:00:00",
+      "materia": "PRINCIPIOS ELECTRICOS",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 5.5,
+      "recomienda": 0,
+      "comentario": "Es un profe muy irresponsable, falta mucho, no explica claro, tienes que preguntarle para que te diga, sus examenes son faciles, si es q le entendistes a sus clases, pero el profe pasa a los alumnos, si es camarada en ese aspecto, pero tienes que hacer las practicas para pasar."
+    }
+  ],
+  "comments_recent": [
+    "Falta sin avisar pero su asistencia es obligatoria, te deja un proyecto desde el dia 1 pero solo te da ese dia para decidir cual es, te deja puras mamadas durante todo el semestre, la neta no sirve para nada solo te frustrara tener que hacer su plan merlin y asistir al InnovaTEC.",
+    "Falta muchísimo y no avisa. No te puedes ir porque cuando menos esperas asiste y toma la asistencia en cuenta. Te da un formato a seguir para un trabajo de investigación y no importa que tan bien o mal lo hagas, al final te califica como quiere. 0% recomendado.",
+    "Muy facil pasar con él, eso si, casi no se le da enseñar. Es bueno para traer una materia menos.",
+    "Reprueba a partir de la tercera falta, pero el suele faltar bastante. Basta con ir, pasar los exámenes y entregar el portafolio.",
+    "Nunca había visto a un maestro que le importara tan poco su clase, el bato sabe pero no enseña, si le entregas lo que pide pasas",
+    "Es un pésimo profesor, tiene cero interés por su clase, además de que no explica con claridad. Falta frecuentemente y no da explicación de por que. Califica a su gusto.",
+    "Falta mucho",
+    "Falta mucho, nunca sabes si te dará clases o no. Algunas cosas no las explica muy bien. lo único bueno es que haces practicas(algunas) pero deja reportes que ni el sabe que quiere en ese reporte. Si le entregas el portafolio y haces todo, pasas. Como casi no viene te la llevaras relax.",
+    "Es un profe muy irresponsable, falta mucho, no explica claro, tienes que preguntarle para que te diga, sus examenes son faciles, si es q le entendistes a sus clases, pero el profe pasa a los alumnos, si es camarada en ese aspecto, pero tienes que hacer las practicas para pasar."
+  ],
+  "n_reviews": 9
+}

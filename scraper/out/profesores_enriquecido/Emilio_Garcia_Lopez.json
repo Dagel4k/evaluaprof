@@ -1,0 +1,115 @@
+{
+  "professor_id": "Emilio_Garcia_Lopez",
+  "nombre": "Emilio Garcia Lopez",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 10.0,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.675070846358351,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 1.0,
+    "wilson_interval": [
+      0.4384939195509822,
+      1
+    ],
+    "n_recommendations": 3
+  },
+  "subject_normalization": {
+    "z_mean": 1.19,
+    "z_mean_decayed": 1.19,
+    "per_subject": [
+      {
+        "materia": "PROCESOS DE FABRICACION",
+        "z_decayed": 1.1946912201998283,
+        "n": 16
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [],
+    "sentiment": {
+      "overall": null,
+      "by_month": {}
+    },
+    "n_comments": 3
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        10.0,
+        10.0,
+        10.0
+      ],
+      "ewma": [
+        10.0,
+        10.0,
+        10.0
+      ],
+      "sigma": 0.0
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 10.0,
+      "quality_band": [
+        10.0,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2019-08-09T00:00:00",
+      "materia": "PROCESOS DE FABRICACION",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Buen profesor, podrían decir barco, pero la neta si enseña y aprendes, examenes un poco extensos pero nada de otro mundo"
+    },
+    {
+      "fecha_iso": "2019-05-26T00:00:00",
+      "materia": "ESTADISTICA Y CONTROL DE CALIADAD",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "La mera verga"
+    },
+    {
+      "fecha_iso": "2019-01-12T00:00:00",
+      "materia": "INGENERIA DE SISTMAS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Excelente profesor, facil para pasar, buena persona."
+    }
+  ],
+  "comments_recent": [
+    "Buen profesor, podrían decir barco, pero la neta si enseña y aprendes, examenes un poco extensos pero nada de otro mundo",
+    "La mera verga",
+    "Excelente profesor, facil para pasar, buena persona."
+  ],
+  "n_reviews": 3
+}

@@ -1,0 +1,168 @@
+{
+  "nombre": "Gabriel Audelo Moreno",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "ciudad": "Ciudad: culiacan, sinaloa",
+  "departamento": "Departamento/Facultad: Ing. materiales",
+  "calidad_general": 8.1,
+  "porcentaje_recomienda": 88,
+  "nivel_dificultad": 2.0,
+  "etiquetas": [
+    "MUCHAS TAREAS (2)",
+    "LAS CLASES SON LARGAS (1)",
+    "DEJA TRABAJOS LARGOS (1)",
+    "CALIFICA DURO (2)",
+    "RESPETADO POR LOS ESTUDIANTES (3)",
+    "MUY CÓMICO (2)",
+    "PREPÁRATE PARA LEER (2)",
+    "ASPECTOS DE CALIFICACIÓN CLAROS (1)",
+    "CLASES EXCELENTES (2)",
+    "TOMARÍA SU CLASE OTRA VEZ (4)"
+  ],
+  "numero_calificaciones": 8,
+  "calificaciones": [
+    {
+      "fecha": "09/Ago/2024",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 8.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Ciencia e Ingeniería de los Materiales",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "8.5",
+      "interes_clase": "",
+      "comentario": "Sabe de la práctica, pero en lo teórico está 2 3. Si enseña, sabe de lo que habla, y te la pasas poca madre, aunque te pone a exponer todos los temas y él corrige cuando fata info, pero nunca expone nada él. Su lógica es que nosotros somos los que debemos estudiar, y él sólo se sienta a calificar.",
+      "etiquetas_comentario": [
+        "Muy cómico",
+        "Da buena retroalimentación",
+        "Asistencia obligatoria"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "10/Jun/2024",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "metrologia",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "8.5",
+      "interes_clase": "",
+      "comentario": "",
+      "etiquetas_comentario": [
+        "Respetado por los estudiantes",
+        "Clases excelentes",
+        "Tomaría su clase otra vez"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "19/Feb/2024",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 7.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Metrologia",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "9",
+      "interes_clase": "",
+      "comentario": "Te la pasas en el taller y dice cada mmada, pero aprendes porque aprendes",
+      "etiquetas_comentario": [
+        "Prepárate para leer",
+        "Muchos proyectos grupales",
+        "Tomaría su clase otra vez"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "18/Ene/2023",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 9.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "metrologia",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "",
+      "etiquetas_comentario": [
+        "Califica Duro",
+        "Hace exámenes sorpresa",
+        "Tomaría su clase otra vez"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "08/Dic/2022",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "metrologia",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "8.5",
+      "interes_clase": "",
+      "comentario": "",
+      "etiquetas_comentario": [
+        "Aspectos de calificación claros",
+        "Clases excelentes",
+        "Tomaría su clase otra vez"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "31/Ene/2022",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "ING de los materiales",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "",
+      "etiquetas_comentario": [
+        "Muy cómico",
+        "Prepárate para leer",
+        "Respetado por los estudiantes"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "29/Dic/2021",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 8.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Ing. Materiales",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "8",
+      "interes_clase": "",
+      "comentario": "",
+      "etiquetas_comentario": [
+        "Califica Duro",
+        "Muchas tareas",
+        "Respetado por los estudiantes"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "03/Jun/2021",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 2.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Ing. materiales",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "25",
+      "interes_clase": "",
+      "comentario": "Es un pendejo y pelado el pinche pelon ese, te agarra de mayate si le gustaste, por mi que chingue a su madre",
+      "etiquetas_comentario": [
+        "Muchas tareas",
+        "Las clases son largas",
+        "Deja trabajos largos"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    }
+  ]
+}

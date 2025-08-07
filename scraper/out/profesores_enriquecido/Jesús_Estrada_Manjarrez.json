@@ -1,0 +1,278 @@
+{
+  "professor_id": "Jesús_Estrada_Manjarrez",
+  "nombre": "Jesús Estrada Manjarrez",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 9.836430632627298,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.853450954666298,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.75,
+    "wilson_interval": [
+      0.4676896608793401,
+      0.9110599603710388
+    ],
+    "n_recommendations": 12
+  },
+  "subject_normalization": {
+    "z_mean": -0.34,
+    "z_mean_decayed": -0.43,
+    "per_subject": [
+      {
+        "materia": "QUIMICA ANALITICA",
+        "z_decayed": -0.14668070323263535,
+        "n": 7
+      },
+      {
+        "materia": "---",
+        "z_decayed": -0.9627852966533862,
+        "n": 521
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "entiendes",
+          "si entiendes",
+          "bien",
+          "buen",
+          "es"
+        ],
+        "weight": 0.16650770482721622
+      },
+      {
+        "id": 1,
+        "words": [
+          "excelente",
+          "profesor",
+          "clases",
+          "si",
+          "te"
+        ],
+        "weight": 0.1252594587202553
+      },
+      {
+        "id": 2,
+        "words": [
+          "si",
+          "clases",
+          "hace",
+          "persona",
+          "mejor"
+        ],
+        "weight": 0.13107823697993992
+      },
+      {
+        "id": 3,
+        "words": [
+          "dinamico",
+          "mas",
+          "hace",
+          "persona",
+          "tiene"
+        ],
+        "weight": 0.16299917049661644
+      }
+    ],
+    "sentiment": {
+      "overall": 0.4444444444444444,
+      "by_month": {
+        "2024-08": 0.0,
+        "2022-02": 0.0,
+        "2021-08": 1.0,
+        "2019-08": 0.0,
+        "2018-08": 1.0,
+        "2013-07": 0.0,
+        "2013-02": 0.0,
+        "2013-01": 1.0,
+        "2012-03": 1.0
+      }
+    },
+    "n_comments": 9
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        9.0,
+        10.0,
+        2.0,
+        6.0,
+        6.0,
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        10.0
+      ],
+      "ewma": [
+        9.0,
+        9.3,
+        7.109999999999999,
+        6.776999999999999,
+        6.543899999999999,
+        7.580729999999999,
+        8.306510999999999,
+        8.814557699999998,
+        9.170190389999998,
+        9.419133272999998,
+        9.593393291099998,
+        9.71537530377
+      ],
+      "sigma": 1.874902279245834
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 9.71537530377,
+      "quality_band": [
+        6.040566836448164,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2024-08-10T00:00:00",
+      "materia": "QUÍMICA ORGÁNICA 1",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": "De los mejores maestros que he tenido, sabe escuchar, no juzga a ningún alumno, da lo mejor de sí por dar una buena clase, de vez en cuando hace juegos con los alumnos, clases didácticas. Muy buena persona en general."
+    },
+    {
+      "fecha_iso": "2022-06-22T00:00:00",
+      "materia": "QUÍMICA ANALÍTICA/QUÍMICA ORGÁNICA/ANÁLISIS INSTRUMENTA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2022-02-02T00:00:00",
+      "materia": "QUIMICA IRGANICA II",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Es machin buen pedo, explica bien y califica justo"
+    },
+    {
+      "fecha_iso": "2021-08-18T00:00:00",
+      "materia": "QUÍMICA ORGÁNICA II",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Excelente profesor, el tiempo en sus clases pasan como si nada porque te ayuda a que te intereses, 10/10"
+    },
+    {
+      "fecha_iso": "2019-08-04T00:00:00",
+      "materia": "ANÁLISIS INSTRUMENTAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "El mejor"
+    },
+    {
+      "fecha_iso": "2018-08-06T00:00:00",
+      "materia": "ANALISIS INSTRUMENTAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Domina muy bien el tema y tiene mucha paciencia para explicar, si no entiendes busca una manera mas sencilla de hacerlo hasta que te quede claro, es serio y buen maestro y como amigo es muy divertido."
+    },
+    {
+      "fecha_iso": "2018-01-14T00:00:00",
+      "materia": "ANÁLISIS INSTRUMENTAL Y QUÍMICA ORGÁNICA 2",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2016-01-15T00:00:00",
+      "materia": "QUÍMICA ORGÁNICA",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 0,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2013-07-25T00:00:00",
+      "materia": "QUIMICA ANALITICA",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "es camarada (y)"
+    },
+    {
+      "fecha_iso": "2013-02-08T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2013-01-15T00:00:00",
+      "materia": "QUÍMICA ANALÍTICA Y ANÁLISIS INSTRUMENTAL.",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "¡Excelente profesor! Creo que no conozco a otra persona que tenga TANTA disposicion para ayudar como él. El hecho de que sea joven, no lo hace para nada inexperto. Tiene un perfecto dominio de las materias que imparte y de muchas más. Lo recomiendo muchísimo. Tiene sus ideas claras y es muy dinámico"
+    },
+    {
+      "fecha_iso": "2012-03-10T00:00:00",
+      "materia": "QUIMICA ANALITICA",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Excelente profesor, muy claro en sus clases, si no entiendes te vuelve a explicar, es joven y muy dinámico. Aparte está muy bien preparado"
+    }
+  ],
+  "comments_recent": [
+    "De los mejores maestros que he tenido, sabe escuchar, no juzga a ningún alumno, da lo mejor de sí por dar una buena clase, de vez en cuando hace juegos con los alumnos, clases didácticas. Muy buena persona en general.",
+    "Es machin buen pedo, explica bien y califica justo",
+    "Excelente profesor, el tiempo en sus clases pasan como si nada porque te ayuda a que te intereses, 10/10",
+    "El mejor",
+    "Domina muy bien el tema y tiene mucha paciencia para explicar, si no entiendes busca una manera mas sencilla de hacerlo hasta que te quede claro, es serio y buen maestro y como amigo es muy divertido.",
+    "es camarada (y)",
+    "[Comentario esperando revisión]"
+  ],
+  "n_reviews": 12
+}

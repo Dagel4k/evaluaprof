@@ -1,0 +1,80 @@
+{
+  "professor_id": "Martha_Montero_Rosales",
+  "nombre": "Martha Montero Rosales",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 8.062734824904691,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.31466008355488,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 1.0,
+    "wilson_interval": [
+      0.3423719528896193,
+      1
+    ],
+    "n_recommendations": 2
+  },
+  "subject_normalization": {
+    "z_mean": null,
+    "z_mean_decayed": null,
+    "per_subject": []
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [],
+    "sentiment": {
+      "overall": null,
+      "by_month": {}
+    },
+    "n_comments": 2
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": null,
+    "difficulty_trend": null,
+    "forecast": null,
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2023-06-30T00:00:00",
+      "materia": "LOGÍSTICA Y CADENA DE SUMINISTROS",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "es buena maestra, se fija mucho que no copees en los exámenes, los exámenes de recuperación son algo difíciles pero si entras todos los dias y no fallas te echa la mano y te toma en consideración, si eres muy flojo y casi no te gusta entrar no cargues con ella."
+    },
+    {
+      "fecha_iso": "2013-08-07T00:00:00",
+      "materia": "METROLOGÌA Y NORMALIZACIÒN",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Es buena maestra, como tiene puesto en la dirección falta muchos días pero si aprendes, no esta amargada como otras, el único pero que le vi es que en los exámenes anda bien pilas para que nadie copie pero pues no están tan difíciles y si de plano truenas en la recuperación le sacas el 100 pelado."
+    }
+  ],
+  "comments_recent": [
+    "es buena maestra, se fija mucho que no copees en los exámenes, los exámenes de recuperación son algo difíciles pero si entras todos los dias y no fallas te echa la mano y te toma en consideración, si eres muy flojo y casi no te gusta entrar no cargues con ella.",
+    "Es buena maestra, como tiene puesto en la dirección falta muchos días pero si aprendes, no esta amargada como otras, el único pero que le vi es que en los exámenes anda bien pilas para que nadie copie pero pues no están tan difíciles y si de plano truenas en la recuperación le sacas el 100 pelado."
+  ],
+  "n_reviews": 2
+}

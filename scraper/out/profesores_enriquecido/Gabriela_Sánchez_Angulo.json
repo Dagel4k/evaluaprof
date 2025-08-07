@@ -1,0 +1,213 @@
+{
+  "professor_id": "Gabriela_Sánchez_Angulo",
+  "nombre": "Gabriela Sánchez Angulo",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 8.685510966670897,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.457407117803445,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.857,
+    "wilson_interval": [
+      0.4868654966809702,
+      0.9743210440510253
+    ],
+    "n_recommendations": 7
+  },
+  "subject_normalization": {
+    "z_mean": -0.22,
+    "z_mean_decayed": 0.18,
+    "per_subject": [
+      {
+        "materia": "INVESTIGACIÓN DE OPERACIONES II",
+        "z_decayed": 0.8534693949234649,
+        "n": 6
+      },
+      {
+        "materia": "INVESTIGACIÓN DE OPERACIONES",
+        "z_decayed": 0.17962103251043368,
+        "n": 15
+      },
+      {
+        "materia": "INVESTIGACIÓN DE OPERACIONES I",
+        "z_decayed": -2.002775851439973,
+        "n": 9
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "es buena",
+          "buena maestra",
+          "maestra",
+          "bien",
+          "siempre"
+        ],
+        "weight": 0.15450384409072995
+      },
+      {
+        "id": 1,
+        "words": [
+          "siempre",
+          "casi",
+          "bien",
+          "explica",
+          "mas"
+        ],
+        "weight": 0.25709280470266216
+      },
+      {
+        "id": 2,
+        "words": [
+          "maestra",
+          "buena maestra",
+          "explica",
+          "es buena",
+          "buena"
+        ],
+        "weight": 0.20040226276554704
+      }
+    ],
+    "sentiment": {
+      "overall": 0.3333333333333333,
+      "by_month": {
+        "2021-10": 0.0,
+        "2020-01": 0.0,
+        "2017-11": 1.0,
+        "2016-08": 1.0,
+        "2014-08": 0.0,
+        "2014-07": 0.0
+      }
+    },
+    "n_comments": 6
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        10.0,
+        3.0,
+        7.0,
+        10.0,
+        10.0,
+        8.0,
+        9.0
+      ],
+      "ewma": [
+        10.0,
+        7.9,
+        7.630000000000001,
+        8.341000000000001,
+        8.8387,
+        8.58709,
+        8.710963
+      ],
+      "sigma": 2.1464562828136833
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 8.710963,
+      "quality_band": [
+        4.503908685685181,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2021-10-25T00:00:00",
+      "materia": "INVESTIGACIÓN DE OPERACIONES",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": "De verdad explica muy bien, su clase es de mis temas favoritos hasta ahora, tal vez por eso pongo más interés, pero en general explica paso a paso y varias veces mediante ejemplos, lo cual me gusta mucho.\nLo único que cambiaría, es que me gustaría que contestara más los mensajes de teams."
+    },
+    {
+      "fecha_iso": "2020-01-13T00:00:00",
+      "materia": "INVESTIGACIÓN DE OPERACIONES",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Tiende a faltar o llegar tarde. \nSu actitud es medio pesada."
+    },
+    {
+      "fecha_iso": "2017-11-10T00:00:00",
+      "materia": "INVESTIGACIÓN DE OPERACIONES II",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Es buena maestra, cuando el grupo es bueno se le mira entusiasmada y siempre llega de buen humor pero cuando son bien platicadores y no hacen nada entonces no les ayuda mucho. Examenes bien sencillos pero largos. Cuenta mucho las tareas y casi siempre saca los ejercicios de ahí para el examen"
+    },
+    {
+      "fecha_iso": "2016-08-08T00:00:00",
+      "materia": "INVESTIGACION DE OPERACIONES I",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Muy buena profesora, explica muy claro, se le da la materia y muestra entusiasmo al explicar, es buena onda, asiste regularmente, pero su forma de calificar es algo estricta, la recomiendo."
+    },
+    {
+      "fecha_iso": "2014-08-05T00:00:00",
+      "materia": "INVESTIGACIÓN DE OPERACIONES I",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "En lo que respecta a mi opinion es buena maestra enseña bien, admiro de ella que siempre trataba de estar alegre y ser amable con los alumnos"
+    },
+    {
+      "fecha_iso": "2014-07-21T00:00:00",
+      "materia": "INVESTIGACION DE OPERACIONES II",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": 7.5,
+      "recomienda": 0,
+      "comentario": "Es bien bipolar, aparte sus clases son muy aburridas de mucho escribir y no te explica casi nada. Nadie saco mas de 90"
+    },
+    {
+      "fecha_iso": "2014-06-18T00:00:00",
+      "materia": "INV. DE OPERACIONES I",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": ""
+    }
+  ],
+  "comments_recent": [
+    "De verdad explica muy bien, su clase es de mis temas favoritos hasta ahora, tal vez por eso pongo más interés, pero en general explica paso a paso y varias veces mediante ejemplos, lo cual me gusta mucho.\nLo único que cambiaría, es que me gustaría que contestara más los mensajes de teams.",
+    "Tiende a faltar o llegar tarde. \nSu actitud es medio pesada.",
+    "Es buena maestra, cuando el grupo es bueno se le mira entusiasmada y siempre llega de buen humor pero cuando son bien platicadores y no hacen nada entonces no les ayuda mucho. Examenes bien sencillos pero largos. Cuenta mucho las tareas y casi siempre saca los ejercicios de ahí para el examen",
+    "Muy buena profesora, explica muy claro, se le da la materia y muestra entusiasmo al explicar, es buena onda, asiste regularmente, pero su forma de calificar es algo estricta, la recomiendo.",
+    "En lo que respecta a mi opinion es buena maestra enseña bien, admiro de ella que siempre trataba de estar alegre y ser amable con los alumnos",
+    "Es bien bipolar, aparte sus clases son muy aburridas de mucho escribir y no te explica casi nada. Nadie saco mas de 90"
+  ],
+  "n_reviews": 7
+}

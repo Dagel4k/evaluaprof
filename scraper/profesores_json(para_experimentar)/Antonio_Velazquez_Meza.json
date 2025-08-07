@@ -1,0 +1,283 @@
+{
+  "nombre": "Antonio Velazquez Meza",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "ciudad": "Ciudad: culiacan, sinaloa",
+  "departamento": "Departamento/Facultad: Ingeniería Industrial",
+  "calidad_general": 5.5,
+  "porcentaje_recomienda": 44,
+  "nivel_dificultad": 4.1,
+  "etiquetas": [
+    "MUY CÓMICO (1)",
+    "LOS EXÁMENES SON DIFÍCILES (2)",
+    "PREPÁRATE PARA LEER (6)",
+    "ASISTENCIA OBLIGATORIA (2)",
+    "TOMARÍA SU CLASE OTRA VEZ (2)",
+    "CALIFICA DURO (1)",
+    "MUCHOS EXÁMENES (2)",
+    "DEJA TRABAJOS LARGOS (2)",
+    "ASPECTOS DE CALIFICACIÓN CLAROS (3)",
+    "BARCO (2)"
+  ],
+  "numero_calificaciones": 16,
+  "calificaciones": [
+    {
+      "fecha": "09/Jun/2025",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 7.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Sistemas de manufactura",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "9.5",
+      "interes_clase": "",
+      "comentario": "Si tienes la oportunidad de pedir examenes de semestres pasados pídelos, si les cambia preguntas pero la estructura principal se mantiene. Solo lee diapositivas pero no las comparte al grupo, toma apuntes o fotos suficientes y con eso estarás bien.",
+      "etiquetas_comentario": [
+        "Barco",
+        "Pocos Exámenes",
+        "Aspectos de calificación claros"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "23/Ene/2025",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 2.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Propiedades de los materiales",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "N/A",
+      "interes_clase": "",
+      "comentario": "Sus clases son exposiciones de los alumnos. Y también varias amigas se han quejado de que hace comentarios desubicados. A mi me ha tocado verlo en clase, y si es bastante repugnante.",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "14/Jul/2024",
+      "tipo_calificacion": "REGULAR",
+      "puntaje_calidad_general": 6.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Propiedades",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "PEDÓFILOOOO ASQUEROSO PITUFO",
+      "etiquetas_comentario": [
+        "Prepárate para leer",
+        "Asistencia obligatoria"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "11/Jun/2024",
+      "tipo_calificacion": "REGULAR",
+      "puntaje_calidad_general": 5.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Propiedad de los Materiales",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "9",
+      "interes_clase": "",
+      "comentario": "No recomiendo que carguen con el, desde el punto de vista academico y personal el profesor es un desastre.\nEspecialmente si son mujeres, va a intentar caerles bien y les hara comentarios super fuera de lugar.\n\nAhorrense la pena de cargar con el",
+      "etiquetas_comentario": [
+        "Prepárate para leer",
+        "Muchos Exámenes",
+        "Deja trabajos largos"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "21/Nov/2023",
+      "tipo_calificacion": "REGULAR",
+      "puntaje_calidad_general": 6.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Ingeniería de Sistemas",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "9.5",
+      "interes_clase": "",
+      "comentario": "Sus trabajos y métodos de evaluación son muy sencillos, sus clases son él leyendo diapositivas muy aburridas así que puedes no ir e igual pasas fácilmente. Si quieres aprender no cargues con él.",
+      "etiquetas_comentario": [
+        "Barco",
+        "Da buena retroalimentación",
+        "Aspectos de calificación claros"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "08/Jul/2023",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Propiedad de los materiales",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "9.5",
+      "interes_clase": "",
+      "comentario": "El mejorrr profe, sólo tienes que cumplir con las tareas, exposiciones y estudiar todas las diapositivas qué expone, tómales foto porque no las pasa. Sí estudias las diapositivas los exámenes serán muy fáciles",
+      "etiquetas_comentario": [
+        "Prepárate para leer",
+        "Aspectos de calificación claros",
+        "Tomaría su clase otra vez"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "04/Jun/2021",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 2.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Propiedades de los materiales",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "Sus exámenes son largos tienes que hacer muchos apuntes y solo da 30 minutos para que hagas un examen de 25 a 30 preguntas. No recomendado.",
+      "etiquetas_comentario": [
+        "Califica Duro",
+        "Muchos Exámenes",
+        "Deja trabajos largos"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "04/Ago/2019",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 8.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Propiedades de los materiales",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "",
+      "etiquetas_comentario": [
+        "Prepárate para leer",
+        "Los exámenes son difíciles",
+        "Tomaría su clase otra vez"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "03/Jul/2019",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 2.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Propiedades de los materiales",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "24",
+      "interes_clase": "",
+      "comentario": "No te enseña nada solo te pide exponer y anotar diapositivas pasa hablando y platicando su vida \nNunca enseña los exámenes de los estudiantes",
+      "etiquetas_comentario": [
+        "Prepárate para leer",
+        "Asistencia obligatoria"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "14/Sep/2017",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 8.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "PROPIEDADES DE LOS MATERIALES",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "9",
+      "interes_clase": "",
+      "comentario": "EXPLICA CLARO Y DIRECTO, HACE PRÁCTICAS EN LABORATORIOS, EXPONES, EXÁMENES CON UN GRADO INTERMEDIO DE FACILIDAD.",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "22/Ago/2017",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 7.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Propiedad de los materiales",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "9",
+      "interes_clase": "",
+      "comentario": "Tiene una personalidad que no a todos les cae. Si haces apuntes en sus clases entonces los exámenes se te harán super fáciles. Toma mucho en cuenta la asistencia y si llegas 15 min tarde ya no entras. Tienes que hacer muchas exposiciones pero no es exigente al calificarlas",
+      "etiquetas_comentario": [
+        "Prepárate para leer"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "07/May/2017",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 3.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Propiedades de los Materiales",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "No lo carguen, es muy rara su forma de ser. Se da mucha confianza cuando no la hay, agarra de bajada a los alumnos y es irrespetuoso.",
+      "etiquetas_comentario": [
+        "Muy cómico",
+        "Los exámenes son difíciles"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "08/Mar/2015",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 3.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "prop de los materiales",
+      "asistencia": "",
+      "calificacion_recibida": "7",
+      "interes_clase": "7",
+      "comentario": "no prepara bien las clases.",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "04/Ago/2013",
+      "tipo_calificacion": "REGULAR",
+      "puntaje_calidad_general": 6.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Propiedad de los materiales",
+      "asistencia": "",
+      "calificacion_recibida": "6",
+      "interes_clase": "6",
+      "comentario": "Las clases son a base de exposiciones hechas por el y por los alumnos, al final te da unas hojas y de ahí hace los exámenes.",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "19/Jun/2013",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 9.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "PROPIEDADES DE LOS MATERIALES",
+      "asistencia": "",
+      "calificacion_recibida": "8.5",
+      "interes_clase": "8.5",
+      "comentario": "BUEN MAESTRO, EXIGE PERO ESTA BIEN.\nCARGA BIEN. EL SISTEMA DE CARGAS QUE IMPLANTO MEJORO MUCHO",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "11/May/2013",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 3.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Sistemas",
+      "asistencia": "",
+      "calificacion_recibida": "4",
+      "interes_clase": "4",
+      "comentario": "En realidad no sirve para nada cargar con esta persona, no explica bien y falla mucho en las clases. Bachoco ponte a trabajar",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    }
+  ]
+}

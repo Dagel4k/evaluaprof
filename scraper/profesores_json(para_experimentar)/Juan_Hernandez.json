@@ -1,0 +1,77 @@
+{
+  "nombre": "Juan Hernandez",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "ciudad": "Ciudad: culiacan, sinaloa",
+  "departamento": "Departamento/Facultad: Sistemas y Computación",
+  "calidad_general": 8.0,
+  "porcentaje_recomienda": 100,
+  "nivel_dificultad": 3.3,
+  "etiquetas": [
+    "MUY CÓMICO (1)",
+    "MUCHOS EXÁMENES (1)",
+    "LOS EXÁMENES SON DIFÍCILES (1)",
+    "RESPETADO POR LOS ESTUDIANTES (1)",
+    "INSPIRACIONAL (1)",
+    "CLASES EXCELENTES (1)",
+    "CALIFICA DURO (1)",
+    "DA BUENA RETROALIMENTACIÓN (1)",
+    "MUCHAS TAREAS (1)"
+  ],
+  "numero_calificaciones": 3,
+  "calificaciones": [
+    {
+      "fecha": "01/Feb/2022",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 8.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "POO",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "9",
+      "interes_clase": "",
+      "comentario": "Al principio puede parecer loquito del centro pero no te asustes, solo trata de mostrate su aficion por linux, caguamea como albañil y picha empanadas de marlin, Juan ????",
+      "etiquetas_comentario": [
+        "Califica Duro",
+        "Da buena retroalimentación",
+        "Muchas tareas"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "01/Feb/2022",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Taller de SO",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "Super interesante sus clases, Linus Torvalds dice que le dió clases cuando apenas era un embrión. Steve Wozniak le pidió clases, él solo le escupió y lo convirtió en un genio con un IQ mayor al promedio. Su mascota es un pingüino",
+      "etiquetas_comentario": [
+        "Respetado por los estudiantes",
+        "Inspiracional",
+        "Clases excelentes"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "01/Feb/2022",
+      "tipo_calificacion": "REGULAR",
+      "puntaje_calidad_general": 6.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "TESEBADA",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "Este pseudoprofesor no es nada más que eso... un pendejazo. Pero muy buenos chistes se avienta el ingeniero.",
+      "etiquetas_comentario": [
+        "Muy cómico",
+        "Muchos Exámenes",
+        "Los exámenes son difíciles"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    }
+  ]
+}

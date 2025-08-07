@@ -1,0 +1,142 @@
+{
+  "professor_id": "Carolina_Tirado",
+  "nombre": "Carolina Tirado",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 7.4337779873062955,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.051728066843904,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.8,
+    "wilson_interval": [
+      0.37552826411853885,
+      0.9637768390302125
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": -0.15,
+    "z_mean_decayed": -0.1,
+    "per_subject": [
+      {
+        "materia": "LOGISTICA",
+        "z_decayed": 0.6603381797442178,
+        "n": 4
+      },
+      {
+        "materia": "---",
+        "z_decayed": -0.9627852966533862,
+        "n": 521
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [],
+    "sentiment": {
+      "overall": null,
+      "by_month": {}
+    },
+    "n_comments": 3
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        2.0,
+        8.0,
+        10.0,
+        8.0,
+        8.0
+      ],
+      "ewma": [
+        2.0,
+        3.8,
+        5.66,
+        6.362,
+        6.853399999999999
+      ],
+      "sigma": 1.9250988629158763
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 6.853399999999999,
+      "quality_band": [
+        3.0802062286848813,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2013-11-14T00:00:00",
+      "materia": "CAD. Y ADMON DE SUMINISTROS",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "LLEVATELA TRANQUILO CON ELLA Y PASARAS FACILMENTE. MUY BUENA PROFESORA"
+    },
+    {
+      "fecha_iso": "2013-08-06T00:00:00",
+      "materia": "LOGISTICA Y CADENAS DE SUMINISTRO",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2012-08-02T00:00:00",
+      "materia": "LOGISTICA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2012-05-18T00:00:00",
+      "materia": "LOGÍSTICA",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Explica con casos reales, y no es sangrona solo con los faltistas es exigente, buena persona."
+    },
+    {
+      "fecha_iso": "2012-03-19T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    }
+  ],
+  "comments_recent": [
+    "LLEVATELA TRANQUILO CON ELLA Y PASARAS FACILMENTE. MUY BUENA PROFESORA",
+    "Explica con casos reales, y no es sangrona solo con los faltistas es exigente, buena persona.",
+    "[Comentario esperando revisión]"
+  ],
+  "n_reviews": 5
+}

@@ -1,0 +1,123 @@
+{
+  "professor_id": "Carlos_Armando_Sandoval_Cisneros",
+  "nombre": "Carlos Armando Sandoval Cisneros",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 8.387750187385912,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.290455461742966,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 1.0,
+    "wilson_interval": [
+      0.4384939195509822,
+      1
+    ],
+    "n_recommendations": 3
+  },
+  "subject_normalization": {
+    "z_mean": 0.49,
+    "z_mean_decayed": 0.51,
+    "per_subject": [
+      {
+        "materia": "SIMULACION",
+        "z_decayed": 1.27888411214482,
+        "n": 23
+      },
+      {
+        "materia": "SISTEMAS OPERATIVOS",
+        "z_decayed": 0.13227906022866026,
+        "n": 25
+      },
+      {
+        "materia": "MATEMÁTICAS DISCRETAS",
+        "z_decayed": 0.07267839691624285,
+        "n": 28
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [],
+    "sentiment": {
+      "overall": null,
+      "by_month": {}
+    },
+    "n_comments": 3
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        7.0,
+        9.0
+      ],
+      "ewma": [
+        7.0,
+        7.6
+      ],
+      "sigma": 0.9899494936611668
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 7.6,
+      "quality_band": [
+        5.659698992424113,
+        9.540301007575886
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2025-06-10T00:00:00",
+      "materia": "MATEMÁTICAS DISCRETAS",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": "cae bien, no deja muchas tareas y los exámenes no son muy complicados, volvería a tomar clase con él."
+    },
+    {
+      "fecha_iso": "2025-06-10T00:00:00",
+      "materia": "SIMULACION",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "muy buen profe, le sabe a todo, es chistoson, te pude que seas puntual pero no lo cuenta, lo digo por experiencia propia, y sus trabajos no estan dificiles, pide hacer equipos, y esta sencillo"
+    },
+    {
+      "fecha_iso": "2025-01-30T00:00:00",
+      "materia": "SISTEMAS OPERATIVOS",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "NOTA: se me asignó este profe en sistemas operativos después de que se jubilara Fidel Disposorio.\nBuena onda el profe y gracioso.\nAunque deje pocas tareas, tienes que ir a sus clases para estar al corriente de los temas para estar preparado en sus examenes, ya que los hace presencial."
+    }
+  ],
+  "comments_recent": [
+    "cae bien, no deja muchas tareas y los exámenes no son muy complicados, volvería a tomar clase con él.",
+    "muy buen profe, le sabe a todo, es chistoson, te pude que seas puntual pero no lo cuenta, lo digo por experiencia propia, y sus trabajos no estan dificiles, pide hacer equipos, y esta sencillo",
+    "NOTA: se me asignó este profe en sistemas operativos después de que se jubilara Fidel Disposorio.\nBuena onda el profe y gracioso.\nAunque deje pocas tareas, tienes que ir a sus clases para estar al corriente de los temas para estar preparado en sus examenes, ya que los hace presencial."
+  ],
+  "n_reviews": 3
+}

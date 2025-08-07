@@ -1,0 +1,293 @@
+{
+  "professor_id": "Jesús_Arturo_Ayala_Ruiz",
+  "nombre": "Jesús Arturo Ayala Ruiz",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 7.696539356153929,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 6.798853381078978,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.636,
+    "wilson_interval": [
+      0.35379677689163724,
+      0.8483377638586862
+    ],
+    "n_recommendations": 11
+  },
+  "subject_normalization": {
+    "z_mean": -0.03,
+    "z_mean_decayed": 0.13,
+    "per_subject": [
+      {
+        "materia": "PROBABILIDAD Y ESTADÍSTICA",
+        "z_decayed": 0.520080889584546,
+        "n": 23
+      },
+      {
+        "materia": "FÍSICA II",
+        "z_decayed": 0.32025630761017415,
+        "n": 3
+      },
+      {
+        "materia": "FISICA",
+        "z_decayed": 0.1742235160539308,
+        "n": 41
+      },
+      {
+        "materia": "PROBABILIDAD Y ESTADISTICA",
+        "z_decayed": 0.12657945770770188,
+        "n": 32
+      },
+      {
+        "materia": "ARQUITECTURA DE COMPUTADORAS",
+        "z_decayed": -0.7302967433402214,
+        "n": 5
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "falta",
+          "tareas",
+          "dificil",
+          "es dificil",
+          "es"
+        ],
+        "weight": 0.10042270992851768
+      },
+      {
+        "id": 1,
+        "words": [
+          "aunque",
+          "ayuda",
+          "final",
+          "aprendes",
+          "si aprendes"
+        ],
+        "weight": 0.119114342498155
+      },
+      {
+        "id": 2,
+        "words": [
+          "ayuda",
+          "va",
+          "maestro",
+          "buen",
+          "buen maestro"
+        ],
+        "weight": 0.14276992875066394
+      },
+      {
+        "id": 3,
+        "words": [
+          "veces",
+          "explica",
+          "profesor",
+          "porque",
+          "examenes"
+        ],
+        "weight": 0.11042673217693585
+      },
+      {
+        "id": 4,
+        "words": [
+          "pasar",
+          "falta",
+          "temas",
+          "si",
+          "te"
+        ],
+        "weight": 0.18823336627235687
+      }
+    ],
+    "sentiment": {
+      "overall": -0.1,
+      "by_month": {
+        "2022-06": 0.0,
+        "2019-01": 0.0,
+        "2016-08": 0.0,
+        "2016-01": -1.0,
+        "2013-06": 0.0,
+        "2013-01": 0.0,
+        "2012-03": 0.0,
+        "2011-04": 0.0,
+        "2011-01": 0.0
+      }
+    },
+    "n_comments": 10
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        5.0,
+        8.0,
+        9.0,
+        6.0,
+        2.0,
+        6.0,
+        7.0,
+        10.0,
+        7.0,
+        8.0
+      ],
+      "ewma": [
+        5.0,
+        5.9,
+        6.83,
+        6.5809999999999995,
+        5.206699999999999,
+        5.444689999999999,
+        5.911282999999999,
+        7.137898099999999,
+        7.09652867,
+        7.367570068999999
+      ],
+      "sigma": 1.7250491170835238
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 7.367570068999999,
+      "quality_band": [
+        3.9864737995162924,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2024-08-13T00:00:00",
+      "materia": "PROBABILIDAD Y ESTADISTICA",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2022-06-17T00:00:00",
+      "materia": "FISICA",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 1,
+      "comentario": "Al principio parece estricto pero al final te puede dar apoyo ya que da la opción de que te ponga 70 en todas las unidades si es que debes alguna unidad te da a elegir entre eso o hacer recuperación a menos que tu promedio te dé menor a 70 pq ahi si debes de presentar recuperación"
+    },
+    {
+      "fecha_iso": "2019-01-12T00:00:00",
+      "materia": "FISICA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 1,
+      "comentario": "Ayuda al final, no faltes y presenta hasta el ultimo examen, si aprendes aunque no pongas atención"
+    },
+    {
+      "fecha_iso": "2016-08-05T00:00:00",
+      "materia": "PROBABILIDAD Y ESTADISTICA",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 5.0,
+      "recomienda": 1,
+      "comentario": "Profesor que casi nunca falta, con el ni se te ocurra falta una clase porque no vuelve a ver los temas, tareas son obligatorias si quieren pasar, suele ver los temas muy rapido, si le dicen que entendieron el tema entonces ENTENDIERON EL TEMA y no lo volvera a tocar. EL JUEGO SE LLAMA SIN LLORAR"
+    },
+    {
+      "fecha_iso": "2016-01-14T00:00:00",
+      "materia": "FISICA",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 7.5,
+      "recomienda": 0,
+      "comentario": "No es dificil pasar con el, sus clases son puras diapositivas, hacer tareas es lo que cuenta, explica mas o menos, sus examenes son fáciles, si es que haces las tareas, es un profesor normal o promedio."
+    },
+    {
+      "fecha_iso": "2013-06-05T00:00:00",
+      "materia": "ARQUITECTURA DE COMPUTADORAS",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 0,
+      "comentario": "Vale verga para explicar! No sabe programar y se cree bine chingon! XD ME LA PELA EN POO!! xD"
+    },
+    {
+      "fecha_iso": "2013-01-09T00:00:00",
+      "materia": "PROBABILIDAD Y ESTADISTICA",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 7.5,
+      "recomienda": 0,
+      "comentario": "Falta seguido y cuando va nos trae en chinga, en un solo dia ve varios temas seguidos por lo que a veces no queda claro, aparte que es muy burlesco y agresivo por lo que es dificil para que te resuelve las dudas, al final si aprendes."
+    },
+    {
+      "fecha_iso": "2012-03-30T00:00:00",
+      "materia": "PROBABILIDAD Y ESTADISTICA",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 1,
+      "comentario": "Le hace falta experiencia, y es algo inmaduro, pero fuera de eso es un buen maestro"
+    },
+    {
+      "fecha_iso": "2011-04-12T00:00:00",
+      "materia": "PROBABILIDAD Y ESTADÍSTICA",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": "Este profesor explica muy bien y la mayoría de las veces deja hacer los exámenes en equipo y están bien peladoz.… awas con estadística porque los puede trozar si no se ponen ál ciien"
+    },
+    {
+      "fecha_iso": "2011-01-07T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 2.0,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2011-01-07T00:00:00",
+      "materia": "FÍSICA II",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Buen maestro, pero se le va el rollo cuando explica algunos temas, aunque te ayuda mucho para que pases la materia."
+    }
+  ],
+  "comments_recent": [
+    "Al principio parece estricto pero al final te puede dar apoyo ya que da la opción de que te ponga 70 en todas las unidades si es que debes alguna unidad te da a elegir entre eso o hacer recuperación a menos que tu promedio te dé menor a 70 pq ahi si debes de presentar recuperación",
+    "Ayuda al final, no faltes y presenta hasta el ultimo examen, si aprendes aunque no pongas atención",
+    "Profesor que casi nunca falta, con el ni se te ocurra falta una clase porque no vuelve a ver los temas, tareas son obligatorias si quieren pasar, suele ver los temas muy rapido, si le dicen que entendieron el tema entonces ENTENDIERON EL TEMA y no lo volvera a tocar. EL JUEGO SE LLAMA SIN LLORAR",
+    "No es dificil pasar con el, sus clases son puras diapositivas, hacer tareas es lo que cuenta, explica mas o menos, sus examenes son fáciles, si es que haces las tareas, es un profesor normal o promedio.",
+    "Vale verga para explicar! No sabe programar y se cree bine chingon! XD ME LA PELA EN POO!! xD",
+    "Falta seguido y cuando va nos trae en chinga, en un solo dia ve varios temas seguidos por lo que a veces no queda claro, aparte que es muy burlesco y agresivo por lo que es dificil para que te resuelve las dudas, al final si aprendes.",
+    "Le hace falta experiencia, y es algo inmaduro, pero fuera de eso es un buen maestro",
+    "Este profesor explica muy bien y la mayoría de las veces deja hacer los exámenes en equipo y están bien peladoz.… awas con estadística porque los puede trozar si no se ponen ál ciien",
+    "[Comentario esperando revisión]"
+  ],
+  "n_reviews": 11
+}

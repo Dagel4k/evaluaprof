@@ -1,0 +1,783 @@
+{
+  "professor_id": "Rocio_Sainz_Gomez",
+  "nombre": "Rocio Sainz Gomez",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 7.455819793697908,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.350398784656285,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.655,
+    "wilson_interval": [
+      0.5225365801066264,
+      0.7663746663584595
+    ],
+    "n_recommendations": 55
+  },
+  "subject_normalization": {
+    "z_mean": 0.14,
+    "z_mean_decayed": -0.05,
+    "per_subject": [
+      {
+        "materia": "FÍSICA II",
+        "z_decayed": 0.8006407690254355,
+        "n": 3
+      },
+      {
+        "materia": "---",
+        "z_decayed": 0.15463146532122451,
+        "n": 521
+      },
+      {
+        "materia": "FÍSICA",
+        "z_decayed": -0.057602564956742874,
+        "n": 27
+      },
+      {
+        "materia": "FISICA",
+        "z_decayed": -0.08836057922893806,
+        "n": 41
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "comentario esperando",
+          "esperando",
+          "revision",
+          "comentario",
+          "esperando revision"
+        ],
+        "weight": 0.13070360336136194
+      },
+      {
+        "id": 1,
+        "words": [
+          "maestra",
+          "clases",
+          "bien",
+          "buena",
+          "es"
+        ],
+        "weight": 0.09065995196537312
+      },
+      {
+        "id": 2,
+        "words": [
+          "nivel",
+          "buena",
+          "maestra",
+          "excelente maestra",
+          "excelente"
+        ],
+        "weight": 0.10014300830118805
+      },
+      {
+        "id": 3,
+        "words": [
+          "si te",
+          "bien",
+          "mal",
+          "si",
+          "te"
+        ],
+        "weight": 0.10085717527943076
+      },
+      {
+        "id": 4,
+        "words": [
+          "eres",
+          "si eres",
+          "domina",
+          "domina materia",
+          "materia"
+        ],
+        "weight": 0.06893493811047563
+      }
+    ],
+    "sentiment": {
+      "overall": 0.29411764705882354,
+      "by_month": {
+        "2025-01": 0.0,
+        "2024-06": 0.0,
+        "2024-03": 0.0,
+        "2023-06": 0.0,
+        "2023-01": 0.0,
+        "2022-01": 0.0,
+        "2021-02": 0.0,
+        "2021-01": 0.0,
+        "2020-08": 0.0,
+        "2020-06": 0.0,
+        "2019-11": 0.0,
+        "2019-09": 0.0,
+        "2018-10": 1.0,
+        "2018-08": 0.0,
+        "2018-06": 0.0,
+        "2017-12": 0.0,
+        "2017-08": 0.0,
+        "2017-01": 1.0,
+        "2016-08": 0.0,
+        "2015-09": 0.0,
+        "2015-06": 0.0,
+        "2015-03": 0.0,
+        "2014-08": 0.0,
+        "2014-06": 0.0,
+        "2014-05": 0.0,
+        "2014-04": 0.0,
+        "2014-03": 0.0,
+        "2014-01": 0.0,
+        "2013-12": 0.6666666666666666,
+        "2013-11": 1.0,
+        "2013-08": 1.0,
+        "2013-07": 0.5,
+        "2013-06": 0.3333333333333333,
+        "2013-03": 0.0,
+        "2013-01": 0.5,
+        "2012-12": 1.0,
+        "2012-08": 1.0,
+        "2011-11": 1.0,
+        "2011-10": 1.0,
+        "2011-05": 0.0,
+        "2011-01": 1.0
+      }
+    },
+    "n_comments": 51
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.063,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 0.97
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        10.0,
+        2.6666666666666665,
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        9.0,
+        2.0,
+        8.666666666666666,
+        10.0,
+        10.0,
+        8.0,
+        8.666666666666666,
+        8.0,
+        2.0,
+        8.0,
+        6.0,
+        10.0,
+        3.0,
+        3.0,
+        6.0,
+        6.5,
+        2.0,
+        5.0,
+        10.0,
+        10.0,
+        6.0,
+        10.0,
+        8.0,
+        7.0,
+        9.0,
+        5.0,
+        8.0,
+        8.0,
+        10.0,
+        9.0,
+        6.0,
+        6.0,
+        9.0,
+        5.0,
+        2.0,
+        10.0,
+        10.0
+      ],
+      "ewma": [
+        10.0,
+        7.8,
+        8.46,
+        8.922,
+        9.2454,
+        9.471779999999999,
+        9.330245999999999,
+        7.131172199999998,
+        7.591820539999998,
+        8.314274377999999,
+        8.819992064599997,
+        8.573994445219999,
+        8.601796111653998,
+        8.421257278157798,
+        6.4948800947104575,
+        6.946416066297321,
+        6.662491246408124,
+        7.663743872485687,
+        6.26462071073998,
+        5.285234497517985,
+        5.499664148262589,
+        5.799764903783812,
+        4.659835432648668,
+        4.761884802854068,
+        6.333319361997847,
+        7.433323553398493,
+        7.003326487378945,
+        7.902328541165261,
+        7.931629978815682,
+        7.652140985170977,
+        8.056498689619684,
+        7.139549082733778,
+        7.3976843579136435,
+        7.578379050539549,
+        8.304865335377684,
+        8.513405734764378,
+        7.759384014335064,
+        7.231568810034544,
+        7.762098167024179,
+        6.933468716916925,
+        5.453428101841847,
+        6.817399671289293,
+        7.772179769902505
+      ],
+      "sigma": 2.1004280829012165
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 7.772179769902505,
+      "quality_band": [
+        3.655340727416121,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2025-01-24T00:00:00",
+      "materia": "FÍSICA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Es una maestra estricta pero muy buena en su trabajo, sabe mucho y lo explica muy bien. Es una maestra para alumnos dedicados e interesados, si le echas ganas y te gusta aprender es muy buena opción. Todo lo q se ve en clase es exactamente igual a lo que viene el examen pero si hay que estudiar."
+    },
+    {
+      "fecha_iso": "2024-06-04T00:00:00",
+      "materia": "FÍSICA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "De las mejores maestras que he tenido, enseña muy bien, debes de poner atención para no perderte, los exámenes son muy fáciles."
+    },
+    {
+      "fecha_iso": "2024-03-27T00:00:00",
+      "materia": "FÍSICA",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 24.0,
+      "recomienda": 0,
+      "comentario": "Pésima maestra, muy prepotente, es favoritista , te trata mal, no inspira confianza porque si le preguntas una duda te regaña y te hace sentir miserable con su actitud arrogante,  de lo peor del tec"
+    },
+    {
+      "fecha_iso": "2023-06-07T00:00:00",
+      "materia": "FÍSICA",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 0,
+      "comentario": "Es la persona menos accesible que he conocido en toda mi vida, a fin de cuentas puede que te ayude en algo, sin embargo toda la terapia psicológica que te mete y lo miserable que te hace sentir con su actitud y respuestas nadie te lo quita... Entiende muy bien sus temas y los logra explicar muy bien"
+    },
+    {
+      "fecha_iso": "2023-01-15T00:00:00",
+      "materia": "FÍSICA",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Es MUY buena profesora; los temas los sabe explicar de forma que la clase no se torna muy pesada y se nota que sabe lo que está haciendo. Los exámenes son cortos pero matadores; pocas preguntas, si algo te salió mal en una toda la pregunta está mal. Asistencia obligatoria, ella nunca falta."
+    },
+    {
+      "fecha_iso": "2022-01-04T00:00:00",
+      "materia": "FISICA",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Es muy buena maestra, sin embargo no regala calificación, debes participar mucho y esforzarte para que te vaya bien en la materia, es estricta pero muy clara para explicar"
+    },
+    {
+      "fecha_iso": "2021-02-26T00:00:00",
+      "materia": "FISICA",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 21.0,
+      "recomienda": 0,
+      "comentario": "Es una maestra buena impartiendo su materia, se basa en libros solamente y abarca muchos temas que desde el primero hasta el ultimo están relacionados.\nTiene sus alumnos favoritos y si no eres de ellos, cuidado. Si eres una persona sensible no cargues con ella, si eres RC o especial, ni lo pienses."
+    },
+    {
+      "fecha_iso": "2021-01-20T00:00:00",
+      "materia": "FÍSICA",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Muy buena maestra, me gusta mucho como explica, eso si debes tomar muy bien nota y hacer bien los dibujos para que no te enredes, los exámenes son de dos problemas de lo que viste en clase, deja poca tarea y si participas te puede ayudar al final\nLa asistencia la toma cuando menos lo esperas"
+    },
+    {
+      "fecha_iso": "2020-08-07T00:00:00",
+      "materia": "FÍSICA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Es dura para calificar, no te regala nada! Explica muy bien y sabe mucho."
+    },
+    {
+      "fecha_iso": "2020-06-14T00:00:00",
+      "materia": "FÍSICA",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 6.0,
+      "recomienda": 1,
+      "comentario": "Si no quieren batallar sáquenle la vuelta, es prepote y favoritista, eso si sabe demasiado de la materia y se basa en puros libros de estática y dinámica, si eres industrial y no quieres sufrir con una materia “relleno” mejor otro profesor."
+    },
+    {
+      "fecha_iso": "2019-11-16T00:00:00",
+      "materia": "FÍSICA",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "La neta esta profe es el mero aparato reproductor masculino.  Es una crack, creck, crick, crock, cruckkkkkk. Recomiendo masiso, al 100. saludos"
+    },
+    {
+      "fecha_iso": "2019-09-19T00:00:00",
+      "materia": "FISICA",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 0,
+      "comentario": "Prepotente, cree que todos se van a rendir a sus pies. Te trata mal, si te ve de bajos recursos te quiere humillar. Sus favoritos son los fresas y gente que aparenta tener dinero. No la recomiendo simplemente por eso l ser humano que es :("
+    },
+    {
+      "fecha_iso": "2018-10-03T00:00:00",
+      "materia": "FÍSICA",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Excelente Profesora ????????? explica muy bien y te apoya mucho con asesorías. A los flojos que no asisten si los reprueba. Muy estricta en los exámenes, pero nada fuera de lo que nos enseña."
+    },
+    {
+      "fecha_iso": "2018-08-06T00:00:00",
+      "materia": "FISICA",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 1,
+      "comentario": "Es algo estricta y si deja bastante tarea. Pone 2 ejercicios en los exámenes y si te sale uno mal ya reprobaste el examen. Es muy habladora  y siempre dice que te va reprobar pero al final te promedia si le caes bien y ve que te esfuerzas. También es muy sarcastica"
+    },
+    {
+      "fecha_iso": "2018-06-05T00:00:00",
+      "materia": "FÍSICA",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "La profe sabe enseñar sin embargo califica muy mal, demasiado favoritista. En mi grupo reprobaron algunos 3 unidades y les puso arriba de 90 y otros que les pasaron todas con 90-95 les puso más baja calificación. Muy mal la verdad si pueden sáquenle y háganla en verano porque no vale la pena sufrir"
+    },
+    {
+      "fecha_iso": "2018-01-13T00:00:00",
+      "materia": "FÍSICA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2018-01-13T00:00:00",
+      "materia": "FISICA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2017-12-01T00:00:00",
+      "materia": "FÍSICA",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 6.5,
+      "recomienda": 0,
+      "comentario": "Explica súper bieeeeeen, pero oooooooooooodia las visitas industriales siendo que es maestra de industrial,Califica bien feo la verdad, es muy favoritista, si no le caíste bien ya bailaste. Pase 5 exámenes de 6."
+    },
+    {
+      "fecha_iso": "2017-08-30T00:00:00",
+      "materia": "FISICA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Sus clases son excelentes, no puedes perderte ni una sola. Jamás falta a clases y es muy buena persona. Al principio es muy reservada y apenas habla con los alumnos. La elegiría mil veces, aprendí lo que no habia aprendido con otros maestros y más. Es de los mejores elementos del tecnológico."
+    },
+    {
+      "fecha_iso": "2017-01-11T00:00:00",
+      "materia": "FISICA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Honestamente para mi, la profesora Rocio es sin duda la mejor profesora de física del tecnológico, explica perfecto, es muy divertida, exámenes fáciles si estudias , hace exámenes diferentes y siempre pone un ejemplo de los que ve en clase, tienes que cargar con ella. Recomendada 100%"
+    },
+    {
+      "fecha_iso": "2016-08-05T00:00:00",
+      "materia": "FISICA",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Esta profesora enseña bien pero los examenes son muy dificiles curse dos veces fisica con ella y las dos veces me reprobo y digo me reprobo por que pase 5 de 6 examenes y hubo gente que no le paso ninguno y las paso, es algo favoritista a la hora de calificar no la recomiendo"
+    },
+    {
+      "fecha_iso": "2015-11-29T00:00:00",
+      "materia": "FISICA",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2015-09-30T00:00:00",
+      "materia": "---",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2015-09-27T00:00:00",
+      "materia": "FISICA",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "La verdad es una buena maestra y es facil pasar con ella siempre y cuando le pongas empeño en estudiar y practicar. Ya que nunca falta y si enseña bien. Y los que no pasan sus examenes que son de 2 problemas es casi siempre porque no practicaron antes, pero si practicas antes, es facil sacar 100."
+    },
+    {
+      "fecha_iso": "2015-06-29T00:00:00",
+      "materia": "---",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2015-03-08T00:00:00",
+      "materia": "---",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2014-08-20T00:00:00",
+      "materia": "---",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2014-06-21T00:00:00",
+      "materia": "---",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2014-05-24T00:00:00",
+      "materia": "FISICA",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 0,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2014-05-17T00:00:00",
+      "materia": "---",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2014-04-05T00:00:00",
+      "materia": "---",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2014-03-24T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 5.5,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2014-01-10T00:00:00",
+      "materia": "---",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2013-12-18T00:00:00",
+      "materia": "FISICA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 1,
+      "comentario": "excelente maestra"
+    },
+    {
+      "fecha_iso": "2013-12-12T00:00:00",
+      "materia": "FISICA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": "Excelente maestra, me gradué hace dos años y puedo decir que fue mi materia favorita, es exigente, pero sabe dar muy bien las clases y explicar! La recomiendo!"
+    },
+    {
+      "fecha_iso": "2013-12-05T00:00:00",
+      "materia": "---",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2013-11-29T00:00:00",
+      "materia": "FISICA",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Es una excelente profesora,domina muy bien su materia y tiene un excelente sentido del humor aveces parece estricta pero es muy buena persona y muy buena profesora,hace los examenes regulares, las recuperaciones mas dificiles que el primera, lo mejor es pasar con ella ala primera."
+    },
+    {
+      "fecha_iso": "2013-08-04T00:00:00",
+      "materia": "FISICA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Es una excelente maestra, sabe lo que hace y como lo hace, sus clases son entretenidas; pude que no saques muy buena calificacion con ella pero disfrutas su clase."
+    },
+    {
+      "fecha_iso": "2013-07-19T00:00:00",
+      "materia": "FISICA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Exelente maestra, sabe mucho y explica muy claro. Se las recomiendo con ella aprendí lo que no me enseñaron otros maestros. Domina bien los temas y es clara en la resolución de los Problemas. Eso si es muy extricta y responsable, nunca falta a clases."
+    },
+    {
+      "fecha_iso": "2013-07-18T00:00:00",
+      "materia": "---",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2013-06-11T00:00:00",
+      "materia": "FÍSICA",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Da la física básica y elemental. Tiene un humor ácido que no a todos les agrada. Ofrece disposición a asesorías. Los exámenes son de nivel normal."
+    },
+    {
+      "fecha_iso": "2013-06-10T00:00:00",
+      "materia": "FÍSICA",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Es una buena maestra, explica algo rápido, es justa en lo que hace, domina su materia y tiene un humor algo cínico que se vuelve divertido. Muy buena maestra (:"
+    },
+    {
+      "fecha_iso": "2013-06-08T00:00:00",
+      "materia": "FÍSICA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Una excelente maestra, explica un poco rápido pero muy bien, fue un placer cargar con ella, mucha enseñanza y un excelente sentido del humor en sus clases jajajaja."
+    },
+    {
+      "fecha_iso": "2013-03-15T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2013-01-24T00:00:00",
+      "materia": "FISICA",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": "SUPER BUENA DE TODO A TODO"
+    },
+    {
+      "fecha_iso": "2013-01-15T00:00:00",
+      "materia": "FÍSICA I",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "¡Me encanta esta maestra!\nEs muy inteligente y sabe como resolver todos los problemas propuestos y todas las dudas planteadas en clase, es muy paciente con ellas. Domina la materia. Su carácter y personalidad hace muy amenas las clases.\nEs estricta, pero la finalidad es aprender, ¿No?"
+    },
+    {
+      "fecha_iso": "2012-12-18T00:00:00",
+      "materia": "FÍSICA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Excelente Maestra, ojalá así fueran todos los Maestros de Tecnologico, saldríamos con un alto nivel."
+    },
+    {
+      "fecha_iso": "2012-08-08T00:00:00",
+      "materia": "FISICA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Excelente profesora te explica con mucha claridad y te apoya con asesorias. Y claro aprendes."
+    },
+    {
+      "fecha_iso": "2011-11-10T00:00:00",
+      "materia": "FISICA I",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Excelente Mestra, muy, muy buena"
+    },
+    {
+      "fecha_iso": "2011-10-27T00:00:00",
+      "materia": "FÍSICA II",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Excelente Maestra"
+    },
+    {
+      "fecha_iso": "2011-05-10T00:00:00",
+      "materia": "FISICA",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": "no dominala materia"
+    },
+    {
+      "fecha_iso": "2011-05-06T00:00:00",
+      "materia": "FISICA",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": "no domina la materia"
+    },
+    {
+      "fecha_iso": "2011-05-06T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2011-01-31T00:00:00",
+      "materia": "FÍSICA I",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Excelente Teacher"
+    },
+    {
+      "fecha_iso": "2011-01-20T00:00:00",
+      "materia": "FÍSICA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Excelente."
+    }
+  ],
+  "comments_recent": [
+    "Es una maestra estricta pero muy buena en su trabajo, sabe mucho y lo explica muy bien. Es una maestra para alumnos dedicados e interesados, si le echas ganas y te gusta aprender es muy buena opción. Todo lo q se ve en clase es exactamente igual a lo que viene el examen pero si hay que estudiar.",
+    "De las mejores maestras que he tenido, enseña muy bien, debes de poner atención para no perderte, los exámenes son muy fáciles.",
+    "Pésima maestra, muy prepotente, es favoritista , te trata mal, no inspira confianza porque si le preguntas una duda te regaña y te hace sentir miserable con su actitud arrogante,  de lo peor del tec",
+    "Es la persona menos accesible que he conocido en toda mi vida, a fin de cuentas puede que te ayude en algo, sin embargo toda la terapia psicológica que te mete y lo miserable que te hace sentir con su actitud y respuestas nadie te lo quita... Entiende muy bien sus temas y los logra explicar muy bien",
+    "Es MUY buena profesora; los temas los sabe explicar de forma que la clase no se torna muy pesada y se nota que sabe lo que está haciendo. Los exámenes son cortos pero matadores; pocas preguntas, si algo te salió mal en una toda la pregunta está mal. Asistencia obligatoria, ella nunca falta.",
+    "Es muy buena maestra, sin embargo no regala calificación, debes participar mucho y esforzarte para que te vaya bien en la materia, es estricta pero muy clara para explicar",
+    "Es una maestra buena impartiendo su materia, se basa en libros solamente y abarca muchos temas que desde el primero hasta el ultimo están relacionados.\nTiene sus alumnos favoritos y si no eres de ellos, cuidado. Si eres una persona sensible no cargues con ella, si eres RC o especial, ni lo pienses.",
+    "Muy buena maestra, me gusta mucho como explica, eso si debes tomar muy bien nota y hacer bien los dibujos para que no te enredes, los exámenes son de dos problemas de lo que viste en clase, deja poca tarea y si participas te puede ayudar al final\nLa asistencia la toma cuando menos lo esperas",
+    "Es dura para calificar, no te regala nada! Explica muy bien y sabe mucho.",
+    "Si no quieren batallar sáquenle la vuelta, es prepote y favoritista, eso si sabe demasiado de la materia y se basa en puros libros de estática y dinámica, si eres industrial y no quieres sufrir con una materia “relleno” mejor otro profesor."
+  ],
+  "n_reviews": 55
+}

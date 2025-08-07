@@ -1,0 +1,160 @@
+{
+  "professor_id": "Alma_lorena_Ibarra_lopez",
+  "nombre": "Alma lorena Ibarra lopez",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 8.92668302848426,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.126851500189898,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.5,
+    "wilson_interval": [
+      0.15003570882017145,
+      0.8499642911798285
+    ],
+    "n_recommendations": 4
+  },
+  "subject_normalization": {
+    "z_mean": 0.61,
+    "z_mean_decayed": 0.98,
+    "per_subject": [
+      {
+        "materia": "FUNDAMENTOS DE INVESTIGACIÓN",
+        "z_decayed": 1.065668838709187,
+        "n": 29
+      },
+      {
+        "materia": "INVESTIGACION",
+        "z_decayed": 0.1587768372074889,
+        "n": 7
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "buena profesora",
+          "profesora",
+          "si",
+          "es",
+          "es buena"
+        ],
+        "weight": 0.3361428743297714
+      },
+      {
+        "id": 1,
+        "words": [
+          "si",
+          "buena profesora",
+          "profesora",
+          "quieres",
+          "si quieres"
+        ],
+        "weight": 0.22895355957144253
+      }
+    ],
+    "sentiment": {
+      "overall": -0.25,
+      "by_month": {
+        "2022-06": 0.0,
+        "2018-01": -1.0,
+        "2017-02": 0.0,
+        "2015-10": 0.0
+      }
+    },
+    "n_comments": 4
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        6.0,
+        8.0,
+        6.0,
+        10.0
+      ],
+      "ewma": [
+        6.0,
+        6.6,
+        6.419999999999999,
+        7.493999999999999
+      ],
+      "sigma": 1.3389531980867244
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 7.493999999999999,
+      "quality_band": [
+        4.869651731750019,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2022-06-10T00:00:00",
+      "materia": "FUNDAMENTOS DE INVESTIGACIÓN",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Muy buena maestra, algo ruda pero muy buena persona y siempre esta dispuesta a resolver tus dudas."
+    },
+    {
+      "fecha_iso": "2018-01-17T00:00:00",
+      "materia": "FUND. INVESTIGACIÓN",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 0,
+      "comentario": "Buena profesora si quieres mejorar tu promedio y llevártela mas o menos tranquilo. Aunque no domina muy bien su tema, sera muy difícil que repruebes."
+    },
+    {
+      "fecha_iso": "2017-02-02T00:00:00",
+      "materia": "FUND. INVESTIGACIÓN",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Solo va a clase y te explica un poco, es muy buena.. si quieres pasar sin batallar, escógela"
+    },
+    {
+      "fecha_iso": "2015-10-12T00:00:00",
+      "materia": "INVESTIGACION",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 0,
+      "comentario": "esta es una buena profesora, los proyectos son muy explicitos y las exposiciones muy adecuadas, siento que pasarias con 85 todo el semestre si la eliges"
+    }
+  ],
+  "comments_recent": [
+    "Muy buena maestra, algo ruda pero muy buena persona y siempre esta dispuesta a resolver tus dudas.",
+    "Buena profesora si quieres mejorar tu promedio y llevártela mas o menos tranquilo. Aunque no domina muy bien su tema, sera muy difícil que repruebes.",
+    "Solo va a clase y te explica un poco, es muy buena.. si quieres pasar sin batallar, escógela",
+    "esta es una buena profesora, los proyectos son muy explicitos y las exposiciones muy adecuadas, siento que pasarias con 85 todo el semestre si la eliges"
+  ],
+  "n_reviews": 4
+}

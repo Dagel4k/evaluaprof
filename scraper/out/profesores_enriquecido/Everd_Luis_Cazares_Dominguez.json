@@ -1,0 +1,809 @@
+{
+  "professor_id": "Everd_Luis_Cazares_Dominguez",
+  "nombre": "Everd Luis Cazares Dominguez",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 4.619602591484366,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 4.518491608734182,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.271,
+    "wilson_interval": [
+      0.17436824992508337,
+      0.39598005438289097
+    ],
+    "n_recommendations": 59
+  },
+  "subject_normalization": {
+    "z_mean": -0.14,
+    "z_mean_decayed": -0.06,
+    "per_subject": [
+      {
+        "materia": "FORMULACION Y EVALUACION DE PROYECTOS",
+        "z_decayed": 0.44388337973601627,
+        "n": 4
+      },
+      {
+        "materia": "FORMULACIÓN Y EVALUACIÓN DE PROYECTOS",
+        "z_decayed": 0.21775831739672155,
+        "n": 9
+      },
+      {
+        "materia": "INGENIERÍA ECONÓMICA",
+        "z_decayed": -0.04012023740761327,
+        "n": 6
+      },
+      {
+        "materia": "COORDINADOR",
+        "z_decayed": -0.04793568845772667,
+        "n": 28
+      },
+      {
+        "materia": "VIBRACIONES MECANICAS",
+        "z_decayed": -0.1870625739203569,
+        "n": 8
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "sabe",
+          "ser",
+          "materia",
+          "si",
+          "es"
+        ],
+        "weight": 0.10203772375039537
+      },
+      {
+        "id": 1,
+        "words": [
+          "pura vrg",
+          "vrg",
+          "pa",
+          "pa pura",
+          "pura"
+        ],
+        "weight": 0.06337510027306523
+      },
+      {
+        "id": 2,
+        "words": [
+          "extrana",
+          "nadie quiera",
+          "papeles",
+          "nomas",
+          "casi"
+        ],
+        "weight": 0.06228773560070867
+      },
+      {
+        "id": 3,
+        "words": [
+          "pura verga",
+          "vale",
+          "vale verga",
+          "verga",
+          "pendejo"
+        ],
+        "weight": 0.04797506765954401
+      },
+      {
+        "id": 4,
+        "words": [
+          "menos",
+          "tipo",
+          "dios",
+          "te",
+          "mas"
+        ],
+        "weight": 0.09029948238538017
+      }
+    ],
+    "sentiment": {
+      "overall": 0.0,
+      "by_month": {
+        "2025-05": 0.0,
+        "2025-01": 0.0,
+        "2024-08": 1.0,
+        "2024-06": 1.0,
+        "2024-03": 0.0,
+        "2023-11": 1.0,
+        "2023-07": 0.0,
+        "2022-08": 0.0,
+        "2022-06": 0.0,
+        "2022-01": 0.0,
+        "2021-09": 0.0,
+        "2021-08": 0.0,
+        "2021-07": 0.0,
+        "2021-05": 0.0,
+        "2021-03": -0.5,
+        "2021-01": 0.0,
+        "2020-12": 0.0,
+        "2020-11": 0.0,
+        "2020-10": 0.0,
+        "2020-09": 0.0,
+        "2020-07": 0.0,
+        "2020-05": 1.0,
+        "2020-02": 0.0,
+        "2020-01": 1.0,
+        "2019-12": 0.0,
+        "2019-08": 0.0,
+        "2019-06": -1.0,
+        "2019-02": -0.5,
+        "2018-09": 0.0,
+        "2018-08": 0.0,
+        "2017-08": 0.0,
+        "2017-06": 0.0,
+        "2017-05": -0.5,
+        "2016-12": 0.0,
+        "2016-08": 0.0,
+        "2016-01": 0.0
+      }
+    },
+    "n_comments": 57
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        3.0,
+        5.0,
+        3.0,
+        5.0,
+        8.0,
+        9.0,
+        5.5,
+        2.0,
+        2.0,
+        4.5,
+        8.0,
+        8.0,
+        8.0,
+        10.0,
+        10.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.375,
+        3.0,
+        3.6666666666666665,
+        5.0,
+        2.0,
+        2.0,
+        2.0,
+        5.0,
+        2.0,
+        4.0,
+        2.0,
+        2.0,
+        8.0,
+        10.0,
+        8.0,
+        9.0,
+        6.0,
+        7.0
+      ],
+      "ewma": [
+        3.0,
+        3.5999999999999996,
+        3.4199999999999995,
+        3.8939999999999997,
+        5.1258,
+        6.28806,
+        6.051641999999999,
+        4.836149399999999,
+        3.9853045799999993,
+        4.139713205999999,
+        5.297799244199998,
+        6.108459470939998,
+        6.6759216296579975,
+        7.673145140760598,
+        8.37120159853242,
+        6.459841118972693,
+        5.121888783280885,
+        4.185322148296619,
+        3.529725503807633,
+        3.070807852665343,
+        2.86206549686574,
+        2.903445847806018,
+        3.132412093464212,
+        3.6926884654249483,
+        3.184881925797464,
+        2.8294173480582248,
+        2.5805921436407573,
+        3.30641450054853,
+        2.914490150383971,
+        3.2401431052687792,
+        2.8681001736881453,
+        2.6076701215817017,
+        4.225369085107191,
+        5.957758359575034,
+        6.570430851702524,
+        7.299301596191766,
+        6.909511117334236,
+        6.936657782133965
+      ],
+      "sigma": 1.9044949386445122
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 6.936657782133965,
+      "quality_band": [
+        3.2038477023907213,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2025-05-19T00:00:00",
+      "materia": "INGENIERÍA ECONÓMICA",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Sinceramente es un buen profesor. Pero su forma de enseñar me causa conflicto. Sus clases y su examen no tienen nada que ver. Todo mi grupo va reprobado.."
+    },
+    {
+      "fecha_iso": "2025-01-24T00:00:00",
+      "materia": "INGENIERÍA ECONOMICA",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 5.5,
+      "recomienda": 0,
+      "comentario": "La materia no es difícil si vas todos los días, pones atención y la estudias,  y es muy bueno explicando, si sabe, pero las tareas y exámenes son demasiados largos y el tiempo para hacerlos no alcanza, ni él podría. Es 0 accesible, muy arrogante y apático, no recomiendo para nada."
+    },
+    {
+      "fecha_iso": "2024-08-12T00:00:00",
+      "materia": "FORMULACIÓN Y EVALUACIÓN DE PROYECTOS",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Excelente calidad de profesor, tiene sus reglas como todos. Aprende a ser educado y profesional si no mejor no cargues con él, mono."
+    },
+    {
+      "fecha_iso": "2024-06-17T00:00:00",
+      "materia": "INGENIERÍA ECONÓMICA",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Es un profesor que sabe mucho sobre los temas, muy claro en todas las explicaciones…. Solo que deja tareas sin avisar y sus exámenes no son de una hora.\nVas a aprender mucho, pero tienes que estar trucha si quieres pasar."
+    },
+    {
+      "fecha_iso": "2024-03-01T00:00:00",
+      "materia": "FORMULACIÓN Y EVALUACIÓN DE PROYECTOS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "La neta la materia es relleno total, pero si quieres aprender sobre desarrollo de proyectos el es el mejor, si solo quieres pasar la materia porque es de relleno, carga en la tarde con pendiente. Todos los fines deja tareas y si es mamón pero te resuelve las dudas, nada del otro mundo."
+    },
+    {
+      "fecha_iso": "2023-11-21T00:00:00",
+      "materia": "FORMULACION Y EVALUACION DE PROYECTOS",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 23.0,
+      "recomienda": 1,
+      "comentario": "La verdad es muy mamon, y toda mecatronica le tiene miedo pero en cuanto a su calidad como maestro es simplemente excelente, no te puedes quejar al respecto por lo menos en la materia que curso"
+    },
+    {
+      "fecha_iso": "2023-07-22T00:00:00",
+      "materia": "COORDINADOR",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "No vale verga este hdsptm"
+    },
+    {
+      "fecha_iso": "2022-08-01T00:00:00",
+      "materia": "COORDINADOR",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "No vale verga este pendejo"
+    },
+    {
+      "fecha_iso": "2022-06-23T00:00:00",
+      "materia": "VIBRACIONES MECÁNICAS",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 0,
+      "comentario": "Este amigo es como una patada en los huevos. Si no te valoras como ser humano pues carga la materia con este hdp"
+    },
+    {
+      "fecha_iso": "2022-01-23T00:00:00",
+      "materia": "COORDINADOR",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "A este compa le pesan las manos hasta para recibirte unos papeles"
+    },
+    {
+      "fecha_iso": "2021-12-24T00:00:00",
+      "materia": "FORMULACIÓN Y EVALUACIÓN DE PROYECTOS",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 0,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2021-09-11T00:00:00",
+      "materia": "COORDINADOR",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "No vale pa pura vrg este pendejo"
+    },
+    {
+      "fecha_iso": "2021-08-27T00:00:00",
+      "materia": "COORDINADOR",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "No vale pa pura vrg este imbecil, por mucho el peor coordinador de todos. Una persona cero empatica, engreida y arrogante"
+    },
+    {
+      "fecha_iso": "2021-08-22T00:00:00",
+      "materia": "COORDINADOR",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Este tipo te puede ver muriendo, y en vez de ver si te echa la mano, ve como te atora más"
+    },
+    {
+      "fecha_iso": "2021-08-09T00:00:00",
+      "materia": "COORDINADOR",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "No vale pa pura vrg este imbecil, es por mucho el peor coordinador. Una persona cero empatica"
+    },
+    {
+      "fecha_iso": "2021-07-29T00:00:00",
+      "materia": "COORDINADOR",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Gracias a Dios ya me gradué y este imbécil ya no es mi coordinador :)"
+    },
+    {
+      "fecha_iso": "2021-07-22T00:00:00",
+      "materia": "COORDINADOR",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Uno de los peores seres humanos que puedes conocer en toda tu vida, no me extraña que nadie quiera ir con el"
+    },
+    {
+      "fecha_iso": "2021-07-13T00:00:00",
+      "materia": "FORMULACIÓN Y EVALUACIÓN DE PROYECTOS",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Este tipo es por mucho, uno de los peores seres humanos y maestros, que puedes llegar a conocer en tu vida"
+    },
+    {
+      "fecha_iso": "2021-06-25T00:00:00",
+      "materia": "MANTENIMIENTO",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 0,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2021-05-27T00:00:00",
+      "materia": "FYEP",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Prepárate para ser autodidacta y consíguete un buen equipo por qué el seguimiento del proyecto es largo y complejo.."
+    },
+    {
+      "fecha_iso": "2021-05-26T00:00:00",
+      "materia": "COORDINADOR",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Que persona más miserable y prepotente"
+    },
+    {
+      "fecha_iso": "2021-05-01T00:00:00",
+      "materia": "COORDINADOR",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Un pendejo, no me extraña que nadie quiera ir con el"
+    },
+    {
+      "fecha_iso": "2021-03-22T00:00:00",
+      "materia": "MANTENIMIENTO",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 0,
+      "comentario": "Deja trabajos muy extensos en periodos muy cortos de tiempo y sin previo aviso. Con la modalidad en línea nos ha dejado 3 trabajos en la materia de mantenimiento de mínimo 15 páginas de investigación de todo lo que pide y con apenas día y medio de anticipación, dejando tareas en la noche o madrugada"
+    },
+    {
+      "fecha_iso": "2021-03-01T00:00:00",
+      "materia": "COORDINADOR",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "De los peores profesores que te pueden tocar. Y como coordinador, sin duda alguna es el más inútil y menos empático con el alumno que tiene el ITC. No te resuelve nada y no te guía cuando tienes dudas."
+    },
+    {
+      "fecha_iso": "2021-01-29T00:00:00",
+      "materia": "VIBRACIONES MECANICAS",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Enseña vergas este bato, nomás se la lleva zorreando morras"
+    },
+    {
+      "fecha_iso": "2021-01-25T00:00:00",
+      "materia": "MANTENIMIENTO",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Sabe mucho de la materia, lástima que en clase en línea no se presenta y deja trabajos larguísimos y en poco tiempo. Cuando se presenta a clase la verdad que si se aprende. No carguen con el nunca"
+    },
+    {
+      "fecha_iso": "2021-01-23T00:00:00",
+      "materia": "COORDINADOR",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Cualquiera menos este imbecil"
+    },
+    {
+      "fecha_iso": "2021-01-21T00:00:00",
+      "materia": "VIBRACIONES MECANICAS",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Uno de los tantos profes del tec, que no valen pa pura verga"
+    },
+    {
+      "fecha_iso": "2021-01-17T00:00:00",
+      "materia": "COORDINADOR",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "UN PENDEJO"
+    },
+    {
+      "fecha_iso": "2021-01-12T00:00:00",
+      "materia": "COORDINADOR",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "No vale pa pura verga este wey"
+    },
+    {
+      "fecha_iso": "2021-01-07T00:00:00",
+      "materia": "VIBRACIONES MECANICAS",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "no vale pura vrg, es de esos maestros que creen que nadie puede saber mas que ellos, por mas que sepas si acaso te pone un 75, los examenes los hace muy largos para que a huevo no los termines y de ahi agarrarse y decir que no la armaste"
+    },
+    {
+      "fecha_iso": "2021-01-06T00:00:00",
+      "materia": "FORMULACIÓN Y EVALUACIÓN DE PROYECTOS",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Ay dios, que pinche clase más aburrida la neta, enseñaba mil veces más taniyama"
+    },
+    {
+      "fecha_iso": "2020-12-28T00:00:00",
+      "materia": "COORDINADOR",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Ay dios, como es engreído y arrogante este tipo"
+    },
+    {
+      "fecha_iso": "2020-12-21T00:00:00",
+      "materia": "COORDINADOR",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Santa mierda que es este imbecil, en vez de ayudarte nomás anda viendo cómo te atora, casi casi le tienes que rogar y suplicar para que te reciba unos papeles"
+    },
+    {
+      "fecha_iso": "2020-12-13T00:00:00",
+      "materia": "COORDINADOR",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "se supone que los coordinadores estan para apoyar a los alumnos, pero este tipo en vez de ayudarte nomas anda viendo como ponerte complicarte y ponerte trabas"
+    },
+    {
+      "fecha_iso": "2020-12-05T00:00:00",
+      "materia": "COORDINADOR",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Santa mierda que es este imbecil"
+    },
+    {
+      "fecha_iso": "2020-11-27T00:00:00",
+      "materia": "COORDINADOR",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Si por el fuera mejor diera de baja a todos, no sé cómo ponen a alguien así como coordinador"
+    },
+    {
+      "fecha_iso": "2020-10-25T00:00:00",
+      "materia": "COORDINADOR",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "no me extraña que nadie quiera ir con el, para hacer algun tramite asi sea meter nomas unos papeles, casi casi le tienes que rogar y suplicar, te pone muchas trabas y te pide cosas que ni al caso nomas para complicarte, al final si hace lo que le pides pero casi rogandole"
+    },
+    {
+      "fecha_iso": "2020-09-26T00:00:00",
+      "materia": "COORDINADOR",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "una basura este tipo"
+    },
+    {
+      "fecha_iso": "2020-07-21T00:00:00",
+      "materia": "COORDINADOR",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Vale pura vrg"
+    },
+    {
+      "fecha_iso": "2020-05-11T00:00:00",
+      "materia": "VIBRACIONES MECANICAS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Al principio creí que era homosexual,  pero ya vi que le gusta cuidar su aspecto personal, y eso es bueno. Como profesor tiene experiencia en la industria, la cual nos ayuda mucho como ingenieros, amplio conocimiento en vibraciones mecanicas, la recomiendo ampliamente."
+    },
+    {
+      "fecha_iso": "2020-02-26T00:00:00",
+      "materia": "COORDINADOR",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "A pesar de que hay muchas personas que no tienen una buena opinión de el, la verdad es que es buena gente, quizás es un poco especial pero la verdad si todo esta en orden y haces las cosas bien si te ayuda, es buena persona y te atiende bien si eres educado."
+    },
+    {
+      "fecha_iso": "2020-01-01T00:00:00",
+      "materia": "MANTENIMIENTO",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "A mí me tocó la suerte de que no evaluó con exámenes, sino con un trabajo final muy largo que no pude culminar (lo entregué incompleto). El desarrollo de las clases es básicamente él hablando sobre las empresas y sobre cómo debemos aspirar a ser gerentes. Lo poco que explica de la clase es útil."
+    },
+    {
+      "fecha_iso": "2019-12-27T00:00:00",
+      "materia": "FORMULACION Y EVALUACION DE PROYECTOS",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 1,
+      "comentario": "El dice que no es especialista en el tema pero apesar de eso sabe mucho de la materia, el programa no lo siguió como debe de ser, pero enseñó cosas fundamentales que te servirán mas la educacion financiera personal, se lo recomiendo a quienes les llama la atención las finanzas, pero falta bastante"
+    },
+    {
+      "fecha_iso": "2019-08-08T00:00:00",
+      "materia": "VIBRACIONES MECÁNICAS",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 1,
+      "comentario": "Es estricto, no le gusta que lo esten molestando, solo tomen la clase las calificaciones de los examenes nunca las da (no le insistan)"
+    },
+    {
+      "fecha_iso": "2019-06-14T00:00:00",
+      "materia": "FORMULACION Y EVALUACION DE PROYECTOS",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "no enseña absolutamente nada y esta super aburrido, solo se la lleva presumiendo que segun el es una chingoneria y no sabe ni madres de lo que esta hablando, pero esta super fácil la materia, no haces nada en todo el semestrey al final con un trabajillo en equipo te pasa y con buena calificacion"
+    },
+    {
+      "fecha_iso": "2019-06-06T00:00:00",
+      "materia": "VIBRACIONES MECÁNICAS",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": "Es buen maestro, sabe de la materia porque se dedica a eso, además la materia es fácil, el problema es que él hace que la materia sea difícil porque los trabajos de tarea y los exámenes son absurdamente largos.  Los repruebas porque no los terminas."
+    },
+    {
+      "fecha_iso": "2019-02-13T00:00:00",
+      "materia": "VIBRACIONES MECANICAS",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "El vato es súper creído a morir y super sangron, no hace otra cosa que andar diciendo que sabe un chingo que tiene un chingo de dinero  que nunca vamos a ganar ni una décima que el que los ingenieros no sirven para nada y no enseña nada y ni dinero tiene es puro verbo trae un Jetta todo viejo yculey"
+    },
+    {
+      "fecha_iso": "2019-02-10T00:00:00",
+      "materia": "FORMULACION Y EVALUACION DE PROYECTOS",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "pesimo maestro, ojala asi como es de creido y prepotente enseñara, se cree un chingo y no sabe nada y repite lo mismo una y otra vez ademas de ser super sangron"
+    },
+    {
+      "fecha_iso": "2018-09-01T00:00:00",
+      "materia": "COORDINADOR",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "No sé cómo una persona tan mierda puede ser coordinador,  ocupaba cambiar una materia y le lleve la carta de trabajo y todos los documentos necesarios pero como no metí ticket el día que era me dijo explícitamente \"te pelaste el riel\" pero fue una morra y a ella si se la cambio sin pedirle nada"
+    },
+    {
+      "fecha_iso": "2018-08-02T00:00:00",
+      "materia": "VIBRACIONES MECANICAS",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "enseña bien pero a pesar de que según el es un experto en la materia no profundiza casi,  ves lo mismo una y otra vez, no ves mucho pero lo que ves lo ves bien, pero es muy creido y sangron, como coordinador y maestro solo ayuda a las mujeres si eres hombre casi le tienes que rogar"
+    },
+    {
+      "fecha_iso": "2018-08-01T00:00:00",
+      "materia": "FORMULACIÓN Y EVALUACIÓN DE PROYECTOS",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 0,
+      "comentario": "Se la pasa toda la clase hablando y dura toda una semana explicando el mismo concepto. Se va mucho por la tangente y al final deja un proyecto con cosas que no explicó ni se miró la mitad en todo el curso y en la exposición del proyecto corrige muchas cosas que el nunca explico, hay mejores opciones"
+    },
+    {
+      "fecha_iso": "2017-08-12T00:00:00",
+      "materia": "VIBRACIONES MECÁNICAS",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Buen profesor, los mecatrónicos son bien chillones, lo recomiendo si desean tener una materia que les exija y donde tendrán que aprender y aplicar todo lo visto en clases para pasar."
+    },
+    {
+      "fecha_iso": "2017-06-12T00:00:00",
+      "materia": "MANTENIMIENTO",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Sabe mucho y explica muy bien, lástima de su actitud tan engreída y sangron. \nLos exámenes no son difíciles pero si muy largos, te tomas hasta 3 horas. Deja un proyecto final que te lo pide desde antes para que lo vayas haciendo poco a poco y no se te acumule todo."
+    },
+    {
+      "fecha_iso": "2017-05-23T00:00:00",
+      "materia": "VIBRACIONES MECÁNICAS",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 1,
+      "comentario": "La verdad explica bien lo que está enseñando, en sus exámenes viene absolutamente todo lo que viste, son largos pero están muy fáciles, no es tan malo como lo pintan, cuestión de echarle ganas y respetar las reglas del salón de clases."
+    },
+    {
+      "fecha_iso": "2017-05-16T00:00:00",
+      "materia": "VIBRACIONES MECÁNICAS",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 24.0,
+      "recomienda": 0,
+      "comentario": "Es imposible expresar por este medio lo ruin y miserable que es esta persona, es un abusón como los de la primaria pero con la autoridad de ser 'profesor', es realmente triste como este desperdicio humano tiene siquiera trabajo sin mencionar el que es coordinador. Si sabe pero no vale la pena cursar"
+    },
+    {
+      "fecha_iso": "2016-12-07T00:00:00",
+      "materia": "EQUIPOS MECANICOS",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": 22.0,
+      "recomienda": 0,
+      "comentario": "de los peores profesores que hay en el tec, de las personas mas engreidas y menos respetuosas que hay, califica el 100% examen y te da 45 min para terminarlo y es para acabarlo en 2 hrs"
+    },
+    {
+      "fecha_iso": "2016-08-11T00:00:00",
+      "materia": "EQUIPOS MECANICOS",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 25.0,
+      "recomienda": 0,
+      "comentario": "No recomendado, solo pasan 2 o 3 de 20, se cree saberlo todo y habla muy mal de los estudiantes."
+    },
+    {
+      "fecha_iso": "2016-01-14T00:00:00",
+      "materia": "VIBRACIONES",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": "Se cree \"Dios\", lo que dice se hace en su clase y no se corrige. Cree que sabe mucho pero a la hora de enseñar no sale de una línea vertical para definir un espectro, exige mucho más de lo que enseña. Exámenes donde en una pregunta te pone 5. Lo que aprendas será por tu cuenta, no lo que \"enseñe\"."
+    }
+  ],
+  "comments_recent": [
+    "Sinceramente es un buen profesor. Pero su forma de enseñar me causa conflicto. Sus clases y su examen no tienen nada que ver. Todo mi grupo va reprobado..",
+    "La materia no es difícil si vas todos los días, pones atención y la estudias,  y es muy bueno explicando, si sabe, pero las tareas y exámenes son demasiados largos y el tiempo para hacerlos no alcanza, ni él podría. Es 0 accesible, muy arrogante y apático, no recomiendo para nada.",
+    "Excelente calidad de profesor, tiene sus reglas como todos. Aprende a ser educado y profesional si no mejor no cargues con él, mono.",
+    "Es un profesor que sabe mucho sobre los temas, muy claro en todas las explicaciones…. Solo que deja tareas sin avisar y sus exámenes no son de una hora.\nVas a aprender mucho, pero tienes que estar trucha si quieres pasar.",
+    "La neta la materia es relleno total, pero si quieres aprender sobre desarrollo de proyectos el es el mejor, si solo quieres pasar la materia porque es de relleno, carga en la tarde con pendiente. Todos los fines deja tareas y si es mamón pero te resuelve las dudas, nada del otro mundo.",
+    "La verdad es muy mamon, y toda mecatronica le tiene miedo pero en cuanto a su calidad como maestro es simplemente excelente, no te puedes quejar al respecto por lo menos en la materia que curso",
+    "No vale verga este hdsptm",
+    "No vale verga este pendejo",
+    "Este amigo es como una patada en los huevos. Si no te valoras como ser humano pues carga la materia con este hdp",
+    "A este compa le pesan las manos hasta para recibirte unos papeles"
+  ],
+  "n_reviews": 59
+}

@@ -1,0 +1,444 @@
+{
+  "professor_id": "Alexis_Beltran_Heras",
+  "nombre": "Alexis Beltran Heras",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 9.626237314085975,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 8.81693885301937,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 1.0,
+    "wilson_interval": [
+      0.8620194241710247,
+      1
+    ],
+    "n_recommendations": 24
+  },
+  "subject_normalization": {
+    "z_mean": 0.76,
+    "z_mean_decayed": 0.83,
+    "per_subject": [
+      {
+        "materia": "---",
+        "z_decayed": 1.380721578458065,
+        "n": 521
+      },
+      {
+        "materia": "QUIMICA",
+        "z_decayed": 1.0731831947765142,
+        "n": 83
+      },
+      {
+        "materia": "CALCULO",
+        "z_decayed": 1.0700898076746446,
+        "n": 50
+      },
+      {
+        "materia": "ÁLGEBRA LINEAL",
+        "z_decayed": 0.6696164845116104,
+        "n": 23
+      },
+      {
+        "materia": "CÁLCULO",
+        "z_decayed": 0.509745191090764,
+        "n": 10
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "esperando revision",
+          "esperando",
+          "comentario esperando",
+          "comentario",
+          "revision"
+        ],
+        "weight": 0.14983400703650088
+      },
+      {
+        "id": 1,
+        "words": [
+          "dudas",
+          "si",
+          "alexis",
+          "da",
+          "te"
+        ],
+        "weight": 0.08811748227294217
+      },
+      {
+        "id": 2,
+        "words": [
+          "buen maestro",
+          "duda",
+          "profe",
+          "maestro",
+          "mejor"
+        ],
+        "weight": 0.1259111518749772
+      },
+      {
+        "id": 3,
+        "words": [
+          "atencion",
+          "clase",
+          "si",
+          "mucha",
+          "es"
+        ],
+        "weight": 0.13519258530949269
+      },
+      {
+        "id": 4,
+        "words": [
+          "explica",
+          "buen maestro",
+          "profesor",
+          "buen profesor",
+          "buen"
+        ],
+        "weight": 0.11212598128365965
+      }
+    ],
+    "sentiment": {
+      "overall": 0.1,
+      "by_month": {
+        "2025-02": 0.0,
+        "2024-08": 0.0,
+        "2024-01": 0.0,
+        "2023-01": 0.5,
+        "2022-11": 0.0,
+        "2022-10": 0.0,
+        "2021-09": 0.0,
+        "2021-03": 0.0,
+        "2021-01": 0.0,
+        "2020-09": 0.0,
+        "2020-07": 0.0,
+        "2019-02": 1.0,
+        "2018-05": 0.0
+      }
+    },
+    "n_comments": 20
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.053,
+    "bursts": [
+      {
+        "from": "2020-09-30T00:00:00",
+        "to": "2020-09-30T00:00:00",
+        "count": 3
+      },
+      {
+        "from": "2020-09-30T00:00:00",
+        "to": "2020-09-30T00:00:00",
+        "count": 4
+      },
+      {
+        "from": "2020-09-30T00:00:00",
+        "to": "2020-09-30T00:00:00",
+        "count": 5
+      },
+      {
+        "from": "2020-09-30T00:00:00",
+        "to": "2020-09-30T00:00:00",
+        "count": 6
+      }
+    ],
+    "low_variance_flag": 0,
+    "trust_score": 0.67
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        9.5,
+        10.0,
+        10.0,
+        9.0,
+        9.833333333333334,
+        10.0,
+        10.0,
+        8.666666666666666,
+        8.5,
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        10.0
+      ],
+      "ewma": [
+        9.5,
+        9.649999999999999,
+        9.754999999999999,
+        9.5285,
+        9.61995,
+        9.733965,
+        9.813775499999998,
+        9.469642849999998,
+        9.178749994999997,
+        9.425124996499997,
+        9.597587497549998,
+        9.718311248284998,
+        9.802817873799498,
+        9.861972511659648
+      ],
+      "sigma": 0.4203515374960438
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 9.861972511659648,
+      "quality_band": [
+        9.038083498167403,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2025-02-20T00:00:00",
+      "materia": "CALCULO",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Muy buen maestro, siemple explica de forma clara y si tienes dudas te resuelve con detalle y detenimiento para que logres comprender."
+    },
+    {
+      "fecha_iso": "2024-08-10T00:00:00",
+      "materia": "---",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2024-01-23T00:00:00",
+      "materia": "ALGEBRA LINEAS Y ECUACIOES",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Alexis god"
+    },
+    {
+      "fecha_iso": "2023-01-19T00:00:00",
+      "materia": "ALGEBRA LINEAL, ECUACIONES DIFERENCIALES",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "El mejor profe"
+    },
+    {
+      "fecha_iso": "2023-01-16T00:00:00",
+      "materia": "ÁLGEBRA LINEAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Lo que sea que explique, lo entenderás a la primera, si no trabajas no te ayuda, normalmente no regala calificación, pero si te ayuda mucho con dudas incluso de otras clases (como calculo), excelente maestro, que impriman más Alexis porfa"
+    },
+    {
+      "fecha_iso": "2022-11-04T00:00:00",
+      "materia": "---",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2022-10-28T00:00:00",
+      "materia": "QUIMICA",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Te hace escribir mucho, pero da buenos ejemplos y sabe darse a entender"
+    },
+    {
+      "fecha_iso": "2022-10-18T00:00:00",
+      "materia": "CALCULO DIFERENCIAL",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Un profesor al cual le gusta enseñar, se nota su interés por dar el aprendizaje en cada clase que da, explica bien pero debes poner atención, si tienes una duda o necesitas apoyo el te lo brinda sin problemas"
+    },
+    {
+      "fecha_iso": "2021-09-22T00:00:00",
+      "materia": "ECUACIONES DIFERENCIALES",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Es muy bueno, si le pones atención y haces lo que se te pide, puedes llegar a tener una buena calificación, generalmente los exámenes son un poco más difíciles que los problemas de clase."
+    },
+    {
+      "fecha_iso": "2021-09-16T00:00:00",
+      "materia": "ECUACIONES DIFERENCIALES",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "no se de donde sacan que es barco, se la pasa explicando mucho de los temas en la clase y deja \"mucha\" tarea pero no es nada del otro mundo y explica con mucha claridad. Si escribes y pones atencion si puedes sacar el 100 facil"
+    },
+    {
+      "fecha_iso": "2021-09-03T00:00:00",
+      "materia": "CÁLCULO DIFERENCIAL",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": "Explica bien lo que muestra en sus clases,  los examenes suelen ser en un nivel mucho más complicado que lo visto en clase así que es necesario practicar y poner mucha atención, no brinda asesoria pero en general es un muy buen profesor, reprueba quien no trabaja y eso si, no regala ni una décima"
+    },
+    {
+      "fecha_iso": "2021-03-05T00:00:00",
+      "materia": "CÁLCULO DIFERENCIAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Mis respetos para este profe. Es buenísimo explicando y está 100% dispuesto a ayudarte en lo que necesites. En las tareas que dejaba a veces aumentaba un poco la dificultad de los ejercicios pero buscándole bien encontrabas como hacerlos."
+    },
+    {
+      "fecha_iso": "2021-01-21T00:00:00",
+      "materia": "CÁLCULO",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Literalmente el mejor maestro que he tenido"
+    },
+    {
+      "fecha_iso": "2020-09-30T00:00:00",
+      "materia": "CÁLCULO",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "El mejor sin duda"
+    },
+    {
+      "fecha_iso": "2020-09-30T00:00:00",
+      "materia": "CALCULO",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2020-09-30T00:00:00",
+      "materia": "CALCULO DIFERENCIAL",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2020-09-30T00:00:00",
+      "materia": "CÁLCULO",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Muy buen maestro, en mi opinión el mejor de mi semestre"
+    },
+    {
+      "fecha_iso": "2020-09-30T00:00:00",
+      "materia": "CALCULO DIFEFENCIAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Muuuuuy buen profesor!!"
+    },
+    {
+      "fecha_iso": "2020-09-30T00:00:00",
+      "materia": "CÁLCULO",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2020-07-28T00:00:00",
+      "materia": "---",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2019-08-04T00:00:00",
+      "materia": "ECUACIONES DIFERENCIALES",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2019-02-01T00:00:00",
+      "materia": "CÁLCULO DIFERENCIAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Enseña claro y preciso"
+    },
+    {
+      "fecha_iso": "2018-05-09T00:00:00",
+      "materia": "---",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2018-05-08T00:00:00",
+      "materia": "---",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "[Comentario esperando revisión]"
+    }
+  ],
+  "comments_recent": [
+    "Muy buen maestro, siemple explica de forma clara y si tienes dudas te resuelve con detalle y detenimiento para que logres comprender.",
+    "[Comentario esperando revisión]",
+    "Alexis god",
+    "El mejor profe",
+    "Lo que sea que explique, lo entenderás a la primera, si no trabajas no te ayuda, normalmente no regala calificación, pero si te ayuda mucho con dudas incluso de otras clases (como calculo), excelente maestro, que impriman más Alexis porfa",
+    "[Comentario esperando revisión]",
+    "Te hace escribir mucho, pero da buenos ejemplos y sabe darse a entender",
+    "Un profesor al cual le gusta enseñar, se nota su interés por dar el aprendizaje en cada clase que da, explica bien pero debes poner atención, si tienes una duda o necesitas apoyo el te lo brinda sin problemas",
+    "Es muy bueno, si le pones atención y haces lo que se te pide, puedes llegar a tener una buena calificación, generalmente los exámenes son un poco más difíciles que los problemas de clase.",
+    "no se de donde sacan que es barco, se la pasa explicando mucho de los temas en la clase y deja \"mucha\" tarea pero no es nada del otro mundo y explica con mucha claridad. Si escribes y pones atencion si puedes sacar el 100 facil"
+  ],
+  "n_reviews": 24
+}

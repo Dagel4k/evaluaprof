@@ -1,0 +1,362 @@
+{
+  "professor_id": "Julio_César_Salas_Heredia",
+  "nombre": "Julio César Salas Heredia",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 4.709631163870495,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 6.213923000098465,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.471,
+    "wilson_interval": [
+      0.26164801196088106,
+      0.6903710268845051
+    ],
+    "n_recommendations": 17
+  },
+  "subject_normalization": {
+    "z_mean": -0.29,
+    "z_mean_decayed": -0.6,
+    "per_subject": [
+      {
+        "materia": "PROCESOS",
+        "z_decayed": -0.1318211936732086,
+        "n": 6
+      },
+      {
+        "materia": "PROPIEDADES DE LOS MATERIALES",
+        "z_decayed": -0.2963620557886092,
+        "n": 16
+      },
+      {
+        "materia": "PROCESOS DE FABRICACION",
+        "z_decayed": -0.625790639152291,
+        "n": 16
+      },
+      {
+        "materia": "PROCESOS DE FABRICACIÓN",
+        "z_decayed": -0.6500784318642407,
+        "n": 24
+      },
+      {
+        "materia": "METROLOGIA",
+        "z_decayed": -0.7218641603005825,
+        "n": 20
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "nomas",
+          "preguntas",
+          "falta",
+          "es",
+          "maestro"
+        ],
+        "weight": 0.07889264932284175
+      },
+      {
+        "id": 1,
+        "words": [
+          "preguntas",
+          "si te",
+          "deja",
+          "te",
+          "si"
+        ],
+        "weight": 0.1746232729445642
+      },
+      {
+        "id": 2,
+        "words": [
+          "facil",
+          "aprendes",
+          "explica",
+          "examenes",
+          "clases"
+        ],
+        "weight": 0.18772318384390307
+      },
+      {
+        "id": 3,
+        "words": [
+          "da",
+          "examen",
+          "es",
+          "bien",
+          "va"
+        ],
+        "weight": 0.12494588253407585
+      },
+      {
+        "id": 4,
+        "words": [
+          "es",
+          "bien",
+          "examenes estan",
+          "estan",
+          "profe"
+        ],
+        "weight": 0.12722696265405117
+      }
+    ],
+    "sentiment": {
+      "overall": 0.0,
+      "by_month": {
+        "2021-11": 0.0,
+        "2019-08": 0.0,
+        "2018-10": 0.0,
+        "2018-06": 0.0,
+        "2015-06": 0.0,
+        "2014-06": 0.0,
+        "2014-01": 0.0,
+        "2013-12": 0.0,
+        "2013-11": 0.0,
+        "2013-08": 0.0,
+        "2013-07": 0.0,
+        "2013-06": 0.0,
+        "2012-10": 0.0,
+        "2012-06": 0.0
+      }
+    },
+    "n_comments": 16
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        4.0,
+        5.0,
+        8.0,
+        2.0,
+        6.5,
+        2.0,
+        8.0,
+        10.0,
+        4.0,
+        10.0,
+        7.0,
+        7.0,
+        4.0,
+        3.0,
+        3.0
+      ],
+      "ewma": [
+        4.0,
+        4.3,
+        5.41,
+        4.387,
+        5.020899999999999,
+        4.114629999999999,
+        5.280240999999999,
+        6.696168699999999,
+        5.887318089999999,
+        7.1211226629999995,
+        7.084785864099999,
+        7.059350104869999,
+        6.141545073409,
+        5.1990815513863,
+        4.539357085970409
+      ],
+      "sigma": 2.094456604900587
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 4.539357085970409,
+      "quality_band": [
+        0.4342221403652591,
+        8.64449203157556
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2021-11-11T00:00:00",
+      "materia": "PROCESOS DE FABRICACIÓN",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 0,
+      "comentario": "El hijo de perra deja tarea como si diera todos los días de la semana, sus tareas son resumenes de sus PDF de 10-25 hojas, a mano y en hoja blanca"
+    },
+    {
+      "fecha_iso": "2019-08-09T00:00:00",
+      "materia": "PROPIEDAD DE LOS MATERIALES",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Tiene poco criterio, a veces se puede volver un asunto de ‘suerte’ que pases con el, si no le has pasado un examen al final a cada uno les hace preguntas orales, ya depende de ti si contestas 2 de 4 el decide si te pone 70, te manda a rc o te saca del tec."
+    },
+    {
+      "fecha_iso": "2019-06-12T00:00:00",
+      "materia": "PROPIEDADES DE LOS MATERIALES",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 6.5,
+      "recomienda": 0,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2018-10-23T00:00:00",
+      "materia": "PROCESOS",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "tiene ojos bonitos y explica facil y examenes facil tambien"
+    },
+    {
+      "fecha_iso": "2018-06-05T00:00:00",
+      "materia": "PROCESOS DE FABRICACIÓN",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "La neta el profe va muy poco y eso si, deja mucha teoría. Sus exámenes son abiertos en las primeras unidades y las últimas de opción múltiple. Es fácil sacar 100 porque te aprendes todo de memoria o si no un acordionazo no falla nomas pónganse truchas"
+    },
+    {
+      "fecha_iso": "2015-06-18T00:00:00",
+      "materia": "..",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Va mejorando mucho... explika bien.. es cuestion de tener dispocicion"
+    },
+    {
+      "fecha_iso": "2014-06-04T00:00:00",
+      "materia": "PROCESOS",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Es bien mamon el profe pero los examenes no estan tan compliacados y falta mucho"
+    },
+    {
+      "fecha_iso": "2014-01-08T00:00:00",
+      "materia": "PROCESOS DE FABRICACIONES",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Es muy buen maestro, estudien para sus examenes nomas, no viene nada que no hayan visto."
+    },
+    {
+      "fecha_iso": "2013-12-16T00:00:00",
+      "materia": "METROLOGIA",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Peladisimo pasar con este profe"
+    },
+    {
+      "fecha_iso": "2013-11-14T00:00:00",
+      "materia": "METROLOGIA",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "DE LO PEOR QUE ME HA TOCADO"
+    },
+    {
+      "fecha_iso": "2013-08-07T00:00:00",
+      "materia": "PROCESOS",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "El Diablito, la neta si es cierto que las clases las saca de monografías.com , pero los exámenes están bien pelucas, una vez los hizo de pura teoría y tronaron varios después puros de opción múltiple y al 100 la copiadera."
+    },
+    {
+      "fecha_iso": "2013-08-03T00:00:00",
+      "materia": "PROCESOS DE FABRICACION",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 5.0,
+      "recomienda": 0,
+      "comentario": "Le falta mucho como maestro, cuando le preguntas algo siempre duda, es bipolar. no lo recomiendo"
+    },
+    {
+      "fecha_iso": "2013-07-28T00:00:00",
+      "materia": "PROSEDO DE FABRICACION",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 3.5,
+      "recomienda": 0,
+      "comentario": "No sabe nada aparte que se lleva zorriando las piernas a las mujeres"
+    },
+    {
+      "fecha_iso": "2013-06-11T00:00:00",
+      "materia": "PROCESOS DE FABRICACIÓN",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Las clases son resumen de monografias.com o rincondelvago. Muy monotomas y aburridas. Los examenes normales. No falta tanto a clases como anteriormente lo hacía."
+    },
+    {
+      "fecha_iso": "2013-06-08T00:00:00",
+      "materia": "PROCESOS DE FABRICACIÓN",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Le falta experiencia como maestro, domina los conocimientos de la materia y si le preguntas si te responde (si quieres aprender más hazlo), en si dejó la escencia de la materia. \nMe da gusto que se haya compuesto :)"
+    },
+    {
+      "fecha_iso": "2012-10-29T00:00:00",
+      "materia": "PROPIEDADES DE LOS MATERIALES",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 0,
+      "comentario": "Dió cuando mucho 8 clases en el semestre. No explica nada, todo se basa en trabajos de investigacion y copias. Los examenes de las copias. No aprendes nada."
+    },
+    {
+      "fecha_iso": "2012-06-12T00:00:00",
+      "materia": "PROPIEDADES DE LOS MATERIALES",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 1.0,
+      "recomienda": 0,
+      "comentario": "Nunca va y cuando va no da clases. Califica mandando cosas al correo y haciendo examen."
+    }
+  ],
+  "comments_recent": [
+    "El hijo de perra deja tarea como si diera todos los días de la semana, sus tareas son resumenes de sus PDF de 10-25 hojas, a mano y en hoja blanca",
+    "Tiene poco criterio, a veces se puede volver un asunto de ‘suerte’ que pases con el, si no le has pasado un examen al final a cada uno les hace preguntas orales, ya depende de ti si contestas 2 de 4 el decide si te pone 70, te manda a rc o te saca del tec.",
+    "tiene ojos bonitos y explica facil y examenes facil tambien",
+    "La neta el profe va muy poco y eso si, deja mucha teoría. Sus exámenes son abiertos en las primeras unidades y las últimas de opción múltiple. Es fácil sacar 100 porque te aprendes todo de memoria o si no un acordionazo no falla nomas pónganse truchas",
+    "Va mejorando mucho... explika bien.. es cuestion de tener dispocicion",
+    "Es bien mamon el profe pero los examenes no estan tan compliacados y falta mucho",
+    "Es muy buen maestro, estudien para sus examenes nomas, no viene nada que no hayan visto.",
+    "Peladisimo pasar con este profe",
+    "DE LO PEOR QUE ME HA TOCADO"
+  ],
+  "n_reviews": 17
+}

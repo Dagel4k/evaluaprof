@@ -1,0 +1,419 @@
+{
+  "professor_id": "Guillermo_Beltrán_Sanche",
+  "nombre": "Guillermo Beltrán Sanche",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 3.385731082329258,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 4.74299753133308,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.136,
+    "wilson_interval": [
+      0.04748917264236267,
+      0.3333541187947
+    ],
+    "n_recommendations": 22
+  },
+  "subject_normalization": {
+    "z_mean": -1.0,
+    "z_mean_decayed": -1.17,
+    "per_subject": [
+      {
+        "materia": "MATEMATICAS I",
+        "z_decayed": 0.28914923974019296,
+        "n": 11
+      },
+      {
+        "materia": "CALCULO",
+        "z_decayed": -0.527614898085237,
+        "n": 50
+      },
+      {
+        "materia": "---",
+        "z_decayed": -0.9627852966533862,
+        "n": 521
+      },
+      {
+        "materia": "CALCULO INTEGRAL",
+        "z_decayed": -1.1762137135239585,
+        "n": 84
+      },
+      {
+        "materia": "CALCULO DIFERENCIAL",
+        "z_decayed": -1.420477476635088,
+        "n": 110
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "final",
+          "profesor",
+          "reprobo",
+          "porque",
+          "es"
+        ],
+        "weight": 0.09583360105518347
+      },
+      {
+        "id": 1,
+        "words": [
+          "reprobo",
+          "profe",
+          "maestro",
+          "buen maestro",
+          "buen"
+        ],
+        "weight": 0.13292227426817366
+      },
+      {
+        "id": 2,
+        "words": [
+          "esperando revision",
+          "comentario esperando",
+          "comentario",
+          "esperando",
+          "revision"
+        ],
+        "weight": 0.09977043784203657
+      },
+      {
+        "id": 3,
+        "words": [
+          "pasas",
+          "si te",
+          "mas",
+          "si",
+          "te"
+        ],
+        "weight": 0.1733652407177091
+      },
+      {
+        "id": 4,
+        "words": [
+          "porque",
+          "puede",
+          "tec",
+          "cabron",
+          "bien"
+        ],
+        "weight": 0.10848448822308375
+      }
+    ],
+    "sentiment": {
+      "overall": 0.047619047619047616,
+      "by_month": {
+        "2017-11": 0.0,
+        "2015-09": 0.0,
+        "2015-08": 0.0,
+        "2015-03": 0.0,
+        "2015-01": 0.0,
+        "2014-06": 0.0,
+        "2013-11": 0.0,
+        "2013-09": 0.0,
+        "2013-08": 0.0,
+        "2013-07": 0.0,
+        "2013-06": 0.0,
+        "2012-11": 0.0,
+        "2012-10": 0.0,
+        "2012-09": 0.0,
+        "2012-08": 0.0,
+        "2012-06": 0.0,
+        "2012-01": 1.0,
+        "2011-05": 0.0
+      }
+    },
+    "n_comments": 21
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.029,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 0.99
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        7.5,
+        2.0,
+        5.0,
+        2.0,
+        4.0,
+        3.0,
+        8.0,
+        5.0,
+        2.0,
+        2.0,
+        2.0,
+        3.0,
+        2.0,
+        2.0,
+        10.0,
+        2.0,
+        2.0,
+        4.0,
+        2.0
+      ],
+      "ewma": [
+        7.5,
+        5.85,
+        5.595,
+        4.5165,
+        4.361549999999999,
+        3.9530849999999993,
+        5.1671594999999995,
+        5.117011649999999,
+        4.1819081549999995,
+        3.5273357084999994,
+        3.0691349959499994,
+        3.0483944971649994,
+        2.7338761480154994,
+        2.5137133036108494,
+        4.759599312527595,
+        3.931719518769316,
+        3.3522036631385213,
+        3.5465425641969643,
+        3.082579794937875
+      ],
+      "sigma": 1.9498744805112582
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 3.082579794937875,
+      "quality_band": [
+        0.0,
+        6.904333776739941
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2017-11-15T00:00:00",
+      "materia": "CALCULO DIFERENCIAL",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 1.0,
+      "recomienda": 0,
+      "comentario": "tuve un examen de 4 hora hay nomas lo dejo"
+    },
+    {
+      "fecha_iso": "2017-08-05T00:00:00",
+      "materia": "CALCULO DIFERENCIAL",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 25.0,
+      "recomienda": 0,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2015-09-13T00:00:00",
+      "materia": "CALCULO INTEGRAL",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "El peor profesor que jamas pudo existir, no lo digo exagerando, de verdad, es como si no tuvieras un maestro al frente de la clase, no esperes una explicaacion, mucho menos clara, no califica de manera arbitraria, y no vengo aqui a quejarme porque me reprobo, el tipo es un asco, y todos lo saben."
+    },
+    {
+      "fecha_iso": "2015-08-07T00:00:00",
+      "materia": "CALCULO DIFERENCIAL",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": "este pforesor es de los mas groseros y burlescos, se burla de los gays y piensa que cualquier persona con pelo largo es drogadicta,  no hace mas que contar su vida en clases, para aprender tendras que buscar todo por tu cuenta, al final le suplicaras o te mataras por un 70, hagas lo que hagas no es buena idea cargar con el"
+    },
+    {
+      "fecha_iso": "2015-03-08T00:00:00",
+      "materia": "CALCULO INTEGRAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 1,
+      "comentario": "muy buen maestro."
+    },
+    {
+      "fecha_iso": "2015-01-09T00:00:00",
+      "materia": "CALCULO INTEGRAL",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": "Mucho cuidado esta bien cabron a mi me paso porque me le puse al brinco en el salo.."
+    },
+    {
+      "fecha_iso": "2014-06-10T00:00:00",
+      "materia": "CALCULO INTEGRAL",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 1.0,
+      "recomienda": 0,
+      "comentario": "es el peor maestro que me ha dado en el tec, pase todos los parciales a \"excepcion\" de uno y me reprobo porque no sabia nada segun, esta en contra de los gays y de los muchachos de cabello largo -.-"
+    },
+    {
+      "fecha_iso": "2013-11-14T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2013-11-14T00:00:00",
+      "materia": "CÁLCULO INTEGRAL",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": "Tratare de ser lo más objetivo posible:\n1. De los maestros con mas índices de reprobación del etc\n2. Si estudias, pasas\n3. Te haces responsable de ti mismo al estudiar y hacerte autodidacta\n4. Anota TODO lo del pizarron\n5. No le trates de hacer la barba, no sirve\n Hasta te perjudica\n6. Puedes"
+    },
+    {
+      "fecha_iso": "2013-09-21T00:00:00",
+      "materia": "CALCULO",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Si te valoras en el tec no cargaras con el ñ.ñ'"
+    },
+    {
+      "fecha_iso": "2013-08-07T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 1.0,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2013-08-06T00:00:00",
+      "materia": "CALCULO INTEGRAL/ DIFERENCIAL",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 6.5,
+      "recomienda": 0,
+      "comentario": "La peor basura que te puedes topar en el TEC, si tienes cabello largo estas en rc.. Es de esos que no se jubilan porque no tienen nada mejor que hacer, no enseña nada y solo te contara sus historias ficticias en la reforma y su amigo con las mil gatas& esas jaladas, pero de calculo nada ! Le doy 0"
+    },
+    {
+      "fecha_iso": "2013-07-19T00:00:00",
+      "materia": "CALCULO INTEGRAL",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 0.5,
+      "recomienda": 0,
+      "comentario": "No se los recomiendo es muy vengativa y rencorosa Que da lastima ajena, no es problema mío ni descalifico que nos tenga tirria a las mujeres, pero no se vale que acose a los compañeros. Puede tener las preferencias que quiera pero no dentro del Tec. Debería Jubilarse y le haría un bien al Tec."
+    },
+    {
+      "fecha_iso": "2013-06-24T00:00:00",
+      "materia": "CALCULO INTEGRAL",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": "La unica razon por la cual recomendaría a este profesor es porque gracias a el gané el hábito de estudiar. Debo admitir algo, si sus examenes se nos hacen en extremo dificiles es porque no estudiamos como es debido. Aunque hace lo que quiere a final vale la pena cargar con el. Solo una vez."
+    },
+    {
+      "fecha_iso": "2012-11-20T00:00:00",
+      "materia": "CALCULO",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "buen profe"
+    },
+    {
+      "fecha_iso": "2012-10-29T00:00:00",
+      "materia": "CALCULO DIFERENCIAL",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 0,
+      "comentario": "De esos profesores que no se jubilan por que se aburren en su casa. No enseña nada, si no conoces los temas a tratar, reprobaste. Los exámenes difíciles pero con facilidades de apuntes y hacerlos en equipo. Al final califica como se le antoja."
+    },
+    {
+      "fecha_iso": "2012-09-06T00:00:00",
+      "materia": "CALCULO DIFERENCIAL",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": "Lo peor que te puede pasar en el Tec de Culiacan, tienes que ir bien abierto y dispuesto a soltar feria. Por mas inteligente y cabron que seas ten por seguro que lloraras y suplicaras por un 70."
+    },
+    {
+      "fecha_iso": "2012-08-16T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 1.0,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2012-06-16T00:00:00",
+      "materia": "CALCULO",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": "este profe te pasa si tu le hechas ganas el no te va a enseñar mucho , tu tienes que matarte estudiando, y si estudias con este profe pasas"
+    },
+    {
+      "fecha_iso": "2012-01-11T00:00:00",
+      "materia": "CALCULO DIFERENCIAL",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "El peor maestro que puedes encontrar en el itc. No expllica absolutamente nada y pasas solo si le caes bien , si le caes mal eres RC , Especial , o te corren.. si no te cortas el cabello aunque tu promedio sea perfecto y sepas mas que el te reprueba"
+    },
+    {
+      "fecha_iso": "2011-05-06T00:00:00",
+      "materia": "MATEMATICAS I",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 0,
+      "comentario": "buen maestro"
+    },
+    {
+      "fecha_iso": "2011-05-06T00:00:00",
+      "materia": "MATEMATICAS I",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 1,
+      "comentario": "buen maestro"
+    }
+  ],
+  "comments_recent": [
+    "tuve un examen de 4 hora hay nomas lo dejo",
+    "El peor profesor que jamas pudo existir, no lo digo exagerando, de verdad, es como si no tuvieras un maestro al frente de la clase, no esperes una explicaacion, mucho menos clara, no califica de manera arbitraria, y no vengo aqui a quejarme porque me reprobo, el tipo es un asco, y todos lo saben.",
+    "este pforesor es de los mas groseros y burlescos, se burla de los gays y piensa que cualquier persona con pelo largo es drogadicta,  no hace mas que contar su vida en clases, para aprender tendras que buscar todo por tu cuenta, al final le suplicaras o te mataras por un 70, hagas lo que hagas no es buena idea cargar con el",
+    "muy buen maestro.",
+    "Mucho cuidado esta bien cabron a mi me paso porque me le puse al brinco en el salo..",
+    "es el peor maestro que me ha dado en el tec, pase todos los parciales a \"excepcion\" de uno y me reprobo porque no sabia nada segun, esta en contra de los gays y de los muchachos de cabello largo -.-",
+    "[Comentario esperando revisión]",
+    "Tratare de ser lo más objetivo posible:\n1. De los maestros con mas índices de reprobación del etc\n2. Si estudias, pasas\n3. Te haces responsable de ti mismo al estudiar y hacerte autodidacta\n4. Anota TODO lo del pizarron\n5. No le trates de hacer la barba, no sirve\n Hasta te perjudica\n6. Puedes",
+    "Si te valoras en el tec no cargaras con el ñ.ñ'"
+  ],
+  "n_reviews": 22
+}

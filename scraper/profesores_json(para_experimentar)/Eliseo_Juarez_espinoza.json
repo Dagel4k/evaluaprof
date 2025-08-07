@@ -1,0 +1,120 @@
+{
+  "nombre": "Eliseo Juarez espinoza",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "ciudad": "Ciudad: culiacan, sinaloa",
+  "departamento": "Departamento/Facultad: Electronica",
+  "calidad_general": 5.7,
+  "porcentaje_recomienda": 43,
+  "nivel_dificultad": 4.9,
+  "etiquetas": [
+    "POCOS EXÁMENES (1)",
+    "BARCO (1)",
+    "ASISTENCIA OBLIGATORIA (1)"
+  ],
+  "numero_calificaciones": 7,
+  "calificaciones": [
+    {
+      "fecha": "18/Feb/2022",
+      "tipo_calificacion": "REGULAR",
+      "puntaje_calidad_general": 6.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Circuitos eléctricos",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "9.5",
+      "interes_clase": "",
+      "comentario": "No enseña bien, enseña cosas sencillas y en los exámenes pone algo un poco diferente ,que si no tienes conocimientos previos, ni vas a saber como hacerlo. Es muy terco, si dice que no le entregaste algo, de ahí no lo vas a sacar, así tengas evidencia. No carguen con él.",
+      "etiquetas_comentario": [
+        "Barco",
+        "Asistencia obligatoria"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "04/Ago/2019",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 7.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Circuitos eléctricos",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "N/A",
+      "interes_clase": "",
+      "comentario": "Pues es regular, es medio barco y algo sencillo con el. Si eres mujer no te preocupes, el nunca reprueba mujeres.",
+      "etiquetas_comentario": [
+        "Pocos Exámenes"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "04/Ago/2017",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 7.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "analisis de circuitos electricos",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "N/A",
+      "interes_clase": "",
+      "comentario": "es un maestro regular, enseña mas o menos, algunas veces si le preguntas no te explica pero no siempre, pero al final si ayuda bastante con la calificacion",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "05/Sep/2015",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "circuitos 2",
+      "asistencia": "",
+      "calificacion_recibida": "9",
+      "interes_clase": "9",
+      "comentario": "para mi es un buen profe , solo ahi que estudiar lo de la libreta",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "09/Ene/2015",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 2.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Control 1",
+      "asistencia": "",
+      "calificacion_recibida": "N/A",
+      "interes_clase": "N/A",
+      "comentario": "Muy mal prosefor no sabe muchas cosas nomas las apunta y si le preguntas lo que sea no te contesta... no lo recomiendo",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "14/Jun/2013",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 2.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "circuitos electricos I",
+      "asistencia": "",
+      "calificacion_recibida": "N/A",
+      "interes_clase": "N/A",
+      "comentario": "no explica muy bien y cree que todo lo sabemos \"Eso es pura talacha\" se salta muchos pasos y quedan muy confusos los temas no lo recomiendo",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "21/Jul/2011",
+      "tipo_calificacion": "REGULAR",
+      "puntaje_calidad_general": 6.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Analisi de circuitos electricos",
+      "asistencia": "",
+      "calificacion_recibida": "7",
+      "interes_clase": "7",
+      "comentario": "",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    }
+  ]
+}

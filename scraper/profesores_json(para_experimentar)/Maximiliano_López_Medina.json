@@ -1,0 +1,51 @@
+{
+  "nombre": "Maximiliano López Medina",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "ciudad": "Ciudad: culiacan, sinaloa",
+  "departamento": "Departamento/Facultad: Contabilidad",
+  "calidad_general": 7.5,
+  "porcentaje_recomienda": 50,
+  "nivel_dificultad": 1.0,
+  "etiquetas": [
+    "BARCO (2)",
+    "ASISTENCIA OBLIGATORIA (1)",
+    "BRINDA APOYO (1)"
+  ],
+  "numero_calificaciones": 2,
+  "calificaciones": [
+    {
+      "fecha": "17/Jun/2022",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Contabilidad",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "Este profe da cuando quiere y cuando no no da especialemente si hay partido del real madrid jajaja",
+      "etiquetas_comentario": [
+        "Barco",
+        "Brinda apoyo"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "17/Dic/2021",
+      "tipo_calificacion": "REGULAR",
+      "puntaje_calidad_general": 5.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Contabilidad Financiera (Linea)",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "Este profe desaparece sin decir nada y aparece a la siguiente semana, falta demasiado, califica con unas investigaciones, toma muy en cuenta la asistencia y su clase es muy aburrida. Carga con el si quieres saber lo mínimo de la materia y tener clases libres",
+      "etiquetas_comentario": [
+        "Barco",
+        "Asistencia obligatoria"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    }
+  ]
+}

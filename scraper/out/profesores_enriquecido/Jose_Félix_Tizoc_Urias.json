@@ -1,0 +1,218 @@
+{
+  "professor_id": "Jose_Félix_Tizoc_Urias",
+  "nombre": "Jose Félix Tizoc Urias",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 7.682726190788258,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 6.7653289445921425,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.5,
+    "wilson_interval": [
+      0.2152125268244419,
+      0.7847874731755581
+    ],
+    "n_recommendations": 8
+  },
+  "subject_normalization": {
+    "z_mean": -0.07,
+    "z_mean_decayed": 0.49,
+    "per_subject": [
+      {
+        "materia": "ERGONOMIA",
+        "z_decayed": 0.6666089795903932,
+        "n": 7
+      },
+      {
+        "materia": "ERGONOMÍA",
+        "z_decayed": -0.5976143046671968,
+        "n": 6
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "examen",
+          "si",
+          "dificil",
+          "sabe",
+          "es"
+        ],
+        "weight": 0.20322156986621348
+      },
+      {
+        "id": 1,
+        "words": [
+          "exposiciones",
+          "mismos",
+          "cada",
+          "clases",
+          "examenes"
+        ],
+        "weight": 0.29719127040286253
+      },
+      {
+        "id": 2,
+        "words": [
+          "semestre",
+          "puras",
+          "puras exposiciones",
+          "nomas",
+          "si"
+        ],
+        "weight": 0.20000587713711163
+      }
+    ],
+    "sentiment": {
+      "overall": -0.19047619047619047,
+      "by_month": {
+        "2018-01": -1.0,
+        "2016-10": 0.0,
+        "2016-01": 0.0,
+        "2014-01": 0.0,
+        "2013-11": 0.0,
+        "2013-06": -0.16666666666666666
+      }
+    },
+    "n_comments": 7
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        7.0,
+        5.0,
+        4.0,
+        5.0,
+        6.0,
+        8.0,
+        10.0
+      ],
+      "ewma": [
+        7.0,
+        6.3999999999999995,
+        5.68,
+        5.475999999999999,
+        5.633199999999999,
+        6.343239999999999,
+        7.440267999999999
+      ],
+      "sigma": 1.5432562211479988
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 7.440267999999999,
+      "quality_band": [
+        4.415485806549921,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2019-07-28T00:00:00",
+      "materia": "ERGONOMIA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2018-01-14T00:00:00",
+      "materia": "ERGONOMIA",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "El primer examen es el único difícil, los demas como si nada, sabe mucho sobre el tema, nomas siganle el rollo y pelado."
+    },
+    {
+      "fecha_iso": "2016-10-23T00:00:00",
+      "materia": "ERGONOMÍA",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 0,
+      "comentario": "Si tienes dinero para el viaje que ronda entre 2,000 y 2,500 carga con el si no ni pierdas tu tiempo por que nomas por el viaje vale la pena llevar con este profe, puras exposiciones todo el semestre y cuestionarios de 60 preguntas donde al final solo la mitad vienen en el examen hay mejores profes"
+    },
+    {
+      "fecha_iso": "2016-01-08T00:00:00",
+      "materia": "ERGONOMIA",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 0,
+      "comentario": "sus clases son exposiciones que no cuentan, sus examenes  sondificiles pero son los mismos cada año, si los consigues ya la hiciste"
+    },
+    {
+      "fecha_iso": "2014-01-15T00:00:00",
+      "materia": "ERGONOMIA",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 5.5,
+      "recomienda": 0,
+      "comentario": "los que dicen que es buen profesor es porque se calificaron los exámenes ellos mismos, los alumnos exponen, el dicta tontera y media, pone lo que quiere en el examen, en mis semestre se amargo y el se puso a calificar los exámenes como estaban difíciles solos pocos pasamos."
+    },
+    {
+      "fecha_iso": "2013-11-14T00:00:00",
+      "materia": "ERGONOMIA",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "No es un mal profesor, pero si se trata de poner incoherencias en un examen, a el no le gana nadie. Los alumnos lo califican por eso se salvan. Sabe mucho, pero tambien se le olvidan las cosas y a veces dice cada tonteria..."
+    },
+    {
+      "fecha_iso": "2013-06-13T00:00:00",
+      "materia": "ERGONOMIA",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Muy bueno en Ergonómia. Sabe mucho y es mejor que todos los otros profesores que importen la materia. Es un gran maestro y tiene gusto por enseñar no como la mayoría. Lo malo que no te regala una décima y es muy dificil salir con 100 con el. Pero si aprendes no como con otros."
+    },
+    {
+      "fecha_iso": "2013-06-12T00:00:00",
+      "materia": "ERGONOMIA",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": "Sus clases son puras exposiciones pero después de cada una el profesor dicta lo mas importante del tema y lo explica, sus examenes son muy dificiles pero en el mismo salon los calificamos"
+    }
+  ],
+  "comments_recent": [
+    "El primer examen es el único difícil, los demas como si nada, sabe mucho sobre el tema, nomas siganle el rollo y pelado.",
+    "Si tienes dinero para el viaje que ronda entre 2,000 y 2,500 carga con el si no ni pierdas tu tiempo por que nomas por el viaje vale la pena llevar con este profe, puras exposiciones todo el semestre y cuestionarios de 60 preguntas donde al final solo la mitad vienen en el examen hay mejores profes",
+    "sus clases son exposiciones que no cuentan, sus examenes  sondificiles pero son los mismos cada año, si los consigues ya la hiciste",
+    "los que dicen que es buen profesor es porque se calificaron los exámenes ellos mismos, los alumnos exponen, el dicta tontera y media, pone lo que quiere en el examen, en mis semestre se amargo y el se puso a calificar los exámenes como estaban difíciles solos pocos pasamos.",
+    "No es un mal profesor, pero si se trata de poner incoherencias en un examen, a el no le gana nadie. Los alumnos lo califican por eso se salvan. Sabe mucho, pero tambien se le olvidan las cosas y a veces dice cada tonteria...",
+    "Muy bueno en Ergonómia. Sabe mucho y es mejor que todos los otros profesores que importen la materia. Es un gran maestro y tiene gusto por enseñar no como la mayoría. Lo malo que no te regala una décima y es muy dificil salir con 100 con el. Pero si aprendes no como con otros.",
+    "Sus clases son puras exposiciones pero después de cada una el profesor dicta lo mas importante del tema y lo explica, sus examenes son muy dificiles pero en el mismo salon los calificamos"
+  ],
+  "n_reviews": 8
+}

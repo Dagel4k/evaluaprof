@@ -1,0 +1,197 @@
+{
+  "professor_id": "BEATRIZ_IMELDA_LOPEZ_MANJARREZ_BEATRIZ_IMELDA",
+  "nombre": "BEATRIZ IMELDA LOPEZ MANJARREZ BEATRIZ IMELDA",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 9.999999999999998,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 8.11099506266616,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 1.0,
+    "wilson_interval": [
+      0.6096569663469354,
+      1
+    ],
+    "n_recommendations": 6
+  },
+  "subject_normalization": {
+    "z_mean": 0.63,
+    "z_mean_decayed": 0.63,
+    "per_subject": [
+      {
+        "materia": "PROCESOS",
+        "z_decayed": 0.9257743384547876,
+        "n": 6
+      },
+      {
+        "materia": "INVESTIGACION DE OPERACIONES",
+        "z_decayed": 0.672862469185958,
+        "n": 16
+      },
+      {
+        "materia": "ESTADÍSTICA 1",
+        "z_decayed": 0.5773502691896257,
+        "n": 3
+      },
+      {
+        "materia": "ESTADÍSTICA INFERENCIAL 1",
+        "z_decayed": 0.5,
+        "n": 4
+      },
+      {
+        "materia": "ESTADISTICA",
+        "z_decayed": 0.4924824621254177,
+        "n": 10
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "ensena bien",
+          "ensena",
+          "buena",
+          "es",
+          "bien"
+        ],
+        "weight": 0.39194634510602977
+      },
+      {
+        "id": 1,
+        "words": [
+          "bien",
+          "te",
+          "es",
+          "maestra",
+          "tareas"
+        ],
+        "weight": 0.3233585284347983
+      }
+    ],
+    "sentiment": {
+      "overall": 0.2,
+      "by_month": {
+        "2021-10": -1.0,
+        "2020-08": 0.0,
+        "2019-08": 1.0,
+        "2019-06": 0.0,
+        "2019-05": 1.0
+      }
+    },
+    "n_comments": 5
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 1,
+    "trust_score": 0.8
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        10.0
+      ],
+      "ewma": [
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        10.0
+      ],
+      "sigma": 0.0
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 10.0,
+      "quality_band": [
+        10.0,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2021-10-06T00:00:00",
+      "materia": "INVESTIGACION DE OPERACIONES",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Un amor de maestra, enseña muy bien , sus diapositivas son perfectas, no es para nada complicado pasar siempre y cuando cumplas con las tareas y trabajos, carga con ella no te arrepentiras."
+    },
+    {
+      "fecha_iso": "2020-08-27T00:00:00",
+      "materia": "ESTADISTICA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "super buena mestra, enseña muy bien"
+    },
+    {
+      "fecha_iso": "2019-08-09T00:00:00",
+      "materia": "ESTADÍSTICA 1",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Excelente maestra, clases muy dinámicas, exámenes fáciles, pero muchas tareas."
+    },
+    {
+      "fecha_iso": "2019-06-02T00:00:00",
+      "materia": "ESTADÍSTICA INFERENCIAL 1",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "es muy buena maestra y trata de que comprendas lo mas básico para que así no te enredes cuando los temas avancen."
+    },
+    {
+      "fecha_iso": "2019-05-21T00:00:00",
+      "materia": "PROCESOS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2019-05-06T00:00:00",
+      "materia": "CALCULO VECTORIAL.",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "es una gran maestra y en extremo paciente ademas de explicar muy bien."
+    }
+  ],
+  "comments_recent": [
+    "Un amor de maestra, enseña muy bien , sus diapositivas son perfectas, no es para nada complicado pasar siempre y cuando cumplas con las tareas y trabajos, carga con ella no te arrepentiras.",
+    "super buena mestra, enseña muy bien",
+    "Excelente maestra, clases muy dinámicas, exámenes fáciles, pero muchas tareas.",
+    "es muy buena maestra y trata de que comprendas lo mas básico para que así no te enredes cuando los temas avancen.",
+    "es una gran maestra y en extremo paciente ademas de explicar muy bien."
+  ],
+  "n_reviews": 6
+}

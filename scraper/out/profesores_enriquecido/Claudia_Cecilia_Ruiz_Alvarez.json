@@ -1,0 +1,210 @@
+{
+  "professor_id": "Claudia_Cecilia_Ruiz_Alvarez",
+  "nombre": "Claudia Cecilia Ruiz Alvarez",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 9.589705528347057,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.692701235450503,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.714,
+    "wilson_interval": [
+      0.35892909014821267,
+      0.9177828342909845
+    ],
+    "n_recommendations": 7
+  },
+  "subject_normalization": {
+    "z_mean": 0.46,
+    "z_mean_decayed": 0.37,
+    "per_subject": [
+      {
+        "materia": "VARIAS",
+        "z_decayed": 1.0722219284950192,
+        "n": 3
+      },
+      {
+        "materia": "DESARROLLO SUSTENTABLE",
+        "z_decayed": 0.17042229758964997,
+        "n": 52
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "si recomiendo",
+          "es",
+          "sabe",
+          "trabajos",
+          "si"
+        ],
+        "weight": 0.16175276218366624
+      },
+      {
+        "id": 1,
+        "words": [
+          "exponen",
+          "alumnos",
+          "si",
+          "recomiendo",
+          "si recomiendo"
+        ],
+        "weight": 0.23979476968677474
+      },
+      {
+        "id": 2,
+        "words": [
+          "recomiendo",
+          "deja",
+          "alumnos",
+          "exponen",
+          "es"
+        ],
+        "weight": 0.27526172870452453
+      }
+    ],
+    "sentiment": {
+      "overall": 0.0,
+      "by_month": {
+        "2023-01": 0.0,
+        "2021-09": -1.0,
+        "2020-01": 0.0,
+        "2013-06": 1.0,
+        "2012-02": 0.0,
+        "2011-12": 0.0,
+        "2011-11": 0.0
+      }
+    },
+    "n_comments": 7
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        10.0,
+        6.0,
+        10.0,
+        6.0,
+        10.0,
+        9.0,
+        10.0
+      ],
+      "ewma": [
+        10.0,
+        8.8,
+        9.16,
+        8.212,
+        8.7484,
+        8.823879999999999,
+        9.176715999999999
+      ],
+      "sigma": 1.590947635256422
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 9.176715999999999,
+      "quality_band": [
+        6.058458634897412,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2023-01-15T00:00:00",
+      "materia": "GESTIÓN",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Sabe mucho de los temas, le apasionan y se le ve interesada en que aprendas. Transmite esa emoción por la carrera, es incluso hasta refrescante.\nSus trabajos no son para tanto, son mas para cumplir con el programa, sus clases son las buenas.\nSi me la topo en la carga, cargo."
+    },
+    {
+      "fecha_iso": "2021-09-03T00:00:00",
+      "materia": "GESTIÓN EMPRESARIAL",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "No es dificil pasar con ella pero si es alguien que deja algo de tarea y maneja trabajos grupales. Sabe lo que explica. Algunas unidades las exponen los alumnos."
+    },
+    {
+      "fecha_iso": "2020-01-11T00:00:00",
+      "materia": "FUNDAMENTOS DE GESTIÓN EMPRESARIAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Sí la recomiendo, tomaría su clase otra vez!"
+    },
+    {
+      "fecha_iso": "2013-06-08T00:00:00",
+      "materia": "DESARROLLO SUSTENTABLE",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 0,
+      "comentario": "Ella nunca te va a explicar nada por que los alumnos exponen toda la materia,al final te deja hacer un proyecto muy elaborado y lo único bueno es una plática muy padre que da su esposo fuera de eso no la recomiendo en lo absoluto,\nse podría decir que es la menos peor."
+    },
+    {
+      "fecha_iso": "2012-02-22T00:00:00",
+      "materia": "VARIAS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Exelente profesora, muy buena, trabajos sencillos y si preguntas si sabe."
+    },
+    {
+      "fecha_iso": "2011-12-13T00:00:00",
+      "materia": "DESARROLLO SUSTENTABLE",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 0,
+      "comentario": "Solo hay que entregar tareas y ponerle empeño a las exposiciones y tines 100"
+    },
+    {
+      "fecha_iso": "2011-11-30T00:00:00",
+      "materia": "DESARROLLO SUSTENTABLE",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "SI LA RECOMIENDO"
+    }
+  ],
+  "comments_recent": [
+    "Sabe mucho de los temas, le apasionan y se le ve interesada en que aprendas. Transmite esa emoción por la carrera, es incluso hasta refrescante.\nSus trabajos no son para tanto, son mas para cumplir con el programa, sus clases son las buenas.\nSi me la topo en la carga, cargo.",
+    "No es dificil pasar con ella pero si es alguien que deja algo de tarea y maneja trabajos grupales. Sabe lo que explica. Algunas unidades las exponen los alumnos.",
+    "Sí la recomiendo, tomaría su clase otra vez!",
+    "Ella nunca te va a explicar nada por que los alumnos exponen toda la materia,al final te deja hacer un proyecto muy elaborado y lo único bueno es una plática muy padre que da su esposo fuera de eso no la recomiendo en lo absoluto,\nse podría decir que es la menos peor.",
+    "Exelente profesora, muy buena, trabajos sencillos y si preguntas si sabe.",
+    "Solo hay que entregar tareas y ponerle empeño a las exposiciones y tines 100",
+    "SI LA RECOMIENDO"
+  ],
+  "n_reviews": 7
+}

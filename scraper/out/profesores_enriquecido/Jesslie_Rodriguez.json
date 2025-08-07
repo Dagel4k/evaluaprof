@@ -1,0 +1,365 @@
+{
+  "professor_id": "Jesslie_Rodriguez",
+  "nombre": "Jesslie Rodriguez",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 9.028075073996707,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 8.027711464380662,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.889,
+    "wilson_interval": [
+      0.6719975513339578,
+      0.9689811315464172
+    ],
+    "n_recommendations": 18
+  },
+  "subject_normalization": {
+    "z_mean": 0.66,
+    "z_mean_decayed": 0.8,
+    "per_subject": [
+      {
+        "materia": "SIMULACION",
+        "z_decayed": 0.8078604460481623,
+        "n": 23
+      },
+      {
+        "materia": "SIMULACIÓN",
+        "z_decayed": 0.7970832766379852,
+        "n": 18
+      },
+      {
+        "materia": "---",
+        "z_decayed": -0.063840602107841,
+        "n": 521
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "semestre",
+          "equipos",
+          "explica",
+          "buena",
+          "deja"
+        ],
+        "weight": 0.10816129282614964
+      },
+      {
+        "id": 1,
+        "words": [
+          "bastante",
+          "maestra aprendes",
+          "pasas",
+          "curso",
+          "es"
+        ],
+        "weight": 0.10266009842157668
+      },
+      {
+        "id": 2,
+        "words": [
+          "onda",
+          "va",
+          "aprender",
+          "calificacion",
+          "te"
+        ],
+        "weight": 0.08435989498594476
+      },
+      {
+        "id": 3,
+        "words": [
+          "puedes",
+          "90",
+          "hagan",
+          "enojar",
+          "hagan enojar"
+        ],
+        "weight": 0.11405218254152194
+      },
+      {
+        "id": 4,
+        "words": [
+          "aprender",
+          "es",
+          "logica",
+          "mucha",
+          "mucha logica"
+        ],
+        "weight": 0.11453884130752116
+      }
+    ],
+    "sentiment": {
+      "overall": 0.06666666666666667,
+      "by_month": {
+        "2022-02": 0.0,
+        "2021-09": 0.0,
+        "2021-08": 0.0,
+        "2021-06": 1.0,
+        "2021-05": 0.0,
+        "2020-09": 0.0,
+        "2020-06": 0.0,
+        "2020-01": 0.0,
+        "2019-08": 0.0,
+        "2019-06": 0.0,
+        "2017-11": 0.0,
+        "2017-08": 0.0,
+        "2015-06": 0.0,
+        "2013-08": 0.0,
+        "2013-06": 0.0
+      }
+    },
+    "n_comments": 15
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        6.0,
+        5.0,
+        7.0,
+        9.0,
+        8.0,
+        10.0,
+        10.0,
+        10.0,
+        7.0,
+        10.0,
+        10.0,
+        9.0,
+        9.0,
+        8.0,
+        9.0,
+        9.0,
+        9.0
+      ],
+      "ewma": [
+        6.0,
+        5.699999999999999,
+        6.09,
+        6.962999999999999,
+        7.274099999999999,
+        8.09187,
+        8.664309,
+        9.0650163,
+        8.44551141,
+        8.911857987,
+        9.2383005909,
+        9.16681041363,
+        9.116767289540999,
+        8.781737102678699,
+        8.84721597187509,
+        8.893051180312561,
+        8.925135826218792
+      ],
+      "sigma": 0.9387503249280713
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 8.925135826218792,
+      "quality_band": [
+        7.085185189359772,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2023-06-12T00:00:00",
+      "materia": "SIMULACION",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2022-03-15T00:00:00",
+      "materia": "SIMULACION",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 7.5,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2022-02-21T00:00:00",
+      "materia": "SIMULACION",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "No te confies que porque es buena onda te va a regalar calificación, ideal para aprender"
+    },
+    {
+      "fecha_iso": "2021-09-29T00:00:00",
+      "materia": "SIMULACION",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Llevar con ella es para aprender mucha logica"
+    },
+    {
+      "fecha_iso": "2021-08-24T00:00:00",
+      "materia": "SIMULACIÓN",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Explica bien chilo, eso si pasar con ella no es regalado, deja muchas tareas. Aprendes mucha logica"
+    },
+    {
+      "fecha_iso": "2021-06-18T00:00:00",
+      "materia": "SIMULACION",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "La maestra es buena onda, explica claro los temas pero en los proyectos casi siempre hay dudas.  Lo mas pesado son todos los proyectos que deja, aunque el 90% son en equipo, siempre hay alguno que no trabaja. Toda la programación va por tu cuenta, ella solo explica el funcionamiento del programa."
+    },
+    {
+      "fecha_iso": "2021-05-18T00:00:00",
+      "materia": "SIMULACIÓN",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 23.0,
+      "recomienda": 1,
+      "comentario": "Es pesado en cuestiones de trabajo, deja muchas tareas en equipo de un día para otro, a veces da muy poco tiempo para realizar proyectos. Por otro lado, es una buena maestra y es accesible a permisos y ayudas si la abordas con tiempo y de buena manera."
+    },
+    {
+      "fecha_iso": "2020-09-07T00:00:00",
+      "materia": "SIMULACION",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Deja muchos codigos en equipos a lo largo del semestre, la profe es re buena onda, ojala tener mas profes que sean asi de chill y relajados en las clases"
+    },
+    {
+      "fecha_iso": "2020-06-07T00:00:00",
+      "materia": "SIMULACION",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Muy buena maestra, aprendes bastante. Eso si, el curso es muy pesado y no pasas sin aprender"
+    },
+    {
+      "fecha_iso": "2020-01-13T00:00:00",
+      "materia": "SIMULACIÓN",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Muy buena maestra, muy agradable y explica bien los temas.\nPide hacer equipos de cinco y deja bastantes trabajos durante el semestre, por lo regular con uno o dos días para hacerlos.\nNo suele tomar lista pero sabe quienes faltan."
+    },
+    {
+      "fecha_iso": "2019-08-08T00:00:00",
+      "materia": "SIMULACIÓN",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Es un amor de maestra, aprendes bastante y es sencilla para calificar, nomas que no regala calificación (para la bola de huevones)"
+    },
+    {
+      "fecha_iso": "2019-06-07T00:00:00",
+      "materia": "SIMULACIÓN",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "La materia te puede parecer complicada, pero la profesora te ayuda muchísimo y es un amor, así que si quieres aprender cárgala, ojo no te regalará la calificación"
+    },
+    {
+      "fecha_iso": "2019-06-04T00:00:00",
+      "materia": "SIMULACION",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2017-11-22T00:00:00",
+      "materia": "SIMULACION",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Facil, no la hagan enojar y tienes el 90 asegurado"
+    },
+    {
+      "fecha_iso": "2017-08-02T00:00:00",
+      "materia": "SIMULACIÓN",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "La profesora es buena gente, No la hagan enojar o todo se puede complicar. Suele dejar programas de un día para otro, algunos fáciles otros no tanto.  Si le hechas ganas puedes pasar bien con ella. Estudia mucho para cuando hagas examen con ella."
+    },
+    {
+      "fecha_iso": "2015-06-09T00:00:00",
+      "materia": "SIMULACION",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Examenes faciles, clases light, falta a veces. Cae bien, a lo mejor no domina completamente la materia. Pero los temas se tocan, y la teoría se da, si tu investigas por tu cuenta puedes aprender mucho."
+    },
+    {
+      "fecha_iso": "2013-08-09T00:00:00",
+      "materia": "---",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2013-06-18T00:00:00",
+      "materia": "SIMULACION",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 0,
+      "comentario": "es camarada, hace examenes facilisimos, y ayuda mucho, no ve el curso completo, de seguro pasas sin esfuerzo"
+    }
+  ],
+  "comments_recent": [
+    "No te confies que porque es buena onda te va a regalar calificación, ideal para aprender",
+    "Llevar con ella es para aprender mucha logica",
+    "Explica bien chilo, eso si pasar con ella no es regalado, deja muchas tareas. Aprendes mucha logica",
+    "La maestra es buena onda, explica claro los temas pero en los proyectos casi siempre hay dudas.  Lo mas pesado son todos los proyectos que deja, aunque el 90% son en equipo, siempre hay alguno que no trabaja. Toda la programación va por tu cuenta, ella solo explica el funcionamiento del programa.",
+    "Es pesado en cuestiones de trabajo, deja muchas tareas en equipo de un día para otro, a veces da muy poco tiempo para realizar proyectos. Por otro lado, es una buena maestra y es accesible a permisos y ayudas si la abordas con tiempo y de buena manera.",
+    "Deja muchos codigos en equipos a lo largo del semestre, la profe es re buena onda, ojala tener mas profes que sean asi de chill y relajados en las clases",
+    "Muy buena maestra, aprendes bastante. Eso si, el curso es muy pesado y no pasas sin aprender",
+    "Muy buena maestra, muy agradable y explica bien los temas.\nPide hacer equipos de cinco y deja bastantes trabajos durante el semestre, por lo regular con uno o dos días para hacerlos.\nNo suele tomar lista pero sabe quienes faltan."
+  ],
+  "n_reviews": 18
+}

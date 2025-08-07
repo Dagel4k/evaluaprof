@@ -1,0 +1,280 @@
+{
+  "professor_id": "Nadia_Camacho_Navarro",
+  "nombre": "Nadia Camacho Navarro",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 7.436667293170844,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.0887960501329275,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.7,
+    "wilson_interval": [
+      0.3967732199795652,
+      0.892210712513788
+    ],
+    "n_recommendations": 10
+  },
+  "subject_normalization": {
+    "z_mean": -0.02,
+    "z_mean_decayed": 0.01,
+    "per_subject": [
+      {
+        "materia": "DIBUJO ASISTIDO POR COMPUTADORA",
+        "z_decayed": 0.7888106377466155,
+        "n": 15
+      },
+      {
+        "materia": "DIBUJO INDUSTRIAL",
+        "z_decayed": 0.062303654781176054,
+        "n": 43
+      },
+      {
+        "materia": "PROBABILIDAD Y ESTADÍSTICA",
+        "z_decayed": -0.1835579610298396,
+        "n": 23
+      },
+      {
+        "materia": "DIBUJO",
+        "z_decayed": -0.2571420794055089,
+        "n": 14
+      },
+      {
+        "materia": "CALCULO VECTORIAL",
+        "z_decayed": -0.7352482246381097,
+        "n": 57
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "reprueba",
+          "te reprueba",
+          "hacer",
+          "hace",
+          "te"
+        ],
+        "weight": 0.10113225000761958
+      },
+      {
+        "id": 1,
+        "words": [
+          "te reprueba",
+          "mitad",
+          "100",
+          "domina",
+          "si"
+        ],
+        "weight": 0.10183587318411964
+      },
+      {
+        "id": 2,
+        "words": [
+          "hace",
+          "hacer",
+          "100",
+          "tus",
+          "buena"
+        ],
+        "weight": 0.13799908637232058
+      },
+      {
+        "id": 3,
+        "words": [
+          "te reprueba",
+          "te",
+          "si",
+          "mitad",
+          "es"
+        ],
+        "weight": 0.09592244760483491
+      },
+      {
+        "id": 4,
+        "words": [
+          "te",
+          "buena maestra",
+          "maestra",
+          "si",
+          "bien"
+        ],
+        "weight": 0.14008716948260616
+      }
+    ],
+    "sentiment": {
+      "overall": 0.2,
+      "by_month": {
+        "2017-01": 0.0,
+        "2016-08": 1.0,
+        "2015-11": 0.0,
+        "2015-05": 0.0,
+        "2015-01": 0.0,
+        "2014-08": 0.0,
+        "2014-02": 0.0,
+        "2014-01": 1.0
+      }
+    },
+    "n_comments": 10
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        10.0,
+        9.0,
+        6.0,
+        4.0,
+        9.0,
+        8.0,
+        8.0,
+        10.0
+      ],
+      "ewma": [
+        10.0,
+        9.7,
+        8.59,
+        7.213,
+        7.7491,
+        7.82437,
+        7.877058999999999,
+        8.513941299999999
+      ],
+      "sigma": 1.6834332211734926
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 8.513941299999999,
+      "quality_band": [
+        5.2144121864999535,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2017-01-17T00:00:00",
+      "materia": "DIBUJO ASISTIDO POR COMPUTADORA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Muy buena maestra, se cotorrea chido en su clase. si pones atención te va bien"
+    },
+    {
+      "fecha_iso": "2016-08-09T00:00:00",
+      "materia": "DIBUJO INDUSTRIAL",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Si le caes bien te ira genial, si le caes mal te reprueba, explica muy bien, pero si le falta que sea mas profesional, pero en términos generales buena maestra"
+    },
+    {
+      "fecha_iso": "2015-11-29T00:00:00",
+      "materia": "CALCULO VECTORIAL",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Es la primera vez que imparte,esta materia y casi no la domina, explico de manera clara lo poco que nos explico pero vimos como la mitad de todo el plan de estudios. Si quieres pasar con ella fácil adelante pero si quieres aprender hay mejores opciones"
+    },
+    {
+      "fecha_iso": "2015-05-17T00:00:00",
+      "materia": "DIBUJO",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Es de las pocas maestras que se preocupan por que el alumno realmente aprenda."
+    },
+    {
+      "fecha_iso": "2015-01-27T00:00:00",
+      "materia": "DIBUJO",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "No hace recuperación, te reprueba por una cosita que te falte, en mi salón reprobó a la mitad, NO carguen con ella"
+    },
+    {
+      "fecha_iso": "2015-01-26T00:00:00",
+      "materia": "DIBUJO ASISTIDO POR COMUPTADORA",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "puede que te te espante  pero con que estés seguro de tus conocimientos pasas al menos con un 80 ,recomiendo hacer una lista con las funciones q enseñe."
+    },
+    {
+      "fecha_iso": "2015-01-08T00:00:00",
+      "materia": "DIBUJO",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 4.5,
+      "recomienda": 0,
+      "comentario": "No tiene palabra.."
+    },
+    {
+      "fecha_iso": "2014-08-08T00:00:00",
+      "materia": "PROBABILIDAD Y ESTADÍSTICA",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "No domina algunos temas al 100%. Pero si le echan ganas esta para salir mínimo con 90."
+    },
+    {
+      "fecha_iso": "2014-02-04T00:00:00",
+      "materia": "DIBUJO",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "muy buena onda, sabe lo que esta explicando y lo hace con claridad... le gusta cotorrear con sus alumnos (hacer bromas)"
+    },
+    {
+      "fecha_iso": "2014-01-15T00:00:00",
+      "materia": "DIBUJO ASISTIDO POR COMPUTADORA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Excelente profesora, atenta, buena persona y siempre resuelve tus dudas, recomendada 100%"
+    }
+  ],
+  "comments_recent": [
+    "Muy buena maestra, se cotorrea chido en su clase. si pones atención te va bien",
+    "Si le caes bien te ira genial, si le caes mal te reprueba, explica muy bien, pero si le falta que sea mas profesional, pero en términos generales buena maestra",
+    "Es la primera vez que imparte,esta materia y casi no la domina, explico de manera clara lo poco que nos explico pero vimos como la mitad de todo el plan de estudios. Si quieres pasar con ella fácil adelante pero si quieres aprender hay mejores opciones",
+    "Es de las pocas maestras que se preocupan por que el alumno realmente aprenda.",
+    "No hace recuperación, te reprueba por una cosita que te falte, en mi salón reprobó a la mitad, NO carguen con ella",
+    "puede que te te espante  pero con que estés seguro de tus conocimientos pasas al menos con un 80 ,recomiendo hacer una lista con las funciones q enseñe.",
+    "No tiene palabra..",
+    "No domina algunos temas al 100%. Pero si le echan ganas esta para salir mínimo con 90.",
+    "muy buena onda, sabe lo que esta explicando y lo hace con claridad... le gusta cotorrear con sus alumnos (hacer bromas)",
+    "Excelente profesora, atenta, buena persona y siempre resuelve tus dudas, recomendada 100%"
+  ],
+  "n_reviews": 10
+}

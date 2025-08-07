@@ -1,0 +1,314 @@
+{
+  "professor_id": "Inari_Maru_Valenzuela_Gonzalez",
+  "nombre": "Inari Maru Valenzuela Gonzalez",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 5.37134169239366,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 6.164170478376459,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.462,
+    "wilson_interval": [
+      0.23205754301488138,
+      0.7085656756816795
+    ],
+    "n_recommendations": 13
+  },
+  "subject_normalization": {
+    "z_mean": 0.03,
+    "z_mean_decayed": -0.02,
+    "per_subject": [
+      {
+        "materia": "ESTUDIO DEL TRABAJO I",
+        "z_decayed": 0.18875054192396648,
+        "n": 10
+      },
+      {
+        "materia": "ESTUDIO DEL TRABAJO",
+        "z_decayed": -0.11263827171798345,
+        "n": 13
+      },
+      {
+        "materia": "ESTUDIO DEL TRABAJO 1",
+        "z_decayed": -0.5368754921931594,
+        "n": 5
+      },
+      {
+        "materia": "---",
+        "z_decayed": -0.9627852966533863,
+        "n": 521
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "es",
+          "te",
+          "sabe",
+          "clase",
+          "si"
+        ],
+        "weight": 0.10477380264609656
+      },
+      {
+        "id": 1,
+        "words": [
+          "comentario esperando",
+          "esperando",
+          "esperando revision",
+          "comentario",
+          "revision"
+        ],
+        "weight": 0.10826940036160543
+      },
+      {
+        "id": 2,
+        "words": [
+          "pilas",
+          "deja",
+          "maestra",
+          "buena maestra",
+          "buena"
+        ],
+        "weight": 0.1717951020473357
+      },
+      {
+        "id": 3,
+        "words": [
+          "da",
+          "confusos",
+          "da viernes",
+          "viernes",
+          "examenes"
+        ],
+        "weight": 0.1297082721642827
+      },
+      {
+        "id": 4,
+        "words": [
+          "forma",
+          "temas",
+          "explica",
+          "estricta",
+          "accesible"
+        ],
+        "weight": 0.12111345061645425
+      }
+    ],
+    "sentiment": {
+      "overall": 0.0,
+      "by_month": {
+        "2021-04": 0.0,
+        "2020-05": 0.0,
+        "2020-01": 0.0,
+        "2019-05": 0.0,
+        "2016-01": 0.0,
+        "2013-12": -1.0,
+        "2013-07": 0.0,
+        "2013-06": 0.0,
+        "2012-12": 0.0,
+        "2012-08": 0.0,
+        "2011-11": 1.0,
+        "2011-10": 0.0
+      }
+    },
+    "n_comments": 13
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.013,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 0.99
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        2.0,
+        10.0,
+        10.0,
+        8.0,
+        9.0,
+        2.0,
+        8.0,
+        2.0,
+        4.0,
+        2.0,
+        3.0,
+        10.0
+      ],
+      "ewma": [
+        2.0,
+        4.4,
+        6.08,
+        6.655999999999999,
+        7.359199999999998,
+        5.751439999999998,
+        6.426007999999998,
+        5.098205599999997,
+        4.768743919999998,
+        3.938120743999998,
+        3.6566845207999985,
+        5.5596791645599986
+      ],
+      "sigma": 2.956049751937603
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 5.5596791645599986,
+      "quality_band": [
+        0.0,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2021-04-19T00:00:00",
+      "materia": "ESTUDIO DEL TRABAJO I",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Muy buena maestra, aprende el que quiere. Estricta al calificar pero aún así te deja muy buena enseñanza. Los que reprueban o sacan mala calificación es porque no se ponen las pilas"
+    },
+    {
+      "fecha_iso": "2020-05-23T00:00:00",
+      "materia": "PLANEACION ESTRATEGICA",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": 24.0,
+      "recomienda": 0,
+      "comentario": "YO NO SE QUIEN LE DIJO QUE UN ENSAYO SE HACE DE ESA FORMA. MUY GROSERA, PREPONTE Y NADA ACCESIBLE. NO EXPLICA NI LOS TEMAS DE SU MATERIA MUCHO MENOS DA ASESORIA EXTRA. POR FAVOR  NO CARGUEN, CORRANLA!!!!!!!!!"
+    },
+    {
+      "fecha_iso": "2020-01-12T00:00:00",
+      "materia": "ESTUDIO DEL TRABAJO I",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 0,
+      "comentario": "En serio no vayan a cargar con ella, o sea su pura forma de ser es muy mamona, si le preguntas algo se enoja, te grita, hasta te puede sacar de la clase sin motivo, las cosas no las repite, los proyectos los califica muy estrictamente, aparte expondran y  te pondra lo que quiera aunque merezcas mas"
+    },
+    {
+      "fecha_iso": "2019-05-06T00:00:00",
+      "materia": "ESTUDIO DEL TRABAJO 1",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "es muy estricta y sus exámenes son un poco confusos. ademas de pedirte un acordion obligatorio para presentar su exámenes y si no lo hesite te reprueba.  así y  no se le ocurre aser las recuperaciones hasta el final en ultima semana de clases."
+    },
+    {
+      "fecha_iso": "2016-01-14T00:00:00",
+      "materia": "ESTUDIO DEL TRABAJO",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Si quiered morir carga con ella"
+    },
+    {
+      "fecha_iso": "2013-12-16T00:00:00",
+      "materia": "ESTUDIO DEL TRABAJO",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "No da los viernes, lo unico malo es que sus examenees son un poco confusos"
+    },
+    {
+      "fecha_iso": "2013-07-28T00:00:00",
+      "materia": "ESTUDIO DE TRABAJO",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Es pesima dando clase no sabe nada, pero eso si muy extricta, se la pasa faltando y remata a no venir los vierno, cero profesional. No desquita su sueldo"
+    },
+    {
+      "fecha_iso": "2013-06-12T00:00:00",
+      "materia": "ESTUDIO DEL TRABAJO I",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Muy buena profesora, aunque falta seguido y no da los viernes pero explica muy bien los temas y los abarca todos, eso si es muy estricta pero sus examenes están faciles"
+    },
+    {
+      "fecha_iso": "2012-12-18T00:00:00",
+      "materia": "ESTUDIO DEL TRABAJO I",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Es muy buena maestra, y sus dinamicas son investigar y comentar en grupo, es buena maestra pero fuera mejor que ella lo explicara si mucho sabe de la materia, aprenderás lo necesario y tendras que ponerte las pilas por que deja muchos trabajos. Quedé satisfecho con ella. FALTA MUCHO y no da los vie."
+    },
+    {
+      "fecha_iso": "2012-08-16T00:00:00",
+      "materia": "ESTUDIO DEL TRABAJO",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "PROFRA. ESTRICTA PERO MUY ACCESIBLE CON LAS PERSONAS QUE TRABAJAN"
+    },
+    {
+      "fecha_iso": "2011-11-10T00:00:00",
+      "materia": "ESTUDIO DEL TRABAJO",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Muy buena maestra deja claro y bien entendido las cosas:)"
+    },
+    {
+      "fecha_iso": "2011-10-13T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2011-10-02T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    }
+  ],
+  "comments_recent": [
+    "Muy buena maestra, aprende el que quiere. Estricta al calificar pero aún así te deja muy buena enseñanza. Los que reprueban o sacan mala calificación es porque no se ponen las pilas",
+    "YO NO SE QUIEN LE DIJO QUE UN ENSAYO SE HACE DE ESA FORMA. MUY GROSERA, PREPONTE Y NADA ACCESIBLE. NO EXPLICA NI LOS TEMAS DE SU MATERIA MUCHO MENOS DA ASESORIA EXTRA. POR FAVOR  NO CARGUEN, CORRANLA!!!!!!!!!",
+    "En serio no vayan a cargar con ella, o sea su pura forma de ser es muy mamona, si le preguntas algo se enoja, te grita, hasta te puede sacar de la clase sin motivo, las cosas no las repite, los proyectos los califica muy estrictamente, aparte expondran y  te pondra lo que quiera aunque merezcas mas",
+    "es muy estricta y sus exámenes son un poco confusos. ademas de pedirte un acordion obligatorio para presentar su exámenes y si no lo hesite te reprueba.  así y  no se le ocurre aser las recuperaciones hasta el final en ultima semana de clases.",
+    "Si quiered morir carga con ella",
+    "No da los viernes, lo unico malo es que sus examenees son un poco confusos",
+    "Es pesima dando clase no sabe nada, pero eso si muy extricta, se la pasa faltando y remata a no venir los vierno, cero profesional. No desquita su sueldo",
+    "Muy buena profesora, aunque falta seguido y no da los viernes pero explica muy bien los temas y los abarca todos, eso si es muy estricta pero sus examenes están faciles",
+    "Es muy buena maestra, y sus dinamicas son investigar y comentar en grupo, es buena maestra pero fuera mejor que ella lo explicara si mucho sabe de la materia, aprenderás lo necesario y tendras que ponerte las pilas por que deja muchos trabajos. Quedé satisfecho con ella. FALTA MUCHO y no da los vie.",
+    "PROFRA. ESTRICTA PERO MUY ACCESIBLE CON LAS PERSONAS QUE TRABAJAN"
+  ],
+  "n_reviews": 13
+}

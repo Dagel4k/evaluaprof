@@ -1,0 +1,94 @@
+{
+  "nombre": "Graciela Janneth Del Rincón Sainz",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "ciudad": "Ciudad: culiacan, sinaloa",
+  "departamento": "Departamento/Facultad: Ing. En Sistemas",
+  "calidad_general": 7.0,
+  "porcentaje_recomienda": 60,
+  "nivel_dificultad": 4.4,
+  "etiquetas": [
+    "LA PARTICIPACIÓN IMPORTA (1)",
+    "BRINDA APOYO (1)",
+    "ASPECTOS DE CALIFICACIÓN CLAROS (1)",
+    "CLASES EXCELENTES (1)"
+  ],
+  "numero_calificaciones": 5,
+  "calificaciones": [
+    {
+      "fecha": "14/Jul/2022",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Gestion de Proyectos de Software",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "9",
+      "interes_clase": "",
+      "comentario": "La maestra esta sobre calificada para la materia, sabe mucho y explica muy claro. Entrega todas las tareas ya que en una recuperación ya no las acepta y solo subes promedio con el examen que tampoco puedes reprobar o no pasas la unidad. Al final solo es entregar el reporte del proyecto en equipo.",
+      "etiquetas_comentario": [
+        "Aspectos de calificación claros",
+        "Clases excelentes"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "16/Jun/2022",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 7.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Gestion de proy software",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "8",
+      "interes_clase": "",
+      "comentario": "",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "15/Ene/2019",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 8.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Gestion de Proyectos de SW",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "8.5",
+      "interes_clase": "",
+      "comentario": "La maestra es un amor de profesora. Es tranquila y calmada. Explica bien los temas y si necesitas ayuda te la puede brindar. Es muy comprensiva.  Aunque eso si, su material esta en ingles y ahi es donde puedes batallar un poco.",
+      "etiquetas_comentario": [
+        "La Participación Importa",
+        "Brinda apoyo"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "21/Mar/2011",
+      "tipo_calificacion": "REGULAR",
+      "puntaje_calidad_general": 4.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Fundamentos de desarrollo de sistemas",
+      "asistencia": "",
+      "calificacion_recibida": "5",
+      "interes_clase": "5",
+      "comentario": "ABURRIDAAAAAAAAAA\nLLEGA TARDE A LAS CLASES!!\nENTRA 40 MINUTOS DESPUES\nO SEA QUE LE PASA!",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "07/Ene/2011",
+      "tipo_calificacion": "REGULAR",
+      "puntaje_calidad_general": 6.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Fundamentos de Desarrollo de Sistemas",
+      "asistencia": "",
+      "calificacion_recibida": "7",
+      "interes_clase": "7",
+      "comentario": "Muy aburrida maestra, y muy mala para explicar.",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    }
+  ]
+}

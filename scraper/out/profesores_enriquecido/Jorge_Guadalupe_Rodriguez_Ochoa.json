@@ -1,0 +1,80 @@
+{
+  "professor_id": "Jorge_Guadalupe_Rodriguez_Ochoa",
+  "nombre": "Jorge Guadalupe Rodriguez Ochoa",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 6.164660732807547,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.06466008355488,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.5,
+    "wilson_interval": [
+      0.09452865480086611,
+      0.905471345199134
+    ],
+    "n_recommendations": 2
+  },
+  "subject_normalization": {
+    "z_mean": null,
+    "z_mean_decayed": null,
+    "per_subject": []
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [],
+    "sentiment": {
+      "overall": null,
+      "by_month": {}
+    },
+    "n_comments": 2
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": null,
+    "difficulty_trend": null,
+    "forecast": null,
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2020-05-23T00:00:00",
+      "materia": "LEGISLACION EN MATERIA ELECTRICA",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": "Sabe mucho de la materia y tiene un gran conocimiento, pero  es demasiado arrogante y esta demasiado resentido con todos. Puede estar dando una clase exelente y de repente se va a desviar a hablar de como la CFE no sirve para nada y el es el mejor ingeniero de Sinaloa, 70 es lo maximo que sacas"
+    },
+    {
+      "fecha_iso": "2016-12-15T00:00:00",
+      "materia": "INSTALACIONES ELECTRICAS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 1,
+      "comentario": "de los mejores profesores de ing. electrica. aprendes bastante, si quieres ser un buen ingeniero cuando egreses, carga con el. muy recomendado"
+    }
+  ],
+  "comments_recent": [
+    "Sabe mucho de la materia y tiene un gran conocimiento, pero  es demasiado arrogante y esta demasiado resentido con todos. Puede estar dando una clase exelente y de repente se va a desviar a hablar de como la CFE no sirve para nada y el es el mejor ingeniero de Sinaloa, 70 es lo maximo que sacas",
+    "de los mejores profesores de ing. electrica. aprendes bastante, si quieres ser un buen ingeniero cuando egreses, carga con el. muy recomendado"
+  ],
+  "n_reviews": 2
+}

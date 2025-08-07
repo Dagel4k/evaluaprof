@@ -1,0 +1,163 @@
+{
+  "professor_id": "Russel_Zazueta",
+  "nombre": "Russel Zazueta",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 4.752692460051248,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 6.4839943573327545,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.5,
+    "wilson_interval": [
+      0.15003570882017145,
+      0.8499642911798285
+    ],
+    "n_recommendations": 4
+  },
+  "subject_normalization": {
+    "z_mean": -0.67,
+    "z_mean_decayed": -0.94,
+    "per_subject": [
+      {
+        "materia": "REDES",
+        "z_decayed": 0.4108240150088804,
+        "n": 21
+      },
+      {
+        "materia": "REDES DE COMPUTADORAS",
+        "z_decayed": -0.3854399911566025,
+        "n": 15
+      },
+      {
+        "materia": "FUNDAMENTOS DE TELECOMUNICACIONES",
+        "z_decayed": -2.2606943887305295,
+        "n": 11
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "materia",
+          "es",
+          "te",
+          "si"
+        ],
+        "weight": 0.25148346723937776
+      },
+      {
+        "id": 1,
+        "words": [
+          "te",
+          "si",
+          "es",
+          "materia"
+        ],
+        "weight": 0.3973021250447718
+      }
+    ],
+    "sentiment": {
+      "overall": 0.0,
+      "by_month": {
+        "2020-01": 0.0,
+        "2018-06": 0.0,
+        "2018-01": 0.0,
+        "2017-11": 0.0
+      }
+    },
+    "n_comments": 4
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        2.0,
+        8.0,
+        9.0,
+        2.0
+      ],
+      "ewma": [
+        2.0,
+        3.8,
+        5.359999999999999,
+        4.351999999999999
+      ],
+      "sigma": 3.10332982455942
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 4.351999999999999,
+      "quality_band": [
+        0.0,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2020-01-13T00:00:00",
+      "materia": "FUNDAMENTOS DE TELECOMUNICACIONES",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Falta mucho, ni reprobando el global repruebas la materia con él."
+    },
+    {
+      "fecha_iso": "2018-06-05T00:00:00",
+      "materia": "REDES",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Sabe mucho y si le preguntas te explica. Pero es nuevo y no tiene mucha experiencia como maestro."
+    },
+    {
+      "fecha_iso": "2018-01-16T00:00:00",
+      "materia": "REDES DE COMPUTADORAS",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "es una materia barco, sino quieres batallar carga con el pero no aparenderas nada"
+    },
+    {
+      "fecha_iso": "2017-11-22T00:00:00",
+      "materia": "REDES DE COMPUTADORAS",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 0,
+      "comentario": "Si lo ven corran, no comentan ese error y si te lo ponen dala de baja...., perdida de tiempo total..."
+    }
+  ],
+  "comments_recent": [
+    "Falta mucho, ni reprobando el global repruebas la materia con él.",
+    "Sabe mucho y si le preguntas te explica. Pero es nuevo y no tiene mucha experiencia como maestro.",
+    "es una materia barco, sino quieres batallar carga con el pero no aparenderas nada",
+    "Si lo ven corran, no comentan ese error y si te lo ponen dala de baja...., perdida de tiempo total..."
+  ],
+  "n_reviews": 4
+}

@@ -1,0 +1,462 @@
+{
+  "professor_id": "jerson_rojas_bernal",
+  "nombre": "jerson rojas bernal",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 8.108560662363196,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.799331138962738,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.769,
+    "wilson_interval": [
+      0.5794807424804321,
+      0.8896630031632332
+    ],
+    "n_recommendations": 26
+  },
+  "subject_normalization": {
+    "z_mean": 0.26,
+    "z_mean_decayed": 0.26,
+    "per_subject": [
+      {
+        "materia": "CÁLCULO DIFERENCIAL",
+        "z_decayed": 0.7526588922815562,
+        "n": 46
+      },
+      {
+        "materia": "CALCULO DIFERENCIAL",
+        "z_decayed": 0.4556604305695731,
+        "n": 110
+      },
+      {
+        "materia": "CÁLCULO INTEGRAL",
+        "z_decayed": 0.2732213120731827,
+        "n": 24
+      },
+      {
+        "materia": "CALCULO INTEGRAL",
+        "z_decayed": 0.17225463778459527,
+        "n": 84
+      },
+      {
+        "materia": "CALCULO",
+        "z_decayed": -0.9103400948255063,
+        "n": 50
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "puntos extra",
+          "calculo",
+          "explica",
+          "explica bien",
+          "bien"
+        ],
+        "weight": 0.09016885502981718
+      },
+      {
+        "id": 1,
+        "words": [
+          "es buen",
+          "si",
+          "maestro",
+          "maestro es",
+          "es"
+        ],
+        "weight": 0.11736282687382261
+      },
+      {
+        "id": 2,
+        "words": [
+          "celular",
+          "telefono",
+          "va",
+          "da",
+          "clases"
+        ],
+        "weight": 0.13426496200801558
+      },
+      {
+        "id": 3,
+        "words": [
+          "duda",
+          "profesor explica",
+          "explica",
+          "buen profesor",
+          "profesor"
+        ],
+        "weight": 0.13453134550491433
+      },
+      {
+        "id": 4,
+        "words": [
+          "si",
+          "porque",
+          "te",
+          "solo",
+          "mas"
+        ],
+        "weight": 0.0978845136978313
+      }
+    ],
+    "sentiment": {
+      "overall": 0.0,
+      "by_month": {
+        "2022-04": 0.5,
+        "2022-03": 0.0,
+        "2022-02": 0.0,
+        "2021-09": 0.0,
+        "2021-08": 0.0,
+        "2021-02": 0.0,
+        "2019-08": 0.0,
+        "2019-06": 0.0,
+        "2019-04": 0.0,
+        "2019-02": 0.0,
+        "2018-06": 0.0,
+        "2015-11": 0.0,
+        "2014-07": 0.0,
+        "2014-03": -1.0,
+        "2013-02": 0.0,
+        "2013-01": 0.0,
+        "2012-10": 0.0,
+        "2012-08": 0.0,
+        "2012-01": 0.0
+      }
+    },
+    "n_comments": 22
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        8.0,
+        8.0,
+        10.0,
+        10.0,
+        10.0,
+        9.0,
+        4.0,
+        9.0,
+        10.0,
+        8.0,
+        10.0,
+        6.0,
+        6.0,
+        5.0,
+        7.0,
+        9.5,
+        3.0,
+        6.0,
+        10.0,
+        9.0,
+        10.0,
+        8.0
+      ],
+      "ewma": [
+        8.0,
+        8.0,
+        8.6,
+        9.02,
+        9.314,
+        9.2198,
+        7.653859999999999,
+        8.057701999999999,
+        8.640391399999999,
+        8.448273979999998,
+        8.913791785999997,
+        8.039654250199998,
+        7.427757975139998,
+        6.699430582597998,
+        6.789601407818598,
+        7.6027209854730184,
+        6.221904689831112,
+        6.155333282881777,
+        7.308733298017244,
+        7.816113308612071,
+        8.471279316028449,
+        8.329895521219914
+      ],
+      "sigma": 1.6199078331148995
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 8.329895521219914,
+      "quality_band": [
+        5.154876168314711,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2025-01-16T00:00:00",
+      "materia": "CALCULO DIFERENCIAL",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2022-04-30T00:00:00",
+      "materia": "CALCULO INTEGRAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Muy buen profesor, explica un poco rápido pero con que le pongas atención el tema te quedara claro. (AL FINAL LE REGALAREMOS UNA GORRA DE GALLO)."
+    },
+    {
+      "fecha_iso": "2022-04-30T00:00:00",
+      "materia": "CALCULO INTEGRAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 23.0,
+      "recomienda": 1,
+      "comentario": "Muy buen profesor, explica de manera clara y resuelve dudas, aunque a veces puede ir un poco rápido, sin duda en una muy buena opción para cargar calculo."
+    },
+    {
+      "fecha_iso": "2022-03-29T00:00:00",
+      "materia": "CÁLCULO INTEGRAL",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Al chile en virtuales no vale pinga, pero en presencial otro pedo explica bien y resuelve dudas, además si haces ejercicios y participas puntos extra asegurados"
+    },
+    {
+      "fecha_iso": "2022-02-10T00:00:00",
+      "materia": "CÁLCULO DIFERENCIAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "El mejor profe que he tenido, explica bien, es cierto que llega tarde, pero explica un tema por clase y no como otros profes que te saturan de información. Da muchos puntos extra y sus exámenes son parecidos a la tarea que deja."
+    },
+    {
+      "fecha_iso": "2021-09-29T00:00:00",
+      "materia": "CALCULO INTEGRAL",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 0,
+      "comentario": "Va en friega en las clases y los examenes tienen cosas diferentes"
+    },
+    {
+      "fecha_iso": "2021-08-13T00:00:00",
+      "materia": "CALCULO",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": 6.5,
+      "recomienda": 0,
+      "comentario": "Actualmente en clases virtuales,da la clase usando su celular y dibujando en su telefono las respuestas y explicaciones.No se le entiende nada"
+    },
+    {
+      "fecha_iso": "2021-02-11T00:00:00",
+      "materia": "CALCULO DIFERENCIAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Explica los problemas y se esfuerza para que no tengamos ninguna duda"
+    },
+    {
+      "fecha_iso": "2021-02-11T00:00:00",
+      "materia": "CALCULO DIFERENCIAL",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "El compa buenas tardes está bien chido"
+    },
+    {
+      "fecha_iso": "2019-08-05T00:00:00",
+      "materia": "CÁLCULO INTEGRAL",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 1,
+      "comentario": "Es buen maestro, pero es muy reservado. Sabe los temas que imparte, por otro lado, parece que da las clases sin ganas. Además que va muy rápido."
+    },
+    {
+      "fecha_iso": "2019-06-04T00:00:00",
+      "materia": "CALCULO INTEGRAL",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 7.5,
+      "recomienda": 0,
+      "comentario": "Nada más les voy a decir esto: Jerson no perdona ni un solo punto. Fin"
+    },
+    {
+      "fecha_iso": "2019-04-11T00:00:00",
+      "materia": "CALCULO INTEGRAL",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 7.5,
+      "recomienda": 0,
+      "comentario": "En sí el maestro sabe mucho de calculo, pero al hacer los examenes es algo pesado ya que suele poner los ejemplos mas dificiles, y aguas con que un solo signo te salga mal en la respuesta porque te la pondrá mal. Quizá debería poner ejemplos más claros y parecidos a los de la clase para hacer examen"
+    },
+    {
+      "fecha_iso": "2019-02-23T00:00:00",
+      "materia": "CALCULO INTEGRAL",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 0,
+      "comentario": "Va algo rápido con los problemas y siempre suele estar con el telefono celular. En cuanto a la evaluacion te da puntos extras por participar"
+    },
+    {
+      "fecha_iso": "2018-08-05T00:00:00",
+      "materia": "CÁLCULO INTEGRAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 7.5,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2018-06-08T00:00:00",
+      "materia": "CALCULO INTEGRAL",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Es buen profesor, pero solo explica una vez las cosas, y escribe muy rapido en el pizarron, siento que es algo desinteresado porque siempre llega tarde y sale de la clase a hablar por telefono, eso si hace muchas recuperaciones para cada unidad, aunque da flojera su clase."
+    },
+    {
+      "fecha_iso": "2018-06-08T00:00:00",
+      "materia": "CALCULO INTEGRAL",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2016-01-15T00:00:00",
+      "materia": "CÁLCULO DIFERENCIAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2015-11-20T00:00:00",
+      "materia": "CALCULO DIFERENCIAL",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Este maestro es otro rollo. Si pueden carguen con el."
+    },
+    {
+      "fecha_iso": "2014-07-12T00:00:00",
+      "materia": "CALCULO INTEGRAL",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "La verdad da las clases mega aburridas, hace que el curso sea muy tedioso y poco entendible."
+    },
+    {
+      "fecha_iso": "2014-03-07T00:00:00",
+      "materia": "CALCULO INTEGRAL",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Explica bien, pero tiene la mala , que explica muy rapido, si le pides k vaa mas lento, lo ase."
+    },
+    {
+      "fecha_iso": "2013-02-12T00:00:00",
+      "materia": "CALCULO INTEGRAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "peladito y en la boca"
+    },
+    {
+      "fecha_iso": "2013-01-13T00:00:00",
+      "materia": "CÁLCULO DIFERENCIAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Es un amor"
+    },
+    {
+      "fecha_iso": "2012-10-19T00:00:00",
+      "materia": "CALCULO INTEGRAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "De los mejores profesores de cálculo, explica muy bien, muy benévolo, lo recomiendo ampliamente"
+    },
+    {
+      "fecha_iso": "2012-08-16T00:00:00",
+      "materia": "CALCULO DIF",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "jamas me habian dado tantas oportunidades para pasar una materia como este profesor, nomas no andes tirando la toalla y juntate con alguien para que de perdida copies y pasas alguna de las recuperaciones"
+    },
+    {
+      "fecha_iso": "2012-08-10T00:00:00",
+      "materia": "CALCULO",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "muy buen maestro, explica muy bien, y da muchas oportunidades :)"
+    },
+    {
+      "fecha_iso": "2012-01-10T00:00:00",
+      "materia": "CALCULO",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "bn"
+    }
+  ],
+  "comments_recent": [
+    "Muy buen profesor, explica un poco rápido pero con que le pongas atención el tema te quedara claro. (AL FINAL LE REGALAREMOS UNA GORRA DE GALLO).",
+    "Muy buen profesor, explica de manera clara y resuelve dudas, aunque a veces puede ir un poco rápido, sin duda en una muy buena opción para cargar calculo.",
+    "Al chile en virtuales no vale pinga, pero en presencial otro pedo explica bien y resuelve dudas, además si haces ejercicios y participas puntos extra asegurados",
+    "El mejor profe que he tenido, explica bien, es cierto que llega tarde, pero explica un tema por clase y no como otros profes que te saturan de información. Da muchos puntos extra y sus exámenes son parecidos a la tarea que deja.",
+    "Va en friega en las clases y los examenes tienen cosas diferentes",
+    "Actualmente en clases virtuales,da la clase usando su celular y dibujando en su telefono las respuestas y explicaciones.No se le entiende nada",
+    "Explica los problemas y se esfuerza para que no tengamos ninguna duda",
+    "El compa buenas tardes está bien chido",
+    "Es buen maestro, pero es muy reservado. Sabe los temas que imparte, por otro lado, parece que da las clases sin ganas. Además que va muy rápido."
+  ],
+  "n_reviews": 26
+}

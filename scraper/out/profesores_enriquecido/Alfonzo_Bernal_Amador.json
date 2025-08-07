@@ -1,0 +1,582 @@
+{
+  "professor_id": "Alfonzo_Bernal_Amador",
+  "nombre": "Alfonzo Bernal Amador",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 9.335847440063457,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 8.934202469442011,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.974,
+    "wilson_interval": [
+      0.8681871352137286,
+      0.9954594139347628
+    ],
+    "n_recommendations": 39
+  },
+  "subject_normalization": {
+    "z_mean": 0.21,
+    "z_mean_decayed": 0.17,
+    "per_subject": [
+      {
+        "materia": "CALCULO VECTORIAL",
+        "z_decayed": 0.1938526409201752,
+        "n": 57
+      },
+      {
+        "materia": "CÁLCULO VECTORIAL",
+        "z_decayed": 0.14584726023774358,
+        "n": 26
+      },
+      {
+        "materia": "---",
+        "z_decayed": -0.9627852966533862,
+        "n": 521
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "persona",
+          "es",
+          "buena",
+          "explica",
+          "si"
+        ],
+        "weight": 0.08229059234464721
+      },
+      {
+        "id": 1,
+        "words": [
+          "es 100",
+          "100",
+          "mejor",
+          "clases",
+          "es"
+        ],
+        "weight": 0.12674579457043772
+      },
+      {
+        "id": 2,
+        "words": [
+          "tareas",
+          "buen maestro",
+          "buen",
+          "clase",
+          "examenes"
+        ],
+        "weight": 0.11493368820619344
+      },
+      {
+        "id": 3,
+        "words": [
+          "tiene",
+          "siempre",
+          "excelente",
+          "maestro",
+          "excelente maestro"
+        ],
+        "weight": 0.1138856595223971
+      },
+      {
+        "id": 4,
+        "words": [
+          "te",
+          "si",
+          "bien profe",
+          "bien",
+          "profe"
+        ],
+        "weight": 0.10490064647999621
+      }
+    ],
+    "sentiment": {
+      "overall": 0.47058823529411764,
+      "by_month": {
+        "2021-12": 0.3333333333333333,
+        "2021-08": 0.0,
+        "2020-10": 0.0,
+        "2020-06": 1.0,
+        "2020-02": -1.0,
+        "2020-01": 1.0,
+        "2019-12": 1.0,
+        "2019-08": 1.0,
+        "2019-01": 1.0,
+        "2018-12": 0.0,
+        "2018-01": 1.0,
+        "2017-08": 1.0,
+        "2015-08": 1.0,
+        "2015-05": -1.0,
+        "2015-01": 0.5,
+        "2014-05": 0.0,
+        "2013-12": 1.0,
+        "2013-10": 1.0,
+        "2013-08": 0.6666666666666666,
+        "2013-07": 0.3333333333333333,
+        "2013-04": 0.0,
+        "2013-01": 1.0,
+        "2012-10": 0.0
+      }
+    },
+    "n_comments": 34
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        9.0,
+        10.0,
+        10.0,
+        7.0,
+        9.666666666666666,
+        10.0,
+        10.0,
+        10.0,
+        9.75,
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        9.0,
+        10.0,
+        10.0,
+        9.5,
+        9.5,
+        10.0,
+        10.0,
+        10.0,
+        9.0,
+        9.0,
+        9.0,
+        9.666666666666666,
+        9.0,
+        8.0
+      ],
+      "ewma": [
+        9.0,
+        9.3,
+        9.51,
+        8.757,
+        9.0299,
+        9.32093,
+        9.524651,
+        9.6672557,
+        9.692078989999999,
+        9.784455292999999,
+        9.849118705099999,
+        9.89438309357,
+        9.926068165499,
+        9.6482477158493,
+        9.75377340109451,
+        9.827641380766156,
+        9.729348966536309,
+        9.660544276575417,
+        9.762380993602791,
+        9.833666695521954,
+        9.883566686865368,
+        9.618496680805757,
+        9.43294767656403,
+        9.30306337359482,
+        9.412144361516374,
+        9.288501053061461,
+        8.901950737143022
+      ],
+      "sigma": 0.5341303058053717
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 8.901950737143022,
+      "quality_band": [
+        7.855055337764493,
+        9.94884613652155
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2023-06-01T00:00:00",
+      "materia": "RELLENO VECTORIAL",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2022-06-09T00:00:00",
+      "materia": "CALCULO VECTORIAL",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2021-12-21T00:00:00",
+      "materia": "CALCULO VECTORIAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": "Excelente maestro sin duda alguna cargen con el, son algo dificiles sus examenes pero siempre pone cosas que se vieron en clase y ademas ayuda y explica muy bien, excelente maestro."
+    },
+    {
+      "fecha_iso": "2021-12-17T00:00:00",
+      "materia": "CÁLCULO VECTORIAL (LINEA)",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Muy buen profesor pero muy desconfiado con los exámenes (al menos en línea). No deja tareas pero el examen cuenta el 100%, tienes que tener las asistencias mínimas, explica muy bien y en el examen tienes que hacer su mismo procedimiento de la clase, sino piensa que copiaste. Carga con el si puedes"
+    },
+    {
+      "fecha_iso": "2021-12-07T00:00:00",
+      "materia": "CALCULO VECTORIAL",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": "Es re pro dando clases, le deseo lo mejor en su futuro"
+    },
+    {
+      "fecha_iso": "2021-08-27T00:00:00",
+      "materia": "CALCULO VECTORIAL",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "explica con gusto lo que hace , eso si pasar con el no es gratis , los examenes estan algo dificiles por eso tienes que preguntar cualquier duda y siempre prestar atencion, es buena onda pero eso no significa que te regale calificacion, abusado"
+    },
+    {
+      "fecha_iso": "2020-10-05T00:00:00",
+      "materia": "CALCULO VECTORIAL",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Te va a explicar cualquier duda que tengas por mas estupida que sea, se ve que le gusta la materia y eso te dan ganas de aprender"
+    },
+    {
+      "fecha_iso": "2020-06-12T00:00:00",
+      "materia": "CALCULO VECTORIAL",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 1,
+      "comentario": "Uff viejo, muy buen profe de calculo. No tiene problema en que le preguntes cualquier duda por mas tonta que sea. Eso si, si buscas un profe para pasar calculo sin hacer nada, estas en el lugar incorrecto. Examenes un poquito complicados. Con el tienes que aprender macizo para pasar, o ba bai. Bueno"
+    },
+    {
+      "fecha_iso": "2020-02-20T00:00:00",
+      "materia": "CÁLCULO VECTORIAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 1,
+      "comentario": "Gran profesor, mejor filtro. No tiene reparo en explicarte cuantas veces lo necesites y es muy respetuoso. La calificació es 100% el exámen, el cual no es difícil en demasía. Para pasar con él hay que hecharle ganas, ya que si no, no va a tener piedad a la hora de reprobarte (solo pasamos 14 de 38)."
+    },
+    {
+      "fecha_iso": "2020-01-16T00:00:00",
+      "materia": "CÁLCULO VECTORIAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Muy buen profe, sin duda volvería a cargar con el, explica muy bien y lo más claro que te puedas imaginar, si aparece en tu carga no dudes que es la mejor opción"
+    },
+    {
+      "fecha_iso": "2019-12-13T00:00:00",
+      "materia": "CALCULO VECTORIAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Bernal es un muy buen maestro. El te dice \"mis conocimientos son para ustedes\" y es cierto. pasar es 100% examen. Si eres de los que no sabe nada y quiere pasar hasta ahí vas a llegar. Y si sientes que eres bueno pero no lo suficiente, lo mas probable es que ahí te quedes también."
+    },
+    {
+      "fecha_iso": "2019-08-08T00:00:00",
+      "materia": "CALCULO VECTORIAL",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2019-08-05T00:00:00",
+      "materia": "CALCULO VECTORIAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 1,
+      "comentario": "Es el mejor profesor de calculo que he tenido, ademas que es una excelente persona. Sus clases están enfocadas a que entiendas su materia y no se cansa de explicar. Su forma de dar la clase te impresiona por el hecho de que la da de forma apasionada. Toma en cuenta el esfuerzo de las personas."
+    },
+    {
+      "fecha_iso": "2019-01-15T00:00:00",
+      "materia": "CÁLCULO VECTORIAL",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Muy buen profe, enseña muy claro, se ve que sabe de su clase y todo lo da muy bien digerido para que lo entiendas, los exámenes los hace de todo lo que se ve en la clase, deja unas hojas de tareas no obligatorias para estudiar."
+    },
+    {
+      "fecha_iso": "2019-01-15T00:00:00",
+      "materia": "CÁLCULO VECTORIAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Excelente maestro, era una clase a la cual entraba con ganas, ya que nunca fueron aburridas, los examenes a su medida, eran fáciles si ponias atención"
+    },
+    {
+      "fecha_iso": "2018-12-08T00:00:00",
+      "materia": "CÁLCULO VECTORIAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "El examen es 100%, pero los hace de lo que vio en clases y es muy abierto a las preguntas. Sin duda entra en mi top de maestros de calculo"
+    },
+    {
+      "fecha_iso": "2018-12-08T00:00:00",
+      "materia": "CÁLCULO VECTORIAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Un maestro que realmente toma de la mano al alumno paso a paso para que comprendas todo de una manera más sencilla. Es muy accesible a resolver tus dudas por más simples que sean, sus clases son entretenidas y para nada fastidiosas. Es muy justo al calificar ya que el examen vale 100%"
+    },
+    {
+      "fecha_iso": "2018-08-08T00:00:00",
+      "materia": "CALCULO VECTORIAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2018-02-16T00:00:00",
+      "materia": "CÁLCULO VECTORIAL",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 24.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2018-01-09T00:00:00",
+      "materia": "CALCULO VECTORIAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Muy buen maestro mis respetos , explica súper claro. Se enfoca en que pongas atención y después apuntes , sus exámenes son lo que vemos en clase y en sus tareas; la clave es practicar para pasar sus exámenes"
+    },
+    {
+      "fecha_iso": "2017-08-05T00:00:00",
+      "materia": "CÁLCULO VECTORIAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 24.0,
+      "recomienda": 1,
+      "comentario": "Excelente maestro, explica muy bien y de buena manera, siempre esta explicarte si no entiendes."
+    },
+    {
+      "fecha_iso": "2015-08-10T00:00:00",
+      "materia": "CÁLCULO VECTORIAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Es un excelente profesor, domina los temas y los explica claramente, además es muy accesible al momento de asesorías, si le preguntan responde de muy buena manera ya que le importa mucho que aprendas, eso si, es muy justo para calificar y si no sabes derivar ni integrar se te complicara la materia. Los exámenes si están medio complicados por eso."
+    },
+    {
+      "fecha_iso": "2015-05-25T00:00:00",
+      "materia": "CÁLCULO VECTORIAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Muy buen maestro. Enseña muy bien y sabe explicar totalmente los temas. Lo único malo es que quizá los exámenes los hace un poco difíciles a comparación de lo que se ve en clase."
+    },
+    {
+      "fecha_iso": "2015-01-15T00:00:00",
+      "materia": "CALCULO VECTORIAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "MUY BUEN MAESTRO, EXPLICA CLARO Y SENCILLO, LO QUE PUEDE SER UN PROBLEMA QUE EN CLASE TODO ES PERAS Y MANZANAS Y AVECES EN LOS EXÁMENES SE PONE ALGO MAS DÍFICIL, PERO ES MUY ACCESIBLE CON ASESORÍAS TAMBIÉN.\nSI LE HECHAS GANAS PASAS CON BUENA CALIFICACIÓN."
+    },
+    {
+      "fecha_iso": "2015-01-11T00:00:00",
+      "materia": "CÁLCULO VECTORIAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 1,
+      "comentario": "Si te aparece para cargar con él, no la pienses y cargalo, sin duda EL MEJOR MAESTRO QUE TIENE EL TEC, es excelente."
+    },
+    {
+      "fecha_iso": "2015-01-11T00:00:00",
+      "materia": "CALCULO VECTORIAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Excelente profe. Te explica todo con peras y manzanas y es muy accesible. Todo lo que explica viene en el examen y aprendes mucho. Recomendado"
+    },
+    {
+      "fecha_iso": "2015-01-08T00:00:00",
+      "materia": "VECTORIAL",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Es un profesor bastante justo al momento de calificar, explica bien y te hace aprender."
+    },
+    {
+      "fecha_iso": "2014-05-13T00:00:00",
+      "materia": "CÁLCULO VECTORIAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Es un profesor que esta bien preparado, siempre que tienes una duda te la aclara, explica las cosas de la manera mas transparente y sencilla posible, además sus evaluaciones no son para nada difíciles son exactamente lo que miras en clase, y aprendes muchísimo."
+    },
+    {
+      "fecha_iso": "2013-12-04T00:00:00",
+      "materia": "CALCULO VECTORIAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Es un Excelente maestro, es puntual, responsable y dispuesto. Sus clases son claras y sobretodo, muy amenas, ya que la mayoría de los maestros hacen las clases tediosas. Pasar con el es muy fácil si estudias y haces las tareas que deja, de las cuales hace los exámenes. Al final sube algunos puntos."
+    },
+    {
+      "fecha_iso": "2013-10-25T00:00:00",
+      "materia": "CALCULO VECTORIAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "excelente maestro explica muy bien y lo mas importante tiene paciencia para explicar y disponibilidad para asesorías la verdad de los mejores maestro que tiene el TEC...."
+    },
+    {
+      "fecha_iso": "2013-08-05T00:00:00",
+      "materia": "CÁLCULO VECTORIAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "La verdad es un excelente profesor, explica muy bien,se preocupa por que entendamos los temas y que abarquemos todo el programa. Incluso el siempre esta dispuesto a dar asesorias los sabados sin nada a cambio, solo por su voluntad. Muchos hablan mal de el, pero nada que ver."
+    },
+    {
+      "fecha_iso": "2013-08-03T00:00:00",
+      "materia": "CALCULO VECTORIAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Excelente maestro, cualquier duda te la aclara, aprendes y tiene paciencia para  explicarte las cosas, si le pones ganas te ayuda."
+    },
+    {
+      "fecha_iso": "2013-08-02T00:00:00",
+      "materia": "CALCULO VECTORIAL",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "esta bien este profe solo que si es algo estricto pero si ve que le hechas ganas si te ayudaa"
+    },
+    {
+      "fecha_iso": "2013-07-30T00:00:00",
+      "materia": "CALCULO VECTORIAL",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "explica bien este profe, esta bien agusto con el la neta lo recomiendoo..."
+    },
+    {
+      "fecha_iso": "2013-07-25T00:00:00",
+      "materia": "VERANO DE VECTORIAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "excelente profesor! explica todo muy bien y es muy simpatico y buena persona, no te pasa si no lo mereces pero si ayuda un poco si no faltas,excelente, realmente lo recomiendo, antes de su clase no sabia ni algebra.."
+    },
+    {
+      "fecha_iso": "2013-07-19T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 0.5,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2013-04-30T00:00:00",
+      "materia": "CALCULO VECTORIAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "exelente profesos, muy simpatico buena persona se desembuebe claramente, nos explica muy bien , resulve dudas de los mejorees que hay :)."
+    },
+    {
+      "fecha_iso": "2013-01-15T00:00:00",
+      "materia": "CÁLCULO VECTORIAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Perfecto dominio de los temas. Gran facilidad para desenvolverse frente a un grupo. Mucho carisma. Clases muy muy amenas. Siempre tiene la mayor disposición para cualquier duda. \"Pongan atención y luego copian del pizarrón\" siempre me funcionó. Lo recomiedo ampliamente"
+    },
+    {
+      "fecha_iso": "2012-10-30T00:00:00",
+      "materia": "CÁLCULO VECTORIAL",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Es muy buen maestro, sus exámenes son laborioso pero no difíciles, explica de forma clara y congruente, es buena persona y si no repruebas ningún examen te ayuda con más calificación."
+    }
+  ],
+  "comments_recent": [
+    "Excelente maestro sin duda alguna cargen con el, son algo dificiles sus examenes pero siempre pone cosas que se vieron en clase y ademas ayuda y explica muy bien, excelente maestro.",
+    "Muy buen profesor pero muy desconfiado con los exámenes (al menos en línea). No deja tareas pero el examen cuenta el 100%, tienes que tener las asistencias mínimas, explica muy bien y en el examen tienes que hacer su mismo procedimiento de la clase, sino piensa que copiaste. Carga con el si puedes",
+    "Es re pro dando clases, le deseo lo mejor en su futuro",
+    "explica con gusto lo que hace , eso si pasar con el no es gratis , los examenes estan algo dificiles por eso tienes que preguntar cualquier duda y siempre prestar atencion, es buena onda pero eso no significa que te regale calificacion, abusado",
+    "Te va a explicar cualquier duda que tengas por mas estupida que sea, se ve que le gusta la materia y eso te dan ganas de aprender",
+    "Uff viejo, muy buen profe de calculo. No tiene problema en que le preguntes cualquier duda por mas tonta que sea. Eso si, si buscas un profe para pasar calculo sin hacer nada, estas en el lugar incorrecto. Examenes un poquito complicados. Con el tienes que aprender macizo para pasar, o ba bai. Bueno",
+    "Gran profesor, mejor filtro. No tiene reparo en explicarte cuantas veces lo necesites y es muy respetuoso. La calificació es 100% el exámen, el cual no es difícil en demasía. Para pasar con él hay que hecharle ganas, ya que si no, no va a tener piedad a la hora de reprobarte (solo pasamos 14 de 38).",
+    "Muy buen profe, sin duda volvería a cargar con el, explica muy bien y lo más claro que te puedas imaginar, si aparece en tu carga no dudes que es la mejor opción"
+  ],
+  "n_reviews": 39
+}

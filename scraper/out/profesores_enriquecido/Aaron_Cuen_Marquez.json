@@ -1,0 +1,168 @@
+{
+  "professor_id": "Aaron_Cuen_Marquez",
+  "nombre": "Aaron Cuen Marquez",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 9.554995761484848,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.785061400177238,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 1.0,
+    "wilson_interval": [
+      0.565508505247919,
+      1
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": 1.05,
+    "z_mean_decayed": 1.06,
+    "per_subject": [
+      {
+        "materia": "PROPIEDADES DE LOS MATERIALES",
+        "z_decayed": 1.7053996728712715,
+        "n": 16
+      },
+      {
+        "materia": "PROPIEDAD DE LOS MATERIALES",
+        "z_decayed": 0.9390033438978467,
+        "n": 11
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "maestro",
+          "buen",
+          "profesor",
+          "exelente"
+        ],
+        "weight": 0.22561359394733543
+      },
+      {
+        "id": 1,
+        "words": [
+          "exelente",
+          "profesor",
+          "buen",
+          "maestro"
+        ],
+        "weight": 0.3806917887555893
+      }
+    ],
+    "sentiment": {
+      "overall": 0.2,
+      "by_month": {
+        "2016-12": 0.0,
+        "2015-12": 0.0,
+        "2015-01": 0.5,
+        "2014-09": 0.0
+      }
+    },
+    "n_comments": 5
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        8.0,
+        9.5,
+        10.0,
+        10.0
+      ],
+      "ewma": [
+        8.0,
+        8.45,
+        8.915,
+        9.240499999999999
+      ],
+      "sigma": 0.5039949363171555
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 9.240499999999999,
+      "quality_band": [
+        8.252669924818374,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2016-12-28T00:00:00",
+      "materia": "PROPIEDAD DE LOS MATERIALES",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "MUY BUEN MAESTRO APRENDES PORQUE APRENDES SUS EXÁMENES FÁCILES!!!"
+    },
+    {
+      "fecha_iso": "2015-12-17T00:00:00",
+      "materia": "PROPIEDAD DE LOS MATERIALES",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Exelente profesor..... Lo recomiendo sabe dar muy bien la materia de Propiedad de Los Materiales.... Yo lo recomiendo!!! Lo quiero mucho profe...."
+    },
+    {
+      "fecha_iso": "2015-01-10T00:00:00",
+      "materia": "PROPIEDAD DE LOS MATERIALES",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "EXELENTE NO LO PUEDO DESCRIBIR DE SU EXELENCIA"
+    },
+    {
+      "fecha_iso": "2015-01-10T00:00:00",
+      "materia": "PROPIEDADES DE LOS MATERIALES",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Excelente maestro. .."
+    },
+    {
+      "fecha_iso": "2014-09-10T00:00:00",
+      "materia": "PROPIEDAD DE LOS MATERIALES",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Muy Buen Profesor"
+    }
+  ],
+  "comments_recent": [
+    "MUY BUEN MAESTRO APRENDES PORQUE APRENDES SUS EXÁMENES FÁCILES!!!",
+    "Exelente profesor..... Lo recomiendo sabe dar muy bien la materia de Propiedad de Los Materiales.... Yo lo recomiendo!!! Lo quiero mucho profe....",
+    "EXELENTE NO LO PUEDO DESCRIBIR DE SU EXELENCIA",
+    "Excelente maestro. ..",
+    "Muy Buen Profesor"
+  ],
+  "n_reviews": 5
+}

@@ -1,0 +1,91 @@
+{
+  "professor_id": "Jesús_Alfonso_Castro_López",
+  "nombre": "Jesús Alfonso Castro López",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 7.653892982066643,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.147993416888213,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 1.0,
+    "wilson_interval": [
+      0.3423719528896193,
+      1
+    ],
+    "n_recommendations": 2
+  },
+  "subject_normalization": {
+    "z_mean": -0.05,
+    "z_mean_decayed": -0.17,
+    "per_subject": [
+      {
+        "materia": "GESTIÓN DE COSTOS",
+        "z_decayed": 0.30755174048970835,
+        "n": 15
+      },
+      {
+        "materia": "CONTABILIDAD",
+        "z_decayed": -0.39921650917709717,
+        "n": 11
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [],
+    "sentiment": {
+      "overall": null,
+      "by_month": {}
+    },
+    "n_comments": 2
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": null,
+    "difficulty_trend": null,
+    "forecast": null,
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2016-01-17T00:00:00",
+      "materia": "CONTABILIDAD",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": "Sabe mucho de su materia, sin embargo sus exámenes son memorísticos. Su método de evaluación es pésimo, sólamente promedia los exámenes, no cuentan las asistencias ni las participaciones."
+    },
+    {
+      "fecha_iso": "2013-12-17T00:00:00",
+      "materia": "GESTIÓN DE COSTOS",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Excelente profesor el vea, es uno de los pocos maestros que hacen bien su trabajo, tiene ganas enormes de enseñar, te impulsa a estudiar, te motiva a ser alguien, te da el \"material\" el cual es muy bueno y te hará reir jaja. Eso si a echarle ganas y NUNCA falta."
+    }
+  ],
+  "comments_recent": [
+    "Sabe mucho de su materia, sin embargo sus exámenes son memorísticos. Su método de evaluación es pésimo, sólamente promedia los exámenes, no cuentan las asistencias ni las participaciones.",
+    "Excelente profesor el vea, es uno de los pocos maestros que hacen bien su trabajo, tiene ganas enormes de enseñar, te impulsa a estudiar, te motiva a ser alguien, te da el \"material\" el cual es muy bueno y te hará reir jaja. Eso si a echarle ganas y NUNCA falta."
+  ],
+  "n_reviews": 2
+}

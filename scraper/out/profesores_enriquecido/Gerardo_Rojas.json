@@ -1,0 +1,125 @@
+{
+  "professor_id": "Gerardo_Rojas",
+  "nombre": "Gerardo Rojas",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 9.662116454658536,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.521224692512197,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 1.0,
+    "wilson_interval": [
+      0.4384939195509822,
+      1
+    ],
+    "n_recommendations": 3
+  },
+  "subject_normalization": {
+    "z_mean": 0.72,
+    "z_mean_decayed": 0.74,
+    "per_subject": [
+      {
+        "materia": "MATEMATICAS I",
+        "z_decayed": 0.9805930739015237,
+        "n": 11
+      },
+      {
+        "materia": "ESTÁTICA",
+        "z_decayed": 0.7770928126270502,
+        "n": 8
+      },
+      {
+        "materia": "ESTATICA",
+        "z_decayed": 0.3983453910460061,
+        "n": 25
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [],
+    "sentiment": {
+      "overall": null,
+      "by_month": {}
+    },
+    "n_comments": 3
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        10.0,
+        8.0,
+        10.0
+      ],
+      "ewma": [
+        10.0,
+        9.4,
+        9.58
+      ],
+      "sigma": 0.9529602999775665
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 9.58,
+      "quality_band": [
+        7.71219781204397,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2016-01-13T00:00:00",
+      "materia": "ESTÁTICA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Rojitas se la rifa, el mejor."
+    },
+    {
+      "fecha_iso": "2011-12-15T00:00:00",
+      "materia": "ESTATICA",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Se pone a hablar sobre que debemos estudiar para ser buenos ingenieros y puros de esos rollos, jaja pero es buen profesor y enseña de una forma para que todos le entiandan a la clase,deja tareas para practicar,excelente por algo es el jefe del dpto."
+    },
+    {
+      "fecha_iso": "2011-05-06T00:00:00",
+      "materia": "MATEMATICAS I",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 1,
+      "comentario": "BUEN MAESTRO"
+    }
+  ],
+  "comments_recent": [
+    "Rojitas se la rifa, el mejor.",
+    "Se pone a hablar sobre que debemos estudiar para ser buenos ingenieros y puros de esos rollos, jaja pero es buen profesor y enseña de una forma para que todos le entiandan a la clase,deja tareas para practicar,excelente por algo es el jefe del dpto.",
+    "BUEN MAESTRO"
+  ],
+  "n_reviews": 3
+}

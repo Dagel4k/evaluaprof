@@ -1,0 +1,35 @@
+{
+  "nombre": "Jorge Iñiguez",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "ciudad": "Ciudad: culiacan, sinaloa",
+  "departamento": "Departamento/Facultad: Montoya",
+  "calidad_general": 10.0,
+  "porcentaje_recomienda": 100,
+  "nivel_dificultad": 0.0,
+  "etiquetas": [
+    "POCOS EXÁMENES (1)",
+    "BRINDA APOYO (1)",
+    "TOMARÍA SU CLASE OTRA VEZ (1)"
+  ],
+  "numero_calificaciones": 1,
+  "calificaciones": [
+    {
+      "fecha": "12/Ene/2023",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Calculo diferencial",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "9.5",
+      "interes_clase": "",
+      "comentario": "Muy buen profesor, explica de manera clara y deja pocas tareas y examenes. Por lo general el examen es más facil que las tareas y te deja sacar apuntes en ellos.",
+      "etiquetas_comentario": [
+        "Pocos Exámenes",
+        "Brinda apoyo",
+        "Tomaría su clase otra vez"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    }
+  ]
+}

@@ -1,0 +1,152 @@
+{
+  "professor_id": "Julio_Zepeda",
+  "nombre": "Julio Zepeda",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 6.665167550213083,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 6.985061400177238,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.4,
+    "wilson_interval": [
+      0.11761823115925325,
+      0.769280067791163
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": -0.17,
+    "z_mean_decayed": -0.43,
+    "per_subject": [
+      {
+        "materia": "ANALISIS",
+        "z_decayed": 0.05307448924342757,
+        "n": 5
+      },
+      {
+        "materia": "BIOQUIMICA",
+        "z_decayed": -0.049424076074100605,
+        "n": 10
+      },
+      {
+        "materia": "BIOQUÍMICA",
+        "z_decayed": -1.0285114588061344,
+        "n": 8
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [],
+    "sentiment": {
+      "overall": 0.2,
+      "by_month": {
+        "2015-08": 1.0,
+        "2014-06": 0.0,
+        "2013-11": 0.0,
+        "2012-11": 0.0
+      }
+    },
+    "n_comments": 5
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        8.0,
+        8.0,
+        5.0,
+        6.0
+      ],
+      "ewma": [
+        8.0,
+        8.0,
+        7.1,
+        6.77
+      ],
+      "sigma": 0.9905680188659433
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 6.77,
+      "quality_band": [
+        4.828486683022751,
+        8.711513316977248
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2015-08-12T00:00:00",
+      "materia": "BIOQUÍMICA",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 0,
+      "comentario": "bueno"
+    },
+    {
+      "fecha_iso": "2014-06-19T00:00:00",
+      "materia": "BIOQUIMICA",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 0,
+      "comentario": "es un loquillo este señor (8\npero sabe mucho"
+    },
+    {
+      "fecha_iso": "2013-11-29T00:00:00",
+      "materia": "QUIMICA ORGANICA II",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "contesta siempre las dudas,sus examenes son dificiles pero explica bien."
+    },
+    {
+      "fecha_iso": "2012-11-23T00:00:00",
+      "materia": "BIOQUIMICA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "es el mejor maestro de bioquimica no lo corran nunca ni lo jubilen"
+    },
+    {
+      "fecha_iso": "2012-11-07T00:00:00",
+      "materia": "ANALISIS",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 7.5,
+      "recomienda": 0,
+      "comentario": "Es un profesor centrado, se deica a impartir su materia, convive sanamente con los alumnos, los apoya con los proyectos. Lo recomiendo."
+    }
+  ],
+  "comments_recent": [
+    "bueno",
+    "es un loquillo este señor (8\npero sabe mucho",
+    "contesta siempre las dudas,sus examenes son dificiles pero explica bien.",
+    "es el mejor maestro de bioquimica no lo corran nunca ni lo jubilen",
+    "Es un profesor centrado, se deica a impartir su materia, convive sanamente con los alumnos, los apoya con los proyectos. Lo recomiendo."
+  ],
+  "n_reviews": 5
+}

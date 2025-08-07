@@ -1,0 +1,160 @@
+{
+  "professor_id": "JUAN_IRINEO_MARTINEZ",
+  "nombre": "JUAN IRINEO MARTINEZ",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 6.964840771696785,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.055422928761326,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.75,
+    "wilson_interval": [
+      0.30063605244263664,
+      0.9544139373553638
+    ],
+    "n_recommendations": 4
+  },
+  "subject_normalization": {
+    "z_mean": 0.04,
+    "z_mean_decayed": -0.37,
+    "per_subject": [
+      {
+        "materia": "MANTENIMIENTO",
+        "z_decayed": 0.9337962615057281,
+        "n": 22
+      },
+      {
+        "materia": "ECONOMIA",
+        "z_decayed": -0.4,
+        "n": 17
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "embargo",
+          "deja muchas",
+          "deja",
+          "falta",
+          "mas"
+        ],
+        "weight": 0.32074643651512835
+      },
+      {
+        "id": 1,
+        "words": [
+          "muchas",
+          "es",
+          "cosas",
+          "buen",
+          "es buen"
+        ],
+        "weight": 0.28891285660919563
+      }
+    ],
+    "sentiment": {
+      "overall": 0.5,
+      "by_month": {
+        "2022-01": 0.0,
+        "2016-05": 0.0,
+        "2013-11": 1.0,
+        "2011-05": 1.0
+      }
+    },
+    "n_comments": 4
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        10.0,
+        5.0,
+        7.0,
+        7.0
+      ],
+      "ewma": [
+        10.0,
+        8.5,
+        8.049999999999999,
+        7.734999999999999
+      ],
+      "sigma": 1.5176647357041675
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 7.734999999999999,
+      "quality_band": [
+        4.760377118019831,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2022-01-04T00:00:00",
+      "materia": "ECONOMIA",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Es buen maestro sin embargo le falta transmitir más las cosas, deja muchas tareas y no califica a tiempo"
+    },
+    {
+      "fecha_iso": "2016-05-29T00:00:00",
+      "materia": "ECONOMIA",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Le hace falta aun, si sabe del tema mas sin embargo le falla mucho a la hora de explicar pues parece que solo se aprende de memoria lo de los libros mas no con sus propias palabras. Deja muchas copias y largas pero esta facil de copiar en los examenes"
+    },
+    {
+      "fecha_iso": "2013-11-14T00:00:00",
+      "materia": "ADMON. MANTENIMIENTO",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "ES BUEN PROFE AUNQUE NO DIGO QUE EXCELENTE, EXPLICA BIEN PERO NO SOY MUY AMANTE DE SU FORMA DE EXPLICAR Y SENTI QUE MUCHAS COSAS LAS EVADÍA Y SOLO TE HABLA DE LO QUE EL SABE Y NO DE LO DEL CURSO"
+    },
+    {
+      "fecha_iso": "2011-05-25T00:00:00",
+      "materia": "MANTENIMIENTO",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "MUY BUENO  DE SEGURO SALUDOS JUANITO FUE RESPONSABLE SIEMPRE CUANDO ESTUDIABAMOS EN EL ITC"
+    }
+  ],
+  "comments_recent": [
+    "Es buen maestro sin embargo le falta transmitir más las cosas, deja muchas tareas y no califica a tiempo",
+    "Le hace falta aun, si sabe del tema mas sin embargo le falla mucho a la hora de explicar pues parece que solo se aprende de memoria lo de los libros mas no con sus propias palabras. Deja muchas copias y largas pero esta facil de copiar en los examenes",
+    "ES BUEN PROFE AUNQUE NO DIGO QUE EXCELENTE, EXPLICA BIEN PERO NO SOY MUY AMANTE DE SU FORMA DE EXPLICAR Y SENTI QUE MUCHAS COSAS LAS EVADÍA Y SOLO TE HABLA DE LO QUE EL SABE Y NO DE LO DEL CURSO",
+    "MUY BUENO  DE SEGURO SALUDOS JUANITO FUE RESPONSABLE SIEMPRE CUANDO ESTUDIABAMOS EN EL ITC"
+  ],
+  "n_reviews": 4
+}

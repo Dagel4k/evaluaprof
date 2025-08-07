@@ -1,0 +1,528 @@
+{
+  "professor_id": "Gregorio_Camberos_Aguirre",
+  "nombre": "Gregorio Camberos Aguirre",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 9.68231145630431,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 8.923236214349012,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.969,
+    "wilson_interval": [
+      0.8425539219962727,
+      0.9944622826374491
+    ],
+    "n_recommendations": 32
+  },
+  "subject_normalization": {
+    "z_mean": 0.58,
+    "z_mean_decayed": 0.56,
+    "per_subject": [
+      {
+        "materia": "CONTROL ESTADÍSTICO DE CALIDAD",
+        "z_decayed": 0.976641607156294,
+        "n": 8
+      },
+      {
+        "materia": "ESTADÍSTICA Y CONTROL DE CALIDAD",
+        "z_decayed": 0.9428090415820635,
+        "n": 5
+      },
+      {
+        "materia": "CALCULO DIFERENCIAL",
+        "z_decayed": 0.9421633023090475,
+        "n": 110
+      },
+      {
+        "materia": "PROBABILIDAD Y ESTADISTICA",
+        "z_decayed": 0.9251304240994332,
+        "n": 32
+      },
+      {
+        "materia": "CALCULO INTEGRAL",
+        "z_decayed": 0.8481796604891914,
+        "n": 84
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "es buen",
+          "aprendes",
+          "buen",
+          "si",
+          "es"
+        ],
+        "weight": 0.09293665288616872
+      },
+      {
+        "id": 1,
+        "words": [
+          "es mejor",
+          "encontrar",
+          "100 recomendado",
+          "materia",
+          "mejor"
+        ],
+        "weight": 0.12640433428713405
+      },
+      {
+        "id": 2,
+        "words": [
+          "es excelente",
+          "excelente profesor",
+          "maestro",
+          "excelente maestro",
+          "excelente"
+        ],
+        "weight": 0.07620623355963266
+      },
+      {
+        "id": 3,
+        "words": [
+          "te da",
+          "deja",
+          "te",
+          "claro explicar",
+          "explicar"
+        ],
+        "weight": 0.10655845342409997
+      },
+      {
+        "id": 4,
+        "words": [
+          "god",
+          "ejemplos",
+          "explica",
+          "explica bien",
+          "bien"
+        ],
+        "weight": 0.10924719583048104
+      }
+    ],
+    "sentiment": {
+      "overall": 0.2857142857142857,
+      "by_month": {
+        "2025-06": 0.0,
+        "2024-08": 0.0,
+        "2024-02": 0.0,
+        "2024-01": 0.3333333333333333,
+        "2023-01": 1.0,
+        "2022-12": 0.0,
+        "2021-10": 0.0,
+        "2021-01": 0.0,
+        "2020-08": 0.0,
+        "2020-01": 0.5,
+        "2019-08": 1.0,
+        "2019-01": 0.5,
+        "2018-12": 0.0,
+        "2018-08": 0.0,
+        "2018-06": 0.5,
+        "2018-01": 0.5,
+        "2016-09": 0.0,
+        "2016-08": 0.0,
+        "2016-05": 1.0,
+        "2015-09": 0.0,
+        "2015-01": 0.0,
+        "2014-11": 0.0
+      }
+    },
+    "n_comments": 28
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [
+      {
+        "from": "2018-06-12T00:00:00",
+        "to": "2018-06-13T00:00:00",
+        "count": 3
+      }
+    ],
+    "low_variance_flag": 0,
+    "trust_score": 0.7
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        10.0,
+        10.0,
+        10.0,
+        3.0,
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        9.333333333333334,
+        8.0,
+        10.0,
+        10.0,
+        9.666666666666666,
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        9.0,
+        10.0,
+        9.333333333333334,
+        10.0,
+        10.0,
+        10.0
+      ],
+      "ewma": [
+        10.0,
+        10.0,
+        10.0,
+        7.9,
+        8.530000000000001,
+        8.971,
+        9.2797,
+        9.49579,
+        9.447053,
+        9.0129371,
+        9.30905597,
+        9.516339179,
+        9.5614374253,
+        9.693006197709998,
+        9.785104338396998,
+        9.8495730368779,
+        9.894701125814528,
+        9.626290788070168,
+        9.738403551649117,
+        9.616882486154383,
+        9.731817740308067,
+        9.812272418215645,
+        9.868590692750951
+      ],
+      "sigma": 1.1793630350392137
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 9.868590692750951,
+      "quality_band": [
+        7.557039144074093,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2025-06-12T00:00:00",
+      "materia": "PROBABILIDAD Y ESTADISTICA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "SI tiene la oportunidad de cargar con El Probabulidad y Estadistica, o cualquier materia e general, haganlo, es el mejor. 100% recomendado"
+    },
+    {
+      "fecha_iso": "2024-08-08T00:00:00",
+      "materia": "ESTADÍSTICA INFERENCIAL 1",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Es el mejor profesor de estadística que te vas a encontrar en el tec. GOD"
+    },
+    {
+      "fecha_iso": "2024-02-15T00:00:00",
+      "materia": "CONTROL ESTADÍSTICO DE LA CALIDAD",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Es de lo mejorcito en el Tec, no aburre para nada la materia, y se aprende porque se aprende"
+    },
+    {
+      "fecha_iso": "2024-01-31T00:00:00",
+      "materia": "ESTADISTICA INFERENCIAL II",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Excelente profesor, te motiva mucho a aprender de la clase, su manera de enseñar es excelente, la verdad no pasa el que no quiere."
+    },
+    {
+      "fecha_iso": "2024-01-17T00:00:00",
+      "materia": "CONTROL ESTADÍSTICO DE CALIDAD",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "El mejor maestro que te puedes encontrar para control. Es una materia muy importante y la hizo ver muy fácil. 100% recomendado."
+    },
+    {
+      "fecha_iso": "2024-01-17T00:00:00",
+      "materia": "ESTADÍSTICA INFERENCIAL I",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 1,
+      "comentario": "Es un gran profesor, conoce los temas y porporciona muchos recursos, si tienes dudas te vuelve a explicar. Si es algo estricto con el programa de evaluación pero mientras cumplas es flexible. Estudia todas tus tareas para poder realizar bien los exámenes, ya que todo se promedia en CANVAS."
+    },
+    {
+      "fecha_iso": "2023-01-13T00:00:00",
+      "materia": "ESTADÍSTICA INFERENCIAL 2",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Es un amor, es el profesor de estadística del Tec. Aprendes porque aprendes. Super recomendado. Muy claro para explicar y si no entendiste, te vuelve a explicar sin problemas. Clases muy dinámicas. Deja muchas tareas y cuentan mas que los exámenes pero te da mucho tiempo para entregarlas."
+    },
+    {
+      "fecha_iso": "2022-12-24T00:00:00",
+      "materia": "ESTADÍSTICA INFERENCIAL",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "En general es buen docente, sin embargo si llegas a criticar alguno de sus ejercicios se le sale lo industrial y te juzga de ignorante."
+    },
+    {
+      "fecha_iso": "2021-10-18T00:00:00",
+      "materia": "ESTADISTICA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "GOD, explica bien perro"
+    },
+    {
+      "fecha_iso": "2021-01-21T00:00:00",
+      "materia": "ESTADÍSTICA INFERENCIAL 2",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "El mejor profesor de estadística, clases muy entretenidas, con ejemplos reales que hacen que pongas más interes en la clase y aprendas, todo lo califica en canvas y al final te da oportunidad de subir tu calificación con el mismo examen que hiciste en el parcial."
+    },
+    {
+      "fecha_iso": "2020-08-07T00:00:00",
+      "materia": "ESTADÍSTICA INFERENCIAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "El mejor profe que puedas pedir, si no aprendes en serio que es TU culpa."
+    },
+    {
+      "fecha_iso": "2020-01-24T00:00:00",
+      "materia": "CALCULO DIFERENCIAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "El mejor"
+    },
+    {
+      "fecha_iso": "2020-01-16T00:00:00",
+      "materia": "ESTADÍSTICA 1",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Excelente maestro"
+    },
+    {
+      "fecha_iso": "2019-08-08T00:00:00",
+      "materia": "ESTADISTICA 1",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2019-08-04T00:00:00",
+      "materia": "CONTROL ESTADÍSTICO DE CALIDAD",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Super recomendado. Muy claro para explicar y no te aburres en sus clases. Sus exámenes y tareas las deja en canvas y al final te deja subir la calificación."
+    },
+    {
+      "fecha_iso": "2019-08-04T00:00:00",
+      "materia": "ESTADÍSTICA Y CONTROL DE CALIDAD",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2019-01-31T00:00:00",
+      "materia": "ADMINISTRACIÓN DE OPERACIONES 1",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Lo mejor que te puedes encontrar en el tec, es un excelente profesor. Da muy buenas clases, los exámenes son sencillos en canvas y es muy buena onda. En AO 1 deja un proyecto final muy pesado pero créeme que vale la pena"
+    },
+    {
+      "fecha_iso": "2019-01-12T00:00:00",
+      "materia": "CALCULO DIFERENCIAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Diosito"
+    },
+    {
+      "fecha_iso": "2018-12-13T00:00:00",
+      "materia": "AO1",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Este profe es el mejor del tec! Además de que aprendes mucho con el porque sabe mucho, sus clases no son nada aburridas. Si le echas ganas te ayuda para que pases y con muy buena calificación, exámenes fáciles en canvas. Su proyecto final es estresante pero aprendes mucho también."
+    },
+    {
+      "fecha_iso": "2018-08-06T00:00:00",
+      "materia": "ESTADÍSTICA INFERENCIAL II",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Muy buen profe, sus clases son claras y no te duermen. Los exámenes los hace en línea y puedes hacerlos en equipo. Generalmente en el examen viene exactamente lo que ves en clase asi que si pones atención prácticamente ya tienes 100! Además es super agradable y aprendes mucho"
+    },
+    {
+      "fecha_iso": "2018-06-13T00:00:00",
+      "materia": "ESTADISTICA Y CONTROL DE CALIDAD",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Muy buen profe. Explica muy bien, da ejemplos relacionados con la vida diaria y es camarada. Los exámenes son algo difíciles. Recomendado"
+    },
+    {
+      "fecha_iso": "2018-06-12T00:00:00",
+      "materia": "ESTADÍSTICA INFERENCIAL 2",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "De los mejores profes del tec. Muy claro para explicar y te da muchas oportunidades de pasar."
+    },
+    {
+      "fecha_iso": "2018-06-12T00:00:00",
+      "materia": "ESTADÍSTICA Y CONTROL DE CALIDAD",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 7.5,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2018-01-14T00:00:00",
+      "materia": "ADM. DE OPERACIONES 1",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Las clases las relaciona mucho con experiencias, es buen maestro, lo único por lo que le sacan a este maestro es por la presentación final que no es nada de otro mundo, recomendado."
+    },
+    {
+      "fecha_iso": "2018-01-13T00:00:00",
+      "materia": "ADMINISTRACIÓN DE OPERACIONES 1",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Excelente maestro. Explica super claro y sus exámenes están fáciles. Casi nunca falta y avisa cuando no va a ir."
+    },
+    {
+      "fecha_iso": "2016-09-01T00:00:00",
+      "materia": "CONTROL ESTADISTICO DE LA CALIDAD",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "UN MAESTRO A TODA MADRE Y LO RECOMIENDO AMPLIAMENTE. LLEVE LA MATERIA EN VERANO. DOMINA Y SABE MUCHO DE LA MATERIA Y TE PONE EJEMPLOS REALES DE CASI TODOS LOS TEMAS."
+    },
+    {
+      "fecha_iso": "2016-08-09T00:00:00",
+      "materia": "CONTROL ESTADÍSTICO DE LA CALIDAD",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "de los mejores profesores que te puedes encontrar, ejemplos relacionados con la vida real (muy claro) exámenes fáciles, lo único malo (si no te gusta leer) es que sus exámenes los hace de un libro y en todos pone teoría, pero los exámenes valen lo que los alumnos decidan, como quieran, quiero"
+    },
+    {
+      "fecha_iso": "2016-05-04T00:00:00",
+      "materia": "CALCULO INTEGRAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "A mi me ayudo mucho. Explica muy claro y te vuelve a explicar si no le entiendes a un tema. Ademas es muy buen onda y no te aburres en las clases."
+    },
+    {
+      "fecha_iso": "2015-11-29T00:00:00",
+      "materia": "ECUACIONES DIFRENCIALES",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2015-09-18T00:00:00",
+      "materia": "EST INF 1",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "EL PROFE GREGORIO EXPLICA MUY BIEN, EN CLASE LE ENTIENDES TODO PERO SUS EXAMENES ESTAN DIFISILES, SI ACLARA TUS DUDAS Y TE DA MUCHAS OPORTUNIDADES DE PASAR."
+    },
+    {
+      "fecha_iso": "2015-01-15T00:00:00",
+      "materia": "PROBABILIDAD Y ESTADISTICA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "muy buen profesor a mi me dio probabilidad y estadiatica y se la rifa te pone ejemplos reales y es bien camarada esplica muy bien"
+    },
+    {
+      "fecha_iso": "2014-11-09T00:00:00",
+      "materia": "ECUACIONES DIFERENCIALES",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Exelente maestro. Explica muy bien. y te ayuda mucho si trabajas en clase. no es facil pasar con el pero aprendes mucho"
+    }
+  ],
+  "comments_recent": [
+    "SI tiene la oportunidad de cargar con El Probabulidad y Estadistica, o cualquier materia e general, haganlo, es el mejor. 100% recomendado",
+    "Es el mejor profesor de estadística que te vas a encontrar en el tec. GOD",
+    "Es de lo mejorcito en el Tec, no aburre para nada la materia, y se aprende porque se aprende",
+    "Excelente profesor, te motiva mucho a aprender de la clase, su manera de enseñar es excelente, la verdad no pasa el que no quiere.",
+    "El mejor maestro que te puedes encontrar para control. Es una materia muy importante y la hizo ver muy fácil. 100% recomendado.",
+    "Es un gran profesor, conoce los temas y porporciona muchos recursos, si tienes dudas te vuelve a explicar. Si es algo estricto con el programa de evaluación pero mientras cumplas es flexible. Estudia todas tus tareas para poder realizar bien los exámenes, ya que todo se promedia en CANVAS.",
+    "Es un amor, es el profesor de estadística del Tec. Aprendes porque aprendes. Super recomendado. Muy claro para explicar y si no entendiste, te vuelve a explicar sin problemas. Clases muy dinámicas. Deja muchas tareas y cuentan mas que los exámenes pero te da mucho tiempo para entregarlas.",
+    "En general es buen docente, sin embargo si llegas a criticar alguno de sus ejercicios se le sale lo industrial y te juzga de ignorante.",
+    "GOD, explica bien perro",
+    "El mejor profesor de estadística, clases muy entretenidas, con ejemplos reales que hacen que pongas más interes en la clase y aprendas, todo lo califica en canvas y al final te da oportunidad de subir tu calificación con el mismo examen que hiciste en el parcial."
+  ],
+  "n_reviews": 32
+}

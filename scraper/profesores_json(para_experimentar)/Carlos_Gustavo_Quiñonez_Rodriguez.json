@@ -1,0 +1,77 @@
+{
+  "nombre": "Carlos Gustavo Quiñonez Rodriguez",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "ciudad": "Ciudad: culiacan, sinaloa",
+  "departamento": "Departamento/Facultad: Ing Industrial",
+  "calidad_general": 3.0,
+  "porcentaje_recomienda": 25,
+  "nivel_dificultad": 3.5,
+  "etiquetas": [
+    "ASISTENCIA OBLIGATORIA (1)",
+    "POCOS EXÁMENES (1)",
+    "DEJA TRABAJOS LARGOS (1)"
+  ],
+  "numero_calificaciones": 4,
+  "calificaciones": [
+    {
+      "fecha": "11/May/2016",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 2.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Desarrollo Sustentable",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "9",
+      "interes_clase": "",
+      "comentario": "Es algo perezoso , la neta no merece, pero esta calmada la clase, te arriegas si quieres.",
+      "etiquetas_comentario": [
+        "Asistencia obligatoria",
+        "Pocos Exámenes",
+        "Deja trabajos largos"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "03/Dic/2013",
+      "tipo_calificacion": "REGULAR",
+      "puntaje_calidad_general": 6.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Mercadotecnia",
+      "asistencia": "",
+      "calificacion_recibida": "8.5",
+      "interes_clase": "8.5",
+      "comentario": "nomas asistir todos los dias, se exponen todas las unidades uno que otro examen, pero si no eres mujer sencillamente al vato no le interesa nada mas, te pone al final lo que a su criterio le paresca, si no le caes mal pasas",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "09/Sep/2013",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 2.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Mercadotecnia",
+      "asistencia": "",
+      "calificacion_recibida": "N/A",
+      "interes_clase": "N/A",
+      "comentario": "",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "07/Ago/2013",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 2.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Economia / Mercadotecnia",
+      "asistencia": "",
+      "calificacion_recibida": "5",
+      "interes_clase": "5",
+      "comentario": "Miren la neta no vas a aprender mucho, vas a agarrar cura DIARIO el mismo profe te lo dice, expones cada semana y los examenes son abiertos de nivel medio, EL PROBLEMA es que te pone lo que quiera de calificacion y si reclamas te baja aun mas. Un bolado con este wey. Si buscas el 70 adelante.",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    }
+  ]
+}

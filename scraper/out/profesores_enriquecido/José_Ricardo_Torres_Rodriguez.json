@@ -1,0 +1,180 @@
+{
+  "professor_id": "José_Ricardo_Torres_Rodriguez",
+  "nombre": "José Ricardo Torres Rodriguez",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 7.5494122084460855,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.251728066843905,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.8,
+    "wilson_interval": [
+      0.37552826411853885,
+      0.9637768390302125
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": 0.06,
+    "z_mean_decayed": 0.22,
+    "per_subject": [
+      {
+        "materia": "EQUIPOS MECANICOS",
+        "z_decayed": 1.0,
+        "n": 3
+      },
+      {
+        "materia": "MECANICA DE MATERIALES",
+        "z_decayed": 0.44721359549995837,
+        "n": 5
+      },
+      {
+        "materia": "ESTATICA",
+        "z_decayed": 0.07709910794438833,
+        "n": 25
+      },
+      {
+        "materia": "ESTÁTICA",
+        "z_decayed": -0.11101325894672145,
+        "n": 8
+      },
+      {
+        "materia": "DINÁMICA",
+        "z_decayed": -1.1246431142310662,
+        "n": 11
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "tambien",
+          "es"
+        ],
+        "weight": 0.36169005013037103
+      },
+      {
+        "id": 1,
+        "words": [
+          "es",
+          "tambien"
+        ],
+        "weight": 0.13966605837740906
+      }
+    ],
+    "sentiment": {
+      "overall": 0.5,
+      "by_month": {
+        "2021-12": 1.0,
+        "2020-12": 1.0,
+        "2019-06": 0.0,
+        "2018-06": 0.0
+      }
+    },
+    "n_comments": 4
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        6.0,
+        10.0,
+        9.0,
+        7.0,
+        7.0
+      ],
+      "ewma": [
+        6.0,
+        7.199999999999999,
+        7.739999999999998,
+        7.517999999999999,
+        7.362599999999999
+      ],
+      "sigma": 1.3969328802773595
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 7.362599999999999,
+      "quality_band": [
+        4.624611554656374,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2021-12-21T00:00:00",
+      "materia": "ESTATICA",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 7.5,
+      "recomienda": 1,
+      "comentario": "Es buen profesor pero algo barco (por lo menos conmigo lo fue) jamas me dio clases una semana entera, pero cuando daba era muy entendible y claro, sus examenes a mi parecer algo dificiles pero tambien eran examenes que se vieron problemas similares en clase."
+    },
+    {
+      "fecha_iso": "2020-12-19T00:00:00",
+      "materia": "EQUIPOS MECANICOS",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Es bueno explicando y tiene gran conocimiento porque también trabaja en el campo. El único problema es que por sus otros trabajos suele faltar seguido (Aunque avisa) y sus aspectos para calificar no están claros, nunca sabes porque sacaste tal calificación. Además de que deja todo para el ultimo."
+    },
+    {
+      "fecha_iso": "2019-06-12T00:00:00",
+      "materia": "ESTÁTICA",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Muy claras sus explicaciones, te da todas las oportunidades.\nTe ayuda bastante."
+    },
+    {
+      "fecha_iso": "2018-06-08T00:00:00",
+      "materia": "MECANICA DE MATERIALES",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 23.0,
+      "recomienda": 1,
+      "comentario": "Volvería a cargar con el, vimos lo necesario nomas que no lo vimos completo por los puentes"
+    },
+    {
+      "fecha_iso": "2017-12-20T00:00:00",
+      "materia": "DINÁMICA",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": ""
+    }
+  ],
+  "comments_recent": [
+    "Es buen profesor pero algo barco (por lo menos conmigo lo fue) jamas me dio clases una semana entera, pero cuando daba era muy entendible y claro, sus examenes a mi parecer algo dificiles pero tambien eran examenes que se vieron problemas similares en clase.",
+    "Es bueno explicando y tiene gran conocimiento porque también trabaja en el campo. El único problema es que por sus otros trabajos suele faltar seguido (Aunque avisa) y sus aspectos para calificar no están claros, nunca sabes porque sacaste tal calificación. Además de que deja todo para el ultimo.",
+    "Muy claras sus explicaciones, te da todas las oportunidades.\nTe ayuda bastante.",
+    "Volvería a cargar con el, vimos lo necesario nomas que no lo vimos completo por los puentes"
+  ],
+  "n_reviews": 5
+}

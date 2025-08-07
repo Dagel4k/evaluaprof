@@ -12,24 +12,33 @@ export interface AIAnalysisResult {
 }
 
 export class AIAnalysisService {
-  private apiKey: string;
   private baseUrl: string;
 
   constructor() {
-    this.apiKey = import.meta.env.VITE_OPENAI_API_KEY || '';
     this.baseUrl = 'https://api.openai.com/v1/chat/completions';
-    
-    // Debug: Verificar que la API key se cargue (sin mostrar la clave completa)
-    console.log('API Key configurada:', this.apiKey ? `sk-...${this.apiKey.slice(-4)}` : 'NO CONFIGURADA');
+  }
+
+  private getApiKey(): string {
+    // Primero intentar obtener de variables de entorno
+    const envApiKey = import.meta.env.VITE_OPENAI_API_KEY;
+    if (envApiKey) {
+      return envApiKey;
+    }
+
+    // Si no está en el entorno, obtener del localStorage
+    const storedApiKey = localStorage.getItem('openai_api_key');
+    return storedApiKey || '';
   }
 
   private async makeRequest(prompt: string): Promise<string> {
-    if (!this.apiKey) {
-      throw new Error('API key de OpenAI no configurada. Por favor, configura VITE_OPENAI_API_KEY en tu archivo .env');
+    const apiKey = this.getApiKey();
+    
+    if (!apiKey) {
+      throw new Error('NO_API_KEY');
     }
 
     // Verificar formato de la API key
-    if (!this.apiKey.startsWith('sk-')) {
+    if (!apiKey.startsWith('sk-')) {
       throw new Error('API key de OpenAI inválida. Debe comenzar con "sk-"');
     }
 
@@ -40,7 +49,7 @@ export class AIAnalysisService {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
-          'Authorization': `Bearer ${this.apiKey}`,
+          'Authorization': `Bearer ${apiKey}`,
         },
         body: JSON.stringify({
           model: 'gpt-3.5-turbo', // Cambiado de gpt-4 a gpt-3.5-turbo para diagnóstico
@@ -94,10 +103,11 @@ export class AIAnalysisService {
 DATOS DEL PROFESOR:
 - Nombre: ${professor.nombre}
 - Universidad: ${professor.universidad}
+${professor.ciudad ? `- Ciudad: ${professor.ciudad}` : ''}
 - Departamento: ${professor.departamento}
-- Promedio General: ${professor.promedio_general}/10
+- Calidad General: ${professor.calidad_general}/10
 - Porcentaje de Recomendación: ${professor.porcentaje_recomienda}%
-- Dificultad Promedio: ${professor.dificultad_promedio}/5
+- Nivel de Dificultad: ${professor.nivel_dificultad}/5
 - Número de Calificaciones: ${professor.numero_calificaciones}
 
 CARACTERÍSTICAS (ETIQUETAS):
@@ -109,9 +119,14 @@ ${subjects.map(subject => `- ${subject}`).join('\n')}
 RESEÑAS RECIENTES:
 ${recentReviews.map(review => `
 Materia: ${review.materia}
-Calificación: ${review.calificacion_general}/10
+Calificación: ${review.puntaje_calidad_general}/10
+${review.tipo_calificacion ? `Tipo: ${review.tipo_calificacion}` : ''}
+${review.asistencia ? `Asistencia: ${review.asistencia}` : ''}
+${review.calificacion_recibida ? `Calificación Recibida: ${review.calificacion_recibida}` : ''}
+${review.interes_clase ? `Interés en Clase: ${review.interes_clase}` : ''}
 Fecha: ${review.fecha}
 Comentario: ${review.comentario}
+${review.etiquetas_comentario && review.etiquetas_comentario.length > 0 ? `Etiquetas: ${review.etiquetas_comentario.join(', ')}` : ''}
 `).join('\n')}
     `.trim();
   }
@@ -136,12 +151,13 @@ Basándote en estos datos, proporciona un análisis completo del profesor. Respo
 }
 
 Considera:
-- El promedio general y su contexto
+- La calidad general y su contexto
 - El porcentaje de recomendación
 - Las etiquetas características
 - Los comentarios de las reseñas
-- La dificultad reportada
+- El nivel de dificultad reportado
 - La variedad de materias impartidas
+- Información adicional como asistencia, calificaciones recibidas, etc.
 
 Sé objetivo, constructivo y proporciona insights útiles para estudiantes.
     `;
@@ -160,8 +176,8 @@ Sé objetivo, constructivo y proporciona insights útiles para estudiantes.
           strengths: ["Análisis disponible en el texto completo"],
           weaknesses: [],
           recommendations: [],
-          overallRating: professor.promedio_general,
-          difficultyAssessment: `Nivel ${professor.dificultad_promedio}/5`,
+          overallRating: professor.calidad_general,
+          difficultyAssessment: `Nivel ${professor.nivel_dificultad}/5`,
           teachingStyle: "Analizado en el resumen",
           studentAdvice: "Revisa el análisis completo para recomendaciones específicas"
         };

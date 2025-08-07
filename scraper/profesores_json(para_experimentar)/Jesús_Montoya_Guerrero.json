@@ -1,0 +1,67 @@
+{
+  "nombre": "Jesús Montoya Guerrero",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "ciudad": "Ciudad: culiacan, sinaloa",
+  "departamento": "Departamento/Facultad: Ingeniería Industrial",
+  "calidad_general": 5.4,
+  "porcentaje_recomienda": 33,
+  "nivel_dificultad": 3.3,
+  "etiquetas": [
+    "BARCO (2)",
+    "MUY CÓMICO (2)",
+    "ASISTENCIA OBLIGATORIA (2)"
+  ],
+  "numero_calificaciones": 3,
+  "calificaciones": [
+    {
+      "fecha": "23/May/2020",
+      "tipo_calificacion": "REGULAR",
+      "puntaje_calidad_general": 4.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Sistemas de Manufactura",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "Con el debido respeto q se merece, esta profesora ya no está para dar clases. Está chapada a la antigua, los groseros son sus favoritos. Sus chistes son malos y sus clases peor. Por favor,  échele ganas. Aunq la prefiero qe llevar con Samael, eso si qe no.",
+      "etiquetas_comentario": [
+        "Barco",
+        "Muy cómico",
+        "Asistencia obligatoria"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "19/Sep/2019",
+      "tipo_calificacion": "REGULAR",
+      "puntaje_calidad_general": 6.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Sistemas",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "Sin palabras, los alumnos le faltan al respeto y no tiene seriedad en nada. Ya mejor que se jubile o que se ponga exigente porque no estamos para esta clase de profes",
+      "etiquetas_comentario": [
+        "Barco",
+        "Muy cómico",
+        "Asistencia obligatoria"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "14/Nov/2013",
+      "tipo_calificacion": "REGULAR",
+      "puntaje_calidad_general": 6.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "ADMON. DE OPERACIONES",
+      "asistencia": "",
+      "calificacion_recibida": "N/A",
+      "interes_clase": "N/A",
+      "comentario": "ME CAE MUY BIEN ESTA PROFESORA PERO ENTRAR CON ELLA ES COMO NO APRENDER NADA. SOLO VAS A LEER DIAPOSITIVAS MUY RECARGADAS Y NO SABE EXPLICARLAS",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    }
+  ]
+}

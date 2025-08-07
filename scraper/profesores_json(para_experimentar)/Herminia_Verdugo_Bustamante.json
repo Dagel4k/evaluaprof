@@ -1,0 +1,253 @@
+{
+  "nombre": "Herminia Verdugo Bustamante",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "ciudad": "Ciudad: culiacan, sinaloa",
+  "departamento": "Departamento/Facultad: Ciencias Basicas",
+  "calidad_general": 4.6,
+  "porcentaje_recomienda": 29,
+  "nivel_dificultad": 3.5,
+  "etiquetas": [
+    "MUY CÓMICO (1)",
+    "LA PARTICIPACIÓN IMPORTA (3)",
+    "TOMARÍA SU CLASE OTRA VEZ (1)",
+    "CALIFICA DURO (10)",
+    "MUCHAS TAREAS (1)",
+    "LOS EXÁMENES SON DIFÍCILES (2)",
+    "DEJA TRABAJOS LARGOS (1)",
+    "ASPECTOS DE CALIFICACIÓN CLAROS (1)",
+    "BRINDA APOYO (1)",
+    "CLASES EXCELENTES (1)"
+  ],
+  "numero_calificaciones": 14,
+  "calificaciones": [
+    {
+      "fecha": "22/Ene/2021",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 3.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Ética",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "9",
+      "interes_clase": "",
+      "comentario": "",
+      "etiquetas_comentario": [
+        "Califica Duro",
+        "Asistencia obligatoria",
+        "Muchos proyectos grupales"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "01/Oct/2020",
+      "tipo_calificacion": "REGULAR",
+      "puntaje_calidad_general": 4.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Etica",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "N/A",
+      "interes_clase": "",
+      "comentario": "",
+      "etiquetas_comentario": [
+        "Califica Duro",
+        "La Participación Importa",
+        "Asistencia obligatoria"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "01/Oct/2020",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 2.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Ética",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "N/A",
+      "interes_clase": "",
+      "comentario": "no es justa calificando, no califica debidamente ni acepta quejas, preguntas o aclaraciones  sobre las calificaciones y a quien quiera pedir alguna aclaración o buscar la razón de la injusta calificación la profesora le baja puntos al final",
+      "etiquetas_comentario": [
+        "Califica Duro",
+        "La Participación Importa",
+        "Asistencia obligatoria"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "01/Oct/2020",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 2.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Taller de Ética",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "7.5",
+      "interes_clase": "",
+      "comentario": "A mí parecer la profe no sigue una rúbrica para calificar y es muy injusta.\nJamás tomaría su clase nuevamente",
+      "etiquetas_comentario": [],
+      "votos_utiles": "1",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "30/Sep/2020",
+      "tipo_calificacion": "REGULAR",
+      "puntaje_calidad_general": 4.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Ética",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "7",
+      "interes_clase": "",
+      "comentario": "Cuando uno tiene dudas por su calificación y pregunta\nDice:  - \"al final de la unidad\" .\n\nAl final de la unidad\n- termina la unidad y empieza otra.\nCasi me reprueba y eso que pasé el examen con una \"muy buena calificación\", entregué tareas,  asistí en tiempo y forma a sus clases ...  )':",
+      "etiquetas_comentario": [
+        "Califica Duro",
+        "Asistencia obligatoria",
+        "Muchos proyectos grupales"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "30/Sep/2020",
+      "tipo_calificacion": "REGULAR",
+      "puntaje_calidad_general": 4.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Ética",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "24",
+      "interes_clase": "",
+      "comentario": "",
+      "etiquetas_comentario": [
+        "Califica Duro",
+        "Muchos proyectos grupales"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "30/Sep/2020",
+      "tipo_calificacion": "REGULAR",
+      "puntaje_calidad_general": 4.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Ética",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "8",
+      "interes_clase": "",
+      "comentario": "No califica correctamente en línea",
+      "etiquetas_comentario": [
+        "Prepárate para leer"
+      ],
+      "votos_utiles": "1",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "30/Sep/2020",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Etica",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "9.5",
+      "interes_clase": "",
+      "comentario": "",
+      "etiquetas_comentario": [
+        "Aspectos de calificación claros",
+        "Brinda apoyo",
+        "Clases excelentes"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "30/Sep/2020",
+      "tipo_calificacion": "REGULAR",
+      "puntaje_calidad_general": 4.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Taller de ética",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "N/A",
+      "interes_clase": "",
+      "comentario": "",
+      "etiquetas_comentario": [
+        "Califica Duro"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "30/Sep/2020",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 3.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Ética",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "9.5",
+      "interes_clase": "",
+      "comentario": "No sabe calificar digitalmente",
+      "etiquetas_comentario": [
+        "Califica Duro"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "02/Feb/2016",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Taller de Etica",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "Demasiado sencilla la clase, hacfes tarea y pones apuntes en el pizarron y ya, carga con ella es un 80-100 segurisimo",
+      "etiquetas_comentario": [
+        "Muy cómico",
+        "La Participación Importa",
+        "Tomaría su clase otra vez"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "28/Dic/2015",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 2.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Fundamentos de investigación",
+      "asistencia": "",
+      "calificacion_recibida": "N/A",
+      "interes_clase": "N/A",
+      "comentario": "Si eres participativo, entregas trabajos y expones tienes una buena calificación segura, pero No aprendes nada, no explica nada... Es muy desorganizada",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "15/Dic/2015",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 7.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Taller de Ética",
+      "asistencia": "",
+      "calificacion_recibida": "9.5",
+      "interes_clase": "9.5",
+      "comentario": "Las clases son aburridas, pero si te ve que participas y vas, los trabajos los puedes entregar 2 días despues, es muy ligth para calificar, cargar con ella es un 80-100 seguro",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "13/Ene/2014",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 9.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "comunicación humana",
+      "asistencia": "",
+      "calificacion_recibida": "10",
+      "interes_clase": "10",
+      "comentario": "es un amor la profe, solo tienes que hacer caso a lo que dices y un 100 seguro",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    }
+  ]
+}

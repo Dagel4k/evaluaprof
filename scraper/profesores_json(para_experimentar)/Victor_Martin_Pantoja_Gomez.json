@@ -1,0 +1,49 @@
+{
+  "nombre": "Victor Martin Pantoja Gomez",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "ciudad": "Ciudad: culiacan, sinaloa",
+  "departamento": "Departamento/Facultad: Ing. Industrial",
+  "calidad_general": 6.0,
+  "porcentaje_recomienda": 50,
+  "nivel_dificultad": 4.0,
+  "etiquetas": [
+    "BARCO (1)",
+    "MUCHAS TAREAS (1)",
+    "ASISTENCIA OBLIGATORIA (1)"
+  ],
+  "numero_calificaciones": 2,
+  "calificaciones": [
+    {
+      "fecha": "27/Mar/2022",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 9.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Desarrollo sustentable",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "8.5",
+      "interes_clase": "",
+      "comentario": "",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "12/Ene/2020",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 3.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Desarrollo sustentable",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "N/A",
+      "interes_clase": "",
+      "comentario": "Sinceramente el peor profesor que me he encontrado en mi vida, es la hipocresía y vale vergismo puro en persona, te hace hacer una página en Wix donde te calificará la tarea, tarea que ni el mismo entiende y explica como la quiere; y hace exámenes largos donde las respuestas las califica como quiere",
+      "etiquetas_comentario": [
+        "Barco",
+        "Muchas tareas",
+        "Asistencia obligatoria"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    }
+  ]
+}

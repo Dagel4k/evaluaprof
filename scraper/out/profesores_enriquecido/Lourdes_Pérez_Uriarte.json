@@ -1,0 +1,207 @@
+{
+  "professor_id": "Lourdes_Pérez_Uriarte",
+  "nombre": "Lourdes Pérez Uriarte",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 6.048824728064684,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 6.67349506266616,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.5,
+    "wilson_interval": [
+      0.1876128068994087,
+      0.8123871931005913
+    ],
+    "n_recommendations": 6
+  },
+  "subject_normalization": {
+    "z_mean": -0.11,
+    "z_mean_decayed": -0.24,
+    "per_subject": [
+      {
+        "materia": "---",
+        "z_decayed": 1.134752323952886,
+        "n": 521
+      },
+      {
+        "materia": "ÉTICA",
+        "z_decayed": 0.39858531829162325,
+        "n": 11
+      },
+      {
+        "materia": "TALLER DE ÉTICA",
+        "z_decayed": -0.01878515021482411,
+        "n": 22
+      },
+      {
+        "materia": "FUNDAMENTOS DE INVESTIGACIÓN",
+        "z_decayed": -0.7159723722038442,
+        "n": 29
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "comentando",
+          "comentando temas",
+          "es",
+          "mas",
+          "temas"
+        ],
+        "weight": 0.22752245086633507
+      },
+      {
+        "id": 1,
+        "words": [
+          "maestra",
+          "es maestra",
+          "tareas",
+          "clases",
+          "examenes"
+        ],
+        "weight": 0.2017462565584113
+      },
+      {
+        "id": 2,
+        "words": [
+          "es",
+          "maestra",
+          "final",
+          "tareas",
+          "si"
+        ],
+        "weight": 0.18019983247753726
+      }
+    ],
+    "sentiment": {
+      "overall": 0.0,
+      "by_month": {
+        "2024-01": 0.0,
+        "2022-12": 0.0,
+        "2022-02": 0.0,
+        "2022-01": 0.0,
+        "2021-12": 0.0,
+        "2014-03": 0.0
+      }
+    },
+    "n_comments": 6
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        9.0,
+        4.0,
+        2.0,
+        8.0,
+        6.0,
+        8.0
+      ],
+      "ewma": [
+        9.0,
+        7.5,
+        5.85,
+        6.494999999999999,
+        6.346499999999999,
+        6.842549999999999
+      ],
+      "sigma": 2.305370592858482
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 6.842549999999999,
+      "quality_band": [
+        2.3240236379973753,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2024-01-18T00:00:00",
+      "materia": "TALLER DE ÉTICA",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 1,
+      "comentario": "Es una maestra muy extraña. Sus clases se tratan de que ella habla y a ratos hace trabajos de lectura y responder preguntas. Más que calificar duro califica raro. De que pasas pasas, pero con la calificación que quiera (de 80 a 90). Hasta los trabajos revisa raro (a unos les pone 80 y a otros 95)."
+    },
+    {
+      "fecha_iso": "2022-12-15T00:00:00",
+      "materia": "ÉTICA",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 0,
+      "comentario": "Es una maestra buena para materias de relleno, si entregas las actividades vas a pasar,  se pasa las clases comentando los temas que debería de enseñar, los exámenes son de estos mismos temas, y difícilmente sacarás el 100, sin embargo no hay interés en la clase y la vuelve algo aburrida"
+    },
+    {
+      "fecha_iso": "2022-02-08T00:00:00",
+      "materia": "FUNDAMENTOS DE INVESTIGACIÓN",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Con que estés en las clases y hagas las tareas todo bien pero aguas en los examenes a veces pueden ser confusos"
+    },
+    {
+      "fecha_iso": "2022-01-19T00:00:00",
+      "materia": "FUNDAMENTOS DE INVESTIGACIÓN",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 0,
+      "comentario": "mala maestra, solo nos ponía a leer y el examen como si enseñara, de proyecto final no nos explico como hacerlo y no dejaba de criticar nuestro trabajo pero si es medio barco si te pasan su exxamen ya la hiciste nunca deja tareas"
+    },
+    {
+      "fecha_iso": "2021-12-07T00:00:00",
+      "materia": "FUNDAMENTOS DE INVESTIGACIÓN",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 0,
+      "comentario": "Todo el semestre no hicimos nada con ella, hasta antes de la evaluación final, nos la pasamos \"leyendo\" y \"comentando\" sobre los temas de la materia, creo que no cabe resaltar que no aprendimos nada, pero mi mayor queja es que un pdf explica mas que ella, no la recomiendo."
+    },
+    {
+      "fecha_iso": "2014-03-30T00:00:00",
+      "materia": "---",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "[Comentario esperando revisión]"
+    }
+  ],
+  "comments_recent": [
+    "Es una maestra muy extraña. Sus clases se tratan de que ella habla y a ratos hace trabajos de lectura y responder preguntas. Más que calificar duro califica raro. De que pasas pasas, pero con la calificación que quiera (de 80 a 90). Hasta los trabajos revisa raro (a unos les pone 80 y a otros 95).",
+    "Es una maestra buena para materias de relleno, si entregas las actividades vas a pasar,  se pasa las clases comentando los temas que debería de enseñar, los exámenes son de estos mismos temas, y difícilmente sacarás el 100, sin embargo no hay interés en la clase y la vuelve algo aburrida",
+    "Con que estés en las clases y hagas las tareas todo bien pero aguas en los examenes a veces pueden ser confusos",
+    "mala maestra, solo nos ponía a leer y el examen como si enseñara, de proyecto final no nos explico como hacerlo y no dejaba de criticar nuestro trabajo pero si es medio barco si te pasan su exxamen ya la hiciste nunca deja tareas",
+    "Todo el semestre no hicimos nada con ella, hasta antes de la evaluación final, nos la pasamos \"leyendo\" y \"comentando\" sobre los temas de la materia, creo que no cabe resaltar que no aprendimos nada, pero mi mayor queja es que un pdf explica mas que ella, no la recomiendo.",
+    "[Comentario esperando revisión]"
+  ],
+  "n_reviews": 6
+}

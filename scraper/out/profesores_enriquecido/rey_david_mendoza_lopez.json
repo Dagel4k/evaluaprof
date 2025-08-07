@@ -1,0 +1,207 @@
+{
+  "professor_id": "rey_david_mendoza_lopez",
+  "nombre": "rey david mendoza lopez",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 7.1875385154013625,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 6.986818882509327,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.429,
+    "wilson_interval": [
+      0.1582169222626268,
+      0.7495457695909742
+    ],
+    "n_recommendations": 7
+  },
+  "subject_normalization": {
+    "z_mean": -0.16,
+    "z_mean_decayed": -0.29,
+    "per_subject": [
+      {
+        "materia": "CIRCUITOS ELECTRICOS",
+        "z_decayed": 0.7740593145675551,
+        "n": 7
+      },
+      {
+        "materia": "CIRCUITOS ELÉCTRICOS",
+        "z_decayed": -1.1,
+        "n": 4
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "buen",
+          "domina",
+          "es buen",
+          "bien",
+          "es"
+        ],
+        "weight": 0.22549323929521695
+      },
+      {
+        "id": 1,
+        "words": [
+          "tienes",
+          "mal",
+          "dice",
+          "te",
+          "vale"
+        ],
+        "weight": 0.19185199637887368
+      },
+      {
+        "id": 2,
+        "words": [
+          "verdad",
+          "equipos",
+          "califica",
+          "bien",
+          "hace"
+        ],
+        "weight": 0.2861278855140294
+      }
+    ],
+    "sentiment": {
+      "overall": 0.14285714285714285,
+      "by_month": {
+        "2022-04": 0.0,
+        "2021-11": 0.0,
+        "2020-12": 1.0,
+        "2019-12": 0.0,
+        "2019-02": 0.0,
+        "2016-08": 0.0
+      }
+    },
+    "n_comments": 7
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        7.0,
+        10.0,
+        5.0,
+        6.0,
+        6.0,
+        10.0
+      ],
+      "ewma": [
+        7.0,
+        7.8999999999999995,
+        7.029999999999999,
+        6.720999999999999,
+        6.504699999999999,
+        7.553289999999999
+      ],
+      "sigma": 1.7328628592063098
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 7.553289999999999,
+      "quality_band": [
+        4.156878795955631,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2022-04-08T00:00:00",
+      "materia": "ANÁLISIS DE CIRCUITOS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 23.0,
+      "recomienda": 1,
+      "comentario": "Muy buen maestro, su calificación actual no le hace justicia y en verdad trabajamos muy bien con él, califica por equipos, pero si aprendes, lo hace de una manera en la que todos trabajen"
+    },
+    {
+      "fecha_iso": "2021-11-09T00:00:00",
+      "materia": "CIRCUITOS ELECTRICOS 1",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 0,
+      "comentario": "No vale verga el profe este , no cargen con el"
+    },
+    {
+      "fecha_iso": "2020-12-14T00:00:00",
+      "materia": "CIRCUITOS 2",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 0,
+      "comentario": "Es un buen maestro, sabe del tema y lo domina. De repente cuando esta explicando se le va el rollo, no le entiendes nada y se enoja. Pero para eso están los apuntes que comparte, que valen oro. Si tu grupo es desmadroso y no lo respetan los va a tratar mal y reprobar,  pero bueno en general."
+    },
+    {
+      "fecha_iso": "2019-12-16T00:00:00",
+      "materia": "CIRCUITOS ELECTRICOS 1",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 7.5,
+      "recomienda": 0,
+      "comentario": "pues no explico del todo mal, pero no vale kk asi que si entregas un examen te dice que tienes malicia y te trata de pndejo, pero te pasa"
+    },
+    {
+      "fecha_iso": "2019-12-13T00:00:00",
+      "materia": "CIRCUITOS ELÉCTRICOS",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 7.5,
+      "recomienda": 0,
+      "comentario": "Si tienes opción, no cargues con el.\nHace equipos para no perder tiempo con cada uno. Califica con tareas. Y al decir verdad son fáciles. Pero las ultimas dos unidad se salio completamente de tema y reprobó a mas de la mitad del grupo. Paso solo a los que le caían bien. Asegúrate de caerle  bien"
+    },
+    {
+      "fecha_iso": "2019-02-26T00:00:00",
+      "materia": "CIRCUITOS ELECTRICOS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Es un buen maestro. Enseña muy bien la clase de circuitos eléctricos, domina bien el tema y ejemplifica muy claramente. Es accesible y asesora."
+    },
+    {
+      "fecha_iso": "2016-08-08T00:00:00",
+      "materia": "CIRCUITOS ELECTRICOS L",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "es buen maestro, explica bien las cosas solo que si esta algo mayor y medio tartamudea por eso casi no se le entiende lo que dice pero explica bien, califica facil y examenes no tan complicados, llevate bien con el y si te ayuda"
+    }
+  ],
+  "comments_recent": [
+    "Muy buen maestro, su calificación actual no le hace justicia y en verdad trabajamos muy bien con él, califica por equipos, pero si aprendes, lo hace de una manera en la que todos trabajen",
+    "No vale verga el profe este , no cargen con el",
+    "Es un buen maestro, sabe del tema y lo domina. De repente cuando esta explicando se le va el rollo, no le entiendes nada y se enoja. Pero para eso están los apuntes que comparte, que valen oro. Si tu grupo es desmadroso y no lo respetan los va a tratar mal y reprobar,  pero bueno en general.",
+    "pues no explico del todo mal, pero no vale kk asi que si entregas un examen te dice que tienes malicia y te trata de pndejo, pero te pasa",
+    "Si tienes opción, no cargues con el.\nHace equipos para no perder tiempo con cada uno. Califica con tareas. Y al decir verdad son fáciles. Pero las ultimas dos unidad se salio completamente de tema y reprobó a mas de la mitad del grupo. Paso solo a los que le caían bien. Asegúrate de caerle  bien",
+    "Es un buen maestro. Enseña muy bien la clase de circuitos eléctricos, domina bien el tema y ejemplifica muy claramente. Es accesible y asesora.",
+    "es buen maestro, explica bien las cosas solo que si esta algo mayor y medio tartamudea por eso casi no se le entiende lo que dice pero explica bien, califica facil y examenes no tan complicados, llevate bien con el y si te ayuda"
+  ],
+  "n_reviews": 7
+}

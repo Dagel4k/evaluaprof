@@ -1,0 +1,83 @@
+{
+  "nombre": "Ricardo Bautista Quintero",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "ciudad": "Ciudad: culiacan, sinaloa",
+  "departamento": "Departamento/Facultad: Mecatronica",
+  "calidad_general": 9.8,
+  "porcentaje_recomienda": 100,
+  "nivel_dificultad": 2.8,
+  "etiquetas": [],
+  "numero_calificaciones": 5,
+  "calificaciones": [
+    {
+      "fecha": "27/Nov/2015",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Microcontroladores",
+      "asistencia": "",
+      "calificacion_recibida": "10",
+      "interes_clase": "10",
+      "comentario": "Este profe es de lo mejor. Lástima que ya no dé microcontroladores, y ahora da otra maestra, Jaredt, que la verdad, no sabe programar; sólo sabe interpretar programas, y exponerlos con diapositivas. Esa maestra nada que ver con Bautista, ya que se desespera mucho y se estresa.",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "01/Dic/2013",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 9.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Microcontroladores/Robótica 1",
+      "asistencia": "",
+      "calificacion_recibida": "N/A",
+      "interes_clase": "N/A",
+      "comentario": "Sabe casi de todos los temas y materias, es de lo mejor que hay en el tec, su especialidad es la programación y la electrónica, muy recomendable para la materia de Microcontroladores, se nota que tiene doctorado no como Santiesteban Cos.",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "04/Ago/2013",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Microcontroladores y Robotica I - mecatronica",
+      "asistencia": "",
+      "calificacion_recibida": "10",
+      "interes_clase": "10",
+      "comentario": "Excelente maestro en todos los aspectos, de lo mejor del tec.",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "31/Dic/2011",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "microcontroladores",
+      "asistencia": "",
+      "calificacion_recibida": "N/A",
+      "interes_clase": "N/A",
+      "comentario": "",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "21/Jul/2011",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Microcontroladores",
+      "asistencia": "",
+      "calificacion_recibida": "9",
+      "interes_clase": "9",
+      "comentario": "",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    }
+  ]
+}

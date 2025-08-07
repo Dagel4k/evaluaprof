@@ -1,0 +1,181 @@
+{
+  "professor_id": "Alexis_Terrazas_Sanchez",
+  "nombre": "Alexis Terrazas Sanchez",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 9.734741820801629,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.92349506266616,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 1.0,
+    "wilson_interval": [
+      0.6096569663469354,
+      1
+    ],
+    "n_recommendations": 6
+  },
+  "subject_normalization": {
+    "z_mean": 0.52,
+    "z_mean_decayed": 0.6,
+    "per_subject": [
+      {
+        "materia": "COSTOS EMPRESARIALES",
+        "z_decayed": 0.6062024674126472,
+        "n": 6
+      },
+      {
+        "materia": "CONTABILIDAD",
+        "z_decayed": 0.5835832908187064,
+        "n": 11
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "tiene",
+          "buen",
+          "buen maestro",
+          "bien",
+          "maestro"
+        ],
+        "weight": 0.2680719926400726
+      },
+      {
+        "id": 1,
+        "words": [
+          "maestro",
+          "buen",
+          "despacho",
+          "es",
+          "tiene"
+        ],
+        "weight": 0.2772057192720675
+      }
+    ],
+    "sentiment": {
+      "overall": 0.6,
+      "by_month": {
+        "2021-09": 1.0,
+        "2021-02": 1.0,
+        "2017-08": 0.5,
+        "2015-01": 0.0
+      }
+    },
+    "n_comments": 5
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        9.0,
+        9.5,
+        9.0,
+        10.0,
+        10.0
+      ],
+      "ewma": [
+        9.0,
+        9.15,
+        9.105,
+        9.3735,
+        9.56145
+      ],
+      "sigma": 0.30622995934428104
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 9.56145,
+      "quality_band": [
+        8.96123927968521,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2021-09-03T00:00:00",
+      "materia": "CONTABILIDAD",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Muy buen profesor, de los pocos que ejerce lo que enseña ya que tiene su propio despacho contable, es muy claro y te apoya en lo necesario para que quede claro el tema"
+    },
+    {
+      "fecha_iso": "2021-02-01T00:00:00",
+      "materia": "COSTOS EMPRESARIALES",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Excelente profe"
+    },
+    {
+      "fecha_iso": "2019-01-12T00:00:00",
+      "materia": "COSTOS EMPRESARIALES",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2017-08-05T00:00:00",
+      "materia": "COSTOS EMPREAARIALES, INSTUMENTOS DE PRESUPUESTACION",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Muy buen maestro explica con claridad, y si necesitas que explique de nuevo lo hace hasta que entiendas. En lo teórico aburre pero en lo practico muy bien"
+    },
+    {
+      "fecha_iso": "2017-08-05T00:00:00",
+      "materia": "COSTOS EMPRESARIALES",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "de los mejores maestros del tec siempre ayuda y sus examenes son facilisimos"
+    },
+    {
+      "fecha_iso": "2015-01-07T00:00:00",
+      "materia": "CONTABILIDAD",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Buen maestro aparte de que es contador y tiene su despacho por eso domina muy bien sus temas"
+    }
+  ],
+  "comments_recent": [
+    "Muy buen profesor, de los pocos que ejerce lo que enseña ya que tiene su propio despacho contable, es muy claro y te apoya en lo necesario para que quede claro el tema",
+    "Excelente profe",
+    "Muy buen maestro explica con claridad, y si necesitas que explique de nuevo lo hace hasta que entiendas. En lo teórico aburre pero en lo practico muy bien",
+    "de los mejores maestros del tec siempre ayuda y sus examenes son facilisimos",
+    "Buen maestro aparte de que es contador y tiene su despacho por eso domina muy bien sus temas"
+  ],
+  "n_reviews": 6
+}

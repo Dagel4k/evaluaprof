@@ -1,0 +1,124 @@
+{
+  "professor_id": "María_De_Lourdes_Noriega_Bonilla",
+  "nombre": "María De Lourdes Noriega Bonilla",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 4.741829845668018,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.136609307896813,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.667,
+    "wilson_interval": [
+      0.20765495512648788,
+      0.9385096847238393
+    ],
+    "n_recommendations": 3
+  },
+  "subject_normalization": {
+    "z_mean": 0.07,
+    "z_mean_decayed": -1.16,
+    "per_subject": [
+      {
+        "materia": "FUNDAMENTOS DE INVESTIGACIÓN",
+        "z_decayed": 1.065668838709187,
+        "n": 29
+      },
+      {
+        "materia": "FUNDAMENTOS DE LA INVESTIGACION",
+        "z_decayed": 1.0132792932120602,
+        "n": 6
+      },
+      {
+        "materia": "FUNDAMENTOS DE LA INVESTIGACIÓN",
+        "z_decayed": -1.8826375401284767,
+        "n": 9
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [],
+    "sentiment": {
+      "overall": null,
+      "by_month": {}
+    },
+    "n_comments": 2
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        10.0,
+        10.0,
+        3.0
+      ],
+      "ewma": [
+        10.0,
+        10.0,
+        7.9
+      ],
+      "sigma": 2.8290163190291664
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 7.9,
+      "quality_band": [
+        2.355128014702834,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2023-01-14T00:00:00",
+      "materia": "FUNDAMENTOS DE LA INVESTIGACIÓN",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 0,
+      "comentario": "Es una profesora confusa de entender, su clase no es particularmente dificil pero suele molestarse al dar segundas explicaciones y es poco flexible. Personalmente no me encantaria tenerla de profesora."
+    },
+    {
+      "fecha_iso": "2017-12-03T00:00:00",
+      "materia": "FUNDAMENTOS DE LA INVESTIGACION",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2017-10-09T00:00:00",
+      "materia": "FUNDAMENTOS DE INVESTIGACIÓN",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Buena profesora, excelente clase"
+    }
+  ],
+  "comments_recent": [
+    "Es una profesora confusa de entender, su clase no es particularmente dificil pero suele molestarse al dar segundas explicaciones y es poco flexible. Personalmente no me encantaria tenerla de profesora.",
+    "Buena profesora, excelente clase"
+  ],
+  "n_reviews": 3
+}

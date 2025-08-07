@@ -1,0 +1,114 @@
+{
+  "professor_id": "LUIS_CARLOS_SANTILLAN_HERNANDEZ",
+  "nombre": "LUIS CARLOS SANTILLAN HERNANDEZ",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 9.876356519705602,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.44430161558912,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 1.0,
+    "wilson_interval": [
+      0.4384939195509822,
+      1
+    ],
+    "n_recommendations": 3
+  },
+  "subject_normalization": {
+    "z_mean": 0.27,
+    "z_mean_decayed": 0.48,
+    "per_subject": [
+      {
+        "materia": "POO",
+        "z_decayed": 0.4808187530499733,
+        "n": 62
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [],
+    "sentiment": {
+      "overall": null,
+      "by_month": {}
+    },
+    "n_comments": 2
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        7.0,
+        10.0,
+        10.0
+      ],
+      "ewma": [
+        7.0,
+        7.8999999999999995,
+        8.53
+      ],
+      "sigma": 1.077636302283846
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 8.53,
+      "quality_band": [
+        6.417832847523661,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2024-06-21T00:00:00",
+      "materia": "DESARROLLO DE APLICACIONES EN EL SERVIDOR",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2018-02-02T00:00:00",
+      "materia": "POO",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Es de los mejores profesores que pueda haber"
+    },
+    {
+      "fecha_iso": "2015-09-10T00:00:00",
+      "materia": "POO",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 1,
+      "comentario": "Me lo asignaron en poo, cuando estaba pendiente por asignar, la verdad es muy buen profesor explica claro, en las clases siempre tiene una idea sobre un ejercicio lo cual lo resuelve en el pizarron, a sus clases le pone entusiasmo,en caso de querer aprender mas conclemente o barron seria los ideales"
+    }
+  ],
+  "comments_recent": [
+    "Es de los mejores profesores que pueda haber",
+    "Me lo asignaron en poo, cuando estaba pendiente por asignar, la verdad es muy buen profesor explica claro, en las clases siempre tiene una idea sobre un ejercicio lo cual lo resuelve en el pizarron, a sus clases le pone entusiasmo,en caso de querer aprender mas conclemente o barron seria los ideales"
+  ],
+  "n_reviews": 3
+}

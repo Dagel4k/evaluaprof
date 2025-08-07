@@ -1,0 +1,86 @@
+{
+  "professor_id": "Orlando_Lovato_Prado",
+  "nombre": "Orlando Lovato Prado",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 9.999999999999998,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.481326750221547,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 1.0,
+    "wilson_interval": [
+      0.3423719528896193,
+      1
+    ],
+    "n_recommendations": 2
+  },
+  "subject_normalization": {
+    "z_mean": 0.61,
+    "z_mean_decayed": 0.61,
+    "per_subject": [
+      {
+        "materia": "PROLOG",
+        "z_decayed": 0.6117752903214984,
+        "n": 9
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [],
+    "sentiment": {
+      "overall": null,
+      "by_month": {}
+    },
+    "n_comments": 2
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": null,
+    "difficulty_trend": null,
+    "forecast": null,
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2020-08-13T00:00:00",
+      "materia": "PROLOG",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "excelente profesor, se da a entender muy facil lo recomiendo 100%"
+    },
+    {
+      "fecha_iso": "2020-05-28T00:00:00",
+      "materia": "PROLOG",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 1,
+      "comentario": "Este ingeniero es una bendicion para la materia de prolog, es un apasionado de la misma y por eso la llevo mas de 3 veces en la carrera, saludos profe!!"
+    }
+  ],
+  "comments_recent": [
+    "excelente profesor, se da a entender muy facil lo recomiendo 100%",
+    "Este ingeniero es una bendicion para la materia de prolog, es un apasionado de la misma y por eso la llevo mas de 3 veces en la carrera, saludos profe!!"
+  ],
+  "n_reviews": 2
+}

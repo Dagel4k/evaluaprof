@@ -1,0 +1,72 @@
+{
+  "nombre": "Maria Cointa Duran Aispuro",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "ciudad": "Ciudad: culiacan, sinaloa",
+  "departamento": "Departamento/Facultad: Ciencias",
+  "calidad_general": 8.0,
+  "porcentaje_recomienda": 67,
+  "nivel_dificultad": 4.0,
+  "etiquetas": [
+    "LAS CLASES SON LARGAS (1)",
+    "RESPETADO POR LOS ESTUDIANTES (1)",
+    "BRINDA APOYO (2)",
+    "LOS EXÁMENES SON DIFÍCILES (1)",
+    "DA BUENA RETROALIMENTACIÓN (1)",
+    "ASPECTOS DE CALIFICACIÓN CLAROS (1)"
+  ],
+  "numero_calificaciones": 3,
+  "calificaciones": [
+    {
+      "fecha": "07/Ago/2025",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 9.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Física General",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "N/A",
+      "interes_clase": "",
+      "comentario": "Es una maestra muy comprensiva, explica los temas de manera clara, brinda apoyo y ayuda si lo necesitas. Hay pocas tareas por unidad pero si las revisa con detalle y da retroalimentación. Los exámenes son de los temas vistos en clase y en las tareas. Es una excelente maestra, la recomiendo al 100%.",
+      "etiquetas_comentario": [
+        "Da buena retroalimentación",
+        "Aspectos de calificación claros",
+        "Brinda apoyo"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "07/Ene/2025",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 9.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Física general",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "9",
+      "interes_clase": "",
+      "comentario": "Es buena maestra, si prestas atención a su clase y participas puede ayudarte un poco, en mi caso yo no pase la materia de la forma regular ya que acontecieron algunas cosas en Culiacán, aun así me pareció muy agradable, Cuidado con los exámenes, practica lo suficiente aunque deja sacar apuntes aMano",
+      "etiquetas_comentario": [
+        "Respetado por los estudiantes",
+        "Brinda apoyo",
+        "Los exámenes son difíciles"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "27/Ago/2024",
+      "tipo_calificacion": "REGULAR",
+      "puntaje_calidad_general": 6.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Fisica general",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "23",
+      "interes_clase": "",
+      "comentario": "Entiendo muy poco lo que explica",
+      "etiquetas_comentario": [
+        "Las clases son largas"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    }
+  ]
+}

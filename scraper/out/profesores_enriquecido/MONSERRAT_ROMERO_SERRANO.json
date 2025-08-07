@@ -1,0 +1,129 @@
+{
+  "professor_id": "MONSERRAT_ROMERO_SERRANO",
+  "nombre": "MONSERRAT ROMERO SERRANO",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 10.0,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.841137214475611,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 1.0,
+    "wilson_interval": [
+      0.5100999795960008,
+      1
+    ],
+    "n_recommendations": 4
+  },
+  "subject_normalization": {
+    "z_mean": 0.66,
+    "z_mean_decayed": 0.66,
+    "per_subject": [
+      {
+        "materia": "INVESTIGACION DE OPERACIONES",
+        "z_decayed": 0.6728624691859579,
+        "n": 16
+      },
+      {
+        "materia": "INVESTIGACIÓN DE OPERACIONES",
+        "z_decayed": 0.6492344540642356,
+        "n": 15
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [],
+    "sentiment": {
+      "overall": null,
+      "by_month": {}
+    },
+    "n_comments": 3
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        10.0,
+        10.0,
+        10.0
+      ],
+      "ewma": [
+        10.0,
+        10.0,
+        10.0
+      ],
+      "sigma": 0.0
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 10.0,
+      "quality_band": [
+        10.0,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2019-01-28T00:00:00",
+      "materia": "INVESTIGACION DE OPERACIONES",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Calificaciones muy justas incluso te apoya si algun tema no lo entiendes super recomendado ella les puede ayudar en su semestre siempre y cuando le cumplan a ella esta guapisima :D"
+    },
+    {
+      "fecha_iso": "2017-01-25T00:00:00",
+      "materia": "INVESTIGACIÓN DE OPERACIONES",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Muy buena profesora :)"
+    },
+    {
+      "fecha_iso": "2017-01-11T00:00:00",
+      "materia": "INVESTIGACIÓN DE OPERACIONES",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Una muy excelente profesora, explica las cosas de manera clara y precisa, te ayuda cuando lo necesitas, cae super bien,clases muy bien explicadas y examenes fáciles. Recomendada 100%"
+    },
+    {
+      "fecha_iso": "2016-12-28T00:00:00",
+      "materia": "INGENIERIA DE SISTEMAS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": ""
+    }
+  ],
+  "comments_recent": [
+    "Calificaciones muy justas incluso te apoya si algun tema no lo entiendes super recomendado ella les puede ayudar en su semestre siempre y cuando le cumplan a ella esta guapisima :D",
+    "Muy buena profesora :)",
+    "Una muy excelente profesora, explica las cosas de manera clara y precisa, te ayuda cuando lo necesitas, cae super bien,clases muy bien explicadas y examenes fáciles. Recomendada 100%"
+  ],
+  "n_reviews": 4
+}

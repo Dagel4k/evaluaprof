@@ -1,0 +1,120 @@
+{
+  "nombre": "BEATRIZ IMELDA LOPEZ MANJARREZ BEATRIZ IMELDA",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "ciudad": "Ciudad: culiacan, sinaloa",
+  "departamento": "Departamento/Facultad: ciencias básicas.",
+  "calidad_general": 10.0,
+  "porcentaje_recomienda": 100,
+  "nivel_dificultad": 0.0,
+  "etiquetas": [
+    "LA PARTICIPACIÓN IMPORTA (1)",
+    "CLASES EXCELENTES (4)",
+    "TOMARÍA SU CLASE OTRA VEZ (2)",
+    "ASISTENCIA OBLIGATORIA (1)",
+    "BRINDA APOYO (2)",
+    "DA BUENA RETROALIMENTACIÓN (2)"
+  ],
+  "numero_calificaciones": 6,
+  "calificaciones": [
+    {
+      "fecha": "06/Oct/2021",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Investigacion de operaciones",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "9",
+      "interes_clase": "",
+      "comentario": "Un amor de maestra, enseña muy bien , sus diapositivas son perfectas, no es para nada complicado pasar siempre y cuando cumplas con las tareas y trabajos, carga con ella no te arrepentiras.",
+      "etiquetas_comentario": [
+        "Da buena retroalimentación",
+        "Clases excelentes",
+        "Tomaría su clase otra vez"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "27/Ago/2020",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "estadistica",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "super buena mestra, enseña muy bien",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "09/Ago/2019",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Estadística 1",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "9",
+      "interes_clase": "",
+      "comentario": "Excelente maestra, clases muy dinámicas, exámenes fáciles, pero muchas tareas.",
+      "etiquetas_comentario": [
+        "Da buena retroalimentación",
+        "Brinda apoyo",
+        "Clases excelentes"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "02/Jun/2019",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "estadística inferencial 1",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "es muy buena maestra y trata de que comprendas lo mas básico para que así no te enredes cuando los temas avancen.",
+      "etiquetas_comentario": [
+        "Asistencia obligatoria",
+        "Brinda apoyo",
+        "Clases excelentes"
+      ],
+      "votos_utiles": "1",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "21/May/2019",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Procesos",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "",
+      "etiquetas_comentario": [],
+      "votos_utiles": "2",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "06/May/2019",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "calculo vectorial.",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "9",
+      "interes_clase": "",
+      "comentario": "es una gran maestra y en extremo paciente ademas de explicar muy bien.",
+      "etiquetas_comentario": [
+        "La Participación Importa",
+        "Clases excelentes",
+        "Tomaría su clase otra vez"
+      ],
+      "votos_utiles": "1",
+      "votos_no_utiles": "0"
+    }
+  ]
+}

@@ -1,0 +1,437 @@
+{
+  "professor_id": "RICARDO_ARMANDO_IBARRA_VIDALES",
+  "nombre": "RICARDO ARMANDO IBARRA VIDALES",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 2.885295820383486,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 3.9650263143616726,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.04,
+    "wilson_interval": [
+      0.007096050386699169,
+      0.19544472405022525
+    ],
+    "n_recommendations": 25
+  },
+  "subject_normalization": {
+    "z_mean": -0.95,
+    "z_mean_decayed": -0.85,
+    "per_subject": [
+      {
+        "materia": "MATEMÁTICAS DISCRETAS",
+        "z_decayed": 0.7510101014678422,
+        "n": 28
+      },
+      {
+        "materia": "HERRAMIENTAS INTELECTUALES",
+        "z_decayed": -0.6419998076512803,
+        "n": 5
+      },
+      {
+        "materia": "TALLER DE ADMINISTRACION",
+        "z_decayed": -0.6514608181654445,
+        "n": 8
+      },
+      {
+        "materia": "TALLER DE HERRAMIENTAS INTELECTUALES",
+        "z_decayed": -0.8646096760339785,
+        "n": 18
+      },
+      {
+        "materia": "TALLER DE HERRAMIENTAS",
+        "z_decayed": -1.0201598092556408,
+        "n": 5
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "final",
+          "exposiciones",
+          "da",
+          "semestre",
+          "clase"
+        ],
+        "weight": 0.13128034311170844
+      },
+      {
+        "id": 1,
+        "words": [
+          "burla",
+          "si",
+          "mujeres",
+          "maestro",
+          "es"
+        ],
+        "weight": 0.16371666140716376
+      },
+      {
+        "id": 2,
+        "words": [
+          "te",
+          "bien",
+          "llega tarde",
+          "tarde",
+          "llega"
+        ],
+        "weight": 0.07276089312776167
+      },
+      {
+        "id": 3,
+        "words": [
+          "quiere",
+          "dan",
+          "alumnos",
+          "profesor",
+          "clases"
+        ],
+        "weight": 0.11069086459613883
+      },
+      {
+        "id": 4,
+        "words": [
+          "examenes",
+          "solo",
+          "exposicion",
+          "nadie",
+          "merece"
+        ],
+        "weight": 0.08432814770749295
+      }
+    ],
+    "sentiment": {
+      "overall": -0.08695652173913043,
+      "by_month": {
+        "2020-01": 0.0,
+        "2018-08": 0.0,
+        "2018-02": 0.0,
+        "2018-01": 0.0,
+        "2017-12": 0.0,
+        "2017-11": -0.3333333333333333,
+        "2017-10": 0.0,
+        "2017-08": 0.0,
+        "2016-09": 0.0,
+        "2016-05": 0.0,
+        "2016-02": 0.0,
+        "2016-01": 0.0,
+        "2015-12": 0.0,
+        "2015-10": -1.0,
+        "2015-05": 0.0,
+        "2015-01": 0.0
+      }
+    },
+    "n_comments": 23
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        3.0,
+        2.0,
+        7.0,
+        2.0,
+        2.3333333333333335,
+        2.0,
+        2.0,
+        2.0,
+        3.0
+      ],
+      "ewma": [
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.3,
+        2.21,
+        3.6470000000000002,
+        3.1529000000000003,
+        2.9070300000000002,
+        2.6349210000000003,
+        2.4444447,
+        2.31111129,
+        2.517777903
+      ],
+      "sigma": 0.9754921155559241
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 2.517777903,
+      "quality_band": [
+        0.6058133565103887,
+        4.429742449489611
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2020-01-10T00:00:00",
+      "materia": "TALLER DE HERRAMIENTAS INTELECTUALES",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 0,
+      "comentario": "Es un profesor que hace comentarios hirientes a sus alumnos, e incluso pasados de tono a las mujeres, a mi me tocó que hiciera comentarios refiriéndose a los pechos de una alumna, al final se pasa por donde quiere los exámenes y según tu ”actitud” te califica, puede que te vaya muy bien o muy mal."
+    },
+    {
+      "fecha_iso": "2020-01-10T00:00:00",
+      "materia": "TALLER DE HERRAMIENTAS INTELECTUALES",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 0,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2018-08-04T00:00:00",
+      "materia": "TALLER DE HERR INTELECTUALES",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": "los alumnos dan las clases con las exposiciones y en el examen pone lo que el quiere."
+    },
+    {
+      "fecha_iso": "2018-02-04T00:00:00",
+      "materia": "TALLER DE HERRAMIENTAS",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 24.0,
+      "recomienda": 0,
+      "comentario": "Es una mierda de maestro"
+    },
+    {
+      "fecha_iso": "2018-01-16T00:00:00",
+      "materia": "HERRAMIENTAS INTELECTUALES",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": "Este profe es pura exposición, sus exámenes nadie los pasa y sólo pasan mujeres"
+    },
+    {
+      "fecha_iso": "2017-12-18T00:00:00",
+      "materia": "TALLER DE HERRAMIENTAS",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": "Este bato es un imbecil, se la pasa de pendejo nomas en el salon mientras todo el semestre nomas se la pasa de webon, nos quiso ayudar al final segun el pero teniamos que ir a una estetica de una pariente suya a cortarnos el pelo y la vieja deja todo trasquilado"
+    },
+    {
+      "fecha_iso": "2017-12-15T00:00:00",
+      "materia": "HERRAMIENTAS INTELECTUALES",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 24.0,
+      "recomienda": 0,
+      "comentario": "Muy muy mal profesor el peor de todo el Tec, la clase la dan los alumnos deja exposiciónes para todo el semestre y califica a como le da su gana, nunca por nada del mundo carguen con el"
+    },
+    {
+      "fecha_iso": "2017-12-03T00:00:00",
+      "materia": "TALLER DE ADMINISTRACION",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2017-11-17T00:00:00",
+      "materia": "TALLER DE ADMINISTRACIÓN",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 23.0,
+      "recomienda": 0,
+      "comentario": "Es un puto payaso huevon."
+    },
+    {
+      "fecha_iso": "2017-11-15T00:00:00",
+      "materia": "HERRAMIENTAS RECTALES",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 24.0,
+      "recomienda": 0,
+      "comentario": "el bato pues vende pollos pero pa las clase es un cebo, no hace nadfa claifica pala verga como quiere a quien quiere, nos pone a noso5ttros dar la clase con su exposicion culera y el se la pasa concha nomas zorreando las panochasd del salon"
+    },
+    {
+      "fecha_iso": "2017-11-09T00:00:00",
+      "materia": "TALLER DE HERRAMIENTAS INTELECTUALES",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 23.0,
+      "recomienda": 0,
+      "comentario": "Solo sirve para estar zorreando a las alumnas y no sabe nada de la materia somos los alumnos los que tenemos que dar la clase y en los examenes no viene nada de lo visto en clase, es un inutil."
+    },
+    {
+      "fecha_iso": "2017-10-29T00:00:00",
+      "materia": "TALLER DE ERRAMIENTAS INTELECTUALES",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 0,
+      "comentario": "siempre llega tarde"
+    },
+    {
+      "fecha_iso": "2017-10-16T00:00:00",
+      "materia": "TALLER DE ERAMIENTAS INTELECTUALES",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 0,
+      "comentario": "Sempre llega tarde pero esplica bien los temas."
+    },
+    {
+      "fecha_iso": "2017-10-09T00:00:00",
+      "materia": "MATEMÁTICAS DISCRETAS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 23.0,
+      "recomienda": 1,
+      "comentario": "Buen profesor, clases sencillas y consisas"
+    },
+    {
+      "fecha_iso": "2017-08-30T00:00:00",
+      "materia": "TALLER DE HERRAMIENTAS INTELECTUALES",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 0,
+      "comentario": "No sé como el tecnológico puede tener un maestro así. Prepotente, grosero, vulgar y abusivo. Te calificará como el quiera, no importa nada más que lo que el piensa. A las mujeres nos tomaba fotos con su iPad, hicimos una hoja donde firmamos de que no lo queríamos como maestro y no hicieron nada."
+    },
+    {
+      "fecha_iso": "2017-08-29T00:00:00",
+      "materia": "TALLER DE HERRAMIENTAS INTELECTUALES",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 1.0,
+      "recomienda": 0,
+      "comentario": "Este anciano es una vergüenza para el Tecnológico,no tiene ni idea de lo que hace ni de lo que dice,no lo carguen solo disfraza su tiempo para ir a zorrear a las mujeres y califica como se le da la gana,se burla de los alumnos e intenta ser cómico cuando solo cae pesado."
+    },
+    {
+      "fecha_iso": "2016-09-14T00:00:00",
+      "materia": "HERRAMIENTAS INTELECTUALES",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": "uno de los peores habla muy bajo no se le entiende,te pone falta aunque estes en la clase,\nno explica nada todo el semestre son puras exposiciones, ; sus examenes son abiertos no tienen que ver con la clase,,al final califica como se le da la gana pasa a los que le caen bien"
+    },
+    {
+      "fecha_iso": "2016-05-11T00:00:00",
+      "materia": "ANÁLISIS DE LA REALIDAD NACIONAL",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 0,
+      "comentario": "No haces nada, solo expones, es bien zorro, así que si eres mujeres nimodo, ayuda mas a las mujeres que a los hombres, al final te pone lo que quieras, pero pasas si te ve en la clase, con 70 pero pasas"
+    },
+    {
+      "fecha_iso": "2016-02-02T00:00:00",
+      "materia": "ANALISIS DE LA REALIDAD NACIONAL",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 0,
+      "comentario": "No merece que lo cargue nadie"
+    },
+    {
+      "fecha_iso": "2016-01-20T00:00:00",
+      "materia": "CUALQUIER MATERIA",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Es una burla a la educación. Con eso basta. Si lo ves y no tienes opción al momento de carga mejor ni lo cargues."
+    },
+    {
+      "fecha_iso": "2015-12-15T00:00:00",
+      "materia": "TALLER DE HERRAMIENTAS INTELECTUALES",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "No merece llamarse maestro, son puras exposiciones en el semestre, los examenes los hace bien raros, solo va a zorrear a las mujeres, es muy lepero, es raro que pases con el, tiene un margen de 80% del salón reprobado, excenta al final a quienes quiere, no lo recomiendo para nada"
+    },
+    {
+      "fecha_iso": "2015-12-09T00:00:00",
+      "materia": "FUNDAMENTOS DE INVESTIGACION",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "No merece"
+    },
+    {
+      "fecha_iso": "2015-10-29T00:00:00",
+      "materia": "TALLER DE HERRAMIENTAS INTELECTUALES",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Es el profesor más inútil que e llegado a conocer. No hace nada solo pone a exponer a los alumnos y califica como si verdaderamente enseñara bien en sus clases. Va a zorrear a clases nomas Profesor sin vergüenza."
+    },
+    {
+      "fecha_iso": "2015-05-15T00:00:00",
+      "materia": "TALLER DE LIDERAZGO",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Es una basura este anciano senil, todo el semestre son puras exposiciones y para los exámenes te entrega un paquete como de 100 hojas para estudiar. A final de cuentas cargar con el es un desperdicio de tiempo"
+    },
+    {
+      "fecha_iso": "2015-01-17T00:00:00",
+      "materia": "TALLER DE HERRAMIENTAS INTELECTUALES",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 0,
+      "comentario": "No explica nada son puras exposiciones todo el semestre, le da igual que saques en los examenes pone lo que se le da la gana y aveces te deja 70. No se entiende su método de evaluación y al final de cuentas quien dio la clase todo el semestre fuiste tu."
+    }
+  ],
+  "comments_recent": [
+    "Es un profesor que hace comentarios hirientes a sus alumnos, e incluso pasados de tono a las mujeres, a mi me tocó que hiciera comentarios refiriéndose a los pechos de una alumna, al final se pasa por donde quiere los exámenes y según tu ”actitud” te califica, puede que te vaya muy bien o muy mal.",
+    "los alumnos dan las clases con las exposiciones y en el examen pone lo que el quiere.",
+    "Es una mierda de maestro",
+    "Este profe es pura exposición, sus exámenes nadie los pasa y sólo pasan mujeres",
+    "Este bato es un imbecil, se la pasa de pendejo nomas en el salon mientras todo el semestre nomas se la pasa de webon, nos quiso ayudar al final segun el pero teniamos que ir a una estetica de una pariente suya a cortarnos el pelo y la vieja deja todo trasquilado",
+    "Muy muy mal profesor el peor de todo el Tec, la clase la dan los alumnos deja exposiciónes para todo el semestre y califica a como le da su gana, nunca por nada del mundo carguen con el",
+    "Es un puto payaso huevon.",
+    "el bato pues vende pollos pero pa las clase es un cebo, no hace nadfa claifica pala verga como quiere a quien quiere, nos pone a noso5ttros dar la clase con su exposicion culera y el se la pasa concha nomas zorreando las panochasd del salon"
+  ],
+  "n_reviews": 25
+}

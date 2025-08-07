@@ -1,0 +1,154 @@
+{
+  "nombre": "Efrain Solares",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "ciudad": "Ciudad: culiacan, sinaloa",
+  "departamento": "Departamento/Facultad: Ing. Sistemas Computacionales",
+  "calidad_general": 7.8,
+  "porcentaje_recomienda": 75,
+  "nivel_dificultad": 3.0,
+  "etiquetas": [
+    "DA BUENA RETROALIMENTACIÓN (3)",
+    "MUCHAS TAREAS (2)",
+    "DA CRÉDITO EXTRA (1)",
+    "LA PARTICIPACIÓN IMPORTA (2)",
+    "MUCHOS EXÁMENES (1)",
+    "BRINDA APOYO (2)",
+    "CALIFICA DURO (1)",
+    "LOS EXÁMENES SON DIFÍCILES (1)",
+    "INSPIRACIONAL (1)"
+  ],
+  "numero_calificaciones": 8,
+  "calificaciones": [
+    {
+      "fecha": "25/Feb/2022",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 7.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Matematicas discretas",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "8",
+      "interes_clase": "",
+      "comentario": "",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "23/Dic/2021",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Administracion de Base de Datos",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "9.5",
+      "interes_clase": "",
+      "comentario": "Al principio parecía que no dominaba mucho la materia, parecían clases de fundamentos. No enseña nada practico, esa parte es de auto estudio y el proyecto final será sobre eso. En general es buen maestro, pero no lo recomiendo porque te vas sin saber casi nada practico.",
+      "etiquetas_comentario": [
+        "Da buena retroalimentación",
+        "Brinda apoyo"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "30/Sep/2021",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 7.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Matematicas Discretas",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "8",
+      "interes_clase": "",
+      "comentario": "",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "03/Sep/2021",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 7.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Matematicas discretas",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "7",
+      "interes_clase": "",
+      "comentario": "No está mal para las materias de relleno, es algo enredoso pero hace paro al final si asistes",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "13/Ago/2019",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Mates discretas",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "Por problemas del tec nos empezo a dar clases despues de 2 semanas, asi que vimos todo muy rapido y para ir asi de rapido explicaba muy claro, ayuda si tienes problemas y vuelve a explicar las veces que sean necesarias",
+      "etiquetas_comentario": [
+        "Da buena retroalimentación",
+        "La Participación Importa",
+        "Inspiracional"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "23/Feb/2019",
+      "tipo_calificacion": "REGULAR",
+      "puntaje_calidad_general": 4.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Matemáticas Discretas",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "7.5",
+      "interes_clase": "",
+      "comentario": "No tuve una buena experiencia con este maestro. No es bueno explicando, y sus examenes son muy dificiles para lo que explica. Además deja proyectos complicados para ese nivel",
+      "etiquetas_comentario": [
+        "Califica Duro",
+        "Muchas tareas",
+        "Los exámenes son difíciles"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "20/Jun/2017",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 7.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Programacion Basica",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "8.5",
+      "interes_clase": "",
+      "comentario": "Buen maestro, y es accesible cuando le preguntas, pero se adelanta en los temas muy rápido",
+      "etiquetas_comentario": [
+        "La Participación Importa",
+        "Muchos Exámenes",
+        "Brinda apoyo"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "18/Mar/2017",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Programación Básica",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "N/A",
+      "interes_clase": "",
+      "comentario": "",
+      "etiquetas_comentario": [
+        "Da buena retroalimentación",
+        "Muchas tareas",
+        "Da Crédito Extra"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    }
+  ]
+}

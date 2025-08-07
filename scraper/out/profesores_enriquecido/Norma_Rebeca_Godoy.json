@@ -1,0 +1,415 @@
+{
+  "professor_id": "Norma_Rebeca_Godoy",
+  "nombre": "Norma Rebeca Godoy",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 3.6406728053382733,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 4.80549753133308,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.136,
+    "wilson_interval": [
+      0.04748917264236267,
+      0.3333541187947
+    ],
+    "n_recommendations": 22
+  },
+  "subject_normalization": {
+    "z_mean": -0.57,
+    "z_mean_decayed": -0.77,
+    "per_subject": [
+      {
+        "materia": "---",
+        "z_decayed": 0.9151075720056067,
+        "n": 521
+      },
+      {
+        "materia": "ING DE SOFTWARE",
+        "z_decayed": 0.5773502691896257,
+        "n": 3
+      },
+      {
+        "materia": "PRUEBAS DE SOFTWARE",
+        "z_decayed": -0.4783218215960646,
+        "n": 11
+      },
+      {
+        "materia": "INGENIERÍA DE SOFTWARE",
+        "z_decayed": -0.5014681250336133,
+        "n": 8
+      },
+      {
+        "materia": "PROGRAMACIÓN",
+        "z_decayed": -0.6758194105818635,
+        "n": 10
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "tiene",
+          "llega",
+          "siempre",
+          "dia",
+          "es"
+        ],
+        "weight": 0.10243333162384342
+      },
+      {
+        "id": 1,
+        "words": [
+          "comentario esperando",
+          "revision",
+          "comentario",
+          "esperando",
+          "esperando revision"
+        ],
+        "weight": 0.07977504903501424
+      },
+      {
+        "id": 2,
+        "words": [
+          "caes mal",
+          "si caes",
+          "mal",
+          "si",
+          "prepotente"
+        ],
+        "weight": 0.14097908100081571
+      },
+      {
+        "id": 3,
+        "words": [
+          "proyecto",
+          "te",
+          "sistema",
+          "solo",
+          "web"
+        ],
+        "weight": 0.12629433469988247
+      },
+      {
+        "id": 4,
+        "words": [
+          "si",
+          "materia",
+          "clase",
+          "dar clase",
+          "dar"
+        ],
+        "weight": 0.08232038288669129
+      }
+    ],
+    "sentiment": {
+      "overall": -0.05,
+      "by_month": {
+        "2025-08": 0.0,
+        "2024-12": 0.0,
+        "2024-08": 0.0,
+        "2023-12": 0.0,
+        "2023-08": 0.0,
+        "2022-06": 0.0,
+        "2022-05": 0.0,
+        "2022-04": 0.0,
+        "2021-12": 0.0,
+        "2021-05": 0.0,
+        "2020-06": 0.0,
+        "2020-01": 0.0,
+        "2018-08": -0.5,
+        "2018-06": 0.0,
+        "2013-05": 0.0,
+        "2012-08": 0.0
+      }
+    },
+    "n_comments": 20
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.005,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        6.0,
+        10.0,
+        2.0,
+        3.5,
+        2.5,
+        6.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        7.0,
+        2.5,
+        10.0,
+        5.0,
+        4.0,
+        3.0,
+        2.0
+      ],
+      "ewma": [
+        6.0,
+        7.199999999999999,
+        5.639999999999999,
+        4.997999999999999,
+        4.2486,
+        4.774019999999999,
+        3.9418139999999995,
+        3.3592697999999994,
+        2.9514888599999995,
+        2.666042202,
+        2.4662295413999997,
+        3.8263606789799995,
+        3.4284524752859995,
+        5.399916732700199,
+        5.279941712890139,
+        4.895959199023097,
+        4.327171439316167,
+        3.629020007521317
+      ],
+      "sigma": 2.040320549222323
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 3.629020007521317,
+      "quality_band": [
+        0.0,
+        7.62804828399707
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2025-08-07T00:00:00",
+      "materia": "INGENIERIA DE SOFTWARE",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 0,
+      "comentario": "La maestra suele ser muy confusa, pide una cosa y al dia siguiente la cambia, es muy llevada y llega a ser algo molesta, sin embargo es poco probable que repruebes siempre y cuando pongas un minimo de esfuerzo."
+    },
+    {
+      "fecha_iso": "2024-12-06T00:00:00",
+      "materia": "FUNDAMENTOS DE PROGRAMACIÓN",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": 23.0,
+      "recomienda": 0,
+      "comentario": "Siempre da por hecho que sabes todo lo básico, 1 diagrama de flujo y se va directamente a programar en java sin explicar cosas como los tipos de datos, el ambiente siempre es tenso y no da casi nada de tiempo al hacer exámenes, además de hacerlo considerablemente extensos para lo que es fundamentos"
+    },
+    {
+      "fecha_iso": "2024-08-19T00:00:00",
+      "materia": "PROGRAMACIÓN",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 6.0,
+      "recomienda": 0,
+      "comentario": "Esta profe debería dar clase en el penal del altiplano. Si les toca con ella mejor dense de baja. Bipolar y con arranques de ira espontáneos"
+    },
+    {
+      "fecha_iso": "2023-12-15T00:00:00",
+      "materia": "PRUEBAS DE SOFTWARE",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 0,
+      "comentario": "Especificamente para la materia de pruebas de software no esta nada calificada para dar la materia, siempre te da los mismos ejemplos y cuando ya no sabe que dar en la clase, se pone a DICTAR. Usa material muy antiguo (libros del 2002)..."
+    },
+    {
+      "fecha_iso": "2023-08-11T00:00:00",
+      "materia": "ING DE SOFTWARE",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Es bien facil pasar  con ella, solo es hacer lo que pide y listo, nomas que si tienes que tener  cuidado con  no caerle mal, te puede perjudicar un poco."
+    },
+    {
+      "fecha_iso": "2022-06-11T00:00:00",
+      "materia": "PRUEBAS DE SOFTWARE",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 6.5,
+      "recomienda": 0,
+      "comentario": "personas como ella sobran en el mundo"
+    },
+    {
+      "fecha_iso": "2022-06-07T00:00:00",
+      "materia": "INGENIERÍA DE SOFTWARE",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": 5.0,
+      "recomienda": 0,
+      "comentario": "Apoyo varios comentarios, si le caes mal date por reprobado, ni lo intentes, el proyecto final nos quitó 80 puntos por poner mal un párrafo en la página web, prepotente, si estudias y trabajas, ella te hará la vida imposible"
+    },
+    {
+      "fecha_iso": "2022-05-18T00:00:00",
+      "materia": "INGENIERÍA DE SOFTWARE",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Creo que solo se trata de trabajar en su clase, no te pide nada del otro mundo, entrega el proyecto y muéstrale interés, recomiendo que cargues con ella si tuviste buenos profes de programación y bases de datos porque lo vas ocupar."
+    },
+    {
+      "fecha_iso": "2022-04-01T00:00:00",
+      "materia": "ING SOFTWARE",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 6.5,
+      "recomienda": 0,
+      "comentario": "una lastima no solo de maestra sino de persona tambien"
+    },
+    {
+      "fecha_iso": "2022-02-10T00:00:00",
+      "materia": "PRUEBAS DE SOFTWARE",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2021-12-09T00:00:00",
+      "materia": "INGENIERIA EN SOFTWARE",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 25.0,
+      "recomienda": 0,
+      "comentario": "Deja un programa al final que nisiquiera va con su materia, no explica nada, y con una tarea que te falte estás reprobado.  Los examenes de recuperación no sirven, ya que solo son del examen, el cual vale lo mismo que una tarea."
+    },
+    {
+      "fecha_iso": "2021-12-01T00:00:00",
+      "materia": "ING SOFTWARE",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": "Tiene problemas y quiere desquitar sus problemas con los alumnos"
+    },
+    {
+      "fecha_iso": "2021-05-13T00:00:00",
+      "materia": "INGENIERIA DE SOFTWARE",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 0,
+      "comentario": "Pesima maestra si quieres aprender no cargues con ella, las clases son tres días a la semana pero las dan los alumnos. Es muy prepotente e inflexible y si le caes mal te reprueba"
+    },
+    {
+      "fecha_iso": "2020-06-11T00:00:00",
+      "materia": "INGENIERÍA DE SOFTWARE",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": "PESIMA profesora, un dia te dice que una cosa y al día siguiente te dice que eso no era y que esta todo mal. Tiene muy mala actitud, tiene favoritismos en clases, cero empatica y flexible, el ambiente en el aula es tenso, te habla con aires de superioridad."
+    },
+    {
+      "fecha_iso": "2020-01-13T00:00:00",
+      "materia": "INGENIERÍA DE SOFTWARE",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Es un solo proyecto que se desarrolla durante todo el semestre por las etapas de la ingeniería de software, el problema viene de que el sistema que por lo regular es un sistema web, y la mayoría de alumnos no tienen esos conocimientos al llevar esta materia.\nLos exámenes son en Moodle."
+    },
+    {
+      "fecha_iso": "2018-08-24T00:00:00",
+      "materia": "INGENIERÍA DE SOFTWARE",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": "La doña te deja un proyecto de un sistema súper complejo y web sabiendo, que aun los alumnos no han llevado programación web y no se le entiende a lo que te pide, puedes pasar sin hacer nada, pero apenas con un equipo bien macana en web y si entregas todo sin errores y la documentación"
+    },
+    {
+      "fecha_iso": "2018-08-07T00:00:00",
+      "materia": "ING. DE SOFTWARE",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": 7.5,
+      "recomienda": 0,
+      "comentario": "La verdad es muy dificil con esta profesora, aveces ni ella sabe lo que quiere, toma por hecho que las cosas ya las sabes y no es tan flexible. Aveces ayuda pero te llega a enredar mas. Los examenes estan super raros pero son en linea."
+    },
+    {
+      "fecha_iso": "2018-06-01T00:00:00",
+      "materia": "INGENERIA EN SOFTWARE",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 25.0,
+      "recomienda": 0,
+      "comentario": "La peor maestra que he tenido en mi vida, super prepotente y aplica el favoritismo con los alumnos que ella quiere, hipocrita y si le caes mal date por reprobado, no cargen con ella."
+    },
+    {
+      "fecha_iso": "2018-06-01T00:00:00",
+      "materia": "PRUEBAS DE SOFTWARE",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 0,
+      "comentario": "La peor maestrA que he tenido en los años de mi carrera, para nada la recomiendo. Es mala en su persona, muy prepotente y nada considerada con sus alumnos.\nLo que aprenderás sera por tu cuenta, ella da por entendido que ya sabes los temas de lo que habla."
+    },
+    {
+      "fecha_iso": "2016-04-19T00:00:00",
+      "materia": "PRUEBAS DE SOFT.",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 25.0,
+      "recomienda": 0,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2013-05-23T00:00:00",
+      "materia": "---",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2012-08-14T00:00:00",
+      "materia": "---",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    }
+  ],
+  "comments_recent": [
+    "La maestra suele ser muy confusa, pide una cosa y al dia siguiente la cambia, es muy llevada y llega a ser algo molesta, sin embargo es poco probable que repruebes siempre y cuando pongas un minimo de esfuerzo.",
+    "Siempre da por hecho que sabes todo lo básico, 1 diagrama de flujo y se va directamente a programar en java sin explicar cosas como los tipos de datos, el ambiente siempre es tenso y no da casi nada de tiempo al hacer exámenes, además de hacerlo considerablemente extensos para lo que es fundamentos",
+    "Esta profe debería dar clase en el penal del altiplano. Si les toca con ella mejor dense de baja. Bipolar y con arranques de ira espontáneos",
+    "Especificamente para la materia de pruebas de software no esta nada calificada para dar la materia, siempre te da los mismos ejemplos y cuando ya no sabe que dar en la clase, se pone a DICTAR. Usa material muy antiguo (libros del 2002)...",
+    "Es bien facil pasar  con ella, solo es hacer lo que pide y listo, nomas que si tienes que tener  cuidado con  no caerle mal, te puede perjudicar un poco.",
+    "personas como ella sobran en el mundo",
+    "Apoyo varios comentarios, si le caes mal date por reprobado, ni lo intentes, el proyecto final nos quitó 80 puntos por poner mal un párrafo en la página web, prepotente, si estudias y trabajas, ella te hará la vida imposible",
+    "Creo que solo se trata de trabajar en su clase, no te pide nada del otro mundo, entrega el proyecto y muéstrale interés, recomiendo que cargues con ella si tuviste buenos profes de programación y bases de datos porque lo vas ocupar.",
+    "una lastima no solo de maestra sino de persona tambien"
+  ],
+  "n_reviews": 22
+}

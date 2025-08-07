@@ -1,0 +1,522 @@
+{
+  "professor_id": "César_Iván_Abrajan_Barraza",
+  "nombre": "César Iván Abrajan Barraza",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 7.0506842105804095,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 6.613712404825203,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.562,
+    "wilson_interval": [
+      0.3932530203122613,
+      0.7183491403055682
+    ],
+    "n_recommendations": 32
+  },
+  "subject_normalization": {
+    "z_mean": -0.19,
+    "z_mean_decayed": -0.02,
+    "per_subject": [
+      {
+        "materia": "TALLER DE INVESTIGACIÓN",
+        "z_decayed": 0.8928660402432333,
+        "n": 9
+      },
+      {
+        "materia": "FUNDAMENTOS DE INVESTIGACIÓN",
+        "z_decayed": 0.7468762524502436,
+        "n": 29
+      },
+      {
+        "materia": "TALLER DE INVESTIGACION",
+        "z_decayed": 0.6603381797442178,
+        "n": 4
+      },
+      {
+        "materia": "TALLER DE INVESTIGACION II",
+        "z_decayed": 0.4985415622798046,
+        "n": 5
+      },
+      {
+        "materia": "ROBÓTICA",
+        "z_decayed": 0.4777659944897651,
+        "n": 8
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "comentario esperando",
+          "esperando",
+          "esperando revision",
+          "comentario",
+          "revision"
+        ],
+        "weight": 0.11089466362224504
+      },
+      {
+        "id": 1,
+        "words": [
+          "siempre",
+          "maestro",
+          "clase",
+          "deja",
+          "es"
+        ],
+        "weight": 0.09810077743297986
+      },
+      {
+        "id": 2,
+        "words": [
+          "tareas",
+          "hace",
+          "final",
+          "te hace",
+          "te"
+        ],
+        "weight": 0.1012360888203197
+      },
+      {
+        "id": 3,
+        "words": [
+          "sabe",
+          "dio",
+          "buen profesor",
+          "buen",
+          "profesor"
+        ],
+        "weight": 0.10244696187045724
+      },
+      {
+        "id": 4,
+        "words": [
+          "cargar",
+          "quiere",
+          "mas",
+          "si",
+          "huevon"
+        ],
+        "weight": 0.10585481338803293
+      }
+    ],
+    "sentiment": {
+      "overall": 0.04,
+      "by_month": {
+        "2024-08": 0.0,
+        "2023-08": 1.0,
+        "2023-07": 0.0,
+        "2023-06": 0.0,
+        "2023-03": 0.0,
+        "2023-01": 0.0,
+        "2022-06": 0.0,
+        "2022-02": 0.0,
+        "2021-05": 1.0,
+        "2021-01": 0.0,
+        "2020-07": 0.0,
+        "2018-10": 0.0,
+        "2017-12": 0.0,
+        "2017-05": 1.0,
+        "2017-01": 0.0,
+        "2016-09": 0.0,
+        "2016-08": 0.0,
+        "2016-02": -1.0,
+        "2016-01": -0.5,
+        "2015-12": 0.0,
+        "2015-10": 0.0
+      }
+    },
+    "n_comments": 25
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.02,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 0.99
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        8.0,
+        3.0,
+        8.5,
+        2.0,
+        4.0,
+        2.0,
+        5.0,
+        10.0,
+        2.0,
+        9.0,
+        10.0,
+        9.0,
+        8.0,
+        10.0,
+        8.0,
+        10.0,
+        9.5,
+        2.0,
+        10.0,
+        5.0,
+        3.0,
+        7.5,
+        10.0,
+        8.0,
+        5.0
+      ],
+      "ewma": [
+        8.0,
+        6.5,
+        7.1,
+        5.569999999999999,
+        5.098999999999999,
+        4.169299999999999,
+        4.4185099999999995,
+        6.092956999999999,
+        4.865069899999999,
+        6.105548929999999,
+        7.273884250999999,
+        7.7917189756999985,
+        7.854203282989998,
+        8.497942298092998,
+        8.348559608665099,
+        8.843991726065568,
+        9.040794208245897,
+        6.9285559457721275,
+        7.849989162040489,
+        6.994992413428342,
+        5.7964946893998395,
+        6.307546282579888,
+        7.415282397805921,
+        7.590697678464144,
+        6.8134883749249004
+      ],
+      "sigma": 2.3261371053244497
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 6.8134883749249004,
+      "quality_band": [
+        2.254259648488979,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2024-08-04T00:00:00",
+      "materia": "---",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2023-08-10T00:00:00",
+      "materia": "CÁLCULO DIFERENCIAL",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Es un profesor justo si le pones ganas vas a pasar la materia. Desde el primer día deja claro como va a calificar y asi lo hace, deja tarea pero es facil pero la mayor parte del tiempo tienes que aprender por tu cuenta"
+    },
+    {
+      "fecha_iso": "2023-07-03T00:00:00",
+      "materia": "SOFTWARE DE APLICACIÓN EJECUTIVO",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Estuvimos haciendo prácticas todo la asignatura, a la mayoría les agrado y nunca falto y te dice desde el principio el día que te entrega las calificaciones de cada unidad y cuantas tareas serán."
+    },
+    {
+      "fecha_iso": "2023-06-26T00:00:00",
+      "materia": "METODOLOGÍA PARA LA ADMINISTRACIÓN DE PROYECTO",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Con lo que se ve en esta materia las prácticas profesionales les serán mas fáciles. Búsquenlo para que sea tu asesor, te revisa mucho el proyecto."
+    },
+    {
+      "fecha_iso": "2023-06-09T00:00:00",
+      "materia": "SOFTWARE APLICACIÓN EJECUTIVA",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 0,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2023-03-13T00:00:00",
+      "materia": "METODOLOGÍA DE ADMINISTRACIÓN DE PROYECTOS",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 0,
+      "comentario": "Yo no se para que pago la colegiatura si este huevon nada más se sienta a no hacer nada y pedir qué busquemos por nosotros mismos"
+    },
+    {
+      "fecha_iso": "2023-01-16T00:00:00",
+      "materia": "CALCULO DIFERENIAL",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 0,
+      "comentario": "Es buen maestro, aprendes con el, pero siempre deja tarea y mucha."
+    },
+    {
+      "fecha_iso": "2022-12-09T00:00:00",
+      "materia": "CÁLCULO DIFERENCIAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2022-06-23T00:00:00",
+      "materia": "DINÁMICA",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 0,
+      "comentario": "Huevón hecho y derecho. Le encanta enviar PDF’s por Canvas."
+    },
+    {
+      "fecha_iso": "2022-02-24T00:00:00",
+      "materia": "FUNDAMENTOS DE LA INVESTIGACIÓN",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2022-02-18T00:00:00",
+      "materia": "DINÁMICA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Deja mucha tarea, pero es sencilla. Cualquier duda siempre te la resuelve."
+    },
+    {
+      "fecha_iso": "2021-05-07T00:00:00",
+      "materia": "FUNDAMENTOS DE INVESTIGACIÓN",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "buen profesor, claro, siempre te responde las dudas de la mejor manera"
+    },
+    {
+      "fecha_iso": "2021-01-21T00:00:00",
+      "materia": "FUNDAMENTOS DE INVESTIGACIÓN",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Buen profesor, me dió en cuarentena y si sabe explicar y luego da facilidades"
+    },
+    {
+      "fecha_iso": "2020-08-24T00:00:00",
+      "materia": "TALLER DE INVESTIGACIÓN",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2020-07-27T00:00:00",
+      "materia": "CALCULO",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Dio clases de vectorial y explico muy bien hizo que fuera aun mas facil la materia, te hace sufrir y al final si ve que le pusiste ganas te pasa y con buenaa calificacion, yo tenia reprobada una unidad por unos problemas personales e hizo paro diciendo que todos tenemos problemas"
+    },
+    {
+      "fecha_iso": "2018-10-15T00:00:00",
+      "materia": "CIRCUITOS ELECTRICOS",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Buen profe en la materia de circuito"
+    },
+    {
+      "fecha_iso": "2018-08-08T00:00:00",
+      "materia": "ROBÓTICA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2018-06-23T00:00:00",
+      "materia": "ROBÓTICA",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2017-12-16T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2017-05-25T00:00:00",
+      "materia": "CONTROL DIGITAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "EXCELENTE MAESTRO, ENSEÑA EN TODO SE LA RIFA EL BATO, le apesta el culo"
+    },
+    {
+      "fecha_iso": "2017-01-11T00:00:00",
+      "materia": "DIBUJO ASISTIDO POR COMPUTADORA",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 25.0,
+      "recomienda": 0,
+      "comentario": "Ayuda a quién quiere nomás, si no te deja morir y se ríe de eso."
+    },
+    {
+      "fecha_iso": "2016-09-28T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 24.0,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2016-08-31T00:00:00",
+      "materia": "TALLER DE INVESTIGACION II",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Solo son dos idas de clase, es muy estricto con los entregables pero al final te pone buena calificación. Primero te hace sufrir."
+    },
+    {
+      "fecha_iso": "2016-08-08T00:00:00",
+      "materia": "PROBABILIDAD Y ESTADÍSTICA",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 0,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2016-08-04T00:00:00",
+      "materia": "FUNDAMENTOS DE TERMODINÁMICA",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 0,
+      "comentario": "Está bien pelado pero no aprendí absolutamente NADA"
+    },
+    {
+      "fecha_iso": "2016-02-12T00:00:00",
+      "materia": "PROBABILIDAD Y ESTADÍSTICA",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 0,
+      "comentario": "Pésimo profesor"
+    },
+    {
+      "fecha_iso": "2016-01-16T00:00:00",
+      "materia": "TALLER DE INVESTIGACION",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Al principio te hace sentir que vas a pasar con el muy facil, pero al final deja muchas tareas y trabajos finales, tambien examenes de un dia para otro"
+    },
+    {
+      "fecha_iso": "2016-01-14T00:00:00",
+      "materia": "CONTROL DIGITAL",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "La clase es difícil porque siempre deja investigar y la clase parte teniendo en cuenta que investigaste el tema, es constantemente estar investigando."
+    },
+    {
+      "fecha_iso": "2015-12-27T00:00:00",
+      "materia": "---",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2015-12-26T00:00:00",
+      "materia": "TERMODINÁMICA",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 5.0,
+      "recomienda": 0,
+      "comentario": "La materia de termodinámica no es su fuerte asi que no lo recomiendo para cargar con el, no aprenderás pero si pasaras"
+    },
+    {
+      "fecha_iso": "2015-12-11T00:00:00",
+      "materia": "TALLER DE INVESTIGACION 2",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 1.0,
+      "recomienda": 0,
+      "comentario": "¡NI SE LES OCURRA CARGAR CON EL! \nNo te ayuda en nada, y constantemente te pide mas y mas cosas. No sabe ni lo que quiere, sólo sabe que quiere más, Tu NUNCA puedes faltar a su clase(por ninguna razón, y si uno de tu equipo falta, cae en ti), pero él sí puede faltar.\nUn TOTAL ERROR cargar con el."
+    },
+    {
+      "fecha_iso": "2015-10-11T00:00:00",
+      "materia": "CONTROL DIGITAL",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Muy buen maestro, su clase no está nada fácil y constantemente te pide que investigues por tu cuenta. Es ahí donde a la mayoría no le gusta, ya que la clase la imparte asumiendo que investigaste. Sin embargo es de gran utilidad."
+    }
+  ],
+  "comments_recent": [
+    "[Comentario esperando revisión]",
+    "Es un profesor justo si le pones ganas vas a pasar la materia. Desde el primer día deja claro como va a calificar y asi lo hace, deja tarea pero es facil pero la mayor parte del tiempo tienes que aprender por tu cuenta",
+    "Estuvimos haciendo prácticas todo la asignatura, a la mayoría les agrado y nunca falto y te dice desde el principio el día que te entrega las calificaciones de cada unidad y cuantas tareas serán.",
+    "Con lo que se ve en esta materia las prácticas profesionales les serán mas fáciles. Búsquenlo para que sea tu asesor, te revisa mucho el proyecto.",
+    "Yo no se para que pago la colegiatura si este huevon nada más se sienta a no hacer nada y pedir qué busquemos por nosotros mismos",
+    "Es buen maestro, aprendes con el, pero siempre deja tarea y mucha.",
+    "Huevón hecho y derecho. Le encanta enviar PDF’s por Canvas."
+  ],
+  "n_reviews": 32
+}

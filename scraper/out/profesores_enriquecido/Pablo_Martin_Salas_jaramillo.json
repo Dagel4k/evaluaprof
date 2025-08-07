@@ -1,0 +1,343 @@
+{
+  "professor_id": "Pablo_Martin_Salas_jaramillo",
+  "nombre": "Pablo Martin Salas jaramillo",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 5.69236350075536,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 5.791036840106342,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.4,
+    "wilson_interval": [
+      0.19824228082594664,
+      0.6425355724349229
+    ],
+    "n_recommendations": 15
+  },
+  "subject_normalization": {
+    "z_mean": -0.43,
+    "z_mean_decayed": -0.19,
+    "per_subject": [
+      {
+        "materia": "METROLOGIA",
+        "z_decayed": 0.14245026001931552,
+        "n": 20
+      },
+      {
+        "materia": "METROLOGÍA",
+        "z_decayed": -0.09342880899147421,
+        "n": 6
+      },
+      {
+        "materia": "METROLOGÍA Y NORMALIZACIÓN",
+        "z_decayed": -0.12794157892978963,
+        "n": 12
+      },
+      {
+        "materia": "METROLOGIA Y NORMALIZACION",
+        "z_decayed": -1.1249741024993951,
+        "n": 15
+      },
+      {
+        "materia": "MECANICA",
+        "z_decayed": -1.2250852201188458,
+        "n": 7
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "ensenar",
+          "flojo",
+          "mejor",
+          "final",
+          "es"
+        ],
+        "weight": 0.09163583331732543
+      },
+      {
+        "id": 1,
+        "words": [
+          "ultima semana",
+          "ultima",
+          "tarde",
+          "falta",
+          "llega"
+        ],
+        "weight": 0.14018198956375658
+      },
+      {
+        "id": 2,
+        "words": [
+          "final",
+          "si",
+          "califica",
+          "califica final",
+          "voz"
+        ],
+        "weight": 0.10876046955111039
+      },
+      {
+        "id": 3,
+        "words": [
+          "cosas",
+          "estudiantes",
+          "jaramillo",
+          "nunca",
+          "profe"
+        ],
+        "weight": 0.14365755933168392
+      },
+      {
+        "id": 4,
+        "words": [
+          "clases",
+          "bien",
+          "si",
+          "camarada",
+          "ensena"
+        ],
+        "weight": 0.12356964443284463
+      }
+    ],
+    "sentiment": {
+      "overall": -0.15384615384615385,
+      "by_month": {
+        "2021-08": 0.0,
+        "2020-01": -1.0,
+        "2018-04": 0.0,
+        "2018-01": 0.0,
+        "2017-12": -1.0,
+        "2017-11": 0.0,
+        "2017-06": 0.0,
+        "2016-08": 0.0,
+        "2016-05": 0.0,
+        "2015-12": 0.0,
+        "2015-08": 0.0,
+        "2012-08": 0.0,
+        "2011-07": 0.0
+      }
+    },
+    "n_comments": 13
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        10.0,
+        3.0,
+        7.0,
+        7.0,
+        8.0,
+        3.0,
+        2.0,
+        2.0,
+        4.0,
+        3.0,
+        2.0,
+        2.0,
+        5.0,
+        7.0,
+        10.0
+      ],
+      "ewma": [
+        10.0,
+        7.9,
+        7.630000000000001,
+        7.441000000000001,
+        7.608700000000001,
+        6.226089999999999,
+        4.958262999999999,
+        4.070784099999999,
+        4.049548869999999,
+        3.7346842089999988,
+        3.214278946299999,
+        2.8499952624099993,
+        3.4949966836869995,
+        4.5464976785808995,
+        6.182548375006629
+      ],
+      "sigma": 2.2121258456833655
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 6.182548375006629,
+      "quality_band": [
+        1.8467817174672332,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2021-08-10T00:00:00",
+      "materia": "METROLOGIA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 1,
+      "comentario": "En paz descanse profe Jaramillo. Usted una persona con gran calidad humana.  Nunca olvidaré lo que hizo por mí, gracias a usted se me apoyó en mi prórroga, y en muchas cosas, al igual que a muchos otros estudiantes.  Usted tenía gran calidad de servicio.  Siempre trataba de darnos ánimos."
+    },
+    {
+      "fecha_iso": "2020-10-15T00:00:00",
+      "materia": "METROLOGÍA Y NORMALIZACIÓN",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2020-01-28T00:00:00",
+      "materia": "METROLOGÍA",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 0,
+      "comentario": "La voz no le alcanza ya para dar clase y si no fuera poco, irresponsable y desorganizado. Califica hasta el final, si quieres pasar sin aprender nada carga con él."
+    },
+    {
+      "fecha_iso": "2018-04-11T00:00:00",
+      "materia": "METROLOGIA Y NORMALIZACION",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 0,
+      "comentario": "esta perdiendo la voz de tanto tomar tonayán, le vale madres la clase, y califica todo al final del semestre."
+    },
+    {
+      "fecha_iso": "2018-01-29T00:00:00",
+      "materia": "METROLOGIA",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 0,
+      "comentario": "Es bien pendejo, no sabe una mierda; una de dos, o llega media hora tarde o nunca llega, quiere calificar el semestre la ultima semana."
+    },
+    {
+      "fecha_iso": "2017-12-15T00:00:00",
+      "materia": "METROLOGIA Y NORMALIZACION",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 0,
+      "comentario": "Falta mucho, tiene letra de cholo, siempre saca pretextos por sus falta y sus retardos, te manda al Centro de Ciencias a que aprendas lo que el debe de enseñar, quiere calificar todo el semestre en la ultima semana. En otras palabras muy inútil.\nno entiendo por que sigue en el instituto."
+    },
+    {
+      "fecha_iso": "2017-11-14T00:00:00",
+      "materia": "METROLOGIA",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 0,
+      "comentario": "Llega tarde.\nFalta regularmente."
+    },
+    {
+      "fecha_iso": "2017-06-15T00:00:00",
+      "materia": "EQUIPOS MECÁNICOS",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Al final de cuenta todo mundo pasa y los exámenes, asistencia, tareas, participación, visitas, nada cuenta. Es mejor llevársela tranquilo sin preocuparse. El profesor es un flojo de primera clase y no conoce ni el material que pretende enseñar."
+    },
+    {
+      "fecha_iso": "2016-08-18T00:00:00",
+      "materia": "MECANICA",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 0,
+      "comentario": "Salas Jaramillo representa lo peor del Tec de Culiacan. No asiste a clases, no domina sus temas, solo va a contar cosas no relacionadas a la clase, no aprendes nada, es un mal ejemplo para los estudiantes. No se como puede seguir ahí. La reputación de esta univ. es muy mala respecto al país."
+    },
+    {
+      "fecha_iso": "2016-05-30T00:00:00",
+      "materia": "METROLOGÍA",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 0,
+      "comentario": "Nunca va en todo el semestre, y cuando va se pone exigente y a regañarnos que porque nosotros somos los que faltamos, quiere agarrar días de más de clase porque se la paso de flojo todo el semestre y hay que ponerle verbo a sus trabajos porque ni los lee, nomas checa que estén largos."
+    },
+    {
+      "fecha_iso": "2015-12-24T00:00:00",
+      "materia": "METROLOGIA",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "es bien camarada, facil pasas con 100 y ademas sube muchos puntos por cualquier cosa, en las clases aburre y no enseña casi pero en las practicas si enseña bastante y te aclara cualquier duda que tengas con respecto a los instrumentos"
+    },
+    {
+      "fecha_iso": "2015-08-04T00:00:00",
+      "materia": "METROLOGIA",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 5.0,
+      "recomienda": 1,
+      "comentario": "Es muy camarada, pero es faltista y no explica bien, pero al final todos pasan"
+    },
+    {
+      "fecha_iso": "2012-11-13T00:00:00",
+      "materia": "MECANICA MTROLOGIA",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2012-08-21T00:00:00",
+      "materia": "METROLOGÍA",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 0,
+      "comentario": "Nunca Asiste, no enseña, lo único que dice siempre es del Sistema de Unidades y de allí no sale en todo el semestre, no hay seriedad con este profe, mejor carguen con Manzo."
+    },
+    {
+      "fecha_iso": "2011-07-21T00:00:00",
+      "materia": "METROLOGIA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "el mejorr"
+    }
+  ],
+  "comments_recent": [
+    "En paz descanse profe Jaramillo. Usted una persona con gran calidad humana.  Nunca olvidaré lo que hizo por mí, gracias a usted se me apoyó en mi prórroga, y en muchas cosas, al igual que a muchos otros estudiantes.  Usted tenía gran calidad de servicio.  Siempre trataba de darnos ánimos.",
+    "La voz no le alcanza ya para dar clase y si no fuera poco, irresponsable y desorganizado. Califica hasta el final, si quieres pasar sin aprender nada carga con él.",
+    "esta perdiendo la voz de tanto tomar tonayán, le vale madres la clase, y califica todo al final del semestre.",
+    "Es bien pendejo, no sabe una mierda; una de dos, o llega media hora tarde o nunca llega, quiere calificar el semestre la ultima semana.",
+    "Falta mucho, tiene letra de cholo, siempre saca pretextos por sus falta y sus retardos, te manda al Centro de Ciencias a que aprendas lo que el debe de enseñar, quiere calificar todo el semestre en la ultima semana. En otras palabras muy inútil.\nno entiendo por que sigue en el instituto.",
+    "Llega tarde.\nFalta regularmente.",
+    "Al final de cuenta todo mundo pasa y los exámenes, asistencia, tareas, participación, visitas, nada cuenta. Es mejor llevársela tranquilo sin preocuparse. El profesor es un flojo de primera clase y no conoce ni el material que pretende enseñar.",
+    "Salas Jaramillo representa lo peor del Tec de Culiacan. No asiste a clases, no domina sus temas, solo va a contar cosas no relacionadas a la clase, no aprendes nada, es un mal ejemplo para los estudiantes. No se como puede seguir ahí. La reputación de esta univ. es muy mala respecto al país.",
+    "Nunca va en todo el semestre, y cuando va se pone exigente y a regañarnos que porque nosotros somos los que faltamos, quiere agarrar días de más de clase porque se la paso de flojo todo el semestre y hay que ponerle verbo a sus trabajos porque ni los lee, nomas checa que estén largos."
+  ],
+  "n_reviews": 15
+}

@@ -1,0 +1,35 @@
+{
+  "nombre": "ERNESTO PERLATA PEÑUÑURI",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "ciudad": "Ciudad: culiacan, sinaloa",
+  "departamento": "Departamento/Facultad: INGENIERIA INDUSTRIAL",
+  "calidad_general": 10.0,
+  "porcentaje_recomienda": 100,
+  "nivel_dificultad": 0.0,
+  "etiquetas": [
+    "LA PARTICIPACIÓN IMPORTA (1)",
+    "ASISTENCIA OBLIGATORIA (1)",
+    "DA CRÉDITO EXTRA (1)"
+  ],
+  "numero_calificaciones": 1,
+  "calificaciones": [
+    {
+      "fecha": "27/May/2020",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "ESTUDIO DEL TRABAJO",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "",
+      "etiquetas_comentario": [
+        "La Participación Importa",
+        "Asistencia obligatoria",
+        "Da Crédito Extra"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "professor_id": "Jose_de_la_Luz_Velazquez_Lozada",
+  "nombre": "Jose de la Luz Velazquez Lozada",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 6.015868351323759,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 6.912565785904183,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.5,
+    "wilson_interval": [
+      0.15003570882017145,
+      0.8499642911798285
+    ],
+    "n_recommendations": 4
+  },
+  "subject_normalization": {
+    "z_mean": -0.06,
+    "z_mean_decayed": -0.66,
+    "per_subject": [
+      {
+        "materia": "DIBUJO",
+        "z_decayed": -0.1091290749175209,
+        "n": 14
+      },
+      {
+        "materia": "DIBUJO ASISTIDO POR COMPUTADORA",
+        "z_decayed": -0.7888106377466154,
+        "n": 15
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [],
+    "sentiment": {
+      "overall": null,
+      "by_month": {}
+    },
+    "n_comments": 3
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        8.0,
+        8.0,
+        5.0,
+        6.0
+      ],
+      "ewma": [
+        8.0,
+        8.0,
+        7.1,
+        6.77
+      ],
+      "sigma": 0.9905680188659433
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 6.77,
+      "quality_band": [
+        4.828486683022751,
+        8.711513316977248
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2025-06-16T00:00:00",
+      "materia": "DIBUJO ASISTIDO POR COMPUTADORA",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 24.0,
+      "recomienda": 0,
+      "comentario": "Como te mira te califica, pero si importa mucho que si le hagas sus trabajos y que si estes en sus clases."
+    },
+    {
+      "fecha_iso": "2019-12-13T00:00:00",
+      "materia": "DIBUJO",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 0,
+      "comentario": "Califica segun sus propios criterios. cada dia es un examen, al final de la unidad te saca el promedio del dibujo que hayas hecho cada dias y el resultado es un tercio, el segundo tercio es algun trabajo que haya dejado, y la parte final la llama \"competencia general\" y califica si le caes bien o no"
+    },
+    {
+      "fecha_iso": "2017-08-05T00:00:00",
+      "materia": "DIBUJO",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 7.5,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2013-12-04T00:00:00",
+      "materia": "DIBUJO",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 1,
+      "comentario": "Habla demasiado en la clase, se va todo en platica y nada de dibujar."
+    }
+  ],
+  "comments_recent": [
+    "Como te mira te califica, pero si importa mucho que si le hagas sus trabajos y que si estes en sus clases.",
+    "Califica segun sus propios criterios. cada dia es un examen, al final de la unidad te saca el promedio del dibujo que hayas hecho cada dias y el resultado es un tercio, el segundo tercio es algun trabajo que haya dejado, y la parte final la llama \"competencia general\" y califica si le caes bien o no",
+    "Habla demasiado en la clase, se va todo en platica y nada de dibujar."
+  ],
+  "n_reviews": 4
+}

@@ -1,0 +1,55 @@
+{
+  "nombre": "Mariana Arambula Hernández",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "ciudad": "Ciudad: culiacan, sinaloa",
+  "departamento": "Departamento/Facultad: Ciencias básicas",
+  "calidad_general": 8.5,
+  "porcentaje_recomienda": 100,
+  "nivel_dificultad": 1.0,
+  "etiquetas": [
+    "PREPÁRATE PARA LEER (1)",
+    "LA PARTICIPACIÓN IMPORTA (1)",
+    "ASISTENCIA OBLIGATORIA (2)",
+    "MUCHAS TAREAS (1)",
+    "BRINDA APOYO (1)"
+  ],
+  "numero_calificaciones": 2,
+  "calificaciones": [
+    {
+      "fecha": "05/Ago/2016",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 9.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "ingenieria de la calidad",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "",
+      "etiquetas_comentario": [
+        "Muchas tareas",
+        "Asistencia obligatoria",
+        "Brinda apoyo"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "06/Jun/2016",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 8.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Administración de op.1",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "9",
+      "interes_clase": "",
+      "comentario": "Un poco estricta pero muy clara con los temas que se ven !",
+      "etiquetas_comentario": [
+        "Prepárate para leer",
+        "La Participación Importa",
+        "Asistencia obligatoria"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    }
+  ]
+}

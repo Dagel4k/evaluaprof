@@ -1,0 +1,242 @@
+{
+  "nombre": "Aldo Uriarte Portillo",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "ciudad": "Ciudad: culiacan, sinaloa",
+  "departamento": "Departamento/Facultad: Sistemas",
+  "calidad_general": 9.1,
+  "porcentaje_recomienda": 92,
+  "nivel_dificultad": 4.0,
+  "etiquetas": [
+    "MUCHAS TAREAS (2)",
+    "DA BUENA RETROALIMENTACIÓN (5)",
+    "MUCHOS PROYECTOS GRUPALES (2)",
+    "TOMARÍA SU CLASE OTRA VEZ (6)",
+    "LA PARTICIPACIÓN IMPORTA (6)",
+    "BRINDA APOYO (3)",
+    "RESPETADO POR LOS ESTUDIANTES (1)",
+    "ASISTENCIA OBLIGATORIA (1)",
+    "LOS EXÁMENES SON DIFÍCILES (1)"
+  ],
+  "numero_calificaciones": 13,
+  "calificaciones": [
+    {
+      "fecha": "15/Dic/2024",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 9.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Fundamentos de Programacion",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "7.5",
+      "interes_clase": "",
+      "comentario": "Es un buen profesor, Explica bien las cosas y siempre ayuda con los que tienen dudas.\nLo unico malo que le daria es que se estresa mucho el profe cuando le toca un grupo que no sabe mucho, se desorienta de vez en cuando pero enseña bien",
+      "etiquetas_comentario": [
+        "La Participación Importa",
+        "Asistencia obligatoria",
+        "Los exámenes son difíciles"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "15/May/2024",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Fundamentos d programación",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "7",
+      "interes_clase": "",
+      "comentario": "es un excelente profesor, solamente que deja muchas tareas y puede absorber demasiado tiempo hacerlas ya que son obligatorias.",
+      "etiquetas_comentario": [
+        "Muchas tareas",
+        "Brinda apoyo",
+        "Muchos proyectos grupales"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "01/Jul/2023",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "MATEMÁTICAS DISCRETAS",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "9.5",
+      "interes_clase": "",
+      "comentario": "Volveria a cargar con el. Explica bien los temas.",
+      "etiquetas_comentario": [
+        "La Participación Importa",
+        "Brinda apoyo",
+        "Tomaría su clase otra vez"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "10/May/2023",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 9.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Matemáticas discretas 2",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "9.5",
+      "interes_clase": "",
+      "comentario": "Explica bien, es accesible, practicamos bastante los ejercicios. Es un buen maestro. Recomendado.",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "25/Ene/2023",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "POO",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "Un muy buen profesor, carguen con el si les gusta aprender y no morir en el intento.",
+      "etiquetas_comentario": [
+        "Da buena retroalimentación",
+        "Respetado por los estudiantes",
+        "Tomaría su clase otra vez"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "07/Ago/2022",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 8.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Fundamentos de base de datos",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "Explica muy bien. Si tienes dudas las aclara. La participación cuenta mucho. Volveria a tomar la clase. Hacen falta más maestros así.",
+      "etiquetas_comentario": [
+        "Da buena retroalimentación",
+        "La Participación Importa",
+        "Tomaría su clase otra vez"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "13/Jun/2022",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Matemáticas discretas",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "9",
+      "interes_clase": "",
+      "comentario": "Me quedaron claros los temas que no habia aprendido el semestre pasado. hay muchos ejercicios en las clases y la participacion importa mucho. Volveria a cargar con el",
+      "etiquetas_comentario": [
+        "La Participación Importa",
+        "Brinda apoyo",
+        "Tomaría su clase otra vez"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "04/May/2022",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Matemáticas discretas",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "9.5",
+      "interes_clase": "",
+      "comentario": "explica muy bien, tiene mucha paciencia para enseñar, da buena retroalimentacion, un poco largos los examenes, es justo para calificar.",
+      "etiquetas_comentario": [
+        "Da buena retroalimentación",
+        "La Participación Importa"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "20/Dic/2021",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Fundamentos de programación",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "9.5",
+      "interes_clase": "",
+      "comentario": "Es buen maestro. La clase es amena. Volvería a cargar con el. Las clases son más de práctica que de teoría y hace que practiquemos mucho",
+      "etiquetas_comentario": [
+        "Da buena retroalimentación",
+        "La Participación Importa",
+        "Tomaría su clase otra vez"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "17/Dic/2021",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "POO (Linea)",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "Es buen profesor si no dominas mucho la programación. Explica bien la teoría pero las tareas y exámenes prácticos casi siempre están mal redactados por lo que tienes que preguntarle para entenderlos, te ayuda bastante para entender los temas y te explica otra vez si le necesitas. Recomendado",
+      "etiquetas_comentario": [
+        "Da buena retroalimentación",
+        "Muchos proyectos grupales",
+        "Tomaría su clase otra vez"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "15/Ene/2019",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Algoritmos y Lenguajes",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "9",
+      "interes_clase": "",
+      "comentario": "Algo complicado por la meteria, pero si aprendes, pocas tareas. exámenes por unidad, proyectos finales,te ayuda, te da muchas oportunidades para pasar.",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "20/Sep/2018",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 7.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Programación orientada a objetos",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "8.5",
+      "interes_clase": "",
+      "comentario": "Deja mucha tarea para que practiquemos",
+      "etiquetas_comentario": [
+        "Muchas tareas"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "17/Sep/2018",
+      "tipo_calificacion": "REGULAR",
+      "puntaje_calidad_general": 5.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Programación Orientada a Objetos",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "N/A",
+      "interes_clase": "",
+      "comentario": "",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    }
+  ]
+}

@@ -1,0 +1,503 @@
+{
+  "professor_id": "Fidel_Desposorio_Uriarte_Monzon",
+  "nombre": "Fidel Desposorio Uriarte Monzon",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 8.172401702990507,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.019398025066463,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.667,
+    "wilson_interval": [
+      0.4877972581383026,
+      0.807697044731538
+    ],
+    "n_recommendations": 30
+  },
+  "subject_normalization": {
+    "z_mean": 0.02,
+    "z_mean_decayed": 0.27,
+    "per_subject": [
+      {
+        "materia": "---",
+        "z_decayed": 1.3055331817196176,
+        "n": 521
+      },
+      {
+        "materia": "SISTEMAS OPERATIVOS",
+        "z_decayed": 0.3859990356969574,
+        "n": 25
+      },
+      {
+        "materia": "FUNDAMENTOS DE BASE DE DATOS",
+        "z_decayed": 0.0,
+        "n": 16
+      },
+      {
+        "materia": "MATES DISCRETAS",
+        "z_decayed": -1.154700538379252,
+        "n": 3
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "solo",
+          "puedes",
+          "examenes",
+          "es",
+          "si"
+        ],
+        "weight": 0.1276000368073118
+      },
+      {
+        "id": 1,
+        "words": [
+          "revision",
+          "comentario esperando",
+          "comentario",
+          "esperando revision",
+          "esperando"
+        ],
+        "weight": 0.08242788619391529
+      },
+      {
+        "id": 2,
+        "words": [
+          "puedes",
+          "igual",
+          "examenes puedes",
+          "hora",
+          "materias"
+        ],
+        "weight": 0.05839060953083636
+      },
+      {
+        "id": 3,
+        "words": [
+          "nomas",
+          "pone",
+          "pone exponer",
+          "exponer",
+          "xd"
+        ],
+        "weight": 0.07210560526453781
+      },
+      {
+        "id": 4,
+        "words": [
+          "aprender",
+          "profesor",
+          "exposiciones",
+          "diapositivas",
+          "interesa"
+        ],
+        "weight": 0.08186384567762788
+      }
+    ],
+    "sentiment": {
+      "overall": 0.0,
+      "by_month": {
+        "2023-02": 0.0,
+        "2023-01": 0.0,
+        "2022-06": 0.0,
+        "2022-04": 0.0,
+        "2021-09": 0.0,
+        "2021-08": 0.0,
+        "2021-06": 0.0,
+        "2020-12": 0.0,
+        "2020-01": 0.0,
+        "2019-06": 0.0,
+        "2018-08": 0.0,
+        "2018-06": 0.0,
+        "2018-05": 0.0,
+        "2017-01": 0.0,
+        "2014-12": 0.0,
+        "2013-08": 0.0,
+        "2013-02": 0.0,
+        "2013-01": 0.0,
+        "2012-11": 0.0,
+        "2012-08": 0.0,
+        "2011-03": 0.0,
+        "2011-01": 0.0,
+        "2010-09": 0.0,
+        "2010-08": 0.0
+      }
+    },
+    "n_comments": 27
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.009,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        6.0,
+        2.0,
+        7.333333333333333,
+        8.0,
+        4.0,
+        7.0,
+        5.0,
+        7.0,
+        3.0,
+        3.0,
+        6.0,
+        10.0,
+        10.0,
+        8.0,
+        8.0,
+        9.0,
+        9.0,
+        2.0,
+        9.0,
+        10.0,
+        9.0,
+        9.0,
+        7.5,
+        8.0,
+        9.0
+      ],
+      "ewma": [
+        6.0,
+        4.799999999999999,
+        5.559999999999999,
+        6.291999999999999,
+        5.604399999999999,
+        6.023079999999999,
+        5.716155999999999,
+        6.101309199999999,
+        5.170916439999999,
+        4.519641507999999,
+        4.963749055599999,
+        6.474624338919999,
+        7.532237037243999,
+        7.672565926070799,
+        7.770796148249559,
+        8.13955730377469,
+        8.397690112642282,
+        6.478383078849597,
+        7.234868155194718,
+        8.064407708636303,
+        8.34508539604541,
+        8.541559777231788,
+        8.22909184406225,
+        8.160364290843575,
+        8.412255003590502
+      ],
+      "sigma": 1.7538135378421271
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 8.412255003590502,
+      "quality_band": [
+        4.974780469419933,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2023-02-24T00:00:00",
+      "materia": "MATE DISCRETAS",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 1,
+      "comentario": "Lo que me gusta de este profe es que siempre tiene los pdf bien ordenados por temas para que puedas estudiar por tu cuenta y da muchas oportunidades si repruebas los examenes, no necesitas asisitr."
+    },
+    {
+      "fecha_iso": "2023-01-15T00:00:00",
+      "materia": "MATES DISCRETAS",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Su clase consiste en leer un PDF, por lo que duerme. Pero es evidente que sabe mucho del tema y lo explica con claridad.\nDeja abiertos los exámenes unos días para que los hagas cuando puedas; bastante fáciles.\nPuedes pasar sin asistir, solo con aprobar los exámenes. Nunca da clases los viernes."
+    },
+    {
+      "fecha_iso": "2022-06-21T00:00:00",
+      "materia": "SISTEMAS OPERATIVOS",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "No es necesario asistir a su clase, sinceramente para ser una materia que solo son conceptos largos y casi nada de práctica se me hace bastante bien, eso sí, necesitas poner atención a sus clases, por tu propia cuenta si quieres aprender del tema, si no puedes por ti mismo carga con otro maestro"
+    },
+    {
+      "fecha_iso": "2022-06-09T00:00:00",
+      "materia": "SISTEMAS OPERATIVOS",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2022-04-07T00:00:00",
+      "materia": "SISTEMAS OPERATIVOS",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "destrozorio"
+    },
+    {
+      "fecha_iso": "2022-03-15T00:00:00",
+      "materia": "SISTEMAS OPERATIVOS",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2021-09-19T00:00:00",
+      "materia": "---",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2021-09-08T00:00:00",
+      "materia": "SISTEMAS OPERATIVOSS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "despoGOD"
+    },
+    {
+      "fecha_iso": "2021-08-30T00:00:00",
+      "materia": "SISTEMAS OPERATIVOS",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Chill ideal para materias de relleno"
+    },
+    {
+      "fecha_iso": "2021-06-14T00:00:00",
+      "materia": "SISTEMAS OPERATIVOS",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 0,
+      "comentario": "EL CLASICO BUROCRATA QUE SOLO LE INTERESA ESTAR RECIBIEDO SU PAGO MENSUAL, NO LE INTERESA IMPARTIR LA CLASE, LE IMPORTA NADA QUE COPIEN LOS ALUMNOS. EL TIENE SU ACTITUD YA TRABAJE MUCHOS AÑOS AHORA PAGUENME SIN QUE YO HAGA NADA"
+    },
+    {
+      "fecha_iso": "2020-12-13T00:00:00",
+      "materia": "SISTEMAS OPERATIVOS",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Literalmente solo tienes que asistir a los examenes, y en ellos puedes copiar literalmente en su cara del celular y le da igual. Hora libre alb"
+    },
+    {
+      "fecha_iso": "2020-01-13T00:00:00",
+      "materia": "SISTEMAS OPERATIVOS",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "El aula casi siempre está sola, solo importan los exámenes y las exposiciones.\nNo es para nada exigente, pero si asistes a alguna de las clases notarás que si sabe del tema y explica bien."
+    },
+    {
+      "fecha_iso": "2019-06-12T00:00:00",
+      "materia": "SISTEMAS OPERATIVOS",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": "Se pasa la materia sola, nomas tienes que ir la primera unidad y hacer una exposicion medio decente y el resto del semestre puedes faltar, literal nomas ir a examenes, y si al final debes una unidad, te promedia todas las unidades y te pasa. Eso si, no se aprende nada."
+    },
+    {
+      "fecha_iso": "2018-08-24T00:00:00",
+      "materia": "SISTEMAS OPERATIVOS",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Si quieren adelantar una materia y pasar muy fácil y que sea su hora de comer es esta son 15 minutos de clase y en los exámenes puedes sacar teléfono, según antes era estricto pero fue hace décadas"
+    },
+    {
+      "fecha_iso": "2018-06-07T00:00:00",
+      "materia": "SISTEMAS OPERATIVOS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Sólo ve cuando haya examen y cuando sea tu exposición con tu equipo, es como Gámez, básicamente. En los exámenes puedes copiar con el celular casi en su cara y no le importa, no te preocupes."
+    },
+    {
+      "fecha_iso": "2018-05-25T00:00:00",
+      "materia": "S.O",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "DESPO-GOD"
+    },
+    {
+      "fecha_iso": "2017-01-11T00:00:00",
+      "materia": "SISTEMAS OPERATIVOS",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 0,
+      "comentario": "Te explica la primera unidad, después solo exponeran los alumnos, te califica solo con el examen y te da un banco de preguntas prácticamente igual al examen. Fácil Pasar"
+    },
+    {
+      "fecha_iso": "2014-12-28T00:00:00",
+      "materia": "SISTEMAS OPERATIVOS",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 0,
+      "comentario": "Las clases son diapositivas leidas y malas exposiciones de equipos que no saben del tema ni les interesa. No vas a aprender nada, Por favor ten ética y denuncia a este profesor y evita cargar con el. No necesitamos docentes como el en Mexico."
+    },
+    {
+      "fecha_iso": "2013-08-25T00:00:00",
+      "materia": "SISTEMAS OPERATIVOS",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Llevé dos materias a la misma hora, esta y otra. Pasé las dos."
+    },
+    {
+      "fecha_iso": "2013-08-07T00:00:00",
+      "materia": "SISTEMAS OPERATIVOS",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 7.5,
+      "recomienda": 0,
+      "comentario": "Puras diapositivas, nivel facil, exposiciones en equipo, casi ninguna tarea, el programa avanza rapido, termina el semestre rapido modo turbo."
+    },
+    {
+      "fecha_iso": "2013-02-24T00:00:00",
+      "materia": "SISTEMAS OPERATIVOS 1",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Desposorio weeeeeeeeee xD"
+    },
+    {
+      "fecha_iso": "2013-01-09T00:00:00",
+      "materia": "SISTEMAS O Y BASE DE DATOS",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 0,
+      "comentario": "si quieres pasar sin entrar a clases carga con el !"
+    },
+    {
+      "fecha_iso": "2012-11-08T00:00:00",
+      "materia": "SISTEMAS OPERATIVOS",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "facilisimo el compa nomas pone a exponer un tema y ya tienes 100 en ese parcial y los examenes 10 preguntas verdadero o falso o relacionar las columas cargen con el recomendado xd"
+    },
+    {
+      "fecha_iso": "2012-08-24T00:00:00",
+      "materia": "---",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 5.5,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2011-03-08T00:00:00",
+      "materia": "SISTEMAS OPERATIVOS",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Un método extraño de enseñansa, pero sinceramente creo que me sirvio."
+    },
+    {
+      "fecha_iso": "2011-01-30T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2011-01-07T00:00:00",
+      "materia": "SISTEMAS OPERATIVOS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 7.5,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2011-01-07T00:00:00",
+      "materia": "SISTEMAS OPERATIVOS, FUNDAMENTOS DE BD",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "El Profesor es un amor de dios, cuando vean la oportunidad de cargarlo aganlo, aprenderan y pasaran que es lo importante"
+    },
+    {
+      "fecha_iso": "2010-09-21T00:00:00",
+      "materia": "SISTEMAS OPERATIVOS",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Pone a exponer a los alumnos y él no explica absolutamente nada."
+    },
+    {
+      "fecha_iso": "2010-08-29T00:00:00",
+      "materia": "FUNDAMENTOS DE BASE DE DATOS",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 0,
+      "comentario": "Se sienta a leer un archivo pdf toda la clase, a muchos no les gusta su metodo, pero a mi me funciono, aprendí todo lo que tenia que aprender de su clase."
+    }
+  ],
+  "comments_recent": [
+    "Lo que me gusta de este profe es que siempre tiene los pdf bien ordenados por temas para que puedas estudiar por tu cuenta y da muchas oportunidades si repruebas los examenes, no necesitas asisitr.",
+    "Su clase consiste en leer un PDF, por lo que duerme. Pero es evidente que sabe mucho del tema y lo explica con claridad.\nDeja abiertos los exámenes unos días para que los hagas cuando puedas; bastante fáciles.\nPuedes pasar sin asistir, solo con aprobar los exámenes. Nunca da clases los viernes.",
+    "No es necesario asistir a su clase, sinceramente para ser una materia que solo son conceptos largos y casi nada de práctica se me hace bastante bien, eso sí, necesitas poner atención a sus clases, por tu propia cuenta si quieres aprender del tema, si no puedes por ti mismo carga con otro maestro",
+    "destrozorio",
+    "[Comentario esperando revisión]",
+    "despoGOD",
+    "Chill ideal para materias de relleno",
+    "EL CLASICO BUROCRATA QUE SOLO LE INTERESA ESTAR RECIBIEDO SU PAGO MENSUAL, NO LE INTERESA IMPARTIR LA CLASE, LE IMPORTA NADA QUE COPIEN LOS ALUMNOS. EL TIENE SU ACTITUD YA TRABAJE MUCHOS AÑOS AHORA PAGUENME SIN QUE YO HAGA NADA"
+  ],
+  "n_reviews": 30
+}

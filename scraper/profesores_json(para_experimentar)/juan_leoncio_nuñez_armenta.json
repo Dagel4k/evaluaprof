@@ -1,0 +1,128 @@
+{
+  "nombre": "juan leoncio nuñez armenta",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "ciudad": "Ciudad: culiacan, sinaloa",
+  "departamento": "Departamento/Facultad: ciencias básicas1384",
+  "calidad_general": 9.7,
+  "porcentaje_recomienda": 83,
+  "nivel_dificultad": 2.3,
+  "etiquetas": [
+    "MUY CÓMICO (1)",
+    "INSPIRACIONAL (1)",
+    "DA CRÉDITO EXTRA (1)",
+    "CLASES EXCELENTES (3)",
+    "LOS EXÁMENES SON DIFÍCILES (2)",
+    "TOMARÍA SU CLASE OTRA VEZ (1)",
+    "CALIFICA DURO (2)",
+    "LA PARTICIPACIÓN IMPORTA (1)",
+    "RESPETADO POR LOS ESTUDIANTES (1)",
+    "BRINDA APOYO (1)"
+  ],
+  "numero_calificaciones": 6,
+  "calificaciones": [
+    {
+      "fecha": "10/Feb/2022",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Ecuaciones diferenciales",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "9.5",
+      "interes_clase": "",
+      "comentario": "Explica muy bien y siempre resuelve dudas, pero el examen vale 100% y está muy largo.",
+      "etiquetas_comentario": [
+        "Califica Duro",
+        "Las clases son largas",
+        "Clases excelentes"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "05/Jun/2019",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Ecuaciones Diferenciales",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "De lo mejor que existe en el Tecnológico, como dicen las leyendas es difícil, pero si haces lo que debes de hacer tienes la calificación que merece, excelentes clases, el profesor es muy respetuoso, un profesor como debería de ser, bueno explicando, y justo en calificación.",
+      "etiquetas_comentario": [
+        "Respetado por los estudiantes",
+        "Brinda apoyo",
+        "Clases excelentes"
+      ],
+      "votos_utiles": "1",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "07/Mar/2019",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Matematicas II",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "8",
+      "interes_clase": "",
+      "comentario": "",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "06/Nov/2018",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 8.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "calculo vectoria",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "3.5",
+      "interes_clase": "",
+      "comentario": "asistí a todas y cada una de sus clases, le entrege todas las tareas, solo reprobe un examen y me mando a global, y ese si estuvo bastante cabron... obvio no pase..",
+      "etiquetas_comentario": [
+        "Califica Duro",
+        "La Participación Importa",
+        "Los exámenes son difíciles"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "28/Abr/2018",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Algebra",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "23",
+      "interes_clase": "",
+      "comentario": "Excelente maestro, se aprende mucho con el, solo que los exámenes son algo largos y en muchas ocasiones no te va alcanzar el tiempo.\nSi quieres un profe fácil no cargues con Leoncio, si quieres aprender machin y salir bien trozador es la mejor opción.",
+      "etiquetas_comentario": [
+        "Clases excelentes",
+        "Los exámenes son difíciles",
+        "Tomaría su clase otra vez"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "06/Ene/2017",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "---",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "[Comentario esperando revisión]",
+      "etiquetas_comentario": [
+        "Muy cómico",
+        "Inspiracional",
+        "Da Crédito Extra"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "1"
+    }
+  ]
+}

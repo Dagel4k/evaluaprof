@@ -1,0 +1,175 @@
+{
+  "professor_id": "Leopoldo_Noel_Gaxiola_Sánchez",
+  "nombre": "Leopoldo Noel Gaxiola Sánchez",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 8.989034966840714,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.651728066843904,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 1.0,
+    "wilson_interval": [
+      0.565508505247919,
+      1
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": 0.79,
+    "z_mean_decayed": 0.67,
+    "per_subject": [
+      {
+        "materia": "PROGRAMACION BASICA",
+        "z_decayed": 1.5698598156852284,
+        "n": 9
+      },
+      {
+        "materia": "PROGRAMACIÓN BÁSICA",
+        "z_decayed": 0.704021330899161,
+        "n": 14
+      },
+      {
+        "materia": "ELECTRÓNICA DE POTENCIA",
+        "z_decayed": 0.5318332330522492,
+        "n": 6
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "mas",
+          "clases",
+          "deja",
+          "te",
+          "es"
+        ],
+        "weight": 0.2508762475913777
+      },
+      {
+        "id": 1,
+        "words": [
+          "te",
+          "es",
+          "mas",
+          "buen",
+          "profe"
+        ],
+        "weight": 0.3239143176354268
+      }
+    ],
+    "sentiment": {
+      "overall": 0.2,
+      "by_month": {
+        "2022-12": 0.0,
+        "2018-02": 0.0,
+        "2017-10": 0.0,
+        "2017-08": 0.5
+      }
+    },
+    "n_comments": 5
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        9.0,
+        10.0,
+        8.0,
+        9.0
+      ],
+      "ewma": [
+        9.0,
+        9.3,
+        8.91,
+        8.937
+      ],
+      "sigma": 0.6624869181098345
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 8.937,
+      "quality_band": [
+        7.6385256405047235,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2022-12-02T00:00:00",
+      "materia": "ELECTRÓNICA DE POTENCIA",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 1,
+      "comentario": "Sus clases son tranquilas, pero te hará escribir mucho pero sus apuntes te serán de mucha ayuda."
+    },
+    {
+      "fecha_iso": "2018-02-16T00:00:00",
+      "materia": "CIRCUITOS 1",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 1,
+      "comentario": "Muy buen profe."
+    },
+    {
+      "fecha_iso": "2017-10-31T00:00:00",
+      "materia": "PROGRAMACION BASICA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "A pesar de que nos dieron un profe 1 mes tarde, el profe alcanzo ver mas alla del programa y daba otras 7 materias diferentes"
+    },
+    {
+      "fecha_iso": "2017-08-09T00:00:00",
+      "materia": "ELECTRÓNICA DE POTENCIA",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Es buena onda y te da chance de ponerte al corriente , el mismo nos dijo que no era su área pero me siento conforme con mi nivel, deja tareas y prácticas interesantes. Con más experiencia y será uno de los mejores profes."
+    },
+    {
+      "fecha_iso": "2017-08-08T00:00:00",
+      "materia": "PROGRAMACIÓN BÁSICA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Es un muy buen profesor, es muy comprensivo y es muy claro en sus clases. Trata de que sus alumnos aprendan y se enfoca en sus dificultades. Los programas que deja están fáciles y sus exámenes son lo visto en clase. Lo amo."
+    }
+  ],
+  "comments_recent": [
+    "Sus clases son tranquilas, pero te hará escribir mucho pero sus apuntes te serán de mucha ayuda.",
+    "Muy buen profe.",
+    "A pesar de que nos dieron un profe 1 mes tarde, el profe alcanzo ver mas alla del programa y daba otras 7 materias diferentes",
+    "Es buena onda y te da chance de ponerte al corriente , el mismo nos dijo que no era su área pero me siento conforme con mi nivel, deja tareas y prácticas interesantes. Con más experiencia y será uno de los mejores profes.",
+    "Es un muy buen profesor, es muy comprensivo y es muy claro en sus clases. Trata de que sus alumnos aprendan y se enfoca en sus dificultades. Los programas que deja están fáciles y sus exámenes son lo visto en clase. Lo amo."
+  ],
+  "n_reviews": 5
+}

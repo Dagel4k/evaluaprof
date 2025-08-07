@@ -1,0 +1,35 @@
+{
+  "nombre": "Alfredo Anaya Hill",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "ciudad": "Ciudad: culiacan, sinaloa",
+  "departamento": "Departamento/Facultad: Maestro en ciencias",
+  "calidad_general": 8.0,
+  "porcentaje_recomienda": 100,
+  "nivel_dificultad": 2.0,
+  "etiquetas": [
+    "RESPETADO POR LOS ESTUDIANTES (1)",
+    "LAS CLASES SON LARGAS (1)",
+    "CLASES EXCELENTES (1)"
+  ],
+  "numero_calificaciones": 1,
+  "calificaciones": [
+    {
+      "fecha": "30/Ago/2021",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 8.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Calculo diferencial",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "9",
+      "interes_clase": "",
+      "comentario": "",
+      "etiquetas_comentario": [
+        "Respetado por los estudiantes",
+        "Las clases son largas",
+        "Clases excelentes"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    }
+  ]
+}

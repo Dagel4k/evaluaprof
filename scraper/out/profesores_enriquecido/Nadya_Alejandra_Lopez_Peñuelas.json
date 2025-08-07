@@ -1,0 +1,319 @@
+{
+  "professor_id": "Nadya_Alejandra_Lopez_Peñuelas",
+  "nombre": "Nadya Alejandra Lopez Peñuelas",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 7.129860821049243,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 6.772866130550372,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.462,
+    "wilson_interval": [
+      0.23205754301488138,
+      0.7085656756816795
+    ],
+    "n_recommendations": 13
+  },
+  "subject_normalization": {
+    "z_mean": 0.06,
+    "z_mean_decayed": 0.07,
+    "per_subject": [
+      {
+        "materia": "CONTROL ESTADÍSTICO DE CALIDAD",
+        "z_decayed": 0.9766416071562939,
+        "n": 8
+      },
+      {
+        "materia": "---",
+        "z_decayed": 0.8351040924377042,
+        "n": 521
+      },
+      {
+        "materia": "METROLOGÍA",
+        "z_decayed": 0.8277748650086222,
+        "n": 6
+      },
+      {
+        "materia": "METROLOGÍA Y NORMALIZACIÓN",
+        "z_decayed": 0.07998465280214175,
+        "n": 12
+      },
+      {
+        "materia": "HIGIENE Y SEGURIDAD INDUSTRIAL",
+        "z_decayed": 0.06413537396670997,
+        "n": 15
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "te",
+          "hacer",
+          "practicas",
+          "es",
+          "bien"
+        ],
+        "weight": 0.07519959371622213
+      },
+      {
+        "id": 1,
+        "words": [
+          "linea",
+          "trabajos",
+          "clase",
+          "semana",
+          "si"
+        ],
+        "weight": 0.17285490733005254
+      },
+      {
+        "id": 2,
+        "words": [
+          "maestra",
+          "examenes",
+          "buena",
+          "buena maestra",
+          "hacer"
+        ],
+        "weight": 0.13621455821649878
+      },
+      {
+        "id": 3,
+        "words": [
+          "viene",
+          "gusta",
+          "accesible",
+          "es",
+          "es accesible"
+        ],
+        "weight": 0.14881771048787587
+      },
+      {
+        "id": 4,
+        "words": [
+          "materia",
+          "maestra",
+          "hace",
+          "te",
+          "sabe"
+        ],
+        "weight": 0.14924809586075088
+      }
+    ],
+    "sentiment": {
+      "overall": 0.0,
+      "by_month": {
+        "2024-01": 0.0,
+        "2023-01": 0.0,
+        "2022-12": 0.0,
+        "2021-01": 0.0,
+        "2019-06": 0.0,
+        "2018-08": 0.0,
+        "2017-10": 0.0,
+        "2017-08": 0.0,
+        "2017-07": 0.0,
+        "2016-05": 0.0,
+        "2013-11": 0.0,
+        "2013-06": 0.0
+      }
+    },
+    "n_comments": 13
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        8.0,
+        8.0,
+        10.0,
+        5.0,
+        6.0,
+        2.0,
+        4.0,
+        10.0,
+        6.0,
+        5.0,
+        10.0,
+        8.0
+      ],
+      "ewma": [
+        8.0,
+        8.0,
+        8.6,
+        7.52,
+        7.063999999999999,
+        5.544799999999999,
+        5.081359999999998,
+        6.556951999999999,
+        6.389866399999999,
+        5.972906479999999,
+        7.181034535999999,
+        7.426724175199999
+      ],
+      "sigma": 2.0058248989036587
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 7.426724175199999,
+      "quality_band": [
+        3.495307373348828,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2024-01-17T00:00:00",
+      "materia": "METROLOGÍA Y NORMALIZACIÓN",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Llevé su clase en línea y honestamente me pareció muy bien. Es una profesora muy linda y accesible y todos pasamos bien. Deja tareas y trabajos algo  extensos y todo lo califica por canvas, tienes que leer bastante. Pero en general si cumples te va bien y no son nada del otro mundo."
+    },
+    {
+      "fecha_iso": "2023-01-19T00:00:00",
+      "materia": "HIGIENE Y SEGURIDAD INDUSTRIAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "La clase con quien la cargues van a dejar muchos trabajos y tareas, la maestra nadia es la mejor opción y más si la cargas en línea, ya que solo había clases 2 veces a la semana para aclarar dudas y explicación de las tareas, si participas y entregas todo 100 asegurado. Buena persona y accesible."
+    },
+    {
+      "fecha_iso": "2022-12-08T00:00:00",
+      "materia": "HIGIENE Y SEGURIDAD",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Si te gusta estar haciendo trabajos tontos toda la semana que no te serviran de nada en la vida cargala, si lo haces pasas fácil.\nSi odias ese tipo de clases como yo no la cargues y si la cargaste sin saberlo y no hiciste nada como yo no te preocupes, reprueba al 80% de la clase"
+    },
+    {
+      "fecha_iso": "2021-01-20T00:00:00",
+      "materia": "HIGIENE Y SEGURIDAD INDUSTRIAL",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 0,
+      "comentario": "En línea dejaba los trabajos de la semana los Lunes y sólo daba clase una vez a la semana para aclarar dudas y explicar algunas cosas, por lo que en la hora de su clase podías adelantar los trabajos, a mi me gustó el hecho de que si da buen material, pero tu tienes que leer por tu cuenta"
+    },
+    {
+      "fecha_iso": "2019-06-07T00:00:00",
+      "materia": "CONTROL ESTADÍSTICO DE CALIDAD",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Muy buena maestra, casi todo lo califica en canvas, y puedes hacer las tareas y examenes en equipo."
+    },
+    {
+      "fecha_iso": "2018-08-15T00:00:00",
+      "materia": "METROLOGIA Y NORMALIZACION",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 0,
+      "comentario": "No se le es facil explicar en que consiste el trabajo y algunas veces que le preguntas se molesta lo examenes no viene nada de lo que ves en clase y pierdes mucho tiempo en sus clases pero si es accesible para pasar"
+    },
+    {
+      "fecha_iso": "2018-08-04T00:00:00",
+      "materia": "METROLOGIA Y NORMALIZACION",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 0,
+      "comentario": "Aparte de que no se le entiende nada no le gusta que le pregunten mucho, es poco accesible a brindar apoyo al alumno."
+    },
+    {
+      "fecha_iso": "2017-10-08T00:00:00",
+      "materia": "METROLOGÍA Y NORMALIZACIÓN",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "La maestra no domina su materia, no sabe nada de los recursos didácticos. No la carguen en verdad es un desperdicio de tiempo. No viene nada de lo que enseña en los exámenes, deja trabajos de primaria en cartulinas y nunca resuelve dudas. Ah y se pone mucho los moños. Nada recomendada."
+    },
+    {
+      "fecha_iso": "2017-08-30T00:00:00",
+      "materia": "METROLOGÍA",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 0,
+      "comentario": "Es buena maestra pero nada flexible ni comprensible con los alumnos. Hace exámenes que muy pocos pasan y siempre tiene que hacer mil recuperaciones. Aprendes pero siempre estás presionado para que alcances a hacer practicas y reportes. La cargaría si no tuviera otra opción pero no porque quisiera."
+    },
+    {
+      "fecha_iso": "2017-07-14T00:00:00",
+      "materia": "METROLOGIA",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 0,
+      "comentario": "Mal maestra te hace trabajar demasiado y no sabe los temas"
+    },
+    {
+      "fecha_iso": "2016-05-11T00:00:00",
+      "materia": "METROLOGÍA Y NORMALIZACIÓN",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Sabe mucho, explica bien, el examen esta super pesado lee muchisimo para pasarlo, te ayuda lo mas que pueda, pero no te pasa, es muy justo y clara, esta bien buena jajaja, es la mejor para dar esa materia real"
+    },
+    {
+      "fecha_iso": "2013-11-14T00:00:00",
+      "materia": "---",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2013-06-12T00:00:00",
+      "materia": "METROLOGÍA",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": "es cuestión de hacer bien las prácticas y ya pasaras bien :)"
+    }
+  ],
+  "comments_recent": [
+    "Llevé su clase en línea y honestamente me pareció muy bien. Es una profesora muy linda y accesible y todos pasamos bien. Deja tareas y trabajos algo  extensos y todo lo califica por canvas, tienes que leer bastante. Pero en general si cumples te va bien y no son nada del otro mundo.",
+    "La clase con quien la cargues van a dejar muchos trabajos y tareas, la maestra nadia es la mejor opción y más si la cargas en línea, ya que solo había clases 2 veces a la semana para aclarar dudas y explicación de las tareas, si participas y entregas todo 100 asegurado. Buena persona y accesible.",
+    "Si te gusta estar haciendo trabajos tontos toda la semana que no te serviran de nada en la vida cargala, si lo haces pasas fácil.\nSi odias ese tipo de clases como yo no la cargues y si la cargaste sin saberlo y no hiciste nada como yo no te preocupes, reprueba al 80% de la clase",
+    "En línea dejaba los trabajos de la semana los Lunes y sólo daba clase una vez a la semana para aclarar dudas y explicar algunas cosas, por lo que en la hora de su clase podías adelantar los trabajos, a mi me gustó el hecho de que si da buen material, pero tu tienes que leer por tu cuenta",
+    "Muy buena maestra, casi todo lo califica en canvas, y puedes hacer las tareas y examenes en equipo.",
+    "No se le es facil explicar en que consiste el trabajo y algunas veces que le preguntas se molesta lo examenes no viene nada de lo que ves en clase y pierdes mucho tiempo en sus clases pero si es accesible para pasar",
+    "Aparte de que no se le entiende nada no le gusta que le pregunten mucho, es poco accesible a brindar apoyo al alumno.",
+    "La maestra no domina su materia, no sabe nada de los recursos didácticos. No la carguen en verdad es un desperdicio de tiempo. No viene nada de lo que enseña en los exámenes, deja trabajos de primaria en cartulinas y nunca resuelve dudas. Ah y se pone mucho los moños. Nada recomendada.",
+    "Es buena maestra pero nada flexible ni comprensible con los alumnos. Hace exámenes que muy pocos pasan y siempre tiene que hacer mil recuperaciones. Aprendes pero siempre estás presionado para que alcances a hacer practicas y reportes. La cargaría si no tuviera otra opción pero no porque quisiera.",
+    "Mal maestra te hace trabajar demasiado y no sabe los temas"
+  ],
+  "n_reviews": 13
+}

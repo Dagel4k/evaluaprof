@@ -1,0 +1,73 @@
+{
+  "nombre": "Usiel Rivera Allán",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "ciudad": "Ciudad: culiacan, sinaloa",
+  "departamento": "Departamento/Facultad: Economico-Administrativo",
+  "calidad_general": 10.0,
+  "porcentaje_recomienda": 100,
+  "nivel_dificultad": 0.0,
+  "etiquetas": [
+    "MUCHAS TAREAS (1)",
+    "ASISTENCIA OBLIGATORIA (1)",
+    "ASPECTOS DE CALIFICACIÓN CLAROS (1)",
+    "CALIFICA DURO (1)",
+    "HACE EXÁMENES SORPRESA (1)",
+    "DA CRÉDITO EXTRA (1)",
+    "BARCO (1)"
+  ],
+  "numero_calificaciones": 3,
+  "calificaciones": [
+    {
+      "fecha": "14/Feb/2021",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Danza",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "",
+      "etiquetas_comentario": [
+        "Barco"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "16/Ene/2020",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Danza",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "24",
+      "interes_clase": "",
+      "comentario": "Muy buen profesor, explica el zapateado de 3 de manera concisa",
+      "etiquetas_comentario": [
+        "Califica Duro",
+        "Hace exámenes sorpresa",
+        "Da Crédito Extra"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "15/Dic/2017",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Desarrollo Sustentable",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "Explica de manera muy concisa los temas, no se complica mucho, muy buen profesor, exámenes fáciles, sí haces todos los trabajos y examen bien, 100 asegurado",
+      "etiquetas_comentario": [
+        "Muchas tareas",
+        "Asistencia obligatoria",
+        "Aspectos de calificación claros"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    }
+  ]
+}

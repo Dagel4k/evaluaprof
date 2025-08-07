@@ -1,0 +1,431 @@
+{
+  "professor_id": "Carlos_Arturo_Patron",
+  "nombre": "Carlos Arturo Patron",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 3.77478990518696,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 5.932603666747228,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.348,
+    "wilson_interval": [
+      0.18811054636982238,
+      0.5511002309310836
+    ],
+    "n_recommendations": 23
+  },
+  "subject_normalization": {
+    "z_mean": -1.34,
+    "z_mean_decayed": -2.55,
+    "per_subject": [
+      {
+        "materia": "CALCULO INTEGRAL",
+        "z_decayed": 0.18180397266923418,
+        "n": 84
+      },
+      {
+        "materia": "ALGEBRA LINEAL",
+        "z_decayed": -0.8327581343690418,
+        "n": 35
+      },
+      {
+        "materia": "ÁLGEBRA LINEAL",
+        "z_decayed": -1.6496007535641997,
+        "n": 23
+      },
+      {
+        "materia": "CALCULO DIFERENCIAL",
+        "z_decayed": -1.6899119549352757,
+        "n": 110
+      },
+      {
+        "materia": "ECUACIONES DIFERENCIALES",
+        "z_decayed": -2.183630989499233,
+        "n": 56
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "irresponsable",
+          "pasas",
+          "es",
+          "examenes",
+          "te"
+        ],
+        "weight": 0.11235404087198574
+      },
+      {
+        "id": 1,
+        "words": [
+          "solo",
+          "es mejor",
+          "mejor",
+          "profesor",
+          "pasar"
+        ],
+        "weight": 0.08885742225425092
+      },
+      {
+        "id": 2,
+        "words": [
+          "profesor",
+          "entiende",
+          "ser",
+          "habla",
+          "vale"
+        ],
+        "weight": 0.0665464667234943
+      },
+      {
+        "id": 3,
+        "words": [
+          "tiene",
+          "agarra",
+          "explica",
+          "explica bien",
+          "bien"
+        ],
+        "weight": 0.11048642204845037
+      },
+      {
+        "id": 4,
+        "words": [
+          "quieres",
+          "si quieres",
+          "carga",
+          "si",
+          "aprender"
+        ],
+        "weight": 0.12329211135853897
+      }
+    ],
+    "sentiment": {
+      "overall": -0.045454545454545456,
+      "by_month": {
+        "2025-08": 0.0,
+        "2024-09": 0.0,
+        "2024-01": 0.0,
+        "2022-06": 0.0,
+        "2021-01": 0.0,
+        "2019-08": 0.0,
+        "2019-01": 0.0,
+        "2018-04": 0.0,
+        "2014-05": 0.0,
+        "2014-03": 0.0,
+        "2014-01": 0.0,
+        "2013-12": -0.5,
+        "2013-08": 0.0,
+        "2013-06": 0.0,
+        "2013-01": 0.0,
+        "2012-10": 0.0,
+        "2012-09": 0.0
+      }
+    },
+    "n_comments": 22
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [
+      {
+        "from": "2012-09-06T00:00:00",
+        "to": "2012-09-06T00:00:00",
+        "count": 3
+      }
+    ],
+    "low_variance_flag": 0,
+    "trust_score": 0.7
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        9.0,
+        10.0,
+        4.5,
+        8.0,
+        10.0,
+        8.0,
+        2.0,
+        2.0,
+        6.0,
+        2.0,
+        4.0,
+        4.5,
+        5.0,
+        2.0,
+        2.0,
+        6.0,
+        2.0,
+        4.0
+      ],
+      "ewma": [
+        9.0,
+        9.3,
+        7.859999999999999,
+        7.901999999999999,
+        8.531399999999998,
+        8.371979999999999,
+        6.460385999999999,
+        5.122270199999998,
+        5.385589139999999,
+        4.3699123979999985,
+        4.258938678599999,
+        4.331257075019999,
+        4.531879952513999,
+        3.772315966759799,
+        3.2406211767318593,
+        4.068434823712302,
+        3.4479043765986113,
+        3.6135330636190277
+      ],
+      "sigma": 1.7475654331390813
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 3.6135330636190277,
+      "quality_band": [
+        0.18830481466642857,
+        7.038761312571626
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2025-08-02T00:00:00",
+      "materia": "CALCULO VECTORIAL",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 0,
+      "comentario": "profe más batalloso, pero se pasa si le echas ganas"
+    },
+    {
+      "fecha_iso": "2024-09-19T00:00:00",
+      "materia": "CALCULO DIFERENCIAL",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 23.0,
+      "recomienda": 0,
+      "comentario": "No vale verga w"
+    },
+    {
+      "fecha_iso": "2024-01-05T00:00:00",
+      "materia": "CALCULO VECTORIAL",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": "Pasé calculo integral con él y solo fui un mes a su clase, al ultimo nos pasó a todo el salón con 7. Pasé vectorial con él otra vez, pero esta vez si se puso las \"pilas\" y si daba clases, pero es malísimo para enseñar. Se pondrá \"estricto\" pero al ultimo te pasa con 7 si o si. Carga con el, confia."
+    },
+    {
+      "fecha_iso": "2022-06-15T00:00:00",
+      "materia": "ECUACIONES DIFERENCIALES",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 23.0,
+      "recomienda": 0,
+      "comentario": "No explica bien, asiste cuando quiere, tiene mal bocabulario,"
+    },
+    {
+      "fecha_iso": "2021-01-21T00:00:00",
+      "materia": "CÁLCULO VECTORIAL",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Si quieres pasar sin aprender nada, carga con el. Cualquier otro es mejor opción."
+    },
+    {
+      "fecha_iso": "2019-08-04T00:00:00",
+      "materia": "ECUACIONES DIFERENCIALES",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Sólo te diré que es mejor que cargues con otro profesor."
+    },
+    {
+      "fecha_iso": "2019-01-25T00:00:00",
+      "materia": "CALCULO VECTORIAL",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": "La cachaste pase con 70 de milagro porque es muy voluble"
+    },
+    {
+      "fecha_iso": "2019-01-12T00:00:00",
+      "materia": "CALCULO VECTORIAL",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Carga con el si quieres pasarla facil, sus clases son de 30 minutos pero no vas aprender mucho."
+    },
+    {
+      "fecha_iso": "2018-04-19T00:00:00",
+      "materia": "CALCULOS Y ALGEBRA",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Semestre impar te pasa con 70, semestre par te reprueba para mandarte a verano."
+    },
+    {
+      "fecha_iso": "2017-09-10T00:00:00",
+      "materia": "ÁLGEBRA LINEAL",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 25.0,
+      "recomienda": 0,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2014-05-22T00:00:00",
+      "materia": "ÁLGEBRA LINEAL",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 4.5,
+      "recomienda": 0,
+      "comentario": "Habla muy rápido y no se le entiende, quiere hacer los examenes en 10 minutos lo cual te perjudica y es algo irresponsable."
+    },
+    {
+      "fecha_iso": "2014-03-28T00:00:00",
+      "materia": "CÁLCULO INTEGTAL",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 0.5,
+      "recomienda": 0,
+      "comentario": "Falta mucho, descuida su presentación personal, no se le entiende lo que habla y mucho menos lo que explica, es muy grocero, no se presta a que le pregunten dudas. Vale madre, no deberia ser profesor."
+    },
+    {
+      "fecha_iso": "2014-01-08T00:00:00",
+      "materia": "ALGEBRA LINEAL",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Es muy flojo no aprendes nada lo cual te afecta para Inv. De operaciones y te pone la calificacion que el quiere"
+    },
+    {
+      "fecha_iso": "2013-12-16T00:00:00",
+      "materia": "ALGEBRA LINEAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Pelado pasar con este bato!!!"
+    },
+    {
+      "fecha_iso": "2013-12-06T00:00:00",
+      "materia": "ALGEBRA LINEAL",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 0,
+      "comentario": "Este semestre fue pésimo para álgebra lineal, no enseño para nada bien, por su culpa pasas esa materia baja, dado que, con otros maestros pasas con mayor calificación y aprendes mas. Es irresponsable para revisar los exámenes también."
+    },
+    {
+      "fecha_iso": "2013-08-05T00:00:00",
+      "materia": "CALCULO INTEGRAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": "super facil...\ntiene un estilo muy simple de explicar. los examenes son varios pero porq te evalua con 1 o max. 6 integrales relativamente faciles (si estudiast y pusiste atencion) te deja sacar apuntes y al final hasta el mas jodido por hacer acto de precencia con cara d q esta atento,obtiene su 70"
+    },
+    {
+      "fecha_iso": "2013-06-18T00:00:00",
+      "materia": "CALCULO INTEGRAL",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Pues es algo irresponsable en el sentido de que pierde los examenes, te regresas las tareas mordidas por el perro y cosas asi, pero echale poquitas ganas y pasas."
+    },
+    {
+      "fecha_iso": "2013-01-10T00:00:00",
+      "materia": "CALCULO VECTORIAL",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": "Facilisimo pasar con este profesor..."
+    },
+    {
+      "fecha_iso": "2013-01-09T00:00:00",
+      "materia": "CALCULO INTEGRAL",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": "pasaran sin aprender nada"
+    },
+    {
+      "fecha_iso": "2012-10-19T00:00:00",
+      "materia": "ÁLGEBRA LINEAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Es un poco fojo e irresponsable, pero sus clases son buenas, si aprendes y esta fácil"
+    },
+    {
+      "fecha_iso": "2012-09-06T00:00:00",
+      "materia": "CALCULO INTEGRAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Le gusta correr y correr... es muy rápido parece fácil la materia, De grande quiero ser como el Forever Patron! pues pues pues si pues. Siempre llega a tiempo a la clase aunque falten 2 segundos del limite pero llega :3. Buen Profe..."
+    },
+    {
+      "fecha_iso": "2012-09-06T00:00:00",
+      "materia": "CALCULO INTEGRAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "es buen maestro, se agarra cura en sus clases y explica todo bien, lo recomiendo mucho :)"
+    },
+    {
+      "fecha_iso": "2012-09-06T00:00:00",
+      "materia": "ALGEBRA LINEAL",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": "Se agarra mucha kura con el profe, tiene delirios de persecución, se le entiende bien si se traen buenas bases y es sencillo de pasar la materia."
+    }
+  ],
+  "comments_recent": [
+    "profe más batalloso, pero se pasa si le echas ganas",
+    "No vale verga w",
+    "Pasé calculo integral con él y solo fui un mes a su clase, al ultimo nos pasó a todo el salón con 7. Pasé vectorial con él otra vez, pero esta vez si se puso las \"pilas\" y si daba clases, pero es malísimo para enseñar. Se pondrá \"estricto\" pero al ultimo te pasa con 7 si o si. Carga con el, confia.",
+    "No explica bien, asiste cuando quiere, tiene mal bocabulario,",
+    "Si quieres pasar sin aprender nada, carga con el. Cualquier otro es mejor opción.",
+    "Sólo te diré que es mejor que cargues con otro profesor.",
+    "La cachaste pase con 70 de milagro porque es muy voluble",
+    "Carga con el si quieres pasarla facil, sus clases son de 30 minutos pero no vas aprender mucho.",
+    "Semestre impar te pasa con 70, semestre par te reprueba para mandarte a verano."
+  ],
+  "n_reviews": 23
+}

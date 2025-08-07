@@ -1,0 +1,271 @@
+{
+  "professor_id": "Luis_Ernesto_Lizarraga_Bolaños",
+  "nombre": "Luis Ernesto Lizarraga Bolaños",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 8.858136894622064,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.688796050132927,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.8,
+    "wilson_interval": [
+      0.49015684672072346,
+      0.9433190520193067
+    ],
+    "n_recommendations": 10
+  },
+  "subject_normalization": {
+    "z_mean": 0.14,
+    "z_mean_decayed": 0.27,
+    "per_subject": [
+      {
+        "materia": "ADMINISTRACIÓN DE REDES",
+        "z_decayed": 0.46237959787241445,
+        "n": 3
+      },
+      {
+        "materia": "REDES",
+        "z_decayed": -0.12438092433678745,
+        "n": 21
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "si",
+          "explica",
+          "profesor",
+          "clase",
+          "es"
+        ],
+        "weight": 0.16596452244606885
+      },
+      {
+        "id": 1,
+        "words": [
+          "tiempo",
+          "redes",
+          "tareas",
+          "entregar tareas",
+          "entregar"
+        ],
+        "weight": 0.12899539694645695
+      },
+      {
+        "id": 2,
+        "words": [
+          "tarde",
+          "siempre",
+          "casi",
+          "siempre llega",
+          "examenes"
+        ],
+        "weight": 0.16188141201691478
+      },
+      {
+        "id": 3,
+        "words": [
+          "buen profesor",
+          "buen",
+          "es buen",
+          "clases",
+          "nunca"
+        ],
+        "weight": 0.1264167546176251
+      },
+      {
+        "id": 4,
+        "words": [
+          "tema",
+          "te",
+          "tareas",
+          "ensena",
+          "maestro"
+        ],
+        "weight": 0.16372952494083665
+      }
+    ],
+    "sentiment": {
+      "overall": 0.2,
+      "by_month": {
+        "2023-01": 0.0,
+        "2020-02": 0.0,
+        "2020-01": 1.0,
+        "2019-01": 1.0,
+        "2018-08": 0.0,
+        "2017-01": 1.0,
+        "2016-08": -1.0,
+        "2015-08": 0.0,
+        "2014-12": 0.0,
+        "2013-11": 0.0
+      }
+    },
+    "n_comments": 10
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        10.0,
+        9.0,
+        2.0,
+        9.0,
+        10.0,
+        10.0,
+        10.0,
+        8.0,
+        6.0,
+        10.0
+      ],
+      "ewma": [
+        10.0,
+        9.7,
+        7.389999999999999,
+        7.872999999999999,
+        8.511099999999999,
+        8.95777,
+        9.270439,
+        8.889307299999999,
+        8.022515109999999,
+        8.615760577
+      ],
+      "sigma": 2.118749322780653
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 8.615760577,
+      "quality_band": [
+        4.463011904349919,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2023-01-11T00:00:00",
+      "materia": "ADMINISTRACION DE REDES",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Deja muchas tareas, siempre llega tarde, es exigente en los exámenes y no enseña casi nada. Algunas unidades son de 3 exámenes contando el de netacad y básicamente es memorizar todo para ir a hacerlos en el aula. Para aprovechar al maestro tienes que preguntar sobre el tema, si le sabe bastante."
+    },
+    {
+      "fecha_iso": "2020-02-23T00:00:00",
+      "materia": "ADMIN DE REDES",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 0,
+      "comentario": "Aprendes a machetearte  examenes de memoria y a hacer practicas con ayuda del yutub :v,  casi siempre LLEGA TARDE."
+    },
+    {
+      "fecha_iso": "2020-01-11T00:00:00",
+      "materia": "ADMINISTRACIÓN DE REDES",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": "Bueno, si tienes intenciones de cargar con él debes tener dudas para que puedas sacarle provecho a su clase, él puede explicarte sin problemas, el chiste de aprovechar su clase es simple: muestra interés por su clase, la materia es buena pero de no ser así, lo sentirás como \"una clase más\", \"algo X\""
+    },
+    {
+      "fecha_iso": "2019-01-15T00:00:00",
+      "materia": "ADMINISTRACIÓN DE REDES",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": "Es muy buen profesor, explica claro las cosas y si le pides ayuda te la brinda. Es muy comprensivo. Tienes que hacer las tareas para entender el tema y subir las tareas. Eso si, nunca llega a tiempo."
+    },
+    {
+      "fecha_iso": "2018-08-03T00:00:00",
+      "materia": "EL MEJOR DE LAS REDES",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Este profesor es un amor en todo su explendor, es el master de las redes, ademas conoce un poco de todo, siempre con el animo de ayudar a los alumnos, explica de manera clara y precisa, sumamente importante ENTREGAR TAREAS A TIEMPO, los examenes son los mismos.\n\nHizo que me gustaran las redes..."
+    },
+    {
+      "fecha_iso": "2017-01-23T00:00:00",
+      "materia": "CONMUTACIÓN/ADMON DE REDES",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "El mejor profesor de redes, explica muy claro y si no entiendes te explica, te motiva a aprender, a veces llega poco tarde, le importa mucho la participación, super recomendado"
+    },
+    {
+      "fecha_iso": "2016-08-15T00:00:00",
+      "materia": "REDES",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": "Es un muy buen profesor, sabe de lo que habla y cuando no lo sabe, lo investiga y te lo aclara para la siguiente clase. deja mucha tarea pero facil y clara. recomendaria mucho a este profesor, lo unico malo es que aveces es medio irresponsable y llega tarde a las clases o de plano no va."
+    },
+    {
+      "fecha_iso": "2015-08-30T00:00:00",
+      "materia": "REDES",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 2.0,
+      "recomienda": 0,
+      "comentario": "Nunca asistio a clases por que se la llevaba en juntas y quiso terminar todo el semestre en un solo dia"
+    },
+    {
+      "fecha_iso": "2014-12-24T00:00:00",
+      "materia": "REDES",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Entregar tareas muy completas. Toma en cuenta"
+    },
+    {
+      "fecha_iso": "2013-11-15T00:00:00",
+      "materia": "REDES",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Exelente maestro, te hace trabajar pero enseña bien, cuidado con la entrega de tareas..."
+    }
+  ],
+  "comments_recent": [
+    "Deja muchas tareas, siempre llega tarde, es exigente en los exámenes y no enseña casi nada. Algunas unidades son de 3 exámenes contando el de netacad y básicamente es memorizar todo para ir a hacerlos en el aula. Para aprovechar al maestro tienes que preguntar sobre el tema, si le sabe bastante.",
+    "Aprendes a machetearte  examenes de memoria y a hacer practicas con ayuda del yutub :v,  casi siempre LLEGA TARDE.",
+    "Bueno, si tienes intenciones de cargar con él debes tener dudas para que puedas sacarle provecho a su clase, él puede explicarte sin problemas, el chiste de aprovechar su clase es simple: muestra interés por su clase, la materia es buena pero de no ser así, lo sentirás como \"una clase más\", \"algo X\"",
+    "Es muy buen profesor, explica claro las cosas y si le pides ayuda te la brinda. Es muy comprensivo. Tienes que hacer las tareas para entender el tema y subir las tareas. Eso si, nunca llega a tiempo.",
+    "Este profesor es un amor en todo su explendor, es el master de las redes, ademas conoce un poco de todo, siempre con el animo de ayudar a los alumnos, explica de manera clara y precisa, sumamente importante ENTREGAR TAREAS A TIEMPO, los examenes son los mismos.\n\nHizo que me gustaran las redes...",
+    "El mejor profesor de redes, explica muy claro y si no entiendes te explica, te motiva a aprender, a veces llega poco tarde, le importa mucho la participación, super recomendado",
+    "Es un muy buen profesor, sabe de lo que habla y cuando no lo sabe, lo investiga y te lo aclara para la siguiente clase. deja mucha tarea pero facil y clara. recomendaria mucho a este profesor, lo unico malo es que aveces es medio irresponsable y llega tarde a las clases o de plano no va.",
+    "Nunca asistio a clases por que se la llevaba en juntas y quiso terminar todo el semestre en un solo dia",
+    "Entregar tareas muy completas. Toma en cuenta",
+    "Exelente maestro, te hace trabajar pero enseña bien, cuidado con la entrega de tareas..."
+  ],
+  "n_reviews": 10
+}

@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2025-08-07T16:11:15.364094",
+  "params": {
+    "half_life_months": 24,
+    "bayes_k": 10,
+    "wilson_confidence": 0.95
+  },
+  "global_stats": {
+    "mu_quality": 6.9775921002658565,
+    "mu_difficulty": null,
+    "recommendation_rate": 0.6099506266616027,
+    "total_reviews": 5266
+  },
+  "professors_count": 552
+}

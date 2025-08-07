@@ -1,0 +1,258 @@
+{
+  "professor_id": "Edna_Rocio_Barajas_Olivas",
+  "nombre": "Edna Rocio Barajas Olivas",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 9.913546329600377,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 8.388796050132928,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 1.0,
+    "wilson_interval": [
+      0.7224598312333834,
+      1
+    ],
+    "n_recommendations": 10
+  },
+  "subject_normalization": {
+    "z_mean": 0.61,
+    "z_mean_decayed": 0.63,
+    "per_subject": [
+      {
+        "materia": "INVESTIGACION DE OPERACIONES",
+        "z_decayed": 0.6728624691859579,
+        "n": 16
+      },
+      {
+        "materia": "INVESTIGACIÓN DE OPERACIONES",
+        "z_decayed": 0.5919893554489857,
+        "n": 15
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "facil",
+          "materia",
+          "buena",
+          "es buena",
+          "es"
+        ],
+        "weight": 0.15187742246232608
+      },
+      {
+        "id": 1,
+        "words": [
+          "pone",
+          "excelente maestra",
+          "te",
+          "examenes",
+          "maestra"
+        ],
+        "weight": 0.21437078030125564
+      },
+      {
+        "id": 2,
+        "words": [
+          "te ayuda",
+          "ayuda",
+          "si",
+          "profe",
+          "explicar"
+        ],
+        "weight": 0.18433831010527194
+      },
+      {
+        "id": 3,
+        "words": [
+          "es",
+          "excelente",
+          "siempre",
+          "clases",
+          "manera"
+        ],
+        "weight": 0.13690787691075393
+      }
+    ],
+    "sentiment": {
+      "overall": 0.3333333333333333,
+      "by_month": {
+        "2024-12": 1.0,
+        "2023-01": 1.0,
+        "2022-06": 0.0,
+        "2022-04": 0.0,
+        "2021-12": 0.0,
+        "2020-12": 1.0,
+        "2019-08": -1.0,
+        "2018-12": 0.0,
+        "2015-06": 1.0
+      }
+    },
+    "n_comments": 9
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        9.0,
+        10.0,
+        10.0,
+        10.0,
+        9.0,
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        10.0
+      ],
+      "ewma": [
+        9.0,
+        9.3,
+        9.51,
+        9.657,
+        9.4599,
+        9.621929999999999,
+        9.735350999999998,
+        9.814745699999998,
+        9.870321989999997,
+        9.909225392999998
+      ],
+      "sigma": 0.3129645662713599
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 9.909225392999998,
+      "quality_band": [
+        9.295814843108133,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2024-12-02T00:00:00",
+      "materia": "INVESTIGACIÓN DE OPERACIONES",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "RocíoGOD\nExcelente profe, falta si es necesario, pero se entiende porque es la coordinadora de sistemas. Hace que la materia sea fácil, si no entiendes vuelve a explicar y te ayuda si tienes algún problema. Si puedes carga con ella. La mejor profe del tec, sin duda yo volvería a cargar con ella."
+    },
+    {
+      "fecha_iso": "2023-01-10T00:00:00",
+      "materia": "INVESTIGACION DE OPERACIONES",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "excelente maestra, te ayuda si lo necesitas y sus examenes son sobre lo que se ve en clase :D"
+    },
+    {
+      "fecha_iso": "2022-06-17T00:00:00",
+      "materia": "INVESTIGACION DE OPERACIONES",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": "Es muy buena maestra, cae muy bien y si no pasas el examen la recuperacion te la pone facil se preocupa mucho por ayudarte a pasar además de que su hora se va muy rapido"
+    },
+    {
+      "fecha_iso": "2022-04-04T00:00:00",
+      "materia": "INVESTIGACION DE OPERACIONES",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "muy buena maestra, la cargare siempre que la vea, es muy atenta y te pone 100 en las tareas aunque te salgan mal, muy recomendada sus exámenes son de lo visto en clase"
+    },
+    {
+      "fecha_iso": "2021-12-17T00:00:00",
+      "materia": "INVESTIGACIÓN DE OPERACIONES (LINEA)",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "La mejor profe que me ha dado clases. Explica muy bien, te vuelve a explicar si no le entiendes, intenta explicar de la manera más fácil para que todos le entiendan y te ayuda para que intentes tener buena calificación. Recomendadisima, escoge tu horario al rededor de ella"
+    },
+    {
+      "fecha_iso": "2020-12-14T00:00:00",
+      "materia": "INVESTIGACIÓN DE OPERACIONES",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Excelente profesora, incluso si las clases fueron de manera virtual, ella siempre buscó la manera de facilitarnos la manera de aprender, es bueno saber también que se nota que ella se preparaba para las clases."
+    },
+    {
+      "fecha_iso": "2019-08-05T00:00:00",
+      "materia": "INVESTIGACIÓN DE OPERACIONES",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Es una muy buena maestra, no es nada difícil pasar su materia si es que prestas atención a sus clases. Siempre debes tratar de participar, ya que te ayudará mucho, además de que no muchos alumnos quieren participar. En ocasiones suele faltar pero se entiende ya que es coordinadora de la carrera."
+    },
+    {
+      "fecha_iso": "2018-12-08T00:00:00",
+      "materia": "INVESTIGACIÓN DE OPERACIONES",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Muy fácil la materia, y encima es muy buena para darla"
+    },
+    {
+      "fecha_iso": "2017-12-06T00:00:00",
+      "materia": "INTRODUCCIÓN A LAS TIC'S",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2015-06-25T00:00:00",
+      "materia": "INTRODUCCIÓN A LAS TIC'S",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": "Excelente maestra, aunque falta mucho pero lo recompensa con esfuerzo ya que cuando va le pone muchas ganas al momento de enseñar con esta maestra pasas con tareas y exposiciones y los exámenes son fáciles pero cuidado por que si no le entregas trabajos si te reprueba"
+    }
+  ],
+  "comments_recent": [
+    "RocíoGOD\nExcelente profe, falta si es necesario, pero se entiende porque es la coordinadora de sistemas. Hace que la materia sea fácil, si no entiendes vuelve a explicar y te ayuda si tienes algún problema. Si puedes carga con ella. La mejor profe del tec, sin duda yo volvería a cargar con ella.",
+    "excelente maestra, te ayuda si lo necesitas y sus examenes son sobre lo que se ve en clase :D",
+    "Es muy buena maestra, cae muy bien y si no pasas el examen la recuperacion te la pone facil se preocupa mucho por ayudarte a pasar además de que su hora se va muy rapido",
+    "muy buena maestra, la cargare siempre que la vea, es muy atenta y te pone 100 en las tareas aunque te salgan mal, muy recomendada sus exámenes son de lo visto en clase",
+    "La mejor profe que me ha dado clases. Explica muy bien, te vuelve a explicar si no le entiendes, intenta explicar de la manera más fácil para que todos le entiendan y te ayuda para que intentes tener buena calificación. Recomendadisima, escoge tu horario al rededor de ella",
+    "Excelente profesora, incluso si las clases fueron de manera virtual, ella siempre buscó la manera de facilitarnos la manera de aprender, es bueno saber también que se nota que ella se preparaba para las clases.",
+    "Es una muy buena maestra, no es nada difícil pasar su materia si es que prestas atención a sus clases. Siempre debes tratar de participar, ya que te ayudará mucho, además de que no muchos alumnos quieren participar. En ocasiones suele faltar pero se entiende ya que es coordinadora de la carrera.",
+    "Muy fácil la materia, y encima es muy buena para darla",
+    "Excelente maestra, aunque falta mucho pero lo recompensa con esfuerzo ya que cuando va le pone muchas ganas al momento de enseñar con esta maestra pasas con tareas y exposiciones y los exámenes son fáciles pero cuidado por que si no le entregas trabajos si te reprueba"
+  ],
+  "n_reviews": 10
+}

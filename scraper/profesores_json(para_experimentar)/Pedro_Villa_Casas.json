@@ -1,0 +1,155 @@
+{
+  "nombre": "Pedro Villa Casas",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "ciudad": "Ciudad: culiacan, sinaloa",
+  "departamento": "Departamento/Facultad: Sistemas",
+  "calidad_general": 6.4,
+  "porcentaje_recomienda": 56,
+  "nivel_dificultad": 4.2,
+  "etiquetas": [
+    "POCOS EXÁMENES (1)",
+    "BRINDA APOYO (1)",
+    "DEJA TRABAJOS LARGOS (2)",
+    "CALIFICA DURO (2)",
+    "MUCHAS TAREAS (1)"
+  ],
+  "numero_calificaciones": 9,
+  "calificaciones": [
+    {
+      "fecha": "05/May/2025",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Tutorías",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "Era tutorías así que ni que decir :v es buena onda y volveria a cargar con el",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "13/Ago/2023",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 8.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Taller de SO",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "N/A",
+      "interes_clase": "",
+      "comentario": "Es un profesor que sabe muchisimo, probablemente sobrecalificado para cualquier materia que le den pero, no se organiza nada, no te dice como califica y al final te da todo de una,  aparenta ser barco pero no lo es tanto.",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "07/Mar/2023",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 8.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Admin de redes",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "9",
+      "interes_clase": "",
+      "comentario": "Muy bueno tumbacasas, le sabe un monton, a veces se emociona y se va de largo explicando pero si le preguntas te contesta todo, NO DEJES LOS PROYECTOS AL FINAL o te come el tiempo",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "26/Nov/2022",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 2.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Redes",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "7",
+      "interes_clase": "",
+      "comentario": "",
+      "etiquetas_comentario": [
+        "Califica Duro",
+        "Muchas tareas"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "27/Ene/2020",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 2.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Taller de Base de datos",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "21",
+      "interes_clase": "",
+      "comentario": "Es un maestro que tal vez puede saber del tema, pero es alguien que te puede reprobar en su megaproyecto final muy complicado por una diminutez como no escribir un \"go\" en un script. No recomendado, para nada. Evitate el estres extremo.",
+      "etiquetas_comentario": [
+        "Califica Duro",
+        "Deja trabajos largos"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "13/Ene/2020",
+      "tipo_calificacion": "REGULAR",
+      "puntaje_calidad_general": 6.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Taller de base de datos",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "N/A",
+      "interes_clase": "",
+      "comentario": "Sabe del tema, pero usualmente espera a que el alumno le pregunte. Deja tareas que no son obligatorias, pero son importantes para que practiques o te surjan dudas para preguntarle.",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "28/Dic/2019",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 8.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Conmutacion",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "9",
+      "interes_clase": "",
+      "comentario": "El profe Pedro pues tiene un carizma algo especial, se ve que sí sabe de los temas y pues si necesitas poner de tu parte pasar, lo que le preguntes el te contesta y si no ahí hace lo mejor que puede para contestar",
+      "etiquetas_comentario": [
+        "Pocos Exámenes",
+        "Brinda apoyo",
+        "Deja trabajos largos"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "22/Mar/2014",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 8.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Taller de BD",
+      "asistencia": "",
+      "calificacion_recibida": "N/A",
+      "interes_clase": "N/A",
+      "comentario": "APRENDES mySQL",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "18/Jun/2013",
+      "tipo_calificacion": "REGULAR",
+      "puntaje_calidad_general": 5.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Simulacion, Redes, Ensamblador",
+      "asistencia": "",
+      "calificacion_recibida": "2",
+      "interes_clase": "2",
+      "comentario": "es demasiado estricto, no ayuda para nada, no se tento el corazon para reprobar a todos los del grupo aunque fueran RC, examenes dificiles, en simulacion muy estricto!.",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    }
+  ]
+}

@@ -1,0 +1,210 @@
+{
+  "professor_id": "Flor_Salaiza",
+  "nombre": "Flor Salaiza",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 7.8723829915357255,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.104465941332856,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.714,
+    "wilson_interval": [
+      0.35892909014821267,
+      0.9177828342909845
+    ],
+    "n_recommendations": 7
+  },
+  "subject_normalization": {
+    "z_mean": 0.2,
+    "z_mean_decayed": 0.35,
+    "per_subject": [
+      {
+        "materia": "TALLER DE INVESTIGACIÓN II",
+        "z_decayed": 1.0910894511799618,
+        "n": 3
+      },
+      {
+        "materia": "TALLER DE INVESTIGACIÓN",
+        "z_decayed": 0.8928660402432332,
+        "n": 9
+      },
+      {
+        "materia": "TALLER DE INVESTIGACIÓN 2",
+        "z_decayed": 0.7267220926874315,
+        "n": 5
+      },
+      {
+        "materia": "TALLER DE INVESTIGACION",
+        "z_decayed": 0.13206763594884358,
+        "n": 4
+      },
+      {
+        "materia": "CULTURA EMPRESARIAL",
+        "z_decayed": 0.0,
+        "n": 17
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "fomenta",
+          "lectura",
+          "fomenta lectura",
+          "sabe",
+          "es"
+        ],
+        "weight": 0.27835746380013754
+      },
+      {
+        "id": 1,
+        "words": [
+          "es",
+          "aprendes",
+          "califica",
+          "bien",
+          "te"
+        ],
+        "weight": 0.3765070418257722
+      }
+    ],
+    "sentiment": {
+      "overall": -0.2,
+      "by_month": {
+        "2021-01": 0.0,
+        "2020-08": 0.0,
+        "2019-06": -1.0,
+        "2018-06": 0.0,
+        "2017-06": 0.0
+      }
+    },
+    "n_comments": 5
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        8.0,
+        5.0,
+        8.0,
+        8.0,
+        2.0,
+        10.0,
+        10.0
+      ],
+      "ewma": [
+        8.0,
+        7.1,
+        7.369999999999999,
+        7.558999999999999,
+        5.891299999999998,
+        7.123909999999999,
+        7.986736999999999
+      ],
+      "sigma": 2.326248104730806
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 7.986736999999999,
+      "quality_band": [
+        3.4272907147276195,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2021-01-16T00:00:00",
+      "materia": "TALLER DE INVESTIGACIÓN",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Siempre intenta que aprendamos, explica muy bien, fomenta la lectura y es estricta y deja tareas pero eso no le quita lo buena onda y servicial. Si quieren aprender ella es la opción, sabe mucho de todo."
+    },
+    {
+      "fecha_iso": "2020-08-28T00:00:00",
+      "materia": "TALLER DE INVESTIGACIÓN 2",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Es buena la Dra. Fomenta la lectura y sabe mucho de metodología de investigación."
+    },
+    {
+      "fecha_iso": "2019-06-14T00:00:00",
+      "materia": "TALLER DE INVESTIGACION II",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "no enseña nada y califica como le da la gana, por mas bien que este el trabajo siempre dira que esta mal aunque ya te haya dicho que esta bien, esta facil pasar pero no aprendes nada y sales pesimo"
+    },
+    {
+      "fecha_iso": "2018-06-10T00:00:00",
+      "materia": "TALLER DE INVESTIGACION",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "todo el semestre es leer libros y una exposision, te la pasas agusto"
+    },
+    {
+      "fecha_iso": "2017-06-12T00:00:00",
+      "materia": "TALLER DE INVESTIGACIÓN II",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": "Muy buena profesora. Califica justo y aprendes mucho. Te fomenta el hábito de la lectura haciendo exámenes de algún libro, que dichos exámenes te pueden favorecer en tus calificaciones de las unidades.\nAl final tienes que entregar un informe final de algún proyecto que te deja desde el principio."
+    },
+    {
+      "fecha_iso": "2016-12-18T00:00:00",
+      "materia": "FORMULACIÓN Y EVALUACIÓN DE PROYECTOS",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 7.5,
+      "recomienda": 0,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2012-01-30T00:00:00",
+      "materia": "CULTURA EMPRESARIAL",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": ""
+    }
+  ],
+  "comments_recent": [
+    "Siempre intenta que aprendamos, explica muy bien, fomenta la lectura y es estricta y deja tareas pero eso no le quita lo buena onda y servicial. Si quieren aprender ella es la opción, sabe mucho de todo.",
+    "Es buena la Dra. Fomenta la lectura y sabe mucho de metodología de investigación.",
+    "no enseña nada y califica como le da la gana, por mas bien que este el trabajo siempre dira que esta mal aunque ya te haya dicho que esta bien, esta facil pasar pero no aprendes nada y sales pesimo",
+    "todo el semestre es leer libros y una exposision, te la pasas agusto",
+    "Muy buena profesora. Califica justo y aprendes mucho. Te fomenta el hábito de la lectura haciendo exámenes de algún libro, que dichos exámenes te pueden favorecer en tus calificaciones de las unidades.\nAl final tienes que entregar un informe final de algún proyecto que te deja desde el principio."
+  ],
+  "n_reviews": 7
+}

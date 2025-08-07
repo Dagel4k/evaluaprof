@@ -1,0 +1,179 @@
+{
+  "professor_id": "Mario_Alain_Urquídez_González",
+  "nombre": "Mario Alain Urquídez González",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 7.993069980495419,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.118394733510571,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.6,
+    "wilson_interval": [
+      0.23071993220883702,
+      0.8823817688407467
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": 0.0,
+    "z_mean_decayed": 0.16,
+    "per_subject": [
+      {
+        "materia": "METROLOGÍA Y NORMALIZACIÓN",
+        "z_decayed": 1.023532631438318,
+        "n": 12
+      },
+      {
+        "materia": "ESTADÍSTICA",
+        "z_decayed": 0.25318484177091666,
+        "n": 6
+      },
+      {
+        "materia": "SIX SIGMA",
+        "z_decayed": -0.06703322014155225,
+        "n": 4
+      },
+      {
+        "materia": "ETICA",
+        "z_decayed": -0.2756614134810139,
+        "n": 31
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "diapositivas",
+          "buen",
+          "bien",
+          "si"
+        ],
+        "weight": 0.25148346723937776
+      },
+      {
+        "id": 1,
+        "words": [
+          "bien",
+          "si",
+          "buen",
+          "diapositivas"
+        ],
+        "weight": 0.3973021250447716
+      }
+    ],
+    "sentiment": {
+      "overall": 0.0,
+      "by_month": {
+        "2023-01": 0.0,
+        "2021-01": 0.0,
+        "2020-12": 0.0,
+        "2020-05": 0.0
+      }
+    },
+    "n_comments": 4
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        3.0,
+        10.0,
+        6.0,
+        10.0,
+        8.0
+      ],
+      "ewma": [
+        3.0,
+        5.1,
+        5.369999999999999,
+        6.758999999999999,
+        7.131299999999998
+      ],
+      "sigma": 2.066449701299308
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 7.131299999999998,
+      "quality_band": [
+        3.081058585453354,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2023-08-10T00:00:00",
+      "materia": "ESTADÍSTICA",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2023-01-26T00:00:00",
+      "materia": "SIX SIGMA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Muy buen maestro, explica bien, si lo recomiendo para cargar con el."
+    },
+    {
+      "fecha_iso": "2021-01-31T00:00:00",
+      "materia": "ETICA",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 0,
+      "comentario": "Preparate para leer puras diapositivas, en el examen te cambiara de manera fea los significados."
+    },
+    {
+      "fecha_iso": "2020-12-12T00:00:00",
+      "materia": "METROLOGÍA Y NORMALIZACIÓN",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Realmente se prepará para su clase. Apesar de que usa diapositivas, es muy raro que lea durante la clase. Todas las dudas que tengas trata de responderlas, ya sea en la misma clase o en la siguiente. El único problema es que tarda mucho en dar calificaciones, pero de ahi en fuera muy buen profe."
+    },
+    {
+      "fecha_iso": "2020-05-23T00:00:00",
+      "materia": "SIX SIGMA",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": 24.0,
+      "recomienda": 0,
+      "comentario": "Ojalá que vea este mensaje. Está muy joven, poca experiencia y complejo de superioridad. Sus papás excelentes profesores pero él no heredó nada de ellos. Si desea continuar, por el bien de todos, mejore sus clases. Sí se puede cuando se quiere. *solo siganle el rollo*"
+    }
+  ],
+  "comments_recent": [
+    "Muy buen maestro, explica bien, si lo recomiendo para cargar con el.",
+    "Preparate para leer puras diapositivas, en el examen te cambiara de manera fea los significados.",
+    "Realmente se prepará para su clase. Apesar de que usa diapositivas, es muy raro que lea durante la clase. Todas las dudas que tengas trata de responderlas, ya sea en la misma clase o en la siguiente. El único problema es que tarda mucho en dar calificaciones, pero de ahi en fuera muy buen profe.",
+    "Ojalá que vea este mensaje. Está muy joven, poca experiencia y complejo de superioridad. Sus papás excelentes profesores pero él no heredó nada de ellos. Si desea continuar, por el bien de todos, mejore sus clases. Sí se puede cuando se quiere. *solo siganle el rollo*"
+  ],
+  "n_reviews": 5
+}

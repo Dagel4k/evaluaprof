@@ -1,0 +1,91 @@
+{
+  "professor_id": "Daniela_Lizarraga_Russell",
+  "nombre": "Daniela Lizarraga Russell",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 6.632725695651429,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 6.897993416888213,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.5,
+    "wilson_interval": [
+      0.09452865480086611,
+      0.905471345199134
+    ],
+    "n_recommendations": 2
+  },
+  "subject_normalization": {
+    "z_mean": 0.08,
+    "z_mean_decayed": 0.2,
+    "per_subject": [
+      {
+        "materia": "FUNDAMENTOS DE INVESTIGACION",
+        "z_decayed": 0.5308846625055557,
+        "n": 24
+      },
+      {
+        "materia": "DESARROLLO HUMANO",
+        "z_decayed": -0.36727658015579384,
+        "n": 4
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [],
+    "sentiment": {
+      "overall": null,
+      "by_month": {}
+    },
+    "n_comments": 2
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": null,
+    "difficulty_trend": null,
+    "forecast": null,
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2024-08-10T00:00:00",
+      "materia": "FUNDAMENTOS DE INVESTIGACION",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Es fácil pasar, no es muy exigente con los exámenes y la clase es entendible, las tareas pueden ser largas pero muchas son en equipo lo que facilita hacerlas."
+    },
+    {
+      "fecha_iso": "2023-01-15T00:00:00",
+      "materia": "DESARROLLO HUMANO",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 0,
+      "comentario": "Vas a ir a leer y hacer resúmenes, está buena la hora para ir a desayunar/comer."
+    }
+  ],
+  "comments_recent": [
+    "Es fácil pasar, no es muy exigente con los exámenes y la clase es entendible, las tareas pueden ser largas pero muchas son en equipo lo que facilita hacerlas.",
+    "Vas a ir a leer y hacer resúmenes, está buena la hora para ir a desayunar/comer."
+  ],
+  "n_reviews": 2
+}

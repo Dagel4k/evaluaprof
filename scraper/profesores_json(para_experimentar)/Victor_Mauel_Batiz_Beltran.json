@@ -1,0 +1,110 @@
+{
+  "nombre": "Victor Mauel Batiz Beltran",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "ciudad": "Ciudad: culiacan, sinaloa",
+  "departamento": "Departamento/Facultad: Ciencia de datos / Sistemas",
+  "calidad_general": 10.0,
+  "porcentaje_recomienda": 100,
+  "nivel_dificultad": 0.0,
+  "etiquetas": [
+    "MUY CÓMICO (5)",
+    "DA BUENA RETROALIMENTACIÓN (2)",
+    "RESPETADO POR LOS ESTUDIANTES (2)",
+    "BARCO (1)",
+    "TOMARÍA SU CLASE OTRA VEZ (1)",
+    "INSPIRACIONAL (1)",
+    "CLASES EXCELENTES (2)"
+  ],
+  "numero_calificaciones": 5,
+  "calificaciones": [
+    {
+      "fecha": "04/Jun/2025",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Fundamentos de programación",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "N/A",
+      "interes_clase": "",
+      "comentario": "",
+      "etiquetas_comentario": [
+        "Muy cómico",
+        "Da buena retroalimentación",
+        "Clases excelentes"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "07/Nov/2024",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Prolog/lenguajes y automatas II/graficación",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "El mejor profe del tec, siempre que lo vean carguen con el, es un amor de persona y ser humano, sus clases pueden llegar a aburrir pero explica super bien, los exámenes son fáciles hasta el mismo dice que el no es barco es un yate de lujo 8)",
+      "etiquetas_comentario": [
+        "Muy cómico",
+        "Inspiracional",
+        "Clases excelentes"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "27/Ago/2024",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Taller de Base de Datos",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "Le pone humor a las clases pero sin descuidar la enseñanza, no es estricto sin embargo le gusta que pongas atención en clase. Aprendes mucho con él",
+      "etiquetas_comentario": [
+        "Muy cómico",
+        "Respetado por los estudiantes",
+        "Tomaría su clase otra vez"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "01/Feb/2024",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Graficacion",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "",
+      "etiquetas_comentario": [
+        "Barco",
+        "Muy cómico"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "25/Sep/2023",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Ciencia de datos",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "",
+      "etiquetas_comentario": [
+        "Muy cómico",
+        "Da buena retroalimentación",
+        "Respetado por los estudiantes"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    }
+  ]
+}

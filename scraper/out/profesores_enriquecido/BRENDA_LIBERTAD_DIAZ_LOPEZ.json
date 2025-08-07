@@ -1,0 +1,135 @@
+{
+  "professor_id": "BRENDA_LIBERTAD_DIAZ_LOPEZ",
+  "nombre": "BRENDA LIBERTAD DIAZ LOPEZ",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 9.046832485164382,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.055422928761326,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.5,
+    "wilson_interval": [
+      0.15003570882017145,
+      0.8499642911798285
+    ],
+    "n_recommendations": 4
+  },
+  "subject_normalization": {
+    "z_mean": 0.11,
+    "z_mean_decayed": 0.73,
+    "per_subject": [
+      {
+        "materia": "FUNDAMENTOS DE INVESTIGACIÓN",
+        "z_decayed": 1.065668838709187,
+        "n": 29
+      },
+      {
+        "materia": "TALLER DE INVESTIGACION",
+        "z_decayed": 0.6603381797442178,
+        "n": 4
+      },
+      {
+        "materia": "DESARROLLO SUSTENTABLE",
+        "z_decayed": -0.6461932937815077,
+        "n": 52
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [],
+    "sentiment": {
+      "overall": null,
+      "by_month": {}
+    },
+    "n_comments": 2
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        5.0,
+        4.0,
+        10.0,
+        10.0
+      ],
+      "ewma": [
+        5.0,
+        4.7,
+        6.29,
+        7.403
+      ],
+      "sigma": 2.092757092927892
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 7.403,
+      "quality_band": [
+        3.3011960978613315,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2023-11-01T00:00:00",
+      "materia": "FUNDAMENTOS DE INVESTIGACIÓN",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2017-12-22T00:00:00",
+      "materia": "TALLER DE INVESTIGACION",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Es un super amor esta profe, en todo el semestre nomas dio como 9 clases a lo mucho y nunca dejaba tarea ni nada ni era exigente para nada, podias ir cuando quisieras a revisar y al final solo te pide un trabajo que ni lo lee y te pone 100, la super recomiendo"
+    },
+    {
+      "fecha_iso": "2017-09-26T00:00:00",
+      "materia": "DESARROLLO SUSTENTABLE",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 0,
+      "comentario": "Nomas nos dio clases como 9 veces en todo el semestre, es bien sentida y no le gusta que anden platicando en su clase o algo. A veces la agarra con todo el grupo por esas cosas pero si le entregas todos los trabajos es un 100 seguro. Igual es materia de relleno"
+    },
+    {
+      "fecha_iso": "2017-08-11T00:00:00",
+      "materia": "DESARROLLO SUSTENTABLE",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": ""
+    }
+  ],
+  "comments_recent": [
+    "Es un super amor esta profe, en todo el semestre nomas dio como 9 clases a lo mucho y nunca dejaba tarea ni nada ni era exigente para nada, podias ir cuando quisieras a revisar y al final solo te pide un trabajo que ni lo lee y te pone 100, la super recomiendo",
+    "Nomas nos dio clases como 9 veces en todo el semestre, es bien sentida y no le gusta que anden platicando en su clase o algo. A veces la agarra con todo el grupo por esas cosas pero si le entregas todos los trabajos es un 100 seguro. Igual es materia de relleno"
+  ],
+  "n_reviews": 4
+}

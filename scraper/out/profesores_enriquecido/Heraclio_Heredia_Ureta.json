@@ -1,0 +1,207 @@
+{
+  "professor_id": "Heraclio_Heredia_Ureta",
+  "nombre": "Heraclio Heredia Ureta",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 6.382362194921882,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 6.11099506266616,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.333,
+    "wilson_interval": [
+      0.09676933255921684,
+      0.7000116786584712
+    ],
+    "n_recommendations": 6
+  },
+  "subject_normalization": {
+    "z_mean": -0.72,
+    "z_mean_decayed": -0.83,
+    "per_subject": [
+      {
+        "materia": "MECANICA",
+        "z_decayed": -0.08167234800792302,
+        "n": 7
+      },
+      {
+        "materia": "ELECTRONICA",
+        "z_decayed": -0.6627944170679467,
+        "n": 9
+      },
+      {
+        "materia": "---",
+        "z_decayed": -0.9627852966533862,
+        "n": 521
+      },
+      {
+        "materia": "DISEÑO DIGITAL",
+        "z_decayed": -1.1547005383792512,
+        "n": 3
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "clases",
+          "maestros",
+          "si",
+          "es",
+          "estudias"
+        ],
+        "weight": 0.2080272119905788
+      },
+      {
+        "id": 1,
+        "words": [
+          "vida",
+          "te reprueba",
+          "vida imposible",
+          "es",
+          "te"
+        ],
+        "weight": 0.2726249568998467
+      },
+      {
+        "id": 2,
+        "words": [
+          "es",
+          "clases",
+          "te",
+          "ritmo",
+          "si"
+        ],
+        "weight": 0.28784263162607054
+      }
+    ],
+    "sentiment": {
+      "overall": 0.0,
+      "by_month": {
+        "2018-02": 0.0,
+        "2015-06": 0.0,
+        "2015-03": 0.0,
+        "2012-08": 0.0,
+        "2011-11": 0.0,
+        "2011-04": 0.0
+      }
+    },
+    "n_comments": 6
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        2.0,
+        6.0,
+        2.0,
+        7.0,
+        2.0,
+        9.0
+      ],
+      "ewma": [
+        2.0,
+        3.1999999999999997,
+        2.84,
+        4.088,
+        3.4616,
+        5.123119999999999
+      ],
+      "sigma": 2.251269662272085
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 5.123119999999999,
+      "quality_band": [
+        0.7106314619467131,
+        9.535608538053285
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2018-02-20T00:00:00",
+      "materia": "SIMULACION DE SISTEMAS DE ENERGIAS RENOVABLES",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": "EL profesor siempre esta abierto a brindar ayuda si no le entiendes a los temas, pero tienes que acecharte a el, eso si, tienes que estudiar al ritmo de las lecciones o te perderás por que no se regresa en los temas"
+    },
+    {
+      "fecha_iso": "2015-06-17T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2015-03-08T00:00:00",
+      "materia": "DISEÑO DIGITAL L",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 1,
+      "comentario": "Pues es buen maestro para mi , es un poco especial pero si estudias al ritmo de las clases es facil pasar, si eres un huevon no lo carges."
+    },
+    {
+      "fecha_iso": "2012-08-17T00:00:00",
+      "materia": "DISEÑO DIGITAL",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Es el peor maestro de todos, si le caes mal te reprueba y te hace la vida imposible.. Por que dejan a personas como el dar clases? para nada recomendable."
+    },
+    {
+      "fecha_iso": "2011-11-28T00:00:00",
+      "materia": "MECANICA",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "si pones atencion, en su clase tomas nota y estudias lo correspondiente no tendras muchos problemas, no es de los maestros que espera que comprendas de verdad lo poco que explica (casi nunca), si copiaste bien lo que puso en el pizarron y lo estudias para el examen te ira bien"
+    },
+    {
+      "fecha_iso": "2011-04-24T00:00:00",
+      "materia": "ELECTRONICA",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Es el peor maestro de todos, porque existen maestros que siquiera se esfueran por enseñar minimo el objetivo de su materia, pero este gasnapiro infeliz ni para eso, si le caes mal te reprueba y te hace la vida imposible. Es un asco andando."
+    }
+  ],
+  "comments_recent": [
+    "EL profesor siempre esta abierto a brindar ayuda si no le entiendes a los temas, pero tienes que acecharte a el, eso si, tienes que estudiar al ritmo de las lecciones o te perderás por que no se regresa en los temas",
+    "[Comentario esperando revisión]",
+    "Pues es buen maestro para mi , es un poco especial pero si estudias al ritmo de las clases es facil pasar, si eres un huevon no lo carges.",
+    "Es el peor maestro de todos, si le caes mal te reprueba y te hace la vida imposible.. Por que dejan a personas como el dar clases? para nada recomendable.",
+    "si pones atencion, en su clase tomas nota y estudias lo correspondiente no tendras muchos problemas, no es de los maestros que espera que comprendas de verdad lo poco que explica (casi nunca), si copiaste bien lo que puso en el pizarron y lo estudias para el examen te ira bien",
+    "Es el peor maestro de todos, porque existen maestros que siquiera se esfueran por enseñar minimo el objetivo de su materia, pero este gasnapiro infeliz ni para eso, si le caes mal te reprueba y te hace la vida imposible. Es un asco andando."
+  ],
+  "n_reviews": 6
+}

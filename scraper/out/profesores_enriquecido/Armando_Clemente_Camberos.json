@@ -1,0 +1,309 @@
+{
+  "professor_id": "Armando_Clemente_Camberos",
+  "nombre": "Armando Clemente Camberos",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 2.961441035377457,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 4.90733004177744,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.071,
+    "wilson_interval": [
+      0.012721886112291648,
+      0.3146926955395781
+    ],
+    "n_recommendations": 14
+  },
+  "subject_normalization": {
+    "z_mean": -1.01,
+    "z_mean_decayed": -1.18,
+    "per_subject": [
+      {
+        "materia": "ELECTROMAGNETISMO",
+        "z_decayed": -0.9750706125298262,
+        "n": 31
+      },
+      {
+        "materia": "FISICA",
+        "z_decayed": -1.203745683172684,
+        "n": 41
+      },
+      {
+        "materia": "FÍSICA",
+        "z_decayed": -2.399008200638278,
+        "n": 27
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "ensena",
+          "matematicas",
+          "reglas",
+          "rompe reglas",
+          "rompe"
+        ],
+        "weight": 0.10719825401429871
+      },
+      {
+        "id": 1,
+        "words": [
+          "es",
+          "jamas",
+          "explica",
+          "reprobar",
+          "viejo"
+        ],
+        "weight": 0.1033892640454599
+      },
+      {
+        "id": 2,
+        "words": [
+          "siempre",
+          "calificar",
+          "examenes",
+          "ve",
+          "bien"
+        ],
+        "weight": 0.156405293127855
+      },
+      {
+        "id": 3,
+        "words": [
+          "nunca carguen",
+          "nunca",
+          "carguen",
+          "carguen si",
+          "si"
+        ],
+        "weight": 0.1246745544320668
+      },
+      {
+        "id": 4,
+        "words": [
+          "aunque",
+          "carguen",
+          "pesimo",
+          "pesimo maestro",
+          "maestro"
+        ],
+        "weight": 0.1272720459533569
+      }
+    ],
+    "sentiment": {
+      "overall": -0.14285714285714285,
+      "by_month": {
+        "2020-07": 0.0,
+        "2019-06": 0.0,
+        "2019-04": -1.0,
+        "2019-01": 1.0,
+        "2018-01": -0.25,
+        "2017-08": 0.0,
+        "2016-12": 0.0,
+        "2016-04": 0.0,
+        "2016-01": -0.3333333333333333
+      }
+    },
+    "n_comments": 14
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        5.0,
+        2.0,
+        6.0,
+        4.0,
+        3.25,
+        2.0,
+        2.0,
+        2.0,
+        2.0
+      ],
+      "ewma": [
+        5.0,
+        4.1,
+        4.67,
+        4.468999999999999,
+        4.103299999999999,
+        3.4723099999999993,
+        3.0306169999999995,
+        2.7214318999999993,
+        2.5050023299999995
+      ],
+      "sigma": 0.9595957831078553
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 2.5050023299999995,
+      "quality_band": [
+        0.6241945951086032,
+        4.385810064891396
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2020-07-21T00:00:00",
+      "materia": "ELECTROMAGNETISMO",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Viejo rabo verde"
+    },
+    {
+      "fecha_iso": "2019-06-06T00:00:00",
+      "materia": "ELECTROMAGNETISMO",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": "La neta no carguen con el, si la tiene que llevar el otro semestre llévenla por que igual casi 90% que van a reprobar, y si la llevan ahorita y ya le pasaron el primer examen sigan yendo hasta el global si se van a global."
+    },
+    {
+      "fecha_iso": "2019-04-07T00:00:00",
+      "materia": "ELECTROMAGNETISMO",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Pésimo maestro, no sabe absolutamente nada y no enseña nada, rompe las reglas de las matemáticas a su antojo, te falta el respeto sin ninguna razón y es una mierda de persona super prepotente, solo se la lleva zorreando a las mujeres y son las que pasa mínimo con 90 sin que sepan nada"
+    },
+    {
+      "fecha_iso": "2019-01-31T00:00:00",
+      "materia": "FÍSICA",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 25.0,
+      "recomienda": 0,
+      "comentario": "0 recomendado. No claro la forma de calificar, no maneja listas y pasa al que le cae bién. No duden en darlo de baja o ve buscando con quien hacer el RC."
+    },
+    {
+      "fecha_iso": "2018-01-16T00:00:00",
+      "materia": "FISICA",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 0,
+      "comentario": "No explica bien, los examenes los hace super confusos y a veces con temas no vistos, solo pasa a los que le caen bien y participan(en especial si son mujeres). Segun el siempre tiene la razon y nunca acepta cuando se equivoca, por favor nunca lo carguen, es por su bien si quieren aprender."
+    },
+    {
+      "fecha_iso": "2018-01-15T00:00:00",
+      "materia": "FISICA",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "No tiene criterio para calificar,te pone lo que el quiera y examenes muy confusos ."
+    },
+    {
+      "fecha_iso": "2018-01-13T00:00:00",
+      "materia": "FISICA",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": "Nunca carguen con el y si se los pone dirección de cambio no duden en ir a darla de baja."
+    },
+    {
+      "fecha_iso": "2018-01-13T00:00:00",
+      "materia": "FISICA",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Pésimo maestro, No carguen con el."
+    },
+    {
+      "fecha_iso": "2017-08-05T00:00:00",
+      "materia": "ELECTROMAGNETISMO",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 0,
+      "comentario": "Viejo picaro jajaaj"
+    },
+    {
+      "fecha_iso": "2016-12-22T00:00:00",
+      "materia": "ELECTROMAGNETISMO",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "no enseña mucho y rompe las reglas de las matematicas, los 2 primeros examenes son imposibles pero lo que cuenta con el son la exposision y el proyecto final, la exposision vale 4 unidades y el proyecto las ultimas 2, si repruebas los 2 primeros examenes te pasa con la exposision."
+    },
+    {
+      "fecha_iso": "2016-04-14T00:00:00",
+      "materia": "ELECTROMAGNETISMO",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 0,
+      "comentario": "Simplemente el peor profesor  que he tenido en mi vida. No enseña, te falta al respeto y no sabe; cuando le sale mal un problema, simplemente inventa los números. Rompe las reglas de todas las matemáticas. Jamás en mi vida cargaría con él."
+    },
+    {
+      "fecha_iso": "2016-01-21T00:00:00",
+      "materia": "ELECTROMAGNETISMO",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Muy buen maestro, asiste a clases y participa y no tendrás ningún problema. Aunque no sepas participa el tomará en cuenta todo."
+    },
+    {
+      "fecha_iso": "2016-01-18T00:00:00",
+      "materia": "ELECTROMAGNETISMO",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 0,
+      "comentario": "Aunque logré entender en gran parte lo que explicaba o los exámenes, ayuda caerle bien y llegar temprano siempre, pero se ve que disfruta de reprobar gente, nada recomendable."
+    },
+    {
+      "fecha_iso": "2016-01-06T00:00:00",
+      "materia": "ELECTROMAGNETISMO",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Pésimo, le encanta ver sufrir a los alumnos, no explica nada porque no saba nada, es muy conchas y rompe las reglas del álgebra a su conveniencia, al parecer adicto a reprobar alumnos, jamas carguen con el."
+    }
+  ],
+  "comments_recent": [
+    "Viejo rabo verde",
+    "La neta no carguen con el, si la tiene que llevar el otro semestre llévenla por que igual casi 90% que van a reprobar, y si la llevan ahorita y ya le pasaron el primer examen sigan yendo hasta el global si se van a global.",
+    "Pésimo maestro, no sabe absolutamente nada y no enseña nada, rompe las reglas de las matemáticas a su antojo, te falta el respeto sin ninguna razón y es una mierda de persona super prepotente, solo se la lleva zorreando a las mujeres y son las que pasa mínimo con 90 sin que sepan nada",
+    "0 recomendado. No claro la forma de calificar, no maneja listas y pasa al que le cae bién. No duden en darlo de baja o ve buscando con quien hacer el RC.",
+    "No explica bien, los examenes los hace super confusos y a veces con temas no vistos, solo pasa a los que le caen bien y participan(en especial si son mujeres). Segun el siempre tiene la razon y nunca acepta cuando se equivoca, por favor nunca lo carguen, es por su bien si quieren aprender.",
+    "No tiene criterio para calificar,te pone lo que el quiera y examenes muy confusos .",
+    "Nunca carguen con el y si se los pone dirección de cambio no duden en ir a darla de baja.",
+    "Pésimo maestro, No carguen con el.",
+    "Viejo picaro jajaaj",
+    "no enseña mucho y rompe las reglas de las matematicas, los 2 primeros examenes son imposibles pero lo que cuenta con el son la exposision y el proyecto final, la exposision vale 4 unidades y el proyecto las ultimas 2, si repruebas los 2 primeros examenes te pasa con la exposision."
+  ],
+  "n_reviews": 14
+}

@@ -1,0 +1,173 @@
+{
+  "professor_id": "La_Chacala",
+  "nombre": "La Chacala",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 8.915500035945383,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.451728066843904,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.8,
+    "wilson_interval": [
+      0.37552826411853885,
+      0.9637768390302125
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": 0.76,
+    "z_mean_decayed": 0.83,
+    "per_subject": [
+      {
+        "materia": "FISICA",
+        "z_decayed": 0.9493430413390013,
+        "n": 41
+      },
+      {
+        "materia": "---",
+        "z_decayed": 0.679839510127475,
+        "n": 521
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "comentario esperando",
+          "comentario",
+          "revision",
+          "esperando",
+          "esperando revision"
+        ],
+        "weight": 0.350983564183999
+      },
+      {
+        "id": 1,
+        "words": [
+          "examen",
+          "buena",
+          "te",
+          "si",
+          "es"
+        ],
+        "weight": 0.3090286717999549
+      }
+    ],
+    "sentiment": {
+      "overall": -0.4,
+      "by_month": {
+        "2017-08": -1.0,
+        "2016-08": -1.0,
+        "2015-10": 0.0,
+        "2015-03": 0.0,
+        "2014-06": 0.0
+      }
+    },
+    "n_comments": 5
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.3,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 0.85
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        6.0,
+        8.0,
+        8.0,
+        10.0,
+        10.0
+      ],
+      "ewma": [
+        6.0,
+        6.6,
+        7.02,
+        7.914,
+        8.5398
+      ],
+      "sigma": 0.7713641733967168
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 8.5398,
+      "quality_band": [
+        7.027926220142435,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2017-08-30T00:00:00",
+      "materia": "FISICA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Es una de las mejores maestras del Tec, es una muy buena persona. Al principio de las clases es muy reservada y se mantiene al margen con los alumnos, si le echas ganas puede que después se lleve bien contigo. El último examen es el más dificil y te ayuda si ve que le echaste ganas todo el semestre."
+    },
+    {
+      "fecha_iso": "2016-08-09T00:00:00",
+      "materia": "FISICA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "super buena profesora, me atrevo a decir que una de las mejores maestras de todo el tec, explica super bien, da asesorías ademas si en el examen tienes dudas te las resuelve, recomendada, si no tienes bases no te preocupes ella es muy buena explicando, el unico examen dificil es el final, y ayuda"
+    },
+    {
+      "fecha_iso": "2015-10-21T00:00:00",
+      "materia": "---",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2015-03-08T00:00:00",
+      "materia": "---",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2014-06-24T00:00:00",
+      "materia": "---",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    }
+  ],
+  "comments_recent": [
+    "Es una de las mejores maestras del Tec, es una muy buena persona. Al principio de las clases es muy reservada y se mantiene al margen con los alumnos, si le echas ganas puede que después se lleve bien contigo. El último examen es el más dificil y te ayuda si ve que le echaste ganas todo el semestre.",
+    "super buena profesora, me atrevo a decir que una de las mejores maestras de todo el tec, explica super bien, da asesorías ademas si en el examen tienes dudas te las resuelve, recomendada, si no tienes bases no te preocupes ella es muy buena explicando, el unico examen dificil es el final, y ayuda",
+    "[Comentario esperando revisión]",
+    "[Comentario esperando revisión]",
+    "[Comentario esperando revisión]"
+  ],
+  "n_reviews": 5
+}

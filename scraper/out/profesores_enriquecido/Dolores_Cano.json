@@ -1,0 +1,372 @@
+{
+  "professor_id": "Dolores_Cano",
+  "nombre": "Dolores Cano",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 5.521684606797265,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 5.813425750094948,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.444,
+    "wilson_interval": [
+      0.24559231101389123,
+      0.6628393057174836
+    ],
+    "n_recommendations": 18
+  },
+  "subject_normalization": {
+    "z_mean": -0.07,
+    "z_mean_decayed": 0.17,
+    "per_subject": [
+      {
+        "materia": "QUIMICA",
+        "z_decayed": 1.3890491705440697,
+        "n": 83
+      },
+      {
+        "materia": "BIOQUIMICA",
+        "z_decayed": 0.8999999999999999,
+        "n": 10
+      },
+      {
+        "materia": "QUÍMICA DE LOS ALIMENTOS",
+        "z_decayed": 0.8006407690254352,
+        "n": 3
+      },
+      {
+        "materia": "QUÍMICA",
+        "z_decayed": 0.6082485710119174,
+        "n": 44
+      },
+      {
+        "materia": "QUIMICA DE ALIMENTOS",
+        "z_decayed": 0.11398822835817579,
+        "n": 3
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "comentario",
+          "comentario esperando",
+          "esperando",
+          "esperando revision",
+          "revision"
+        ],
+        "weight": 0.19114353117041732
+      },
+      {
+        "id": 1,
+        "words": [
+          "profe",
+          "buena",
+          "es buena",
+          "maestra",
+          "es"
+        ],
+        "weight": 0.08270424592869997
+      },
+      {
+        "id": 2,
+        "words": [
+          "dice",
+          "dice groserias",
+          "solo",
+          "groserias",
+          "clases"
+        ],
+        "weight": 0.11029521361610486
+      },
+      {
+        "id": 3,
+        "words": [
+          "maestra",
+          "revision",
+          "buena",
+          "es buena",
+          "profe"
+        ],
+        "weight": 0.07827439607990958
+      },
+      {
+        "id": 4,
+        "words": [
+          "solo",
+          "es buena",
+          "maestra",
+          "buena maestra",
+          "buena"
+        ],
+        "weight": 0.12018236469715253
+      }
+    ],
+    "sentiment": {
+      "overall": 0.0,
+      "by_month": {
+        "2021-06": 0.0,
+        "2020-09": 0.0,
+        "2020-06": 0.0,
+        "2020-03": 0.3333333333333333,
+        "2019-12": 0.0,
+        "2017-08": 0.0,
+        "2016-01": 0.0,
+        "2015-01": 0.0,
+        "2014-06": -1.0,
+        "2012-08": 0.0,
+        "2011-05": 0.0,
+        "2011-04": 0.0,
+        "2011-03": 0.0
+      }
+    },
+    "n_comments": 17
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.154,
+    "bursts": [
+      {
+        "from": "2020-03-15T00:00:00",
+        "to": "2020-03-15T00:00:00",
+        "count": 3
+      }
+    ],
+    "low_variance_flag": 0,
+    "trust_score": 0.62
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        8.0,
+        2.0,
+        2.0,
+        2.0,
+        7.0,
+        8.0,
+        2.0,
+        8.0,
+        2.5,
+        10.0,
+        2.0,
+        2.0,
+        3.0
+      ],
+      "ewma": [
+        8.0,
+        6.199999999999999,
+        4.939999999999999,
+        4.057999999999999,
+        4.940599999999999,
+        5.858419999999999,
+        4.700893999999999,
+        5.690625799999999,
+        4.733438059999999,
+        6.3134066419999995,
+        5.019384649399999,
+        4.113569254579999,
+        3.779498478205999
+      ],
+      "sigma": 2.5378008179747504
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 3.779498478205999,
+      "quality_band": [
+        0.0,
+        8.75358808143651
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2021-06-01T00:00:00",
+      "materia": "QUIMICA DE ALIMENTOS",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 0,
+      "comentario": "Nada de clases, solo se conecta algunas veces y habla cosas nada que ver, suelta groserías y habla mal de todos"
+    },
+    {
+      "fecha_iso": "2020-09-28T00:00:00",
+      "materia": "QUIMICA DE ALIMENTOS",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 0,
+      "comentario": "Mala maestra seria decir poco, solo se queja durante las clases de todos y nos dice groserias, no recomiendo llevar clases con ella, pesima."
+    },
+    {
+      "fecha_iso": "2020-06-11T00:00:00",
+      "materia": "QUIMICA DE ALIMENTOS",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 0,
+      "comentario": "otra vez hace de las suyas nos insulta nos dice groserías y la reportamos y no pasa nada, nunca tomaría una clase de ella."
+    },
+    {
+      "fecha_iso": "2020-03-17T00:00:00",
+      "materia": "QUIMICA DE LOS ALIMENTOS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": "Es muy buena profe, me dio química de los alimentos todo muy claro, 100% recomendable"
+    },
+    {
+      "fecha_iso": "2020-03-15T00:00:00",
+      "materia": "QUIMICA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": "Profe súper preparada"
+    },
+    {
+      "fecha_iso": "2020-03-15T00:00:00",
+      "materia": "BIOQUIMICA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": "Muy buena maestra \nHay alumnos sin educación y sin respeto a los profesores , no solo en sus materias, en todas."
+    },
+    {
+      "fecha_iso": "2020-03-15T00:00:00",
+      "materia": "QUÍMICA DE LOS ALIMENTOS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2019-12-11T00:00:00",
+      "materia": "---",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2019-12-05T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2017-08-08T00:00:00",
+      "materia": "ESTDISTICA INFERENCIAL I",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "es bastante estricta y algo sangrona"
+    },
+    {
+      "fecha_iso": "2016-01-27T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2016-01-14T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2015-01-15T00:00:00",
+      "materia": "---",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2014-06-17T00:00:00",
+      "materia": "QUÍMICA ORGÁNICA",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 1,
+      "comentario": "Tiene una forma muy rara de explicar se confunde mucho y es muy enojona no sabes cuando anda de malas y grita mucho me siento en la primaria con la maestra amargada xD ayuda que la materia no estaba dificil, y es fácil pasar con ella. Los examenes aveces confusos.."
+    },
+    {
+      "fecha_iso": "2012-08-16T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2011-05-06T00:00:00",
+      "materia": "ANALISIS SENSORIAL",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": "denle un buchanan"
+    },
+    {
+      "fecha_iso": "2011-04-02T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2011-03-15T00:00:00",
+      "materia": "QUÍMICA",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Es buena maestra y explica muy bien."
+    }
+  ],
+  "comments_recent": [
+    "Nada de clases, solo se conecta algunas veces y habla cosas nada que ver, suelta groserías y habla mal de todos",
+    "Mala maestra seria decir poco, solo se queja durante las clases de todos y nos dice groserias, no recomiendo llevar clases con ella, pesima.",
+    "otra vez hace de las suyas nos insulta nos dice groserías y la reportamos y no pasa nada, nunca tomaría una clase de ella.",
+    "Es muy buena profe, me dio química de los alimentos todo muy claro, 100% recomendable",
+    "Profe súper preparada",
+    "Muy buena maestra \nHay alumnos sin educación y sin respeto a los profesores , no solo en sus materias, en todas.",
+    "[Comentario esperando revisión]",
+    "[Comentario esperando revisión]",
+    "es bastante estricta y algo sangrona"
+  ],
+  "n_reviews": 18
+}

@@ -1,0 +1,219 @@
+{
+  "professor_id": "Efrain_Solares",
+  "nombre": "Efrain Solares",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 7.740057045323173,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.320884500147697,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.875,
+    "wilson_interval": [
+      0.5291051942301385,
+      0.9775830911367039
+    ],
+    "n_recommendations": 8
+  },
+  "subject_normalization": {
+    "z_mean": 0.14,
+    "z_mean_decayed": 0.08,
+    "per_subject": [
+      {
+        "materia": "PROGRAMACION BASICA",
+        "z_decayed": 0.7048350192872455,
+        "n": 9
+      },
+      {
+        "materia": "PROGRAMACIÓN BÁSICA",
+        "z_decayed": 0.704021330899161,
+        "n": 14
+      },
+      {
+        "materia": "MATES DISCRETAS",
+        "z_decayed": 0.5773502691896252,
+        "n": 3
+      },
+      {
+        "materia": "MATEMATICAS DISCRETAS",
+        "z_decayed": 0.09250099696056213,
+        "n": 19
+      },
+      {
+        "materia": "MATEMÁTICAS DISCRETAS",
+        "z_decayed": -1.283985012186956,
+        "n": 28
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "buen maestro",
+          "buen",
+          "es",
+          "maestro es",
+          "maestro"
+        ],
+        "weight": 0.3078120254915051
+      },
+      {
+        "id": 1,
+        "words": [
+          "clases",
+          "es",
+          "rapido",
+          "final",
+          "si"
+        ],
+        "weight": 0.3312443158396093
+      }
+    ],
+    "sentiment": {
+      "overall": 0.6,
+      "by_month": {
+        "2021-12": 1.0,
+        "2021-09": 0.0,
+        "2019-08": 1.0,
+        "2019-02": 1.0,
+        "2017-06": 0.0
+      }
+    },
+    "n_comments": 5
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        10.0,
+        7.0,
+        4.0,
+        10.0,
+        7.0,
+        10.0,
+        7.0
+      ],
+      "ewma": [
+        10.0,
+        9.1,
+        7.569999999999999,
+        8.299,
+        7.9093,
+        8.53651,
+        8.075557
+      ],
+      "sigma": 1.8838466063183061
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 8.075557,
+      "quality_band": [
+        4.383217651616119,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2022-02-25T00:00:00",
+      "materia": "MATEMATICAS DISCRETAS",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2021-12-23T00:00:00",
+      "materia": "ADMINISTRACION DE BASE DE DATOS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Al principio parecía que no dominaba mucho la materia, parecían clases de fundamentos. No enseña nada practico, esa parte es de auto estudio y el proyecto final será sobre eso. En general es buen maestro, pero no lo recomiendo porque te vas sin saber casi nada practico."
+    },
+    {
+      "fecha_iso": "2021-09-30T00:00:00",
+      "materia": "MATEMATICAS DISCRETAS",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2021-09-03T00:00:00",
+      "materia": "MATEMATICAS DISCRETAS",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 1,
+      "comentario": "No está mal para las materias de relleno, es algo enredoso pero hace paro al final si asistes"
+    },
+    {
+      "fecha_iso": "2019-08-13T00:00:00",
+      "materia": "MATES DISCRETAS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Por problemas del tec nos empezo a dar clases despues de 2 semanas, asi que vimos todo muy rapido y para ir asi de rapido explicaba muy claro, ayuda si tienes problemas y vuelve a explicar las veces que sean necesarias"
+    },
+    {
+      "fecha_iso": "2019-02-23T00:00:00",
+      "materia": "MATEMÁTICAS DISCRETAS",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 7.5,
+      "recomienda": 0,
+      "comentario": "No tuve una buena experiencia con este maestro. No es bueno explicando, y sus examenes son muy dificiles para lo que explica. Además deja proyectos complicados para ese nivel"
+    },
+    {
+      "fecha_iso": "2017-06-20T00:00:00",
+      "materia": "PROGRAMACION BASICA",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": "Buen maestro, y es accesible cuando le preguntas, pero se adelanta en los temas muy rápido"
+    },
+    {
+      "fecha_iso": "2017-03-18T00:00:00",
+      "materia": "PROGRAMACIÓN BÁSICA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": ""
+    }
+  ],
+  "comments_recent": [
+    "Al principio parecía que no dominaba mucho la materia, parecían clases de fundamentos. No enseña nada practico, esa parte es de auto estudio y el proyecto final será sobre eso. En general es buen maestro, pero no lo recomiendo porque te vas sin saber casi nada practico.",
+    "No está mal para las materias de relleno, es algo enredoso pero hace paro al final si asistes",
+    "Por problemas del tec nos empezo a dar clases despues de 2 semanas, asi que vimos todo muy rapido y para ir asi de rapido explicaba muy claro, ayuda si tienes problemas y vuelve a explicar las veces que sean necesarias",
+    "No tuve una buena experiencia con este maestro. No es bueno explicando, y sus examenes son muy dificiles para lo que explica. Además deja proyectos complicados para ese nivel",
+    "Buen maestro, y es accesible cuando le preguntas, pero se adelanta en los temas muy rápido"
+  ],
+  "n_reviews": 8
+}

@@ -1,0 +1,70 @@
+{
+  "professor_id": "Norma_Leticia_Garcia_Lizarraga",
+  "nombre": "Norma Leticia Garcia Lizarraga",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 2.9999999999999996,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 6.615992818423506,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.0,
+    "wilson_interval": [
+      0,
+      0.7934567085261071
+    ],
+    "n_recommendations": 1
+  },
+  "subject_normalization": {
+    "z_mean": null,
+    "z_mean_decayed": null,
+    "per_subject": []
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [],
+    "sentiment": {
+      "overall": null,
+      "by_month": {}
+    },
+    "n_comments": 1
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": null,
+    "difficulty_trend": null,
+    "forecast": null,
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2022-08-09T00:00:00",
+      "materia": "TODO",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 0,
+      "comentario": "Es Orrible yo en todos los grados saco becas y me ba perfecto y con ella me fue de lo peor"
+    }
+  ],
+  "comments_recent": [
+    "Es Orrible yo en todos los grados saco becas y me ba perfecto y con ella me fue de lo peor"
+  ],
+  "n_reviews": 1
+}

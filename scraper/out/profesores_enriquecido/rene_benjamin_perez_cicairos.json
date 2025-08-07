@@ -1,0 +1,319 @@
+{
+  "professor_id": "rene_benjamin_perez_cicairos",
+  "nombre": "rene benjamin perez cicairos",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 6.49625788759661,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 6.859822652289502,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.538,
+    "wilson_interval": [
+      0.29143432431832045,
+      0.7679424569851186
+    ],
+    "n_recommendations": 13
+  },
+  "subject_normalization": {
+    "z_mean": -0.13,
+    "z_mean_decayed": -0.08,
+    "per_subject": [
+      {
+        "materia": "CALCULO INTEGRAL",
+        "z_decayed": 0.641499686180715,
+        "n": 84
+      },
+      {
+        "materia": "CALCULO VECTORIAL",
+        "z_decayed": 0.6166598013093814,
+        "n": 57
+      },
+      {
+        "materia": "PROBABILIDAD Y ESTADÍSTICA",
+        "z_decayed": 0.2985604470714744,
+        "n": 23
+      },
+      {
+        "materia": "ALGEBRA LINEAL",
+        "z_decayed": 0.27881743533395525,
+        "n": 35
+      },
+      {
+        "materia": "PROBABILIDAD Y ESTADISTICA",
+        "z_decayed": -0.22827893581674324,
+        "n": 32
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "trae",
+          "fuera",
+          "es barco",
+          "barco",
+          "es"
+        ],
+        "weight": 0.09909761800199937
+      },
+      {
+        "id": 1,
+        "words": [
+          "ensenar",
+          "maestro",
+          "pone",
+          "interes",
+          "pone interes"
+        ],
+        "weight": 0.11803826548017018
+      },
+      {
+        "id": 2,
+        "words": [
+          "faciles",
+          "examenes",
+          "examenes faciles",
+          "maestro",
+          "buen"
+        ],
+        "weight": 0.07932163278362168
+      },
+      {
+        "id": 3,
+        "words": [
+          "50",
+          "si",
+          "pasa",
+          "sacas",
+          "te pasa"
+        ],
+        "weight": 0.14878082429387474
+      },
+      {
+        "id": 4,
+        "words": [
+          "sabe ensenar",
+          "quieres",
+          "facil",
+          "bien",
+          "sabe"
+        ],
+        "weight": 0.1638084042958778
+      }
+    ],
+    "sentiment": {
+      "overall": 0.07692307692307693,
+      "by_month": {
+        "2023-02": 0.0,
+        "2021-08": 0.0,
+        "2021-06": 0.0,
+        "2019-11": 0.0,
+        "2017-10": 0.0,
+        "2016-08": 0.0,
+        "2016-01": 1.0,
+        "2015-03": 0.0,
+        "2014-12": 0.0,
+        "2013-06": 0.0,
+        "2011-10": 0.0,
+        "2011-06": 0.0
+      }
+    },
+    "n_comments": 13
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        2.0,
+        6.0,
+        9.0,
+        5.0,
+        10.0,
+        9.0,
+        9.0,
+        5.0,
+        3.0,
+        7.0,
+        8.0,
+        6.0
+      ],
+      "ewma": [
+        2.0,
+        3.1999999999999997,
+        4.9399999999999995,
+        4.957999999999999,
+        6.470599999999999,
+        7.229419999999999,
+        7.760593999999999,
+        6.932415799999999,
+        5.752691059999998,
+        6.126883741999999,
+        6.688818619399999,
+        6.482173033579999
+      ],
+      "sigma": 2.053020318969177
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 6.482173033579999,
+      "quality_band": [
+        2.4582532084004125,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2023-02-24T00:00:00",
+      "materia": "CALCULO DIFERENCIAL",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": "Es muy camarada y barco, aunque a la hora de calificar se hace bolas y luego explica muy rapido como que trae prisa el amigo, de ahi en fuera todo bien."
+    },
+    {
+      "fecha_iso": "2021-08-22T00:00:00",
+      "materia": "PROBABILIDAD Y ESTADÍSTICA",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": "(En presencial) Es un barco, pero siendo realista, a nadie le interesa la materia de probabilidad y estadística, así que para una materia así es muy buen profe. Todos pasan y es muy camarada, las pláticas fuera del aula se ponen buenas. Si trae hambre lo más seguro es que no de la clase."
+    },
+    {
+      "fecha_iso": "2021-06-18T00:00:00",
+      "materia": "PROBABILIDAD Y ESTADISTICA",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": "Es barco, si te tocan varios maestros pesados para cargar y te sale el escogelo porque aunque sea barco  te pone hacer trabajos y da pocas clases, a pesar de que sean pocas le entiendes, pero es barco"
+    },
+    {
+      "fecha_iso": "2019-11-25T00:00:00",
+      "materia": "PROBABILIDAD Y ESTADISTICAS",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": 1.0,
+      "recomienda": 0,
+      "comentario": "No sabe enseñar bien, no da la clase, falta demaciado y no da calificacion ni mucho menos hace RC ni Global"
+    },
+    {
+      "fecha_iso": "2017-10-25T00:00:00",
+      "materia": "PROBABILIDAD Y ESTADÍSTICA",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 0,
+      "comentario": "No sabe enseñar bien, sabe mucho de ciencias y califica bien, es fácil pasar pero si quieres aprender no cargues con el."
+    },
+    {
+      "fecha_iso": "2016-08-10T00:00:00",
+      "materia": "CALCULO INTEGRAL",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "no enseña bien, super facil, no te hace batallar, nadie reprueba, no lo recomiendo, al menos que no quieres sufrir entonces cárgalo, facilisimo"
+    },
+    {
+      "fecha_iso": "2016-01-14T00:00:00",
+      "materia": "ALGEBRA LINEAL",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": "buen profesor, explica muy claro, y los examenes son faciles, recomendado al 100%."
+    },
+    {
+      "fecha_iso": "2015-03-08T00:00:00",
+      "materia": "CALCULO INTEGRAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 1,
+      "comentario": "buen maestro."
+    },
+    {
+      "fecha_iso": "2014-12-28T00:00:00",
+      "materia": "FISICA GENERAL",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 0,
+      "comentario": "Sus clases son confusas y los temas muchos no los entienden, en el examen te la pone facil, pero nunca los calificó, faltó varias veces, al final no aprendias mucho y ni tampoco te la ponia facil con la calificacion, es un 70 seguro pero si quieres aprender carga con otro"
+    },
+    {
+      "fecha_iso": "2013-06-18T00:00:00",
+      "materia": "CALCULO VECTORIAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "esta bien este profe, la llevas bien agusto con el los examenes son faciles y si sacas mas de 50 te pasa, lo recomiendo"
+    },
+    {
+      "fecha_iso": "2013-06-18T00:00:00",
+      "materia": "CALCULO DIFERENCIAL",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Es camarada, quizá a lo mejor no aprendes mucho pero si enseña lo necesario, si tienes todas las tareas y tienes y sacas un 50 en el examen de te pasa como con 75"
+    },
+    {
+      "fecha_iso": "2011-10-30T00:00:00",
+      "materia": "ÁLGEBRA LINEAL",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "La verdad si sube muchos puntos, sacando arriba de 50 en los parciales pasas, pero no pone interes en la clase, a veces llegar crudo. Yo no lo recomiendo."
+    },
+    {
+      "fecha_iso": "2011-06-06T00:00:00",
+      "materia": "CALCULO DIFERENCIAL",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "este maestro basila mucho con el grupo y pone poco interes en enseñar yo no lo recomendaria"
+    }
+  ],
+  "comments_recent": [
+    "Es muy camarada y barco, aunque a la hora de calificar se hace bolas y luego explica muy rapido como que trae prisa el amigo, de ahi en fuera todo bien.",
+    "(En presencial) Es un barco, pero siendo realista, a nadie le interesa la materia de probabilidad y estadística, así que para una materia así es muy buen profe. Todos pasan y es muy camarada, las pláticas fuera del aula se ponen buenas. Si trae hambre lo más seguro es que no de la clase.",
+    "Es barco, si te tocan varios maestros pesados para cargar y te sale el escogelo porque aunque sea barco  te pone hacer trabajos y da pocas clases, a pesar de que sean pocas le entiendes, pero es barco",
+    "No sabe enseñar bien, no da la clase, falta demaciado y no da calificacion ni mucho menos hace RC ni Global",
+    "No sabe enseñar bien, sabe mucho de ciencias y califica bien, es fácil pasar pero si quieres aprender no cargues con el.",
+    "no enseña bien, super facil, no te hace batallar, nadie reprueba, no lo recomiendo, al menos que no quieres sufrir entonces cárgalo, facilisimo",
+    "buen profesor, explica muy claro, y los examenes son faciles, recomendado al 100%.",
+    "buen maestro.",
+    "Sus clases son confusas y los temas muchos no los entienden, en el examen te la pone facil, pero nunca los calificó, faltó varias veces, al final no aprendias mucho y ni tampoco te la ponia facil con la calificacion, es un 70 seguro pero si quieres aprender carga con otro",
+    "esta bien este profe, la llevas bien agusto con el los examenes son faciles y si sacas mas de 50 te pasa, lo recomiendo"
+  ],
+  "n_reviews": 13
+}

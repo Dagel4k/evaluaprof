@@ -1,0 +1,114 @@
+{
+  "nombre": "Joel Josue Ontiveros Mireles",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "ciudad": "Ciudad: culiacan, sinaloa",
+  "departamento": "Departamento/Facultad: Electrica",
+  "calidad_general": 7.4,
+  "porcentaje_recomienda": 100,
+  "nivel_dificultad": 3.2,
+  "etiquetas": [
+    "CALIFICA DURO (1)",
+    "MUCHAS TAREAS (1)",
+    "DEJA TRABAJOS LARGOS (1)",
+    "DA BUENA RETROALIMENTACIÓN (2)",
+    "ASPECTOS DE CALIFICACIÓN CLAROS (1)",
+    "TOMARÍA SU CLASE OTRA VEZ (2)",
+    "MUY CÓMICO (1)",
+    "LAS CLASES SON LARGAS (2)",
+    "BRINDA APOYO (1)",
+    "LOS EXÁMENES SON DIFÍCILES (1)"
+  ],
+  "numero_calificaciones": 5,
+  "calificaciones": [
+    {
+      "fecha": "17/Jun/2025",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 7.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Circuitos Analogicos",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "8.5",
+      "interes_clase": "",
+      "comentario": "Ta bien =)",
+      "etiquetas_comentario": [
+        "Barco",
+        "Respetado por los estudiantes",
+        "Tomaría su clase otra vez"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "18/May/2025",
+      "tipo_calificacion": "REGULAR",
+      "puntaje_calidad_general": 6.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Mecatrónica",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "7",
+      "interes_clase": "",
+      "comentario": "Ta bien",
+      "etiquetas_comentario": [
+        "Da buena retroalimentación",
+        "Las clases son largas",
+        "Los exámenes son difíciles"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "17/Jun/2022",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 7.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Calculo Integral",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "7.5",
+      "interes_clase": "",
+      "comentario": "Cae muy bien algunos de sus examenes son dificiles pero si haces la tarea y te esperas hasta el ultimo minuto del examen puedes pasar ya que a veces te deja sacar la libreta",
+      "etiquetas_comentario": [
+        "Muy cómico",
+        "Las clases son largas",
+        "Brinda apoyo"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "22/Ago/2021",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Instalaciones Eléctricas",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "Muy buen profesor. A pesar de haber empezado tarde el semestre con él, vimos todos los temas a tiempo. Califica con exámenes y proyectos, los cuales no son cosa del otro mundo, pero si es muy meticuloso a la hora de revisar (si copias te vas a RC).",
+      "etiquetas_comentario": [
+        "Da buena retroalimentación",
+        "Aspectos de calificación claros",
+        "Tomaría su clase otra vez"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "11/Jun/2021",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 7.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Instalaciones Electricas",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "9.5",
+      "interes_clase": "",
+      "comentario": "Muy buen maestro. Explica super claro y entendible. Prefiere dejar proyectos a exámenes. Si te descubre copiando, desde ese momento estas reprobado. Se toma el tiempo de revisar cada trabajo que le entregues, y al final ayuda un poco con calificación a los que van a reprobar pero le echaron ganas.",
+      "etiquetas_comentario": [
+        "Califica Duro",
+        "Muchas tareas",
+        "Deja trabajos largos"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    }
+  ]
+}

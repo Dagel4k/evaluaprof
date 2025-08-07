@@ -1,0 +1,119 @@
+{
+  "professor_id": "Rodrigo_Rojas",
+  "nombre": "Rodrigo Rojas",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 9.79835163761272,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.555422928761326,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 1.0,
+    "wilson_interval": [
+      0.5100999795960008,
+      1
+    ],
+    "n_recommendations": 4
+  },
+  "subject_normalization": {
+    "z_mean": null,
+    "z_mean_decayed": null,
+    "per_subject": []
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [],
+    "sentiment": {
+      "overall": null,
+      "by_month": {}
+    },
+    "n_comments": 2
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        10.0,
+        8.0,
+        8.0,
+        10.0
+      ],
+      "ewma": [
+        10.0,
+        9.4,
+        8.98,
+        9.286
+      ],
+      "sigma": 0.9550404877979435
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 9.286,
+      "quality_band": [
+        7.41412064391603,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2022-11-06T00:00:00",
+      "materia": "INGENIERIA DE ALIMENTOS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2015-01-13T00:00:00",
+      "materia": "FENÓMENOS DE TRANSPORTE I Y II",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": "Es buen profesor"
+    },
+    {
+      "fecha_iso": "2014-01-22T00:00:00",
+      "materia": "INGENIERÍA DE ALIMENTOS",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2011-05-06T00:00:00",
+      "materia": "INGENIERIA QUIMICA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 1,
+      "comentario": "buen maestro"
+    }
+  ],
+  "comments_recent": [
+    "Es buen profesor",
+    "buen maestro"
+  ],
+  "n_reviews": 4
+}

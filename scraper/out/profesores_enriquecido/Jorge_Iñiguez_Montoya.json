@@ -1,0 +1,258 @@
+{
+  "professor_id": "Jorge_Iñiguez_Montoya",
+  "nombre": "Jorge Iñiguez Montoya",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 9.369191074519499,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.988796050132928,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.9,
+    "wilson_interval": [
+      0.5958436145024278,
+      0.9821242504842789
+    ],
+    "n_recommendations": 10
+  },
+  "subject_normalization": {
+    "z_mean": 0.5,
+    "z_mean_decayed": 0.52,
+    "per_subject": [
+      {
+        "materia": "MATE",
+        "z_decayed": 1.0205838133501495,
+        "n": 7
+      },
+      {
+        "materia": "CÁLCULO INTEGRAL",
+        "z_decayed": 0.7884298457197201,
+        "n": 24
+      },
+      {
+        "materia": "CALCULO DIFERENCIAL",
+        "z_decayed": 0.7336632250007566,
+        "n": 110
+      },
+      {
+        "materia": "ECUACIONES DIFERENCIALES",
+        "z_decayed": 0.6287423100205011,
+        "n": 56
+      },
+      {
+        "materia": "CÁLCULO DIFERENCIAL",
+        "z_decayed": 0.3502741644219189,
+        "n": 46
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "buen maestro",
+          "profesor",
+          "buen",
+          "es buen",
+          "es"
+        ],
+        "weight": 0.2416607951394101
+      },
+      {
+        "id": 1,
+        "words": [
+          "excelente",
+          "claro",
+          "examenes",
+          "explica",
+          "maestro"
+        ],
+        "weight": 0.2717254929479305
+      },
+      {
+        "id": 2,
+        "words": [
+          "buen",
+          "es buen",
+          "es",
+          "profesor",
+          "si"
+        ],
+        "weight": 0.23020872252923577
+      }
+    ],
+    "sentiment": {
+      "overall": 0.42857142857142855,
+      "by_month": {
+        "2022-05": 1.0,
+        "2020-12": 0.0,
+        "2020-08": 1.0,
+        "2020-01": 1.0,
+        "2017-11": 0.0,
+        "2017-10": 0.0,
+        "2017-06": 0.0
+      }
+    },
+    "n_comments": 7
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        10.0,
+        8.0,
+        5.0,
+        8.0,
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        9.0
+      ],
+      "ewma": [
+        10.0,
+        9.4,
+        8.08,
+        8.056,
+        8.639199999999999,
+        9.047439999999998,
+        9.333207999999999,
+        9.533245599999999,
+        9.673271919999998,
+        9.471290343999998
+      ],
+      "sigma": 1.2930510680949465
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 9.471290343999998,
+      "quality_band": [
+        6.936910250533903,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2023-01-14T00:00:00",
+      "materia": "CÁLCULO DIFERENCIAL",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2022-05-18T00:00:00",
+      "materia": "ECUACIONES DIFERENCIALES",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Excelente maestro! Deja tareas largas pero son en equipo, los exámenes son regulares pero no difíciles, explica bastante claro."
+    },
+    {
+      "fecha_iso": "2020-12-12T00:00:00",
+      "materia": "CÁLCULO VECTORIAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 23.0,
+      "recomienda": 1,
+      "comentario": "[Reseña desde clases en linea]\nDe lo mejor que hay en el tec. \n\nSi quieres aprender y sentir la seguridad de que si no entiendes a la primera puedes aprender todavía, este es el mejor profesor con el que podrías cargar."
+    },
+    {
+      "fecha_iso": "2020-08-10T00:00:00",
+      "materia": "CÁLCULO INTEGRAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Es muy buen maestro, excelente explicando y si tienes alguna duda te la explica. Cualquier cosa que le preguntes te la sabe explicar perfectamente, sin duda es un gran maestro y volvería a cursar con él. Tiene mucho avance de conocimiento, hay que ser respetuoso con él para que él también nos respet"
+    },
+    {
+      "fecha_iso": "2020-01-17T00:00:00",
+      "materia": "CALCULO DIFERENCIAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "muy buen maestro, explica bien, es claro, exámenes fáciles y muy dinámico"
+    },
+    {
+      "fecha_iso": "2019-06-10T00:00:00",
+      "materia": "ECUACIONES DIFERENCIALES",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2018-01-17T00:00:00",
+      "materia": "CÁLCULO DIFERENCIAL",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 7.5,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2017-11-30T00:00:00",
+      "materia": "---",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2017-10-29T00:00:00",
+      "materia": "CALCULO DIFERENCIAL",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 1,
+      "comentario": "es muy buen profesor."
+    },
+    {
+      "fecha_iso": "2017-06-23T00:00:00",
+      "materia": "MATE",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 7.5,
+      "recomienda": 1,
+      "comentario": "Es una verga profe se la mamo"
+    }
+  ],
+  "comments_recent": [
+    "Excelente maestro! Deja tareas largas pero son en equipo, los exámenes son regulares pero no difíciles, explica bastante claro.",
+    "[Reseña desde clases en linea]\nDe lo mejor que hay en el tec. \n\nSi quieres aprender y sentir la seguridad de que si no entiendes a la primera puedes aprender todavía, este es el mejor profesor con el que podrías cargar.",
+    "Es muy buen maestro, excelente explicando y si tienes alguna duda te la explica. Cualquier cosa que le preguntes te la sabe explicar perfectamente, sin duda es un gran maestro y volvería a cursar con él. Tiene mucho avance de conocimiento, hay que ser respetuoso con él para que él también nos respet",
+    "muy buen maestro, explica bien, es claro, exámenes fáciles y muy dinámico",
+    "[Comentario esperando revisión]",
+    "es muy buen profesor.",
+    "Es una verga profe se la mamo"
+  ],
+  "n_reviews": 10
+}

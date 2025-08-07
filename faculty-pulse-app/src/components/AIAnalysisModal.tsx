@@ -18,6 +18,8 @@ import {
 } from 'lucide-react';
 import { Professor } from '@/types/professor';
 import { AIAnalysisResult, aiAnalysisService } from '@/services/aiAnalysis';
+import { ApiKeyModal } from './ApiKeyModal';
+import { useApiKey } from '@/hooks/useApiKey';
 
 interface AIAnalysisModalProps {
   professor: Professor;
@@ -33,8 +35,17 @@ export const AIAnalysisModal: React.FC<AIAnalysisModalProps> = ({
   const [analysis, setAnalysis] = useState<AIAnalysisResult | null>(null);
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
+  const [showApiKeyModal, setShowApiKeyModal] = useState(false);
+  
+  const { isConfigured, refreshApiKey } = useApiKey();
 
   const handleAnalysis = async () => {
+    // Verificar si hay API key configurada
+    if (!isConfigured) {
+      setShowApiKeyModal(true);
+      return;
+    }
+
     setIsLoading(true);
     setError(null);
     
@@ -42,10 +53,23 @@ export const AIAnalysisModal: React.FC<AIAnalysisModalProps> = ({
       const result = await aiAnalysisService.analyzeProfessor(professor);
       setAnalysis(result);
     } catch (err) {
-      setError(err instanceof Error ? err.message : 'Error desconocido en el análisis');
+      if (err instanceof Error && err.message === 'NO_API_KEY') {
+        setShowApiKeyModal(true);
+      } else {
+        setError(err instanceof Error ? err.message : 'Error desconocido en el análisis');
+      }
     } finally {
       setIsLoading(false);
     }
+  };
+
+  const handleApiKeyConfigured = () => {
+    setShowApiKeyModal(false);
+    // Refrescar el estado del hook y luego reintentar el análisis
+    refreshApiKey();
+    setTimeout(() => {
+      handleAnalysis();
+    }, 100);
   };
 
   const getRatingColor = (rating: number) => {
@@ -83,7 +107,7 @@ export const AIAnalysisModal: React.FC<AIAnalysisModalProps> = ({
               <div className="text-right">
                 <div className="flex items-center gap-2">
                   <Star className="h-4 w-4 text-yellow-500 fill-current" />
-                  <span className="font-bold">{professor.promedio_general.toFixed(1)}/10</span>
+                  <span className="font-bold">{professor.calidad_general.toFixed(1)}/10</span>
                 </div>
                 <div className="flex items-center gap-2">
                   <TrendingUp className="h-4 w-4 text-blue-500" />
@@ -102,10 +126,13 @@ export const AIAnalysisModal: React.FC<AIAnalysisModalProps> = ({
                 size="lg"
               >
                 <Brain className="h-5 w-5" />
-                Iniciar Análisis de IA
+                {isConfigured ? 'Iniciar Análisis de IA' : 'Configurar IA y Analizar'}
               </Button>
               <p className="text-sm text-muted-foreground mt-2">
-                La IA analizará todos los datos del profesor para dar un veredicto completo
+                {isConfigured 
+                  ? 'La IA analizará todos los datos del profesor para dar un veredicto completo'
+                  : 'Necesitas configurar tu API key de OpenAI para usar el análisis de IA'
+                }
               </p>
             </div>
           )}
@@ -129,13 +156,22 @@ export const AIAnalysisModal: React.FC<AIAnalysisModalProps> = ({
                 <span className="font-semibold">Error en el análisis</span>
               </div>
               <p className="text-red-700">{error}</p>
-              <Button 
-                onClick={handleAnalysis}
-                variant="outline"
-                className="mt-3"
-              >
-                Intentar de nuevo
-              </Button>
+              <div className="flex gap-2 mt-3">
+                <Button 
+                  onClick={handleAnalysis}
+                  variant="outline"
+                >
+                  Intentar de nuevo
+                </Button>
+                {!isConfigured && (
+                  <Button 
+                    onClick={() => setShowApiKeyModal(true)}
+                    variant="default"
+                  >
+                    Configurar API Key
+                  </Button>
+                )}
+              </div>
             </Card>
           )}
 
@@ -247,6 +283,13 @@ export const AIAnalysisModal: React.FC<AIAnalysisModalProps> = ({
           )}
         </div>
       </DialogContent>
+
+      {/* Modal de configuración de API Key */}
+      <ApiKeyModal
+        isOpen={showApiKeyModal}
+        onClose={() => setShowApiKeyModal(false)}
+        onApiKeyConfigured={handleApiKeyConfigured}
+      />
     </Dialog>
   );
 }; 

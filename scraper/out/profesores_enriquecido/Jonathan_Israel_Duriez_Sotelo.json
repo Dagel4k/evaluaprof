@@ -1,0 +1,133 @@
+{
+  "professor_id": "Jonathan_Israel_Duriez_Sotelo",
+  "nombre": "Jonathan Israel Duriez Sotelo",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 9.322771463797732,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.626851500189898,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 1.0,
+    "wilson_interval": [
+      0.5100999795960008,
+      1
+    ],
+    "n_recommendations": 4
+  },
+  "subject_normalization": {
+    "z_mean": 0.8,
+    "z_mean_decayed": 0.77,
+    "per_subject": [
+      {
+        "materia": "INVESTIGACIÓN",
+        "z_decayed": 1.0,
+        "n": 5
+      },
+      {
+        "materia": "MERCADOTECNIA",
+        "z_decayed": 0.8980876101988876,
+        "n": 9
+      },
+      {
+        "materia": "TALLER DE ÉTICA",
+        "z_decayed": 0.3944881545113107,
+        "n": 22
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [],
+    "sentiment": {
+      "overall": null,
+      "by_month": {}
+    },
+    "n_comments": 2
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        8.0,
+        10.0,
+        9.5
+      ],
+      "ewma": [
+        8.0,
+        8.6,
+        8.87
+      ],
+      "sigma": 0.7011656960614471
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 8.87,
+      "quality_band": [
+        7.495715235719563,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2019-08-08T00:00:00",
+      "materia": "INVESTIGACIÓN",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2019-08-04T00:00:00",
+      "materia": "TALLER DE ÉTICA",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2018-01-15T00:00:00",
+      "materia": "MERCADOTECNIA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Es muy buen profesor, su clase es clara y muestra compromiso. Es muy atento y atiende todas las dudas."
+    },
+    {
+      "fecha_iso": "2017-12-18T00:00:00",
+      "materia": "MERCADOTECNIA",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Todas las clases se la pasa hablando y da la hora completa. Deja trabajos en equipos con lo que explica pero son cosas bien faciles. Su forma de dar la clase es bastante rara y practicamente con ir y entregar los trabajos ya tienes 100. Si quieres aprender busca otro maestro"
+    }
+  ],
+  "comments_recent": [
+    "Es muy buen profesor, su clase es clara y muestra compromiso. Es muy atento y atiende todas las dudas.",
+    "Todas las clases se la pasa hablando y da la hora completa. Deja trabajos en equipos con lo que explica pero son cosas bien faciles. Su forma de dar la clase es bastante rara y practicamente con ir y entregar los trabajos ya tienes 100. Si quieres aprender busca otro maestro"
+  ],
+  "n_reviews": 4
+}

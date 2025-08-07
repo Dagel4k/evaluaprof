@@ -1,0 +1,125 @@
+{
+  "nombre": "Gabriela Sánchez Angulo",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "ciudad": "Ciudad: culiacan, sinaloa",
+  "departamento": "Departamento/Facultad: Ing. Industrial",
+  "calidad_general": 8.2,
+  "porcentaje_recomienda": 71,
+  "nivel_dificultad": 2.3,
+  "etiquetas": [
+    "CALIFICA DURO (1)",
+    "RESPETADO POR LOS ESTUDIANTES (2)",
+    "CLASES EXCELENTES (1)",
+    "DA BUENA RETROALIMENTACIÓN (1)",
+    "TOMARÍA SU CLASE OTRA VEZ (1)"
+  ],
+  "numero_calificaciones": 7,
+  "calificaciones": [
+    {
+      "fecha": "25/Oct/2021",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 9.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Investigación de operaciones",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "8.5",
+      "interes_clase": "",
+      "comentario": "De verdad explica muy bien, su clase es de mis temas favoritos hasta ahora, tal vez por eso pongo más interés, pero en general explica paso a paso y varias veces mediante ejemplos, lo cual me gusta mucho.\nLo único que cambiaría, es que me gustaría que contestara más los mensajes de teams.",
+      "etiquetas_comentario": [
+        "Da buena retroalimentación",
+        "Respetado por los estudiantes",
+        "Tomaría su clase otra vez"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "13/Ene/2020",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 8.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Investigación de operaciones",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "N/A",
+      "interes_clase": "",
+      "comentario": "Tiende a faltar o llegar tarde. \nSu actitud es medio pesada.",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "10/Nov/2017",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Investigación de operaciones II",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "9.5",
+      "interes_clase": "",
+      "comentario": "Es buena maestra, cuando el grupo es bueno se le mira entusiasmada y siempre llega de buen humor pero cuando son bien platicadores y no hacen nada entonces no les ayuda mucho. Examenes bien sencillos pero largos. Cuenta mucho las tareas y casi siempre saca los ejercicios de ahí para el examen",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "08/Ago/2016",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Investigacion de Operaciones I",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "9.5",
+      "interes_clase": "",
+      "comentario": "Muy buena profesora, explica muy claro, se le da la materia y muestra entusiasmo al explicar, es buena onda, asiste regularmente, pero su forma de calificar es algo estricta, la recomiendo.",
+      "etiquetas_comentario": [
+        "Califica Duro",
+        "Respetado por los estudiantes",
+        "Clases excelentes"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "05/Ago/2014",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 7.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Investigación de operaciones I",
+      "asistencia": "",
+      "calificacion_recibida": "10",
+      "interes_clase": "10",
+      "comentario": "En lo que respecta a mi opinion es buena maestra enseña bien, admiro de ella que siempre trataba de estar alegre y ser amable con los alumnos",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "21/Jul/2014",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 3.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Investigacion de Operaciones II",
+      "asistencia": "",
+      "calificacion_recibida": "7.5",
+      "interes_clase": "7.5",
+      "comentario": "Es bien bipolar, aparte sus clases son muy aburridas de mucho escribir y no te explica casi nada. Nadie saco mas de 90",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "18/Jun/2014",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "inv. de operaciones I",
+      "asistencia": "",
+      "calificacion_recibida": "10",
+      "interes_clase": "10",
+      "comentario": "",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    }
+  ]
+}

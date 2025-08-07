@@ -1,0 +1,91 @@
+{
+  "professor_id": "Neil_Pardo_Ward",
+  "nombre": "Neil Pardo Ward",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 10.0,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.481326750221547,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 1.0,
+    "wilson_interval": [
+      0.3423719528896193,
+      1
+    ],
+    "n_recommendations": 2
+  },
+  "subject_normalization": {
+    "z_mean": 1.19,
+    "z_mean_decayed": 1.19,
+    "per_subject": [
+      {
+        "materia": "---",
+        "z_decayed": 1.4344005554680677,
+        "n": 521
+      },
+      {
+        "materia": "LENGUAJE ENSAMBLADOR",
+        "z_decayed": 0.944911182523068,
+        "n": 4
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [],
+    "sentiment": {
+      "overall": null,
+      "by_month": {}
+    },
+    "n_comments": 2
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": null,
+    "difficulty_trend": null,
+    "forecast": null,
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2019-08-27T00:00:00",
+      "materia": "---",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2019-08-06T00:00:00",
+      "materia": "LENGUAJE ENSAMBLADOR",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "El Ingeniero Pardo Ward, es uno de los mejores profesores de ensamblador, domina la materia al 100%.  Pura Personalidad!!"
+    }
+  ],
+  "comments_recent": [
+    "[Comentario esperando revisión]",
+    "El Ingeniero Pardo Ward, es uno de los mejores profesores de ensamblador, domina la materia al 100%.  Pura Personalidad!!"
+  ],
+  "n_reviews": 2
+}

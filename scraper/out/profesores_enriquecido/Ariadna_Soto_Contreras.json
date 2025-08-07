@@ -1,0 +1,305 @@
+{
+  "professor_id": "Ariadna_Soto_Contreras",
+  "nombre": "Ariadna Soto Contreras",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 5.696700309268682,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 6.294605260985154,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.385,
+    "wilson_interval": [
+      0.17709446581236818,
+      0.6447751902773147
+    ],
+    "n_recommendations": 13
+  },
+  "subject_normalization": {
+    "z_mean": -0.53,
+    "z_mean_decayed": -0.58,
+    "per_subject": [
+      {
+        "materia": "PLANEACION Y DISEÑO DE INSTALACIONES",
+        "z_decayed": 0.04064016829598875,
+        "n": 4
+      },
+      {
+        "materia": "ADMINISTRACIÓN DE OPERACIONES 1",
+        "z_decayed": -0.5962698569957268,
+        "n": 8
+      },
+      {
+        "materia": "MATEMATICAS",
+        "z_decayed": -0.9945443356522545,
+        "n": 17
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "dio",
+          "si",
+          "checar",
+          "examenes",
+          "calificacion"
+        ],
+        "weight": 0.0847537598604591
+      },
+      {
+        "id": 1,
+        "words": [
+          "es",
+          "buena",
+          "buena maestra",
+          "clase",
+          "maestra"
+        ],
+        "weight": 0.18994471257842616
+      },
+      {
+        "id": 2,
+        "words": [
+          "buena maestra",
+          "explica",
+          "bien",
+          "te",
+          "ayuda"
+        ],
+        "weight": 0.13343674487579255
+      },
+      {
+        "id": 3,
+        "words": [
+          "lleva bien",
+          "lleva",
+          "mujeres",
+          "bien mujeres",
+          "hombres"
+        ],
+        "weight": 0.17044500884212807
+      },
+      {
+        "id": 4,
+        "words": [
+          "bipolar",
+          "bipolar si",
+          "si caes",
+          "caes",
+          "si"
+        ],
+        "weight": 0.17484764119803473
+      }
+    ],
+    "sentiment": {
+      "overall": 0.0,
+      "by_month": {
+        "2023-01": 0.0,
+        "2021-10": 0.0,
+        "2019-04": 0.0,
+        "2018-11": 0.0,
+        "2018-02": 0.0,
+        "2017-07": 0.0,
+        "2017-06": 0.0,
+        "2015-12": 0.0,
+        "2015-08": 0.0,
+        "2014-01": 0.0
+      }
+    },
+    "n_comments": 11
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        7.0,
+        2.0,
+        2.0,
+        6.0,
+        10.0,
+        10.0,
+        2.0,
+        4.0,
+        2.0,
+        10.0,
+        5.0,
+        5.0
+      ],
+      "ewma": [
+        7.0,
+        5.499999999999999,
+        4.449999999999999,
+        4.914999999999999,
+        6.440499999999999,
+        7.508349999999999,
+        5.855844999999999,
+        5.299091499999999,
+        4.309364049999999,
+        6.016554834999999,
+        5.711588384499999,
+        5.498111869149999
+      ],
+      "sigma": 2.624973257289776
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 5.498111869149999,
+      "quality_band": [
+        0.35316428486203844,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2023-01-23T00:00:00",
+      "materia": "ADMINISTRACIÓN DE LAS OPERACIONES 1",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 0,
+      "comentario": "Bastante bipolar, sus exámenes no son difíciles pero a veces algo tardados, no explica mucho, sus clases son rápidas, el examen es el 100% de la calificación y solo hace 2 en todo el semestre."
+    },
+    {
+      "fecha_iso": "2021-10-27T00:00:00",
+      "materia": "ADMINISTRACIÓN DE OPERACIONES I",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 23.0,
+      "recomienda": 0,
+      "comentario": "Dice que está abierta a contestar dudas por calificación y volver a checar exámenes pero cuando lo hice ni se dió el tiempo de revisarlo completamente. Nada comprensible y muy muy grosera. Si tienen oportunidad de agarrar con otro profesor diferente háganlo."
+    },
+    {
+      "fecha_iso": "2021-06-17T00:00:00",
+      "materia": "INGENIERÍA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2020-07-09T00:00:00",
+      "materia": "ADMINIAT",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2019-04-12T00:00:00",
+      "materia": "MATEMATICAS",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": "La mujer es medio bipolar, si le caes bien te ayuda si no te hace la vida imposible,eso no esta bien."
+    },
+    {
+      "fecha_iso": "2018-11-29T00:00:00",
+      "materia": "ADMINISTRACIÓN DE OPERACIONES 1",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Vieja bipolar, si le caes mal eres RC. No tiene criterio. jamas volvería a cargar con ella."
+    },
+    {
+      "fecha_iso": "2018-02-18T00:00:00",
+      "materia": "ADMINISTRACIÓN DE OPERACIONES 1",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Muy buena maestra lo k ve en clase es lo k pone en el examen"
+    },
+    {
+      "fecha_iso": "2017-07-14T00:00:00",
+      "materia": "PLANEACION Y DISEÑO DE INSTALACIONES",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Muy buena maestra te explica bien y es conciente cuando le pides ayuda"
+    },
+    {
+      "fecha_iso": "2017-07-09T00:00:00",
+      "materia": "ADMINISTRACIÓN DE OPERACIONES 1",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": "La mejor maestra que he tenido, muy entregada en sus clases y amable con todos los alumnos, siempre dispuesta a ayudar y apoyar en clase."
+    },
+    {
+      "fecha_iso": "2017-06-04T00:00:00",
+      "materia": "ADMINISTRACIÓN DE OPERACIONES 1",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 0,
+      "comentario": "Medio bipolar a veces, con los grupos donde son puros hombres se la lleva bien, los examenes son super faciles y se agarra a checar el celular así que comos si nada puedes sacar el celular o apuntes. Eso si no la hagan enojar o le contesten por que ahí si puede reprobar a todos"
+    },
+    {
+      "fecha_iso": "2015-12-20T00:00:00",
+      "materia": "ING INDUSTRIAL",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 0.5,
+      "recomienda": 0,
+      "comentario": "Necesita ayuda que tome medicamentos o que la saquen"
+    },
+    {
+      "fecha_iso": "2015-08-17T00:00:00",
+      "materia": "ADMINISTRACION DE OPERACIONES 2",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 6.0,
+      "recomienda": 0,
+      "comentario": "Esta LOCA! , su clase la verdad esta muuuuy facil no adentra mucho en los temas le justificas las faltas facil , casi nunca falta pero es super ekis su clase perooooo es super bipolar con los hombres super bien pero con las mujeres NO , a mi me reprobo por contestarle le pedi mis examenes porque estoy segura que pase y jamas me dio la cara."
+    },
+    {
+      "fecha_iso": "2014-01-17T00:00:00",
+      "materia": "PLANEACION Y DISEÑO DE INSTALACIONES",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Sus estados de animo son muy cambiantes y cuando anda de mal humor ten cuidado, con los hombres se lleva bien pero con las mujeres no."
+    }
+  ],
+  "comments_recent": [
+    "Bastante bipolar, sus exámenes no son difíciles pero a veces algo tardados, no explica mucho, sus clases son rápidas, el examen es el 100% de la calificación y solo hace 2 en todo el semestre.",
+    "Dice que está abierta a contestar dudas por calificación y volver a checar exámenes pero cuando lo hice ni se dió el tiempo de revisarlo completamente. Nada comprensible y muy muy grosera. Si tienen oportunidad de agarrar con otro profesor diferente háganlo.",
+    "La mujer es medio bipolar, si le caes bien te ayuda si no te hace la vida imposible,eso no esta bien.",
+    "Vieja bipolar, si le caes mal eres RC. No tiene criterio. jamas volvería a cargar con ella.",
+    "Muy buena maestra lo k ve en clase es lo k pone en el examen",
+    "Muy buena maestra te explica bien y es conciente cuando le pides ayuda",
+    "La mejor maestra que he tenido, muy entregada en sus clases y amable con todos los alumnos, siempre dispuesta a ayudar y apoyar en clase.",
+    "Medio bipolar a veces, con los grupos donde son puros hombres se la lleva bien, los examenes son super faciles y se agarra a checar el celular así que comos si nada puedes sacar el celular o apuntes. Eso si no la hagan enojar o le contesten por que ahí si puede reprobar a todos"
+  ],
+  "n_reviews": 13
+}

@@ -1,0 +1,158 @@
+{
+  "nombre": "Reynol Diaz Coutiño",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "ciudad": "Ciudad: culiacan, sinaloa",
+  "departamento": "Departamento/Facultad: Ing. Industrial",
+  "calidad_general": 7.6,
+  "porcentaje_recomienda": 89,
+  "nivel_dificultad": 6.2,
+  "etiquetas": [
+    "CALIFICA DURO (3)",
+    "DEJA TRABAJOS LARGOS (1)",
+    "LOS EXÁMENES SON DIFÍCILES (1)",
+    "INSPIRACIONAL (2)",
+    "CLASES EXCELENTES (1)",
+    "PREPÁRATE PARA LEER (1)"
+  ],
+  "numero_calificaciones": 9,
+  "calificaciones": [
+    {
+      "fecha": "02/Oct/2020",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Economía",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "8.5",
+      "interes_clase": "",
+      "comentario": "El mejor profesor que he tenido, se le ven las ganas de enseñar, y todo el conocimiento que tiene en su haber, si de verdad quieres aprender y no estás tan menso, súper recomendado este profesor. No te arrepentirás aunque te repruebe",
+      "etiquetas_comentario": [
+        "Califica Duro",
+        "Prepárate para leer",
+        "Inspiracional"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "04/Sep/2020",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Economía",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "N/A",
+      "interes_clase": "",
+      "comentario": "",
+      "etiquetas_comentario": [
+        "Califica Duro",
+        "Inspiracional",
+        "Clases excelentes"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "07/Ene/2020",
+      "tipo_calificacion": "REGULAR",
+      "puntaje_calidad_general": 6.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Estadística Inferencial I",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "24",
+      "interes_clase": "",
+      "comentario": "De los mejores profesores que tiene el tecnológico de Culiacán. SI quieres aprender carga con él, ten en cuenta que debes ponerle todo el empeño y estudiar muchísimo por que si no, no pasas. \n-\nReprobé pero no quita el hecho que aprendí mucho, cárgalo pero que los demás profes sean barcos. \nSaludos.",
+      "etiquetas_comentario": [
+        "Califica Duro",
+        "Deja trabajos largos",
+        "Los exámenes son difíciles"
+      ],
+      "votos_utiles": "1",
+      "votos_no_utiles": "2"
+    },
+    {
+      "fecha": "28/Sep/2015",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Maestria en Ing. Industrial",
+      "asistencia": "",
+      "calificacion_recibida": "9.5",
+      "interes_clase": "9.5",
+      "comentario": "Profesor dedicado a la comprensión, muy estricto pero a su vez muy accesible en asesoría y apoyo en la materia. Recomendable para estudiantes que deseen aprender.",
+      "etiquetas_comentario": [],
+      "votos_utiles": "1",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "15/Ene/2015",
+      "tipo_calificacion": "REGULAR",
+      "puntaje_calidad_general": 6.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Economía Ambiental",
+      "asistencia": "",
+      "calificacion_recibida": "8",
+      "interes_clase": "8",
+      "comentario": "Aterriza mucho los temas a la realidad, lo teórico queda muy claro, pero los problemas te los abienta y nunca los retoma, así que no sabes si está bien o mal. Toma mucho en cuenta los trabajos y los exámenes (en los cuales hay que esmerarse muchisimo y aveces no le atinas a lo que quería)",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "15/Ene/2015",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "economia",
+      "asistencia": "",
+      "calificacion_recibida": "9",
+      "interes_clase": "9",
+      "comentario": "",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "03/Ago/2013",
+      "tipo_calificacion": "REGULAR",
+      "puntaje_calidad_general": 6.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "economia",
+      "asistencia": "",
+      "calificacion_recibida": "7",
+      "interes_clase": "7",
+      "comentario": "SOLO recomendable al que le pondra ganas (yo pases con el :)",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "19/Jul/2013",
+      "tipo_calificacion": "REGULAR",
+      "puntaje_calidad_general": 6.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Economia",
+      "asistencia": "",
+      "calificacion_recibida": "7",
+      "interes_clase": "7",
+      "comentario": "Si quieres aprender y le echas ganas muchas ganas pasas",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "02/Jun/2013",
+      "tipo_calificacion": "REGULAR",
+      "puntaje_calidad_general": 4.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "economia",
+      "asistencia": "",
+      "calificacion_recibida": "5",
+      "interes_clase": "5",
+      "comentario": "es un cabron que te va a humillar.",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "1"
+    }
+  ]
+}

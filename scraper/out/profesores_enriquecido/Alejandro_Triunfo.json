@@ -1,0 +1,324 @@
+{
+  "professor_id": "Alejandro_Triunfo",
+  "nombre": "Alejandro Triunfo",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 6.015123311625151,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 6.115663375110773,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.429,
+    "wilson_interval": [
+      0.21380509930400526,
+      0.6740973309713064
+    ],
+    "n_recommendations": 14
+  },
+  "subject_normalization": {
+    "z_mean": 0.01,
+    "z_mean_decayed": 0.03,
+    "per_subject": [
+      {
+        "materia": "ELECTRONICA",
+        "z_decayed": 0.26764510879432996,
+        "n": 9
+      },
+      {
+        "materia": "ELECTRÓNICA DIGITAL",
+        "z_decayed": 0.17771395728610623,
+        "n": 5
+      },
+      {
+        "materia": "PLC",
+        "z_decayed": 0.1676317056067775,
+        "n": 9
+      },
+      {
+        "materia": "ELECTRONICA DIGITAL",
+        "z_decayed": -0.8488746876271654,
+        "n": 4
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "sabe",
+          "materia",
+          "acerca",
+          "profesor",
+          "te"
+        ],
+        "weight": 0.10131193219524072
+      },
+      {
+        "id": 1,
+        "words": [
+          "pasar",
+          "facil",
+          "facil pasar",
+          "super",
+          "buena"
+        ],
+        "weight": 0.127535647121193
+      },
+      {
+        "id": 2,
+        "words": [
+          "pasa",
+          "mas",
+          "te",
+          "ensena",
+          "es"
+        ],
+        "weight": 0.1704649105510933
+      },
+      {
+        "id": 3,
+        "words": [
+          "examenes tarea",
+          "deja examenes",
+          "examenes",
+          "da",
+          "si"
+        ],
+        "weight": 0.19218232556441878
+      },
+      {
+        "id": 4,
+        "words": [
+          "maestro",
+          "pasa",
+          "quiere",
+          "materia",
+          "plc"
+        ],
+        "weight": 0.15896969021172874
+      }
+    ],
+    "sentiment": {
+      "overall": 0.0,
+      "by_month": {
+        "2024-03": 0.0,
+        "2023-12": 0.0,
+        "2023-11": 0.0,
+        "2023-06": 0.0,
+        "2023-04": 1.0,
+        "2022-12": 0.0,
+        "2021-01": -1.0,
+        "2020-12": 0.0,
+        "2019-06": 0.0,
+        "2019-03": 0.0,
+        "2011-09": 0.0,
+        "2011-05": 0.0
+      }
+    },
+    "n_comments": 13
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        4.5,
+        10.0,
+        2.0,
+        2.0,
+        8.0,
+        2.0,
+        6.0,
+        2.0,
+        10.0,
+        7.0,
+        2.0,
+        9.0,
+        8.0
+      ],
+      "ewma": [
+        4.5,
+        6.15,
+        4.904999999999999,
+        4.033499999999999,
+        5.22345,
+        4.256415,
+        4.7794905,
+        3.9456433499999997,
+        5.761950345,
+        6.1333652415,
+        4.893355669049999,
+        6.125348968334999,
+        6.687744277834499
+      ],
+      "sigma": 2.5906439230224487
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 6.687744277834499,
+      "quality_band": [
+        1.6100821887105,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2024-03-01T00:00:00",
+      "materia": "PLC",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Si quieres pasar carga con el, debería de ser mas duro porque todas las materias que da son para que fuese profe filtro. Tanto en digital como en plc es lo mismo, deja exámenes de tarea y si copias todo según se da cuenta pero realmente nunca revisa nada."
+    },
+    {
+      "fecha_iso": "2023-12-26T00:00:00",
+      "materia": "PLC",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Si repruebas con él es por huevon, da muchas oportunidades y ofrece asesorias, deja exámenes de tarea y los recibe con retraso, no ocupas ni asistir, sabe de su materia y los programas están bn pelucas, con aprender TIA PORTAL básico ya pasaste, nomas no cargues a las 7am pq nunca va ir"
+    },
+    {
+      "fecha_iso": "2023-11-21T00:00:00",
+      "materia": "ELECTRONICA DIGITAL",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 23.0,
+      "recomienda": 0,
+      "comentario": "Este pelon hijo de su madre es el profe más chillon del mundo, falta constantemente sin avisar pero si el salon comienza a hacerlo hace puchero y comienza a aumentar la dificultad, la neta no sabe nada y solo te quiere marear con los nombres de los componentes, mejor cualquier basura que el."
+    },
+    {
+      "fecha_iso": "2023-06-06T00:00:00",
+      "materia": "ELECTRÓNICA DIGITAL",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "El profesor domina la materia en su totalidad, lo que le preguntes acerca del tema te sabrá responder con claridad, tiene experiencia laboral relacionado a lo que imparte como materia."
+    },
+    {
+      "fecha_iso": "2023-04-01T00:00:00",
+      "materia": "ELECTRÓNICA DIGITAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 23.0,
+      "recomienda": 1,
+      "comentario": "Es excelente profesor, sabe mucho acerca de lo que habla y te da ejemplos de aplicación industrial. Su material para dar clases es un plumón (a veces) y a veces la computadora de un compañero (literal todo el material de la clase se lo sabe siempre), te diviertes mucho pero no divaga en la clase."
+    },
+    {
+      "fecha_iso": "2022-12-11T00:00:00",
+      "materia": "PLC",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 0,
+      "comentario": "Como los demás calificaron, es un idiota, no da clases nunca y te echa la culpa a ti, muy triste que sea el único que imparta la materia de plc ya que de ser una materia tan interesante, se hace una basura por culpa de individuos tan mediocres como este. Compadezco a todos los que cursen PLC con el."
+    },
+    {
+      "fecha_iso": "2021-12-24T00:00:00",
+      "materia": "PLC",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 0,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2021-01-02T00:00:00",
+      "materia": "PLC",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 0,
+      "comentario": "Pésimo maestro de PLC, no explica nada de la materia en realidad parece como que le quiere sacar la vuelta a los temas, se la pasa hablando la mayoría del curso de otras cosas que no tienen que ver directamente con la utilización del PLC"
+    },
+    {
+      "fecha_iso": "2020-12-22T00:00:00",
+      "materia": "PLC",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "No vas aprender mucho pero está super fácil pasar con el y con buena calificación. Mucha teoría y poca práctica"
+    },
+    {
+      "fecha_iso": "2019-06-14T00:00:00",
+      "materia": "PLC",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "no enseña absolutamente nada y es super prepotente y grosero además de que califica como le da la gana, no sales muy bien y no aprendes nada. Esta facil pasar, pasa a casi todos y si te reprueba te pasa si le sueltas 500 bolas"
+    },
+    {
+      "fecha_iso": "2019-03-13T00:00:00",
+      "materia": "PLC",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Es un pendejo, no enseña nada y se la lleva humillando a la gente"
+    },
+    {
+      "fecha_iso": "2011-09-01T00:00:00",
+      "materia": "PLC",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "ES EL PAPA DE LOS POLLITOS"
+    },
+    {
+      "fecha_iso": "2011-05-10T00:00:00",
+      "materia": "ELECTRONICA",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": "buena onda"
+    },
+    {
+      "fecha_iso": "2011-05-04T00:00:00",
+      "materia": "ELECTRONICA",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 4.5,
+      "recomienda": 0,
+      "comentario": "La verdad es que este maestro ahora tiene un proceso judicial por aceptar dinero, asi mismo debería checar mas a fondo por que hay varios de la misma bolita que se reparte el dinero"
+    }
+  ],
+  "comments_recent": [
+    "Si quieres pasar carga con el, debería de ser mas duro porque todas las materias que da son para que fuese profe filtro. Tanto en digital como en plc es lo mismo, deja exámenes de tarea y si copias todo según se da cuenta pero realmente nunca revisa nada.",
+    "Si repruebas con él es por huevon, da muchas oportunidades y ofrece asesorias, deja exámenes de tarea y los recibe con retraso, no ocupas ni asistir, sabe de su materia y los programas están bn pelucas, con aprender TIA PORTAL básico ya pasaste, nomas no cargues a las 7am pq nunca va ir",
+    "Este pelon hijo de su madre es el profe más chillon del mundo, falta constantemente sin avisar pero si el salon comienza a hacerlo hace puchero y comienza a aumentar la dificultad, la neta no sabe nada y solo te quiere marear con los nombres de los componentes, mejor cualquier basura que el.",
+    "El profesor domina la materia en su totalidad, lo que le preguntes acerca del tema te sabrá responder con claridad, tiene experiencia laboral relacionado a lo que imparte como materia.",
+    "Es excelente profesor, sabe mucho acerca de lo que habla y te da ejemplos de aplicación industrial. Su material para dar clases es un plumón (a veces) y a veces la computadora de un compañero (literal todo el material de la clase se lo sabe siempre), te diviertes mucho pero no divaga en la clase.",
+    "Como los demás calificaron, es un idiota, no da clases nunca y te echa la culpa a ti, muy triste que sea el único que imparta la materia de plc ya que de ser una materia tan interesante, se hace una basura por culpa de individuos tan mediocres como este. Compadezco a todos los que cursen PLC con el.",
+    "Pésimo maestro de PLC, no explica nada de la materia en realidad parece como que le quiere sacar la vuelta a los temas, se la pasa hablando la mayoría del curso de otras cosas que no tienen que ver directamente con la utilización del PLC",
+    "No vas aprender mucho pero está super fácil pasar con el y con buena calificación. Mucha teoría y poca práctica",
+    "no enseña absolutamente nada y es super prepotente y grosero además de que califica como le da la gana, no sales muy bien y no aprendes nada. Esta facil pasar, pasa a casi todos y si te reprueba te pasa si le sueltas 500 bolas"
+  ],
+  "n_reviews": 14
+}

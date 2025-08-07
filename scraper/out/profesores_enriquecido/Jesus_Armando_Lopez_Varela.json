@@ -1,0 +1,76 @@
+{
+  "professor_id": "Jesus_Armando_Lopez_Varela",
+  "nombre": "Jesus Armando Lopez Varela",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 7.0,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 6.9796291820598695,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 1.0,
+    "wilson_interval": [
+      0.20654329147389294,
+      1
+    ],
+    "n_recommendations": 1
+  },
+  "subject_normalization": {
+    "z_mean": -0.43,
+    "z_mean_decayed": -0.43,
+    "per_subject": [
+      {
+        "materia": "TALLER DE ÉTICA",
+        "z_decayed": -0.43205845494095896,
+        "n": 22
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [],
+    "sentiment": {
+      "overall": null,
+      "by_month": {}
+    },
+    "n_comments": 1
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": null,
+    "difficulty_trend": null,
+    "forecast": null,
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2023-01-15T00:00:00",
+      "materia": "TALLER DE ÉTICA",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Sin problema te da muchas oportunidades para entregar trabajos o exámenes. Mínimamente te pone un 80.\nEl aspecto negativo es que al agarrar confianza con el grupo (hombres en específico) suele soltar chistes de mal gusto o incluso sexistas. Además, a veces se enreda en sus propios conceptos."
+    }
+  ],
+  "comments_recent": [
+    "Sin problema te da muchas oportunidades para entregar trabajos o exámenes. Mínimamente te pone un 80.\nEl aspecto negativo es que al agarrar confianza con el grupo (hombres en específico) suele soltar chistes de mal gusto o incluso sexistas. Además, a veces se enreda en sus propios conceptos."
+  ],
+  "n_reviews": 1
+}

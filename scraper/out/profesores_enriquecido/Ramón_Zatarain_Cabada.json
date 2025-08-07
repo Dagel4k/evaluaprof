@@ -1,0 +1,586 @@
+{
+  "professor_id": "Ramón_Zatarain_Cabada",
+  "nombre": "Ramón Zatarain Cabada",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 6.42817320918046,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 5.207998319205501,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.27,
+    "wilson_interval": [
+      0.15397298246990687,
+      0.42978475473921335
+    ],
+    "n_recommendations": 37
+  },
+  "subject_normalization": {
+    "z_mean": -0.36,
+    "z_mean_decayed": -0.29,
+    "per_subject": [
+      {
+        "materia": "CHISMES",
+        "z_decayed": 0.577350269189626,
+        "n": 3
+      },
+      {
+        "materia": "SEMINARIO",
+        "z_decayed": 0.2364830994307883,
+        "n": 3
+      },
+      {
+        "materia": "LENGUAJES Y AUTOMATAS II",
+        "z_decayed": 0.19867985355975656,
+        "n": 4
+      },
+      {
+        "materia": "MAESTRIA",
+        "z_decayed": 0.12127916762132122,
+        "n": 15
+      },
+      {
+        "materia": "---",
+        "z_decayed": -0.4899786318156349,
+        "n": 521
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "esperando revision",
+          "esperando",
+          "comentario",
+          "comentario esperando",
+          "revision"
+        ],
+        "weight": 0.12645947658462828
+      },
+      {
+        "id": 1,
+        "words": [
+          "hacen",
+          "hace",
+          "si",
+          "clases",
+          "es"
+        ],
+        "weight": 0.10655812164671734
+      },
+      {
+        "id": 2,
+        "words": [
+          "mi",
+          "mejores",
+          "tenido",
+          "he tenido",
+          "he"
+        ],
+        "weight": 0.06420877276827515
+      },
+      {
+        "id": 3,
+        "words": [
+          "hace",
+          "favor",
+          "anda",
+          "mitotes",
+          "director"
+        ],
+        "weight": 0.05126971391041497
+      },
+      {
+        "id": 4,
+        "words": [
+          "pesimo",
+          "deja",
+          "materias",
+          "maestro",
+          "sabe"
+        ],
+        "weight": 0.08201109268586039
+      }
+    ],
+    "sentiment": {
+      "overall": -0.10810810810810811,
+      "by_month": {
+        "2023-01": 0.0,
+        "2021-12": 1.0,
+        "2019-01": -1.0,
+        "2018-05": -1.0,
+        "2016-11": 0.0,
+        "2016-09": 0.0,
+        "2016-06": 0.0,
+        "2016-04": 0.0,
+        "2016-01": 0.0,
+        "2015-12": 0.0,
+        "2015-10": 0.0,
+        "2015-08": 0.0,
+        "2015-05": 0.0,
+        "2014-11": 0.0,
+        "2014-06": 0.0,
+        "2014-05": 0.0,
+        "2014-04": 0.0,
+        "2014-03": 0.0,
+        "2014-02": 0.0,
+        "2014-01": 0.0,
+        "2013-10": 0.0,
+        "2013-01": -0.5,
+        "2012-08": 0.0,
+        "2012-06": 0.0,
+        "2011-11": -0.5,
+        "2011-09": -1.0,
+        "2011-08": 0.0,
+        "2011-03": 0.0,
+        "2010-09": 0.0
+      }
+    },
+    "n_comments": 37
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.042,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 0.98
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        5.0,
+        6.0,
+        2.0,
+        2.0,
+        3.5,
+        10.0,
+        6.0,
+        5.5,
+        2.0,
+        2.0,
+        2.0,
+        4.666666666666667,
+        10.0,
+        4.0,
+        10.0,
+        2.0,
+        10.0,
+        2.0,
+        2.0,
+        6.0,
+        2.0,
+        5.0,
+        2.0,
+        2.0,
+        3.0,
+        6.0,
+        8.0,
+        10.0,
+        8.0
+      ],
+      "ewma": [
+        5.0,
+        5.3,
+        4.31,
+        3.6169999999999995,
+        3.581899999999999,
+        5.50733,
+        5.655130999999999,
+        5.608591699999999,
+        4.526014189999999,
+        3.768209932999999,
+        3.2377469530999994,
+        3.6664228671699997,
+        5.5664960070189995,
+        5.096547204913299,
+        6.567583043439309,
+        5.1973081304075155,
+        6.638115691285261,
+        5.246680983899682,
+        4.272676688729777,
+        4.790873682110844,
+        3.9536115774775906,
+        4.267528104234313,
+        3.587269672964019,
+        3.1110887710748134,
+        3.077762139752369,
+        3.954433497826658,
+        5.168103448478661,
+        6.617672413935063,
+        7.0323706897545435
+      ],
+      "sigma": 2.268204774691019
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 7.0323706897545435,
+      "quality_band": [
+        2.5866893313601462,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2023-01-07T00:00:00",
+      "materia": "FLOJO",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Es escandalosamente flojo, \n No entiendo por qué las autoridades no hacen algo con estos maestros flojos y eso que son ejemplo de uno."
+    },
+    {
+      "fecha_iso": "2021-12-09T00:00:00",
+      "materia": "LENGUAJES Y AUTÓMATAS II",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Sus clases son algo aburridas, pero explica muy claro los temas. Los exámenes son fáciles, son solo preguntas y ejercicios de lo mismo que se ve en clase. Donde si se complica es en el proyecto, pero no es tan estricto al revisar."
+    },
+    {
+      "fecha_iso": "2019-01-15T00:00:00",
+      "materia": "LENGUAJES Y AUTOMATAS II",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Explica los temas de manera clara, sus examenes no son tan dificiles, lo complicado es el proyecto. Lo unico malo es que su clase se torna un poco aburrida. En lo general buen profesor."
+    },
+    {
+      "fecha_iso": "2018-05-02T00:00:00",
+      "materia": "TODAS",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 0,
+      "comentario": "Pésimo docente, solo viene por el cheque, parece obligado a dar clase, no se sale del molde, no se actualiza, cada clase parece un deja vu(siempre dice lo mismo por que no sabe mas).Para culminar su clase es super aburrida y su mentalidad muy old school, si quieres aprender no cargues con el."
+    },
+    {
+      "fecha_iso": "2016-11-07T00:00:00",
+      "materia": "NADA",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 0,
+      "comentario": "falta casi todo el semestre eso si durante el sisei se vuelve el estricto y nos obliga a  ir a clases...eso si despues del sisei el faltara por que asistira a eventos academicos de gran nivel. si el nivel del evento es como su clase pues son basura, hechele ganas"
+    },
+    {
+      "fecha_iso": "2016-09-21T00:00:00",
+      "materia": "NINGUN",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 0,
+      "comentario": "POBRE DE SUS ALUMNOS NOMAS LE ENTRA LA MENOPAUSIA Y LOS ANDA INSULTANDO Y ES TAN COBARDE QUE LO HACE POR CORREO...."
+    },
+    {
+      "fecha_iso": "2016-06-27T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2016-06-15T00:00:00",
+      "materia": "MAESTRIA",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 0,
+      "comentario": "una persona de lo peor, mal maestro, segun el investigador, pero deja mucho que desear en todos los aspectos."
+    },
+    {
+      "fecha_iso": "2016-04-16T00:00:00",
+      "materia": "MAESTRIA",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 1.5,
+      "recomienda": 0,
+      "comentario": "feliciades a lucia barron por lograr domesticar a lucy que antes era una tigre que fotografiaba a todos. hoy en dia es lLA GATA  de lucia y ramon zataran le hace todos los mandados y a todos lados. lucy LA GATA DE LUCIA Y RAMON"
+    },
+    {
+      "fecha_iso": "2016-01-29T00:00:00",
+      "materia": "NADA",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 0,
+      "comentario": "hay hay señor director por favor peleme ...quiero contarle algunas cositas de mis compañeritos !! andele inviteme un cafe !!!"
+    },
+    {
+      "fecha_iso": "2015-12-03T00:00:00",
+      "materia": "---",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 1.5,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2015-10-04T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2015-08-30T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2015-05-01T00:00:00",
+      "materia": "---",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2014-11-04T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2014-06-16T00:00:00",
+      "materia": "AUTOMATAS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Quieren agarrar puntos si no hacen nada en todo el año, todos son una bola de huevones: palabras textuales del doctor !"
+    },
+    {
+      "fecha_iso": "2014-05-17T00:00:00",
+      "materia": "TEORIA DEA",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Pense que sus clases tenian mas nivel, da las clases sin ganas repite lo mismo, habla sin ganas. Hechele ganas profe para algo le pagan. Que le pasa"
+    },
+    {
+      "fecha_iso": "2014-05-01T00:00:00",
+      "materia": "MITOTES",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 0,
+      "comentario": "Anda de perfil bajo en los mitotes, ya se le acabo la inspiración y el respaldo del director. Anda como perro con el rabo entre la patas buscando la gracia del nuevo director."
+    },
+    {
+      "fecha_iso": "2014-04-07T00:00:00",
+      "materia": "MITOTES I",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "ESTE \"DR EN MITOTES\" LLORO CUANDO SE FUE SU DIRECTOR RATAÑA DE LA ESCUELA"
+    },
+    {
+      "fecha_iso": "2014-03-14T00:00:00",
+      "materia": "CHISMES",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "El chismoso, siga hablando de la gente chismoso."
+    },
+    {
+      "fecha_iso": "2014-03-07T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2014-03-07T00:00:00",
+      "materia": "MAESTRIA",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "EN MAYO, CUENDO EMPIECE LA NUEVA CONVOCATORIA DE POSGRADO PONGAN CON LETRAS CHIQUITAS EN SU PAGINA, SI NO ERES EGRESADO O TRABAJADOR DEL TEC, ABSTENERSE DE POSTULARSE A CUALQUIER MAESTRIA"
+    },
+    {
+      "fecha_iso": "2014-02-28T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2014-02-26T00:00:00",
+      "materia": "MAESTRIA",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "GRACIAS POR NO ACEPTAR MEDIOCRES COMO YO CON 9.5 DE PROMEDIO DE LICENCIATURA"
+    },
+    {
+      "fecha_iso": "2014-01-12T00:00:00",
+      "materia": "ENTRVISTA MASTRIA",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 1.0,
+      "recomienda": 0,
+      "comentario": "Afortunadamente no entramos me he enterado por otras paginas que esta maestria es un fraude esta muy quemada gracias a esa gentusa pero de que aceptaron puro empleado del tecnologico y exalumnos es verdad, sin moral ni etica"
+    },
+    {
+      "fecha_iso": "2013-10-28T00:00:00",
+      "materia": "IA",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 7.5,
+      "recomienda": 0,
+      "comentario": "No se con quien has cursado las materias anteriores para poder tener ese concepto de este maestro (si es que se le puede llamar así). Para mi deberían despedirlo no sabe absolutamente nada."
+    },
+    {
+      "fecha_iso": "2013-01-22T00:00:00",
+      "materia": "MATES DISCRETRAS",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 1,
+      "comentario": "uno de los mejores profesores que he tenido la suerte de que me den clases"
+    },
+    {
+      "fecha_iso": "2013-01-22T00:00:00",
+      "materia": "IA",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 5.0,
+      "recomienda": 0,
+      "comentario": "Este profesor hace sentir que nos esta haciendo el favor al impartirnos clases, se le olvida que es parte de sus obligaciones, ademas las clases que imparte son de un pesimo nivel, verguenza debria darle decir que es doctor."
+    },
+    {
+      "fecha_iso": "2012-08-14T00:00:00",
+      "materia": "PROG. DE SISTEMAS",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 0,
+      "comentario": "Es muy buen profesor, sus clases son aburridas, pero si pones atencion, es seguro que aprendes, lo recomiendo."
+    },
+    {
+      "fecha_iso": "2012-06-27T00:00:00",
+      "materia": "COMPILADORES",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": "Es uno de los mejores procesores que he tenido en toda mi carrera"
+    },
+    {
+      "fecha_iso": "2011-11-16T00:00:00",
+      "materia": "PROG. DE SIST.",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 5.0,
+      "recomienda": 0,
+      "comentario": "Sabe mucho de sus materias, pero no sabe explicarlo, nadita nadita. Cortar la teoría y volver más dinámicas sus clases es lo que le falta. Es más parecído a una máquina que a un humano xDD"
+    },
+    {
+      "fecha_iso": "2011-11-04T00:00:00",
+      "materia": "LENGUAJES DE PROGRAMACION",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 0,
+      "comentario": "Super aburrido"
+    },
+    {
+      "fecha_iso": "2011-09-09T00:00:00",
+      "materia": "COMPUTACION I",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 0.5,
+      "recomienda": 0,
+      "comentario": "pesimo como maestro"
+    },
+    {
+      "fecha_iso": "2011-08-18T00:00:00",
+      "materia": "INTELIGENCIA ARTIFICIAL",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "No sabe del tema o no lo sabe explicar"
+    },
+    {
+      "fecha_iso": "2011-03-30T00:00:00",
+      "materia": "SEMINARIO",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Este el mejor profesor de seminario que he tenido, sabe muchísimo de computacion en general."
+    },
+    {
+      "fecha_iso": "2011-03-14T00:00:00",
+      "materia": "SEMINARIO",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "aburrridoooooooooooo"
+    },
+    {
+      "fecha_iso": "2010-09-21T00:00:00",
+      "materia": "TALLER DE INV. II, INTELIGENCIA ARTIFICIAL",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Simplemente no explica bien y te duermen sus clases."
+    }
+  ],
+  "comments_recent": [
+    "Es escandalosamente flojo, \n No entiendo por qué las autoridades no hacen algo con estos maestros flojos y eso que son ejemplo de uno.",
+    "Sus clases son algo aburridas, pero explica muy claro los temas. Los exámenes son fáciles, son solo preguntas y ejercicios de lo mismo que se ve en clase. Donde si se complica es en el proyecto, pero no es tan estricto al revisar.",
+    "Explica los temas de manera clara, sus examenes no son tan dificiles, lo complicado es el proyecto. Lo unico malo es que su clase se torna un poco aburrida. En lo general buen profesor.",
+    "Pésimo docente, solo viene por el cheque, parece obligado a dar clase, no se sale del molde, no se actualiza, cada clase parece un deja vu(siempre dice lo mismo por que no sabe mas).Para culminar su clase es super aburrida y su mentalidad muy old school, si quieres aprender no cargues con el.",
+    "falta casi todo el semestre eso si durante el sisei se vuelve el estricto y nos obliga a  ir a clases...eso si despues del sisei el faltara por que asistira a eventos academicos de gran nivel. si el nivel del evento es como su clase pues son basura, hechele ganas",
+    "POBRE DE SUS ALUMNOS NOMAS LE ENTRA LA MENOPAUSIA Y LOS ANDA INSULTANDO Y ES TAN COBARDE QUE LO HACE POR CORREO....",
+    "[Comentario esperando revisión]",
+    "una persona de lo peor, mal maestro, segun el investigador, pero deja mucho que desear en todos los aspectos.",
+    "feliciades a lucia barron por lograr domesticar a lucy que antes era una tigre que fotografiaba a todos. hoy en dia es lLA GATA  de lucia y ramon zataran le hace todos los mandados y a todos lados. lucy LA GATA DE LUCIA Y RAMON",
+    "hay hay señor director por favor peleme ...quiero contarle algunas cositas de mis compañeritos !! andele inviteme un cafe !!!"
+  ],
+  "n_reviews": 37
+}

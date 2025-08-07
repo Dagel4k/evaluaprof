@@ -1,0 +1,407 @@
+{
+  "professor_id": "juan_pedro_campos_sauceda",
+  "nombre": "juan pedro campos sauceda",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 4.760818043785276,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 5.27424753133308,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.318,
+    "wilson_interval": [
+      0.16360387354692477,
+      0.5268177721716065
+    ],
+    "n_recommendations": 22
+  },
+  "subject_normalization": {
+    "z_mean": -0.72,
+    "z_mean_decayed": -0.95,
+    "per_subject": [
+      {
+        "materia": "TERMODINAMICA",
+        "z_decayed": -0.6974320011896411,
+        "n": 18
+      },
+      {
+        "materia": "---",
+        "z_decayed": -0.9627852966533861,
+        "n": 521
+      },
+      {
+        "materia": "TERMODINÁMICA",
+        "z_decayed": -1.1421093864064598,
+        "n": 14
+      },
+      {
+        "materia": "FUNDAMENTOS DE LA INVESTIGACION",
+        "z_decayed": -1.546584184376302,
+        "n": 6
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "revision",
+          "esperando",
+          "comentario",
+          "comentario esperando",
+          "esperando revision"
+        ],
+        "weight": 0.18615547882031597
+      },
+      {
+        "id": 1,
+        "words": [
+          "tareas pasaras",
+          "pasaras",
+          "clase",
+          "tareas",
+          "si"
+        ],
+        "weight": 0.08787252321000674
+      },
+      {
+        "id": 2,
+        "words": [
+          "persona",
+          "persona sabe",
+          "ser",
+          "es",
+          "sabe"
+        ],
+        "weight": 0.11887417571841127
+      },
+      {
+        "id": 3,
+        "words": [
+          "nadie",
+          "profesor",
+          "ayudo",
+          "excelente",
+          "tiempo"
+        ],
+        "weight": 0.10068480951948605
+      },
+      {
+        "id": 4,
+        "words": [
+          "persona",
+          "docente",
+          "recomiendo",
+          "nunca",
+          "mas"
+        ],
+        "weight": 0.09247268995818556
+      }
+    ],
+    "sentiment": {
+      "overall": 0.0925925925925926,
+      "by_month": {
+        "2023-05": 0.0,
+        "2021-02": -0.3333333333333333,
+        "2019-01": 0.0,
+        "2018-10": 0.0,
+        "2018-06": 0.0,
+        "2018-01": 0.3333333333333333,
+        "2016-08": 0.0,
+        "2014-10": 0.0,
+        "2014-05": 0.0,
+        "2014-02": 1.0,
+        "2013-05": 0.0,
+        "2013-03": 0.0,
+        "2013-02": 0.0,
+        "2013-01": 0.0,
+        "2011-11": 0.0
+      }
+    },
+    "n_comments": 18
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.098,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 0.95
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        2.0,
+        2.5,
+        2.0,
+        2.0,
+        2.0,
+        10.0,
+        2.0,
+        2.0,
+        2.0,
+        6.75,
+        9.0,
+        8.0,
+        2.0,
+        2.0,
+        8.0,
+        2.0,
+        10.0,
+        2.0
+      ],
+      "ewma": [
+        2.0,
+        2.15,
+        2.105,
+        2.0734999999999997,
+        2.0514499999999996,
+        4.436014999999999,
+        3.7052104999999993,
+        3.1936473499999996,
+        2.8355531449999996,
+        4.0098872015,
+        5.506921041049999,
+        6.254844728734999,
+        4.978391310114499,
+        4.084873917080149,
+        5.259411741956104,
+        4.281588219369272,
+        5.997111753558491,
+        4.797978227490943
+      ],
+      "sigma": 2.5006283870898223
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 4.797978227490943,
+      "quality_band": [
+        0.0,
+        9.699209866186994
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2023-05-10T00:00:00",
+      "materia": "TERMODINÁMICA",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 24.0,
+      "recomienda": 0,
+      "comentario": "No tiene nada de paciencia, no se si era solo porque nosotros eramos poquitos pero en cada clase se ponia a hacernos preguntas  no te dejaba revisar los apuntes porque se supone que ya lo sabes y si nadie le contestaba se amaliyaba mucho y su clase es demasiado aburrida"
+    },
+    {
+      "fecha_iso": "2021-02-06T00:00:00",
+      "materia": "ASESOR DE MAESTRÍA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Un hombre de pocas palabras, la comunicación fue difícil al principio, con el paso del tiempo hicimos una excelente amistad. No puedo decir nada malo de el por que siempre me ayudo al 100 %. Si lee este mensaje sabrá quien soy. Un fuerte abrazo para mi mentor."
+    },
+    {
+      "fecha_iso": "2020-11-12T00:00:00",
+      "materia": "TERMODINAMICA",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2019-08-04T00:00:00",
+      "materia": "FISICOQUIMICA",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2019-01-15T00:00:00",
+      "materia": "TERMODINÁMICA",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 0,
+      "comentario": "Es una persona que no sabe nada, y si sabe no sabe explicar o enseñar, es entrometido en la vida personal. No debería enseñar, no debería llamarse doctor, no funciona como maestro y lejos está de ser investigador."
+    },
+    {
+      "fecha_iso": "2018-10-26T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 25.0,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2018-06-07T00:00:00",
+      "materia": "TERMODINÁMICA",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Con este profesor necesitas ser aplicado y autodidacta siguiendo el libro que te dice, haciendo esto con el pasas muy fácil."
+    },
+    {
+      "fecha_iso": "2018-04-27T00:00:00",
+      "materia": "FISICOQUÍMICA",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2018-01-16T00:00:00",
+      "materia": "TERMODINAMICA",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": "No explica muy bien que digamos, pero se preocupa mucho por resolver tus dudas, si quieres aprender y pasar solo ocupas hacer las tareas, si entiendes algo el está muy dispuesto a ayudarte. Si quieres flojear no te lo recomendaría, pero si vas a lo que vas es muy bueno"
+    },
+    {
+      "fecha_iso": "2018-01-15T00:00:00",
+      "materia": "TERMODINAMICA",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Explica y puede confundirte pero sus examenes son como las tareas,deja mucha tarea y siempre asiste a clase,si haces las tareas pasaras"
+    },
+    {
+      "fecha_iso": "2018-01-13T00:00:00",
+      "materia": "TERMODINAMICA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 1,
+      "comentario": "Muy buen maestro! Si eres de los que ponen atención a las clases y hacen las tareas pasaras sin dudas la materia"
+    },
+    {
+      "fecha_iso": "2018-01-13T00:00:00",
+      "materia": "TERMODINAMICA",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": 21.0,
+      "recomienda": 0,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2016-08-09T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2014-10-07T00:00:00",
+      "materia": "TERMODINAMICA",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 0.5,
+      "recomienda": 0,
+      "comentario": "nunca le preguntes nada terminaras confundiéndote mas de lo que ya estas"
+    },
+    {
+      "fecha_iso": "2014-05-30T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2014-02-16T00:00:00",
+      "materia": "TERMODINAMICA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 1,
+      "comentario": "Excelente profesor, nunca nadie me ayudo incondicionalmente como el.Sus clases son dinámicas y entretenidas. Ademas que se esmera demasiado por hacerte entender las cosas e incluso sacrifica su tiempo por apoyarnos. Altamente recomendado."
+    },
+    {
+      "fecha_iso": "2013-05-31T00:00:00",
+      "materia": "-",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 6.0,
+      "recomienda": 0,
+      "comentario": "lo recomiendo como persona, mas no como docente."
+    },
+    {
+      "fecha_iso": "2013-03-01T00:00:00",
+      "materia": "FUNDAMENTOS DE LA INVESTIGACION",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 5.0,
+      "recomienda": 0,
+      "comentario": "pues es una buena persona y todo, pero no sabe ser un docente, sus materias son faciles pero el las hace dificiles, no tengo nada contra el, la verdad me da algo de lastima, aun asi no lo recomiendo."
+    },
+    {
+      "fecha_iso": "2013-02-08T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 7.5,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2013-01-15T00:00:00",
+      "materia": "TERMODINÁMICA Y FUNDAMENTOS DE INVESTIGACIÓN",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Me resulta una lástima tanta preparación y conocimiento con la que cuenta. Es un muy buen investigador, más no es un buen docente, lejos de resolver dudas, crea más. Es muy conceptualista y no sabe desenvoverse en una clase ni planear sus actividades. No lo recomiendo, hace sus materias conflictivas"
+    },
+    {
+      "fecha_iso": "2013-01-15T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2011-11-14T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 0.5,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    }
+  ],
+  "comments_recent": [
+    "No tiene nada de paciencia, no se si era solo porque nosotros eramos poquitos pero en cada clase se ponia a hacernos preguntas  no te dejaba revisar los apuntes porque se supone que ya lo sabes y si nadie le contestaba se amaliyaba mucho y su clase es demasiado aburrida",
+    "Un hombre de pocas palabras, la comunicación fue difícil al principio, con el paso del tiempo hicimos una excelente amistad. No puedo decir nada malo de el por que siempre me ayudo al 100 %. Si lee este mensaje sabrá quien soy. Un fuerte abrazo para mi mentor.",
+    "Es una persona que no sabe nada, y si sabe no sabe explicar o enseñar, es entrometido en la vida personal. No debería enseñar, no debería llamarse doctor, no funciona como maestro y lejos está de ser investigador.",
+    "[Comentario esperando revisión]",
+    "Con este profesor necesitas ser aplicado y autodidacta siguiendo el libro que te dice, haciendo esto con el pasas muy fácil.",
+    "No explica muy bien que digamos, pero se preocupa mucho por resolver tus dudas, si quieres aprender y pasar solo ocupas hacer las tareas, si entiendes algo el está muy dispuesto a ayudarte. Si quieres flojear no te lo recomendaría, pero si vas a lo que vas es muy bueno",
+    "Explica y puede confundirte pero sus examenes son como las tareas,deja mucha tarea y siempre asiste a clase,si haces las tareas pasaras"
+  ],
+  "n_reviews": 22
+}

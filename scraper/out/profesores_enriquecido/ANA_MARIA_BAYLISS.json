@@ -1,0 +1,378 @@
+{
+  "professor_id": "ANA_MARIA_BAYLISS",
+  "nombre": "ANA MARIA BAYLISS",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 8.2667442710065,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.5439972759537435,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.789,
+    "wilson_interval": [
+      0.5666528575973391,
+      0.9149246150840842
+    ],
+    "n_recommendations": 19
+  },
+  "subject_normalization": {
+    "z_mean": 0.16,
+    "z_mean_decayed": 0.53,
+    "per_subject": [
+      {
+        "materia": "---",
+        "z_decayed": 1.2821237158081509,
+        "n": 521
+      },
+      {
+        "materia": "FUNDAMENTOS DE INGENIERÍA DE SOFTWARE",
+        "z_decayed": 0.16317707541036258,
+        "n": 4
+      },
+      {
+        "materia": "FLOJA",
+        "z_decayed": -0.14638501094227999,
+        "n": 4
+      },
+      {
+        "materia": "SISTEMAS DE INFORMACION",
+        "z_decayed": -0.2890919978035388,
+        "n": 3
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "esperando revision",
+          "comentario",
+          "comentario esperando",
+          "esperando",
+          "revision"
+        ],
+        "weight": 0.13467822085912917
+      },
+      {
+        "id": 1,
+        "words": [
+          "maestros",
+          "clases",
+          "siempre",
+          "da clases",
+          "da"
+        ],
+        "weight": 0.06487836902351564
+      },
+      {
+        "id": 2,
+        "words": [
+          "faciles si",
+          "dar",
+          "clase",
+          "si",
+          "te"
+        ],
+        "weight": 0.1359174460174156
+      },
+      {
+        "id": 3,
+        "words": [
+          "ayuda",
+          "buena",
+          "es buena",
+          "maestra",
+          "es"
+        ],
+        "weight": 0.1430578118009155
+      },
+      {
+        "id": 4,
+        "words": [
+          "buena",
+          "ayuda",
+          "facil",
+          "trabajos",
+          "clases"
+        ],
+        "weight": 0.11692352279290184
+      }
+    ],
+    "sentiment": {
+      "overall": 0.0,
+      "by_month": {
+        "2023-05": 0.0,
+        "2023-01": 0.0,
+        "2022-08": 0.0,
+        "2022-01": 0.0,
+        "2021-09": 0.0,
+        "2019-08": 0.0,
+        "2019-06": 0.0,
+        "2019-01": 0.0,
+        "2018-10": 0.0,
+        "2018-01": 0.0,
+        "2017-11": 0.0,
+        "2016-08": 0.0,
+        "2016-01": 0.0,
+        "2011-03": 0.0,
+        "2011-02": 0.0
+      }
+    },
+    "n_comments": 18
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.039,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 0.98
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        2.0,
+        9.0,
+        6.0,
+        10.0,
+        7.0,
+        7.5,
+        8.5,
+        10.0,
+        5.0,
+        8.0,
+        9.0,
+        9.0,
+        7.0,
+        10.0,
+        6.0,
+        10.0
+      ],
+      "ewma": [
+        2.0,
+        4.1,
+        4.67,
+        6.269,
+        6.488300000000001,
+        6.79181,
+        7.304266999999999,
+        8.1129869,
+        7.179090829999999,
+        7.425363580999999,
+        7.897754506699998,
+        8.228428154689999,
+        7.859899708282999,
+        8.501929795798098,
+        7.751350857058668,
+        8.425945599941066
+      ],
+      "sigma": 1.7667228322576145
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 8.425945599941066,
+      "quality_band": [
+        4.963168848716142,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2023-05-25T00:00:00",
+      "materia": "---",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2023-01-07T00:00:00",
+      "materia": "FLOJA",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 0,
+      "comentario": "Es escandalosamente floja, este semestre los inicio 2 semanas de atraso, da clases de 20 minutos .\nse la pasa tomando café y hablando por teléfono\n No entiendo por qué las autoridades no hacen algo con estos maestros flojos y eso que son ejemplo de uno."
+    },
+    {
+      "fecha_iso": "2022-08-14T00:00:00",
+      "materia": "COMONODARCLASES",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "En las reuniones de academia siempre dice que llena todos los formatos, ella hace de todo, participa en todo segun ella, lo cierto que nunca da clases."
+    },
+    {
+      "fecha_iso": "2022-01-14T00:00:00",
+      "materia": "FUNDAMENTOS DE INGENIERÍA DE SOFTWARE",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 1,
+      "comentario": "Conoce bien los temas  y  da puntos extra si participas en la clase"
+    },
+    {
+      "fecha_iso": "2021-09-29T00:00:00",
+      "materia": "ING SOFTWRE",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 7.5,
+      "recomienda": 1,
+      "comentario": "Baylizzzzzzzzzzzzzzzzzzzzzz"
+    },
+    {
+      "fecha_iso": "2020-01-13T00:00:00",
+      "materia": "FUNDAMENTOS DE INGENIERÍA DE SOFTWARE",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2019-08-05T00:00:00",
+      "materia": "FUNDAMENTOS DE INGENIERIA DE SOFTWARE",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Es muy buena persona y se nota en su forma de ser con sus alumnos. Sabe mucho de su materia pero como es solamente teoría puede ser muy agobiante. Es justa al momento de calificar."
+    },
+    {
+      "fecha_iso": "2019-06-12T00:00:00",
+      "materia": "FUNDAMENTOS DE INGENIERÍA DE SOFTWARE",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 0,
+      "comentario": "Buena profesora, se esfuerza en explicar pero sus clases son muy aburridas, entrega todos los trabajos, eso ayuda con la calificacion de la unidad."
+    },
+    {
+      "fecha_iso": "2019-01-26T00:00:00",
+      "materia": "ING DE SOFT",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "La maestra debe refugiarse en dios, tiene el corazon vacio, lleno de amargura y rencor. Lo muestra cada vez que habla al hacer comentarios poco apropiados. Le urge llenar su corazon de cariño y amor  por dios y alejarse de las personas que han llenado de odio su corazon."
+    },
+    {
+      "fecha_iso": "2018-10-23T00:00:00",
+      "materia": "---",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2018-10-16T00:00:00",
+      "materia": "---",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 0.5,
+      "recomienda": 1,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2018-01-16T00:00:00",
+      "materia": "FUND.DE ING DE SOFT",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Super facil, solo haz los trabajos que te pide, son muy faciles. Si eres buen estudiante hasta te deja dormir en clase"
+    },
+    {
+      "fecha_iso": "2018-01-11T00:00:00",
+      "materia": "FUND. DE ING. DE SOFTWARE",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "La profe es muy tranquila, es calmada, te explica las cosas y si necesitas ayuda te la puede dar, sus examenes estan algo faciles. Pero eso si, sus clases te pueden dar sueño o algo de flojera xD"
+    },
+    {
+      "fecha_iso": "2017-11-22T00:00:00",
+      "materia": "FUNDAMENTOS DE ING. SOFTWARE",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Sus clases son realmente sencillas y pasas relativamente facil; ALERTA: Puedes quedarte dormido en sus clases, estas advertido..."
+    },
+    {
+      "fecha_iso": "2016-08-30T00:00:00",
+      "materia": "FUNDAMENTOS DE ING DE SOFTWARE.",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": "Bayliste"
+    },
+    {
+      "fecha_iso": "2016-01-17T00:00:00",
+      "materia": "FUNDAMENTOS DE INGENIERÍA DE SOFTWARE",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 0,
+      "comentario": "Algunas veces falta, y vimos muy por encima gran parte del programa. No es tan mala pero este tipo de materias las debería de dar alguien que exija mas en clase."
+    },
+    {
+      "fecha_iso": "2011-03-16T00:00:00",
+      "materia": "SISTEMAS DE INFORMACION",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": "considero lo contrario siempre ayuda y es buena maestra"
+    },
+    {
+      "fecha_iso": "2011-03-15T00:00:00",
+      "materia": "SISTEMAS DE INFORMACION",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "aunque falta a clases, siempre se preocupa por terminar los programas y regresa los trabajos calificados, otros maestros ni los leen. Ademas siempre esta de buen humor"
+    },
+    {
+      "fecha_iso": "2011-02-24T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    }
+  ],
+  "comments_recent": [
+    "[Comentario esperando revisión]",
+    "Es escandalosamente floja, este semestre los inicio 2 semanas de atraso, da clases de 20 minutos .\nse la pasa tomando café y hablando por teléfono\n No entiendo por qué las autoridades no hacen algo con estos maestros flojos y eso que son ejemplo de uno.",
+    "En las reuniones de academia siempre dice que llena todos los formatos, ella hace de todo, participa en todo segun ella, lo cierto que nunca da clases.",
+    "Conoce bien los temas  y  da puntos extra si participas en la clase",
+    "Baylizzzzzzzzzzzzzzzzzzzzzz",
+    "Es muy buena persona y se nota en su forma de ser con sus alumnos. Sabe mucho de su materia pero como es solamente teoría puede ser muy agobiante. Es justa al momento de calificar.",
+    "Buena profesora, se esfuerza en explicar pero sus clases son muy aburridas, entrega todos los trabajos, eso ayuda con la calificacion de la unidad.",
+    "La maestra debe refugiarse en dios, tiene el corazon vacio, lleno de amargura y rencor. Lo muestra cada vez que habla al hacer comentarios poco apropiados. Le urge llenar su corazon de cariño y amor  por dios y alejarse de las personas que han llenado de odio su corazon.",
+    "[Comentario esperando revisión]"
+  ],
+  "n_reviews": 19
+}

@@ -1,0 +1,207 @@
+{
+  "professor_id": "Laura_Elena_Medina_Martínez",
+  "nombre": "Laura Elena Medina Martínez",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 7.098609461282109,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.280936529568151,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.714,
+    "wilson_interval": [
+      0.35892909014821267,
+      0.9177828342909845
+    ],
+    "n_recommendations": 7
+  },
+  "subject_normalization": {
+    "z_mean": 0.36,
+    "z_mean_decayed": 0.24,
+    "per_subject": [
+      {
+        "materia": "ADMINISTRACIÓN DE LA PRODUCTIVIDAD",
+        "z_decayed": 0.5857452072324824,
+        "n": 8
+      },
+      {
+        "materia": "LOGISTICA",
+        "z_decayed": 0.13206763594884358,
+        "n": 4
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "examenes sorpresa",
+          "participar",
+          "faciles",
+          "examenes",
+          "te"
+        ],
+        "weight": 0.22882103345666
+      },
+      {
+        "id": 1,
+        "words": [
+          "cuenta",
+          "exigente",
+          "tareas",
+          "aprendes",
+          "es exigente"
+        ],
+        "weight": 0.1923021640947618
+      },
+      {
+        "id": 2,
+        "words": [
+          "buena",
+          "buena onda",
+          "ocupas",
+          "es buena",
+          "es"
+        ],
+        "weight": 0.19652127251589316
+      }
+    ],
+    "sentiment": {
+      "overall": 0.14285714285714285,
+      "by_month": {
+        "2023-01": 0.0,
+        "2019-08": 0.0,
+        "2017-05": 0.0,
+        "2015-01": 0.5,
+        "2014-12": 0.0,
+        "2014-01": 0.0
+      }
+    },
+    "n_comments": 7
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        10.0,
+        9.0,
+        6.5,
+        9.0,
+        6.0,
+        7.0
+      ],
+      "ewma": [
+        10.0,
+        9.7,
+        8.739999999999998,
+        8.817999999999998,
+        7.972599999999998,
+        7.680819999999999
+      ],
+      "sigma": 1.0014801941459783
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 7.680819999999999,
+      "quality_band": [
+        5.717918819473882,
+        9.643721180526116
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2023-01-23T00:00:00",
+      "materia": "MERCADOTÉCNICA",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Nuca falta, siempre te pone a leer unas copias y después comentar lo que leíste, si no te gusta participar no creo que sea una opción, deja bastantes tareas pero fáciles, exámenes fáciles, la asistencia cuenta mucho ya que te califica con los trabajos en clase."
+    },
+    {
+      "fecha_iso": "2019-08-09T00:00:00",
+      "materia": "GESTIÓN DE SISTEMAS DE LA CALIDAD",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": "Tienes que participar siempre, debes llevarte muy bien, sus clases tratan de ella y su empresa de vestidos, no ayuda mucho solo a quien le agrada, asistencia OBLIGATORIA, examenes sorpresa, mucha tarea, enseña mas o menos por que en si la clase trata de la terea que lleves"
+    },
+    {
+      "fecha_iso": "2017-05-03T00:00:00",
+      "materia": "LOGISTICA",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Está facil la materia, hace examenes sorpresa pero son preguntas faciles de lo que se vio durante el parcial. Tanto en el examen como en los examenes solo ocupas echarle verbo al contestar y ya con eso la maestra te lo pondrá como bien. Es muy buena onda y usa casos de la vida real para explicar"
+    },
+    {
+      "fecha_iso": "2015-01-09T00:00:00",
+      "materia": "GESTIÓN DE LA CALIDAD",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Es buena onda aunque exigente y estricta, sus clases consisten en hacer participar a todos los alumnos y cada uno dar su punto de vista sobre el tema, explica claro, abarca todo los temas, asiste diariamente y cada cosa que no hagas y/o no asistas te baja de la calificación final, ocupas hacer TODO."
+    },
+    {
+      "fecha_iso": "2015-01-07T00:00:00",
+      "materia": "GESTIÓN DE LA CALIDAD",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": 5.0,
+      "recomienda": 0,
+      "comentario": "Es muy floja y exige demasiado"
+    },
+    {
+      "fecha_iso": "2014-12-14T00:00:00",
+      "materia": "GESTIÓN DE LOS SISTEMAS DE CALIDAD",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Recomendada para esta clase, es exigente, buena onda y aprendes sobre el contenido de la materia, básicamente califica con asistencia, trabajos y tareas bien elaborados."
+    },
+    {
+      "fecha_iso": "2014-01-17T00:00:00",
+      "materia": "ADMINISTRACIÓN DE LA PRODUCTIVIDAD",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Aprendes mucho pero es exigente, cuenta mucho tus faltas, tareas y participación."
+    }
+  ],
+  "comments_recent": [
+    "Nuca falta, siempre te pone a leer unas copias y después comentar lo que leíste, si no te gusta participar no creo que sea una opción, deja bastantes tareas pero fáciles, exámenes fáciles, la asistencia cuenta mucho ya que te califica con los trabajos en clase.",
+    "Tienes que participar siempre, debes llevarte muy bien, sus clases tratan de ella y su empresa de vestidos, no ayuda mucho solo a quien le agrada, asistencia OBLIGATORIA, examenes sorpresa, mucha tarea, enseña mas o menos por que en si la clase trata de la terea que lleves",
+    "Está facil la materia, hace examenes sorpresa pero son preguntas faciles de lo que se vio durante el parcial. Tanto en el examen como en los examenes solo ocupas echarle verbo al contestar y ya con eso la maestra te lo pondrá como bien. Es muy buena onda y usa casos de la vida real para explicar",
+    "Es buena onda aunque exigente y estricta, sus clases consisten en hacer participar a todos los alumnos y cada uno dar su punto de vista sobre el tema, explica claro, abarca todo los temas, asiste diariamente y cada cosa que no hagas y/o no asistas te baja de la calificación final, ocupas hacer TODO.",
+    "Es muy floja y exige demasiado",
+    "Recomendada para esta clase, es exigente, buena onda y aprendes sobre el contenido de la materia, básicamente califica con asistencia, trabajos y tareas bien elaborados.",
+    "Aprendes mucho pero es exigente, cuenta mucho tus faltas, tareas y participación."
+  ],
+  "n_reviews": 7
+}

@@ -1,0 +1,111 @@
+{
+  "nombre": "Antonio De La Llave Gallegos",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "ciudad": "Ciudad: culiacan, sinaloa",
+  "departamento": "Departamento/Facultad: Ingeniería Industrial",
+  "calidad_general": 6.9,
+  "porcentaje_recomienda": 67,
+  "nivel_dificultad": 3.0,
+  "etiquetas": [
+    "CALIFICA DURO (2)",
+    "DA BUENA RETROALIMENTACIÓN (1)",
+    "CLASES EXCELENTES (1)",
+    "ASISTENCIA OBLIGATORIA (1)",
+    "LOS EXÁMENES SON DIFÍCILES (1)"
+  ],
+  "numero_calificaciones": 6,
+  "calificaciones": [
+    {
+      "fecha": "19/Dic/2019",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 3.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Simulación",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "24",
+      "interes_clase": "",
+      "comentario": "Es muy raro, sarcástico, si tienes duda y le preguntas su expresión es como de burla y no logra contestarte con claridad, sus clases son monótonas, le gusta exponer en Facebook a sus alumnos para burlarse de errores que cometen, tiene un hijo con una ex alumna.",
+      "etiquetas_comentario": [
+        "Califica Duro",
+        "Asistencia obligatoria",
+        "Los exámenes son difíciles"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "12/Abr/2018",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 8.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "administración de operaciones 1",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "9.5",
+      "interes_clase": "",
+      "comentario": "...",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "2"
+    },
+    {
+      "fecha": "30/Ago/2017",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 9.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Administración de las Operaciones I",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "9.5",
+      "interes_clase": "",
+      "comentario": "No sé porque muchos le tienen miedo. Es un muy buen profesor, tiene un sarcasmo que pocos entienden pero todo lo que explica es claro y preciso. Deja sacar apuntes en el examen y hace preexamenes en la plataforma. Reprobar está prohibido por lo fácil que está la clase. NOFALTES",
+      "etiquetas_comentario": [
+        "Califica Duro",
+        "Da buena retroalimentación",
+        "Clases excelentes"
+      ],
+      "votos_utiles": "1",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "09/Ene/2016",
+      "tipo_calificacion": "REGULAR",
+      "puntaje_calidad_general": 5.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Admon. de las operaciones",
+      "asistencia": "",
+      "calificacion_recibida": "N/A",
+      "interes_clase": "N/A",
+      "comentario": "Me mandó a rc solo por reprobar una unidad.",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "06/Ago/2014",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 7.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "simulacion",
+      "asistencia": "",
+      "calificacion_recibida": "9.5",
+      "interes_clase": "9.5",
+      "comentario": "es buen profesor, deja sacar apuntes, tiene un sarcasmo único, eso si es muy apegado al reglamento y nunca falta, nunca!\npd. los examenes que pone en la plataforma te sirven para darte una idea de como seran sus examenes en clase.",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "13/May/2014",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 9.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Administracion de Operaciones I",
+      "asistencia": "",
+      "calificacion_recibida": "9",
+      "interes_clase": "9",
+      "comentario": "Excelente maestro, no se por que le tienen miedo, domina los temas y exámenes peladisimos, deja sacar apuntes!!... recomendadisimo, clases interesantes y si aprendes mucho.",
+      "etiquetas_comentario": [],
+      "votos_utiles": "2",
+      "votos_no_utiles": "0"
+    }
+  ]
+}

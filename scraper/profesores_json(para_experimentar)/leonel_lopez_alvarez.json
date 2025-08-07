@@ -1,0 +1,142 @@
+{
+  "nombre": "leonel lopez alvarez",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "ciudad": "Ciudad: culiacan, sinaloa",
+  "departamento": "Departamento/Facultad: ciencias basicas",
+  "calidad_general": 5.2,
+  "porcentaje_recomienda": 63,
+  "nivel_dificultad": 0.2,
+  "etiquetas": [
+    "BARCO (3)",
+    "TOMARÍA SU CLASE OTRA VEZ (1)",
+    "POCOS EXÁMENES (2)",
+    "DEJA TRABAJOS LARGOS (1)",
+    "CLASES EXCELENTES (1)"
+  ],
+  "numero_calificaciones": 8,
+  "calificaciones": [
+    {
+      "fecha": "02/Abr/2025",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 2.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Desarrollo sustentable",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "Solo se la pasa hablando de Elon Musk y de Trump",
+      "etiquetas_comentario": [
+        "Barco",
+        "Pocos Exámenes",
+        "Clases excelentes"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "18/Ene/2024",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 3.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Fundamentos de Investigación",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "9.5",
+      "interes_clase": "",
+      "comentario": "Literalmente solo habla en sus clases de cosas que nadie entiende cómo se relacionan a su materia. Como que quiere cocinar pero se le quema. Lo bueno que no le importa mucho si sacas tu teléfono, incluso en sus examenes. Es muy fácil pasar, solo haz los trabajos con ChatGPT, aunque son a mano muchos",
+      "etiquetas_comentario": [
+        "Barco",
+        "Pocos Exámenes",
+        "Deja trabajos largos"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "03/Sep/2021",
+      "tipo_calificacion": "REGULAR",
+      "puntaje_calidad_general": 6.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Dinámica social",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "Fácil pasar con el, asegúrate de no cargar una materia importante porque explicar no es lo suyo, faltó a varias sesiones y lo tecnológico no es lo suyo. Se hace bolas sólo al evaluar. Recomendado si no quieres batallar",
+      "etiquetas_comentario": [
+        "Barco",
+        "Tomaría su clase otra vez"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "21/Ago/2018",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 9.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "taller de herramientas intelectuales",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "",
+      "etiquetas_comentario": [],
+      "votos_utiles": "1",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "18/Ene/2016",
+      "tipo_calificacion": "REGULAR",
+      "puntaje_calidad_general": 5.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Herramientas Intelectuales",
+      "asistencia": "",
+      "calificacion_recibida": "5",
+      "interes_clase": "5",
+      "comentario": "La mayoría del tiempo se la pasa sentado viendo el celular, a veces no va y cuando va da como 15 minutos de clase, sus exámenes son unas pocas preguntas que te dicta y las apuntas en la libreta. Si quieres aprender hay otros profesores",
+      "etiquetas_comentario": [],
+      "votos_utiles": "2",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "27/Ene/2015",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 2.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "taller de liderazgo",
+      "asistencia": "",
+      "calificacion_recibida": "N/A",
+      "interes_clase": "N/A",
+      "comentario": "Lleve taller de liderazgo con el. Muy facil pasar pero nomas no enseña nada. Se la pasa sentado con el teléfono en la mano toda la clase",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "14/Ene/2015",
+      "tipo_calificacion": "REGULAR",
+      "puntaje_calidad_general": 5.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Etica",
+      "asistencia": "",
+      "calificacion_recibida": "8.5",
+      "interes_clase": "8.5",
+      "comentario": "Faltó seguido, en las exposiciones miraba mas su telefono que la proyeccion, examenes faciles, de que pasas, pasas",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "18/Jun/2013",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 9.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "economia",
+      "asistencia": "",
+      "calificacion_recibida": "N/A",
+      "interes_clase": "N/A",
+      "comentario": "agusto con este bato, los examenes peladisimos, pero no enseña muy bien que digamos",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    }
+  ]
+}

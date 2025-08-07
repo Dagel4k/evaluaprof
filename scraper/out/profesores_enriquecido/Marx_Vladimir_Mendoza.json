@@ -1,0 +1,76 @@
+{
+  "professor_id": "Marx_Vladimir_Mendoza",
+  "nombre": "Marx Vladimir Mendoza",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 5.0,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 6.797811000241688,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.0,
+    "wilson_interval": [
+      0,
+      0.7934567085261071
+    ],
+    "n_recommendations": 1
+  },
+  "subject_normalization": {
+    "z_mean": -0.53,
+    "z_mean_decayed": -0.53,
+    "per_subject": [
+      {
+        "materia": "ELECTRICIDAD Y ELECTRÓNICA INDUSTRIAL",
+        "z_decayed": -0.5337605126836239,
+        "n": 9
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [],
+    "sentiment": {
+      "overall": null,
+      "by_month": {}
+    },
+    "n_comments": 1
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": null,
+    "difficulty_trend": null,
+    "forecast": null,
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2013-08-09T00:00:00",
+      "materia": "ELECTRICIDAD Y ELECTRÓNICA INDUSTRIAL",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 2.0,
+      "recomienda": 0,
+      "comentario": "El tener una clase con el es como tener una clase libre, casi nunca va, y en las clases aprendes poco, solo te pone a hacer practicas sin explicarte que estás haciendo, apenas que lo preguntes, sus examenes es hacer de nuevo las practicas. Todos pasan, incluso los que nunca van. No Aprenderaz nada."
+    }
+  ],
+  "comments_recent": [
+    "El tener una clase con el es como tener una clase libre, casi nunca va, y en las clases aprendes poco, solo te pone a hacer practicas sin explicarte que estás haciendo, apenas que lo preguntes, sus examenes es hacer de nuevo las practicas. Todos pasan, incluso los que nunca van. No Aprenderaz nada."
+  ],
+  "n_reviews": 1
+}

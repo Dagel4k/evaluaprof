@@ -1,0 +1,27 @@
+{
+  "nombre": "Jose Angel Garcia León",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "ciudad": "Ciudad: culiacan, sinaloa",
+  "departamento": "Departamento/Facultad: ING. Industrial",
+  "calidad_general": 10.0,
+  "porcentaje_recomienda": 100,
+  "nivel_dificultad": 0.0,
+  "etiquetas": [],
+  "numero_calificaciones": 1,
+  "calificaciones": [
+    {
+      "fecha": "12/Ene/2019",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Desarrollo Sustentable",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "7.5",
+      "interes_clase": "",
+      "comentario": "Falta un poco, pero sus exámenes y clases fáciles, 100 seguro si no faltas.",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    }
+  ]
+}

@@ -1,0 +1,318 @@
+{
+  "nombre": "Francisco Arce Mendoza",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "ciudad": "Ciudad: culiacan, sinaloa",
+  "departamento": "Departamento/Facultad: Metal-Mecanica",
+  "calidad_general": 8.9,
+  "porcentaje_recomienda": 94,
+  "nivel_dificultad": 3.4,
+  "etiquetas": [
+    "ASISTENCIA OBLIGATORIA (4)",
+    "CLASES EXCELENTES (4)",
+    "LOS EXÁMENES SON DIFÍCILES (2)",
+    "PREPÁRATE PARA LEER (2)",
+    "LA PARTICIPACIÓN IMPORTA (6)",
+    "BRINDA APOYO (3)",
+    "RESPETADO POR LOS ESTUDIANTES (3)",
+    "CALIFICA DURO (1)",
+    "DA BUENA RETROALIMENTACIÓN (4)",
+    "TOMARÍA SU CLASE OTRA VEZ (1)"
+  ],
+  "numero_calificaciones": 18,
+  "calificaciones": [
+    {
+      "fecha": "22/Jun/2022",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Fundamentos de Termodinámica",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "Excelente profesor, explica con claridad los temas y le interesa si estás aprendiendo, deja muy buenos trabajos de estudio antes de los exámenes, si tienes oportunidad carga con él.",
+      "etiquetas_comentario": [
+        "Da buena retroalimentación",
+        "Respetado por los estudiantes",
+        "Inspiracional"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "13/Jun/2022",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 9.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Fundamentos de Termodinámica",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "Es muy buen profe, le gusta jugar con los alumnos que se hacen ver inseguros con respecto a la clase, pide un medidor de temperatura y humedad como proyecto final, si lo haces lo toma en cuenta y te sube bastante la calificación.",
+      "etiquetas_comentario": [
+        "Da buena retroalimentación",
+        "La Participación Importa",
+        "Asistencia obligatoria"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "12/Jun/2022",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Termodinammica",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "",
+      "etiquetas_comentario": [
+        "Da buena retroalimentación",
+        "La Participación Importa",
+        "Brinda apoyo"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "18/Feb/2022",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Fundamentos de termodinámica",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "Excelente profe, le gusta que sus alumnos participen y si lo hacen, da puntos extras. Explica muy bien y si quedan dudas las resuelve muy bien.",
+      "etiquetas_comentario": [
+        "Da buena retroalimentación",
+        "La Participación Importa",
+        "Tomaría su clase otra vez"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "04/Ene/2020",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 9.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Termodinamica",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "9",
+      "interes_clase": "",
+      "comentario": "-Organizado\n-puntual\n -trabajo practico\n-Motivacional\n-Dedicado por su profesión \n-Brinda ayuda\n-Responsable\n\nPor esto y más se puede afirmar que es el mejor maestro impartiendo la materia.",
+      "etiquetas_comentario": [
+        "Califica Duro",
+        "Asistencia obligatoria",
+        "Clases excelentes"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "08/Ago/2019",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 9.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Refrigeración y A/C",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "8.5",
+      "interes_clase": "",
+      "comentario": "",
+      "etiquetas_comentario": [
+        "La Participación Importa",
+        "Respetado por los estudiantes",
+        "Clases excelentes"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "17/Dic/2018",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 9.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Fundamentos de Termodinámica",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "8.5",
+      "interes_clase": "",
+      "comentario": "Es el mejor profesor, a mi parecer para impartir las clases que da, tiene muchos conocimientos de refrigeración y siempre va a poder responder tus dudas.",
+      "etiquetas_comentario": [
+        "La Participación Importa",
+        "Respetado por los estudiantes",
+        "Brinda apoyo"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "05/Ago/2018",
+      "tipo_calificacion": "REGULAR",
+      "puntaje_calidad_general": 6.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Fundamentos de Termodinámica",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "8.5",
+      "interes_clase": "",
+      "comentario": "Sus clases las hace confusas porque crea sus propios conceptos, así que tendrás que estudiar de los puros apuntes en clase para tener buena calificación, si vas mal pero pasas la mayoría de sus exámenes te da oportunidad de pasar",
+      "etiquetas_comentario": [
+        "Prepárate para leer",
+        "Brinda apoyo",
+        "Los exámenes son difíciles"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "27/Jul/2018",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 8.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Fundamentos de Termodinámica",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "El profesor es muy bueno para transmitir el conocimiento. Muchas veces se contradice con algunas cosas y le gusta hacer sus propios conceptos de las cosas, es por eso que necesitas leer el libro que él recomienda. Hacer los proyectos que deja o a los que pide voluntariado beneficia mucho.",
+      "etiquetas_comentario": [
+        "Prepárate para leer",
+        "La Participación Importa",
+        "Asistencia obligatoria"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "29/Jun/2018",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Termodinamica",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "8.5",
+      "interes_clase": "",
+      "comentario": "",
+      "etiquetas_comentario": [
+        "Clases excelentes"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "12/Ago/2017",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 8.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "refrigeracion",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "8",
+      "interes_clase": "",
+      "comentario": "",
+      "etiquetas_comentario": [
+        "Asistencia obligatoria",
+        "Clases excelentes",
+        "Los exámenes son difíciles"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "18/Ene/2016",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 8.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Termodinámica",
+      "asistencia": "",
+      "calificacion_recibida": "9.5",
+      "interes_clase": "9.5",
+      "comentario": "Muy buen profesor. Sabe mucho y le gusta que los alumnos sean participativos. Sus exámenes son difíciles, tanto los teóricos como los de operaciones. Toma mucho en cuenta las prácticas y, el trabajo del termómetro, a pesar de ser opcional, si lo toma en cuenta (aunque parezca que no).",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "16/Ene/2016",
+      "tipo_calificacion": "REGULAR",
+      "puntaje_calidad_general": 6.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Termodinamica",
+      "asistencia": "",
+      "calificacion_recibida": "8",
+      "interes_clase": "8",
+      "comentario": "Si lo recomiendo, porque enseña bien, pero no es facil pasar, porque si te equivocas en un signo en su examen no lo perdona, tambien te deja hacer un termometro, dice que te ayudara en la calificacion pero al final se le olvida y no te ayuda en nada, mejor no gastes dinero.",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "11/Ene/2014",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 9.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Termodinamica",
+      "asistencia": "",
+      "calificacion_recibida": "8",
+      "interes_clase": "8",
+      "comentario": "Mis respetos para este profesor, Termodinamica es de ley con el si quieres aprender, te enseña de manera que entiendes la relacion de la materia con el ambito industrial, sus examenes son complicados pero si le hechas ganas pasas.",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "19/Mar/2013",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Fundamentos de termodinamica",
+      "asistencia": "",
+      "calificacion_recibida": "10",
+      "interes_clase": "10",
+      "comentario": "Sus exámenes son relativamente difíciles, pero solo usa como referencia esa calificación si eres muy activo en clase te lo compensará y la verdad explica muy bien aunque tenga una voz arrulladora recomendado para quien quiera aprender",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "01/Ago/2012",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "materiales en la ingenieria",
+      "asistencia": "",
+      "calificacion_recibida": "10",
+      "interes_clase": "10",
+      "comentario": "a este profecer le gusta que sus alumnos vallan a asesorias con el. y la verdad explica muy bien.",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "06/Ene/2012",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Materiales",
+      "asistencia": "",
+      "calificacion_recibida": "10",
+      "interes_clase": "10",
+      "comentario": "",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "15/Dic/2011",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 9.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Mecanica",
+      "asistencia": "",
+      "calificacion_recibida": "10",
+      "interes_clase": "10",
+      "comentario": "Buen profesor",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "1"
+    }
+  ]
+}

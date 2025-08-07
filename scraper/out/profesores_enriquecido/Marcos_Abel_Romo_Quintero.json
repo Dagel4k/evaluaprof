@@ -1,0 +1,91 @@
+{
+  "professor_id": "Marcos_Abel_Romo_Quintero",
+  "nombre": "Marcos Abel Romo Quintero",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 3.2140096256973685,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 6.397993416888213,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.0,
+    "wilson_interval": [
+      0,
+      0.6576280471103807
+    ],
+    "n_recommendations": 2
+  },
+  "subject_normalization": {
+    "z_mean": -1.15,
+    "z_mean_decayed": -1.17,
+    "per_subject": [
+      {
+        "materia": "ADMINISTRACIÓN DE REDES",
+        "z_decayed": -1.0596258856520353,
+        "n": 3
+      },
+      {
+        "materia": "REDES DE COMPUTADORAS",
+        "z_decayed": -1.239739004869834,
+        "n": 15
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [],
+    "sentiment": {
+      "overall": null,
+      "by_month": {}
+    },
+    "n_comments": 2
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": null,
+    "difficulty_trend": null,
+    "forecast": null,
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2020-01-13T00:00:00",
+      "materia": "REDES DE COMPUTADORAS",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Lo vi cinco veces en todo el semestre."
+    },
+    {
+      "fecha_iso": "2018-12-02T00:00:00",
+      "materia": "ADMINISTRACIÓN DE REDES",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 23.0,
+      "recomienda": 0,
+      "comentario": "El maestro falta mucho, si acaso entra a clases una vez ala semana, lo importante es que le entregues el proyecto final , lo demás como la asistencia no es relevante."
+    }
+  ],
+  "comments_recent": [
+    "Lo vi cinco veces en todo el semestre.",
+    "El maestro falta mucho, si acaso entra a clases una vez ala semana, lo importante es que le entregues el proyecto final , lo demás como la asistencia no es relevante."
+  ],
+  "n_reviews": 2
+}

@@ -1,0 +1,117 @@
+{
+  "professor_id": "MANUEL_DE_JESUS_SANDOVAL_LOPEZ",
+  "nombre": "MANUEL DE JESUS SANDOVAL LOPEZ",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 3.9965575358607603,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 6.21353238481989,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.0,
+    "wilson_interval": [
+      0,
+      0.5615060804490177
+    ],
+    "n_recommendations": 3
+  },
+  "subject_normalization": {
+    "z_mean": -1.62,
+    "z_mean_decayed": -1.52,
+    "per_subject": [
+      {
+        "materia": "ECUACIONES DIFERENCIALES",
+        "z_decayed": -0.9361274393638567,
+        "n": 56
+      },
+      {
+        "materia": "PROBABILIDAD Y ESTADISTICA",
+        "z_decayed": -1.9583929756910081,
+        "n": 32
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [],
+    "sentiment": {
+      "overall": null,
+      "by_month": {}
+    },
+    "n_comments": 2
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        2.5,
+        6.0
+      ],
+      "ewma": [
+        2.5,
+        3.55
+      ],
+      "sigma": 1.7324116139070416
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 3.55,
+      "quality_band": [
+        0.1544732367421986,
+        6.945526763257801
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2019-08-05T00:00:00",
+      "materia": "ECUACIONES DIFERENCIALES",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 0,
+      "comentario": "Es un profesor promedio, no es bueno ni malo.\nEs cierto que sus clases son tediosas y dicen que es malo para explicar (lo cual no es verdad). Sabe del tema pero en ocasiones se equivoca, por lo cual debes estar al pendiente de lo que hace para corregirlo. Es buena persona."
+    },
+    {
+      "fecha_iso": "2018-06-08T00:00:00",
+      "materia": "PROBABILIDAD Y ESTADISTICA",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Pesimo profesor super desinteresado por las clases, sus clases son muy malas si es que llega a ir, no explica nada, literal solo escribe en el pizarron y dicta lo que escribe, sus examenes son raros y no te dice cuanto sacaste solo si pasaste o no, evitenlo."
+    },
+    {
+      "fecha_iso": "2018-06-08T00:00:00",
+      "materia": "PROBABILIDAD Y ESTADISTICA",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 0,
+      "comentario": ""
+    }
+  ],
+  "comments_recent": [
+    "Es un profesor promedio, no es bueno ni malo.\nEs cierto que sus clases son tediosas y dicen que es malo para explicar (lo cual no es verdad). Sabe del tema pero en ocasiones se equivoca, por lo cual debes estar al pendiente de lo que hace para corregirlo. Es buena persona.",
+    "Pesimo profesor super desinteresado por las clases, sus clases son muy malas si es que llega a ir, no explica nada, literal solo escribe en el pizarron y dicta lo que escribe, sus examenes son raros y no te dice cuanto sacaste solo si pasaste o no, evitenlo."
+  ],
+  "n_reviews": 3
+}

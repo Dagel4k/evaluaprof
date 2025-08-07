@@ -1,0 +1,86 @@
+{
+  "professor_id": "Victor_alejandro_Gonzalez_huitron",
+  "nombre": "Victor alejandro Gonzalez huitron",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 10.0,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.481326750221547,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 1.0,
+    "wilson_interval": [
+      0.3423719528896193,
+      1
+    ],
+    "n_recommendations": 2
+  },
+  "subject_normalization": {
+    "z_mean": 0.89,
+    "z_mean_decayed": 0.89,
+    "per_subject": [
+      {
+        "materia": "PROGRAMACIÓN AVANZADA",
+        "z_decayed": 0.8856148855400955,
+        "n": 6
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [],
+    "sentiment": {
+      "overall": null,
+      "by_month": {}
+    },
+    "n_comments": 2
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": null,
+    "difficulty_trend": null,
+    "forecast": null,
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2020-03-12T00:00:00",
+      "materia": "PROGRAMACIÓN AVANZADA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Desgraciadamente este Doctor da clases al final de la carrera. Me hubiese gustado haber llevado más materias con él pero nimodo. Es un excelente profesor, brinda mucho apoyo, es cómico, habla con voz un poco atenuada pero explica muy clara todos los temas de la materia. Es una macana!"
+    },
+    {
+      "fecha_iso": "2020-01-11T00:00:00",
+      "materia": "PROGRAMACIÓN AVANZADA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Excelente maestro, es uno  de los maestros que más te ayudará a lo largo de la carrera, es muy accesible y siempre vera la forma de echarte la mano, súper recomendado es un amor"
+    }
+  ],
+  "comments_recent": [
+    "Desgraciadamente este Doctor da clases al final de la carrera. Me hubiese gustado haber llevado más materias con él pero nimodo. Es un excelente profesor, brinda mucho apoyo, es cómico, habla con voz un poco atenuada pero explica muy clara todos los temas de la materia. Es una macana!",
+    "Excelente maestro, es uno  de los maestros que más te ayudará a lo largo de la carrera, es muy accesible y siempre vera la forma de echarte la mano, súper recomendado es un amor"
+  ],
+  "n_reviews": 2
+}

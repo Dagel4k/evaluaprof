@@ -1,0 +1,223 @@
+{
+  "nombre": "Aida Beatriz Serrano Munguia",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "ciudad": "Ciudad: culiacan, sinaloa",
+  "departamento": "Departamento/Facultad: Ciencias Basicas",
+  "calidad_general": 5.4,
+  "porcentaje_recomienda": 33,
+  "nivel_dificultad": 4.3,
+  "etiquetas": [
+    "CALIFICA DURO (5)",
+    "MUCHAS TAREAS (4)",
+    "HACE EXÁMENES SORPRESA (1)",
+    "LOS EXÁMENES SON DIFÍCILES (4)",
+    "DA BUENA RETROALIMENTACIÓN (1)",
+    "LA PARTICIPACIÓN IMPORTA (1)",
+    "BRINDA APOYO (1)",
+    "DEJA TRABAJOS LARGOS (1)",
+    "LAS CLASES SON LARGAS (1)",
+    "ASISTENCIA OBLIGATORIA (1)"
+  ],
+  "numero_calificaciones": 12,
+  "calificaciones": [
+    {
+      "fecha": "30/Dic/2024",
+      "tipo_calificacion": "REGULAR",
+      "puntaje_calidad_general": 6.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Quimica",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "24",
+      "interes_clase": "",
+      "comentario": "Casi todo su material de clases son de presentaciones y casi no escribe en el pizarron, por mi parte a mi no me gusta ver solo diapositiva la verdad y casi no aprendi, aparte si no entregas una tarea bien, o no la entregas como te lo especifica te perjudica mucho en la calificacion.",
+      "etiquetas_comentario": [
+        "Muchas tareas"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "19/Feb/2024",
+      "tipo_calificacion": "REGULAR",
+      "puntaje_calidad_general": 5.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Química - mecánica",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "8.5",
+      "interes_clase": "",
+      "comentario": "Solo se levanta tres veces en el semestre, deja mucha tarea en canvas en vez de teams retardando las cosas, no avisa algunas tareas, se omitió todo una unidad a base de tareas y, no tiene buena ortografía para escribir los exámenes impresos, una tarea no entregada te perjudica gravemente.",
+      "etiquetas_comentario": [
+        "Muchas tareas",
+        "Prepárate para leer"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "16/Ene/2023",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 3.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Lo",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "8.5",
+      "interes_clase": "",
+      "comentario": "",
+      "etiquetas_comentario": [
+        "Califica Duro",
+        "Asistencia obligatoria",
+        "Muchos Exámenes"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "20/Ene/2022",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 2.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Química",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "8.5",
+      "interes_clase": "",
+      "comentario": "No te ayuda en ninguna duda",
+      "etiquetas_comentario": [
+        "Califica Duro",
+        "Los exámenes son difíciles"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "18/Ene/2022",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 7.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Química",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "9.5",
+      "interes_clase": "",
+      "comentario": "Es buena profesora. Sabe mucho de su materia, aunque eso hace que explique como si nosotros también supiéramos todo. Si pones atención y te aplicas, si aprendes con ella y pasas. Si buscas pasar fácil, no es para ti.",
+      "etiquetas_comentario": [
+        "Califica Duro",
+        "Las clases son largas",
+        "Los exámenes son difíciles"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "21/Ene/2021",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 2.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "QUIMICa",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "8.5",
+      "interes_clase": "",
+      "comentario": "",
+      "etiquetas_comentario": [
+        "Califica Duro",
+        "Deja trabajos largos",
+        "Los exámenes son difíciles"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "06/Abr/2020",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Quimica",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "8.5",
+      "interes_clase": "",
+      "comentario": "",
+      "etiquetas_comentario": [
+        "Da buena retroalimentación",
+        "La Participación Importa",
+        "Brinda apoyo"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "19/Jun/2018",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Química",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "N/A",
+      "interes_clase": "",
+      "comentario": "Esta maestra tiene mucho conocimiento, es clara cuando explica y en cuestión de los trabajos usa una plataforma que en mi opinión lo hace mas fácil.\nAparte es muy humana, yo si la recomiendo.\nCumple con todo y te va a ir bien",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "14/Ene/2018",
+      "tipo_calificacion": "REGULAR",
+      "puntaje_calidad_general": 6.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Quimica",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "8.5",
+      "interes_clase": "",
+      "comentario": "La maestra es una señora de edad mayor este semestre tuvo un accidente por tanto falto como 2 semanas y cuando regreso creia que éramos unos expertos, todo lo hace por plataforma y si no subes los archivos a tiempo no califica, los examen tambien y son complicados por que no enseña nada.",
+      "etiquetas_comentario": [
+        "Muchas tareas",
+        "Los exámenes son difíciles"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "13/Ene/2018",
+      "tipo_calificacion": "REGULAR",
+      "puntaje_calidad_general": 5.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Quimica",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "9",
+      "interes_clase": "",
+      "comentario": "Deja tareas que ni explica y piensa que eres un experto en quimica cuando explica algo nuevo que ni sabes. Los examenes, tareas y todo son en plataforma y estan dificiles no la recomiendo",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "22/Feb/2016",
+      "tipo_calificacion": "REGULAR",
+      "puntaje_calidad_general": 6.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Quimica",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "8.5",
+      "interes_clase": "",
+      "comentario": "",
+      "etiquetas_comentario": [
+        "Califica Duro",
+        "Muchas tareas",
+        "Hace exámenes sorpresa"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "11/Ene/2016",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 3.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Quimica",
+      "asistencia": "",
+      "calificacion_recibida": "8",
+      "interes_clase": "8",
+      "comentario": "La maestra te quiere explicar como si fueras experto en la materia y si le preguntas te tacha de tonto, no la recomiendo!",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    }
+  ]
+}

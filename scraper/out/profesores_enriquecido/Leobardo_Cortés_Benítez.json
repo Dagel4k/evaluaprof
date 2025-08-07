@@ -1,0 +1,242 @@
+{
+  "professor_id": "Leobardo_Cortés_Benítez",
+  "nombre": "Leobardo Cortés Benítez",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 6.194734152082757,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 6.672416894876767,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.444,
+    "wilson_interval": [
+      0.188775429471914,
+      0.7333526542559703
+    ],
+    "n_recommendations": 9
+  },
+  "subject_normalization": {
+    "z_mean": -0.72,
+    "z_mean_decayed": -1.17,
+    "per_subject": [
+      {
+        "materia": "VARIAS",
+        "z_decayed": -0.16495721976846456,
+        "n": 3
+      },
+      {
+        "materia": "ELECTRÓNICA DE POTENCIA",
+        "z_decayed": -1.2663876203128999,
+        "n": 6
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "maestros",
+          "accesible",
+          "ayuda",
+          "etica",
+          "es"
+        ],
+        "weight": 0.13669072758283074
+      },
+      {
+        "id": 1,
+        "words": [
+          "gusta",
+          "maestros",
+          "porque",
+          "tener",
+          "muerto"
+        ],
+        "weight": 0.16676625693775854
+      },
+      {
+        "id": 2,
+        "words": [
+          "es",
+          "accesible",
+          "tener",
+          "ensena",
+          "buen"
+        ],
+        "weight": 0.16932697375756406
+      },
+      {
+        "id": 3,
+        "words": [
+          "maestros",
+          "tener",
+          "ensena",
+          "gusta",
+          "porque"
+        ],
+        "weight": 0.13052520755761277
+      }
+    ],
+    "sentiment": {
+      "overall": 0.0,
+      "by_month": {
+        "2024-02": 0.0,
+        "2021-12": 0.0,
+        "2020-08": 0.0,
+        "2019-06": 0.0,
+        "2017-06": 0.0,
+        "2014-08": 0.0,
+        "2012-10": 0.0
+      }
+    },
+    "n_comments": 8
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        5.0,
+        4.0,
+        10.0,
+        10.0,
+        2.0,
+        9.0,
+        8.0,
+        5.0
+      ],
+      "ewma": [
+        5.0,
+        4.7,
+        6.29,
+        7.403,
+        5.782099999999999,
+        6.747469999999998,
+        7.1232289999999985,
+        6.486260299999999
+      ],
+      "sigma": 2.445142452448397
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 6.486260299999999,
+      "quality_band": [
+        1.6937810932011406,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2024-02-10T00:00:00",
+      "materia": "ELECTRONICA DE POTENCIA APLICADA",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 7.5,
+      "recomienda": 0,
+      "comentario": "Es sin duda de los maestros con menos ética que he conocido. Se la pasaba burlándose de los estudiantes, se reía de ellos en la cara y se lavaba las manos cuando querías ayuda de su parte. En sus exámenes teóricos pone problemas que necesitas calculadora y el asume que puedes hacer todo con la mente"
+    },
+    {
+      "fecha_iso": "2021-12-16T00:00:00",
+      "materia": "ELECTRÓNICA INDUSTRIAL",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Debe ser uno de los mejores maestros que hay en el tec. Se preocupa porque todos aprendan y hasta cambia la forma en que enseña para conseguirlo. Cada equipo debe tener una sesión con el explicando los proyectos que hicieron, asi que no sirve de nada copiar y por eso a muchos no les gusta."
+    },
+    {
+      "fecha_iso": "2020-08-10T00:00:00",
+      "materia": "ELECTRÓNICA DE POTENCIA APLICADA",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": "Modalidad en línea: Buen profesor y accesible. Es muy duro calificando y espera que se le trate con el debido respeto para tener una buena convivencia. Las tareas que suele dejar vienen en los libros que él recomienda."
+    },
+    {
+      "fecha_iso": "2019-06-10T00:00:00",
+      "materia": "ELECTRÓNICA DE POTENCIA",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 24.0,
+      "recomienda": 0,
+      "comentario": "Es un asco de maestro, su ética profesional nunca le permite ayudar a sus alumnos, nunca le pidas ayuda porque te hará sentir mal y no es accesible para nada, nunca está en su cubículo y le gusta reírse de los que repiten curso"
+    },
+    {
+      "fecha_iso": "2017-06-13T00:00:00",
+      "materia": "INLGES 3",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "buen teacher la neta enseña bien machin el verbo to be"
+    },
+    {
+      "fecha_iso": "2014-09-09T00:00:00",
+      "materia": "ELECTRÓNICA INDUSTRIAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2014-08-18T00:00:00",
+      "materia": "POTENCIA",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Yo Queria al muerto #NomellamoJuanRuiz"
+    },
+    {
+      "fecha_iso": "2014-08-18T00:00:00",
+      "materia": "ELECTRONICA DE POTENCIA.",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 6.0,
+      "recomienda": 0,
+      "comentario": "Bale Berga la Bida, habiamos cargado a muerto y nos movieron con leobardo."
+    },
+    {
+      "fecha_iso": "2012-10-09T00:00:00",
+      "materia": "VARIAS",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 6.5,
+      "recomienda": 0,
+      "comentario": "Muy enredoso todo y muy eexigente en cosas que ni al caso"
+    }
+  ],
+  "comments_recent": [
+    "Es sin duda de los maestros con menos ética que he conocido. Se la pasaba burlándose de los estudiantes, se reía de ellos en la cara y se lavaba las manos cuando querías ayuda de su parte. En sus exámenes teóricos pone problemas que necesitas calculadora y el asume que puedes hacer todo con la mente",
+    "Debe ser uno de los mejores maestros que hay en el tec. Se preocupa porque todos aprendan y hasta cambia la forma en que enseña para conseguirlo. Cada equipo debe tener una sesión con el explicando los proyectos que hicieron, asi que no sirve de nada copiar y por eso a muchos no les gusta.",
+    "Modalidad en línea: Buen profesor y accesible. Es muy duro calificando y espera que se le trate con el debido respeto para tener una buena convivencia. Las tareas que suele dejar vienen en los libros que él recomienda.",
+    "Es un asco de maestro, su ética profesional nunca le permite ayudar a sus alumnos, nunca le pidas ayuda porque te hará sentir mal y no es accesible para nada, nunca está en su cubículo y le gusta reírse de los que repiten curso",
+    "buen teacher la neta enseña bien machin el verbo to be",
+    "Yo Queria al muerto #NomellamoJuanRuiz",
+    "Bale Berga la Bida, habiamos cargado a muerto y nos movieron con leobardo.",
+    "Muy enredoso todo y muy eexigente en cosas que ni al caso"
+  ],
+  "n_reviews": 9
+}

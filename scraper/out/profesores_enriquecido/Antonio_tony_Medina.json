@@ -1,0 +1,137 @@
+{
+  "professor_id": "Antonio_tony_Medina",
+  "nombre": "Antonio (tony) Medina",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 10.0,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.841137214475611,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 1.0,
+    "wilson_interval": [
+      0.5100999795960008,
+      1
+    ],
+    "n_recommendations": 4
+  },
+  "subject_normalization": {
+    "z_mean": 0.91,
+    "z_mean_decayed": 0.92,
+    "per_subject": [
+      {
+        "materia": "CALCULO",
+        "z_decayed": 1.0700898076746443,
+        "n": 50
+      },
+      {
+        "materia": "CÁLCULO DIFERENCIAL",
+        "z_decayed": 0.7526588922815561,
+        "n": 46
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [],
+    "sentiment": {
+      "overall": 0.25,
+      "by_month": {
+        "2013-11": 0.0,
+        "2013-10": 0.0,
+        "2013-09": 0.0,
+        "2013-08": 1.0
+      }
+    },
+    "n_comments": 4
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        10.0,
+        10.0,
+        10.0,
+        10.0
+      ],
+      "ewma": [
+        10.0,
+        10.0,
+        10.0,
+        10.0
+      ],
+      "sigma": 0.0
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 10.0,
+      "quality_band": [
+        10.0,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2013-11-14T00:00:00",
+      "materia": "CALCULO DIFERENCIAL/ PROBABILIDAD Y ESTADISTICA.",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Se la Rifa el compilla."
+    },
+    {
+      "fecha_iso": "2013-10-18T00:00:00",
+      "materia": "CALCULO",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "la neta este vato si sabe explicar no como otros profesores de calculo"
+    },
+    {
+      "fecha_iso": "2013-09-21T00:00:00",
+      "materia": "CIENCIAS BASICAS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Esta madre no califica con 11 =) este compa lo merece =)"
+    },
+    {
+      "fecha_iso": "2013-08-04T00:00:00",
+      "materia": "CÁLCULO DIFERENCIAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Muy bueno"
+    }
+  ],
+  "comments_recent": [
+    "Se la Rifa el compilla.",
+    "la neta este vato si sabe explicar no como otros profesores de calculo",
+    "Esta madre no califica con 11 =) este compa lo merece =)",
+    "Muy bueno"
+  ],
+  "n_reviews": 4
+}

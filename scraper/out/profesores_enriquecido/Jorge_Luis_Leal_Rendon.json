@@ -1,0 +1,130 @@
+{
+  "professor_id": "Jorge_Luis_Leal_Rendon",
+  "nombre": "Jorge Luis Leal Rendon",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 7.690584452120418,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 6.912565785904183,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.5,
+    "wilson_interval": [
+      0.15003570882017145,
+      0.8499642911798285
+    ],
+    "n_recommendations": 4
+  },
+  "subject_normalization": {
+    "z_mean": 0.2,
+    "z_mean_decayed": 0.35,
+    "per_subject": [
+      {
+        "materia": "MATEMÁTICAS DISCRETAS",
+        "z_decayed": 0.7510101014678422,
+        "n": 28
+      },
+      {
+        "materia": "SIMULACION",
+        "z_decayed": 0.0668167937624668,
+        "n": 23
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [],
+    "sentiment": {
+      "overall": null,
+      "by_month": {}
+    },
+    "n_comments": 2
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        6.0,
+        4.0,
+        10.0,
+        7.0
+      ],
+      "ewma": [
+        6.0,
+        5.3999999999999995,
+        6.779999999999999,
+        6.846
+      ],
+      "sigma": 1.9474724645036707
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 6.846,
+      "quality_band": [
+        3.0289539695728056,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2019-12-11T00:00:00",
+      "materia": "SIMULACION",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Buen maestro en general da muchas facilidades y hace que te intereses en clase"
+    },
+    {
+      "fecha_iso": "2019-05-18T00:00:00",
+      "materia": "MATEMÁTICAS DISCRETAS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2016-01-14T00:00:00",
+      "materia": "ARQUITECTURA DE COMPUTADORAS.",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 3.0,
+      "recomienda": 0,
+      "comentario": "Sus clases son de puro escribir lo que te dicta, no explica casi nada, viene cuando quiere, todos pueden sacar apuntes y celulares en los examenes, examenes de preguntas abiertas, a veces no te queda de otra mas que cargar con el.\ny todos pasan."
+    },
+    {
+      "fecha_iso": "2014-07-02T00:00:00",
+      "materia": "SIMULACION",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": ""
+    }
+  ],
+  "comments_recent": [
+    "Buen maestro en general da muchas facilidades y hace que te intereses en clase",
+    "Sus clases son de puro escribir lo que te dicta, no explica casi nada, viene cuando quiere, todos pueden sacar apuntes y celulares en los examenes, examenes de preguntas abiertas, a veces no te queda de otra mas que cargar con el.\ny todos pasan."
+  ],
+  "n_reviews": 4
+}

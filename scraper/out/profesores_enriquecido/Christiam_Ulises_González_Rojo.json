@@ -1,0 +1,315 @@
+{
+  "professor_id": "Christiam_Ulises_González_Rojo",
+  "nombre": "Christiam Ulises González Rojo",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 6.3365826872315845,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.240663375110773,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.714,
+    "wilson_interval": [
+      0.4535045882751561,
+      0.882788120898909
+    ],
+    "n_recommendations": 14
+  },
+  "subject_normalization": {
+    "z_mean": 0.01,
+    "z_mean_decayed": -0.01,
+    "per_subject": [
+      {
+        "materia": "SISTEMAS",
+        "z_decayed": 0.8581943515359345,
+        "n": 13
+      },
+      {
+        "materia": "SIX SIGMA",
+        "z_decayed": 0.5,
+        "n": 4
+      },
+      {
+        "materia": "---",
+        "z_decayed": 0.14038488678412547,
+        "n": 521
+      },
+      {
+        "materia": "ADMINISTRACIÓN DE LA PRODUCTIVIDAD",
+        "z_decayed": -2.2979235052966613,
+        "n": 8
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "esperando",
+          "esperando revision",
+          "revision",
+          "comentario esperando",
+          "comentario"
+        ],
+        "weight": 0.21670805933943424
+      },
+      {
+        "id": 1,
+        "words": [
+          "mas",
+          "ingenieria industrial",
+          "ingenieria",
+          "es",
+          "maestro"
+        ],
+        "weight": 0.09018725601542434
+      },
+      {
+        "id": 2,
+        "words": [
+          "mas",
+          "es",
+          "te",
+          "si",
+          "ver"
+        ],
+        "weight": 0.09095420861146214
+      },
+      {
+        "id": 3,
+        "words": [
+          "ingenieria industrial",
+          "ingenieria",
+          "mas",
+          "sabe",
+          "neta"
+        ],
+        "weight": 0.07703959499568623
+      },
+      {
+        "id": 4,
+        "words": [
+          "te",
+          "mejor maestro",
+          "industrial",
+          "es mejor",
+          "mejor"
+        ],
+        "weight": 0.10259040901173971
+      }
+    ],
+    "sentiment": {
+      "overall": 0.15384615384615385,
+      "by_month": {
+        "2023-03": 0.0,
+        "2018-06": 0.0,
+        "2018-05": 1.0,
+        "2017-03": 0.0,
+        "2015-01": 0.0,
+        "2014-03": 1.0,
+        "2014-01": 0.0,
+        "2013-12": 0.0,
+        "2013-03": 0.0
+      }
+    },
+    "n_comments": 13
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.192,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 0.9
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        10.0,
+        7.0,
+        7.333333333333333,
+        9.0,
+        10.0,
+        10.0,
+        2.0,
+        2.0,
+        10.0,
+        6.0
+      ],
+      "ewma": [
+        10.0,
+        9.1,
+        8.569999999999999,
+        8.698999999999998,
+        9.089299999999998,
+        9.362509999999999,
+        7.153756999999998,
+        5.607629899999998,
+        6.925340929999999,
+        6.647738650999999
+      ],
+      "sigma": 2.3710460054856957
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 6.647738650999999,
+      "quality_band": [
+        2.000488480248036,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2023-03-18T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2023-03-14T00:00:00",
+      "materia": "---",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2019-08-20T00:00:00",
+      "materia": "SIG SIGMA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2018-06-04T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2018-05-21T00:00:00",
+      "materia": "ADMINISTRACIÓN DE LA PRODUCTIVIDAD",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 0,
+      "comentario": "Bueno para nada que no da clases en todo el semestre y se presenta al final para dejar un proyecto que nada que ver. Si quieres aprender carga con cualquiera menos el"
+    },
+    {
+      "fecha_iso": "2017-03-11T00:00:00",
+      "materia": "SEIS SIGMA Y ADMON.DE OPERACIONES 2",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Es el mejor maestro de Ing.Industrial, te reta a ser mejor persona y desarrollarte realmente, y lo mejor de todo te muestra que la Ing.Industrial es la mejor carrera."
+    },
+    {
+      "fecha_iso": "2015-01-06T00:00:00",
+      "materia": "SIX SIGMA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Es de esos maestros que empiezas queriéndolo matar y después terminas amándolo si te ba hacer ver las cosas como son en realidad y lo que mas me gusto es que a pesar de que sabe muchísimo no te humilla como los doctores que se la pegan de sabelotodos"
+    },
+    {
+      "fecha_iso": "2015-01-04T00:00:00",
+      "materia": "SIX SIGMA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Solo diré una Cosa: ES EL MEJOR MAESTRO DE INGENIERIA INDUSTRIAL."
+    },
+    {
+      "fecha_iso": "2014-03-19T00:00:00",
+      "materia": "ADMON OPERACIONES",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "la verdad exagera mucho con eso de las asistencias y los retardos pero fuera de eso es un excelente maestro."
+    },
+    {
+      "fecha_iso": "2014-01-27T00:00:00",
+      "materia": "RESIDENCIAS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "La neta se pasan no manchen no es posible que no comprendieran que el maestro tenía una enfermedad que puso en peligro su vida y que por eso faltaba, fue mi asesor de residencias y les apuesto lo que quieran que es el maestro que más sabe  de ingeniería industrial, yo lo súper recomiendo"
+    },
+    {
+      "fecha_iso": "2014-01-10T00:00:00",
+      "materia": "---",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 1,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2014-01-09T00:00:00",
+      "materia": "---",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 1.0,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2013-12-19T00:00:00",
+      "materia": "---",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2013-03-10T00:00:00",
+      "materia": "SISTEMAS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "carguen con el plebes sabe mucho y no esta tan difisil con el de los mejores profes del tec la neta"
+    }
+  ],
+  "comments_recent": [
+    "[Comentario esperando revisión]",
+    "[Comentario esperando revisión]",
+    "[Comentario esperando revisión]",
+    "Bueno para nada que no da clases en todo el semestre y se presenta al final para dejar un proyecto que nada que ver. Si quieres aprender carga con cualquiera menos el",
+    "Es el mejor maestro de Ing.Industrial, te reta a ser mejor persona y desarrollarte realmente, y lo mejor de todo te muestra que la Ing.Industrial es la mejor carrera.",
+    "Es de esos maestros que empiezas queriéndolo matar y después terminas amándolo si te ba hacer ver las cosas como son en realidad y lo que mas me gusto es que a pesar de que sabe muchísimo no te humilla como los doctores que se la pegan de sabelotodos",
+    "Solo diré una Cosa: ES EL MEJOR MAESTRO DE INGENIERIA INDUSTRIAL.",
+    "la verdad exagera mucho con eso de las asistencias y los retardos pero fuera de eso es un excelente maestro.",
+    "La neta se pasan no manchen no es posible que no comprendieran que el maestro tenía una enfermedad que puso en peligro su vida y que por eso faltaba, fue mi asesor de residencias y les apuesto lo que quieran que es el maestro que más sabe  de ingeniería industrial, yo lo súper recomiendo"
+  ],
+  "n_reviews": 14
+}

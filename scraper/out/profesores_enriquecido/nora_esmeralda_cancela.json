@@ -1,0 +1,594 @@
+{
+  "professor_id": "nora_esmeralda_cancela",
+  "nombre": "nora esmeralda cancela",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 7.894519510913268,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.654806829843799,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.73,
+    "wilson_interval": [
+      0.5702152452607867,
+      0.8460270175300932
+    ],
+    "n_recommendations": 37
+  },
+  "subject_normalization": {
+    "z_mean": 0.29,
+    "z_mean_decayed": 0.23,
+    "per_subject": [
+      {
+        "materia": "IA",
+        "z_decayed": 1.5554275420956378,
+        "n": 7
+      },
+      {
+        "materia": "---",
+        "z_decayed": 1.1039466558446691,
+        "n": 521
+      },
+      {
+        "materia": "POO",
+        "z_decayed": 0.782098456755886,
+        "n": 62
+      },
+      {
+        "materia": "PROGRAMACIÓN BÁSICA",
+        "z_decayed": 0.704021330899161,
+        "n": 14
+      },
+      {
+        "materia": "INTELIGENCIA ARTIFICIAL",
+        "z_decayed": 0.4466046971065705,
+        "n": 12
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "esperando",
+          "comentario",
+          "comentario esperando",
+          "esperando revision",
+          "revision"
+        ],
+        "weight": 0.12203916332807488
+      },
+      {
+        "id": 1,
+        "words": [
+          "bien",
+          "deja",
+          "ensena",
+          "si",
+          "falta"
+        ],
+        "weight": 0.08790538801684966
+      },
+      {
+        "id": 2,
+        "words": [
+          "gracias maestra",
+          "gracias",
+          "profesora",
+          "excelente profesora",
+          "excelente"
+        ],
+        "weight": 0.06050305584063303
+      },
+      {
+        "id": 3,
+        "words": [
+          "mejor",
+          "chismosa",
+          "es peor",
+          "peor",
+          "es"
+        ],
+        "weight": 0.0885826643811117
+      },
+      {
+        "id": 4,
+        "words": [
+          "clara",
+          "si",
+          "explica",
+          "ayuda",
+          "clases"
+        ],
+        "weight": 0.12760350965831316
+      }
+    ],
+    "sentiment": {
+      "overall": 0.1388888888888889,
+      "by_month": {
+        "2024-09": 0.0,
+        "2024-02": 0.0,
+        "2023-09": 0.0,
+        "2023-06": 0.0,
+        "2023-02": 0.0,
+        "2023-01": 1.0,
+        "2022-12": 0.0,
+        "2022-10": 0.0,
+        "2022-07": -1.0,
+        "2022-06": 0.0,
+        "2022-04": 0.0,
+        "2022-02": 0.0,
+        "2021-10": 0.0,
+        "2021-07": 1.0,
+        "2020-03": 0.0,
+        "2020-01": 0.0,
+        "2019-11": 0.0,
+        "2019-08": 0.0,
+        "2018-10": 0.0,
+        "2018-09": 0.0,
+        "2018-08": 1.0,
+        "2017-03": 0.0,
+        "2017-02": 0.0,
+        "2016-03": 0.0,
+        "2013-06": 0.0,
+        "2012-11": 0.0,
+        "2012-08": 1.0,
+        "2012-06": 1.0,
+        "2011-12": 0.0,
+        "2011-10": 0.0,
+        "2011-09": 0.5
+      }
+    },
+    "n_comments": 36
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.033,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 0.98
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        6.0,
+        5.0,
+        9.0,
+        10.0,
+        10.0,
+        8.0,
+        10.0,
+        2.0,
+        10.0,
+        3.0,
+        10.0,
+        2.0,
+        7.333333333333333,
+        8.0,
+        10.0,
+        9.0,
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        6.0,
+        8.0,
+        7.0,
+        10.0,
+        8.0,
+        10.0,
+        10.0,
+        8.0,
+        2.0,
+        6.0,
+        10.0,
+        6.0
+      ],
+      "ewma": [
+        6.0,
+        5.699999999999999,
+        6.6899999999999995,
+        7.682999999999999,
+        8.3781,
+        8.264669999999999,
+        8.785269,
+        6.749688299999999,
+        7.724781809999999,
+        6.307347266999999,
+        7.415143086899999,
+        5.790600160829999,
+        6.253420112580999,
+        6.777394078806699,
+        7.744175855164689,
+        8.12092309861528,
+        8.684646169030696,
+        9.079252318321487,
+        9.35547662282504,
+        9.548833635977529,
+        8.484183545184269,
+        8.338928481628988,
+        7.937249937140292,
+        8.556074955998204,
+        8.389252469198743,
+        8.87247672843912,
+        9.210733709907384,
+        8.847513596935169,
+        6.793259517854618,
+        6.555281662498232,
+        7.588697163748762,
+        7.112088014624133
+      ],
+      "sigma": 2.039551026605546
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 7.112088014624133,
+      "quality_band": [
+        3.1145680024772626,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2024-09-02T00:00:00",
+      "materia": "NADA DE NADA",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 3.5,
+      "recomienda": 0,
+      "comentario": "llévensela a Culiacán . es de lo peor"
+    },
+    {
+      "fecha_iso": "2024-02-27T00:00:00",
+      "materia": "LO PIORSITO DEL TEC",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 1,
+      "comentario": "es de lo peor por lo que dicen en sistemas"
+    },
+    {
+      "fecha_iso": "2023-09-17T00:00:00",
+      "materia": "CHISMES",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 0,
+      "comentario": "Liandra quien sabe. Chismosa SI y mucho. Es un buen ejemplo de como un ser humano no debe ser.  Sáquenle la vuelta"
+    },
+    {
+      "fecha_iso": "2023-06-24T00:00:00",
+      "materia": "INVESTIGACION",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 0,
+      "comentario": "Nomas aborto y se fue ya no quiso saber nada de nada"
+    },
+    {
+      "fecha_iso": "2023-02-11T00:00:00",
+      "materia": "INTRIGAS",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Aquí acaba de llegar y ya anda de intrigosa, es demasiado chismosa y pervertida"
+    },
+    {
+      "fecha_iso": "2023-01-04T00:00:00",
+      "materia": "INTELIGENCIA  ARTIFICIAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 1,
+      "comentario": "QUE FEO QUE HALLA GENTE QUE NO TENGAN PRINCIPIOS Y QUE SE ENCARGUEN DE DESACREDITAR . \nHAGAN ALGO BUENO DE SU VIDA .\nSI TAN BUENOS SON PARA HABLAR MAL DE LOS DEMAS TENAGAN LOS #$%& EL VALOR DE PONER SU NOMBRE.\nGRACIAS POR TODO MAESTRA Y LA GRAN EXPERIENCIA DEL ENEIT\nFRANCISCO\nATENTAMENTE"
+    },
+    {
+      "fecha_iso": "2022-12-14T00:00:00",
+      "materia": "---",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2022-12-06T00:00:00",
+      "materia": "SI",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Si van a sacar el chisme saquenlo bien. Va pal comentario de abajo. \nPD: Nora te amo"
+    },
+    {
+      "fecha_iso": "2022-10-19T00:00:00",
+      "materia": "---",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2022-07-14T00:00:00",
+      "materia": "INTELIGENCIA ARTIFICIAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Es la mejor maestra para cargar IA, es muy buena persona, no hace difícil la materia y la disfrutas. Pon atención en clase, los proyectos son en equipos y son algo complicados pero con los apuntes la haces y si aprendiste algo en estructura de datos ya pasaste, solo consigue un buen equipo."
+    },
+    {
+      "fecha_iso": "2022-06-12T00:00:00",
+      "materia": "PROGRAMACIÓN ORIENTADA A OBJETOS (POO)",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Es buena maestra, solamente le falta profundizar más en los temas, ya que los ve muy por encimita. Los trabajos/proyectos que deja en ocasiones resultan ilógicos, difíciles de entender y con bastantes cosas que deja a la imaginación. Si llegan a cargar con ella, procuren ser bastante autodidactas."
+    },
+    {
+      "fecha_iso": "2022-04-26T00:00:00",
+      "materia": "FUNDAMENTOS",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 1.5,
+      "recomienda": 1,
+      "comentario": "da todo por ensimita en general aprendes poco y deja trabajos ilogicos."
+    },
+    {
+      "fecha_iso": "2022-02-08T00:00:00",
+      "materia": "FUNDAMENTOS DE PROGRAMACIÓN",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 0,
+      "comentario": "Es buena maestra pero para entenderle bien al 100 debes de tener conocimiento previo de la materia y si ve los temas muy rapido hazlo saber quiza no eres el unico tratará de entender la situación es buena profe pero si no llevas conocimiento previo en los ultimos temas te vas a enredar"
+    },
+    {
+      "fecha_iso": "2021-10-04T00:00:00",
+      "materia": "POO",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Una vez la encontré con pedro villa en unos cubículos medio acaramelados."
+    },
+    {
+      "fecha_iso": "2021-07-02T00:00:00",
+      "materia": "IA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Excelente profesora, cumplio con mi espectativa del Curso. Gracias Maestra."
+    },
+    {
+      "fecha_iso": "2020-09-24T00:00:00",
+      "materia": "FUNDAMENTOS DE PROGRAMACIÓN",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2020-03-23T00:00:00",
+      "materia": "---",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2020-01-10T00:00:00",
+      "materia": "PROGRAMACIÓN LÓGICA Y FUNCIONAL",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": "La profe se basa mucho en la teoría, pero si ocupas ayuda con un tema ella te la brinda. Muy amable. Sus exámenes no son tan difíciles pero si tienes que estudiar bastante."
+    },
+    {
+      "fecha_iso": "2019-11-04T00:00:00",
+      "materia": "---",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2019-08-05T00:00:00",
+      "materia": "FUNDAMENTOS DE PROGRAMACIÓN",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "No es la mejor profesora de programación, pero si ayuda mucho. Sus clases en si se basan en teoría y después practica. Es buena persona, pero es justa al momento de calificar."
+    },
+    {
+      "fecha_iso": "2018-10-23T00:00:00",
+      "materia": "---",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2018-10-18T00:00:00",
+      "materia": "---",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2018-10-10T00:00:00",
+      "materia": "FUNDAMENTOS DE PROGRAMACION",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 23.0,
+      "recomienda": 0,
+      "comentario": "No explica absolutamente nada, y avanza conforme a ella misma y no ayuda a los que no vienen con conociento previo de su asignatura, no la recomiendo para nada."
+    },
+    {
+      "fecha_iso": "2018-09-13T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2018-08-16T00:00:00",
+      "materia": "FUNDAMENTOS DE PROGRAMACIÓN",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Para fundamentos la mejor maestra. Si llegas sin bases previas de programacion esta muy bien, explica claro y sus proyectos son buenos.\nEs un amor"
+    },
+    {
+      "fecha_iso": "2017-03-22T00:00:00",
+      "materia": "INTELIGENCIA ARTIFICIAL",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": 24.0,
+      "recomienda": 0,
+      "comentario": "Para la materia de inteligencia artificial creo que le falta experiencia y preparacion para ella deja trabajos que ni siquiera ella los podria hacer y no nos enseña como programar una verdadera IA"
+    },
+    {
+      "fecha_iso": "2017-02-20T00:00:00",
+      "materia": "PROGRAMACIÓN LÓGICA Y FUNCIONAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Es forma de programar nueva y se me facilito por su clara explicación."
+    },
+    {
+      "fecha_iso": "2016-03-29T00:00:00",
+      "materia": "PROLOG",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 0,
+      "comentario": "No sé en POO pero en PROLOG le falta mucho, no se le entiende nada y si le preguntas no sabe contestarte."
+    },
+    {
+      "fecha_iso": "2013-06-23T00:00:00",
+      "materia": "POO",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Muy buena maestra, enseña muy bien y aprendes mucho con ella. Recomendada!"
+    },
+    {
+      "fecha_iso": "2012-11-08T00:00:00",
+      "materia": "POO",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Si la recomiento pero falta mucho y pasas porque pasas porque enseña bien."
+    },
+    {
+      "fecha_iso": "2012-08-15T00:00:00",
+      "materia": "POO",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Excelente profesora. Yo reprobe pero por no hacer tareas xD \nLa recomiendo.\n\nPD no te confies o reprobaras as las tareas."
+    },
+    {
+      "fecha_iso": "2012-06-26T00:00:00",
+      "materia": "POO",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Excelente profesora..."
+    },
+    {
+      "fecha_iso": "2011-12-14T00:00:00",
+      "materia": "PROGRAMACIÓN BÁSICA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Explica bien y ayuda si tienes dudas aprendí mucho con ella."
+    },
+    {
+      "fecha_iso": "2011-12-12T00:00:00",
+      "materia": "FUNDAMENTOS DE PROGRAMACION",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "no muy clara en las clases, sin embargo si le pides ayuda y va a tu pupitre te explica las cosaspaso por paso hasta que entiendes, buenisima profesora, la estoy esperando a que me salga en cualquiera de mis cargas :D"
+    },
+    {
+      "fecha_iso": "2011-10-05T00:00:00",
+      "materia": "TI",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 7.5,
+      "recomienda": 0,
+      "comentario": "Que sea mas clara en sus clases y menos faltista."
+    },
+    {
+      "fecha_iso": "2011-09-19T00:00:00",
+      "materia": "TI",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "claro que la recomiendo lleve dos clases con ella, me sirvio todo lo que aprendi en sus clases"
+    },
+    {
+      "fecha_iso": "2011-09-15T00:00:00",
+      "materia": "IA 1",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 0,
+      "comentario": "CHANGOS Y DELICIOSOS MANGOS"
+    }
+  ],
+  "comments_recent": [
+    "llévensela a Culiacán . es de lo peor",
+    "es de lo peor por lo que dicen en sistemas",
+    "Liandra quien sabe. Chismosa SI y mucho. Es un buen ejemplo de como un ser humano no debe ser.  Sáquenle la vuelta",
+    "Nomas aborto y se fue ya no quiso saber nada de nada",
+    "Aquí acaba de llegar y ya anda de intrigosa, es demasiado chismosa y pervertida",
+    "QUE FEO QUE HALLA GENTE QUE NO TENGAN PRINCIPIOS Y QUE SE ENCARGUEN DE DESACREDITAR . \nHAGAN ALGO BUENO DE SU VIDA .\nSI TAN BUENOS SON PARA HABLAR MAL DE LOS DEMAS TENAGAN LOS #$%& EL VALOR DE PONER SU NOMBRE.\nGRACIAS POR TODO MAESTRA Y LA GRAN EXPERIENCIA DEL ENEIT\nFRANCISCO\nATENTAMENTE",
+    "[Comentario esperando revisión]",
+    "Si van a sacar el chisme saquenlo bien. Va pal comentario de abajo. \nPD: Nora te amo",
+    "[Comentario esperando revisión]",
+    "Es la mejor maestra para cargar IA, es muy buena persona, no hace difícil la materia y la disfrutas. Pon atención en clase, los proyectos son en equipos y son algo complicados pero con los apuntes la haces y si aprendiste algo en estructura de datos ya pasaste, solo consigue un buen equipo."
+  ],
+  "n_reviews": 37
+}

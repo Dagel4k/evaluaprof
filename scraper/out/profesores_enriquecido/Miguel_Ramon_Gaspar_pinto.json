@@ -1,0 +1,383 @@
+{
+  "professor_id": "Miguel_Ramon_Gaspar_pinto",
+  "nombre": "Miguel Ramon Gaspar pinto",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 2.140405203309208,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 4.061238655264089,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.053,
+    "wilson_interval": [
+      0.00935175249052995,
+      0.24639215336545212
+    ],
+    "n_recommendations": 19
+  },
+  "subject_normalization": {
+    "z_mean": -0.79,
+    "z_mean_decayed": -0.86,
+    "per_subject": [
+      {
+        "materia": "ELECTRONICA",
+        "z_decayed": -0.6627944170679466,
+        "n": 9
+      },
+      {
+        "materia": "ELECTRONICA ANALOGICA",
+        "z_decayed": -0.7283094935437275,
+        "n": 17
+      },
+      {
+        "materia": "ELECTRÓNICA ANALOGICA",
+        "z_decayed": -0.8333333333333334,
+        "n": 4
+      },
+      {
+        "materia": "ELECTRÓNICA ANALÓGICA",
+        "z_decayed": -1.2761897200211336,
+        "n": 19
+      },
+      {
+        "materia": "ELECTRICIDAD Y ELECTRÓNICA INDUSTRIAL",
+        "z_decayed": -1.4945294355141467,
+        "n": 9
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "clases",
+          "si",
+          "irrespetuoso",
+          "sabe",
+          "es"
+        ],
+        "weight": 0.13472695118596553
+      },
+      {
+        "id": 1,
+        "words": [
+          "cada",
+          "vez puede",
+          "puede",
+          "tec",
+          "te"
+        ],
+        "weight": 0.13298724388147345
+      },
+      {
+        "id": 2,
+        "words": [
+          "ofende alumnos",
+          "peor maestro",
+          "maestro",
+          "ensena",
+          "peor"
+        ],
+        "weight": 0.13152164853037876
+      },
+      {
+        "id": 3,
+        "words": [
+          "mi",
+          "mal",
+          "sabe",
+          "profe",
+          "perro"
+        ],
+        "weight": 0.06097148968252002
+      },
+      {
+        "id": 4,
+        "words": [
+          "asi",
+          "tenido mi",
+          "tenido",
+          "vez",
+          "maestros"
+        ],
+        "weight": 0.07297173527830128
+      }
+    ],
+    "sentiment": {
+      "overall": 0.06666666666666667,
+      "by_month": {
+        "2019-06": 0.0,
+        "2019-05": 1.0,
+        "2019-01": 0.0,
+        "2018-01": 0.0,
+        "2017-12": 0.0,
+        "2017-10": 0.0,
+        "2017-09": 0.0,
+        "2016-11": 0.0,
+        "2016-05": 0.0,
+        "2015-08": 0.0,
+        "2015-06": 0.0,
+        "2015-01": 0.0,
+        "2013-01": 0.0
+      }
+    },
+    "n_comments": 15
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        7.0,
+        4.0,
+        2.0,
+        2.0,
+        2.0,
+        5.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0
+      ],
+      "ewma": [
+        7.0,
+        6.1,
+        4.869999999999999,
+        4.0089999999999995,
+        3.4062999999999994,
+        3.8844099999999995,
+        3.3190869999999997,
+        2.9233608999999996,
+        2.6463526299999995,
+        2.4524468409999995,
+        2.3167127886999994,
+        2.2216989520899997,
+        2.1551892664629997,
+        2.1086324865240997,
+        2.0760427405668698,
+        2.053229918396809,
+        2.037260942877766
+      ],
+      "sigma": 0.9819612311370455
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 2.037260942877766,
+      "quality_band": [
+        0.11261692984915683,
+        3.961904955906375
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2019-06-20T00:00:00",
+      "materia": "ELECTRONICA ANALOGICA",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "ya era hora que se muriera ese pendejo, a los que tuvimos la mala suerte de conocerlo sabemos que ese pinche pendejo era una mierda y lo que le seguia, ojala se este retorciendo en el infierno"
+    },
+    {
+      "fecha_iso": "2019-05-28T00:00:00",
+      "materia": "ELECTRÓNICA ANALOGICA",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Ya se murió el perro desgraciado ese, jaja qué bueno"
+    },
+    {
+      "fecha_iso": "2019-01-22T00:00:00",
+      "materia": "SEGURIDAD",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 5.0,
+      "recomienda": 0,
+      "comentario": "El Ing. Pintó ha fallecido, descanse en paz"
+    },
+    {
+      "fecha_iso": "2019-01-08T00:00:00",
+      "materia": "ELECTRONICA",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 2.5,
+      "recomienda": 0,
+      "comentario": "es el pero maestro del tec, ofensivo, irrespetuoso, sarcástico. Jamás entraría a sus clases de nuevo"
+    },
+    {
+      "fecha_iso": "2018-01-15T00:00:00",
+      "materia": "ELECTRÓNICA ANALÓGICA",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "De los peores maestros del Tec. Sin criterio para calificar, y humilla a los alumnos cada vez que puede. No apoya y no le entiendes en clase, en lugar de ayudarte te exibe y se burla de ti. La neta no entiendo como este tipo sigue dando clases en el tec."
+    },
+    {
+      "fecha_iso": "2017-12-19T00:00:00",
+      "materia": "ELECTRONICA ANALOGICA",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Es el peor maestro que he tenido en mi vida, no enseña absolutamente nada, califica super duro a menos que seas mujer (es muy zorro), ademas de que ofende a sus alumnos, se batalla a mas no poder y ni asi pasas, es lo peor del tec, en los examenes si cambias una palabra esta mal todo."
+    },
+    {
+      "fecha_iso": "2017-10-25T00:00:00",
+      "materia": "ELECTRICIDAD Y ELECTRÓNICA INDUSTRIAL",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 6.5,
+      "recomienda": 0,
+      "comentario": "El peor profe del tec. No cargues con el, no enseña, ni resuelve dudas ni ayuda a que pases."
+    },
+    {
+      "fecha_iso": "2017-09-25T00:00:00",
+      "materia": "ELECTRONICA ANALOGICA",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "es una basura de maestro, el peor maestro de mi vida, no sabe nada de nada y no enseña absolutamente nada, si tienes alguna duda nunca te responde y lo peor de todo es que ofende a sus alumnos, los llama estupidos, retrasados y de muchas formas mas los humilla, es una basura"
+    },
+    {
+      "fecha_iso": "2017-08-07T00:00:00",
+      "materia": "DISEÑO CON TRANSISTORES",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 6.5,
+      "recomienda": 0,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2016-11-04T00:00:00",
+      "materia": "ELECTRONICA",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "ni loco cargo con el otra vez. Prefiero dar de baja el semestre que llevar con ese imbecil otra vez. Es de los peores maestros que he tenido en mi vida. No entiendo como el tec de culiacan puede tener maestros asi. deberian de jubilarlo porque le hase mucho daño a la escuela y a los alumnos."
+    },
+    {
+      "fecha_iso": "2016-05-20T00:00:00",
+      "materia": "ELECTRONICA 3 Y 4",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "de esos \"profesores\" que no sabes porque están en el tec. no te ayuda, cada vez que puede te umilla y se cree el mas cabron de todos. todos somos unos idiotas para el."
+    },
+    {
+      "fecha_iso": "2015-08-17T00:00:00",
+      "materia": "ELECTRONICA 3,4,5",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Quiere aparentar que sabe,incluso  según el habla ingles ,pero no sirve para nada,es irrespetuoso nunca reconoce una buena respuesta"
+    },
+    {
+      "fecha_iso": "2015-06-04T00:00:00",
+      "materia": "DIODOS Y TRANSITARES",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 4.0,
+      "recomienda": 0,
+      "comentario": "sus practicas es donde aprende en clases es poco, aprendes mucho en la practicas lo recomiendo si no estas en rc o especial, te va sacar hemorroides del estrés"
+    },
+    {
+      "fecha_iso": "2015-01-10T00:00:00",
+      "materia": "ELECTRONICA ANALOGICA",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Es un profesor que sabe de su materia, mas no sabe enseñar, su paciencia es nula, en cuanto a accesibilidad, siempre les preguntara por sus dudas pero si le preguntas te dice que ya lo viste o que tu debes venir preparado para la clase, se la tira de la gran verg y a todo mundo pend jea xD"
+    },
+    {
+      "fecha_iso": "2015-01-09T00:00:00",
+      "materia": "ELECTRONICA ANALOGICA",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Muy mal profesor se burla de los alumnos es irrespetuoso etc. no entiendo como puede seguir dando clases una persona como el"
+    },
+    {
+      "fecha_iso": "2014-01-13T00:00:00",
+      "materia": "DIODOS Y TRANSISTORES",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2013-01-31T00:00:00",
+      "materia": "ELECTRONICA ANALOGICA I",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 1.0,
+      "recomienda": 0,
+      "comentario": "NOOO SEÑORR !! USTED SABE? A VER QUIEN SABE QUE ES UN DIODO? PROFE: Un diodo es un componente electrónico de dos terminales que permite la circulación de la corriente eléctrica a través de él en un solo sentido NOOO SEÑOR ESTA MAL !!\neste es mi perro Jupiter !!!"
+    },
+    {
+      "fecha_iso": "2011-12-15T00:00:00",
+      "materia": "ELECTRONICA ANALOGICA",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2011-07-29T00:00:00",
+      "materia": "ELECTRONICA ANALOGICA I",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": ""
+    }
+  ],
+  "comments_recent": [
+    "ya era hora que se muriera ese pendejo, a los que tuvimos la mala suerte de conocerlo sabemos que ese pinche pendejo era una mierda y lo que le seguia, ojala se este retorciendo en el infierno",
+    "Ya se murió el perro desgraciado ese, jaja qué bueno",
+    "El Ing. Pintó ha fallecido, descanse en paz",
+    "es el pero maestro del tec, ofensivo, irrespetuoso, sarcástico. Jamás entraría a sus clases de nuevo",
+    "De los peores maestros del Tec. Sin criterio para calificar, y humilla a los alumnos cada vez que puede. No apoya y no le entiendes en clase, en lugar de ayudarte te exibe y se burla de ti. La neta no entiendo como este tipo sigue dando clases en el tec.",
+    "Es el peor maestro que he tenido en mi vida, no enseña absolutamente nada, califica super duro a menos que seas mujer (es muy zorro), ademas de que ofende a sus alumnos, se batalla a mas no poder y ni asi pasas, es lo peor del tec, en los examenes si cambias una palabra esta mal todo.",
+    "El peor profe del tec. No cargues con el, no enseña, ni resuelve dudas ni ayuda a que pases.",
+    "es una basura de maestro, el peor maestro de mi vida, no sabe nada de nada y no enseña absolutamente nada, si tienes alguna duda nunca te responde y lo peor de todo es que ofende a sus alumnos, los llama estupidos, retrasados y de muchas formas mas los humilla, es una basura",
+    "ni loco cargo con el otra vez. Prefiero dar de baja el semestre que llevar con ese imbecil otra vez. Es de los peores maestros que he tenido en mi vida. No entiendo como el tec de culiacan puede tener maestros asi. deberian de jubilarlo porque le hase mucho daño a la escuela y a los alumnos."
+  ],
+  "n_reviews": 19
+}

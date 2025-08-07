@@ -1,0 +1,35 @@
+{
+  "nombre": "Izzette Patricia Rodriguez Rivera",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "ciudad": "Ciudad: culiacan, sinaloa",
+  "departamento": "Departamento/Facultad: Ing. Industrial",
+  "calidad_general": 8.0,
+  "porcentaje_recomienda": 100,
+  "nivel_dificultad": 0.0,
+  "etiquetas": [
+    "BARCO (1)",
+    "DA BUENA RETROALIMENTACIÓN (1)",
+    "TOMARÍA SU CLASE OTRA VEZ (1)"
+  ],
+  "numero_calificaciones": 1,
+  "calificaciones": [
+    {
+      "fecha": "19/Ene/2021",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 8.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Taller de etica",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "Me toco en linea y daba clases 1 vez a la semana por ser una materia ligera y fácil, explicaba bien, aclaraba incluso por chat, super relajadas las clases.",
+      "etiquetas_comentario": [
+        "Barco",
+        "Da buena retroalimentación",
+        "Tomaría su clase otra vez"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    }
+  ]
+}

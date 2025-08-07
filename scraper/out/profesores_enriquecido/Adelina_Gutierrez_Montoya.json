@@ -1,0 +1,120 @@
+{
+  "professor_id": "Adelina_Gutierrez_Montoya",
+  "nombre": "Adelina Gutierrez Montoya",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 9.915454162302188,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.44430161558912,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 1.0,
+    "wilson_interval": [
+      0.4384939195509822,
+      1
+    ],
+    "n_recommendations": 3
+  },
+  "subject_normalization": {
+    "z_mean": 0.35,
+    "z_mean_decayed": 0.44,
+    "per_subject": [
+      {
+        "materia": "ETICA",
+        "z_decayed": 0.9903391521354943,
+        "n": 31
+      },
+      {
+        "materia": "ECONOMÍA",
+        "z_decayed": -0.2835619817263383,
+        "n": 13
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [],
+    "sentiment": {
+      "overall": null,
+      "by_month": {}
+    },
+    "n_comments": 3
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        7.0,
+        10.0,
+        10.0
+      ],
+      "ewma": [
+        7.0,
+        7.8999999999999995,
+        8.53
+      ],
+      "sigma": 1.077636302283846
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 8.53,
+      "quality_band": [
+        6.417832847523661,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2023-01-25T00:00:00",
+      "materia": "DESARROLLO DE PROYECTOS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "EXCELENTE MAESTRA DE GRAN CALIDAD HUMANA."
+    },
+    {
+      "fecha_iso": "2013-10-09T00:00:00",
+      "materia": "ETICA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "La mejor maestra, aun con su calendario y situación tan apretada nos apoya de todas las formas posibles."
+    },
+    {
+      "fecha_iso": "2012-12-18T00:00:00",
+      "materia": "ECONOMÍA",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 1,
+      "comentario": "Es buena onda y casi siempre va, pero no aprendes nada y se califica muy estrictamente, si acaso aprendes puras cosas de la región debería de dar mejor Análisis de la Realidad Nacional."
+    }
+  ],
+  "comments_recent": [
+    "EXCELENTE MAESTRA DE GRAN CALIDAD HUMANA.",
+    "La mejor maestra, aun con su calendario y situación tan apretada nos apoya de todas las formas posibles.",
+    "Es buena onda y casi siempre va, pero no aprendes nada y se califica muy estrictamente, si acaso aprendes puras cosas de la región debería de dar mejor Análisis de la Realidad Nacional."
+  ],
+  "n_reviews": 3
+}

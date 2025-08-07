@@ -1,0 +1,143 @@
+{
+  "nombre": "Kiyoshi Miguel Shimizu Aguilar",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "ciudad": "Ciudad: culiacan, sinaloa",
+  "departamento": "Departamento/Facultad: Sistemas computacionales",
+  "calidad_general": 7.0,
+  "porcentaje_recomienda": 71,
+  "nivel_dificultad": 2.3,
+  "etiquetas": [
+    "BARCO (6)",
+    "DA CRÉDITO EXTRA (2)",
+    "TOMARÍA SU CLASE OTRA VEZ (1)",
+    "CALIFICA DURO (2)",
+    "HACE EXÁMENES SORPRESA (1)",
+    "MUY CÓMICO (4)",
+    "DA BUENA RETROALIMENTACIÓN (2)"
+  ],
+  "numero_calificaciones": 7,
+  "calificaciones": [
+    {
+      "fecha": "14/Sep/2023",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "PROGRAMACIÓN ORIENTADA A OBJETOS",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "4.5",
+      "interes_clase": "",
+      "comentario": "EL PROFE MAAAAAS GOOOD DEL TEC, NO DUDES CARGAR CON EL",
+      "etiquetas_comentario": [
+        "Barco",
+        "Muy cómico",
+        "Da buena retroalimentación"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "27/Feb/2023",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Fundamentos de programacion",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "pone casa pa la peda",
+      "etiquetas_comentario": [
+        "Barco",
+        "Muy cómico",
+        "Da buena retroalimentación"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "15/Feb/2023",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Fundamentos de programacion",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "Es una v3rg4 de profe, el profe nomas te deja 2 examenes en todo el semestre, y te explica desde 0, aveces te pone programar a mano xd",
+      "etiquetas_comentario": [
+        "Califica Duro",
+        "Barco",
+        "Muy cómico"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "11/Feb/2023",
+      "tipo_calificacion": "REGULAR",
+      "puntaje_calidad_general": 5.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Fundamentos de Programacion",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "Nos enseño a hacer marihuana con usando maizena y JavaScript",
+      "etiquetas_comentario": [
+        "Barco",
+        "Muy cómico",
+        "Da Crédito Extra"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "11/Feb/2023",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 2.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "---",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "[Comentario esperando revisión]",
+      "etiquetas_comentario": [
+        "Califica Duro",
+        "Barco",
+        "Hace exámenes sorpresa"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "10/Feb/2023",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Fundamentos de programacion",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "Te pasa con ORAL",
+      "etiquetas_comentario": [
+        "Barco",
+        "Da Crédito Extra",
+        "Tomaría su clase otra vez"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "10/Feb/2023",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 2.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Fundamentos de programacion",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "1",
+      "interes_clase": "",
+      "comentario": "",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    }
+  ]
+}

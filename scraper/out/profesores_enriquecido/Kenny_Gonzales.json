@@ -1,0 +1,86 @@
+{
+  "professor_id": "Kenny_Gonzales",
+  "nombre": "Kenny Gonzales",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 6.240919644221452,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 6.981326750221547,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.5,
+    "wilson_interval": [
+      0.09452865480086611,
+      0.905471345199134
+    ],
+    "n_recommendations": 2
+  },
+  "subject_normalization": {
+    "z_mean": 0.09,
+    "z_mean_decayed": -0.22,
+    "per_subject": [
+      {
+        "materia": "MERCADOTECNIA",
+        "z_decayed": -0.21570407814636364,
+        "n": 9
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [],
+    "sentiment": {
+      "overall": null,
+      "by_month": {}
+    },
+    "n_comments": 2
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": null,
+    "difficulty_trend": null,
+    "forecast": null,
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2021-11-29T00:00:00",
+      "materia": "MERCADOTECNIA",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 0,
+      "comentario": "Virtuales rara vez entra a clases y toma lista a los 5 min, floja, no da tiempo considerable a entregar trabajos finales, examen final sorpresa, no es organizada, no es flexible, exigente y muchas tareas (cortas pero muchas sin aviso). Tienes que estar al pendiente de la plataforma todo el tiempo."
+    },
+    {
+      "fecha_iso": "2019-08-09T00:00:00",
+      "materia": "MERCADOTECNIA",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Ecxelente modo de enseñanza, estricta en la asistencia, pocos examenes, mucho trabajo en equipo, y muchas oportunidades de pasar"
+    }
+  ],
+  "comments_recent": [
+    "Virtuales rara vez entra a clases y toma lista a los 5 min, floja, no da tiempo considerable a entregar trabajos finales, examen final sorpresa, no es organizada, no es flexible, exigente y muchas tareas (cortas pero muchas sin aviso). Tienes que estar al pendiente de la plataforma todo el tiempo.",
+    "Ecxelente modo de enseñanza, estricta en la asistencia, pocos examenes, mucho trabajo en equipo, y muchas oportunidades de pasar"
+  ],
+  "n_reviews": 2
+}

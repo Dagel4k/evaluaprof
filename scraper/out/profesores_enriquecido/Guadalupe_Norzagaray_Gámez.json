@@ -1,0 +1,277 @@
+{
+  "professor_id": "Guadalupe_Norzagaray_Gámez",
+  "nombre": "Guadalupe Norzagaray Gámez",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 9.335645895212837,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.989329571555169,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.909,
+    "wilson_interval": [
+      0.6226353745137962,
+      0.9837682477371741
+    ],
+    "n_recommendations": 11
+  },
+  "subject_normalization": {
+    "z_mean": 0.54,
+    "z_mean_decayed": 1.01,
+    "per_subject": [
+      {
+        "materia": "DINÁMICA SOCIAL",
+        "z_decayed": 1.062545023419449,
+        "n": 3
+      },
+      {
+        "materia": "PROBABILIDAD Y ESTADISTICA",
+        "z_decayed": 0.9251304240994332,
+        "n": 32
+      },
+      {
+        "materia": "LIDERAZGO",
+        "z_decayed": 0.7302967433402214,
+        "n": 5
+      },
+      {
+        "materia": "TALLER DE LIDERAZGO",
+        "z_decayed": 0.47388256829691977,
+        "n": 38
+      },
+      {
+        "materia": "TALLER",
+        "z_decayed": 0.2182178902359925,
+        "n": 3
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "maestra",
+          "realiza",
+          "clases dinamicas",
+          "clases",
+          "dinamicas"
+        ],
+        "weight": 0.11590368910153852
+      },
+      {
+        "id": 1,
+        "words": [
+          "siempre",
+          "amable",
+          "califica",
+          "si",
+          "es"
+        ],
+        "weight": 0.20815484979161744
+      },
+      {
+        "id": 2,
+        "words": [
+          "te",
+          "buena",
+          "buena maestra",
+          "amable",
+          "siempre"
+        ],
+        "weight": 0.1557003633812096
+      },
+      {
+        "id": 3,
+        "words": [
+          "si",
+          "ch",
+          "90 arriba",
+          "90",
+          "arriba"
+        ],
+        "weight": 0.1850179702137387
+      }
+    ],
+    "sentiment": {
+      "overall": 0.1111111111111111,
+      "by_month": {
+        "2024-08": 0.0,
+        "2020-09": 1.0,
+        "2013-08": 0.0,
+        "2012-11": 0.0,
+        "2012-10": 0.0,
+        "2012-08": 0.0,
+        "2012-06": 0.0
+      }
+    },
+    "n_comments": 9
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        10.0,
+        8.0,
+        10.0,
+        10.0,
+        8.5,
+        7.0,
+        6.0,
+        10.0,
+        10.0
+      ],
+      "ewma": [
+        10.0,
+        9.4,
+        9.58,
+        9.706,
+        9.344199999999999,
+        8.640939999999999,
+        7.848657999999999,
+        8.494060599999997,
+        8.945842419999998
+      ],
+      "sigma": 1.212053796092386
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 8.945842419999998,
+      "quality_band": [
+        6.570216979658921,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2024-08-04T00:00:00",
+      "materia": "DINÁMICA SOCIAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "De verdad que si repruebas con ella es porque no venías y no entregaste nada. Es muy compasiva y amable, siempre brinda apoyo."
+    },
+    {
+      "fecha_iso": "2020-09-12T00:00:00",
+      "materia": "HABILIDADES DIRECTIVAS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Super amable y buena maestra. Siempre te escucha y muy paciente."
+    },
+    {
+      "fecha_iso": "2020-03-05T00:00:00",
+      "materia": "COUNICACION HUMANA",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 0,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2015-06-16T00:00:00",
+      "materia": "DINÁMICA SOCIAL",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2013-08-04T00:00:00",
+      "materia": "TALLER DE LIDERAZGO",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 1,
+      "comentario": "Sus clases son a base de exposiciones y son dinámicas aunque muchas veces lo dinámico pasa a incoherente. Realiza actividades que son de ayuda para la materia. El grupo sacó calificaciones de 90 hacia arriba ya que las actividades para calificarnos fueron muy sencillas."
+    },
+    {
+      "fecha_iso": "2013-08-02T00:00:00",
+      "materia": "LIDERAZGO",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "La CH jajajaja. Muy buena profe, camarada, si aprendez pero no mucho, 90 para arriba seguro."
+    },
+    {
+      "fecha_iso": "2012-11-16T00:00:00",
+      "materia": "PROBABILIDAD Y ESTADISTICA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Es muy pasiente y presisa"
+    },
+    {
+      "fecha_iso": "2012-10-29T00:00:00",
+      "materia": "TALLER DE LIDERAZGO",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Realiza las clases muy dinámicas, rara vez pierdes tiempo en clase. Muy buena maestra."
+    },
+    {
+      "fecha_iso": "2012-08-22T00:00:00",
+      "materia": "TALLER",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "al 100"
+    },
+    {
+      "fecha_iso": "2012-06-27T00:00:00",
+      "materia": "TALLER DE LIDERAZGO",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Tiene lo que muchos buscan falta a clases y califica de 90 para arriba y para los que van a \"aprender\" pues también explica muy bien, el problema es que expones cada tres días pero nada complicado. PD: Chifla cuando pronuncia la \"CH\""
+    },
+    {
+      "fecha_iso": "2012-06-11T00:00:00",
+      "materia": "TALLER DE LIDERAZGO",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "EXCELENTE MAESTRA, la mejor en lo que hace, te hace trabajar mucho pero califica justamente, reconoce tu esfuerzo y es muy linda. Sus clases son MUY DINAMICAS *FUENTECONFIABLE*"
+    }
+  ],
+  "comments_recent": [
+    "De verdad que si repruebas con ella es porque no venías y no entregaste nada. Es muy compasiva y amable, siempre brinda apoyo.",
+    "Super amable y buena maestra. Siempre te escucha y muy paciente.",
+    "Sus clases son a base de exposiciones y son dinámicas aunque muchas veces lo dinámico pasa a incoherente. Realiza actividades que son de ayuda para la materia. El grupo sacó calificaciones de 90 hacia arriba ya que las actividades para calificarnos fueron muy sencillas.",
+    "La CH jajajaja. Muy buena profe, camarada, si aprendez pero no mucho, 90 para arriba seguro.",
+    "Es muy pasiente y presisa",
+    "Realiza las clases muy dinámicas, rara vez pierdes tiempo en clase. Muy buena maestra.",
+    "al 100",
+    "Tiene lo que muchos buscan falta a clases y califica de 90 para arriba y para los que van a \"aprender\" pues también explica muy bien, el problema es que expones cada tres días pero nada complicado. PD: Chifla cuando pronuncia la \"CH\""
+  ],
+  "n_reviews": 11
+}

@@ -1,0 +1,520 @@
+{
+  "professor_id": "Elizabeth_Ceceña_Niebla",
+  "nombre": "Elizabeth Ceceña Niebla",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 7.870934585714758,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.872583439089233,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.839,
+    "wilson_interval": [
+      0.6736529727502113,
+      0.9290748009456007
+    ],
+    "n_recommendations": 31
+  },
+  "subject_normalization": {
+    "z_mean": -0.03,
+    "z_mean_decayed": -0.33,
+    "per_subject": [
+      {
+        "materia": "SISTEMAS",
+        "z_decayed": 0.8581943515359345,
+        "n": 13
+      },
+      {
+        "materia": "COMPUTACION",
+        "z_decayed": 0.8232906452954606,
+        "n": 4
+      },
+      {
+        "materia": "LENGUAJES Y AUTOMATAS I",
+        "z_decayed": 0.21821789023599278,
+        "n": 3
+      },
+      {
+        "materia": "POO",
+        "z_decayed": 0.08740446551670353,
+        "n": 62
+      },
+      {
+        "materia": "TEORIA DE LA COMPUTACION",
+        "z_decayed": -0.002039748706896114,
+        "n": 3
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "ensena",
+          "es buena",
+          "maestra",
+          "buena",
+          "es"
+        ],
+        "weight": 0.09545206002985859
+      },
+      {
+        "id": 1,
+        "words": [
+          "educada",
+          "buena",
+          "maestra",
+          "inteligente",
+          "amable"
+        ],
+        "weight": 0.08729706837935966
+      },
+      {
+        "id": 2,
+        "words": [
+          "temas",
+          "te",
+          "bien",
+          "explica bien",
+          "explica"
+        ],
+        "weight": 0.12150136463680634
+      },
+      {
+        "id": 3,
+        "words": [
+          "mas",
+          "da clases",
+          "examenes",
+          "da",
+          "clases"
+        ],
+        "weight": 0.1296145151203743
+      },
+      {
+        "id": 4,
+        "words": [
+          "profesora",
+          "es",
+          "es excelente",
+          "excelente",
+          "seria"
+        ],
+        "weight": 0.09263932911214204
+      }
+    ],
+    "sentiment": {
+      "overall": 0.08,
+      "by_month": {
+        "2025-08": 0.0,
+        "2023-11": 1.0,
+        "2023-06": 0.0,
+        "2023-03": 0.0,
+        "2023-01": 0.0,
+        "2022-06": 0.0,
+        "2022-05": 0.0,
+        "2022-01": 0.0,
+        "2021-06": 0.0,
+        "2020-01": 0.0,
+        "2019-08": 0.0,
+        "2018-08": 0.0,
+        "2017-11": 0.0,
+        "2015-07": 0.0,
+        "2012-08": 0.0,
+        "2011-04": 0.0,
+        "2011-03": 0.0,
+        "2011-01": 0.25,
+        "2010-09": 0.0,
+        "2010-08": 0.0
+      }
+    },
+    "n_comments": 25
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [
+      {
+        "from": "2010-09-21T00:00:00",
+        "to": "2010-09-21T00:00:00",
+        "count": 3
+      },
+      {
+        "from": "2023-01-17T00:00:00",
+        "to": "2023-01-17T00:00:00",
+        "count": 3
+      },
+      {
+        "from": "2023-01-17T00:00:00",
+        "to": "2023-01-18T00:00:00",
+        "count": 4
+      }
+    ],
+    "low_variance_flag": 0,
+    "trust_score": 0.7
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        10.0,
+        8.5,
+        8.25,
+        9.0,
+        2.0,
+        10.0,
+        8.0,
+        10.0,
+        6.0,
+        9.0,
+        9.0,
+        8.0,
+        9.0,
+        9.0,
+        7.0,
+        7.0,
+        9.4,
+        10.0,
+        7.0,
+        2.0,
+        7.0
+      ],
+      "ewma": [
+        10.0,
+        9.55,
+        9.16,
+        9.112,
+        6.9784,
+        7.88488,
+        7.919416,
+        8.5435912,
+        7.780513839999999,
+        8.146359687999999,
+        8.402451781599998,
+        8.281716247119999,
+        8.497201372983998,
+        8.648040961088798,
+        8.153628672762158,
+        7.807540070933511,
+        8.285278049653456,
+        8.799694634757419,
+        8.259786244330193,
+        6.381850371031135,
+        6.567295259721794
+      ],
+      "sigma": 1.7410809622885517
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 6.567295259721794,
+      "quality_band": [
+        3.1547765736362328,
+        9.979813945807354
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2025-08-07T00:00:00",
+      "materia": "LENGUAJES Y AUTOMATAS 1",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "La profesora hace su mejor esfuerzo por enseñar la materia, suele ser un poco confusa a la hora de explicar los temas pero no se complica demasiado, si te haces su amig@ ya estas del other side, es buena opcion cargarla."
+    },
+    {
+      "fecha_iso": "2023-11-22T00:00:00",
+      "materia": "ESTRUCTURA DE DATOS",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 0,
+      "comentario": "Es increíble las veces que falta de lunes a jueves (ya que los viernes no da clases por así decretarlo ella) a dar clases todos los pretextos posibles los utiliza. No se como algunos compañeros dicen que es excelente, no transmite nada de la materia de Estructura de Datos. Ojalá y se la quitaran."
+    },
+    {
+      "fecha_iso": "2023-06-01T00:00:00",
+      "materia": "RELLENO Y AUTOMATAS 1",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 1,
+      "comentario": "Barcona"
+    },
+    {
+      "fecha_iso": "2023-03-21T00:00:00",
+      "materia": "LENGUAJES Y AUTÓMATAS 1",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Los autómatas no los enseña bien por lo menos a fecha de hoy, estoy llevando autómatas 2 y los autómatas que aprendí con ella son un tanto diferentes sin embargo muy buena profe es buena onda (En si lo que es el analisis lexico y sintantico lo enseña a medias aprende por ti mismo o con Martín Nevar)"
+    },
+    {
+      "fecha_iso": "2023-01-18T00:00:00",
+      "materia": "SISTEMAS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Es una maestra muy completa"
+    },
+    {
+      "fecha_iso": "2023-01-17T00:00:00",
+      "materia": "SISTEMA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2023-01-17T00:00:00",
+      "materia": "ESPAÑOL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2023-01-17T00:00:00",
+      "materia": "COMPUTACION",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2023-01-10T00:00:00",
+      "materia": "ESTRUCTURA DE DATOS",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "da clases decentes no la considero mala maestra, sin embargo hay maestros con los que podrias aprender mas. si quieres pasar \"fácil\" es la adecuada."
+    },
+    {
+      "fecha_iso": "2022-06-02T00:00:00",
+      "materia": "LENGUAJES Y AUTOMATAS 1",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 1,
+      "comentario": "pues la verdad esta facil pero no aprendes casi nada, cuando lleguen a la 2 con alguno de los zatarain la van a sentir pesada, mejor lleven con rosalio desde la 1 que es compa y asi no andan tan perdidos"
+    },
+    {
+      "fecha_iso": "2022-05-23T00:00:00",
+      "materia": "ESTRUCTURA DE DATOS",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Las clases son aburridas porque son casi 100% teoría y deja de tarea hacer la implementación de lo que se ve en clase. Fácil de pasar si sabes programar y buscar en Stack Overflow. No toma lista"
+    },
+    {
+      "fecha_iso": "2022-02-22T00:00:00",
+      "materia": "LENGUAJES Y AUTOMATAS I",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2022-01-14T00:00:00",
+      "materia": "AUTOMATAS 1",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "a veces las clases son muy aburridas porque son muy largas pero sabe muy bien de lo que habla y brinda mucho apoyo para tareas y examenes"
+    },
+    {
+      "fecha_iso": "2021-06-02T00:00:00",
+      "materia": "LENGUAJES Y AUTOMATAS 1",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Fácil pasar con ella, al menos en linea, hace como dos examenes en todo el semestre, un proyecto que abarca dos unidades y listo, no pasa lista, si debes una unidad te ayuda promediando con otra. Muy buena persona y para nada estresante llevar semestre con ella."
+    },
+    {
+      "fecha_iso": "2020-01-13T00:00:00",
+      "materia": "ESTRUCTURA DE DATOS",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Domina los temas y explica bien. Los exámenes no son difíciles y deja un par de proyectos durante el semestre."
+    },
+    {
+      "fecha_iso": "2019-08-05T00:00:00",
+      "materia": "ESTRUCTURA DE DATOS",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": "Es muy buena persona, además que es muy inteligente.  No creas eso de que \"Ceceña no enseña\", quienes dicen eso es que no quieren aprender. Siempre trata de ayudarte."
+    },
+    {
+      "fecha_iso": "2018-08-24T00:00:00",
+      "materia": "ESTRUCTURA Y LENGUAJES",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 0,
+      "comentario": "La verdad como persona la mujer es buena persona, pero como maestra no creo, no es para nada exigente y es demasiado fácil pasar con ella, todo lo ve demasiado por encima y puedes pasar sin saber"
+    },
+    {
+      "fecha_iso": "2017-11-15T00:00:00",
+      "materia": "ESTRUCTURA DE DATOS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 23.0,
+      "recomienda": 1,
+      "comentario": "Muy amable."
+    },
+    {
+      "fecha_iso": "2015-07-08T00:00:00",
+      "materia": "POO",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 7.5,
+      "recomienda": 1,
+      "comentario": "Muy inteligente y amable"
+    },
+    {
+      "fecha_iso": "2012-08-14T00:00:00",
+      "materia": "ESTRUCUTRA DE DATOS- TEORIA DE LA COMPUTACION",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Es un amor de maestra, te explica muy bien, con claridad, te da oportunidades de pasar la materia, te enseña con \"peras y manzanas\" la recomiendo, lleve dos clases con ella en un semestre y me senti muy agusto y aprendi en las clases, carga con ella si tienes la oportunidad"
+    },
+    {
+      "fecha_iso": "2011-04-07T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2011-03-08T00:00:00",
+      "materia": "TEORIA DE LA COMPUTACIÓN",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Explica de forma bastante clara."
+    },
+    {
+      "fecha_iso": "2011-01-18T00:00:00",
+      "materia": "TEORIA DE LA COMPUTACION",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "muy buena maestra, amable e inteligente."
+    },
+    {
+      "fecha_iso": "2011-01-13T00:00:00",
+      "materia": "TEORIA DE LA COMPUTACION",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Ademas de bonita es educada, seria y amable"
+    },
+    {
+      "fecha_iso": "2011-01-12T00:00:00",
+      "materia": "TEORIA DE LA COMPUTACION",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Es una excelente profesora. Dedicada y seria."
+    },
+    {
+      "fecha_iso": "2011-01-09T00:00:00",
+      "materia": "TEORIA DE LA COMPU",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 3.0,
+      "recomienda": 0,
+      "comentario": "en todo el semestre nada mas da clases 1 mes y no hace examenes"
+    },
+    {
+      "fecha_iso": "2010-09-28T00:00:00",
+      "materia": "TEORÍA DE LA COMPUTACIÓN",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2010-09-21T00:00:00",
+      "materia": "ESTRUCTURA DE DATOS, TEORÍA DE LA COMPUTACIÓN",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Te duerme pero explica bien."
+    },
+    {
+      "fecha_iso": "2010-09-21T00:00:00",
+      "materia": "TEORÍA DE LA COMPUTACIÓN",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 5.0,
+      "recomienda": 0,
+      "comentario": "No se como permiten que esta mujer dé clases..."
+    },
+    {
+      "fecha_iso": "2010-09-21T00:00:00",
+      "materia": "ESTRUCTURA DE DATOS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2010-08-29T00:00:00",
+      "materia": "TEORÍA DE LA COMPUTACIÓN",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": "Es una maestra muy inteligente, educada, dulce, buena onda y explica bien los temas que imparte."
+    }
+  ],
+  "comments_recent": [
+    "La profesora hace su mejor esfuerzo por enseñar la materia, suele ser un poco confusa a la hora de explicar los temas pero no se complica demasiado, si te haces su amig@ ya estas del other side, es buena opcion cargarla.",
+    "Es increíble las veces que falta de lunes a jueves (ya que los viernes no da clases por así decretarlo ella) a dar clases todos los pretextos posibles los utiliza. No se como algunos compañeros dicen que es excelente, no transmite nada de la materia de Estructura de Datos. Ojalá y se la quitaran.",
+    "Barcona",
+    "Los autómatas no los enseña bien por lo menos a fecha de hoy, estoy llevando autómatas 2 y los autómatas que aprendí con ella son un tanto diferentes sin embargo muy buena profe es buena onda (En si lo que es el analisis lexico y sintantico lo enseña a medias aprende por ti mismo o con Martín Nevar)",
+    "Es una maestra muy completa",
+    "da clases decentes no la considero mala maestra, sin embargo hay maestros con los que podrias aprender mas. si quieres pasar \"fácil\" es la adecuada.",
+    "pues la verdad esta facil pero no aprendes casi nada, cuando lleguen a la 2 con alguno de los zatarain la van a sentir pesada, mejor lleven con rosalio desde la 1 que es compa y asi no andan tan perdidos"
+  ],
+  "n_reviews": 31
+}

@@ -1,0 +1,316 @@
+{
+  "professor_id": "Aldo_Uriarte_Portillo",
+  "nombre": "Aldo Uriarte Portillo",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 9.422374682347325,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 8.164170478376459,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.923,
+    "wilson_interval": [
+      0.6668546607175265,
+      0.9862899336203037
+    ],
+    "n_recommendations": 13
+  },
+  "subject_normalization": {
+    "z_mean": 0.38,
+    "z_mean_decayed": 0.67,
+    "per_subject": [
+      {
+        "materia": "FUNDAMENTOS DE PROGRAMACIÓN",
+        "z_decayed": 0.8694600370824767,
+        "n": 36
+      },
+      {
+        "materia": "FUNDAMENTOS DE PROGRAMACION",
+        "z_decayed": 0.8120039953779177,
+        "n": 43
+      },
+      {
+        "materia": "POO",
+        "z_decayed": 0.8099480471214521,
+        "n": 62
+      },
+      {
+        "materia": "MATEMÁTICAS DISCRETAS",
+        "z_decayed": 0.7510101014678421,
+        "n": 28
+      },
+      {
+        "materia": "FUNDAMENTOS DE BASE DE DATOS",
+        "z_decayed": 0.6123724356957945,
+        "n": 16
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "es buen",
+          "explica bien",
+          "explica",
+          "bien",
+          "es"
+        ],
+        "weight": 0.1465985298242632
+      },
+      {
+        "id": 1,
+        "words": [
+          "participacion",
+          "temas",
+          "cargar",
+          "volveria cargar",
+          "volveria"
+        ],
+        "weight": 0.1269432098982427
+      },
+      {
+        "id": 2,
+        "words": [
+          "tareas",
+          "muchas",
+          "practiquemos",
+          "mucha",
+          "deja"
+        ],
+        "weight": 0.12323973505063134
+      },
+      {
+        "id": 3,
+        "words": [
+          "examenes",
+          "tareas",
+          "tareas examenes",
+          "te ayuda",
+          "te"
+        ],
+        "weight": 0.12846020096954922
+      },
+      {
+        "id": 4,
+        "words": [
+          "vez",
+          "buen",
+          "si",
+          "profesor",
+          "buen profesor"
+        ],
+        "weight": 0.1445813095183608
+      }
+    ],
+    "sentiment": {
+      "overall": -0.08333333333333333,
+      "by_month": {
+        "2024-12": -1.0,
+        "2024-05": 1.0,
+        "2023-07": 0.0,
+        "2023-05": 0.0,
+        "2023-01": 0.0,
+        "2022-08": 0.0,
+        "2022-06": 0.0,
+        "2022-05": 0.0,
+        "2021-12": 0.0,
+        "2019-01": -1.0,
+        "2018-09": 0.0
+      }
+    },
+    "n_comments": 12
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        6.0,
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        8.0,
+        10.0,
+        9.0,
+        10.0,
+        10.0,
+        9.0
+      ],
+      "ewma": [
+        6.0,
+        7.199999999999999,
+        8.04,
+        8.628,
+        9.0396,
+        8.72772,
+        9.109404,
+        9.076582799999999,
+        9.353607959999998,
+        9.547525571999998,
+        9.383267900399998
+      ],
+      "sigma": 1.0449384934700594
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 9.383267900399998,
+      "quality_band": [
+        7.335188453198682,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2024-12-15T00:00:00",
+      "materia": "FUNDAMENTOS DE PROGRAMACION",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 7.5,
+      "recomienda": 1,
+      "comentario": "Es un buen profesor, Explica bien las cosas y siempre ayuda con los que tienen dudas.\nLo unico malo que le daria es que se estresa mucho el profe cuando le toca un grupo que no sabe mucho, se desorienta de vez en cuando pero enseña bien"
+    },
+    {
+      "fecha_iso": "2024-05-15T00:00:00",
+      "materia": "FUNDAMENTOS D PROGRAMACIÓN",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 1,
+      "comentario": "es un excelente profesor, solamente que deja muchas tareas y puede absorber demasiado tiempo hacerlas ya que son obligatorias."
+    },
+    {
+      "fecha_iso": "2023-07-01T00:00:00",
+      "materia": "MATEMÁTICAS DISCRETAS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Volveria a cargar con el. Explica bien los temas."
+    },
+    {
+      "fecha_iso": "2023-05-10T00:00:00",
+      "materia": "MATEMÁTICAS DISCRETAS 2",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Explica bien, es accesible, practicamos bastante los ejercicios. Es un buen maestro. Recomendado."
+    },
+    {
+      "fecha_iso": "2023-01-25T00:00:00",
+      "materia": "POO",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Un muy buen profesor, carguen con el si les gusta aprender y no morir en el intento."
+    },
+    {
+      "fecha_iso": "2022-08-07T00:00:00",
+      "materia": "FUNDAMENTOS DE BASE DE DATOS",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Explica muy bien. Si tienes dudas las aclara. La participación cuenta mucho. Volveria a tomar la clase. Hacen falta más maestros así."
+    },
+    {
+      "fecha_iso": "2022-06-13T00:00:00",
+      "materia": "MATEMÁTICAS DISCRETAS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Me quedaron claros los temas que no habia aprendido el semestre pasado. hay muchos ejercicios en las clases y la participacion importa mucho. Volveria a cargar con el"
+    },
+    {
+      "fecha_iso": "2022-05-04T00:00:00",
+      "materia": "MATEMÁTICAS DISCRETAS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "explica muy bien, tiene mucha paciencia para enseñar, da buena retroalimentacion, un poco largos los examenes, es justo para calificar."
+    },
+    {
+      "fecha_iso": "2021-12-20T00:00:00",
+      "materia": "FUNDAMENTOS DE PROGRAMACIÓN",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Es buen maestro. La clase es amena. Volvería a cargar con el. Las clases son más de práctica que de teoría y hace que practiquemos mucho"
+    },
+    {
+      "fecha_iso": "2021-12-17T00:00:00",
+      "materia": "POO (LINEA)",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Es buen profesor si no dominas mucho la programación. Explica bien la teoría pero las tareas y exámenes prácticos casi siempre están mal redactados por lo que tienes que preguntarle para entenderlos, te ayuda bastante para entender los temas y te explica otra vez si le necesitas. Recomendado"
+    },
+    {
+      "fecha_iso": "2019-01-15T00:00:00",
+      "materia": "ALGORITMOS Y LENGUAJES",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Algo complicado por la meteria, pero si aprendes, pocas tareas. exámenes por unidad, proyectos finales,te ayuda, te da muchas oportunidades para pasar."
+    },
+    {
+      "fecha_iso": "2018-09-20T00:00:00",
+      "materia": "PROGRAMACIÓN ORIENTADA A OBJETOS",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": "Deja mucha tarea para que practiquemos"
+    },
+    {
+      "fecha_iso": "2018-09-17T00:00:00",
+      "materia": "PROGRAMACIÓN ORIENTADA A OBJETOS",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": ""
+    }
+  ],
+  "comments_recent": [
+    "Es un buen profesor, Explica bien las cosas y siempre ayuda con los que tienen dudas.\nLo unico malo que le daria es que se estresa mucho el profe cuando le toca un grupo que no sabe mucho, se desorienta de vez en cuando pero enseña bien",
+    "es un excelente profesor, solamente que deja muchas tareas y puede absorber demasiado tiempo hacerlas ya que son obligatorias.",
+    "Volveria a cargar con el. Explica bien los temas.",
+    "Explica bien, es accesible, practicamos bastante los ejercicios. Es un buen maestro. Recomendado.",
+    "Un muy buen profesor, carguen con el si les gusta aprender y no morir en el intento.",
+    "Explica muy bien. Si tienes dudas las aclara. La participación cuenta mucho. Volveria a tomar la clase. Hacen falta más maestros así.",
+    "Me quedaron claros los temas que no habia aprendido el semestre pasado. hay muchos ejercicios en las clases y la participacion importa mucho. Volveria a cargar con el",
+    "explica muy bien, tiene mucha paciencia para enseñar, da buena retroalimentacion, un poco largos los examenes, es justo para calificar.",
+    "Es buen maestro. La clase es amena. Volvería a cargar con el. Las clases son más de práctica que de teoría y hace que practiquemos mucho",
+    "Es buen profesor si no dominas mucho la programación. Explica bien la teoría pero las tareas y exámenes prácticos casi siempre están mal redactados por lo que tienes que preguntarle para entenderlos, te ayuda bastante para entender los temas y te explica otra vez si le necesitas. Recomendado"
+  ],
+  "n_reviews": 13
+}

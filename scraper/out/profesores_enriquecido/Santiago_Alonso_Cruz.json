@@ -1,0 +1,299 @@
+{
+  "professor_id": "Santiago_Alonso_Cruz",
+  "nombre": "Santiago Alonso Cruz",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 4.043039686246816,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 6.262541863757207,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.5,
+    "wilson_interval": [
+      0.2537781703934222,
+      0.7462218296065778
+    ],
+    "n_recommendations": 12
+  },
+  "subject_normalization": {
+    "z_mean": -0.39,
+    "z_mean_decayed": -1.0,
+    "per_subject": [
+      {
+        "materia": "MECÁNICA CLÁSICA",
+        "z_decayed": 0.6221610547913348,
+        "n": 3
+      },
+      {
+        "materia": "FISICA",
+        "z_decayed": 0.5321762520120852,
+        "n": 41
+      },
+      {
+        "materia": "FÍSICA",
+        "z_decayed": -0.3621144453793628,
+        "n": 27
+      },
+      {
+        "materia": "MECANICA CLASICA",
+        "z_decayed": -0.9305900163684727,
+        "n": 3
+      },
+      {
+        "materia": "FISICA GENERAL",
+        "z_decayed": -1.2920779817854675,
+        "n": 12
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "porque",
+          "verdad es",
+          "verdad",
+          "es",
+          "te"
+        ],
+        "weight": 0.11745240604161483
+      },
+      {
+        "id": 1,
+        "words": [
+          "siempre",
+          "examenes",
+          "nunca",
+          "tenido",
+          "profe"
+        ],
+        "weight": 0.1135269159639178
+      },
+      {
+        "id": 2,
+        "words": [
+          "es",
+          "70",
+          "maestro",
+          "buen maestro",
+          "buen"
+        ],
+        "weight": 0.09712099779300686
+      },
+      {
+        "id": 3,
+        "words": [
+          "dificiles",
+          "examenes",
+          "saca",
+          "tareas",
+          "respeto"
+        ],
+        "weight": 0.13142695201124244
+      },
+      {
+        "id": 4,
+        "words": [
+          "llega",
+          "20",
+          "he",
+          "profesor",
+          "clases"
+        ],
+        "weight": 0.11946736148666096
+      }
+    ],
+    "sentiment": {
+      "overall": -0.09090909090909091,
+      "by_month": {
+        "2025-06": 1.0,
+        "2024-11": -0.5,
+        "2024-06": 0.0,
+        "2022-11": 0.0,
+        "2019-08": 0.0,
+        "2015-03": 0.0,
+        "2014-06": 0.0,
+        "2014-01": 0.0
+      }
+    },
+    "n_comments": 11
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        8.0,
+        7.0,
+        10.0,
+        7.0,
+        7.0,
+        6.0,
+        7.0,
+        3.25,
+        3.0
+      ],
+      "ewma": [
+        8.0,
+        7.699999999999999,
+        8.389999999999999,
+        7.972999999999999,
+        7.681099999999999,
+        7.1767699999999985,
+        7.123738999999999,
+        5.961617299999999,
+        5.0731321099999995
+      ],
+      "sigma": 1.2430473112672116
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 5.0731321099999995,
+      "quality_band": [
+        2.6367593799162647,
+        7.509504840083734
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2025-06-16T00:00:00",
+      "materia": "MECANICA CLASICA",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": 24.0,
+      "recomienda": 0,
+      "comentario": "La verdad no ayuda que tenga una voz muy baja o cuando manda un mensaje no sea claro. Y cuando caalifica una unidad con un trabajo ahi ya cae en suerte si te pone un 70 o te reprueba, pero al final si tienes una unidad reprobada te pone un 70"
+    },
+    {
+      "fecha_iso": "2024-11-30T00:00:00",
+      "materia": "CÁLCULO DIFERENCIAL",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 0,
+      "comentario": "La mera verdad es pésimo dando cálculo diferencial, no porque se equivoque o no sepa sobre cálculo, es porque simplemente llega tarde, habla con voz muy baja y anota problemas en el pizarrón, cuando hay tema nuevo solo quiere que copiemos lo que anota en el pizarron, ni siquiera explica lo que anota"
+    },
+    {
+      "fecha_iso": "2024-11-30T00:00:00",
+      "materia": "CÁLCULO DIFERENCIAL",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 0,
+      "comentario": "Nunca había tenido un profe tan malo como él. Sus examenes valen la nota mínima para pasar, pero la calidad de su enseñanza no justifica para nada su evaluación tan dura"
+    },
+    {
+      "fecha_iso": "2024-11-25T00:00:00",
+      "materia": "FISICA GENERAL",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 23.0,
+      "recomienda": 0,
+      "comentario": "El profesor llega 20 tarde, explica con voz MUY baja, y su actitud pasiva hace que los alumnos le pierdan el respeto, volviendo el salón ruidoso. Además, califica de forma inconsistente y  para exámenes y tareas los saca de brainly y youtube. No recomiendo la clase, no he aprendido nada."
+    },
+    {
+      "fecha_iso": "2024-11-02T00:00:00",
+      "materia": "CÁLCULO DIFERENCIAL",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "El peor profe que he tenido. Siempre llega al menos 20 minutos tarde a las clases, sus explicaciones constan de \"tómenle foto\" y para acabar de fregar, si no se equivocó al resolver un ejercicio es porque no hubo clases ese día."
+    },
+    {
+      "fecha_iso": "2024-06-06T00:00:00",
+      "materia": "MECÁNICA CLÁSICA",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 1,
+      "comentario": "Es buen maestro porque enseña su materia y nunca falta, pero sus exámenes y preexamenes son muy muy difíciles, el examen vale el 70% y es muy común que todo el salón lo repruebe. Puedes utilizar el teléfono y los apuntes y posiblemente lo pases.  Al final todos pasan con 70. SUERTE"
+    },
+    {
+      "fecha_iso": "2022-11-30T00:00:00",
+      "materia": "MECÁNICA CLÁSICA",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 23.0,
+      "recomienda": 0,
+      "comentario": "Ese profesor en nuestro semestre no fue por 2 meses, no nos Dio clases, y Batallamos mucho"
+    },
+    {
+      "fecha_iso": "2019-08-03T00:00:00",
+      "materia": "MECANICA CLASICA",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 1,
+      "comentario": "Eventualmente el grupo le pierde el respeto y hay mucho ruido mientras el sigue explicando, sus examenes son bastante dificiles, aunque los saca de internet y de libros. Hay que hacer todas sus tareas y al final probablemente los pase a todos aunque merezcan reprobar. Lleguen hasta el global."
+    },
+    {
+      "fecha_iso": "2016-01-15T00:00:00",
+      "materia": "FÍSICA",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2015-03-08T00:00:00",
+      "materia": "FISICA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 1,
+      "comentario": "buen maestro."
+    },
+    {
+      "fecha_iso": "2014-06-10T00:00:00",
+      "materia": "FISICA",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 7.5,
+      "recomienda": 1,
+      "comentario": "neta que este profe se la rifa"
+    },
+    {
+      "fecha_iso": "2014-01-13T00:00:00",
+      "materia": "MECANICA CLASICA",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 7.5,
+      "recomienda": 1,
+      "comentario": "la verdad es unos de los pocos profes que explica bien pero hace exámenes pasados de lanza, al final siempre te pasa"
+    }
+  ],
+  "comments_recent": [
+    "La verdad no ayuda que tenga una voz muy baja o cuando manda un mensaje no sea claro. Y cuando caalifica una unidad con un trabajo ahi ya cae en suerte si te pone un 70 o te reprueba, pero al final si tienes una unidad reprobada te pone un 70",
+    "La mera verdad es pésimo dando cálculo diferencial, no porque se equivoque o no sepa sobre cálculo, es porque simplemente llega tarde, habla con voz muy baja y anota problemas en el pizarrón, cuando hay tema nuevo solo quiere que copiemos lo que anota en el pizarron, ni siquiera explica lo que anota",
+    "Nunca había tenido un profe tan malo como él. Sus examenes valen la nota mínima para pasar, pero la calidad de su enseñanza no justifica para nada su evaluación tan dura",
+    "El profesor llega 20 tarde, explica con voz MUY baja, y su actitud pasiva hace que los alumnos le pierdan el respeto, volviendo el salón ruidoso. Además, califica de forma inconsistente y  para exámenes y tareas los saca de brainly y youtube. No recomiendo la clase, no he aprendido nada.",
+    "El peor profe que he tenido. Siempre llega al menos 20 minutos tarde a las clases, sus explicaciones constan de \"tómenle foto\" y para acabar de fregar, si no se equivocó al resolver un ejercicio es porque no hubo clases ese día.",
+    "Es buen maestro porque enseña su materia y nunca falta, pero sus exámenes y preexamenes son muy muy difíciles, el examen vale el 70% y es muy común que todo el salón lo repruebe. Puedes utilizar el teléfono y los apuntes y posiblemente lo pases.  Al final todos pasan con 70. SUERTE",
+    "Ese profesor en nuestro semestre no fue por 2 meses, no nos Dio clases, y Batallamos mucho",
+    "Eventualmente el grupo le pierde el respeto y hay mucho ruido mientras el sigue explicando, sus examenes son bastante dificiles, aunque los saca de internet y de libros. Hay que hacer todas sus tareas y al final probablemente los pase a todos aunque merezcan reprobar. Lleguen hasta el global.",
+    "buen maestro."
+  ],
+  "n_reviews": 12
+}

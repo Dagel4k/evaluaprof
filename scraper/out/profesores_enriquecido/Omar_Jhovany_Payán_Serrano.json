@@ -1,0 +1,340 @@
+{
+  "professor_id": "Omar_Jhovany_Payán_Serrano",
+  "nombre": "Omar Jhovany Payán Serrano",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 9.891038508711329,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 8.711036840106342,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 1.0,
+    "wilson_interval": [
+      0.7961107336956521,
+      1
+    ],
+    "n_recommendations": 15
+  },
+  "subject_normalization": {
+    "z_mean": 0.71,
+    "z_mean_decayed": 0.69,
+    "per_subject": [
+      {
+        "materia": "CONTROL DIGITAL",
+        "z_decayed": 0.8974859800027296,
+        "n": 9
+      },
+      {
+        "materia": "ANÁLISIS DE FLUIDOS",
+        "z_decayed": 0.8308400387236599,
+        "n": 8
+      },
+      {
+        "materia": "ANALISIS DE FLUIDOS",
+        "z_decayed": 0.7071067811865474,
+        "n": 8
+      },
+      {
+        "materia": "DINÁMICA DE SISTEMAS",
+        "z_decayed": 0.6603381797442179,
+        "n": 4
+      },
+      {
+        "materia": "ROBÓTICA",
+        "z_decayed": 0.6324555320336759,
+        "n": 8
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "ayuda",
+          "maestro",
+          "es",
+          "materia",
+          "te"
+        ],
+        "weight": 0.10038290857558484
+      },
+      {
+        "id": 1,
+        "words": [
+          "tema",
+          "examenes",
+          "veces",
+          "claras",
+          "clase"
+        ],
+        "weight": 0.10571332458679146
+      },
+      {
+        "id": 2,
+        "words": [
+          "vas",
+          "llevar",
+          "vale",
+          "si",
+          "clases"
+        ],
+        "weight": 0.18405378457110927
+      },
+      {
+        "id": 3,
+        "words": [
+          "realmente",
+          "mejores",
+          "mejor",
+          "es",
+          "materias"
+        ],
+        "weight": 0.14592625351083774
+      },
+      {
+        "id": 4,
+        "words": [
+          "explica",
+          "examenes",
+          "bien",
+          "examenes faciles",
+          "faciles"
+        ],
+        "weight": 0.14036058236591667
+      }
+    ],
+    "sentiment": {
+      "overall": 0.5333333333333333,
+      "by_month": {
+        "2024-08": 1.0,
+        "2022-02": 1.0,
+        "2021-12": 0.0,
+        "2021-07": 0.0,
+        "2021-01": 0.0,
+        "2020-08": 0.0,
+        "2020-07": 1.0,
+        "2020-06": 0.0,
+        "2020-01": 1.0,
+        "2019-12": 1.0,
+        "2019-06": 1.0,
+        "2019-01": 0.0,
+        "2018-12": 1.0
+      }
+    },
+    "n_comments": 15
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        8.0,
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        10.0
+      ],
+      "ewma": [
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        9.4,
+        9.58,
+        9.706,
+        9.7942,
+        9.85594,
+        9.899158,
+        9.9294106
+      ],
+      "sigma": 0.4377031010220864
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 9.9294106,
+      "quality_band": [
+        9.071512521996711,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2024-08-12T00:00:00",
+      "materia": "ROBÓTICA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "No te confíes porque de la nada se pondrá con nivel la clase, al inicio es pura teoría, pero te servirá durante todo el curso. Es el titular de la materia y en donde lo pongas sabrá de lo que habla y te atenderá excelente siempre que lo busques o pidas ayuda con algún tema."
+    },
+    {
+      "fecha_iso": "2022-02-10T00:00:00",
+      "materia": "ANÁLISIS DE FLUÍDOS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Es excelente en todos los sentidos. Explica bien, muy organizado, resuelve dudas, si le hablas por teams siempre contesta, no deja tareas y sus exámenes son fáciles y cortos si realmente aprendiste."
+    },
+    {
+      "fecha_iso": "2021-12-28T00:00:00",
+      "materia": "ANALISIS DE FLUIDOS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "UN MUY BUEN MAESTRO. de lo mejor q te encontraras en el tec sus clases son un poco aburridas por q llegan a ser redundantes pero tiene un muy buen manejo de los temas es muy amable y te ayuda en lo mas posible."
+    },
+    {
+      "fecha_iso": "2021-07-14T00:00:00",
+      "materia": "ROBOTICA, ESTATICA, DINAMICA, CONTROL, CONTROL DIGITAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "En donde lo pongan, da excelentes clases, y una manera que te da tiempo y oportunidad para examenes. 100 seguro si vas con ritmo"
+    },
+    {
+      "fecha_iso": "2021-01-17T00:00:00",
+      "materia": "CONTROL DIGITAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Carga todas las materias que puedas con el, es el mejor."
+    },
+    {
+      "fecha_iso": "2021-01-16T00:00:00",
+      "materia": "ANALSIS DE FLUIDOS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Este profesor es de los mejores con los que he cargado simplemente por como demuestra su conocimiento en las materias que imparte asi como su dedicacion a ellas y que el alumno comprenda realmente lo que esta siendo explicado, ademas de eso califica justamente, cargalo inmediatamente."
+    },
+    {
+      "fecha_iso": "2020-08-10T00:00:00",
+      "materia": "ROBÓTICA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Hace todo lo posible por dejar las cosas claras, explica las veces que lo necesites (en mi clase le explicó durante cuarenta minutos un tema a alguien que no entendía algo básico, en serio), los exámenes son cosas totalmente aplicables a la clase, intenta manejar las cosas con humor. Un amor."
+    },
+    {
+      "fecha_iso": "2020-07-15T00:00:00",
+      "materia": "DINAMICA ,ROBOTICA , CONTROL DIGITAL",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 1,
+      "comentario": "sus clases son pura matematica el examen vale 100% si eres bueno con los numeros sera facil si no vas a tronar"
+    },
+    {
+      "fecha_iso": "2020-06-12T00:00:00",
+      "materia": "DINAMICA DE SISTEMAS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "A todo dar si le echas ganas a sus clases, vale la pena llevar clases con el, pero sin andar valiendo"
+    },
+    {
+      "fecha_iso": "2020-01-01T00:00:00",
+      "materia": "DINÁMICA DE SISTEMAS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Excelente profesor. Las clases son súper claras y aún si no comprendiste algo, lo vuelve a repetir, no importa cuántas veces haya explicado ya. Los exámenes son tal cual su clase. Ambiente tranquilo y bonito."
+    },
+    {
+      "fecha_iso": "2019-12-11T00:00:00",
+      "materia": "DINÁMICA DE SISTEMAS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": "Excelente profesor, lo único que importa con él es el examen que vale el 100% de la calificación. Domina a la perfección todos los temas de la materia y explica de una manera muy clara. Siempre está dispuesto a ayudar y resolver dudas. De los mejores maestros dentro del tec."
+    },
+    {
+      "fecha_iso": "2019-06-14T00:00:00",
+      "materia": "ROBOTICA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Excelente maestro, enseña muy bien, explica claramente y ayuda mucho a sus alumnos"
+    },
+    {
+      "fecha_iso": "2019-01-11T00:00:00",
+      "materia": "ANALISIS DE FLUIDOS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "El mejor maestro para aprender esta materia, aunque todo será teórico, es muy accesible y te da mucha oportunidad de pasar, puedes sacar un 100 en la materia fácilmente si te lo propones"
+    },
+    {
+      "fecha_iso": "2018-12-29T00:00:00",
+      "materia": "ROBÓTICA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Excelente, si buscas llevar esta materia como se debe  es tu mejor opción."
+    },
+    {
+      "fecha_iso": "2018-12-14T00:00:00",
+      "materia": "ANÁLISIS DE FLUIDOS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Muy paciente, claro y amable. Exámenes fáciles pero un poquito largos."
+    }
+  ],
+  "comments_recent": [
+    "No te confíes porque de la nada se pondrá con nivel la clase, al inicio es pura teoría, pero te servirá durante todo el curso. Es el titular de la materia y en donde lo pongas sabrá de lo que habla y te atenderá excelente siempre que lo busques o pidas ayuda con algún tema.",
+    "Es excelente en todos los sentidos. Explica bien, muy organizado, resuelve dudas, si le hablas por teams siempre contesta, no deja tareas y sus exámenes son fáciles y cortos si realmente aprendiste.",
+    "UN MUY BUEN MAESTRO. de lo mejor q te encontraras en el tec sus clases son un poco aburridas por q llegan a ser redundantes pero tiene un muy buen manejo de los temas es muy amable y te ayuda en lo mas posible.",
+    "En donde lo pongan, da excelentes clases, y una manera que te da tiempo y oportunidad para examenes. 100 seguro si vas con ritmo",
+    "Carga todas las materias que puedas con el, es el mejor.",
+    "Este profesor es de los mejores con los que he cargado simplemente por como demuestra su conocimiento en las materias que imparte asi como su dedicacion a ellas y que el alumno comprenda realmente lo que esta siendo explicado, ademas de eso califica justamente, cargalo inmediatamente.",
+    "Hace todo lo posible por dejar las cosas claras, explica las veces que lo necesites (en mi clase le explicó durante cuarenta minutos un tema a alguien que no entendía algo básico, en serio), los exámenes son cosas totalmente aplicables a la clase, intenta manejar las cosas con humor. Un amor.",
+    "sus clases son pura matematica el examen vale 100% si eres bueno con los numeros sera facil si no vas a tronar",
+    "A todo dar si le echas ganas a sus clases, vale la pena llevar clases con el, pero sin andar valiendo",
+    "Excelente profesor. Las clases son súper claras y aún si no comprendiste algo, lo vuelve a repetir, no importa cuántas veces haya explicado ya. Los exámenes son tal cual su clase. Ambiente tranquilo y bonito."
+  ],
+  "n_reviews": 15
+}

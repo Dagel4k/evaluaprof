@@ -1,0 +1,114 @@
+{
+  "professor_id": "nora_angelica_rangel_zambada",
+  "nombre": "nora angelica rangel zambada",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 9.050878955959814,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.367378538666044,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.667,
+    "wilson_interval": [
+      0.20765495512648788,
+      0.9385096847238393
+    ],
+    "n_recommendations": 3
+  },
+  "subject_normalization": {
+    "z_mean": -0.17,
+    "z_mean_decayed": -0.17,
+    "per_subject": [
+      {
+        "materia": "DESARROLLO SUSTENTABLE",
+        "z_decayed": -0.16979060520150235,
+        "n": 52
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [],
+    "sentiment": {
+      "overall": null,
+      "by_month": {}
+    },
+    "n_comments": 2
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        6.0,
+        10.0,
+        10.0
+      ],
+      "ewma": [
+        6.0,
+        7.199999999999999,
+        8.04
+      ],
+      "sigma": 1.436848403045128
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 8.04,
+      "quality_band": [
+        5.223777130031548,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2015-03-21T00:00:00",
+      "materia": "DES. SUSTENTABLE",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Un gran espiritu de servicio. Unica"
+    },
+    {
+      "fecha_iso": "2014-09-10T00:00:00",
+      "materia": "INT. A LAS TICS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "EXCELENTE"
+    },
+    {
+      "fecha_iso": "2013-08-07T00:00:00",
+      "materia": "DESARROLLO SUSTENTABLE",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 5.0,
+      "recomienda": 0,
+      "comentario": ""
+    }
+  ],
+  "comments_recent": [
+    "Un gran espiritu de servicio. Unica",
+    "EXCELENTE"
+  ],
+  "n_reviews": 3
+}

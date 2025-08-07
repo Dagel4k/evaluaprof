@@ -1,0 +1,160 @@
+{
+  "professor_id": "Marisol_Manjarrez_Beltran",
+  "nombre": "Marisol Manjarrez Beltran",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 5.895057782860629,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 6.698280071618469,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.5,
+    "wilson_interval": [
+      0.15003570882017145,
+      0.8499642911798285
+    ],
+    "n_recommendations": 4
+  },
+  "subject_normalization": {
+    "z_mean": 0.14,
+    "z_mean_decayed": 0.08,
+    "per_subject": [
+      {
+        "materia": "TALLER DE INVESTIGACION I",
+        "z_decayed": 0.15048642849208785,
+        "n": 5
+      },
+      {
+        "materia": "TALLER DE INVESTIGACION 2",
+        "z_decayed": -0.2738612787525829,
+        "n": 5
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "maestra",
+          "tu",
+          "materia",
+          "si",
+          "te"
+        ],
+        "weight": 0.30202189802758006
+      },
+      {
+        "id": 1,
+        "words": [
+          "bien",
+          "cada semana",
+          "semana",
+          "cada",
+          "proyecto"
+        ],
+        "weight": 0.4089573568193031
+      }
+    ],
+    "sentiment": {
+      "overall": 0.0,
+      "by_month": {
+        "2024-01": 0.0,
+        "2023-12": 0.0,
+        "2021-12": 0.0,
+        "2021-06": 0.0
+      }
+    },
+    "n_comments": 4
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        8.0,
+        4.0,
+        10.0,
+        2.0
+      ],
+      "ewma": [
+        8.0,
+        6.8,
+        7.76,
+        6.031999999999999
+      ],
+      "sigma": 2.8191611045368323
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 6.031999999999999,
+      "quality_band": [
+        0.506444235107808,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2024-01-24T00:00:00",
+      "materia": "TALLER DE INVESTIGACION I",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 24.0,
+      "recomienda": 0,
+      "comentario": "Te niega casi todas las ideas que se te puedan ocurrir. Quiere que pongas los pies sobre la tierra y a partir de ahí saques tu idea, pero a la vez quiere algo super complejo de desarrollar. Antes no hacia examen, ahora si lo hace (trata de pasarlo a la primera, si no después se complica)."
+    },
+    {
+      "fecha_iso": "2023-12-15T00:00:00",
+      "materia": "TALLER DE INVESTIGACION I",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Da las materias de Taller Investigacion I y II y la verdad, para ser una materia de relleno y que muchos considerarian \"aburrida\", la sabe dar muy bien, sus clases no son aburridas, son rapidas y cada semana deja un nuevo apartado para el proyecto."
+    },
+    {
+      "fecha_iso": "2021-12-16T00:00:00",
+      "materia": "TALLER DE INVESTIGACION 2",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 7.5,
+      "recomienda": 0,
+      "comentario": "Creo que todos esperamos de taller dos una materia facil en la que te pidan un F.O.D.A. y te pasen, pero esta maestra se lo toma muy enserio, exige muchas cosas y llega hasta a reprobar gente. En resumen, si te interesa aprender la materia carga con ella. Si no, por ningun motivo lo hagas."
+    },
+    {
+      "fecha_iso": "2021-06-18T00:00:00",
+      "materia": "TALLER DE INVESTIGACION I",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": "Maestra buena onda, explica claro y no es nada difícil pasar con ella. Califica con un proyecto final, cada semana explica cada apartado a agregar y el proyecto final se va construyendo poco a poco. Le importa la participación para ir revisando tu proyecto y decirte si vas bien o mal."
+    }
+  ],
+  "comments_recent": [
+    "Te niega casi todas las ideas que se te puedan ocurrir. Quiere que pongas los pies sobre la tierra y a partir de ahí saques tu idea, pero a la vez quiere algo super complejo de desarrollar. Antes no hacia examen, ahora si lo hace (trata de pasarlo a la primera, si no después se complica).",
+    "Da las materias de Taller Investigacion I y II y la verdad, para ser una materia de relleno y que muchos considerarian \"aburrida\", la sabe dar muy bien, sus clases no son aburridas, son rapidas y cada semana deja un nuevo apartado para el proyecto.",
+    "Creo que todos esperamos de taller dos una materia facil en la que te pidan un F.O.D.A. y te pasen, pero esta maestra se lo toma muy enserio, exige muchas cosas y llega hasta a reprobar gente. En resumen, si te interesa aprender la materia carga con ella. Si no, por ningun motivo lo hagas.",
+    "Maestra buena onda, explica claro y no es nada difícil pasar con ella. Califica con un proyecto final, cada semana explica cada apartado a agregar y el proyecto final se va construyendo poco a poco. Le importa la participación para ir revisando tu proyecto y decirte si vas bien o mal."
+  ],
+  "n_reviews": 4
+}

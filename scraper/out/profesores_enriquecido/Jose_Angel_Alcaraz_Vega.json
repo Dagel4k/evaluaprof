@@ -1,0 +1,281 @@
+{
+  "professor_id": "Jose_Angel_Alcaraz_Vega",
+  "nombre": "Jose Angel Alcaraz Vega",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 6.5531831209529265,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.0887960501329275,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.6,
+    "wilson_interval": [
+      0.3126695474501863,
+      0.8318224187964901
+    ],
+    "n_recommendations": 10
+  },
+  "subject_normalization": {
+    "z_mean": -0.11,
+    "z_mean_decayed": 0.03,
+    "per_subject": [
+      {
+        "materia": "MECATRONICA APLICADA",
+        "z_decayed": 0.8777472595071586,
+        "n": 6
+      },
+      {
+        "materia": "ROBÓTICA",
+        "z_decayed": -0.05468311207805248,
+        "n": 8
+      },
+      {
+        "materia": "MECATRÓNICA APLICADA",
+        "z_decayed": -0.3084467982887145,
+        "n": 5
+      },
+      {
+        "materia": "---",
+        "z_decayed": -0.36348883362302276,
+        "n": 521
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "materias",
+          "facil",
+          "debido",
+          "maestro",
+          "clase"
+        ],
+        "weight": 0.06489529495682221
+      },
+      {
+        "id": 1,
+        "words": [
+          "buen maestro",
+          "preocupa alumnos",
+          "preocupa",
+          "maestro",
+          "alumnos"
+        ],
+        "weight": 0.14629058136366938
+      },
+      {
+        "id": 2,
+        "words": [
+          "te",
+          "trabajos",
+          "materias",
+          "materia",
+          "es"
+        ],
+        "weight": 0.16867125204478978
+      },
+      {
+        "id": 3,
+        "words": [
+          "te",
+          "es",
+          "alumnos",
+          "gran",
+          "mejor"
+        ],
+        "weight": 0.11394369097000245
+      },
+      {
+        "id": 4,
+        "words": [
+          "gran",
+          "trabajos",
+          "facil",
+          "clases",
+          "veces"
+        ],
+        "weight": 0.13707227654426865
+      }
+    ],
+    "sentiment": {
+      "overall": 0.1,
+      "by_month": {
+        "2025-01": 0.0,
+        "2021-07": 0.0,
+        "2021-06": 0.0,
+        "2020-02": 1.0,
+        "2018-01": 0.0,
+        "2016-05": 0.0,
+        "2016-01": 0.0,
+        "2015-10": 0.0,
+        "2015-02": 0.0,
+        "2015-01": 0.0
+      }
+    },
+    "n_comments": 10
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        10.0,
+        2.0,
+        4.0,
+        9.0,
+        4.0,
+        10.0,
+        10.0,
+        9.0,
+        10.0,
+        4.0
+      ],
+      "ewma": [
+        10.0,
+        7.6,
+        6.52,
+        7.263999999999999,
+        6.2848,
+        7.39936,
+        8.179552,
+        8.425686399999998,
+        8.897980479999998,
+        7.428586335999998
+      ],
+      "sigma": 2.7022890606955783
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 7.428586335999998,
+      "quality_band": [
+        2.1320997770366645,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2025-01-06T00:00:00",
+      "materia": "MECATRÓNICA APLICADA",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 0,
+      "comentario": "Es un profe histérico que nomas se la pasa pidiendo trabajos los cuales solo sirven para que el entregue evidencia en las auditorias, la materia en si no da para mucho porque es hacer un proyecto con todo lo que aprendiste en las demás materias, no aprenderás nada nuevo básicamente. Carga con Héctor"
+    },
+    {
+      "fecha_iso": "2021-07-24T00:00:00",
+      "materia": "MECATRONICA APLICADA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "El mejor!!! 100/10"
+    },
+    {
+      "fecha_iso": "2021-06-29T00:00:00",
+      "materia": "ROBÓTICA",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "las clases son relativamente sencillas, sus trabajos e investigaciones deben ser de gran calidad para considerarse aceptables por parte de él.\n\nmuchas veces puede considerarse fácil debido a que muchos de los temas ya han sido tomados en otras materias."
+    },
+    {
+      "fecha_iso": "2020-02-24T00:00:00",
+      "materia": "MECATRONICA APLICADA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Excelente maestro, es una gran persona que siempre se preocupa por sus alumnos y te ayudara en todo lo que pueda, enseña muy bien y ayuda mucho a sus alumnos, una gran persona, se le aprecia mucho.\n\nEl mejor maestro para mecatronica aplicada y seminario de mecatronica"
+    },
+    {
+      "fecha_iso": "2018-01-29T00:00:00",
+      "materia": "MECATRONICA APLICADA Y SEMINARIO DE MECATRONICA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Buen maestro que se preocupa por los alumnos, a veces se pierden clases por estar ocupado en asuntos internos de la escuela."
+    },
+    {
+      "fecha_iso": "2016-05-17T00:00:00",
+      "materia": "---",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2016-01-15T00:00:00",
+      "materia": "MECATRÓNICA APLICADA",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "A pesar de que a cada materia te pide un portafolio extenso, considero que es buen maestro."
+    },
+    {
+      "fecha_iso": "2015-10-11T00:00:00",
+      "materia": "ROBÓTICA",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Lastimosamente no hay opción al día de hoy para escoger otro maestro en sus materias. Agradezco que esté demasiado fácil su clase. Pero realmente es ir a perder el tiempo con él."
+    },
+    {
+      "fecha_iso": "2015-02-23T00:00:00",
+      "materia": "ROBÓTICA",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 0,
+      "comentario": "El peor maestro que he tenido debido a su nulo control y conocimiento sobre la clase que imparte."
+    },
+    {
+      "fecha_iso": "2015-01-29T00:00:00",
+      "materia": "MECATRONICA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "profesor divertido"
+    }
+  ],
+  "comments_recent": [
+    "Es un profe histérico que nomas se la pasa pidiendo trabajos los cuales solo sirven para que el entregue evidencia en las auditorias, la materia en si no da para mucho porque es hacer un proyecto con todo lo que aprendiste en las demás materias, no aprenderás nada nuevo básicamente. Carga con Héctor",
+    "El mejor!!! 100/10",
+    "las clases son relativamente sencillas, sus trabajos e investigaciones deben ser de gran calidad para considerarse aceptables por parte de él.\n\nmuchas veces puede considerarse fácil debido a que muchos de los temas ya han sido tomados en otras materias.",
+    "Excelente maestro, es una gran persona que siempre se preocupa por sus alumnos y te ayudara en todo lo que pueda, enseña muy bien y ayuda mucho a sus alumnos, una gran persona, se le aprecia mucho.\n\nEl mejor maestro para mecatronica aplicada y seminario de mecatronica",
+    "Buen maestro que se preocupa por los alumnos, a veces se pierden clases por estar ocupado en asuntos internos de la escuela.",
+    "[Comentario esperando revisión]",
+    "A pesar de que a cada materia te pide un portafolio extenso, considero que es buen maestro.",
+    "Lastimosamente no hay opción al día de hoy para escoger otro maestro en sus materias. Agradezco que esté demasiado fácil su clase. Pero realmente es ir a perder el tiempo con él.",
+    "El peor maestro que he tenido debido a su nulo control y conocimiento sobre la clase que imparte.",
+    "profesor divertido"
+  ],
+  "n_reviews": 10
+}

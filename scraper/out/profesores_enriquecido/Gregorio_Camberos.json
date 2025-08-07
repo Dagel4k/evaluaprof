@@ -1,0 +1,124 @@
+{
+  "professor_id": "Gregorio_Camberos",
+  "nombre": "Gregorio Camberos",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 10.0,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.675070846358351,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 1.0,
+    "wilson_interval": [
+      0.4384939195509822,
+      1
+    ],
+    "n_recommendations": 3
+  },
+  "subject_normalization": {
+    "z_mean": 0.63,
+    "z_mean_decayed": 0.67,
+    "per_subject": [
+      {
+        "materia": "ESTADÍSTICA INFERENCIAL I",
+        "z_decayed": 0.8939711995397412,
+        "n": 9
+      },
+      {
+        "materia": "CÁLCULO",
+        "z_decayed": 0.5097451910907641,
+        "n": 10
+      },
+      {
+        "materia": "ESTADÍSTICA INFERENCIAL 1",
+        "z_decayed": 0.5,
+        "n": 4
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [],
+    "sentiment": {
+      "overall": null,
+      "by_month": {}
+    },
+    "n_comments": 2
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        10.0,
+        10.0,
+        10.0
+      ],
+      "ewma": [
+        10.0,
+        10.0,
+        10.0
+      ],
+      "sigma": 0.0
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 10.0,
+      "quality_band": [
+        10.0,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2021-01-19T00:00:00",
+      "materia": "ESTADÍSTICA INFERENCIAL I",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Muy dinámica su clase, yo la tomé  en  línea  y explica  muy bien todos los temas. Las tareas se basan mucho en los ejemplos de clase, al igual que los exámenes. Las tareas y examenes sí cuentan mucho porque las sube en Canvas y la calificación es en base al puntaje que obtengas de todo."
+    },
+    {
+      "fecha_iso": "2020-01-14T00:00:00",
+      "materia": "ESTADÍSTICA INFERENCIAL 1",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Este profe es un crack. El mejor para Estadistica 1. Muy claro para explicar los temas y te vuelve a explicar si tienes dudas. Clases nada aburridas. Deja muchas tareas pero casi todas son en canvas y no toma lista. Y si da oportunidad al final de subir la calificación."
+    },
+    {
+      "fecha_iso": "2019-12-16T00:00:00",
+      "materia": "CÁLCULO",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": ""
+    }
+  ],
+  "comments_recent": [
+    "Muy dinámica su clase, yo la tomé  en  línea  y explica  muy bien todos los temas. Las tareas se basan mucho en los ejemplos de clase, al igual que los exámenes. Las tareas y examenes sí cuentan mucho porque las sube en Canvas y la calificación es en base al puntaje que obtengas de todo.",
+    "Este profe es un crack. El mejor para Estadistica 1. Muy claro para explicar los temas y te vuelve a explicar si tienes dudas. Clases nada aburridas. Deja muchas tareas pero casi todas son en canvas y no toma lista. Y si da oportunidad al final de subir la calificación."
+  ],
+  "n_reviews": 3
+}

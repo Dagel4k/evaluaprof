@@ -1,0 +1,309 @@
+{
+  "professor_id": "José_Luis_Lopez_Audeves",
+  "nombre": "José Luis Lopez Audeves",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 5.499968392792256,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 5.685909608811241,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.385,
+    "wilson_interval": [
+      0.17709446581236818,
+      0.6447751902773147
+    ],
+    "n_recommendations": 13
+  },
+  "subject_normalization": {
+    "z_mean": -1.06,
+    "z_mean_decayed": -0.71,
+    "per_subject": [
+      {
+        "materia": "REDES",
+        "z_decayed": -0.4808854805066896,
+        "n": 21
+      },
+      {
+        "materia": "---",
+        "z_decayed": -0.9627852966533862,
+        "n": 521
+      },
+      {
+        "materia": "SISTEMAS",
+        "z_decayed": -2.1168794004553053,
+        "n": 13
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "profesor",
+          "aprendes",
+          "burlon",
+          "es",
+          "recomiendo"
+        ],
+        "weight": 0.06715093489672556
+      },
+      {
+        "id": 1,
+        "words": [
+          "prepotente",
+          "mal",
+          "aprendes",
+          "profesor",
+          "si"
+        ],
+        "weight": 0.1521157511001686
+      },
+      {
+        "id": 2,
+        "words": [
+          "recomiendo",
+          "si",
+          "es",
+          "prepotente",
+          "burlon"
+        ],
+        "weight": 0.09678953197146063
+      },
+      {
+        "id": 3,
+        "words": [
+          "recomiendo",
+          "burlon",
+          "si",
+          "mal",
+          "es"
+        ],
+        "weight": 0.15900494536569182
+      },
+      {
+        "id": 4,
+        "words": [
+          "recomiendo",
+          "si",
+          "burlon",
+          "es",
+          "ayuda"
+        ],
+        "weight": 0.12078220873015477
+      }
+    ],
+    "sentiment": {
+      "overall": 0.08333333333333333,
+      "by_month": {
+        "2025-05": 0.0,
+        "2024-01": 0.0,
+        "2021-10": 0.0,
+        "2018-08": 0.0,
+        "2013-08": 0.0,
+        "2012-03": 1.0,
+        "2011-11": 0.0,
+        "2011-08": 0.0,
+        "2011-04": 0.0,
+        "2010-12": 0.0,
+        "2010-09": 0.0,
+        "2010-08": 0.0
+      }
+    },
+    "n_comments": 12
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        3.0,
+        7.5,
+        2.0,
+        7.0,
+        2.0,
+        7.0,
+        2.0,
+        3.0,
+        7.0,
+        2.0,
+        3.0,
+        8.0
+      ],
+      "ewma": [
+        3.0,
+        4.35,
+        3.6449999999999996,
+        4.6514999999999995,
+        3.8560499999999998,
+        4.7992349999999995,
+        3.9594644999999997,
+        3.6716251499999997,
+        4.670137605,
+        3.8690963235,
+        3.6083674264499996,
+        4.925857198515
+      ],
+      "sigma": 2.0841902330376487
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 4.925857198515,
+      "quality_band": [
+        0.8408443417612084,
+        9.010870055268791
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2025-05-28T00:00:00",
+      "materia": "REDES",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Ayuda"
+    },
+    {
+      "fecha_iso": "2024-01-17T00:00:00",
+      "materia": "REDES",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": "No ayuda nada, es muy burlon y prepotente, reprueba al que quiere , no lo recomiendo"
+    },
+    {
+      "fecha_iso": "2021-10-03T00:00:00",
+      "materia": "SISTEMAS",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 7.5,
+      "recomienda": 0,
+      "comentario": "Prepotente, burlón, saquénle la vuelta"
+    },
+    {
+      "fecha_iso": "2018-08-05T00:00:00",
+      "materia": "REDES",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 1,
+      "comentario": "La neta enseña bien, pero se cree mucho"
+    },
+    {
+      "fecha_iso": "2013-08-09T00:00:00",
+      "materia": "INTRODUCCION A LAS TICS",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 0,
+      "comentario": "Profesor bastante prepotente, examenes dificiles, tareas complicadas para el dia siguiente , si le caes mal te truena. Hace bastantes chistes, no aprendes mucho. Actitud bastante arrogante."
+    },
+    {
+      "fecha_iso": "2012-03-16T00:00:00",
+      "materia": "REDES",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": "se la tira de chilo pero en realidad es un bueno para nada y esta pelon. se nota que no tiene otra cosa que hacer mas que \"burlarse\" de los estudiantes, agarra de bajada a uno del grupo y no lo deja en paz todo el semestre, es muy llevado e irrespetuoso y no se olviden \"esta pelón\" !!!"
+    },
+    {
+      "fecha_iso": "2011-11-16T00:00:00",
+      "materia": "IISC",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 5.5,
+      "recomienda": 1,
+      "comentario": "Es un mal profe. Habla muy rápido, como si trajera 3 red bull en la cabeza."
+    },
+    {
+      "fecha_iso": "2011-08-17T00:00:00",
+      "materia": "INTRODUCCIÓN A SISTEMAS COMPUTACIONALES",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "No lo recomiendo para nada. Pregunten a los que estuvieron con el en clase, ¿que aprendiste?"
+    },
+    {
+      "fecha_iso": "2011-04-06T00:00:00",
+      "materia": "INTRODUCCION A LAS TECNOLOGIAS DE INFORMACION",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": "Buen profesor, si no sabes estudiar con el aprendes..."
+    },
+    {
+      "fecha_iso": "2010-12-14T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 2.5,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2010-09-21T00:00:00",
+      "materia": "IN",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2010-09-21T00:00:00",
+      "materia": "INTRODUCCIÓN A LA ING. EN SISTEMAS COMP.",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Sin comentarios."
+    },
+    {
+      "fecha_iso": "2010-08-29T00:00:00",
+      "materia": "INTRODUCCIÓN A SISTEMAS COMPUTACIONALES",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 0,
+      "comentario": "No lo recomiendo."
+    }
+  ],
+  "comments_recent": [
+    "Ayuda",
+    "No ayuda nada, es muy burlon y prepotente, reprueba al que quiere , no lo recomiendo",
+    "Prepotente, burlón, saquénle la vuelta",
+    "La neta enseña bien, pero se cree mucho",
+    "Profesor bastante prepotente, examenes dificiles, tareas complicadas para el dia siguiente , si le caes mal te truena. Hace bastantes chistes, no aprendes mucho. Actitud bastante arrogante.",
+    "se la tira de chilo pero en realidad es un bueno para nada y esta pelon. se nota que no tiene otra cosa que hacer mas que \"burlarse\" de los estudiantes, agarra de bajada a uno del grupo y no lo deja en paz todo el semestre, es muy llevado e irrespetuoso y no se olviden \"esta pelón\" !!!",
+    "Es un mal profe. Habla muy rápido, como si trajera 3 red bull en la cabeza.",
+    "No lo recomiendo para nada. Pregunten a los que estuvieron con el en clase, ¿que aprendiste?",
+    "Buen profesor, si no sabes estudiar con el aprendes...",
+    "[Comentario esperando revisión]"
+  ],
+  "n_reviews": 13
+}

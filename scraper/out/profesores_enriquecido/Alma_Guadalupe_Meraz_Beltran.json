@@ -1,0 +1,339 @@
+{
+  "professor_id": "Alma_Guadalupe_Meraz_Beltran",
+  "nombre": "Alma Guadalupe Meraz Beltran",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 7.191337566268686,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.111036840106342,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.6,
+    "wilson_interval": [
+      0.357464427565077,
+      0.8017577191740534
+    ],
+    "n_recommendations": 15
+  },
+  "subject_normalization": {
+    "z_mean": -0.0,
+    "z_mean_decayed": -0.02,
+    "per_subject": [
+      {
+        "materia": "DESARROLLO SUSTENTABLE",
+        "z_decayed": 0.7761856237782967,
+        "n": 52
+      },
+      {
+        "materia": "LIDERAZGO",
+        "z_decayed": 0.7302967433402213,
+        "n": 5
+      },
+      {
+        "materia": "TALLER DE ÉTICA",
+        "z_decayed": 0.4602633769443761,
+        "n": 22
+      },
+      {
+        "materia": "TALLER DE LIDERAZGO",
+        "z_decayed": 0.027034494444884326,
+        "n": 38
+      },
+      {
+        "materia": "ETICA",
+        "z_decayed": -0.6445401299827258,
+        "n": 31
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "videos",
+          "es",
+          "100",
+          "facil",
+          "es facil"
+        ],
+        "weight": 0.09841438372671453
+      },
+      {
+        "id": 1,
+        "words": [
+          "te",
+          "quieres",
+          "si quieres",
+          "tec",
+          "si"
+        ],
+        "weight": 0.12615706394972886
+      },
+      {
+        "id": 2,
+        "words": [
+          "es buena",
+          "buena maestra",
+          "trabajaras",
+          "buena",
+          "es"
+        ],
+        "weight": 0.10356821685479069
+      },
+      {
+        "id": 3,
+        "words": [
+          "nunca",
+          "da",
+          "ser",
+          "exelente",
+          "profesora"
+        ],
+        "weight": 0.09110406448915065
+      },
+      {
+        "id": 4,
+        "words": [
+          "maestra",
+          "sera",
+          "materia",
+          "mas",
+          "calificacion"
+        ],
+        "weight": 0.09552081309749204
+      }
+    ],
+    "sentiment": {
+      "overall": 0.07142857142857142,
+      "by_month": {
+        "2019-01": 1.0,
+        "2017-08": 0.0,
+        "2017-05": 0.0,
+        "2016-12": 0.0,
+        "2015-12": 0.0,
+        "2015-01": 0.0,
+        "2013-10": 0.0,
+        "2013-08": 0.0,
+        "2013-07": 0.0,
+        "2013-06": 0.0,
+        "2012-10": 0.0,
+        "2012-08": 0.0,
+        "2012-06": 0.0
+      }
+    },
+    "n_comments": 14
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        10.0,
+        10.0,
+        10.0,
+        9.5,
+        2.0,
+        5.5,
+        3.0,
+        10.0,
+        6.0,
+        4.0,
+        5.0,
+        9.0,
+        9.0
+      ],
+      "ewma": [
+        10.0,
+        10.0,
+        10.0,
+        9.85,
+        7.494999999999999,
+        6.8965,
+        5.727549999999999,
+        7.009284999999999,
+        6.706499499999999,
+        5.894549649999999,
+        5.626184754999999,
+        6.6383293284999985,
+        7.346830529949999
+      ],
+      "sigma": 2.207837951342864
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 7.346830529949999,
+      "quality_band": [
+        3.019468145317986,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2019-01-13T00:00:00",
+      "materia": "DESARROLLO SUSTENTABLE",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "La maestra conoce la manera adecuada de impartir la materia.\nSe trabaja más en el aspecto practico y vivencial que en cosas teóricas.\nSalidas a municipios de Sinaloa, convivencia y buena calificación aseguradas.\n\n(El manejo de un área verde será de gran valor para la calificación)\nMuy recomendable."
+    },
+    {
+      "fecha_iso": "2017-08-08T00:00:00",
+      "materia": "TALLER DE ÉTICA",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "La verdad es que si no quieres hacer nada, carga con ella. Te llevará de paseo a lugares como Cosalá o la Ciudad de los Niños. Te dejará proyectos como videos y eso al final de semestre, y su modo de calificar es una ruleta rusa."
+    },
+    {
+      "fecha_iso": "2017-05-18T00:00:00",
+      "materia": "RELLENO SUSTENTABLE",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 0,
+      "comentario": "Si quieres divertirte juntando pet, tapitas, o limpiando el tec en el solesito como negro, carga con ella, eso si iras a el reciclon, y a otras mamad@$ que no te sirven para nada :v sera como ser conserje del tec"
+    },
+    {
+      "fecha_iso": "2016-12-11T00:00:00",
+      "materia": "ETICA",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 0,
+      "comentario": "Casi no haces nada en su materia, pero es muy facil pasar si haces todos los trabajos que te pide"
+    },
+    {
+      "fecha_iso": "2015-12-24T00:00:00",
+      "materia": "ETICA",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "es buena maestra, es muy facil sacar 100 con ella, te da las respuestas de los examenes para que las estudies, la recomiendo"
+    },
+    {
+      "fecha_iso": "2015-01-08T00:00:00",
+      "materia": "TALLER DESARROLLO",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Exelente profesora la llebe en dos materias d.e lo mejor"
+    },
+    {
+      "fecha_iso": "2013-10-27T00:00:00",
+      "materia": "TALLER DE INVESTIGACION 1",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 0,
+      "comentario": "Se la pasa asiendo dinamicas, viendo videos etc.\nes muy facil salir con 100"
+    },
+    {
+      "fecha_iso": "2013-08-18T00:00:00",
+      "materia": "TALLER DE LIDERAZGO",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "de hueva total, no aprendes nada"
+    },
+    {
+      "fecha_iso": "2013-08-06T00:00:00",
+      "materia": "TALLER DE LIDERAZGO",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2013-07-27T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2013-06-18T00:00:00",
+      "materia": "TALLER DE LIDERAZGO",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Es buena maestra, generosa a la hora de la calificación, te exige un poco mas que los demás maestros pero al final el que tiene menos de 98 es porque nunca fue y no entrega tareas, es muy comprensiva, camarada y exigente con la ortografía."
+    },
+    {
+      "fecha_iso": "2013-06-11T00:00:00",
+      "materia": "TALLER DE LIDERAZGO",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "muy buena maestra, con ella si trabajaras mucho pero es muy considerada a la hora de las calficaciones"
+    },
+    {
+      "fecha_iso": "2012-10-19T00:00:00",
+      "materia": "TALLER DE ÉTICA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Es muy buena persona, trabajaras mucho con ella pero no tendrás mala calificaión y sus clases no resultan aburridas."
+    },
+    {
+      "fecha_iso": "2012-08-08T00:00:00",
+      "materia": "LIDERAZGO",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Si quieres triunfar en la vida y no eres webon como para ponerte a pasar todo un portafolio a hojas blancas a manita y con mucho cuidado en la ortografia. Pero es una profe que siempre se preocupa por ti, exelente persona y una ejemplar maestra del tec. Carguen con ella sus dinamicas son geniales :D"
+    },
+    {
+      "fecha_iso": "2012-06-14T00:00:00",
+      "materia": "TALLER DE LIDERAZGO",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Muy buena profesora, nunca falta y hace trabajar mucho pero explica todo muy bien, varias de sus clases llegan a ser entretenidas, es muy flexible con los estudiantes y da buenas calificaciones, muy recomendada."
+    }
+  ],
+  "comments_recent": [
+    "La maestra conoce la manera adecuada de impartir la materia.\nSe trabaja más en el aspecto practico y vivencial que en cosas teóricas.\nSalidas a municipios de Sinaloa, convivencia y buena calificación aseguradas.\n\n(El manejo de un área verde será de gran valor para la calificación)\nMuy recomendable.",
+    "La verdad es que si no quieres hacer nada, carga con ella. Te llevará de paseo a lugares como Cosalá o la Ciudad de los Niños. Te dejará proyectos como videos y eso al final de semestre, y su modo de calificar es una ruleta rusa.",
+    "Si quieres divertirte juntando pet, tapitas, o limpiando el tec en el solesito como negro, carga con ella, eso si iras a el reciclon, y a otras mamad@$ que no te sirven para nada :v sera como ser conserje del tec",
+    "Casi no haces nada en su materia, pero es muy facil pasar si haces todos los trabajos que te pide",
+    "es buena maestra, es muy facil sacar 100 con ella, te da las respuestas de los examenes para que las estudies, la recomiendo",
+    "Exelente profesora la llebe en dos materias d.e lo mejor",
+    "Se la pasa asiendo dinamicas, viendo videos etc.\nes muy facil salir con 100",
+    "de hueva total, no aprendes nada",
+    "[Comentario esperando revisión]"
+  ],
+  "n_reviews": 15
+}

@@ -1,0 +1,635 @@
+{
+  "professor_id": "Jorge_Correa_Pérez",
+  "nombre": "Jorge Correa Pérez",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 5.3187939596199385,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.146715490616199,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.674,
+    "wilson_interval": [
+      0.5251593250655096,
+      0.7950688481822018
+    ],
+    "n_recommendations": 43
+  },
+  "subject_normalization": {
+    "z_mean": -0.19,
+    "z_mean_decayed": -0.77,
+    "per_subject": [
+      {
+        "materia": "---",
+        "z_decayed": 0.8450318202339867,
+        "n": 521
+      },
+      {
+        "materia": "CALCULO",
+        "z_decayed": 0.46891575841922617,
+        "n": 50
+      },
+      {
+        "materia": "ESTÁTICA",
+        "z_decayed": 0.385345276442208,
+        "n": 8
+      },
+      {
+        "materia": "LA QUE DE",
+        "z_decayed": 0.0,
+        "n": 3
+      },
+      {
+        "materia": "CALCULO DIFERENCIAL",
+        "z_decayed": -0.8697639715138645,
+        "n": 110
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "aprender",
+          "explica",
+          "es",
+          "te",
+          "si"
+        ],
+        "weight": 0.11090000383466526
+      },
+      {
+        "id": 1,
+        "words": [
+          "dudas",
+          "buen maestro",
+          "recomiendo",
+          "maestro",
+          "es"
+        ],
+        "weight": 0.11318193086124809
+      },
+      {
+        "id": 2,
+        "words": [
+          "hace examenes",
+          "imposibles",
+          "pa",
+          "nomas",
+          "ensena"
+        ],
+        "weight": 0.07784512763067178
+      },
+      {
+        "id": 3,
+        "words": [
+          "comentario esperando",
+          "comentario",
+          "esperando",
+          "esperando revision",
+          "revision"
+        ],
+        "weight": 0.043318593421608875
+      },
+      {
+        "id": 4,
+        "words": [
+          "estatica",
+          "puedas",
+          "buen",
+          "excelente",
+          "profesor"
+        ],
+        "weight": 0.07142394517811124
+      }
+    ],
+    "sentiment": {
+      "overall": 0.13157894736842105,
+      "by_month": {
+        "2021-03": 0.0,
+        "2021-02": 0.0,
+        "2021-01": 0.0,
+        "2020-09": 0.0,
+        "2020-08": 0.0,
+        "2020-05": 0.0,
+        "2019-08": 0.0,
+        "2019-06": 0.0,
+        "2018-11": 0.0,
+        "2018-08": 0.0,
+        "2016-12": 0.0,
+        "2016-08": 0.0,
+        "2016-02": 0.0,
+        "2016-01": 0.0,
+        "2015-09": 0.0,
+        "2015-08": 0.0,
+        "2015-07": 0.0,
+        "2015-04": 0.0,
+        "2015-01": 0.5,
+        "2014-11": 0.0,
+        "2014-05": 0.0,
+        "2014-01": 0.25,
+        "2013-08": 0.5,
+        "2013-03": 0.0,
+        "2013-01": 0.0,
+        "2012-10": 0.0,
+        "2011-12": 0.6666666666666666
+      }
+    },
+    "n_comments": 38
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.001,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        8.333333333333334,
+        10.0,
+        9.0,
+        10.0,
+        9.0,
+        9.75,
+        10.0,
+        10.0,
+        10.0,
+        5.0,
+        7.0,
+        9.0,
+        4.0,
+        6.2,
+        2.5,
+        10.0,
+        7.0,
+        10.0,
+        10.0,
+        10.0,
+        9.0,
+        8.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0
+      ],
+      "ewma": [
+        8.333333333333334,
+        8.833333333333332,
+        8.883333333333331,
+        9.21833333333333,
+        9.15283333333333,
+        9.33198333333333,
+        9.53238833333333,
+        9.67267183333333,
+        9.77087028333333,
+        8.339609198333331,
+        7.937726438833332,
+        8.256408507183332,
+        6.979485955028332,
+        6.745640168519833,
+        5.4719481179638825,
+        6.830363682574717,
+        6.881254577802302,
+        7.816878204461611,
+        8.471814743123128,
+        8.930270320186189,
+        8.951189224130331,
+        8.665832456891232,
+        6.666082719823862,
+        5.266257903876703,
+        4.286380532713691,
+        3.6004663728995836,
+        3.1203264610297086,
+        2.784228522720796
+      ],
+      "sigma": 1.8055420094984802
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 2.784228522720796,
+      "quality_band": [
+        0.0,
+        6.323090861337818
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2021-03-25T00:00:00",
+      "materia": "ESTATICA",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 0,
+      "comentario": "El peor profesor con el que puedas cargar estatica, ni le sabe al Beer Johnston"
+    },
+    {
+      "fecha_iso": "2021-02-05T00:00:00",
+      "materia": "LA QUE DE",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "UN PENDEJO"
+    },
+    {
+      "fecha_iso": "2021-01-28T00:00:00",
+      "materia": "ESTATICA",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Enseña vergas este bato, nomás se la lleva zorreando morras"
+    },
+    {
+      "fecha_iso": "2020-09-24T00:00:00",
+      "materia": "ESTATICA",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Ojalá como calificas enseñarás viejo rabo verde"
+    },
+    {
+      "fecha_iso": "2020-08-08T00:00:00",
+      "materia": "ESTATICA",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Mil veces mejor puerta que este pendejo"
+    },
+    {
+      "fecha_iso": "2020-05-11T00:00:00",
+      "materia": "ESTATICA",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "vale pa pura verga este compa, nomas se la tira de graciosillo con chistes que ni risa dan, no enseña casi nada y hace examenes imposibles\n\nvale pito"
+    },
+    {
+      "fecha_iso": "2019-08-08T00:00:00",
+      "materia": "MECANICA DE MATERIALES",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 1,
+      "comentario": "Es buen profe pero tiene muchas reglas, hace muchos chistes malos y le caen bien los que se rien"
+    },
+    {
+      "fecha_iso": "2019-08-04T00:00:00",
+      "materia": "CALCULO",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2019-06-05T00:00:00",
+      "materia": "MECÁNICA DE MATERIALES",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "De lo mejor para esta materia, te da las bases muy bien plantadas si le pones atención, no esperes que el examen sea igual que un ejercicio en clase, siempre es diferente, te hace pensar con las herramientas que ya tienes, es básico si quieres ponerte a prueba y ver tu nivel de razonamiento"
+    },
+    {
+      "fecha_iso": "2018-11-14T00:00:00",
+      "materia": "---",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2018-08-14T00:00:00",
+      "materia": "ESTÁTICA/MECÁNICA DE MATERIALES",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Explica las cosas muy claramente, y sus exámenes no son dificiles, simplemente espera que puedas aplicar lo que aprendiste realmente para resolver problemas diferentes a los que viste en la clase, no esperes que el examen se parezca a lo que has visto. Tienes que aplicar el conocimiento."
+    },
+    {
+      "fecha_iso": "2018-06-11T00:00:00",
+      "materia": "ESTATICA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 7.5,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2016-12-22T00:00:00",
+      "materia": "ESTATICA",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "enseña mucho y de manera super clara  ademas que posee amplios conocimientos de matematica y fisica, el problema es que hace los examenes practicamente imposibles pero con que pases 1 te pone de perdida un 70, si enseña muy bien pero exige muchisisisisisimo mas de lo que enseña"
+    },
+    {
+      "fecha_iso": "2016-08-04T00:00:00",
+      "materia": "MECÁNICA DE MATERIALES",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 1,
+      "comentario": "MAZAPÁN PA TODOS"
+    },
+    {
+      "fecha_iso": "2016-02-28T00:00:00",
+      "materia": "---",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": 25.0,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2016-02-05T00:00:00",
+      "materia": "TODAS LAS QUE DE.",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 23.0,
+      "recomienda": 0,
+      "comentario": "NO AYUDA COMO ENTENDEREMOS"
+    },
+    {
+      "fecha_iso": "2016-01-18T00:00:00",
+      "materia": "ESTÁTICA",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 1,
+      "comentario": "Como se menciona arriba si tienes la intención de aprender carga con él, explica todo detallado y te responde las preguntas aunque parezcan o sean tontas."
+    },
+    {
+      "fecha_iso": "2016-01-14T00:00:00",
+      "materia": "ESTATICA/MECANICA DE MATERIALES",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "De los pocos profes que valen la pena en el Tec. Explica muy bien y siempre esta dispuesto a ayudarte, tanto en clase como fuera de. Su defecto: sus chistes salados. Clases divertidas. Exámenes donde tienes que echarle coco,no te regala calificación. Si buscas un profe con el cual aprender es él."
+    },
+    {
+      "fecha_iso": "2016-01-14T00:00:00",
+      "materia": "CALCULO DIFERENCIAL",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 3.5,
+      "recomienda": 0,
+      "comentario": "SU CLASE MUY ABURRIDA EN CALCULO DIFERENCIAL SUS EXAMENES DEACIADO DIFICILES NO EXPLICA CLARO NO APRENDES NADA TIENE QUE PRACTICAR EN CASA SI QUIERES APRENDER NO CARGES CON EL ES DE LO PESIMO SU LEMA ES REPRUEBA SIN ESTRES Y SEGURO TE REPROBARA"
+    },
+    {
+      "fecha_iso": "2016-01-12T00:00:00",
+      "materia": "LO QUE DE",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 1.5,
+      "recomienda": 0,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2016-01-08T00:00:00",
+      "materia": "CALCULO DIFERENCIAL",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2015-09-28T00:00:00",
+      "materia": "ESTATICA",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2015-09-03T00:00:00",
+      "materia": "ESTATICA",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Estatica Es Facil,\n\nCon El No, Yo Recomiendo A Otro.\n\nPuerta y Rigoberto Las Mejores Opciones."
+    },
+    {
+      "fecha_iso": "2015-08-04T00:00:00",
+      "materia": "MEC. DE MATERIARES I",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Buen maestro, recomendado."
+    },
+    {
+      "fecha_iso": "2015-07-29T00:00:00",
+      "materia": "MECÁNICA DE MATERIALES Y ESTATICA",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": "Es de los mejores para la materia, siempre anda contando historias para hacer mas amena la clase, los exámenes no los pone difíciles pero les pone truquito con lo cual repruebas muy seguido por tonteras, es muy buena gente y  es muy religioso, muchas veces de pasa las clases hablando de su religión lo cual es cansino pero en general aprenende mucho"
+    },
+    {
+      "fecha_iso": "2015-04-13T00:00:00",
+      "materia": "ESTATICA",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 4.0,
+      "recomienda": 0,
+      "comentario": "ES EL MAESTRO MAS DOBLE CARA QUE HE TENIDO."
+    },
+    {
+      "fecha_iso": "2015-01-14T00:00:00",
+      "materia": "ESTATICA/ MECANICA DE MATERIALES",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Es uno de los mejores profesores, enseña muy bien y aprendes por que aprendes, sus examenes no son complicados y es muy accesible. \"Con el no van a pasar pero se van a divertir\" ese es su lema."
+    },
+    {
+      "fecha_iso": "2015-01-08T00:00:00",
+      "materia": "ESTÁTICA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "De los mejores profesores que me han tocado, explica excelentemente y resuelve todas las dudas que salgan en clase o en otras clases, y es muy divertida su clase,  lo recomiendo plenamente pero claro ponganse a estudiar jeje."
+    },
+    {
+      "fecha_iso": "2014-11-10T00:00:00",
+      "materia": "ESTATICA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Tronini Si No Estudias"
+    },
+    {
+      "fecha_iso": "2014-05-13T00:00:00",
+      "materia": "ÉSTATICA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "De lo mejor en cuanto a física se trata, es uno de los mejores, en su clase te diviertes y aprendes, el nivel de dificultad es correspondiente a la dificultad del tema, no es difícil pero tampoco esperes algo sencillo, te pondrá a pensar y a razonar por ti mismo, excelente disposición para ayudarte."
+    },
+    {
+      "fecha_iso": "2014-01-25T00:00:00",
+      "materia": "ESTATICA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Excelente profesor, si quieres aprender el es el mejor :)"
+    },
+    {
+      "fecha_iso": "2014-01-15T00:00:00",
+      "materia": "ESTATICA",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Muy bueno explicando, solo no te tomes muy a pecho lo que diga, pero su clase es bastante amena."
+    },
+    {
+      "fecha_iso": "2014-01-14T00:00:00",
+      "materia": "MECANICA DE MATERIALES",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": "muy buen maestro, lo recomiendo,es dificil pero es lo que hace que te pongas al 100 a estudiar, resuelve todas las dudas."
+    },
+    {
+      "fecha_iso": "2014-01-13T00:00:00",
+      "materia": "ESTATICA / MECANICA DE MATERIALES",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "De lo mejor que hay dentro del departamento de metal-mecánica, el grado de dificultad que representa este docente hará que empieces a aprender a estudiar, sus clases son claras, sus apuntes una obra de arte, nunca falta y pues, los contras ya los veras tu."
+    },
+    {
+      "fecha_iso": "2013-08-07T00:00:00",
+      "materia": "ESTATICA-MECANICA DE MATERIALES",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Es el mejor maestro de Estatica y Mecanica de Materiales del Tec. No falta. Termina los programas. Es muy buena persona. Accesible. Explica muy bien, Da muchas asesorías. Muy responsable. De lo mejor del Tec ."
+    },
+    {
+      "fecha_iso": "2013-08-07T00:00:00",
+      "materia": "MECÁNICA DE MATERIALES L Y LL",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Muy buen maestro, explica increíble y siempre resuelve las dudas. Lo recomiendo ampliamente! Aparte es muy buena persona!"
+    },
+    {
+      "fecha_iso": "2013-03-20T00:00:00",
+      "materia": "MECANICA DE MATERIALES (MECATRÓNICA)",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "En estática la mejor opción es el wacho y después él, pero en mecanica de materiales si es el mejor sin DUDA y explica todo muy bien y el si termina el programa de la materia en mecatrónica el cual es muy largo y muy importante lo ve todo y siempre esta dispuesto a ayudar"
+    },
+    {
+      "fecha_iso": "2013-01-14T00:00:00",
+      "materia": "ESTATICA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "explica muy bien, se detiene ante cualquier duda, siempre esta dispuesto a ofrecer asesorias, encargarga bastante tarea para practicar, debes cuidar de no tener errores de ningun tipo en sus examenes porque no los perdona y no regala ningun punto al calificar, te divertiras mucho en su clase"
+    },
+    {
+      "fecha_iso": "2013-01-09T00:00:00",
+      "materia": "ESTATICA",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "tiene sus pros y sus contras, alabado sea el señor! amen"
+    },
+    {
+      "fecha_iso": "2012-10-19T00:00:00",
+      "materia": "ESTÁTICA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Es la mejor opción para esta materia, muy buena persona, es camarada, explica muy bien, no regala calificaciones con el aprenderas mucho y te divertiras"
+    },
+    {
+      "fecha_iso": "2011-12-15T00:00:00",
+      "materia": "ESTÁTICA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Es un excelente profesor, explica bien y claro. Muy buena persona. Debes de estudiar y fijarte bien a la hora de contestar. Recomendado amplia mente."
+    },
+    {
+      "fecha_iso": "2011-12-14T00:00:00",
+      "materia": "ESTATICA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Muy buen profesor. Excelente  en todo"
+    },
+    {
+      "fecha_iso": "2011-12-13T00:00:00",
+      "materia": "ESTATICA",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 0,
+      "comentario": "Si enseña bien, hay que practicar mucho.\nEs camarada.\nAmen"
+    }
+  ],
+  "comments_recent": [
+    "El peor profesor con el que puedas cargar estatica, ni le sabe al Beer Johnston",
+    "UN PENDEJO",
+    "Enseña vergas este bato, nomás se la lleva zorreando morras",
+    "Ojalá como calificas enseñarás viejo rabo verde",
+    "Mil veces mejor puerta que este pendejo",
+    "vale pa pura verga este compa, nomas se la tira de graciosillo con chistes que ni risa dan, no enseña casi nada y hace examenes imposibles\n\nvale pito",
+    "Es buen profe pero tiene muchas reglas, hace muchos chistes malos y le caen bien los que se rien",
+    "De lo mejor para esta materia, te da las bases muy bien plantadas si le pones atención, no esperes que el examen sea igual que un ejercicio en clase, siempre es diferente, te hace pensar con las herramientas que ya tienes, es básico si quieres ponerte a prueba y ver tu nivel de razonamiento",
+    "[Comentario esperando revisión]"
+  ],
+  "n_reviews": 43
+}

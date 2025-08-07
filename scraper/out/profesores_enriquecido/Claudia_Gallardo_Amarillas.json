@@ -1,0 +1,361 @@
+{
+  "professor_id": "Claudia_Gallardo_Amarillas",
+  "nombre": "Claudia Gallardo Amarillas",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 5.435045183458106,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 5.920568607237805,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.333,
+    "wilson_interval": [
+      0.16278554363662856,
+      0.5625093065574964
+    ],
+    "n_recommendations": 18
+  },
+  "subject_normalization": {
+    "z_mean": -0.25,
+    "z_mean_decayed": -0.21,
+    "per_subject": [
+      {
+        "materia": "QUIMICA",
+        "z_decayed": 0.37913569641140926,
+        "n": 83
+      },
+      {
+        "materia": "BIOLOGIA I",
+        "z_decayed": 0.0,
+        "n": 3
+      },
+      {
+        "materia": "BIOLOGIA",
+        "z_decayed": -0.6327673541263692,
+        "n": 9
+      },
+      {
+        "materia": "---",
+        "z_decayed": -0.813466006168598,
+        "n": 521
+      },
+      {
+        "materia": "BIOLOGÍA",
+        "z_decayed": -1.240672135670639,
+        "n": 6
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "tema visto",
+          "temas",
+          "te",
+          "si",
+          "mal"
+        ],
+        "weight": 0.09167924673685605
+      },
+      {
+        "id": 1,
+        "words": [
+          "revision",
+          "esperando",
+          "comentario",
+          "esperando revision",
+          "comentario esperando"
+        ],
+        "weight": 0.09808933492132933
+      },
+      {
+        "id": 2,
+        "words": [
+          "es",
+          "examenes",
+          "cosas",
+          "bien",
+          "ensena"
+        ],
+        "weight": 0.16925673688167142
+      },
+      {
+        "id": 3,
+        "words": [
+          "buena",
+          "tu",
+          "ganas",
+          "nomas",
+          "profe"
+        ],
+        "weight": 0.1238772501562944
+      },
+      {
+        "id": 4,
+        "words": [
+          "buena",
+          "solo",
+          "es",
+          "explicar",
+          "sabe"
+        ],
+        "weight": 0.13945664784855896
+      }
+    ],
+    "sentiment": {
+      "overall": 0.0,
+      "by_month": {
+        "2013-12": 0.0,
+        "2013-11": 0.0,
+        "2013-07": 0.0,
+        "2013-06": 0.0,
+        "2013-05": 0.0,
+        "2013-01": 0.0,
+        "2012-11": 0.0,
+        "2012-10": 0.0,
+        "2012-06": 0.0,
+        "2012-03": 0.0
+      }
+    },
+    "n_comments": 15
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.01,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        8.0,
+        2.0,
+        2.0,
+        3.6666666666666665,
+        7.0,
+        6.0,
+        6.0,
+        3.0,
+        6.0,
+        10.0,
+        2.0,
+        6.666666666666667
+      ],
+      "ewma": [
+        8.0,
+        6.199999999999999,
+        4.939999999999999,
+        4.557999999999999,
+        5.2905999999999995,
+        5.503419999999999,
+        5.652393999999999,
+        4.8566758,
+        5.199673059999999,
+        6.639771141999999,
+        5.247839799399999,
+        5.673487859579999
+      ],
+      "sigma": 2.232519479757955
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 5.673487859579999,
+      "quality_band": [
+        1.297749679254407,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2013-12-11T00:00:00",
+      "materia": "BIOLOGIA",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": "Me parece buena maestra, sabe mucho. solo que como a todos se le barren aveces. Da muchas oportunidades y exige lo que debe."
+    },
+    {
+      "fecha_iso": "2013-12-09T00:00:00",
+      "materia": "BIOLOGÍA",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "La verdad no enseña muy bien, es muy tonta para dar clases y en lo exámenes pone cosas que ni al caso con lo vito en clase (O MUY POCO)...\nEs la única con la que he reprobado y si estudio mucho pero me tuerce en los exámenes por que lo hace así bien feos :P"
+    },
+    {
+      "fecha_iso": "2013-12-08T00:00:00",
+      "materia": "QUIMICA",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 1,
+      "comentario": "Dentro de lo  que cabe enseña bien , pero en algunos temas se contradice mucho, pasa los temas muy rapido, siempre anda como amargada"
+    },
+    {
+      "fecha_iso": "2013-11-15T00:00:00",
+      "materia": "BIOLOGÍA",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Enseña cosas erróneas. \nEn los exámenes vienen cosas que no enseña. \nSe contradice demasiado."
+    },
+    {
+      "fecha_iso": "2013-08-19T00:00:00",
+      "materia": "QUIMICA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 1.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2013-07-25T00:00:00",
+      "materia": "BIOLOGIA I",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 0,
+      "comentario": "-BAJA TU EXAMEN!\n-PROFE PERO PORQUE!\n\ndejare esto aqui.."
+    },
+    {
+      "fecha_iso": "2013-06-24T00:00:00",
+      "materia": "QUIMICA",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": "Alteró las leyes de los exponentes para que su resultado fuese el indicado."
+    },
+    {
+      "fecha_iso": "2013-05-31T00:00:00",
+      "materia": "BIOLOGIA I",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": "si eres hombre le caeras mejor, nomas echenle ganas y hagan bien el portafolio, los examenes los hace dificiles!"
+    },
+    {
+      "fecha_iso": "2013-01-15T00:00:00",
+      "materia": "BIOLOGIA",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "No domima los temas, no acepta sus errores al equivocarse, y si le caes mal seguro te califica a su gusto y te hace la materia imposible, tiene muy mal metodo de enseñanza ( solo dicta de sus apuntes), no tiene claridad en lo que dice y no sabe imterpretar sus apuntes( se contradice)."
+    },
+    {
+      "fecha_iso": "2013-01-13T00:00:00",
+      "materia": "QUIMICA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Muy buena profe nomas hechenle ganas (y)"
+    },
+    {
+      "fecha_iso": "2012-11-16T00:00:00",
+      "materia": "QUIMICA",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": "No sabe explicar"
+    },
+    {
+      "fecha_iso": "2012-11-03T00:00:00",
+      "materia": "QUIMICA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2012-10-31T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2012-10-24T00:00:00",
+      "materia": "---",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2012-10-17T00:00:00",
+      "materia": "QUIMICA",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 3.0,
+      "recomienda": 0,
+      "comentario": "pierde la paciencia muy rapido, si se enoja da el tema por visto, le falta claridad al explicar, sus examenes son dificiles, \ndeja de tarea los temas de la unidad y no los explica, tu tienes que investigarlo"
+    },
+    {
+      "fecha_iso": "2012-06-14T00:00:00",
+      "materia": "QUIMICA",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "No sabe absolutamente nada, no domina los temas que te quiere enseñar y ademas si dices que algo esta mal da el tema por visto, sus examenes son dificiles y cuando habla no se le entiende ni madre y si le caes mal vas a RC seguro"
+    },
+    {
+      "fecha_iso": "2012-03-10T00:00:00",
+      "materia": "BIOLOGIA",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 2.5,
+      "recomienda": 0,
+      "comentario": "No sabe nada de biologia! se contradice ella misma y es muy egoista con la información."
+    },
+    {
+      "fecha_iso": "2011-11-14T00:00:00",
+      "materia": "BIOLOGIA",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": ""
+    }
+  ],
+  "comments_recent": [
+    "Me parece buena maestra, sabe mucho. solo que como a todos se le barren aveces. Da muchas oportunidades y exige lo que debe.",
+    "La verdad no enseña muy bien, es muy tonta para dar clases y en lo exámenes pone cosas que ni al caso con lo vito en clase (O MUY POCO)...\nEs la única con la que he reprobado y si estudio mucho pero me tuerce en los exámenes por que lo hace así bien feos :P",
+    "Dentro de lo  que cabe enseña bien , pero en algunos temas se contradice mucho, pasa los temas muy rapido, siempre anda como amargada",
+    "Enseña cosas erróneas. \nEn los exámenes vienen cosas que no enseña. \nSe contradice demasiado.",
+    "-BAJA TU EXAMEN!\n-PROFE PERO PORQUE!\n\ndejare esto aqui..",
+    "Alteró las leyes de los exponentes para que su resultado fuese el indicado.",
+    "si eres hombre le caeras mejor, nomas echenle ganas y hagan bien el portafolio, los examenes los hace dificiles!",
+    "No domima los temas, no acepta sus errores al equivocarse, y si le caes mal seguro te califica a su gusto y te hace la materia imposible, tiene muy mal metodo de enseñanza ( solo dicta de sus apuntes), no tiene claridad en lo que dice y no sabe imterpretar sus apuntes( se contradice).",
+    "Muy buena profe nomas hechenle ganas (y)"
+  ],
+  "n_reviews": 18
+}

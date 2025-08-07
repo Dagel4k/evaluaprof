@@ -1,0 +1,115 @@
+{
+  "professor_id": "José_Tlaloc_Dionisio_Minjarez",
+  "nombre": "José Tlaloc Dionisio Minjarez",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 10.0,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.675070846358351,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 1.0,
+    "wilson_interval": [
+      0.4384939195509822,
+      1
+    ],
+    "n_recommendations": 3
+  },
+  "subject_normalization": {
+    "z_mean": 0.67,
+    "z_mean_decayed": 0.67,
+    "per_subject": [
+      {
+        "materia": "TALLER DE INVESTIGACIÓN 1",
+        "z_decayed": 0.6708203932499365,
+        "n": 5
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [],
+    "sentiment": {
+      "overall": null,
+      "by_month": {}
+    },
+    "n_comments": 3
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        10.0,
+        10.0,
+        10.0
+      ],
+      "ewma": [
+        10.0,
+        10.0,
+        10.0
+      ],
+      "sigma": 0.0
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 10.0,
+      "quality_band": [
+        10.0,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2024-03-15T00:00:00",
+      "materia": "TALLER DE MÚSICA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "En mi caso no es materia, es actividad complementaria, la verdad las clases de música si las hace muy interesantes, hay clases muy buenas o otras donde solo pone un video y después una explicación, sigue sin quitarle lo interesante, pero entre que los focos están apagados te da sueño"
+    },
+    {
+      "fecha_iso": "2021-03-05T00:00:00",
+      "materia": "COMUNICACIÓN HUMANA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Buen profe, me gusta mucho su forma de enseñar. La teoría no la hace tan aburrida. Es muy accesible. Para reprobar con él, de plano apenas que no entregues ninguna tarea, aparte es una materia fácil."
+    },
+    {
+      "fecha_iso": "2020-08-10T00:00:00",
+      "materia": "TALLER DE INVESTIGACIÓN 1",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Es el de la banda del tec, el vato sabe machín de la materia pero la verdad como que no se la complica mucho porque piensa que no nos interesa la clase y la vemos cómo relleno pero la verdad es que si es cierto jaja \nEs por eso que deja muchas exposiciones en todo el semestre"
+    }
+  ],
+  "comments_recent": [
+    "En mi caso no es materia, es actividad complementaria, la verdad las clases de música si las hace muy interesantes, hay clases muy buenas o otras donde solo pone un video y después una explicación, sigue sin quitarle lo interesante, pero entre que los focos están apagados te da sueño",
+    "Buen profe, me gusta mucho su forma de enseñar. La teoría no la hace tan aburrida. Es muy accesible. Para reprobar con él, de plano apenas que no entregues ninguna tarea, aparte es una materia fácil.",
+    "Es el de la banda del tec, el vato sabe machín de la materia pero la verdad como que no se la complica mucho porque piensa que no nos interesa la clase y la vemos cómo relleno pero la verdad es que si es cierto jaja \nEs por eso que deja muchas exposiciones en todo el semestre"
+  ],
+  "n_reviews": 3
+}

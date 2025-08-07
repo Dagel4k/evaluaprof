@@ -1,0 +1,170 @@
+{
+  "professor_id": "José_Balerio_Quintero",
+  "nombre": "José Balerio Quintero",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 2.542435766089317,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 5.76970864304704,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.0,
+    "wilson_interval": [
+      0,
+      0.48990002040399916
+    ],
+    "n_recommendations": 4
+  },
+  "subject_normalization": {
+    "z_mean": -1.21,
+    "z_mean_decayed": -1.24,
+    "per_subject": [
+      {
+        "materia": "METROLOGÍA",
+        "z_decayed": -0.8068715304598787,
+        "n": 6
+      },
+      {
+        "materia": "METROLOGIA Y NORMALIZACION",
+        "z_decayed": -1.2727286861140952,
+        "n": 15
+      },
+      {
+        "materia": "METROLOGÍA Y NORMALIZACIÓN",
+        "z_decayed": -1.2794157892978972,
+        "n": 12
+      },
+      {
+        "materia": "MECANISMOS",
+        "z_decayed": -1.4667534666859174,
+        "n": 27
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "carguen",
+          "si quieres",
+          "proyecto",
+          "es",
+          "final"
+        ],
+        "weight": 0.37401796872898757
+      },
+      {
+        "id": 1,
+        "words": [
+          "hace",
+          "proyecto",
+          "si",
+          "quiere",
+          "te"
+        ],
+        "weight": 0.3051034562575761
+      }
+    ],
+    "sentiment": {
+      "overall": 0.0,
+      "by_month": {
+        "2016-01": 0.0,
+        "2014-05": 0.0,
+        "2013-01": 0.0,
+        "2012-10": 0.0
+      }
+    },
+    "n_comments": 4
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        4.0,
+        2.0,
+        3.0,
+        2.0
+      ],
+      "ewma": [
+        4.0,
+        3.4,
+        3.28,
+        2.896
+      ],
+      "sigma": 0.6277664109098755
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 2.896,
+      "quality_band": [
+        1.6655778346166439,
+        4.126422165383356
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2016-01-14T00:00:00",
+      "materia": "MECANISMOS",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 1.0,
+      "recomienda": 0,
+      "comentario": "ES UN FLOJONASO, no enseña nada y todas las clases se las pasa anotando en el pizarrón, no siempre va y al final con que tengas todas las tareas y el proyecto final tienes 100. Si quieres aprender carguen con otro, él no es una opción."
+    },
+    {
+      "fecha_iso": "2014-05-13T00:00:00",
+      "materia": "METROLOGÍA",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Explica muy poco y no se le entiend, todo quiere que tu hagas. Además te estresa demasiado, y te trata como si fueras ya un ingeniero."
+    },
+    {
+      "fecha_iso": "2013-01-26T00:00:00",
+      "materia": "METROLOGIA Y NORMALIZACION",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 0,
+      "comentario": "Por completo flojo, si quieres aprender carga con otro. Cuando hace examenes parece que quiere reprobarte, el proyecto final es una mamada. Carguen con Gallo o Salas"
+    },
+    {
+      "fecha_iso": "2012-10-30T00:00:00",
+      "materia": "METROLOGÍA Y NORMALIZACIÓN",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 0,
+      "comentario": "Es un profe muy flojo, no enseña bien, cuando llega con energía te hace exámenes orales para darte cuello, siempre te pide un proyecto final imposible y te trae así todo el semestre para que al ultimo con tan solo cumplir con las tareas  y entregarle una basura de proyecto pases o saques 100"
+    }
+  ],
+  "comments_recent": [
+    "ES UN FLOJONASO, no enseña nada y todas las clases se las pasa anotando en el pizarrón, no siempre va y al final con que tengas todas las tareas y el proyecto final tienes 100. Si quieres aprender carguen con otro, él no es una opción.",
+    "Explica muy poco y no se le entiend, todo quiere que tu hagas. Además te estresa demasiado, y te trata como si fueras ya un ingeniero.",
+    "Por completo flojo, si quieres aprender carga con otro. Cuando hace examenes parece que quiere reprobarte, el proyecto final es una mamada. Carguen con Gallo o Salas",
+    "Es un profe muy flojo, no enseña bien, cuando llega con energía te hace exámenes orales para darte cuello, siempre te pide un proyecto final imposible y te trae así todo el semestre para que al ultimo con tan solo cumplir con las tareas  y entregarle una basura de proyecto pases o saques 100"
+  ],
+  "n_reviews": 4
+}

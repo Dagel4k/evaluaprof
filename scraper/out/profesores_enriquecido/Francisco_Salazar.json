@@ -1,0 +1,247 @@
+{
+  "professor_id": "Francisco_Salazar",
+  "nombre": "francisco salazar",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 9.068459193860532,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 8.093469526455713,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 1.0,
+    "wilson_interval": [
+      0.7008472464490406,
+      1
+    ],
+    "n_recommendations": 9
+  },
+  "subject_normalization": {
+    "z_mean": 1.01,
+    "z_mean_decayed": 0.9,
+    "per_subject": [
+      {
+        "materia": "CIRCUITOS ELÉCTRICOS",
+        "z_decayed": 1.3,
+        "n": 4
+      },
+      {
+        "materia": "ELECTRÓNICA ANALÓGICA",
+        "z_decayed": 1.0703526684048215,
+        "n": 19
+      },
+      {
+        "materia": "ELECTROMAGNETISMO",
+        "z_decayed": 0.8181692937314353,
+        "n": 31
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "mejores",
+          "hora calificar",
+          "calificar",
+          "hora",
+          "duda"
+        ],
+        "weight": 0.08885635946167128
+      },
+      {
+        "id": 1,
+        "words": [
+          "muchisimo clases",
+          "clases claras",
+          "claras",
+          "muchisimo",
+          "mejor"
+        ],
+        "weight": 0.22391413315001593
+      },
+      {
+        "id": 2,
+        "words": [
+          "bueno",
+          "es",
+          "sabe",
+          "profesor",
+          "profesor sabe"
+        ],
+        "weight": 0.18920890282758995
+      },
+      {
+        "id": 3,
+        "words": [
+          "examenes",
+          "domina temas",
+          "domina",
+          "temas",
+          "bien"
+        ],
+        "weight": 0.2394873197861767
+      }
+    ],
+    "sentiment": {
+      "overall": 0.375,
+      "by_month": {
+        "2019-01": 0.0,
+        "2018-11": 1.0,
+        "2017-05": 0.0,
+        "2016-08": 1.0,
+        "2016-01": 0.0,
+        "2013-05": 1.0,
+        "2012-06": 0.0
+      }
+    },
+    "n_comments": 8
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        10.0,
+        10.0,
+        8.5,
+        10.0,
+        10.0,
+        10.0,
+        9.0,
+        8.0
+      ],
+      "ewma": [
+        10.0,
+        10.0,
+        9.55,
+        9.685,
+        9.779499999999999,
+        9.84565,
+        9.591954999999999,
+        9.1143685
+      ],
+      "sigma": 0.5772605202335263
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 9.1143685,
+      "quality_band": [
+        7.982937880342288,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2019-01-12T00:00:00",
+      "materia": "ELECTROMAGNETISMO",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Apodado \"Magneto\" es el dios del electromagnetismo. Domina todos los temas y aprenderas muchisimo, tienes que echarle muchas ganas en los examenes."
+    },
+    {
+      "fecha_iso": "2018-11-11T00:00:00",
+      "materia": "ELECTROMAGNETISMO",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": "Es el mejor maestro del Tec en sus materias, sabe muchísimo; sus clases son claras, te enseña con ejemplos reales y todos le tienen un respeto increíble. Le apodamos Magneto"
+    },
+    {
+      "fecha_iso": "2017-05-20T00:00:00",
+      "materia": "ELEC. DIGITAL / ELECTRO. / ELEC. ANALÓGI / CIRC. ELÉC.",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "El mejor profesor del área de Tec. Probablemente sea el mejor profesor de la escuela, sabe muchísimo, sus clases son muy claras, aunque sus exámenes son algo largos, aprendes muchísimo, un profesor ejemplar."
+    },
+    {
+      "fecha_iso": "2016-08-04T00:00:00",
+      "materia": "CIRCUITOS ELÉCTRICOS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Este profesor sabe un montón, es bien bueno para explicar, es bien serio pero no sangrón y da un montonal de chances también. Domina los temas perfectamente, recomendado macizo."
+    },
+    {
+      "fecha_iso": "2016-06-11T00:00:00",
+      "materia": "ELECTROMAGNETISMO",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2016-01-18T00:00:00",
+      "materia": "ELECTROMAGNETISMO",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "El mejor maestro del tec a mi ver,domina bien los temas y te explica muy bien, sus examenes no son complicados,aprendes mucho y pasas bien.e"
+    },
+    {
+      "fecha_iso": "2016-01-14T00:00:00",
+      "materia": "ELECTRÓNICA ANALÓGICA",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Es muy buen profesor y sabe mucho además de que se nota que le gusta."
+    },
+    {
+      "fecha_iso": "2013-05-31T00:00:00",
+      "materia": "ELECTROMAGNETISMO.",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "sin duda uno de los mejores profesores que se van a encontrar en la universidad, es muy bueno para explicar y sus examenes no son dificiles, es muy justo a la hora de calificar."
+    },
+    {
+      "fecha_iso": "2012-06-18T00:00:00",
+      "materia": "ELECTROMAGNETISMO",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "sin duda alguna este profesor te enseña muy bien , yo lleve con el electromagnetismo y aprendes mucho y es muy accesible ala hora de calificar sin duda alguna de los mejores"
+    }
+  ],
+  "comments_recent": [
+    "Apodado \"Magneto\" es el dios del electromagnetismo. Domina todos los temas y aprenderas muchisimo, tienes que echarle muchas ganas en los examenes.",
+    "Es el mejor maestro del Tec en sus materias, sabe muchísimo; sus clases son claras, te enseña con ejemplos reales y todos le tienen un respeto increíble. Le apodamos Magneto",
+    "El mejor profesor del área de Tec. Probablemente sea el mejor profesor de la escuela, sabe muchísimo, sus clases son muy claras, aunque sus exámenes son algo largos, aprendes muchísimo, un profesor ejemplar.",
+    "Este profesor sabe un montón, es bien bueno para explicar, es bien serio pero no sangrón y da un montonal de chances también. Domina los temas perfectamente, recomendado macizo.",
+    "El mejor maestro del tec a mi ver,domina bien los temas y te explica muy bien, sus examenes no son complicados,aprendes mucho y pasas bien.e",
+    "Es muy buen profesor y sabe mucho además de que se nota que le gusta.",
+    "sin duda uno de los mejores profesores que se van a encontrar en la universidad, es muy bueno para explicar y sus examenes no son dificiles, es muy justo a la hora de calificar.",
+    "sin duda alguna este profesor te enseña muy bien , yo lleve con el electromagnetismo y aprendes mucho y es muy accesible ala hora de calificar sin duda alguna de los mejores"
+  ],
+  "n_reviews": 9
+}

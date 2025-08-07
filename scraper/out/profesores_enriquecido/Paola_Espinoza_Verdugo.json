@@ -1,0 +1,439 @@
+{
+  "professor_id": "Paola_Espinoza_Verdugo",
+  "nombre": "Paola Espinoza Verdugo",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 8.539572743105145,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.3364548857902445,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.64,
+    "wilson_interval": [
+      0.44518154601046633,
+      0.7975234356826436
+    ],
+    "n_recommendations": 25
+  },
+  "subject_normalization": {
+    "z_mean": 0.59,
+    "z_mean_decayed": 0.91,
+    "per_subject": [
+      {
+        "materia": "QUIMICA",
+        "z_decayed": 1.2839598368390661,
+        "n": 83
+      },
+      {
+        "materia": "---",
+        "z_decayed": 0.33439316323928925,
+        "n": 521
+      },
+      {
+        "materia": "QUÍMICA",
+        "z_decayed": -0.12712076581368525,
+        "n": 44
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "comentario",
+          "revision",
+          "esperando revision",
+          "esperando",
+          "comentario esperando"
+        ],
+        "weight": 0.13902097136270863
+      },
+      {
+        "id": 1,
+        "words": [
+          "es comprensiva",
+          "bien",
+          "bien buena",
+          "es",
+          "buena"
+        ],
+        "weight": 0.11158354865261907
+      },
+      {
+        "id": 2,
+        "words": [
+          "maestra explica",
+          "menos",
+          "materia",
+          "explica",
+          "clase"
+        ],
+        "weight": 0.1302390974834323
+      },
+      {
+        "id": 3,
+        "words": [
+          "buena maestra",
+          "recomiendo",
+          "es",
+          "maestra es",
+          "maestra"
+        ],
+        "weight": 0.12695310901857695
+      },
+      {
+        "id": 4,
+        "words": [
+          "atencion",
+          "buena",
+          "guapa",
+          "buena maestra",
+          "cargar"
+        ],
+        "weight": 0.08760022722656229
+      }
+    ],
+    "sentiment": {
+      "overall": 0.047619047619047616,
+      "by_month": {
+        "2025-05": 0.0,
+        "2017-12": 0.0,
+        "2017-05": 0.0,
+        "2017-03": 0.0,
+        "2014-12": 0.0,
+        "2014-02": 1.0,
+        "2014-01": 0.0,
+        "2013-12": 0.0,
+        "2013-11": 0.0,
+        "2013-10": 0.0,
+        "2013-09": 0.0,
+        "2013-08": 0.0,
+        "2013-05": 0.0,
+        "2011-12": 0.0,
+        "2011-09": 0.0,
+        "2011-05": 0.0,
+        "2011-02": 0.0,
+        "2010-08": 0.0
+      }
+    },
+    "n_comments": 21
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.048,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 0.98
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        8.0,
+        10.0,
+        8.0,
+        10.0,
+        10.0,
+        10.0,
+        2.0,
+        4.0,
+        2.0,
+        6.5,
+        5.0,
+        9.0,
+        10.0,
+        4.0,
+        10.0,
+        10.0,
+        10.0,
+        7.0,
+        10.0,
+        10.0,
+        2.0,
+        10.0
+      ],
+      "ewma": [
+        8.0,
+        8.6,
+        8.42,
+        8.893999999999998,
+        9.2258,
+        9.45806,
+        7.220641999999999,
+        6.2544493999999995,
+        4.978114579999999,
+        5.434680205999999,
+        5.304276144199999,
+        6.412993300939998,
+        7.489095310657999,
+        6.442366717460599,
+        7.509656702222419,
+        8.256759691555693,
+        8.779731784088984,
+        8.245812248862288,
+        8.772068574203601,
+        9.14044800194252,
+        6.998313601359763,
+        7.898819520951834
+      ],
+      "sigma": 2.2842465949901296
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 7.898819520951834,
+      "quality_band": [
+        3.4216961947711804,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2025-05-31T00:00:00",
+      "materia": "QUIMICA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "La profesora explica los temas, resuelve ejercicios en clase y deja tareas, es el ciclo, los exámenes son en linea, no es obligatorio ir a todas sus clases pero si te conoce mejor, eso si, al menos en mi semestre falto 4 semanas enteras (1/4 de semestre), califica bien"
+    },
+    {
+      "fecha_iso": "2020-09-30T00:00:00",
+      "materia": "QUÍMICA",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 7.5,
+      "recomienda": 0,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2018-08-05T00:00:00",
+      "materia": "QUÍMICA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2018-02-16T00:00:00",
+      "materia": "QUÍMICA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2017-12-28T00:00:00",
+      "materia": "QUIMICA",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Volvería a cargar con ella. Buena maestra y aparte está guapa."
+    },
+    {
+      "fecha_iso": "2017-05-18T00:00:00",
+      "materia": "---",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2017-03-18T00:00:00",
+      "materia": "QUIMICA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "muy buena maestra, explica los temas como deben de ser y brinda apoyo a todos sus estudiantes."
+    },
+    {
+      "fecha_iso": "2016-10-11T00:00:00",
+      "materia": "QUIMICA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2014-12-23T00:00:00",
+      "materia": "---",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2014-02-27T00:00:00",
+      "materia": "QUIMICA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Es fácil por que la maestra hace que le entiendas rápido. Te deja investigaciones para que que aprendas mejor y tienes que estudiar todo lo que lleves de tarea. Excelente maestra,  la recomiendo mucho y espero y haya muchas así.\nAdemás es guapísima! :p"
+    },
+    {
+      "fecha_iso": "2014-01-06T00:00:00",
+      "materia": "QUIMICA",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Es muy buena maestra, yo le entendi a todo lo que explicaba, creo que le ponia mucha atencion no se porque xD.\nLa recomiendo, aprendes mucho y si no pues minimos hay mucho que mirar jeje"
+    },
+    {
+      "fecha_iso": "2013-12-20T00:00:00",
+      "materia": "---",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 4.5,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2013-12-04T00:00:00",
+      "materia": "QUÍMICA.",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": "No se le entiende en clase nada."
+    },
+    {
+      "fecha_iso": "2013-11-20T00:00:00",
+      "materia": "---",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 3.5,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2013-11-15T00:00:00",
+      "materia": "QUIMICA",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Enseña bien quimica y sus exámenes los pasas si pones atencion en clase, es flexible mientras seas cumplido con tareas, etc. Plus: esta muy guapa!"
+    },
+    {
+      "fecha_iso": "2013-10-18T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 2.5,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2013-09-29T00:00:00",
+      "materia": "QUIMICA Y PROBABILIDAD",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 4.0,
+      "recomienda": 0,
+      "comentario": "la maestra explica mas o menos, se la tira de buenota. pero lo lo esta. Se ve que le falta mucho para explicar bien la clase"
+    },
+    {
+      "fecha_iso": "2013-08-06T00:00:00",
+      "materia": "QUIMICA",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 0,
+      "comentario": "Ni al caso, no domina para nada la materia, super sangrona con las mujeres en su clase, le gusta lucirse con los hombres y no explica nada en lo absoluto, no vas aprender nada."
+    },
+    {
+      "fecha_iso": "2013-05-07T00:00:00",
+      "materia": "QUÍMICA - PROBABILIDAD Y ESTADÍSTICA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Como dicen, la profesora Paola esta bien buena y es muy buena impartiendo su materia, te deja claros los temas, es muy comprensiva, pero vaya que te distrae... 100% recomendada"
+    },
+    {
+      "fecha_iso": "2011-12-14T00:00:00",
+      "materia": "QUIMICA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Esta maestra es bien BUENA yo creo la mejor que hay en el tec"
+    },
+    {
+      "fecha_iso": "2011-09-23T00:00:00",
+      "materia": "QUIMICA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 1,
+      "comentario": "Es bien buena y esta bien buena."
+    },
+    {
+      "fecha_iso": "2011-05-10T00:00:00",
+      "materia": "QUIMICA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 1,
+      "comentario": "bueeeeeeenisima maestra, es una barbara."
+    },
+    {
+      "fecha_iso": "2011-05-07T00:00:00",
+      "materia": "QUIMICA",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 0,
+      "comentario": "con solo cargar me conformo para verla."
+    },
+    {
+      "fecha_iso": "2011-02-22T00:00:00",
+      "materia": "QUIMICA GENERAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "BUENISIMA!!!\nMAESTRA"
+    },
+    {
+      "fecha_iso": "2010-08-29T00:00:00",
+      "materia": "QUÍMICA",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": "Buena onda, muy inteligente, educada, sabe mucho del tema que imparte y le apasiona, también es muy comprensiva."
+    }
+  ],
+  "comments_recent": [
+    "La profesora explica los temas, resuelve ejercicios en clase y deja tareas, es el ciclo, los exámenes son en linea, no es obligatorio ir a todas sus clases pero si te conoce mejor, eso si, al menos en mi semestre falto 4 semanas enteras (1/4 de semestre), califica bien",
+    "Volvería a cargar con ella. Buena maestra y aparte está guapa.",
+    "[Comentario esperando revisión]",
+    "muy buena maestra, explica los temas como deben de ser y brinda apoyo a todos sus estudiantes.",
+    "[Comentario esperando revisión]",
+    "Es fácil por que la maestra hace que le entiendas rápido. Te deja investigaciones para que que aprendas mejor y tienes que estudiar todo lo que lleves de tarea. Excelente maestra,  la recomiendo mucho y espero y haya muchas así.\nAdemás es guapísima! :p"
+  ],
+  "n_reviews": 25
+}

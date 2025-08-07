@@ -1,0 +1,125 @@
+{
+  "professor_id": "JAVIER_DE_JESUS_ROCHIN_RENTERIA",
+  "nombre": "JAVIER DE JESUS ROCHIN RENTERIA",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 9.701862585289913,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.598147769435274,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 1.0,
+    "wilson_interval": [
+      0.4384939195509822,
+      1
+    ],
+    "n_recommendations": 3
+  },
+  "subject_normalization": {
+    "z_mean": 0.4,
+    "z_mean_decayed": 0.43,
+    "per_subject": [
+      {
+        "materia": "TALLER DE BASE DE DATOS",
+        "z_decayed": 1.1602387022306426,
+        "n": 22
+      },
+      {
+        "materia": "CULTURA EMPRESARIAL",
+        "z_decayed": 0.7627700713964739,
+        "n": 17
+      },
+      {
+        "materia": "TALLER DE BASES DE DATOS",
+        "z_decayed": -0.730296743340222,
+        "n": 5
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [],
+    "sentiment": {
+      "overall": null,
+      "by_month": {}
+    },
+    "n_comments": 3
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        10.0,
+        9.0,
+        10.0
+      ],
+      "ewma": [
+        10.0,
+        9.7,
+        9.79
+      ],
+      "sigma": 0.47648014998878313
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 9.79,
+      "quality_band": [
+        8.856098906021984,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2025-01-07T00:00:00",
+      "materia": "CULTURA EMPRESARIAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Muy buen profesor, me dio una materia aburrida y la hizo mas disfrutable ya que complementaba las clases con platica y practicas divertidas ya que se lleva bien con los alumnos, no es complicado solo los exámenes te pueden sorprender un poco"
+    },
+    {
+      "fecha_iso": "2024-01-18T00:00:00",
+      "materia": "TALLER DE BASES DE DATOS",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Las clases con este profesor siempre fueron muy cortas y directo al grano, aunque a paso lento. Es un profesor muy relajado, no es exigente al momento de evaluar y es muy flexible con todos en general. Sí toma asistencia pero es comprensivo con los que tuvieron algún problema para presentarse."
+    },
+    {
+      "fecha_iso": "2023-11-30T00:00:00",
+      "materia": "TALLER DE BASE DE DATOS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": "Es muy buen maestro se preocupa por los alumnos y es de los mejores profes que tiene el tec al nivel de victor batiz ojalá diera más materias para volver a cargar con el si tienen oportunidad carguen todas las materias posibles con el si les aparece en la carga Diosito los miró a los ojos"
+    }
+  ],
+  "comments_recent": [
+    "Muy buen profesor, me dio una materia aburrida y la hizo mas disfrutable ya que complementaba las clases con platica y practicas divertidas ya que se lleva bien con los alumnos, no es complicado solo los exámenes te pueden sorprender un poco",
+    "Las clases con este profesor siempre fueron muy cortas y directo al grano, aunque a paso lento. Es un profesor muy relajado, no es exigente al momento de evaluar y es muy flexible con todos en general. Sí toma asistencia pero es comprensivo con los que tuvieron algún problema para presentarse.",
+    "Es muy buen maestro se preocupa por los alumnos y es de los mejores profes que tiene el tec al nivel de victor batiz ojalá diera más materias para volver a cargar con el si tienen oportunidad carguen todas las materias posibles con el si les aparece en la carga Diosito los miró a los ojos"
+  ],
+  "n_reviews": 3
+}

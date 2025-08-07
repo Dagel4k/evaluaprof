@@ -1,0 +1,153 @@
+{
+  "professor_id": "MARIA_ELISA_VAZQUEZ_CARDENAS",
+  "nombre": "MARIA ELISA VAZQUEZ CARDENAS",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 6.9702700306897745,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 6.785061400177238,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.6,
+    "wilson_interval": [
+      0.23071993220883702,
+      0.8823817688407467
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": -0.59,
+    "z_mean_decayed": -0.5,
+    "per_subject": [
+      {
+        "materia": "GESTION DE COSTOS",
+        "z_decayed": -0.015482797785872816,
+        "n": 5
+      },
+      {
+        "materia": "CONTABILIDAD",
+        "z_decayed": -0.5112496811342229,
+        "n": 11
+      },
+      {
+        "materia": "PLANEACIÓN FINANCIERA",
+        "z_decayed": -0.7679817174694632,
+        "n": 10
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [],
+    "sentiment": {
+      "overall": 0.0,
+      "by_month": {
+        "2018-04": 0.0,
+        "2017-11": 0.0,
+        "2017-08": 0.0,
+        "2013-03": 0.0
+      }
+    },
+    "n_comments": 4
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        2.0,
+        10.0,
+        3.0,
+        10.0,
+        7.0
+      ],
+      "ewma": [
+        2.0,
+        4.4,
+        3.98,
+        5.786,
+        6.1502
+      ],
+      "sigma": 2.8304222102011565
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 6.1502,
+      "quality_band": [
+        0.6025724680057332,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2018-04-23T00:00:00",
+      "materia": "PLANEACIÓN FINANCIERA",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Está bien facil su clase. Toma mucho en cuenta la asistencia y casi siempre lo que sacas en el examen te lo pone nomas que te baja puntos con las faltas pero tambien sube con las participaciones. Los examenes son bien sencillos nomas cuidado porque si repruebas una recuperación es RC directo."
+    },
+    {
+      "fecha_iso": "2017-11-15T00:00:00",
+      "materia": "CONTABILIDAD",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Es una verga kp2"
+    },
+    {
+      "fecha_iso": "2017-08-05T00:00:00",
+      "materia": "CONTABILIDAD",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 0,
+      "comentario": "No sabe dar clases"
+    },
+    {
+      "fecha_iso": "2015-11-18T00:00:00",
+      "materia": "GESTION DE COSTOS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2013-03-06T00:00:00",
+      "materia": "GESTION DE COSTOS",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "X"
+    }
+  ],
+  "comments_recent": [
+    "Está bien facil su clase. Toma mucho en cuenta la asistencia y casi siempre lo que sacas en el examen te lo pone nomas que te baja puntos con las faltas pero tambien sube con las participaciones. Los examenes son bien sencillos nomas cuidado porque si repruebas una recuperación es RC directo.",
+    "Es una verga kp2",
+    "No sabe dar clases",
+    "X"
+  ],
+  "n_reviews": 5
+}

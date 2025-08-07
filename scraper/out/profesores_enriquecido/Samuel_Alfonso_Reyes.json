@@ -1,0 +1,86 @@
+{
+  "professor_id": "Samuel_Alfonso_Reyes",
+  "nombre": "Samuel Alfonso Reyes",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 4.443341772332674,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 6.647993416888213,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.5,
+    "wilson_interval": [
+      0.09452865480086611,
+      0.905471345199134
+    ],
+    "n_recommendations": 2
+  },
+  "subject_normalization": {
+    "z_mean": -0.7,
+    "z_mean_decayed": -0.89,
+    "per_subject": [
+      {
+        "materia": "CALCULO DIFERENCIAL",
+        "z_decayed": -0.8860295269417358,
+        "n": 110
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [],
+    "sentiment": {
+      "overall": null,
+      "by_month": {}
+    },
+    "n_comments": 2
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": null,
+    "difficulty_trend": null,
+    "forecast": null,
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2013-02-24T00:00:00",
+      "materia": "CALCULO DIFERENCIAL",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 0,
+      "comentario": "Si quieres pasar sin aprender, esta es tu opcion, solo leeras un libro, iras al centro de ciencias y listo"
+    },
+    {
+      "fecha_iso": "2012-01-24T00:00:00",
+      "materia": "CALCULO DIFERENCIAL",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Lo remcomiendo si no quieres aprender nada y pasar"
+    }
+  ],
+  "comments_recent": [
+    "Si quieres pasar sin aprender, esta es tu opcion, solo leeras un libro, iras al centro de ciencias y listo",
+    "Lo remcomiendo si no quieres aprender nada y pasar"
+  ],
+  "n_reviews": 2
+}

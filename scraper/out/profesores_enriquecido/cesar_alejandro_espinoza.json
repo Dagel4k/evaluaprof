@@ -1,0 +1,123 @@
+{
+  "professor_id": "cesar_alejandro_espinoza",
+  "nombre": "cesar alejandro espinoza",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 9.845682821800283,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.521224692512197,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 1.0,
+    "wilson_interval": [
+      0.4384939195509822,
+      1
+    ],
+    "n_recommendations": 3
+  },
+  "subject_normalization": {
+    "z_mean": 0.49,
+    "z_mean_decayed": 0.94,
+    "per_subject": [
+      {
+        "materia": "INDUSTRIAL",
+        "z_decayed": 1.1145642741119781,
+        "n": 5
+      },
+      {
+        "materia": "CALCULO DIFERENCIAL",
+        "z_decayed": 0.9421633023090474,
+        "n": 110
+      },
+      {
+        "materia": "ESTADISTICA INFERENCIAL",
+        "z_decayed": -0.577350269189627,
+        "n": 3
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [],
+    "sentiment": {
+      "overall": null,
+      "by_month": {}
+    },
+    "n_comments": 1
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        8.0,
+        10.0,
+        10.0
+      ],
+      "ewma": [
+        8.0,
+        8.6,
+        9.02
+      ],
+      "sigma": 0.718424201522564
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 9.02,
+      "quality_band": [
+        7.611888565015774,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2021-09-02T00:00:00",
+      "materia": "INDUSTRIAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2018-08-06T00:00:00",
+      "materia": "CALCULO DIFERENCIAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2015-05-12T00:00:00",
+      "materia": "ESTADISTICA INFERENCIAL",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": "Se recomienda da mucha oportunidad y explica muy claro"
+    }
+  ],
+  "comments_recent": [
+    "Se recomienda da mucha oportunidad y explica muy claro"
+  ],
+  "n_reviews": 3
+}

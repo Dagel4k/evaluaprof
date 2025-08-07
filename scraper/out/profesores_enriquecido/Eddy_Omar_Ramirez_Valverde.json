@@ -1,0 +1,85 @@
+{
+  "professor_id": "Eddy_Omar_Ramirez_Valverde",
+  "nombre": "Eddy Omar Ramirez Valverde",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 5.000000000000001,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 6.647993416888213,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.0,
+    "wilson_interval": [
+      0,
+      0.6576280471103807
+    ],
+    "n_recommendations": 2
+  },
+  "subject_normalization": {
+    "z_mean": -0.36,
+    "z_mean_decayed": -0.36,
+    "per_subject": [
+      {
+        "materia": "ELECTROMAGNETISMO",
+        "z_decayed": -0.35657898909643304,
+        "n": 31
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [],
+    "sentiment": {
+      "overall": null,
+      "by_month": {}
+    },
+    "n_comments": 1
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": null,
+    "difficulty_trend": null,
+    "forecast": null,
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2021-03-12T00:00:00",
+      "materia": "ELECTROMAGNETISMO",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 0,
+      "comentario": "El profe se ve que si sabe pero no enseña como debe ,deja muchas tareas y se apoya de las exposiciones de los alumnos para no tener que dar la clase"
+    },
+    {
+      "fecha_iso": "2020-02-17T00:00:00",
+      "materia": "POTENCIA",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 0,
+      "comentario": ""
+    }
+  ],
+  "comments_recent": [
+    "El profe se ve que si sabe pero no enseña como debe ,deja muchas tareas y se apoya de las exposiciones de los alumnos para no tener que dar la clase"
+  ],
+  "n_reviews": 2
+}

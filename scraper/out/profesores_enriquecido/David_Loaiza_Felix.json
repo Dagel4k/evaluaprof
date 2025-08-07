@@ -1,0 +1,80 @@
+{
+  "professor_id": "David_Loaiza_Felix",
+  "nombre": "David Loaiza Felix",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 6.2698274242291685,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 6.81466008355488,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.5,
+    "wilson_interval": [
+      0.09452865480086611,
+      0.905471345199134
+    ],
+    "n_recommendations": 2
+  },
+  "subject_normalization": {
+    "z_mean": null,
+    "z_mean_decayed": null,
+    "per_subject": []
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [],
+    "sentiment": {
+      "overall": null,
+      "by_month": {}
+    },
+    "n_comments": 2
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": null,
+    "difficulty_trend": null,
+    "forecast": null,
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2020-09-18T00:00:00",
+      "materia": "ING. ECONÓMICA",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 1,
+      "comentario": "las clases son algo aburridas pero  son muy claras y siempre ayuda.\nsi quieres aprender de la materia, no te lo recomiendo, en cambio si quieres una calificación fácil, adelante."
+    },
+    {
+      "fecha_iso": "2019-12-06T00:00:00",
+      "materia": "INGENIERA ECONÓMICA",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": "Su modo de enseñanza no es muy bueno, si da bien su programa de clases, sus diapositivas son claras, la asistencia no es obligatoria, la calificación son los exámenes, pero si asistes a todas las clases le entiendes fácilmente."
+    }
+  ],
+  "comments_recent": [
+    "las clases son algo aburridas pero  son muy claras y siempre ayuda.\nsi quieres aprender de la materia, no te lo recomiendo, en cambio si quieres una calificación fácil, adelante.",
+    "Su modo de enseñanza no es muy bueno, si da bien su programa de clases, sus diapositivas son claras, la asistencia no es obligatoria, la calificación son los exámenes, pero si asistes a todas las clases le entiendes fácilmente."
+  ],
+  "n_reviews": 2
+}

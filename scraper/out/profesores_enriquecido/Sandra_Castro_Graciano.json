@@ -1,0 +1,197 @@
+{
+  "professor_id": "Sandra_Castro_Graciano",
+  "nombre": "Sandra Castro Graciano",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 7.229136657464899,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 6.98599506266616,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.667,
+    "wilson_interval": [
+      0.2999883213415286,
+      0.903230667440783
+    ],
+    "n_recommendations": 6
+  },
+  "subject_normalization": {
+    "z_mean": 0.07,
+    "z_mean_decayed": 0.47,
+    "per_subject": [
+      {
+        "materia": "ANÁLISIS DE CIRCUITOS ELÉCTRICOS",
+        "z_decayed": 0.4855904632704879,
+        "n": 5
+      },
+      {
+        "materia": "CIRCUITOS ELECTRICOS",
+        "z_decayed": -0.12900988576125955,
+        "n": 7
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "sabe",
+          "profesora",
+          "examenes",
+          "te",
+          "si"
+        ],
+        "weight": 0.21436040467530285
+      },
+      {
+        "id": 1,
+        "words": [
+          "profesora sabe",
+          "depende",
+          "sabe",
+          "es",
+          "grupo"
+        ],
+        "weight": 0.28778516360018874
+      },
+      {
+        "id": 2,
+        "words": [
+          "buena",
+          "es buena",
+          "dificiles",
+          "maestra",
+          "es"
+        ],
+        "weight": 0.2547938581774944
+      }
+    ],
+    "sentiment": {
+      "overall": 0.16666666666666666,
+      "by_month": {
+        "2022-06": 0.0,
+        "2018-08": 0.0,
+        "2018-07": 0.0,
+        "2016-01": 0.0,
+        "2015-01": 0.0,
+        "2013-11": 1.0
+      }
+    },
+    "n_comments": 6
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        8.0,
+        6.0,
+        9.0,
+        7.0,
+        4.0,
+        8.0
+      ],
+      "ewma": [
+        8.0,
+        7.3999999999999995,
+        7.879999999999999,
+        7.616,
+        6.531199999999999,
+        6.9718399999999985
+      ],
+      "sigma": 1.4211762925126499
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 6.9718399999999985,
+      "quality_band": [
+        4.186334466675205,
+        9.757345533324791
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2022-06-13T00:00:00",
+      "materia": "ANÁLISIS DE CIRCUITOS ELÉCTRICOS",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Es buena maestra, los exámenes si son algo difíciles pero si estudias no habrá problema en que pases, por lo general se basa en el libro de Boylestad 10ma edición. Si te aparece Rey David en la carga mejor vete con King David xd."
+    },
+    {
+      "fecha_iso": "2018-08-05T00:00:00",
+      "materia": "ANÁLISIS DE CIRCUITOS ELÉCTRICOS",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 0,
+      "comentario": "Le falta mucha  actitud a esta profesora, no hay motivación, tendrás que aprender casi por ti mismo, aunque si le entregas todas las tareas si repruebas todos los exámenes te pasará al ultimo con un 70"
+    },
+    {
+      "fecha_iso": "2018-07-27T00:00:00",
+      "materia": "ANÁLISIS DE CIRCUITOS ELÉCTRICOS",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": "Esta profesora no sabe transmitir su conocimiento a los alumnos. Si bien dicen más abajo en los comentarios que depende del grupo el comportamiento de ella, es cierto. Si son un buen grupo los ayudará. Busquen por otro lado para estudiar porque el examen es impredecible."
+    },
+    {
+      "fecha_iso": "2016-01-14T00:00:00",
+      "materia": "ANALISIS DE CIRCUITOS ELÉCTRICOS",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Es muy buena profesora y sabe mucho, pero ella depende mucho del grupo no sean unos escandalosos y todo irá bien, tampoco se hagan los que saben mucho porque no les explicará. Sean buenos estudiantes y pongan atención que muy fácil es echarle la culpa a los profes así que pónganse a ESTUDIAR."
+    },
+    {
+      "fecha_iso": "2015-01-14T00:00:00",
+      "materia": "ANALISIS DE CIRCUITOS ELECTRICOS",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": "Es una profesora que tiene mucho conocimiento pero no sabe como enseñarlo a los alumnos,si un alumno sabe de un tema da por hecho que todo el salon lo sabe tambien y se lo brinca y si le preguntas sobre el tema puede que te responda o no depende de su humor, sus examenes son algo complicados."
+    },
+    {
+      "fecha_iso": "2013-11-29T00:00:00",
+      "materia": "CIRCUITOS ELECTRICOS",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": "Excelente maestra, es ing.biomedica y la materia de Circuitos Electricos es muy buena para explicar, sus examenes son dificiles, tienes que estudiar si quieres pasar. Da muchas oportunidades, no pierdan la oportunidad de cargar con ella."
+    }
+  ],
+  "comments_recent": [
+    "Es buena maestra, los exámenes si son algo difíciles pero si estudias no habrá problema en que pases, por lo general se basa en el libro de Boylestad 10ma edición. Si te aparece Rey David en la carga mejor vete con King David xd.",
+    "Le falta mucha  actitud a esta profesora, no hay motivación, tendrás que aprender casi por ti mismo, aunque si le entregas todas las tareas si repruebas todos los exámenes te pasará al ultimo con un 70",
+    "Esta profesora no sabe transmitir su conocimiento a los alumnos. Si bien dicen más abajo en los comentarios que depende del grupo el comportamiento de ella, es cierto. Si son un buen grupo los ayudará. Busquen por otro lado para estudiar porque el examen es impredecible.",
+    "Es muy buena profesora y sabe mucho, pero ella depende mucho del grupo no sean unos escandalosos y todo irá bien, tampoco se hagan los que saben mucho porque no les explicará. Sean buenos estudiantes y pongan atención que muy fácil es echarle la culpa a los profes así que pónganse a ESTUDIAR.",
+    "Es una profesora que tiene mucho conocimiento pero no sabe como enseñarlo a los alumnos,si un alumno sabe de un tema da por hecho que todo el salon lo sabe tambien y se lo brinca y si le preguntas sobre el tema puede que te responda o no depende de su humor, sus examenes son algo complicados.",
+    "Excelente maestra, es ing.biomedica y la materia de Circuitos Electricos es muy buena para explicar, sus examenes son dificiles, tienes que estudiar si quieres pasar. Da muchas oportunidades, no pierdan la oportunidad de cargar con ella."
+  ],
+  "n_reviews": 6
+}

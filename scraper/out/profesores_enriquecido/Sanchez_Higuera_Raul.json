@@ -1,0 +1,236 @@
+{
+  "professor_id": "Sanchez_Higuera_Raul",
+  "nombre": "Sanchez Higuera Raul",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 5.342886317813515,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 6.0986622779254755,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.375,
+    "wilson_interval": [
+      0.13684175946152105,
+      0.6942621454161982
+    ],
+    "n_recommendations": 8
+  },
+  "subject_normalization": {
+    "z_mean": -0.69,
+    "z_mean_decayed": -0.63,
+    "per_subject": [
+      {
+        "materia": "DIBUJO INDUSTRIAL",
+        "z_decayed": -0.5244243403910164,
+        "n": 43
+      },
+      {
+        "materia": "DIBUJO",
+        "z_decayed": -0.8347377178043925,
+        "n": 14
+      },
+      {
+        "materia": "---",
+        "z_decayed": -0.9627852966533861,
+        "n": 521
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "ayuda",
+          "si",
+          "estricto",
+          "es estricto",
+          "es"
+        ],
+        "weight": 0.1306128295834767
+      },
+      {
+        "id": 1,
+        "words": [
+          "es estricto",
+          "ayuda",
+          "persona",
+          "es persona",
+          "te"
+        ],
+        "weight": 0.12401590956859507
+      },
+      {
+        "id": 2,
+        "words": [
+          "te",
+          "ayuda",
+          "es",
+          "tiene",
+          "si"
+        ],
+        "weight": 0.18059786871959943
+      },
+      {
+        "id": 3,
+        "words": [
+          "ayuda",
+          "es persona",
+          "persona",
+          "es",
+          "tiene"
+        ],
+        "weight": 0.23097216524457218
+      }
+    ],
+    "sentiment": {
+      "overall": 0.125,
+      "by_month": {
+        "2014-01": 0.0,
+        "2013-08": 0.0,
+        "2013-01": 1.0,
+        "2012-08": 0.0,
+        "2012-06": 0.0,
+        "2012-01": 0.0,
+        "2011-12": 0.0
+      }
+    },
+    "n_comments": 8
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        2.0,
+        6.0,
+        4.5,
+        2.0,
+        9.0,
+        2.0,
+        10.0
+      ],
+      "ewma": [
+        2.0,
+        3.1999999999999997,
+        3.59,
+        3.113,
+        4.879099999999999,
+        4.015369999999999,
+        5.810758999999999
+      ],
+      "sigma": 2.4901587437657464
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 5.810758999999999,
+      "quality_band": [
+        0.9300478622191362,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2014-01-11T00:00:00",
+      "materia": "DIBUJO INDUSTRIAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "TE PONE A TRABAJAR, PERO APRENDES... DESPUES TE DAS CUENTA QUE OCUPAS LO QUE TE ENSEÑO."
+    },
+    {
+      "fecha_iso": "2013-08-19T00:00:00",
+      "materia": "DIBUJO INDUSTRIAL",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "El profe mas bipolar y mendigo que he tenido..."
+    },
+    {
+      "fecha_iso": "2013-01-17T00:00:00",
+      "materia": "DIBUJO INDUSTRIAL",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Excelente como profesor, como el pocos. Si, es muy estricto y la mayoria del tiempo muy llevado pero en lo personal a mi me ayudo MUCHISIMO, Es cuestión de hacerle caso, muy recomendado."
+    },
+    {
+      "fecha_iso": "2012-08-16T00:00:00",
+      "materia": "DIBUJO",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 1.0,
+      "recomienda": 0,
+      "comentario": "culeron el vato si pueden no carguen con el, estan mejores las otras opciones para dibujo"
+    },
+    {
+      "fecha_iso": "2012-06-14T00:00:00",
+      "materia": "DIBUJO INDUSTRIAL",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 7.5,
+      "recomienda": 1,
+      "comentario": "No tiene nada de respeto hacia sus estudiantes, es muy pesado y le encanta burlarse de los demás, lo cual llega a crear un temor hacia el que impide preguntarle cualquier duda que tengamos, a pesar enseña muy bien y al final ayuda a que todos pasen, eso si trabajaras mucho!!."
+    },
+    {
+      "fecha_iso": "2012-06-05T00:00:00",
+      "materia": "DIBUJO INDUSTRIAL",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Es una persona que no tiene tacto para tratar al alumnado, no sabe respetar, le gusta ofender a sus alumnos con carrillas pesadas y ofensivas x.x si le caes mal se encarga de amolarte x.x"
+    },
+    {
+      "fecha_iso": "2012-01-12T00:00:00",
+      "materia": "DIBUJO",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 0,
+      "comentario": "Es estricto, de acuerdo con eso, pero se aprende mucho con el. Te ayuda si cumples con trabajos y tareas, ademas de que es una persona justa y ética"
+    },
+    {
+      "fecha_iso": "2011-12-31T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    }
+  ],
+  "comments_recent": [
+    "TE PONE A TRABAJAR, PERO APRENDES... DESPUES TE DAS CUENTA QUE OCUPAS LO QUE TE ENSEÑO.",
+    "El profe mas bipolar y mendigo que he tenido...",
+    "Excelente como profesor, como el pocos. Si, es muy estricto y la mayoria del tiempo muy llevado pero en lo personal a mi me ayudo MUCHISIMO, Es cuestión de hacerle caso, muy recomendado.",
+    "culeron el vato si pueden no carguen con el, estan mejores las otras opciones para dibujo",
+    "No tiene nada de respeto hacia sus estudiantes, es muy pesado y le encanta burlarse de los demás, lo cual llega a crear un temor hacia el que impide preguntarle cualquier duda que tengamos, a pesar enseña muy bien y al final ayuda a que todos pasen, eso si trabajaras mucho!!.",
+    "Es una persona que no tiene tacto para tratar al alumnado, no sabe respetar, le gusta ofender a sus alumnos con carrillas pesadas y ofensivas x.x si le caes mal se encarga de amolarte x.x",
+    "Es estricto, de acuerdo con eso, pero se aprende mucho con el. Te ayuda si cumples con trabajos y tareas, ademas de que es una persona justa y ética",
+    "[Comentario esperando revisión]"
+  ],
+  "n_reviews": 8
+}

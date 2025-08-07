@@ -1,0 +1,305 @@
+{
+  "professor_id": "Jose_Antonio_Castro_Inzunza",
+  "nombre": "Jose Antonio Castro Inzunza",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 5.321184549376104,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 6.555474826202546,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.538,
+    "wilson_interval": [
+      0.29143432431832045,
+      0.7679424569851186
+    ],
+    "n_recommendations": 13
+  },
+  "subject_normalization": {
+    "z_mean": -0.4,
+    "z_mean_decayed": -0.8,
+    "per_subject": [
+      {
+        "materia": "MATEMATICAS I",
+        "z_decayed": 0.9805930739015237,
+        "n": 11
+      },
+      {
+        "materia": "CALCULO INTEGRAL",
+        "z_decayed": 0.8481796604891912,
+        "n": 84
+      },
+      {
+        "materia": "MATEMATICAS V",
+        "z_decayed": 0.531451641096731,
+        "n": 22
+      },
+      {
+        "materia": "CALCULO DIFERENCIAL",
+        "z_decayed": 0.2841444879979666,
+        "n": 110
+      },
+      {
+        "materia": "---",
+        "z_decayed": -0.9627852966533862,
+        "n": 521
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "recomiendo",
+          "es buen",
+          "buen maestro",
+          "buen",
+          "maestro"
+        ],
+        "weight": 0.1250984666029535
+      },
+      {
+        "id": 1,
+        "words": [
+          "explicar",
+          "maestro",
+          "te",
+          "sabe",
+          "sabe explicar"
+        ],
+        "weight": 0.12657875692315182
+      },
+      {
+        "id": 2,
+        "words": [
+          "sabe",
+          "sabe explicar",
+          "te",
+          "recomiendo",
+          "si"
+        ],
+        "weight": 0.13268672068263945
+      },
+      {
+        "id": 3,
+        "words": [
+          "si",
+          "maestro",
+          "te",
+          "es buen",
+          "es"
+        ],
+        "weight": 0.18652284870268962
+      },
+      {
+        "id": 4,
+        "words": [
+          "te",
+          "si",
+          "sabe explicar",
+          "sabe",
+          "explicar"
+        ],
+        "weight": 0.11841592573220551
+      }
+    ],
+    "sentiment": {
+      "overall": 0.09090909090909091,
+      "by_month": {
+        "2016-02": 0.0,
+        "2013-02": 0.0,
+        "2012-08": 0.3333333333333333,
+        "2012-06": 0.0,
+        "2011-11": 0.0,
+        "2011-05": 0.0,
+        "2011-01": 0.0
+      }
+    },
+    "n_comments": 11
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        6.0,
+        10.0,
+        10.0,
+        4.0,
+        5.0,
+        4.666666666666667,
+        9.0,
+        2.0
+      ],
+      "ewma": [
+        6.0,
+        7.199999999999999,
+        8.04,
+        6.827999999999999,
+        6.279599999999999,
+        5.795719999999999,
+        6.7570039999999985,
+        5.329902799999998
+      ],
+      "sigma": 2.342313120054505
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 5.329902799999998,
+      "quality_band": [
+        0.7389690846931689,
+        9.920836515306828
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2016-02-09T00:00:00",
+      "materia": "CÁLCULO",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 24.0,
+      "recomienda": 0,
+      "comentario": "Es un imbécil."
+    },
+    {
+      "fecha_iso": "2013-02-26T00:00:00",
+      "materia": "MATEMÁTICAS",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Recomiendo a Castro Inzunza porque es buen maestro."
+    },
+    {
+      "fecha_iso": "2012-08-16T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 2.0,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2012-08-16T00:00:00",
+      "materia": "MATE",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 1.5,
+      "recomienda": 0,
+      "comentario": "Si no le hechas las ganas truenas, no lo recomiendo"
+    },
+    {
+      "fecha_iso": "2012-08-06T00:00:00",
+      "materia": "CALCULO INTEGRAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Exigente, pero muy bueno para explicar"
+    },
+    {
+      "fecha_iso": "2012-06-14T00:00:00",
+      "materia": "MATEMATICAS 1",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Este maestro la verdad no sabe explicar bien, y te enseña una cosa y en el examen viene otra, en ocasiones se burla de los alumnos"
+    },
+    {
+      "fecha_iso": "2012-06-14T00:00:00",
+      "materia": "CALCULO DIFERENCIAL",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 1,
+      "comentario": "Puede que sepa mucho pero si no eres una persona que enserio se preocupa por aprender no te conviene ya que el no te da el animo ni el entusiasmo de que asistas a clases, ni deja tareas ni o trabajos para practicar en casa, todo es ponerle atención en clases y sus examenes si están difíciles."
+    },
+    {
+      "fecha_iso": "2011-11-28T00:00:00",
+      "materia": "CALCULO",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "reprueba y aparte no sabe explicar no lo cargen amigos del tec"
+    },
+    {
+      "fecha_iso": "2011-10-15T00:00:00",
+      "materia": "CACLULO 1",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2011-05-06T00:00:00",
+      "materia": "MATEMATICAS V",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 1,
+      "comentario": "para los que pasan es buen maestro y para los que reprueban es mal maestro , esto esta mal."
+    },
+    {
+      "fecha_iso": "2011-05-06T00:00:00",
+      "materia": "MATEMATICAS I",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 1,
+      "comentario": "mis respetos"
+    },
+    {
+      "fecha_iso": "2011-01-30T00:00:00",
+      "materia": "MATE II",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "MUY BUEN MAESTRO."
+    },
+    {
+      "fecha_iso": "2011-01-21T00:00:00",
+      "materia": "CALCULO",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": ""
+    }
+  ],
+  "comments_recent": [
+    "Es un imbécil.",
+    "Recomiendo a Castro Inzunza porque es buen maestro.",
+    "[Comentario esperando revisión]",
+    "Si no le hechas las ganas truenas, no lo recomiendo",
+    "Exigente, pero muy bueno para explicar",
+    "Este maestro la verdad no sabe explicar bien, y te enseña una cosa y en el examen viene otra, en ocasiones se burla de los alumnos",
+    "Puede que sepa mucho pero si no eres una persona que enserio se preocupa por aprender no te conviene ya que el no te da el animo ni el entusiasmo de que asistas a clases, ni deja tareas ni o trabajos para practicar en casa, todo es ponerle atención en clases y sus examenes si están difíciles.",
+    "reprueba y aparte no sabe explicar no lo cargen amigos del tec",
+    "para los que pasan es buen maestro y para los que reprueban es mal maestro , esto esta mal."
+  ],
+  "n_reviews": 13
+}

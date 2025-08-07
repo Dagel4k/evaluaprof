@@ -1,0 +1,85 @@
+{
+  "nombre": "César augusto Aguilar díaz",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "ciudad": "Ciudad: culiacan, sinaloa",
+  "departamento": "Departamento/Facultad: Metal mecanica",
+  "calidad_general": 10.0,
+  "porcentaje_recomienda": 100,
+  "nivel_dificultad": 0.0,
+  "etiquetas": [
+    "CLASES EXCELENTES (3)",
+    "ASPECTOS DE CALIFICACIÓN CLAROS (1)",
+    "LOS EXÁMENES SON DIFÍCILES (1)",
+    "RESPETADO POR LOS ESTUDIANTES (1)",
+    "DA CRÉDITO EXTRA (1)"
+  ],
+  "numero_calificaciones": 4,
+  "calificaciones": [
+    {
+      "fecha": "15/Oct/2024",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "METAL MECANICA",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "ESTA HERMOSOOOOOOOOOOOOOOOOOOOO ME MIE",
+      "etiquetas_comentario": [
+        "Respetado por los estudiantes",
+        "Da Crédito Extra",
+        "Clases excelentes"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "22/Oct/2022",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Circuitos electricos",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "Esta bien guapo, habla muy bonito, usa pantalones ajustados atte Jose Roberto",
+      "etiquetas_comentario": [
+        "Aspectos de calificación claros",
+        "Clases excelentes",
+        "Los exámenes son difíciles"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "11/Jun/2020",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "electronica",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "9",
+      "interes_clase": "",
+      "comentario": "excelente maestro y muy guapo, no le puedes quitar la mirada.",
+      "etiquetas_comentario": [
+        "Clases excelentes"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "11/Ene/2020",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Redes",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "N/A",
+      "interes_clase": "",
+      "comentario": "Excelente maestro, se preocupa porque sus alumnos aprendan y está fácil salir con buena calificación",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "professor_id": "Alvaro_Zazueta_Gambino",
+  "nombre": "Alvaro Zazueta Gambino",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 10.0,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.481326750221547,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 1.0,
+    "wilson_interval": [
+      0.3423719528896193,
+      1
+    ],
+    "n_recommendations": 2
+  },
+  "subject_normalization": {
+    "z_mean": 0.85,
+    "z_mean_decayed": 0.85,
+    "per_subject": [
+      {
+        "materia": "CALCULO DIFERENCIAL",
+        "z_decayed": 0.9421633023090474,
+        "n": 110
+      },
+      {
+        "materia": "CÁLCULO DIFERENCIAL",
+        "z_decayed": 0.7526588922815561,
+        "n": 46
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [],
+    "sentiment": {
+      "overall": null,
+      "by_month": {}
+    },
+    "n_comments": 1
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": null,
+    "difficulty_trend": null,
+    "forecast": null,
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2023-01-30T00:00:00",
+      "materia": "CALCULO DIFERENCIAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2023-01-14T00:00:00",
+      "materia": "CÁLCULO DIFERENCIAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Es un excelente profesor, es paciente y no le cuesta explicarte las veces necesarias para que entiendas sobre el tema, es bastante flexible y busca que tengas buena calificación. Una lastima que por el momento ya no imparta clases, dejo esta review por si vuelve y es una opcion para ustedes."
+    }
+  ],
+  "comments_recent": [
+    "Es un excelente profesor, es paciente y no le cuesta explicarte las veces necesarias para que entiendas sobre el tema, es bastante flexible y busca que tengas buena calificación. Una lastima que por el momento ya no imparta clases, dejo esta review por si vuelve y es una opcion para ustedes."
+  ],
+  "n_reviews": 2
+}

@@ -1,0 +1,204 @@
+{
+  "professor_id": "Jaime_Rochín_Angulo",
+  "nombre": "Jaime Rochín Angulo",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 7.089194169358175,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 6.98599506266616,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.5,
+    "wilson_interval": [
+      0.1876128068994087,
+      0.8123871931005913
+    ],
+    "n_recommendations": 6
+  },
+  "subject_normalization": {
+    "z_mean": -0.93,
+    "z_mean_decayed": -0.98,
+    "per_subject": [
+      {
+        "materia": "ESTADÍSTICA INFERENCIAL II",
+        "z_decayed": 0.9036961141150639,
+        "n": 6
+      },
+      {
+        "materia": "ESTADÍSTICA INFERENCIAL I",
+        "z_decayed": -1.4048118849910223,
+        "n": 9
+      },
+      {
+        "materia": "ESTADISTICA INFERENCIAL II",
+        "z_decayed": -1.5811388300841895,
+        "n": 6
+      },
+      {
+        "materia": "INGENIERIA DE CALIDAD",
+        "z_decayed": -1.6431676725154982,
+        "n": 5
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "da",
+          "recomendadisimo",
+          "software",
+          "industrial",
+          "te"
+        ],
+        "weight": 0.22725742402907775
+      },
+      {
+        "id": 1,
+        "words": [
+          "recomendado",
+          "explica",
+          "examenes",
+          "computadora",
+          "examen"
+        ],
+        "weight": 0.23334349522338935
+      },
+      {
+        "id": 2,
+        "words": [
+          "ensena",
+          "te ensena",
+          "flojo",
+          "solo",
+          "es"
+        ],
+        "weight": 0.23057267285521188
+      }
+    ],
+    "sentiment": {
+      "overall": 0.3333333333333333,
+      "by_month": {
+        "2014-11": 0.0,
+        "2014-01": 0.0,
+        "2013-11": -1.0,
+        "2013-08": 1.0,
+        "2013-06": 1.0
+      }
+    },
+    "n_comments": 6
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        8.5,
+        5.0,
+        5.0,
+        6.0,
+        9.0
+      ],
+      "ewma": [
+        8.5,
+        7.449999999999999,
+        6.714999999999999,
+        6.500499999999999,
+        7.250349999999999
+      ],
+      "sigma": 1.6244279091421692
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 7.250349999999999,
+      "quality_band": [
+        4.066471298081348,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2014-11-13T00:00:00",
+      "materia": "ING. DE CALIDAD",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "MUY BUEN MAESTRO EXPLICA MUY BIEN, TE ENSEÑA A USAR SOFTWARE Y TE VUELVE A EXPLICAR SI NO LE ENTIENDES, RECOMENDADISIMO..."
+    },
+    {
+      "fecha_iso": "2014-01-11T00:00:00",
+      "materia": "ESTADÍSTICA INFERENCIAL I",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 0,
+      "comentario": "Sus clases son claras y llenas de ejemplos. En todos los temas te da aplicaciones en el ámbito laboral, si te gusta Industrial sin duda te gustaran sus clases. Los exámenes los hace de ejercicios del libro. En calificación, aveces sube puntos. Tendrás que estudiar por tu cuenta también. Recomendado"
+    },
+    {
+      "fecha_iso": "2013-11-14T00:00:00",
+      "materia": "INGENIERIA DE CALIDAD",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Es un pesimo profesor, es muy dificil que repruebes con el ya que es muy flojo, pero tecnicamente tu tienes que aprender solo porque el no te enseña absolutamente nada. Carguen con el solo si no hay otra opcion."
+    },
+    {
+      "fecha_iso": "2013-08-04T00:00:00",
+      "materia": "EST INF II",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 0,
+      "comentario": "Puro explicar por computadora, la neta no le entendí a nada y no le falté ni un solo día aún cuando el si faltaba mucho.\nLo bueno son los exámenes \"en equipo\", ni así pasé, en la recuperación me dejó de tarea el examen. Pasé con 90."
+    },
+    {
+      "fecha_iso": "2013-06-12T00:00:00",
+      "materia": "ESTADÍSTICA INFERENCIAL II",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Excelente, aplica mucho la Ing. Industrial en la materia y te da tips de ella. Califica con examenes y proyectos a la vez, también te enseña a utilizar software el cuál es MUY útil. Es medio flojo pero se nivela con el conocimiento que te deja. Uno de los mejores de industrial, RECOMENDADISIMO!"
+    },
+    {
+      "fecha_iso": "2013-06-11T00:00:00",
+      "materia": "ESTADISTICA INFERENCIAL II",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Maneja todo el curso por computadora, sin embargo, no puedes utilizarla a la hora del examen. Los exámenes son con apuntes, mas no son fáciles. Explica práctico y sencillo. Recomendado"
+    }
+  ],
+  "comments_recent": [
+    "MUY BUEN MAESTRO EXPLICA MUY BIEN, TE ENSEÑA A USAR SOFTWARE Y TE VUELVE A EXPLICAR SI NO LE ENTIENDES, RECOMENDADISIMO...",
+    "Sus clases son claras y llenas de ejemplos. En todos los temas te da aplicaciones en el ámbito laboral, si te gusta Industrial sin duda te gustaran sus clases. Los exámenes los hace de ejercicios del libro. En calificación, aveces sube puntos. Tendrás que estudiar por tu cuenta también. Recomendado",
+    "Es un pesimo profesor, es muy dificil que repruebes con el ya que es muy flojo, pero tecnicamente tu tienes que aprender solo porque el no te enseña absolutamente nada. Carguen con el solo si no hay otra opcion.",
+    "Puro explicar por computadora, la neta no le entendí a nada y no le falté ni un solo día aún cuando el si faltaba mucho.\nLo bueno son los exámenes \"en equipo\", ni así pasé, en la recuperación me dejó de tarea el examen. Pasé con 90.",
+    "Excelente, aplica mucho la Ing. Industrial en la materia y te da tips de ella. Califica con examenes y proyectos a la vez, también te enseña a utilizar software el cuál es MUY útil. Es medio flojo pero se nivela con el conocimiento que te deja. Uno de los mejores de industrial, RECOMENDADISIMO!",
+    "Maneja todo el curso por computadora, sin embargo, no puedes utilizarla a la hora del examen. Los exámenes son con apuntes, mas no son fáciles. Explica práctico y sencillo. Recomendado"
+  ],
+  "n_reviews": 6
+}

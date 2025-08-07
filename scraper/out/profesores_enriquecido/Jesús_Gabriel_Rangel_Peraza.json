@@ -1,0 +1,489 @@
+{
+  "professor_id": "Jesús_Gabriel_Rangel_Peraza",
+  "nombre": "Jesús Gabriel Rangel Peraza",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 6.116971807905215,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.309892657964698,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.571,
+    "wilson_interval": [
+      0.390704789856154,
+      0.7349170381926877
+    ],
+    "n_recommendations": 28
+  },
+  "subject_normalization": {
+    "z_mean": 0.17,
+    "z_mean_decayed": -0.12,
+    "per_subject": [
+      {
+        "materia": "ESTADISTICA INFERENCIAL 2",
+        "z_decayed": 0.9797958971132713,
+        "n": 4
+      },
+      {
+        "materia": "INGENIERÍA DE CALIDAD",
+        "z_decayed": 0.730296743340221,
+        "n": 5
+      },
+      {
+        "materia": "TALLER DE INVESTIGACIÓN 1",
+        "z_decayed": 0.6708203932499365,
+        "n": 5
+      },
+      {
+        "materia": "TALLER DE INVESTIGACIÓN I",
+        "z_decayed": 0.6454972243679028,
+        "n": 11
+      },
+      {
+        "materia": "INGENIERIA DE CALIDAD",
+        "z_decayed": 0.639009650422694,
+        "n": 5
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "esperando",
+          "esperando revision",
+          "comentario",
+          "comentario esperando",
+          "revision"
+        ],
+        "weight": 0.23201591208987835
+      },
+      {
+        "id": 1,
+        "words": [
+          "excelente profesor",
+          "sabe",
+          "es",
+          "profesor",
+          "si"
+        ],
+        "weight": 0.06888371719717981
+      },
+      {
+        "id": 2,
+        "words": [
+          "explica bien",
+          "tiene",
+          "super",
+          "explica",
+          "bien"
+        ],
+        "weight": 0.09030139120515682
+      },
+      {
+        "id": 3,
+        "words": [
+          "excelente",
+          "examenes",
+          "da",
+          "te da",
+          "te"
+        ],
+        "weight": 0.08365859440968361
+      },
+      {
+        "id": 4,
+        "words": [
+          "tec",
+          "mejores",
+          "conocimiento",
+          "profesor",
+          "mejor"
+        ],
+        "weight": 0.08816648720585764
+      }
+    ],
+    "sentiment": {
+      "overall": 0.2962962962962963,
+      "by_month": {
+        "2024-11": 1.0,
+        "2023-10": 1.0,
+        "2022-12": 0.0,
+        "2022-11": 0.0,
+        "2022-09": 0.0,
+        "2022-01": 0.0,
+        "2021-12": 0.0,
+        "2021-11": 0.0,
+        "2021-03": 0.0,
+        "2021-02": 0.0,
+        "2019-06": 0.0,
+        "2018-08": 1.0,
+        "2017-12": 1.0,
+        "2015-08": 0.0,
+        "2015-01": 0.0,
+        "2014-12": 0.0,
+        "2014-07": 0.0,
+        "2013-12": 1.0,
+        "2013-11": 0.0,
+        "2013-10": 1.0,
+        "2013-06": 1.0,
+        "2013-05": 0.0,
+        "2013-01": 1.0
+      }
+    },
+    "n_comments": 27
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.222,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 0.89
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        4.0,
+        10.0,
+        5.0,
+        6.0,
+        6.0,
+        4.0,
+        4.0,
+        2.0,
+        3.5,
+        2.0,
+        10.0,
+        10.0
+      ],
+      "ewma": [
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        8.2,
+        8.739999999999998,
+        7.6179999999999986,
+        7.132599999999998,
+        6.792819999999998,
+        5.954973999999998,
+        5.368481799999999,
+        4.357937259999999,
+        4.100556081999999,
+        3.470389257399999,
+        5.429272480179999,
+        6.800490736125999
+      ],
+      "sigma": 1.7517230701899713
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 6.800490736125999,
+      "quality_band": [
+        3.3671135185536554,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2024-11-26T00:00:00",
+      "materia": "MODELACIÓN Y CALIDAD DEL AGUA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 1,
+      "comentario": "Excelente profesor, entregado, algo exigente pero dispuesto también a brindar apoyo si es necesario. Deja buenos trabajos y califica rigurosamente."
+    },
+    {
+      "fecha_iso": "2023-10-29T00:00:00",
+      "materia": "CALIDAD",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Excelente profesor, lo recomiendo mucho, aprendes con facilidad, presta atención porque si habla rápido pero preciso, no faltes porque un día de falta es un día que no entiendes lo que pasa en clase, no toma asistencia pero sabe quien va y quien no."
+    },
+    {
+      "fecha_iso": "2022-12-09T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2022-11-30T00:00:00",
+      "materia": "---",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2022-11-18T00:00:00",
+      "materia": "---",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2022-09-15T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2022-01-19T00:00:00",
+      "materia": "---",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2021-12-07T00:00:00",
+      "materia": "---",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 7.5,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2021-11-25T00:00:00",
+      "materia": "---",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2021-11-10T00:00:00",
+      "materia": "---",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2021-03-05T00:00:00",
+      "materia": "---",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2021-03-02T00:00:00",
+      "materia": "---",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2021-03-01T00:00:00",
+      "materia": "---",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2021-02-24T00:00:00",
+      "materia": "---",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2019-06-20T00:00:00",
+      "materia": "---",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2018-12-03T00:00:00",
+      "materia": "ING DE CALIDAD",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2018-08-08T00:00:00",
+      "materia": "INGENIERÍA DE CALIDAD",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 1,
+      "comentario": "Excelente profesor, enseña mucho y exige que se refleje en sus exámenes pero te da muchas oportunidades para pasar. Te da todas las facilidades posibles, solo se requiere ser un poco autodidacta."
+    },
+    {
+      "fecha_iso": "2017-12-15T00:00:00",
+      "materia": "ING. CALIDAD",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": "Un excelente profesor, Los temas muy claros, El realmente se preocupa por sus alumnos y los exámenes son de dificultad media."
+    },
+    {
+      "fecha_iso": "2015-08-05T00:00:00",
+      "materia": "ING. DE CALIDAD",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "La mejor materia y el mejor maestro que he tenido en el Tec. Sus exámenes son algo largos pero te da el suficiente tiempo para hacerlos, la mayoría eran de dificultad media si pones atención y te pones a trabajar. Es accesible para ponderar los criterios de calificación. Del curso de 45 solo reprobaron 3."
+    },
+    {
+      "fecha_iso": "2015-01-09T00:00:00",
+      "materia": "TALLER DE INVESTIGACIÓN 1",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Uno de los mejores maestros del tec, en todos los sentidos, hay algunos que saben mucho, pero como personas son una basura e inaccesibles, este profesor no, asi como tiene mucho conocimiento igual ayuda"
+    },
+    {
+      "fecha_iso": "2014-12-14T00:00:00",
+      "materia": "INGENIERIA DE CALIDAD",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "El mejor maestro y Doctor del ITC, excede los contenidos de la asignatura de manera integral con ejemplos de la vida profesional, y de investigación. Transmite su conocimiento al 100%. Y hace la clase amena e interesante. Si quieres ser alguien, carga con él."
+    },
+    {
+      "fecha_iso": "2014-07-01T00:00:00",
+      "materia": "ING DE CALIDAD",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Totalmente recomendable, tiene muchos conocimientos, explica súper bien & se aprende muchísimo."
+    },
+    {
+      "fecha_iso": "2013-12-17T00:00:00",
+      "materia": "TALLER DE INVESTIGACIÓN I",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Excelente el Doctor, uno de los mejores del ITC. Muy joven pero con demasiado conocimiento, es súper accesible, siempre te apoya cuando lo necesitas,es justo al calificar, te hará trabajar como no tienes una idea pero al final sabrás que valdrá la pena."
+    },
+    {
+      "fecha_iso": "2013-11-14T00:00:00",
+      "materia": "ADMON. PROCESOS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "EL MEJOR PROFESOR QUE ME HA DADO CLASES"
+    },
+    {
+      "fecha_iso": "2013-10-16T00:00:00",
+      "materia": "ESTADISTICA INFERENCIAL, TALLER DE INVESTIGACION",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "explica muy bien y es muy bueno en su trabajo se ve que sabe lo que hace. muy recoemndado"
+    },
+    {
+      "fecha_iso": "2013-06-12T00:00:00",
+      "materia": "ESTADISTICA INFERENCIAL !",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Excelente maestro, nunca falta, explica muy bien y con muchos ejemplos, super recomendado si es que no te pesa batallar"
+    },
+    {
+      "fecha_iso": "2013-05-22T00:00:00",
+      "materia": "PROBABILIDAD Y ESTADISTICA 1",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "ES UN BUEN PROFESOR Y SI SABE EXPLICAR"
+    },
+    {
+      "fecha_iso": "2013-01-16T00:00:00",
+      "materia": "ESTADISTICA INFERENCIAL 2",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Es un experto en la materia y es dedicado, deja tareas y casi nunca falta. Si quieres aprender carga con el. Explica muuuy bien y si tiene dudas las resuelve"
+    }
+  ],
+  "comments_recent": [
+    "Excelente profesor, entregado, algo exigente pero dispuesto también a brindar apoyo si es necesario. Deja buenos trabajos y califica rigurosamente.",
+    "Excelente profesor, lo recomiendo mucho, aprendes con facilidad, presta atención porque si habla rápido pero preciso, no faltes porque un día de falta es un día que no entiendes lo que pasa en clase, no toma asistencia pero sabe quien va y quien no.",
+    "[Comentario esperando revisión]",
+    "[Comentario esperando revisión]",
+    "[Comentario esperando revisión]",
+    "[Comentario esperando revisión]",
+    "[Comentario esperando revisión]",
+    "[Comentario esperando revisión]",
+    "[Comentario esperando revisión]",
+    "[Comentario esperando revisión]"
+  ],
+  "n_reviews": 28
+}

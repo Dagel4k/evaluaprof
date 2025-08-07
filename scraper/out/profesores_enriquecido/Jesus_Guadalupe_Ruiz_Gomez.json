@@ -1,0 +1,286 @@
+{
+  "professor_id": "Jesus_Guadalupe_Ruiz_Gomez",
+  "nombre": "Jesus Guadalupe Ruiz Gomez",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 5.299381917929507,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 5.98932957155517,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.182,
+    "wilson_interval": [
+      0.05136660067100062,
+      0.4769861375782449
+    ],
+    "n_recommendations": 11
+  },
+  "subject_normalization": {
+    "z_mean": 0.2,
+    "z_mean_decayed": 0.22,
+    "per_subject": [
+      {
+        "materia": "ELECTRÓNICA ANALOGICA",
+        "z_decayed": 0.5,
+        "n": 4
+      },
+      {
+        "materia": "ELECTRÓNICA ANALÓGICA",
+        "z_decayed": 0.20009984375628276,
+        "n": 19
+      },
+      {
+        "materia": "ELECTRONICA ANALOGICA",
+        "z_decayed": 0.1473895934195234,
+        "n": 17
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "pasa",
+          "si te",
+          "es",
+          "te",
+          "si"
+        ],
+        "weight": 0.0873201916347027
+      },
+      {
+        "id": 1,
+        "words": [
+          "clases",
+          "deja",
+          "califica",
+          "aburridas",
+          "examenes"
+        ],
+        "weight": 0.10802497150986638
+      },
+      {
+        "id": 2,
+        "words": [
+          "dando",
+          "mi",
+          "maestro",
+          "es maestro",
+          "es"
+        ],
+        "weight": 0.15330984199556186
+      },
+      {
+        "id": 3,
+        "words": [
+          "hora",
+          "entregar",
+          "tienes",
+          "rc",
+          "deja"
+        ],
+        "weight": 0.12929429708816526
+      },
+      {
+        "id": 4,
+        "words": [
+          "diapositivas",
+          "antoje",
+          "amplificador",
+          "fuente",
+          "aprender"
+        ],
+        "weight": 0.1367902741359825
+      }
+    ],
+    "sentiment": {
+      "overall": -0.1,
+      "by_month": {
+        "2022-11": 0.0,
+        "2022-05": 0.0,
+        "2022-02": -1.0,
+        "2021-12": 0.0,
+        "2021-05": 0.0,
+        "2021-01": 0.0,
+        "2020-05": 0.0,
+        "2020-01": 1.0,
+        "2019-06": 0.0,
+        "2019-01": -1.0
+      }
+    },
+    "n_comments": 10
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        3.0,
+        6.0,
+        4.0,
+        5.0,
+        5.0,
+        5.0,
+        4.0,
+        4.0,
+        9.0,
+        7.0,
+        4.0
+      ],
+      "ewma": [
+        3.0,
+        3.8999999999999995,
+        3.9299999999999997,
+        4.2509999999999994,
+        4.4757,
+        4.6329899999999995,
+        4.443092999999999,
+        4.310165099999999,
+        5.717115569999999,
+        6.101980898999999,
+        5.4713866292999995
+      ],
+      "sigma": 1.2807708624621288
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 5.4713866292999995,
+      "quality_band": [
+        2.9610757388742273,
+        7.981697519725772
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2022-11-15T00:00:00",
+      "materia": "ELECTRÓNICA ANALÓGICA",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 0,
+      "comentario": "Este profesor les pedirá una fuente reguladora de voltaje y un amplificador, el los evaluará cómo se le antoje, no muestra entusiasmo al dar las clases, mayormente se la pasa leyendo diapositivas, si buscas aprender, no escojas este profe, pues solo te hará perder el tiempo."
+    },
+    {
+      "fecha_iso": "2022-05-23T00:00:00",
+      "materia": "PRINCIPIOS ELÉCTRICOS (SISTEMAS)",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Barquisimo para sistemas, clases aburridas, no deja casi tareas ni exámenes y casi casi califica con solo asistencia."
+    },
+    {
+      "fecha_iso": "2022-02-10T00:00:00",
+      "materia": "ELECTRÓNICA ANALÓGICA",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Es buen profe, cuando explica teoría puede ser aburrido, si participas y le explicas bien las prácticas cuando la presentes, fácil te pasa. Muchos lo consideran mal maestro, pero es porque regaña mucho si te pregunta algo de la práctica que hiciste y no sabes. Es un indicador que solo copiaste."
+    },
+    {
+      "fecha_iso": "2021-12-15T00:00:00",
+      "materia": "ELECTRÓNICA ANALOGICA",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 22.0,
+      "recomienda": 0,
+      "comentario": "Sinceramente es un maestro cerrado de cabeza que no entiende problemas que puedas tener , en lo personal no califica correctamente y el cómo califique depende de su estado de ánimo , a mi me estuvo calificando y su computadora se apagó y dijo que no importaba"
+    },
+    {
+      "fecha_iso": "2021-05-06T00:00:00",
+      "materia": "ELECTRONICA ANALOGICA",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 23.0,
+      "recomienda": 0,
+      "comentario": "Califica dlv, es el peor profesor que he tenido, no ayuda en nada y si se te va el internet le vale, se me fue el internet en mero del examen y no pude subirlo, pero si a el se le va el internet no pasa nada."
+    },
+    {
+      "fecha_iso": "2021-01-16T00:00:00",
+      "materia": "ELECTRÓNICA ANALÓGICA",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 0,
+      "comentario": "No lo haga compa, no es de mi interés hablar mal de un profesor, pero este es de los que solamente sigue dando clases para jubilarse, no aprenderas mucho y para calificar es básicamente lo que se le antoje ese dia."
+    },
+    {
+      "fecha_iso": "2020-05-23T00:00:00",
+      "materia": "ELECTRONICA ANALOGICA",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": "Nada que no se haya dicho, sus clases son largas y aburridas, de repente sientes que no estas aprendiendo nada. Solo nos dejo un examen, y deja uno que otro proyecto, es muy exigente a la hora de revisar, tienes que tener lo que le vas a entregar muy bien hecho. Tira paro a los RC"
+    },
+    {
+      "fecha_iso": "2020-01-12T00:00:00",
+      "materia": "ELECTRÓNICA ANALÓGICA",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": "Sus clases son puras diapositivas aburridas y no aprendes mucho con el. Pocos exámenes pero algo fáciles. Deja proyectos caros y los califica muy mal porque quiere todo perfecto. No cargues con el"
+    },
+    {
+      "fecha_iso": "2019-12-27T00:00:00",
+      "materia": "ELECTRONICA ANALOGICA",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2019-06-06T00:00:00",
+      "materia": "ELECTRONICA ANALOGICA",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 7.5,
+      "recomienda": 0,
+      "comentario": "sus clases aburren hace solo un examen que esta facil deja dos proyectos una fuente de alimentacion y un amplificador, aparte te deja dos practicas una de diodos y otra de transistores que te la saca a ultima hora al final le tienes que entregar los reportes y las practicas , si no te manda a rc"
+    },
+    {
+      "fecha_iso": "2019-01-11T00:00:00",
+      "materia": "ELECTRONICA ANALOGICA",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 0,
+      "comentario": "No debería de estar dando clases ya, es un maestro que no tiene ganas de enseñar, pésimo si quieres aprender de su clase"
+    }
+  ],
+  "comments_recent": [
+    "Este profesor les pedirá una fuente reguladora de voltaje y un amplificador, el los evaluará cómo se le antoje, no muestra entusiasmo al dar las clases, mayormente se la pasa leyendo diapositivas, si buscas aprender, no escojas este profe, pues solo te hará perder el tiempo.",
+    "Barquisimo para sistemas, clases aburridas, no deja casi tareas ni exámenes y casi casi califica con solo asistencia.",
+    "Es buen profe, cuando explica teoría puede ser aburrido, si participas y le explicas bien las prácticas cuando la presentes, fácil te pasa. Muchos lo consideran mal maestro, pero es porque regaña mucho si te pregunta algo de la práctica que hiciste y no sabes. Es un indicador que solo copiaste.",
+    "Sinceramente es un maestro cerrado de cabeza que no entiende problemas que puedas tener , en lo personal no califica correctamente y el cómo califique depende de su estado de ánimo , a mi me estuvo calificando y su computadora se apagó y dijo que no importaba",
+    "Califica dlv, es el peor profesor que he tenido, no ayuda en nada y si se te va el internet le vale, se me fue el internet en mero del examen y no pude subirlo, pero si a el se le va el internet no pasa nada.",
+    "No lo haga compa, no es de mi interés hablar mal de un profesor, pero este es de los que solamente sigue dando clases para jubilarse, no aprenderas mucho y para calificar es básicamente lo que se le antoje ese dia.",
+    "Nada que no se haya dicho, sus clases son largas y aburridas, de repente sientes que no estas aprendiendo nada. Solo nos dejo un examen, y deja uno que otro proyecto, es muy exigente a la hora de revisar, tienes que tener lo que le vas a entregar muy bien hecho. Tira paro a los RC",
+    "Sus clases son puras diapositivas aburridas y no aprendes mucho con el. Pocos exámenes pero algo fáciles. Deja proyectos caros y los califica muy mal porque quiere todo perfecto. No cargues con el",
+    "sus clases aburren hace solo un examen que esta facil deja dos proyectos una fuente de alimentacion y un amplificador, aparte te deja dos practicas una de diodos y otra de transistores que te la saca a ultima hora al final le tienes que entregar los reportes y las practicas , si no te manda a rc"
+  ],
+  "n_reviews": 11
+}

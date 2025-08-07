@@ -1,0 +1,219 @@
+{
+  "professor_id": "Rigoberto_Arellano",
+  "nombre": "Rigoberto Arellano",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 8.428039315544925,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.575054176626973,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.857,
+    "wilson_interval": [
+      0.4868654966809702,
+      0.9743210440510253
+    ],
+    "n_recommendations": 7
+  },
+  "subject_normalization": {
+    "z_mean": 0.42,
+    "z_mean_decayed": 0.42,
+    "per_subject": [
+      {
+        "materia": "INGENIERÍA DE SOFTWARE",
+        "z_decayed": 1.1261829711306042,
+        "n": 8
+      },
+      {
+        "materia": "DESARROLLO SUSTENTABLE",
+        "z_decayed": 1.0915110334382296,
+        "n": 52
+      },
+      {
+        "materia": "---",
+        "z_decayed": -0.9627852966533862,
+        "n": 521
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "criko",
+          "mejor",
+          "tec",
+          "profe",
+          "si"
+        ],
+        "weight": 0.19902955909237252
+      },
+      {
+        "id": 1,
+        "words": [
+          "vida",
+          "mejor",
+          "tec",
+          "criko",
+          "he"
+        ],
+        "weight": 0.18687991532250814
+      },
+      {
+        "id": 2,
+        "words": [
+          "si",
+          "criko",
+          "profe",
+          "vida",
+          "es"
+        ],
+        "weight": 0.2693874107379262
+      }
+    ],
+    "sentiment": {
+      "overall": 0.3333333333333333,
+      "by_month": {
+        "2020-06": 0.3333333333333333
+      }
+    },
+    "n_comments": 6
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [
+      {
+        "from": "2020-06-24T00:00:00",
+        "to": "2020-06-24T00:00:00",
+        "count": 3
+      },
+      {
+        "from": "2020-06-24T00:00:00",
+        "to": "2020-06-24T00:00:00",
+        "count": 4
+      },
+      {
+        "from": "2020-06-24T00:00:00",
+        "to": "2020-06-24T00:00:00",
+        "count": 5
+      },
+      {
+        "from": "2020-06-24T00:00:00",
+        "to": "2020-06-24T00:00:00",
+        "count": 6
+      }
+    ],
+    "low_variance_flag": 0,
+    "trust_score": 0.7
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        8.5,
+        8.0
+      ],
+      "ewma": [
+        8.5,
+        8.35
+      ],
+      "sigma": 0.24748737341529137
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 8.35,
+      "quality_band": [
+        7.864924748106029,
+        8.83507525189397
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2020-07-03T00:00:00",
+      "materia": "PROGRAMACION ORIENTADA AL CRIKO",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2020-06-24T00:00:00",
+      "materia": "DESARROLLO SUSTENTABLE",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Rigo un mal profe?\nUna vez le dijeron \"G4Y\", el respondió: \"Te invito una piedra\". Otro día le gritaron \"J0D3T3\" y el respondió: \"bendiciones\". Un día se encontró a una alumna llorando con las muñecas cortadas y el le dijo: \"Échate un criko\".\nSi eso es ser mal profe, todos deberían serlo."
+    },
+    {
+      "fecha_iso": "2020-06-24T00:00:00",
+      "materia": "QUIMICA DEL CRIKO",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "El mejor de todo el tec, carguen con el si o si"
+    },
+    {
+      "fecha_iso": "2020-06-24T00:00:00",
+      "materia": "CIENCIAS DEL FOKO",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "de las mejores mamadas que he visto"
+    },
+    {
+      "fecha_iso": "2020-06-24T00:00:00",
+      "materia": "INGENIERÍA DE SOFTWARE",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 1,
+      "comentario": "La verdad el mejor profe que tiene el tec y que he tenido en mi vida, el piedras está siempre dispuesto a ayudarte y conseguirte criko barato a solo 5 pesitos.\nMuy claro todo"
+    },
+    {
+      "fecha_iso": "2020-06-24T00:00:00",
+      "materia": "CIENCIAS DE LA PIEDRA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Excelente profesor sus enseñanzas y consejos me han ayudado en la escuela, en la ingeniería y en la vida. Sin duda alguna es todo un ejemplo a seguir."
+    },
+    {
+      "fecha_iso": "2020-06-24T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    }
+  ],
+  "comments_recent": [
+    "Rigo un mal profe?\nUna vez le dijeron \"G4Y\", el respondió: \"Te invito una piedra\". Otro día le gritaron \"J0D3T3\" y el respondió: \"bendiciones\". Un día se encontró a una alumna llorando con las muñecas cortadas y el le dijo: \"Échate un criko\".\nSi eso es ser mal profe, todos deberían serlo.",
+    "El mejor de todo el tec, carguen con el si o si",
+    "de las mejores mamadas que he visto",
+    "La verdad el mejor profe que tiene el tec y que he tenido en mi vida, el piedras está siempre dispuesto a ayudarte y conseguirte criko barato a solo 5 pesitos.\nMuy claro todo",
+    "Excelente profesor sus enseñanzas y consejos me han ayudado en la escuela, en la ingeniería y en la vida. Sin duda alguna es todo un ejemplo a seguir.",
+    "[Comentario esperando revisión]"
+  ],
+  "n_reviews": 7
+}

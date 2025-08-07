@@ -1,0 +1,400 @@
+{
+  "professor_id": "José_Tomas_Juarez_Terraza",
+  "nombre": "José Tomas Juarez Terraza",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 3.3793212416067684,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 5.392530700088618,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.2,
+    "wilson_interval": [
+      0.08065635327119998,
+      0.4160217220257599
+    ],
+    "n_recommendations": 20
+  },
+  "subject_normalization": {
+    "z_mean": -0.51,
+    "z_mean_decayed": -0.79,
+    "per_subject": [
+      {
+        "materia": "PRINCIPIOS ELECTRICOS Y APLICACIONES DIGITALES",
+        "z_decayed": 0.8164965809277264,
+        "n": 6
+      },
+      {
+        "materia": "CIRCUITOS",
+        "z_decayed": 0.5825680002028392,
+        "n": 4
+      },
+      {
+        "materia": "PRINCIPIOS ELECTRICOS",
+        "z_decayed": -0.2606032768674789,
+        "n": 13
+      },
+      {
+        "materia": "ELECTRÓNICA ANALÓGICA",
+        "z_decayed": -0.561639507582463,
+        "n": 19
+      },
+      {
+        "materia": "ELECTRONICA ANALOGICA",
+        "z_decayed": -0.7492686492653552,
+        "n": 17
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "te",
+          "quieres",
+          "nunca",
+          "solo",
+          "si"
+        ],
+        "weight": 0.09458898634491783
+      },
+      {
+        "id": 1,
+        "words": [
+          "ultimo dia",
+          "explicar",
+          "explica",
+          "sabe",
+          "profesor"
+        ],
+        "weight": 0.10981797736571074
+      },
+      {
+        "id": 2,
+        "words": [
+          "maestro",
+          "orden",
+          "ensenar",
+          "tiene ensenar",
+          "tiene"
+        ],
+        "weight": 0.08318468560461822
+      },
+      {
+        "id": 3,
+        "words": [
+          "dar",
+          "sabe",
+          "maestro",
+          "facil",
+          "pasas"
+        ],
+        "weight": 0.10987604521026323
+      },
+      {
+        "id": 4,
+        "words": [
+          "dias",
+          "examenes",
+          "undertaker",
+          "asistencia",
+          "despues"
+        ],
+        "weight": 0.12174499637941176
+      }
+    ],
+    "sentiment": {
+      "overall": -0.05263157894736842,
+      "by_month": {
+        "2024-06": -1.0,
+        "2023-12": 0.0,
+        "2023-06": 0.0,
+        "2023-04": 0.0,
+        "2021-12": 0.0,
+        "2020-12": 0.0,
+        "2020-01": 0.0,
+        "2019-06": 0.0,
+        "2019-01": 0.0,
+        "2018-12": 0.0,
+        "2018-06": 0.0,
+        "2018-05": 0.0,
+        "2017-02": 0.0,
+        "2015-07": 0.0,
+        "2015-01": 0.0,
+        "2014-06": 0.0,
+        "2011-05": 0.0,
+        "2010-08": 0.0
+      }
+    },
+    "n_comments": 19
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        9.0,
+        7.0,
+        6.0,
+        2.0,
+        2.0,
+        4.0,
+        8.0,
+        10.0,
+        2.0,
+        4.0,
+        5.0,
+        4.0,
+        4.0,
+        3.0,
+        4.0,
+        4.0,
+        2.0,
+        2.0
+      ],
+      "ewma": [
+        9.0,
+        8.4,
+        7.68,
+        5.975999999999999,
+        4.783199999999999,
+        4.548239999999999,
+        5.583767999999999,
+        6.908637599999999,
+        5.436046319999998,
+        5.005232423999998,
+        5.003662696799998,
+        4.7025638877599985,
+        4.491794721431999,
+        4.044256305002399,
+        4.030979413501679,
+        4.021685589451176,
+        3.4151799126158227,
+        2.9906259388310756
+      ],
+      "sigma": 1.7275936552458018
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 2.9906259388310756,
+      "quality_band": [
+        0.0,
+        6.376709503112847
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2024-06-05T00:00:00",
+      "materia": "ELECTROMAGNETISMO",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": "Muy mal profesor, sabe de los temas pero no sabe explicar, incluso sabiendo que era barco fue un horror, aún que quieran pasar, créanme que la pasarán mejor con un profe más difícil"
+    },
+    {
+      "fecha_iso": "2023-12-18T00:00:00",
+      "materia": "ELECTROMAGNETISMO",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 23.0,
+      "recomienda": 0,
+      "comentario": "No enseña nada relevante de la materia, recomendaría cualquier otro profesor. Aparte no brinda apoyo."
+    },
+    {
+      "fecha_iso": "2023-06-06T00:00:00",
+      "materia": "ELECTRÓNICA ANALÓGICA",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 0,
+      "comentario": "Literal no haces nada en todo el semestre, solo tienes que ir a decir presente porque la asistencia importa, nunca pide justificante si faltas nomas te justifica y ya, nunca vas al laboratorio y no aprendes nada, buena opción solo si eres RC."
+    },
+    {
+      "fecha_iso": "2023-04-01T00:00:00",
+      "materia": "ELECTRÓNICA ANALÓGICA",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 23.0,
+      "recomienda": 0,
+      "comentario": "No cargues con el si quieres aprender, es buena opción solo y únicamente si eres RC o quieres pasar la materia con 100. Nunca hace examen y la clase se basa únicamente en su iPad. Odia a los peruanos (real) y a veces se pone a ver videos en Facebook."
+    },
+    {
+      "fecha_iso": "2021-12-28T00:00:00",
+      "materia": "ELECTRONICA ANALOGICA",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 0,
+      "comentario": "barquisimo, literalmente duramos todo el semestre durmiendo en su clase despues de tomar asistencia, y los utlimos 3 dias dejo 4 examenes los cuales al final el contesto y nos envio para q subieramos evidencia a una carpeta"
+    },
+    {
+      "fecha_iso": "2021-12-21T00:00:00",
+      "materia": "ELECTROMAGNETISMO",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 0,
+      "comentario": "Le dicen el muerto, lleve todo el semestre con el y sali como si no hubiera entrado jamas a la clase pero con la materia acreditada(sin Saber nada), sera el 100 mas facil que obtendras ,solo al final nos pidio unos trabajos que los copiaramos pero el los tenia ya hechos y con eso califico. (en linea"
+    },
+    {
+      "fecha_iso": "2020-12-12T00:00:00",
+      "materia": "ELECTROMAGNETÍSMO",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 0,
+      "comentario": "Es un profesor con el que te puedes dar cuenta de que sabe lo que tiene que enseñar, mas no tiene el orden necesario para transmitir correctamente esos conocimientos a sus alumnos, le pedí dos veces durante todo el semestre que si podía decirnos qué tareas nos había dejado hasta la fecha y no pudo."
+    },
+    {
+      "fecha_iso": "2020-01-04T00:00:00",
+      "materia": "ELECTRÓNICA ANALÓGICA",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 0,
+      "comentario": "El maestro tiene un conocimiento excepcional.\nLamentablemente este mismo se opaca por la poca capacidad que tiene para enseñar y poner un orden en el grupo. Presenta desinteres en la clase y 4/5 dias llega tarde.\n\nLa asistencia es su unico indicador."
+    },
+    {
+      "fecha_iso": "2019-06-12T00:00:00",
+      "materia": "PRINCIPIOS ELECTRICOS Y APLICACIONES DIGITALES",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 0,
+      "comentario": "Si quieres aprender no cargues con el, nunca le pone en atención en clase, la da para él solo y luego pide practicas que no explico nada y hace gastar un dineral por los materiales, eso si al final te pasa si fuiste todo el semestre y si le entregaste de perdida algo.Sube calificacion hasta el final"
+    },
+    {
+      "fecha_iso": "2019-01-12T00:00:00",
+      "materia": "PRINCIPIOS ELECTRICOS",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 0,
+      "comentario": "Asistencia = Calificación"
+    },
+    {
+      "fecha_iso": "2018-12-17T00:00:00",
+      "materia": "ELECTRÓNICA ANALÓGICA",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 0,
+      "comentario": "No sabe explicar, lo único que medio explica son las practicas, pero su vas a sus clases ya pasaste por que los exámenes los deja de tarea eso sí no sabes calificaciones hasta el último día"
+    },
+    {
+      "fecha_iso": "2018-06-08T00:00:00",
+      "materia": "PEYAP",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "El de abajo esta en lo correcto, es como el undertaker te intentara hacer la tumba rompecuellos pero tu la revertiras si fuiste todos los dias a clase y se la haras tu y la cuenta llegara a 3 y habras pasado el semestre. pero si no vas el te la hara saltando como contra shawn michaels en wm26"
+    },
+    {
+      "fecha_iso": "2018-05-08T00:00:00",
+      "materia": "PRINCIPIOS ELÉCTRICOS",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 23.0,
+      "recomienda": 1,
+      "comentario": "El Undertaker en persona cuando entra se escuchan las campañas y después de el sale triple h como en 2011"
+    },
+    {
+      "fecha_iso": "2017-02-02T00:00:00",
+      "materia": "PRINCIPIOS ELECTRICOS",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 0,
+      "comentario": "El peor profesor! Llega a clase se pone un rato con su iPad. Cuando explica es un asco, no le entiendes a lo que explica.."
+    },
+    {
+      "fecha_iso": "2015-07-29T00:00:00",
+      "materia": "ELECTROMAGNETISMO",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 1.0,
+      "recomienda": 0,
+      "comentario": "El peor profesor que hay, sus clases son andar jugando con su iPad sin importarle los alumnos, cuando trata de hacer o explicar algo nomas hace un dibujillo en el pizarron y le toma foto, no se como se le permite ser profesor, si lo que quieren es pasar, adelante al final les pondrá una calificación random entre 80 y 90 eso si hasta el ultimo día."
+    },
+    {
+      "fecha_iso": "2015-01-08T00:00:00",
+      "materia": "ELECTROMAGNÉTISMO",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 0,
+      "comentario": "No sabe nada,  ni explica nada pero si lo que quieres es pasar pues adelante,  pero no aprenderas absolutamente nada y pues son físicas que se requieren mucho, esta a su parecer, yo no se lo recomiendo a nadie aparte de que nunca sabrás que te pondra hasta el ultimo dia que el pueda subir cal."
+    },
+    {
+      "fecha_iso": "2014-06-19T00:00:00",
+      "materia": "ELECTROMAGNETISMO",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 0,
+      "comentario": "No sabe dar clases muy bien, pero pasas facil y sabe mucho el maestro.\nNo coman ansias.\nabusados ahi!"
+    },
+    {
+      "fecha_iso": "2011-05-18T00:00:00",
+      "materia": "ANALOGICA 2",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 7.5,
+      "recomienda": 0,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2011-05-07T00:00:00",
+      "materia": "CIRCUITOS",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 1,
+      "comentario": "buen maestro"
+    },
+    {
+      "fecha_iso": "2010-08-29T00:00:00",
+      "materia": "CIRCUITOS ELECTRONICOS Y ELECTRONICOS",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Eseña muy poco, pero pasas super fácil con el."
+    }
+  ],
+  "comments_recent": [
+    "Muy mal profesor, sabe de los temas pero no sabe explicar, incluso sabiendo que era barco fue un horror, aún que quieran pasar, créanme que la pasarán mejor con un profe más difícil",
+    "No enseña nada relevante de la materia, recomendaría cualquier otro profesor. Aparte no brinda apoyo.",
+    "Literal no haces nada en todo el semestre, solo tienes que ir a decir presente porque la asistencia importa, nunca pide justificante si faltas nomas te justifica y ya, nunca vas al laboratorio y no aprendes nada, buena opción solo si eres RC.",
+    "No cargues con el si quieres aprender, es buena opción solo y únicamente si eres RC o quieres pasar la materia con 100. Nunca hace examen y la clase se basa únicamente en su iPad. Odia a los peruanos (real) y a veces se pone a ver videos en Facebook.",
+    "barquisimo, literalmente duramos todo el semestre durmiendo en su clase despues de tomar asistencia, y los utlimos 3 dias dejo 4 examenes los cuales al final el contesto y nos envio para q subieramos evidencia a una carpeta",
+    "Le dicen el muerto, lleve todo el semestre con el y sali como si no hubiera entrado jamas a la clase pero con la materia acreditada(sin Saber nada), sera el 100 mas facil que obtendras ,solo al final nos pidio unos trabajos que los copiaramos pero el los tenia ya hechos y con eso califico. (en linea",
+    "Es un profesor con el que te puedes dar cuenta de que sabe lo que tiene que enseñar, mas no tiene el orden necesario para transmitir correctamente esos conocimientos a sus alumnos, le pedí dos veces durante todo el semestre que si podía decirnos qué tareas nos había dejado hasta la fecha y no pudo.",
+    "El maestro tiene un conocimiento excepcional.\nLamentablemente este mismo se opaca por la poca capacidad que tiene para enseñar y poner un orden en el grupo. Presenta desinteres en la clase y 4/5 dias llega tarde.\n\nLa asistencia es su unico indicador.",
+    "Si quieres aprender no cargues con el, nunca le pone en atención en clase, la da para él solo y luego pide practicas que no explico nada y hace gastar un dineral por los materiales, eso si al final te pasa si fuiste todo el semestre y si le entregaste de perdida algo.Sube calificacion hasta el final",
+    "Asistencia = Calificación"
+  ],
+  "n_reviews": 20
+}

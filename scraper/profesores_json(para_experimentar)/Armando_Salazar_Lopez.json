@@ -1,0 +1,35 @@
+{
+  "nombre": "Armando Salazar Lopez",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "ciudad": "Ciudad: culiacan, sinaloa",
+  "departamento": "Departamento/Facultad: Idk",
+  "calidad_general": 10.0,
+  "porcentaje_recomienda": 100,
+  "nivel_dificultad": 0.0,
+  "etiquetas": [
+    "DA BUENA RETROALIMENTACIÓN (1)",
+    "PREPÁRATE PARA LEER (1)",
+    "LAS CLASES SON LARGAS (1)"
+  ],
+  "numero_calificaciones": 1,
+  "calificaciones": [
+    {
+      "fecha": "04/Ago/2024",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Taller de Ética",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "9.5",
+      "interes_clase": "",
+      "comentario": "Sabe mucho y sabe de qué habla. Pero sus clases no son tan dinámicas. Se trata de escucharlo hablar por la hora completa. Pero el siempre deja un examen por unidad y te da con que estudiar. Si estudias eso pasas, si no ps no.",
+      "etiquetas_comentario": [
+        "Da buena retroalimentación",
+        "Prepárate para leer",
+        "Las clases son largas"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+{
+  "professor_id": "David_Obeso_Montoya",
+  "nombre": "David Obeso Montoya",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 9.149330197212155,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.61099506266616,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.833,
+    "wilson_interval": [
+      0.4364905634363539,
+      0.9699474141282696
+    ],
+    "n_recommendations": 6
+  },
+  "subject_normalization": {
+    "z_mean": 0.58,
+    "z_mean_decayed": 0.58,
+    "per_subject": [
+      {
+        "materia": "ESTUDIO DEL TRABAJO",
+        "z_decayed": 1.0627378626481143,
+        "n": 13
+      },
+      {
+        "materia": "ESTUDIO DEL TRABAJO II",
+        "z_decayed": 0.8660254037844387,
+        "n": 7
+      },
+      {
+        "materia": "ESTUDIO DEL TRABAJO 2",
+        "z_decayed": 0.5201564866102991,
+        "n": 6
+      },
+      {
+        "materia": "---",
+        "z_decayed": 0.26810874606678414,
+        "n": 521
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "excelente",
+          "excelente maestro",
+          "maestro",
+          "revision",
+          "exponer"
+        ],
+        "weight": 0.21711938492850566
+      },
+      {
+        "id": 1,
+        "words": [
+          "exponer",
+          "revision",
+          "excelente maestro",
+          "excelente",
+          "maestro"
+        ],
+        "weight": 0.2109443596033921
+      },
+      {
+        "id": 2,
+        "words": [
+          "esperando revision",
+          "esperando",
+          "comentario esperando",
+          "comentario",
+          "revision"
+        ],
+        "weight": 0.2565367711565039
+      }
+    ],
+    "sentiment": {
+      "overall": 0.3333333333333333,
+      "by_month": {
+        "2016-11": 1.0,
+        "2016-07": 1.0,
+        "2014-01": 0.0,
+        "2013-11": 0.0,
+        "2013-08": 0.0
+      }
+    },
+    "n_comments": 6
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.067,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 0.97
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        10.0,
+        2.0,
+        10.0,
+        10.0,
+        10.0
+      ],
+      "ewma": [
+        10.0,
+        7.6,
+        8.32,
+        8.824,
+        9.1768
+      ],
+      "sigma": 2.9793094716729245
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 9.1768,
+      "quality_band": [
+        3.3373534355210683,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2016-11-14T00:00:00",
+      "materia": "ESTUDIO DEL TRABAJO 1 Y 2",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Excelente Maestro!.... sin palabras 8:32"
+    },
+    {
+      "fecha_iso": "2016-07-30T00:00:00",
+      "materia": "ESTUDIO DEL TRABAJO 2",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Excelente maestro"
+    },
+    {
+      "fecha_iso": "2014-01-10T00:00:00",
+      "materia": "---",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2014-01-08T00:00:00",
+      "materia": "ESTUDIO DEL TRABAJO",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Puro exponer esta bien facil."
+    },
+    {
+      "fecha_iso": "2013-11-14T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2013-08-04T00:00:00",
+      "materia": "ESTUDIO DEL TRABAJO II",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "EL Gran Señor de las Mil Mentiras. Te vas a reír de TODAS las hazañas de este vato, vas a exponer una sola vez en TODO el semestre y te va a dejar un trabajo final de 50 hojas que ni revisa y lo puedes bajar de internet. 100 pelado, para asegurarlo no le faltes ni un día."
+    }
+  ],
+  "comments_recent": [
+    "Excelente Maestro!.... sin palabras 8:32",
+    "Excelente maestro",
+    "[Comentario esperando revisión]",
+    "Puro exponer esta bien facil.",
+    "[Comentario esperando revisión]",
+    "EL Gran Señor de las Mil Mentiras. Te vas a reír de TODAS las hazañas de este vato, vas a exponer una sola vez en TODO el semestre y te va a dejar un trabajo final de 50 hojas que ni revisa y lo puedes bajar de internet. 100 pelado, para asegurarlo no le faltes ni un día."
+  ],
+  "n_reviews": 6
+}

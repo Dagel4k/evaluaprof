@@ -1,0 +1,173 @@
+{
+  "nombre": "Casandra Ocampo",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "ciudad": "Ciudad: culiacan, sinaloa",
+  "departamento": "Departamento/Facultad: Ing. Industrial",
+  "calidad_general": 7.3,
+  "porcentaje_recomienda": 70,
+  "nivel_dificultad": 0.6,
+  "etiquetas": [
+    "BARCO (4)",
+    "POCOS EXÁMENES (1)",
+    "BRINDA APOYO (2)",
+    "INSPIRACIONAL (1)",
+    "TOMARÍA SU CLASE OTRA VEZ (2)"
+  ],
+  "numero_calificaciones": 10,
+  "calificaciones": [
+    {
+      "fecha": "07/Jun/2023",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 8.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Estudio del trabajo 2",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "9",
+      "interes_clase": "",
+      "comentario": "A veces llega de mal humor y se \"desquita\" con los estudiantes, pero cuando nota que se le sale el mal genio se disculpa. Es comprensiva y si algo no te parece lo puedes platicar con ella con toda confianza.",
+      "etiquetas_comentario": [
+        "Barco",
+        "Brinda apoyo",
+        "Tomaría su clase otra vez"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "24/Dic/2022",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 8.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Estudio del trabajo",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "9.5",
+      "interes_clase": "",
+      "comentario": "Es comprensible, te brinda apoyo si lo necesitas y sus actividades no son difíciles, sin embargo falta sin avisar, tarda en calificar y a veces llega de malas pero la verdad la clase si está decente.",
+      "etiquetas_comentario": [
+        "Barco",
+        "Inspiracional",
+        "Tomaría su clase otra vez"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "26/Ago/2020",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 8.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Investigacion de operaciones",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "Facilón, pasas con 100 con trabajos y examenes decentes, a veces hasta deja de tarea los examenes. Eso si, presta atencion y no la molestes porque donde se ponga de malas es un problema. facil",
+      "etiquetas_comentario": [
+        "Barco",
+        "Brinda apoyo"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "23/Oct/2019",
+      "tipo_calificacion": "REGULAR",
+      "puntaje_calidad_general": 6.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Relleno de Investigación",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "9",
+      "interes_clase": "",
+      "comentario": "No se porqué leo tanto comentario bueno si la maestra anda de mal humor cuando quiere y no resuelve las dudas de forma respetuosa a los alumnos. Como dice el men de abajo quita las ganas de aprender y de preguntarle las dudas porque se molesta",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "05/Jun/2018",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 9.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Estudio 1",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "Sacas 100 fácil con ella nomas asiste y pásale los exámenes es buena onda",
+      "etiquetas_comentario": [
+        "Barco",
+        "Pocos Exámenes"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "08/Ago/2017",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 8.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "investigacion de operaciones",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "9",
+      "interes_clase": "",
+      "comentario": "con esta profe llevas bien barco es como si llevaras una materia menos en el semestre luego falta mucho en el semestre",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "29/Nov/2015",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 9.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Estudio del trabajo I",
+      "asistencia": "",
+      "calificacion_recibida": "9.5",
+      "interes_clase": "9.5",
+      "comentario": "Buena maestra, explica de manera clara con diapositivas y deja actividades y tareas para dejar las cosas claras. Los examenes estan muy faciles y las practicas igual de sencillas. Ayuda mucho todo el semestre solo cuidado de no agarrarla de malas por que ahí si se lleva a todo el salon.",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "06/Dic/2014",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 2.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Estudio del trabajo",
+      "asistencia": "",
+      "calificacion_recibida": "1",
+      "interes_clase": "1",
+      "comentario": "No se la recomendaría ni a mi peor enemigo, te quita las ganas de aprender.",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "15/Jul/2014",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 7.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Investigación de Operaciones",
+      "asistencia": "",
+      "calificacion_recibida": "10",
+      "interes_clase": "10",
+      "comentario": "Está muy cargada por materías diferentes y eso hace que sus clases no estén bien preparadas. Es muy manipulable y eso hace que vaya muy lento en las clases y no se cubra todo el programa. Los ejercicios que se ven son los más sencillos y los examenes son iguales.",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "03/Dic/2013",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 8.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Estudio del Trabajo II",
+      "asistencia": "",
+      "calificacion_recibida": "10",
+      "interes_clase": "10",
+      "comentario": "esta profe es la ostia esta bien facil pasar la materia con ella, es muy accecible aunque bipolar.",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    }
+  ]
+}

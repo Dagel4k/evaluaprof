@@ -1,0 +1,76 @@
+{
+  "professor_id": "Cesar_Augusto_Ruiz_Alvarez",
+  "nombre": "Cesar Augusto Ruiz Alvarez",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 8.0,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.07053827296896,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 1.0,
+    "wilson_interval": [
+      0.20654329147389294,
+      1
+    ],
+    "n_recommendations": 1
+  },
+  "subject_normalization": {
+    "z_mean": 0.25,
+    "z_mean_decayed": 0.25,
+    "per_subject": [
+      {
+        "materia": "INGENIERÍA ECONÓMICA",
+        "z_decayed": 0.25318484177091666,
+        "n": 6
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [],
+    "sentiment": {
+      "overall": null,
+      "by_month": {}
+    },
+    "n_comments": 1
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": null,
+    "difficulty_trend": null,
+    "forecast": null,
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2017-12-18T00:00:00",
+      "materia": "INGENIERÍA ECONÓMICA",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Está facil pasar, los examenes son del ejercicio hecho un día antes del examen y está bien facil. Falta mucho y con las asistencias te deja 100. Si quieres aprender busca otros maestros si solo la quieres  llevar facil carga con el"
+    }
+  ],
+  "comments_recent": [
+    "Está facil pasar, los examenes son del ejercicio hecho un día antes del examen y está bien facil. Falta mucho y con las asistencias te deja 100. Si quieres aprender busca otros maestros si solo la quieres  llevar facil carga con el"
+  ],
+  "n_reviews": 1
+}

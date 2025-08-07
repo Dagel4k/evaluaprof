@@ -1,0 +1,305 @@
+{
+  "professor_id": "Miriam_Carmina_Rojas_Salcido",
+  "nombre": "Miriam Carmina Rojas Salcido",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 7.905343327899505,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.944360045575388,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.917,
+    "wilson_interval": [
+      0.6461140782014047,
+      0.9851352905492264
+    ],
+    "n_recommendations": 12
+  },
+  "subject_normalization": {
+    "z_mean": 0.03,
+    "z_mean_decayed": -0.15,
+    "per_subject": [
+      {
+        "materia": "DESAROLLO SUSTENTABLE",
+        "z_decayed": 0.6603381797442178,
+        "n": 4
+      },
+      {
+        "materia": "ALGORITMOS Y LENGUAJES DE PROGRAMACION",
+        "z_decayed": 0.5074961883947984,
+        "n": 3
+      },
+      {
+        "materia": "ALGORITMOS Y LENGUAJES DE PROGRAMACIÓN",
+        "z_decayed": 0.4560657728455814,
+        "n": 5
+      },
+      {
+        "materia": "ALGORITMOS",
+        "z_decayed": -2.0637833192456094,
+        "n": 7
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "si sabes",
+          "sabes",
+          "basico",
+          "programacion",
+          "si"
+        ],
+        "weight": 0.10460641340360077
+      },
+      {
+        "id": 1,
+        "words": [
+          "bien",
+          "recomendada",
+          "explica",
+          "explica bien",
+          "tiene"
+        ],
+        "weight": 0.15616060092507786
+      },
+      {
+        "id": 2,
+        "words": [
+          "bien",
+          "atencion",
+          "accesible",
+          "clases",
+          "menos"
+        ],
+        "weight": 0.09696760604984693
+      },
+      {
+        "id": 3,
+        "words": [
+          "examenes",
+          "da",
+          "es super",
+          "super",
+          "buena"
+        ],
+        "weight": 0.1583679533045944
+      },
+      {
+        "id": 4,
+        "words": [
+          "examen",
+          "buena",
+          "conocimientos",
+          "accesible",
+          "maestra"
+        ],
+        "weight": 0.13687034300145465
+      }
+    ],
+    "sentiment": {
+      "overall": 0.0,
+      "by_month": {
+        "2023-06": -1.0,
+        "2023-01": 0.0,
+        "2022-12": 0.0,
+        "2021-10": 0.0,
+        "2019-01": 0.0,
+        "2018-08": 0.0,
+        "2016-10": 0.0,
+        "2014-07": 0.0,
+        "2013-12": 0.0,
+        "2013-08": 0.0,
+        "2013-06": 0.0,
+        "2013-01": 1.0
+      }
+    },
+    "n_comments": 12
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        10.0,
+        7.0,
+        10.0,
+        10.0,
+        10.0,
+        9.0,
+        8.0,
+        10.0,
+        10.0,
+        2.0,
+        10.0,
+        9.0
+      ],
+      "ewma": [
+        10.0,
+        9.1,
+        9.37,
+        9.559,
+        9.691299999999998,
+        9.483909999999998,
+        9.038736999999998,
+        9.327115899999999,
+        9.528981129999998,
+        7.270286790999998,
+        8.089200753699998,
+        8.362440527589998
+      ],
+      "sigma": 1.8513228269120234
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 8.362440527589998,
+      "quality_band": [
+        4.733847786842432,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2023-06-07T00:00:00",
+      "materia": "ALGORITMOS Y LENGUAJES DE PROGRAMACIÓN",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Muy buena explicando los temas, trata de ir lo más lento posible por si hay personas que no tienen conocimientos previos de lo que se está hablando, sus exámenes son en línea y es bastante relajada"
+    },
+    {
+      "fecha_iso": "2023-01-19T00:00:00",
+      "materia": "ALGORITMOS Y LENGUAJES DE PROGRAMACIÓN",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Si buscas algo relajado, ella es la indicada. Si no sabes nada de programación, carga con ella porque enseña lo básico pero no más allá. No toma en cuenta las asistencias ni hace exámenes."
+    },
+    {
+      "fecha_iso": "2022-12-12T00:00:00",
+      "materia": "ALGORITMOS",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 0,
+      "comentario": "El hecho que ponga de examen los mismos ejercicio que hace en clase debe darles una idea de lo mediocre de está maestra, me pregunto que les está aportando a su formación profesional?, lo único que le interesa es el cheque quincenal que le pagan y a los alumnos les da miseria de conocimientos"
+    },
+    {
+      "fecha_iso": "2021-10-25T00:00:00",
+      "materia": "ALGORITMOS Y LENGUAJES DE PROGRAMACIÓN",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "De verdad explica muy bien, paso a paso y no tiene inconveniente en regresarse en algo en caso de que algún compañero no haya entendido."
+    },
+    {
+      "fecha_iso": "2019-01-31T00:00:00",
+      "materia": "DESAROLLO SUSTENTABLE",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Muy buena profe, si puedes carga con ella todo lo que puedas. Es super linda y da bien las clases"
+    },
+    {
+      "fecha_iso": "2018-08-06T00:00:00",
+      "materia": "ALGORITMOS Y LENGUAJE DE PROGRAMACIÓN",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Muy buena! Sus clases son sencillas y te da todo el material que necesitas para los exámenes. Es super buena onda y en sus exámenes viene justo lo que ves en clase, si pones atención es un 100 seguro. Casi no deja tareas."
+    },
+    {
+      "fecha_iso": "2016-10-27T00:00:00",
+      "materia": "ALGORITMOS Y LENGUAJES DE PROGRAMACION",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": "100% recomendada la mejor para la materia, es imposible que no cargues con ella, tiene muchas horas y es muy factible, camarada y buena gente n.n"
+    },
+    {
+      "fecha_iso": "2014-07-15T00:00:00",
+      "materia": "ALGORITMOS Y LENGUAJES DE LA PROGRAMACIÓN.",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Es extremadamente fácil sacar 100 con ella, sus primeras clases son muy aburridas por la teoría, después son menos pesadas en los diagramas y la programación. Los ejercicios son sencillos y pone los mismos de clase en los exámenes. Aprendes sólo lo básico."
+    },
+    {
+      "fecha_iso": "2013-12-16T00:00:00",
+      "materia": "ALGORITMOS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Muy buena maestra! ademas de que es muy accesible"
+    },
+    {
+      "fecha_iso": "2013-08-07T00:00:00",
+      "materia": "ALGORITMOS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Bien accesible, clases fáciles y claras y no es gritona o amargada como otras profesoras. Está en chino para que salgas con menos de 90 echandole poquillo esfuerzo y poniendo atención."
+    },
+    {
+      "fecha_iso": "2013-06-08T00:00:00",
+      "materia": "ALGORITMOS Y LENGUAJES DE PROGRAMACIÓN",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Si no sabes absolutamente nada de computación la recomiendo ya que es como una clase de kinder,y si es que tienes suerte te va a enseñar lo básico de programación, nunca se había presentado la oportunidad de programar hasta este semestre."
+    },
+    {
+      "fecha_iso": "2013-01-14T00:00:00",
+      "materia": "ALGORITMOS Y LENGUAJES DE PROGRAMACION",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Es una excelente profesora, explica todo muy bien y lo que menciona en clase, es lo que viene en el examen. Recomendada 100%"
+    }
+  ],
+  "comments_recent": [
+    "Muy buena explicando los temas, trata de ir lo más lento posible por si hay personas que no tienen conocimientos previos de lo que se está hablando, sus exámenes son en línea y es bastante relajada",
+    "Si buscas algo relajado, ella es la indicada. Si no sabes nada de programación, carga con ella porque enseña lo básico pero no más allá. No toma en cuenta las asistencias ni hace exámenes.",
+    "El hecho que ponga de examen los mismos ejercicio que hace en clase debe darles una idea de lo mediocre de está maestra, me pregunto que les está aportando a su formación profesional?, lo único que le interesa es el cheque quincenal que le pagan y a los alumnos les da miseria de conocimientos",
+    "De verdad explica muy bien, paso a paso y no tiene inconveniente en regresarse en algo en caso de que algún compañero no haya entendido.",
+    "Muy buena profe, si puedes carga con ella todo lo que puedas. Es super linda y da bien las clases",
+    "Muy buena! Sus clases son sencillas y te da todo el material que necesitas para los exámenes. Es super buena onda y en sus exámenes viene justo lo que ves en clase, si pones atención es un 100 seguro. Casi no deja tareas.",
+    "100% recomendada la mejor para la materia, es imposible que no cargues con ella, tiene muchas horas y es muy factible, camarada y buena gente n.n",
+    "Es extremadamente fácil sacar 100 con ella, sus primeras clases son muy aburridas por la teoría, después son menos pesadas en los diagramas y la programación. Los ejercicios son sencillos y pone los mismos de clase en los exámenes. Aprendes sólo lo básico.",
+    "Muy buena maestra! ademas de que es muy accesible",
+    "Bien accesible, clases fáciles y claras y no es gritona o amargada como otras profesoras. Está en chino para que salgas con menos de 90 echandole poquillo esfuerzo y poniendo atención."
+  ],
+  "n_reviews": 12
+}

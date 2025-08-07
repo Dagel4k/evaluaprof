@@ -1,0 +1,155 @@
+{
+  "professor_id": "Juan_Carlos_Cabanillas_noris",
+  "nombre": "Juan Carlos Cabanillas Noris",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 9.561064565485653,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.698280071618469,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 1.0,
+    "wilson_interval": [
+      0.5100999795960008,
+      1
+    ],
+    "n_recommendations": 4
+  },
+  "subject_normalization": {
+    "z_mean": 0.93,
+    "z_mean_decayed": 0.93,
+    "per_subject": [
+      {
+        "materia": "MICROCONTROLADORES",
+        "z_decayed": 0.9252067322454385,
+        "n": 18
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "linea",
+          "lleve materia",
+          "si",
+          "clases",
+          "materia"
+        ],
+        "weight": 0.4557108649097828
+      },
+      {
+        "id": 1,
+        "words": [
+          "veces si",
+          "veces",
+          "siento",
+          "clases",
+          "es"
+        ],
+        "weight": 0.22048284526076856
+      }
+    ],
+    "sentiment": {
+      "overall": 0.75,
+      "by_month": {
+        "2022-06": 1.0,
+        "2022-01": 1.0,
+        "2021-12": 1.0,
+        "2020-10": 0.0
+      }
+    },
+    "n_comments": 4
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        9.0,
+        10.0,
+        9.0,
+        10.0
+      ],
+      "ewma": [
+        9.0,
+        9.3,
+        9.209999999999999,
+        9.447
+      ],
+      "sigma": 0.43510410631633095
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 9.447,
+      "quality_band": [
+        8.59419595161999,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2022-06-05T00:00:00",
+      "materia": "PROGRAMACIÓN ESTRUCTURADA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Es un profesor increíble. Lleve su materia en clases en línea, sin embargo sabía muy bien impartirla. Se apoya de diapositivas pero sus clases no las siento nada aburridas. Me gusta mucho su manera de trabajar, explicar y que te ayuda siempre en lo que necesites. A veces si faltaba una que otra vez."
+    },
+    {
+      "fecha_iso": "2022-01-17T00:00:00",
+      "materia": "MICROCONTROLADORES",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Este profesor se nota que sabe de la materia, y con sus diapositivas hace un buen trabajo de enseñarte lo que debes, sin embargo, al menos en mi caso no diò ni la mitad de la materia por faltar constantemente. Las veces que si dio era bueno pero siento que faltò exageradamente."
+    },
+    {
+      "fecha_iso": "2021-12-16T00:00:00",
+      "materia": "MICROCONTROLADORES",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Excelente profesor.  Llevé la materia en línea y aún así fueron bastante interesante sus clases. A pesar de que apoya bastante de diapositivas, estas resultan de mucha ayuda al momento de hacer las prácticas, las cuales sí son bastantes. También da muy buena retroalimentación. De lo mejor."
+    },
+    {
+      "fecha_iso": "2020-10-24T00:00:00",
+      "materia": "ANALISIS NUMERICO",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Un profesor muy noble y muy inteligente, en palabras simples es un pan de dios. su clase consistió en practicar con matlab y ver diapositivas en lo que aprendíamos el método"
+    }
+  ],
+  "comments_recent": [
+    "Es un profesor increíble. Lleve su materia en clases en línea, sin embargo sabía muy bien impartirla. Se apoya de diapositivas pero sus clases no las siento nada aburridas. Me gusta mucho su manera de trabajar, explicar y que te ayuda siempre en lo que necesites. A veces si faltaba una que otra vez.",
+    "Este profesor se nota que sabe de la materia, y con sus diapositivas hace un buen trabajo de enseñarte lo que debes, sin embargo, al menos en mi caso no diò ni la mitad de la materia por faltar constantemente. Las veces que si dio era bueno pero siento que faltò exageradamente.",
+    "Excelente profesor.  Llevé la materia en línea y aún así fueron bastante interesante sus clases. A pesar de que apoya bastante de diapositivas, estas resultan de mucha ayuda al momento de hacer las prácticas, las cuales sí son bastantes. También da muy buena retroalimentación. De lo mejor.",
+    "Un profesor muy noble y muy inteligente, en palabras simples es un pan de dios. su clase consistió en practicar con matlab y ver diapositivas en lo que aprendíamos el método"
+  ],
+  "n_reviews": 4
+}

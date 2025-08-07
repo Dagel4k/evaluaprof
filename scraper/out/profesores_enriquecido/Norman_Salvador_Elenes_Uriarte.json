@@ -1,0 +1,307 @@
+{
+  "professor_id": "Norman_Salvador_Elenes_Uriarte",
+  "nombre": "Norman Salvador Elenes Uriarte",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 5.519876060495398,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 6.807996409211753,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.5,
+    "wilson_interval": [
+      0.2537781703934222,
+      0.7462218296065778
+    ],
+    "n_recommendations": 12
+  },
+  "subject_normalization": {
+    "z_mean": -0.39,
+    "z_mean_decayed": -0.76,
+    "per_subject": [
+      {
+        "materia": "PROGRAMACION",
+        "z_decayed": 1.091594021073081,
+        "n": 20
+      },
+      {
+        "materia": "LA QUE SEA",
+        "z_decayed": 1.0722219284950192,
+        "n": 3
+      },
+      {
+        "materia": "FUNDAMENTOS DE PROGRAMACIÓN",
+        "z_decayed": -0.8889984648820828,
+        "n": 36
+      },
+      {
+        "materia": "TALLER DE INVESTIGACIÓN I",
+        "z_decayed": -1.2909944487358056,
+        "n": 11
+      },
+      {
+        "materia": "POO",
+        "z_decayed": -1.899590383896355,
+        "n": 62
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "maestro",
+          "buen maestro",
+          "unas",
+          "buen",
+          "es buen"
+        ],
+        "weight": 0.08118724221181993
+      },
+      {
+        "id": 1,
+        "words": [
+          "programacion",
+          "si",
+          "deporte",
+          "sabe",
+          "mejor"
+        ],
+        "weight": 0.19240368231975535
+      },
+      {
+        "id": 2,
+        "words": [
+          "verlo",
+          "buen",
+          "maestro",
+          "excelente",
+          "ser"
+        ],
+        "weight": 0.1171176475956618
+      },
+      {
+        "id": 3,
+        "words": [
+          "dice",
+          "es",
+          "buena onda",
+          "buena",
+          "onda"
+        ],
+        "weight": 0.12762951860396485
+      },
+      {
+        "id": 4,
+        "words": [
+          "excelente",
+          "es",
+          "es excelente",
+          "bien",
+          "excelente profesor"
+        ],
+        "weight": 0.12778386227514762
+      }
+    ],
+    "sentiment": {
+      "overall": 0.25,
+      "by_month": {
+        "2024-11": 0.0,
+        "2021-03": 0.0,
+        "2015-07": 1.0,
+        "2015-03": 1.0,
+        "2014-03": 1.0,
+        "2013-10": 0.0,
+        "2013-06": 0.0,
+        "2012-09": 0.0,
+        "2012-07": 0.0,
+        "2011-06": 0.0,
+        "2011-01": 0.0
+      }
+    },
+    "n_comments": 12
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        4.0,
+        9.0,
+        10.0,
+        7.0,
+        4.0,
+        2.5,
+        10.0,
+        10.0,
+        10.0,
+        6.0,
+        5.0
+      ],
+      "ewma": [
+        4.0,
+        5.5,
+        6.85,
+        6.895,
+        6.0264999999999995,
+        4.96855,
+        6.477984999999999,
+        7.534589499999999,
+        8.274212649999999,
+        7.591948854999999,
+        6.814364198499999
+      ],
+      "sigma": 2.361165937970426
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 6.814364198499999,
+      "quality_band": [
+        2.186478960077964,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2024-11-22T00:00:00",
+      "materia": "FUNDAMENTOS DE PROGRAMACIÓN",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 0,
+      "comentario": "Tiene muy malas prácticas en programación. Recomiendo ampliamente leer las convenciones del código en Java de 1999 (incluso, ver videos más recientes para estar más actualizado).  Si estudian con él, mejor estudien por su cuenta. Ignorante y desconocido de las tecnologías actuales."
+    },
+    {
+      "fecha_iso": "2021-03-11T00:00:00",
+      "materia": "CORRUPCIÓN",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 1.5,
+      "recomienda": 0,
+      "comentario": "resultó ser un corrupto el Sr. director Salvador Elenes."
+    },
+    {
+      "fecha_iso": "2015-07-01T00:00:00",
+      "materia": "PROGRAMACION",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Es un excelente profesor,sus técnicas de enseñanza son acordes al nivel)programación=, te explica bien. me quedaba con la boca abierta cuando usaba shorts cortos, que iba a correr, pues tiene unas piernotas de 10. es mi ídolo, me gustaría tenerlo cerca y abrazar y apretar sus piernas"
+    },
+    {
+      "fecha_iso": "2015-03-09T00:00:00",
+      "materia": "PROGRAMACION",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Es excelente profesor, explica bien y aclara tus dudas. En lo particular considero que es excelente profesor. además tiene atractivo visual, me encantaba verlo con jeans pegados al cuerpo porque luce bien sus piernas que están preciosa."
+    },
+    {
+      "fecha_iso": "2014-03-06T00:00:00",
+      "materia": "LA QUE SEA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Bueno Maestro, excelente persona y buen ser humano.."
+    },
+    {
+      "fecha_iso": "2013-10-04T00:00:00",
+      "materia": "POO",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": 0.5,
+      "recomienda": 0,
+      "comentario": "no sabe nada de programacion no aclara tus dudas , si no sabe programar mejor que se valla a atletismo con sus shortsitos"
+    },
+    {
+      "fecha_iso": "2013-10-04T00:00:00",
+      "materia": "POO",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 5.0,
+      "recomienda": 0,
+      "comentario": "No sabe dar clases mejor que se vaya al deporte :c"
+    },
+    {
+      "fecha_iso": "2013-06-05T00:00:00",
+      "materia": "ESTRUCUTURA DE DATOS",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 0,
+      "comentario": "Este profesor no sabe nada de programación orientada a objetos! Si quieren aprender es su PEOR opción! No lo recomiendo para nada! Mejor que se dedique al deporte :) P.D. Dice que no se puede hacer un objeto de la misma clase x__x"
+    },
+    {
+      "fecha_iso": "2012-09-09T00:00:00",
+      "materia": "ATLETISMO",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Es muy buen profesor en lo que concierne a atletismo, de las demas asignaturas no sabria decirlo. vale la pena verlo sobretodo cuando anda en shrt cortito, luce unas piernotas padrisimas."
+    },
+    {
+      "fecha_iso": "2012-07-24T00:00:00",
+      "materia": "ATLETISMO",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "muy buen maestro de atletismo jaja no se que materia da pero carguen muy buena onda yo pedire una con el ......"
+    },
+    {
+      "fecha_iso": "2011-06-28T00:00:00",
+      "materia": "TALLER DE INVESTG",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": "Pienso que es muy buen maestro, se le entiende perfectamente. Independientemente de su desempeño, està buenisimo, se ve que de joven tenìa unas piernas preciosas super masculinas. Ha sido mi admirador secreto. Me encanta"
+    },
+    {
+      "fecha_iso": "2011-01-07T00:00:00",
+      "materia": "TALLER DE INVESTIGACIÓN I",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": "Falta mucho, habla mucho pero nada de lo que dice tiene sentido, es muy cerrado y te hace creer que es buena onda y al final se porta mala onda."
+    }
+  ],
+  "comments_recent": [
+    "Tiene muy malas prácticas en programación. Recomiendo ampliamente leer las convenciones del código en Java de 1999 (incluso, ver videos más recientes para estar más actualizado).  Si estudian con él, mejor estudien por su cuenta. Ignorante y desconocido de las tecnologías actuales.",
+    "resultó ser un corrupto el Sr. director Salvador Elenes.",
+    "Es un excelente profesor,sus técnicas de enseñanza son acordes al nivel)programación=, te explica bien. me quedaba con la boca abierta cuando usaba shorts cortos, que iba a correr, pues tiene unas piernotas de 10. es mi ídolo, me gustaría tenerlo cerca y abrazar y apretar sus piernas",
+    "Es excelente profesor, explica bien y aclara tus dudas. En lo particular considero que es excelente profesor. además tiene atractivo visual, me encantaba verlo con jeans pegados al cuerpo porque luce bien sus piernas que están preciosa.",
+    "Bueno Maestro, excelente persona y buen ser humano..",
+    "no sabe nada de programacion no aclara tus dudas , si no sabe programar mejor que se valla a atletismo con sus shortsitos",
+    "No sabe dar clases mejor que se vaya al deporte :c",
+    "Este profesor no sabe nada de programación orientada a objetos! Si quieren aprender es su PEOR opción! No lo recomiendo para nada! Mejor que se dedique al deporte :) P.D. Dice que no se puede hacer un objeto de la misma clase x__x",
+    "Es muy buen profesor en lo que concierne a atletismo, de las demas asignaturas no sabria decirlo. vale la pena verlo sobretodo cuando anda en shrt cortito, luce unas piernotas padrisimas.",
+    "muy buen maestro de atletismo jaja no se que materia da pero carguen muy buena onda yo pedire una con el ......"
+  ],
+  "n_reviews": 12
+}

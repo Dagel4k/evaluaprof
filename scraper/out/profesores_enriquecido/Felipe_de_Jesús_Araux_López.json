@@ -1,0 +1,76 @@
+{
+  "professor_id": "Felipe_de_Jesús_Araux_López",
+  "nombre": "Felipe de Jesús Araux López",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 9.0,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.161447363878051,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 1.0,
+    "wilson_interval": [
+      0.20654329147389294,
+      1
+    ],
+    "n_recommendations": 1
+  },
+  "subject_normalization": {
+    "z_mean": 1.56,
+    "z_mean_decayed": 1.56,
+    "per_subject": [
+      {
+        "materia": "TALLER DE ADMINISTRACIÓN",
+        "z_decayed": 1.561715493938311,
+        "n": 22
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [],
+    "sentiment": {
+      "overall": null,
+      "by_month": {}
+    },
+    "n_comments": 1
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": null,
+    "difficulty_trend": null,
+    "forecast": null,
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2025-05-05T00:00:00",
+      "materia": "TALLER DE ADMINISTRACIÓN",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Excelente maestro me dió administración clases muy completas, y los examenes son muy fáciles. Aprendes muy fácil y sin presión"
+    }
+  ],
+  "comments_recent": [
+    "Excelente maestro me dió administración clases muy completas, y los examenes son muy fáciles. Aprendes muy fácil y sin presión"
+  ],
+  "n_reviews": 1
+}

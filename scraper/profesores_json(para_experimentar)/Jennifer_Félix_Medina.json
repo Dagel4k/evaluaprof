@@ -1,0 +1,204 @@
+{
+  "nombre": "Jennifer Félix Medina",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "ciudad": "Ciudad: culiacan, sinaloa",
+  "departamento": "Departamento/Facultad: Ing. Química",
+  "calidad_general": 7.6,
+  "porcentaje_recomienda": 82,
+  "nivel_dificultad": 2.4,
+  "etiquetas": [
+    "BRINDA APOYO (1)",
+    "CALIFICA DURO (2)",
+    "ASISTENCIA OBLIGATORIA (3)",
+    "ASPECTOS DE CALIFICACIÓN CLAROS (3)",
+    "PREPÁRATE PARA LEER (2)",
+    "POCOS EXÁMENES (1)",
+    "CLASES EXCELENTES (3)",
+    "MUCHAS TAREAS (1)",
+    "RESPETADO POR LOS ESTUDIANTES (1)",
+    "BARCO (1)"
+  ],
+  "numero_calificaciones": 11,
+  "calificaciones": [
+    {
+      "fecha": "06/Nov/2022",
+      "tipo_calificacion": "REGULAR",
+      "puntaje_calidad_general": 6.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Bioquimica",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "8",
+      "interes_clase": "",
+      "comentario": "Me toco cuando recien empezo a dar clases, se notaba que al inicio le daba mucho pavor callar a la gente y daba la clase sin llamarles la atención.\nNo fue nada agradable el ambiente que dejaba crear, pero a lo mejor tambien era la gente que no sabe que se venia a estudiar.",
+      "etiquetas_comentario": [
+        "Aspectos de calificación claros"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "05/Nov/2021",
+      "tipo_calificacion": "REGULAR",
+      "puntaje_calidad_general": 4.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Taller de investigación",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "N/A",
+      "interes_clase": "",
+      "comentario": "",
+      "etiquetas_comentario": [
+        "Barco"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "15/Jun/2020",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Bioquimica",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "8.5",
+      "interes_clase": "",
+      "comentario": "Está maestra es super buena en lo que hace, sabe mucho y lo mas importante lo sabe transmitir, es agradable, pero si tienes que poner mucha atención porque la materia lo exige, tienes que comprender y relacionar muchas cosas, y me encanto que le preocupa el medio ambiente, 10/10.",
+      "etiquetas_comentario": [
+        "Prepárate para leer",
+        "Respetado por los estudiantes",
+        "Clases excelentes"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "03/Dic/2018",
+      "tipo_calificacion": "REGULAR",
+      "puntaje_calidad_general": 6.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "química de los alimentos",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "8.5",
+      "interes_clase": "",
+      "comentario": "Da clases de pdf´s",
+      "etiquetas_comentario": [],
+      "votos_utiles": "1",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "14/Ago/2018",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 7.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Química",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "7.5",
+      "interes_clase": "",
+      "comentario": "",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "13/Ene/2018",
+      "tipo_calificacion": "REGULAR",
+      "puntaje_calidad_general": 6.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "---",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "N/A",
+      "interes_clase": "",
+      "comentario": "[Comentario esperando revisión]",
+      "etiquetas_comentario": [
+        "Califica Duro",
+        "Muchas tareas",
+        "Asistencia obligatoria"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "1"
+    },
+    {
+      "fecha": "12/Dic/2017",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Bioquimica",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "9.5",
+      "interes_clase": "",
+      "comentario": "",
+      "etiquetas_comentario": [],
+      "votos_utiles": "1",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "08/Ago/2017",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Química",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "Es muy buena profesora y da sus clases del modo más fácil posible. Entiendes muy bien y fuera del aula es muy agradable.",
+      "etiquetas_comentario": [
+        "Asistencia obligatoria",
+        "Aspectos de calificación claros",
+        "Clases excelentes"
+      ],
+      "votos_utiles": "1",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "11/Dic/2016",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 8.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Quimica",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "9",
+      "interes_clase": "",
+      "comentario": "Es muy buena maestra, las clases son muy claras y te enseña todos los temas del programa sin complicarse tanto",
+      "etiquetas_comentario": [
+        "Prepárate para leer",
+        "Pocos Exámenes",
+        "Clases excelentes"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "09/Dic/2016",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 9.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Quimica",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "9",
+      "interes_clase": "",
+      "comentario": "La verdad que si es muy buena maestra, mucho mejor que Bonilla y su forma de evaluar es muy justa ya que sus clases no las hace aburridas pero tampoco comicas, un termino ideal.",
+      "etiquetas_comentario": [
+        "Califica Duro",
+        "Asistencia obligatoria",
+        "Aspectos de calificación claros"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "07/Dic/2016",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 7.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Química",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "8.5",
+      "interes_clase": "",
+      "comentario": "Es nueva, llegó por Bonilla, sus exámenes están ligeros, pero abarcan todos los temas, esta estudiando el doctorado y sabe mucho de la materia, la recomiendo, y ademas esta guapa:D",
+      "etiquetas_comentario": [
+        "Brinda apoyo"
+      ],
+      "votos_utiles": "1",
+      "votos_no_utiles": "0"
+    }
+  ]
+}

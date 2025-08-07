@@ -1,0 +1,53 @@
+{
+  "nombre": "David Loaiza Felix",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "ciudad": "Ciudad: culiacan, sinaloa",
+  "departamento": "Departamento/Facultad: Ing. Indistrial",
+  "calidad_general": 6.0,
+  "porcentaje_recomienda": 50,
+  "nivel_dificultad": 4.0,
+  "etiquetas": [
+    "LAS CLASES SON LARGAS (2)",
+    "MUCHOS EXÁMENES (1)",
+    "CALIFICA DURO (1)",
+    "BRINDA APOYO (1)"
+  ],
+  "numero_calificaciones": 2,
+  "calificaciones": [
+    {
+      "fecha": "18/Sep/2020",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 8.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "ing. económica",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "8",
+      "interes_clase": "",
+      "comentario": "las clases son algo aburridas pero  son muy claras y siempre ayuda.\nsi quieres aprender de la materia, no te lo recomiendo, en cambio si quieres una calificación fácil, adelante.",
+      "etiquetas_comentario": [
+        "Califica Duro",
+        "Las clases son largas",
+        "Brinda apoyo"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "06/Dic/2019",
+      "tipo_calificacion": "REGULAR",
+      "puntaje_calidad_general": 4.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Ingeniera Económica",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "7",
+      "interes_clase": "",
+      "comentario": "Su modo de enseñanza no es muy bueno, si da bien su programa de clases, sus diapositivas son claras, la asistencia no es obligatoria, la calificación son los exámenes, pero si asistes a todas las clases le entiendes fácilmente.",
+      "etiquetas_comentario": [
+        "Las clases son largas",
+        "Muchos Exámenes"
+      ],
+      "votos_utiles": "1",
+      "votos_no_utiles": "0"
+    }
+  ]
+}

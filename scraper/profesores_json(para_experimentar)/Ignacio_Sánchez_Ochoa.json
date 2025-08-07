@@ -1,0 +1,55 @@
+{
+  "nombre": "Ignacio Sánchez Ochoa",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "ciudad": "Ciudad: culiacan, sinaloa",
+  "departamento": "Departamento/Facultad: Ciencias básicas",
+  "calidad_general": 9.0,
+  "porcentaje_recomienda": 100,
+  "nivel_dificultad": 0.0,
+  "etiquetas": [
+    "LA PARTICIPACIÓN IMPORTA (1)",
+    "ASPECTOS DE CALIFICACIÓN CLAROS (1)",
+    "TOMARÍA SU CLASE OTRA VEZ (2)",
+    "BARCO (1)",
+    "PREPÁRATE PARA LEER (1)"
+  ],
+  "numero_calificaciones": 2,
+  "calificaciones": [
+    {
+      "fecha": "01/Jun/2025",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 8.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Fundamentos de Investigacion",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "El ninja, porque si estas en el semestre de lluvias, olvídate de que vaya a dar clases, lo normal, da su clase (muchas veces se desvía), examenes sencillos, recalcar que enserio solo tuve maximo 10 clases (por no decir menos) de su materia, recomendado en esta materia de relleno, si toma lista",
+      "etiquetas_comentario": [
+        "Barco",
+        "Prepárate para leer",
+        "Tomaría su clase otra vez"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "05/Jun/2024",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Taller de investigación",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "Un gran profesor, explicar muy bien y sus trabajos y exámenes son de lo que explica, sin duda alguna una gran recomendacion para taller.",
+      "etiquetas_comentario": [
+        "La Participación Importa",
+        "Aspectos de calificación claros",
+        "Tomaría su clase otra vez"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    }
+  ]
+}

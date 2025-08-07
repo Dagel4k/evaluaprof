@@ -1,0 +1,118 @@
+{
+  "professor_id": "ISAAC_SALVADOR_GARCIA_CASTILLO",
+  "nombre": "ISAAC SALVADOR GARCIA CASTILLO",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 3.3059204540806464,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 6.136609307896813,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.0,
+    "wilson_interval": [
+      0,
+      0.5615060804490177
+    ],
+    "n_recommendations": 3
+  },
+  "subject_normalization": {
+    "z_mean": -1.24,
+    "z_mean_decayed": -1.25,
+    "per_subject": [
+      {
+        "materia": "FUNDAMENTOS DE INVESTIGACIÓN",
+        "z_decayed": -0.9498352692842753,
+        "n": 29
+      },
+      {
+        "materia": "FUNDAMENTOS DE LA INVESTIGACIÓN",
+        "z_decayed": -1.5221324792528108,
+        "n": 9
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [],
+    "sentiment": {
+      "overall": null,
+      "by_month": {}
+    },
+    "n_comments": 3
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        4.0,
+        3.0
+      ],
+      "ewma": [
+        4.0,
+        3.6999999999999997
+      ],
+      "sigma": 0.49497474683058307
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 3.6999999999999997,
+      "quality_band": [
+        2.729849496212057,
+        4.6701505037879425
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2024-01-16T00:00:00",
+      "materia": "FUNDAMENTOS DE LA INVESTIGACIÓN",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 0,
+      "comentario": "No le gusta su trabajo, es irrespetuoso, sus clases son presentaciones hechas por los alumnos, nunca explica con claridad los trabajos porque ni siquiera él sabe que se debe hacer."
+    },
+    {
+      "fecha_iso": "2024-01-16T00:00:00",
+      "materia": "EXPORTACIÓN Y FUNDAMENTOS",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": "No da clase solo pone a leer diapositivas y hace exámenes de ellas, no explica nada"
+    },
+    {
+      "fecha_iso": "2023-09-05T00:00:00",
+      "materia": "FUNDAMENTOS DE INVESTIGACIÓN",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 22.0,
+      "recomienda": 0,
+      "comentario": "Se la pasa hablando de su vida y no deja de dar consejos que nadie le pidio"
+    }
+  ],
+  "comments_recent": [
+    "No le gusta su trabajo, es irrespetuoso, sus clases son presentaciones hechas por los alumnos, nunca explica con claridad los trabajos porque ni siquiera él sabe que se debe hacer.",
+    "No da clase solo pone a leer diapositivas y hace exámenes de ellas, no explica nada",
+    "Se la pasa hablando de su vida y no deja de dar consejos que nadie le pidio"
+  ],
+  "n_reviews": 3
+}

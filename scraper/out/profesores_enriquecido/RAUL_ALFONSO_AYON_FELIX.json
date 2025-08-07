@@ -1,0 +1,292 @@
+{
+  "professor_id": "RAUL_ALFONSO_AYON_FELIX",
+  "nombre": "RAUL ALFONSO AYON FELIX",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 5.303937533290666,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 6.7036152858408835,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.636,
+    "wilson_interval": [
+      0.35379677689163724,
+      0.8483377638586862
+    ],
+    "n_recommendations": 11
+  },
+  "subject_normalization": {
+    "z_mean": -0.17,
+    "z_mean_decayed": -0.52,
+    "per_subject": [
+      {
+        "materia": "TALLER DE ÉTICA",
+        "z_decayed": 0.8077614592374455,
+        "n": 22
+      },
+      {
+        "materia": "FUNDAMENTOS DE INVESTIGACIÓN",
+        "z_decayed": 0.22563291870865054,
+        "n": 29
+      },
+      {
+        "materia": "FUNDAMENTOS DE LA INVESTIGACIÓN",
+        "z_decayed": -0.08011223575014767,
+        "n": 9
+      },
+      {
+        "materia": "ETICA",
+        "z_decayed": -0.8297363760680577,
+        "n": 31
+      },
+      {
+        "materia": "FUNDAMENTOS DE INVESTIGACION",
+        "z_decayed": -1.190903432107057,
+        "n": 24
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "es buen",
+          "profesor",
+          "ademas",
+          "alumnos",
+          "es"
+        ],
+        "weight": 0.13036684418667824
+      },
+      {
+        "id": 1,
+        "words": [
+          "ser",
+          "solo",
+          "tareas",
+          "te",
+          "zorro"
+        ],
+        "weight": 0.12840236470300556
+      },
+      {
+        "id": 2,
+        "words": [
+          "ademas",
+          "maestro",
+          "facil",
+          "te",
+          "clase"
+        ],
+        "weight": 0.12453751856158224
+      },
+      {
+        "id": 3,
+        "words": [
+          "es",
+          "maestro",
+          "es buen",
+          "bien",
+          "buen"
+        ],
+        "weight": 0.11501600265156436
+      },
+      {
+        "id": 4,
+        "words": [
+          "deja",
+          "tareas",
+          "solo",
+          "clases",
+          "ser"
+        ],
+        "weight": 0.17475511657948478
+      }
+    ],
+    "sentiment": {
+      "overall": 0.0,
+      "by_month": {
+        "2024-08": 0.0,
+        "2024-02": 0.0,
+        "2023-09": 0.0,
+        "2022-06": 0.0,
+        "2021-11": 0.0,
+        "2021-09": 1.0,
+        "2021-05": 0.0,
+        "2018-01": -0.3333333333333333,
+        "2017-11": 0.0
+      }
+    },
+    "n_comments": 11
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        2.0,
+        7.666666666666667,
+        10.0,
+        10.0,
+        8.0,
+        10.0,
+        3.0,
+        3.0,
+        2.0
+      ],
+      "ewma": [
+        2.0,
+        3.6999999999999997,
+        5.59,
+        6.913,
+        7.2391000000000005,
+        8.06737,
+        6.547159000000001,
+        5.483011299999999,
+        4.438107909999999
+      ],
+      "sigma": 2.9606210542807117
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 4.438107909999999,
+      "quality_band": [
+        0.0,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2024-08-06T00:00:00",
+      "materia": "ETICA",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 6.5,
+      "recomienda": 0,
+      "comentario": "zorro"
+    },
+    {
+      "fecha_iso": "2024-02-21T00:00:00",
+      "materia": "ETICA",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": 0.5,
+      "recomienda": 0,
+      "comentario": "MUY ZORRO LA VERDAD, SE INSINUA MUCHO A LAS MUCHACHAS"
+    },
+    {
+      "fecha_iso": "2023-09-02T00:00:00",
+      "materia": "ETICA",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": "no le interesa su clase"
+    },
+    {
+      "fecha_iso": "2022-06-18T00:00:00",
+      "materia": "ETICA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "muy buen profe cargaria con el de nuevo"
+    },
+    {
+      "fecha_iso": "2021-11-27T00:00:00",
+      "materia": "ETICA",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 1,
+      "comentario": "es buen maestro, toma el tema de etica bien, anota los conseptos que diga sobre los temas  y ya"
+    },
+    {
+      "fecha_iso": "2021-09-03T00:00:00",
+      "materia": "TALLER DE ÉTICA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Suele ser alguien responsable y claro en sus clases aunque pueden llegar a ser tediosas. Reprueba sólo quien de plano no entrega nada. No deja muchas tareas. Recomendado"
+    },
+    {
+      "fecha_iso": "2021-05-07T00:00:00",
+      "materia": "TALLER DE ÉTICA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "bastante fácil pasar, no te pone en el examen nada de lo que no se vio en clase"
+    },
+    {
+      "fecha_iso": "2018-01-16T00:00:00",
+      "materia": "FUNDAMENTOS DE INVESTIGACIÓN",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Es buen profesor aunque es cierto que se apoya mucho en diapositivas, en vez de hacer que sus alumnos comprendan la materia, ademas de dejar proyectos bastantes largos y tediosos"
+    },
+    {
+      "fecha_iso": "2018-01-14T00:00:00",
+      "materia": "FUNDAMENTOS DE LA INVESTIGACIÓN",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Intenta ser un buen profesor, ve las clases conforme el plan de estudio, solo que se apoya de diapositivas que no están bien hechas y que ni el entiende y llega a ser confuso, pero en realidad la materia es fácil."
+    },
+    {
+      "fecha_iso": "2018-01-13T00:00:00",
+      "materia": "FUNDAMENTOS DE INVESTIGACIÓN",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "El profesor da as clases conforme al reglamento, en sus clases explica con pura diapositiva y ademas en sus trabajos tareas o exámenes anexa lo que ya se ha visto, quienes no aprueban con el es por que no ponen atención o no estudian por que el maestro no te deja algo que no te enseñó"
+    },
+    {
+      "fecha_iso": "2017-11-12T00:00:00",
+      "materia": "FUNDAMENTOS DE INVESTIGACION",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 0,
+      "comentario": "el peor profesor, no sabe nada, los alumnos son quienes  le explican a el, no sabe leer y redactar un simple texto, ademas es muy acosador con las mujeres, las zorrea de pies a cabeza y es muy incomodo, nada recomendado es un super pendejete"
+    }
+  ],
+  "comments_recent": [
+    "zorro",
+    "MUY ZORRO LA VERDAD, SE INSINUA MUCHO A LAS MUCHACHAS",
+    "no le interesa su clase",
+    "muy buen profe cargaria con el de nuevo",
+    "es buen maestro, toma el tema de etica bien, anota los conseptos que diga sobre los temas  y ya",
+    "Suele ser alguien responsable y claro en sus clases aunque pueden llegar a ser tediosas. Reprueba sólo quien de plano no entrega nada. No deja muchas tareas. Recomendado",
+    "bastante fácil pasar, no te pone en el examen nada de lo que no se vio en clase",
+    "Es buen profesor aunque es cierto que se apoya mucho en diapositivas, en vez de hacer que sus alumnos comprendan la materia, ademas de dejar proyectos bastantes largos y tediosos",
+    "Intenta ser un buen profesor, ve las clases conforme el plan de estudio, solo que se apoya de diapositivas que no están bien hechas y que ni el entiende y llega a ser confuso, pero en realidad la materia es fácil.",
+    "El profesor da as clases conforme al reglamento, en sus clases explica con pura diapositiva y ademas en sus trabajos tareas o exámenes anexa lo que ya se ha visto, quienes no aprueban con el es por que no ponen atención o no estudian por que el maestro no te deja algo que no te enseñó"
+  ],
+  "n_reviews": 11
+}

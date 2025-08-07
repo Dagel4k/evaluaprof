@@ -1,0 +1,362 @@
+{
+  "professor_id": "Adriana_Gámez_López",
+  "nombre": "Adriana Gámez López",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 8.665251850346438,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.241997178666376,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.778,
+    "wilson_interval": [
+      0.547849735476945,
+      0.9099921808661801
+    ],
+    "n_recommendations": 18
+  },
+  "subject_normalization": {
+    "z_mean": 0.04,
+    "z_mean_decayed": 0.34,
+    "per_subject": [
+      {
+        "materia": "ESTUDIO DEL TRABAJO",
+        "z_decayed": 0.7970533969860857,
+        "n": 13
+      },
+      {
+        "materia": "ESTUDIO DEL TRABAJO II",
+        "z_decayed": 0.6343746601227048,
+        "n": 7
+      },
+      {
+        "materia": "PLANEACION Y DISEÑO DE INSTALACIONES",
+        "z_decayed": 0.5,
+        "n": 4
+      },
+      {
+        "materia": "ESTUDIO DEL TRABAJO I",
+        "z_decayed": -0.11999941347342154,
+        "n": 10
+      },
+      {
+        "materia": "PLANEACIÓN Y DISEÑO DE INSTALACIONES",
+        "z_decayed": -0.43143607595816064,
+        "n": 3
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "te",
+          "facil",
+          "veces",
+          "materia",
+          "es"
+        ],
+        "weight": 0.14286972738882725
+      },
+      {
+        "id": 1,
+        "words": [
+          "bien",
+          "pone",
+          "examen",
+          "clase",
+          "te"
+        ],
+        "weight": 0.15020789404120885
+      },
+      {
+        "id": 2,
+        "words": [
+          "examenes",
+          "maestra",
+          "buena maestra",
+          "buena",
+          "si"
+        ],
+        "weight": 0.17702901730414064
+      },
+      {
+        "id": 3,
+        "words": [
+          "ayuda",
+          "cuales",
+          "solo",
+          "mundo",
+          "100"
+        ],
+        "weight": 0.09200220277834141
+      },
+      {
+        "id": 4,
+        "words": [
+          "necesario",
+          "hace",
+          "verdad",
+          "manera",
+          "explica"
+        ],
+        "weight": 0.12827193170497364
+      }
+    ],
+    "sentiment": {
+      "overall": 0.0,
+      "by_month": {
+        "2025-06": 0.0,
+        "2021-10": 0.0,
+        "2018-06": 0.0,
+        "2018-01": 0.0,
+        "2015-01": 0.0,
+        "2014-12": -1.0,
+        "2014-07": 0.0,
+        "2014-06": 0.0,
+        "2013-12": 0.0,
+        "2013-11": 0.0,
+        "2013-08": 0.5
+      }
+    },
+    "n_comments": 17
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        5.0,
+        8.0,
+        6.0,
+        9.0,
+        7.0,
+        9.0,
+        10.0,
+        6.0,
+        5.0,
+        10.0,
+        10.0,
+        9.0
+      ],
+      "ewma": [
+        5.0,
+        5.9,
+        5.93,
+        6.850999999999999,
+        6.8957,
+        7.52699,
+        8.268892999999998,
+        7.588225099999998,
+        6.811757569999998,
+        7.768230298999999,
+        8.4377612093,
+        8.60643284651
+      ],
+      "sigma": 1.404235225627837
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 8.60643284651,
+      "quality_band": [
+        5.854131804279439,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2025-06-09T00:00:00",
+      "materia": "PDI",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Ve pocos ejercicios en clase, asegúrate de preguntar tus dudas de ellos en clase, las cuales suelen ser super tranquilas, nunca te exige nada, solo en el examen se pone estricta al revisar pero mientras apuntes bien tus formulas y las comprendas todo bien"
+    },
+    {
+      "fecha_iso": "2022-01-19T00:00:00",
+      "materia": "PLANEACION Y DISEÑO DE INSTALACIONES",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2021-10-25T00:00:00",
+      "materia": "ESTUDIO DEL TRABAJO II",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "La verdad me encanta como explica, todo lo hace paso a paso y de manera muy detallada, me gusta que esté abierta a resolver cualquier duda."
+    },
+    {
+      "fecha_iso": "2018-06-12T00:00:00",
+      "materia": "ESTUDIÓ DE TRABAJO",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 3.5,
+      "recomienda": 0,
+      "comentario": "Es muy barco"
+    },
+    {
+      "fecha_iso": "2018-06-06T00:00:00",
+      "materia": "PLANEACIÓN Y DISEÑO DE INSTALACIONES",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 1,
+      "comentario": "Es muy buena maestra, es clara a la hora de explicar los temas y si los domina a la perfección. Lo que te sacas en el examen te queda pero si eres constante y no faltas al final te puede echar una mano. Es muy bonita tambien recomendada"
+    },
+    {
+      "fecha_iso": "2018-01-13T00:00:00",
+      "materia": "ESTUDIO DEL TRABAJO I",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 0,
+      "comentario": "Es buena onda pero hace exámenes super confusos y de 10 preguntas, y lo que te saques en el examen es lo que te pone de calificación."
+    },
+    {
+      "fecha_iso": "2015-01-09T00:00:00",
+      "materia": "PLANEACIÓN Y DISEÑO DE INSTALACIONES",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "No te exige nada pero explica todo de manera clara y te da mucha ayuda aparte de ser muy buena onda, de uno tiene que nacer el ponerle atención para aprender."
+    },
+    {
+      "fecha_iso": "2014-12-14T00:00:00",
+      "materia": "PLANEACIÓN Y DISEÑO DE INSTALACIONES",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Muy buena maestra, con un carácter accesible, explica bien los contenidos de la materia así como las dudas, hace exámenes y trabajos prácticos, ve poca teoria. Es recomendable y no es difícil pasar con ella."
+    },
+    {
+      "fecha_iso": "2014-07-15T00:00:00",
+      "materia": "ESTUDIO DEL TRABAJO II",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Es la mejor opción para esta materia, pero como es de las primeras veces que la imparte, algunas unidades las hace muy confusas, pero en general la materia es fácil."
+    },
+    {
+      "fecha_iso": "2014-06-21T00:00:00",
+      "materia": "ESTUDIO 2",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Muy buena maestra, sus exámenes algo difíciles y confusos"
+    },
+    {
+      "fecha_iso": "2014-06-04T00:00:00",
+      "materia": "ESTUDIO DEL TRABAJO",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Bien facil con esta maestra, lo que te pone en la clase es lo mismo que el examen ademas de que te deja copiar. El que no saca mas de 90 es champion"
+    },
+    {
+      "fecha_iso": "2013-12-23T00:00:00",
+      "materia": "ESTUDIO DE TRABAJO",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": ":(, No entendi nada, pero pase con 100% :)"
+    },
+    {
+      "fecha_iso": "2013-12-17T00:00:00",
+      "materia": "ESTUDIO DEL TRABAJO II",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Muy buena maestra, apesar de que fue su PRIMER SEMESTRE dando esta materia, enseñó muchisimo mas que los otros maestros, fue precisa y clara explicando los temas, sus examenes no son tan faciles pero es recomendada. Como plus es muy buena onda!"
+    },
+    {
+      "fecha_iso": "2013-12-04T00:00:00",
+      "materia": "ESTUDIO DEL TRABAJO I",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Las clases son muy ligeras, conoce los temas pero solo ve las cosas por encima. Al ser una materia teórica, considera que incluso sin ayuda de ella podemos entenderlos. Deja practicas para cada unidad en las cuales tienes 100 con entregarlas. Los exámenes son confusos pero nada del otro mundo."
+    },
+    {
+      "fecha_iso": "2013-11-14T00:00:00",
+      "materia": "ADMON. DE OPERACION",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "MUY BUENA PROFESORA, EXPLICA MUY BIEN. EL PROBLEMA ES QUE FALTA MUCHO Y SE DISTRAE FACILMENTE Y NO VES MUCHO EN EL SEMESTRE PERO SI LO NECESARIO"
+    },
+    {
+      "fecha_iso": "2013-11-14T00:00:00",
+      "materia": "ESTUDIO DEL TRABAJO 1 Y PLANEACION Y DISEÑO DE INSTALAC",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Pero que calumnia! Es una de las mejores maestras que hay en el tec, los examenes no son de otro mundo, te explica cuantas veces sea necesario y es con la unica que aprendes de verdad estudio del trabajo. No es una broma de maestro como lo son chukito y obeso."
+    },
+    {
+      "fecha_iso": "2013-08-05T00:00:00",
+      "materia": "ESTUDIO DE TRABAJO I Y II",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "LA VERDAD QUE NUNCA SE DABA ENTENDER EN CLASE Y APARTES UNOS EXAMENES QUE NI ELLA PUEDE CONTESTAR, CERO RECOMENDADA, SI TE INTERESA APRENDER BUSCA OTRA OPCION."
+    },
+    {
+      "fecha_iso": "2013-08-03T00:00:00",
+      "materia": "ESTUDIO DE TRABAJO I Y II",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Buena maestra la recomiendo porque si aprendes, es paciente, los exámenes son de confucion múltiple pero si estudias y le pones ganas pasas, tambien si realizas todas las practicas porque cuentan mucho."
+    }
+  ],
+  "comments_recent": [
+    "Ve pocos ejercicios en clase, asegúrate de preguntar tus dudas de ellos en clase, las cuales suelen ser super tranquilas, nunca te exige nada, solo en el examen se pone estricta al revisar pero mientras apuntes bien tus formulas y las comprendas todo bien",
+    "La verdad me encanta como explica, todo lo hace paso a paso y de manera muy detallada, me gusta que esté abierta a resolver cualquier duda.",
+    "Es muy barco",
+    "Es muy buena maestra, es clara a la hora de explicar los temas y si los domina a la perfección. Lo que te sacas en el examen te queda pero si eres constante y no faltas al final te puede echar una mano. Es muy bonita tambien recomendada",
+    "Es buena onda pero hace exámenes super confusos y de 10 preguntas, y lo que te saques en el examen es lo que te pone de calificación.",
+    "No te exige nada pero explica todo de manera clara y te da mucha ayuda aparte de ser muy buena onda, de uno tiene que nacer el ponerle atención para aprender.",
+    "Muy buena maestra, con un carácter accesible, explica bien los contenidos de la materia así como las dudas, hace exámenes y trabajos prácticos, ve poca teoria. Es recomendable y no es difícil pasar con ella.",
+    "Es la mejor opción para esta materia, pero como es de las primeras veces que la imparte, algunas unidades las hace muy confusas, pero en general la materia es fácil.",
+    "Muy buena maestra, sus exámenes algo difíciles y confusos"
+  ],
+  "n_reviews": 18
+}

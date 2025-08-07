@@ -1,0 +1,33 @@
+{
+  "nombre": "Jesús Alberto Osuna Sanchez",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "ciudad": "Ciudad: culiacan, sinaloa",
+  "departamento": "Departamento/Facultad: Sistemas",
+  "calidad_general": 6.0,
+  "porcentaje_recomienda": 100,
+  "nivel_dificultad": 4.0,
+  "etiquetas": [
+    "BARCO (1)",
+    "ASISTENCIA OBLIGATORIA (1)"
+  ],
+  "numero_calificaciones": 1,
+  "calificaciones": [
+    {
+      "fecha": "10/Ago/2024",
+      "tipo_calificacion": "REGULAR",
+      "puntaje_calidad_general": 6.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Probabilidad y Estadistica",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "9",
+      "interes_clase": "",
+      "comentario": "Los exámenes abecés son copia de las tareas que deja además de ser muy sencillos, abecés puede ser confuso pero no esta mal.",
+      "etiquetas_comentario": [
+        "Barco",
+        "Asistencia obligatoria"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    }
+  ]
+}

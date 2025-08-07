@@ -1,0 +1,92 @@
+{
+  "nombre": "Marisol Manjarrez Beltran",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "ciudad": "Ciudad: culiacan, sinaloa",
+  "departamento": "Departamento/Facultad: Sistemas y Computacion",
+  "calidad_general": 6.0,
+  "porcentaje_recomienda": 50,
+  "nivel_dificultad": 3.5,
+  "etiquetas": [
+    "DA BUENA RETROALIMENTACIÓN (1)",
+    "PREPÁRATE PARA LEER (2)",
+    "LA PARTICIPACIÓN IMPORTA (1)",
+    "DEJA TRABAJOS LARGOS (2)",
+    "MUCHAS TAREAS (1)",
+    "CLASES EXCELENTES (1)",
+    "MUCHOS PROYECTOS GRUPALES (1)",
+    "ASISTENCIA OBLIGATORIA (1)"
+  ],
+  "numero_calificaciones": 4,
+  "calificaciones": [
+    {
+      "fecha": "24/Ene/2024",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 2.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Taller de investigacion I",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "24",
+      "interes_clase": "",
+      "comentario": "Te niega casi todas las ideas que se te puedan ocurrir. Quiere que pongas los pies sobre la tierra y a partir de ahí saques tu idea, pero a la vez quiere algo super complejo de desarrollar. Antes no hacia examen, ahora si lo hace (trata de pasarlo a la primera, si no después se complica).",
+      "etiquetas_comentario": [
+        "Prepárate para leer",
+        "Asistencia obligatoria",
+        "Deja trabajos largos"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "15/Dic/2023",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Taller de investigacion I",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "9",
+      "interes_clase": "",
+      "comentario": "Da las materias de Taller Investigacion I y II y la verdad, para ser una materia de relleno y que muchos considerarian \"aburrida\", la sabe dar muy bien, sus clases no son aburridas, son rapidas y cada semana deja un nuevo apartado para el proyecto.",
+      "etiquetas_comentario": [
+        "Muchas tareas",
+        "Clases excelentes",
+        "Muchos proyectos grupales"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "16/Dic/2021",
+      "tipo_calificacion": "REGULAR",
+      "puntaje_calidad_general": 4.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Taller de Investigacion 2",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "7.5",
+      "interes_clase": "",
+      "comentario": "Creo que todos esperamos de taller dos una materia facil en la que te pidan un F.O.D.A. y te pasen, pero esta maestra se lo toma muy enserio, exige muchas cosas y llega hasta a reprobar gente. En resumen, si te interesa aprender la materia carga con ella. Si no, por ningun motivo lo hagas.",
+      "etiquetas_comentario": [
+        "Prepárate para leer",
+        "La Participación Importa",
+        "Deja trabajos largos"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "18/Jun/2021",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 8.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Taller de Investigacion I",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "8.5",
+      "interes_clase": "",
+      "comentario": "Maestra buena onda, explica claro y no es nada difícil pasar con ella. Califica con un proyecto final, cada semana explica cada apartado a agregar y el proyecto final se va construyendo poco a poco. Le importa la participación para ir revisando tu proyecto y decirte si vas bien o mal.",
+      "etiquetas_comentario": [
+        "Da buena retroalimentación"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    }
+  ]
+}

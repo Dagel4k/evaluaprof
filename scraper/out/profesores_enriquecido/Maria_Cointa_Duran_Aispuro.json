@@ -1,0 +1,120 @@
+{
+  "professor_id": "Maria_Cointa_Duran_Aispuro",
+  "nombre": "Maria Cointa Duran Aispuro",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 8.147864015364597,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.21353238481989,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.667,
+    "wilson_interval": [
+      0.20765495512648788,
+      0.9385096847238393
+    ],
+    "n_recommendations": 3
+  },
+  "subject_normalization": {
+    "z_mean": 0.4,
+    "z_mean_decayed": 0.47,
+    "per_subject": [
+      {
+        "materia": "FÍSICA GENERAL",
+        "z_decayed": 0.8660254037844387,
+        "n": 4
+      },
+      {
+        "materia": "FISICA GENERAL",
+        "z_decayed": -0.5357396509842183,
+        "n": 12
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [],
+    "sentiment": {
+      "overall": null,
+      "by_month": {}
+    },
+    "n_comments": 3
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        6.0,
+        9.0,
+        9.0
+      ],
+      "ewma": [
+        6.0,
+        6.899999999999999,
+        7.529999999999998
+      ],
+      "sigma": 1.0776363022838467
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 7.529999999999998,
+      "quality_band": [
+        5.417832847523658,
+        9.642167152476336
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2025-08-07T00:00:00",
+      "materia": "FÍSICA GENERAL",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Es una maestra muy comprensiva, explica los temas de manera clara, brinda apoyo y ayuda si lo necesitas. Hay pocas tareas por unidad pero si las revisa con detalle y da retroalimentación. Los exámenes son de los temas vistos en clase y en las tareas. Es una excelente maestra, la recomiendo al 100%."
+    },
+    {
+      "fecha_iso": "2025-01-07T00:00:00",
+      "materia": "FÍSICA GENERAL",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Es buena maestra, si prestas atención a su clase y participas puede ayudarte un poco, en mi caso yo no pase la materia de la forma regular ya que acontecieron algunas cosas en Culiacán, aun así me pareció muy agradable, Cuidado con los exámenes, practica lo suficiente aunque deja sacar apuntes aMano"
+    },
+    {
+      "fecha_iso": "2024-08-27T00:00:00",
+      "materia": "FISICA GENERAL",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 23.0,
+      "recomienda": 0,
+      "comentario": "Entiendo muy poco lo que explica"
+    }
+  ],
+  "comments_recent": [
+    "Es una maestra muy comprensiva, explica los temas de manera clara, brinda apoyo y ayuda si lo necesitas. Hay pocas tareas por unidad pero si las revisa con detalle y da retroalimentación. Los exámenes son de los temas vistos en clase y en las tareas. Es una excelente maestra, la recomiendo al 100%.",
+    "Es buena maestra, si prestas atención a su clase y participas puede ayudarte un poco, en mi caso yo no pase la materia de la forma regular ya que acontecieron algunas cosas en Culiacán, aun así me pareció muy agradable, Cuidado con los exámenes, practica lo suficiente aunque deja sacar apuntes aMano",
+    "Entiendo muy poco lo que explica"
+  ],
+  "n_reviews": 3
+}

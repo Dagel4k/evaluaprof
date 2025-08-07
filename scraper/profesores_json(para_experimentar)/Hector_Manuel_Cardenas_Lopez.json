@@ -1,0 +1,103 @@
+{
+  "nombre": "Hector Manuel Cardenas Lopez",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "ciudad": "Ciudad: culiacan, sinaloa",
+  "departamento": "Departamento/Facultad: metal mecanica",
+  "calidad_general": 6.0,
+  "porcentaje_recomienda": 40,
+  "nivel_dificultad": 0.8,
+  "etiquetas": [
+    "INSPIRACIONAL (1)",
+    "ASPECTOS DE CALIFICACIÓN CLAROS (1)",
+    "BRINDA APOYO (1)",
+    "MUCHAS TAREAS (1)",
+    "CLASES EXCELENTES (1)",
+    "TOMARÍA SU CLASE OTRA VEZ (1)",
+    "BARCO (2)"
+  ],
+  "numero_calificaciones": 5,
+  "calificaciones": [
+    {
+      "fecha": "10/Ene/2025",
+      "tipo_calificacion": "REGULAR",
+      "puntaje_calidad_general": 4.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Programación Avanzada",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "8.5",
+      "interes_clase": "",
+      "comentario": "Profesor muy embustero y falta mucho, cuando llega a ir no enseña nada, puro hablar. Entre cargar con él y no cargar, mejor no cargues.",
+      "etiquetas_comentario": [
+        "Barco"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "08/Jul/2024",
+      "tipo_calificacion": "REGULAR",
+      "puntaje_calidad_general": 4.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Programación Avanzada",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "24",
+      "interes_clase": "",
+      "comentario": "Este profe habla mucho nomás para marear, como si nomás por hablar nos hiciera un favor, de lejos se mira que todo lo que \"enseña\" lo saca de chatgpt, puro código copiado y que ni entiende. Si tienen la oportunidad de cargar con otro profesor, háganlo, no creo que sea peor.",
+      "etiquetas_comentario": [
+        "Barco"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "01/Jun/2023",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 2.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Control Digital",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "7",
+      "interes_clase": "",
+      "comentario": "El profesor quiere aparentar que domina la materia, pero no da el ancho, además de que falta constantemente y no salimos del mismo tema en un semestre. Sus exámenes son difíciles porque ni el sabe como responderlos. No lo recomiendo, no carguen con el.",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "14/Dic/2021",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Mecatronica aplicada",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "N/A",
+      "interes_clase": "",
+      "comentario": "Es el único profesor de mecatrónica en explicar lo que se espera de nosotros como ingenieros (nadie mas lo había hecho hasta nuestro ultimo semestre). Es el mejor profesor para llevar la materia, mucho mejor que Alcaraz.",
+      "etiquetas_comentario": [
+        "Muchas tareas",
+        "Clases excelentes",
+        "Tomaría su clase otra vez"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "18/Nov/2021",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Mecatrónica aplicada",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "N/A",
+      "interes_clase": "",
+      "comentario": "Gran profesor para la materia.",
+      "etiquetas_comentario": [
+        "Inspiracional",
+        "Aspectos de calificación claros",
+        "Brinda apoyo"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    }
+  ]
+}

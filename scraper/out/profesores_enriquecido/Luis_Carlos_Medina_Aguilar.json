@@ -1,0 +1,308 @@
+{
+  "professor_id": "Luis_Carlos_Medina_Aguilar",
+  "nombre": "Luis Carlos Medina Aguilar",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 9.972048012265384,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 8.598953087072111,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 1.0,
+    "wilson_interval": [
+      0.7718981569447084,
+      1
+    ],
+    "n_recommendations": 13
+  },
+  "subject_normalization": {
+    "z_mean": 0.52,
+    "z_mean_decayed": 0.57,
+    "per_subject": [
+      {
+        "materia": "ESTATICA",
+        "z_decayed": 1.0085979905879108,
+        "n": 25
+      },
+      {
+        "materia": "DINÁMICA",
+        "z_decayed": 0.4217411678366503,
+        "n": 11
+      },
+      {
+        "materia": "DINAMICA",
+        "z_decayed": 0.0,
+        "n": 4
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "bueno",
+          "recomendable",
+          "tienes",
+          "da",
+          "es"
+        ],
+        "weight": 0.10466980450983195
+      },
+      {
+        "id": 1,
+        "words": [
+          "mejores",
+          "maestros",
+          "mejores maestros",
+          "explica",
+          "ampliamente"
+        ],
+        "weight": 0.12965561682205468
+      },
+      {
+        "id": 2,
+        "words": [
+          "he tenido",
+          "he",
+          "te",
+          "mejor",
+          "tenido"
+        ],
+        "weight": 0.17027931147873102
+      },
+      {
+        "id": 3,
+        "words": [
+          "atrevo",
+          "bueno",
+          "es bueno",
+          "decir",
+          "solo"
+        ],
+        "weight": 0.15996195414477885
+      },
+      {
+        "id": 4,
+        "words": [
+          "asi",
+          "explica",
+          "hace",
+          "examenes",
+          "porque"
+        ],
+        "weight": 0.13172184025259961
+      }
+    ],
+    "sentiment": {
+      "overall": 0.3333333333333333,
+      "by_month": {
+        "2019-01": 0.5,
+        "2018-08": 0.0,
+        "2017-08": 0.0,
+        "2016-08": 0.0,
+        "2015-06": 1.0,
+        "2015-04": 1.0,
+        "2015-01": 0.0,
+        "2014-01": 0.0,
+        "2013-11": 0.0,
+        "2013-03": 1.0,
+        "2012-05": 0.0
+      }
+    },
+    "n_comments": 12
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        8.0,
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        10.0
+      ],
+      "ewma": [
+        8.0,
+        8.6,
+        9.02,
+        9.314,
+        9.5198,
+        9.66386,
+        9.764702,
+        9.8352914,
+        9.88470398,
+        9.919292786,
+        9.9435049502,
+        9.960453465139999
+      ],
+      "sigma": 0.4367108383250511
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 9.960453465139999,
+      "quality_band": [
+        9.1045002220229,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2019-01-15T00:00:00",
+      "materia": "ESTATICA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "El maestro es bueno.\nDomina los temas que imparte, sabe como compartirte el conocimiento, es paciente y\nda oportunidades de mejora.\nSolo tiene el inconveniente que inicia clase demasiado temprano (20-25min).\n(entra con anticipación cuando hay salón solo).\nRecomendable, solo si no tienes clase antes."
+    },
+    {
+      "fecha_iso": "2019-01-07T00:00:00",
+      "materia": "ESTATICA/DINAMICA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Es una vergota el wacho"
+    },
+    {
+      "fecha_iso": "2018-08-13T00:00:00",
+      "materia": "DINÁMICA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Clases clarisimas, explicaciones perfectas, no le gusta que te aprendas nada de memoria sino que razones las cosas, que sepas de dónde vienen y por qué son asi. Estas clases son simplemente una joya y me atrevería a decir que es el mejor profesor que he tenido en mi vida como estudiante"
+    },
+    {
+      "fecha_iso": "2017-08-04T00:00:00",
+      "materia": "DINAMICA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "es una eminencia, de los mejores maestros del tec, explica super bien tantas veces como lo necesites ademas de que da bastantes oportunidades de pasar porque sus examenes de recuperacion son solo para subir"
+    },
+    {
+      "fecha_iso": "2016-08-04T00:00:00",
+      "materia": "DINÁMICA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Es una chola pa todo este profe."
+    },
+    {
+      "fecha_iso": "2015-06-11T00:00:00",
+      "materia": "ESTATICA/DINAMICA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Estupendo maestro, todo lo que explica queda muy claro, hace examenes  semanales asi que reprobar con el es porque de plano no le hechas ganas, muy madrugador pero vale totalmente la pena"
+    },
+    {
+      "fecha_iso": "2015-04-13T00:00:00",
+      "materia": "LO QUE DE",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "ESTE MAESTRO LA MATERIA QUE DE ES BUENO,\n\nDA \n\nESTATICA\nCALCULO DIFERENCIAL\nCALCULO INTEGRAL\nCALCULO VECTORIAL\nECUACIONES DIFERENCIALES\nDINAMICA\n\n LA MATERIA QUE DE ME ATREVO A DECIR QUE ES UNO DE LOS MEJORES."
+    },
+    {
+      "fecha_iso": "2015-01-08T00:00:00",
+      "materia": "ESTATICA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Lo recomiendo ampliamente, explica perfectamente"
+    },
+    {
+      "fecha_iso": "2014-01-13T00:00:00",
+      "materia": "DINAMICA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "No hay mucho que decir, sus 40 años de experiencia hablan por si solo, me atrevo a decir que es el mejor maestro que jamas eh tenido."
+    },
+    {
+      "fecha_iso": "2013-11-14T00:00:00",
+      "materia": "ESTATICA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "ojala todos fueran hasi"
+    },
+    {
+      "fecha_iso": "2013-03-20T00:00:00",
+      "materia": "DINÁMICA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "De los mejores maestros del Departamento de Metal-mecánica, explica todo de forma excelente, muy amable ve absolutamente todo el programa de manera que no lo sientes pesado AMPLIAMENTE RECOMENDADO aunque tengan que entrar a las 6:30 am carguen con él"
+    },
+    {
+      "fecha_iso": "2012-05-21T00:00:00",
+      "materia": "DINÁMICA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "El mejor maestro que he tenido, 100% recomendable,te da la confianza de preguntar, y responde hasta que hayas entendido. Lo único pesado es que hace examen cada 2 semanas,pero la ventaja es que al siguiente jueves tienes la oportunidad de \"continuar el examen\".En el examen no pone nada que no se vio"
+    },
+    {
+      "fecha_iso": "2011-07-21T00:00:00",
+      "materia": "ESTATICA",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": ""
+    }
+  ],
+  "comments_recent": [
+    "El maestro es bueno.\nDomina los temas que imparte, sabe como compartirte el conocimiento, es paciente y\nda oportunidades de mejora.\nSolo tiene el inconveniente que inicia clase demasiado temprano (20-25min).\n(entra con anticipación cuando hay salón solo).\nRecomendable, solo si no tienes clase antes.",
+    "Es una vergota el wacho",
+    "Clases clarisimas, explicaciones perfectas, no le gusta que te aprendas nada de memoria sino que razones las cosas, que sepas de dónde vienen y por qué son asi. Estas clases son simplemente una joya y me atrevería a decir que es el mejor profesor que he tenido en mi vida como estudiante",
+    "es una eminencia, de los mejores maestros del tec, explica super bien tantas veces como lo necesites ademas de que da bastantes oportunidades de pasar porque sus examenes de recuperacion son solo para subir",
+    "Es una chola pa todo este profe.",
+    "Estupendo maestro, todo lo que explica queda muy claro, hace examenes  semanales asi que reprobar con el es porque de plano no le hechas ganas, muy madrugador pero vale totalmente la pena",
+    "ESTE MAESTRO LA MATERIA QUE DE ES BUENO,\n\nDA \n\nESTATICA\nCALCULO DIFERENCIAL\nCALCULO INTEGRAL\nCALCULO VECTORIAL\nECUACIONES DIFERENCIALES\nDINAMICA\n\n LA MATERIA QUE DE ME ATREVO A DECIR QUE ES UNO DE LOS MEJORES.",
+    "Lo recomiendo ampliamente, explica perfectamente",
+    "No hay mucho que decir, sus 40 años de experiencia hablan por si solo, me atrevo a decir que es el mejor maestro que jamas eh tenido.",
+    "ojala todos fueran hasi"
+  ],
+  "n_reviews": 13
+}

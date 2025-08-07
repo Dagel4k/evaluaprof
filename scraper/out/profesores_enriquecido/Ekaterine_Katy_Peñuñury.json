@@ -1,0 +1,572 @@
+{
+  "professor_id": "Ekaterine_Katy_Peñuñury",
+  "nombre": "Ekaterine (Katy) Peñuñury",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 8.389017919171252,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.995128717449099,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.833,
+    "wilson_interval": [
+      0.6810888526532568,
+      0.921296593714359
+    ],
+    "n_recommendations": 36
+  },
+  "subject_normalization": {
+    "z_mean": 0.31,
+    "z_mean_decayed": 0.57,
+    "per_subject": [
+      {
+        "materia": "---",
+        "z_decayed": 1.2286434184578852,
+        "n": 521
+      },
+      {
+        "materia": "PROGRAMACION 2",
+        "z_decayed": 1.1547005383792517,
+        "n": 3
+      },
+      {
+        "materia": "PROGRAMACION",
+        "z_decayed": 1.091594021073081,
+        "n": 20
+      },
+      {
+        "materia": "PROGRAMACIÓN ORIENTADA A OBJETOS",
+        "z_decayed": 0.8587253714039146,
+        "n": 11
+      },
+      {
+        "materia": "TOPICOS",
+        "z_decayed": 0.6903446930244588,
+        "n": 8
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "revision",
+          "esperando",
+          "comentario esperando",
+          "comentario",
+          "esperando revision"
+        ],
+        "weight": 0.09744546469897311
+      },
+      {
+        "id": 1,
+        "words": [
+          "ayuda",
+          "te ayuda",
+          "deja",
+          "si",
+          "te"
+        ],
+        "weight": 0.09687678292658769
+      },
+      {
+        "id": 2,
+        "words": [
+          "teoria",
+          "es buena",
+          "maestra",
+          "buena maestra",
+          "buena"
+        ],
+        "weight": 0.12258201154885413
+      },
+      {
+        "id": 3,
+        "words": [
+          "pone",
+          "alumnos",
+          "maestros",
+          "sabe",
+          "es"
+        ],
+        "weight": 0.14029839741687875
+      },
+      {
+        "id": 4,
+        "words": [
+          "clases",
+          "muchisimo",
+          "falta muchisimo",
+          "falta",
+          "va"
+        ],
+        "weight": 0.06758544777671072
+      }
+    ],
+    "sentiment": {
+      "overall": 0.17647058823529413,
+      "by_month": {
+        "2023-05": 0.0,
+        "2023-01": 0.0,
+        "2022-12": 0.0,
+        "2022-09": 0.0,
+        "2022-07": 0.0,
+        "2021-09": 0.0,
+        "2020-03": 0.0,
+        "2019-08": 0.0,
+        "2018-11": 0.0,
+        "2018-10": 0.0,
+        "2018-05": 0.5,
+        "2018-02": 0.0,
+        "2018-01": 0.5,
+        "2017-02": 0.0,
+        "2016-08": 1.0,
+        "2016-05": 0.0,
+        "2015-09": 0.0,
+        "2014-01": 0.0,
+        "2013-11": 0.0,
+        "2012-11": 0.0,
+        "2011-11": 0.0,
+        "2011-07": 0.5,
+        "2011-05": 0.0,
+        "2011-03": 1.0,
+        "2011-01": 0.0,
+        "2010-10": 0.0,
+        "2010-09": 0.0
+      }
+    },
+    "n_comments": 34
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.02,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 0.99
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        8.666666666666666,
+        10.0,
+        10.0,
+        9.0,
+        5.333333333333333,
+        8.5,
+        7.0,
+        10.0,
+        5.0,
+        10.0,
+        2.0,
+        10.0,
+        8.0,
+        7.0,
+        8.5,
+        10.0,
+        9.5,
+        10.0,
+        10.0,
+        10.0,
+        9.0,
+        10.0,
+        9.0,
+        8.0,
+        9.0,
+        8.0,
+        6.0,
+        8.0
+      ],
+      "ewma": [
+        8.666666666666666,
+        9.066666666666666,
+        9.346666666666666,
+        9.242666666666665,
+        8.069866666666664,
+        8.198906666666664,
+        7.839234666666664,
+        8.487464266666665,
+        7.441224986666665,
+        8.208857490666665,
+        6.346200243466664,
+        7.4423401704266645,
+        7.6096381192986655,
+        7.426746683509066,
+        7.748722678456345,
+        8.42410587491944,
+        8.746874112443608,
+        9.122811878710525,
+        9.385968315097367,
+        9.570177820568157,
+        9.39912447439771,
+        9.579387132078395,
+        9.405570992454876,
+        8.983899694718414,
+        8.988729786302889,
+        8.692110850412021,
+        7.8844775952884145,
+        7.919134316701889
+      ],
+      "sigma": 1.4555752927454253
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 7.919134316701889,
+      "quality_band": [
+        5.066206742920856,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2023-05-26T00:00:00",
+      "materia": "IA",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "es muy exigente, no domina tanto ia aun pero en terminos de maestra es muy buena"
+    },
+    {
+      "fecha_iso": "2023-01-07T00:00:00",
+      "materia": "IA",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 0,
+      "comentario": "Es escandalosamente floja, este semestre los inicio 2 semanas de atraso,  pone a dar clases a sus alumnos de maestria y no saben nada de inteligencia artificial. \n No entiendo por qué las autoridades no hacen algo con estos maestros flojos y eso que son ejemplo de uno."
+    },
+    {
+      "fecha_iso": "2022-12-17T00:00:00",
+      "materia": "INTELIGENCIA ARTIFICIAL",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": "De las mas exigentes de sistemas, dificilmente le vas a sacar un 80 o un 90 pero algo te va a quedar, lastima que en ia el curso es muy extraño pero en general buena"
+    },
+    {
+      "fecha_iso": "2022-09-07T00:00:00",
+      "materia": "TOPICOS",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Niños"
+    },
+    {
+      "fecha_iso": "2022-07-14T00:00:00",
+      "materia": "TOPICOS AVANZADOS DE PROGRAMACION",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "La profe tiene su carácter pero aprendes, siempre deja tarea al final de la clases. En cada unidad deja un proyecto y cada tarea que deja la tienes que añadir a tu proyecto. La asistencia es obligatoria y si no pones atención se enoja xd."
+    },
+    {
+      "fecha_iso": "2022-04-08T00:00:00",
+      "materia": "POO",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2021-09-14T00:00:00",
+      "materia": "PROGRAMACION 2",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Se preocupa por que realmente aprendas, la mejor profesora de programación, brinda apoyo siempre que lo necesitas. Mucha tarea, pero aprenderás demasiado."
+    },
+    {
+      "fecha_iso": "2020-03-17T00:00:00",
+      "materia": "XD",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "XD"
+    },
+    {
+      "fecha_iso": "2019-08-05T00:00:00",
+      "materia": "PROGRAMACIÓN ORIENTADA A OBJETOS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Es muy buena maestra, aunque algunos digan lo contrario. Sus clases son muy bien sustentadas, además de que siempre tratará de tener a los alumnos programando. Es dura al momento de calificar, pero brinda el apoyo suficiente (hasta fuera de clases). Toma en cuenta el esfuerzo."
+    },
+    {
+      "fecha_iso": "2018-11-01T00:00:00",
+      "materia": "---",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2018-10-23T00:00:00",
+      "materia": "---",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2018-05-26T00:00:00",
+      "materia": "---",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2018-05-21T00:00:00",
+      "materia": "PROGRAMACIÓN ORIENTADA A OBJETOS",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Si vienes con unas bases de programación bastante malas(como fue mi caso), yo si te la recomiendo 100% porque aunque se ve que no es la que más sabe de programación, lo que es enseñar lo hace de lujo. Deja bastante tareas, y sus exámenes suelen ser teórico y práctico, además valora el esfuerzo."
+    },
+    {
+      "fecha_iso": "2018-02-13T00:00:00",
+      "materia": "---",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 2.0,
+      "recomienda": 1,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2018-01-18T00:00:00",
+      "materia": "ESTRUCTURA DE DATOS",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 1,
+      "comentario": "Si te interesa aprender y no solo pasar la materia es muy buena profesora, muy accesible y paciente con sus alumnos. Sabe explicar bien los temas pero los examenes son algo largos. Toma en cuenta mucho la asistencia y las tareas. Mucho programar en su clase."
+    },
+    {
+      "fecha_iso": "2018-01-16T00:00:00",
+      "materia": "ESTRUCTURA DE DATOS",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 1,
+      "comentario": "Pone teoría y practica en sus examenes, estos son difíciles pero justos. Es muy buena explicando y siempre que tenga tiempo está disponible para ayudar en cualquier duda (sea de la clase o no) que se tenga."
+    },
+    {
+      "fecha_iso": "2017-02-02T00:00:00",
+      "materia": "ESTRUCTURA DE DATOS",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": "Es muy linda, regaña como si fuera tu mamá, te ayuda si lo necesitas.. pero deja demasiadas tarea y son algo largas. No te deja estudiar para el examen por tantas tareas y proyectos"
+    },
+    {
+      "fecha_iso": "2016-08-11T00:00:00",
+      "materia": "ESTRUCTURA DE DATOS",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Muy buena Maestra, carguen con ella y aprenderan, explica claro, ademas anda con una actitud positiva, si no llevaron buenas bases se les dificultara, pero de todos modos ella te da un repaso, la verdad si le gusta la materia es una buena opcion aparte de Clemente, no se arrepentiran"
+    },
+    {
+      "fecha_iso": "2016-08-08T00:00:00",
+      "materia": "ESTRUCTURA DE DATOS",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 24.0,
+      "recomienda": 1,
+      "comentario": "Esta maestra explica muy claro, deja muchos proyectos, con ella vas a practicar mucho y vas a reforzar lo que aprendiste en poo y fund. de programación."
+    },
+    {
+      "fecha_iso": "2016-05-18T00:00:00",
+      "materia": "ESTRUCTURA DE DATOS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Un amor, es lo unico que tengo que decir, por ella es que se programar, literal, llegue a su clase sin saber que era un boolean o un int. Explica muy bien, y es muy muy accesible, en los examenes te ayuda, te aclara tus dudas bien. Para estructura es ella o jaime, clemente si te sientes pro."
+    },
+    {
+      "fecha_iso": "2015-09-24T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2014-01-07T00:00:00",
+      "materia": "PROGRAMACION",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Muy buena maestra te explica hasta que entiendas y te ayuda muchísimo. Ya depende del alumno si quiere o no aprender. Muy recomendada"
+    },
+    {
+      "fecha_iso": "2013-11-14T00:00:00",
+      "materia": "NNNN",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 5.5,
+      "recomienda": 0,
+      "comentario": "Falta muchisimo a clase no va muy seguido a clases no la recomiendo"
+    },
+    {
+      "fecha_iso": "2012-11-08T00:00:00",
+      "materia": "TOPICOS.",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": "Si pero falta muchisimo a clases no va muy seguiedo."
+    },
+    {
+      "fecha_iso": "2011-11-16T00:00:00",
+      "materia": "TOPICOS",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Te trata como su hijo. Y regaña igual hahaha. Pero casi el mismo problema de todo el tec; mucha teoría y poca práctica. Es una muy buena maestra."
+    },
+    {
+      "fecha_iso": "2011-07-22T00:00:00",
+      "materia": "TOPICOS",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 6.5,
+      "recomienda": 1,
+      "comentario": "maestra muy amargada siempre de mal humor deberian poner maestros que apoyen mas a sus alumnos que tengan mas valores."
+    },
+    {
+      "fecha_iso": "2011-07-05T00:00:00",
+      "materia": "TÓPICOS SELECTOS DE PROGRAMACION / IMCASO / PRUEBAS SW",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Excelente maestra, con Lic en Informática domina temas de Ingeniería y los explica con ejemplos claros, con su esperiencia siempre ve por sus alumnos y busca la manera de motivarlos a seguir investigando temas adicionales en clases."
+    },
+    {
+      "fecha_iso": "2011-05-12T00:00:00",
+      "materia": "IMCASO",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Muy buena maestra"
+    },
+    {
+      "fecha_iso": "2011-05-10T00:00:00",
+      "materia": "TOPICOS",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": "no te toma en cuenta tareas"
+    },
+    {
+      "fecha_iso": "2011-05-07T00:00:00",
+      "materia": "TOPICOS",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": "no sabe"
+    },
+    {
+      "fecha_iso": "2011-03-08T00:00:00",
+      "materia": "TOPICOS SELECTOS DE PROGRAMACIÓN",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Excelente maestra, te hace que trabajes si o si."
+    },
+    {
+      "fecha_iso": "2011-01-06T00:00:00",
+      "materia": "TOPICOS SELECTOS DE PROGRAMACIÓN",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Muy buena maestra."
+    },
+    {
+      "fecha_iso": "2010-10-13T00:00:00",
+      "materia": "PLANIFICACIÓN Y MODELADO",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Altamente recomendable, así como exige también ayuda, es fácil hablar con ella y sabe mucho, pocos maestros como ella."
+    },
+    {
+      "fecha_iso": "2010-09-28T00:00:00",
+      "materia": "TÓPICOS SELECTOS DE COMPUTACIÓN",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2010-09-21T00:00:00",
+      "materia": "TÓP. SEL. DE PROG., PLAN. Y MOD., IMCASO",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Recomendadísima."
+    },
+    {
+      "fecha_iso": "2010-09-21T00:00:00",
+      "materia": "CALIDAD DE SOFTWARE",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 0,
+      "comentario": "Pues, la señora Katy te ayuda como si fuera de tu familia, se preocupa y te da consejos."
+    }
+  ],
+  "comments_recent": [
+    "es muy exigente, no domina tanto ia aun pero en terminos de maestra es muy buena",
+    "Es escandalosamente floja, este semestre los inicio 2 semanas de atraso,  pone a dar clases a sus alumnos de maestria y no saben nada de inteligencia artificial. \n No entiendo por qué las autoridades no hacen algo con estos maestros flojos y eso que son ejemplo de uno.",
+    "De las mas exigentes de sistemas, dificilmente le vas a sacar un 80 o un 90 pero algo te va a quedar, lastima que en ia el curso es muy extraño pero en general buena",
+    "Niños",
+    "La profe tiene su carácter pero aprendes, siempre deja tarea al final de la clases. En cada unidad deja un proyecto y cada tarea que deja la tienes que añadir a tu proyecto. La asistencia es obligatoria y si no pones atención se enoja xd.",
+    "Se preocupa por que realmente aprendas, la mejor profesora de programación, brinda apoyo siempre que lo necesitas. Mucha tarea, pero aprenderás demasiado.",
+    "XD",
+    "Es muy buena maestra, aunque algunos digan lo contrario. Sus clases son muy bien sustentadas, además de que siempre tratará de tener a los alumnos programando. Es dura al momento de calificar, pero brinda el apoyo suficiente (hasta fuera de clases). Toma en cuenta el esfuerzo.",
+    "[Comentario esperando revisión]"
+  ],
+  "n_reviews": 36
+}

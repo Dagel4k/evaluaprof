@@ -1,0 +1,76 @@
+{
+  "nombre": "Luis Fernando Ortega López",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "ciudad": "Ciudad: culiacan, sinaloa",
+  "departamento": "Departamento/Facultad: Ingeniería Industrial",
+  "calidad_general": 3.3,
+  "porcentaje_recomienda": 25,
+  "nivel_dificultad": 5.5,
+  "etiquetas": [
+    "HACE EXÁMENES SORPRESA (1)",
+    "CALIFICA DURO (1)"
+  ],
+  "numero_calificaciones": 4,
+  "calificaciones": [
+    {
+      "fecha": "08/Mar/2021",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 2.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "dibujo",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "8",
+      "interes_clase": "",
+      "comentario": "no mamen, si de por si no sabe explicar, califica horrible y aparte se traba.",
+      "etiquetas_comentario": [
+        "Califica Duro"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "30/Ene/2019",
+      "tipo_calificacion": "REGULAR",
+      "puntaje_calidad_general": 5.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Dibujo industrial",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "9",
+      "interes_clase": "",
+      "comentario": "La neta solo el pendejo que no intenta nada reprueba, si quieres estar copiando nms obviamente vas a reprobar \nEsta mejor que otros profes",
+      "etiquetas_comentario": [
+        "Hace exámenes sorpresa"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "04/Ago/2014",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 2.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "dibujo industrial",
+      "asistencia": "",
+      "calificacion_recibida": "1",
+      "interes_clase": "1",
+      "comentario": "es un ascoooooooooooooooooooooooooooooooooooo pide dinerooooooooo",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "18/Jun/2013",
+      "tipo_calificacion": "REGULAR",
+      "puntaje_calidad_general": 4.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "---",
+      "asistencia": "",
+      "calificacion_recibida": "N/A",
+      "interes_clase": "N/A",
+      "comentario": "[Comentario esperando revisión]",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    }
+  ]
+}

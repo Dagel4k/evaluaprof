@@ -1,0 +1,149 @@
+{
+  "professor_id": "OMAR_ENRIQUE_MANJARREZ_VEGA",
+  "nombre": "OMAR ENRIQUE MANJARREZ VEGA",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 10.0,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.841137214475611,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 1.0,
+    "wilson_interval": [
+      0.5100999795960008,
+      1
+    ],
+    "n_recommendations": 4
+  },
+  "subject_normalization": {
+    "z_mean": null,
+    "z_mean_decayed": null,
+    "per_subject": []
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "duda",
+          "es",
+          "mejores",
+          "mejores profesores",
+          "profesores"
+        ],
+        "weight": 0.30223413970356555
+      },
+      {
+        "id": 1,
+        "words": [
+          "mejores profesores",
+          "mejores",
+          "profesores",
+          "es",
+          "duda"
+        ],
+        "weight": 0.34602291374497196
+      }
+    ],
+    "sentiment": {
+      "overall": 0.5,
+      "by_month": {
+        "2021-01": 1.0,
+        "2020-06": 0.0,
+        "2019-05": 1.0,
+        "2019-01": 0.0
+      }
+    },
+    "n_comments": 4
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        10.0,
+        10.0,
+        10.0,
+        10.0
+      ],
+      "ewma": [
+        10.0,
+        10.0,
+        10.0,
+        10.0
+      ],
+      "sigma": 0.0
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 10.0,
+      "quality_band": [
+        10.0,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2021-01-16T00:00:00",
+      "materia": "MÁQUINAS ELECTRICAS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Este profesor demuesta su dominio de los temas y es muy bueno para explicarlos, ademas de que tiene buena paciencia para cualquier duda y dar ejemplos reales de la industria, no la dude compa."
+    },
+    {
+      "fecha_iso": "2020-06-24T00:00:00",
+      "materia": "ENERGIAS RENOVABLE (SOLAR-EOLICA)",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Lo recomiendo totalmente, de los mejores profesores del ITC"
+    },
+    {
+      "fecha_iso": "2019-05-06T00:00:00",
+      "materia": "SISTEMAS FOTOVOLTAICOS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "explica claro, si tienes alguna duda siempre esta disponible para ayudarte, es de los mejores profesores de renovables."
+    },
+    {
+      "fecha_iso": "2019-01-15T00:00:00",
+      "materia": "ENERGÍA EÓLICA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "MUY BUEN MAESTRO"
+    }
+  ],
+  "comments_recent": [
+    "Este profesor demuesta su dominio de los temas y es muy bueno para explicarlos, ademas de que tiene buena paciencia para cualquier duda y dar ejemplos reales de la industria, no la dude compa.",
+    "Lo recomiendo totalmente, de los mejores profesores del ITC",
+    "explica claro, si tienes alguna duda siempre esta disponible para ayudarte, es de los mejores profesores de renovables.",
+    "MUY BUEN MAESTRO"
+  ],
+  "n_reviews": 4
+}

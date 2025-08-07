@@ -1,0 +1,353 @@
+{
+  "nombre": "Ismael Diaz Peña",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "ciudad": "Ciudad: culiacan, sinaloa",
+  "departamento": "Departamento/Facultad: Metal-Mecanica",
+  "calidad_general": 5.1,
+  "porcentaje_recomienda": 25,
+  "nivel_dificultad": 4.9,
+  "etiquetas": [
+    "CALIFICA DURO (6)",
+    "PREPÁRATE PARA LEER (7)",
+    "POCOS EXÁMENES (6)",
+    "DA BUENA RETROALIMENTACIÓN (2)",
+    "BRINDA APOYO (3)",
+    "ASISTENCIA OBLIGATORIA (8)",
+    "LOS EXÁMENES SON DIFÍCILES (8)",
+    "BARCO (4)",
+    "MUCHOS EXÁMENES (1)",
+    "LAS CLASES SON LARGAS (1)"
+  ],
+  "numero_calificaciones": 19,
+  "calificaciones": [
+    {
+      "fecha": "14/Mar/2024",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 7.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Mecánica",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "23",
+      "interes_clase": "",
+      "comentario": "",
+      "etiquetas_comentario": [
+        "Califica Duro",
+        "Muy cómico",
+        "Asistencia obligatoria"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "19/Nov/2023",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 2.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Mecanica",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "7",
+      "interes_clase": "",
+      "comentario": "",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "11/Jun/2022",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 3.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "---",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "9",
+      "interes_clase": "",
+      "comentario": "[Comentario esperando revisión]",
+      "etiquetas_comentario": [
+        "Barco",
+        "Asistencia obligatoria"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "21/Dic/2021",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 7.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Ingenieria de materiales no metalicos",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "me toco clases en linea con el, es muy barco jamas me dio una semana completa, le falta eso del saber explicar porque sabe mucho este porfe, tambien tiene que ayuda mucho en proyectos tanto como del tec como proyectos de el mismo y le va a los Tigres.",
+      "etiquetas_comentario": [
+        "Barco",
+        "La Participación Importa",
+        "Pocos Exámenes"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "29/Nov/2021",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 2.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "cualquiera",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "N/A",
+      "interes_clase": "",
+      "comentario": "Es una lástima que estos sean los \"profes jóvenes\" que van a vivir del tec mucho tiempo, 0% comprensible y muy exigente como si enseñara mucho, solo es un ing frustrado.",
+      "etiquetas_comentario": [
+        "Prepárate para leer",
+        "Las clases son largas",
+        "Los exámenes son difíciles"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "12/Ago/2021",
+      "tipo_calificacion": "REGULAR",
+      "puntaje_calidad_general": 6.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Materiales",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "7",
+      "interes_clase": "",
+      "comentario": "La verdad el profe esta guapo, pero como que le falta en eso de dar clases, lo le sabe y aparte no vale brg como TOplanner",
+      "etiquetas_comentario": [
+        "Asistencia obligatoria",
+        "Muchos Exámenes",
+        "Los exámenes son difíciles"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "18/Jun/2021",
+      "tipo_calificacion": "REGULAR",
+      "puntaje_calidad_general": 6.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Ingenieria de materiales metalicos",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "9",
+      "interes_clase": "",
+      "comentario": "Me toco clases e linea con el y era un profe barco, no daba clases todos los dias y ningun examen hicimos con el, eso si el tipo sabe bastante de esa materia",
+      "etiquetas_comentario": [
+        "Barco",
+        "Prepárate para leer",
+        "Pocos Exámenes"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "25/Mar/2021",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Materiales",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "9",
+      "interes_clase": "",
+      "comentario": "La verdad los examenes son dificiles pero todo viene en las diapositivas, no la cuenta si no pones exactamente lo que venia en la diapositiva, Al final todos pasan con 70, Es malisimo en el LoL. Si no vas a su clase no te deja hacer el examen final aunque diga que no importa la asistencia",
+      "etiquetas_comentario": [
+        "Pocos Exámenes",
+        "Brinda apoyo"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "19/Ago/2019",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 3.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Tecnología de los materiales",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "7",
+      "interes_clase": "",
+      "comentario": "pues la verdad agarramos cura, pero su manera de dar la clase era demasiado aburrida y califica del qlo, pero pues aveces se agarraba cura",
+      "etiquetas_comentario": [],
+      "votos_utiles": "1",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "07/Ago/2019",
+      "tipo_calificacion": "REGULAR",
+      "puntaje_calidad_general": 4.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Termodinamica",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "7.5",
+      "interes_clase": "",
+      "comentario": "El peor maestro del Tec, mejor da la materia de baja, aunque la mayoría de las veces las materias que son pendiente por asignar las termina dando él",
+      "etiquetas_comentario": [
+        "Barco",
+        "Prepárate para leer"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "04/Ago/2019",
+      "tipo_calificacion": "REGULAR",
+      "puntaje_calidad_general": 4.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Termodinámica",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "N/A",
+      "interes_clase": "",
+      "comentario": "Sólo te daré un consejo: No cargues con el. Y si lo haces no faltes ningún día, será tu única opción de no reprobar.",
+      "etiquetas_comentario": [
+        "Prepárate para leer",
+        "Asistencia obligatoria",
+        "Los exámenes son difíciles"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "04/Ago/2019",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 3.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Física",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "7",
+      "interes_clase": "",
+      "comentario": "",
+      "etiquetas_comentario": [
+        "Califica Duro",
+        "Pocos Exámenes",
+        "Los exámenes son difíciles"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "25/Jul/2019",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 2.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Fundamentos de Termodinámica",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "8.5",
+      "interes_clase": "",
+      "comentario": "Le cerraron el grupo de verano por p3nd3j0, nadie lo quiere.",
+      "etiquetas_comentario": [
+        "Asistencia obligatoria",
+        "Los exámenes son difíciles"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "1"
+    },
+    {
+      "fecha": "12/Jun/2019",
+      "tipo_calificacion": "REGULAR",
+      "puntaje_calidad_general": 4.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Termodinamica",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "8.5",
+      "interes_clase": "",
+      "comentario": "Pésimo, pero es lo que hay.\nDice que la asistencia no es parte de la calificación pero si para tener derecho a examen.\nEstarás solo por tu cuenta.\nMejor dala de baja... o arriésgate es tu pex.",
+      "etiquetas_comentario": [
+        "Prepárate para leer",
+        "Asistencia obligatoria",
+        "Los exámenes son difíciles"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "05/May/2019",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 2.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Fundamentos de la Termodinamica",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "21",
+      "interes_clase": "",
+      "comentario": "",
+      "etiquetas_comentario": [
+        "Asistencia obligatoria",
+        "Pocos Exámenes",
+        "Los exámenes son difíciles"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "26/Feb/2019",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 9.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Termodinámica",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "Trae sus diapositivas siempre, pero explica muy bien las actividades y problemas prácticos, la teoría es un poco tediosa, pero también lo explica todo.",
+      "etiquetas_comentario": [
+        "Prepárate para leer",
+        "Brinda apoyo"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "12/Ene/2019",
+      "tipo_calificacion": "REGULAR",
+      "puntaje_calidad_general": 6.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "materiales",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "7",
+      "interes_clase": "",
+      "comentario": "Las clases son a diapositivas, no es muy bueno explicando, es recomendable tomar asesorías de sus materias, los exámenes son difíciles y las recuperaciones son peor. con dos unidades aprobadas, apruebas la tercera",
+      "etiquetas_comentario": [
+        "Califica Duro",
+        "Asistencia obligatoria",
+        "Los exámenes son difíciles"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "1"
+    },
+    {
+      "fecha": "03/Ene/2018",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 8.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "fisica",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "8",
+      "interes_clase": "",
+      "comentario": "es bueno explicando los problemas, en los exámenes siempre los pone parecidos. Tienes que tomar nota de las diapositivas porque de ahí saca material para los exámenes, al final si le echaste ganas y le debes alguna unidad te pasa.",
+      "etiquetas_comentario": [
+        "Califica Duro",
+        "Da buena retroalimentación",
+        "Brinda apoyo"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "15/Dic/2017",
+      "tipo_calificacion": "REGULAR",
+      "puntaje_calidad_general": 6.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Procesos de fabricacion",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "8.5",
+      "interes_clase": "",
+      "comentario": "No sabe dar clases, las clases son tediosas porque pone puras diapositivas en todo el semestre, en los exámenes prepárate para machetearle",
+      "etiquetas_comentario": [
+        "Califica Duro",
+        "Prepárate para leer",
+        "Pocos Exámenes"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    }
+  ]
+}

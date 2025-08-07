@@ -1,0 +1,332 @@
+{
+  "professor_id": "Hector_Rodriguez_Rangel",
+  "nombre": "Hector Rodriguez Rangel",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 8.72948207271528,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.198996708444106,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.643,
+    "wilson_interval": [
+      0.3876400468214041,
+      0.8365550926279727
+    ],
+    "n_recommendations": 14
+  },
+  "subject_normalization": {
+    "z_mean": 0.34,
+    "z_mean_decayed": 0.66,
+    "per_subject": [
+      {
+        "materia": "---",
+        "z_decayed": 1.4344005554680674,
+        "n": 521
+      },
+      {
+        "materia": "INTELIGENCIA ARTIFICIAL",
+        "z_decayed": 0.6750234125150858,
+        "n": 12
+      },
+      {
+        "materia": "MAESTRIA",
+        "z_decayed": -0.3405113519914491,
+        "n": 15
+      },
+      {
+        "materia": "IA",
+        "z_decayed": -0.6433477821267088,
+        "n": 7
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "clase",
+          "buen",
+          "buen profesor",
+          "profesor",
+          "te"
+        ],
+        "weight": 0.15092597537266
+      },
+      {
+        "id": 1,
+        "words": [
+          "esperando",
+          "comentario",
+          "revision",
+          "esperando revision",
+          "comentario esperando"
+        ],
+        "weight": 0.10927864225527155
+      },
+      {
+        "id": 2,
+        "words": [
+          "materia",
+          "maestro",
+          "dificil",
+          "sabe",
+          "basura"
+        ],
+        "weight": 0.11372316034073728
+      },
+      {
+        "id": 3,
+        "words": [
+          "tiene",
+          "solo",
+          "es",
+          "falta",
+          "docente"
+        ],
+        "weight": 0.12319576498361519
+      },
+      {
+        "id": 4,
+        "words": [
+          "es excelente",
+          "es buen",
+          "es",
+          "domina",
+          "temas"
+        ],
+        "weight": 0.15379747976760386
+      }
+    ],
+    "sentiment": {
+      "overall": 0.0,
+      "by_month": {
+        "2025-04": 1.0,
+        "2024-12": 0.0,
+        "2022-08": 0.0,
+        "2022-02": 0.0,
+        "2020-10": 0.0,
+        "2020-08": 0.0,
+        "2020-06": -1.0,
+        "2018-08": 0.0,
+        "2018-04": 0.0
+      }
+    },
+    "n_comments": 13
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.013,
+    "bursts": [
+      {
+        "from": "2024-12-04T00:00:00",
+        "to": "2024-12-04T00:00:00",
+        "count": 3
+      },
+      {
+        "from": "2024-12-04T00:00:00",
+        "to": "2024-12-04T00:00:00",
+        "count": 4
+      },
+      {
+        "from": "2024-12-04T00:00:00",
+        "to": "2024-12-04T00:00:00",
+        "count": 5
+      }
+    ],
+    "low_variance_flag": 0,
+    "trust_score": 0.69
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        5.0,
+        5.0,
+        10.0,
+        3.0,
+        2.0,
+        2.0,
+        10.0,
+        10.0,
+        9.2,
+        10.0
+      ],
+      "ewma": [
+        5.0,
+        5.0,
+        6.5,
+        5.449999999999999,
+        4.414999999999999,
+        3.6904999999999992,
+        5.583349999999999,
+        6.908344999999999,
+        7.595841499999999,
+        8.31708905
+      ],
+      "sigma": 2.4815450209742957
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 8.31708905,
+      "quality_band": [
+        3.4532608088903807,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2025-04-24T00:00:00",
+      "materia": "INTELIGENCIA ARTIFICIAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Es un excelente profesor, te pide que usas chatGPT, no entiendo porque le tienen miedo, en 3 años no e conocido a nadie que repruebe con el, impone mucho pero aprendes demasiado sobre las nuevas tecnologias, eso si, nunca faltes a sus clases porque te movia a no volverlo hacer."
+    },
+    {
+      "fecha_iso": "2024-12-04T00:00:00",
+      "materia": "INTELIGENCIA ARTIFICIAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Es muy buen profe, domina muy bieen los temas"
+    },
+    {
+      "fecha_iso": "2024-12-04T00:00:00",
+      "materia": "TÓPICOS DE INTELIGENCIA ARTIFICIAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Es un excelente maestro, sus clases son muy dinámicas, no son aburridas. Domina los temas de los que habla y es muy comprensible."
+    },
+    {
+      "fecha_iso": "2024-12-04T00:00:00",
+      "materia": "TÓPICOS DE IA",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": "Califica en equipos, ojo con quien te juntas. Deja tareas que tienen que hacer todos pero solo exponen 1 o 2.Si faltas, te deja una tarea solo para ti y quien sabe como le vas hacer para saber cual es esa tarea, tarea que aparte tienes que exponer en clase y si no la haces te deja otra mas difícil."
+    },
+    {
+      "fecha_iso": "2024-12-04T00:00:00",
+      "materia": "TOPICOS DE INTELIGENCIA ARTIFICIAL",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 23.0,
+      "recomienda": 1,
+      "comentario": "Es muy buen profesor, le gusta hacer su clase un poco dinamica y promoviendo la participación, es estricto con la asistencia pero porque le gusta ver interes en su clase.  \nSi estas interesado en realmente aprender y no te molesta dedicarle tiempo a la materia, toma clase con él."
+    },
+    {
+      "fecha_iso": "2024-12-04T00:00:00",
+      "materia": "TIPOICOS DE IA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Es un buen profesor,  te explica y tiene una manera muy  un practica. Sus clases por muy intuitivas. Realmente aprendí mucho con el, me alegro a ver llevado mi ultima materia de la carrera con el, me deja mucho aprendizaje."
+    },
+    {
+      "fecha_iso": "2022-08-21T00:00:00",
+      "materia": "---",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2022-02-12T00:00:00",
+      "materia": "---",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2020-10-25T00:00:00",
+      "materia": "MAESTRIA",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "una reverenda basura este tipo, super creido y arrogante"
+    },
+    {
+      "fecha_iso": "2020-08-06T00:00:00",
+      "materia": "IA",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": "Cómo ser humano y como docente le falta mucho. Tiene un pensamiento elitista dónde considero que solo los \"mejores\" deben poder terminar sus estudios cuando se nota fácil que el como docente es una persona mediocre y sin preparación. Es muy inseguro y finge ser experto y rara vez prepara la clase"
+    },
+    {
+      "fecha_iso": "2020-06-08T00:00:00",
+      "materia": "INTELIGENCIA DE NEGOCIOS",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Una basura de maestro, no sabe explicar, hace la materia dificil, eviten esta basura"
+    },
+    {
+      "fecha_iso": "2018-08-08T00:00:00",
+      "materia": "INTELIGENCIA ARTIFICIAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Muy buen profesor"
+    },
+    {
+      "fecha_iso": "2018-04-18T00:00:00",
+      "materia": "IA",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 0,
+      "comentario": "Le falta mucha experiencia como docente."
+    },
+    {
+      "fecha_iso": "2017-08-16T00:00:00",
+      "materia": "INTELIGENCIA ARTIFICIAL",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": ""
+    }
+  ],
+  "comments_recent": [
+    "Es un excelente profesor, te pide que usas chatGPT, no entiendo porque le tienen miedo, en 3 años no e conocido a nadie que repruebe con el, impone mucho pero aprendes demasiado sobre las nuevas tecnologias, eso si, nunca faltes a sus clases porque te movia a no volverlo hacer.",
+    "Es muy buen profe, domina muy bieen los temas",
+    "Es un excelente maestro, sus clases son muy dinámicas, no son aburridas. Domina los temas de los que habla y es muy comprensible.",
+    "Califica en equipos, ojo con quien te juntas. Deja tareas que tienen que hacer todos pero solo exponen 1 o 2.Si faltas, te deja una tarea solo para ti y quien sabe como le vas hacer para saber cual es esa tarea, tarea que aparte tienes que exponer en clase y si no la haces te deja otra mas difícil.",
+    "Es muy buen profesor, le gusta hacer su clase un poco dinamica y promoviendo la participación, es estricto con la asistencia pero porque le gusta ver interes en su clase.  \nSi estas interesado en realmente aprender y no te molesta dedicarle tiempo a la materia, toma clase con él.",
+    "Es un buen profesor,  te explica y tiene una manera muy  un practica. Sus clases por muy intuitivas. Realmente aprendí mucho con el, me alegro a ver llevado mi ultima materia de la carrera con el, me deja mucho aprendizaje.",
+    "[Comentario esperando revisión]",
+    "[Comentario esperando revisión]",
+    "una reverenda basura este tipo, super creido y arrogante",
+    "Cómo ser humano y como docente le falta mucho. Tiene un pensamiento elitista dónde considero que solo los \"mejores\" deben poder terminar sus estudios cuando se nota fácil que el como docente es una persona mediocre y sin preparación. Es muy inseguro y finge ser experto y rara vez prepara la clase"
+  ],
+  "n_reviews": 14
+}

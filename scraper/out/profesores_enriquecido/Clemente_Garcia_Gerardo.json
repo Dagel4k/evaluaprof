@@ -1,0 +1,1211 @@
+{
+  "professor_id": "Clemente_Garcia_Gerardo",
+  "nombre": "Clemente Garcia Gerardo",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 6.777532467040366,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.805537701948641,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.745,
+    "wilson_interval": [
+      0.6481399091477772,
+      0.822007758102145
+    ],
+    "n_recommendations": 94
+  },
+  "subject_normalization": {
+    "z_mean": 0.66,
+    "z_mean_decayed": 0.46,
+    "per_subject": [
+      {
+        "materia": "ESTRUCTURA DE DATOS",
+        "z_decayed": 0.8590084262867084,
+        "n": 31
+      },
+      {
+        "materia": "TEMAS SELECTOS DE BASES DE DATOS",
+        "z_decayed": 0.8006407690254352,
+        "n": 3
+      },
+      {
+        "materia": "---",
+        "z_decayed": 0.4645245832999437,
+        "n": 521
+      },
+      {
+        "materia": "POO",
+        "z_decayed": 0.19286809534914673,
+        "n": 62
+      },
+      {
+        "materia": "TESEBADA",
+        "z_decayed": -0.16590629121185807,
+        "n": 13
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "esperando",
+          "comentario esperando",
+          "esperando revision",
+          "revision",
+          "comentario"
+        ],
+        "weight": 0.2822971628935285
+      },
+      {
+        "id": 1,
+        "words": [
+          "tu",
+          "vida",
+          "es",
+          "te",
+          "si"
+        ],
+        "weight": 0.021808671299881486
+      },
+      {
+        "id": 2,
+        "words": [
+          "garcia",
+          "tecnologico",
+          "tiene",
+          "es",
+          "profesor"
+        ],
+        "weight": 0.02977524430390605
+      },
+      {
+        "id": 3,
+        "words": [
+          "clemente es",
+          "mas",
+          "es genio",
+          "genio",
+          "es"
+        ],
+        "weight": 0.025420900339807113
+      },
+      {
+        "id": 4,
+        "words": [
+          "clase",
+          "igual",
+          "si",
+          "alumnos",
+          "maestro"
+        ],
+        "weight": 0.023947812603228782
+      }
+    ],
+    "sentiment": {
+      "overall": 0.043478260869565216,
+      "by_month": {
+        "2025-05": 0.0,
+        "2024-01": 0.0,
+        "2023-12": 0.0,
+        "2023-04": 0.0,
+        "2023-03": 0.0,
+        "2023-02": 0.0,
+        "2023-01": 0.0,
+        "2022-12": 0.0,
+        "2022-10": 0.0,
+        "2022-09": 0.0,
+        "2022-05": 0.0,
+        "2022-04": 0.0,
+        "2021-12": 0.0,
+        "2021-10": 0.0,
+        "2021-08": 0.0,
+        "2020-11": 0.0,
+        "2020-10": 0.0,
+        "2020-08": 0.0,
+        "2020-03": 0.0,
+        "2019-11": 0.0,
+        "2019-10": 0.0,
+        "2019-09": 0.0,
+        "2019-08": 0.0,
+        "2019-07": 0.0,
+        "2019-06": 0.0,
+        "2019-05": 0.0,
+        "2019-04": 0.0,
+        "2019-01": 0.0,
+        "2018-12": 0.0,
+        "2018-11": 0.0,
+        "2018-10": 0.0,
+        "2018-08": 0.0,
+        "2018-07": 0.0,
+        "2018-06": 0.0,
+        "2018-01": 0.0,
+        "2016-11": 0.0,
+        "2016-04": 0.0,
+        "2016-03": 0.0,
+        "2016-02": 0.0,
+        "2016-01": 0.0,
+        "2015-08": 0.0,
+        "2015-01": 0.0,
+        "2014-09": 0.0,
+        "2014-08": 0.0,
+        "2014-04": 0.0,
+        "2013-12": 0.0,
+        "2013-10": 0.0,
+        "2013-08": 0.0,
+        "2013-06": 0.0,
+        "2013-01": 0.0,
+        "2012-11": 0.0,
+        "2012-08": 0.0,
+        "2012-07": 0.0,
+        "2012-06": 0.0,
+        "2012-01": 1.0,
+        "2011-12": 0.0,
+        "2011-11": 0.0,
+        "2011-09": 1.0,
+        "2011-07": 0.0,
+        "2011-06": 0.0,
+        "2011-03": 1.0,
+        "2011-01": 0.0,
+        "2010-11": 0.0,
+        "2010-09": 0.0,
+        "2010-08": 0.0
+      }
+    },
+    "n_comments": 92
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.717,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 0.64
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        6.0,
+        8.5,
+        10.0,
+        2.0,
+        10.0,
+        10.0,
+        6.0,
+        10.0,
+        9.0,
+        10.0,
+        9.0,
+        2.0,
+        10.0,
+        10.0,
+        10.0,
+        8.0,
+        9.0,
+        9.5,
+        10.0,
+        9.0,
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        2.0,
+        5.0,
+        9.0,
+        8.0,
+        8.0,
+        10.0,
+        2.0,
+        8.0,
+        10.0,
+        10.0,
+        2.0,
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        9.0,
+        5.0,
+        6.0,
+        8.0,
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        3.0,
+        6.5,
+        2.0,
+        5.0,
+        8.0,
+        8.5,
+        7.0,
+        10.0,
+        8.0,
+        2.0,
+        10.0,
+        10.0,
+        9.0,
+        8.333333333333334,
+        2.0,
+        2.0,
+        4.0,
+        4.0
+      ],
+      "ewma": [
+        6.0,
+        6.749999999999999,
+        7.724999999999999,
+        6.0074999999999985,
+        7.205249999999999,
+        8.043674999999999,
+        7.4305724999999985,
+        8.201400749999998,
+        8.440980524999997,
+        8.908686367499998,
+        8.936080457249998,
+        6.855256320074998,
+        7.798679424052499,
+        8.45907559683675,
+        8.921352917785725,
+        8.644947042450008,
+        8.751462929715006,
+        8.976024050800504,
+        9.283216835560353,
+        9.198251784892246,
+        9.438776249424572,
+        9.6071433745972,
+        9.72500036221804,
+        9.807500253552629,
+        7.46525017748684,
+        6.725675124240787,
+        7.407972586968551,
+        7.585580810877985,
+        7.70990656761459,
+        8.396934597330212,
+        6.477854218131148,
+        6.934497952691803,
+        7.854148566884262,
+        8.497903996818984,
+        6.548532797773288,
+        7.583972958441302,
+        8.30878107090891,
+        8.816146749636237,
+        9.171302724745367,
+        9.119911907321756,
+        7.883938335125229,
+        7.31875683458766,
+        7.523129784211362,
+        8.266190848947954,
+        8.786333594263567,
+        9.150433515984496,
+        9.405303461189146,
+        9.583712422832402,
+        9.708598695982682,
+        7.696019087187876,
+        7.337213361031513,
+        5.736049352722059,
+        5.515234546905441,
+        6.260664182833809,
+        6.932464927983665,
+        6.952725449588566,
+        7.866907814711996,
+        7.906835470298397,
+        6.134784829208877,
+        7.294349380446214,
+        8.106044566312349,
+        8.374231196418643,
+        8.36196183749305,
+        6.453373286245134,
+        5.117361300371593,
+        4.782152910260115,
+        4.54750703718208
+      ],
+      "sigma": 2.1181658632843026
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 4.54750703718208,
+      "quality_band": [
+        0.3959019451448471,
+        8.699112129219312
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2025-05-14T00:00:00",
+      "materia": "---",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 0.5,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2025-05-06T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 23.0,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2024-01-26T00:00:00",
+      "materia": "---",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 25.0,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2024-01-05T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 25.0,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2023-12-02T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 21.0,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2023-04-11T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 23.0,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2023-03-25T00:00:00",
+      "materia": "---",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2023-03-15T00:00:00",
+      "materia": "---",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2023-03-06T00:00:00",
+      "materia": "---",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2023-02-11T00:00:00",
+      "materia": "---",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2023-02-05T00:00:00",
+      "materia": "---",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2023-01-11T00:00:00",
+      "materia": "---",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 7.5,
+      "recomienda": 1,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2023-01-05T00:00:00",
+      "materia": "---",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2022-12-09T00:00:00",
+      "materia": "---",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 25.0,
+      "recomienda": 1,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2022-10-01T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2022-09-24T00:00:00",
+      "materia": "---",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 7.5,
+      "recomienda": 1,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2022-05-13T00:00:00",
+      "materia": "---",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 25.0,
+      "recomienda": 1,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2022-04-29T00:00:00",
+      "materia": "---",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 7.5,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2022-04-07T00:00:00",
+      "materia": "---",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 1,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2021-12-12T00:00:00",
+      "materia": "---",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 1,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2021-12-07T00:00:00",
+      "materia": "---",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 1,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2021-10-18T00:00:00",
+      "materia": "---",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 21.0,
+      "recomienda": 1,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2021-10-04T00:00:00",
+      "materia": "---",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 24.0,
+      "recomienda": 1,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2021-08-13T00:00:00",
+      "materia": "---",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2021-08-08T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2020-11-03T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2020-10-30T00:00:00",
+      "materia": "---",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 1,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2020-10-05T00:00:00",
+      "materia": "---",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": 6.0,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2020-08-22T00:00:00",
+      "materia": "---",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2020-03-03T00:00:00",
+      "materia": "---",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2019-11-25T00:00:00",
+      "materia": "---",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 5.0,
+      "recomienda": 1,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2019-10-19T00:00:00",
+      "materia": "---",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2019-09-19T00:00:00",
+      "materia": "---",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2019-08-08T00:00:00",
+      "materia": "---",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2019-08-06T00:00:00",
+      "materia": "---",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 7.5,
+      "recomienda": 1,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2019-07-03T00:00:00",
+      "materia": "---",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 1,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2019-06-04T00:00:00",
+      "materia": "---",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 1,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2019-05-30T00:00:00",
+      "materia": "---",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 24.0,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2019-04-11T00:00:00",
+      "materia": "---",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2019-04-07T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2019-01-15T00:00:00",
+      "materia": "---",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2018-12-27T00:00:00",
+      "materia": "---",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 1,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2018-12-14T00:00:00",
+      "materia": "---",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2018-12-13T00:00:00",
+      "materia": "---",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2018-11-13T00:00:00",
+      "materia": "---",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2018-10-21T00:00:00",
+      "materia": "---",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2018-08-23T00:00:00",
+      "materia": "---",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 1,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2018-07-20T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2018-06-10T00:00:00",
+      "materia": "---",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2018-06-08T00:00:00",
+      "materia": "---",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 1,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2018-06-06T00:00:00",
+      "materia": "---",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2018-01-17T00:00:00",
+      "materia": "---",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2018-01-11T00:00:00",
+      "materia": "---",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2016-11-11T00:00:00",
+      "materia": "---",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 5.0,
+      "recomienda": 1,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2016-04-14T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2016-03-17T00:00:00",
+      "materia": "---",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2016-02-11T00:00:00",
+      "materia": "---",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 24.0,
+      "recomienda": 1,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2016-01-14T00:00:00",
+      "materia": "---",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 1,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2015-08-12T00:00:00",
+      "materia": "---",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 1,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2015-01-09T00:00:00",
+      "materia": "---",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": 2.5,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2015-01-08T00:00:00",
+      "materia": "---",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2014-09-03T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 0.5,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2014-08-08T00:00:00",
+      "materia": "---",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2014-04-29T00:00:00",
+      "materia": "---",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 5.0,
+      "recomienda": 1,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2014-04-23T00:00:00",
+      "materia": "---",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 1,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2013-12-16T00:00:00",
+      "materia": "---",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 7.5,
+      "recomienda": 1,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2013-12-11T00:00:00",
+      "materia": "---",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 1,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2013-10-16T00:00:00",
+      "materia": "---",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 7.5,
+      "recomienda": 1,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2013-08-08T00:00:00",
+      "materia": "---",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2013-06-05T00:00:00",
+      "materia": "---",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2013-01-16T00:00:00",
+      "materia": "---",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2013-01-11T00:00:00",
+      "materia": "---",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 7.5,
+      "recomienda": 1,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2012-11-26T00:00:00",
+      "materia": "---",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2012-08-25T00:00:00",
+      "materia": "---",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2012-08-21T00:00:00",
+      "materia": "---",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2012-08-16T00:00:00",
+      "materia": "---",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 5.0,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2012-07-18T00:00:00",
+      "materia": "---",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2012-06-16T00:00:00",
+      "materia": "---",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2012-01-27T00:00:00",
+      "materia": "TEMAS SELECTOS DE BASES DE DATOS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Excelente profesor y persona. Siempre tiene una respuesta para tus dudas. Si cargas con él tendrás que esforzarte al máximo, pero la recompensa y la satisfacción serán proporcionales a tu esfuerzo. Es uno de los pocos profesores que te hacen un mejor profesionista. Lo recomiendo ampliamente."
+    },
+    {
+      "fecha_iso": "2012-01-26T00:00:00",
+      "materia": "ESTRUCTURA DE DATOS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Un profesor excelente. Si tienen oportunidad de llevar con el, hágalo, no se arrepentirán."
+    },
+    {
+      "fecha_iso": "2011-12-08T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 3.5,
+      "recomienda": 0,
+      "comentario": "[Comentario bloqueado]"
+    },
+    {
+      "fecha_iso": "2011-11-16T00:00:00",
+      "materia": "PROG. WEB",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 1,
+      "comentario": "Buen maestro. Falta que corte un poco de teoria y agregue más prácticas a las clases. Como off topic; Facebook usa mucho las bd, y Clemente es un genio en ellas. Estoy esperando el dia en que sea más millonario y conocido que Mark Zuckerberg.¿O para qué tanto estudio si su cerebro no saldrá del tec?"
+    },
+    {
+      "fecha_iso": "2011-09-08T00:00:00",
+      "materia": "ESTRUCTURA DE DATOS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 1,
+      "comentario": "Excelentemente las clases, mas claro que el agua, quien no aprende con el es por que no es un ser humano normal. Si todos los maestros fueran como el, tu aprendizaje aumentara de manera notable hacia TODOS los aspectos de la vida.\nA pesar de que sufrí 6 meses, YO SI LO RECOMIENDO... valió la pena"
+    },
+    {
+      "fecha_iso": "2011-08-01T00:00:00",
+      "materia": "POO",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2011-07-05T00:00:00",
+      "materia": "TESEBADA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Clemente es un maestro que en cuanto entra al aula, empieza su clase. No desperdicia el tiempo y hace que todos sus alumnos participen, sin importar si se equivocan o no. \nSu forma de enseñanza es ejemplar, siempre deja prácticas que incluyen lo que enseña más un extra.\nSaludos"
+    },
+    {
+      "fecha_iso": "2011-06-06T00:00:00",
+      "materia": "POO",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "ESTE MAESTRO KIERE K PROGRAMEMOS IGUAL K EL (COMO SI TUBIERAMOS DOCTORADO LOS ALUMNOS.)"
+    },
+    {
+      "fecha_iso": "2011-03-15T00:00:00",
+      "materia": "TESEBADA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Es sin lugar a dudas uno de los mejores profesores que pueden existir,dedicado.pueden decir que sus clases son muy dificiles o que es demasiado exigente,creo que alomejor si puede ser exigente pero si quieres triunfar en la vida lo vas a necesitar.su sistema de enseñanza te prepara para la vida ya quete pone escenarios con los que te puedes encontrar en tu vida diaria. Si te dedicas aprenderas con facilidad.Ya tome clases con el y no me arrepiento, haslo si te interesa aprender."
+    },
+    {
+      "fecha_iso": "2011-02-22T00:00:00",
+      "materia": "POO",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2011-01-29T00:00:00",
+      "materia": "TESEBADA",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "solo una persona pudo haber puesto estos comentatos el propio profesor clemente. Como profesor es de los peor es muy grosero todos los semestres tiene algun tipo de problema con los alumnos y deja trabajos que no sirven de nada ademas le falta actualizarse."
+    },
+    {
+      "fecha_iso": "2010-11-14T00:00:00",
+      "materia": "PROGRAMACION CONCURRENTE",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Mis respetos, Clemente García es el mejor profesor que tiene el tecnológico mis respetos. gracias a él soy un buen profesionista."
+    },
+    {
+      "fecha_iso": "2010-11-10T00:00:00",
+      "materia": "TESEBADA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "El Dr. García es de los mejores maestros con que cuenta el Tecnológico de Culiacán ya que el trabaja para que aprenda el alumno. Yo lo invitoa que siga trabajando igual de fuerte."
+    },
+    {
+      "fecha_iso": "2010-09-21T00:00:00",
+      "materia": "TESEBADA  Y INSOROB",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Tal Vez sea por que me toco ya cuando estaba apunto de terminar la carrera, pero este Dr. Es un Profesor en toda la extension de la palabra, si prefieres sacarle la vuelta esque no estas hecho para la carrera, es mas la fama que le hacen los webones, que lo que es realmente, te hara sufrir y batallar todo el semestre, pero al final, si te esforzaste te echara la mano y estaras muy satisfecho con lo aprendido."
+    },
+    {
+      "fecha_iso": "2010-09-21T00:00:00",
+      "materia": "TESEBADA",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Si quieres aprender lleva la clase con el, pero de que apruebes lo dudo mucho."
+    },
+    {
+      "fecha_iso": "2010-08-29T00:00:00",
+      "materia": "PROGRAMACIÓN ORIENTADA A OBJETOS",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "El hombre es un genio, sin duda, pero exige mucho y ayuda poco."
+    }
+  ],
+  "comments_recent": [
+    "[Comentario esperando revisión]",
+    "[Comentario esperando revisión]",
+    "[Comentario esperando revisión]",
+    "[Comentario esperando revisión]",
+    "[Comentario esperando revisión]",
+    "[Comentario esperando revisión]",
+    "[Comentario esperando revisión]",
+    "[Comentario esperando revisión]",
+    "[Comentario esperando revisión]",
+    "[Comentario esperando revisión]"
+  ],
+  "n_reviews": 94
+}

@@ -1,0 +1,170 @@
+{
+  "professor_id": "Manuel_Quiroz_Sicarios",
+  "nombre": "Manuel Quiroz Sicarios",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 3.5414648922575402,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 6.055422928761326,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.0,
+    "wilson_interval": [
+      0,
+      0.48990002040399916
+    ],
+    "n_recommendations": 4
+  },
+  "subject_normalization": {
+    "z_mean": -0.89,
+    "z_mean_decayed": -0.81,
+    "per_subject": [
+      {
+        "materia": "ESTUDIO DEL TRABAJO 1",
+        "z_decayed": -0.15339299776947424,
+        "n": 5
+      },
+      {
+        "materia": "ESTUDIO DEL TRABAJO I",
+        "z_decayed": -0.9805806756909202,
+        "n": 10
+      },
+      {
+        "materia": "INDUSTRIAL",
+        "z_decayed": -1.0084152956251229,
+        "n": 5
+      },
+      {
+        "materia": "TODAS",
+        "z_decayed": -1.4161763857498668,
+        "n": 5
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "examen",
+          "examen es",
+          "final",
+          "pasa",
+          "mundo"
+        ],
+        "weight": 0.2823041769906635
+      },
+      {
+        "id": 1,
+        "words": [
+          "final",
+          "pasa",
+          "calificacion examen",
+          "examen es",
+          "examen"
+        ],
+        "weight": 0.40491723127337054
+      }
+    ],
+    "sentiment": {
+      "overall": 0.0,
+      "by_month": {
+        "2024-07": 0.0,
+        "2024-01": 0.0,
+        "2023-08": 0.0,
+        "2019-12": 0.0
+      }
+    },
+    "n_comments": 4
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        4.0,
+        5.0,
+        4.0,
+        2.0
+      ],
+      "ewma": [
+        4.0,
+        4.3,
+        4.21,
+        3.5469999999999997
+      ],
+      "sigma": 0.9395028383849265
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 3.5469999999999997,
+      "quality_band": [
+        1.7055744367655437,
+        5.388425563234456
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2024-07-11T00:00:00",
+      "materia": "INDUSTRIAL",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 0,
+      "comentario": "Fue , es y seguirá siendo una carga en el sistema de Tec. De esos \"profesores\" chambistas que mal forman alumnos. Cero experiencia en el mundo empresarial o Industrial."
+    },
+    {
+      "fecha_iso": "2024-01-17T00:00:00",
+      "materia": "ESTUDIO DEL TRABAJO I",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 0,
+      "comentario": "Esperaba  más.Rara vez llegamos a tener una clase relacionada al tema,los exámenes los quería cual un copypaste de sus 50 diapositivas si no memorizas todo al pie de la letra probablemente repruebes. No aprenderás mucho y la calificación de examen es la final, la recu es sobre 0 o te pasa con mínimo"
+    },
+    {
+      "fecha_iso": "2023-08-10T00:00:00",
+      "materia": "ESTUDIO DEL TRABAJO 1",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 7.5,
+      "recomienda": 0,
+      "comentario": "según el explica pero solo se la pasa hablando de como es la ia mientras pasaba las diapositivas, de ahí se saca como 8 preguntas para el examen y es de lo que menos esperas de un PDF de 48 paginas, no tomaba asistencia y aun así decía que era muy estricto, calificación de examen es final"
+    },
+    {
+      "fecha_iso": "2019-12-05T00:00:00",
+      "materia": "TODAS",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 0,
+      "comentario": "No da clases, habla de todo mundo, dice que el Director Elenes es su compadre que nadie le puede hacer nada, es una persona sin valores etico y acosa alumnas."
+    }
+  ],
+  "comments_recent": [
+    "Fue , es y seguirá siendo una carga en el sistema de Tec. De esos \"profesores\" chambistas que mal forman alumnos. Cero experiencia en el mundo empresarial o Industrial.",
+    "Esperaba  más.Rara vez llegamos a tener una clase relacionada al tema,los exámenes los quería cual un copypaste de sus 50 diapositivas si no memorizas todo al pie de la letra probablemente repruebes. No aprenderás mucho y la calificación de examen es la final, la recu es sobre 0 o te pasa con mínimo",
+    "según el explica pero solo se la pasa hablando de como es la ia mientras pasaba las diapositivas, de ahí se saca como 8 preguntas para el examen y es de lo que menos esperas de un PDF de 48 paginas, no tomaba asistencia y aun así decía que era muy estricto, calificación de examen es final",
+    "No da clases, habla de todo mundo, dice que el Director Elenes es su compadre que nadie le puede hacer nada, es una persona sin valores etico y acosa alumnas."
+  ],
+  "n_reviews": 4
+}

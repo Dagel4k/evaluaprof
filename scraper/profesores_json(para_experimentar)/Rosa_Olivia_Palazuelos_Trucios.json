@@ -1,0 +1,55 @@
+{
+  "nombre": "Rosa Olivia Palazuelos Trucios",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "ciudad": "Ciudad: culiacan, sinaloa",
+  "departamento": "Departamento/Facultad: Ciencias Básicas",
+  "calidad_general": 10.0,
+  "porcentaje_recomienda": 100,
+  "nivel_dificultad": 2.0,
+  "etiquetas": [
+    "RESPETADO POR LOS ESTUDIANTES (1)",
+    "BRINDA APOYO (2)",
+    "CLASES EXCELENTES (1)",
+    "DA BUENA RETROALIMENTACIÓN (1)",
+    "TOMARÍA SU CLASE OTRA VEZ (1)"
+  ],
+  "numero_calificaciones": 2,
+  "calificaciones": [
+    {
+      "fecha": "24/Jun/2020",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Termodinamica- mecanica de fluidos",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "9",
+      "interes_clase": "",
+      "comentario": "Excelente profesora y persona. La calidad de sus clases era excelente, te apoyaba y entendía en todas sus posibilidades, de las mejores maestras que he tenido. Se le notaba que le gustaba lo que hacia, comprensiva al máximo. DEP PROFESORA.",
+      "etiquetas_comentario": [
+        "Da buena retroalimentación",
+        "Brinda apoyo",
+        "Tomaría su clase otra vez"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "05/May/2020",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Termodinámica y Mecánica de Fluidos",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "8.5",
+      "interes_clase": "",
+      "comentario": "Tuve la oportunidad de cursar dicha materia con ella, y simplemente fue un placer en toda la extensión de la palabra. Una gran persona, con una calidad humana impresionante, y un amor tremendo por enseñar.\nDescansé en paz ingeniera, donde quiera que esté, gracias por tanto... Se le va a extrañar.",
+      "etiquetas_comentario": [
+        "Respetado por los estudiantes",
+        "Brinda apoyo",
+        "Clases excelentes"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    }
+  ]
+}

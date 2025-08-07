@@ -1,0 +1,70 @@
+{
+  "nombre": "cesar alejandro espinoza",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "ciudad": "Ciudad: culiacan, sinaloa",
+  "departamento": "Departamento/Facultad: industrial",
+  "calidad_general": 9.4,
+  "porcentaje_recomienda": 100,
+  "nivel_dificultad": 1.3,
+  "etiquetas": [
+    "MUY CÓMICO (1)",
+    "LA PARTICIPACIÓN IMPORTA (1)",
+    "TOMARÍA SU CLASE OTRA VEZ (1)",
+    "RESPETADO POR LOS ESTUDIANTES (1)",
+    "ASPECTOS DE CALIFICACIÓN CLAROS (1)",
+    "BRINDA APOYO (1)"
+  ],
+  "numero_calificaciones": 3,
+  "calificaciones": [
+    {
+      "fecha": "02/Sep/2021",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Industrial",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "N/A",
+      "interes_clase": "",
+      "comentario": "",
+      "etiquetas_comentario": [
+        "Respetado por los estudiantes",
+        "Aspectos de calificación claros",
+        "Brinda apoyo"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "06/Ago/2018",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Calculo diferencial",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "9",
+      "interes_clase": "",
+      "comentario": "",
+      "etiquetas_comentario": [
+        "Muy cómico",
+        "La Participación Importa",
+        "Tomaría su clase otra vez"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "12/May/2015",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 8.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Estadistica inferencial",
+      "asistencia": "",
+      "calificacion_recibida": "8.5",
+      "interes_clase": "8.5",
+      "comentario": "Se recomienda da mucha oportunidad y explica muy claro",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    }
+  ]
+}

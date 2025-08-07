@@ -1,0 +1,186 @@
+{
+  "professor_id": "Sánchez_Higuera_Jesús_Raúl",
+  "nombre": "Sánchez Higuera Jesús Raúl",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 9.186044702791817,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.54849506266616,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.833,
+    "wilson_interval": [
+      0.4364905634363539,
+      0.9699474141282696
+    ],
+    "n_recommendations": 6
+  },
+  "subject_normalization": {
+    "z_mean": 0.23,
+    "z_mean_decayed": 0.46,
+    "per_subject": [
+      {
+        "materia": "DIBUJO INDUSTRIAL",
+        "z_decayed": 0.45948884826426284,
+        "n": 43
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "te diviertes",
+          "diviertes",
+          "te",
+          "si",
+          "aprendes"
+        ],
+        "weight": 0.2833197573704364
+      },
+      {
+        "id": 1,
+        "words": [
+          "te",
+          "si",
+          "maestro",
+          "aprendes",
+          "cargar"
+        ],
+        "weight": 0.19134144095006098
+      },
+      {
+        "id": 2,
+        "words": [
+          "exigente",
+          "es exigente",
+          "tu",
+          "siempre",
+          "profe"
+        ],
+        "weight": 0.17344664150742972
+      }
+    ],
+    "sentiment": {
+      "overall": 0.16666666666666666,
+      "by_month": {
+        "2017-11": 0.0,
+        "2013-08": 0.0,
+        "2012-08": 0.0,
+        "2012-06": 1.0
+      }
+    },
+    "n_comments": 6
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        10.0,
+        7.333333333333333,
+        9.0,
+        10.0
+      ],
+      "ewma": [
+        10.0,
+        9.2,
+        9.139999999999999,
+        9.398
+      ],
+      "sigma": 1.0603735714884217
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 9.398,
+      "quality_band": [
+        7.319667799882693,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2017-11-15T00:00:00",
+      "materia": "DIBUJO INDUSTRIAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "No pues, le ENCANTA la macana pero pues es buen profe, se acepta."
+    },
+    {
+      "fecha_iso": "2013-08-19T00:00:00",
+      "materia": "DIBUJO INDUSTRIAL",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Siempre me desian que era culero pero lo lleve y el profe es compa si no eres un webon clases claras aprendes te diviertes pilas con trabajos es exigente pero lo recomiendo la primera expresion que tendras esque es medio sangron y mamon pero tu ponte las pilas y pasaras bien"
+    },
+    {
+      "fecha_iso": "2012-08-08T00:00:00",
+      "materia": "DIBUJO INDUSTRIAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Me dio clases hace tres semestres, es increíble, muchas personas piensan que es muy cruel y malo pero no tiene nada que ver, aprendes muchísimo y te diviertes en su clase."
+    },
+    {
+      "fecha_iso": "2012-08-08T00:00:00",
+      "materia": "DIBUJO INDUSTRIAL",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Mal profesor, es sierto que sabe mucho pero no sabe enseñar nada. A mi me trono y despues la llebe con lazaro y pase con 100 :D\nSolo ayuda a las chicas y no sirve de nada cargar con el porque esta mal de la cabeza, de seguro es algun tipo de trauma de identidad... Jamas lo recomendaria"
+    },
+    {
+      "fecha_iso": "2012-08-06T00:00:00",
+      "materia": "DIBUJO INDUSTRIAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "si de verdad quieres aprender, este es el maestro con el que quieres cargar. como todo lo que vale la pena NO ES FÁCIL, pero de que aprendes.. aprendes!"
+    },
+    {
+      "fecha_iso": "2012-06-11T00:00:00",
+      "materia": "DIBUJO INDUSTRIAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "EXCELENTE MAESTRO, puedo decir que es de los mejores que eh tenido, APRENDES UN CHORRO pero SUFRES muchisimo, siempre entras con miedo a esa clase pero como te diviertes, eso si es exigente pero al final reconoce tu esfuerzo al máximo... si lo mereces.. *fuenteconfiable"
+    }
+  ],
+  "comments_recent": [
+    "No pues, le ENCANTA la macana pero pues es buen profe, se acepta.",
+    "Siempre me desian que era culero pero lo lleve y el profe es compa si no eres un webon clases claras aprendes te diviertes pilas con trabajos es exigente pero lo recomiendo la primera expresion que tendras esque es medio sangron y mamon pero tu ponte las pilas y pasaras bien",
+    "Me dio clases hace tres semestres, es increíble, muchas personas piensan que es muy cruel y malo pero no tiene nada que ver, aprendes muchísimo y te diviertes en su clase.",
+    "Mal profesor, es sierto que sabe mucho pero no sabe enseñar nada. A mi me trono y despues la llebe con lazaro y pase con 100 :D\nSolo ayuda a las chicas y no sirve de nada cargar con el porque esta mal de la cabeza, de seguro es algun tipo de trauma de identidad... Jamas lo recomendaria",
+    "si de verdad quieres aprender, este es el maestro con el que quieres cargar. como todo lo que vale la pena NO ES FÁCIL, pero de que aprendes.. aprendes!",
+    "EXCELENTE MAESTRO, puedo decir que es de los mejores que eh tenido, APRENDES UN CHORRO pero SUFRES muchisimo, siempre entras con miedo a esa clase pero como te diviertes, eso si es exigente pero al final reconoce tu esfuerzo al máximo... si lo mereces.. *fuenteconfiable"
+  ],
+  "n_reviews": 6
+}

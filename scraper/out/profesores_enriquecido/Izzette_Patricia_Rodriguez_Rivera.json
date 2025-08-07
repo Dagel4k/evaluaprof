@@ -1,0 +1,76 @@
+{
+  "professor_id": "Izzette_Patricia_Rodriguez_Rivera",
+  "nombre": "Izzette Patricia Rodriguez Rivera",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 8.0,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.07053827296896,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 1.0,
+    "wilson_interval": [
+      0.20654329147389294,
+      1
+    ],
+    "n_recommendations": 1
+  },
+  "subject_normalization": {
+    "z_mean": -0.7,
+    "z_mean_decayed": -0.7,
+    "per_subject": [
+      {
+        "materia": "TALLER DE ETICA",
+        "z_decayed": -0.6991126899682779,
+        "n": 11
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [],
+    "sentiment": {
+      "overall": null,
+      "by_month": {}
+    },
+    "n_comments": 1
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": null,
+    "difficulty_trend": null,
+    "forecast": null,
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2021-01-19T00:00:00",
+      "materia": "TALLER DE ETICA",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Me toco en linea y daba clases 1 vez a la semana por ser una materia ligera y fácil, explicaba bien, aclaraba incluso por chat, super relajadas las clases."
+    }
+  ],
+  "comments_recent": [
+    "Me toco en linea y daba clases 1 vez a la semana por ser una materia ligera y fácil, explicaba bien, aclaraba incluso por chat, super relajadas las clases."
+  ],
+  "n_reviews": 1
+}

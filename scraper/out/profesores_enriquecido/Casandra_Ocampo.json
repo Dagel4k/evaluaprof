@@ -1,0 +1,286 @@
+{
+  "professor_id": "Casandra_Ocampo",
+  "nombre": "Casandra Ocampo",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 7.7760627151327295,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.138796050132927,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.8,
+    "wilson_interval": [
+      0.49015684672072346,
+      0.9433190520193067
+    ],
+    "n_recommendations": 10
+  },
+  "subject_normalization": {
+    "z_mean": -0.11,
+    "z_mean_decayed": 0.13,
+    "per_subject": [
+      {
+        "materia": "ESTUDIO DEL TRABAJO I",
+        "z_decayed": 0.9805806756909202,
+        "n": 10
+      },
+      {
+        "materia": "ESTUDIO DEL TRABAJO",
+        "z_decayed": 0.43911564605229336,
+        "n": 13
+      },
+      {
+        "materia": "INVESTIGACION DE OPERACIONES",
+        "z_decayed": 0.02038977179351388,
+        "n": 16
+      },
+      {
+        "materia": "ESTUDIO DEL TRABAJO 2",
+        "z_decayed": -0.10403129732206005,
+        "n": 6
+      },
+      {
+        "materia": "INVESTIGACIÓN DE OPERACIONES",
+        "z_decayed": -0.3941780613961428,
+        "n": 15
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "buena",
+          "es",
+          "facil",
+          "100",
+          "examenes"
+        ],
+        "weight": 0.10720293327508648
+      },
+      {
+        "id": 1,
+        "words": [
+          "si",
+          "veces",
+          "llega",
+          "veces llega",
+          "mal"
+        ],
+        "weight": 0.10871258336245133
+      },
+      {
+        "id": 2,
+        "words": [
+          "semestre",
+          "profe",
+          "materia",
+          "es",
+          "bien"
+        ],
+        "weight": 0.16233199187534353
+      },
+      {
+        "id": 3,
+        "words": [
+          "aprender",
+          "ganas",
+          "ganas aprender",
+          "quita ganas",
+          "quita"
+        ],
+        "weight": 0.11836459290033108
+      },
+      {
+        "id": 4,
+        "words": [
+          "maestra",
+          "deja",
+          "malas",
+          "actividades",
+          "semestre"
+        ],
+        "weight": 0.16279334823648117
+      }
+    ],
+    "sentiment": {
+      "overall": 0.0,
+      "by_month": {
+        "2023-06": 0.0,
+        "2022-12": 0.0,
+        "2020-08": 0.0,
+        "2019-10": 1.0,
+        "2018-06": 0.0,
+        "2017-08": 0.0,
+        "2015-11": 0.0,
+        "2014-12": 0.0,
+        "2014-07": -1.0,
+        "2013-12": 0.0
+      }
+    },
+    "n_comments": 10
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        8.0,
+        7.0,
+        2.0,
+        9.0,
+        8.0,
+        9.0,
+        6.0,
+        8.0,
+        8.0,
+        8.0
+      ],
+      "ewma": [
+        8.0,
+        7.699999999999999,
+        5.989999999999998,
+        6.892999999999999,
+        7.225099999999999,
+        7.757569999999999,
+        7.230298999999999,
+        7.461209299999998,
+        7.622846509999999,
+        7.735992556999999
+      ],
+      "sigma": 1.6657190408696545
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 7.735992556999999,
+      "quality_band": [
+        4.4711832368954765,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2023-06-07T00:00:00",
+      "materia": "ESTUDIO DEL TRABAJO 2",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "A veces llega de mal humor y se \"desquita\" con los estudiantes, pero cuando nota que se le sale el mal genio se disculpa. Es comprensiva y si algo no te parece lo puedes platicar con ella con toda confianza."
+    },
+    {
+      "fecha_iso": "2022-12-24T00:00:00",
+      "materia": "ESTUDIO DEL TRABAJO",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Es comprensible, te brinda apoyo si lo necesitas y sus actividades no son difíciles, sin embargo falta sin avisar, tarda en calificar y a veces llega de malas pero la verdad la clase si está decente."
+    },
+    {
+      "fecha_iso": "2020-08-26T00:00:00",
+      "materia": "INVESTIGACION DE OPERACIONES",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Facilón, pasas con 100 con trabajos y examenes decentes, a veces hasta deja de tarea los examenes. Eso si, presta atencion y no la molestes porque donde se ponga de malas es un problema. facil"
+    },
+    {
+      "fecha_iso": "2019-10-23T00:00:00",
+      "materia": "RELLENO DE INVESTIGACIÓN",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 0,
+      "comentario": "No se porqué leo tanto comentario bueno si la maestra anda de mal humor cuando quiere y no resuelve las dudas de forma respetuosa a los alumnos. Como dice el men de abajo quita las ganas de aprender y de preguntarle las dudas porque se molesta"
+    },
+    {
+      "fecha_iso": "2018-06-05T00:00:00",
+      "materia": "ESTUDIO 1",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Sacas 100 fácil con ella nomas asiste y pásale los exámenes es buena onda"
+    },
+    {
+      "fecha_iso": "2017-08-08T00:00:00",
+      "materia": "INVESTIGACION DE OPERACIONES",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "con esta profe llevas bien barco es como si llevaras una materia menos en el semestre luego falta mucho en el semestre"
+    },
+    {
+      "fecha_iso": "2015-11-29T00:00:00",
+      "materia": "ESTUDIO DEL TRABAJO I",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Buena maestra, explica de manera clara con diapositivas y deja actividades y tareas para dejar las cosas claras. Los examenes estan muy faciles y las practicas igual de sencillas. Ayuda mucho todo el semestre solo cuidado de no agarrarla de malas por que ahí si se lleva a todo el salon."
+    },
+    {
+      "fecha_iso": "2014-12-06T00:00:00",
+      "materia": "ESTUDIO DEL TRABAJO",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 1.0,
+      "recomienda": 0,
+      "comentario": "No se la recomendaría ni a mi peor enemigo, te quita las ganas de aprender."
+    },
+    {
+      "fecha_iso": "2014-07-15T00:00:00",
+      "materia": "INVESTIGACIÓN DE OPERACIONES",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Está muy cargada por materías diferentes y eso hace que sus clases no estén bien preparadas. Es muy manipulable y eso hace que vaya muy lento en las clases y no se cubra todo el programa. Los ejercicios que se ven son los más sencillos y los examenes son iguales."
+    },
+    {
+      "fecha_iso": "2013-12-03T00:00:00",
+      "materia": "ESTUDIO DEL TRABAJO II",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "esta profe es la ostia esta bien facil pasar la materia con ella, es muy accecible aunque bipolar."
+    }
+  ],
+  "comments_recent": [
+    "A veces llega de mal humor y se \"desquita\" con los estudiantes, pero cuando nota que se le sale el mal genio se disculpa. Es comprensiva y si algo no te parece lo puedes platicar con ella con toda confianza.",
+    "Es comprensible, te brinda apoyo si lo necesitas y sus actividades no son difíciles, sin embargo falta sin avisar, tarda en calificar y a veces llega de malas pero la verdad la clase si está decente.",
+    "Facilón, pasas con 100 con trabajos y examenes decentes, a veces hasta deja de tarea los examenes. Eso si, presta atencion y no la molestes porque donde se ponga de malas es un problema. facil",
+    "No se porqué leo tanto comentario bueno si la maestra anda de mal humor cuando quiere y no resuelve las dudas de forma respetuosa a los alumnos. Como dice el men de abajo quita las ganas de aprender y de preguntarle las dudas porque se molesta",
+    "Sacas 100 fácil con ella nomas asiste y pásale los exámenes es buena onda",
+    "con esta profe llevas bien barco es como si llevaras una materia menos en el semestre luego falta mucho en el semestre",
+    "Buena maestra, explica de manera clara con diapositivas y deja actividades y tareas para dejar las cosas claras. Los examenes estan muy faciles y las practicas igual de sencillas. Ayuda mucho todo el semestre solo cuidado de no agarrarla de malas por que ahí si se lleva a todo el salon.",
+    "No se la recomendaría ni a mi peor enemigo, te quita las ganas de aprender.",
+    "Está muy cargada por materías diferentes y eso hace que sus clases no estén bien preparadas. Es muy manipulable y eso hace que vaya muy lento en las clases y no se cubra todo el programa. Los ejercicios que se ven son los más sencillos y los examenes son iguales.",
+    "esta profe es la ostia esta bien facil pasar la materia con ella, es muy accecible aunque bipolar."
+  ],
+  "n_reviews": 10
+}

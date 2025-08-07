@@ -1,0 +1,115 @@
+{
+  "professor_id": "Modesto_Medina_M",
+  "nombre": "Modesto Medina M",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 9.600059040595067,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.367378538666044,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 1.0,
+    "wilson_interval": [
+      0.4384939195509822,
+      1
+    ],
+    "n_recommendations": 3
+  },
+  "subject_normalization": {
+    "z_mean": 0.45,
+    "z_mean_decayed": 0.45,
+    "per_subject": [
+      {
+        "materia": "TODAS",
+        "z_decayed": 0.447213595499958,
+        "n": 5
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [],
+    "sentiment": {
+      "overall": null,
+      "by_month": {}
+    },
+    "n_comments": 3
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        7.0,
+        9.0,
+        10.0
+      ],
+      "ewma": [
+        7.0,
+        7.6,
+        8.32
+      ],
+      "sigma": 0.9000740710260091
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 8.32,
+      "quality_band": [
+        6.555854820789023,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2021-06-17T00:00:00",
+      "materia": "TEORÍA ELECTROMAGNETICA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Hace 17 años que lo conocí en clases, en Teoría electromagnética. El enfoque que utilizó para desarrollar la asignatura me pareció muy bueno, primero dominar la matemática que involucra y después a darle, con un método deductivo. Claro que el no invento el método, pero lo desarrollo muy bien."
+    },
+    {
+      "fecha_iso": "2016-08-14T00:00:00",
+      "materia": "TODAS",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Es un desgraciado. Exige trabajos y de verdad te hace ir al nivel ingeneril...a la buena, o a la mala.\n\nGracias a el es que subí de nivel de conocimiento."
+    },
+    {
+      "fecha_iso": "2015-02-11T00:00:00",
+      "materia": "..",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "exigente pero aprendes, muy claro al explicar"
+    }
+  ],
+  "comments_recent": [
+    "Hace 17 años que lo conocí en clases, en Teoría electromagnética. El enfoque que utilizó para desarrollar la asignatura me pareció muy bueno, primero dominar la matemática que involucra y después a darle, con un método deductivo. Claro que el no invento el método, pero lo desarrollo muy bien.",
+    "Es un desgraciado. Exige trabajos y de verdad te hace ir al nivel ingeneril...a la buena, o a la mala.\n\nGracias a el es que subí de nivel de conocimiento.",
+    "exigente pero aprendes, muy claro al explicar"
+  ],
+  "n_reviews": 3
+}

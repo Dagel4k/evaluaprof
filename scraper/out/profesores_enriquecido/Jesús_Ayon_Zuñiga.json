@@ -1,0 +1,91 @@
+{
+  "professor_id": "Jesús_Ayon_Zuñiga",
+  "nombre": "Jesús Ayon Zuñiga",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 8.917874159895222,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.31466008355488,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 1.0,
+    "wilson_interval": [
+      0.3423719528896193,
+      1
+    ],
+    "n_recommendations": 2
+  },
+  "subject_normalization": {
+    "z_mean": 0.08,
+    "z_mean_decayed": 0.05,
+    "per_subject": [
+      {
+        "materia": "ESTADISTICA Y CONTROL DE CALIDAD",
+        "z_decayed": 0.4309458036856673,
+        "n": 14
+      },
+      {
+        "materia": "INGENIERIA DE CALIDAD",
+        "z_decayed": -0.2738612787525829,
+        "n": 5
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [],
+    "sentiment": {
+      "overall": null,
+      "by_month": {}
+    },
+    "n_comments": 2
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": null,
+    "difficulty_trend": null,
+    "forecast": null,
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2018-06-06T00:00:00",
+      "materia": "INGENIERIA DE CALIDAD",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 1,
+      "comentario": "Es nuevo dando clases pero domina bien los temas. Examenes medio enrredosos pero es de lo visto en clases y muchos ejercicios los usa para este. Recomendado"
+    },
+    {
+      "fecha_iso": "2017-12-15T00:00:00",
+      "materia": "ESTADISTICA Y CONTROL DE CALIDAD",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Es un excelente profesor, las clases son bastante claras, aprendes mucho, los exámenes son fáciles si pusiste atención en clase, de los mejores profesores que he tenido"
+    }
+  ],
+  "comments_recent": [
+    "Es nuevo dando clases pero domina bien los temas. Examenes medio enrredosos pero es de lo visto en clases y muchos ejercicios los usa para este. Recomendado",
+    "Es un excelente profesor, las clases son bastante claras, aprendes mucho, los exámenes son fáciles si pusiste atención en clase, de los mejores profesores que he tenido"
+  ],
+  "n_reviews": 2
+}

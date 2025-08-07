@@ -1,0 +1,236 @@
+{
+  "professor_id": "jesus_aguilar_virgen",
+  "nombre": "jesus aguilar virgen",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 2.3353814999353184,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 4.9319956112588095,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.0,
+    "wilson_interval": [
+      0,
+      0.3244156195108769
+    ],
+    "n_recommendations": 8
+  },
+  "subject_normalization": {
+    "z_mean": -0.93,
+    "z_mean_decayed": -0.96,
+    "per_subject": [
+      {
+        "materia": "CIENCIA E INGENIERIA DE MATERIALES",
+        "z_decayed": -0.6384502872603759,
+        "n": 9
+      },
+      {
+        "materia": "MATERIALES",
+        "z_decayed": -1.3882137971034578,
+        "n": 10
+      },
+      {
+        "materia": "TALLER DE INVESTIGACION",
+        "z_decayed": -1.4527439954372794,
+        "n": 4
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "materia",
+          "nunca",
+          "maestro",
+          "perjudica",
+          "es"
+        ],
+        "weight": 0.18293276778096557
+      },
+      {
+        "id": 1,
+        "words": [
+          "nunca",
+          "queda",
+          "si preguntas",
+          "preguntas",
+          "si"
+        ],
+        "weight": 0.19862695893512183
+      },
+      {
+        "id": 2,
+        "words": [
+          "queda callado",
+          "callado",
+          "clase",
+          "es",
+          "materia"
+        ],
+        "weight": 0.1531139395931025
+      },
+      {
+        "id": 3,
+        "words": [
+          "nunca",
+          "manejo grupo",
+          "grupo",
+          "manejo",
+          "tiene"
+        ],
+        "weight": 0.1675041747200301
+      }
+    ],
+    "sentiment": {
+      "overall": 0.0,
+      "by_month": {
+        "2015-03": 0.0,
+        "2014-11": 0.0,
+        "2014-07": 0.0,
+        "2014-06": 0.0,
+        "2014-05": -1.0,
+        "2014-02": 0.0,
+        "2014-01": 1.0
+      }
+    },
+    "n_comments": 8
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        4.0,
+        2.0,
+        2.0,
+        2.0,
+        2.5,
+        2.0,
+        2.0
+      ],
+      "ewma": [
+        4.0,
+        3.4,
+        2.98,
+        2.686,
+        2.6302,
+        2.44114,
+        2.308798
+      ],
+      "sigma": 0.49553617175607534
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 2.308798,
+      "quality_band": [
+        1.3375471033580921,
+        3.2800488966419077
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2015-03-08T00:00:00",
+      "materia": "MATERIALES",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "se queda trabado, si le preguntas algo le sale pantallazo azul xD"
+    },
+    {
+      "fecha_iso": "2014-11-09T00:00:00",
+      "materia": "CIENCIA E INGENIERIA DE MATERIALES",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "MALISIMO\n\nYA NISIQUIERA ES PROFESOR \n\nLA VERDAD PERJUDICA NOMAS."
+    },
+    {
+      "fecha_iso": "2014-07-24T00:00:00",
+      "materia": "CIENC. E INGENIERA DE MATERIALES",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Es el tipo de maestro que te perjudica ya que no aprendes nada. Es facil de pasar pero no vale la pena."
+    },
+    {
+      "fecha_iso": "2014-07-23T00:00:00",
+      "materia": "CIENCIA E INGENIERIA DE MATERIALES",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "No tengo idea que hace ejerciendo como docente. No domina nada la materia y lo unico que hace es leer diapositivas que proyecta. A media explicacion se queda callado por minutos sin saber que decir y finaliza la clase. Para nada recomendado."
+    },
+    {
+      "fecha_iso": "2014-06-18T00:00:00",
+      "materia": "CIENCIA E EINGENIERIA DE MATERIALES",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "es una basofia de maestro nunca cargen con el"
+    },
+    {
+      "fecha_iso": "2014-05-13T00:00:00",
+      "materia": "ING DE MATERIALES",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 1.0,
+      "recomienda": 0,
+      "comentario": "Si hay opcion no cargar con el,no domina los temas y quiere que con las tareas extensas que deja aprendas todo solo, si le preguntas algo en clase se queda callado y nunca responde, aparte de que no tiene un buen manejo del grupo, Pesimo maestro si pueden saquenle la vielta"
+    },
+    {
+      "fecha_iso": "2014-02-06T00:00:00",
+      "materia": "TALLER DE INVESTIGACION",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Tiene un autoestima por los suelos y ademas de una manejo del grupo nulo. Dió TallerdeInv.1 de una manera deplorable y exigiendo resultados excelsos lo cual resulto incoherente. Expusimos más veces de las que quisiera recordar y prometio una calificacion y puso otra más baja... no tiene palabra."
+    },
+    {
+      "fecha_iso": "2014-01-10T00:00:00",
+      "materia": "CIENCIA E INGENIERIA DE MATERIALES",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "yo lo califico oy en el 2014, aclaro ami no me ha dado, pero me han dicho k es bueno para su materia :)"
+    }
+  ],
+  "comments_recent": [
+    "se queda trabado, si le preguntas algo le sale pantallazo azul xD",
+    "MALISIMO\n\nYA NISIQUIERA ES PROFESOR \n\nLA VERDAD PERJUDICA NOMAS.",
+    "Es el tipo de maestro que te perjudica ya que no aprendes nada. Es facil de pasar pero no vale la pena.",
+    "No tengo idea que hace ejerciendo como docente. No domina nada la materia y lo unico que hace es leer diapositivas que proyecta. A media explicacion se queda callado por minutos sin saber que decir y finaliza la clase. Para nada recomendado.",
+    "es una basofia de maestro nunca cargen con el",
+    "Si hay opcion no cargar con el,no domina los temas y quiere que con las tareas extensas que deja aprendas todo solo, si le preguntas algo en clase se queda callado y nunca responde, aparte de que no tiene un buen manejo del grupo, Pesimo maestro si pueden saquenle la vielta",
+    "Tiene un autoestima por los suelos y ademas de una manejo del grupo nulo. Dió TallerdeInv.1 de una manera deplorable y exigiendo resultados excelsos lo cual resulto incoherente. Expusimos más veces de las que quisiera recordar y prometio una calificacion y puso otra más baja... no tiene palabra.",
+    "yo lo califico oy en el 2014, aclaro ami no me ha dado, pero me han dicho k es bueno para su materia :)"
+  ],
+  "n_reviews": 8
+}

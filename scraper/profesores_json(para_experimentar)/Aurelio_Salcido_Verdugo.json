@@ -1,0 +1,59 @@
+{
+  "nombre": "Aurelio Salcido Verdugo",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "ciudad": "Ciudad: culiacan, sinaloa",
+  "departamento": "Departamento/Facultad: Ingeniería Industrial",
+  "calidad_general": 7.7,
+  "porcentaje_recomienda": 67,
+  "nivel_dificultad": 0.0,
+  "etiquetas": [
+    "ASISTENCIA OBLIGATORIA (1)"
+  ],
+  "numero_calificaciones": 3,
+  "calificaciones": [
+    {
+      "fecha": "14/Ene/2018",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 3.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Higiene y seguridad industrial",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "Solamente escribe en el pizarrón mapas conceptuales con una pésima caligrafía, se enoja si le preguntas qué dice. Aprendes más de las exposiciones de los alumnos. Si quieres aprender no cargues con él, tiempo desperdiciado.",
+      "etiquetas_comentario": [
+        "Asistencia obligatoria"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "03/Dic/2013",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Higiene y Seguridad Industrial",
+      "asistencia": "",
+      "calificacion_recibida": "10",
+      "interes_clase": "10",
+      "comentario": "altamente recomendado da clases nomas de lunes a miercoles aveces nomas lunes y martes pero enseña bien y no haces examenes nomas entregas los apuntes de la libreta, una exposicion.",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "07/Ago/2013",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Higiene y Seg Ind. / Taller de Etica",
+      "asistencia": "",
+      "calificacion_recibida": "10",
+      "interes_clase": "10",
+      "comentario": "Puro transcribir del pizarrón y una explicación después, al final te pide una usb con diapositivas de todo el semestre, no hace exámenes y si acaso una exposición. Tiene convenio para faltar osea que da como 2 clases a la semana, nomas entregale la libreta, usb y no tengas tantas faltas y 100 pelado",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    }
+  ]
+}

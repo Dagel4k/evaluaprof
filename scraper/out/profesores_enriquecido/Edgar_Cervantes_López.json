@@ -1,0 +1,307 @@
+{
+  "professor_id": "Edgar_Cervantes_López",
+  "nombre": "Edgar Cervantes López",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 7.076045188385266,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.035269136484479,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.667,
+    "wilson_interval": [
+      0.3906175873976139,
+      0.8618821601026386
+    ],
+    "n_recommendations": 12
+  },
+  "subject_normalization": {
+    "z_mean": -0.21,
+    "z_mean_decayed": 0.01,
+    "per_subject": [
+      {
+        "materia": "TALLER DE SISTEMAS OPERATIVOS",
+        "z_decayed": 1.747505344419561,
+        "n": 8
+      },
+      {
+        "materia": "MATEMATICAS DISCRETAS",
+        "z_decayed": 0.7955085738608333,
+        "n": 19
+      },
+      {
+        "materia": "FUND. DE TELECOMUNICACIONES",
+        "z_decayed": 0.0,
+        "n": 3
+      },
+      {
+        "materia": "LENGUAJE ENSAMBLADOR",
+        "z_decayed": -0.7559289460184544,
+        "n": 4
+      },
+      {
+        "materia": "---",
+        "z_decayed": -0.9627852966533862,
+        "n": 521
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "aprender",
+          "manzanas",
+          "explica",
+          "excelente profesor",
+          "excelente"
+        ],
+        "weight": 0.10326722171918405
+      },
+      {
+        "id": 1,
+        "words": [
+          "maestro",
+          "buen",
+          "asistencia",
+          "toma",
+          "toma asistencia"
+        ],
+        "weight": 0.15681209228406187
+      },
+      {
+        "id": 2,
+        "words": [
+          "profesor",
+          "explica",
+          "hace",
+          "conocimiento",
+          "profesor conocimiento"
+        ],
+        "weight": 0.14500753425619797
+      },
+      {
+        "id": 3,
+        "words": [
+          "es",
+          "hace",
+          "examenes",
+          "profesor",
+          "te"
+        ],
+        "weight": 0.12630503406936103
+      },
+      {
+        "id": 4,
+        "words": [
+          "profesor",
+          "es",
+          "depende",
+          "temas",
+          "si"
+        ],
+        "weight": 0.15592137171764767
+      }
+    ],
+    "sentiment": {
+      "overall": 0.3333333333333333,
+      "by_month": {
+        "2019-08": 1.0,
+        "2018-05": 0.0,
+        "2018-03": 0.0,
+        "2017-08": 1.0,
+        "2017-01": 0.0,
+        "2015-08": 0.0,
+        "2013-04": 0.0,
+        "2013-01": 1.0,
+        "2012-11": 0.0,
+        "2012-09": 1.0,
+        "2012-08": 0.0
+      }
+    },
+    "n_comments": 12
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        5.5,
+        10.0,
+        2.0,
+        9.0,
+        10.0,
+        9.0,
+        9.0,
+        9.0,
+        4.0,
+        2.0,
+        10.0
+      ],
+      "ewma": [
+        5.5,
+        6.85,
+        5.394999999999999,
+        6.476499999999998,
+        7.533549999999998,
+        7.973484999999998,
+        8.281439499999998,
+        8.497007649999997,
+        7.147905354999998,
+        5.603533748499998,
+        6.9224736239499975
+      ],
+      "sigma": 2.5901245594387214
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 6.9224736239499975,
+      "quality_band": [
+        1.8458294874501036,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2019-08-14T00:00:00",
+      "materia": "PROGRAMACION DE SISTEMAS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 1,
+      "comentario": "Un excelente profesor, que se ve que domina los temas y explica de sobras con palitos y manzanas, eso si. Hay que poner atencion todos los dias para no solo escuchar lo que dice si no asimilar la información. Aqui es cuestion de uno si desea o no aprender realmente"
+    },
+    {
+      "fecha_iso": "2018-05-08T00:00:00",
+      "materia": "CUALQUIER MATERIA QUE DE",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Rip Edgar Cervantes fue un placer tenerte se profesor pero te corrieron"
+    },
+    {
+      "fecha_iso": "2018-03-23T00:00:00",
+      "materia": "CULTURA EMPRESARIAL",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "No hace exámenes no toma asistencia y al final te reprueba aunque le entregues el único trabajo que pide. Ah y también sales 10 minutos después de que termina la hora"
+    },
+    {
+      "fecha_iso": "2017-08-05T00:00:00",
+      "materia": "TALLER DE SISTEMAS OPERATIVOS",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "El profesor sabe mucho de la materia y todo lo que le preguntes lo va a explicar de muy buena manera y lo mas claro que le sea posible. Muy buen maestro, no toma asistencia pero sabe quienes van y las ganas que le ponen a su clase."
+    },
+    {
+      "fecha_iso": "2017-01-11T00:00:00",
+      "materia": "MATEMATICAS DISCRETAS",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 25.0,
+      "recomienda": 1,
+      "comentario": "Muy buen profesor, con mucho conocimiento, explica bien, no toma asistencia, no deja tareas ni trabajos, solo da clases, deja todos los hasta ultimo dia del semestre, hace reprobacion grupal. no ayuda"
+    },
+    {
+      "fecha_iso": "2015-08-22T00:00:00",
+      "materia": "ADMON DE REDES",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": "sin comentarios"
+    },
+    {
+      "fecha_iso": "2013-04-27T00:00:00",
+      "materia": "PROGRAMACIÓN DE SISTEMAS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "El mejor profesor que he tuve en ingeniería.\nSu dominio de los temas es simplemente espectacular. \nPara aprobar con él todo depende de que tan interesado estes en aprobar. \n\nSi eres curioso y le preguntas el siempre estará dispuesto a explicarte y apoyarte.\n\nDefinitivamente un docente a seguir"
+    },
+    {
+      "fecha_iso": "2013-01-16T00:00:00",
+      "materia": "FUNAMENTOS DE TELECOMUNICACIONES",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Excelente profesor, si quieres aprender mucho, carga con el, los examenes son abiertos y un poco largos pero explica con peras y manzanas y bastanes cosas."
+    },
+    {
+      "fecha_iso": "2012-11-08T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2012-09-06T00:00:00",
+      "materia": "FUND. DE TELECOMUNICACIONES",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Es un excelente profesor explica todo a detalle."
+    },
+    {
+      "fecha_iso": "2012-08-14T00:00:00",
+      "materia": "LENGUAJE ENSAMBLADOR",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 0,
+      "comentario": "Es un buen maestro, te explica con \"peras y manzanas\", lo que depende es tu nivel de aprendizaje, si quieres aprender, ponle mucha atencion, es un gran maestro."
+    },
+    {
+      "fecha_iso": "2012-08-14T00:00:00",
+      "materia": "LENGUAJE ENSAMBLADOR",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Es un profesor con mucho conocimiento, pero al trasmitirlo a los alumnos se le dificulta ya que tal ves piensa que uno ya conoce todo lo que esta explicando, y eso hace que algunas veces todos los alumnos no comprendan lo que se explica"
+    }
+  ],
+  "comments_recent": [
+    "Un excelente profesor, que se ve que domina los temas y explica de sobras con palitos y manzanas, eso si. Hay que poner atencion todos los dias para no solo escuchar lo que dice si no asimilar la información. Aqui es cuestion de uno si desea o no aprender realmente",
+    "Rip Edgar Cervantes fue un placer tenerte se profesor pero te corrieron",
+    "No hace exámenes no toma asistencia y al final te reprueba aunque le entregues el único trabajo que pide. Ah y también sales 10 minutos después de que termina la hora",
+    "El profesor sabe mucho de la materia y todo lo que le preguntes lo va a explicar de muy buena manera y lo mas claro que le sea posible. Muy buen maestro, no toma asistencia pero sabe quienes van y las ganas que le ponen a su clase.",
+    "Muy buen profesor, con mucho conocimiento, explica bien, no toma asistencia, no deja tareas ni trabajos, solo da clases, deja todos los hasta ultimo dia del semestre, hace reprobacion grupal. no ayuda",
+    "sin comentarios",
+    "El mejor profesor que he tuve en ingeniería.\nSu dominio de los temas es simplemente espectacular. \nPara aprobar con él todo depende de que tan interesado estes en aprobar. \n\nSi eres curioso y le preguntas el siempre estará dispuesto a explicarte y apoyarte.\n\nDefinitivamente un docente a seguir",
+    "Excelente profesor, si quieres aprender mucho, carga con el, los examenes son abiertos y un poco largos pero explica con peras y manzanas y bastanes cosas.",
+    "[Comentario esperando revisión]",
+    "Es un excelente profesor explica todo a detalle."
+  ],
+  "n_reviews": 12
+}

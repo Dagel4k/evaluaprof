@@ -1,0 +1,384 @@
+{
+  "professor_id": "Julio_Cesar_Salas_Rojas",
+  "nombre": "Julio Cesar Salas Rojas",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 3.617919275134161,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 5.026755896643398,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.211,
+    "wilson_interval": [
+      0.08507538491591575,
+      0.43334714240266087
+    ],
+    "n_recommendations": 19
+  },
+  "subject_normalization": {
+    "z_mean": -0.89,
+    "z_mean_decayed": -1.22,
+    "per_subject": [
+      {
+        "materia": "---",
+        "z_decayed": 0.17741619601829403,
+        "n": 521
+      },
+      {
+        "materia": "INFERENCIAL 2",
+        "z_decayed": -0.5627486305723982,
+        "n": 4
+      },
+      {
+        "materia": "ESTADISTICA INFERENCIAL 2",
+        "z_decayed": -0.7348469228349533,
+        "n": 4
+      },
+      {
+        "materia": "ESTADÍSTICA INFERENCIAL I",
+        "z_decayed": -0.8301161138583315,
+        "n": 9
+      },
+      {
+        "materia": "ESTADÍSTICA INFERENCIAL",
+        "z_decayed": -1.1472573281295875,
+        "n": 6
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "maestro",
+          "clases",
+          "clase",
+          "da",
+          "es"
+        ],
+        "weight": 0.11301567878157275
+      },
+      {
+        "id": 1,
+        "words": [
+          "esperando revision",
+          "comentario",
+          "comentario esperando",
+          "esperando",
+          "revision"
+        ],
+        "weight": 0.08771126401275844
+      },
+      {
+        "id": 2,
+        "words": [
+          "mejores",
+          "estadistica",
+          "si",
+          "eres",
+          "si eres"
+        ],
+        "weight": 0.13470518634870224
+      },
+      {
+        "id": 3,
+        "words": [
+          "mal",
+          "preferencia",
+          "mujeres",
+          "tiene preferencia",
+          "haga"
+        ],
+        "weight": 0.1347649909789022
+      },
+      {
+        "id": 4,
+        "words": [
+          "pura",
+          "grilla",
+          "aprendes",
+          "asco",
+          "profesor"
+        ],
+        "weight": 0.14254043017019513
+      }
+    ],
+    "sentiment": {
+      "overall": 0.0,
+      "by_month": {
+        "2021-08": 0.0,
+        "2021-01": 0.0,
+        "2019-12": 0.0,
+        "2019-08": 0.0,
+        "2018-11": 0.0,
+        "2018-06": 0.0,
+        "2016-11": 0.0,
+        "2015-11": 0.0,
+        "2015-01": 0.0,
+        "2013-06": -1.0,
+        "2012-12": 0.0,
+        "2012-01": 0.0,
+        "2011-10": 0.5,
+        "2011-01": 0.0,
+        "2010-09": 0.0
+      }
+    },
+    "n_comments": 17
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.007,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        3.0,
+        2.0,
+        10.0,
+        2.0,
+        5.0,
+        3.0,
+        3.0,
+        3.0,
+        5.0,
+        3.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        10.0,
+        2.0
+      ],
+      "ewma": [
+        3.0,
+        2.6999999999999997,
+        4.89,
+        4.023,
+        4.3161,
+        3.9212699999999994,
+        3.644888999999999,
+        3.451422299999999,
+        3.915995609999999,
+        3.6411969269999993,
+        3.1488378488999995,
+        2.8041864942299997,
+        2.5629305459609997,
+        2.3940513821726994,
+        2.2758359675208895,
+        4.593085177264623,
+        3.815159624085236
+      ],
+      "sigma": 2.07738522576052
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 3.815159624085236,
+      "quality_band": [
+        0.0,
+        7.886834666575854
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2021-08-09T00:00:00",
+      "materia": "ESTADÍSTICA INFERENCIAL 2",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "No lo haga compa"
+    },
+    {
+      "fecha_iso": "2021-03-06T00:00:00",
+      "materia": "F",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2021-01-21T00:00:00",
+      "materia": "ESTADÍSTICA INFERENCIAL 2",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "El peor \"profesor\" que he tenido. Literalmente no explica nada. Eso si si eres morra ya pasaste aunque no sepas ni madres de estadística."
+    },
+    {
+      "fecha_iso": "2019-12-17T00:00:00",
+      "materia": "ESTADÍSTICA INFEERNCIAL 1",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Un asco de profesor, si se le puede llamar profesor a eso"
+    },
+    {
+      "fecha_iso": "2019-08-04T00:00:00",
+      "materia": "ESTADÍSTICA 1",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "De lo peor que tiene el tec. No entiendo como le dan una materia tan importante a un profesor tan vale madre que no enseña y que da 20 minutos de pura grilla."
+    },
+    {
+      "fecha_iso": "2018-11-29T00:00:00",
+      "materia": "INFERENCIAL 2",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Un asco de maestro. No aprendes nada. pura grilla con ese profe. Es barco con las morras pero no aprendes ni madres."
+    },
+    {
+      "fecha_iso": "2018-06-13T00:00:00",
+      "materia": "INFERENCIAL 2",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "un desperdicio de tiempo. si eres morra ya chingaste. debe aver mejores opciones para una materia tan importante como esta."
+    },
+    {
+      "fecha_iso": "2018-01-14T00:00:00",
+      "materia": "ESTADÍSTICA INF. 2",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 0,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2016-11-04T00:00:00",
+      "materia": "INFERENCIAL 2",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "No explica casi nada y no le gusta que preguntes. Casi todos pasamos pero de los que conozco y llevaron con el no saben nada de estadistica. Si eres mujer y estas buena ya la hiciste. Hay muchas mejores opciones."
+    },
+    {
+      "fecha_iso": "2015-11-29T00:00:00",
+      "materia": "ESTADISTICA INFERENCIAL I",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 0,
+      "comentario": "No explica nada da las formulas y una que otra vez dice como usarlas pero todo el tiempo quiere que uno haga los problemas sin saber si lo estas haciendo bien o mal. Se enoja cuando le tienes una duda y le tiene preferencia a las mujeres y mas a las que se llevan con el. Los exámenes son faciles"
+    },
+    {
+      "fecha_iso": "2015-01-09T00:00:00",
+      "materia": "ESTADISTICA INFERENCIAL 2",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 0,
+      "comentario": "Sinceramente es de los peores profesores del tec, se cree muy correcto y puede llegar a ser mala influencia, tiene preferencia hacia las mujeres y les tira los perros a las que se dejen, pasan la mayoria por lo menos con 70."
+    },
+    {
+      "fecha_iso": "2013-06-10T00:00:00",
+      "materia": "ESTADÍSTICA INFERENCIAL",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Mal maestro, no lo recomiendo para nada, su clase es de 20 min máximo. Medio explica los temas una vez y si le preguntas se enoja, los exámenes no soy muy difíciles, el carácter del maestro es pésimo, ademas es muy cínico, y no genera un ambiente de confianza."
+    },
+    {
+      "fecha_iso": "2012-12-18T00:00:00",
+      "materia": "ESTADÍSTICA INFERENCIAL I",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 6.5,
+      "recomienda": 1,
+      "comentario": "Solo da 20 min de clases, falta mucho, vimos 3 unidades de 5 .... si eres floj@ carga con él, si no NI LO PIENSES, es muy partidista y es buena onda pero es muy pesado. Aprendes lo básico y su proyecto final es hacer todos los apuntes en hoja blanca y engargolados."
+    },
+    {
+      "fecha_iso": "2012-12-03T00:00:00",
+      "materia": "---",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2012-01-12T00:00:00",
+      "materia": "ESTADÍSTICA",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 1.5,
+      "recomienda": 0,
+      "comentario": "Si se refiere que da el tiempo suficiente entonces 15 o 20 minutos de clase mal dada, de holgazanería, prepotencia y mal explicadas ¿son buenas? Porque no lo creo, ya que es un mal ejemplo ademas de ser una mala influencia como profesor, no lo recomiendo para nada"
+    },
+    {
+      "fecha_iso": "2011-10-05T00:00:00",
+      "materia": "---",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2011-10-02T00:00:00",
+      "materia": "ESTADISTICA II",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "El maestro es un excelente profesor, el tiempo que da la clase es el adecuado.Da calidad de clase, dado que no ocupa libretita como el resto.Se sabe todo de memoria.Me fascinan sus clases."
+    },
+    {
+      "fecha_iso": "2011-01-20T00:00:00",
+      "materia": "ESTADÍSTICA",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Sin comentarios."
+    },
+    {
+      "fecha_iso": "2010-09-09T00:00:00",
+      "materia": "ESTADISTICA II",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "NOMAS DA 20 MINUTOS DE CLASES DIARIOS Y SI BIEN TE VA, ES UN BAQUETON."
+    }
+  ],
+  "comments_recent": [
+    "No lo haga compa",
+    "El peor \"profesor\" que he tenido. Literalmente no explica nada. Eso si si eres morra ya pasaste aunque no sepas ni madres de estadística.",
+    "Un asco de profesor, si se le puede llamar profesor a eso",
+    "De lo peor que tiene el tec. No entiendo como le dan una materia tan importante a un profesor tan vale madre que no enseña y que da 20 minutos de pura grilla.",
+    "Un asco de maestro. No aprendes nada. pura grilla con ese profe. Es barco con las morras pero no aprendes ni madres.",
+    "un desperdicio de tiempo. si eres morra ya chingaste. debe aver mejores opciones para una materia tan importante como esta.",
+    "No explica casi nada y no le gusta que preguntes. Casi todos pasamos pero de los que conozco y llevaron con el no saben nada de estadistica. Si eres mujer y estas buena ya la hiciste. Hay muchas mejores opciones.",
+    "No explica nada da las formulas y una que otra vez dice como usarlas pero todo el tiempo quiere que uno haga los problemas sin saber si lo estas haciendo bien o mal. Se enoja cuando le tienes una duda y le tiene preferencia a las mujeres y mas a las que se llevan con el. Los exámenes son faciles"
+  ],
+  "n_reviews": 19
+}

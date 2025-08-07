@@ -1,0 +1,146 @@
+{
+  "professor_id": "Victor_Mauel_Batiz_Beltran",
+  "nombre": "Victor Mauel Batiz Beltran",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 10.0,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.985061400177238,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 1.0,
+    "wilson_interval": [
+      0.565508505247919,
+      1
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": 1.04,
+    "z_mean_decayed": 1.02,
+    "per_subject": [
+      {
+        "materia": "TALLER DE BASE DE DATOS",
+        "z_decayed": 1.1602387022306426,
+        "n": 22
+      },
+      {
+        "materia": "GRAFICACION",
+        "z_decayed": 1.08027387428098,
+        "n": 20
+      },
+      {
+        "materia": "FUNDAMENTOS DE PROGRAMACIÓN",
+        "z_decayed": 0.8694600370824767,
+        "n": 36
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [],
+    "sentiment": {
+      "overall": null,
+      "by_month": {}
+    },
+    "n_comments": 2
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 1,
+    "trust_score": 0.8
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        10.0
+      ],
+      "ewma": [
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        10.0
+      ],
+      "sigma": 0.0
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 10.0,
+      "quality_band": [
+        10.0,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2025-06-04T00:00:00",
+      "materia": "FUNDAMENTOS DE PROGRAMACIÓN",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2024-11-07T00:00:00",
+      "materia": "PROLOG/LENGUAJES Y AUTOMATAS II/GRAFICACIÓN",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "El mejor profe del tec, siempre que lo vean carguen con el, es un amor de persona y ser humano, sus clases pueden llegar a aburrir pero explica super bien, los exámenes son fáciles hasta el mismo dice que el no es barco es un yate de lujo 8)"
+    },
+    {
+      "fecha_iso": "2024-08-27T00:00:00",
+      "materia": "TALLER DE BASE DE DATOS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Le pone humor a las clases pero sin descuidar la enseñanza, no es estricto sin embargo le gusta que pongas atención en clase. Aprendes mucho con él"
+    },
+    {
+      "fecha_iso": "2024-02-01T00:00:00",
+      "materia": "GRAFICACION",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2023-09-25T00:00:00",
+      "materia": "CIENCIA DE DATOS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": ""
+    }
+  ],
+  "comments_recent": [
+    "El mejor profe del tec, siempre que lo vean carguen con el, es un amor de persona y ser humano, sus clases pueden llegar a aburrir pero explica super bien, los exámenes son fáciles hasta el mismo dice que el no es barco es un yate de lujo 8)",
+    "Le pone humor a las clases pero sin descuidar la enseñanza, no es estricto sin embargo le gusta que pongas atención en clase. Aprendes mucho con él"
+  ],
+  "n_reviews": 5
+}

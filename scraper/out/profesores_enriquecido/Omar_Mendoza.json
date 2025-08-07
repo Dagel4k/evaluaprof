@@ -1,0 +1,174 @@
+{
+  "professor_id": "Omar_Mendoza",
+  "nombre": "Omar Mendoza",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 5.2928194112887486,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 6.785061400177238,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.4,
+    "wilson_interval": [
+      0.11761823115925325,
+      0.769280067791163
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": -0.38,
+    "z_mean_decayed": -0.77,
+    "per_subject": [
+      {
+        "materia": "ALGORITMOS",
+        "z_decayed": 0.37796447300922703,
+        "n": 7
+      },
+      {
+        "materia": "---",
+        "z_decayed": -0.36348883362302276,
+        "n": 521
+      },
+      {
+        "materia": "ALGORITMOS Y LENGUAJES DE PROGRAMACION",
+        "z_decayed": -1.1470786693528088,
+        "n": 3
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "profesor",
+          "mal",
+          "mal profesor"
+        ],
+        "weight": 0.2580404953460941
+      },
+      {
+        "id": 1,
+        "words": [
+          "mal",
+          "mal profesor",
+          "profesor"
+        ],
+        "weight": 0.2278368739510397
+      }
+    ],
+    "sentiment": {
+      "overall": 0.2,
+      "by_month": {
+        "2019-01": 0.0,
+        "2017-08": 0.0,
+        "2014-01": 0.0,
+        "2013-03": 1.0,
+        "2011-11": 0.0
+      }
+    },
+    "n_comments": 5
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        4.0,
+        10.0,
+        10.0,
+        2.0,
+        6.0
+      ],
+      "ewma": [
+        4.0,
+        5.8,
+        7.06,
+        5.541999999999999,
+        5.679399999999999
+      ],
+      "sigma": 2.99420536904201
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 5.679399999999999,
+      "quality_band": [
+        0.0,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2019-01-09T00:00:00",
+      "materia": "QUÍMICA BASICA",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 0,
+      "comentario": "Mal profesor , solo pone diapositivas y te pone a escribirlas , nunca enseña nada pues según el tu tienes que aprender por tu mismo solo con la teoría que el te hace escribir,poco flexible"
+    },
+    {
+      "fecha_iso": "2017-08-30T00:00:00",
+      "materia": "ALGORITMOS Y LENGUAJES DE PROGRAMACION",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 0,
+      "comentario": "No lo carguen. Calificará como quiera, no importa que saques 100 en el examen o vayas siempre a su clase. Siempre intenta bajarte calificación y va todo distraído pensando otras cosas. No sabe explicar y cree que todo ya lo debemos saber. Mala experiencia, mal profesor. Falta como 60% del semestre."
+    },
+    {
+      "fecha_iso": "2014-01-17T00:00:00",
+      "materia": "ALGORITMOS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Muy buen profesor, con varias opciones al hacer los exámenes."
+    },
+    {
+      "fecha_iso": "2013-03-02T00:00:00",
+      "materia": "SERVICIO SOCIAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Excelente"
+    },
+    {
+      "fecha_iso": "2011-11-15T00:00:00",
+      "materia": "---",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    }
+  ],
+  "comments_recent": [
+    "Mal profesor , solo pone diapositivas y te pone a escribirlas , nunca enseña nada pues según el tu tienes que aprender por tu mismo solo con la teoría que el te hace escribir,poco flexible",
+    "No lo carguen. Calificará como quiera, no importa que saques 100 en el examen o vayas siempre a su clase. Siempre intenta bajarte calificación y va todo distraído pensando otras cosas. No sabe explicar y cree que todo ya lo debemos saber. Mala experiencia, mal profesor. Falta como 60% del semestre.",
+    "Muy buen profesor, con varias opciones al hacer los exámenes.",
+    "Excelente",
+    "[Comentario esperando revisión]"
+  ],
+  "n_reviews": 5
+}

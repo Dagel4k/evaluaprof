@@ -1,0 +1,35 @@
+{
+  "nombre": "Luis Enrique Barreto Salazar",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "ciudad": "Ciudad: culiacan, sinaloa",
+  "departamento": "Departamento/Facultad: Mecatrónica",
+  "calidad_general": 10.0,
+  "porcentaje_recomienda": 100,
+  "nivel_dificultad": 0.0,
+  "etiquetas": [
+    "MUY CÓMICO (1)",
+    "DA BUENA RETROALIMENTACIÓN (1)",
+    "RESPETADO POR LOS ESTUDIANTES (1)"
+  ],
+  "numero_calificaciones": 1,
+  "calificaciones": [
+    {
+      "fecha": "01/Jul/2024",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Control digital",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "7.5",
+      "interes_clase": "",
+      "comentario": "10/10 puro control digital en verano chavales",
+      "etiquetas_comentario": [
+        "Muy cómico",
+        "Da buena retroalimentación",
+        "Respetado por los estudiantes"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    }
+  ]
+}

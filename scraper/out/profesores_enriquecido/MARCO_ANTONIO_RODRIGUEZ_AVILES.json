@@ -1,0 +1,273 @@
+{
+  "professor_id": "MARCO_ANTONIO_RODRIGUEZ_AVILES",
+  "nombre": "MARCO ANTONIO RODRIGUEZ AVILES",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 9.652219017188582,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.941710523936122,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.909,
+    "wilson_interval": [
+      0.6226353745137962,
+      0.9837682477371741
+    ],
+    "n_recommendations": 11
+  },
+  "subject_normalization": {
+    "z_mean": 1.03,
+    "z_mean_decayed": 1.22,
+    "per_subject": [
+      {
+        "materia": "INGENIERIA DE SOFTWARE",
+        "z_decayed": 1.4024951188042205,
+        "n": 11
+      },
+      {
+        "materia": "ING SOFTWARE",
+        "z_decayed": 1.0990095931744954,
+        "n": 8
+      },
+      {
+        "materia": "SISTEMAS DE INFORMACION",
+        "z_decayed": 0.5773502691896252,
+        "n": 3
+      },
+      {
+        "materia": "PROGRAMACION",
+        "z_decayed": 0.1691202004479421,
+        "n": 20
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "profe",
+          "bien",
+          "es",
+          "buena",
+          "da"
+        ],
+        "weight": 0.12622393708943172
+      },
+      {
+        "id": 1,
+        "words": [
+          "clases",
+          "es",
+          "buen",
+          "paciente",
+          "profesor"
+        ],
+        "weight": 0.16103959702958204
+      },
+      {
+        "id": 2,
+        "words": [
+          "profesor",
+          "paciente",
+          "bien",
+          "buen",
+          "profe"
+        ],
+        "weight": 0.20643515521618008
+      },
+      {
+        "id": 3,
+        "words": [
+          "buena",
+          "bien",
+          "explica bien",
+          "explica",
+          "clases"
+        ],
+        "weight": 0.20543752599808185
+      }
+    ],
+    "sentiment": {
+      "overall": 0.2222222222222222,
+      "by_month": {
+        "2023-06": 0.0,
+        "2022-02": 0.0,
+        "2021-12": 0.0,
+        "2021-11": 0.0,
+        "2021-10": 0.0,
+        "2011-11": 0.5,
+        "2011-05": 0.0,
+        "2011-01": 1.0
+      }
+    },
+    "n_comments": 9
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        10.0,
+        4.0,
+        9.0,
+        7.0,
+        10.0,
+        9.0,
+        9.0,
+        10.0,
+        10.0
+      ],
+      "ewma": [
+        10.0,
+        8.2,
+        8.44,
+        8.008,
+        8.605599999999999,
+        8.723919999999998,
+        8.806743999999998,
+        9.164720799999998,
+        9.41530456
+      ],
+      "sigma": 1.6530401542360256
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 9.41530456,
+      "quality_band": [
+        6.175345857697389,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2023-06-01T00:00:00",
+      "materia": "ING SOFTWARE",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Da buena retro y es bien flexible"
+    },
+    {
+      "fecha_iso": "2022-02-22T00:00:00",
+      "materia": "ING SOFTWARE",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Una persona muy amena"
+    },
+    {
+      "fecha_iso": "2022-02-01T00:00:00",
+      "materia": "INGENIERIA DE SOFTWARE",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2021-12-23T00:00:00",
+      "materia": "INGENIERIA DE SOFTWARE",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 1,
+      "comentario": "El profe explica muy bien los temas en clase, usa diferente material y te da su opinión personal. Las clases se vuelven un poco aburridas pero es buena onda y siempre trata de tener buen humor en clase."
+    },
+    {
+      "fecha_iso": "2021-11-30T00:00:00",
+      "materia": "INGENIERIA DE SOFTWARE",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Esta bien guapo con ese bigote el profe xd"
+    },
+    {
+      "fecha_iso": "2021-10-04T00:00:00",
+      "materia": "ING SOFTWARE",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Explica bien padre las clases"
+    },
+    {
+      "fecha_iso": "2013-11-15T00:00:00",
+      "materia": "PROGRAMACION",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2011-11-25T00:00:00",
+      "materia": "XXX",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "buen profe"
+    },
+    {
+      "fecha_iso": "2011-11-23T00:00:00",
+      "materia": "PLANIFICACIÓN Y MODELADO",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Es un profesor muy enfocado al uso práctico de los proyectos, además de ser bastante paciente y comprensivo."
+    },
+    {
+      "fecha_iso": "2011-05-07T00:00:00",
+      "materia": "SISTEMAS DE INF",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 0,
+      "comentario": "no domina"
+    },
+    {
+      "fecha_iso": "2011-01-30T00:00:00",
+      "materia": "SISTEMAS DE INFORMACION",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "BUEN PROFESOR, PACIENTE Y CON MUCHO CONOCIMIENTO."
+    }
+  ],
+  "comments_recent": [
+    "Da buena retro y es bien flexible",
+    "Una persona muy amena",
+    "El profe explica muy bien los temas en clase, usa diferente material y te da su opinión personal. Las clases se vuelven un poco aburridas pero es buena onda y siempre trata de tener buen humor en clase.",
+    "Esta bien guapo con ese bigote el profe xd",
+    "Explica bien padre las clases",
+    "buen profe",
+    "Es un profesor muy enfocado al uso práctico de los proyectos, además de ser bastante paciente y comprensivo.",
+    "no domina"
+  ],
+  "n_reviews": 11
+}

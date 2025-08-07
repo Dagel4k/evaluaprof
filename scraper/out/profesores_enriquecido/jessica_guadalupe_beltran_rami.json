@@ -1,0 +1,118 @@
+{
+  "professor_id": "jessica_guadalupe_beltran_rami",
+  "nombre": "jessica guadalupe beltran rami",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 6.192734557223428,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 6.982763154050659,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.333,
+    "wilson_interval": [
+      0.061490315276160515,
+      0.7923450448735121
+    ],
+    "n_recommendations": 3
+  },
+  "subject_normalization": {
+    "z_mean": -0.77,
+    "z_mean_decayed": -0.61,
+    "per_subject": [
+      {
+        "materia": "QUÍMICA",
+        "z_decayed": -0.38297132248898513,
+        "n": 44
+      },
+      {
+        "materia": "QUÍMICA ANALÍTICA",
+        "z_decayed": -1.154700538379251,
+        "n": 3
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [],
+    "sentiment": {
+      "overall": null,
+      "by_month": {}
+    },
+    "n_comments": 1
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        10.0,
+        6.0,
+        5.0
+      ],
+      "ewma": [
+        10.0,
+        8.8,
+        7.66
+      ],
+      "sigma": 1.5777198737418505
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 7.66,
+      "quality_band": [
+        4.567669047465973,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2018-01-14T00:00:00",
+      "materia": "QUÍMICA",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 0,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2015-08-05T00:00:00",
+      "materia": "QUÍMICA ANALÍTICA",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 0,
+      "comentario": "Muy buena profesora, se preocupa porque aprendas y entiendas de lo que se habla en las clases, la disciplina y la participación es muy importante y ademas de la puntualidad, la verdad es una buena maestra"
+    },
+    {
+      "fecha_iso": "2014-11-18T00:00:00",
+      "materia": "---------",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": ""
+    }
+  ],
+  "comments_recent": [
+    "Muy buena profesora, se preocupa porque aprendas y entiendas de lo que se habla en las clases, la disciplina y la participación es muy importante y ademas de la puntualidad, la verdad es una buena maestra"
+  ],
+  "n_reviews": 3
+}

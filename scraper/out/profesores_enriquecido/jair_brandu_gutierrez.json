@@ -1,0 +1,564 @@
+{
+  "professor_id": "jair_brandu_gutierrez",
+  "nombre": "jair brandu gutierrez",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 4.683681569156129,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 4.582085239188229,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.167,
+    "wilson_interval": [
+      0.07870340628564097,
+      0.3189111473467432
+    ],
+    "n_recommendations": 36
+  },
+  "subject_normalization": {
+    "z_mean": -0.48,
+    "z_mean_decayed": -0.19,
+    "per_subject": [
+      {
+        "materia": "---",
+        "z_decayed": 1.0092683155169555,
+        "n": 521
+      },
+      {
+        "materia": "PROGRAMACIÓN WEB",
+        "z_decayed": 0.32025630761017415,
+        "n": 3
+      },
+      {
+        "materia": "TALLER DE SISTEMAS OPERATIVOS",
+        "z_decayed": 0.18751742594599086,
+        "n": 8
+      },
+      {
+        "materia": "ADMINISTRACION",
+        "z_decayed": -0.17490106051759305,
+        "n": 15
+      },
+      {
+        "materia": "FUNDAMENTOS DE INVESTIGACIÓN",
+        "z_decayed": -0.2909357317329285,
+        "n": 29
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "sabe dar",
+          "dar clases",
+          "clases",
+          "dar",
+          "sabe"
+        ],
+        "weight": 0.08350266096613428
+      },
+      {
+        "id": 1,
+        "words": [
+          "esperando revision",
+          "esperando",
+          "comentario",
+          "revision",
+          "comentario esperando"
+        ],
+        "weight": 0.0761655407243966
+      },
+      {
+        "id": 2,
+        "words": [
+          "estudiar",
+          "bien",
+          "examen",
+          "te",
+          "diapositivas"
+        ],
+        "weight": 0.14409195576908027
+      },
+      {
+        "id": 3,
+        "words": [
+          "pesimo maestro",
+          "pesimo",
+          "te",
+          "es",
+          "maestro"
+        ],
+        "weight": 0.09833942178254831
+      },
+      {
+        "id": 4,
+        "words": [
+          "diapositivas",
+          "facil",
+          "examenes",
+          "presencial",
+          "linea"
+        ],
+        "weight": 0.08003358396812875
+      }
+    ],
+    "sentiment": {
+      "overall": -0.13793103448275862,
+      "by_month": {
+        "2022-12": 0.0,
+        "2022-02": 0.0,
+        "2022-01": -1.0,
+        "2021-12": 0.0,
+        "2021-11": 0.0,
+        "2021-10": 0.0,
+        "2021-09": 0.0,
+        "2020-11": 0.0,
+        "2019-01": -0.5,
+        "2016-12": 0.0,
+        "2016-11": 0.0,
+        "2016-01": 0.0,
+        "2015-11": 0.0,
+        "2013-11": 0.0,
+        "2013-06": -0.3333333333333333,
+        "2012-10": 0.0,
+        "2012-08": -1.0,
+        "2012-01": 0.0,
+        "2011-11": 0.0,
+        "2011-08": 0.0
+      }
+    },
+    "n_comments": 29
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.007,
+    "bursts": [
+      {
+        "from": "2013-06-18T00:00:00",
+        "to": "2013-06-18T00:00:00",
+        "count": 3
+      },
+      {
+        "from": "2016-11-26T00:00:00",
+        "to": "2016-11-26T00:00:00",
+        "count": 3
+      }
+    ],
+    "low_variance_flag": 0,
+    "trust_score": 0.7
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        4.0,
+        2.0,
+        3.0,
+        2.0,
+        3.25,
+        2.3333333333333335,
+        2.0,
+        2.0,
+        3.0,
+        4.0,
+        3.5,
+        8.0,
+        5.5,
+        2.0,
+        10.0,
+        4.666666666666667,
+        5.0,
+        4.0,
+        7.0,
+        7.0,
+        3.0,
+        2.0
+      ],
+      "ewma": [
+        4.0,
+        3.4,
+        3.28,
+        2.896,
+        3.0021999999999998,
+        2.8015399999999997,
+        2.5610779999999997,
+        2.3927545999999995,
+        2.5749282199999994,
+        3.0024497539999997,
+        3.1517148277999993,
+        4.606200379459999,
+        4.874340265621999,
+        4.012038185935399,
+        5.808426730154779,
+        5.465898711108346,
+        5.3261290977758415,
+        4.928290368443089,
+        5.549803257910162,
+        5.984862280537113,
+        5.089403596375979,
+        4.162582517463185
+      ],
+      "sigma": 1.5764814265209592
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 4.162582517463185,
+      "quality_band": [
+        1.0726789214821046,
+        7.252486113444265
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2022-12-01T00:00:00",
+      "materia": "TALLER SISTEMAS OPERATIVOS",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 25.0,
+      "recomienda": 0,
+      "comentario": "Este maestro no vale verga"
+    },
+    {
+      "fecha_iso": "2022-02-15T00:00:00",
+      "materia": "SISTEMAS OPERATIVOS",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 0,
+      "comentario": "En línea está muy fácil ya que los examenes son tal cual las diapositivas, no lo recomendaría de forma presencial"
+    },
+    {
+      "fecha_iso": "2022-01-14T00:00:00",
+      "materia": "SISTEMAS OPERATIVOS",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "en linea es buen profesor, la materia no es dificil y sus diapositivas te dan toda la informacion que necesites para los examenes"
+    },
+    {
+      "fecha_iso": "2021-12-07T00:00:00",
+      "materia": "TALLER DE SISTEMAS OPERATIVOS",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "En linea está pelado, recomendado en linea pero no en presencial"
+    },
+    {
+      "fecha_iso": "2021-11-22T00:00:00",
+      "materia": "SISTEMAS OPERATIVOS",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 0,
+      "comentario": "la neta en linea es pasable porque puedes copiar para los examenes pero en presencial se ve que ni de pedo se hace... se ve que no le gusta su trabajo o esta amargado porque siempre da clases como de ahuevo"
+    },
+    {
+      "fecha_iso": "2021-10-11T00:00:00",
+      "materia": "SISTEMAS OP",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": "yo la verdad como estudiante que estoy pagando no entiendo como tienen a maestros como estos calentando el asiento, hasta yo en su lugar puedo dar la clase mejor que él"
+    },
+    {
+      "fecha_iso": "2021-09-29T00:00:00",
+      "materia": "SISTEMAS OPERATIVOS",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": "Este maestro es un insulto a la inteligencia."
+    },
+    {
+      "fecha_iso": "2021-09-13T00:00:00",
+      "materia": "TALLER DE SISTEMAS OPERATIVOS",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2021-09-06T00:00:00",
+      "materia": "TALLER DE SISTEMAS OPERATIVOS",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 0,
+      "comentario": "no sabe ni de lo que habla"
+    },
+    {
+      "fecha_iso": "2020-11-15T00:00:00",
+      "materia": "---",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2019-02-17T00:00:00",
+      "materia": "SO",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 24.0,
+      "recomienda": 0,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2019-01-15T00:00:00",
+      "materia": "---",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 1,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2019-01-15T00:00:00",
+      "materia": "TALLER DE SISTEMAS OPERATIVOS",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 6.0,
+      "recomienda": 0,
+      "comentario": "Pésimo maestro, como los comentarios anteriores lo dicen: nada más lee diapositivas y de ellas saca el examen, si lo reprubeas olvídate que venga lo mismo, saca otro examen de lo que no puso en el anterior."
+    },
+    {
+      "fecha_iso": "2017-12-20T00:00:00",
+      "materia": "PROGRAMACIÓN WEB",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2016-12-11T00:00:00",
+      "materia": "FUNDAMENTOS DE INVESTIGACION",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 0,
+      "comentario": "Sus clases siempre van a ser leer como 100 diapositivas y hacer exposiciones de casi todo lo que hagas, el examen es de 10 preguntas y lo saca de las 100 diapositivas"
+    },
+    {
+      "fecha_iso": "2016-12-07T00:00:00",
+      "materia": "FUNDAMENTOS DE INVESTIGACIÓN",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 6.0,
+      "recomienda": 0,
+      "comentario": "TODO LO NEGATIVO QUE LEAS SOBRE ÉL, ES CIERTO. Califica con 90% el examen, el primer día que llego solo nos dijo eso y se fue, a mitad de semestre supimos que se llama Brandu, sus tareas y trabajos son una estupidez, valen como 5%, si te va mal en el examen, NO te bases en tus errores para estudiar"
+    },
+    {
+      "fecha_iso": "2016-11-26T00:00:00",
+      "materia": "FUNDAMENTOS DE INVESTIGACION",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 23.0,
+      "recomienda": 0,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2016-11-26T00:00:00",
+      "materia": "FUNDAMENTOS DE INVESTIGACION",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 0,
+      "comentario": "Encontre sus diapositivas en una pag de internet \nEl \"Profesor\" solo copio las diapositivas que alguien mas hizo y las exponer en su clase."
+    },
+    {
+      "fecha_iso": "2016-11-26T00:00:00",
+      "materia": "INVESTIGACIÓN",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 0,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2016-11-17T00:00:00",
+      "materia": "FUNDAMENTOS DE INVESTIGACIÓN",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2016-11-09T00:00:00",
+      "materia": "FUNDAMENTOS E LA INVESTIGACION",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 24.0,
+      "recomienda": 0,
+      "comentario": "Porque no lo corren del tecnológico  si saben que no sabe hacer su trabajo hasta yo puedo dar esa clase   mucho mejor que el solo sirve para echar a perder a los alumnos."
+    },
+    {
+      "fecha_iso": "2016-01-17T00:00:00",
+      "materia": "TALLER DE SISTEMAS OPERATIVOS",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 0,
+      "comentario": "Eramos pocos en la clase, llegaba, leiamos diapositivas y asi. Los examenes son de relacionar cosas, hace 1 examen oral y exposiciones. Estuvo facil pasar con el. pero creo que no ve bien el programa, no sientes que aprendes mucho."
+    },
+    {
+      "fecha_iso": "2016-01-14T00:00:00",
+      "materia": "SISTEMAS OPERATIVOS I Y II",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 4.0,
+      "recomienda": 0,
+      "comentario": "Es de lo peor que hay en el tec, no aprendes nada por que te la llevas escribiendo toda la clase, sus examenes son confusos y juegan con tu mente, tienes que estudiar bien las diapositivas para pasar y estudiar bien los detalles que hacen la diferencia, mas de una vez tendrás que cargar con el."
+    },
+    {
+      "fecha_iso": "2015-11-11T00:00:00",
+      "materia": "FUNDAMENTOS DE INVESTIGACION",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Es el peor maestro de todos los tiempos. No sirve para nada y aparte mamón. Si te toco ya te chingaste."
+    },
+    {
+      "fecha_iso": "2013-11-14T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2013-06-18T00:00:00",
+      "materia": "FUNDAMENTOS DE BASE DE DATOS",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 0,
+      "comentario": "es un pesimo maestro la verdad, no sabe nada, cuando lleve con el aprendi solo por internet ya que le preguntas algo y no sabe contestar solo te dice que le mandes tu duda al correo, y califica de una forma que ni el entiende yo creo, los ultimos dias se escondera para no hablar contigo, CULON!!"
+    },
+    {
+      "fecha_iso": "2013-06-18T00:00:00",
+      "materia": "ETICA",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "es bien gacho para calificar no te ayuda, aparte de que falta muchos y los examenes muy enredosos"
+    },
+    {
+      "fecha_iso": "2013-06-18T00:00:00",
+      "materia": "ING.SOFTWARE",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "nunca muestra las evidencias ni lleba las clases en orden falta cada rato y cuando le pides ayuda no sabe nada sobre el tema califica muy raro pide tareas y proyectos y al final no los toma encuenta"
+    },
+    {
+      "fecha_iso": "2012-10-25T00:00:00",
+      "materia": "ETICA Y ADMINISTRACION",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": 1.5,
+      "recomienda": 0,
+      "comentario": "no me gusta mucho su modo de dar clases no da oportunidades y hace los examenes demasiado enredosos"
+    },
+    {
+      "fecha_iso": "2012-10-25T00:00:00",
+      "materia": "ADMINISTRACION",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2012-10-22T00:00:00",
+      "materia": "ETICA",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "no lo recomiendo para nada"
+    },
+    {
+      "fecha_iso": "2012-10-22T00:00:00",
+      "materia": "ETICA/ADMINISTRACION",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "No sabe dar clases, y su forma de evaluar es muy rara"
+    },
+    {
+      "fecha_iso": "2012-08-14T00:00:00",
+      "materia": "ETICA- PROG. WEB",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Pesimo Maestro, no recomendable, no sabe dar clases, no da oporutnidades, se molesta por cualquier cosa, es sangron y esta joven apenas, NO CARGAR CON EL."
+    },
+    {
+      "fecha_iso": "2012-01-17T00:00:00",
+      "materia": "ADMINISTRACION",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 0,
+      "comentario": "...sin palabras u.u"
+    },
+    {
+      "fecha_iso": "2011-11-09T00:00:00",
+      "materia": "ETICA",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "futuros estudiantes k piensan cargar no cargen con el la verdad que esta bien pasado de lanza el profe ese"
+    },
+    {
+      "fecha_iso": "2011-08-17T00:00:00",
+      "materia": "CUALQUIERA DE SISTEMAS Y ETICA",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 2.0,
+      "recomienda": 0,
+      "comentario": "nunca cargues con el"
+    }
+  ],
+  "comments_recent": [
+    "Este maestro no vale verga",
+    "En línea está muy fácil ya que los examenes son tal cual las diapositivas, no lo recomendaría de forma presencial",
+    "en linea es buen profesor, la materia no es dificil y sus diapositivas te dan toda la informacion que necesites para los examenes",
+    "En linea está pelado, recomendado en linea pero no en presencial",
+    "la neta en linea es pasable porque puedes copiar para los examenes pero en presencial se ve que ni de pedo se hace... se ve que no le gusta su trabajo o esta amargado porque siempre da clases como de ahuevo",
+    "yo la verdad como estudiante que estoy pagando no entiendo como tienen a maestros como estos calentando el asiento, hasta yo en su lugar puedo dar la clase mejor que él",
+    "Este maestro es un insulto a la inteligencia.",
+    "no sabe ni de lo que habla",
+    "[Comentario esperando revisión]"
+  ],
+  "n_reviews": 36
+}

@@ -1,0 +1,410 @@
+{
+  "professor_id": "cesar_cuen_marquez",
+  "nombre": "cesar cuen marquez",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 8.731450899535892,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 8.283094225892212,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.905,
+    "wilson_interval": [
+      0.7108541613925933,
+      0.9734817912030528
+    ],
+    "n_recommendations": 21
+  },
+  "subject_normalization": {
+    "z_mean": 0.94,
+    "z_mean_decayed": 1.0,
+    "per_subject": [
+      {
+        "materia": "CIENCIA E INGENIERIA DE MATERIALES",
+        "z_decayed": 1.4523062876795436,
+        "n": 9
+      },
+      {
+        "materia": "CUALQUIERA",
+        "z_decayed": 1.2659242088545832,
+        "n": 6
+      },
+      {
+        "materia": "PROCESOS DE FABRICACIÓN",
+        "z_decayed": 1.25495314216596,
+        "n": 24
+      },
+      {
+        "materia": "CIENCIA E INGENIERÍA DE LOS MATERIALES",
+        "z_decayed": 1.0914103126634984,
+        "n": 4
+      },
+      {
+        "materia": "MECANICA",
+        "z_decayed": 1.0617405241029998,
+        "n": 7
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "es",
+          "experiencia",
+          "mucha experiencia",
+          "mucha",
+          "tiene mucha"
+        ],
+        "weight": 0.0985950014013876
+      },
+      {
+        "id": 1,
+        "words": [
+          "clases",
+          "examenes",
+          "buen profesor",
+          "buen",
+          "dificiles"
+        ],
+        "weight": 0.15949233635582616
+      },
+      {
+        "id": 2,
+        "words": [
+          "comentario",
+          "comentario esperando",
+          "esperando",
+          "esperando revision",
+          "revision"
+        ],
+        "weight": 0.08596149734924009
+      },
+      {
+        "id": 3,
+        "words": [
+          "maestro dedica",
+          "dedica",
+          "mejores",
+          "duda",
+          "maestro"
+        ],
+        "weight": 0.1502453704821471
+      },
+      {
+        "id": 4,
+        "words": [
+          "profesor",
+          "opcion",
+          "profesor si",
+          "excelente",
+          "excelente profesor"
+        ],
+        "weight": 0.11967852659873213
+      }
+    ],
+    "sentiment": {
+      "overall": 0.16666666666666666,
+      "by_month": {
+        "2022-12": 0.0,
+        "2021-12": 0.0,
+        "2019-01": 0.0,
+        "2018-09": 1.0,
+        "2018-02": 0.0,
+        "2017-10": 0.0,
+        "2017-06": 0.0,
+        "2016-10": 0.0,
+        "2016-01": 1.0,
+        "2015-12": 0.0,
+        "2015-08": 1.0,
+        "2015-01": 1.0,
+        "2014-11": -0.5,
+        "2014-09": 0.0,
+        "2014-08": 0.0,
+        "2014-05": 0.0,
+        "2014-01": 0.0
+      }
+    },
+    "n_comments": 18
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.007,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        9.0,
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        9.0,
+        9.0,
+        10.0,
+        10.0,
+        10.0,
+        2.0,
+        6.0,
+        8.0,
+        10.0,
+        9.0,
+        9.0,
+        10.0,
+        8.0,
+        10.0,
+        8.0
+      ],
+      "ewma": [
+        9.0,
+        9.3,
+        9.51,
+        9.657,
+        9.7599,
+        9.53193,
+        9.372350999999998,
+        9.560645699999998,
+        9.692451989999999,
+        9.784716392999998,
+        7.449301475099998,
+        7.014511032569998,
+        7.310157722798998,
+        8.117110405959298,
+        8.381977284171509,
+        8.567384098920055,
+        8.997168869244039,
+        8.698018208470828,
+        9.088612745929579,
+        8.762028922150705
+      ],
+      "sigma": 1.4484863005311066
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 8.762028922150705,
+      "quality_band": [
+        5.9229957731097365,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2022-12-21T00:00:00",
+      "materia": "PROCESOS DE MANUFACTURA Y DINÁMICA",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Muy buen maestro, aún así algo estricto tienes que prestar atención y que se note que lo haces, a ese profe lo beso la neta"
+    },
+    {
+      "fecha_iso": "2021-12-14T00:00:00",
+      "materia": "CUALQUIERA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Es un GRAN ingeniero y mucho mejor como maestro y persona, no tengan duda de llevar todas las materias con el. \nDe los mejores ingenieros y profesores de Culiacán.  \nNo desaprovechen sus cursos de SolidWorks (trabajó en Europa)"
+    },
+    {
+      "fecha_iso": "2019-01-12T00:00:00",
+      "materia": "PROCESOS DE FABRICACION",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Tiene mucha experiencia en empresas y domina muy bien todos los temas. Aprenderas mucho con el pero vas a leer mucho."
+    },
+    {
+      "fecha_iso": "2018-09-16T00:00:00",
+      "materia": "PROCESOS DE MANUFACTURA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "EXCELENTE PROFESOR, MUY RECOMENDADO, TIENE BASTA EXPERIENCIA Y SUS EXÁMENES NO SON MUY DIFÍCILES"
+    },
+    {
+      "fecha_iso": "2018-02-08T00:00:00",
+      "materia": "---",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 24.0,
+      "recomienda": 1,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2017-10-12T00:00:00",
+      "materia": "CIENCIA E INGENIERIA DE MATERIALES",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": "buen profesor, domina los temas y enseña muy bien, aprendes mucho, pero tienes que estudiar mucho para poder pasar sus exámenes porque los hace muy difíciles."
+    },
+    {
+      "fecha_iso": "2017-09-06T00:00:00",
+      "materia": "PROCESOS DE FABRICACIÓN",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2017-08-09T00:00:00",
+      "materia": "CIENCIAS E INGENIERÍA DE LOS MATERIALES",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2017-06-20T00:00:00",
+      "materia": "CIENCIA E INGENIERIA DE MATERIALES",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 0,
+      "comentario": "Tiene mucha experiencia, y domina varios temas pero si tu intención no es estudiar mucho, no te conviene cargarlo"
+    },
+    {
+      "fecha_iso": "2016-10-04T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2016-01-06T00:00:00",
+      "materia": "PROCESOS DE FABRICACIÓN",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "De los mejores profes de metal mecánica del Tec, tiene mucha experiencia laboral y es muy claro y conciso, sabe mucho y es accesible, si no estudian se los lleva de corbata, si estudias vas a aprovechar la clase y aprenderás muchísimo. Recomendado 100%."
+    },
+    {
+      "fecha_iso": "2015-12-17T00:00:00",
+      "materia": "MECANICA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Cuando un maestro le dedica esfuerzo a su clase es por que en realidad quiere que sus alumnos aprendan este profesor hace eso 100% recomendado no tengo palabras para describirlo."
+    },
+    {
+      "fecha_iso": "2015-10-28T00:00:00",
+      "materia": "PROCESOS DE FABRICACIÓN",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2015-08-24T00:00:00",
+      "materia": "PROCESOS DE FABRICACION",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Muy buen profesor aprendes muy bien todo el curso, claro tienes que estudiar mucho tambien."
+    },
+    {
+      "fecha_iso": "2015-01-08T00:00:00",
+      "materia": "PROCESOS DE MANUFACTURA",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "excelente profesor, si esta de opcion, sin dudarlo con el"
+    },
+    {
+      "fecha_iso": "2014-11-09T00:00:00",
+      "materia": "MANTENIMIENTO",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Cuando un maestro que se dedica a lo que trata la materia, estudió lo que trata la materia, se le agrega el compromiso que tiene por la docencia. Estamos hablando de un maestro modelo, sin duda de los mejores maestros que podrás tener, un poco dificil pero 100% recomendado."
+    },
+    {
+      "fecha_iso": "2014-11-04T00:00:00",
+      "materia": "PROCESOS DE FABRICACIÓN",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Clases dificiles, examenes faciles"
+    },
+    {
+      "fecha_iso": "2014-09-23T00:00:00",
+      "materia": "PROCESOS DE FABRICACIÓN",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Muy buen profesor, domina la materia y se nota que sabe mucho, además de que se ve que le gusta. Lo que le preguntes sobre el tema, lo sabe."
+    },
+    {
+      "fecha_iso": "2014-08-07T00:00:00",
+      "materia": "CIENCIA E INGENIERIA DE MATERIALES Y PROSESOS DE FABRIC",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "es el mejor profesor que me ha tocado y es lleva por mucho a otros maestros, explica todo de forma muy clara tiene mucha experiencia en empresas y en el extranjero, en sus exámenes literalmente viene de todo lo que vieron y si quieres pasar resta estudiar un dia antes de su examen y todo estará al 1"
+    },
+    {
+      "fecha_iso": "2014-05-22T00:00:00",
+      "materia": "CIENCIA E INGENIERÍA DE LOS MATERIALES",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Muy buen profesor, sí deseas aprender mucho el es tu mejor opción, así como el deberían de ser muchos profesor del tec."
+    },
+    {
+      "fecha_iso": "2014-01-15T00:00:00",
+      "materia": "CIENCIA E INGENIERIA DE LOS MATERIALES",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "muy buen profesor, explica muy bien y resuelve las dudas, da las clases de manera interesante y sus examenes no son tan dificiles"
+    }
+  ],
+  "comments_recent": [
+    "Muy buen maestro, aún así algo estricto tienes que prestar atención y que se note que lo haces, a ese profe lo beso la neta",
+    "Es un GRAN ingeniero y mucho mejor como maestro y persona, no tengan duda de llevar todas las materias con el. \nDe los mejores ingenieros y profesores de Culiacán.  \nNo desaprovechen sus cursos de SolidWorks (trabajó en Europa)",
+    "Tiene mucha experiencia en empresas y domina muy bien todos los temas. Aprenderas mucho con el pero vas a leer mucho.",
+    "EXCELENTE PROFESOR, MUY RECOMENDADO, TIENE BASTA EXPERIENCIA Y SUS EXÁMENES NO SON MUY DIFÍCILES",
+    "[Comentario esperando revisión]",
+    "buen profesor, domina los temas y enseña muy bien, aprendes mucho, pero tienes que estudiar mucho para poder pasar sus exámenes porque los hace muy difíciles.",
+    "Tiene mucha experiencia, y domina varios temas pero si tu intención no es estudiar mucho, no te conviene cargarlo",
+    "[Comentario esperando revisión]"
+  ],
+  "n_reviews": 21
+}

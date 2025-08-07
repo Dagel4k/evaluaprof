@@ -1,0 +1,348 @@
+{
+  "professor_id": "Fernando_Taniyama",
+  "nombre": "Fernando Taniyama",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 9.068765578984628,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 8.299073884717636,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.938,
+    "wilson_interval": [
+      0.7167073163197013,
+      0.9888809426916687
+    ],
+    "n_recommendations": 16
+  },
+  "subject_normalization": {
+    "z_mean": 0.33,
+    "z_mean_decayed": 0.14,
+    "per_subject": [
+      {
+        "materia": "ADMINISTRACION Y CONTABILIDAD",
+        "z_decayed": 0.8006407690254352,
+        "n": 3
+      },
+      {
+        "materia": "ETICA",
+        "z_decayed": 0.7974367679772069,
+        "n": 31
+      },
+      {
+        "materia": "ADMINISTRACIÓN Y CONTABILIDAD",
+        "z_decayed": 0.6961075244319018,
+        "n": 7
+      },
+      {
+        "materia": "CONTABILIDAD",
+        "z_decayed": 0.4406596008383335,
+        "n": 11
+      },
+      {
+        "materia": "TALLER DE ETICA",
+        "z_decayed": -1.6200862571747892,
+        "n": 11
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "humana",
+          "aprendes",
+          "bien",
+          "es",
+          "profesor"
+        ],
+        "weight": 0.08406288631309755
+      },
+      {
+        "id": 1,
+        "words": [
+          "profe",
+          "da",
+          "porque",
+          "te da",
+          "te"
+        ],
+        "weight": 0.12190434445191817
+      },
+      {
+        "id": 2,
+        "words": [
+          "da",
+          "calidad",
+          "calidad humana",
+          "humana",
+          "clases"
+        ],
+        "weight": 0.11669372208217854
+      },
+      {
+        "id": 3,
+        "words": [
+          "bien",
+          "alumnos recomiendo",
+          "alumnos",
+          "recomiendo",
+          "es"
+        ],
+        "weight": 0.1417123861204074
+      },
+      {
+        "id": 4,
+        "words": [
+          "calidad",
+          "humana",
+          "es",
+          "te",
+          "aprendes"
+        ],
+        "weight": 0.10811195113767269
+      }
+    ],
+    "sentiment": {
+      "overall": 0.08333333333333333,
+      "by_month": {
+        "2021-09": 0.0,
+        "2019-09": 0.0,
+        "2019-04": 0.0,
+        "2019-01": 0.0,
+        "2016-06": 0.0,
+        "2016-02": 0.0,
+        "2014-01": 0.0,
+        "2013-11": 1.0,
+        "2013-02": 0.0,
+        "2012-10": 0.0,
+        "2012-08": 0.0
+      }
+    },
+    "n_comments": 12
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        9.5,
+        10.0,
+        10.0,
+        8.0,
+        7.0,
+        8.0,
+        9.0,
+        10.0,
+        10.0,
+        10.0,
+        6.0,
+        10.0,
+        10.0,
+        9.0
+      ],
+      "ewma": [
+        9.5,
+        9.649999999999999,
+        9.754999999999999,
+        9.228499999999999,
+        8.559949999999999,
+        8.391964999999999,
+        8.574375499999999,
+        9.002062849999998,
+        9.301443994999998,
+        9.511010796499999,
+        8.457707557549998,
+        8.920395290284999,
+        9.2442767031995,
+        9.17099369223965
+      ],
+      "sigma": 1.0357857475515861
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 9.17099369223965,
+      "quality_band": [
+        7.140853627038541,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2021-09-02T00:00:00",
+      "materia": "CONTABILIDAD",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Era un crack :c"
+    },
+    {
+      "fecha_iso": "2019-09-23T00:00:00",
+      "materia": "CONTABILIDAD",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Lo amamos todos"
+    },
+    {
+      "fecha_iso": "2019-04-11T00:00:00",
+      "materia": "CONTABILIDAD",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "El mejor maestro de contabilidad que puedes tener. Se esfuerza porque pases los examenes y cuando los repruebas te da la oportunidad de pasar presentando trabajos. Llevale la corriente con lo que te pida, y no lo hagan enojar jeje"
+    },
+    {
+      "fecha_iso": "2019-01-31T00:00:00",
+      "materia": "TALLER DE ETICA",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 0,
+      "comentario": "Es una hora libre este profesor"
+    },
+    {
+      "fecha_iso": "2016-06-20T00:00:00",
+      "materia": "ADMINISTRACIÓN Y CONTABILIDAD",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Aprendes poco, pero no te exige, deja pura investigacion y que expongas los que investigaste..."
+    },
+    {
+      "fecha_iso": "2016-06-12T00:00:00",
+      "materia": "ADMINISTRACION Y CONTABILIDAD",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "este profe es muy buena, enseña muy bien y claramente con ejemplos sencillos ademas de que ayuda mucho a sus alumnos, lo recomiendo al cien."
+    },
+    {
+      "fecha_iso": "2016-02-28T00:00:00",
+      "materia": "ETICA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Tienen Hambre VAMONOS!"
+    },
+    {
+      "fecha_iso": "2015-11-17T00:00:00",
+      "materia": "TALLE DE LIDEAZGO",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2014-01-25T00:00:00",
+      "materia": "TALLER DE ETICA",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "2013\n\nMuy humanista el profesor, es k tambien la materia se trata de eso, del uso del concepto de lo k esta bien y esta mal :)"
+    },
+    {
+      "fecha_iso": "2013-11-14T00:00:00",
+      "materia": "CONTABILIDAD DE COSTOS",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "En calidad humana es admirable, no es muy claro en sus clases pero algo aprendes. Es amable y cordial con sus alumnos. Lo recomiendo al 100%"
+    },
+    {
+      "fecha_iso": "2013-02-24T00:00:00",
+      "materia": "ETICA",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "LLegabamos a la una a su clase, nos sentabamos 5 min y nos ibamos a comer xD"
+    },
+    {
+      "fecha_iso": "2012-10-17T00:00:00",
+      "materia": "TALLER DE ETICA",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Nose que ponerle en claridad, ya que muy rara vez da clases, nomas pide el ensayo de cada unidad y listo.\nsu clases son de puro dialogo, platicar sobre temas variados \nexelente en calidad humana"
+    },
+    {
+      "fecha_iso": "2012-08-16T00:00:00",
+      "materia": "ETICA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "de esos profes que ya quedan pocos, osea que pasas por que pasas porque si eres baqueton y te da igual la escuela ya pasaste con este profe"
+    },
+    {
+      "fecha_iso": "2012-01-24T00:00:00",
+      "materia": "TALLER DE ETICA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2011-12-31T00:00:00",
+      "materia": "ETICA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2011-12-14T00:00:00",
+      "materia": "ETICA",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": ""
+    }
+  ],
+  "comments_recent": [
+    "Era un crack :c",
+    "Lo amamos todos",
+    "El mejor maestro de contabilidad que puedes tener. Se esfuerza porque pases los examenes y cuando los repruebas te da la oportunidad de pasar presentando trabajos. Llevale la corriente con lo que te pida, y no lo hagan enojar jeje",
+    "Es una hora libre este profesor",
+    "Aprendes poco, pero no te exige, deja pura investigacion y que expongas los que investigaste...",
+    "este profe es muy buena, enseña muy bien y claramente con ejemplos sencillos ademas de que ayuda mucho a sus alumnos, lo recomiendo al cien.",
+    "Tienen Hambre VAMONOS!",
+    "2013\n\nMuy humanista el profesor, es k tambien la materia se trata de eso, del uso del concepto de lo k esta bien y esta mal :)",
+    "En calidad humana es admirable, no es muy claro en sus clases pero algo aprendes. Es amable y cordial con sus alumnos. Lo recomiendo al 100%"
+  ],
+  "n_reviews": 16
+}

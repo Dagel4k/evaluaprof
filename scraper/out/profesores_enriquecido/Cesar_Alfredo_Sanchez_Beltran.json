@@ -1,0 +1,385 @@
+{
+  "professor_id": "Cesar_Alfredo_Sanchez_Beltran",
+  "nombre": "Cesar Alfredo Sanchez Beltran",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 6.004431811031805,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 6.302617965608915,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.526,
+    "wilson_interval": [
+      0.31707482511825114,
+      0.7267049451255145
+    ],
+    "n_recommendations": 19
+  },
+  "subject_normalization": {
+    "z_mean": -0.34,
+    "z_mean_decayed": -0.18,
+    "per_subject": [
+      {
+        "materia": "FUNDAMENTOS DE INVESTIGACIÓN",
+        "z_decayed": 0.3938341360446996,
+        "n": 29
+      },
+      {
+        "materia": "CALCULO DIFERENCIAL",
+        "z_decayed": 0.32230386951335876,
+        "n": 110
+      },
+      {
+        "materia": "TEMAS SELECTOS DE BASES DE DATOS",
+        "z_decayed": 0.32025630761017393,
+        "n": 3
+      },
+      {
+        "materia": "GRAFICACION",
+        "z_decayed": 0.05144161306099888,
+        "n": 20
+      },
+      {
+        "materia": "MATEMÁTICAS DISCRETAS",
+        "z_decayed": -0.1368419450442481,
+        "n": 28
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "es facil",
+          "es",
+          "facil pasar",
+          "pasar",
+          "facil"
+        ],
+        "weight": 0.12678355626368035
+      },
+      {
+        "id": 1,
+        "words": [
+          "tareas",
+          "si",
+          "tarea",
+          "examen",
+          "clases"
+        ],
+        "weight": 0.15599069685438682
+      },
+      {
+        "id": 2,
+        "words": [
+          "dio",
+          "es",
+          "mas",
+          "peor",
+          "tec"
+        ],
+        "weight": 0.09313879480228614
+      },
+      {
+        "id": 3,
+        "words": [
+          "materia",
+          "profe",
+          "cae",
+          "cae bien",
+          "bien"
+        ],
+        "weight": 0.10989016281182014
+      },
+      {
+        "id": 4,
+        "words": [
+          "tec",
+          "es facil",
+          "dar",
+          "dio",
+          "clase"
+        ],
+        "weight": 0.09805711809691295
+      }
+    ],
+    "sentiment": {
+      "overall": 0.06666666666666667,
+      "by_month": {
+        "2024-09": 0.0,
+        "2024-04": 0.0,
+        "2023-08": 0.0,
+        "2022-07": 0.0,
+        "2021-09": 0.0,
+        "2021-02": 0.0,
+        "2020-10": 0.0,
+        "2020-09": 0.0,
+        "2019-07": 0.0,
+        "2019-04": 0.0,
+        "2019-02": 1.0,
+        "2018-08": 0.0,
+        "2018-05": 0.0,
+        "2015-01": 0.0,
+        "2013-10": 0.0
+      }
+    },
+    "n_comments": 15
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        2.0,
+        8.0,
+        2.0,
+        2.0,
+        6.0,
+        8.0,
+        8.0,
+        8.0,
+        8.0,
+        5.0,
+        2.0,
+        8.0,
+        8.0,
+        9.0,
+        9.0,
+        5.0,
+        4.0,
+        5.5
+      ],
+      "ewma": [
+        2.0,
+        3.8,
+        3.26,
+        2.8819999999999997,
+        3.8173999999999997,
+        5.0721799999999995,
+        5.950525999999999,
+        6.565368199999998,
+        6.995757739999998,
+        6.397030417999998,
+        5.077921292599998,
+        5.954544904819999,
+        6.568181433373999,
+        7.297727003361798,
+        7.808408902353259,
+        6.965886231647281,
+        6.076120362153096,
+        5.903284253507167
+      ],
+      "sigma": 1.9750596987605022
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 5.903284253507167,
+      "quality_band": [
+        2.0321672439365823,
+        9.77440126307775
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2024-09-19T00:00:00",
+      "materia": "MATEMÁTICAS DISCRETAS",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 23.0,
+      "recomienda": 1,
+      "comentario": "La verdad cae bien y su materia está fácil si le das repaso"
+    },
+    {
+      "fecha_iso": "2024-09-19T00:00:00",
+      "materia": "PODOLOGIA",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 0.5,
+      "recomienda": 0,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2024-04-24T00:00:00",
+      "materia": "PROGAMACION",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 22.0,
+      "recomienda": 0,
+      "comentario": "Es un profe que ofende a quien no le cae bien y no explica para nada bien ,tienes que aprender por tu cuenta."
+    },
+    {
+      "fecha_iso": "2023-08-07T00:00:00",
+      "materia": "MATEMÁTICAS DISCRETAS",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 0,
+      "comentario": "Es un profesor barco que puedes pasar fácil la materia si pones atención o estudias un día anterior. Es muy llevado también."
+    },
+    {
+      "fecha_iso": "2022-07-14T00:00:00",
+      "materia": "TEMAS SELECTOS DE BASES DE DATOS",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Fácil de pasar y es buena onda."
+    },
+    {
+      "fecha_iso": "2022-03-15T00:00:00",
+      "materia": "CALCULO DIFERENCIAL",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2021-10-18T00:00:00",
+      "materia": "CALCULO DIFERENCIAL",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2021-09-03T00:00:00",
+      "materia": "CALCULO DIFERENCIAL",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "explica las clases a buen ritmo y deja tareas que son faciles, si haces la tarea ya pasaste el examen"
+    },
+    {
+      "fecha_iso": "2021-02-27T00:00:00",
+      "materia": "MÉTODOS NUMÉRICOS",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 0,
+      "comentario": "Es la peor cosa que ha pisado el tec. En toda la pandemia no nos dió ni una sola clase, solo se dedicó a mandar PDF´s pidiendo investigaciones  pesadas con todos los temas de la unidad, no aclaraba dudas, no contestaba mensajes, nada, y además se ponia de mamoncito, NO LLEVEN METODOS CON EL"
+    },
+    {
+      "fecha_iso": "2020-10-15T00:00:00",
+      "materia": "TALLER DE ÉTICA",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 0,
+      "comentario": "Muestra poco interés en dar la clase, es fácil pasar con él pero no se aprende mucho."
+    },
+    {
+      "fecha_iso": "2020-09-03T00:00:00",
+      "materia": "CALCULO DIFERENCIAL UWU",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Facilon para llevarsela sencillo el semestre, a veces excenta, camarada"
+    },
+    {
+      "fecha_iso": "2019-07-09T00:00:00",
+      "materia": "GRAFICACION",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "mi horario decía que llevaba su clase , pero no recuerdo haber  entrado a esa clase y pase con 100 , pd no me arrepiento de no llevar graficacion con bastidas"
+    },
+    {
+      "fecha_iso": "2019-04-11T00:00:00",
+      "materia": "CALCULO DIFERENCIAL",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Barcazo xd, sus clases no son dificiles, te deja una tarea para el dia del examen y practicamente el examen es la tarea pero con otros números. No nos dio los viernes en todo el semestre XD, lo recomiendo, aprendes si o si"
+    },
+    {
+      "fecha_iso": "2019-02-23T00:00:00",
+      "materia": "CALCULO DIFERENCIAL",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Buen maestro de calculo. No te sobrecarga de tareas y a la vez es claro. Con hacer sus tareas te basta para comprender sus examenes y pasar. Lo recomiendo"
+    },
+    {
+      "fecha_iso": "2018-08-04T00:00:00",
+      "materia": "CALCULO DIFERENCIAL",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 0,
+      "comentario": "Es fácil pasar con el, pero no domina la materia."
+    },
+    {
+      "fecha_iso": "2018-05-31T00:00:00",
+      "materia": "CALCULO INTEGRAL",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 0,
+      "comentario": "Es una papa para dar clases, ni el sabe lo que esta diciendo, sus examenes y demas son sencillos, porque si fueran mas complicados no podria revisarlos. Su conocimiento en el area es casi nulo, no aprendes NADA con el, ni siquiera sabe derivar y esta dando clases de calculo integral."
+    },
+    {
+      "fecha_iso": "2015-01-23T00:00:00",
+      "materia": "METODOLOGÍA",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "De lo peor del tec. No enseña y es de lo mas mamon"
+    },
+    {
+      "fecha_iso": "2013-11-15T00:00:00",
+      "materia": "FUNDAMENTOS DE INVESTIGACIÓN",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2013-10-27T00:00:00",
+      "materia": "FUNDAMENTOS DE INVESTIGACION",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 4.0,
+      "recomienda": 0,
+      "comentario": "Un profe de esos que van a calentar la silla, dejando que los alumnos expongan las clases, y viendo videos, de ves en cuando dicata y es todo."
+    }
+  ],
+  "comments_recent": [
+    "La verdad cae bien y su materia está fácil si le das repaso",
+    "Es un profe que ofende a quien no le cae bien y no explica para nada bien ,tienes que aprender por tu cuenta.",
+    "Es un profesor barco que puedes pasar fácil la materia si pones atención o estudias un día anterior. Es muy llevado también.",
+    "Fácil de pasar y es buena onda.",
+    "explica las clases a buen ritmo y deja tareas que son faciles, si haces la tarea ya pasaste el examen",
+    "Es la peor cosa que ha pisado el tec. En toda la pandemia no nos dió ni una sola clase, solo se dedicó a mandar PDF´s pidiendo investigaciones  pesadas con todos los temas de la unidad, no aclaraba dudas, no contestaba mensajes, nada, y además se ponia de mamoncito, NO LLEVEN METODOS CON EL",
+    "Muestra poco interés en dar la clase, es fácil pasar con él pero no se aprende mucho."
+  ],
+  "n_reviews": 19
+}

@@ -1,0 +1,146 @@
+{
+  "professor_id": "GABRIEL_FERNANDO_LOPEZ_ESCARREGA",
+  "nombre": "GABRIEL FERNANDO LOPEZ ESCARREGA",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 3.235860193170534,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 5.67349506266616,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.0,
+    "wilson_interval": [
+      0,
+      0.3903430336530645
+    ],
+    "n_recommendations": 6
+  },
+  "subject_normalization": {
+    "z_mean": -1.47,
+    "z_mean_decayed": -1.47,
+    "per_subject": [
+      {
+        "materia": "FUNDAMENTOS DE TELECOMUNICACIONES",
+        "z_decayed": -1.471245554570662,
+        "n": 11
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [],
+    "sentiment": {
+      "overall": null,
+      "by_month": {}
+    },
+    "n_comments": 3
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        5.0,
+        4.0,
+        3.0,
+        2.0,
+        5.0
+      ],
+      "ewma": [
+        5.0,
+        4.7,
+        4.1899999999999995,
+        3.5329999999999995,
+        3.9730999999999996
+      ],
+      "sigma": 1.0201045985584027
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 3.9730999999999996,
+      "quality_band": [
+        1.9736949868255302,
+        5.9725050131744695
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2024-03-02T00:00:00",
+      "materia": "REDES DE COMPUTADORA",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 23.0,
+      "recomienda": 0,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2023-12-11T00:00:00",
+      "materia": "TELECOMUNICACION",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2023-12-11T00:00:00",
+      "materia": "TELECOMUNICACIONES",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 25.0,
+      "recomienda": 0,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2020-02-05T00:00:00",
+      "materia": "FINDAMENTO DE TELECOMUNICACIONES",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": 6.5,
+      "recomienda": 0,
+      "comentario": "Lo pero de lo pero, hace muy aburrida las clases y no da bien la materia como debe de ser"
+    },
+    {
+      "fecha_iso": "2019-12-18T00:00:00",
+      "materia": "FUNDAMENTOS DE TELECOMUNICACIONES",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 0,
+      "comentario": "De los peores profesores con los que me a tocado cargar, en resumen, pide mucho más de lo que ofrece."
+    },
+    {
+      "fecha_iso": "2019-11-25T00:00:00",
+      "materia": "FUNDAMENTO TELECOMUNICACIONES",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 5.0,
+      "recomienda": 0,
+      "comentario": "Hace aburridas sus clases y de la Unidad 3 - 5 son puras expocisiones y no le basta eso hace examen y pone 2 a 3 preguntas en 1 sola"
+    }
+  ],
+  "comments_recent": [
+    "Lo pero de lo pero, hace muy aburrida las clases y no da bien la materia como debe de ser",
+    "De los peores profesores con los que me a tocado cargar, en resumen, pide mucho más de lo que ofrece.",
+    "Hace aburridas sus clases y de la Unidad 3 - 5 son puras expocisiones y no le basta eso hace examen y pone 2 a 3 preguntas en 1 sola"
+  ],
+  "n_reviews": 6
+}

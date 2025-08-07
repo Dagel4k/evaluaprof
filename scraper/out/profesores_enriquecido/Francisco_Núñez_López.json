@@ -1,0 +1,86 @@
+{
+  "professor_id": "Francisco_Núñez_López",
+  "nombre": "Francisco Núñez López",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 4.5108302364945105,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 6.56466008355488,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.0,
+    "wilson_interval": [
+      0,
+      0.6576280471103807
+    ],
+    "n_recommendations": 2
+  },
+  "subject_normalization": {
+    "z_mean": -1.18,
+    "z_mean_decayed": -1.17,
+    "per_subject": [
+      {
+        "materia": "TALLER DE LIDERAZGO",
+        "z_decayed": -1.1740272201714055,
+        "n": 38
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [],
+    "sentiment": {
+      "overall": null,
+      "by_month": {}
+    },
+    "n_comments": 2
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": null,
+    "difficulty_trend": null,
+    "forecast": null,
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2022-12-08T00:00:00",
+      "materia": "TALLER DE LIDERAZGO",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 0,
+      "comentario": "Sabe de lo que habla, explica bien, la asistencia es muy importante, solo debes entregar un proyecto por parcial no es 100% barco porque pasas fácil y aprendes que es lo importante, de que sirve una materia difícil si no aprendes nada"
+    },
+    {
+      "fecha_iso": "2022-11-23T00:00:00",
+      "materia": "TALLER DE LIDERAZGO",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 0,
+      "comentario": "Tira mucho rollo y le gusta hacerla de pedo, nunca falta a veces no se le entiende a los trabajos que deja."
+    }
+  ],
+  "comments_recent": [
+    "Sabe de lo que habla, explica bien, la asistencia es muy importante, solo debes entregar un proyecto por parcial no es 100% barco porque pasas fácil y aprendes que es lo importante, de que sirve una materia difícil si no aprendes nada",
+    "Tira mucho rollo y le gusta hacerla de pedo, nunca falta a veces no se le entiende a los trabajos que deja."
+  ],
+  "n_reviews": 2
+}

@@ -1,0 +1,166 @@
+{
+  "professor_id": "Diana_Zazueta_Robles",
+  "nombre": "Diana Zazueta Robles",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 5.21901202182037,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 6.7183947335105705,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.6,
+    "wilson_interval": [
+      0.23071993220883702,
+      0.8823817688407467
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": 0.15,
+    "z_mean_decayed": 0.15,
+    "per_subject": [
+      {
+        "materia": "DESARROLLO SUSTENTABLE",
+        "z_decayed": 0.14553480445843067,
+        "n": 52
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "maestra",
+          "examenes",
+          "casi",
+          "materia",
+          "trabajos"
+        ],
+        "weight": 0.3304889990984503
+      },
+      {
+        "id": 1,
+        "words": [
+          "es",
+          "examenes",
+          "si",
+          "buena",
+          "siempre"
+        ],
+        "weight": 0.3940894469584595
+      }
+    ],
+    "sentiment": {
+      "overall": 0.0,
+      "by_month": {
+        "2025-06": 0.0,
+        "2024-03": 0.0,
+        "2019-07": 0.0,
+        "2018-08": 0.0
+      }
+    },
+    "n_comments": 4
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        9.0,
+        10.0,
+        3.0,
+        2.0,
+        7.0
+      ],
+      "ewma": [
+        9.0,
+        9.3,
+        7.41,
+        5.786999999999999,
+        6.1509
+      ],
+      "sigma": 2.557416906177012
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 6.1509,
+      "quality_band": [
+        1.1383628638930565,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2025-06-12T00:00:00",
+      "materia": "DESARROLLO SUSTENTABLE",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Un amor de persona, la materia q llevé estaba muy fácil y en los exámenes viene lo de las diapositivas, casi todas las tareas y trabajos son en equipo y dinámicos"
+    },
+    {
+      "fecha_iso": "2024-03-12T00:00:00",
+      "materia": "ADMON DE LA SEGURIDAD Y SALUD",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 0,
+      "comentario": "si quieres pasar la materia toma a la maestra, si quieres aprender, no es tu opcion, no vas a aprender casi nada, puro hacer trabajos sin aprender"
+    },
+    {
+      "fecha_iso": "2019-07-03T00:00:00",
+      "materia": "SOFTWARE EJECUTIVO",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": 7.5,
+      "recomienda": 0,
+      "comentario": "Califica como si fuera muy buena para dar sus clases, siempre llega tarde o no asiste, no cumple con el plan de estudios."
+    },
+    {
+      "fecha_iso": "2018-08-04T00:00:00",
+      "materia": "ADMON DE LA SALUD Y SEGURIDAD OCUPACIONAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Siempre da material pars los examenes y es accesible para negociar las fechas de exámenes, muy buena maestra, también deja varios proyectos rn equipos"
+    },
+    {
+      "fecha_iso": "2016-01-15T00:00:00",
+      "materia": "TALLER 1",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": ""
+    }
+  ],
+  "comments_recent": [
+    "Un amor de persona, la materia q llevé estaba muy fácil y en los exámenes viene lo de las diapositivas, casi todas las tareas y trabajos son en equipo y dinámicos",
+    "si quieres pasar la materia toma a la maestra, si quieres aprender, no es tu opcion, no vas a aprender casi nada, puro hacer trabajos sin aprender",
+    "Califica como si fuera muy buena para dar sus clases, siempre llega tarde o no asiste, no cumple con el plan de estudios.",
+    "Siempre da material pars los examenes y es accesible para negociar las fechas de exámenes, muy buena maestra, también deja varios proyectos rn equipos"
+  ],
+  "n_reviews": 5
+}

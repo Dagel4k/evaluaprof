@@ -1,0 +1,300 @@
+{
+  "professor_id": "Salvador_Beltran",
+  "nombre": "Salvador Beltran",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 6.658177729018423,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.3989055001208435,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.75,
+    "wilson_interval": [
+      0.4676896608793401,
+      0.9110599603710388
+    ],
+    "n_recommendations": 12
+  },
+  "subject_normalization": {
+    "z_mean": 0.11,
+    "z_mean_decayed": 0.21,
+    "per_subject": [
+      {
+        "materia": "FISICA GENERAL",
+        "z_decayed": 0.6694747132370029,
+        "n": 12
+      },
+      {
+        "materia": "---",
+        "z_decayed": 0.2358076294073407,
+        "n": 521
+      },
+      {
+        "materia": "FISICA 1",
+        "z_decayed": -0.1309463542669726,
+        "n": 3
+      },
+      {
+        "materia": "FÍSICA II",
+        "z_decayed": -1.12089707663561,
+        "n": 3
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "es",
+          "maestro",
+          "si",
+          "recomiendo",
+          "te"
+        ],
+        "weight": 0.15836192234072782
+      },
+      {
+        "id": 1,
+        "words": [
+          "materia",
+          "da",
+          "cosas",
+          "bien",
+          "profesor"
+        ],
+        "weight": 0.10092400167223334
+      },
+      {
+        "id": 2,
+        "words": [
+          "recomiendo",
+          "maestro",
+          "necesitas",
+          "es",
+          "dificil"
+        ],
+        "weight": 0.07027191194915164
+      },
+      {
+        "id": 3,
+        "words": [
+          "explica bien",
+          "veces",
+          "es",
+          "falta",
+          "clases"
+        ],
+        "weight": 0.14152634265362923
+      },
+      {
+        "id": 4,
+        "words": [
+          "maestro",
+          "es",
+          "bien",
+          "bien trata",
+          "trata"
+        ],
+        "weight": 0.17181228959359984
+      }
+    ],
+    "sentiment": {
+      "overall": 0.1,
+      "by_month": {
+        "2024-01": 0.0,
+        "2020-12": -1.0,
+        "2015-03": -1.0,
+        "2015-01": 0.0,
+        "2013-06": 0.0,
+        "2012-08": 0.0,
+        "2012-03": 1.0,
+        "2011-12": 1.0,
+        "2011-03": 1.0,
+        "2010-08": 0.0
+      }
+    },
+    "n_comments": 10
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        2.0,
+        8.0,
+        10.0,
+        8.5,
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        2.0,
+        8.0,
+        6.0
+      ],
+      "ewma": [
+        2.0,
+        3.8,
+        5.66,
+        6.512,
+        7.5584,
+        8.29088,
+        8.803615999999998,
+        9.162531199999998,
+        7.013771839999998,
+        7.309640287999999,
+        6.916748201599999
+      ],
+      "sigma": 2.567737385654159
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 6.916748201599999,
+      "quality_band": [
+        1.8839829257178478,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2024-01-18T00:00:00",
+      "materia": "---",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2020-12-14T00:00:00",
+      "materia": "TEORÍA ELECTROMAGNÉTICA",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "La verdad si esta difícil. De repente su forma de enseñar es muy compleja y necesitas varios conocimientos matemáticos para entenderle. Te recomiendo no faltar ni un día, apuntar todo y no confiarte porque le entiendas al principio. En general es buena maestro y quiere que sus estudiantes aprendan."
+    },
+    {
+      "fecha_iso": "2015-03-08T00:00:00",
+      "materia": "FISICA 1",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": "muy dificil."
+    },
+    {
+      "fecha_iso": "2015-01-08T00:00:00",
+      "materia": "FISICA 1",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "EL mejor profe que e tenidoo!!!, explicaaa muy claramentee todo los temas y te aclara las dudas, muy bueen maestro :) lo recomiendo muchisimoo!! me sentia perdida en esa materia pero el me ayudo muchoo!"
+    },
+    {
+      "fecha_iso": "2013-06-19T00:00:00",
+      "materia": "FISICA GENERAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "exelente profesor."
+    },
+    {
+      "fecha_iso": "2012-08-14T00:00:00",
+      "materia": "FISICA II - INTERFACES",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Es un gran maestro, muy respetuoso, es un ejemplo de maestro, explica muy bien, trata de termimar con el temario completo, a veces se pasa en enseñanda pero vale la pena cargar con el, aprendes mucho si le pones atencion, y nunca falta es raro y avisa si lo hace. Recomendado"
+    },
+    {
+      "fecha_iso": "2012-03-09T00:00:00",
+      "materia": "FÍSICA 1&2; INTERFACES",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Excelente profesor, siempre da el extra en sus clases. Explica muy bien, y si es necesario, te repite las cosas n veces. Tiene una gran calidad de persona, lo recomiendo."
+    },
+    {
+      "fecha_iso": "2011-12-14T00:00:00",
+      "materia": "FISICA GENERAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Si te gusta que te regalen las cosas no lo cargues, si quieres aprender cargalo, es muy profesional, te ayuda mucho, explica claro, sabe mucho, da asesorias cuando lo necesitas, y es muy justo, se ve que le gusta su materia."
+    },
+    {
+      "fecha_iso": "2011-12-14T00:00:00",
+      "materia": "FISICA GENERAL",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 7.5,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2011-03-12T00:00:00",
+      "materia": "FISICA II",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Es un profesor muy bueno... Me cae muy bien!!! Trata que todos sus alumnos entiendan su materia..."
+    },
+    {
+      "fecha_iso": "2011-02-18T00:00:00",
+      "materia": "FISICA 1",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2010-08-28T00:00:00",
+      "materia": "FÍSICA II",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Es muy jovén, le falta experiencia y sus clases son extremadamente aburridas y tediosas."
+    }
+  ],
+  "comments_recent": [
+    "[Comentario esperando revisión]",
+    "La verdad si esta difícil. De repente su forma de enseñar es muy compleja y necesitas varios conocimientos matemáticos para entenderle. Te recomiendo no faltar ni un día, apuntar todo y no confiarte porque le entiendas al principio. En general es buena maestro y quiere que sus estudiantes aprendan.",
+    "muy dificil.",
+    "EL mejor profe que e tenidoo!!!, explicaaa muy claramentee todo los temas y te aclara las dudas, muy bueen maestro :) lo recomiendo muchisimoo!! me sentia perdida en esa materia pero el me ayudo muchoo!",
+    "exelente profesor.",
+    "Es un gran maestro, muy respetuoso, es un ejemplo de maestro, explica muy bien, trata de termimar con el temario completo, a veces se pasa en enseñanda pero vale la pena cargar con el, aprendes mucho si le pones atencion, y nunca falta es raro y avisa si lo hace. Recomendado",
+    "Excelente profesor, siempre da el extra en sus clases. Explica muy bien, y si es necesario, te repite las cosas n veces. Tiene una gran calidad de persona, lo recomiendo.",
+    "Si te gusta que te regalen las cosas no lo cargues, si quieres aprender cargalo, es muy profesional, te ayuda mucho, explica claro, sabe mucho, da asesorias cuando lo necesitas, y es muy justo, se ve que le gusta su materia.",
+    "Es un profesor muy bueno... Me cae muy bien!!! Trata que todos sus alumnos entiendan su materia..."
+  ],
+  "n_reviews": 12
+}

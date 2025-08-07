@@ -1,0 +1,183 @@
+{
+  "professor_id": "Hector_Manuel_Cardenas_Lopez",
+  "nombre": "Hector Manuel Cardenas Lopez",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 4.9509100545401585,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 6.651728066843904,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.4,
+    "wilson_interval": [
+      0.11761823115925325,
+      0.769280067791163
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": -0.35,
+    "z_mean_decayed": -0.72,
+    "per_subject": [
+      {
+        "materia": "MECATRÓNICA APLICADA",
+        "z_decayed": 1.1957130632930835,
+        "n": 5
+      },
+      {
+        "materia": "MECATRONICA APLICADA",
+        "z_decayed": 0.8777472595071585,
+        "n": 6
+      },
+      {
+        "materia": "PROGRAMACIÓN AVANZADA",
+        "z_decayed": -1.107018606925119,
+        "n": 6
+      },
+      {
+        "materia": "CONTROL DIGITAL",
+        "z_decayed": -1.5878598107740596,
+        "n": 9
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "puro",
+          "falta",
+          "mejor",
+          "semestre",
+          "materia"
+        ],
+        "weight": 0.2706664521456635
+      },
+      {
+        "id": 1,
+        "words": [
+          "mejor",
+          "ensena",
+          "hablar",
+          "puro",
+          "cargar"
+        ],
+        "weight": 0.33884087111600847
+      }
+    ],
+    "sentiment": {
+      "overall": 0.0,
+      "by_month": {
+        "2025-01": 0.0,
+        "2024-07": 0.0,
+        "2023-06": 0.0,
+        "2021-12": 0.0,
+        "2021-11": 0.0
+      }
+    },
+    "n_comments": 5
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        10.0,
+        10.0,
+        2.0,
+        4.0,
+        4.0
+      ],
+      "ewma": [
+        10.0,
+        10.0,
+        7.6,
+        6.52,
+        5.763999999999999
+      ],
+      "sigma": 2.306697032555424
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 5.763999999999999,
+      "quality_band": [
+        1.2428738161913682,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2025-01-10T00:00:00",
+      "materia": "PROGRAMACIÓN AVANZADA",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 0,
+      "comentario": "Profesor muy embustero y falta mucho, cuando llega a ir no enseña nada, puro hablar. Entre cargar con él y no cargar, mejor no cargues."
+    },
+    {
+      "fecha_iso": "2024-07-08T00:00:00",
+      "materia": "PROGRAMACIÓN AVANZADA",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 24.0,
+      "recomienda": 0,
+      "comentario": "Este profe habla mucho nomás para marear, como si nomás por hablar nos hiciera un favor, de lejos se mira que todo lo que \"enseña\" lo saca de chatgpt, puro código copiado y que ni entiende. Si tienen la oportunidad de cargar con otro profesor, háganlo, no creo que sea peor."
+    },
+    {
+      "fecha_iso": "2023-06-01T00:00:00",
+      "materia": "CONTROL DIGITAL",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": "El profesor quiere aparentar que domina la materia, pero no da el ancho, además de que falta constantemente y no salimos del mismo tema en un semestre. Sus exámenes son difíciles porque ni el sabe como responderlos. No lo recomiendo, no carguen con el."
+    },
+    {
+      "fecha_iso": "2021-12-14T00:00:00",
+      "materia": "MECATRONICA APLICADA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Es el único profesor de mecatrónica en explicar lo que se espera de nosotros como ingenieros (nadie mas lo había hecho hasta nuestro ultimo semestre). Es el mejor profesor para llevar la materia, mucho mejor que Alcaraz."
+    },
+    {
+      "fecha_iso": "2021-11-18T00:00:00",
+      "materia": "MECATRÓNICA APLICADA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Gran profesor para la materia."
+    }
+  ],
+  "comments_recent": [
+    "Profesor muy embustero y falta mucho, cuando llega a ir no enseña nada, puro hablar. Entre cargar con él y no cargar, mejor no cargues.",
+    "Este profe habla mucho nomás para marear, como si nomás por hablar nos hiciera un favor, de lejos se mira que todo lo que \"enseña\" lo saca de chatgpt, puro código copiado y que ni entiende. Si tienen la oportunidad de cargar con otro profesor, háganlo, no creo que sea peor.",
+    "El profesor quiere aparentar que domina la materia, pero no da el ancho, además de que falta constantemente y no salimos del mismo tema en un semestre. Sus exámenes son difíciles porque ni el sabe como responderlos. No lo recomiendo, no carguen con el.",
+    "Es el único profesor de mecatrónica en explicar lo que se espera de nosotros como ingenieros (nadie mas lo había hecho hasta nuestro ultimo semestre). Es el mejor profesor para llevar la materia, mucho mejor que Alcaraz.",
+    "Gran profesor para la materia."
+  ],
+  "n_reviews": 5
+}

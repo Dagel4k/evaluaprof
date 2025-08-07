@@ -1,0 +1,280 @@
+{
+  "professor_id": "Lazaro_Ramos",
+  "nombre": "Lazaro Ramos",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 10.0,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 8.62617822739357,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 1.0,
+    "wilson_interval": [
+      0.7574992425007574,
+      0.9999999999999998
+    ],
+    "n_recommendations": 12
+  },
+  "subject_normalization": {
+    "z_mean": 0.8,
+    "z_mean_decayed": 0.74,
+    "per_subject": [
+      {
+        "materia": "DIBUJO",
+        "z_decayed": 1.131875256250057,
+        "n": 14
+      },
+      {
+        "materia": "DIBUJO INDUSTRIAL",
+        "z_decayed": 0.7320679436788173,
+        "n": 43
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "es",
+          "si",
+          "maestro",
+          "duda",
+          "te"
+        ],
+        "weight": 0.1184041177690191
+      },
+      {
+        "id": 1,
+        "words": [
+          "tec",
+          "maestro",
+          "profesor",
+          "mejor profesor",
+          "mejor"
+        ],
+        "weight": 0.17294285172862003
+      },
+      {
+        "id": 2,
+        "words": [
+          "es",
+          "profe",
+          "es camarada",
+          "camarada",
+          "100"
+        ],
+        "weight": 0.20064632189360276
+      },
+      {
+        "id": 3,
+        "words": [
+          "clases",
+          "profesor",
+          "recomendado",
+          "profesor tiene",
+          "tiene"
+        ],
+        "weight": 0.17776210031071427
+      }
+    ],
+    "sentiment": {
+      "overall": 0.0,
+      "by_month": {
+        "2022-01": 0.0,
+        "2021-01": 0.0,
+        "2019-12": 0.0,
+        "2018-12": 0.0,
+        "2018-08": 0.0,
+        "2017-08": 0.0,
+        "2015-03": 0.0,
+        "2013-08": 0.0,
+        "2012-08": 0.0
+      }
+    },
+    "n_comments": 9
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 1,
+    "trust_score": 0.8
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        10.0
+      ],
+      "ewma": [
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        10.0
+      ],
+      "sigma": 0.0
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 10.0,
+      "quality_band": [
+        10.0,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2023-12-05T00:00:00",
+      "materia": "DIBUJO INDUSTRIAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2022-01-20T00:00:00",
+      "materia": "DIBUJO INDUSTRIAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "es uno de los mejores maestro que me toco, explica de maravilla, te pone atención, es bastante accesible con los trabajos... sin duda cargaría otra vez con él"
+    },
+    {
+      "fecha_iso": "2021-01-20T00:00:00",
+      "materia": "DIBUJO INDUSTRIAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Este sin duda fue el mejor profe que me toco! Es bien buena onda y te escucha! Hace sus clases para que no te aburras, y si no puedes entregar el trabajo a tiempo le dices y te da chanza, sin duda cargaría con el de nuevo, profe favorito."
+    },
+    {
+      "fecha_iso": "2019-12-11T00:00:00",
+      "materia": "DIBUJO INDUSTRIAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "El mejor profesor que tiene el tec. Super recomendado. No lo dudes y carga con el."
+    },
+    {
+      "fecha_iso": "2018-12-07T00:00:00",
+      "materia": "DIBUJO INDUSTRIAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "No cualquiera tiene la certeza de estar con este profesor, tiene un gran conocimiento, sus clases son mas practicas que teóricas por lo que tiendes a entender mas y es bien sigue rollos (pistea sereno). Recomendado"
+    },
+    {
+      "fecha_iso": "2018-08-04T00:00:00",
+      "materia": "DIBUJO INDUSTRIAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "El mejor profesor"
+    },
+    {
+      "fecha_iso": "2017-08-03T00:00:00",
+      "materia": "DIBUJO INDUSTRIAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Steee profe es buenísimo, aprendes y agarras cura. Mínimo sales con 90, si pones ganas, si no, si te truena."
+    },
+    {
+      "fecha_iso": "2015-03-27T00:00:00",
+      "materia": "DIBUJO",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "El mejor maestro que he tenido, si quieren aprender y llevarsela ligero este es tu maestro. EL MEJOR"
+    },
+    {
+      "fecha_iso": "2013-08-07T00:00:00",
+      "materia": "DIBUJO INDUSTRIAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Es camarada y aprendes machin con este profe, ya voy de salida pero este vato me dió mi primer y único 100 en el Tec jaja. Recomendado para todo tipo de alumnos."
+    },
+    {
+      "fecha_iso": "2012-08-16T00:00:00",
+      "materia": "DIBUJO",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Pelado y el profe es camarada, aunque seas webon te la llevas leve y sacar el 100 no es problema"
+    },
+    {
+      "fecha_iso": "2012-01-14T00:00:00",
+      "materia": "DIBUJO INDUSTRIAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2011-11-24T00:00:00",
+      "materia": "DIBUJO INDUSTRIAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": ""
+    }
+  ],
+  "comments_recent": [
+    "es uno de los mejores maestro que me toco, explica de maravilla, te pone atención, es bastante accesible con los trabajos... sin duda cargaría otra vez con él",
+    "Este sin duda fue el mejor profe que me toco! Es bien buena onda y te escucha! Hace sus clases para que no te aburras, y si no puedes entregar el trabajo a tiempo le dices y te da chanza, sin duda cargaría con el de nuevo, profe favorito.",
+    "El mejor profesor que tiene el tec. Super recomendado. No lo dudes y carga con el.",
+    "No cualquiera tiene la certeza de estar con este profesor, tiene un gran conocimiento, sus clases son mas practicas que teóricas por lo que tiendes a entender mas y es bien sigue rollos (pistea sereno). Recomendado",
+    "El mejor profesor",
+    "Steee profe es buenísimo, aprendes y agarras cura. Mínimo sales con 90, si pones ganas, si no, si te truena.",
+    "El mejor maestro que he tenido, si quieren aprender y llevarsela ligero este es tu maestro. EL MEJOR",
+    "Es camarada y aprendes machin con este profe, ya voy de salida pero este vato me dió mi primer y único 100 en el Tec jaja. Recomendado para todo tipo de alumnos.",
+    "Pelado y el profe es camarada, aunque seas webon te la llevas leve y sacar el 100 no es problema"
+  ],
+  "n_reviews": 12
+}

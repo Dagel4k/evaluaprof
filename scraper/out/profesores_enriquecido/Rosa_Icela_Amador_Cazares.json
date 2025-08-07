@@ -1,0 +1,141 @@
+{
+  "professor_id": "Rosa_Icela_Amador_Cazares",
+  "nombre": "Rosa Icela Amador Cazares",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 9.824417233824109,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.76970864304704,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 1.0,
+    "wilson_interval": [
+      0.5100999795960008,
+      1
+    ],
+    "n_recommendations": 4
+  },
+  "subject_normalization": {
+    "z_mean": 0.36,
+    "z_mean_decayed": 0.4,
+    "per_subject": [
+      {
+        "materia": "ESTUDIO DEL TRABAJO 2",
+        "z_decayed": 0.5201564866102991,
+        "n": 6
+      },
+      {
+        "materia": "ESTADISTICA",
+        "z_decayed": 0.49248246212541763,
+        "n": 10
+      },
+      {
+        "materia": "ESTADISTICA Y CONTROL DE CALIDAD",
+        "z_decayed": 0.4309458036856673,
+        "n": 14
+      },
+      {
+        "materia": "ESTUDIO DEL TRABAJO II",
+        "z_decayed": 0.0,
+        "n": 7
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [],
+    "sentiment": {
+      "overall": null,
+      "by_month": {}
+    },
+    "n_comments": 3
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        9.0,
+        10.0,
+        10.0,
+        10.0
+      ],
+      "ewma": [
+        9.0,
+        9.3,
+        9.51,
+        9.657
+      ],
+      "sigma": 0.29452037280975973
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 9.657,
+      "quality_band": [
+        9.079740069292871,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2018-08-05T00:00:00",
+      "materia": "ESTADISTICA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2017-08-30T00:00:00",
+      "materia": "ESTUDIO DEL TRABAJO 2",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Es una muy buena profesora, te enseña lo que debe y sus clases son fáciles y sin mucha complicación. Volveria a cargar con ella. Además de ser una excelente persona y considerada con los alumnos."
+    },
+    {
+      "fecha_iso": "2016-06-20T00:00:00",
+      "materia": "ESTADISTICA Y CONTROL DE CALIDAD",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Es una gran profesora, explica muy bien y no exige demasiado solo lo que es importante de su materia...\ncargue con ella por que estaba maestro pendiente pero me toco muy buena suerte"
+    },
+    {
+      "fecha_iso": "2016-05-29T00:00:00",
+      "materia": "ESTUDIO DEL TRABAJO II",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Buena maestra, explica de manera clara y examenes super sencillos. Nunca falta y siempre llega a la hora exacta de la clase. Cuidado con la ortografia por que checa mucho eso de los acentos y las puntuaciones"
+    }
+  ],
+  "comments_recent": [
+    "Es una muy buena profesora, te enseña lo que debe y sus clases son fáciles y sin mucha complicación. Volveria a cargar con ella. Además de ser una excelente persona y considerada con los alumnos.",
+    "Es una gran profesora, explica muy bien y no exige demasiado solo lo que es importante de su materia...\ncargue con ella por que estaba maestro pendiente pero me toco muy buena suerte",
+    "Buena maestra, explica de manera clara y examenes super sencillos. Nunca falta y siempre llega a la hora exacta de la clase. Cuidado con la ortografia por que checa mucho eso de los acentos y las puntuaciones"
+  ],
+  "n_reviews": 4
+}

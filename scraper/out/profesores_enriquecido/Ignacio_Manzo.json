@@ -1,0 +1,404 @@
+{
+  "professor_id": "Ignacio_Manzo",
+  "nombre": "Ignacio Manzo",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 5.392616807279158,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 5.186320032343824,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.286,
+    "wilson_interval": [
+      0.138136757456282,
+      0.49956773822837586
+    ],
+    "n_recommendations": 21
+  },
+  "subject_normalization": {
+    "z_mean": -0.72,
+    "z_mean_decayed": -0.2,
+    "per_subject": [
+      {
+        "materia": "MECANISMOS",
+        "z_decayed": 0.11623563311535631,
+        "n": 27
+      },
+      {
+        "materia": "METROLOGIA Y NORMALIZACION",
+        "z_decayed": -0.6467965454022451,
+        "n": 15
+      },
+      {
+        "materia": "CIENCIA E INGENIERÍA DE LOS MATERIALES",
+        "z_decayed": -0.8488746876271654,
+        "n": 4
+      },
+      {
+        "materia": "METROLOGÍA Y NORMALIZACIÓN",
+        "z_decayed": -0.8955910525085281,
+        "n": 12
+      },
+      {
+        "materia": "---",
+        "z_decayed": -0.9627852966533862,
+        "n": 521
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "maestro",
+          "tiene",
+          "bien clases",
+          "bien",
+          "es"
+        ],
+        "weight": 0.08938296999240487
+      },
+      {
+        "id": 1,
+        "words": [
+          "explica",
+          "te",
+          "proyectos",
+          "mas",
+          "si"
+        ],
+        "weight": 0.14243761029181956
+      },
+      {
+        "id": 2,
+        "words": [
+          "da clase",
+          "profesor",
+          "materia",
+          "sabe",
+          "tec"
+        ],
+        "weight": 0.10030954835204184
+      },
+      {
+        "id": 3,
+        "words": [
+          "es",
+          "falta clases",
+          "deja",
+          "revision",
+          "falta"
+        ],
+        "weight": 0.1367455319703489
+      },
+      {
+        "id": 4,
+        "words": [
+          "deberian",
+          "porque",
+          "buen",
+          "buen profesor",
+          "profesor"
+        ],
+        "weight": 0.11942219976439312
+      }
+    ],
+    "sentiment": {
+      "overall": 0.0,
+      "by_month": {
+        "2023-01": 0.0,
+        "2020-08": 0.0,
+        "2020-01": 0.0,
+        "2019-12": 0.0,
+        "2019-08": 0.0,
+        "2018-08": 0.0,
+        "2018-06": 0.0,
+        "2018-03": 0.0,
+        "2017-12": -1.0,
+        "2017-08": 0.5,
+        "2016-12": 0.0,
+        "2016-08": 0.0,
+        "2013-11": 0.0,
+        "2013-10": 0.0,
+        "2013-09": 0.0,
+        "2013-07": 0.0,
+        "2013-03": 0.0
+      }
+    },
+    "n_comments": 19
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        8.0,
+        2.0,
+        2.0,
+        4.0,
+        8.0,
+        3.0,
+        2.0,
+        3.5,
+        4.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        10.0,
+        6.5,
+        8.0,
+        8.0
+      ],
+      "ewma": [
+        8.0,
+        6.199999999999999,
+        4.939999999999999,
+        4.657999999999999,
+        5.660599999999999,
+        4.862419999999998,
+        4.0036939999999985,
+        3.852585799999999,
+        3.896810059999999,
+        3.327767041999999,
+        2.9294369293999996,
+        2.65060585058,
+        2.455424095406,
+        4.718796866784199,
+        5.2531578067489395,
+        6.077210464724257,
+        6.65404732530698
+      ],
+      "sigma": 2.1999926817073336
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 6.65404732530698,
+      "quality_band": [
+        2.342061669160606,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2023-01-15T00:00:00",
+      "materia": "MECANISMOS",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Definitivamente ya no es el profe que era hace unos años, participa y sobresal en la clase y no harás ningún examen, en ocasiones falta a clases porque los alumnos lo invitan a viajes universitarios, visitas industriales. No deja tareas, no es exigente a excepción del momento de revisión de proyecto"
+    },
+    {
+      "fecha_iso": "2020-08-10T00:00:00",
+      "materia": "DISEÑO DE PRODUCTO",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Esta materia se califica con un proyecto y tareas (no hay exámenes). El profesor deja muchas lecturas sobre las necesidades del cliente, las entrevistas y métodos para hacer llegar tu producto. Sin embargo es muy perfeccionista y un poco exigente, de mi grupo reprobaron 13 de 23. Hay que esforzarse."
+    },
+    {
+      "fecha_iso": "2020-01-12T00:00:00",
+      "materia": "MECANISMOS",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 1,
+      "comentario": "Si todo el grupo se porta camarada con el, él también se portará camarada. Los exámenes son algo fáciles, si entregas todos los proyectos y pasas al menos un examen ya pasaste la materia. Es mas fácil que con Kevin"
+    },
+    {
+      "fecha_iso": "2020-01-04T00:00:00",
+      "materia": "MECANISMOS",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 0,
+      "comentario": "Como puntos positivos el maestro es organizado en su profesión. Planifica bien las clases y tiene fechas establecidas para cumplir con la clase.\nPor otra parte su manera de calificar es algo monótona debido a que sus exámenes son de 1 problema en el cual solo maneja (100,70) como calif.\n6.5/10"
+    },
+    {
+      "fecha_iso": "2019-12-14T00:00:00",
+      "materia": "MECANISMOS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "No se porque tiene mala fama este profesor, desconozco el modo de enseñar de los semestres pasados en el que yo cursé con el, a lo mejor lo regañaron los directivos o que se yo porque no fue el Manzo que me dijeron que iba a ser, muy buen profesor, lo recomiendo"
+    },
+    {
+      "fecha_iso": "2019-08-19T00:00:00",
+      "materia": "CUALQUIERA MATERIA",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "UN PENDEJOOO"
+    },
+    {
+      "fecha_iso": "2018-08-05T00:00:00",
+      "materia": "CIENCIA E INGENIERÍA DE LOS MATERIALES",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "No sabe nada de la materia, y reprueba a muchos.\nEl peor profesor del tec."
+    },
+    {
+      "fecha_iso": "2018-06-13T00:00:00",
+      "materia": "MECANISMOS",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "No tiene criterio para calificar y además es un prepotente... No entiendo como este tipo da clase en el tec de culiacan."
+    },
+    {
+      "fecha_iso": "2018-06-11T00:00:00",
+      "materia": "PROCESOS DE FABRICACION",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 0,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2018-06-11T00:00:00",
+      "materia": "MECANISMOS",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 24.0,
+      "recomienda": 0,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2018-03-11T00:00:00",
+      "materia": "MECANISMOS",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 21.0,
+      "recomienda": 0,
+      "comentario": "No enseña nada, vas a gastar dinero en proyectos que el no te dice cómo hacerlos hay que ver videos en youtube, y vas a reprobar"
+    },
+    {
+      "fecha_iso": "2017-12-22T00:00:00",
+      "materia": "MECANISMOS",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "No sabe nada de nada, todo lo que explica esta mal y lo que pide ni el sabe hacerlo, al final no toma en cuenta los trabajos, unicamente los examenes y el proyecto, pero no es muy dificil con el, anque no aprendes nada, pero si ayuda si le echas ganas a las clases y te ve iniciativa."
+    },
+    {
+      "fecha_iso": "2017-08-22T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2017-08-08T00:00:00",
+      "materia": "METROLOGÍA Y NORMALIZACIÓN",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": "Este profesor falta mucho, no deja claro lo que está explicando y a veces le da la clase a otros para que la den. Sinceramente, no lo recomiendo."
+    },
+    {
+      "fecha_iso": "2016-12-15T00:00:00",
+      "materia": "PROCESOS DE FABRICACIÓN",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 23.0,
+      "recomienda": 0,
+      "comentario": "Nomas no, de lo mas gacho"
+    },
+    {
+      "fecha_iso": "2016-08-29T00:00:00",
+      "materia": "PROCESOS",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 0,
+      "comentario": "No explica nada y quiere que todo lo hagas por tu cuenta."
+    },
+    {
+      "fecha_iso": "2013-11-18T00:00:00",
+      "materia": "TRANSFERENCIA DE CALOR",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": "Si da bien sus clases lo recomiendo"
+    },
+    {
+      "fecha_iso": "2013-10-27T00:00:00",
+      "materia": "METROLOGIA Y NORMALIZACION",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 3.5,
+      "recomienda": 0,
+      "comentario": "Es una persona que falta mucho, sus clases son muy repetitivas, realmente no se aprende mucho de la materia, solo platica y da ejemplos de errores."
+    },
+    {
+      "fecha_iso": "2013-09-09T00:00:00",
+      "materia": "CERO CERO",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "jajaja este we de en el tec jajaja y de jefe ...nombre en el tec van para atras son como el cangrejo...."
+    },
+    {
+      "fecha_iso": "2013-07-04T00:00:00",
+      "materia": "METODOLOGIA DE LA INVESTIGACION",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 2.5,
+      "recomienda": 0,
+      "comentario": "ES un maal maestro se ve que no tiene experiencia en la investigacion,deberian de poner a otro tipo de profesor que si sepai. además es bien despota y burlesco. Se cree lo que no es."
+    },
+    {
+      "fecha_iso": "2013-03-20T00:00:00",
+      "materia": "TALLER DE INVESTIGACIÓN 1",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Es buen profesor pero la materia que me dió es muy aburrida, y sus clases no deberían dar para mucho lástima por él."
+    }
+  ],
+  "comments_recent": [
+    "Definitivamente ya no es el profe que era hace unos años, participa y sobresal en la clase y no harás ningún examen, en ocasiones falta a clases porque los alumnos lo invitan a viajes universitarios, visitas industriales. No deja tareas, no es exigente a excepción del momento de revisión de proyecto",
+    "Esta materia se califica con un proyecto y tareas (no hay exámenes). El profesor deja muchas lecturas sobre las necesidades del cliente, las entrevistas y métodos para hacer llegar tu producto. Sin embargo es muy perfeccionista y un poco exigente, de mi grupo reprobaron 13 de 23. Hay que esforzarse.",
+    "Si todo el grupo se porta camarada con el, él también se portará camarada. Los exámenes son algo fáciles, si entregas todos los proyectos y pasas al menos un examen ya pasaste la materia. Es mas fácil que con Kevin",
+    "Como puntos positivos el maestro es organizado en su profesión. Planifica bien las clases y tiene fechas establecidas para cumplir con la clase.\nPor otra parte su manera de calificar es algo monótona debido a que sus exámenes son de 1 problema en el cual solo maneja (100,70) como calif.\n6.5/10",
+    "No se porque tiene mala fama este profesor, desconozco el modo de enseñar de los semestres pasados en el que yo cursé con el, a lo mejor lo regañaron los directivos o que se yo porque no fue el Manzo que me dijeron que iba a ser, muy buen profesor, lo recomiendo",
+    "UN PENDEJOOO",
+    "No sabe nada de la materia, y reprueba a muchos.\nEl peor profesor del tec.",
+    "No tiene criterio para calificar y además es un prepotente... No entiendo como este tipo da clase en el tec de culiacan."
+  ],
+  "n_reviews": 21
+}

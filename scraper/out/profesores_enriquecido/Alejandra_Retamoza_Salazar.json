@@ -1,0 +1,257 @@
+{
+  "professor_id": "Alejandra_Retamoza_Salazar",
+  "nombre": "Alejandra Retamoza Salazar",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 7.204588707443051,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.3989055001208435,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.667,
+    "wilson_interval": [
+      0.3906175873976139,
+      0.8618821601026386
+    ],
+    "n_recommendations": 12
+  },
+  "subject_normalization": {
+    "z_mean": 0.22,
+    "z_mean_decayed": 0.02,
+    "per_subject": [
+      {
+        "materia": "QUIMICA ORGANICA",
+        "z_decayed": 0.6050772388496188,
+        "n": 3
+      },
+      {
+        "materia": "QUIMICA",
+        "z_decayed": 0.4653879006755857,
+        "n": 83
+      },
+      {
+        "materia": "PROBABILIDAD Y ESTADÍSTICA",
+        "z_decayed": 0.1682614642773532,
+        "n": 23
+      },
+      {
+        "materia": "PROBABILIDAD",
+        "z_decayed": 0.0735469506699175,
+        "n": 14
+      },
+      {
+        "materia": "BIOQUÍMICA",
+        "z_decayed": -0.6085300802826821,
+        "n": 8
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "si",
+          "clase",
+          "es"
+        ],
+        "weight": 0.43637312413288526
+      },
+      {
+        "id": 1,
+        "words": [
+          "es",
+          "clase",
+          "si"
+        ],
+        "weight": 0.25976512296657384
+      }
+    ],
+    "sentiment": {
+      "overall": 0.0,
+      "by_month": {
+        "2022-04": 0.0,
+        "2021-04": 0.0,
+        "2020-12": 0.0,
+        "2018-11": 0.0
+      }
+    },
+    "n_comments": 4
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        7.0,
+        10.0,
+        9.0,
+        7.0,
+        8.0,
+        10.0,
+        10.0,
+        10.0,
+        5.0,
+        4.0,
+        6.0
+      ],
+      "ewma": [
+        7.0,
+        7.8999999999999995,
+        8.229999999999999,
+        7.860999999999999,
+        7.902699999999999,
+        8.531889999999999,
+        8.972323,
+        9.2806261,
+        7.996438269999999,
+        6.797506788999999,
+        6.558254752299999
+      ],
+      "sigma": 1.627955930398675
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 6.558254752299999,
+      "quality_band": [
+        3.367461128718596,
+        9.749048375881403
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2022-04-29T00:00:00",
+      "materia": "QUIMICA",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 0,
+      "comentario": "No se los recomiendo si es que son de sistemas ya que esta maestra exige demasiado para ser una materia de relleno como si fuera su clase muy importante. \nLos exámenes son muy difíciles por el hecho de que te agrega muchas preguntas en tan poco tiempo y no es comprensiva en nada cuando hay examen"
+    },
+    {
+      "fecha_iso": "2021-04-27T00:00:00",
+      "materia": "QUÍMICA",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 0,
+      "comentario": "Su clase es muy ordinaria y hasta cierto punto aburridas. Además si se molesta con algún compañero, toma represalias en contra de todo el grupo (bajar puntos). No tiene mala personalidad pero no es la mejor enseñando."
+    },
+    {
+      "fecha_iso": "2020-12-16T00:00:00",
+      "materia": "BIOQUÍMICA",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 24.0,
+      "recomienda": 0,
+      "comentario": "Califica duro."
+    },
+    {
+      "fecha_iso": "2020-01-12T00:00:00",
+      "materia": "TALLER 1",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2019-10-19T00:00:00",
+      "materia": "QUIMICA ORGANICA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 7.5,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2019-08-04T00:00:00",
+      "materia": "BIOQUÍMICA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2018-12-03T00:00:00",
+      "materia": "QUIMICA",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2018-11-14T00:00:00",
+      "materia": "PROBABILIDAD",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Está bien buena y es buena onda"
+    },
+    {
+      "fecha_iso": "2018-11-04T00:00:00",
+      "materia": "FUNDAMENTOS DE QUIMICA",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 0,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2018-08-14T00:00:00",
+      "materia": "QUIMICA ORGANICA",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2018-07-22T00:00:00",
+      "materia": "QUIMICA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2018-02-27T00:00:00",
+      "materia": "PROBABILIDAD Y ESTADÍSTICA",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 23.0,
+      "recomienda": 1,
+      "comentario": ""
+    }
+  ],
+  "comments_recent": [
+    "No se los recomiendo si es que son de sistemas ya que esta maestra exige demasiado para ser una materia de relleno como si fuera su clase muy importante. \nLos exámenes son muy difíciles por el hecho de que te agrega muchas preguntas en tan poco tiempo y no es comprensiva en nada cuando hay examen",
+    "Su clase es muy ordinaria y hasta cierto punto aburridas. Además si se molesta con algún compañero, toma represalias en contra de todo el grupo (bajar puntos). No tiene mala personalidad pero no es la mejor enseñando.",
+    "Califica duro.",
+    "Está bien buena y es buena onda"
+  ],
+  "n_reviews": 12
+}

@@ -1,0 +1,197 @@
+{
+  "professor_id": "Hortencia_Carolina_Tirado_Nuñez",
+  "nombre": "Hortencia Carolina Tirado Nuñez",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 7.051928983775087,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 6.54849506266616,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.333,
+    "wilson_interval": [
+      0.09676933255921684,
+      0.7000116786584712
+    ],
+    "n_recommendations": 6
+  },
+  "subject_normalization": {
+    "z_mean": 0.15,
+    "z_mean_decayed": 0.42,
+    "per_subject": [
+      {
+        "materia": "PROCESOS DE FABRICACIÓN",
+        "z_decayed": 0.592999836408091,
+        "n": 24
+      },
+      {
+        "materia": "---",
+        "z_decayed": 0.24154169395124384,
+        "n": 521
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "comentario esperando",
+          "comentario",
+          "esperando",
+          "esperando revision",
+          "revision"
+        ],
+        "weight": 0.21113803627173575
+      },
+      {
+        "id": 1,
+        "words": [
+          "comentario",
+          "comentario esperando",
+          "esperando",
+          "esperando revision",
+          "revision"
+        ],
+        "weight": 0.3105649968749708
+      },
+      {
+        "id": 2,
+        "words": [
+          "comentario",
+          "comentario esperando",
+          "esperando",
+          "esperando revision",
+          "revision"
+        ],
+        "weight": 0.3105649968749708
+      }
+    ],
+    "sentiment": {
+      "overall": 0.0,
+      "by_month": {
+        "2023-06": 0.0,
+        "2019-12": 0.0,
+        "2019-01": 0.0,
+        "2018-08": 0.0,
+        "2017-06": 0.0,
+        "2016-06": 0.0
+      }
+    },
+    "n_comments": 6
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.667,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 0.67
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        3.0,
+        5.0,
+        5.0,
+        6.0,
+        8.0,
+        8.0
+      ],
+      "ewma": [
+        3.0,
+        3.5999999999999996,
+        4.02,
+        4.613999999999999,
+        5.6297999999999995,
+        6.340859999999999
+      ],
+      "sigma": 0.785379139057479
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 6.340859999999999,
+      "quality_band": [
+        4.80151688744734,
+        7.880203112552659
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2023-06-07T00:00:00",
+      "materia": "PROCESOS DE FABRICACIÓN",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Es muy buena onda, mi recomendación es que siempre asistas a clases con ella, con ello entiende que te estás preocupando por su materia y lo toma en cuenta para las evaluaciones."
+    },
+    {
+      "fecha_iso": "2019-12-05T00:00:00",
+      "materia": "---",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 1,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2019-01-31T00:00:00",
+      "materia": "---",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2018-08-06T00:00:00",
+      "materia": "---",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2017-06-04T00:00:00",
+      "materia": "---",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2016-06-03T00:00:00",
+      "materia": "---",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    }
+  ],
+  "comments_recent": [
+    "Es muy buena onda, mi recomendación es que siempre asistas a clases con ella, con ello entiende que te estás preocupando por su materia y lo toma en cuenta para las evaluaciones.",
+    "[Comentario esperando revisión]",
+    "[Comentario esperando revisión]",
+    "[Comentario esperando revisión]",
+    "[Comentario esperando revisión]",
+    "[Comentario esperando revisión]"
+  ],
+  "n_reviews": 6
+}

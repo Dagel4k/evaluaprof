@@ -1,0 +1,82 @@
+{
+  "nombre": "José Andrés Garcia Soto",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "ciudad": "Ciudad: culiacan, sinaloa",
+  "departamento": "Departamento/Facultad: Economico-administrativo",
+  "calidad_general": 10.0,
+  "porcentaje_recomienda": 75,
+  "nivel_dificultad": 0.0,
+  "etiquetas": [
+    "BARCO (2)",
+    "TOMARÍA SU CLASE OTRA VEZ (3)",
+    "MUY CÓMICO (1)"
+  ],
+  "numero_calificaciones": 4,
+  "calificaciones": [
+    {
+      "fecha": "18/Nov/2021",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Etica",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "Cuanta nostalgia este profe nada como los primeros semestres, como dice el man de abajo daba como 2 veces por semana al inicio del semestre y ya como al mes nomas revisaba unas tareas bien pedorras como cada 3 semanas xd los examenes son lo mas facil del universo",
+      "etiquetas_comentario": [
+        "Barco",
+        "Muy cómico",
+        "Tomaría su clase otra vez"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "27/Ago/2021",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Etica",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "Un dios generoso al inicio da clases como 2 dias a la semana y ya como a las 3 semanas de semestre da como una vez cada 15 dias XD esencial para salir temprano y relax en clases de relleno",
+      "etiquetas_comentario": [
+        "Tomaría su clase otra vez"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "03/Sep/2020",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "etica",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "Dividió el grupo en dos, a mi me tocaba martes y jueves, iba como dos jueves el mes, revisó el ultimo trabajo en el estacionamiento XDXD",
+      "etiquetas_comentario": [
+        "Barco",
+        "Tomaría su clase otra vez"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "30/Oct/2012",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Administración y Contabilidad",
+      "asistencia": "",
+      "calificacion_recibida": "10",
+      "interes_clase": "10",
+      "comentario": "Este profe es un amor, no hace exámenes, no reprueba a nadie, no tienes clases en casi todo el semestre, con tan solo presentarle las tareas aseguras tener una muy buena calificación (arriba de 95) pero si te interesa aprender administración esta no es tu opción.",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    }
+  ]
+}

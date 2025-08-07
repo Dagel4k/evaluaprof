@@ -1,0 +1,351 @@
+{
+  "professor_id": "Antonio_Velazquez_Meza",
+  "nombre": "Antonio Velazquez Meza",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 5.525393118102762,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 6.029843115486868,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.375,
+    "wilson_interval": [
+      0.18480982554752803,
+      0.6135935290206519
+    ],
+    "n_recommendations": 16
+  },
+  "subject_normalization": {
+    "z_mean": -0.06,
+    "z_mean_decayed": -0.12,
+    "per_subject": [
+      {
+        "materia": "SISTEMAS DE MANUFACTURA",
+        "z_decayed": 0.6354889093022426,
+        "n": 4
+      },
+      {
+        "materia": "PROPIEDAD DE LOS MATERIALES",
+        "z_decayed": 0.08764377005342028,
+        "n": 11
+      },
+      {
+        "materia": "PROPIEDADES DE LOS MATERIALES",
+        "z_decayed": -0.7801787720292453,
+        "n": 16
+      },
+      {
+        "materia": "SISTEMAS",
+        "z_decayed": -1.7449951814564004,
+        "n": 13
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "solo",
+          "te",
+          "pasa",
+          "si",
+          "diapositivas"
+        ],
+        "weight": 0.09565435722042692
+      },
+      {
+        "id": 1,
+        "words": [
+          "si",
+          "explica",
+          "cargar",
+          "clases",
+          "bien"
+        ],
+        "weight": 0.15970013605335892
+      },
+      {
+        "id": 2,
+        "words": [
+          "si",
+          "comentarios",
+          "alumnos",
+          "carguen",
+          "es"
+        ],
+        "weight": 0.14159228052593212
+      },
+      {
+        "id": 3,
+        "words": [
+          "exposiciones",
+          "te",
+          "examenes",
+          "explica",
+          "hace"
+        ],
+        "weight": 0.1301767490906623
+      },
+      {
+        "id": 4,
+        "words": [
+          "tienes hacer",
+          "hacer",
+          "preguntas",
+          "tienes",
+          "apuntes"
+        ],
+        "weight": 0.14594743189099357
+      }
+    ],
+    "sentiment": {
+      "overall": 0.06666666666666667,
+      "by_month": {
+        "2025-06": 0.0,
+        "2025-01": 0.0,
+        "2024-07": 0.0,
+        "2024-06": 0.0,
+        "2023-11": 0.0,
+        "2023-07": 0.0,
+        "2021-06": 0.0,
+        "2019-07": 0.0,
+        "2017-09": 1.0,
+        "2017-08": 0.0,
+        "2017-05": 0.0,
+        "2015-03": 0.0,
+        "2013-08": 0.0,
+        "2013-06": 0.0,
+        "2013-05": 0.0
+      }
+    },
+    "n_comments": 15
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        3.0,
+        9.0,
+        6.0,
+        3.0,
+        3.0,
+        7.0,
+        8.0,
+        2.0,
+        8.0,
+        2.0,
+        10.0,
+        6.0,
+        5.0,
+        6.0,
+        2.0,
+        7.0
+      ],
+      "ewma": [
+        3.0,
+        4.799999999999999,
+        5.159999999999998,
+        4.511999999999999,
+        4.058399999999999,
+        4.940879999999999,
+        5.858616,
+        4.701031199999999,
+        5.690721839999999,
+        4.583505287999999,
+        6.208453701599999,
+        6.145917591119999,
+        5.802142313783999,
+        5.861499619648798,
+        4.703049733754158,
+        5.39213481362791
+      ],
+      "sigma": 2.2043072013919907
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 5.39213481362791,
+      "quality_band": [
+        1.071692698899609,
+        9.712576928356212
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2025-06-09T00:00:00",
+      "materia": "SISTEMAS DE MANUFACTURA",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Si tienes la oportunidad de pedir examenes de semestres pasados pídelos, si les cambia preguntas pero la estructura principal se mantiene. Solo lee diapositivas pero no las comparte al grupo, toma apuntes o fotos suficientes y con eso estarás bien."
+    },
+    {
+      "fecha_iso": "2025-01-23T00:00:00",
+      "materia": "PROPIEDADES DE LOS MATERIALES",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Sus clases son exposiciones de los alumnos. Y también varias amigas se han quejado de que hace comentarios desubicados. A mi me ha tocado verlo en clase, y si es bastante repugnante."
+    },
+    {
+      "fecha_iso": "2024-07-14T00:00:00",
+      "materia": "PROPIEDADES",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 0,
+      "comentario": "PEDÓFILOOOO ASQUEROSO PITUFO"
+    },
+    {
+      "fecha_iso": "2024-06-11T00:00:00",
+      "materia": "PROPIEDAD DE LOS MATERIALES",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 0,
+      "comentario": "No recomiendo que carguen con el, desde el punto de vista academico y personal el profesor es un desastre.\nEspecialmente si son mujeres, va a intentar caerles bien y les hara comentarios super fuera de lugar.\n\nAhorrense la pena de cargar con el"
+    },
+    {
+      "fecha_iso": "2023-11-21T00:00:00",
+      "materia": "INGENIERÍA DE SISTEMAS",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 0,
+      "comentario": "Sus trabajos y métodos de evaluación son muy sencillos, sus clases son él leyendo diapositivas muy aburridas así que puedes no ir e igual pasas fácilmente. Si quieres aprender no cargues con él."
+    },
+    {
+      "fecha_iso": "2023-07-08T00:00:00",
+      "materia": "PROPIEDAD DE LOS MATERIALES",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "El mejorrr profe, sólo tienes que cumplir con las tareas, exposiciones y estudiar todas las diapositivas qué expone, tómales foto porque no las pasa. Sí estudias las diapositivas los exámenes serán muy fáciles"
+    },
+    {
+      "fecha_iso": "2021-06-04T00:00:00",
+      "materia": "PROPIEDADES DE LOS MATERIALES",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 0,
+      "comentario": "Sus exámenes son largos tienes que hacer muchos apuntes y solo da 30 minutos para que hagas un examen de 25 a 30 preguntas. No recomendado."
+    },
+    {
+      "fecha_iso": "2019-08-04T00:00:00",
+      "materia": "PROPIEDADES DE LOS MATERIALES",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2019-07-03T00:00:00",
+      "materia": "PROPIEDADES DE LOS MATERIALES",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 24.0,
+      "recomienda": 0,
+      "comentario": "No te enseña nada solo te pide exponer y anotar diapositivas pasa hablando y platicando su vida \nNunca enseña los exámenes de los estudiantes"
+    },
+    {
+      "fecha_iso": "2017-09-14T00:00:00",
+      "materia": "PROPIEDADES DE LOS MATERIALES",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "EXPLICA CLARO Y DIRECTO, HACE PRÁCTICAS EN LABORATORIOS, EXPONES, EXÁMENES CON UN GRADO INTERMEDIO DE FACILIDAD."
+    },
+    {
+      "fecha_iso": "2017-08-22T00:00:00",
+      "materia": "PROPIEDAD DE LOS MATERIALES",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Tiene una personalidad que no a todos les cae. Si haces apuntes en sus clases entonces los exámenes se te harán super fáciles. Toma mucho en cuenta la asistencia y si llegas 15 min tarde ya no entras. Tienes que hacer muchas exposiciones pero no es exigente al calificarlas"
+    },
+    {
+      "fecha_iso": "2017-05-07T00:00:00",
+      "materia": "PROPIEDADES DE LOS MATERIALES",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 0,
+      "comentario": "No lo carguen, es muy rara su forma de ser. Se da mucha confianza cuando no la hay, agarra de bajada a los alumnos y es irrespetuoso."
+    },
+    {
+      "fecha_iso": "2015-03-08T00:00:00",
+      "materia": "PROP DE LOS MATERIALES",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": "no prepara bien las clases."
+    },
+    {
+      "fecha_iso": "2013-08-04T00:00:00",
+      "materia": "PROPIEDAD DE LOS MATERIALES",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 6.0,
+      "recomienda": 0,
+      "comentario": "Las clases son a base de exposiciones hechas por el y por los alumnos, al final te da unas hojas y de ahí hace los exámenes."
+    },
+    {
+      "fecha_iso": "2013-06-19T00:00:00",
+      "materia": "PROPIEDADES DE LOS MATERIALES",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": "BUEN MAESTRO, EXIGE PERO ESTA BIEN.\nCARGA BIEN. EL SISTEMA DE CARGAS QUE IMPLANTO MEJORO MUCHO"
+    },
+    {
+      "fecha_iso": "2013-05-11T00:00:00",
+      "materia": "SISTEMAS",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": 4.0,
+      "recomienda": 0,
+      "comentario": "En realidad no sirve para nada cargar con esta persona, no explica bien y falla mucho en las clases. Bachoco ponte a trabajar"
+    }
+  ],
+  "comments_recent": [
+    "Si tienes la oportunidad de pedir examenes de semestres pasados pídelos, si les cambia preguntas pero la estructura principal se mantiene. Solo lee diapositivas pero no las comparte al grupo, toma apuntes o fotos suficientes y con eso estarás bien.",
+    "Sus clases son exposiciones de los alumnos. Y también varias amigas se han quejado de que hace comentarios desubicados. A mi me ha tocado verlo en clase, y si es bastante repugnante.",
+    "PEDÓFILOOOO ASQUEROSO PITUFO",
+    "No recomiendo que carguen con el, desde el punto de vista academico y personal el profesor es un desastre.\nEspecialmente si son mujeres, va a intentar caerles bien y les hara comentarios super fuera de lugar.\n\nAhorrense la pena de cargar con el",
+    "Sus trabajos y métodos de evaluación son muy sencillos, sus clases son él leyendo diapositivas muy aburridas así que puedes no ir e igual pasas fácilmente. Si quieres aprender no cargues con él.",
+    "El mejorrr profe, sólo tienes que cumplir con las tareas, exposiciones y estudiar todas las diapositivas qué expone, tómales foto porque no las pasa. Sí estudias las diapositivas los exámenes serán muy fáciles",
+    "Sus exámenes son largos tienes que hacer muchos apuntes y solo da 30 minutos para que hagas un examen de 25 a 30 preguntas. No recomendado.",
+    "No te enseña nada solo te pide exponer y anotar diapositivas pasa hablando y platicando su vida \nNunca enseña los exámenes de los estudiantes",
+    "EXPLICA CLARO Y DIRECTO, HACE PRÁCTICAS EN LABORATORIOS, EXPONES, EXÁMENES CON UN GRADO INTERMEDIO DE FACILIDAD."
+  ],
+  "n_reviews": 16
+}

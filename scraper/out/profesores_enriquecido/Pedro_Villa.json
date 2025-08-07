@@ -1,0 +1,280 @@
+{
+  "professor_id": "Pedro_Villa",
+  "nombre": "Pedro Villa",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 8.097782192114183,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 6.338796050132928,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.5,
+    "wilson_interval": [
+      0.2365895936154873,
+      0.7634104063845127
+    ],
+    "n_recommendations": 10
+  },
+  "subject_normalization": {
+    "z_mean": -0.62,
+    "z_mean_decayed": -0.22,
+    "per_subject": [
+      {
+        "materia": "TALLER DE BASE DE DATOS",
+        "z_decayed": 1.1602387022306426,
+        "n": 22
+      },
+      {
+        "materia": "TALLER DE BD",
+        "z_decayed": 0.0,
+        "n": 6
+      },
+      {
+        "materia": "SIMULACIÓN",
+        "z_decayed": -0.13635585780937481,
+        "n": 18
+      },
+      {
+        "materia": "TALLER DE SO",
+        "z_decayed": -0.5,
+        "n": 4
+      },
+      {
+        "materia": "FUNDAMENTOS DE PROGRAMACIÓN",
+        "z_decayed": -0.8889984648820828,
+        "n": 36
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "porque",
+          "si",
+          "profesor",
+          "ta",
+          "es"
+        ],
+        "weight": 0.15322792060696908
+      },
+      {
+        "id": 1,
+        "words": [
+          "porque",
+          "si",
+          "es",
+          "clases",
+          "hace"
+        ],
+        "weight": 0.11077617361131528
+      },
+      {
+        "id": 2,
+        "words": [
+          "es",
+          "clases",
+          "pienso",
+          "porque",
+          "si"
+        ],
+        "weight": 0.1466115733588101
+      },
+      {
+        "id": 3,
+        "words": [
+          "profesor",
+          "ta",
+          "clases",
+          "pienso",
+          "porque"
+        ],
+        "weight": 0.17439263665798888
+      },
+      {
+        "id": 4,
+        "words": [
+          "porque",
+          "si",
+          "hace",
+          "es",
+          "profesor"
+        ],
+        "weight": 0.12340332673461984
+      }
+    ],
+    "sentiment": {
+      "overall": 0.0,
+      "by_month": {
+        "2023-08": 0.0,
+        "2019-06": 0.0,
+        "2014-03": 0.0,
+        "2013-06": 0.0,
+        "2011-04": 0.0,
+        "2011-01": 0.0,
+        "2010-09": 0.0,
+        "2010-08": 0.0
+      }
+    },
+    "n_comments": 10
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        5.0,
+        2.0,
+        5.0,
+        3.5,
+        7.0,
+        8.0,
+        10.0,
+        8.0
+      ],
+      "ewma": [
+        5.0,
+        4.1,
+        4.369999999999999,
+        4.108999999999999,
+        4.976299999999999,
+        5.88341,
+        7.118386999999999,
+        7.382870899999999
+      ],
+      "sigma": 1.628908184153116
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 7.382870899999999,
+      "quality_band": [
+        4.190210859059892,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2023-08-13T00:00:00",
+      "materia": "TALLER DE SO",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Es un profesor que base muchisimo, probablemente sobrecalificado para cualquier materia que le den pero, no se organiza nada, no te dice como califica y al final te da todo de una,  aparenta ser barco pero no lo es tanto."
+    },
+    {
+      "fecha_iso": "2019-06-07T00:00:00",
+      "materia": "TALLER DE BASE DE DATOS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 1,
+      "comentario": "No sabía nada, no fui medio semestre, no entregué proyecto, no expuse y pasé con un cartón de cerveza indio."
+    },
+    {
+      "fecha_iso": "2014-03-22T00:00:00",
+      "materia": "TALLER DE BD",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "si aprendes"
+    },
+    {
+      "fecha_iso": "2013-06-14T00:00:00",
+      "materia": "SIMULACIÓN",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Buen profesor, hace las clases entretenidas y explica de forma clara, si eres flojo es probable que repruebas."
+    },
+    {
+      "fecha_iso": "2011-04-26T00:00:00",
+      "materia": "SIMULACION",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "pesimooooooo no se que hace impartiendo clases en el tec"
+    },
+    {
+      "fecha_iso": "2011-04-12T00:00:00",
+      "materia": "DESARROLO DE APLICACIONES PARA AMBIENTES DISFTRIBUIDOS",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 1.0,
+      "recomienda": 0,
+      "comentario": "yo pienso que este profesor.. no deberia de dar clases ya que humilla a los alumnos bajandole la moral y pisotiandolos.!!! porque para estooo.. ta locooooooooooo...!!!.. =D.."
+    },
+    {
+      "fecha_iso": "2011-01-15T00:00:00",
+      "materia": "APLICACIONES PARA AMB DISTRIBUIDOS",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Pienso que para llevar clases con el ya debes tener bien masticado algun lenguaje de programacion para poder defenderte un poco, es cierto que cuenta muchas anecdotas y en ocasiones seria mejor pasar mas tiempo aclarando los temas porque es exigente, pero si ayuda."
+    },
+    {
+      "fecha_iso": "2011-01-07T00:00:00",
+      "materia": "SIMULACION",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 1.0,
+      "recomienda": 0,
+      "comentario": "peter es compa lo que quieras tiene arranques de loco pero es un cabron a la hora de los examenes ta loco, examenes de 6 horas que estan dispuestos a reprobar"
+    },
+    {
+      "fecha_iso": "2010-09-21T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2010-08-29T00:00:00",
+      "materia": "FUNDAMENTOS DE PROGRAMACIÓN",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 0,
+      "comentario": "Es muy buena onda, divertido y ocurrente, pero siento que le falta explicar con mayor claridad."
+    }
+  ],
+  "comments_recent": [
+    "Es un profesor que base muchisimo, probablemente sobrecalificado para cualquier materia que le den pero, no se organiza nada, no te dice como califica y al final te da todo de una,  aparenta ser barco pero no lo es tanto.",
+    "No sabía nada, no fui medio semestre, no entregué proyecto, no expuse y pasé con un cartón de cerveza indio.",
+    "si aprendes",
+    "Buen profesor, hace las clases entretenidas y explica de forma clara, si eres flojo es probable que repruebas.",
+    "pesimooooooo no se que hace impartiendo clases en el tec",
+    "yo pienso que este profesor.. no deberia de dar clases ya que humilla a los alumnos bajandole la moral y pisotiandolos.!!! porque para estooo.. ta locooooooooooo...!!!.. =D..",
+    "Pienso que para llevar clases con el ya debes tener bien masticado algun lenguaje de programacion para poder defenderte un poco, es cierto que cuenta muchas anecdotas y en ocasiones seria mejor pasar mas tiempo aclarando los temas porque es exigente, pero si ayuda.",
+    "peter es compa lo que quieras tiene arranques de loco pero es un cabron a la hora de los examenes ta loco, examenes de 6 horas que estan dispuestos a reprobar",
+    "[Comentario esperando revisión]",
+    "Es muy buena onda, divertido y ocurrente, pero siento que le falta explicar con mayor claridad."
+  ],
+  "n_reviews": 10
+}

@@ -1,0 +1,256 @@
+{
+  "professor_id": "Baltazar_Urquidez",
+  "nombre": "Baltazar Urquidez",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 8.343580866172704,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.3387960501329275,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.8,
+    "wilson_interval": [
+      0.49015684672072346,
+      0.9433190520193067
+    ],
+    "n_recommendations": 10
+  },
+  "subject_normalization": {
+    "z_mean": -0.26,
+    "z_mean_decayed": -0.26,
+    "per_subject": [
+      {
+        "materia": "MICROBIOLOGÍA",
+        "z_decayed": -0.2519293903677123,
+        "n": 7
+      },
+      {
+        "materia": "---",
+        "z_decayed": -0.4330498537746954,
+        "n": 521
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "te",
+          "es buen",
+          "buen maestro",
+          "buen",
+          "maestro"
+        ],
+        "weight": 0.1946957952537915
+      },
+      {
+        "id": 1,
+        "words": [
+          "comentario esperando",
+          "comentario",
+          "esperando revision",
+          "esperando",
+          "revision"
+        ],
+        "weight": 0.15690991899700152
+      },
+      {
+        "id": 2,
+        "words": [
+          "maestro",
+          "buen",
+          "buen maestro",
+          "es buen",
+          "es"
+        ],
+        "weight": 0.12921495090446822
+      },
+      {
+        "id": 3,
+        "words": [
+          "revision",
+          "buen maestro",
+          "buen",
+          "es buen",
+          "te"
+        ],
+        "weight": 0.16197686617679136
+      }
+    ],
+    "sentiment": {
+      "overall": 0.125,
+      "by_month": {
+        "2019-01": -1.0,
+        "2014-02": 0.0,
+        "2013-11": 1.0,
+        "2013-08": 0.0,
+        "2012-06": 1.0,
+        "2012-04": 0.0,
+        "2011-09": 0.0,
+        "2011-04": 0.0
+      }
+    },
+    "n_comments": 8
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.036,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 0.98
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        2.0,
+        8.0,
+        5.0,
+        10.0,
+        10.0,
+        7.0,
+        9.0,
+        8.0,
+        10.0,
+        8.0
+      ],
+      "ewma": [
+        2.0,
+        3.8,
+        4.16,
+        5.912,
+        7.1384,
+        7.0968800000000005,
+        7.667816,
+        7.767471199999999,
+        8.437229839999999,
+        8.306060888
+      ],
+      "sigma": 1.6986790389311064
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 8.306060888,
+      "quality_band": [
+        4.97664997169503,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2022-08-16T00:00:00",
+      "materia": "MICROBIOLOGÍA",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2019-08-03T00:00:00",
+      "materia": "MICROBIOLOGÍA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2019-01-12T00:00:00",
+      "materia": "MICOROBIOLOGÍA",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": "todas sus clases son habladas, si se te pasa una clase o algún dato será complicado, reparte copias de los temas un poco complejas. Las prácticas son lo más importante y valora más la participación que una asistencia. Ayuda bastante con los exámenes"
+    },
+    {
+      "fecha_iso": "2014-02-14T00:00:00",
+      "materia": "CALIDAD DE ALIMENTOS",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "ES UN AMOR!!!"
+    },
+    {
+      "fecha_iso": "2013-11-14T00:00:00",
+      "materia": "TECNOLOGIA DE ALIMENTOS I",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 1,
+      "comentario": "Buen maestro, comprensivo y con muchos conocimientos, aun que a la mayoria de los alumnos no les llega la informacion xD"
+    },
+    {
+      "fecha_iso": "2013-08-03T00:00:00",
+      "materia": "TECNILOGIA DE LOS ALIMENTOS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "es buen maestro, siempre te apoya"
+    },
+    {
+      "fecha_iso": "2012-06-02T00:00:00",
+      "materia": "TECNOLOGIA DE ALIMENTOS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Excelente maestro. Mucha disponibilidad para aclarar dudas sobre el tema."
+    },
+    {
+      "fecha_iso": "2012-04-27T00:00:00",
+      "materia": "---",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 2.5,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2011-09-05T00:00:00",
+      "materia": "TECNOLOGIAS DE LOS ALIMENTOS 1",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "es un buen maestro"
+    },
+    {
+      "fecha_iso": "2011-04-12T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    }
+  ],
+  "comments_recent": [
+    "todas sus clases son habladas, si se te pasa una clase o algún dato será complicado, reparte copias de los temas un poco complejas. Las prácticas son lo más importante y valora más la participación que una asistencia. Ayuda bastante con los exámenes",
+    "ES UN AMOR!!!",
+    "Buen maestro, comprensivo y con muchos conocimientos, aun que a la mayoria de los alumnos no les llega la informacion xD",
+    "es buen maestro, siempre te apoya",
+    "Excelente maestro. Mucha disponibilidad para aclarar dudas sobre el tema.",
+    "[Comentario esperando revisión]",
+    "es un buen maestro",
+    "[Comentario esperando revisión]"
+  ],
+  "n_reviews": 10
+}

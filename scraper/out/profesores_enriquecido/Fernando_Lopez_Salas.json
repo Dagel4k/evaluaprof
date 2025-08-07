@@ -1,0 +1,91 @@
+{
+  "professor_id": "Fernando_Lopez_Salas",
+  "nombre": "Fernando Lopez Salas",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 6.013477657823693,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 6.81466008355488,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.5,
+    "wilson_interval": [
+      0.09452865480086611,
+      0.905471345199134
+    ],
+    "n_recommendations": 2
+  },
+  "subject_normalization": {
+    "z_mean": -1.62,
+    "z_mean_decayed": -1.62,
+    "per_subject": [
+      {
+        "materia": "CIRCUITOS HIDRAULICOS Y NEUMATICOS",
+        "z_decayed": -1.5000000000000002,
+        "n": 4
+      },
+      {
+        "materia": "CIRCUITOS HIDRÁULICOS Y NEUMÁTICOS",
+        "z_decayed": -1.747505344419561,
+        "n": 8
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [],
+    "sentiment": {
+      "overall": null,
+      "by_month": {}
+    },
+    "n_comments": 2
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": null,
+    "difficulty_trend": null,
+    "forecast": null,
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2020-06-15T00:00:00",
+      "materia": "CIRCUITOS HIDRAULICOS Y NEUMATICOS",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "es camarada, se agarra cura en las clases con el. los examenes son algo dificiles pero son cosas que si miras en clase, lo unico malo de el es que falta mucho por el puesto que tiene en el tec pero lo recomiendo"
+    },
+    {
+      "fecha_iso": "2020-06-01T00:00:00",
+      "materia": "CIRCUITOS HIDRÁULICOS Y NEUMÁTICOS",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 0,
+      "comentario": "Da clases cuando quiere, manda PDFs y tareas a bruto como si fuéramos a aprender, es mayate de Piña, no lo carges, no es malo, pero existe Higuera."
+    }
+  ],
+  "comments_recent": [
+    "es camarada, se agarra cura en las clases con el. los examenes son algo dificiles pero son cosas que si miras en clase, lo unico malo de el es que falta mucho por el puesto que tiene en el tec pero lo recomiendo",
+    "Da clases cuando quiere, manda PDFs y tareas a bruto como si fuéramos a aprender, es mayate de Piña, no lo carges, no es malo, pero existe Higuera."
+  ],
+  "n_reviews": 2
+}

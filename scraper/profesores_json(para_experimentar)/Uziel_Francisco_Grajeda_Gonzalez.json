@@ -1,0 +1,186 @@
+{
+  "nombre": "Uziel Francisco Grajeda Gonzalez",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "ciudad": "Ciudad: culiacan, sinaloa",
+  "departamento": "Departamento/Facultad: eléctrica-electrónica",
+  "calidad_general": 5.5,
+  "porcentaje_recomienda": 40,
+  "nivel_dificultad": 3.8,
+  "etiquetas": [
+    "LA PARTICIPACIÓN IMPORTA (1)",
+    "POCOS EXÁMENES (2)",
+    "MUY CÓMICO (1)",
+    "RESPETADO POR LOS ESTUDIANTES (1)",
+    "LAS CLASES SON LARGAS (1)",
+    "BARCO (3)",
+    "PREPÁRATE PARA LEER (2)",
+    "DA CRÉDITO EXTRA (1)",
+    "TOMARÍA SU CLASE OTRA VEZ (2)",
+    "MUCHOS PROYECTOS GRUPALES (1)"
+  ],
+  "numero_calificaciones": 10,
+  "calificaciones": [
+    {
+      "fecha": "10/Feb/2022",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 8.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Estática",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "En clases en línea faltaba mucho, todos los problemas los sacaba de un solo libro, así que era fácil estudiar. Al final dio puntos extra a todos.",
+      "etiquetas_comentario": [
+        "Barco",
+        "Tomaría su clase otra vez"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "28/Jun/2021",
+      "tipo_calificacion": "REGULAR",
+      "puntaje_calidad_general": 6.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Dinámica de sistemas",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "8",
+      "interes_clase": "",
+      "comentario": "",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "02/Ene/2021",
+      "tipo_calificacion": "REGULAR",
+      "puntaje_calidad_general": 5.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Mecatronica Aplicada",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "Solo te pide un proyecto final con el que trabajas todo el curso, en realidad no te enseña nada en el semestre",
+      "etiquetas_comentario": [
+        "Barco",
+        "Pocos Exámenes",
+        "Muchos proyectos grupales"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "07/Sep/2020",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 8.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Control",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "N/A",
+      "interes_clase": "",
+      "comentario": "Sabe mucho de la materia, da mucha teoria pero cuando empiezan los ejercicios se vuelve muy claro todo. Es buen profe, los examenes estan 2/3 y al final hace paro",
+      "etiquetas_comentario": [
+        "Prepárate para leer",
+        "Da Crédito Extra",
+        "Tomaría su clase otra vez"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "01/Ene/2020",
+      "tipo_calificacion": "REGULAR",
+      "puntaje_calidad_general": 4.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Control",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "7",
+      "interes_clase": "",
+      "comentario": "La manera adecuada de describir a este profesor es: Mucha teoría, poca práctica. Sabe de la materia e incluso logra transmitir lo que sabe, se nota que se esfuerza pero honestamente, no le sale. No aporta ayuda en nada, exige más de lo que él puede dar y amenaza con reprobar, injustamente. F.",
+      "etiquetas_comentario": [
+        "Prepárate para leer"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "27/Dic/2019",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 3.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Control",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "7.5",
+      "interes_clase": "",
+      "comentario": "No se le nota que tenga doctorado apesar de que lo tiene, no sabe explicar los temas y solo se la pasa diciendo que no tenemos lo suficientes conocimientos en matematicas para llevar la materia, pero aun asi que se da cuenta no hace nada por enseñar los temas que nos hacen falta, pesimo profesor",
+      "etiquetas_comentario": [
+        "Barco"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "31/Mar/2016",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 2.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "---",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "8.5",
+      "interes_clase": "",
+      "comentario": "[Comentario esperando revisión]",
+      "etiquetas_comentario": [
+        "Muy cómico",
+        "Respetado por los estudiantes",
+        "Las clases son largas"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "16/Ago/2015",
+      "tipo_calificacion": "REGULAR",
+      "puntaje_calidad_general": 5.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Principios Electricos y Aplicaciones Digitales",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "8",
+      "interes_clase": "",
+      "comentario": "Sus trabajos son sencillos, sus clases tienden a ser confusas por que es  recientemente maestro. es fácil de pasar  mas si le entregas todas las tareas",
+      "etiquetas_comentario": [
+        "La Participación Importa",
+        "Pocos Exámenes"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "11/Dic/2014",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "electrónica digital",
+      "asistencia": "",
+      "calificacion_recibida": "10",
+      "interes_clase": "10",
+      "comentario": "",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "23/Sep/2014",
+      "tipo_calificacion": "REGULAR",
+      "puntaje_calidad_general": 4.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Electrónica digital",
+      "asistencia": "",
+      "calificacion_recibida": "N/A",
+      "interes_clase": "N/A",
+      "comentario": "Sin comentarios",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    }
+  ]
+}

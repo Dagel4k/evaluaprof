@@ -1,0 +1,49 @@
+{
+  "nombre": "laura medina",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "ciudad": "Ciudad: culiacan, sinaloa",
+  "departamento": "Departamento/Facultad: ing industrial",
+  "calidad_general": 8.5,
+  "porcentaje_recomienda": 100,
+  "nivel_dificultad": 0.0,
+  "etiquetas": [
+    "DA BUENA RETROALIMENTACIÓN (1)",
+    "HACE EXÁMENES SORPRESA (1)",
+    "TOMARÍA SU CLASE OTRA VEZ (1)"
+  ],
+  "numero_calificaciones": 2,
+  "calificaciones": [
+    {
+      "fecha": "04/Jun/2017",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 9.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Logistica y cadena de suministros",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "8.5",
+      "interes_clase": "",
+      "comentario": "Clase facil, con ella son muy importantes las asistencias así como entregar bien las tareas por que al final te puede bajar muchos puntos, los examenes sorpresas son de cosas sencillas que se vieron en la clase. Las recuperaciones si las hace dificiles así que de preferencia no falten",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "06/Ago/2016",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 8.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "logistica y cadena de suministro",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "9.5",
+      "interes_clase": "",
+      "comentario": "sus examenes son sopresa pero si asistes a clases es fácil, sus tareas no son nada del otro mundo, cada clase retroalimenta lo de la clase anterior y eso ayuda mucho...",
+      "etiquetas_comentario": [
+        "Da buena retroalimentación",
+        "Hace exámenes sorpresa",
+        "Tomaría su clase otra vez"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    }
+  ]
+}

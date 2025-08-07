@@ -1,0 +1,171 @@
+{
+  "professor_id": "Johana_Paulina_Ibarra_García",
+  "nombre": "Johana Paulina Ibarra García",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 9.105452173564034,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.7183947335105705,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 1.0,
+    "wilson_interval": [
+      0.565508505247919,
+      1
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": 0.35,
+    "z_mean_decayed": 0.37,
+    "per_subject": [
+      {
+        "materia": "CÁLCULO DIFERENCIAL",
+        "z_decayed": 0.40293859889820693,
+        "n": 46
+      },
+      {
+        "materia": "CALCULO VECTORIAL",
+        "z_decayed": 0.26534946808154686,
+        "n": 57
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "profe",
+          "buena profe",
+          "es buena",
+          "si",
+          "buena"
+        ],
+        "weight": 0.4367597072282411
+      },
+      {
+        "id": 1,
+        "words": [
+          "si",
+          "examenes",
+          "poner",
+          "clases",
+          "siempre"
+        ],
+        "weight": 0.30645229261709156
+      }
+    ],
+    "sentiment": {
+      "overall": 0.0,
+      "by_month": {
+        "2023-01": 0.0,
+        "2022-02": 0.0,
+        "2021-12": 0.0,
+        "2020-01": 0.0
+      }
+    },
+    "n_comments": 4
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        10.0,
+        9.0,
+        9.0,
+        9.0,
+        9.0
+      ],
+      "ewma": [
+        10.0,
+        9.7,
+        9.489999999999998,
+        9.342999999999998,
+        9.240099999999998
+      ],
+      "sigma": 0.26297351957944337
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 9.240099999999998,
+      "quality_band": [
+        8.724671901624289,
+        9.755528098375708
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2023-01-15T00:00:00",
+      "materia": "CÁLCULO DIFERENCIAL",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Sus clases son claras, pero es necesario poner atención e interesarse en comprender. Siempre está dispuesta a ayudar con una grandiosa actitud. Las pocas tareas que deja son largas y con ejercicios sencillos; da bastante tiempo para entregarlas.\nExámenes cortos, siempre sobre lo visto en clase."
+    },
+    {
+      "fecha_iso": "2022-02-20T00:00:00",
+      "materia": "CÁLCULO DIFERENCIAL",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Es muy buena profe, en sus clases explica las cosas paso por paso y si tienes duda en algún tema, te ayudará aunque ya hayan pasado días que explicó eso, eso sí, es rigurosa al momento de calificar los examenes, pero nada de otro mundo, siempre que puedas cargar con ella, hazlo."
+    },
+    {
+      "fecha_iso": "2021-12-18T00:00:00",
+      "materia": "CÁLCULO DIFERENCIAL",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "es buena maestra, lo unico que podria mencionar de ella es que en los examenes es algo \"estricta\" al calificar y facilmente puedes bajar puntos si se te pasa poner algo, pero la verdad me parecio muy buena maestra y accesible si necesitas ayuda"
+    },
+    {
+      "fecha_iso": "2020-01-16T00:00:00",
+      "materia": "CALCULO VECTORIAL",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "es muy buena profe mis 10"
+    },
+    {
+      "fecha_iso": "2019-10-24T00:00:00",
+      "materia": "CALCULO VECTORIAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": ""
+    }
+  ],
+  "comments_recent": [
+    "Sus clases son claras, pero es necesario poner atención e interesarse en comprender. Siempre está dispuesta a ayudar con una grandiosa actitud. Las pocas tareas que deja son largas y con ejercicios sencillos; da bastante tiempo para entregarlas.\nExámenes cortos, siempre sobre lo visto en clase.",
+    "Es muy buena profe, en sus clases explica las cosas paso por paso y si tienes duda en algún tema, te ayudará aunque ya hayan pasado días que explicó eso, eso sí, es rigurosa al momento de calificar los examenes, pero nada de otro mundo, siempre que puedas cargar con ella, hazlo.",
+    "es buena maestra, lo unico que podria mencionar de ella es que en los examenes es algo \"estricta\" al calificar y facilmente puedes bajar puntos si se te pasa poner algo, pero la verdad me parecio muy buena maestra y accesible si necesitas ayuda",
+    "es muy buena profe mis 10"
+  ],
+  "n_reviews": 5
+}

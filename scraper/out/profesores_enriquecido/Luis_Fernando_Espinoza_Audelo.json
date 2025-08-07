@@ -1,0 +1,210 @@
+{
+  "professor_id": "Luis_Fernando_Espinoza_Audelo",
+  "nombre": "Luis Fernando Espinoza Audelo",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 6.200295436633887,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 6.457407117803445,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.286,
+    "wilson_interval": [
+      0.08221716570901548,
+      0.6410709098517873
+    ],
+    "n_recommendations": 7
+  },
+  "subject_normalization": {
+    "z_mean": 0.43,
+    "z_mean_decayed": 0.56,
+    "per_subject": [
+      {
+        "materia": "ADMINISTRACION",
+        "z_decayed": 0.9693333500002366,
+        "n": 15
+      },
+      {
+        "materia": "CALIDAD",
+        "z_decayed": 0.09225312080288818,
+        "n": 5
+      },
+      {
+        "materia": "ESTADISTICA Y PROBABILIDAD",
+        "z_decayed": -1.1470786693528088,
+        "n": 3
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "mal",
+          "llega",
+          "clases",
+          "hora"
+        ],
+        "weight": 0.1495094628876352
+      },
+      {
+        "id": 1,
+        "words": [
+          "clases",
+          "hora",
+          "llega",
+          "mal"
+        ],
+        "weight": 0.21298792437132538
+      },
+      {
+        "id": 2,
+        "words": [
+          "hora",
+          "mal",
+          "clases",
+          "llega"
+        ],
+        "weight": 0.25204938678769967
+      }
+    ],
+    "sentiment": {
+      "overall": 0.0,
+      "by_month": {
+        "2021-12": 0.0,
+        "2021-09": 0.0,
+        "2021-06": 0.0,
+        "2020-11": 0.0,
+        "2020-08": 0.0,
+        "2018-10": 0.0
+      }
+    },
+    "n_comments": 6
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        4.0,
+        6.0,
+        2.0,
+        6.0,
+        6.0,
+        9.0,
+        7.0
+      ],
+      "ewma": [
+        4.0,
+        4.6,
+        3.82,
+        4.474,
+        4.9318,
+        6.15226,
+        6.406582
+      ],
+      "sigma": 1.454836117624708
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 6.406582,
+      "quality_band": [
+        3.555103209455573,
+        9.258060790544427
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2023-04-27T00:00:00",
+      "materia": "ADMINISTRACION",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2021-12-21T00:00:00",
+      "materia": "CALIDAD",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": "Si es algo barco en si, pero tambien ayuda a la hora de calificar, los examanes de el son cosas que se ven en las pocas clases que dio, si te tocaron puros profes mamones y ocupan una light este es tu mejor opcion."
+    },
+    {
+      "fecha_iso": "2021-09-15T00:00:00",
+      "materia": "ADMINISTRACION",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 0,
+      "comentario": "Llega a la hora que quiere, nomas deja una exposicion en todo el semestre y todo lo demas pelado la verdad"
+    },
+    {
+      "fecha_iso": "2021-06-02T00:00:00",
+      "materia": "ADMINISTRACION",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 0,
+      "comentario": "Facil pasar con el pero siempre llega re tarde  alas clases"
+    },
+    {
+      "fecha_iso": "2020-11-15T00:00:00",
+      "materia": "ESTADISTICA Y PROBABILIDAD",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 0,
+      "comentario": "Muy mal maestro"
+    },
+    {
+      "fecha_iso": "2020-08-26T00:00:00",
+      "materia": "ADMINISTRACION",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 0,
+      "comentario": "Cienon xD"
+    },
+    {
+      "fecha_iso": "2018-10-19T00:00:00",
+      "materia": "TALLAR DE ADMINISTRACION",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 0,
+      "comentario": "Muy mal profesor"
+    }
+  ],
+  "comments_recent": [
+    "Si es algo barco en si, pero tambien ayuda a la hora de calificar, los examanes de el son cosas que se ven en las pocas clases que dio, si te tocaron puros profes mamones y ocupan una light este es tu mejor opcion.",
+    "Llega a la hora que quiere, nomas deja una exposicion en todo el semestre y todo lo demas pelado la verdad",
+    "Facil pasar con el pero siempre llega re tarde  alas clases",
+    "Muy mal maestro",
+    "Cienon xD",
+    "Muy mal profesor"
+  ],
+  "n_reviews": 7
+}

@@ -1,0 +1,91 @@
+{
+  "professor_id": "Omar_Alejandro_Mendoza_Aguilar",
+  "nombre": "Omar Alejandro Mendoza Aguilar",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 9.01828934425949,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.31466008355488,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 1.0,
+    "wilson_interval": [
+      0.3423719528896193,
+      1
+    ],
+    "n_recommendations": 2
+  },
+  "subject_normalization": {
+    "z_mean": 1.0,
+    "z_mean_decayed": 1.01,
+    "per_subject": [
+      {
+        "materia": "QUIMICA",
+        "z_decayed": 1.3890491705440697,
+        "n": 83
+      },
+      {
+        "materia": "QUÍMICA",
+        "z_decayed": 0.6082485710119174,
+        "n": 44
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [],
+    "sentiment": {
+      "overall": null,
+      "by_month": {}
+    },
+    "n_comments": 2
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": null,
+    "difficulty_trend": null,
+    "forecast": null,
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2020-12-29T00:00:00",
+      "materia": "QUIMICA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Da muy buenas clases , en verdad las materias qye da son de las mas dificiles y aun asi las hace ver faciles poniendo atencion , los examenes son dificiles por las materias que parte."
+    },
+    {
+      "fecha_iso": "2020-11-21T00:00:00",
+      "materia": "QUÍMICA",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Creo que la dificultad de sus exámenes es porque su materia lo requiere. Realmente llegas a aprender con él. En general buen profesor."
+    }
+  ],
+  "comments_recent": [
+    "Da muy buenas clases , en verdad las materias qye da son de las mas dificiles y aun asi las hace ver faciles poniendo atencion , los examenes son dificiles por las materias que parte.",
+    "Creo que la dificultad de sus exámenes es porque su materia lo requiere. Realmente llegas a aprender con él. En general buen profesor."
+  ],
+  "n_reviews": 2
+}

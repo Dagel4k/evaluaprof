@@ -1,0 +1,594 @@
+{
+  "professor_id": "Rosa_Isabel_Bonilla_Guadamuz",
+  "nombre": "Rosa Isabel Bonilla Guadamuz",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 4.121031060142161,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 4.635518420053171,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.175,
+    "wilson_interval": [
+      0.08745302996883067,
+      0.3195029205439244
+    ],
+    "n_recommendations": 40
+  },
+  "subject_normalization": {
+    "z_mean": -0.49,
+    "z_mean_decayed": -0.46,
+    "per_subject": [
+      {
+        "materia": "QUÍMICA",
+        "z_decayed": 0.5874300555591234,
+        "n": 44
+      },
+      {
+        "materia": "QUIMICA",
+        "z_decayed": -0.639434759198265,
+        "n": 83
+      },
+      {
+        "materia": "---",
+        "z_decayed": -0.8696752464419456,
+        "n": 521
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "comentario",
+          "comentario esperando",
+          "esperando",
+          "esperando revision",
+          "revision"
+        ],
+        "weight": 0.07821589661241661
+      },
+      {
+        "id": 1,
+        "words": [
+          "si",
+          "tareas",
+          "explica",
+          "explica bien",
+          "bien"
+        ],
+        "weight": 0.09187205215382653
+      },
+      {
+        "id": 2,
+        "words": [
+          "solo",
+          "dire",
+          "80",
+          "reprobo",
+          "solo dire"
+        ],
+        "weight": 0.038618996887095296
+      },
+      {
+        "id": 3,
+        "words": [
+          "solo",
+          "clases",
+          "modo",
+          "dice",
+          "tipa"
+        ],
+        "weight": 0.044034694165168094
+      },
+      {
+        "id": 4,
+        "words": [
+          "vas",
+          "buena",
+          "peor",
+          "te",
+          "es"
+        ],
+        "weight": 0.15153954762322408
+      }
+    ],
+    "sentiment": {
+      "overall": -0.027777777777777776,
+      "by_month": {
+        "2016-08": 1.0,
+        "2016-03": 0.0,
+        "2016-02": 0.0,
+        "2016-01": 0.0,
+        "2015-12": 0.0,
+        "2015-03": 0.0,
+        "2015-01": -0.5,
+        "2014-08": 0.0,
+        "2014-01": 0.0,
+        "2013-12": 0.0,
+        "2013-11": 0.0,
+        "2013-10": 0.0,
+        "2013-06": 0.5,
+        "2013-02": 0.0,
+        "2013-01": 0.0,
+        "2012-12": -0.3333333333333333,
+        "2012-10": 0.0,
+        "2012-08": -0.3333333333333333,
+        "2012-06": 0.0,
+        "2012-04": 0.0
+      }
+    },
+    "n_comments": 36
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.01,
+    "bursts": [
+      {
+        "from": "2012-12-01T00:00:00",
+        "to": "2012-12-01T00:00:00",
+        "count": 3
+      },
+      {
+        "from": "2013-02-27T00:00:00",
+        "to": "2013-02-27T00:00:00",
+        "count": 3
+      },
+      {
+        "from": "2013-02-27T00:00:00",
+        "to": "2013-02-27T00:00:00",
+        "count": 4
+      }
+    ],
+    "low_variance_flag": 0,
+    "trust_score": 0.7
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        4.0,
+        6.0,
+        6.333333333333333,
+        6.0,
+        2.6,
+        5.5,
+        3.6,
+        2.0,
+        4.0,
+        2.0,
+        2.0,
+        2.5,
+        3.5,
+        6.0,
+        5.0,
+        2.0,
+        2.0,
+        2.0,
+        9.0,
+        2.0,
+        10.0
+      ],
+      "ewma": [
+        4.0,
+        4.6,
+        5.119999999999999,
+        5.383999999999999,
+        4.548799999999999,
+        4.834159999999999,
+        4.463911999999999,
+        3.7247383999999992,
+        3.8073168799999992,
+        3.2651218159999993,
+        2.8855852711999996,
+        2.7699096898399995,
+        2.9889367828879996,
+        3.8922557480215993,
+        4.224579023615119,
+        3.5572053165305833,
+        3.090043721571408,
+        2.7630306050999858,
+        4.63412142356999,
+        3.843884996498993,
+        5.690719497549296
+      ],
+      "sigma": 1.7896730253011073
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 5.690719497549296,
+      "quality_band": [
+        2.1829603679591254,
+        9.198478627139465
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2016-08-09T00:00:00",
+      "materia": "QUIMICA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Es de las mejores maestras del tec, para activarla en modo bueno debes sobarle la joroba y darle coricos, es muy comprensiva y si no le llevas la tarea no hay problema te da tiempo."
+    },
+    {
+      "fecha_iso": "2016-03-17T00:00:00",
+      "materia": "QUIMICA",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "la peor maestra que he tenido, no sabe nada y no enseña nada, lo que aprendas lo aprenderas por ti mismo ademas de que si no pones el concepto tal cual ella lo dijo y viene en el libro te lo pone todo mal, NO CARGUEN CON ELLA NO APRENDERAN NADA Y LES HARA LA VIDA IMPOSIBLE"
+    },
+    {
+      "fecha_iso": "2016-02-02T00:00:00",
+      "materia": "QUÍMICA",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 1,
+      "comentario": "Todos dicen que es la peor, pero en verdad no es tan mala, ponle atención a la clase y apunta todo y has trabajos, tienes que trabajar, los examenes estan peladisisimos la recomiendo la neta"
+    },
+    {
+      "fecha_iso": "2016-01-15T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2016-01-14T00:00:00",
+      "materia": "QUIMICA",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 7.5,
+      "recomienda": 0,
+      "comentario": "no se arriesguen, podra saber de su materia pero es una pesima profesora. No explica bien y si le intentas preguntar algo dira que tus preguntas son estupidas"
+    },
+    {
+      "fecha_iso": "2015-12-24T00:00:00",
+      "materia": "QUIMICA",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "ES MUY MALA MAESTRA NO LA RECOMIENDO PARA NADA, no explica para nada bien y no tiene conocimientos de su materia, lo que aprendes lo aprendes por ti mismo. en los examenes si no pones el concepto tal cual dice el libro te lo tacha. NO CARGUEN CON ELLA NO SIRVE COMO MAESTRA"
+    },
+    {
+      "fecha_iso": "2015-03-08T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 5.0,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2015-01-10T00:00:00",
+      "materia": "QUÍMICA",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Es buena, te pone a trabajar pero si participas te ayuda mucho, no está complicado solo cuestion de estudiar un poco."
+    },
+    {
+      "fecha_iso": "2015-01-10T00:00:00",
+      "materia": "QUIMICA",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "5 de cada 48 pasan y pasan arrastrando, así que ustedes sabrán si quieren perder su tiempo :)"
+    },
+    {
+      "fecha_iso": "2014-08-10T00:00:00",
+      "materia": "QUÍMICA",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "La recomiendo para aquellos que quieran aprender, y sean dedicados a la materia..\nNo es tan accesible y tienes que investigar por tu cuenta. Pasas siempre y cuando hagas TODAS las tareas bien presentables:P"
+    },
+    {
+      "fecha_iso": "2014-01-15T00:00:00",
+      "materia": "QUIMICA",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "De lo peor que hay en el tec. No cargen con ella. No explica y no es accesible"
+    },
+    {
+      "fecha_iso": "2014-01-10T00:00:00",
+      "materia": "QUIMICA",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 6.5,
+      "recomienda": 0,
+      "comentario": "Si te la kieres pasar ligth, esta no es una opcion , yo les digo en mi primer semestre del 2013 me toco ella y pues tiene destellos pero la mayor parte esta asi como dice ella sin comentaros :P"
+    },
+    {
+      "fecha_iso": "2013-12-11T00:00:00",
+      "materia": "QUIMICA",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": "sin comentarios"
+    },
+    {
+      "fecha_iso": "2013-12-09T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 1.0,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2013-11-15T00:00:00",
+      "materia": "QUIMICA",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "pues la verdad no enseña nada solo me ha gustado una clase de lo que ba del semestre y a sido una expo de mis compañeros ella no dio la clase esa \nconclusion: no enseña para nada y luego dise que yah enseño temas que ni hemos visto"
+    },
+    {
+      "fecha_iso": "2013-11-09T00:00:00",
+      "materia": "QUIMICA",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "No recomiendo a este profesor. No carguen con ella. Si eres de los afortunados que pasan pasas con 70"
+    },
+    {
+      "fecha_iso": "2013-10-02T00:00:00",
+      "materia": "QUIMICA",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": "Solo dire debi tener un promedio de 96-98 en primero y por ella me bajo a 92 me puso 72 ¬¬ y todo por que se le pierde la lista no cuenta tus trabajos ni asistencia si son de primero busquen que les cambia de maestra, hagan algo antes de que sea tarde (reprobo a mas del 80% de mi grupo)"
+    },
+    {
+      "fecha_iso": "2013-06-18T00:00:00",
+      "materia": "---",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2013-06-18T00:00:00",
+      "materia": "QUIMICA",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 0,
+      "comentario": "Se basa mucho en el libro que te da, y es muy útil para estudiar en los exámenes no viene todo pero si mucho, ah y nunca le den la contra porque nunca vas a ganar aunque estés bien."
+    },
+    {
+      "fecha_iso": "2013-03-07T00:00:00",
+      "materia": "QUIMICA",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2013-02-27T00:00:00",
+      "materia": "QUIMICA",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": 6.0,
+      "recomienda": 0,
+      "comentario": "No se prepara para las clases, solo dice de lo que se acuerda y ni modo de corregirla"
+    },
+    {
+      "fecha_iso": "2013-02-27T00:00:00",
+      "materia": "QUIMICA",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "ps aun no repruebo o apruebo con ella..pero si te da tiempo para estudiar y te explica..lleva a profesores a que expongan...espera que seas casi un cientifico jaja....tus exposiciones siempre tendran errorees a menos que expongass muy superr bien..todas tus tareas haslas del libro q te recomienda :D"
+    },
+    {
+      "fecha_iso": "2013-02-27T00:00:00",
+      "materia": "QUIMICA",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 4.0,
+      "recomienda": 0,
+      "comentario": "A veces que se equivoca en lo que dice y para no quedar como idiota .. hay le acomoda la tipa"
+    },
+    {
+      "fecha_iso": "2013-02-27T00:00:00",
+      "materia": "QUIMICA",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2013-02-24T00:00:00",
+      "materia": "QUIMICA",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 0,
+      "comentario": "ESTA LOCA ESTA TIPA ESTA LOCA!"
+    },
+    {
+      "fecha_iso": "2013-01-25T00:00:00",
+      "materia": "QUÍMICA",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": "No se por que le hechan tanto... seguramente son unos huevones los que escriben todo eso, con ella es de ponerte las pilas y punto, muy buena maestra aun que MUY BIPOLAR."
+    },
+    {
+      "fecha_iso": "2013-01-14T00:00:00",
+      "materia": "QUIMICA 1",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "solo dire que reprobo al 80% del grupo."
+    },
+    {
+      "fecha_iso": "2012-12-19T00:00:00",
+      "materia": "QUIMICA 1 SEMESTRE",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "no me gusta como esplica aparte se le vaa el royo y es ta dificil pasar con ella noooo cargen con elllaaaaa sufriran"
+    },
+    {
+      "fecha_iso": "2012-12-08T00:00:00",
+      "materia": "QUIMICA",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 0,
+      "comentario": "SIN PALABRAS! LO PEOR DE LO PEOR, QUE SE JUBILE YA POR DIOS."
+    },
+    {
+      "fecha_iso": "2012-12-01T00:00:00",
+      "materia": "QUIMICA",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2012-12-01T00:00:00",
+      "materia": "QUIMICA",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 5.5,
+      "recomienda": 0,
+      "comentario": "pesima maestra se confunde mucho ya deberia estar jubilada, tal ves en su momento fue buena pero actualmente no deberia dar clases, por sus confusiones te quita trabajos tareas y asistencias -.-"
+    },
+    {
+      "fecha_iso": "2012-12-01T00:00:00",
+      "materia": "QUIMICA",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 7.5,
+      "recomienda": 0,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2012-10-19T00:00:00",
+      "materia": "QUÍMICA",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 0,
+      "comentario": "No es mala profesora, pero sus clases no me gustaron porque solo proyectada un libro que redactó con muchos errores y se me hacía muy aburrido, por su edad es muy terca y cambia de humor fácilmente, te hace el paro con las tareas y exposiciones eso es lo bueno de ella."
+    },
+    {
+      "fecha_iso": "2012-08-16T00:00:00",
+      "materia": "QUIMICA",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": "esta profe no explica de todo bien, y deja mucha tarea que al cumpli con las tareas si sales muy mal en el examen las tareas te ayudan mucho,aunque aveces se le va el rollo y quiere revisar tareas que son de otro grupo y se llega a enojar, pero en los examenes si te pones las pilas puedes salir bn"
+    },
+    {
+      "fecha_iso": "2012-08-16T00:00:00",
+      "materia": "QUIMICA",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 6.5,
+      "recomienda": 1,
+      "comentario": "No es taaan dificil, se le cruzan los cables la verdad y como ya esta ancianita se aferra y se pone terca pero deja muchos trabajos en equipo que te pueden subir hasta 50 puntos en tu calificacion del examen"
+    },
+    {
+      "fecha_iso": "2012-08-07T00:00:00",
+      "materia": "QUIMICA",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": "Siempre le da mas importancia a su materia que a otras, se revuelve con las tareas y piensa que dejo las de otro grupo, da puntos por exposición, en los examenes le tienes que poner casi una biblia para que te ponga la respuesta bien, deja muchas tareas, pero al final si te ayuda con la calificación"
+    },
+    {
+      "fecha_iso": "2012-06-11T00:00:00",
+      "materia": "QUÍMICA",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Jaja como me divertia en sus clases, es bien bipolar pero como le agarras cariño, cabe aclarar que te regala como 40 puntos, pero si tienes que hecharle ganas como alumno, MUY BUENA vas a sufrir pero vas a aprender, todos quieren lo facil pero no es asi. *fuenteconfiable"
+    },
+    {
+      "fecha_iso": "2012-06-08T00:00:00",
+      "materia": "QUIMICA",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": "piensa que su clase es la mas importante de todas, le da prioridad a sus examenes que a los de otras materias que importan mas, se le olvida que deja tareas y piensa que te dejo tareas que les dejo a otros grupos. no cargues con ella"
+    },
+    {
+      "fecha_iso": "2012-06-02T00:00:00",
+      "materia": "QUIMICA",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": "No explica bien, quiere todo de memoria, cosas que no se ocupan como los orbitales, deja mas tarea que las materias realmente importantes, eso si, si le pones videos en una exposicion se pina, NO CARGUES CON ELLA."
+    },
+    {
+      "fecha_iso": "2012-04-08T00:00:00",
+      "materia": "QUIMICA",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 1.5,
+      "recomienda": 0,
+      "comentario": "No explica bien!"
+    }
+  ],
+  "comments_recent": [
+    "Es de las mejores maestras del tec, para activarla en modo bueno debes sobarle la joroba y darle coricos, es muy comprensiva y si no le llevas la tarea no hay problema te da tiempo.",
+    "la peor maestra que he tenido, no sabe nada y no enseña nada, lo que aprendas lo aprenderas por ti mismo ademas de que si no pones el concepto tal cual ella lo dijo y viene en el libro te lo pone todo mal, NO CARGUEN CON ELLA NO APRENDERAN NADA Y LES HARA LA VIDA IMPOSIBLE",
+    "Todos dicen que es la peor, pero en verdad no es tan mala, ponle atención a la clase y apunta todo y has trabajos, tienes que trabajar, los examenes estan peladisisimos la recomiendo la neta",
+    "[Comentario esperando revisión]",
+    "no se arriesguen, podra saber de su materia pero es una pesima profesora. No explica bien y si le intentas preguntar algo dira que tus preguntas son estupidas",
+    "ES MUY MALA MAESTRA NO LA RECOMIENDO PARA NADA, no explica para nada bien y no tiene conocimientos de su materia, lo que aprendes lo aprendes por ti mismo. en los examenes si no pones el concepto tal cual dice el libro te lo tacha. NO CARGUEN CON ELLA NO SIRVE COMO MAESTRA",
+    "[Comentario esperando revisión]",
+    "Es buena, te pone a trabajar pero si participas te ayuda mucho, no está complicado solo cuestion de estudiar un poco.",
+    "5 de cada 48 pasan y pasan arrastrando, así que ustedes sabrán si quieren perder su tiempo :)",
+    "La recomiendo para aquellos que quieran aprender, y sean dedicados a la materia..\nNo es tan accesible y tienes que investigar por tu cuenta. Pasas siempre y cuando hagas TODAS las tareas bien presentables:P"
+  ],
+  "n_reviews": 40
+}

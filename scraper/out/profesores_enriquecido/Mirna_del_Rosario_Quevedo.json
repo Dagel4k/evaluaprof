@@ -1,0 +1,536 @@
+{
+  "professor_id": "Mirna_del_Rosario_Quevedo",
+  "nombre": "Mirna del Rosario Quevedo",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 3.0086969218080353,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 4.01763456824224,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.029,
+    "wilson_interval": [
+      0.005210771925596642,
+      0.1491590221634482
+    ],
+    "n_recommendations": 34
+  },
+  "subject_normalization": {
+    "z_mean": -0.65,
+    "z_mean_decayed": -0.73,
+    "per_subject": [
+      {
+        "materia": "---",
+        "z_decayed": -0.2225193077919391,
+        "n": 521
+      },
+      {
+        "materia": "PRUEBAS DE SOFTWARE",
+        "z_decayed": -0.44757128916918476,
+        "n": 11
+      },
+      {
+        "materia": "FUNDAMENTOS DE BASES DE DATOS",
+        "z_decayed": -0.6639770891967953,
+        "n": 15
+      },
+      {
+        "materia": "FUNDAMENTOS DE BASE DE DATOS",
+        "z_decayed": -0.8034272803103267,
+        "n": 16
+      },
+      {
+        "materia": "BASE DE DATOS",
+        "z_decayed": -1.2727922061357855,
+        "n": 10
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "tenido",
+          "maestra",
+          "tec",
+          "peor",
+          "es"
+        ],
+        "weight": 0.11023105617734051
+      },
+      {
+        "id": 1,
+        "words": [
+          "tus",
+          "mas",
+          "materia",
+          "te",
+          "si"
+        ],
+        "weight": 0.07824791778730111
+      },
+      {
+        "id": 2,
+        "words": [
+          "lamentable",
+          "dia",
+          "oidos",
+          "dolor",
+          "hora"
+        ],
+        "weight": 0.09063184201808126
+      },
+      {
+        "id": 3,
+        "words": [
+          "esperando",
+          "esperando revision",
+          "comentario esperando",
+          "comentario",
+          "revision"
+        ],
+        "weight": 0.056742821056621144
+      },
+      {
+        "id": 4,
+        "words": [
+          "dala baja",
+          "dala",
+          "tan",
+          "baja",
+          "horrible"
+        ],
+        "weight": 0.0882582963974131
+      }
+    ],
+    "sentiment": {
+      "overall": -0.06896551724137931,
+      "by_month": {
+        "2023-05": 0.0,
+        "2022-08": 0.0,
+        "2022-04": 0.0,
+        "2021-09": 0.0,
+        "2021-08": 0.0,
+        "2021-02": 0.0,
+        "2021-01": 0.0,
+        "2020-12": 0.0,
+        "2020-11": -1.0,
+        "2020-10": 0.0,
+        "2020-09": 0.0,
+        "2020-08": -0.5,
+        "2020-06": 0.0,
+        "2020-05": 0.0,
+        "2020-01": 0.0,
+        "2018-03": 0.0,
+        "2015-10": 0.0,
+        "2015-06": 0.0,
+        "2014-05": 0.0,
+        "2013-06": 0.0
+      }
+    },
+    "n_comments": 29
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.002,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        3.0,
+        2.0,
+        2.0,
+        6.0,
+        6.0,
+        3.5,
+        5.0,
+        3.6,
+        4.0,
+        3.0,
+        3.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        4.5,
+        3.5,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        3.0
+      ],
+      "ewma": [
+        3.0,
+        2.6999999999999997,
+        2.4899999999999998,
+        3.5429999999999993,
+        4.280099999999999,
+        4.046069999999999,
+        4.332248999999999,
+        4.1125742999999995,
+        4.0788020099999995,
+        3.7551614069999992,
+        3.528612984899999,
+        3.0700290894299993,
+        2.7490203626009992,
+        2.5243142538206995,
+        2.3670199776744894,
+        2.2569139843721424,
+        2.1798397890604995,
+        2.8758878523423492,
+        3.0631214966396447,
+        2.7441850476477514,
+        2.5209295333534256,
+        2.364650673347398,
+        2.2552554713431783,
+        2.4786788299402245
+      ],
+      "sigma": 0.8812962764449174
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 2.4786788299402245,
+      "quality_band": [
+        0.7513381281081866,
+        4.206019531772262
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2023-05-24T00:00:00",
+      "materia": "FUNDAMENTOS DE BASE DE DATOS",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": 24.0,
+      "recomienda": 0,
+      "comentario": "Una hora de dolor de oidos diaria.\nExamenes no claros al igual que los proyectos"
+    },
+    {
+      "fecha_iso": "2022-08-10T00:00:00",
+      "materia": "FUNDAMENTOS DE BASE DE DATOS",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": "Por favor no carguen con esta maestra de verdad que no sabe de base de datos, cuando calificaba los exámenes le pedía ayuda a los alumnos en el salón porque no sabía ni ella la respuesta, si quieren aprender elijan a otro maestro si pueden a Leopoldo o Batiz."
+    },
+    {
+      "fecha_iso": "2022-04-01T00:00:00",
+      "materia": "FUNDAMENTOS DE BASE DE DATO",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": "es fijo la peor cosa que ha pisado el tec"
+    },
+    {
+      "fecha_iso": "2022-03-15T00:00:00",
+      "materia": "BASE DE DATOS",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2022-02-15T00:00:00",
+      "materia": "FUNDAMENTOS DE BASES DE DATOS",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2021-09-15T00:00:00",
+      "materia": "FUNDAMENTOS DE BASES DE DATOS",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 6.0,
+      "recomienda": 0,
+      "comentario": "La peor maestra de todos los tiempos"
+    },
+    {
+      "fecha_iso": "2021-09-06T00:00:00",
+      "materia": "PROGRAMACION II",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 0,
+      "comentario": "Si eres especial y la quieres cargar preparate para irte a la UADEO, le paso a unos amigos y no le importa que sepas de la materia ella te atacara mas duro en tus calificaciones, me bajo calificacion por una tonteria."
+    },
+    {
+      "fecha_iso": "2021-08-30T00:00:00",
+      "materia": "FUNDAMENTOS DE BASE DE DATOS",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2021-08-13T00:00:00",
+      "materia": "FUNDAMENTOS DE BASE DE DATOS",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 1,
+      "comentario": "Es buena maestra, no le gustan los flojos ni los distraidos, aunque no sabe mucho de la materia, te da todo el material para que pases los examenes"
+    },
+    {
+      "fecha_iso": "2021-05-19T00:00:00",
+      "materia": "BASES DE DATOS",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2021-04-19T00:00:00",
+      "materia": "FUNDAMENTOS DE BASES DE DATOS",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 0,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2021-02-03T00:00:00",
+      "materia": "FUNDAMENTOS DE BASES DE DATOS",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": "lee esto antes de llevarla, dala de baja pls"
+    },
+    {
+      "fecha_iso": "2021-01-16T00:00:00",
+      "materia": "FUNDAMENTOS DE BASES DE DATOS",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 7.5,
+      "recomienda": 0,
+      "comentario": "Dolor de ojos y de oidos por una hora al día"
+    },
+    {
+      "fecha_iso": "2020-12-07T00:00:00",
+      "materia": "FUNDAMENTOS DE BASES DE DATOS",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": "deberia aprender de la profe Chayito, el tec no necesita \"maestras\" que perjudican a la enseñanza como usted \"profe\" mirna."
+    },
+    {
+      "fecha_iso": "2020-11-25T00:00:00",
+      "materia": "FUNDAMENTOS DE BASES DE DATOSS",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": "Horrendo, lastima que no pude darla de baja de haber sabido que era tan horrible \"enseñando\""
+    },
+    {
+      "fecha_iso": "2020-10-26T00:00:00",
+      "materia": "FUNDAMENTOS DE BASES DE DATOS",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": 7.5,
+      "recomienda": 0,
+      "comentario": "No recomendada."
+    },
+    {
+      "fecha_iso": "2020-09-24T00:00:00",
+      "materia": "FUNDAMENTOS DE BASES DE DATOS",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": "dala de baja mejor, te vas a ahorrar un semestre de estrés y de tiempo"
+    },
+    {
+      "fecha_iso": "2020-09-11T00:00:00",
+      "materia": "FUND BB",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": "X D"
+    },
+    {
+      "fecha_iso": "2020-08-25T00:00:00",
+      "materia": "FUNDAMENTOS DE BASES DE DATOS",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": "horrible"
+    },
+    {
+      "fecha_iso": "2020-08-10T00:00:00",
+      "materia": "FUNDAMENTOS BASE DE DATOS",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 7.5,
+      "recomienda": 0,
+      "comentario": "un cringe completo de maestra, carga con cualquiera menos con ella, vas a perder una hora de tu horario al dia sin aprender, lamentable"
+    },
+    {
+      "fecha_iso": "2020-06-21T00:00:00",
+      "materia": "FUNDAMENTO DE BASES DE DATOS",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": "Es increíble que la jefa del deto. de sistemas asigne materias tan importante a maestros que no tienen el perfil, tan solo en esta materia te comento tres que no tienes las competencias para impartirla Rosario, Aracely y Mirna. Pongan atención autoridades de la institución."
+    },
+    {
+      "fecha_iso": "2020-06-21T00:00:00",
+      "materia": "FUNDAMENTOS BASES DE DATO",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": "lamentable"
+    },
+    {
+      "fecha_iso": "2020-06-11T00:00:00",
+      "materia": "PRUEBAS DE SOFTWARE",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": "aprendes mucho mas no llevando la materia que llevandola con ella, hasta cierto punto comienza a dar pena. si solo te aparece ella al cargar la clase mejor ni la cargues, pierdes tus horas"
+    },
+    {
+      "fecha_iso": "2020-06-07T00:00:00",
+      "materia": "FUNDAMENTOS BASE DATOS",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": "La peor maestra que he tenido a lo largo de mi vida. Habia tenido profesores que no recomendaba pero ella definitivamente es la peor.  Estresante, confuso y molesto."
+    },
+    {
+      "fecha_iso": "2020-06-02T00:00:00",
+      "materia": "FUNDAMENTOS DE BASE DE DATOS",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": "no se porqué permiten que maestras como ella impartan clases a una carrera como ingenieria en sistemas, creo que ni ella se entiende en las clases y en los examenes ni se diga"
+    },
+    {
+      "fecha_iso": "2020-05-27T00:00:00",
+      "materia": "FUND BASE DE DATOS",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": "Lamentable, se nota a leguas que no conoce de la materia que da, es demasiado exigente con los examenes, realmente es feo saber que no aprenderas nada en sus clases"
+    },
+    {
+      "fecha_iso": "2020-01-13T00:00:00",
+      "materia": "PRUEBAS DE SOFTWARE",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Se confunde sola, si el grupo es grande grita mucho."
+    },
+    {
+      "fecha_iso": "2020-01-07T00:00:00",
+      "materia": "PRUEBAS DE SOFTWARE",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": "De las peores maestras que he tenido a lo largo de mi vida. Prepárate para una combinación de estrés y ansiedad, por que es lo único que te provoca esta 'maestra'.\n\nSaludos al profe Ricardo Quintero que es un crack!"
+    },
+    {
+      "fecha_iso": "2018-03-02T00:00:00",
+      "materia": "FUND. DE BASE DE DATOS",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 0,
+      "comentario": "Muy mala profesora, no sabia nada de base de datos. Todo lo sacaba de internet(examenes,trabajos y diapositivas ). Siempre teniamos que estarla corrigiendo."
+    },
+    {
+      "fecha_iso": "2015-10-12T00:00:00",
+      "materia": "---",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2015-06-09T00:00:00",
+      "materia": "FUND. BASE DE DATOS",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 0,
+      "comentario": "Dejando de lado los rencores, de verdad, esta señora no tiene los conocimientos necesarios para impartir clases de la carrera de sistemas. Ni tampoco creo, en lo personal, que este capacitada para la docencia. En serio da Risa de tanta tristeza que da el saber que no aprenderás por parte de ella."
+    },
+    {
+      "fecha_iso": "2014-05-24T00:00:00",
+      "materia": "PRUEBAS DE SOFTWARE",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "es bien mamona"
+    },
+    {
+      "fecha_iso": "2014-05-24T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2013-06-18T00:00:00",
+      "materia": "FOREVA",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": 3.0,
+      "recomienda": 0,
+      "comentario": "muchisimas diapositivas que solo lee, examenes dificiles y te deja hacer un proyecto completo obligatorio y elaborado, muy estricta"
+    }
+  ],
+  "comments_recent": [
+    "Una hora de dolor de oidos diaria.\nExamenes no claros al igual que los proyectos",
+    "Por favor no carguen con esta maestra de verdad que no sabe de base de datos, cuando calificaba los exámenes le pedía ayuda a los alumnos en el salón porque no sabía ni ella la respuesta, si quieren aprender elijan a otro maestro si pueden a Leopoldo o Batiz.",
+    "es fijo la peor cosa que ha pisado el tec",
+    "La peor maestra de todos los tiempos",
+    "Si eres especial y la quieres cargar preparate para irte a la UADEO, le paso a unos amigos y no le importa que sepas de la materia ella te atacara mas duro en tus calificaciones, me bajo calificacion por una tonteria.",
+    "Es buena maestra, no le gustan los flojos ni los distraidos, aunque no sabe mucho de la materia, te da todo el material para que pases los examenes"
+  ],
+  "n_reviews": 34
+}

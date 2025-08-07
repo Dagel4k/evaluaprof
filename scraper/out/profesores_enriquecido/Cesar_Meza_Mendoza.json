@@ -1,0 +1,335 @@
+{
+  "professor_id": "Cesar_Meza_Mendoza",
+  "nombre": "Cesar Meza Mendoza",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 5.464493874073013,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 5.95292003856379,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.375,
+    "wilson_interval": [
+      0.18480982554752803,
+      0.6135935290206519
+    ],
+    "n_recommendations": 16
+  },
+  "subject_normalization": {
+    "z_mean": -0.42,
+    "z_mean_decayed": -0.39,
+    "per_subject": [
+      {
+        "materia": "CÁLCULO INTEGRAL",
+        "z_decayed": 0.7884298457197201,
+        "n": 24
+      },
+      {
+        "materia": "MATEMATICAS",
+        "z_decayed": -0.2783605627158099,
+        "n": 17
+      },
+      {
+        "materia": "CALCULO",
+        "z_decayed": -0.5989991616490334,
+        "n": 50
+      },
+      {
+        "materia": "CALCULO INTEGRAL",
+        "z_decayed": -0.8164720096297824,
+        "n": 84
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "mas",
+          "dificiles",
+          "si",
+          "te",
+          "aprendes"
+        ],
+        "weight": 0.07629448894679755
+      },
+      {
+        "id": 1,
+        "words": [
+          "tec",
+          "si",
+          "te",
+          "si te",
+          "recomiendo"
+        ],
+        "weight": 0.10146833639849227
+      },
+      {
+        "id": 2,
+        "words": [
+          "cargar",
+          "tec",
+          "profesor",
+          "maestro",
+          "es"
+        ],
+        "weight": 0.19820548863330825
+      },
+      {
+        "id": 3,
+        "words": [
+          "si tienes",
+          "te",
+          "tan",
+          "pone",
+          "examen"
+        ],
+        "weight": 0.13052643215584367
+      },
+      {
+        "id": 4,
+        "words": [
+          "si eres",
+          "dar",
+          "vas",
+          "si",
+          "eres"
+        ],
+        "weight": 0.14616740094562164
+      }
+    ],
+    "sentiment": {
+      "overall": -0.07692307692307693,
+      "by_month": {
+        "2013-08": -1.0,
+        "2013-06": 0.0,
+        "2012-08": 0.0,
+        "2012-06": 0.0,
+        "2012-03": 0.0,
+        "2012-01": 0.0,
+        "2011-12": 0.0,
+        "2011-11": 0.0,
+        "2011-08": 0.0,
+        "2011-04": 0.0,
+        "2011-02": 0.0
+      }
+    },
+    "n_comments": 13
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        3.0,
+        2.0,
+        6.0,
+        9.0,
+        3.5,
+        2.0,
+        10.0,
+        6.0,
+        4.0,
+        7.5,
+        4.5
+      ],
+      "ewma": [
+        3.0,
+        2.6999999999999997,
+        3.6899999999999995,
+        5.2829999999999995,
+        4.748099999999999,
+        3.923669999999999,
+        5.746568999999999,
+        5.822598299999999,
+        5.27581881,
+        5.943073167,
+        5.510151216899999
+      ],
+      "sigma": 2.120781194491987
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 5.510151216899999,
+      "quality_band": [
+        1.3534200756957047,
+        9.666882358104292
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2013-08-06T00:00:00",
+      "materia": "CALCULO",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Se esfuerza porque aprendas muy bien, utiliza distintos métodos, pero a la hora del examen te lo pone muy complicado, y no pasas con tan buena calificación."
+    },
+    {
+      "fecha_iso": "2013-08-06T00:00:00",
+      "materia": "CALCULO",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2013-06-19T00:00:00",
+      "materia": "CÁLCULO INTEGRAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 1,
+      "comentario": "SEGÚN YA SE JUBILÓ, SUERTE A LOS QUE NO LES TOCÓ , ES BUEN MAESTRO PERO TIENES QUE ESTUDIAR MUCHISIMO"
+    },
+    {
+      "fecha_iso": "2013-06-11T00:00:00",
+      "materia": "CALCULO INTEGRAL",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2012-08-16T00:00:00",
+      "materia": "CALCULO",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 3.0,
+      "recomienda": 0,
+      "comentario": "no por nada le dicen \"meza me troza\" como ya mencionaron si nomas vas a dar el rol y no aprender no cargues con el, y si eres un matado pues caile con el"
+    },
+    {
+      "fecha_iso": "2012-06-16T00:00:00",
+      "materia": "CALCULO",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 6.0,
+      "recomienda": 0,
+      "comentario": "la netha si tu eres de los que vas ala escuela a dar la vuelta , no carges con este profe, es muy exigente , pero si eres de los que va a estudiar y a matarse en clase adelante, pero pone examens muy dificel y  no deja ni sacar libreta xD , de 40 pasan 5"
+    },
+    {
+      "fecha_iso": "2012-03-05T00:00:00",
+      "materia": "MATEMATICAS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "ES UN EXELENTE CATEDRATICO EL ING. MEZA SI MAS EMPEÑO PUSIERAMOS MUCHO MEJOR RESULTADO OBTENDRIAMOS."
+    },
+    {
+      "fecha_iso": "2012-01-12T00:00:00",
+      "materia": "MATEMATICAS",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "No lo recomiendo por su bajo criterio y sentido común, si te enseña pero no ayuda al alumno y no tiene tolerancia ni respeto por ellos"
+    },
+    {
+      "fecha_iso": "2011-12-14T00:00:00",
+      "materia": "CALCULO",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 3.5,
+      "recomienda": 0,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2011-12-13T00:00:00",
+      "materia": "CALCULO EN GENERAL",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 6.0,
+      "recomienda": 0,
+      "comentario": "El profesor con el indice de reprobacion mas alto del Departamento de Ciencias Basicas (probablemente de todo el Tec)\nDebes tener conocimientos previos antes de cargar con el, es muy estricto, si repruebas 2 parciales seguidos estas en RC...\nGeneralmente de un grupo de 40 alumnos, solo pasan 4"
+    },
+    {
+      "fecha_iso": "2011-11-28T00:00:00",
+      "materia": "MATEMATICAS",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "el es un profesor muy exigente, si creen que otros ponen cosas dificiles no es nada comparado con meza, si sabes lo que debes saber no te ira tan mal, sus examenes son dificiles pero nunca son de algo que no haya explicado, si tienes dudas te las resulve y de que aprendes aprendes, pero te cuesta. no te lo recomiendo si quieres pasar la materia facilmente"
+    },
+    {
+      "fecha_iso": "2011-08-23T00:00:00",
+      "materia": "CALCULO",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "no lo recomiendo para nada"
+    },
+    {
+      "fecha_iso": "2011-08-20T00:00:00",
+      "materia": "MATEMATICAS",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Muy buen profesor, no pone nada que no halla enseñado en el examen y su clase es facil seguirla si tienes buenas bases."
+    },
+    {
+      "fecha_iso": "2011-08-17T00:00:00",
+      "materia": "CALCULO",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Es uno de los maestros mas dificiles pero realmente aprendes con el, tu sabes si te arresgas pero aprendes."
+    },
+    {
+      "fecha_iso": "2011-04-16T00:00:00",
+      "materia": "MATEMATICAS",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "es el peor profesor con el que me ha tocado estar, no se los recomiendo para nada,es el peor maestro del tec de culiacan..."
+    },
+    {
+      "fecha_iso": "2011-02-05T00:00:00",
+      "materia": "MATESS",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "ni de chiste se les ocurra cargar clase con el"
+    }
+  ],
+  "comments_recent": [
+    "Se esfuerza porque aprendas muy bien, utiliza distintos métodos, pero a la hora del examen te lo pone muy complicado, y no pasas con tan buena calificación.",
+    "SEGÚN YA SE JUBILÓ, SUERTE A LOS QUE NO LES TOCÓ , ES BUEN MAESTRO PERO TIENES QUE ESTUDIAR MUCHISIMO",
+    "no por nada le dicen \"meza me troza\" como ya mencionaron si nomas vas a dar el rol y no aprender no cargues con el, y si eres un matado pues caile con el",
+    "la netha si tu eres de los que vas ala escuela a dar la vuelta , no carges con este profe, es muy exigente , pero si eres de los que va a estudiar y a matarse en clase adelante, pero pone examens muy dificel y  no deja ni sacar libreta xD , de 40 pasan 5",
+    "ES UN EXELENTE CATEDRATICO EL ING. MEZA SI MAS EMPEÑO PUSIERAMOS MUCHO MEJOR RESULTADO OBTENDRIAMOS.",
+    "No lo recomiendo por su bajo criterio y sentido común, si te enseña pero no ayuda al alumno y no tiene tolerancia ni respeto por ellos",
+    "El profesor con el indice de reprobacion mas alto del Departamento de Ciencias Basicas (probablemente de todo el Tec)\nDebes tener conocimientos previos antes de cargar con el, es muy estricto, si repruebas 2 parciales seguidos estas en RC...\nGeneralmente de un grupo de 40 alumnos, solo pasan 4"
+  ],
+  "n_reviews": 16
+}

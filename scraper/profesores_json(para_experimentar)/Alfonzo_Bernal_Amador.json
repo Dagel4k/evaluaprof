@@ -1,0 +1,653 @@
+{
+  "nombre": "Alfonzo Bernal Amador",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "ciudad": "Ciudad: culiacan, sinaloa",
+  "departamento": "Departamento/Facultad: Ciencias básicas",
+  "calidad_general": 9.5,
+  "porcentaje_recomienda": 97,
+  "nivel_dificultad": 3.3,
+  "etiquetas": [
+    "ASPECTOS DE CALIFICACIÓN CLAROS (3)",
+    "BRINDA APOYO (5)",
+    "CLASES EXCELENTES (12)",
+    "DA BUENA RETROALIMENTACIÓN (7)",
+    "ASISTENCIA OBLIGATORIA (5)",
+    "CALIFICA DURO (3)",
+    "TOMARÍA SU CLASE OTRA VEZ (10)",
+    "RESPETADO POR LOS ESTUDIANTES (5)",
+    "MUY CÓMICO (3)",
+    "MUCHOS EXÁMENES (1)"
+  ],
+  "numero_calificaciones": 39,
+  "calificaciones": [
+    {
+      "fecha": "01/Jun/2023",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 8.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "relleno vectorial",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "8",
+      "interes_clase": "",
+      "comentario": "",
+      "etiquetas_comentario": [
+        "Da buena retroalimentación",
+        "Prepárate para leer",
+        "Inspiracional"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "09/Jun/2022",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 9.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Calculo vectorial",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "9",
+      "interes_clase": "",
+      "comentario": "",
+      "etiquetas_comentario": [
+        "Da buena retroalimentación",
+        "Prepárate para leer",
+        "Respetado por los estudiantes"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "21/Dic/2021",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Calculo Vectorial",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "8.5",
+      "interes_clase": "",
+      "comentario": "Excelente maestro sin duda alguna cargen con el, son algo dificiles sus examenes pero siempre pone cosas que se vieron en clase y ademas ayuda y explica muy bien, excelente maestro.",
+      "etiquetas_comentario": [
+        "Asistencia obligatoria",
+        "Los exámenes son difíciles",
+        "Tomaría su clase otra vez"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "17/Dic/2021",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Cálculo Vectorial (Linea)",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "Muy buen profesor pero muy desconfiado con los exámenes (al menos en línea). No deja tareas pero el examen cuenta el 100%, tienes que tener las asistencias mínimas, explica muy bien y en el examen tienes que hacer su mismo procedimiento de la clase, sino piensa que copiaste. Carga con el si puedes",
+      "etiquetas_comentario": [
+        "Da buena retroalimentación",
+        "Asistencia obligatoria",
+        "Clases excelentes"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "07/Dic/2021",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 9.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Calculo Vectorial",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "8.5",
+      "interes_clase": "",
+      "comentario": "Es re pro dando clases, le deseo lo mejor en su futuro",
+      "etiquetas_comentario": [
+        "Da buena retroalimentación",
+        "Respetado por los estudiantes",
+        "Tomaría su clase otra vez"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "27/Ago/2021",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 9.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Calculo vectorial",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "9.5",
+      "interes_clase": "",
+      "comentario": "explica con gusto lo que hace , eso si pasar con el no es gratis , los examenes estan algo dificiles por eso tienes que preguntar cualquier duda y siempre prestar atencion, es buena onda pero eso no significa que te regale calificacion, abusado",
+      "etiquetas_comentario": [
+        "Los exámenes son difíciles",
+        "Tomaría su clase otra vez"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "05/Oct/2020",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 9.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Calculo vectorial",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "9",
+      "interes_clase": "",
+      "comentario": "Te va a explicar cualquier duda que tengas por mas estupida que sea, se ve que le gusta la materia y eso te dan ganas de aprender",
+      "etiquetas_comentario": [
+        "Las clases son largas",
+        "Clases excelentes"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "12/Jun/2020",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 9.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Calculo Vectorial",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "8",
+      "interes_clase": "",
+      "comentario": "Uff viejo, muy buen profe de calculo. No tiene problema en que le preguntes cualquier duda por mas tonta que sea. Eso si, si buscas un profe para pasar calculo sin hacer nada, estas en el lugar incorrecto. Examenes un poquito complicados. Con el tienes que aprender macizo para pasar, o ba bai. Bueno",
+      "etiquetas_comentario": [
+        "Da buena retroalimentación"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "20/Feb/2020",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Cálculo Vectorial",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "8",
+      "interes_clase": "",
+      "comentario": "Gran profesor, mejor filtro. No tiene reparo en explicarte cuantas veces lo necesites y es muy respetuoso. La calificació es 100% el exámen, el cual no es difícil en demasía. Para pasar con él hay que hecharle ganas, ya que si no, no va a tener piedad a la hora de reprobarte (solo pasamos 14 de 38).",
+      "etiquetas_comentario": [
+        "Califica Duro",
+        "Respetado por los estudiantes",
+        "Clases excelentes"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "16/Ene/2020",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Cálculo vectorial",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "Muy buen profe, sin duda volvería a cargar con el, explica muy bien y lo más claro que te puedas imaginar, si aparece en tu carga no dudes que es la mejor opción",
+      "etiquetas_comentario": [
+        "Brinda apoyo",
+        "Clases excelentes",
+        "Tomaría su clase otra vez"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "13/Dic/2019",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Calculo Vectorial",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "N/A",
+      "interes_clase": "",
+      "comentario": "Bernal es un muy buen maestro. El te dice \"mis conocimientos son para ustedes\" y es cierto. pasar es 100% examen. Si eres de los que no sabe nada y quiere pasar hasta ahí vas a llegar. Y si sientes que eres bueno pero no lo suficiente, lo mas probable es que ahí te quedes también.",
+      "etiquetas_comentario": [
+        "Califica Duro",
+        "Los exámenes son difíciles",
+        "Tomaría su clase otra vez"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "08/Ago/2019",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 9.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Calculo vectorial",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "8.5",
+      "interes_clase": "",
+      "comentario": "",
+      "etiquetas_comentario": [
+        "Asistencia obligatoria",
+        "Muchos Exámenes",
+        "Brinda apoyo"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "05/Ago/2019",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Calculo Vectorial",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "8",
+      "interes_clase": "",
+      "comentario": "Es el mejor profesor de calculo que he tenido, ademas que es una excelente persona. Sus clases están enfocadas a que entiendas su materia y no se cansa de explicar. Su forma de dar la clase te impresiona por el hecho de que la da de forma apasionada. Toma en cuenta el esfuerzo de las personas.",
+      "etiquetas_comentario": [
+        "Muy cómico",
+        "Respetado por los estudiantes",
+        "Clases excelentes"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "15/Ene/2019",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 9.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Cálculo Vectorial",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "Muy buen profe, enseña muy claro, se ve que sabe de su clase y todo lo da muy bien digerido para que lo entiendas, los exámenes los hace de todo lo que se ve en la clase, deja unas hojas de tareas no obligatorias para estudiar.",
+      "etiquetas_comentario": [
+        "Aspectos de calificación claros",
+        "Clases excelentes",
+        "Tomaría su clase otra vez"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "15/Ene/2019",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Cálculo Vectorial",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "9.5",
+      "interes_clase": "",
+      "comentario": "Excelente maestro, era una clase a la cual entraba con ganas, ya que nunca fueron aburridas, los examenes a su medida, eran fáciles si ponias atención",
+      "etiquetas_comentario": [
+        "Muy cómico",
+        "Clases excelentes",
+        "Tomaría su clase otra vez"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "08/Dic/2018",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Cálculo vectorial",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "9",
+      "interes_clase": "",
+      "comentario": "El examen es 100%, pero los hace de lo que vio en clases y es muy abierto a las preguntas. Sin duda entra en mi top de maestros de calculo",
+      "etiquetas_comentario": [
+        "Clases excelentes",
+        "Tomaría su clase otra vez"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "08/Dic/2018",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Cálculo vectorial",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "9.5",
+      "interes_clase": "",
+      "comentario": "Un maestro que realmente toma de la mano al alumno paso a paso para que comprendas todo de una manera más sencilla. Es muy accesible a resolver tus dudas por más simples que sean, sus clases son entretenidas y para nada fastidiosas. Es muy justo al calificar ya que el examen vale 100%",
+      "etiquetas_comentario": [
+        "Muy cómico",
+        "Clases excelentes",
+        "Tomaría su clase otra vez"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "08/Ago/2018",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Calculo vectorial",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "",
+      "etiquetas_comentario": [
+        "Respetado por los estudiantes",
+        "Aspectos de calificación claros",
+        "Clases excelentes"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "16/Feb/2018",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 9.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Cálculo vectorial",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "24",
+      "interes_clase": "",
+      "comentario": "",
+      "etiquetas_comentario": [
+        "Califica Duro",
+        "Brinda apoyo",
+        "Tomaría su clase otra vez"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "09/Ene/2018",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Calculo vectorial",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "9",
+      "interes_clase": "",
+      "comentario": "Muy buen maestro mis respetos , explica súper claro. Se enfoca en que pongas atención y después apuntes , sus exámenes son lo que vemos en clase y en sus tareas; la clave es practicar para pasar sus exámenes",
+      "etiquetas_comentario": [
+        "Da buena retroalimentación",
+        "Asistencia obligatoria",
+        "Brinda apoyo"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "05/Ago/2017",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Cálculo Vectorial",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "24",
+      "interes_clase": "",
+      "comentario": "Excelente maestro, explica muy bien y de buena manera, siempre esta explicarte si no entiendes.",
+      "etiquetas_comentario": [
+        "Da buena retroalimentación",
+        "Asistencia obligatoria",
+        "Clases excelentes"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "10/Ago/2015",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Cálculo Vectorial",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "Es un excelente profesor, domina los temas y los explica claramente, además es muy accesible al momento de asesorías, si le preguntan responde de muy buena manera ya que le importa mucho que aprendas, eso si, es muy justo para calificar y si no sabes derivar ni integrar se te complicara la materia. Los exámenes si están medio complicados por eso.",
+      "etiquetas_comentario": [
+        "Aspectos de calificación claros",
+        "Brinda apoyo",
+        "Clases excelentes"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "25/May/2015",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Cálculo Vectorial",
+      "asistencia": "",
+      "calificacion_recibida": "9",
+      "interes_clase": "9",
+      "comentario": "Muy buen maestro. Enseña muy bien y sabe explicar totalmente los temas. Lo único malo es que quizá los exámenes los hace un poco difíciles a comparación de lo que se ve en clase.",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "15/Ene/2015",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "CALCULO VECTORIAL",
+      "asistencia": "",
+      "calificacion_recibida": "9.5",
+      "interes_clase": "9.5",
+      "comentario": "MUY BUEN MAESTRO, EXPLICA CLARO Y SENCILLO, LO QUE PUEDE SER UN PROBLEMA QUE EN CLASE TODO ES PERAS Y MANZANAS Y AVECES EN LOS EXÁMENES SE PONE ALGO MAS DÍFICIL, PERO ES MUY ACCESIBLE CON ASESORÍAS TAMBIÉN.\nSI LE HECHAS GANAS PASAS CON BUENA CALIFICACIÓN.",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "11/Ene/2015",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "CÁLCULO VECTORIAL",
+      "asistencia": "",
+      "calificacion_recibida": "7",
+      "interes_clase": "7",
+      "comentario": "Si te aparece para cargar con él, no la pienses y cargalo, sin duda EL MEJOR MAESTRO QUE TIENE EL TEC, es excelente.",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "11/Ene/2015",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Calculo Vectorial",
+      "asistencia": "",
+      "calificacion_recibida": "N/A",
+      "interes_clase": "N/A",
+      "comentario": "Excelente profe. Te explica todo con peras y manzanas y es muy accesible. Todo lo que explica viene en el examen y aprendes mucho. Recomendado",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "08/Ene/2015",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 9.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Vectorial",
+      "asistencia": "",
+      "calificacion_recibida": "N/A",
+      "interes_clase": "N/A",
+      "comentario": "Es un profesor bastante justo al momento de calificar, explica bien y te hace aprender.",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "13/May/2014",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Cálculo Vectorial",
+      "asistencia": "",
+      "calificacion_recibida": "10",
+      "interes_clase": "10",
+      "comentario": "Es un profesor que esta bien preparado, siempre que tienes una duda te la aclara, explica las cosas de la manera mas transparente y sencilla posible, además sus evaluaciones no son para nada difíciles son exactamente lo que miras en clase, y aprendes muchísimo.",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "04/Dic/2013",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Calculo Vectorial",
+      "asistencia": "",
+      "calificacion_recibida": "10",
+      "interes_clase": "10",
+      "comentario": "Es un Excelente maestro, es puntual, responsable y dispuesto. Sus clases son claras y sobretodo, muy amenas, ya que la mayoría de los maestros hacen las clases tediosas. Pasar con el es muy fácil si estudias y haces las tareas que deja, de las cuales hace los exámenes. Al final sube algunos puntos.",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "25/Oct/2013",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "calculo vectorial",
+      "asistencia": "",
+      "calificacion_recibida": "10",
+      "interes_clase": "10",
+      "comentario": "excelente maestro explica muy bien y lo mas importante tiene paciencia para explicar y disponibilidad para asesorías la verdad de los mejores maestro que tiene el TEC....",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "05/Ago/2013",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Cálculo Vectorial",
+      "asistencia": "",
+      "calificacion_recibida": "10",
+      "interes_clase": "10",
+      "comentario": "La verdad es un excelente profesor, explica muy bien,se preocupa por que entendamos los temas y que abarquemos todo el programa. Incluso el siempre esta dispuesto a dar asesorias los sabados sin nada a cambio, solo por su voluntad. Muchos hablan mal de el, pero nada que ver.",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "03/Ago/2013",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "calculo vectorial",
+      "asistencia": "",
+      "calificacion_recibida": "9.5",
+      "interes_clase": "9.5",
+      "comentario": "Excelente maestro, cualquier duda te la aclara, aprendes y tiene paciencia para  explicarte las cosas, si le pones ganas te ayuda.",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "02/Ago/2013",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 9.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "calculo vectorial",
+      "asistencia": "",
+      "calificacion_recibida": "N/A",
+      "interes_clase": "N/A",
+      "comentario": "esta bien este profe solo que si es algo estricto pero si ve que le hechas ganas si te ayudaa",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "30/Jul/2013",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 9.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "calculo vectorial",
+      "asistencia": "",
+      "calificacion_recibida": "N/A",
+      "interes_clase": "N/A",
+      "comentario": "explica bien este profe, esta bien agusto con el la neta lo recomiendoo...",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "25/Jul/2013",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "verano de vectorial",
+      "asistencia": "",
+      "calificacion_recibida": "N/A",
+      "interes_clase": "N/A",
+      "comentario": "excelente profesor! explica todo muy bien y es muy simpatico y buena persona, no te pasa si no lo mereces pero si ayuda un poco si no faltas,excelente, realmente lo recomiendo, antes de su clase no sabia ni algebra..",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "19/Jul/2013",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 2.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "---",
+      "asistencia": "",
+      "calificacion_recibida": "0.5",
+      "interes_clase": "0.5",
+      "comentario": "[Comentario esperando revisión]",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "30/Abr/2013",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "calculo vectorial",
+      "asistencia": "",
+      "calificacion_recibida": "N/A",
+      "interes_clase": "N/A",
+      "comentario": "exelente profesos, muy simpatico buena persona se desembuebe claramente, nos explica muy bien , resulve dudas de los mejorees que hay :).",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "15/Ene/2013",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Cálculo Vectorial",
+      "asistencia": "",
+      "calificacion_recibida": "N/A",
+      "interes_clase": "N/A",
+      "comentario": "Perfecto dominio de los temas. Gran facilidad para desenvolverse frente a un grupo. Mucho carisma. Clases muy muy amenas. Siempre tiene la mayor disposición para cualquier duda. \"Pongan atención y luego copian del pizarrón\" siempre me funcionó. Lo recomiedo ampliamente",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "30/Oct/2012",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 9.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Cálculo Vectorial",
+      "asistencia": "",
+      "calificacion_recibida": "N/A",
+      "interes_clase": "N/A",
+      "comentario": "Es muy buen maestro, sus exámenes son laborioso pero no difíciles, explica de forma clara y congruente, es buena persona y si no repruebas ningún examen te ayuda con más calificación.",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    }
+  ]
+}

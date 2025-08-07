@@ -1,0 +1,86 @@
+{
+  "professor_id": "DORA_ESTHELA_GARCIA_VELARDE",
+  "nombre": "DORA ESTHELA GARCIA VELARDE",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 9.66623866082121,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.397993416888213,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 1.0,
+    "wilson_interval": [
+      0.3423719528896193,
+      1
+    ],
+    "n_recommendations": 2
+  },
+  "subject_normalization": {
+    "z_mean": 0.89,
+    "z_mean_decayed": 0.89,
+    "per_subject": [
+      {
+        "materia": "MERCADOTECNIA",
+        "z_decayed": 0.8928660402432336,
+        "n": 9
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [],
+    "sentiment": {
+      "overall": null,
+      "by_month": {}
+    },
+    "n_comments": 2
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": null,
+    "difficulty_trend": null,
+    "forecast": null,
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2016-01-15T00:00:00",
+      "materia": "SEGURIDAD E HIGIENE INDUSTRIAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Una de las mejores maestras del ITC. Explica de maravillosa y propone muchísimas actividades para reforzar la materia. Rápidamente la hicieron jefa y casi no tiene clases, pero es una excelente opción si se llega a presentar."
+    },
+    {
+      "fecha_iso": "2014-01-17T00:00:00",
+      "materia": "MERCADOTECNIA",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Buena maestra, te apoya en todas tus dudas."
+    }
+  ],
+  "comments_recent": [
+    "Una de las mejores maestras del ITC. Explica de maravillosa y propone muchísimas actividades para reforzar la materia. Rápidamente la hicieron jefa y casi no tiene clases, pero es una excelente opción si se llega a presentar.",
+    "Buena maestra, te apoya en todas tus dudas."
+  ],
+  "n_reviews": 2
+}

@@ -1,0 +1,264 @@
+{
+  "professor_id": "Hilda_Karina_Ramirez_Medina",
+  "nombre": "Hilda Karina Ramirez Medina",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 9.21657004250338,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 8.307996409211752,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 1.0,
+    "wilson_interval": [
+      0.7574992425007574,
+      0.9999999999999998
+    ],
+    "n_recommendations": 12
+  },
+  "subject_normalization": {
+    "z_mean": 0.6,
+    "z_mean_decayed": 0.54,
+    "per_subject": [
+      {
+        "materia": "BIOLOGIA",
+        "z_decayed": 0.6089380828590845,
+        "n": 9
+      },
+      {
+        "materia": "BIOLOGÍA",
+        "z_decayed": 0.4476052211418718,
+        "n": 6
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "estudiar",
+          "es",
+          "buena",
+          "excelente",
+          "profesora"
+        ],
+        "weight": 0.14834807295915836
+      },
+      {
+        "id": 1,
+        "words": [
+          "maestra",
+          "buena",
+          "estricta",
+          "aprende",
+          "estricta aprende"
+        ],
+        "weight": 0.2373015911194094
+      },
+      {
+        "id": 2,
+        "words": [
+          "profesora",
+          "excelente",
+          "estudiar",
+          "es",
+          "maestra"
+        ],
+        "weight": 0.2965165837981982
+      }
+    ],
+    "sentiment": {
+      "overall": 0.2857142857142857,
+      "by_month": {
+        "2024-06": 1.0,
+        "2024-01": 0.0,
+        "2022-05": 0.0,
+        "2018-05": 1.0,
+        "2018-01": 0.0,
+        "2017-08": 0.0,
+        "2015-05": 0.0
+      }
+    },
+    "n_comments": 7
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        10.0,
+        10.0,
+        10.0,
+        9.0,
+        9.0,
+        10.0,
+        10.0,
+        8.0,
+        9.0,
+        10.0,
+        8.0,
+        10.0
+      ],
+      "ewma": [
+        10.0,
+        10.0,
+        10.0,
+        9.7,
+        9.489999999999998,
+        9.642999999999999,
+        9.7501,
+        9.225069999999999,
+        9.157548999999998,
+        9.410284299999997,
+        8.987199009999998,
+        9.291039306999998
+      ],
+      "sigma": 0.6062197332456186
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 9.291039306999998,
+      "quality_band": [
+        8.102848629838586,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2024-06-09T00:00:00",
+      "materia": "BIOLOGIA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 1,
+      "comentario": "Una profesora que te invita a estudiar, a salir adelante. Su programa de PostGrado es excelente. Ojala hubiera mas profesoras como ellas. \nHubiera tenido mejor calificacion pero por flojo tuve  faltas a clases"
+    },
+    {
+      "fecha_iso": "2024-01-16T00:00:00",
+      "materia": "BIOLOGÍA",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Aprendí bastante con esta maestra solo que tienes que poner de tu parte y estudiar mucho los temas para los exámenes (abarca todo lo que se vio en clase)."
+    },
+    {
+      "fecha_iso": "2022-06-22T00:00:00",
+      "materia": "BIOLOGÍA, TALLER DE INVESTIGACIÓN",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2022-05-12T00:00:00",
+      "materia": "BIOLOGIA",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 1,
+      "comentario": "Esta Maestra tiene Doctorado y si esta preparada!! no como otrassssss. Es dura, pero si ayuda mucho. Con esta si estamos aprendiendo."
+    },
+    {
+      "fecha_iso": "2020-09-30T00:00:00",
+      "materia": "BIOLOGÍA",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 7.5,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2019-03-08T00:00:00",
+      "materia": "BIOLOGÍA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2018-05-02T00:00:00",
+      "materia": "BIOLOGÍA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Excelente profesora"
+    },
+    {
+      "fecha_iso": "2018-01-16T00:00:00",
+      "materia": "BIOLOGIA Y TALLER DE INVESTIGACIÓN",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Muy buena profesora, tanto de Biología como de taller de investigación, rara vez faltó y siempre avisaba."
+    },
+    {
+      "fecha_iso": "2017-08-05T00:00:00",
+      "materia": "BIOLOGIA",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "muy buena maestra, algo estricta, pero se aprende"
+    },
+    {
+      "fecha_iso": "2017-06-04T00:00:00",
+      "materia": "BIOLOGIA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2016-01-27T00:00:00",
+      "materia": "BIOLOGIA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2015-05-31T00:00:00",
+      "materia": "BIOLOGIA/TALLER DE INVESTIGACIION",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Estricta, pero con ella se aprende como nadie"
+    }
+  ],
+  "comments_recent": [
+    "Una profesora que te invita a estudiar, a salir adelante. Su programa de PostGrado es excelente. Ojala hubiera mas profesoras como ellas. \nHubiera tenido mejor calificacion pero por flojo tuve  faltas a clases",
+    "Aprendí bastante con esta maestra solo que tienes que poner de tu parte y estudiar mucho los temas para los exámenes (abarca todo lo que se vio en clase).",
+    "Esta Maestra tiene Doctorado y si esta preparada!! no como otrassssss. Es dura, pero si ayuda mucho. Con esta si estamos aprendiendo.",
+    "Excelente profesora",
+    "Muy buena profesora, tanto de Biología como de taller de investigación, rara vez faltó y siempre avisaba.",
+    "muy buena maestra, algo estricta, pero se aprende"
+  ],
+  "n_reviews": 12
+}

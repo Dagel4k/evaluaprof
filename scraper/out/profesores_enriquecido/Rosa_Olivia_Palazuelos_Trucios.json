@@ -1,0 +1,80 @@
+{
+  "professor_id": "Rosa_Olivia_Palazuelos_Trucios",
+  "nombre": "Rosa Olivia Palazuelos Trucios",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 9.999999999999998,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.481326750221547,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 1.0,
+    "wilson_interval": [
+      0.3423719528896193,
+      1
+    ],
+    "n_recommendations": 2
+  },
+  "subject_normalization": {
+    "z_mean": null,
+    "z_mean_decayed": null,
+    "per_subject": []
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [],
+    "sentiment": {
+      "overall": null,
+      "by_month": {}
+    },
+    "n_comments": 2
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": null,
+    "difficulty_trend": null,
+    "forecast": null,
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2020-06-24T00:00:00",
+      "materia": "TERMODINAMICA- MECANICA DE FLUIDOS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Excelente profesora y persona. La calidad de sus clases era excelente, te apoyaba y entendía en todas sus posibilidades, de las mejores maestras que he tenido. Se le notaba que le gustaba lo que hacia, comprensiva al máximo. DEP PROFESORA."
+    },
+    {
+      "fecha_iso": "2020-05-05T00:00:00",
+      "materia": "TERMODINÁMICA Y MECÁNICA DE FLUIDOS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": "Tuve la oportunidad de cursar dicha materia con ella, y simplemente fue un placer en toda la extensión de la palabra. Una gran persona, con una calidad humana impresionante, y un amor tremendo por enseñar.\nDescansé en paz ingeniera, donde quiera que esté, gracias por tanto... Se le va a extrañar."
+    }
+  ],
+  "comments_recent": [
+    "Excelente profesora y persona. La calidad de sus clases era excelente, te apoyaba y entendía en todas sus posibilidades, de las mejores maestras que he tenido. Se le notaba que le gustaba lo que hacia, comprensiva al máximo. DEP PROFESORA.",
+    "Tuve la oportunidad de cursar dicha materia con ella, y simplemente fue un placer en toda la extensión de la palabra. Una gran persona, con una calidad humana impresionante, y un amor tremendo por enseñar.\nDescansé en paz ingeniera, donde quiera que esté, gracias por tanto... Se le va a extrañar."
+  ],
+  "n_reviews": 2
+}

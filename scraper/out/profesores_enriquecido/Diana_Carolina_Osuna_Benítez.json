@@ -1,0 +1,398 @@
+{
+  "professor_id": "Diana_Carolina_Osuna_Benítez",
+  "nombre": "Diana Carolina Osuna Benítez",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 4.881898527529546,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 6.292530700088618,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.35,
+    "wilson_interval": [
+      0.1811895478679446,
+      0.5671494897805353
+    ],
+    "n_recommendations": 20
+  },
+  "subject_normalization": {
+    "z_mean": -0.3,
+    "z_mean_decayed": -0.71,
+    "per_subject": [
+      {
+        "materia": "ÁLGEBRA LINEAL",
+        "z_decayed": 0.6696164845116104,
+        "n": 23
+      },
+      {
+        "materia": "PROBABILIDAD",
+        "z_decayed": 0.0735469506699175,
+        "n": 14
+      },
+      {
+        "materia": "---",
+        "z_decayed": 0.0488072039061861,
+        "n": 521
+      },
+      {
+        "materia": "PROBABILIDAD Y ESTADISTICA",
+        "z_decayed": -0.4678840127950512,
+        "n": 32
+      },
+      {
+        "materia": "PROBABILIDAD Y ESTADÍSTICA",
+        "z_decayed": -0.6832513217859745,
+        "n": 23
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "esperando revision",
+          "comentario",
+          "revision",
+          "comentario esperando",
+          "esperando"
+        ],
+        "weight": 0.13626911476023468
+      },
+      {
+        "id": 1,
+        "words": [
+          "explicar",
+          "100",
+          "examenes",
+          "bipolar",
+          "es"
+        ],
+        "weight": 0.09428040480505327
+      },
+      {
+        "id": 2,
+        "words": [
+          "solo",
+          "falta clases",
+          "falta",
+          "clases",
+          "si"
+        ],
+        "weight": 0.16980439034036726
+      },
+      {
+        "id": 3,
+        "words": [
+          "aprendes",
+          "va",
+          "bien",
+          "explica bien",
+          "explica"
+        ],
+        "weight": 0.13342298858615895
+      },
+      {
+        "id": 4,
+        "words": [
+          "media hora",
+          "hora",
+          "media",
+          "aprendes",
+          "pesima"
+        ],
+        "weight": 0.07309600935290621
+      }
+    ],
+    "sentiment": {
+      "overall": 0.0,
+      "by_month": {
+        "2024-12": 0.0,
+        "2024-08": 0.0,
+        "2024-06": 0.0,
+        "2020-01": 0.0,
+        "2019-08": 0.0,
+        "2019-05": 0.0,
+        "2018-08": 0.0,
+        "2015-08": 0.0,
+        "2014-12": 0.0,
+        "2014-11": 0.0,
+        "2013-11": 0.0,
+        "2013-08": 0.0,
+        "2012-10": 0.0,
+        "2012-08": 0.0,
+        "2011-11": 0.0
+      }
+    },
+    "n_comments": 18
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.039,
+    "bursts": [
+      {
+        "from": "2019-08-04T00:00:00",
+        "to": "2019-08-05T00:00:00",
+        "count": 3
+      }
+    ],
+    "low_variance_flag": 0,
+    "trust_score": 0.68
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        7.0,
+        10.0,
+        8.0,
+        4.0,
+        4.0,
+        4.0,
+        9.0,
+        6.0,
+        8.0,
+        10.0,
+        5.333333333333333,
+        4.0,
+        4.0,
+        5.0,
+        2.0,
+        6.0
+      ],
+      "ewma": [
+        7.0,
+        7.8999999999999995,
+        7.93,
+        6.7509999999999994,
+        5.925699999999999,
+        5.347989999999999,
+        6.443592999999999,
+        6.310515099999999,
+        6.817360569999998,
+        7.7721523989999985,
+        7.040506679299998,
+        6.128354675509999,
+        5.4898482728569995,
+        5.3428937909998995,
+        4.3400256536999295,
+        4.83801795758995
+      ],
+      "sigma": 1.7420073045287081
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 4.83801795758995,
+      "quality_band": [
+        1.4236836407136826,
+        8.252352274466219
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2024-12-30T00:00:00",
+      "materia": "PROBABILIDAD Y ESTADISTICA",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 24.0,
+      "recomienda": 0,
+      "comentario": "Falta mucho y si asiste solo asiste menos de media hora de clases, al inicio del semestre nos explico como iba a calificar pero al final solo califica con el examen, ni vas a ver todas las unidades del sistema por sus faltas constantes"
+    },
+    {
+      "fecha_iso": "2024-08-20T00:00:00",
+      "materia": "ALGEBRA",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 0,
+      "comentario": "Pesima"
+    },
+    {
+      "fecha_iso": "2024-06-11T00:00:00",
+      "materia": "PROBABILIDAD Y ESTADÍSTICA",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 0,
+      "comentario": "Mala profe. Te hace perder mucho tiempo, no va a clases y si va da 30 mins. No se nota que domine la materia. Llega, escribe el problema en el pizarrón, se sienta 20 mins y al final pregunta por respuestas. El exámen está regalado si sabes lo que se vio en clase. Profe machin barco"
+    },
+    {
+      "fecha_iso": "2022-06-22T00:00:00",
+      "materia": "PROBABILIDAD Y ESTADÍSTICA",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2020-01-27T00:00:00",
+      "materia": "PROBABILIDAD Y ESTADÍSTICA",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 0,
+      "comentario": "Hace exámenes como si enseñará, falta mucho y es medio especial... Es algo floja la señora.\nNo se la recomiendo a nadie ni para hacerle el mal."
+    },
+    {
+      "fecha_iso": "2019-08-05T00:00:00",
+      "materia": "---",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2019-08-04T00:00:00",
+      "materia": "PROBABILIDAD",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Casi no va, explica bien, El examen es 100%"
+    },
+    {
+      "fecha_iso": "2019-08-04T00:00:00",
+      "materia": "ALGEBRA LINEAL",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 0,
+      "comentario": "Pesima maestra, falta demasiado, no le importa para nada si aprendes, 0 accesible y no toma en cuenta la asistencia puedes ir solo el dia de el examen y no hay problema, da media hora de clase y se me hace mucho"
+    },
+    {
+      "fecha_iso": "2019-05-30T00:00:00",
+      "materia": "ÁLGEBRA LINEAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Aunque los exámenes son de 100% rifa para explicar y es fácil pasar"
+    },
+    {
+      "fecha_iso": "2018-08-16T00:00:00",
+      "materia": "PROBABILIDAD Y ESTADISTICA",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 0,
+      "comentario": "Una maestra promedio ni buena ni mala, eso si falta mucho a clases"
+    },
+    {
+      "fecha_iso": "2018-08-06T00:00:00",
+      "materia": "PROBABILIDAD Y ESTADISTICA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2015-08-05T00:00:00",
+      "materia": "---",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2014-12-26T00:00:00",
+      "materia": "PROYECTOS",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Explica bien y aprendes."
+    },
+    {
+      "fecha_iso": "2014-11-13T00:00:00",
+      "materia": "PROYECTOS",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "MUY BIPOLAR Y NO SE PREOCUPA MUCHO POR QUE APRENDAS, NO TE VUELVE A EXPLICAR SI NO LE ENTIENDES Y FALTA MUCHO A CLASES."
+    },
+    {
+      "fecha_iso": "2013-11-29T00:00:00",
+      "materia": "ESTADISTICA.",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "no domina la materia."
+    },
+    {
+      "fecha_iso": "2013-11-14T00:00:00",
+      "materia": "---",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2013-08-03T00:00:00",
+      "materia": "ESTADISTICA INFERENCIAL 1",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 0,
+      "comentario": "Es bipolar"
+    },
+    {
+      "fecha_iso": "2012-10-29T00:00:00",
+      "materia": "PROBABILIDAD Y ESTADISTICA",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "De esas maestras que solo va a hacer su trabajo y ya. No ofrece mucha ayuda a los alumnos aunque explica de forma clara y precisa para no complicarse."
+    },
+    {
+      "fecha_iso": "2012-08-06T00:00:00",
+      "materia": "---",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2011-11-11T00:00:00",
+      "materia": "PROBAB Y ESTADISTICA",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "es muy enojona"
+    }
+  ],
+  "comments_recent": [
+    "Falta mucho y si asiste solo asiste menos de media hora de clases, al inicio del semestre nos explico como iba a calificar pero al final solo califica con el examen, ni vas a ver todas las unidades del sistema por sus faltas constantes",
+    "Pesima",
+    "Mala profe. Te hace perder mucho tiempo, no va a clases y si va da 30 mins. No se nota que domine la materia. Llega, escribe el problema en el pizarrón, se sienta 20 mins y al final pregunta por respuestas. El exámen está regalado si sabes lo que se vio en clase. Profe machin barco",
+    "Hace exámenes como si enseñará, falta mucho y es medio especial... Es algo floja la señora.\nNo se la recomiendo a nadie ni para hacerle el mal.",
+    "[Comentario esperando revisión]",
+    "Casi no va, explica bien, El examen es 100%",
+    "Pesima maestra, falta demasiado, no le importa para nada si aprendes, 0 accesible y no toma en cuenta la asistencia puedes ir solo el dia de el examen y no hay problema, da media hora de clase y se me hace mucho",
+    "Aunque los exámenes son de 100% rifa para explicar y es fácil pasar",
+    "Una maestra promedio ni buena ni mala, eso si falta mucho a clases"
+  ],
+  "n_reviews": 20
+}

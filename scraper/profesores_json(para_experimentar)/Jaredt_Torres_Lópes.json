@@ -1,0 +1,104 @@
+{
+  "nombre": "Jaredt Torres Lópes",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "ciudad": "Ciudad: culiacan, sinaloa",
+  "departamento": "Departamento/Facultad: eléctrica-electrónica",
+  "calidad_general": 5.6,
+  "porcentaje_recomienda": 40,
+  "nivel_dificultad": 4.4,
+  "etiquetas": [
+    "MUCHAS TAREAS (1)",
+    "ASISTENCIA OBLIGATORIA (1)",
+    "LOS EXÁMENES SON DIFÍCILES (2)",
+    "CALIFICA DURO (1)",
+    "RESPETADO POR LOS ESTUDIANTES (1)",
+    "DEJA TRABAJOS LARGOS (1)",
+    "MUCHOS PROYECTOS GRUPALES (1)",
+    "TOMARÍA SU CLASE OTRA VEZ (1)"
+  ],
+  "numero_calificaciones": 5,
+  "calificaciones": [
+    {
+      "fecha": "23/May/2020",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 8.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Programacion",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "Es muy buena maestra, como es la jefa del departamente a veces tiende a llegar tarde por estar ocupada, pero le pone mucho empeño a su trabajo y se esfuerza porque entiendas la clase, durante la cuarentena se esmero mucho con las clases en linea, su examen es facil y vale 70% lo demas es por tareas",
+      "etiquetas_comentario": [
+        "Deja trabajos largos",
+        "Muchos proyectos grupales",
+        "Tomaría su clase otra vez"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "04/May/2017",
+      "tipo_calificacion": "REGULAR",
+      "puntaje_calidad_general": 5.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Programación",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "6.5",
+      "interes_clase": "",
+      "comentario": "Esta algo confusa su clase te pone lo que supuestamente va a venir en el examen y cuando llega sorpresa sale con otra cosa que Ni al caso",
+      "etiquetas_comentario": [
+        "Califica Duro",
+        "Respetado por los estudiantes",
+        "Los exámenes son difíciles"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "11/May/2016",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 2.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Electricidad y Electrónica Industrial",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "8.5",
+      "interes_clase": "",
+      "comentario": "Explica muy raro, es demasiado basica, no merece",
+      "etiquetas_comentario": [
+        "Muchas tareas",
+        "Asistencia obligatoria",
+        "Los exámenes son difíciles"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "05/Dic/2014",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 8.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "microocontroladores",
+      "asistencia": "",
+      "calificacion_recibida": "10",
+      "interes_clase": "10",
+      "comentario": "estoy seguro que será una de las mejores por ser nueva no se sabe desarrollar al explicar y se estresa porque quiere que aprendas, sus examines son faciles ya que lo que te dice apuntalo eso va venir y sus practicas son fáciles y de ahí es donde aprendes y esta bien buena",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "09/Nov/2014",
+      "tipo_calificacion": "REGULAR",
+      "puntaje_calidad_general": 5.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Microcontroladores",
+      "asistencia": "",
+      "calificacion_recibida": "N/A",
+      "interes_clase": "N/A",
+      "comentario": "A esta guapa maestra le falta mucho para desarrollar una buena clase, sabe lo elemental y simplemente no se desenvuelve bien, solo proyecta diapositivas en clase y platica de ellas, no las explica, lo bueno que le veo yo a su clase es que si exige las prácticas, de ahí aprendes por tu cuenta.",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    }
+  ]
+}

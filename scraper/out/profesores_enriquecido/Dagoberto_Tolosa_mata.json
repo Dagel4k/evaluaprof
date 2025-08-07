@@ -1,0 +1,354 @@
+{
+  "professor_id": "Dagoberto_Tolosa_mata",
+  "nombre": "Dagoberto Tolosa Mata",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 9.063126275517563,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.529843115486868,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.75,
+    "wilson_interval": [
+      0.5050123107060135,
+      0.8981809801576265
+    ],
+    "n_recommendations": 16
+  },
+  "subject_normalization": {
+    "z_mean": -0.01,
+    "z_mean_decayed": 0.2,
+    "per_subject": [
+      {
+        "materia": "VIBRACIONES MECÁNICAS",
+        "z_decayed": 1.0880682963167634,
+        "n": 10
+      },
+      {
+        "materia": "ESTATICA",
+        "z_decayed": 0.3983453910460061,
+        "n": 25
+      },
+      {
+        "materia": "DISEÑO DE ELEMENTOS MECÁNICOS",
+        "z_decayed": 0.23306756217009134,
+        "n": 5
+      },
+      {
+        "materia": "---",
+        "z_decayed": -0.36348883362302276,
+        "n": 521
+      },
+      {
+        "materia": "VIBRACIONES MECANICAS",
+        "z_decayed": -0.4352019250457266,
+        "n": 8
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "siempre",
+          "es",
+          "tec",
+          "temas",
+          "maestro"
+        ],
+        "weight": 0.10058469911960596
+      },
+      {
+        "id": 1,
+        "words": [
+          "bien",
+          "hace",
+          "robot",
+          "explica",
+          "examenes"
+        ],
+        "weight": 0.1390073750942421
+      },
+      {
+        "id": 2,
+        "words": [
+          "calificacion",
+          "falta",
+          "te",
+          "llega",
+          "tarde"
+        ],
+        "weight": 0.12408081641554104
+      },
+      {
+        "id": 3,
+        "words": [
+          "si",
+          "materia",
+          "es",
+          "rapido",
+          "va"
+        ],
+        "weight": 0.13760505752123214
+      },
+      {
+        "id": 4,
+        "words": [
+          "mucha",
+          "es",
+          "problemas",
+          "humor",
+          "tiene"
+        ],
+        "weight": 0.14233531917118025
+      }
+    ],
+    "sentiment": {
+      "overall": -0.02222222222222222,
+      "by_month": {
+        "2023-06": 1.0,
+        "2023-04": 0.0,
+        "2021-01": 0.0,
+        "2020-06": 0.0,
+        "2020-01": 0.0,
+        "2019-01": 0.0,
+        "2018-08": -0.5,
+        "2017-12": 0.0,
+        "2017-11": 0.0,
+        "2016-08": 0.0,
+        "2014-06": 0.0,
+        "2014-03": 0.0,
+        "2014-01": 0.0,
+        "2013-10": -0.3333333333333333
+      }
+    },
+    "n_comments": 15
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        10.0,
+        4.0,
+        3.0,
+        10.0,
+        4.0,
+        10.0,
+        7.0,
+        6.0,
+        9.0,
+        8.0,
+        7.0,
+        10.0,
+        9.0,
+        10.0,
+        10.0
+      ],
+      "ewma": [
+        10.0,
+        8.2,
+        6.639999999999999,
+        7.647999999999999,
+        6.553599999999999,
+        7.58752,
+        7.411263999999999,
+        6.987884799999999,
+        7.5915193599999995,
+        7.714063551999999,
+        7.499844486399999,
+        8.249891140479999,
+        8.474923798335999,
+        8.932446658835199,
+        9.252712661184638
+      ],
+      "sigma": 2.0187852630937355
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 9.252712661184638,
+      "quality_band": [
+        5.295893545520917,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2023-06-06T00:00:00",
+      "materia": "DISEÑO DE ELEMENTOS MECÁNICOS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Es el profe que mejor domina la materia sin duda alguna, no dudes en cargar con el si tu especialidad es DDP, te termina de sentar las bases de Mecánica de Materiales si no las tienes claras. Va un poco rápido en ocasiones, pero no es nada que no se puede comprender. Excelente calidad de profesor."
+    },
+    {
+      "fecha_iso": "2023-04-01T00:00:00",
+      "materia": "DISEÑO DE ELEMENTOS MECÁNICOS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 23.0,
+      "recomienda": 1,
+      "comentario": "Es el mejor profesor que imparte la materia, no dudes en cargar con él, siempre da aplicaciones acerca de la materia, sus exámenes son largos y a veces complicados, enseña muy bien y siempre va a clase a lo que va. Es especialista en el tema así que aprovéchalo. Deja usar cualquier cosa en el examen"
+    },
+    {
+      "fecha_iso": "2021-01-16T00:00:00",
+      "materia": "DISEÑO DE ELEMENTOS MECÁNICOS",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Espera bastante de ti, pero es compa si le preguntas y tiene videos de sus clases por si ocupas repasar algún tema."
+    },
+    {
+      "fecha_iso": "2020-06-15T00:00:00",
+      "materia": "DISEÑO DE ELEMENTOS MECANICOS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Este maestro merece dar clases en Harvard. Es de lo mejor del tec. Te motiva mucho a seguir adelante"
+    },
+    {
+      "fecha_iso": "2020-01-01T00:00:00",
+      "materia": "DISEÑO DE ELEMENTOS MECÁNICOS",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": "Es muy buen profesor, explica súper bien. Hace tres exámenes y califica con el robot. Aporta bastante material, los exámenes son a libro abierto (y celular). Llevé tres clases con él y pues, bellísimo."
+    },
+    {
+      "fecha_iso": "2019-01-12T00:00:00",
+      "materia": "ESTATICA",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Es camarada y vas aprender mucho ya que domina todos los temas. Puedes sacar el telefono en sus examenes."
+    },
+    {
+      "fecha_iso": "2018-08-22T00:00:00",
+      "materia": "VIBRACIONES MECÁNICAS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": "Buen profe, es buen rollo, si sabe de la materia pero en ciertas ocasiones falta aleatoriamente o se va rápido, a veces da temas por visto o los mira muy rápido pero te brinda mucha ayuda cuando te acercas a el."
+    },
+    {
+      "fecha_iso": "2018-08-02T00:00:00",
+      "materia": "DISEÑO DE ELEMENTOS MECANICOS",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "la primer unidad no explica nada y hace el examen muy dificil pero al final no la toma en cuenta, las siguientes unidades explica muy bien y hace los examenes faciles, el robot sube calificacion pero tienes que pasarle los examenes o repruebas la materia, enseña bien y ayuda bastante con el robot"
+    },
+    {
+      "fecha_iso": "2017-12-15T00:00:00",
+      "materia": "DIBUJO ASISTIDO POR COMPUTADORA",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "llega tarde, falta mucho, a veces te avisa que faltara y siempre tarda en subir calificación."
+    },
+    {
+      "fecha_iso": "2017-11-14T00:00:00",
+      "materia": "DIBUJO ASISTIDO POR COMPUTADORA",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Llega 10 minutos tarde.\nTe ayuda si se lo pides.\nNo toma asistencia.\nCon solo hacer bien el examen pasas. (al primer intento)."
+    },
+    {
+      "fecha_iso": "2016-08-18T00:00:00",
+      "materia": "FLUIDOS/MATERIALES",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "El admitió que no podía profundizar en los temas porque en realidad los alumnos del tec no dominamos las ciencias básicas como debe de ser. Odia que copien, si lo haces tendrás muy mala reputación para el. Le gusta que razones los problemas y las tareas, que formes tu criterio. Siempre me apoyó."
+    },
+    {
+      "fecha_iso": "2014-06-18T00:00:00",
+      "materia": "---",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 1.0,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2014-03-30T00:00:00",
+      "materia": "DISEÑO DE ELEMENTOS MECÁNICOS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Excelente profesor, sus clases son muy amenas, es cierto que aveces llega de mal humor, pero no esta muy dificil pasar con el, ultimamente le da por exentar alumnos comprobandole problemas con SW eso es una gran ayuda, lo que no me gusta de él es que no ve teoría en clase, eso te lo deja de tarea."
+    },
+    {
+      "fecha_iso": "2014-01-15T00:00:00",
+      "materia": "VIBRACIONES MECANICAS",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": 2.0,
+      "recomienda": 0,
+      "comentario": "SE CREE MUCHO, TIENE MUCHA SOBERBIA Y DEPENDE DEL HUMOR DEL DIA ES A COMO TE CONTESTA, APARTE QUE NUNCA DA CON EL RESULTADO DE LOS PROBLEMAS"
+    },
+    {
+      "fecha_iso": "2013-11-14T00:00:00",
+      "materia": "DISEÑO",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2013-10-06T00:00:00",
+      "materia": "VIBRACIONES MECÁNICAS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Excelente maestro, buena onda y no esta muy difícil como suelen decir, lo malo de él es que hay algunos detalles en los temas que los dá por vistos y aunque le pidas que te lo explique no siempre se presta a hacerlo."
+    }
+  ],
+  "comments_recent": [
+    "Es el profe que mejor domina la materia sin duda alguna, no dudes en cargar con el si tu especialidad es DDP, te termina de sentar las bases de Mecánica de Materiales si no las tienes claras. Va un poco rápido en ocasiones, pero no es nada que no se puede comprender. Excelente calidad de profesor.",
+    "Es el mejor profesor que imparte la materia, no dudes en cargar con él, siempre da aplicaciones acerca de la materia, sus exámenes son largos y a veces complicados, enseña muy bien y siempre va a clase a lo que va. Es especialista en el tema así que aprovéchalo. Deja usar cualquier cosa en el examen",
+    "Espera bastante de ti, pero es compa si le preguntas y tiene videos de sus clases por si ocupas repasar algún tema.",
+    "Este maestro merece dar clases en Harvard. Es de lo mejor del tec. Te motiva mucho a seguir adelante",
+    "Es muy buen profesor, explica súper bien. Hace tres exámenes y califica con el robot. Aporta bastante material, los exámenes son a libro abierto (y celular). Llevé tres clases con él y pues, bellísimo.",
+    "Es camarada y vas aprender mucho ya que domina todos los temas. Puedes sacar el telefono en sus examenes.",
+    "Buen profe, es buen rollo, si sabe de la materia pero en ciertas ocasiones falta aleatoriamente o se va rápido, a veces da temas por visto o los mira muy rápido pero te brinda mucha ayuda cuando te acercas a el.",
+    "la primer unidad no explica nada y hace el examen muy dificil pero al final no la toma en cuenta, las siguientes unidades explica muy bien y hace los examenes faciles, el robot sube calificacion pero tienes que pasarle los examenes o repruebas la materia, enseña bien y ayuda bastante con el robot",
+    "llega tarde, falta mucho, a veces te avisa que faltara y siempre tarda en subir calificación.",
+    "Llega 10 minutos tarde.\nTe ayuda si se lo pides.\nNo toma asistencia.\nCon solo hacer bien el examen pasas. (al primer intento)."
+  ],
+  "n_reviews": 16
+}

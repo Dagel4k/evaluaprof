@@ -1,0 +1,211 @@
+{
+  "nombre": "RAUL ALFONSO AYON FELIX",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "ciudad": "Ciudad: culiacan, sinaloa",
+  "departamento": "Departamento/Facultad: instituto tecnológico de culiacan",
+  "calidad_general": 6.5,
+  "porcentaje_recomienda": 55,
+  "nivel_dificultad": 3.8,
+  "etiquetas": [
+    "LA PARTICIPACIÓN IMPORTA (3)",
+    "ASISTENCIA OBLIGATORIA (1)",
+    "DEJA TRABAJOS LARGOS (2)",
+    "LAS CLASES SON LARGAS (3)",
+    "BRINDA APOYO (2)",
+    "BARCO (4)",
+    "DA BUENA RETROALIMENTACIÓN (1)",
+    "TOMARÍA SU CLASE OTRA VEZ (3)",
+    "RESPETADO POR LOS ESTUDIANTES (2)",
+    "CALIFICA DURO (1)"
+  ],
+  "numero_calificaciones": 11,
+  "calificaciones": [
+    {
+      "fecha": "06/Ago/2024",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 2.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "etica",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "6.5",
+      "interes_clase": "",
+      "comentario": "zorro",
+      "etiquetas_comentario": [
+        "Barco",
+        "Inspiracional",
+        "Las clases son largas"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "21/Feb/2024",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 3.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "ETICA",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "0.5",
+      "interes_clase": "",
+      "comentario": "MUY ZORRO LA VERDAD, SE INSINUA MUCHO A LAS MUCHACHAS",
+      "etiquetas_comentario": [
+        "Califica Duro",
+        "Barco",
+        "Inspiracional"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "02/Sep/2023",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 3.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "etica",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "7",
+      "interes_clase": "",
+      "comentario": "no le interesa su clase",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "18/Jun/2022",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "etica",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "9",
+      "interes_clase": "",
+      "comentario": "muy buen profe cargaria con el de nuevo",
+      "etiquetas_comentario": [
+        "Respetado por los estudiantes",
+        "Brinda apoyo",
+        "Tomaría su clase otra vez"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "27/Nov/2021",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 8.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "etica",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "8",
+      "interes_clase": "",
+      "comentario": "es buen maestro, toma el tema de etica bien, anota los conseptos que diga sobre los temas  y ya",
+      "etiquetas_comentario": [
+        "Respetado por los estudiantes",
+        "Tomaría su clase otra vez"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "03/Sep/2021",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Taller de ética",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "Suele ser alguien responsable y claro en sus clases aunque pueden llegar a ser tediosas. Reprueba sólo quien de plano no entrega nada. No deja muchas tareas. Recomendado",
+      "etiquetas_comentario": [
+        "Barco",
+        "Da buena retroalimentación",
+        "Tomaría su clase otra vez"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "07/May/2021",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "taller de ética",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "bastante fácil pasar, no te pone en el examen nada de lo que no se vio en clase",
+      "etiquetas_comentario": [
+        "Barco"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "16/Ene/2018",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 7.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Fundamentos de Investigación",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "9.5",
+      "interes_clase": "",
+      "comentario": "Es buen profesor aunque es cierto que se apoya mucho en diapositivas, en vez de hacer que sus alumnos comprendan la materia, ademas de dejar proyectos bastantes largos y tediosos",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "14/Ene/2018",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 8.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Fundamentos de la investigación",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "9.5",
+      "interes_clase": "",
+      "comentario": "Intenta ser un buen profesor, ve las clases conforme el plan de estudio, solo que se apoya de diapositivas que no están bien hechas y que ni el entiende y llega a ser confuso, pero en realidad la materia es fácil.",
+      "etiquetas_comentario": [
+        "La Participación Importa",
+        "Las clases son largas",
+        "Deja trabajos largos"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "13/Ene/2018",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 8.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Fundamentos de investigación",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "9",
+      "interes_clase": "",
+      "comentario": "El profesor da as clases conforme al reglamento, en sus clases explica con pura diapositiva y ademas en sus trabajos tareas o exámenes anexa lo que ya se ha visto, quienes no aprueban con el es por que no ponen atención o no estudian por que el maestro no te deja algo que no te enseñó",
+      "etiquetas_comentario": [
+        "La Participación Importa",
+        "Las clases son largas",
+        "Brinda apoyo"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "12/Nov/2017",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 2.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "fundamentos de investigacion",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "el peor profesor, no sabe nada, los alumnos son quienes  le explican a el, no sabe leer y redactar un simple texto, ademas es muy acosador con las mujeres, las zorrea de pies a cabeza y es muy incomodo, nada recomendado es un super pendejete",
+      "etiquetas_comentario": [
+        "La Participación Importa",
+        "Asistencia obligatoria",
+        "Deja trabajos largos"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    }
+  ]
+}

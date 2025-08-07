@@ -1,0 +1,204 @@
+{
+  "professor_id": "Kiyoshi_Miguel_Shimizu_Aguilar",
+  "nombre": "Kiyoshi Miguel Shimizu Aguilar",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 7.1025318399222215,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 6.986818882509327,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.571,
+    "wilson_interval": [
+      0.2504542304090258,
+      0.8417830777373732
+    ],
+    "n_recommendations": 7
+  },
+  "subject_normalization": {
+    "z_mean": 0.23,
+    "z_mean_decayed": 0.26,
+    "per_subject": [
+      {
+        "materia": "PROGRAMACIÓN ORIENTADA A OBJETOS",
+        "z_decayed": 1.0600091373582223,
+        "n": 11
+      },
+      {
+        "materia": "FUNDAMENTOS DE PROGRAMACION",
+        "z_decayed": 0.3120358428928809,
+        "n": 43
+      },
+      {
+        "materia": "---",
+        "z_decayed": -0.9627852966533862,
+        "n": 521
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "pone",
+          "profe",
+          "te"
+        ],
+        "weight": 0.16998485166699726
+      },
+      {
+        "id": 1,
+        "words": [
+          "te",
+          "pone",
+          "profe"
+        ],
+        "weight": 0.19948253653783832
+      },
+      {
+        "id": 2,
+        "words": [
+          "te",
+          "profe",
+          "pone"
+        ],
+        "weight": 0.1878523943070881
+      }
+    ],
+    "sentiment": {
+      "overall": 0.0,
+      "by_month": {
+        "2023-09": 0.0,
+        "2023-02": 0.0
+      }
+    },
+    "n_comments": 6
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [
+      {
+        "from": "2023-02-10T00:00:00",
+        "to": "2023-02-11T00:00:00",
+        "count": 3
+      },
+      {
+        "from": "2023-02-10T00:00:00",
+        "to": "2023-02-11T00:00:00",
+        "count": 4
+      }
+    ],
+    "low_variance_flag": 0,
+    "trust_score": 0.7
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        6.5,
+        10.0
+      ],
+      "ewma": [
+        6.5,
+        7.55
+      ],
+      "sigma": 1.7324116139070416
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 7.55,
+      "quality_band": [
+        4.154473236742199,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2023-09-14T00:00:00",
+      "materia": "PROGRAMACIÓN ORIENTADA A OBJETOS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 4.5,
+      "recomienda": 1,
+      "comentario": "EL PROFE MAAAAAS GOOOD DEL TEC, NO DUDES CARGAR CON EL"
+    },
+    {
+      "fecha_iso": "2023-02-27T00:00:00",
+      "materia": "FUNDAMENTOS DE PROGRAMACION",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "pone casa pa la peda"
+    },
+    {
+      "fecha_iso": "2023-02-15T00:00:00",
+      "materia": "FUNDAMENTOS DE PROGRAMACION",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Es una v3rg4 de profe, el profe nomas te deja 2 examenes en todo el semestre, y te explica desde 0, aveces te pone programar a mano xd"
+    },
+    {
+      "fecha_iso": "2023-02-11T00:00:00",
+      "materia": "FUNDAMENTOS DE PROGRAMACION",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 0,
+      "comentario": "Nos enseño a hacer marihuana con usando maizena y JavaScript"
+    },
+    {
+      "fecha_iso": "2023-02-11T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2023-02-10T00:00:00",
+      "materia": "FUNDAMENTOS DE PROGRAMACION",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Te pasa con ORAL"
+    },
+    {
+      "fecha_iso": "2023-02-10T00:00:00",
+      "materia": "FUNDAMENTOS DE PROGRAMACION",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 1.0,
+      "recomienda": 0,
+      "comentario": ""
+    }
+  ],
+  "comments_recent": [
+    "EL PROFE MAAAAAS GOOOD DEL TEC, NO DUDES CARGAR CON EL",
+    "pone casa pa la peda",
+    "Es una v3rg4 de profe, el profe nomas te deja 2 examenes en todo el semestre, y te explica desde 0, aveces te pone programar a mano xd",
+    "Nos enseño a hacer marihuana con usando maizena y JavaScript",
+    "[Comentario esperando revisión]",
+    "Te pasa con ORAL"
+  ],
+  "n_reviews": 7
+}

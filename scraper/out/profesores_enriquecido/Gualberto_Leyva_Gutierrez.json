@@ -1,0 +1,214 @@
+{
+  "professor_id": "Gualberto_Leyva_Gutierrez",
+  "nombre": "Gualberto Leyva Gutierrez",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 6.029012884288148,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 6.104465941332856,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.286,
+    "wilson_interval": [
+      0.08221716570901548,
+      0.6410709098517873
+    ],
+    "n_recommendations": 7
+  },
+  "subject_normalization": {
+    "z_mean": -0.88,
+    "z_mean_decayed": -0.87,
+    "per_subject": [
+      {
+        "materia": "PROGRAMACION BASICA",
+        "z_decayed": -0.44853137591006526,
+        "n": 9
+      },
+      {
+        "materia": "ARQUITECTURA DE COMPUTADORAS",
+        "z_decayed": -0.7302967433402214,
+        "n": 5
+      },
+      {
+        "materia": "PROGRAMACION",
+        "z_decayed": -0.7533536201771969,
+        "n": 20
+      },
+      {
+        "materia": "FUNDAMENTOS DE PROGRAMACION",
+        "z_decayed": -1.2562293428547,
+        "n": 43
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "semestre",
+          "nunca va",
+          "nunca",
+          "trabajo",
+          "va"
+        ],
+        "weight": 0.1692071762173427
+      },
+      {
+        "id": 1,
+        "words": [
+          "va",
+          "trabajo",
+          "semestre",
+          "clase",
+          "casi"
+        ],
+        "weight": 0.15931174895114225
+      },
+      {
+        "id": 2,
+        "words": [
+          "va",
+          "clases",
+          "solo",
+          "si",
+          "te"
+        ],
+        "weight": 0.16011799827321246
+      }
+    ],
+    "sentiment": {
+      "overall": 0.0,
+      "by_month": {
+        "2022-06": 0.0,
+        "2022-05": 0.0,
+        "2019-11": 0.0,
+        "2019-01": 0.0,
+        "2018-06": 0.0
+      }
+    },
+    "n_comments": 7
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        3.5,
+        3.0,
+        2.0,
+        6.0,
+        10.0
+      ],
+      "ewma": [
+        3.5,
+        3.3499999999999996,
+        2.945,
+        3.8614999999999995,
+        5.703049999999999
+      ],
+      "sigma": 2.1660817916228376
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 5.703049999999999,
+      "quality_band": [
+        1.4575296884192372,
+        9.948570311580761
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2022-06-03T00:00:00",
+      "materia": "ARQUITECTURA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "gualbarco"
+    },
+    {
+      "fecha_iso": "2022-05-18T00:00:00",
+      "materia": "ARQUITECTURA DE COMPUTADORAS",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 0,
+      "comentario": "No da clases, solo te pide diapositivas y ni las revisa le envié las mismas!  Si los créditos te alcanzan carga 8 materias, por esta no tendrás que preocuparte ya esta pasada"
+    },
+    {
+      "fecha_iso": "2022-05-10T00:00:00",
+      "materia": "ARQUITECTURA PA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "ta bien concha"
+    },
+    {
+      "fecha_iso": "2019-11-25T00:00:00",
+      "materia": "FUNDAMENTOS DE PROGRAMACION",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 1.0,
+      "recomienda": 0,
+      "comentario": "No se aprende nada con el de Programacion y pero tantito que es Fundamenos"
+    },
+    {
+      "fecha_iso": "2019-01-11T00:00:00",
+      "materia": "FUNDAMENTOS DE PROGRAMACION",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 0,
+      "comentario": "No tiene mucho interes por clase, falta mucho y casi no enseña"
+    },
+    {
+      "fecha_iso": "2018-06-13T00:00:00",
+      "materia": "PROGRAMACION",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "No cargues con el si quieres aprender sobre la materia, nunca va a clases y te califica todo el semestre a base de un solo trabajo"
+    },
+    {
+      "fecha_iso": "2018-06-02T00:00:00",
+      "materia": "PROGRAMACION BASICA",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 0,
+      "comentario": "Casi nunca va a clase, y al final califica todo el semestre con un trabajo (programa)."
+    }
+  ],
+  "comments_recent": [
+    "gualbarco",
+    "No da clases, solo te pide diapositivas y ni las revisa le envié las mismas!  Si los créditos te alcanzan carga 8 materias, por esta no tendrás que preocuparte ya esta pasada",
+    "ta bien concha",
+    "No se aprende nada con el de Programacion y pero tantito que es Fundamenos",
+    "No tiene mucho interes por clase, falta mucho y casi no enseña",
+    "No cargues con el si quieres aprender sobre la materia, nunca va a clases y te califica todo el semestre a base de un solo trabajo",
+    "Casi nunca va a clase, y al final califica todo el semestre con un trabajo (programa)."
+  ],
+  "n_reviews": 7
+}

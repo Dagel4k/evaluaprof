@@ -1,0 +1,103 @@
+{
+  "nombre": "Diana Zazueta Robles",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "ciudad": "Ciudad: culiacan, sinaloa",
+  "departamento": "Departamento/Facultad: Industrial",
+  "calidad_general": 6.2,
+  "porcentaje_recomienda": 60,
+  "nivel_dificultad": 2.4,
+  "etiquetas": [
+    "PREPÁRATE PARA LEER (1)",
+    "TOMARÍA SU CLASE OTRA VEZ (1)",
+    "BARCO (1)",
+    "MUCHAS TAREAS (1)",
+    "DEJA TRABAJOS LARGOS (1)",
+    "INSPIRACIONAL (1)",
+    "DA CRÉDITO EXTRA (1)",
+    "MUCHOS PROYECTOS GRUPALES (1)"
+  ],
+  "numero_calificaciones": 5,
+  "calificaciones": [
+    {
+      "fecha": "12/Jun/2025",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 7.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Desarrollo sustentable",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "9.5",
+      "interes_clase": "",
+      "comentario": "Un amor de persona, la materia q llevé estaba muy fácil y en los exámenes viene lo de las diapositivas, casi todas las tareas y trabajos son en equipo y dinámicos",
+      "etiquetas_comentario": [
+        "Inspiracional",
+        "Da Crédito Extra",
+        "Muchos proyectos grupales"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "12/Mar/2024",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 2.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Admon de la seguridad y salud",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "9",
+      "interes_clase": "",
+      "comentario": "si quieres pasar la materia toma a la maestra, si quieres aprender, no es tu opcion, no vas a aprender casi nada, puro hacer trabajos sin aprender",
+      "etiquetas_comentario": [
+        "Barco",
+        "Muchas tareas",
+        "Deja trabajos largos"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "03/Jul/2019",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 3.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Software ejecutivo",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "7.5",
+      "interes_clase": "",
+      "comentario": "Califica como si fuera muy buena para dar sus clases, siempre llega tarde o no asiste, no cumple con el plan de estudios.",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "04/Ago/2018",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Admon de la salud y seguridad ocupacional",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "N/A",
+      "interes_clase": "",
+      "comentario": "Siempre da material pars los examenes y es accesible para negociar las fechas de exámenes, muy buena maestra, también deja varios proyectos rn equipos",
+      "etiquetas_comentario": [
+        "Prepárate para leer",
+        "Tomaría su clase otra vez"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "15/Ene/2016",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 9.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Taller 1",
+      "asistencia": "",
+      "calificacion_recibida": "8.5",
+      "interes_clase": "8.5",
+      "comentario": "",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    }
+  ]
+}

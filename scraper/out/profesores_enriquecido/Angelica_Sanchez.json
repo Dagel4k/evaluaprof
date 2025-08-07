@@ -1,0 +1,175 @@
+{
+  "professor_id": "Angelica_Sanchez",
+  "nombre": "Angelica Sanchez",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 9.22673041509489,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.585061400177238,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 1.0,
+    "wilson_interval": [
+      0.565508505247919,
+      1
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": 0.27,
+    "z_mean_decayed": 0.45,
+    "per_subject": [
+      {
+        "materia": "CONTABILIDAD",
+        "z_decayed": 0.6141792448878419,
+        "n": 11
+      },
+      {
+        "materia": "CONTABILIDAD FINANCIERA",
+        "z_decayed": 0.4285702084893208,
+        "n": 13
+      },
+      {
+        "materia": "TALLER DE INVESTIGACIÓN",
+        "z_decayed": -0.31250311408513165,
+        "n": 9
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "buena persona",
+          "es buena",
+          "persona",
+          "problema",
+          "es"
+        ],
+        "weight": 0.40729979377626035
+      },
+      {
+        "id": 1,
+        "words": [
+          "clases",
+          "20",
+          "profe",
+          "tarde",
+          "clase"
+        ],
+        "weight": 0.3234471543865465
+      }
+    ],
+    "sentiment": {
+      "overall": 0.0,
+      "by_month": {
+        "2025-05": 0.0,
+        "2025-03": 0.0,
+        "2024-08": 0.0,
+        "2020-01": 0.0
+      }
+    },
+    "n_comments": 5
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        7.0,
+        8.0,
+        10.0,
+        9.5
+      ],
+      "ewma": [
+        7.0,
+        7.299999999999999,
+        8.11,
+        8.527
+      ],
+      "sigma": 0.7821097003191647
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 8.527,
+      "quality_band": [
+        6.994064987374436,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2025-05-31T00:00:00",
+      "materia": "CONTABILIDAD FINANCIERA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Respetos totales a la profesora, es muy buena persona y amable, yo falte por varios problemas a algunas de sus clases y me dio apoyo en su materia, los exámenes son fáciles y sus clases son interesantes, si eres de sistemas entiende que no es tan importante su materia, cargaría 1000 veces mas"
+    },
+    {
+      "fecha_iso": "2025-05-22T00:00:00",
+      "materia": "CONTABILIDAD Y COSTOS",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Muy buena profe, si tienes duda de cierto procedimiento o cualquier tarea, no dudes en preguntarle al final de la clase para una explicación más clara. Llega como unos 10-20 minutos tarde a la clase. Consejo: Asiste a la mayoría de las clases y practica uno que otro ejercicio, y así la armas."
+    },
+    {
+      "fecha_iso": "2025-03-20T00:00:00",
+      "materia": "CONTABILIDAD",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 24.0,
+      "recomienda": 1,
+      "comentario": "Es muy buena persona, el problema es que en algunos casos dice una cosa y hace otra, lo cual a veces puede ser enredoso, pero si apoya mucho y se ve que sabe de lo que habla."
+    },
+    {
+      "fecha_iso": "2024-08-10T00:00:00",
+      "materia": "CONTABILIDAD FINANCIERA",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Es una clase algo aburrida,  domina muy bien lo relacionado a la contabilidad, si te pierdes ella te ayuda sin problema, el problema que veo es que ya tiene edad y suele enredarse con la calificación y las tareas que deja (Abecés las olvida)"
+    },
+    {
+      "fecha_iso": "2020-01-10T00:00:00",
+      "materia": "TALLER DE INVESTIGACIÓN",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Esta profe es un amor de persona y te dicta claramente los temas, pero creo que hay profes con las que puedes aprender mas, sus exámenes son muy fáciles y les puedes meter verbo, suele llegar 15 o 20 min tarde, deja tareas regularmente, pero en general si es buena maestra."
+    }
+  ],
+  "comments_recent": [
+    "Respetos totales a la profesora, es muy buena persona y amable, yo falte por varios problemas a algunas de sus clases y me dio apoyo en su materia, los exámenes son fáciles y sus clases son interesantes, si eres de sistemas entiende que no es tan importante su materia, cargaría 1000 veces mas",
+    "Muy buena profe, si tienes duda de cierto procedimiento o cualquier tarea, no dudes en preguntarle al final de la clase para una explicación más clara. Llega como unos 10-20 minutos tarde a la clase. Consejo: Asiste a la mayoría de las clases y practica uno que otro ejercicio, y así la armas.",
+    "Es muy buena persona, el problema es que en algunos casos dice una cosa y hace otra, lo cual a veces puede ser enredoso, pero si apoya mucho y se ve que sabe de lo que habla.",
+    "Es una clase algo aburrida,  domina muy bien lo relacionado a la contabilidad, si te pierdes ella te ayuda sin problema, el problema que veo es que ya tiene edad y suele enredarse con la calificación y las tareas que deja (Abecés las olvida)",
+    "Esta profe es un amor de persona y te dicta claramente los temas, pero creo que hay profes con las que puedes aprender mas, sus exámenes son muy fáciles y les puedes meter verbo, suele llegar 15 o 20 min tarde, deja tareas regularmente, pero en general si es buena maestra."
+  ],
+  "n_reviews": 5
+}

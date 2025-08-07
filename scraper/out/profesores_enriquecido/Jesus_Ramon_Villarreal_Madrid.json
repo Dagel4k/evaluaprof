@@ -1,0 +1,207 @@
+{
+  "professor_id": "Jesus_Ramon_Villarreal_Madrid",
+  "nombre": "Jesus Ramon Villarreal Madrid",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 9.765460245776639,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.638796050132927,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.9,
+    "wilson_interval": [
+      0.5958436145024278,
+      0.9821242504842789
+    ],
+    "n_recommendations": 10
+  },
+  "subject_normalization": {
+    "z_mean": 0.08,
+    "z_mean_decayed": 0.75,
+    "per_subject": [
+      {
+        "materia": "MÉTODOS NUMÉRICOS",
+        "z_decayed": 0.8802955499054923,
+        "n": 24
+      },
+      {
+        "materia": "METODOS NUMERICOS",
+        "z_decayed": -0.0758590560613442,
+        "n": 25
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [],
+    "sentiment": {
+      "overall": 0.0,
+      "by_month": {
+        "2022-02": 0.0,
+        "2019-11": 0.0,
+        "2011-05": 0.0,
+        "2011-04": 0.0,
+        "2011-02": 0.0,
+        "2011-01": 0.0,
+        "2010-09": 0.0,
+        "2010-08": 0.0
+      }
+    },
+    "n_comments": 8
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        9.0,
+        8.0,
+        9.5,
+        7.5,
+        8.0,
+        4.0,
+        10.0,
+        10.0
+      ],
+      "ewma": [
+        9.0,
+        8.7,
+        8.94,
+        8.508,
+        8.355599999999999,
+        7.048919999999999,
+        7.934243999999999,
+        8.553970799999998
+      ],
+      "sigma": 1.5795562536763863
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 8.553970799999998,
+      "quality_band": [
+        5.458040542794281,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2022-02-02T00:00:00",
+      "materia": "MÉTODOS NUMÉRICOS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Dejo proyecto final a mediados de semestre y desapareció XD"
+    },
+    {
+      "fecha_iso": "2019-11-14T00:00:00",
+      "materia": "COMPUTACION 1,2, MÉTODOS NUMÉRICOS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Yo no sé, preguntele a la maquina.\n\nEl mejor profe de el ramo"
+    },
+    {
+      "fecha_iso": "2011-05-07T00:00:00",
+      "materia": "METODOS NUMERICOS",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 0,
+      "comentario": "no sabe"
+    },
+    {
+      "fecha_iso": "2011-04-07T00:00:00",
+      "materia": "METODOS NUMERICOS",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Udnooo!! ta buena la tamboraa!! Miraaa!! Queee biiienn!! Usen la calculadora PORQ SE OXIDAA!! jaja como olvidar esas frases!! Carguen con el muchachos no la piensen."
+    },
+    {
+      "fecha_iso": "2011-02-20T00:00:00",
+      "materia": "LOGICA DE PROGRAMACION",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2011-02-18T00:00:00",
+      "materia": "METODOS NUMERICOS",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "unnnnOO!"
+    },
+    {
+      "fecha_iso": "2011-01-15T00:00:00",
+      "materia": "METODOS NUMERICOS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2011-01-07T00:00:00",
+      "materia": "METODOS NUMERICOS",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Fix CoOoAtRo... esta clarito?"
+    },
+    {
+      "fecha_iso": "2010-09-21T00:00:00",
+      "materia": "METODOS NUMERICOS",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Muy buen maestro, muy organizado, y te proporciona excelentes apuntes, pero cuidado en los exámenes porque es muy estricto en el limite de tiempo y los ejercicios son largos y tediosos."
+    },
+    {
+      "fecha_iso": "2010-08-29T00:00:00",
+      "materia": "METODOS NUMERICOS",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 7.5,
+      "recomienda": 1,
+      "comentario": "Explica bien y te da muchas oportunidades de pasar."
+    }
+  ],
+  "comments_recent": [
+    "Dejo proyecto final a mediados de semestre y desapareció XD",
+    "Yo no sé, preguntele a la maquina.\n\nEl mejor profe de el ramo",
+    "no sabe",
+    "Udnooo!! ta buena la tamboraa!! Miraaa!! Queee biiienn!! Usen la calculadora PORQ SE OXIDAA!! jaja como olvidar esas frases!! Carguen con el muchachos no la piensen.",
+    "unnnnOO!",
+    "Fix CoOoAtRo... esta clarito?",
+    "Muy buen maestro, muy organizado, y te proporciona excelentes apuntes, pero cuidado en los exámenes porque es muy estricto en el limite de tiempo y los ejercicios son largos y tediosos.",
+    "Explica bien y te da muchas oportunidades de pasar."
+  ],
+  "n_reviews": 10
+}

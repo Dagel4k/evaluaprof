@@ -1,0 +1,123 @@
+{
+  "professor_id": "Jesús_Ramón_Ochoa_Gallegos",
+  "nombre": "Jesús Ramón Ochoa Gallegos",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 7.760655359417869,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.26970864304704,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.75,
+    "wilson_interval": [
+      0.30063605244263664,
+      0.9544139373553638
+    ],
+    "n_recommendations": 4
+  },
+  "subject_normalization": {
+    "z_mean": 0.84,
+    "z_mean_decayed": 0.84,
+    "per_subject": [
+      {
+        "materia": "AJEDREZ",
+        "z_decayed": 0.8432740427115684,
+        "n": 9
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [],
+    "sentiment": {
+      "overall": null,
+      "by_month": {}
+    },
+    "n_comments": 2
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        8.5,
+        10.0,
+        5.0
+      ],
+      "ewma": [
+        8.5,
+        8.95,
+        7.764999999999999
+      ],
+      "sigma": 1.97069996025101
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 7.764999999999999,
+      "quality_band": [
+        3.902428077908019,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2015-01-09T00:00:00",
+      "materia": "ING DE PRODUCTOS",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 0,
+      "comentario": "No sabe explicar ni se le entiende a su letra, asiste diariamente excepto los viernes, las calificaciones consisten en los avances del proyecto y se pone exigente al revisar, no se hace nada en sus clases pero se awita si andas platicando, o en el celular o si te quiere salir antes de la hr."
+    },
+    {
+      "fecha_iso": "2014-03-22T00:00:00",
+      "materia": "PLANEACIÓN DE LA CALIDAD",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 1,
+      "comentario": "Excelente"
+    },
+    {
+      "fecha_iso": "2014-01-21T00:00:00",
+      "materia": "AJEDREZ",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2014-01-13T00:00:00",
+      "materia": "TALLER 1 Y 2",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": ""
+    }
+  ],
+  "comments_recent": [
+    "No sabe explicar ni se le entiende a su letra, asiste diariamente excepto los viernes, las calificaciones consisten en los avances del proyecto y se pone exigente al revisar, no se hace nada en sus clases pero se awita si andas platicando, o en el celular o si te quiere salir antes de la hr.",
+    "Excelente"
+  ],
+  "n_reviews": 4
+}

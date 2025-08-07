@@ -1,0 +1,163 @@
+{
+  "professor_id": "César_augusto_Aguilar_díaz",
+  "nombre": "César augusto Aguilar díaz",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 10.0,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.841137214475611,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 1.0,
+    "wilson_interval": [
+      0.5100999795960008,
+      1
+    ],
+    "n_recommendations": 4
+  },
+  "subject_normalization": {
+    "z_mean": 1.27,
+    "z_mean_decayed": 1.14,
+    "per_subject": [
+      {
+        "materia": "ELECTRONICA",
+        "z_decayed": 2.3197804597378138,
+        "n": 9
+      },
+      {
+        "materia": "CIRCUITOS ELECTRICOS",
+        "z_decayed": 0.774059314567555,
+        "n": 7
+      },
+      {
+        "materia": "REDES",
+        "z_decayed": 0.7189420262655407,
+        "n": 21
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "guapo",
+          "excelente",
+          "excelente maestro",
+          "maestro"
+        ],
+        "weight": 0.3046466369991015
+      },
+      {
+        "id": 1,
+        "words": [
+          "excelente",
+          "excelente maestro",
+          "maestro",
+          "guapo"
+        ],
+        "weight": 0.2994675525236685
+      }
+    ],
+    "sentiment": {
+      "overall": 0.5,
+      "by_month": {
+        "2024-10": 0.0,
+        "2022-10": 0.0,
+        "2020-06": 1.0,
+        "2020-01": 1.0
+      }
+    },
+    "n_comments": 4
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        10.0,
+        10.0,
+        10.0,
+        10.0
+      ],
+      "ewma": [
+        10.0,
+        10.0,
+        10.0,
+        10.0
+      ],
+      "sigma": 0.0
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 10.0,
+      "quality_band": [
+        10.0,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2024-10-15T00:00:00",
+      "materia": "METAL MECANICA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "ESTA HERMOSOOOOOOOOOOOOOOOOOOOO ME MIE"
+    },
+    {
+      "fecha_iso": "2022-10-22T00:00:00",
+      "materia": "CIRCUITOS ELECTRICOS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Esta bien guapo, habla muy bonito, usa pantalones ajustados atte Jose Roberto"
+    },
+    {
+      "fecha_iso": "2020-06-11T00:00:00",
+      "materia": "ELECTRONICA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "excelente maestro y muy guapo, no le puedes quitar la mirada."
+    },
+    {
+      "fecha_iso": "2020-01-11T00:00:00",
+      "materia": "REDES",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Excelente maestro, se preocupa porque sus alumnos aprendan y está fácil salir con buena calificación"
+    }
+  ],
+  "comments_recent": [
+    "ESTA HERMOSOOOOOOOOOOOOOOOOOOOO ME MIE",
+    "Esta bien guapo, habla muy bonito, usa pantalones ajustados atte Jose Roberto",
+    "excelente maestro y muy guapo, no le puedes quitar la mirada.",
+    "Excelente maestro, se preocupa porque sus alumnos aprendan y está fácil salir con buena calificación"
+  ],
+  "n_reviews": 4
+}

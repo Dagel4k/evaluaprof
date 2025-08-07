@@ -1,0 +1,56 @@
+{
+  "nombre": "Fernando Lopez Salas",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "ciudad": "Ciudad: culiacan, sinaloa",
+  "departamento": "Departamento/Facultad: Metal mecanica",
+  "calidad_general": 6.0,
+  "porcentaje_recomienda": 50,
+  "nivel_dificultad": 2.0,
+  "etiquetas": [
+    "MUCHAS TAREAS (1)",
+    "PREPÁRATE PARA LEER (1)",
+    "HACE EXÁMENES SORPRESA (1)",
+    "CALIFICA DURO (1)",
+    "MUY CÓMICO (1)",
+    "LOS EXÁMENES SON DIFÍCILES (1)"
+  ],
+  "numero_calificaciones": 2,
+  "calificaciones": [
+    {
+      "fecha": "15/Jun/2020",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 8.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "circuitos hidraulicos y neumaticos",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "N/A",
+      "interes_clase": "",
+      "comentario": "es camarada, se agarra cura en las clases con el. los examenes son algo dificiles pero son cosas que si miras en clase, lo unico malo de el es que falta mucho por el puesto que tiene en el tec pero lo recomiendo",
+      "etiquetas_comentario": [
+        "Califica Duro",
+        "Muy cómico",
+        "Los exámenes son difíciles"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "01/Jun/2020",
+      "tipo_calificacion": "REGULAR",
+      "puntaje_calidad_general": 4.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Circuitos Hidráulicos y Neumáticos",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "9.5",
+      "interes_clase": "",
+      "comentario": "Da clases cuando quiere, manda PDFs y tareas a bruto como si fuéramos a aprender, es mayate de Piña, no lo carges, no es malo, pero existe Higuera.",
+      "etiquetas_comentario": [
+        "Muchas tareas",
+        "Prepárate para leer",
+        "Hace exámenes sorpresa"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    }
+  ]
+}

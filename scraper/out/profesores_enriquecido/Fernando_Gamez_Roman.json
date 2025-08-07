@@ -1,0 +1,736 @@
+{
+  "professor_id": "Fernando_Gamez_Roman",
+  "nombre": "Fernando Gamez Roman",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 4.708640167924703,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 4.651308982804458,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.25,
+    "wilson_interval": [
+      0.1492048880971003,
+      0.3878464374792707
+    ],
+    "n_recommendations": 48
+  },
+  "subject_normalization": {
+    "z_mean": -0.66,
+    "z_mean_decayed": -0.55,
+    "per_subject": [
+      {
+        "materia": "SISTEMAS",
+        "z_decayed": 0.6854633746486404,
+        "n": 13
+      },
+      {
+        "materia": "LA QUE DE",
+        "z_decayed": 0.0,
+        "n": 3
+      },
+      {
+        "materia": "FUNDAMENTOS DE INVESTIGACION",
+        "z_decayed": -0.020222863666265127,
+        "n": 24
+      },
+      {
+        "materia": "FUNDAMENTOS DE LA INVESTIGACION",
+        "z_decayed": -0.266652445582121,
+        "n": 6
+      },
+      {
+        "materia": "DESARROLLO SUSTENTABLE",
+        "z_decayed": -0.5127649601653206,
+        "n": 52
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "quieres",
+          "es",
+          "te",
+          "pasar",
+          "si"
+        ],
+        "weight": 0.11468091830198116
+      },
+      {
+        "id": 1,
+        "words": [
+          "comentario esperando",
+          "comentario",
+          "esperando revision",
+          "esperando",
+          "revision"
+        ],
+        "weight": 0.0495740154148188
+      },
+      {
+        "id": 2,
+        "words": [
+          "mal",
+          "maestro",
+          "profesor",
+          "sabe",
+          "pone"
+        ],
+        "weight": 0.13102180045800974
+      },
+      {
+        "id": 3,
+        "words": [
+          "clase ir",
+          "comer",
+          "ir comer",
+          "ir",
+          "asco"
+        ],
+        "weight": 0.03650747640108382
+      },
+      {
+        "id": 4,
+        "words": [
+          "falta ser",
+          "mas estricto",
+          "neta profe",
+          "estricto",
+          "profe"
+        ],
+        "weight": 0.07610726052448646
+      }
+    ],
+    "sentiment": {
+      "overall": 0.022222222222222223,
+      "by_month": {
+        "2025-05": 0.0,
+        "2025-03": 0.0,
+        "2024-12": 0.0,
+        "2024-08": 0.0,
+        "2024-06": 0.0,
+        "2024-02": 0.0,
+        "2024-01": 0.0,
+        "2023-10": 0.0,
+        "2023-08": 0.0,
+        "2023-06": 0.0,
+        "2023-05": 0.0,
+        "2023-03": 0.0,
+        "2023-02": 0.0,
+        "2023-01": 0.0,
+        "2021-12": 0.0,
+        "2021-05": 1.0,
+        "2020-08": 0.0,
+        "2020-01": 1.0,
+        "2019-12": 0.0,
+        "2019-06": 0.0,
+        "2018-12": 0.0,
+        "2018-01": 0.0,
+        "2017-09": 0.0,
+        "2017-08": 0.0,
+        "2017-06": 0.0,
+        "2017-01": 0.0,
+        "2016-09": 0.0,
+        "2016-01": 0.0,
+        "2015-12": 0.0,
+        "2015-10": 0.0,
+        "2015-05": 0.0,
+        "2014-11": -1.0,
+        "2014-05": 0.0,
+        "2013-11": 0.0
+      }
+    },
+    "n_comments": 45
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.004,
+    "bursts": [
+      {
+        "from": "2014-05-22T00:00:00",
+        "to": "2014-05-22T00:00:00",
+        "count": 3
+      },
+      {
+        "from": "2014-05-22T00:00:00",
+        "to": "2014-05-22T00:00:00",
+        "count": 4
+      },
+      {
+        "from": "2014-05-22T00:00:00",
+        "to": "2014-05-22T00:00:00",
+        "count": 5
+      },
+      {
+        "from": "2014-05-22T00:00:00",
+        "to": "2014-05-22T00:00:00",
+        "count": 6
+      },
+      {
+        "from": "2014-05-22T00:00:00",
+        "to": "2014-05-22T00:00:00",
+        "count": 7
+      },
+      {
+        "from": "2014-05-22T00:00:00",
+        "to": "2014-05-22T00:00:00",
+        "count": 8
+      }
+    ],
+    "low_variance_flag": 0,
+    "trust_score": 0.7
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        2.0,
+        3.0,
+        2.0,
+        2.0,
+        2.0,
+        7.0,
+        5.0,
+        4.0,
+        2.0,
+        2.0,
+        5.0,
+        10.0,
+        10.0,
+        10.0,
+        7.0,
+        4.0,
+        2.0,
+        2.0,
+        2.0,
+        10.0,
+        2.0,
+        2.0,
+        4.0,
+        6.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        8.0,
+        2.0,
+        8.0,
+        7.0,
+        8.0,
+        6.0,
+        6.0,
+        2.0,
+        5.0
+      ],
+      "ewma": [
+        2.0,
+        2.3,
+        2.21,
+        2.147,
+        2.1028999999999995,
+        3.57203,
+        4.000420999999999,
+        4.0002946999999995,
+        3.4002062899999994,
+        2.9801444029999997,
+        3.5861010821,
+        5.51027075747,
+        6.857189530229,
+        7.8000326711603,
+        7.56002286981221,
+        6.492016008868546,
+        5.144411206207982,
+        4.2010878443455875,
+        3.540761491041911,
+        5.478533043729337,
+        4.434973130610536,
+        3.704481191427375,
+        3.7931368339991627,
+        4.455195783799414,
+        3.7186370486595894,
+        3.2030459340617123,
+        2.8421321538431985,
+        2.5894925076902386,
+        4.212644755383167,
+        3.5488513287682166,
+        4.884195930137752,
+        5.518937151096426,
+        6.263256005767499,
+        6.1842792040372485,
+        6.128995442826073,
+        4.890296809978251,
+        4.923207766984776
+      ],
+      "sigma": 2.0596678479013018
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 4.923207766984776,
+      "quality_band": [
+        0.8862587850982244,
+        8.960156748871327
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2025-05-31T00:00:00",
+      "materia": "DESARROLLO SUSTENTABLE",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 0,
+      "comentario": "Lo recomiendo para cualquiera que quiera pasar alguna materia de relleno, sus clases son aburridas y lentas, el profesor no toma lista, los trabajos y exámenes son fáciles, puedes faltar todo el semestre e ir solo a los exámenes y aun así te pondría mínimo 85/90"
+    },
+    {
+      "fecha_iso": "2025-03-20T00:00:00",
+      "materia": "DESAROLLO SUSTENTABLE",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 0,
+      "comentario": "los trabajos si son largos pero es literalmente porque lo obligan termina las clases media hora antes, es ver vídeos hacer cualquier cosita en clase y ya. Lo recomiendo solo si quieres pasar con 90 (el 100 se lo regala a los que les cae bien), fuera de eso pues no"
+    },
+    {
+      "fecha_iso": "2025-01-31T00:00:00",
+      "materia": "FUNDAMENTOS DE LA INVESTIGACION",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 0,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2024-12-15T00:00:00",
+      "materia": "FUNDAMENTOS DE INVESTIGACION",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 0,
+      "comentario": "Con todo respeto del mundo, esta clase es regalada, el profesor por su edad no puede manejarse al 100% sus trabajos son medio pesados pero faciles, solamente se ven videos, y no importa si no asistes, el profe no toma ni lista, pero es MUY facil aprobar con el"
+    },
+    {
+      "fecha_iso": "2024-08-10T00:00:00",
+      "materia": "DESARROLLO SUSTENTABLE",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Tremendo crucero, sus clases solo eran ver videos sobre los temas, abecés dejaba tareas o exposiciones y los exámenes super fáciles, puedes comer en clase no hay problema y solo cárgalo si no quieres batallar con esta materia relleno. \nPD(Si no faltas te puede dar puntos extra)"
+    },
+    {
+      "fecha_iso": "2024-06-11T00:00:00",
+      "materia": "DESARROLLO SUSTENTABLE",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "las clases son super aburridas pero no toma lista y si toma nomas la tira a la basura, puedes cargarlo para pasar si o si aunque no aprenderas nada, si lo invitas a comer a los san juan el cancela la clase para ir"
+    },
+    {
+      "fecha_iso": "2024-02-20T00:00:00",
+      "materia": "NO SE",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "No llevaba clases con él y como un morro no llegaba me pidieron que la pidiera por el, como no sabía como se apellidaba, me hicieron señas, es el segundo de la lista, le dije, soy este profe, me dijo tienes 80, le dije que participaba, puso un 90, después le bajo al morro a 85 por platicar en clase"
+    },
+    {
+      "fecha_iso": "2024-01-15T00:00:00",
+      "materia": "FUNDAMENTOS DE INVESTIGACIÓN / DESARROLLO SUSTENTABLE",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 0,
+      "comentario": "¡Extremadamente barco! En ambas materias (Fun. de Investigación y Des. Sustentable) en sus clases solo se pone a leer lo que encuentra en internet, pone cualquier video de youtube, deja trabajos que la mayoría ni los revisa o ya de plano no hace nada. Muchas veces llega tarde o ni llega al salón."
+    },
+    {
+      "fecha_iso": "2023-10-26T00:00:00",
+      "materia": "CIENCIAS",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 1,
+      "comentario": "No se"
+    },
+    {
+      "fecha_iso": "2023-08-10T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2023-06-08T00:00:00",
+      "materia": "DESARROLLO SUSTENTABLE",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 0,
+      "comentario": "El peor profe para cualquier materia, pero si quieres tener garantía de pasar, carga con el, es imposible reprobar, hasta creo que si no asistes en todo el semestre a un así te pasa."
+    },
+    {
+      "fecha_iso": "2023-05-31T00:00:00",
+      "materia": "DESARRO SUSTENTABLE",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 0,
+      "comentario": "Barco como ningún otro, es un señor tan irresponsable, con cero importancia por la clase que imparte, pone la calificación que se le da la gana, los trabajos de seguro los tira porque nunca vi reflejado alguno y cuando preguntas sobre eso se enoja o te ignora."
+    },
+    {
+      "fecha_iso": "2023-03-29T00:00:00",
+      "materia": "DESARROLLO SUSTENTABLE",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 0,
+      "comentario": "Este profesor no te toma en cuenta la calificación que debes llevar realmente y pone lo que se le da la regalada gana."
+    },
+    {
+      "fecha_iso": "2023-02-24T00:00:00",
+      "materia": "FUND. INVESTIGACION",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 0,
+      "comentario": "Es el Titanic. Carga con el si quieres pasar la materia y te vale madre aprender, no necesitas asistir a su clase, fui solo la primera semana de ahi ya no supe de el y me puso 90"
+    },
+    {
+      "fecha_iso": "2023-01-15T00:00:00",
+      "materia": "FUNDAMENTOS DE INVESTIGACIÓN",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 0,
+      "comentario": "Epítome de la irresponsabilidad y el desinterés. Su clase consiste en ver videos que busca en el momento. Llega tarde o no viene; es una incertidumbre total. Se duerme durante la clase.\nNo importa lo que hayas hecho, te va a poner la calificación que se le ocurra, que si bien, no baja de 80."
+    },
+    {
+      "fecha_iso": "2021-12-17T00:00:00",
+      "materia": "DESARROLLO SUSTENTABLE (LINEA)",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 0,
+      "comentario": "El profe más barco que he visto, toda su clase es ver videos y de vez en cuando deja una síntesis del video (que no revisa), no toma asistencia y al final te pregunta cuanta calificación quieres. Carga si quieres desayunar o tener hora libre"
+    },
+    {
+      "fecha_iso": "2021-05-11T00:00:00",
+      "materia": "DESARROLLO SUSTENTABLE",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 0,
+      "comentario": "[Opinion desde clases en linea]: Sinceramente, no creo que haya un profe mas barco que el, entra tarde a las clase y cuando entra solo pone un video y ya, deja trabajos como si enseñara y para peor, no los toma en cuenta, al final te pone 90-100. Excelente profe para materias de relleno."
+    },
+    {
+      "fecha_iso": "2020-08-24T00:00:00",
+      "materia": "SISTEMAS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "La neta este profe se la fleta masiso, es bien compare y se agarra cura si cotorrea el wey"
+    },
+    {
+      "fecha_iso": "2020-01-13T00:00:00",
+      "materia": "DESARROLLO SUSTENTABLE",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 0,
+      "comentario": "Hay barcos y luego está este personaje.\nNo suele ir jueves y viernes, los exámenes \"se le pierden\" y al final tienes 80 por llevar una planta.\nUna materia con él es hora libre, excelente para ir a comer pero no aprendes nada de la materia."
+    },
+    {
+      "fecha_iso": "2019-12-14T00:00:00",
+      "materia": "FUNDAMENTOS DE INVESTIGACION",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 0,
+      "comentario": "No deberia ser maestro, solo pone su tema en internet y lo lee. Califica como le da la gana, no ocupas asistir a su clase para pasar"
+    },
+    {
+      "fecha_iso": "2019-06-07T00:00:00",
+      "materia": "DESARROLLO SUSTENTABLE",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 0,
+      "comentario": "Falta a clases, llega 30 minutos tarde y te califica como quiere\nNo entres a su clase, te pone 100"
+    },
+    {
+      "fecha_iso": "2018-12-08T00:00:00",
+      "materia": "DESARROLLO SUSTENTABLE",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 0,
+      "comentario": "Esta chingón porque puedes usar su clase para ir a comer"
+    },
+    {
+      "fecha_iso": "2018-01-11T00:00:00",
+      "materia": "DESARROLLO  SUSTENTABLE",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "La neta en su clases casi no haces nada, toda lista muy rara vez(las listas las pierde), y sus examenes no tienen logica xD te pedira una planta la cual plantaras y al final te pondra lo que el quiera de todos modos, pero pasaras."
+    },
+    {
+      "fecha_iso": "2017-12-15T00:00:00",
+      "materia": "DESARROLLO SUSTENTABLE",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2017-09-27T00:00:00",
+      "materia": "---",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2017-08-22T00:00:00",
+      "materia": "DESARROLLO SUSTENTABLE",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Aprendí jardinería :v"
+    },
+    {
+      "fecha_iso": "2017-06-08T00:00:00",
+      "materia": "DESARROLLO SUSTENTABLE",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 0,
+      "comentario": "Profesor barco, no haces nada ni aprendes nada, solo pone vídeos en youtube y se duerme en las clases, deja puras exposiciones y al final te califica como el quiere, eso si, puedes faltar a todas sus clases y aun así te pasa"
+    },
+    {
+      "fecha_iso": "2017-01-16T00:00:00",
+      "materia": "FUNDAMENTOS DE INVESTIGACIÓN",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 0,
+      "comentario": "Súper flojo nunca hace nada, al final es buen estricto. Solo es hora libre y te trae como tonto."
+    },
+    {
+      "fecha_iso": "2016-09-22T00:00:00",
+      "materia": "DESARROLLO SUSTENTABLE",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 0,
+      "comentario": "LITERAL NO HACEMOS NADA"
+    },
+    {
+      "fecha_iso": "2016-01-14T00:00:00",
+      "materia": "DESARROLLO SUSTENTABLE",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 3.0,
+      "recomienda": 0,
+      "comentario": "Es de lo peor para enseñar este profesor, no deberia ser profesor, es flojo, se le olvida todo lo que dice, ni vale la pena esforzarse con el, califica como si enseñara muy bien pero no, sus examenes son de preguntas abiertas, todos pasan, pero te pone lo que el quiere."
+    },
+    {
+      "fecha_iso": "2015-12-31T00:00:00",
+      "materia": "FUNDAMENTOS DE INVESTIGACIÓN",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 0,
+      "comentario": "Todos pasan con buena calificación, su clase se presta para hacer relajo y el profe no hace nada, exámenes confusos y también su manera de calificar, no enseña nada."
+    },
+    {
+      "fecha_iso": "2015-12-23T00:00:00",
+      "materia": "FUND. INVESTIGACION",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "le hace falta ser un poco mas estricto con sus alumnos"
+    },
+    {
+      "fecha_iso": "2015-10-01T00:00:00",
+      "materia": "SISTEMAS",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": "la neta este profe deberia estar ya jubiladito agusto disfrutando del resto de la vida pero en realidad me cae bien y me agrada su pasiencia y serenidad con la que explica, lo que la caga es el mendigo relajo que hacen los demas compañeros del salon, por lo que al profe le falta ser mas estricto."
+    },
+    {
+      "fecha_iso": "2015-05-04T00:00:00",
+      "materia": "LA QUE DE",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "UN ASCO"
+    },
+    {
+      "fecha_iso": "2014-11-04T00:00:00",
+      "materia": "PROGRAMACION BASICA",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Sujeto inutil, porque maestro no es, solo llega tarde 10 minutos en bajar el tablerito ese para proyectar una imagen y leer de ahi toda la clase, para colmo se la tira de exigente y efectivamente tiene el descaro de opinar que sus grupos son inutiles, ahora estoy sufriendo en metodos numericos"
+    },
+    {
+      "fecha_iso": "2014-06-02T00:00:00",
+      "materia": "PROGRAMACIÓN BÁSICA",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2014-05-31T00:00:00",
+      "materia": "PROGRAMACION BASICA",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "\"Maestro\" inutil, no explica, no ayuda, te repueba por una tonteria, y para colmo segun escuche piensa lo mismo de sus grupos, que son inutiles, solo espero que el siguiente semestre no me valla tan mal en programacion, porque con Gamez no se aprende NADA"
+    },
+    {
+      "fecha_iso": "2014-05-22T00:00:00",
+      "materia": "PROGRAMACIÓN BASICA",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Ese \"profesor\" solo se pone a leer las cosas que pone en la clase, deberíamos de trabajar en computadora haciendo ejemplos pero ni eso hacemos, en cambio deja \"tareas\" que nadie entiende ni sabe como hacer sobre un tema que la verdad no sabe explicar."
+    },
+    {
+      "fecha_iso": "2014-05-22T00:00:00",
+      "materia": "PROGRAMACION BASICA",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": 5.0,
+      "recomienda": 0,
+      "comentario": "No se le puede llamar profesor, todo lo que hace es ponerse a leer, no explicar, lo que pone en el cañón y nunca se trabaja en computadora en su clase siendo de programación."
+    },
+    {
+      "fecha_iso": "2014-05-22T00:00:00",
+      "materia": "PROGRAMACION",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 4.5,
+      "recomienda": 0,
+      "comentario": "lo recomiendo si quieren pasar sii qieren aprender no"
+    },
+    {
+      "fecha_iso": "2014-05-22T00:00:00",
+      "materia": "PROGRAMACION BASICA",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 3.0,
+      "recomienda": 0,
+      "comentario": "Tal vez el si sabe mucho de programacion, pero de verdad esta claro que no sirve para enseñar. Nunca haacemos ejemplos en grupo o algo por el estilo, siendo que deberiamos hacer como unos 5 diarios."
+    },
+    {
+      "fecha_iso": "2014-05-22T00:00:00",
+      "materia": "PROGRAMACIÓN BÁSICA",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 1.0,
+      "recomienda": 0,
+      "comentario": "Muy mal profesor, nadie debería cargar con el."
+    },
+    {
+      "fecha_iso": "2014-05-22T00:00:00",
+      "materia": "PROGRAMACIÓN BÁSICA",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "No da ejemplos de lo que explica, lo cual solo quiere decir que no sabe nada, yo no lo recomiendo, a menos de que quieras una hora para descansar y no aprender nada"
+    },
+    {
+      "fecha_iso": "2014-05-22T00:00:00",
+      "materia": "---",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2014-05-22T00:00:00",
+      "materia": "PROGRAMACIÓN BÁSICA",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "No sabe explicar y no enseña nada >."
+    },
+    {
+      "fecha_iso": "2013-11-26T00:00:00",
+      "materia": "FUNDAMENTOS DE BASE DE DATOS",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Asco"
+    },
+    {
+      "fecha_iso": "2013-11-26T00:00:00",
+      "materia": "FUNDAMENTOS DE BASES DE DATOS",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "No sabe del tema, no explica nada bien y deja cosas como si nos enseñara a hacerlas, si le pides que te enseñe SQL te dice \"Busca tutoriales en internet\".\nSi eres flojo como el Pedro(5to semestre) y quieres pasar sin aprender, solo copiando, éste profesor es para ti."
+    },
+    {
+      "fecha_iso": "2013-11-06T00:00:00",
+      "materia": "BASE DE DATOS",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 1.0,
+      "recomienda": 0,
+      "comentario": "Es muy mal maestro, pero pasas"
+    }
+  ],
+  "comments_recent": [
+    "Lo recomiendo para cualquiera que quiera pasar alguna materia de relleno, sus clases son aburridas y lentas, el profesor no toma lista, los trabajos y exámenes son fáciles, puedes faltar todo el semestre e ir solo a los exámenes y aun así te pondría mínimo 85/90",
+    "los trabajos si son largos pero es literalmente porque lo obligan termina las clases media hora antes, es ver vídeos hacer cualquier cosita en clase y ya. Lo recomiendo solo si quieres pasar con 90 (el 100 se lo regala a los que les cae bien), fuera de eso pues no",
+    "Con todo respeto del mundo, esta clase es regalada, el profesor por su edad no puede manejarse al 100% sus trabajos son medio pesados pero faciles, solamente se ven videos, y no importa si no asistes, el profe no toma ni lista, pero es MUY facil aprobar con el",
+    "Tremendo crucero, sus clases solo eran ver videos sobre los temas, abecés dejaba tareas o exposiciones y los exámenes super fáciles, puedes comer en clase no hay problema y solo cárgalo si no quieres batallar con esta materia relleno. \nPD(Si no faltas te puede dar puntos extra)",
+    "las clases son super aburridas pero no toma lista y si toma nomas la tira a la basura, puedes cargarlo para pasar si o si aunque no aprenderas nada, si lo invitas a comer a los san juan el cancela la clase para ir",
+    "No llevaba clases con él y como un morro no llegaba me pidieron que la pidiera por el, como no sabía como se apellidaba, me hicieron señas, es el segundo de la lista, le dije, soy este profe, me dijo tienes 80, le dije que participaba, puso un 90, después le bajo al morro a 85 por platicar en clase",
+    "¡Extremadamente barco! En ambas materias (Fun. de Investigación y Des. Sustentable) en sus clases solo se pone a leer lo que encuentra en internet, pone cualquier video de youtube, deja trabajos que la mayoría ni los revisa o ya de plano no hace nada. Muchas veces llega tarde o ni llega al salón.",
+    "No se",
+    "[Comentario esperando revisión]"
+  ],
+  "n_reviews": 48
+}

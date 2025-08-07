@@ -1,0 +1,69 @@
+{
+  "nombre": "Manuel Garcia",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "ciudad": "Ciudad: culiacan, sinaloa",
+  "departamento": "Departamento/Facultad: Admisnistracion",
+  "calidad_general": 8.7,
+  "porcentaje_recomienda": 100,
+  "nivel_dificultad": 1.3,
+  "etiquetas": [
+    "LA PARTICIPACIÓN IMPORTA (2)",
+    "ASISTENCIA OBLIGATORIA (1)",
+    "ASPECTOS DE CALIFICACIÓN CLAROS (1)",
+    "DA CRÉDITO EXTRA (1)",
+    "POCOS EXÁMENES (1)"
+  ],
+  "numero_calificaciones": 3,
+  "calificaciones": [
+    {
+      "fecha": "08/Ago/2017",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 8.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Taller de liderazgo",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "Su clase fue muy fácil, deja trabajos de investigación fáciles y si los tienes todos, pasas. El examen lo hacen los alumnos, al menos en mi clase. Lo volvería a cargar sin duda. Nunca falten.",
+      "etiquetas_comentario": [
+        "La Participación Importa",
+        "Da Crédito Extra",
+        "Pocos Exámenes"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "07/May/2017",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Taller de Liderazgo",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "Es muy buen profesor.",
+      "etiquetas_comentario": [
+        "La Participación Importa",
+        "Asistencia obligatoria",
+        "Aspectos de calificación claros"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "25/Ene/2014",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 8.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Fundamentos de Investigacion",
+      "asistencia": "",
+      "calificacion_recibida": "10",
+      "interes_clase": "10",
+      "comentario": "Muy humanista el profesor, no faltando te pasa y muy bien la verdad, hay k saber ser callado a la hora de explicar :) lo recomiendo ampliamente",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    }
+  ]
+}

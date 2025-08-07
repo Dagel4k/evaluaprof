@@ -1,0 +1,560 @@
+{
+  "professor_id": "Maria_Lourdes_Armenta_Lindoro",
+  "nombre": "Maria Lourdes Armenta Lindoro",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 3.314454177934647,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 4.217242688947968,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.029,
+    "wilson_interval": [
+      0.005061361365853357,
+      0.14533409093271313
+    ],
+    "n_recommendations": 35
+  },
+  "subject_normalization": {
+    "z_mean": -1.06,
+    "z_mean_decayed": -1.25,
+    "per_subject": [
+      {
+        "materia": "---",
+        "z_decayed": 1.4344005554680677,
+        "n": 521
+      },
+      {
+        "materia": "FUNDAMENTOS DE LA INVESTIGACION",
+        "z_decayed": -0.5866353802806663,
+        "n": 6
+      },
+      {
+        "materia": "PROGRAMACION BASICA",
+        "z_decayed": -0.7368729747093928,
+        "n": 9
+      },
+      {
+        "materia": "PROGRAMACION",
+        "z_decayed": -0.9164227177903401,
+        "n": 20
+      },
+      {
+        "materia": "FUNDAMENTOS DE PROGRAMACION",
+        "z_decayed": -0.967840795010274,
+        "n": 43
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "clases",
+          "sabe explicar",
+          "dar",
+          "bien",
+          "sabe"
+        ],
+        "weight": 0.08228902397565668
+      },
+      {
+        "id": 1,
+        "words": [
+          "te pide",
+          "es",
+          "ejercicios",
+          "tienes",
+          "te"
+        ],
+        "weight": 0.08581299085140709
+      },
+      {
+        "id": 2,
+        "words": [
+          "portafolio",
+          "portafolio mas",
+          "explicar",
+          "claridad",
+          "mas"
+        ],
+        "weight": 0.10357911112247277
+      },
+      {
+        "id": 3,
+        "words": [
+          "casi",
+          "tu",
+          "da",
+          "profe",
+          "es"
+        ],
+        "weight": 0.14685953929440793
+      },
+      {
+        "id": 4,
+        "words": [
+          "da clases",
+          "ahi",
+          "libro",
+          "ensena",
+          "maestra"
+        ],
+        "weight": 0.08526846525562777
+      }
+    ],
+    "sentiment": {
+      "overall": -0.07407407407407407,
+      "by_month": {
+        "2025-05": 1.0,
+        "2025-03": 0.0,
+        "2023-06": 0.0,
+        "2023-01": 0.0,
+        "2022-05": -0.5,
+        "2022-01": 0.0,
+        "2021-09": 0.0,
+        "2021-08": 0.0,
+        "2021-06": 0.0,
+        "2021-02": 0.0,
+        "2020-12": -1.0,
+        "2020-11": 0.0,
+        "2020-09": 0.0,
+        "2020-08": 0.0,
+        "2020-06": 0.0,
+        "2019-02": -1.0,
+        "2017-11": 0.0,
+        "2017-10": 0.0,
+        "2017-08": 0.0,
+        "2017-04": 0.0,
+        "2016-08": 0.0,
+        "2016-02": 0.0,
+        "2015-12": 0.0,
+        "2015-10": 0.0
+      }
+    },
+    "n_comments": 27
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        10.0,
+        5.0,
+        2.0,
+        5.0,
+        2.0,
+        5.0,
+        5.0,
+        2.0,
+        3.5,
+        3.0,
+        3.0,
+        4.0,
+        3.0,
+        3.0,
+        2.5,
+        3.0,
+        2.0,
+        4.0,
+        4.0,
+        3.0,
+        2.0,
+        4.0,
+        3.0,
+        3.5,
+        6.0,
+        2.0,
+        4.0,
+        2.0
+      ],
+      "ewma": [
+        10.0,
+        8.5,
+        6.549999999999999,
+        6.084999999999999,
+        4.859499999999999,
+        4.901649999999999,
+        4.931154999999999,
+        4.051808499999999,
+        3.8862659499999994,
+        3.6203861649999993,
+        3.434270315499999,
+        3.603989220849999,
+        3.4227924545949993,
+        3.295954718216499,
+        3.0571683027515495,
+        3.0400178119260843,
+        2.728012468348259,
+        3.1096087278437814,
+        3.3767261094906464,
+        3.2637082766434524,
+        2.8845957936504165,
+        3.2192170555552915,
+        3.1534519388887037,
+        3.257416357222093,
+        4.080191450055464,
+        3.456134015038825,
+        3.619293810527177,
+        3.1335056673690236
+      ],
+      "sigma": 1.3514321783987884
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 3.1335056673690236,
+      "quality_band": [
+        0.48469859770739854,
+        5.782312737030649
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2025-05-22T00:00:00",
+      "materia": "POO (PROGRAMACIÓN ORIENTADA A OBJETOS)",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 7.5,
+      "recomienda": 0,
+      "comentario": "Tendrás que investigar y practicar por tu cuenta. Los trabajos que deja en GitHub van a ocupar la mayoría de tus tardes. Ten muy buen ojo con los AppTest y el autograding (y NUNCA los modifiques) esta profe siempre se equivoca mucho en eso. Da 1 hr para examen teórico y práctico, y es presencial."
+    },
+    {
+      "fecha_iso": "2025-03-20T00:00:00",
+      "materia": "TUTORÍAS",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 25.0,
+      "recomienda": 0,
+      "comentario": "No sabe tomar lista bien (me reprobó por eso)"
+    },
+    {
+      "fecha_iso": "2025-03-20T00:00:00",
+      "materia": "POO",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 0,
+      "comentario": "no se yo la califico porque un amigo me dijo que le pusiera 0 en todo"
+    },
+    {
+      "fecha_iso": "2023-06-05T00:00:00",
+      "materia": "FUNDAMENTOS EN PROGRAMACIÓN Y ALGORITMOS",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 22.0,
+      "recomienda": 0,
+      "comentario": "No brinda la ayuda necesaria ante dudas, sus exámenes tienen poco que ver con los temas vistos por no decir que son diferentes, El material de estudio No tiene nada que ver con el examen. No explica lo suficiente para entender funciones en c."
+    },
+    {
+      "fecha_iso": "2023-01-13T00:00:00",
+      "materia": "FUNDAMENTOS DE PROGRAMACIÓN",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": "No es la mejor explicando, sin embargo no considero que sea una profe mala en lo que hace siendo alguien que no conocía la programación pude entender la mayor parte de sus clases, eso si, deja muchos trabajos y en un tiempo casi imposible a menos que estés todo el día haciendo sus tareas"
+    },
+    {
+      "fecha_iso": "2022-05-23T00:00:00",
+      "materia": "PROGRAMACION BASICA",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 23.0,
+      "recomienda": 0,
+      "comentario": "en general no te apoya si tienes alguna duda con un ejercicio, piensa que con lo que enseña es suficiente para hacer la gran cantidad de ejercicios que te pide, ademas que al principio dice una cosa pero al final la cambia y no te lo toma en cuenta"
+    },
+    {
+      "fecha_iso": "2022-05-18T00:00:00",
+      "materia": "FUNDAMENTOS DE PROGRAMACION",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 22.0,
+      "recomienda": 0,
+      "comentario": "Enseña normal, algo confuso... Si no sabes sobre programación probablemente te de problemas. Utilizar un libro de JAVA, copea todos los ejercicios de ahí. Te pide un portafolio con todos los programas del semestre en PSeInt y JAVA."
+    },
+    {
+      "fecha_iso": "2022-02-22T00:00:00",
+      "materia": "FUNDAMENTOS DE PROGRAMACION",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 0,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2022-01-31T00:00:00",
+      "materia": "ING. EN SISTEMAS",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 7.5,
+      "recomienda": 0,
+      "comentario": "Preparence porque esta materia es complicada no por la materia si no por la profesora, da sus clases sin gaas"
+    },
+    {
+      "fecha_iso": "2021-09-08T00:00:00",
+      "materia": "FUNDAMENTOS DE PROGRAMACIÓN",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 0,
+      "comentario": "se ve que sabe pero no sabe dar clases"
+    },
+    {
+      "fecha_iso": "2021-08-24T00:00:00",
+      "materia": "FUNDAMENTOS DE PROGRAMACIÓN",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 0,
+      "comentario": "No recomendada, estresante de inicio a fin, sino sabes nada de logica de programacion no hace mas que confundirte mas de lo que ya estabas, deja un portafolio como de mas de 200 hojas y le da 3 ojeadas y califica como sea"
+    },
+    {
+      "fecha_iso": "2021-06-18T00:00:00",
+      "materia": "FUND. DE PROGRAMACIÓN",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 0,
+      "comentario": "Clase aburridísima, casi todos los códigos los copia de un libro y apenas sabe explicarlos. La clase trata de copiar los códigos y a veces deja tareas largas. \nTodos los exámenes son 100% teóricos y la evaluación final es hacer un portafolio de +130 págs."
+    },
+    {
+      "fecha_iso": "2021-02-03T00:00:00",
+      "materia": "FUNDAMENTOS DE PROGRAMACIÓN",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 0,
+      "comentario": "Le hice un portafolio de más de 150 paginas y apenas pude pasar, enseña pura practica y los exámenes son de teoría"
+    },
+    {
+      "fecha_iso": "2021-01-21T00:00:00",
+      "materia": "FUNDAMENTOS DE LA PROGRAMACION",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 0,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2020-12-04T00:00:00",
+      "materia": "FUNDAMENTOS DE PROGRAMACION",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": 7.5,
+      "recomienda": 0,
+      "comentario": "va muy rapido si se le pregunta sobre una duda y no te la sabe responder se va de la clase y listo asi lo soluciona.\nYa para salir empieza a pedir un chorro de tarea y pone la materia mas dificil de lo que ya esta porque no sabe explicar y se enreda sola."
+    },
+    {
+      "fecha_iso": "2020-11-12T00:00:00",
+      "materia": "FUNDAMENTOS DE PROGRAMACION",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": 7.5,
+      "recomienda": 0,
+      "comentario": "XDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD\njaja NO"
+    },
+    {
+      "fecha_iso": "2020-11-03T00:00:00",
+      "materia": "FUNDAMENTOS DE PROGRAMACION",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2020-09-25T00:00:00",
+      "materia": "FUNDAMENTOS DE PROGRAMACION UWU",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 0,
+      "comentario": "Si buscas una combinación entre estrés y desesperación al final del semestre, esta es tu profe indicada xDD"
+    },
+    {
+      "fecha_iso": "2020-08-25T00:00:00",
+      "materia": "FUNDAMENTOS DE PROGRAMACION",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 0,
+      "comentario": "XD"
+    },
+    {
+      "fecha_iso": "2020-06-10T00:00:00",
+      "materia": "FUNDAMENTOS DE PROGRAMACION",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 0,
+      "comentario": "omg, nunca pensé que conoceria a una maestra de programacion tan enredosa y estresante. grita en las clases, va volando y pide un portafolio de 800 mil hojas que a final de semestre le da 3 ojeadas, tanto matarse para nada. busca un maestro con el cual aprender"
+    },
+    {
+      "fecha_iso": "2019-02-23T00:00:00",
+      "materia": "FUNDAMENTOS DE PROGRAMACIÓN",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 0,
+      "comentario": "Horrible. Es estresante pasar el curso con ella. Va demasiado rápido en las clases, casi no da tiempo para anotar los códigos, es imposible poder comprender lo que dice y anotar porque casi no da tiempo. Y en la evaluación final es voluble, excenta a quien se le da la gana y se pone de malas."
+    },
+    {
+      "fecha_iso": "2018-10-10T00:00:00",
+      "materia": "FUNDAMENTOS DE PROGRAMACIÓN",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": 23.0,
+      "recomienda": 0,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2017-12-15T00:00:00",
+      "materia": "FUNDAMENTOS DE PROGRAMACION",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2017-12-03T00:00:00",
+      "materia": "FUNDAMENTOS DE LA INVESTIGACION",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 0,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2017-11-17T00:00:00",
+      "materia": "FUNDAMENTOS DE PROGRAMACIÓN",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 23.0,
+      "recomienda": 0,
+      "comentario": "Se pasa de vrg en los exámenes, no te valora nada es o te salió como ella quería o tienes 0. Que se valla al carrer."
+    },
+    {
+      "fecha_iso": "2017-11-16T00:00:00",
+      "materia": "FUNDAMENTOS DE LA PROGRAMACIÓN",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": "No sabe explicar, copia todo de internet, deja como 40 tareas a la semana que ni revisa y cuando lo hace te dice que mejor ni lo hubieras entregado porque te faltaron 3 ejercicios de 40, no se haber al dialogo, según ella siempre esta en lo correcto y los alumnos no la pueden corregir, peor profesor"
+    },
+    {
+      "fecha_iso": "2017-11-14T00:00:00",
+      "materia": "INTRO SISTEMAS",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 0,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2017-10-09T00:00:00",
+      "materia": "FUNDAMENTOS DE LA PROGRAMACIÓN",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 0,
+      "comentario": "No sabe explicar bien y hace los trabajos muy rápido y no da tiempo para hacerlos"
+    },
+    {
+      "fecha_iso": "2017-08-08T00:00:00",
+      "materia": "SORFTWARE CON APLICAION A LO EJECUTIVO",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "asistiendo a sus clases pasas es cuestion de llevarle la corriente casi no sabe acerca de la clase, pero si no haces sus tareas te va a reprobar"
+    },
+    {
+      "fecha_iso": "2017-04-28T00:00:00",
+      "materia": "FUNDAMENTOS DE PROGRAMACION",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "no enseña nada, no deberia estar en el tec, no sirve para nada esta maestra."
+    },
+    {
+      "fecha_iso": "2017-04-27T00:00:00",
+      "materia": "FUNDAMENTOS",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2016-08-13T00:00:00",
+      "materia": "FUNDAMENTOS DE PROGRAMACION",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": "Se basaba en un libro para dar la clase, en mi opinion aveces no sabia explicar con claridad, dejaba muchisimas tareas, era muy voluble con los alumnos y en epoca de examenes estricta.\nTuve que aprender por cuenta propia para poder pasar, no la recomiendo para nada."
+    },
+    {
+      "fecha_iso": "2016-02-05T00:00:00",
+      "materia": "PROGRAMACION",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 0,
+      "comentario": "Maestra de libro (literal da las clases leyendo un libro y copiando lo que viene ahi para \"programar\") pésima maestra, no enseña nada mas que su trasero y sus senos realmente mala maestra... fácil para pasar con ella solo hacer los trabajos (que vienen en el libro ese juego lo juegan los alumnos)"
+    },
+    {
+      "fecha_iso": "2015-12-23T00:00:00",
+      "materia": "PROGRAMACION",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 7.5,
+      "recomienda": 0,
+      "comentario": "debe de explicar con mas claridad"
+    },
+    {
+      "fecha_iso": "2015-10-19T00:00:00",
+      "materia": "---",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "[Comentario esperando revisión]"
+    }
+  ],
+  "comments_recent": [
+    "Tendrás que investigar y practicar por tu cuenta. Los trabajos que deja en GitHub van a ocupar la mayoría de tus tardes. Ten muy buen ojo con los AppTest y el autograding (y NUNCA los modifiques) esta profe siempre se equivoca mucho en eso. Da 1 hr para examen teórico y práctico, y es presencial.",
+    "No sabe tomar lista bien (me reprobó por eso)",
+    "no se yo la califico porque un amigo me dijo que le pusiera 0 en todo",
+    "No brinda la ayuda necesaria ante dudas, sus exámenes tienen poco que ver con los temas vistos por no decir que son diferentes, El material de estudio No tiene nada que ver con el examen. No explica lo suficiente para entender funciones en c.",
+    "No es la mejor explicando, sin embargo no considero que sea una profe mala en lo que hace siendo alguien que no conocía la programación pude entender la mayor parte de sus clases, eso si, deja muchos trabajos y en un tiempo casi imposible a menos que estés todo el día haciendo sus tareas",
+    "en general no te apoya si tienes alguna duda con un ejercicio, piensa que con lo que enseña es suficiente para hacer la gran cantidad de ejercicios que te pide, ademas que al principio dice una cosa pero al final la cambia y no te lo toma en cuenta",
+    "Enseña normal, algo confuso... Si no sabes sobre programación probablemente te de problemas. Utilizar un libro de JAVA, copea todos los ejercicios de ahí. Te pide un portafolio con todos los programas del semestre en PSeInt y JAVA.",
+    "Preparence porque esta materia es complicada no por la materia si no por la profesora, da sus clases sin gaas",
+    "se ve que sabe pero no sabe dar clases"
+  ],
+  "n_reviews": 35
+}

@@ -1,0 +1,207 @@
+{
+  "professor_id": "BENJAMIN_BERRELEZA_ALDAPA",
+  "nombre": "BENJAMIN BERRELEZA ALDAPA",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 9.56051944926949,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.927995353097562,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 1.0,
+    "wilson_interval": [
+      0.6456611570247934,
+      1
+    ],
+    "n_recommendations": 7
+  },
+  "subject_normalization": {
+    "z_mean": 0.99,
+    "z_mean_decayed": 0.96,
+    "per_subject": [
+      {
+        "materia": "---",
+        "z_decayed": 1.4344005554680677,
+        "n": 521
+      },
+      {
+        "materia": "PROBABILIDAD Y ESTADISTICA",
+        "z_decayed": 0.5406606374607077,
+        "n": 32
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "da muchas",
+          "te",
+          "muchas oportunidades",
+          "oportunidades",
+          "muchas"
+        ],
+        "weight": 0.19552170959344523
+      },
+      {
+        "id": 1,
+        "words": [
+          "es",
+          "deja",
+          "examenes",
+          "explica",
+          "clases"
+        ],
+        "weight": 0.20101656605603738
+      },
+      {
+        "id": 2,
+        "words": [
+          "te",
+          "echale",
+          "echale ganas",
+          "ganas",
+          "es"
+        ],
+        "weight": 0.21785684522151325
+      }
+    ],
+    "sentiment": {
+      "overall": 0.14285714285714285,
+      "by_month": {
+        "2025-08": 1.0,
+        "2023-01": 0.0,
+        "2018-06": 0.0,
+        "2013-01": 0.0,
+        "2012-08": 0.0,
+        "2011-12": 0.0
+      }
+    },
+    "n_comments": 7
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        10.0,
+        10.0,
+        9.5,
+        7.0,
+        9.0,
+        10.0
+      ],
+      "ewma": [
+        10.0,
+        10.0,
+        9.85,
+        8.995,
+        8.9965,
+        9.29755
+      ],
+      "sigma": 0.9108485899149209
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 9.29755,
+      "quality_band": [
+        7.512286763766754,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2025-08-04T00:00:00",
+      "materia": "INVESTIGACION DE OPERACIONES 2",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Gran profesor, de los pocos profesores que siento que aprendí algo y lo puedo aplicar en la vida real, explica excelente, sus clases son muy buenas, lo recomiendo muchoo"
+    },
+    {
+      "fecha_iso": "2023-01-21T00:00:00",
+      "materia": "PRODUCTOS",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Si deja un proyecto super extenso pero vale la pena porque se retoman muchas cosas de la carrera. Hay que leer e investigar pero da muchas oportunidades"
+    },
+    {
+      "fecha_iso": "2018-06-06T00:00:00",
+      "materia": "INGENIERIA EN PRODUCTOS",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 1,
+      "comentario": "Las clases son el hablando y explicando diapositivas, los examenes son en canvas y todo los saca de un archivo en PDF. Falta demasiado hasta 2 semanas seguidas pero cuando va deja varios trabajos y es muy fijado a la hora de calificar. Sin embargo con tantas faltas no se aprende nada"
+    },
+    {
+      "fecha_iso": "2013-01-10T00:00:00",
+      "materia": "PROBABILIDAD Y ESTADISTICA, INVESTIGACION DE OPERACIONE",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "esta facil siempre y cuando pongas atencion, toma mucho en cuenta las tareas (cada una hasta llegan a valer 2 puntos de calificacion final), explica muy bien y te da muchas oportunidades de pasar, solo en los examenes ponganse abusados por que le gusta mucho que se quebren la cabeza pensando I"
+    },
+    {
+      "fecha_iso": "2013-01-10T00:00:00",
+      "materia": "PROBABILIDAD Y ESTADISTICA",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "eCHALE GANAS ES CUESTION DE ACTITUD.\nMUY BUEN MAESTRO PERO ES ALGO EXIGENTE."
+    },
+    {
+      "fecha_iso": "2012-08-24T00:00:00",
+      "materia": "---",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2011-12-14T00:00:00",
+      "materia": "PROBABILIDAD Y ESTADISTICA,SIMULACION",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "ECHALE GANAS Y PASAS CON EL MUCHAS OPORTUNIDADES,\nPEROSI NO TE APLICAS TE REPRUEBA\n\nPASA ENTRE EL 65 Y 70%"
+    }
+  ],
+  "comments_recent": [
+    "Gran profesor, de los pocos profesores que siento que aprendí algo y lo puedo aplicar en la vida real, explica excelente, sus clases son muy buenas, lo recomiendo muchoo",
+    "Si deja un proyecto super extenso pero vale la pena porque se retoman muchas cosas de la carrera. Hay que leer e investigar pero da muchas oportunidades",
+    "Las clases son el hablando y explicando diapositivas, los examenes son en canvas y todo los saca de un archivo en PDF. Falta demasiado hasta 2 semanas seguidas pero cuando va deja varios trabajos y es muy fijado a la hora de calificar. Sin embargo con tantas faltas no se aprende nada",
+    "esta facil siempre y cuando pongas atencion, toma mucho en cuenta las tareas (cada una hasta llegan a valer 2 puntos de calificacion final), explica muy bien y te da muchas oportunidades de pasar, solo en los examenes ponganse abusados por que le gusta mucho que se quebren la cabeza pensando I",
+    "eCHALE GANAS ES CUESTION DE ACTITUD.\nMUY BUEN MAESTRO PERO ES ALGO EXIGENTE.",
+    "[Comentario esperando revisión]",
+    "ECHALE GANAS Y PASAS CON EL MUCHAS OPORTUNIDADES,\nPEROSI NO TE APLICAS TE REPRUEBA\n\nPASA ENTRE EL 65 Y 70%"
+  ],
+  "n_reviews": 7
+}

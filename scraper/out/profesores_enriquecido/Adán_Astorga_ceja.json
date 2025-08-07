@@ -1,0 +1,144 @@
+{
+  "professor_id": "Adán_Astorga_ceja",
+  "nombre": "Adán Astorga ceja",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 9.030207419593152,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.651728066843904,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.8,
+    "wilson_interval": [
+      0.37552826411853885,
+      0.9637768390302125
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": 0.69,
+    "z_mean_decayed": 0.68,
+    "per_subject": [
+      {
+        "materia": "FUNDAMENTOS DE INVESTIGACIÓN",
+        "z_decayed": 1.065668838709187,
+        "n": 29
+      },
+      {
+        "materia": "ENTORNO MACROECONÓMICO",
+        "z_decayed": 0.9491579957524988,
+        "n": 3
+      },
+      {
+        "materia": "ANÁLISIS DE LA REALIDAD NACIONAL",
+        "z_decayed": 0.3121269197100016,
+        "n": 5
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [],
+    "sentiment": {
+      "overall": null,
+      "by_month": {}
+    },
+    "n_comments": 2
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        10.0,
+        8.0,
+        10.0,
+        9.0
+      ],
+      "ewma": [
+        10.0,
+        9.4,
+        9.58,
+        9.405999999999999
+      ],
+      "sigma": 0.7790992662470341
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 9.405999999999999,
+      "quality_band": [
+        7.878965438155812,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2021-01-20T00:00:00",
+      "materia": "ANÁLISIS DE LA REALIDAD NACIONAL",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Es un profe que sabe, te inspira, sus clases no son muy largas, pero lo noté un poco flojo para hacer exámenes, pasas fácil, es accesible, si lees lo que el te dice aprendes"
+    },
+    {
+      "fecha_iso": "2020-10-01T00:00:00",
+      "materia": "FUNDAMENTOS DE INVESTIGACIÓN",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2019-08-08T00:00:00",
+      "materia": "ENTORNO MACROECONÓMICO",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2019-08-04T00:00:00",
+      "materia": "FUNDAMENTO DE INVESTIGACIÓN",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 0,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2018-06-21T00:00:00",
+      "materia": "ANÁLISIS DE LA REALIDAD NACIONAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Un profesor que sabe mucho de la materia, se preocupa por sus estudiantes y sabe enseñar. Hace las clases de tres horas muy dinámicas y nada aburridas. Lo recomiendo mucho"
+    }
+  ],
+  "comments_recent": [
+    "Es un profe que sabe, te inspira, sus clases no son muy largas, pero lo noté un poco flojo para hacer exámenes, pasas fácil, es accesible, si lees lo que el te dice aprendes",
+    "Un profesor que sabe mucho de la materia, se preocupa por sus estudiantes y sabe enseñar. Hace las clases de tres horas muy dinámicas y nada aburridas. Lo recomiendo mucho"
+  ],
+  "n_reviews": 5
+}

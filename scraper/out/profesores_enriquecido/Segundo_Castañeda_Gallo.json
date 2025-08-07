@@ -1,0 +1,338 @@
+{
+  "professor_id": "Segundo_Castañeda_Gallo",
+  "nombre": "Segundo Castañeda Gallo",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 5.514546382243351,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.031036840106342,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.733,
+    "wilson_interval": [
+      0.48049110342313245,
+      0.8910272389681717
+    ],
+    "n_recommendations": 15
+  },
+  "subject_normalization": {
+    "z_mean": 0.46,
+    "z_mean_decayed": -0.52,
+    "per_subject": [
+      {
+        "materia": "PROCESOS DE FABRICACION",
+        "z_decayed": 1.1946912201998283,
+        "n": 16
+      },
+      {
+        "materia": "MATERIALES",
+        "z_decayed": 0.9254758647356388,
+        "n": 10
+      },
+      {
+        "materia": "ANÁLISIS DE FLUIDOS",
+        "z_decayed": 0.5143295477813132,
+        "n": 8
+      },
+      {
+        "materia": "CIENCIA E INGENIERÍA DE MATERIALES",
+        "z_decayed": 0.47193990372426964,
+        "n": 5
+      },
+      {
+        "materia": "ANALISIS DE FLUIDOS",
+        "z_decayed": 0.243325667809187,
+        "n": 8
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "pone",
+          "recomiendo",
+          "maestro",
+          "te",
+          "es"
+        ],
+        "weight": 0.13097724679276707
+      },
+      {
+        "id": 1,
+        "words": [
+          "lleva hacer",
+          "hacer",
+          "clase",
+          "profesor",
+          "excelente"
+        ],
+        "weight": 0.10746096759334339
+      },
+      {
+        "id": 2,
+        "words": [
+          "final",
+          "tienes",
+          "clase",
+          "profe",
+          "si"
+        ],
+        "weight": 0.10066674146120194
+      },
+      {
+        "id": 3,
+        "words": [
+          "amor",
+          "es amor",
+          "aprendes",
+          "clases",
+          "buena"
+        ],
+        "weight": 0.13580844105943413
+      },
+      {
+        "id": 4,
+        "words": [
+          "95",
+          "final",
+          "bien",
+          "90",
+          "tienes"
+        ],
+        "weight": 0.12235226472088093
+      }
+    ],
+    "sentiment": {
+      "overall": 0.07692307692307693,
+      "by_month": {
+        "2024-12": -1.0,
+        "2024-06": 0.0,
+        "2024-02": 0.0,
+        "2020-01": 0.0,
+        "2019-11": 0.0,
+        "2019-08": 0.0,
+        "2018-10": 0.0,
+        "2017-12": 0.0,
+        "2013-10": 0.0,
+        "2012-10": 0.0,
+        "2012-03": 0.0,
+        "2011-12": 1.0
+      }
+    },
+    "n_comments": 13
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        10.0,
+        7.0,
+        8.0,
+        2.0,
+        2.0,
+        10.0,
+        10.0,
+        7.5,
+        9.0,
+        9.0,
+        7.0,
+        5.0,
+        2.0
+      ],
+      "ewma": [
+        10.0,
+        9.1,
+        8.77,
+        6.738999999999999,
+        5.317299999999999,
+        6.722109999999999,
+        7.705476999999999,
+        7.643833899999999,
+        8.05068373,
+        8.335478611,
+        7.934835027699998,
+        7.054384519389998,
+        5.538069163572998
+      ],
+      "sigma": 2.3293925916511484
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 5.538069163572998,
+      "quality_band": [
+        0.972459683936747,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2024-12-05T00:00:00",
+      "materia": "MECANISMOS",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 0,
+      "comentario": "En todo el tec es el segundo profesor mas inutil que me ha tocado, el primero es Patron Jr."
+    },
+    {
+      "fecha_iso": "2024-06-11T00:00:00",
+      "materia": "INGENIERÍA DE MATERIALES METÁLICOS",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 0,
+      "comentario": "Es un profe muy relajado, tanto en su forma de ser, como docente. Barquísimo. No aprendes mucho de él, tienes que aprender por tu cuenta si te interesa la clase, pero si no, no hay bronca, a todos les pone 90 0 95 al final. Nomás tienes que entregar trabajos y ya"
+    },
+    {
+      "fecha_iso": "2024-02-19T00:00:00",
+      "materia": "MATERIALES METALICOS",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 1,
+      "comentario": "Clases bastante tranquilas y siempre se nota calmado lo que genera sueño"
+    },
+    {
+      "fecha_iso": "2020-01-12T00:00:00",
+      "materia": "ANÁLISIS DE FLUIDOS",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Falta mucho pero domina bien la materia. Cuando cargas con el tienes un 90 seguro aunque no aprendas mucho."
+    },
+    {
+      "fecha_iso": "2019-11-02T00:00:00",
+      "materia": "ANALISIS DE FLUIDOS",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Muy accesible, brinda ayuda y aclara tus dudas.\nGrande Garcia"
+    },
+    {
+      "fecha_iso": "2019-08-19T00:00:00",
+      "materia": "MECANISMOS",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2019-08-08T00:00:00",
+      "materia": "MECANISMOS",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Pasas con buena calificacion pero no aprendes"
+    },
+    {
+      "fecha_iso": "2018-10-15T00:00:00",
+      "materia": "MATERIALES",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "profe si lee esto, le apesta mucho el rifle, como lo se? , saque 100 :)."
+    },
+    {
+      "fecha_iso": "2017-12-22T00:00:00",
+      "materia": "ANALISIS DE FLUIDOS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Es muy buen maestro, no ves mucho con el pero lo que ves lo ves muy bien, cualquier duda te la responde claramente, es un amor, al final pone 95 a todos anque no hayas ido ni pasado los examenes, lo recomiendo al cien, aprendes y no batallas"
+    },
+    {
+      "fecha_iso": "2013-10-02T00:00:00",
+      "materia": "CIEN E ING DE MATERIALES",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 0,
+      "comentario": "No te enseña nada en su curso, te manda pdf 1-3 dias antes del examen (pdf de 10-30 hojas para preguntar lo menos relevante) y al momento de revisar te pone medios puntos por no ponerlo tal cual dice en los pdf y a veces poniendolo tal cual dice te pone !/2 por que se le dio la gana ¬¬"
+    },
+    {
+      "fecha_iso": "2013-06-07T00:00:00",
+      "materia": "CIENCIA E INGENIERIA DE LOS MATERIALES",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2012-10-19T00:00:00",
+      "materia": "CIENCIA E INGENIERÍA DE MATERIALES",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Sus clases son muy ligths, si aprendes, te lleva a hacer prácticas, es buena onda y es un amor."
+    },
+    {
+      "fecha_iso": "2012-03-25T00:00:00",
+      "materia": "INGENIERIA DE LOS MATERIALES METÁLICOS",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Con este maestro no vas a aprender nada, el único tema que explica es el de las estructuras cristalinas, lo demás ni siquiera lo ve.\nEn conclusión, cuando pases a Materiales 2 con Dominguez, te va a dar cuello porque no sabes nada de  la 1, no lo recomiendo."
+    },
+    {
+      "fecha_iso": "2011-12-31T00:00:00",
+      "materia": "PROCESOS DE FABRICACION",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "excelente su clase, recomendable!"
+    },
+    {
+      "fecha_iso": "2011-12-15T00:00:00",
+      "materia": "PROCESOS DE FABRICACION",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Excelente profesor ademas nos lleva hacer practica"
+    }
+  ],
+  "comments_recent": [
+    "En todo el tec es el segundo profesor mas inutil que me ha tocado, el primero es Patron Jr.",
+    "Es un profe muy relajado, tanto en su forma de ser, como docente. Barquísimo. No aprendes mucho de él, tienes que aprender por tu cuenta si te interesa la clase, pero si no, no hay bronca, a todos les pone 90 0 95 al final. Nomás tienes que entregar trabajos y ya",
+    "Clases bastante tranquilas y siempre se nota calmado lo que genera sueño",
+    "Falta mucho pero domina bien la materia. Cuando cargas con el tienes un 90 seguro aunque no aprendas mucho.",
+    "Muy accesible, brinda ayuda y aclara tus dudas.\nGrande Garcia",
+    "Pasas con buena calificacion pero no aprendes",
+    "profe si lee esto, le apesta mucho el rifle, como lo se? , saque 100 :).",
+    "Es muy buen maestro, no ves mucho con el pero lo que ves lo ves muy bien, cualquier duda te la responde claramente, es un amor, al final pone 95 a todos anque no hayas ido ni pasado los examenes, lo recomiendo al cien, aprendes y no batallas",
+    "No te enseña nada en su curso, te manda pdf 1-3 dias antes del examen (pdf de 10-30 hojas para preguntar lo menos relevante) y al momento de revisar te pone medios puntos por no ponerlo tal cual dice en los pdf y a veces poniendolo tal cual dice te pone !/2 por que se le dio la gana ¬¬"
+  ],
+  "n_reviews": 15
+}

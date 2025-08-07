@@ -1,0 +1,246 @@
+{
+  "professor_id": "Kevin_Fernando_Castro_Guillen",
+  "nombre": "Kevin Fernando Castro Guillen",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 5.302786289181173,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 6.303995842245188,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.333,
+    "wilson_interval": [
+      0.12058159868274292,
+      0.6458026525009103
+    ],
+    "n_recommendations": 9
+  },
+  "subject_normalization": {
+    "z_mean": -0.03,
+    "z_mean_decayed": -0.08,
+    "per_subject": [
+      {
+        "materia": "MECANISMOS",
+        "z_decayed": 0.15335842486650716,
+        "n": 27
+      },
+      {
+        "materia": "SEMINARIO",
+        "z_decayed": -0.4588314677411235,
+        "n": 3
+      },
+      {
+        "materia": "CUALQUIERA",
+        "z_decayed": -0.75955452531275,
+        "n": 6
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "saber si",
+          "egocentrico",
+          "saber",
+          "es",
+          "si"
+        ],
+        "weight": 0.1258934983216377
+      },
+      {
+        "id": 1,
+        "words": [
+          "clases",
+          "si",
+          "solo",
+          "es",
+          "aparte"
+        ],
+        "weight": 0.14706640792888756
+      },
+      {
+        "id": 2,
+        "words": [
+          "profesor",
+          "casi",
+          "es",
+          "clases",
+          "da"
+        ],
+        "weight": 0.17523923951857126
+      },
+      {
+        "id": 3,
+        "words": [
+          "cosas",
+          "si",
+          "final",
+          "proyectos",
+          "te"
+        ],
+        "weight": 0.18253596751981074
+      }
+    ],
+    "sentiment": {
+      "overall": 0.1111111111111111,
+      "by_month": {
+        "2022-02": 0.0,
+        "2021-12": 0.0,
+        "2021-08": 0.0,
+        "2021-01": 0.0,
+        "2020-08": 0.0,
+        "2019-06": 0.0,
+        "2019-01": 0.5
+      }
+    },
+    "n_comments": 9
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        7.0,
+        7.0,
+        6.0,
+        4.0,
+        2.5,
+        6.0,
+        8.0
+      ],
+      "ewma": [
+        7.0,
+        7.0,
+        6.699999999999999,
+        5.89,
+        4.872999999999999,
+        5.211099999999999,
+        6.047769999999999
+      ],
+      "sigma": 1.4956353402595612
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 6.047769999999999,
+      "quality_band": [
+        3.116324733091259,
+        8.979215266908739
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2022-02-18T00:00:00",
+      "materia": "MECANISMOS",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Es egocéntrico, pero es realista, no soporta a la gente mediocre y solo se molesta si le preguntas cosas de matemáticas básicas, pues es obvio que ya debes de saber. Eso sí, gastarás mucho en proyectos."
+    },
+    {
+      "fecha_iso": "2021-12-28T00:00:00",
+      "materia": "MECANISMOS",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 0,
+      "comentario": "Es un buen maestro, algo egocentrico y con una claridad bastante buena en sus peticiones en la mayoria de los casos. pero no ayuda en casi nada y a veces al dar tu opinion o querer saber si hacerlo de tal o cual manera esta bien te dice que o y al final si alguien mas lo plantea lo toma como 10"
+    },
+    {
+      "fecha_iso": "2021-08-19T00:00:00",
+      "materia": "CUALQUIERA",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Con las clases en linea queda demostrado que este Hipster no sabe nada de Mecatrónica, es un Industrial que no sé porque da en esta carrera. Mejor que se dedique a vender cerveza artesanal."
+    },
+    {
+      "fecha_iso": "2021-08-18T00:00:00",
+      "materia": "SEMINARIO",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Es una lástima que estos sean los \"profes jóvenes\" que van a vivir del tec mucho tiempo, 0% comprensible y muy exigente como si enseñara mucho, solo es un ing frustrado. Aparte ni guapo está."
+    },
+    {
+      "fecha_iso": "2021-01-21T00:00:00",
+      "materia": "MECANISMOS",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 0,
+      "comentario": "al profesor no le importa la pandemia pedia proyectos donde ocupabas ir con herreros o tener herramienta y gastar mucho casi no da clase y no es nada comprensibo"
+    },
+    {
+      "fecha_iso": "2020-08-10T00:00:00",
+      "materia": "SEMINARIO DE MECATRÓNICA",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Califica con un proyecto, tiene que funcionar para que pases, exige materiales difíciles de conseguir para un alumno y carece de humildad para reconocer que se equivoca (debido a ello nos reprobó)."
+    },
+    {
+      "fecha_iso": "2019-06-06T00:00:00",
+      "materia": "MECANISMOS",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 1,
+      "comentario": "sus clases no son aburridas,te es algo duro pero te enseña muchas cosas del mundo laboral, deja 3 proyectos muy laboriosos pero sus examenes son faciles, reprueva a todo el grupo péro al final los pasa en el global"
+    },
+    {
+      "fecha_iso": "2019-01-30T00:00:00",
+      "materia": "MECANISMOS",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Este profe es una chulada, no le entendía mucho a sus explicaciones pero ya en lo práctico todo quedaba claro. Aparte está todo hermoso, hágame un hijo."
+    },
+    {
+      "fecha_iso": "2019-01-11T00:00:00",
+      "materia": "MECANISMOS",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 0,
+      "comentario": "Este profesor no te va a explicar nada en concreto sobre el tema solo te lo platicará, pero eso sí, te pedirá que le entregues al menos 3 proyectos en el semestre donde se aplica lo que se esta viendo en la materia, aprenderás con la practica pero nada teórico, al ultimo si le echas ganas pasarás"
+    }
+  ],
+  "comments_recent": [
+    "Es egocéntrico, pero es realista, no soporta a la gente mediocre y solo se molesta si le preguntas cosas de matemáticas básicas, pues es obvio que ya debes de saber. Eso sí, gastarás mucho en proyectos.",
+    "Es un buen maestro, algo egocentrico y con una claridad bastante buena en sus peticiones en la mayoria de los casos. pero no ayuda en casi nada y a veces al dar tu opinion o querer saber si hacerlo de tal o cual manera esta bien te dice que o y al final si alguien mas lo plantea lo toma como 10",
+    "Con las clases en linea queda demostrado que este Hipster no sabe nada de Mecatrónica, es un Industrial que no sé porque da en esta carrera. Mejor que se dedique a vender cerveza artesanal.",
+    "Es una lástima que estos sean los \"profes jóvenes\" que van a vivir del tec mucho tiempo, 0% comprensible y muy exigente como si enseñara mucho, solo es un ing frustrado. Aparte ni guapo está.",
+    "al profesor no le importa la pandemia pedia proyectos donde ocupabas ir con herreros o tener herramienta y gastar mucho casi no da clase y no es nada comprensibo",
+    "Califica con un proyecto, tiene que funcionar para que pases, exige materiales difíciles de conseguir para un alumno y carece de humildad para reconocer que se equivoca (debido a ello nos reprobó).",
+    "sus clases no son aburridas,te es algo duro pero te enseña muchas cosas del mundo laboral, deja 3 proyectos muy laboriosos pero sus examenes son faciles, reprueva a todo el grupo péro al final los pasa en el global",
+    "Este profe es una chulada, no le entendía mucho a sus explicaciones pero ya en lo práctico todo quedaba claro. Aparte está todo hermoso, hágame un hijo.",
+    "Este profesor no te va a explicar nada en concreto sobre el tema solo te lo platicará, pero eso sí, te pedirá que le entregues al menos 3 proyectos en el semestre donde se aplica lo que se esta viendo en la materia, aprenderás con la practica pero nada teórico, al ultimo si le echas ganas pasarás"
+  ],
+  "n_reviews": 9
+}

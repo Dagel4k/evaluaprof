@@ -1,0 +1,354 @@
+{
+  "professor_id": "evangelina_avila_gaxiola",
+  "nombre": "evangelina avila gaxiola",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 6.700291501021529,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 8.027711464380662,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.833,
+    "wilson_interval": [
+      0.6077750036164077,
+      0.9416352959953425
+    ],
+    "n_recommendations": 18
+  },
+  "subject_normalization": {
+    "z_mean": 0.34,
+    "z_mean_decayed": 0.27,
+    "per_subject": [
+      {
+        "materia": "QUÍMICA",
+        "z_decayed": 1.2690618333458525,
+        "n": 44
+      },
+      {
+        "materia": "ESTADISTICA",
+        "z_decayed": 0.49248246212541763,
+        "n": 10
+      },
+      {
+        "materia": "ESTADISTICA Y CONTROL DE CALIDAD",
+        "z_decayed": 0.4309458036856673,
+        "n": 14
+      },
+      {
+        "materia": "---",
+        "z_decayed": -0.6787120037022905,
+        "n": 521
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "revision",
+          "esperando",
+          "comentario esperando",
+          "comentario",
+          "esperando revision"
+        ],
+        "weight": 0.17148785940048264
+      },
+      {
+        "id": 1,
+        "words": [
+          "estadistica",
+          "es mejor",
+          "mejor",
+          "es",
+          "bien"
+        ],
+        "weight": 0.1467507439973731
+      },
+      {
+        "id": 2,
+        "words": [
+          "es",
+          "es buena",
+          "maestra",
+          "buena maestra",
+          "buena"
+        ],
+        "weight": 0.12410265400271445
+      },
+      {
+        "id": 3,
+        "words": [
+          "aula",
+          "ver",
+          "actividades",
+          "bien temas",
+          "temas"
+        ],
+        "weight": 0.09610900278748481
+      },
+      {
+        "id": 4,
+        "words": [
+          "practicos",
+          "casos practicos",
+          "ademas vemos",
+          "vemos casos",
+          "vemos"
+        ],
+        "weight": 0.11043924938921602
+      }
+    ],
+    "sentiment": {
+      "overall": 0.47058823529411764,
+      "by_month": {
+        "2023-10": 0.0,
+        "2016-08": 0.0,
+        "2016-06": 0.0,
+        "2013-10": 0.0,
+        "2013-09": 1.0,
+        "2013-06": 0.5,
+        "2012-11": 0.0,
+        "2012-10": 0.8,
+        "2012-09": 0.5,
+        "2012-01": 0.0
+      }
+    },
+    "n_comments": 17
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.074,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 0.96
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        6.5,
+        10.0,
+        2.0,
+        9.0,
+        9.0,
+        2.0,
+        10.0
+      ],
+      "ewma": [
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        8.95,
+        9.264999999999999,
+        7.085499999999999,
+        7.659849999999999,
+        8.061894999999998,
+        6.243326499999998,
+        7.370328549999998
+      ],
+      "sigma": 2.378642661842723
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 7.370328549999998,
+      "quality_band": [
+        2.7081889327882616,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2024-02-01T00:00:00",
+      "materia": "QUÍMICA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2023-10-17T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 5.5,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2016-08-13T00:00:00",
+      "materia": "---",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2016-06-09T00:00:00",
+      "materia": "---",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2013-10-05T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2013-09-28T00:00:00",
+      "materia": "ESTADISTICA Y CONTROL DE CALIDAD",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Es la mejor. Es una excelente maestra, explica muy bien la materia y por tanto aprendes bien facil la estadistica. Se ve que domina muy bien el tema que sabe mucho. ademas sus clases son dinamicas.además esta bien guapiisima, es simpatica, agradable, esta bien jovencita y bien preparada. :D"
+    },
+    {
+      "fecha_iso": "2013-09-01T00:00:00",
+      "materia": "ESTADISTICA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Es la mejor maestra de estadistica, es excelente, explica muy bien y le entiendes bien fácil. sus clases son muy dinamicas, y vemos casos practicos y le encuentras la aplicación a los temas vistos. ´Cuando tengan oportunidad carguen con ella, es la mejor. Además esta bien joven, guapa, simpatica, agradable y muy amable y respetuosa.:))"
+    },
+    {
+      "fecha_iso": "2013-06-17T00:00:00",
+      "materia": "ESTADISTICA Y CONTROL DE CALIDAD",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "La maestra evangelina me dio clases hace dos años, y es una excelente maestra, se ve que sabe mucho del tema de estadistica y control de calidad, además vemos casos practicos, donde le vemos la aplicacion a esta materia. se las recomiendo van a aprender, te hace ver la estadistica bien facil. Ademas, es agradable, simpatica, joven y guapa..:)"
+    },
+    {
+      "fecha_iso": "2013-06-12T00:00:00",
+      "materia": "---",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": 5.0,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2012-11-06T00:00:00",
+      "materia": "ESTADISTICA Y CONTROL DE CALIDAD",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Es la mejor maestra de estadistica y control de calidad, explica muy bien, hace los problemas en clase y los resolvemos por eso no queda duda, sus clases son dinamicas, activas. Además esta bien joven , guapa y muy agradable.Es super buena onday me cae super :)."
+    },
+    {
+      "fecha_iso": "2012-10-27T00:00:00",
+      "materia": "ESTADISTICA Y CONTROL DE CALIDAD",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Es la mejor maestra , domina el tema de la estadistica por eso explica tan bien y le entiendes bien facil, aplica muchos trabajos en el aula, y te aclara las dudas en el momento al hacer los problemas en clase. Es una excelente maestra, esta bien joven, es simpatica, agradeble y guapa."
+    },
+    {
+      "fecha_iso": "2012-10-26T00:00:00",
+      "materia": "ESTADISTICA Y CONTROL DE CALIDAD",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Es una excelente maestra , domina muy bien el tema de estadistica y control de calidad, por lo que le entiendes muy bien, ves casos practicos en el aula y resulves problemas, es una muy buena maestra. Ademàs es super, esta bien joven, simpatica y guapa."
+    },
+    {
+      "fecha_iso": "2012-10-22T00:00:00",
+      "materia": "ESTADISTICA Y CONTROL DE CALIDAD",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "La estadistica te la hce ver muy facil ya que explica muy bien los temas y nos pone a que resolvamos problemas en clase, y deja muchas actividades en el aula. Es una excelente maestra."
+    },
+    {
+      "fecha_iso": "2012-10-19T00:00:00",
+      "materia": "ESTADÍSTICA Y CONTROL DE LA CALIDAD",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Curso muy fácil y practico, aprendes y no batallas nada y la profe es muy buena onda."
+    },
+    {
+      "fecha_iso": "2012-10-01T00:00:00",
+      "materia": "ESTADISTICA Y CONTROL DE CALIDAD",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "explica muy bien los temas y trabajamos en actividades de calculos en el aula, asì como nos motiva a ver la aplicacion de los temas. \nEs una buena maestra. y ademas es bien simpaticay agradable."
+    },
+    {
+      "fecha_iso": "2012-09-29T00:00:00",
+      "materia": "ESTADISTICA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Es la mejor maestra, es una buena maestra"
+    },
+    {
+      "fecha_iso": "2012-09-15T00:00:00",
+      "materia": "ESTADISTICA Y CONTROL DE CALIDAD",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "ES UNA EXCELENTE MAESTRA, EXPLICA MUY BIEN Y ADEMÁS VEMOS CASOS PRACTICOS, RELACIONADOS CON LOS TEMAS VISTOS,"
+    },
+    {
+      "fecha_iso": "2012-01-19T00:00:00",
+      "materia": "ESTADISTICA Y CONTROL DE CALIDAD",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "muy buena maestra"
+    }
+  ],
+  "comments_recent": [
+    "[Comentario esperando revisión]",
+    "[Comentario esperando revisión]",
+    "[Comentario esperando revisión]",
+    "[Comentario esperando revisión]",
+    "Es la mejor. Es una excelente maestra, explica muy bien la materia y por tanto aprendes bien facil la estadistica. Se ve que domina muy bien el tema que sabe mucho. ademas sus clases son dinamicas.además esta bien guapiisima, es simpatica, agradable, esta bien jovencita y bien preparada. :D",
+    "Es la mejor maestra de estadistica, es excelente, explica muy bien y le entiendes bien fácil. sus clases son muy dinamicas, y vemos casos practicos y le encuentras la aplicación a los temas vistos. ´Cuando tengan oportunidad carguen con ella, es la mejor. Además esta bien joven, guapa, simpatica, agradable y muy amable y respetuosa.:))",
+    "La maestra evangelina me dio clases hace dos años, y es una excelente maestra, se ve que sabe mucho del tema de estadistica y control de calidad, además vemos casos practicos, donde le vemos la aplicacion a esta materia. se las recomiendo van a aprender, te hace ver la estadistica bien facil. Ademas, es agradable, simpatica, joven y guapa..:)",
+    "[Comentario esperando revisión]",
+    "Es la mejor maestra de estadistica y control de calidad, explica muy bien, hace los problemas en clase y los resolvemos por eso no queda duda, sus clases son dinamicas, activas. Además esta bien joven , guapa y muy agradable.Es super buena onday me cae super :)."
+  ],
+  "n_reviews": 18
+}

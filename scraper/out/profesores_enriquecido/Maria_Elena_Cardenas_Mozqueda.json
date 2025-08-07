@@ -1,0 +1,208 @@
+{
+  "professor_id": "Maria_Elena_Cardenas_Mozqueda",
+  "nombre": "Maria Elena Cardenas Mozqueda",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 8.094746577333778,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 6.8691718236857975,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.571,
+    "wilson_interval": [
+      0.2504542304090258,
+      0.8417830777373732
+    ],
+    "n_recommendations": 7
+  },
+  "subject_normalization": {
+    "z_mean": 0.05,
+    "z_mean_decayed": 0.48,
+    "per_subject": [
+      {
+        "materia": "FUNDAMENTOS DE PROGRAMACION",
+        "z_decayed": 1.1265641016954895,
+        "n": 43
+      },
+      {
+        "materia": "FLOJA",
+        "z_decayed": 1.02469507659596,
+        "n": 4
+      },
+      {
+        "materia": "FUNDAMENTOS DE PROGRAMACIÓN",
+        "z_decayed": 0.3127501703276842,
+        "n": 36
+      },
+      {
+        "materia": "PROGRAMACION",
+        "z_decayed": -0.7533536201771969,
+        "n": 20
+      },
+      {
+        "materia": "PROLOG",
+        "z_decayed": -0.7647191129018723,
+        "n": 9
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "ensena",
+          "te",
+          "buena",
+          "es"
+        ],
+        "weight": 0.3550288812198544
+      },
+      {
+        "id": 1,
+        "words": [
+          "es",
+          "te",
+          "buena",
+          "ensena"
+        ],
+        "weight": 0.27160524412031706
+      }
+    ],
+    "sentiment": {
+      "overall": 0.0,
+      "by_month": {
+        "2023-05": 0.0,
+        "2023-02": 0.0,
+        "2023-01": 0.0,
+        "2019-11": 0.0,
+        "2016-05": 0.0
+      }
+    },
+    "n_comments": 5
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        6.0,
+        2.0,
+        4.0,
+        10.0,
+        8.0,
+        10.0,
+        7.0
+      ],
+      "ewma": [
+        6.0,
+        4.799999999999999,
+        4.559999999999999,
+        6.191999999999998,
+        6.734399999999999,
+        7.714079999999999,
+        7.499855999999999
+      ],
+      "sigma": 2.1595458477423755
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 7.499855999999999,
+      "quality_band": [
+        3.267146138424944,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2023-05-26T00:00:00",
+      "materia": "FUNDAMENTOS DE PROGRAMACIÓN",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 25.0,
+      "recomienda": 1,
+      "comentario": "Es buena maestra pero recomiendo tener algo de base al entrar en su materia, por que si no te vas a perder. ( Me paso eso, por eso lo digo XD). \nPero es buena profe posdata me fui a RC"
+    },
+    {
+      "fecha_iso": "2023-02-01T00:00:00",
+      "materia": "FUNDAMENTOS DE PROGRAMACIÓN",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Me cayó muy bien, enseña bien más bases y siempre está atenta a todas las dudas"
+    },
+    {
+      "fecha_iso": "2023-01-07T00:00:00",
+      "materia": "FLOJA",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Es escandalosamente flojo, este semestre los inicio 2 semanas de atraso, \n No entiendo por qué las autoridades no hacen algo con estos maestros flojos y eso que son ejemplo de uno."
+    },
+    {
+      "fecha_iso": "2019-11-13T00:00:00",
+      "materia": "FUNDAMENTOS DE PROGRAMACION",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Es super buena profesora, para iniciar a programar ella te enseña una buena logica."
+    },
+    {
+      "fecha_iso": "2016-08-09T00:00:00",
+      "materia": "PROGRAMACION",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 0,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2016-05-22T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 1.0,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2016-01-10T00:00:00",
+      "materia": "PROLOG",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": ""
+    }
+  ],
+  "comments_recent": [
+    "Es buena maestra pero recomiendo tener algo de base al entrar en su materia, por que si no te vas a perder. ( Me paso eso, por eso lo digo XD). \nPero es buena profe posdata me fui a RC",
+    "Me cayó muy bien, enseña bien más bases y siempre está atenta a todas las dudas",
+    "Es escandalosamente flojo, este semestre los inicio 2 semanas de atraso, \n No entiendo por qué las autoridades no hacen algo con estos maestros flojos y eso que son ejemplo de uno.",
+    "Es super buena profesora, para iniciar a programar ella te enseña una buena logica.",
+    "[Comentario esperando revisión]"
+  ],
+  "n_reviews": 7
+}

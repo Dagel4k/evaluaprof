@@ -1,0 +1,142 @@
+{
+  "professor_id": "Augusto_Denis_Madueño_Macedo",
+  "nombre": "Augusto Denis Madueño Macedo",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 3.6,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 5.851728066843904,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.0,
+    "wilson_interval": [
+      0,
+      0.43449149475208104
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": -0.76,
+    "z_mean_decayed": -0.76,
+    "per_subject": [
+      {
+        "materia": "PROGRAMACION",
+        "z_decayed": -0.4458623466354839,
+        "n": 20
+      },
+      {
+        "materia": "---",
+        "z_decayed": -0.6631370651382046,
+        "n": 521
+      },
+      {
+        "materia": "PROGRAMACIÓN",
+        "z_decayed": -0.8903652552110265,
+        "n": 10
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [],
+    "sentiment": {
+      "overall": 0.0,
+      "by_month": {
+        "2021-01": 0.0
+      }
+    },
+    "n_comments": 3
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [
+      {
+        "from": "2021-01-13T00:00:00",
+        "to": "2021-01-13T00:00:00",
+        "count": 3
+      },
+      {
+        "from": "2021-01-13T00:00:00",
+        "to": "2021-01-13T00:00:00",
+        "count": 4
+      },
+      {
+        "from": "2021-01-13T00:00:00",
+        "to": "2021-01-13T00:00:00",
+        "count": 5
+      }
+    ],
+    "low_variance_flag": 0,
+    "trust_score": 0.7
+  },
+  "trends_analysis": {
+    "quality_trend": null,
+    "difficulty_trend": null,
+    "forecast": null,
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2021-01-13T00:00:00",
+      "materia": "---",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": 23.0,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2021-01-13T00:00:00",
+      "materia": "PROGRAMACIÓN",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "No tiene metodología de enseñanza"
+    },
+    {
+      "fecha_iso": "2021-01-13T00:00:00",
+      "materia": "PROGRAMACION",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 5.0,
+      "recomienda": 0,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2021-01-13T00:00:00",
+      "materia": "PROGRAMACIÓN",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 5.5,
+      "recomienda": 0,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2021-01-13T00:00:00",
+      "materia": "PROGRAMACIÓN",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Mejor se autodidacta"
+    }
+  ],
+  "comments_recent": [
+    "[Comentario esperando revisión]",
+    "No tiene metodología de enseñanza",
+    "Mejor se autodidacta"
+  ],
+  "n_reviews": 5
+}

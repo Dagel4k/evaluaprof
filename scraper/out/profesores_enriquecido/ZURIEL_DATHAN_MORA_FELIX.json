@@ -1,0 +1,249 @@
+{
+  "professor_id": "ZURIEL_DATHAN_MORA_FELIX",
+  "nombre": "ZURIEL DATHAN MORA FELIX",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 2.246993354326108,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 5.54310672236992,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.125,
+    "wilson_interval": [
+      0.02241690886329618,
+      0.4708948057698615
+    ],
+    "n_recommendations": 8
+  },
+  "subject_normalization": {
+    "z_mean": -1.27,
+    "z_mean_decayed": -1.66,
+    "per_subject": [
+      {
+        "materia": "PROGRAMACIÓN AVANZADA",
+        "z_decayed": -0.4428074427700475,
+        "n": 6
+      },
+      {
+        "materia": "PROLOG",
+        "z_decayed": -0.7647191129018723,
+        "n": 9
+      },
+      {
+        "materia": "---",
+        "z_decayed": -0.9627852966533862,
+        "n": 521
+      },
+      {
+        "materia": "INTELIGENCIA ARTIFICIAL",
+        "z_decayed": -1.5937616935658425,
+        "n": 12
+      },
+      {
+        "materia": "MATEMÁTICAS DISCRETAS",
+        "z_decayed": -1.9623167167385553,
+        "n": 28
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "mas",
+          "final",
+          "tu",
+          "es",
+          "maestro"
+        ],
+        "weight": 0.12083130916574303
+      },
+      {
+        "id": 1,
+        "words": [
+          "esperando revision",
+          "comentario esperando",
+          "comentario",
+          "esperando",
+          "revision"
+        ],
+        "weight": 0.17151036680371873
+      },
+      {
+        "id": 2,
+        "words": [
+          "revision",
+          "tu",
+          "si",
+          "profesor",
+          "ensena"
+        ],
+        "weight": 0.21846410568631425
+      },
+      {
+        "id": 3,
+        "words": [
+          "profesor",
+          "revision",
+          "tiene",
+          "es",
+          "si"
+        ],
+        "weight": 0.1466822125164653
+      }
+    ],
+    "sentiment": {
+      "overall": -0.125,
+      "by_month": {
+        "2025-05": 0.0,
+        "2024-07": 0.0,
+        "2022-02": 0.0,
+        "2021-12": -1.0,
+        "2017-01": 0.0,
+        "2015-12": 0.0,
+        "2015-10": 0.0,
+        "2015-08": 0.0
+      }
+    },
+    "n_comments": 8
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.036,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 0.98
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        2.0,
+        6.0,
+        6.0,
+        8.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0
+      ],
+      "ewma": [
+        2.0,
+        3.1999999999999997,
+        4.039999999999999,
+        5.228,
+        4.2596,
+        3.58172,
+        3.107204,
+        2.7750428
+      ],
+      "sigma": 2.0139159624965934
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 2.7750428,
+      "quality_band": [
+        0.0,
+        6.722318086493323
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2025-05-27T00:00:00",
+      "materia": "INTELIGENCIA ARTIFICIAL",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 0,
+      "comentario": "es de los peores profes que me han tocado, si tienen la oportunidad de cargar con el desaprovechenla"
+    },
+    {
+      "fecha_iso": "2024-07-11T00:00:00",
+      "materia": "MATEMÁTICAS DISCRETAS",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 0,
+      "comentario": "No recomiendo al profesor, no enseña mucho y hace las clases complicadas \nCalifica mal e incluso se llega a equivocar mucho en los exámenes \nDice una cosa y hace otra completamente diferente"
+    },
+    {
+      "fecha_iso": "2022-02-15T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 24.0,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2021-12-17T00:00:00",
+      "materia": "ESTRUCTURA DE DATOS",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 0,
+      "comentario": "Si quieres sufrir a final de semestre con un maestro que no tiene ni la mas mínima idea de como calificar, este es tu profesor, el maestro nos reprobó a todos y no se le hizo nada extraño que nos faltaran 3 tareas que nunca asigno, además enseña horrible tendrás que investigar tu mismo"
+    },
+    {
+      "fecha_iso": "2017-01-16T00:00:00",
+      "materia": "CURSO PROPEDÉUTICO",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Era buena onda pero dejaba mucha tarea"
+    },
+    {
+      "fecha_iso": "2015-12-09T00:00:00",
+      "materia": "PROLOG",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 0,
+      "comentario": "Esta bien facil, nomas que haskell esta cabron a lo que ensena, prolog esta bien facil con el."
+    },
+    {
+      "fecha_iso": "2015-10-11T00:00:00",
+      "materia": "PROGRAMACIÓN AVANZADA",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Este maestro no es ninguna eminencia. Pero es un buen maestro a secas. Tiene 2 caras. Generalmente es dominado por su lado amistoso, pero en tiempos de evaluación su lado poco amistoso lo domina. Aprendes más por tu cuenta cuando desarrollas el proyecto final que te exige."
+    },
+    {
+      "fecha_iso": "2015-08-08T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    }
+  ],
+  "comments_recent": [
+    "es de los peores profes que me han tocado, si tienen la oportunidad de cargar con el desaprovechenla",
+    "No recomiendo al profesor, no enseña mucho y hace las clases complicadas \nCalifica mal e incluso se llega a equivocar mucho en los exámenes \nDice una cosa y hace otra completamente diferente",
+    "[Comentario esperando revisión]",
+    "Si quieres sufrir a final de semestre con un maestro que no tiene ni la mas mínima idea de como calificar, este es tu profesor, el maestro nos reprobó a todos y no se le hizo nada extraño que nos faltaran 3 tareas que nunca asigno, además enseña horrible tendrás que investigar tu mismo",
+    "Era buena onda pero dejaba mucha tarea",
+    "Esta bien facil, nomas que haskell esta cabron a lo que ensena, prolog esta bien facil con el.",
+    "Este maestro no es ninguna eminencia. Pero es un buen maestro a secas. Tiene 2 caras. Generalmente es dominado por su lado amistoso, pero en tiempos de evaluación su lado poco amistoso lo domina. Aprendes más por tu cuenta cuando desarrollas el proyecto final que te exige.",
+    "[Comentario esperando revisión]"
+  ],
+  "n_reviews": 8
+}

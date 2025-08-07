@@ -1,0 +1,68 @@
+{
+  "nombre": "ISAAC SALVADOR GARCIA CASTILLO",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "ciudad": "Ciudad: culiacan, sinaloa",
+  "departamento": "Departamento/Facultad: Fundamentos de investigación",
+  "calidad_general": 3.4,
+  "porcentaje_recomienda": 0,
+  "nivel_dificultad": 4.0,
+  "etiquetas": [
+    "ASISTENCIA OBLIGATORIA (2)",
+    "MUCHOS PROYECTOS GRUPALES (1)",
+    "BARCO (1)",
+    "PREPÁRATE PARA LEER (1)"
+  ],
+  "numero_calificaciones": 3,
+  "calificaciones": [
+    {
+      "fecha": "16/Ene/2024",
+      "tipo_calificacion": "REGULAR",
+      "puntaje_calidad_general": 4.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Fundamentos de la investigación",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "No le gusta su trabajo, es irrespetuoso, sus clases son presentaciones hechas por los alumnos, nunca explica con claridad los trabajos porque ni siquiera él sabe que se debe hacer.",
+      "etiquetas_comentario": [
+        "Prepárate para leer"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "16/Ene/2024",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 2.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Exportación y fundamentos",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "7",
+      "interes_clase": "",
+      "comentario": "No da clase solo pone a leer diapositivas y hace exámenes de ellas, no explica nada",
+      "etiquetas_comentario": [
+        "Barco",
+        "Asistencia obligatoria"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "05/Sep/2023",
+      "tipo_calificacion": "REGULAR",
+      "puntaje_calidad_general": 4.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Fundamentos de investigación",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "22",
+      "interes_clase": "",
+      "comentario": "Se la pasa hablando de su vida y no deja de dar consejos que nadie le pidio",
+      "etiquetas_comentario": [
+        "Asistencia obligatoria",
+        "Muchos proyectos grupales"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    }
+  ]
+}

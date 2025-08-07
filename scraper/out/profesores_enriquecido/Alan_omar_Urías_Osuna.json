@@ -1,0 +1,142 @@
+{
+  "professor_id": "Alan_omar_Urías_Osuna",
+  "nombre": "Alan omar Urías Osuna",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 3.7408756809947015,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 5.985061400177238,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.2,
+    "wilson_interval": [
+      0.036223160969787456,
+      0.6244717358814612
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": -1.61,
+    "z_mean_decayed": -1.82,
+    "per_subject": [
+      {
+        "materia": "ETICA",
+        "z_decayed": -0.908661696289268,
+        "n": 31
+      },
+      {
+        "materia": "MATEMÁTICAS DISCRETAS",
+        "z_decayed": -1.9623167167385551,
+        "n": 28
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [],
+    "sentiment": {
+      "overall": null,
+      "by_month": {}
+    },
+    "n_comments": 3
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        4.0,
+        3.0,
+        9.0,
+        2.0,
+        2.0
+      ],
+      "ewma": [
+        4.0,
+        3.6999999999999997,
+        5.289999999999999,
+        4.302999999999999,
+        3.6120999999999994
+      ],
+      "sigma": 2.344831241688834
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 3.6120999999999994,
+      "quality_band": [
+        0.0,
+        8.207969233710115
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2024-05-15T00:00:00",
+      "materia": "MATEMÁTICAS DISCRETAS",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 0,
+      "comentario": "evítalo a toda costa, podría ser barco si no fuera por que a mi me dio una materia que es muy importante, además de que llega tarde o falta pone exámenes largos y tediosos."
+    },
+    {
+      "fecha_iso": "2024-02-26T00:00:00",
+      "materia": "MATEMÁTICAS DISCRETAS",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 0,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2023-04-01T00:00:00",
+      "materia": "SOFTWARE",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2021-09-03T00:00:00",
+      "materia": "SOFTWARE",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 0,
+      "comentario": "Se apoya demasiado en diapositivas y no es muy claro con lo que explica. Califica muy duro y los exámenes suelen ser un poco complicados, si tienes otra opción agárrala"
+    },
+    {
+      "fecha_iso": "2020-12-29T00:00:00",
+      "materia": "ETICA",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 0,
+      "comentario": "Se pone a leer, a lo bruto y su material de clase se lo pasa por los h**** a la hora de hacer el examen, lo aplica pero nada que ver con lo que miras"
+    }
+  ],
+  "comments_recent": [
+    "evítalo a toda costa, podría ser barco si no fuera por que a mi me dio una materia que es muy importante, además de que llega tarde o falta pone exámenes largos y tediosos.",
+    "Se apoya demasiado en diapositivas y no es muy claro con lo que explica. Califica muy duro y los exámenes suelen ser un poco complicados, si tienes otra opción agárrala",
+    "Se pone a leer, a lo bruto y su material de clase se lo pasa por los h**** a la hora de hacer el examen, lo aplica pero nada que ver con lo que miras"
+  ],
+  "n_reviews": 5
+}

@@ -1,0 +1,142 @@
+{
+  "professor_id": "Luis_Fernando_Ortega_López",
+  "nombre": "Luis Fernando Ortega López",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 2.95834829116867,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 5.912565785904183,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.0,
+    "wilson_interval": [
+      0,
+      0.48990002040399916
+    ],
+    "n_recommendations": 4
+  },
+  "subject_normalization": {
+    "z_mean": -1.16,
+    "z_mean_decayed": -1.26,
+    "per_subject": [
+      {
+        "materia": "---",
+        "z_decayed": -0.36348883362302276,
+        "n": 521
+      },
+      {
+        "materia": "DIBUJO INDUSTRIAL",
+        "z_decayed": -1.1174126364213455,
+        "n": 43
+      },
+      {
+        "materia": "DIBUJO",
+        "z_decayed": -1.4035253177500708,
+        "n": 14
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [],
+    "sentiment": {
+      "overall": -0.25,
+      "by_month": {
+        "2021-03": -1.0,
+        "2019-01": 0.0,
+        "2014-08": 0.0,
+        "2013-06": 0.0
+      }
+    },
+    "n_comments": 4
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        4.0,
+        2.0,
+        5.0,
+        2.0
+      ],
+      "ewma": [
+        4.0,
+        3.4,
+        3.88,
+        3.316
+      ],
+      "sigma": 1.1985341046461715
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 3.316,
+      "quality_band": [
+        0.9668731548935039,
+        5.665126845106496
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2021-03-08T00:00:00",
+      "materia": "DIBUJO",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 0,
+      "comentario": "no mamen, si de por si no sabe explicar, califica horrible y aparte se traba."
+    },
+    {
+      "fecha_iso": "2019-01-30T00:00:00",
+      "materia": "DIBUJO INDUSTRIAL",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 0,
+      "comentario": "La neta solo el pendejo que no intenta nada reprueba, si quieres estar copiando nms obviamente vas a reprobar \nEsta mejor que otros profes"
+    },
+    {
+      "fecha_iso": "2014-08-04T00:00:00",
+      "materia": "DIBUJO INDUSTRIAL",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 1.0,
+      "recomienda": 0,
+      "comentario": "es un ascoooooooooooooooooooooooooooooooooooo pide dinerooooooooo"
+    },
+    {
+      "fecha_iso": "2013-06-18T00:00:00",
+      "materia": "---",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    }
+  ],
+  "comments_recent": [
+    "no mamen, si de por si no sabe explicar, califica horrible y aparte se traba.",
+    "La neta solo el pendejo que no intenta nada reprueba, si quieres estar copiando nms obviamente vas a reprobar \nEsta mejor que otros profes",
+    "es un ascoooooooooooooooooooooooooooooooooooo pide dinerooooooooo",
+    "[Comentario esperando revisión]"
+  ],
+  "n_reviews": 4
+}

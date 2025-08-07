@@ -1,0 +1,252 @@
+{
+  "professor_id": "Pedro_Villa_Casas",
+  "nombre": "Pedro Villa Casas",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 7.357250638983727,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 6.672416894876767,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.556,
+    "wilson_interval": [
+      0.26664734574402965,
+      0.8112245705280859
+    ],
+    "n_recommendations": 9
+  },
+  "subject_normalization": {
+    "z_mean": -1.1,
+    "z_mean_decayed": -1.17,
+    "per_subject": [
+      {
+        "materia": "TALLER DE BD",
+        "z_decayed": 0.0,
+        "n": 6
+      },
+      {
+        "materia": "TALLER DE SO",
+        "z_decayed": -0.5,
+        "n": 4
+      },
+      {
+        "materia": "TALLER DE BASE DE DATOS",
+        "z_decayed": -1.6305891032118884,
+        "n": 22
+      },
+      {
+        "materia": "REDES",
+        "z_decayed": -1.746002063787742,
+        "n": 21
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "sabe",
+          "te",
+          "final",
+          "final te",
+          "es"
+        ],
+        "weight": 0.11194079642501144
+      },
+      {
+        "id": 1,
+        "words": [
+          "sabe",
+          "te",
+          "te contesta",
+          "contesta",
+          "si"
+        ],
+        "weight": 0.20238719327500387
+      },
+      {
+        "id": 2,
+        "words": [
+          "final te",
+          "final",
+          "sabe",
+          "te",
+          "tema"
+        ],
+        "weight": 0.20227244827035878
+      },
+      {
+        "id": 3,
+        "words": [
+          "tema",
+          "final",
+          "puede",
+          "es",
+          "reprobar"
+        ],
+        "weight": 0.18895060467627028
+      }
+    ],
+    "sentiment": {
+      "overall": 0.0,
+      "by_month": {
+        "2025-05": 0.0,
+        "2023-08": 0.0,
+        "2023-03": 1.0,
+        "2020-01": -0.5,
+        "2019-12": 0.0,
+        "2014-03": 0.0,
+        "2013-06": 0.0
+      }
+    },
+    "n_comments": 8
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        5.0,
+        8.0,
+        8.0,
+        4.0,
+        2.0,
+        8.0,
+        8.0,
+        10.0
+      ],
+      "ewma": [
+        5.0,
+        5.9,
+        6.529999999999999,
+        5.770999999999999,
+        4.639699999999999,
+        5.647789999999999,
+        6.353452999999998,
+        7.447417099999998
+      ],
+      "sigma": 1.9769608512001953
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 7.447417099999998,
+      "quality_band": [
+        3.5725738316476154,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2025-05-05T00:00:00",
+      "materia": "TUTORÍAS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Era tutorías así que ni que decir :v es buena onda y volveria a cargar con el"
+    },
+    {
+      "fecha_iso": "2023-08-13T00:00:00",
+      "materia": "TALLER DE SO",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Es un profesor que sabe muchisimo, probablemente sobrecalificado para cualquier materia que le den pero, no se organiza nada, no te dice como califica y al final te da todo de una,  aparenta ser barco pero no lo es tanto."
+    },
+    {
+      "fecha_iso": "2023-03-07T00:00:00",
+      "materia": "ADMIN DE REDES",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Muy bueno tumbacasas, le sabe un monton, a veces se emociona y se va de largo explicando pero si le preguntas te contesta todo, NO DEJES LOS PROYECTOS AL FINAL o te come el tiempo"
+    },
+    {
+      "fecha_iso": "2022-11-26T00:00:00",
+      "materia": "REDES",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2020-01-27T00:00:00",
+      "materia": "TALLER DE BASE DE DATOS",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 21.0,
+      "recomienda": 0,
+      "comentario": "Es un maestro que tal vez puede saber del tema, pero es alguien que te puede reprobar en su megaproyecto final muy complicado por una diminutez como no escribir un \"go\" en un script. No recomendado, para nada. Evitate el estres extremo."
+    },
+    {
+      "fecha_iso": "2020-01-13T00:00:00",
+      "materia": "TALLER DE BASE DE DATOS",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Sabe del tema, pero usualmente espera a que el alumno le pregunte. Deja tareas que no son obligatorias, pero son importantes para que practiques o te surjan dudas para preguntarle."
+    },
+    {
+      "fecha_iso": "2019-12-28T00:00:00",
+      "materia": "CONMUTACION",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "El profe Pedro pues tiene un carizma algo especial, se ve que sí sabe de los temas y pues si necesitas poner de tu parte pasar, lo que le preguntes el te contesta y si no ahí hace lo mejor que puede para contestar"
+    },
+    {
+      "fecha_iso": "2014-03-22T00:00:00",
+      "materia": "TALLER DE BD",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "APRENDES mySQL"
+    },
+    {
+      "fecha_iso": "2013-06-18T00:00:00",
+      "materia": "SIMULACION, REDES, ENSAMBLADOR",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 2.0,
+      "recomienda": 0,
+      "comentario": "es demasiado estricto, no ayuda para nada, no se tento el corazon para reprobar a todos los del grupo aunque fueran RC, examenes dificiles, en simulacion muy estricto!."
+    }
+  ],
+  "comments_recent": [
+    "Era tutorías así que ni que decir :v es buena onda y volveria a cargar con el",
+    "Es un profesor que sabe muchisimo, probablemente sobrecalificado para cualquier materia que le den pero, no se organiza nada, no te dice como califica y al final te da todo de una,  aparenta ser barco pero no lo es tanto.",
+    "Muy bueno tumbacasas, le sabe un monton, a veces se emociona y se va de largo explicando pero si le preguntas te contesta todo, NO DEJES LOS PROYECTOS AL FINAL o te come el tiempo",
+    "Es un maestro que tal vez puede saber del tema, pero es alguien que te puede reprobar en su megaproyecto final muy complicado por una diminutez como no escribir un \"go\" en un script. No recomendado, para nada. Evitate el estres extremo.",
+    "Sabe del tema, pero usualmente espera a que el alumno le pregunte. Deja tareas que no son obligatorias, pero son importantes para que practiques o te surjan dudas para preguntarle.",
+    "El profe Pedro pues tiene un carizma algo especial, se ve que sí sabe de los temas y pues si necesitas poner de tu parte pasar, lo que le preguntes el te contesta y si no ahí hace lo mejor que puede para contestar",
+    "APRENDES mySQL",
+    "es demasiado estricto, no ayuda para nada, no se tento el corazon para reprobar a todos los del grupo aunque fueran RC, examenes dificiles, en simulacion muy estricto!."
+  ],
+  "n_reviews": 9
+}

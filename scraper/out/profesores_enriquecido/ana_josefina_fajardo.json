@@ -1,0 +1,306 @@
+{
+  "professor_id": "ana_josefina_fajardo",
+  "nombre": "ana josefina fajardo",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 6.840971954678031,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.164170478376459,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.769,
+    "wilson_interval": [
+      0.49743126004873084,
+      0.918206209075343
+    ],
+    "n_recommendations": 13
+  },
+  "subject_normalization": {
+    "z_mean": 0.1,
+    "z_mean_decayed": -0.02,
+    "per_subject": [
+      {
+        "materia": "ING. ECONOMICA",
+        "z_decayed": 0.8660254037844387,
+        "n": 4
+      },
+      {
+        "materia": "ECONOMIA",
+        "z_decayed": 0.5163230966884397,
+        "n": 17
+      },
+      {
+        "materia": "ECONOMÍA",
+        "z_decayed": -0.018858250238992066,
+        "n": 13
+      },
+      {
+        "materia": "PLANEACIÓN FINANCIERA",
+        "z_decayed": -0.9973408156026575,
+        "n": 10
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "buena",
+          "maestra",
+          "es",
+          "mas",
+          "buena maestra"
+        ],
+        "weight": 0.08460657019384832
+      },
+      {
+        "id": 1,
+        "words": [
+          "dudas",
+          "temas",
+          "justa",
+          "si",
+          "tienes"
+        ],
+        "weight": 0.13788707511878023
+      },
+      {
+        "id": 2,
+        "words": [
+          "final",
+          "proyecto",
+          "temas",
+          "semestre",
+          "te"
+        ],
+        "weight": 0.1862822024203601
+      },
+      {
+        "id": 3,
+        "words": [
+          "ocupada",
+          "es",
+          "maestra",
+          "recomiendo",
+          "tiene"
+        ],
+        "weight": 0.12326104252873867
+      },
+      {
+        "id": 4,
+        "words": [
+          "dudas",
+          "buena",
+          "metida",
+          "profesora",
+          "materia"
+        ],
+        "weight": 0.14215287257428746
+      }
+    ],
+    "sentiment": {
+      "overall": 0.0,
+      "by_month": {
+        "2021-02": 0.0,
+        "2020-01": 0.0,
+        "2017-08": 0.0,
+        "2015-08": 0.0,
+        "2015-01": 0.0,
+        "2014-01": 0.0,
+        "2013-12": 0.0,
+        "2013-03": 0.0
+      }
+    },
+    "n_comments": 10
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        10.0,
+        2.0,
+        9.0,
+        10.0,
+        4.0,
+        7.0,
+        9.0,
+        8.5,
+        2.0,
+        8.0,
+        7.0
+      ],
+      "ewma": [
+        10.0,
+        7.6,
+        8.02,
+        8.613999999999999,
+        7.229799999999999,
+        7.16086,
+        7.712601999999999,
+        7.948821399999998,
+        6.164174979999998,
+        6.714922485999997,
+        6.800445740199997
+      ],
+      "sigma": 2.462210386157266
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 6.800445740199997,
+      "quality_band": [
+        1.9745133833317556,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2024-06-07T00:00:00",
+      "materia": "FINANZAS",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 21.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2021-02-01T00:00:00",
+      "materia": "PLAN DE NEGOCIOS",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Es una maestra que explica muy bien, los temas los conoce y los interpreta a la vida real, en eso no hay problema para captar la información.\nEl problema es que tiene otros compromisos y siempre esta ocupada, lo que hace que ande a las carreras y te traiga apurado en el semestre."
+    },
+    {
+      "fecha_iso": "2020-01-17T00:00:00",
+      "materia": "PLAN DE NEGOCIOS",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "En general no la recomiendo, por el simple hecho de que las en las clases te da una breve y muy resumida clase de lo que tedras que hacer al final, no explica muy bien, se la pasa metida en su celular es una profesora muy ocupada y para terminarla de matar si tu proyecto no le gusta VALISTES VRG."
+    },
+    {
+      "fecha_iso": "2017-08-08T00:00:00",
+      "materia": "INGENIERIA ECONOMICA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": "si quieres pasar tienes que hecharle ganas"
+    },
+    {
+      "fecha_iso": "2017-08-05T00:00:00",
+      "materia": "INGENIERÍA ECONOMICA, ECONOMIA EMPRESARIAL",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Sabe muchísimo acerca de todos los temas y relaciona todo con la realidad, es muy justa. Para los examenes debes estudiar ya que a veces edta a la carrera y se le pasan algunas cosas, si tienes dudas sobre un tema mejor pregunta."
+    },
+    {
+      "fecha_iso": "2016-08-11T00:00:00",
+      "materia": "ECONOMIA",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2015-08-06T00:00:00",
+      "materia": "ECONOMÍA",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 6.0,
+      "recomienda": 1,
+      "comentario": "Una maestra estrictisíma, no cargaría con ella de nuevo, súper amargada y sangrona. Tiene sus preferencias. No la recomiendo"
+    },
+    {
+      "fecha_iso": "2015-01-09T00:00:00",
+      "materia": "PLANEACIÓN FINANCIERA",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 0,
+      "comentario": "Este semestre falto mucho por incapacidad y por proyectos que asesoraba, no fue nada clara explicando los temas, inclusive se equivocaba continuamente, y al final te deja un proyecto, no te ayuda ni te resuelve dudas a aparte de ponerse exigente a la hora de revisar y tarda en dar calificaciones."
+    },
+    {
+      "fecha_iso": "2014-01-15T00:00:00",
+      "materia": "ECONOMIA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "es muy buena maestra le gusta mucho su materia es facil, comprensible, solo participa y sera mas facil :)"
+    },
+    {
+      "fecha_iso": "2014-01-14T00:00:00",
+      "materia": "PLANEACIÓN FINANCIERA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Muy buena profesora, ella esta muy metida en su materia, además que es muy accesible y comprensiva al momento de preguntarle dudas."
+    },
+    {
+      "fecha_iso": "2013-12-04T00:00:00",
+      "materia": "ECONOMÍA",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Muy buena maestra, muy recomendada. Sus clases son claras, es muy responsable y califica de una forma muy justa, tomando en cuenta tareas, participaciones y examen. Promueve la competencia para que tengas mas interés en su clase."
+    },
+    {
+      "fecha_iso": "2013-03-07T00:00:00",
+      "materia": "FINANZA",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "D"
+    },
+    {
+      "fecha_iso": "2012-08-01T00:00:00",
+      "materia": "ING. ECONOMICA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": ""
+    }
+  ],
+  "comments_recent": [
+    "Es una maestra que explica muy bien, los temas los conoce y los interpreta a la vida real, en eso no hay problema para captar la información.\nEl problema es que tiene otros compromisos y siempre esta ocupada, lo que hace que ande a las carreras y te traiga apurado en el semestre.",
+    "En general no la recomiendo, por el simple hecho de que las en las clases te da una breve y muy resumida clase de lo que tedras que hacer al final, no explica muy bien, se la pasa metida en su celular es una profesora muy ocupada y para terminarla de matar si tu proyecto no le gusta VALISTES VRG.",
+    "si quieres pasar tienes que hecharle ganas",
+    "Sabe muchísimo acerca de todos los temas y relaciona todo con la realidad, es muy justa. Para los examenes debes estudiar ya que a veces edta a la carrera y se le pasan algunas cosas, si tienes dudas sobre un tema mejor pregunta.",
+    "Una maestra estrictisíma, no cargaría con ella de nuevo, súper amargada y sangrona. Tiene sus preferencias. No la recomiendo",
+    "Este semestre falto mucho por incapacidad y por proyectos que asesoraba, no fue nada clara explicando los temas, inclusive se equivocaba continuamente, y al final te deja un proyecto, no te ayuda ni te resuelve dudas a aparte de ponerse exigente a la hora de revisar y tarda en dar calificaciones.",
+    "es muy buena maestra le gusta mucho su materia es facil, comprensible, solo participa y sera mas facil :)",
+    "Muy buena profesora, ella esta muy metida en su materia, además que es muy accesible y comprensiva al momento de preguntarle dudas."
+  ],
+  "n_reviews": 13
+}

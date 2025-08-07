@@ -1,0 +1,202 @@
+{
+  "professor_id": "Antonio_De_La_Llave_Gallegos",
+  "nombre": "Antonio De La Llave Gallegos",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 5.920726817605275,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 6.92349506266616,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.667,
+    "wilson_interval": [
+      0.2999883213415286,
+      0.903230667440783
+    ],
+    "n_recommendations": 6
+  },
+  "subject_normalization": {
+    "z_mean": -0.5,
+    "z_mean_decayed": -0.92,
+    "per_subject": [
+      {
+        "materia": "SIMULACION",
+        "z_decayed": 0.11779195769754905,
+        "n": 23
+      },
+      {
+        "materia": "ADMINISTRACIÓN DE OPERACIONES 1",
+        "z_decayed": -0.08574929257125441,
+        "n": 8
+      },
+      {
+        "materia": "SIMULACIÓN",
+        "z_decayed": -1.5388732524200857,
+        "n": 18
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "sacar apuntes",
+          "sacar",
+          "deja sacar",
+          "apuntes",
+          "examenes"
+        ],
+        "weight": 0.2795620909901169
+      },
+      {
+        "id": 1,
+        "words": [
+          "sarcasmo",
+          "es buen",
+          "profesor",
+          "es",
+          "reprobar"
+        ],
+        "weight": 0.17312614665658335
+      },
+      {
+        "id": 2,
+        "words": [
+          "tiene sarcasmo",
+          "si",
+          "clases",
+          "tiene",
+          "es"
+        ],
+        "weight": 0.23583357719099832
+      }
+    ],
+    "sentiment": {
+      "overall": 0.3333333333333333,
+      "by_month": {
+        "2019-12": 0.0,
+        "2018-04": 0.0,
+        "2017-08": 1.0,
+        "2016-01": 0.0,
+        "2014-08": 0.0,
+        "2014-05": 1.0
+      }
+    },
+    "n_comments": 6
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        9.0,
+        7.0,
+        5.0,
+        9.0,
+        8.0,
+        3.0
+      ],
+      "ewma": [
+        9.0,
+        8.4,
+        7.38,
+        7.866,
+        7.9062,
+        6.434339999999999
+      ],
+      "sigma": 1.71701691781609
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 6.434339999999999,
+      "quality_band": [
+        3.068986841080463,
+        9.799693158919535
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2019-12-19T00:00:00",
+      "materia": "SIMULACIÓN",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": 24.0,
+      "recomienda": 0,
+      "comentario": "Es muy raro, sarcástico, si tienes duda y le preguntas su expresión es como de burla y no logra contestarte con claridad, sus clases son monótonas, le gusta exponer en Facebook a sus alumnos para burlarse de errores que cometen, tiene un hijo con una ex alumna."
+    },
+    {
+      "fecha_iso": "2018-04-12T00:00:00",
+      "materia": "ADMINISTRACIÓN DE OPERACIONES 1",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "..."
+    },
+    {
+      "fecha_iso": "2017-08-30T00:00:00",
+      "materia": "ADMINISTRACIÓN DE LAS OPERACIONES I",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "No sé porque muchos le tienen miedo. Es un muy buen profesor, tiene un sarcasmo que pocos entienden pero todo lo que explica es claro y preciso. Deja sacar apuntes en el examen y hace preexamenes en la plataforma. Reprobar está prohibido por lo fácil que está la clase. NOFALTES"
+    },
+    {
+      "fecha_iso": "2016-01-09T00:00:00",
+      "materia": "ADMON. DE LAS OPERACIONES",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Me mandó a rc solo por reprobar una unidad."
+    },
+    {
+      "fecha_iso": "2014-08-06T00:00:00",
+      "materia": "SIMULACION",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "es buen profesor, deja sacar apuntes, tiene un sarcasmo único, eso si es muy apegado al reglamento y nunca falta, nunca!\npd. los examenes que pone en la plataforma te sirven para darte una idea de como seran sus examenes en clase."
+    },
+    {
+      "fecha_iso": "2014-05-13T00:00:00",
+      "materia": "ADMINISTRACION DE OPERACIONES I",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Excelente maestro, no se por que le tienen miedo, domina los temas y exámenes peladisimos, deja sacar apuntes!!... recomendadisimo, clases interesantes y si aprendes mucho."
+    }
+  ],
+  "comments_recent": [
+    "Es muy raro, sarcástico, si tienes duda y le preguntas su expresión es como de burla y no logra contestarte con claridad, sus clases son monótonas, le gusta exponer en Facebook a sus alumnos para burlarse de errores que cometen, tiene un hijo con una ex alumna.",
+    "...",
+    "No sé porque muchos le tienen miedo. Es un muy buen profesor, tiene un sarcasmo que pocos entienden pero todo lo que explica es claro y preciso. Deja sacar apuntes en el examen y hace preexamenes en la plataforma. Reprobar está prohibido por lo fácil que está la clase. NOFALTES",
+    "Me mandó a rc solo por reprobar una unidad.",
+    "es buen profesor, deja sacar apuntes, tiene un sarcasmo único, eso si es muy apegado al reglamento y nunca falta, nunca!\npd. los examenes que pone en la plataforma te sirven para darte una idea de como seran sus examenes en clase.",
+    "Excelente maestro, no se por que le tienen miedo, domina los temas y exámenes peladisimos, deja sacar apuntes!!... recomendadisimo, clases interesantes y si aprendes mucho."
+  ],
+  "n_reviews": 6
+}

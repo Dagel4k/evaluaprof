@@ -1,0 +1,204 @@
+{
+  "professor_id": "Bladimir_Montoya_Rodríguez",
+  "nombre": "Bladimir Montoya Rodríguez",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 6.242804911489569,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 6.73599506266616,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.5,
+    "wilson_interval": [
+      0.1876128068994087,
+      0.8123871931005913
+    ],
+    "n_recommendations": 6
+  },
+  "subject_normalization": {
+    "z_mean": -0.44,
+    "z_mean_decayed": -0.44,
+    "per_subject": [
+      {
+        "materia": "FUNDAMENTOS DE LA INVESTIGACION",
+        "z_decayed": 0.694990612096429,
+        "n": 6
+      },
+      {
+        "materia": "ESTATICA",
+        "z_decayed": -0.24414717515722942,
+        "n": 25
+      },
+      {
+        "materia": "DESARROLLO SUSTENTABLE",
+        "z_decayed": -0.9581041293513348,
+        "n": 52
+      },
+      {
+        "materia": "ESTÁTICA",
+        "z_decayed": -1.8872254020942647,
+        "n": 8
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "siempre",
+          "si",
+          "te",
+          "buena",
+          "bien"
+        ],
+        "weight": 0.1709076821906663
+      },
+      {
+        "id": 1,
+        "words": [
+          "siempre",
+          "buena",
+          "es",
+          "si",
+          "te"
+        ],
+        "weight": 0.21270935620204842
+      },
+      {
+        "id": 2,
+        "words": [
+          "bien",
+          "es",
+          "si",
+          "claros",
+          "siempre"
+        ],
+        "weight": 0.2747089534717009
+      }
+    ],
+    "sentiment": {
+      "overall": 0.0,
+      "by_month": {
+        "2025-04": 0.0,
+        "2025-01": 0.0,
+        "2024-12": 0.0,
+        "2024-08": 0.0,
+        "2024-06": 0.0
+      }
+    },
+    "n_comments": 6
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        6.0,
+        7.0,
+        8.0,
+        10.0,
+        3.5
+      ],
+      "ewma": [
+        6.0,
+        6.299999999999999,
+        6.809999999999999,
+        7.766999999999999,
+        6.486899999999999
+      ],
+      "sigma": 1.972043100948861
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 6.486899999999999,
+      "quality_band": [
+        2.621695522140231,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2025-04-07T00:00:00",
+      "materia": "DESARROLLO SUSTENTABLE",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 0,
+      "comentario": "Soborna a alumnos para tener buena reputación en la paginas  por puntos extras, luego de exponer bien te pone 80 el hdlv"
+    },
+    {
+      "fecha_iso": "2025-04-07T00:00:00",
+      "materia": "DESARROLLO SUSTENTABLE",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 0,
+      "comentario": "El profesor tiene cara de hueva, de verlo y oirlo me da sueño, no vale verga"
+    },
+    {
+      "fecha_iso": "2025-01-11T00:00:00",
+      "materia": "FUNDAMENTOS DE LA INVESTIGACION",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Exigente, le gustan las cosas bien hechas pero explica muy Bien y con ejemplos claros de la vida real, son pocos trabajos pero largos.  Ayuda y brinda mucha ayuda cuando la  necesites y siempre buscando lo mejor para el alumno. Clases amenas, 100% recomendado."
+    },
+    {
+      "fecha_iso": "2024-12-30T00:00:00",
+      "materia": "FUNDAMENTOS DE LA INVESTIGACION",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 24.0,
+      "recomienda": 1,
+      "comentario": "En cada unidad especifica como va a calificar y si cumple, es medio simple cuando le entregas algun trabajo y asi pero al final te va a poner una calificacion mas alta de la que te hizo entender, al final te desocupas rapido de el."
+    },
+    {
+      "fecha_iso": "2024-08-19T00:00:00",
+      "materia": "ESTÁTICA",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Se confunde el profe al explicar, es buena onda, si son un grupo calmado la llevarán bien con el."
+    },
+    {
+      "fecha_iso": "2024-06-05T00:00:00",
+      "materia": "ESTATICA",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 7.5,
+      "recomienda": 0,
+      "comentario": "Deja temas sencillos y claros, casi siempre falta, si no quieres reprobar este es una gran opción"
+    }
+  ],
+  "comments_recent": [
+    "Soborna a alumnos para tener buena reputación en la paginas  por puntos extras, luego de exponer bien te pone 80 el hdlv",
+    "El profesor tiene cara de hueva, de verlo y oirlo me da sueño, no vale verga",
+    "Exigente, le gustan las cosas bien hechas pero explica muy Bien y con ejemplos claros de la vida real, son pocos trabajos pero largos.  Ayuda y brinda mucha ayuda cuando la  necesites y siempre buscando lo mejor para el alumno. Clases amenas, 100% recomendado.",
+    "En cada unidad especifica como va a calificar y si cumple, es medio simple cuando le entregas algun trabajo y asi pero al final te va a poner una calificacion mas alta de la que te hizo entender, al final te desocupas rapido de el.",
+    "Se confunde el profe al explicar, es buena onda, si son un grupo calmado la llevarán bien con el.",
+    "Deja temas sencillos y claros, casi siempre falta, si no quieres reprobar este es una gran opción"
+  ],
+  "n_reviews": 6
+}

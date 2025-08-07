@@ -1,0 +1,340 @@
+{
+  "professor_id": "Victor_Perez_Perez",
+  "nombre": "Victor Perez Perez",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 7.146821521525936,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.311036840106342,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.733,
+    "wilson_interval": [
+      0.48049110342313245,
+      0.8910272389681717
+    ],
+    "n_recommendations": 15
+  },
+  "subject_normalization": {
+    "z_mean": -0.14,
+    "z_mean_decayed": -0.42,
+    "per_subject": [
+      {
+        "materia": "CONTROL DIGITAL",
+        "z_decayed": 0.5868177561556309,
+        "n": 9
+      },
+      {
+        "materia": "AUTOMATIZACION",
+        "z_decayed": 0.0,
+        "n": 3
+      },
+      {
+        "materia": "---",
+        "z_decayed": -0.9627852966533862,
+        "n": 521
+      },
+      {
+        "materia": "AUTOMATIZACIÓN",
+        "z_decayed": -1.0288291775852556,
+        "n": 3
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "deja",
+          "tarea",
+          "tienes",
+          "si",
+          "proyectos"
+        ],
+        "weight": 0.09676771181863528
+      },
+      {
+        "id": 1,
+        "words": [
+          "aprendes",
+          "es",
+          "alumnos",
+          "profesor",
+          "excelente"
+        ],
+        "weight": 0.13233892651215498
+      },
+      {
+        "id": 2,
+        "words": [
+          "mas",
+          "si",
+          "porque",
+          "es",
+          "profe"
+        ],
+        "weight": 0.1664036139790374
+      },
+      {
+        "id": 3,
+        "words": [
+          "ambas",
+          "ambas materias",
+          "materias",
+          "solo",
+          "trabajos"
+        ],
+        "weight": 0.10883671970523504
+      },
+      {
+        "id": 4,
+        "words": [
+          "alumnos",
+          "solo",
+          "pasar",
+          "materia",
+          "semestre"
+        ],
+        "weight": 0.10661965841869428
+      }
+    ],
+    "sentiment": {
+      "overall": 0.3076923076923077,
+      "by_month": {
+        "2024-12": 0.0,
+        "2024-01": 0.0,
+        "2023-03": 0.0,
+        "2022-06": 0.0,
+        "2021-06": 1.0,
+        "2021-05": 0.0,
+        "2021-03": 0.0,
+        "2021-02": 1.0,
+        "2020-10": 1.0,
+        "2020-01": 0.0,
+        "2013-11": 0.5,
+        "2013-08": 0.0
+      }
+    },
+    "n_comments": 13
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [
+      {
+        "from": "2013-11-14T00:00:00",
+        "to": "2013-11-14T00:00:00",
+        "count": 3
+      }
+    ],
+    "low_variance_flag": 0,
+    "trust_score": 0.7
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        9.0,
+        2.0,
+        9.666666666666666,
+        10.0,
+        10.0,
+        10.0,
+        2.0,
+        8.0,
+        8.0,
+        6.0,
+        2.0,
+        9.0,
+        8.0
+      ],
+      "ewma": [
+        9.0,
+        6.8999999999999995,
+        7.729999999999999,
+        8.410999999999998,
+        8.887699999999999,
+        9.22139,
+        7.054972999999999,
+        7.338481099999999,
+        7.536936769999999,
+        7.075855738999999,
+        5.553099017299998,
+        6.587169312109998,
+        7.011018518476998
+      ],
+      "sigma": 2.5373680390872497
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 7.011018518476998,
+      "quality_band": [
+        2.0377771618659892,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2024-12-04T00:00:00",
+      "materia": "AUTOMATIZACIÓN Y REDES INDUSTRIALES",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "No hay mejor profe para cargar especialidad que con él, si cargas Redes y Auto con otro profe no verás más que puras diapositivas en todo el semestre porque este profe es el que tiene a cargo el laboratorio de mecatrónica. Lo de pagarle es opcional, pero si se puede pasar sin hacerlo."
+    },
+    {
+      "fecha_iso": "2024-01-18T00:00:00",
+      "materia": "REDES Y AUTO",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Cobra, pero puedes pasar sin pagar. La verdad si deja demasiada tarea, si tienes dudas trata de resolverlas o te da materiales para que puedas resolverlas. Si quieren dedicarse a la automatización sus clases serán las más importantes y útiles."
+    },
+    {
+      "fecha_iso": "2023-03-27T00:00:00",
+      "materia": "REDES INDUSTRIALES",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": "Deja tanta tarea para que te provoque que le pagues por pasar la materia. Cargué con el porque decía pendiente por asignar. Su clases son puros videos de su canal que no explica de manera clara el cómo hacer lo proyectos. De 20 alumnos en el semestre solo quedaron 5. Cobra como 2500 ´por materia."
+    },
+    {
+      "fecha_iso": "2022-06-11T00:00:00",
+      "materia": "AUTOMATIZACION Y REDES",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 25.0,
+      "recomienda": 0,
+      "comentario": "pagale y pasaras el semestre"
+    },
+    {
+      "fecha_iso": "2021-06-17T00:00:00",
+      "materia": "REDES INDUSTRIALES Y AUTOMATIZACIÓN",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Es el profe bueno para ambas materias, aprendes porque aprendes. Esfuérzate desde el día 1 hasta el último. Si eres un flojo conformista es mejor que no cargues con el. Carga ambas materias con el porque 1 trabajo cuenta para ambas materias (redes y auto)"
+    },
+    {
+      "fecha_iso": "2021-05-24T00:00:00",
+      "materia": "AUTOMATIZACION Y REDES INDUSTRIALES",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Solo te daré un consejo: cuando cargues con el trata te cargar ambas materias con el y corridas, ya que sus trabajos van tomados de la mano y unos trabajos de auto te sirven en redes y viceversa."
+    },
+    {
+      "fecha_iso": "2021-03-19T00:00:00",
+      "materia": "AUTOMATIZACIÓN",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 24.0,
+      "recomienda": 0,
+      "comentario": "No sabe arreglar los problemas que se presentan, solo deja trabajos y al final los programas usados dan problemas (en linea, ojala en presencial no sea así)"
+    },
+    {
+      "fecha_iso": "2021-02-20T00:00:00",
+      "materia": "OPERACIONES INTERNACIONALES",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Excelente profesor! Excelente clase! Aprendes muchisimo"
+    },
+    {
+      "fecha_iso": "2020-10-14T00:00:00",
+      "materia": "AUTOMATIZACION",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Excelente maestro y persona, es uno de los maestros que mas te echaran la mano durante la carrera, siempre ve la forma de ayudar a sus alumnos"
+    },
+    {
+      "fecha_iso": "2020-01-11T00:00:00",
+      "materia": "AUTOMATIZACION",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Es un amor este profe, es el profe que más te va echar la mano en la carrera, si le dices que solamente quieres liberar su materia ya sea porque estás haciendo residencias o porque solamente quieres liberarla te la libera y con buena calificación :) súper recomendado"
+    },
+    {
+      "fecha_iso": "2013-11-14T00:00:00",
+      "materia": "REDES INDUSTRIALES",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Buen profesor, comprensivo con los estudiantes, de los pocos profesores del tec que no es mamón, loco, con trauma de la infancia, repugnante o que se ensañe con los alumnos. Muy recomendable."
+    },
+    {
+      "fecha_iso": "2013-11-14T00:00:00",
+      "materia": "AUTOMATIZACION",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "BEST PROFE EVER, TE DA UN CHINGO DE CHANSE, Y APRENDES PORQUE APRENDES, LOS EXAMENES NO ESTAN DIFICILES, Y AVECES LOS DEJA DE TAREA. ESO SI, TIENES QUE ENTREGAR LOS PROYECTOS, PERO POR LO GENERAL SON PROYECTOS DENTRO DEL LABORATORIO, ASI QUE NO SON DE ESOS PROYECTOS QUE TIENES QUE HACER TU"
+    },
+    {
+      "fecha_iso": "2013-11-14T00:00:00",
+      "materia": "AUTOMATIZACIÓN",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2013-08-07T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2011-07-03T00:00:00",
+      "materia": "CONTROL DIGITAL",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": ""
+    }
+  ],
+  "comments_recent": [
+    "No hay mejor profe para cargar especialidad que con él, si cargas Redes y Auto con otro profe no verás más que puras diapositivas en todo el semestre porque este profe es el que tiene a cargo el laboratorio de mecatrónica. Lo de pagarle es opcional, pero si se puede pasar sin hacerlo.",
+    "Cobra, pero puedes pasar sin pagar. La verdad si deja demasiada tarea, si tienes dudas trata de resolverlas o te da materiales para que puedas resolverlas. Si quieren dedicarse a la automatización sus clases serán las más importantes y útiles.",
+    "Deja tanta tarea para que te provoque que le pagues por pasar la materia. Cargué con el porque decía pendiente por asignar. Su clases son puros videos de su canal que no explica de manera clara el cómo hacer lo proyectos. De 20 alumnos en el semestre solo quedaron 5. Cobra como 2500 ´por materia.",
+    "pagale y pasaras el semestre",
+    "Es el profe bueno para ambas materias, aprendes porque aprendes. Esfuérzate desde el día 1 hasta el último. Si eres un flojo conformista es mejor que no cargues con el. Carga ambas materias con el porque 1 trabajo cuenta para ambas materias (redes y auto)",
+    "Solo te daré un consejo: cuando cargues con el trata te cargar ambas materias con el y corridas, ya que sus trabajos van tomados de la mano y unos trabajos de auto te sirven en redes y viceversa.",
+    "No sabe arreglar los problemas que se presentan, solo deja trabajos y al final los programas usados dan problemas (en linea, ojala en presencial no sea así)",
+    "Excelente profesor! Excelente clase! Aprendes muchisimo",
+    "Excelente maestro y persona, es uno de los maestros que mas te echaran la mano durante la carrera, siempre ve la forma de ayudar a sus alumnos",
+    "Es un amor este profe, es el profe que más te va echar la mano en la carrera, si le dices que solamente quieres liberar su materia ya sea porque estás haciendo residencias o porque solamente quieres liberarla te la libera y con buena calificación :) súper recomendado"
+  ],
+  "n_reviews": 15
+}

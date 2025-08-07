@@ -1,0 +1,131 @@
+{
+  "professor_id": "Isaac_Andrey_Estrada_Manjarrez",
+  "nombre": "Isaac Andrey Estrada Manjarrez",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 4.209613289086705,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.198280071618469,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.75,
+    "wilson_interval": [
+      0.30063605244263664,
+      0.9544139373553638
+    ],
+    "n_recommendations": 4
+  },
+  "subject_normalization": {
+    "z_mean": 1.37,
+    "z_mean_decayed": 1.37,
+    "per_subject": [
+      {
+        "materia": "ADMINISTRACIÓN DE PROYECTOS",
+        "z_decayed": 1.387777332977422,
+        "n": 9
+      },
+      {
+        "materia": "ADMINISTRACION DE PROYECTOS",
+        "z_decayed": 1.3568010505999364,
+        "n": 4
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [],
+    "sentiment": {
+      "overall": null,
+      "by_month": {}
+    },
+    "n_comments": 3
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        10.0,
+        10.0,
+        9.0,
+        2.0
+      ],
+      "ewma": [
+        10.0,
+        10.0,
+        9.7,
+        7.389999999999999
+      ],
+      "sigma": 2.599363704191213
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 7.389999999999999,
+      "quality_band": [
+        2.2952471397852214,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2023-04-19T00:00:00",
+      "materia": "ING INDUSTRIAL",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "ERA PROFESOR Y SE FUE A LA EMPRESA IPX COMETIENDO FRAUDE MILLONARIO JUNTO CON LOS DEMAS ACCIONISTAS."
+    },
+    {
+      "fecha_iso": "2018-01-14T00:00:00",
+      "materia": "ADM. DE PROYECTOS",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2017-08-30T00:00:00",
+      "materia": "ADMINISTRACION DE PROYECTOS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Maestro jóven con ideas innovadoras y creativas. Es  cuestión de poner atención (Que no es tan dificil por que la mayoria de los temas que abarca son interesantes). Se lleva con los alumnos pero se siente el respeto hacia él. Buen profe volvería a cargar con el :)"
+    },
+    {
+      "fecha_iso": "2016-11-01T00:00:00",
+      "materia": "ADMINISTRACIÓN DE PROYECTOS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Gran profesor. Muy joven y con ideas nuevas que se preocupa que el alumno realmente aprenda y sepa aplicar los conocimientos en la vida real. Muy buena onda pero eso si los trabajos muy largos y medio dificiles tampoco esperes que sera light todo el semestre. Recomendado"
+    }
+  ],
+  "comments_recent": [
+    "ERA PROFESOR Y SE FUE A LA EMPRESA IPX COMETIENDO FRAUDE MILLONARIO JUNTO CON LOS DEMAS ACCIONISTAS.",
+    "Maestro jóven con ideas innovadoras y creativas. Es  cuestión de poner atención (Que no es tan dificil por que la mayoria de los temas que abarca son interesantes). Se lleva con los alumnos pero se siente el respeto hacia él. Buen profe volvería a cargar con el :)",
+    "Gran profesor. Muy joven y con ideas nuevas que se preocupa que el alumno realmente aprenda y sepa aplicar los conocimientos en la vida real. Muy buena onda pero eso si los trabajos muy largos y medio dificiles tampoco esperes que sera light todo el semestre. Recomendado"
+  ],
+  "n_reviews": 4
+}

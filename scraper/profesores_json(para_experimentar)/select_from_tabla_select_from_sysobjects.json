@@ -1,0 +1,27 @@
+{
+  "nombre": "select * from tabla select * from sys.objects",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "ciudad": "Ciudad: culiacan, sinaloa",
+  "departamento": "Departamento/Facultad: select * from sys.objects",
+  "calidad_general": 4.0,
+  "porcentaje_recomienda": 100,
+  "nivel_dificultad": 6.0,
+  "etiquetas": [],
+  "numero_calificaciones": 1,
+  "calificaciones": [
+    {
+      "fecha": "08/Sep/2017",
+      "tipo_calificacion": "REGULAR",
+      "puntaje_calidad_general": 4.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "select * from sys.objects",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "1.5",
+      "interes_clase": "",
+      "comentario": "",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    }
+  ]
+}

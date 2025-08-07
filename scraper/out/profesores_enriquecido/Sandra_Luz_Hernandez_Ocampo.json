@@ -1,0 +1,634 @@
+{
+  "professor_id": "Sandra_Luz_Hernandez_Ocampo",
+  "nombre": "Sandra Luz Hernandez Ocampo",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 3.5455760316974407,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 4.034152326974203,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.048,
+    "wilson_interval": [
+      0.013157248639206373,
+      0.1579013531547973
+    ],
+    "n_recommendations": 42
+  },
+  "subject_normalization": {
+    "z_mean": -0.42,
+    "z_mean_decayed": -0.39,
+    "per_subject": [
+      {
+        "materia": "TALLER DE ADMINISTRACION",
+        "z_decayed": -0.21907701980047742,
+        "n": 8
+      },
+      {
+        "materia": "TALLER DE ADMINISTRACIÓN",
+        "z_decayed": -0.3251333428651313,
+        "n": 22
+      },
+      {
+        "materia": "ADMINISTRACION",
+        "z_decayed": -0.5285564587546429,
+        "n": 15
+      },
+      {
+        "materia": "TALLER DE INVESTIGACIÓN",
+        "z_decayed": -1.5178722684134967,
+        "n": 9
+      },
+      {
+        "materia": "CULTURA EMPRESARIAL",
+        "z_decayed": -2.100371212885675,
+        "n": 17
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "mal",
+          "sentido",
+          "da",
+          "te",
+          "examenes"
+        ],
+        "weight": 0.0844578462733189
+      },
+      {
+        "id": 1,
+        "words": [
+          "exposiciones",
+          "buena",
+          "es buena",
+          "tema",
+          "clases"
+        ],
+        "weight": 0.11857754231791261
+      },
+      {
+        "id": 2,
+        "words": [
+          "si te",
+          "si",
+          "te",
+          "enoja",
+          "es"
+        ],
+        "weight": 0.12368320070416612
+      },
+      {
+        "id": 3,
+        "words": [
+          "he tenido",
+          "mi vida",
+          "vida",
+          "peor",
+          "huyan"
+        ],
+        "weight": 0.07958690328253125
+      },
+      {
+        "id": 4,
+        "words": [
+          "trabajos",
+          "ademas",
+          "dias",
+          "profe",
+          "deja"
+        ],
+        "weight": 0.08557864958240995
+      }
+    ],
+    "sentiment": {
+      "overall": 0.05714285714285714,
+      "by_month": {
+        "2024-01": 0.0,
+        "2023-01": 0.5,
+        "2022-03": 0.0,
+        "2022-02": 0.0,
+        "2022-01": 0.0,
+        "2021-12": 0.0,
+        "2021-10": 0.0,
+        "2021-09": 0.0,
+        "2021-06": 0.0,
+        "2021-01": 0.0,
+        "2020-09": 0.0,
+        "2020-01": 0.0,
+        "2019-08": 0.0,
+        "2019-01": 0.0,
+        "2018-11": 0.0,
+        "2018-08": 1.0,
+        "2016-12": 0.0,
+        "2016-09": 0.0,
+        "2015-12": 0.0,
+        "2015-11": 0.0,
+        "2015-09": 0.0,
+        "2015-06": 0.0,
+        "2015-04": 0.0,
+        "2015-01": 0.0,
+        "2014-12": 0.0
+      }
+    },
+    "n_comments": 35
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [
+      {
+        "from": "2018-11-13T00:00:00",
+        "to": "2018-11-13T00:00:00",
+        "count": 3
+      },
+      {
+        "from": "2020-09-24T00:00:00",
+        "to": "2020-09-24T00:00:00",
+        "count": 3
+      },
+      {
+        "from": "2020-09-24T00:00:00",
+        "to": "2020-09-24T00:00:00",
+        "count": 4
+      }
+    ],
+    "low_variance_flag": 0,
+    "trust_score": 0.7
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        3.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        3.6666666666666665,
+        2.5,
+        4.0,
+        2.5,
+        2.0,
+        4.0,
+        6.0,
+        4.5,
+        10.0,
+        3.0,
+        3.2,
+        2.0,
+        4.5,
+        4.0,
+        3.5,
+        3.0,
+        2.5,
+        4.0
+      ],
+      "ewma": [
+        3.0,
+        2.6999999999999997,
+        2.4899999999999998,
+        2.3429999999999995,
+        2.2400999999999995,
+        2.1680699999999997,
+        2.1176489999999997,
+        2.5823542999999995,
+        2.5576480099999994,
+        2.9903536069999994,
+        2.8432475248999993,
+        2.5902732674299993,
+        3.0131912872009994,
+        3.9092339010406993,
+        4.0864637307284895,
+        5.860524611509943,
+        5.0023672280569595,
+        4.4616570596398715,
+        3.7231599417479098,
+        3.9562119592235367,
+        3.9693483714564755,
+        3.8285438600195327,
+        3.5799807020136725,
+        3.2559864914095704,
+        3.4791905439866992
+      ],
+      "sigma": 1.2309850516591714
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 3.4791905439866992,
+      "quality_band": [
+        1.0664598427347234,
+        5.8919212452386756
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2024-01-18T00:00:00",
+      "materia": "TALLER DE ADMINISTRACIÓN",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 0,
+      "comentario": "Lo único que tiene de bueno es que explica ok. De ahí, todo es malo. Su carácter te pone de mal humor y odia los teléfonos. Recomiendo que trates de ser la persona más olvidable de su clase, porque una vez que te vea, te va a agarrar de torta participando. Examenes específicos, memoriza términos."
+    },
+    {
+      "fecha_iso": "2023-01-18T00:00:00",
+      "materia": "TALLER DE ADMINISTRACIÓN",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 0,
+      "comentario": "Es el tipico docente que te arruina la experiencia educativa, no ayuda en absolutamente nada, da un pdf de 20 hojas para estudiar unos dias antes del examen y es cuestion de suerte estudiar lo que vendra porque en clase no enseña nada, bajo mi experiencia el peor docente de la universidad"
+    },
+    {
+      "fecha_iso": "2023-01-13T00:00:00",
+      "materia": "TALLER DE ADMINISTRACIÓN",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Una lastima que esta profe le toque a los de nuevo ingreso, ya que no pueden evitar que les toque, aun así, es una de las peores profes que e tenido el descaro de conocer, súper mal educada y grosera con los alumnos, ademas que no deja claro los días de evaluación"
+    },
+    {
+      "fecha_iso": "2022-03-29T00:00:00",
+      "materia": "TALLER DE ADMINISTRACIÓN",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 0,
+      "comentario": "Todo se le olvida y se confunde con todo, huyan (ojo en virtuales, en presencial no se)."
+    },
+    {
+      "fecha_iso": "2022-02-09T00:00:00",
+      "materia": "TALLER DE ADMINISTRACIÓN",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 0,
+      "comentario": "Es una mala profe como docente está bien pero a veces se pone en una actitud que no se puede tolerar y yo considero que a veces puede llegarle a faltar al respeto a los alumnos le vale madres si pasas o no"
+    },
+    {
+      "fecha_iso": "2022-02-01T00:00:00",
+      "materia": "FUNDAMENTO DE INVESTIGACIONS",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 0,
+      "comentario": "Es una profesora muy extraña y confusa su forma de calificar, Sus clases son siempre lo mismo leer continuamente y explicar una que otra cosa y ya, Los trabajos pide mucho para lo poco ayuda que brinda. Eso si siempre agarras a sus favoritos esta maestra"
+    },
+    {
+      "fecha_iso": "2022-01-19T00:00:00",
+      "materia": "ADMINISTRACION",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 0,
+      "comentario": "cambia mucho de parecer, sus exámenes suelen ser confusos, participa mucho y te ayudara"
+    },
+    {
+      "fecha_iso": "2021-12-18T00:00:00",
+      "materia": "TALLER DE ADMINISTRACIÓN",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 0,
+      "comentario": "no tiene tiene buena actitud, califica de una manera muy confusa y suele dejar muchas tareas, parece saber sobre los temas sin embargo los vuelve algo enredosos y pues ademas su actitud no ayuda.\n- esto siendo en linea, quien sabe si será igual en presencial jaja"
+    },
+    {
+      "fecha_iso": "2021-12-07T00:00:00",
+      "materia": "TALLER DE ADMINISTRACIÓN",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 0,
+      "comentario": "La peor docente que he tenido en mi vida estudiantil, sus métodos de enseñanza son ambiguos y poco eficientes, sus métodos para calificar cambian dependiendo de su humor y si recuerda lo que dice, poca empatía y un mal carácter, si la ven huyan, y si la cargan por accidente consideren darse de baja."
+    },
+    {
+      "fecha_iso": "2021-10-04T00:00:00",
+      "materia": "ADMINISTRACION",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2021-10-03T00:00:00",
+      "materia": "TALLER DE ADMINISTRACION",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 7.5,
+      "recomienda": 0,
+      "comentario": "tipica profe de materia de relleno que deja trabajos como loca XD"
+    },
+    {
+      "fecha_iso": "2021-09-30T00:00:00",
+      "materia": "TALLER DE ADMINISTRACIÓN",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 23.0,
+      "recomienda": 0,
+      "comentario": "Definitivamente la peor profesora que he tenido hasta en toda mi vida escolar, criterios de evaluación pésimos y confusos, clases en donde no se aprende y muchas tareas innecesariamente laboriosas"
+    },
+    {
+      "fecha_iso": "2021-09-20T00:00:00",
+      "materia": "TALLER DE ADMINISTRACIÓN",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": 7.5,
+      "recomienda": 0,
+      "comentario": "Es muy mala onda como profesora, no le importa si se te va el internet, no se va a tentar el corazón, es rígida, haciendo que sea amarga y  cerrada a que ella siempre tiene la razon."
+    },
+    {
+      "fecha_iso": "2021-09-17T00:00:00",
+      "materia": "TALLER DE ADMINISTRACIÓN",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": 23.0,
+      "recomienda": 0,
+      "comentario": "La maestra es irritante, se dedica a leer diapositivas para ella misma. Espera que tomemos notas para el portafolio y deja por lo menos una tarea todos los días, además de ensayos de libros larguísimos por un poco de calificación."
+    },
+    {
+      "fecha_iso": "2021-09-15T00:00:00",
+      "materia": "TALLER DE ADMINISTRACIÓN",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 24.0,
+      "recomienda": 0,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2021-09-09T00:00:00",
+      "materia": "TALLER DE ADMINISTRACIÓN",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 0,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2021-06-18T00:00:00",
+      "materia": "ADMIISTRACION DE EMPRESAS",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 0,
+      "comentario": "Con ella parece que vas bien pero cuando menos piensas por todo empieza a bajar puntos, quedan un 60 y 40 para la calificacion y ella no lo respeta y si eres aplicado te agarra de torta a que le revises trabajos, examenes etc..."
+    },
+    {
+      "fecha_iso": "2021-01-06T00:00:00",
+      "materia": "TALLER DE ADMINISTRACIÓN",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 22.0,
+      "recomienda": 1,
+      "comentario": "Es una muy buena docente, aprendí bastantes cosas que desconocía sobre el ámbito de la administración. sus clases fueron bastante constructivas en los aprendizajes de la materia, en lo personal sus clases son excelentes y muy profesionales al punto de que volvería a tomar sus clases."
+    },
+    {
+      "fecha_iso": "2020-09-24T00:00:00",
+      "materia": "TALLER DE ADMINISTRACIÓN",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 24.0,
+      "recomienda": 0,
+      "comentario": "da fovoritismo"
+    },
+    {
+      "fecha_iso": "2020-09-24T00:00:00",
+      "materia": "TALLER DE ADMINISTRACIÓN",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Yo la verdad no tenía casi quejas con esta profesora hasta la hora del examen, pues puso unas preguntas repetidas con respuesta diferente y en otra cambió unos significados, tiende algo al favoritismo y sus clases para mí en lo personal son muy monótonas."
+    },
+    {
+      "fecha_iso": "2020-09-24T00:00:00",
+      "materia": "TALLER DE INVESTIGACIÓN",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2020-09-24T00:00:00",
+      "materia": "TALLER DE ADMINISTRACIÓN",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2020-01-13T00:00:00",
+      "materia": "TALLER DE ADMINISTRACIÓN",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Tiende al favoritismo, puede ser estricta dentro del aula."
+    },
+    {
+      "fecha_iso": "2019-08-05T00:00:00",
+      "materia": "TALLER DE ADMINISTRACIÓN / CULTURA EMPRESARIAL",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 0,
+      "comentario": "No es una muy buena maestra, sabe del tema pero no sabe explicarlo. Frecuentemente está enojada y se nota demasiado. Sus clases son pura teoría, además de exposiciones."
+    },
+    {
+      "fecha_iso": "2019-01-16T00:00:00",
+      "materia": "TALLER DE ADMINISTRACION",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": "No vale pa pura verga, su clase valia pito preferia que me mataran, me reprobo por scar el celular 1 vez y si eran puras putas diapositivas no aprendes nada, la neta deberian correrla o jubilarla"
+    },
+    {
+      "fecha_iso": "2018-11-27T00:00:00",
+      "materia": "ADMINISTRACION",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 24.0,
+      "recomienda": 0,
+      "comentario": "no vale vrg solo diapositivas y reprueba a todos sin razon"
+    },
+    {
+      "fecha_iso": "2018-11-13T00:00:00",
+      "materia": "TALLER DE ADMINISTRACION",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": "La peor maestra del Tec. Su clase consiste en leer diapositivas y poner a sus alumnos a exponer el temario, sus examenes son de adivinar y nunca da los resultados de estos. Te califica a como le caigas a menos que seas de sus favoritos, si no siempre te pondra 70 a lo mucho."
+    },
+    {
+      "fecha_iso": "2018-11-13T00:00:00",
+      "materia": "TALLER DE ADMINISTRACION",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 0,
+      "comentario": "es una profesora que te saca dolores de cabeza con tan solo escuchar su voz, es muy exigente contando que su materia es de relleno , es una pesima maestra"
+    },
+    {
+      "fecha_iso": "2018-11-13T00:00:00",
+      "materia": "TALLER DE ADMINISTRACIÓN",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 0,
+      "comentario": "En ninguna de las clases explica de forma clara, habla muy repetitivamente de un mismo tema, la mayoría de las clases las hemos dado los alumnos por medio de exposiciones porque según ella así debe ser, no aprendemos claramente debido a que no tenemos la capacidad profesional de enseñar un tema"
+    },
+    {
+      "fecha_iso": "2018-08-16T00:00:00",
+      "materia": "TALLER DE ADMINISTRACION",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 7.5,
+      "recomienda": 0,
+      "comentario": "El termino perfecto de mal maestro, no explica bien, saca las calificaciones de sus ovarios, nunca da resultados de examenes pasan sus favoritos nomas los demas 70 o rc depende que tanto te odie. Si eres prieto no cargues con ella"
+    },
+    {
+      "fecha_iso": "2016-12-08T00:00:00",
+      "materia": "TALLER DE ADMINISTRACION",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 0,
+      "comentario": "es una profesora que no explica nada,y si le preguntas se enoja en mi opinión una persona de tercera edad ya no debería de trabajar puesto que son cerrados de mente, tiene sus alumnos favoritos que de todos no se completa uno."
+    },
+    {
+      "fecha_iso": "2016-12-08T00:00:00",
+      "materia": "ADMINISTRACION",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 7.5,
+      "recomienda": 0,
+      "comentario": "no domina sus temas, no es concreta con lo que pide, nomas se le da la gana y mueve lo previamente establecido, tiene favoritismo hacia ciertos alumnos y nunca revisa los exámenes, si le caes mal te reprueba sin ni siquiera revisar tu examen, aparte sus exámenes no tienen sentido."
+    },
+    {
+      "fecha_iso": "2016-09-28T00:00:00",
+      "materia": "TALLER DE ADMINISTRACION",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Es una profesora que en mi opinion es buena explicando gracias a sus exposiciones nos hace retroalimentarnos mas, cuando nos pide exponer un tema hace que aprendamos mas afondo sobre el has lograr comprenderlo"
+    },
+    {
+      "fecha_iso": "2016-09-21T00:00:00",
+      "materia": "AADMINISTRACION",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 23.0,
+      "recomienda": 0,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2016-09-21T00:00:00",
+      "materia": "ADMINISTRACION",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2015-12-23T00:00:00",
+      "materia": "ADMINISTRACION",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 6.0,
+      "recomienda": 0,
+      "comentario": "es una profesora que quien quiere que demos sus clases seamos nosotros mismos con exposiviones"
+    },
+    {
+      "fecha_iso": "2015-11-10T00:00:00",
+      "materia": "ADMINISTRACION GERENCIAL",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "es una profesora que sinceramente y con el respeto hacia los profesores no enseña nada, su materia en ocasiones son de relleno pero ella cree que es la mas importante, solo molesta a algunos alumnos por ejemplo ami, en un examen todo el mundo copia pero si te mira a ti a ti te truena saquenla deltec"
+    },
+    {
+      "fecha_iso": "2015-09-23T00:00:00",
+      "materia": "ADMINISTRACION",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 1.0,
+      "recomienda": 0,
+      "comentario": "Es una profesora que no tiene capacidad de razonar y no te explica nada le preguntas algo y se enoja por que no lo sabes desde el kinder y si no te ries de sus chistes se enoja y si te ries se enoja no se puede con esa profe yo diria que la expulsaran del tec y no la dejaran entrar"
+    },
+    {
+      "fecha_iso": "2015-06-09T00:00:00",
+      "materia": "GEL",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Quiere que adivinemos que quiere en los exámenes ya que no enseña y la actitud que muestra es pésima, habla de liderazgo cuando es una vil jefa que nada le gusta, si volteas a un lado se enoja, si pláticas se enoja, si te ríes se enoja, si miras el cel se enoja, en fin no es recomendable"
+    },
+    {
+      "fecha_iso": "2015-04-26T00:00:00",
+      "materia": "ADMINISTRACION",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 5.5,
+      "recomienda": 0,
+      "comentario": "Por que tienen esta clase de profesores en el tec?"
+    },
+    {
+      "fecha_iso": "2015-01-28T00:00:00",
+      "materia": "CULTURA EMPRESARIAL",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 0,
+      "comentario": "Pésima profesora, no sabe de la materia, solo te pone a exponer y de vez en cuando lee unas diapositivas y hace preguntas sin sentido. No puedes hablar, reír, sentarte mal porque se molesta y ni sacar el celular un momento. Además sus exámenes no tienen sentido."
+    },
+    {
+      "fecha_iso": "2014-12-28T00:00:00",
+      "materia": "CULTURA EMPRESARIAL",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 0,
+      "comentario": "No enseña, lee diapositivas y no las explica, hace preguntas sin sentido, sus examenes son de adivinar, no puedes platicar, ni reirte ni sentarte mal, a las mujeres les pregunta mas que a los hombres, siempre agarra a alguien de secretario. MUY MALA PROFESORA"
+    }
+  ],
+  "comments_recent": [
+    "Lo único que tiene de bueno es que explica ok. De ahí, todo es malo. Su carácter te pone de mal humor y odia los teléfonos. Recomiendo que trates de ser la persona más olvidable de su clase, porque una vez que te vea, te va a agarrar de torta participando. Examenes específicos, memoriza términos.",
+    "Es el tipico docente que te arruina la experiencia educativa, no ayuda en absolutamente nada, da un pdf de 20 hojas para estudiar unos dias antes del examen y es cuestion de suerte estudiar lo que vendra porque en clase no enseña nada, bajo mi experiencia el peor docente de la universidad",
+    "Una lastima que esta profe le toque a los de nuevo ingreso, ya que no pueden evitar que les toque, aun así, es una de las peores profes que e tenido el descaro de conocer, súper mal educada y grosera con los alumnos, ademas que no deja claro los días de evaluación",
+    "Todo se le olvida y se confunde con todo, huyan (ojo en virtuales, en presencial no se).",
+    "Es una mala profe como docente está bien pero a veces se pone en una actitud que no se puede tolerar y yo considero que a veces puede llegarle a faltar al respeto a los alumnos le vale madres si pasas o no",
+    "Es una profesora muy extraña y confusa su forma de calificar, Sus clases son siempre lo mismo leer continuamente y explicar una que otra cosa y ya, Los trabajos pide mucho para lo poco ayuda que brinda. Eso si siempre agarras a sus favoritos esta maestra",
+    "cambia mucho de parecer, sus exámenes suelen ser confusos, participa mucho y te ayudara",
+    "no tiene tiene buena actitud, califica de una manera muy confusa y suele dejar muchas tareas, parece saber sobre los temas sin embargo los vuelve algo enredosos y pues ademas su actitud no ayuda.\n- esto siendo en linea, quien sabe si será igual en presencial jaja",
+    "La peor docente que he tenido en mi vida estudiantil, sus métodos de enseñanza son ambiguos y poco eficientes, sus métodos para calificar cambian dependiendo de su humor y si recuerda lo que dice, poca empatía y un mal carácter, si la ven huyan, y si la cargan por accidente consideren darse de baja."
+  ],
+  "n_reviews": 42
+}

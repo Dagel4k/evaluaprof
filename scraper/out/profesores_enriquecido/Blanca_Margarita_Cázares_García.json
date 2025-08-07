@@ -1,0 +1,352 @@
+{
+  "professor_id": "Blanca_Margarita_Cázares_García",
+  "nombre": "Blanca Margarita Cázares García",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 9.211115667159621,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 8.068304653948406,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.812,
+    "wilson_interval": [
+      0.5699064013154177,
+      0.9340852122641323
+    ],
+    "n_recommendations": 16
+  },
+  "subject_normalization": {
+    "z_mean": 0.11,
+    "z_mean_decayed": 0.17,
+    "per_subject": [
+      {
+        "materia": "IO",
+        "z_decayed": 1.1547005383792512,
+        "n": 3
+      },
+      {
+        "materia": "INVESTIGACIÓN DE OPERACIONES 2",
+        "z_decayed": 0.9933992677987828,
+        "n": 4
+      },
+      {
+        "materia": "INVESTIGACIÓN DE OPERACIONES",
+        "z_decayed": 0.6492344540642356,
+        "n": 15
+      },
+      {
+        "materia": "CALIDAD",
+        "z_decayed": 0.5535187248173307,
+        "n": 5
+      },
+      {
+        "materia": "INVESTIGACIÓN DE OPERACIONES 1",
+        "z_decayed": 0.48315368409248033,
+        "n": 5
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "muchas oportunidades",
+          "muchas",
+          "bien",
+          "te",
+          "oportunidades"
+        ],
+        "weight": 0.10762529326627256
+      },
+      {
+        "id": 1,
+        "words": [
+          "mejor maestra",
+          "da",
+          "falta",
+          "facil",
+          "clase"
+        ],
+        "weight": 0.08849659249141302
+      },
+      {
+        "id": 2,
+        "words": [
+          "quieres aprender",
+          "aprender",
+          "faciles",
+          "falta",
+          "quieres"
+        ],
+        "weight": 0.14387328693325835
+      },
+      {
+        "id": 3,
+        "words": [
+          "buena maestra",
+          "super buena",
+          "tienes",
+          "es",
+          "buena"
+        ],
+        "weight": 0.1519739755115952
+      },
+      {
+        "id": 4,
+        "words": [
+          "amor",
+          "materia",
+          "maestra",
+          "mejor",
+          "mejor maestra"
+        ],
+        "weight": 0.09116890506621067
+      }
+    ],
+    "sentiment": {
+      "overall": 0.125,
+      "by_month": {
+        "2024-01": 0.0,
+        "2023-06": 0.5,
+        "2022-06": 0.0,
+        "2021-08": 1.0,
+        "2018-01": 0.0,
+        "2017-08": 0.0,
+        "2017-07": 0.0,
+        "2016-08": 0.0,
+        "2016-05": 0.0,
+        "2014-06": 0.0,
+        "2014-05": 0.0,
+        "2014-03": 0.0,
+        "2014-02": 0.0,
+        "2013-08": 0.0
+      }
+    },
+    "n_comments": 16
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        10.0,
+        4.0,
+        10.0,
+        10.0,
+        6.0,
+        9.0,
+        10.0,
+        4.0,
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        8.5,
+        10.0
+      ],
+      "ewma": [
+        10.0,
+        8.2,
+        8.739999999999998,
+        9.117999999999999,
+        8.182599999999997,
+        8.427819999999997,
+        8.899473999999998,
+        7.429631799999998,
+        8.200742259999998,
+        8.740519581999997,
+        9.118363707399997,
+        9.382854595179998,
+        9.117998216625999,
+        9.382598751638199
+      ],
+      "sigma": 1.853620709933155
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 9.382598751638199,
+      "quality_band": [
+        5.7495021601692144,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2024-01-12T00:00:00",
+      "materia": "INVESTIGACIÓN DE OPERACIONES",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Me gustó mucho su clase"
+    },
+    {
+      "fecha_iso": "2023-06-08T00:00:00",
+      "materia": "ALGEBRA LINEAL",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Es buena profe para ser la 1ra vez que imparte la materia de algebra lo hizo muy bien todo claro y te ayuda si le echas ganas y asistes regularmente y da varias oportunidades"
+    },
+    {
+      "fecha_iso": "2023-06-07T00:00:00",
+      "materia": "INVESTIGACIÓN DE OPERACIONES I",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "La dinámica para ver los temas me parece muy ágil, sin embargo, no profundiza demasiado en los temas.\nEs muy comprensiva y realiza exámenes sencillos, a veces deja sacar apuntes o te ayuda con dudas de tu examen"
+    },
+    {
+      "fecha_iso": "2022-06-07T00:00:00",
+      "materia": "INVESTIGACIÓN DE OPERACIONES I",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Es super buena maestra, si tienes dudas te apoya, da facilidades para pasar y es muy accesible cuando tienes algún problema, no duden en cargar con ella."
+    },
+    {
+      "fecha_iso": "2021-08-24T00:00:00",
+      "materia": "INVESTIGACIÓN DE OPERACIONES 1",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "La mejor maestra para impartir esta materia. Clara, paciente y un amor de persona."
+    },
+    {
+      "fecha_iso": "2018-01-14T00:00:00",
+      "materia": "INVESTIGACIÓN DE OPERACIONES 1",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "De las mejores maestras, super buena, solo carguen con ella."
+    },
+    {
+      "fecha_iso": "2018-01-13T00:00:00",
+      "materia": "INVESTIGACION DE OPERACIONES 1",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "muy buena maestra te ayuda mucho, muy buena persona, si no le entiendes tienes que hacérselo saber para que te pueda ayudar da muchas oportunidades"
+    },
+    {
+      "fecha_iso": "2017-08-30T00:00:00",
+      "materia": "INVESTIGACIÓN DE LAS OPERACIONES II",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Es una muy buena persona, dedicada y flexible con los alumnos, volvería a cargar con ella siempre. Es fácil sacar 100, es cuestión de estudiar para los examenes aunque están facilisimos. Buena maestra, aprendes mucho y sin tantos enredos."
+    },
+    {
+      "fecha_iso": "2017-07-14T00:00:00",
+      "materia": "INVESTIGACION DE OPERACIONES",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 0,
+      "comentario": "Falta mucho sus examenes super faciles no ahonda en los temas al final con prisas con un trabajo te pasa, si quieres aprender mejor busca otro maestro, hay mucho mejores que ella"
+    },
+    {
+      "fecha_iso": "2016-08-09T00:00:00",
+      "materia": "INVESTIGACIÓN DE OPERACIONES 2",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "es un amor, explica super bien, exámenes faciles, te da muchas oportunidades de pasar, muy compresiva, no te complica la vida, recomendada"
+    },
+    {
+      "fecha_iso": "2016-05-29T00:00:00",
+      "materia": "INVESTIGACIÓN DE OPERACIONES 1",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Un amor de profesora y una hermosa persona. Enseña muy bien, da muchas oportunidades para que pasen, los examenes son muy sencillos pero largos, pero eso si ocupas las asistencias y las tareas para que te ayude. No traten de colgarse de su amabilidad por que ahí si los va a tronar"
+    },
+    {
+      "fecha_iso": "2014-06-21T00:00:00",
+      "materia": "LOGISTICA",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 0,
+      "comentario": "Falta muchisisimo, nomas iba a dejar trabajos finales algo exigentes y no te explica antemano como hacerlos, en todo el semestre nomas vimos los conceptos de cada unidad sin profundizar nada en ninguna, no la recomiendo si quieres aprender, no hace exámenes"
+    },
+    {
+      "fecha_iso": "2014-05-20T00:00:00",
+      "materia": "IO",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": "Da muy facil la clase aveces falta pero por que tiene un puesto de cordinadora o algo asi."
+    },
+    {
+      "fecha_iso": "2014-03-04T00:00:00",
+      "materia": "CALIDAD",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "La mejor maestra del tec, me enamore de ella desde el primer dia de clase."
+    },
+    {
+      "fecha_iso": "2014-02-27T00:00:00",
+      "materia": "---",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2013-08-07T00:00:00",
+      "materia": "I",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Soy un burro de promedio 77.6, y con ella saqué 98, exámenes fáciles,falta algunas veces por si te quieres ir a comer, la profe es camarada, y las recuperaciones son iguales o más fáciles que el examen parcial. Morros jalense la neta."
+    }
+  ],
+  "comments_recent": [
+    "Me gustó mucho su clase",
+    "Es buena profe para ser la 1ra vez que imparte la materia de algebra lo hizo muy bien todo claro y te ayuda si le echas ganas y asistes regularmente y da varias oportunidades",
+    "La dinámica para ver los temas me parece muy ágil, sin embargo, no profundiza demasiado en los temas.\nEs muy comprensiva y realiza exámenes sencillos, a veces deja sacar apuntes o te ayuda con dudas de tu examen",
+    "Es super buena maestra, si tienes dudas te apoya, da facilidades para pasar y es muy accesible cuando tienes algún problema, no duden en cargar con ella.",
+    "La mejor maestra para impartir esta materia. Clara, paciente y un amor de persona.",
+    "De las mejores maestras, super buena, solo carguen con ella.",
+    "muy buena maestra te ayuda mucho, muy buena persona, si no le entiendes tienes que hacérselo saber para que te pueda ayudar da muchas oportunidades",
+    "Es una muy buena persona, dedicada y flexible con los alumnos, volvería a cargar con ella siempre. Es fácil sacar 100, es cuestión de estudiar para los examenes aunque están facilisimos. Buena maestra, aprendes mucho y sin tantos enredos.",
+    "Falta mucho sus examenes super faciles no ahonda en los temas al final con prisas con un trabajo te pasa, si quieres aprender mejor busca otro maestro, hay mucho mejores que ella",
+    "es un amor, explica super bien, exámenes faciles, te da muchas oportunidades de pasar, muy compresiva, no te complica la vida, recomendada"
+  ],
+  "n_reviews": 16
+}

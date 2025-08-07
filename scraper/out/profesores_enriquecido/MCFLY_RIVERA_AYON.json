@@ -1,0 +1,367 @@
+{
+  "professor_id": "MCFLY_RIVERA_AYON",
+  "nombre": "MCFLY RIVERA AYON",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 3.702653743857343,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 5.063425750094948,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.222,
+    "wilson_interval": [
+      0.09000781913382,
+      0.4521502645230549
+    ],
+    "n_recommendations": 18
+  },
+  "subject_normalization": {
+    "z_mean": -0.53,
+    "z_mean_decayed": -0.63,
+    "per_subject": [
+      {
+        "materia": "LA QUE DE",
+        "z_decayed": 0.0,
+        "n": 3
+      },
+      {
+        "materia": "ELECTRONICA DE POTENCIA",
+        "z_decayed": -0.3736135539235002,
+        "n": 4
+      },
+      {
+        "materia": "MAQUINAS ELECTRICAS",
+        "z_decayed": -0.5940383393593073,
+        "n": 9
+      },
+      {
+        "materia": "ELECTRONICA",
+        "z_decayed": -0.6627944170679467,
+        "n": 9
+      },
+      {
+        "materia": "MÁQUINAS ELÉCTRICAS",
+        "z_decayed": -0.866292107609371,
+        "n": 13
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "profesor",
+          "pasar",
+          "ensena",
+          "mas",
+          "es"
+        ],
+        "weight": 0.10154894830700065
+      },
+      {
+        "id": 1,
+        "words": [
+          "es",
+          "reverenda",
+          "reverenda mierda",
+          "tipo",
+          "mierda"
+        ],
+        "weight": 0.10590514026232792
+      },
+      {
+        "id": 2,
+        "words": [
+          "maestro",
+          "ser",
+          "pa",
+          "vale",
+          "pura"
+        ],
+        "weight": 0.1056550163324262
+      },
+      {
+        "id": 3,
+        "words": [
+          "trabajos",
+          "cosas",
+          "clases",
+          "te",
+          "da"
+        ],
+        "weight": 0.12227369264845794
+      },
+      {
+        "id": 4,
+        "words": [
+          "pide",
+          "califica reportes",
+          "examenes califica",
+          "reportes",
+          "formato"
+        ],
+        "weight": 0.11812666968189789
+      }
+    ],
+    "sentiment": {
+      "overall": 0.0,
+      "by_month": {
+        "2023-01": 0.0,
+        "2021-08": 0.0,
+        "2021-06": 0.0,
+        "2021-01": 0.0,
+        "2020-11": 0.0,
+        "2020-10": 0.0,
+        "2020-06": 0.0,
+        "2020-01": 0.0,
+        "2019-11": 0.0,
+        "2019-09": 0.0,
+        "2018-08": 0.0,
+        "2018-01": 0.0,
+        "2017-01": 0.0
+      }
+    },
+    "n_comments": 18
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        7.0,
+        6.0,
+        6.0,
+        3.0,
+        3.0,
+        8.5,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        7.0,
+        2.0,
+        5.0
+      ],
+      "ewma": [
+        7.0,
+        6.699999999999999,
+        6.489999999999999,
+        5.443,
+        4.710099999999999,
+        5.847069999999999,
+        4.692948999999999,
+        3.885064299999999,
+        3.3195450099999992,
+        2.9236815069999995,
+        4.1465770549,
+        3.5026039384299996,
+        3.9518227569009996
+      ],
+      "sigma": 1.7717202074661795
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 3.9518227569009996,
+      "quality_band": [
+        0.4792511502672876,
+        7.424394363534711
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2023-01-15T00:00:00",
+      "materia": "MÁQUINAS ELÉCTRICAS",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 0,
+      "comentario": "Definitivamente revisa los trabajos con lupa y siempre en el formato que el pide, no hace exámenes, todo lo califica con reportes de práctica por lo tanto estos deben ser de 100/100, la asistencia importa bastante."
+    },
+    {
+      "fecha_iso": "2021-08-27T00:00:00",
+      "materia": "MAQUINAS SÍNCRONAS Y DE C.D",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 0,
+      "comentario": "Que Dios te bendiga, y el diablo de pasada también, por si las moscas"
+    },
+    {
+      "fecha_iso": "2021-06-11T00:00:00",
+      "materia": "MAQUINAS SÍNCRONAS Y DE C.D.",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": "Todo el semestre deja trabajos de investigacion que deben ir en un formato que el te da. Sus clases son muy teoricas y la mayoria de veces no estan preparadas. Se las da de correcto pero cambia las cosas de una y pone fechas de entrega bien apresuradas. Califica los trabajos con lupa."
+    },
+    {
+      "fecha_iso": "2021-01-17T00:00:00",
+      "materia": "ELECTRONICA",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Cómo ser humano es una mierda y lo que le sigue, y como maestro no sirve pa nada"
+    },
+    {
+      "fecha_iso": "2021-01-12T00:00:00",
+      "materia": "MAQUINAS ELECTRICAS",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "no vale pa pura verga"
+    },
+    {
+      "fecha_iso": "2021-01-07T00:00:00",
+      "materia": "LA QUE DE",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "UN PENDEJO"
+    },
+    {
+      "fecha_iso": "2021-01-06T00:00:00",
+      "materia": "MÁQUINAS ELÉCTRICAS",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Vale pura vrg"
+    },
+    {
+      "fecha_iso": "2020-11-10T00:00:00",
+      "materia": "ELECTRÓNICA DE POTENCIA",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Reverenda mierda que es este tipo"
+    },
+    {
+      "fecha_iso": "2020-10-25T00:00:00",
+      "materia": "ELECTRONICA DE POTENCIA",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "un imbecil este tipo"
+    },
+    {
+      "fecha_iso": "2020-06-26T00:00:00",
+      "materia": "ELECTRONICA DE POTENCIA",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Como maestro es regular, pero como persona es una reverenda mierda"
+    },
+    {
+      "fecha_iso": "2020-06-24T00:00:00",
+      "materia": "MAQUINAS ELECTRICAS",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 0,
+      "comentario": "Es un maestro muy especial, no acepta sugerencias y comentarios, si llegas a decirle algo, se lo toma a mal. Mas vale a pasar desapercibido en su clase. Tiene criterios de calificación muy raros, nunca da resultados. Los examenes son generalmente sacados de libros y casi siempre de problemas de clas"
+    },
+    {
+      "fecha_iso": "2020-01-16T00:00:00",
+      "materia": "MAQUINAS ELÉCTRICAS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Tiene buen domio, aprendes mucho y es fácil pasar la materia. No hay exámenes, el califica con Reportes de prácticas que haces en el laboratorio. Procura que el formato de los reportes sean idénticos al formato que el te pide y tendrás buena calificación. Recomendado!"
+    },
+    {
+      "fecha_iso": "2020-01-04T00:00:00",
+      "materia": "MAQUINAS ELECTRICAS",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Uno de mis mejores maestros de la carrera.\nMás que un maestro es alguien que va más allá de. Pone mucho de su parte para que no solo entiendas algo sino que lo comprendas.\n\nHace muchas practicas.\nConducta, actitud y disciplina son consideradas.\nOjala hubiese más maestros con esa dedicación."
+    },
+    {
+      "fecha_iso": "2019-11-02T00:00:00",
+      "materia": "MAQUINAS ELECTRICAS",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": 23.0,
+      "recomienda": 0,
+      "comentario": "Deja traducir textos y videos de ingles a español.\nTodos los reportes y trabajos escritos son en formato que el te dará.\nNunca da calificaciones, cualquier cosita lo molesta, te la tienes que arreglar solo ya que apoyo no da.\nSuper mmon"
+    },
+    {
+      "fecha_iso": "2019-09-04T00:00:00",
+      "materia": "MAQUINAS ELECTRICAS",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 0,
+      "comentario": "Quiere hacer las cosas de manera muy formal aunque no tenga una buena organización de sus clases, sus clases son vídeos en ingles que tienes que transcribir y contestar preguntas en relación al video (algunas no tienen sentido).\n\nCambia las cosas a ultimo momento."
+    },
+    {
+      "fecha_iso": "2018-08-02T00:00:00",
+      "materia": "ELECTRONICA DE POTENCIA",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "no enseña casi pero es muy facil pasar con el, no hace examenes, la lista ni la toma en cuenta, solamente es entregar las practicas y con que medio funcionen esta bien, esta muy agusto con el"
+    },
+    {
+      "fecha_iso": "2018-01-17T00:00:00",
+      "materia": "MAQUINAS SINCRONAS Y DE CD",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": "Es un profesor muy estricto en especial con los reportes de practica, te hace sufrir al momento de calificar y para poder pasar tienes que mostrar interes por la clase y minimo saber que es lo que estas haciendo"
+    },
+    {
+      "fecha_iso": "2017-01-17T00:00:00",
+      "materia": "SISTEMAS ELÉCTRICOS DE POTENCIA",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 1,
+      "comentario": "es un buen profesor, solo que aveces es muy exigente con cosas que ni al caso, pero enseña muy bien y domina el tema"
+    }
+  ],
+  "comments_recent": [
+    "Definitivamente revisa los trabajos con lupa y siempre en el formato que el pide, no hace exámenes, todo lo califica con reportes de práctica por lo tanto estos deben ser de 100/100, la asistencia importa bastante.",
+    "Que Dios te bendiga, y el diablo de pasada también, por si las moscas",
+    "Todo el semestre deja trabajos de investigacion que deben ir en un formato que el te da. Sus clases son muy teoricas y la mayoria de veces no estan preparadas. Se las da de correcto pero cambia las cosas de una y pone fechas de entrega bien apresuradas. Califica los trabajos con lupa.",
+    "Cómo ser humano es una mierda y lo que le sigue, y como maestro no sirve pa nada",
+    "no vale pa pura verga",
+    "UN PENDEJO",
+    "Vale pura vrg",
+    "Reverenda mierda que es este tipo",
+    "un imbecil este tipo",
+    "Como maestro es regular, pero como persona es una reverenda mierda"
+  ],
+  "n_reviews": 18
+}

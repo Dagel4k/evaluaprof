@@ -1,0 +1,462 @@
+{
+  "professor_id": "Jesús_Oralia_Cardenas_Lopez",
+  "nombre": "Jesús Oralia Cardenas Lopez",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 4.346022058947764,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 4.879312028647387,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.12,
+    "wilson_interval": [
+      0.04166741357068093,
+      0.29956192183373487
+    ],
+    "n_recommendations": 25
+  },
+  "subject_normalization": {
+    "z_mean": -0.56,
+    "z_mean_decayed": -0.46,
+    "per_subject": [
+      {
+        "materia": "TALLER DE INVESTIGACION I",
+        "z_decayed": -0.2504897164340597,
+        "n": 5
+      },
+      {
+        "materia": "CIENCIA E INGENIERIA DE MATERIALES",
+        "z_decayed": -0.26125276570201267,
+        "n": 9
+      },
+      {
+        "materia": "TALLER DE INVESTIGACIÓN",
+        "z_decayed": -0.31250311408513165,
+        "n": 9
+      },
+      {
+        "materia": "PROCESOS DE FABRICACIÓN",
+        "z_decayed": -0.4255699200385077,
+        "n": 24
+      },
+      {
+        "materia": "CIENCIA E INGENIERÍA DE MATERIALES",
+        "z_decayed": -0.4257965704553576,
+        "n": 5
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "nunca",
+          "bien",
+          "si",
+          "te",
+          "es"
+        ],
+        "weight": 0.09522539510965321
+      },
+      {
+        "id": 1,
+        "words": [
+          "solo lee",
+          "lee diapositivas",
+          "solo",
+          "lee",
+          "diapositivas"
+        ],
+        "weight": 0.12815167457386398
+      },
+      {
+        "id": 2,
+        "words": [
+          "si quieres",
+          "quieres",
+          "quieres pasar",
+          "pasar",
+          "facil"
+        ],
+        "weight": 0.0978574434362618
+      },
+      {
+        "id": 3,
+        "words": [
+          "te",
+          "siente te",
+          "siente",
+          "clases",
+          "sabe"
+        ],
+        "weight": 0.12476800140411466
+      },
+      {
+        "id": 4,
+        "words": [
+          "trabajos",
+          "llega",
+          "llega tarde",
+          "tarde",
+          "clase"
+        ],
+        "weight": 0.08986154787561947
+      }
+    ],
+    "sentiment": {
+      "overall": -0.16666666666666666,
+      "by_month": {
+        "2025-01": -1.0,
+        "2024-06": 0.0,
+        "2023-11": -1.0,
+        "2023-01": 0.0,
+        "2022-12": 0.0,
+        "2022-05": 0.0,
+        "2022-02": 0.0,
+        "2021-10": 0.0,
+        "2021-09": 0.0,
+        "2021-01": 0.0,
+        "2020-11": 0.0,
+        "2020-01": 0.0,
+        "2019-11": 0.0,
+        "2019-08": 0.0,
+        "2019-01": 0.0,
+        "2018-06": 0.0,
+        "2018-03": 0.0,
+        "2016-12": 0.0,
+        "2016-11": -1.0,
+        "2016-09": 0.0,
+        "2016-06": -0.5,
+        "2015-08": 0.0,
+        "2015-05": 0.0
+      }
+    },
+    "n_comments": 24
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        6.0,
+        5.0,
+        3.0,
+        2.5,
+        4.0,
+        3.0,
+        2.0,
+        5.0,
+        5.0,
+        5.0,
+        3.0,
+        6.0,
+        5.0,
+        2.0,
+        2.0,
+        3.0,
+        2.0,
+        6.0,
+        2.0,
+        7.0,
+        7.0,
+        2.0,
+        8.0,
+        3.0
+      ],
+      "ewma": [
+        6.0,
+        5.699999999999999,
+        4.889999999999999,
+        4.172999999999999,
+        4.121099999999999,
+        3.784769999999999,
+        3.249338999999999,
+        3.774537299999999,
+        4.142176109999999,
+        4.399523276999999,
+        3.9796662938999994,
+        4.585766405729999,
+        4.710036484010999,
+        3.897025538807699,
+        3.3279178771653894,
+        3.2295425140157725,
+        2.8606797598110405,
+        3.802475831867728,
+        3.2617330823074093,
+        4.383213157615186,
+        5.168249210330631,
+        4.217774447231441,
+        5.352442113062008,
+        4.646709479143405
+      ],
+      "sigma": 1.4992499855599397
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 4.646709479143405,
+      "quality_band": [
+        1.7081795074459234,
+        7.585239450840888
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2025-01-10T00:00:00",
+      "materia": "PROCESOS DE FABRICACIÓN",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 0,
+      "comentario": "SI TIENES CHANCE Y OPORTUNIDAD NO LO HAGAS, neta no, que te cuenten los pobres que la agarraron y los mandó a RC, no sabe de los temas pero es muy estricta, si ella piensa algo es terca y no le gusta que la corrijan, sus exámenes difícil, recuperación es más fácil  (a veces) ruega que esté en línea"
+    },
+    {
+      "fecha_iso": "2024-06-05T00:00:00",
+      "materia": "PROCESOS DE FABRICACIÓN",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": "Es bastante criticada pero siento que no es tan mala como dicen, depende como se porte el grupo y que tan bien te vea en el salón, si entregas a tiempo y si preguntas, ella te puede ayudar, eso si estudia de todo en el examen nunca sabes que va venir"
+    },
+    {
+      "fecha_iso": "2023-11-12T00:00:00",
+      "materia": "PROCESOS DE MANOFACTURA",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 0,
+      "comentario": "No se porque ella esta dando clases, sus clases son malas, no domina los temas, le preguntas algo, no sabe que responder.\nSus exámenes son de lo mas confuso. En general una de las peores maestras que e tenido en toda la carrera. Si puedes mejor carga con otro la materia"
+    },
+    {
+      "fecha_iso": "2023-01-16T00:00:00",
+      "materia": "CIENCIA E INGENIERÍA DE MATERIALES",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Su forma de calificar es muy extraña, alguna cosa por más mínima y te reprueba tenga o no la razón, no gastes tu tiempo en alegar con ella, en recuperación y exámenes ayuda mucho, no toma asistencia, llega tarde a las clases, al menos a mi me gusto su clase xD"
+    },
+    {
+      "fecha_iso": "2022-12-21T00:00:00",
+      "materia": "TALLER DE INVESTIGACIÓN",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Para taller de investigación está bien, solo no dejes el proyecto hasta el último porque te va llevar la chingada, mientras todo bien, solo se constante con la revisión del avance para que no te alcance al final con muchos errores"
+    },
+    {
+      "fecha_iso": "2022-05-17T00:00:00",
+      "materia": "CIENCIA E INGENIERÍA DE LOS MATERIALES",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 0,
+      "comentario": "La peor maestra de todo el tec, es injusta, no explica bien, no sabe del tema, si puedes carga con CESAR CUEN EL MEJOR MAESTRO"
+    },
+    {
+      "fecha_iso": "2022-02-10T00:00:00",
+      "materia": "CIENCIA E INGENIERÍA DE MATERIALES",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 0,
+      "comentario": "No específica como quiere las tareas, nunca sabrás porque te puso cierta calificación. La teoría es confusa, pero le gusta mucho hacer prácticas."
+    },
+    {
+      "fecha_iso": "2021-10-06T00:00:00",
+      "materia": "CIENCIA E INGENIERÍA DE MATERIALES",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 0,
+      "comentario": "No ofrece claridad en nada de lo que explica, y si preguntas se hace bola ella sola, no entiende los temas que ella misma enseña, las tareas y exámenes ni siquiera los lee porque no checa bien lo que pregunta, realmente es una materia muy buena y tomarla con esta profe es un desperdicio."
+    },
+    {
+      "fecha_iso": "2021-09-23T00:00:00",
+      "materia": "PROCESO DE MNOFACTURA",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 0,
+      "comentario": "Te brinda informacion muy precaria, solo lee diapositivas, sus examenes sepa de donde los saca ademas que los califica como quiere, ni ella sola se entiende"
+    },
+    {
+      "fecha_iso": "2021-01-18T00:00:00",
+      "materia": "PROCESOS DE FABRICACIÓN",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "De lo peor que te vas a encontrar en el tec. No tiene idea de la materia y siente que te hace el paro. no vas a aprender nada. No lo haga compa."
+    },
+    {
+      "fecha_iso": "2020-11-23T00:00:00",
+      "materia": "PROCESOS DE FABRICACIÓN.",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 23.0,
+      "recomienda": 0,
+      "comentario": "No sabe nada, no domina los temas, siente que te esta haciendo un favor y en los examenes se desquita, no la carguen."
+    },
+    {
+      "fecha_iso": "2020-01-16T00:00:00",
+      "materia": "PROCESOS DE FABRICACIÓN",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 0,
+      "comentario": "Es una profesora que se esforzara por brindarte el minimo de conocimiento y a la vez te hara sentir que te esta haciendo el paro por darte sus clases, deja muchos trabajos en equipo y hace examenes que ni ella sabe como califica y te pondrá una calificación arbitraria, pero si pasas."
+    },
+    {
+      "fecha_iso": "2019-11-02T00:00:00",
+      "materia": "PROCESOS DE FABRICACIÓN",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 0,
+      "comentario": "Con cumplir sus trabajos, asistir y que sepa que te interesa la clase puedes pasar.\npero aun así estudia para los exámenes (lo que sea)."
+    },
+    {
+      "fecha_iso": "2019-08-08T00:00:00",
+      "materia": "PROCESOS DE MANOFACTURA",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 0,
+      "comentario": "No sabe nada todo lo explica mal y siempre lee diapos"
+    },
+    {
+      "fecha_iso": "2019-01-11T00:00:00",
+      "materia": "TALLER DE INVESTIGACION I",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 0,
+      "comentario": "No sabe casi nada del tema, en esa materia lo que pide es que el alumno sepa como realizar su tesis profesional para obtener el titulo y la intención es buena, nada mas que ella no domina el tema aunque si te da unos consejos para que te salga bien el formato, si le entregas todo de seguro un 90"
+    },
+    {
+      "fecha_iso": "2018-06-13T00:00:00",
+      "materia": "CIENCIA E INGENIERIA DE MATERIALES",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "No sabe mucho, le hace falta dominio del tema pero carga con ella si quieres pasar fácil y con buena calificación. No aprenderás mucho."
+    },
+    {
+      "fecha_iso": "2018-03-13T00:00:00",
+      "materia": "PROCESOS DE FABRICACIÓN",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 0,
+      "comentario": "En resumen, esta profesora quiere sus exámenes tal cual están en sus diapositivas (ella trabaja con diapositivas). No es muy buena, pero de alguna manera es fácil pasar con ella. Te lleva a prácticas en taller y eso es un punto a favor."
+    },
+    {
+      "fecha_iso": "2016-12-22T00:00:00",
+      "materia": "PROCESOS DE FABRICACION",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "esta facil con ella pero no enseña nada ya que lo unico que hace es leer las diapositivas, la recomiendo solo si quieres pasar facilmente pero no para aprender"
+    },
+    {
+      "fecha_iso": "2016-11-26T00:00:00",
+      "materia": "MATERIALES",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "mala para enseñar ,dura para calificar, no explica nada solo lee diapositivas al finnal te  deja con mas dudas, el examen lo hace dificil, si le caes mal te va a reprovar por cualquiier excusa aunque le entregues los trabajos y pases el examen, es de las personas mediocre que entran por palancas"
+    },
+    {
+      "fecha_iso": "2016-09-14T00:00:00",
+      "materia": "PROPIEDAD DE LOS MATERIALES",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "pesima, siempre llega tarde solo lee diapositivas unos minutos se queda platicando, los trabajos los ienes que revisar durante la clase, se tarda mucho en revisar a cada uno, se acaba la clase y solo revisa unos pocos y los demas se quedan esperando"
+    },
+    {
+      "fecha_iso": "2016-06-20T00:00:00",
+      "materia": "CIENCIA E INGENIERIA DE MATERIALES",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 0,
+      "comentario": "No carguen con ella, solo lee diapositivas y cuando intenta explicarlas ni ella se entiende... si pasas si tienes memoria y te aprendes las diapositivas"
+    },
+    {
+      "fecha_iso": "2016-06-12T00:00:00",
+      "materia": "CIENCIA E INGENIERIA DE MATERIALES",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "esta profe no sirve para nada no enseña nada, solo se la lleva leyendo las diapositivas que baja de wikipedia y los examenes los pone bien dificil ademas de que se contradice ella misma con las respuestas, no carguen con ella, no la recomiendo para nada"
+    },
+    {
+      "fecha_iso": "2015-08-10T00:00:00",
+      "materia": "PROCESOS DE FABRICACIÓN",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": 5.0,
+      "recomienda": 0,
+      "comentario": "Pasas pero no aprendes mucho, puras diapositivas que solamente lee y no explica de manera clara.\nLos exámenes son puras preguntas abiertas, casi siempre entre 6 a 8 preguntas pero extensas.\n\nSi quieren aprender no la recomiendo."
+    },
+    {
+      "fecha_iso": "2015-05-25T00:00:00",
+      "materia": "PROCESOS DE FABRICACION",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": "Algo floja pero enseña más o menos. Está algo fácil pasar con ella."
+    },
+    {
+      "fecha_iso": "2014-10-08T00:00:00",
+      "materia": "PROCESOS DE FABRICACIÓN",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 5.0,
+      "recomienda": 0,
+      "comentario": ""
+    }
+  ],
+  "comments_recent": [
+    "SI TIENES CHANCE Y OPORTUNIDAD NO LO HAGAS, neta no, que te cuenten los pobres que la agarraron y los mandó a RC, no sabe de los temas pero es muy estricta, si ella piensa algo es terca y no le gusta que la corrijan, sus exámenes difícil, recuperación es más fácil  (a veces) ruega que esté en línea",
+    "Es bastante criticada pero siento que no es tan mala como dicen, depende como se porte el grupo y que tan bien te vea en el salón, si entregas a tiempo y si preguntas, ella te puede ayudar, eso si estudia de todo en el examen nunca sabes que va venir",
+    "No se porque ella esta dando clases, sus clases son malas, no domina los temas, le preguntas algo, no sabe que responder.\nSus exámenes son de lo mas confuso. En general una de las peores maestras que e tenido en toda la carrera. Si puedes mejor carga con otro la materia",
+    "Su forma de calificar es muy extraña, alguna cosa por más mínima y te reprueba tenga o no la razón, no gastes tu tiempo en alegar con ella, en recuperación y exámenes ayuda mucho, no toma asistencia, llega tarde a las clases, al menos a mi me gusto su clase xD",
+    "Para taller de investigación está bien, solo no dejes el proyecto hasta el último porque te va llevar la chingada, mientras todo bien, solo se constante con la revisión del avance para que no te alcance al final con muchos errores",
+    "La peor maestra de todo el tec, es injusta, no explica bien, no sabe del tema, si puedes carga con CESAR CUEN EL MEJOR MAESTRO",
+    "No específica como quiere las tareas, nunca sabrás porque te puso cierta calificación. La teoría es confusa, pero le gusta mucho hacer prácticas.",
+    "No ofrece claridad en nada de lo que explica, y si preguntas se hace bola ella sola, no entiende los temas que ella misma enseña, las tareas y exámenes ni siquiera los lee porque no checa bien lo que pregunta, realmente es una materia muy buena y tomarla con esta profe es un desperdicio.",
+    "Te brinda informacion muy precaria, solo lee diapositivas, sus examenes sepa de donde los saca ademas que los califica como quiere, ni ella sola se entiende",
+    "De lo peor que te vas a encontrar en el tec. No tiene idea de la materia y siente que te hace el paro. no vas a aprender nada. No lo haga compa."
+  ],
+  "n_reviews": 25
+}

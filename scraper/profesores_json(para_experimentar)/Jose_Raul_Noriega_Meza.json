@@ -1,0 +1,132 @@
+{
+  "nombre": "Jose Raul Noriega Meza",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "ciudad": "Ciudad: culiacan, sinaloa",
+  "departamento": "Departamento/Facultad: Joranome",
+  "calidad_general": 9.2,
+  "porcentaje_recomienda": 100,
+  "nivel_dificultad": 0.3,
+  "etiquetas": [
+    "RESPETADO POR LOS ESTUDIANTES (3)",
+    "INSPIRACIONAL (2)",
+    "CLASES EXCELENTES (2)",
+    "DA BUENA RETROALIMENTACIÓN (1)",
+    "BARCO (2)",
+    "MUY CÓMICO (2)",
+    "LOS EXÁMENES SON DIFÍCILES (2)",
+    "DEJA TRABAJOS LARGOS (1)",
+    "ASISTENCIA OBLIGATORIA (1)",
+    "LAS CLASES SON LARGAS (1)"
+  ],
+  "numero_calificaciones": 6,
+  "calificaciones": [
+    {
+      "fecha": "24/Jun/2022",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Joranome",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "JoraGOD",
+      "etiquetas_comentario": [
+        "Barco",
+        "Muy cómico",
+        "Respetado por los estudiantes"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "17/Dic/2021",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 9.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "taller de joranome II",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "Maestrazo, es todo lo que puedo decir. Me enseñó PHP, Next JS, ionic y ensamblador SOLO EN LA UNIDAD 1. \nGracias a sus conocimientos me contrataron en Neoris y me ando ligando a la que me reclutó. ;-)",
+      "etiquetas_comentario": [
+        "Asistencia obligatoria",
+        "Las clases son largas",
+        "Muchos proyectos grupales"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "17/Dic/2021",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Chapulineo II",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "Este \"catedrático\" maestro solo nos platicaba de cómo le hacía para hablarle bonito a las novias de sus compas. Pero si lograba bajarles a las morras, como dicen los comentarios: \"UNA VERGA PA TODO\".",
+      "etiquetas_comentario": [
+        "Respetado por los estudiantes",
+        "Deja trabajos largos",
+        "Los exámenes son difíciles"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "17/Dic/2021",
+      "tipo_calificacion": "REGULAR",
+      "puntaje_calidad_general": 6.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "ionic",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "0.5",
+      "interes_clase": "",
+      "comentario": "Anexo mi comentario. Haré referencia al primer comentario de este profesor: \"Una verga para todo\".\n\nSin duda este maestro me ayudó a reflexionar sobre la vida, el uso de PHP y su importancia, así mismo como usar ionic por encima de Flutter.",
+      "etiquetas_comentario": [
+        "Barco",
+        "Muy cómico",
+        "Los exámenes son difíciles"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "17/Dic/2021",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Php",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "Enseña muy bien, aprendí php con él, es el encargado del departamento Joranome y brinda buena atención",
+      "etiquetas_comentario": [
+        "Da buena retroalimentación",
+        "Inspiracional",
+        "Clases excelentes"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "17/Dic/2021",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Ionic + PHP",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "Una vrg pa todo ????",
+      "etiquetas_comentario": [
+        "Respetado por los estudiantes",
+        "Inspiracional",
+        "Clases excelentes"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    }
+  ]
+}

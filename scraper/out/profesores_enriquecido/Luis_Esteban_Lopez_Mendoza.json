@@ -1,0 +1,448 @@
+{
+  "professor_id": "Luis_Esteban_Lopez_Mendoza",
+  "nombre": "Luis Esteban Lopez Mendoza",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 9.674740874238484,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 8.765026314361673,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 1.0,
+    "wilson_interval": [
+      0.8668035060468212,
+      1
+    ],
+    "n_recommendations": 25
+  },
+  "subject_normalization": {
+    "z_mean": 0.75,
+    "z_mean_decayed": 0.78,
+    "per_subject": [
+      {
+        "materia": "PROGRAMACION",
+        "z_decayed": 1.091594021073081,
+        "n": 20
+      },
+      {
+        "materia": "PROGRAMACIÓN ORIENTADA A OBJETOS",
+        "z_decayed": 1.0600091373582223,
+        "n": 11
+      },
+      {
+        "materia": "FUNDAMENTOS DE PROGRAMACION",
+        "z_decayed": 0.9182953187740832,
+        "n": 43
+      },
+      {
+        "materia": "FUNDAMENTOS DE PROGRAMACIÓN",
+        "z_decayed": 0.8009795983777187,
+        "n": 36
+      },
+      {
+        "materia": "POO",
+        "z_decayed": 0.7035349036922288,
+        "n": 62
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "maestro",
+          "buen maestro",
+          "es buen",
+          "es",
+          "buen"
+        ],
+        "weight": 0.10164723745687422
+      },
+      {
+        "id": 1,
+        "words": [
+          "paciencia",
+          "mas",
+          "tiene mucha",
+          "mucha paciencia",
+          "mucha"
+        ],
+        "weight": 0.11620380507776021
+      },
+      {
+        "id": 2,
+        "words": [
+          "ofrecio",
+          "profesor",
+          "fundamentos",
+          "fundamentos programacion",
+          "programacion"
+        ],
+        "weight": 0.08909757480908824
+      },
+      {
+        "id": 3,
+        "words": [
+          "es",
+          "asesorias viernes",
+          "solo",
+          "viernes",
+          "asesorias"
+        ],
+        "weight": 0.11622860241065176
+      },
+      {
+        "id": 4,
+        "words": [
+          "aprendes",
+          "practicas",
+          "es",
+          "materia",
+          "si"
+        ],
+        "weight": 0.1375913826605657
+      }
+    ],
+    "sentiment": {
+      "overall": 0.0,
+      "by_month": {
+        "2024-09": 1.0,
+        "2023-06": 0.0,
+        "2023-03": 0.0,
+        "2022-12": 0.0,
+        "2022-06": 0.0,
+        "2022-03": 0.0,
+        "2022-02": 0.0,
+        "2021-12": -1.0,
+        "2021-11": 0.0,
+        "2021-08": 0.0,
+        "2020-10": 0.0,
+        "2020-09": -1.0,
+        "2020-06": 0.0,
+        "2020-01": 0.0,
+        "2019-02": 0.0,
+        "2017-06": 1.0,
+        "2016-09": 0.0,
+        "2016-08": 0.0
+      }
+    },
+    "n_comments": 19
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        8.0,
+        8.0,
+        9.0,
+        9.5,
+        8.0,
+        8.0,
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        9.0,
+        9.0,
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        9.0
+      ],
+      "ewma": [
+        8.0,
+        8.0,
+        8.299999999999999,
+        8.659999999999998,
+        8.461999999999998,
+        8.323399999999998,
+        8.826379999999997,
+        9.178465999999997,
+        9.424926199999998,
+        9.597448339999998,
+        9.418213837999998,
+        9.292749686599999,
+        9.504924780619998,
+        9.653447346433998,
+        9.757413142503797,
+        9.830189199752658,
+        9.88113243982686,
+        9.916792707878802,
+        9.94175489551516,
+        9.959228426860612,
+        9.671459898802429
+      ],
+      "sigma": 0.47564861429336214
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 9.671459898802429,
+      "quality_band": [
+        8.73918861478744,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2024-09-19T00:00:00",
+      "materia": "FUNDAMENTOS DE PROGRAMACION",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 23.0,
+      "recomienda": 1,
+      "comentario": "Muy buen maestro, ayuda uno por uno en las dudas, aparte es divertido y claro y tiene muy buen gusto en la musica."
+    },
+    {
+      "fecha_iso": "2023-10-11T00:00:00",
+      "materia": "FUNDAMENTOS DE PROGRAMACIÓN",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2023-06-04T00:00:00",
+      "materia": "FUNDAMENTOS DE PROGRAMACIÓN",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Es uno de los mejores profes de fundamentos de programación."
+    },
+    {
+      "fecha_iso": "2023-06-01T00:00:00",
+      "materia": "POO",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Muy accesible y abierto a dudas, los proyectos no son dificiles ni nada del otro mundo y si te ayudan a adentrarte en el poo, los viernes no da clase ya que son asesorias para quienes tengan dudas, da varios dias para los proyectos recomendado"
+    },
+    {
+      "fecha_iso": "2023-03-07T00:00:00",
+      "materia": "POO",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": "Le sabe machin, quiza no es muy exigente para la materia pero estando encima de el preguntando si aprendes"
+    },
+    {
+      "fecha_iso": "2022-12-03T00:00:00",
+      "materia": "FUNDAMENTOS DE PROGRAMACIÓN",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "De los mejores maestros que he tenido, se enfoca mucho en que todos aprendan y si no entiendes un tema se queda contigo hasta que lo comprendas, tiene mucha paciencia y no es nada duro para calificar"
+    },
+    {
+      "fecha_iso": "2022-06-17T00:00:00",
+      "materia": "PROGRAMACIÓN ORIENTADA A OBJETOS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Es muy buen maestro la verdad, nunca te deja nada de un dia para otro y hace lo que sea con tal de ayudarte, los ejemplos que se ven en clase es practicamente de lo que se tratara el proyecto y las clases son para avanzar en el proyecto"
+    },
+    {
+      "fecha_iso": "2022-03-29T00:00:00",
+      "materia": "FUNDAMENTOS DE PROGRAMACION",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Al chile es un god, sino sabes que rollo y es tu primera vez programando jálate con el, explica bien fine, pero deja tarea todos los días(la mayor parte muy sencillas) y los exámenes son más sencillos que los trabajos y un buen ambiente, tiene buen repertorio."
+    },
+    {
+      "fecha_iso": "2022-03-26T00:00:00",
+      "materia": "POO",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2022-03-15T00:00:00",
+      "materia": "POO",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2022-02-21T00:00:00",
+      "materia": "PROGRAMACION ORIENTADA A OBJETOS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Los viernes son asesorias, no es obligatorio asistir"
+    },
+    {
+      "fecha_iso": "2022-01-20T00:00:00",
+      "materia": "FUNDAMENTOS DE PROGRAMACIÓN Y POO",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2021-12-18T00:00:00",
+      "materia": "FUNDAMENTOS DE PROGRAMACIÓN",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "es muy buen maestro :D!\naunque para algunos pareciera que va lento la verdad es que se toma su tiempo para que comprendan bien todos los alumnos, ademas de ello suele dar asesorías los viernes \nno deja mucha tarea (1 por clase) y los exámenes no eran tan complicados"
+    },
+    {
+      "fecha_iso": "2021-11-18T00:00:00",
+      "materia": "POO",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "asesorias los viernes solo para quienes lo necesiten"
+    },
+    {
+      "fecha_iso": "2021-08-24T00:00:00",
+      "materia": "PROGRAMACION ORIENTADA A OBJETOS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Es un crack, aprendes si prestas atención a las clases y practicas por tu cuenta. Los trabajos que deja no son difíciles, es muy abierto a dudas, tiene paciencia y los viernes no es clase obligatoria, solo asesorías"
+    },
+    {
+      "fecha_iso": "2021-01-23T00:00:00",
+      "materia": "FUNDAMENTOS DE PROGRAMACIÓN",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2020-10-06T00:00:00",
+      "materia": "FUNDAMENTOS DE PROGRAMACION",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Tiene mucha paciencia para ayudar a los más atrasados"
+    },
+    {
+      "fecha_iso": "2020-09-17T00:00:00",
+      "materia": "PROGRAMACION",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Se enfoca en que los alumnos aprendan, lo mas importante, tiene mucha paciencia, y si va muy lento, pero vale la pena, tareas con mucha anticipación, un maestro que no te estresa y aprendes."
+    },
+    {
+      "fecha_iso": "2020-06-10T00:00:00",
+      "materia": "POO",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Nunca he entendido porque se quejan tanto de este profe, al menos yo le entendi a todo el curso y aprendi bastante con el. Los examenes son faciles si practicas dias antes, y deja proyectos como con una semana de tiempo, me lleve agusto el curso con el"
+    },
+    {
+      "fecha_iso": "2020-01-13T00:00:00",
+      "materia": "FUNDAMENTOS DE PROGRAMACIÓN Y POO",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Los exámenes son a mano y las clases son en su mayoría prácticas (a excepción de la primera unidad).\nNo toda la tarea es obligatoria, pero la toma en cuenta al calificar.\n\nEs una buena opción si sabes poco pero quieres aprender o pasar la materia sin mucho estrés."
+    },
+    {
+      "fecha_iso": "2019-02-23T00:00:00",
+      "materia": "POO",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Recomiendo ampliamente a este profesor. Venía de un estresante semestre con la maestra Lourdes, y este maestro hasta se ofreció en dar asesorías a quienes estaban atrasados. Me hizo realmente interesarme en la programación. Sus clases son entretenidas y no se excede en tareas"
+    },
+    {
+      "fecha_iso": "2019-02-01T00:00:00",
+      "materia": "FUNDAMENTOS DE PROGRAMACIÓN",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2017-06-07T00:00:00",
+      "materia": "FUNDAMENTOS DE PROGRAMACION",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Excelente maestro.\nLe interesa que el alumno aprenda, que es lo mas importante."
+    },
+    {
+      "fecha_iso": "2016-09-28T00:00:00",
+      "materia": "FUNDAMENTOS DE PROGRAMACION",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "es un buen mastro pero tiene demaciada paciencia para dar las clases en todo sentido"
+    },
+    {
+      "fecha_iso": "2016-08-05T00:00:00",
+      "materia": "PROGRAMACION ORIENTADA A OBJETOS (POO)",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 1,
+      "comentario": "Buen profesor con muchisima paciencia y repasa temas ya vistos. Ofrecio ayudas los viernes para quienes venian atrasados de Fundamentos de programacion."
+    }
+  ],
+  "comments_recent": [
+    "Muy buen maestro, ayuda uno por uno en las dudas, aparte es divertido y claro y tiene muy buen gusto en la musica.",
+    "Es uno de los mejores profes de fundamentos de programación.",
+    "Muy accesible y abierto a dudas, los proyectos no son dificiles ni nada del otro mundo y si te ayudan a adentrarte en el poo, los viernes no da clase ya que son asesorias para quienes tengan dudas, da varios dias para los proyectos recomendado",
+    "Le sabe machin, quiza no es muy exigente para la materia pero estando encima de el preguntando si aprendes",
+    "De los mejores maestros que he tenido, se enfoca mucho en que todos aprendan y si no entiendes un tema se queda contigo hasta que lo comprendas, tiene mucha paciencia y no es nada duro para calificar",
+    "Es muy buen maestro la verdad, nunca te deja nada de un dia para otro y hace lo que sea con tal de ayudarte, los ejemplos que se ven en clase es practicamente de lo que se tratara el proyecto y las clases son para avanzar en el proyecto",
+    "Al chile es un god, sino sabes que rollo y es tu primera vez programando jálate con el, explica bien fine, pero deja tarea todos los días(la mayor parte muy sencillas) y los exámenes son más sencillos que los trabajos y un buen ambiente, tiene buen repertorio."
+  ],
+  "n_reviews": 25
+}

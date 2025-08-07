@@ -1,0 +1,50 @@
+{
+  "nombre": "Selene Sarahí Terrazas Salas",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "ciudad": "Ciudad: culiacan, sinaloa",
+  "departamento": "Departamento/Facultad: Inglés",
+  "calidad_general": 8.5,
+  "porcentaje_recomienda": 50,
+  "nivel_dificultad": 2.0,
+  "etiquetas": [
+    "TOMARÍA SU CLASE OTRA VEZ (1)",
+    "LA PARTICIPACIÓN IMPORTA (1)",
+    "ASISTENCIA OBLIGATORIA (1)"
+  ],
+  "numero_calificaciones": 2,
+  "calificaciones": [
+    {
+      "fecha": "21/Mar/2023",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 7.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Nivel 6",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "8",
+      "interes_clase": "",
+      "comentario": "Toma en cuenta que lo mas importante es la participación, si participas en clase todo bien pero si no te puede estresar el hecho de lo insistente que es la teacher en que participes, además participar te asegura pasar los exámenes que hallas reprobado si no participas según ella no te hará paro ????????",
+      "etiquetas_comentario": [
+        "La Participación Importa",
+        "Asistencia obligatoria"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "30/Ago/2021",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Inglés",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "Enseña chido y si participas ayuda al final",
+      "etiquetas_comentario": [
+        "Tomaría su clase otra vez"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    }
+  ]
+}

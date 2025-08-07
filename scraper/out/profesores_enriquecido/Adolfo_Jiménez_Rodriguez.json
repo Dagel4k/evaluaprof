@@ -1,0 +1,246 @@
+{
+  "professor_id": "Adolfo_Jiménez_Rodriguez",
+  "nombre": "Adolfo Jiménez Rodriguez",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 9.999999999999998,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 8.320884500147697,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 1.0,
+    "wilson_interval": [
+      0.6755843804891231,
+      1
+    ],
+    "n_recommendations": 8
+  },
+  "subject_normalization": {
+    "z_mean": 0.89,
+    "z_mean_decayed": 1.28,
+    "per_subject": [
+      {
+        "materia": "TALLER DE ADMINISTRACIÓN",
+        "z_decayed": 1.9311535677731804,
+        "n": 22
+      },
+      {
+        "materia": "ECONOMÍA",
+        "z_decayed": 0.8223297470063812,
+        "n": 13
+      },
+      {
+        "materia": "TALLER DE ÉTICA",
+        "z_decayed": 0.8077614592374454,
+        "n": 22
+      },
+      {
+        "materia": "ECONOMIA",
+        "z_decayed": 0.8,
+        "n": 17
+      },
+      {
+        "materia": "ECONOMIA EMPRESARIAL",
+        "z_decayed": 0.5773502691896257,
+        "n": 3
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "ejemplo",
+          "sabe",
+          "vida",
+          "tema",
+          "te"
+        ],
+        "weight": 0.14937451503097673
+      },
+      {
+        "id": 1,
+        "words": [
+          "tiene",
+          "nunca",
+          "domine",
+          "mejor",
+          "materia"
+        ],
+        "weight": 0.14653579861600374
+      },
+      {
+        "id": 2,
+        "words": [
+          "es",
+          "clases",
+          "profesor",
+          "si",
+          "clase"
+        ],
+        "weight": 0.2521094292923922
+      },
+      {
+        "id": 3,
+        "words": [
+          "mas",
+          "es",
+          "mejor",
+          "profe",
+          "mejor profe"
+        ],
+        "weight": 0.16076084778968633
+      }
+    ],
+    "sentiment": {
+      "overall": 0.125,
+      "by_month": {
+        "2023-01": 0.0,
+        "2019-08": 0.0,
+        "2018-01": 0.0,
+        "2017-11": 0.0,
+        "2017-10": 0.0,
+        "2017-08": 0.0,
+        "2016-12": 1.0
+      }
+    },
+    "n_comments": 8
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 1,
+    "trust_score": 0.8
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        10.0
+      ],
+      "ewma": [
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        10.0
+      ],
+      "sigma": 0.0
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 10.0,
+      "quality_band": [
+        10.0,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2023-01-15T00:00:00",
+      "materia": "TALLER DE ADMINISTRACIÓN",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Muy buena onda, sabe mucho, explica claramente y te hace interesarte. Incluso te responde dudas fuera del tema: hipotecas, campo laboral, emprendimiento, impuestos, salarios... que te ayudan en la vida.\nCalifica con un ensayo de 10 pág. en cada unidad, para el cual el mismo te da la información."
+    },
+    {
+      "fecha_iso": "2019-08-03T00:00:00",
+      "materia": "ECONOMÍA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Muy buen profesor. Sus clases son muy entretenidas. Es muy interesante todo lo que dice, lo relaciona con cosas de la vida real. Un ejemplo de profesor, de lo que le preguntes te sabe responder. Tiene muy buen caracter , se nota que le gusta dar clases."
+    },
+    {
+      "fecha_iso": "2018-01-14T00:00:00",
+      "materia": "TALLER DE ÉTICA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Exelente profesor, domina muy bien la materia y te inspira mucho, un gran ejemplo. No hay cosa que no comprendas de su clase y cualquier duda que tengas te la aclara y te habla más del tema.\nEso sí prepárate para exponer."
+    },
+    {
+      "fecha_iso": "2018-01-14T00:00:00",
+      "materia": "ECONOMÍA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "El mejor profesor que hay para esta materia, tiene mucha labia para explicar, nunca te vas a aburrir, las evaluaciones son fáciles y no hay tema de esta materia que él no domine."
+    },
+    {
+      "fecha_iso": "2017-11-12T00:00:00",
+      "materia": "TALLER DE ÉTICA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "No hay un tema que no domine este profesor, es el profesor mas inteligente que conozco, no toma asistencia nunca y aun asi cuenta con toda la clase presente porque es super interesante escucharlo hablar,el mejor profe del tec seguro que si"
+    },
+    {
+      "fecha_iso": "2017-10-09T00:00:00",
+      "materia": "ECONOMIA EMPRESARIAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "El mejor profe"
+    },
+    {
+      "fecha_iso": "2017-08-08T00:00:00",
+      "materia": "ECONOMIA EMPRESARIAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "no existe otro profesosr mejor para esta materia"
+    },
+    {
+      "fecha_iso": "2016-12-05T00:00:00",
+      "materia": "ECONOMIA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Un profesor muy claro , va a lo que va. Su clase consiste en ensayos para calificaciones promediados con asistencias. Si hace exámenes si prestas atención en la clase sera sencillo. Usa buenas dinámicas en sus clases."
+    }
+  ],
+  "comments_recent": [
+    "Muy buena onda, sabe mucho, explica claramente y te hace interesarte. Incluso te responde dudas fuera del tema: hipotecas, campo laboral, emprendimiento, impuestos, salarios... que te ayudan en la vida.\nCalifica con un ensayo de 10 pág. en cada unidad, para el cual el mismo te da la información.",
+    "Muy buen profesor. Sus clases son muy entretenidas. Es muy interesante todo lo que dice, lo relaciona con cosas de la vida real. Un ejemplo de profesor, de lo que le preguntes te sabe responder. Tiene muy buen caracter , se nota que le gusta dar clases.",
+    "Exelente profesor, domina muy bien la materia y te inspira mucho, un gran ejemplo. No hay cosa que no comprendas de su clase y cualquier duda que tengas te la aclara y te habla más del tema.\nEso sí prepárate para exponer.",
+    "El mejor profesor que hay para esta materia, tiene mucha labia para explicar, nunca te vas a aburrir, las evaluaciones son fáciles y no hay tema de esta materia que él no domine.",
+    "No hay un tema que no domine este profesor, es el profesor mas inteligente que conozco, no toma asistencia nunca y aun asi cuenta con toda la clase presente porque es super interesante escucharlo hablar,el mejor profe del tec seguro que si",
+    "El mejor profe",
+    "no existe otro profesosr mejor para esta materia",
+    "Un profesor muy claro , va a lo que va. Su clase consiste en ensayos para calificaciones promediados con asistencias. Si hace exámenes si prestas atención en la clase sera sencillo. Usa buenas dinámicas en sus clases."
+  ],
+  "n_reviews": 8
+}

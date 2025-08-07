@@ -1,0 +1,85 @@
+{
+  "professor_id": "Victor_Martin_Pantoja_Gomez",
+  "nombre": "Victor Martin Pantoja Gomez",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 7.095084903684339,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 6.81466008355488,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.5,
+    "wilson_interval": [
+      0.09452865480086611,
+      0.905471345199134
+    ],
+    "n_recommendations": 2
+  },
+  "subject_normalization": {
+    "z_mean": -0.17,
+    "z_mean_decayed": 0.18,
+    "per_subject": [
+      {
+        "materia": "DESARROLLO SUSTENTABLE",
+        "z_decayed": 0.17551749066517003,
+        "n": 52
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [],
+    "sentiment": {
+      "overall": null,
+      "by_month": {}
+    },
+    "n_comments": 1
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": null,
+    "difficulty_trend": null,
+    "forecast": null,
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2022-03-27T00:00:00",
+      "materia": "DESARROLLO SUSTENTABLE",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2020-01-12T00:00:00",
+      "materia": "DESARROLLO SUSTENTABLE",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Sinceramente el peor profesor que me he encontrado en mi vida, es la hipocresía y vale vergismo puro en persona, te hace hacer una página en Wix donde te calificará la tarea, tarea que ni el mismo entiende y explica como la quiere; y hace exámenes largos donde las respuestas las califica como quiere"
+    }
+  ],
+  "comments_recent": [
+    "Sinceramente el peor profesor que me he encontrado en mi vida, es la hipocresía y vale vergismo puro en persona, te hace hacer una página en Wix donde te calificará la tarea, tarea que ni el mismo entiende y explica como la quiere; y hace exámenes largos donde las respuestas las califica como quiere"
+  ],
+  "n_reviews": 2
+}

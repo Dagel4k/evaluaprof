@@ -1,0 +1,35 @@
+{
+  "nombre": "sigma leticia acosta gastelum",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "ciudad": "Ciudad: culiacan, sinaloa",
+  "departamento": "Departamento/Facultad: etica",
+  "calidad_general": 6.0,
+  "porcentaje_recomienda": 100,
+  "nivel_dificultad": 4.0,
+  "etiquetas": [
+    "LA PARTICIPACIÓN IMPORTA (1)",
+    "ASISTENCIA OBLIGATORIA (1)",
+    "POCOS EXÁMENES (1)"
+  ],
+  "numero_calificaciones": 1,
+  "calificaciones": [
+    {
+      "fecha": "19/Ene/2022",
+      "tipo_calificacion": "REGULAR",
+      "puntaje_calidad_general": 6.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "etica",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "9.5",
+      "interes_clase": "",
+      "comentario": "es buena solo que me dio muy pocas clases solo dejaba trabajos, en linea pide cámara encendida, es considero barco y te la pasas agusto, participa con ella eso lo toma mucho en cuenta",
+      "etiquetas_comentario": [
+        "La Participación Importa",
+        "Asistencia obligatoria",
+        "Pocos Exámenes"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    }
+  ]
+}

@@ -1,0 +1,188 @@
+{
+  "professor_id": "Marco_Antonio_Zarate_Sandoval",
+  "nombre": "Marco Antonio Zarate Sandoval",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 3.7708129945698574,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 5.985061400177238,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.2,
+    "wilson_interval": [
+      0.036223160969787456,
+      0.6244717358814612
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": -0.74,
+    "z_mean_decayed": -0.81,
+    "per_subject": [
+      {
+        "materia": "TALLER DE INVESTIGACIÓN",
+        "z_decayed": 0.08928660402432338,
+        "n": 9
+      },
+      {
+        "materia": "TALLER DE INVESTIGACION 2",
+        "z_decayed": -0.2738612787525829,
+        "n": 5
+      },
+      {
+        "materia": "TALLER DE INVESTIGACION I",
+        "z_decayed": -0.5636018619766344,
+        "n": 5
+      },
+      {
+        "materia": "TALLER DE INVESTIGACIÓN II",
+        "z_decayed": -0.8728715609439697,
+        "n": 3
+      },
+      {
+        "materia": "TALLER DE LIDERAZGO",
+        "z_decayed": -2.0877817761951305,
+        "n": 38
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "explica",
+          "nunca",
+          "mal",
+          "va",
+          "te"
+        ],
+        "weight": 0.30949618301521986
+      },
+      {
+        "id": 1,
+        "words": [
+          "va",
+          "falta",
+          "si",
+          "temas",
+          "facil"
+        ],
+        "weight": 0.28017812929409625
+      }
+    ],
+    "sentiment": {
+      "overall": 0.0,
+      "by_month": {
+        "2017-08": 0.0,
+        "2017-06": 0.0,
+        "2017-05": 0.0,
+        "2016-08": 0.0,
+        "2015-04": 0.0
+      }
+    },
+    "n_comments": 5
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        4.0,
+        8.0,
+        2.0,
+        2.0,
+        4.0
+      ],
+      "ewma": [
+        4.0,
+        5.199999999999999,
+        4.239999999999999,
+        3.5679999999999996,
+        3.6975999999999996
+      ],
+      "sigma": 1.9562780661245478
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 3.6975999999999996,
+      "quality_band": [
+        0.0,
+        7.531905009604113
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2017-08-08T00:00:00",
+      "materia": "TALLER DE INVESTIGACION 2",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": "No sirve, falta todo el semestre, tienes que ir todos los dias para poder encontrarlo en algun dia y que te revise el trabajo, te reprueba porque se le da la gana, muy mal profesor."
+    },
+    {
+      "fecha_iso": "2017-06-12T00:00:00",
+      "materia": "TALLER DE LIDERAZGO",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 23.0,
+      "recomienda": 0,
+      "comentario": "No te ayuda para nada, nunca va, no explica sus temas, te amenaza, en fin muy mal maestro evitenlo."
+    },
+    {
+      "fecha_iso": "2017-05-23T00:00:00",
+      "materia": "TALLER DE INVESTIGACIÓN II",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Este señor que se hace llamar profesor nunca da una clase, va y se siente y pasa amenazando a los alumnos que los va a mandar a RC, sólo porque sí, jamas explica nada, casi no va, y todo trabajo que le lleves es mediocre, no se puede razonar con el profe así que aléjate de él."
+    },
+    {
+      "fecha_iso": "2016-08-09T00:00:00",
+      "materia": "TALLER DE INVESTIGACIÓN",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "no lo recomiendo, si quieres 100 y no batallar, carga con el, pero no aprenderás, puras exposiciones, falta mucho. super facil"
+    },
+    {
+      "fecha_iso": "2015-04-15T00:00:00",
+      "materia": "TALLER DE INVESTIGACION I",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 2.0,
+      "recomienda": 0,
+      "comentario": "Pasas Algo Facil, los temas los expones y no hay mucho de que hablar."
+    }
+  ],
+  "comments_recent": [
+    "No sirve, falta todo el semestre, tienes que ir todos los dias para poder encontrarlo en algun dia y que te revise el trabajo, te reprueba porque se le da la gana, muy mal profesor.",
+    "No te ayuda para nada, nunca va, no explica sus temas, te amenaza, en fin muy mal maestro evitenlo.",
+    "Este señor que se hace llamar profesor nunca da una clase, va y se siente y pasa amenazando a los alumnos que los va a mandar a RC, sólo porque sí, jamas explica nada, casi no va, y todo trabajo que le lleves es mediocre, no se puede razonar con el profe así que aléjate de él.",
+    "no lo recomiendo, si quieres 100 y no batallar, carga con el, pero no aprenderás, puras exposiciones, falta mucho. super facil",
+    "Pasas Algo Facil, los temas los expones y no hay mucho de que hablar."
+  ],
+  "n_reviews": 5
+}

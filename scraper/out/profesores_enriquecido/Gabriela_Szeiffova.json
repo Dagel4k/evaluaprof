@@ -1,0 +1,193 @@
+{
+  "professor_id": "Gabriela_Szeiffova",
+  "nombre": "Gabriela Szeiffova",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 8.18455004505699,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.222113000156386,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.571,
+    "wilson_interval": [
+      0.2504542304090258,
+      0.8417830777373732
+    ],
+    "n_recommendations": 7
+  },
+  "subject_normalization": {
+    "z_mean": null,
+    "z_mean_decayed": null,
+    "per_subject": []
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "materia",
+          "es maestra",
+          "es",
+          "maestra",
+          "si"
+        ],
+        "weight": 0.17706674736421504
+      },
+      {
+        "id": 1,
+        "words": [
+          "materia",
+          "sacar",
+          "si",
+          "es",
+          "bien"
+        ],
+        "weight": 0.20278130405944084
+      },
+      {
+        "id": 2,
+        "words": [
+          "es",
+          "barba",
+          "sacar",
+          "hacerle",
+          "materia"
+        ],
+        "weight": 0.2897906416609491
+      }
+    ],
+    "sentiment": {
+      "overall": 0.0,
+      "by_month": {
+        "2018-05": 0.0,
+        "2015-11": 0.0,
+        "2015-09": 0.0,
+        "2015-04": 0.0,
+        "2013-12": 0.0
+      }
+    },
+    "n_comments": 7
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        7.0,
+        10.0,
+        2.0,
+        10.0,
+        10.0
+      ],
+      "ewma": [
+        7.0,
+        7.8999999999999995,
+        6.129999999999999,
+        7.290999999999999,
+        8.1037
+      ],
+      "sigma": 2.7872522612781214
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 8.1037,
+      "quality_band": [
+        2.6406855678948817,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2018-05-12T00:00:00",
+      "materia": "ENERGÍAS RENOVABLES",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Una docente bien preparada."
+    },
+    {
+      "fecha_iso": "2015-11-07T00:00:00",
+      "materia": "DESARROLLO SUSTENTABLE Y TALLER DE INVESTIGACION 1",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "es la onda la maestra la neta, si le pides ayuda te la brinda sin problemas"
+    },
+    {
+      "fecha_iso": "2015-09-07T00:00:00",
+      "materia": "BIOCOMBUSTIBLES",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 3.0,
+      "recomienda": 0,
+      "comentario": "No sabe absolutamente nada de la materia, no cumple el perfil de esta materia, no es bioquímica, ni química, debería dedicarse mas a fundamentos de investigación o algo parecido."
+    },
+    {
+      "fecha_iso": "2015-04-16T00:00:00",
+      "materia": "TALLER DE INVESTIGACION 1 Y DESARROLLO SUSTENTABLE",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Es una maestra muy profecional a demas de presentar una amplia experiencia el las industras a nivel internacional y siempre busca ayudarte si  la necesitas"
+    },
+    {
+      "fecha_iso": "2013-12-16T00:00:00",
+      "materia": "ENERGÍAS RENOVABLES",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Es una maestra muy dura, guapa y responsable. Es la primera vez que veo a alguien tan profesional en su materia. Para sacar buen promedio no necesito hacerle la barba..."
+    },
+    {
+      "fecha_iso": "2013-12-04T00:00:00",
+      "materia": "FUND. DE INVEST.",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": "No es justa a la hora de calificar y no se explica muy bien en sus clases, pero da mucho chance de entregar tareas :D"
+    },
+    {
+      "fecha_iso": "2013-12-04T00:00:00",
+      "materia": "FUENTES DE ENERGÍA RENOVABLE",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 5.0,
+      "recomienda": 0,
+      "comentario": "Tienes que hacerle demasiado la barba para sacar un 100."
+    }
+  ],
+  "comments_recent": [
+    "Una docente bien preparada.",
+    "es la onda la maestra la neta, si le pides ayuda te la brinda sin problemas",
+    "No sabe absolutamente nada de la materia, no cumple el perfil de esta materia, no es bioquímica, ni química, debería dedicarse mas a fundamentos de investigación o algo parecido.",
+    "Es una maestra muy profecional a demas de presentar una amplia experiencia el las industras a nivel internacional y siempre busca ayudarte si  la necesitas",
+    "Es una maestra muy dura, guapa y responsable. Es la primera vez que veo a alguien tan profesional en su materia. Para sacar buen promedio no necesito hacerle la barba...",
+    "No es justa a la hora de calificar y no se explica muy bien en sus clases, pero da mucho chance de entregar tareas :D",
+    "Tienes que hacerle demasiado la barba para sacar un 100."
+  ],
+  "n_reviews": 7
+}

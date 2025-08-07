@@ -1,0 +1,403 @@
+{
+  "professor_id": "Juan_Núñez_Armenta",
+  "nombre": "Juan Núñez Armenta",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 8.87481755592506,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 8.186320032343824,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.905,
+    "wilson_interval": [
+      0.7108541613925933,
+      0.9734817912030528
+    ],
+    "n_recommendations": 21
+  },
+  "subject_normalization": {
+    "z_mean": 0.28,
+    "z_mean_decayed": 0.43,
+    "per_subject": [
+      {
+        "materia": "CALCULO INTEGRAL",
+        "z_decayed": 0.8481796604891912,
+        "n": 84
+      },
+      {
+        "materia": "ECUACIONES DIFERENCIALES",
+        "z_decayed": 0.6287423100205011,
+        "n": 56
+      },
+      {
+        "materia": "MATE 3",
+        "z_decayed": 0.577350269189626,
+        "n": 3
+      },
+      {
+        "materia": "CÁLCULO",
+        "z_decayed": 0.5097451910907641,
+        "n": 10
+      },
+      {
+        "materia": "CÁLCULO DIFERENCIAL",
+        "z_decayed": 0.4029385988982069,
+        "n": 46
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "mas",
+          "dificiles",
+          "sabe",
+          "examenes",
+          "es"
+        ],
+        "weight": 0.09584186164265747
+      },
+      {
+        "id": 1,
+        "words": [
+          "100",
+          "tareas",
+          "buen profesor",
+          "profesor",
+          "buen"
+        ],
+        "weight": 0.06582825254141329
+      },
+      {
+        "id": 2,
+        "words": [
+          "es amor",
+          "altamente",
+          "altamente recomendado",
+          "leoncio",
+          "profe"
+        ],
+        "weight": 0.12011839687061225
+      },
+      {
+        "id": 3,
+        "words": [
+          "cargues",
+          "hacer",
+          "quieren",
+          "si",
+          "te"
+        ],
+        "weight": 0.16029700397945748
+      },
+      {
+        "id": 4,
+        "words": [
+          "culiacan",
+          "explicar justo",
+          "tec culiacan",
+          "mejor",
+          "tec"
+        ],
+        "weight": 0.11299370419844668
+      }
+    ],
+    "sentiment": {
+      "overall": 0.3,
+      "by_month": {
+        "2023-05": 0.0,
+        "2019-08": 0.0,
+        "2018-01": 0.0,
+        "2017-03": 0.0,
+        "2016-12": 0.5,
+        "2016-11": 1.0,
+        "2016-05": 1.0,
+        "2015-01": 0.0,
+        "2014-12": 1.0,
+        "2013-04": 1.0,
+        "2012-12": 0.0,
+        "2012-10": 0.0,
+        "2012-08": -0.5,
+        "2012-06": 1.0,
+        "2011-12": 0.5,
+        "2011-03": 0.0
+      }
+    },
+    "n_comments": 20
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        8.0,
+        10.0,
+        9.0,
+        2.0,
+        10.0,
+        9.0,
+        10.0,
+        9.0,
+        10.0,
+        10.0,
+        10.0,
+        9.0,
+        10.0,
+        10.0,
+        10.0,
+        8.0
+      ],
+      "ewma": [
+        8.0,
+        8.6,
+        8.719999999999999,
+        6.703999999999999,
+        7.692799999999999,
+        8.084959999999999,
+        8.659472,
+        8.7616304,
+        9.13314128,
+        9.393198896,
+        9.575239227199999,
+        9.402667459039998,
+        9.581867221327999,
+        9.707307054929599,
+        9.79511493845072,
+        9.256580456915504
+      ],
+      "sigma": 1.5272353155642286
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 9.256580456915504,
+      "quality_band": [
+        6.263199238409616,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2023-05-25T00:00:00",
+      "materia": "LIDER SINDICAL",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "EL PEOR LIDER SINDICAL DE LA HISTORIA DEL TEC. NOMAS HIZO EL RIDICULO EN LA ULTIMA REUNION. DEBERIA RENUNCIAR ESTE DIFAMADOR."
+    },
+    {
+      "fecha_iso": "2019-08-24T00:00:00",
+      "materia": "ECUACIONES DIFERENCIALES",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Debe ser el mejor profesor de matemáticas del Tec de Culiacán. Claro para explicar, justo para calificar, no falla a clases, explica cuántas veces necesitas y de la mejor forma por lo que aprendes mucho con él. La materia es difícil, pero si le echas ganas, seguro pasas."
+    },
+    {
+      "fecha_iso": "2018-01-16T00:00:00",
+      "materia": "CALCULO VECTORIAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": "Explica super bien, todo de manera muy clara, siempre pregunta si hay dudas y las trata de resolver lo maximo posible. Deja mucha tarea, pero te sirve de practica para el examen y la deja con mucho tiempo de anticipación. Con haber podido hacer la tarea pasas el examen, pero califica muy justo."
+    },
+    {
+      "fecha_iso": "2018-01-15T00:00:00",
+      "materia": "ECUACIONES DIFERENCIALES",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "De los mejores profesores del Tec. Sus exámenes son difíciles, pero no te pone nada que no te enseña en clase. Si le preguntas, te explica las veces que ocupes y siempre de buena gana y si no faltas a sus clases te ayuda al final. Ojalá hubiera más maestros así."
+    },
+    {
+      "fecha_iso": "2017-03-01T00:00:00",
+      "materia": "ECUACIONES DIFERENCIALES",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 1,
+      "comentario": "Las clases las explica muy bien, y los exámenes están difíciles y largos pero si el ve que le echas ganas te da oportunidades. Asiste todos los días y eso ayuda mucho al momento de calificar."
+    },
+    {
+      "fecha_iso": "2016-12-22T00:00:00",
+      "materia": "CALCULO VECTORIAL",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "este maestro es una eminencia para las matematicas de lo mejor que tiene el tec, se lo sabe todo al derecho y alrevez y te lo explica de una manera super sencilla cuantas veces quieres ademas que te da apuntes para que estudies para los examenes, lo recomiendo al cien."
+    },
+    {
+      "fecha_iso": "2016-12-15T00:00:00",
+      "materia": "CALCULO VECTORIAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": "Muy buen profesor, explica de lo mejor, por algo tiene las matemáticas mas duras, como lo es vectorial y ecuaciones diferenciales, se nota muy rápido que sabe lo que está haciendo y explicando, es muy claro. Eso si, para sus examenes estudiale bien bien, porque son examenes largos y algo dificiles"
+    },
+    {
+      "fecha_iso": "2016-11-04T00:00:00",
+      "materia": "CALCULO VECTORIAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "De lo mejor que tiene el tec de culiacan. Excelente profesor, muy claro y accesible al explicar y justo para calificar. Sus materias son dificiles y se nota que se esfuerza por hacerlas más fáciles. Recomendado 100%"
+    },
+    {
+      "fecha_iso": "2016-05-20T00:00:00",
+      "materia": "CALCULO VECTORIAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Excelente maestro. SI eres wevon que quiere calificacion facil no lleves con el. Te explica cuantas veces se lo pidas y de la mejor forma, le entiendes todo y hasta te ayuda si ve que le pones ganas. Si quieres aprender lleva con el."
+    },
+    {
+      "fecha_iso": "2015-01-27T00:00:00",
+      "materia": "CÁLCULO",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "De los mejores maestros del Tec, te da asesorías, te resuelve dudas, claridad 100% en su habla y escritura, muy amable también, si no te gusta estudiar o hacer tareas no cargues con el, si quieres aprender, carga con el."
+    },
+    {
+      "fecha_iso": "2014-12-10T00:00:00",
+      "materia": "MATE 3",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2014-12-10T00:00:00",
+      "materia": "CÁLCULO VECTORIAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Un excelente profesor, como todos los grandes tiene su reputación por parte de los que quieren una calificación fácil, su conocimiento es inmenso, explica muy bien, repite cuanto necesites si le preguntas, te apoya bastante, no es de los que te quieren reprobar, quiere que aprendas."
+    },
+    {
+      "fecha_iso": "2013-04-25T00:00:00",
+      "materia": "CALCULO INTEGRAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Excelente Profesor, Tareas claras y de muy buen provecho para el alumno, para practicar trucos algebricos, identidades trigonometricas, factorizacion de potencias etc. 100% Recomendado"
+    },
+    {
+      "fecha_iso": "2012-12-06T00:00:00",
+      "materia": "CALCULO VECTORIAL",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "muy buen profesor pero ocupas ponerte las pilas desde el principio si no, ni carges con el entonces muy buen maestro."
+    },
+    {
+      "fecha_iso": "2012-10-19T00:00:00",
+      "materia": "CALCULO DIFERENCIAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Es el profesor mas intelectual de todos los  5 niveles de matemáticas, sabe absolutamente todo lo que le preguntes, te enseña el cálculo como nadie, sus exámenes son difíciles y de mucha álgebra, le gusta poner problemas con \"chanfle\" y es muy duro al calificar pero aprenderás muchísimo"
+    },
+    {
+      "fecha_iso": "2012-08-16T00:00:00",
+      "materia": "CALCULO DIFERENCIAL",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 0.5,
+      "recomienda": 0,
+      "comentario": "Es un mal profe, no explica muy bien y al momento de \"explicar\" o pones atencion o anotas, ademas que al calificar si te equivocas por un signo o no simplicaste a lo mas minimo te pone mal el ejercicio, y no te ayuda en un examen para nada"
+    },
+    {
+      "fecha_iso": "2012-08-16T00:00:00",
+      "materia": "CALCULO",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 1.0,
+      "recomienda": 0,
+      "comentario": "Los que los recomiendan son los que quieren ser algo en la vida, si eres huevon como la mayoria no cargues con el, se te va hacer dificil y vas a tronar"
+    },
+    {
+      "fecha_iso": "2012-06-11T00:00:00",
+      "materia": "CÁLCULO DIFERENCIAL",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "EXCELENTE calidad humana! el profe es super bueno y se da cuenta de quien sabe y quien le hecha ganas, es muy justo al calificar e incluso te ayuda, SABE MUCHISIMO y si lo sabe transmitir, altamente recomendado el profe :D *fuenteconfiable"
+    },
+    {
+      "fecha_iso": "2011-12-14T00:00:00",
+      "materia": "CALCULO VECTORIAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Altamente recomendado, explica super bien, da buenas clases y ve absolutamente todo el programa de forma clara. Y es un amor."
+    },
+    {
+      "fecha_iso": "2011-12-14T00:00:00",
+      "materia": "CALCULO VECTORIAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Excelente profesor altamente recomendado, en pocas palabras el profe es un amor, te explica absolutamente todo, de donde viene cada cosas y con una claridad y calma que pocos profes tienen. Leoncio=buenprofe^2"
+    },
+    {
+      "fecha_iso": "2011-03-10T00:00:00",
+      "materia": "MATE III Y MATE IV",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Tube la oportunidad de estar en dos cursos de mate con el profe Juan Leoncio, desde el primer curso se convirtio en mi maestro favorito de mate, explica excelentemente, y por eso segui cargando con el, lastima que no pude cargar los demas cursos de mate."
+    }
+  ],
+  "comments_recent": [
+    "EL PEOR LIDER SINDICAL DE LA HISTORIA DEL TEC. NOMAS HIZO EL RIDICULO EN LA ULTIMA REUNION. DEBERIA RENUNCIAR ESTE DIFAMADOR.",
+    "Debe ser el mejor profesor de matemáticas del Tec de Culiacán. Claro para explicar, justo para calificar, no falla a clases, explica cuántas veces necesitas y de la mejor forma por lo que aprendes mucho con él. La materia es difícil, pero si le echas ganas, seguro pasas.",
+    "Explica super bien, todo de manera muy clara, siempre pregunta si hay dudas y las trata de resolver lo maximo posible. Deja mucha tarea, pero te sirve de practica para el examen y la deja con mucho tiempo de anticipación. Con haber podido hacer la tarea pasas el examen, pero califica muy justo.",
+    "De los mejores profesores del Tec. Sus exámenes son difíciles, pero no te pone nada que no te enseña en clase. Si le preguntas, te explica las veces que ocupes y siempre de buena gana y si no faltas a sus clases te ayuda al final. Ojalá hubiera más maestros así.",
+    "Las clases las explica muy bien, y los exámenes están difíciles y largos pero si el ve que le echas ganas te da oportunidades. Asiste todos los días y eso ayuda mucho al momento de calificar.",
+    "este maestro es una eminencia para las matematicas de lo mejor que tiene el tec, se lo sabe todo al derecho y alrevez y te lo explica de una manera super sencilla cuantas veces quieres ademas que te da apuntes para que estudies para los examenes, lo recomiendo al cien.",
+    "Muy buen profesor, explica de lo mejor, por algo tiene las matemáticas mas duras, como lo es vectorial y ecuaciones diferenciales, se nota muy rápido que sabe lo que está haciendo y explicando, es muy claro. Eso si, para sus examenes estudiale bien bien, porque son examenes largos y algo dificiles",
+    "De lo mejor que tiene el tec de culiacan. Excelente profesor, muy claro y accesible al explicar y justo para calificar. Sus materias son dificiles y se nota que se esfuerza por hacerlas más fáciles. Recomendado 100%",
+    "Excelente maestro. SI eres wevon que quiere calificacion facil no lleves con el. Te explica cuantas veces se lo pidas y de la mejor forma, le entiendes todo y hasta te ayuda si ve que le pones ganas. Si quieres aprender lleva con el.",
+    "De los mejores maestros del Tec, te da asesorías, te resuelve dudas, claridad 100% en su habla y escritura, muy amable también, si no te gusta estudiar o hacer tareas no cargues con el, si quieres aprender, carga con el."
+  ],
+  "n_reviews": 21
+}

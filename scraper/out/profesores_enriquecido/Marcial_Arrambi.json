@@ -1,0 +1,347 @@
+{
+  "professor_id": "Marcial_Arrambi",
+  "nombre": "Marcial Arrambi",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 9.43066392134193,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 6.9913815770253285,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.5,
+    "wilson_interval": [
+      0.2799923761135083,
+      0.7200076238864918
+    ],
+    "n_recommendations": 16
+  },
+  "subject_normalization": {
+    "z_mean": -0.41,
+    "z_mean_decayed": 0.51,
+    "per_subject": [
+      {
+        "materia": "ECUACIONES DIFERENCIALES",
+        "z_decayed": 0.6287423100205011,
+        "n": 56
+      },
+      {
+        "materia": "DISEÑO DIGITAL",
+        "z_decayed": 0.5773502691896257,
+        "n": 3
+      },
+      {
+        "materia": "DISEÑO",
+        "z_decayed": -0.5878666941759493,
+        "n": 5
+      },
+      {
+        "materia": "---",
+        "z_decayed": -0.9627852966533862,
+        "n": 521
+      },
+      {
+        "materia": "SIMULACION",
+        "z_decayed": -1.043300196749722,
+        "n": 23
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "falta",
+          "tienes",
+          "aprendes",
+          "te",
+          "porque"
+        ],
+        "weight": 0.06319476551713182
+      },
+      {
+        "id": 1,
+        "words": [
+          "ve",
+          "ve te",
+          "da",
+          "ganas",
+          "bien"
+        ],
+        "weight": 0.12486581633630357
+      },
+      {
+        "id": 2,
+        "words": [
+          "si",
+          "falta",
+          "mas",
+          "da",
+          "clases"
+        ],
+        "weight": 0.10529159492767741
+      },
+      {
+        "id": 3,
+        "words": [
+          "buen profe",
+          "aprendes",
+          "profe",
+          "profesor",
+          "buen"
+        ],
+        "weight": 0.1695593372144194
+      },
+      {
+        "id": 4,
+        "words": [
+          "hace",
+          "examenes",
+          "examenes dificiles",
+          "es",
+          "te"
+        ],
+        "weight": 0.15244417241917185
+      }
+    ],
+    "sentiment": {
+      "overall": 0.13333333333333333,
+      "by_month": {
+        "2025-06": 0.0,
+        "2017-08": 1.0,
+        "2016-11": 0.0,
+        "2015-10": 0.0,
+        "2015-03": 0.0,
+        "2014-11": 0.0,
+        "2014-01": -1.0,
+        "2013-08": 0.0,
+        "2013-07": 1.0,
+        "2013-06": 1.0,
+        "2012-08": 0.0,
+        "2011-05": 0.0
+      }
+    },
+    "n_comments": 15
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        3.0,
+        8.0,
+        10.0,
+        2.0,
+        4.0,
+        10.0,
+        6.0,
+        4.5,
+        9.0,
+        10.0,
+        10.0,
+        10.0,
+        10.0
+      ],
+      "ewma": [
+        3.0,
+        4.5,
+        6.15,
+        4.904999999999999,
+        4.6335,
+        6.243449999999999,
+        6.170414999999999,
+        5.669290499999999,
+        6.668503349999998,
+        7.667952344999998,
+        8.367566641499998,
+        8.85729664905,
+        9.200107654335
+      ],
+      "sigma": 2.0576320225977356
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 9.200107654335,
+      "quality_band": [
+        5.167148890043438,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2025-06-17T00:00:00",
+      "materia": "ECUACIONES DIFERENCIALES",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "No hay mucho que decir… \nEl maestro domina totalmente las materias de ciencias básicas y electrónica, es claramente uno de los mejores elementos del TEC. La verdad los exámenes son difíciles pero el les juro que toma mucho en cuenta lo que hace cada quien por esfuerzo propio y es súper motivacional."
+    },
+    {
+      "fecha_iso": "2019-04-13T00:00:00",
+      "materia": "ELECTRÓNICO",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2017-08-07T00:00:00",
+      "materia": "ANALISIS DE SEÑALES",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "De los mejores profesores que tiene la institucion, es dedicado, y enseña muy bien, tienes que echarle muchas ganas ya que sus examenes son dificiles, pero si ve que te esfuerzas y participas te hace el paro."
+    },
+    {
+      "fecha_iso": "2016-11-06T00:00:00",
+      "materia": "......",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": "Buen profesor"
+    },
+    {
+      "fecha_iso": "2015-10-20T00:00:00",
+      "materia": "DIGITAL",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "SMuy buen profe, aprendes mucho pero es duro al calificar"
+    },
+    {
+      "fecha_iso": "2015-03-31T00:00:00",
+      "materia": "DISEÑO",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 0,
+      "comentario": "EL 08 DE MARZO DE COMENTÓ QUE NO LO RECOMIENDAN, ME PUEDEN DESIR PORQUE? PUES UN PRIMO Y YO QUEREMOS CARGAR EL PROXIMO SEMESTRE"
+    },
+    {
+      "fecha_iso": "2015-03-08T00:00:00",
+      "materia": "DISEÑO",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": "no lo recomiendo."
+    },
+    {
+      "fecha_iso": "2014-11-02T00:00:00",
+      "materia": "SUBDIRE",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 0,
+      "comentario": "NEFASTO SUBDIRECTOR, SE HA VUELTO DE LO PEOR. IMICIO MUY BIEN PERO CON EL TIEMPO SUS GANAS DE TRABAJAR Y SU CALIDAD HUMANDA HAN DECAIDO HASTA CONVERTIRLO EN UNA PERSONA NEFSATA."
+    },
+    {
+      "fecha_iso": "2014-01-17T00:00:00",
+      "materia": "DISEÑO DIGITAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "aprendes mucho tienes que hacer todo lo que te diga y pasas porque pasas tienes que demostrarle que le hechas ganas si no y te ve que te vale te reprueba lo malo es que falta mucho pero aprendes porque aprendes"
+    },
+    {
+      "fecha_iso": "2013-08-03T00:00:00",
+      "materia": "DIGITALES",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "sabe mucho, enseña mucho...pero hay mejores en el áreas que sabes mas y enseñan mas, ademas de que apoyan mas al APRENDIZAJE del alumno, lo que es la idea principal...si no queda otra opcion, buen profe, pero si queda, busquenle...falta mucho!"
+    },
+    {
+      "fecha_iso": "2013-07-19T00:00:00",
+      "materia": "SIMULACIÓN",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 1.5,
+      "recomienda": 0,
+      "comentario": "Muy bueno para simular, pero simular que nos da clases porque falta mucho y así como aprendemos? Debería ser mas responsable o de plano no dar clases."
+    },
+    {
+      "fecha_iso": "2013-06-12T00:00:00",
+      "materia": "DISEÑO DIGITAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Excelente profesor, aprendes mucho con el, pero requiere de mucho esfuerzo y dedicación de parte del alumno, el profe te enseña, tú haces las cosas..."
+    },
+    {
+      "fecha_iso": "2012-08-30T00:00:00",
+      "materia": "ELECTRONICA DIJITAL 1",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "da muy buenas clases explicamuy bien"
+    },
+    {
+      "fecha_iso": "2012-08-09T00:00:00",
+      "materia": "SIMULASION",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 3.5,
+      "recomienda": 0,
+      "comentario": "bien"
+    },
+    {
+      "fecha_iso": "2011-05-10T00:00:00",
+      "materia": "SIMULACION",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": "buena onda"
+    },
+    {
+      "fecha_iso": "2011-05-06T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    }
+  ],
+  "comments_recent": [
+    "No hay mucho que decir… \nEl maestro domina totalmente las materias de ciencias básicas y electrónica, es claramente uno de los mejores elementos del TEC. La verdad los exámenes son difíciles pero el les juro que toma mucho en cuenta lo que hace cada quien por esfuerzo propio y es súper motivacional.",
+    "De los mejores profesores que tiene la institucion, es dedicado, y enseña muy bien, tienes que echarle muchas ganas ya que sus examenes son dificiles, pero si ve que te esfuerzas y participas te hace el paro.",
+    "Buen profesor",
+    "SMuy buen profe, aprendes mucho pero es duro al calificar",
+    "EL 08 DE MARZO DE COMENTÓ QUE NO LO RECOMIENDAN, ME PUEDEN DESIR PORQUE? PUES UN PRIMO Y YO QUEREMOS CARGAR EL PROXIMO SEMESTRE",
+    "no lo recomiendo.",
+    "NEFASTO SUBDIRECTOR, SE HA VUELTO DE LO PEOR. IMICIO MUY BIEN PERO CON EL TIEMPO SUS GANAS DE TRABAJAR Y SU CALIDAD HUMANDA HAN DECAIDO HASTA CONVERTIRLO EN UNA PERSONA NEFSATA.",
+    "aprendes mucho tienes que hacer todo lo que te diga y pasas porque pasas tienes que demostrarle que le hechas ganas si no y te ve que te vale te reprueba lo malo es que falta mucho pero aprendes porque aprendes",
+    "sabe mucho, enseña mucho...pero hay mejores en el áreas que sabes mas y enseñan mas, ademas de que apoyan mas al APRENDIZAJE del alumno, lo que es la idea principal...si no queda otra opcion, buen profe, pero si queda, busquenle...falta mucho!"
+  ],
+  "n_reviews": 16
+}

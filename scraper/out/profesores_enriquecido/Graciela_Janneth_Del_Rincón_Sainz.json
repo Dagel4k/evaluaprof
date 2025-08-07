@@ -1,0 +1,158 @@
+{
+  "professor_id": "Graciela_Janneth_Del_Rincón_Sainz",
+  "nombre": "Graciela Janneth Del Rincón Sainz",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 8.394239584023675,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 6.985061400177238,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.6,
+    "wilson_interval": [
+      0.23071993220883702,
+      0.8823817688407467
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": null,
+    "z_mean_decayed": null,
+    "per_subject": []
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "maestra",
+          "explica",
+          "puedes",
+          "es"
+        ],
+        "weight": 0.29575863237301503
+      },
+      {
+        "id": 1,
+        "words": [
+          "es",
+          "explica",
+          "puedes",
+          "maestra"
+        ],
+        "weight": 0.28630319249886665
+      }
+    ],
+    "sentiment": {
+      "overall": 0.25,
+      "by_month": {
+        "2022-07": 1.0,
+        "2019-01": 0.0,
+        "2011-03": 0.0,
+        "2011-01": 0.0
+      }
+    },
+    "n_comments": 4
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        6.0,
+        4.0,
+        8.0,
+        7.0,
+        10.0
+      ],
+      "ewma": [
+        6.0,
+        5.3999999999999995,
+        6.18,
+        6.426,
+        7.4982
+      ],
+      "sigma": 1.534336641027646
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 7.4982,
+      "quality_band": [
+        4.490900183585813,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2022-07-14T00:00:00",
+      "materia": "GESTION DE PROYECTOS DE SOFTWARE",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "La maestra esta sobre calificada para la materia, sabe mucho y explica muy claro. Entrega todas las tareas ya que en una recuperación ya no las acepta y solo subes promedio con el examen que tampoco puedes reprobar o no pasas la unidad. Al final solo es entregar el reporte del proyecto en equipo."
+    },
+    {
+      "fecha_iso": "2022-06-16T00:00:00",
+      "materia": "GESTION DE PROY SOFTWARE",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2019-01-15T00:00:00",
+      "materia": "GESTION DE PROYECTOS DE SW",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": "La maestra es un amor de profesora. Es tranquila y calmada. Explica bien los temas y si necesitas ayuda te la puede brindar. Es muy comprensiva.  Aunque eso si, su material esta en ingles y ahi es donde puedes batallar un poco."
+    },
+    {
+      "fecha_iso": "2011-03-21T00:00:00",
+      "materia": "FUNDAMENTOS DE DESARROLLO DE SISTEMAS",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 5.0,
+      "recomienda": 0,
+      "comentario": "ABURRIDAAAAAAAAAA\nLLEGA TARDE A LAS CLASES!!\nENTRA 40 MINUTOS DESPUES\nO SEA QUE LE PASA!"
+    },
+    {
+      "fecha_iso": "2011-01-07T00:00:00",
+      "materia": "FUNDAMENTOS DE DESARROLLO DE SISTEMAS",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": "Muy aburrida maestra, y muy mala para explicar."
+    }
+  ],
+  "comments_recent": [
+    "La maestra esta sobre calificada para la materia, sabe mucho y explica muy claro. Entrega todas las tareas ya que en una recuperación ya no las acepta y solo subes promedio con el examen que tampoco puedes reprobar o no pasas la unidad. Al final solo es entregar el reporte del proyecto en equipo.",
+    "La maestra es un amor de profesora. Es tranquila y calmada. Explica bien los temas y si necesitas ayuda te la puede brindar. Es muy comprensiva.  Aunque eso si, su material esta en ingles y ahi es donde puedes batallar un poco.",
+    "ABURRIDAAAAAAAAAA\nLLEGA TARDE A LAS CLASES!!\nENTRA 40 MINUTOS DESPUES\nO SEA QUE LE PASA!",
+    "Muy aburrida maestra, y muy mala para explicar."
+  ],
+  "n_reviews": 5
+}

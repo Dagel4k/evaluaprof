@@ -1,0 +1,135 @@
+{
+  "professor_id": "Luis_Alberto_Dominguez_Inzunza",
+  "nombre": "Luis Alberto Dominguez Inzunza",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 9.42976920804744,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.7183947335105705,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 1.0,
+    "wilson_interval": [
+      0.565508505247919,
+      1
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": 0.88,
+    "z_mean_decayed": 0.88,
+    "per_subject": [
+      {
+        "materia": "TERMODINÁMICA",
+        "z_decayed": 0.8829315411243911,
+        "n": 14
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [],
+    "sentiment": {
+      "overall": null,
+      "by_month": {}
+    },
+    "n_comments": 3
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        9.5,
+        8.0,
+        9.0,
+        10.0
+      ],
+      "ewma": [
+        9.5,
+        9.049999999999999,
+        9.034999999999998,
+        9.324499999999999
+      ],
+      "sigma": 0.7113608290921469
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 9.324499999999999,
+      "quality_band": [
+        7.930232774979391,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2023-02-23T00:00:00",
+      "materia": "PROYECTOS SOLARES",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2020-06-24T00:00:00",
+      "materia": "SISTEMAS TERMICOS",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": "Es buen maestro, pero sus clases son particularmente complicadas. El profesor apoya mucho para que logres entender pero sus exámenes son difíciles, es indispensable estudiar mucho."
+    },
+    {
+      "fecha_iso": "2019-08-08T00:00:00",
+      "materia": "GENERACIÓN DE ENERGÍA",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Te ayuda al final si ve que le ponias ganas"
+    },
+    {
+      "fecha_iso": "2017-08-21T00:00:00",
+      "materia": "TERMODINÁMICA",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2017-08-04T00:00:00",
+      "materia": "FUNDAMENTOS DE TERMODINAMICA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "es muy buen maestro, explica muy bien y ayuda bastante para pasar"
+    }
+  ],
+  "comments_recent": [
+    "Es buen maestro, pero sus clases son particularmente complicadas. El profesor apoya mucho para que logres entender pero sus exámenes son difíciles, es indispensable estudiar mucho.",
+    "Te ayuda al final si ve que le ponias ganas",
+    "es muy buen maestro, explica muy bien y ayuda bastante para pasar"
+  ],
+  "n_reviews": 5
+}

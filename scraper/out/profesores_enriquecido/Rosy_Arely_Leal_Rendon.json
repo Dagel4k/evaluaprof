@@ -1,0 +1,162 @@
+{
+  "professor_id": "Rosy_Arely_Leal_Rendon",
+  "nombre": "Rosy Arely Leal Rendon",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 4.7145726506161765,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 6.318394733510571,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.2,
+    "wilson_interval": [
+      0.036223160969787456,
+      0.6244717358814612
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": null,
+    "z_mean_decayed": null,
+    "per_subject": []
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "tienes",
+          "bien",
+          "trabajos",
+          "es",
+          "si"
+        ],
+        "weight": 0.364433854204544
+      },
+      {
+        "id": 1,
+        "words": [
+          "te",
+          "profe",
+          "preguntas",
+          "gana",
+          "da"
+        ],
+        "weight": 0.2985055569681611
+      }
+    ],
+    "sentiment": {
+      "overall": -0.2,
+      "by_month": {
+        "2025-06": 0.0,
+        "2024-12": 0.0,
+        "2017-12": 0.0,
+        "2017-08": 0.0,
+        "2017-06": -1.0
+      }
+    },
+    "n_comments": 5
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        5.0,
+        3.0,
+        8.0,
+        3.0,
+        6.0
+      ],
+      "ewma": [
+        5.0,
+        4.4,
+        5.48,
+        4.736,
+        5.1152
+      ],
+      "sigma": 1.7387147805203704
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 5.1152,
+      "quality_band": [
+        1.7073190301800736,
+        8.523080969819926
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2025-06-09T00:00:00",
+      "materia": "INGNIERÍA DE SERVICIOS",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 0,
+      "comentario": "Actividades consisten en leer un caso en el aula, responder ciertas preguntas en la llbreta y TOMARLE foto lo más rápido posible y subirla a moodle porque solo tienes un día para subirlo sin recuperación. Fuera de eso todos los exámen los hace en moodle y son de los pdfs que te da la profe."
+    },
+    {
+      "fecha_iso": "2024-12-04T00:00:00",
+      "materia": "PLANEACIÓN ESTRATEGICA Y ING DE SERVICIOS",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 0,
+      "comentario": "Es una persona muy pedante, cero accesible y no notifica a la hora de subir trabajos, no la recomendaria para nada, tienes que estar viendo si viene de buenas o no, sus clases son aburridas y nada dinámicas"
+    },
+    {
+      "fecha_iso": "2017-12-11T00:00:00",
+      "materia": "INGENIERIA DE SERVICIOS",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "En esta materia si es mejor impartiendo. Domina bien los temas y deja trabajos en clase para reforzar lo que se vio. Los examenes es solo estudiar las diapositivas y están bien faciles. Si la quieres llevar tranquilo ese semestre y quieres aprender carga con ella. Asistencia obligatoria"
+    },
+    {
+      "fecha_iso": "2017-08-04T00:00:00",
+      "materia": "GESTION",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": "No tiene palabra, califica como se le da la gana y no sabe explicar"
+    },
+    {
+      "fecha_iso": "2017-06-04T00:00:00",
+      "materia": "GESTION DE LOS SISTEMAS DE CALIDAD",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 0,
+      "comentario": "La materia está bien facil, no batallas nada con esta profe, para los examenes deja 15 diapositivas pero si pone preguntas muy largas. Si es medio aburrido por que se la pasa hablando toda la clase y a veces llega de malas y te contesta de mala gana cuando le preguntas. Profe barco"
+    }
+  ],
+  "comments_recent": [
+    "Actividades consisten en leer un caso en el aula, responder ciertas preguntas en la llbreta y TOMARLE foto lo más rápido posible y subirla a moodle porque solo tienes un día para subirlo sin recuperación. Fuera de eso todos los exámen los hace en moodle y son de los pdfs que te da la profe.",
+    "Es una persona muy pedante, cero accesible y no notifica a la hora de subir trabajos, no la recomendaria para nada, tienes que estar viendo si viene de buenas o no, sus clases son aburridas y nada dinámicas",
+    "En esta materia si es mejor impartiendo. Domina bien los temas y deja trabajos en clase para reforzar lo que se vio. Los examenes es solo estudiar las diapositivas y están bien faciles. Si la quieres llevar tranquilo ese semestre y quieres aprender carga con ella. Asistencia obligatoria",
+    "No tiene palabra, califica como se le da la gana y no sabe explicar",
+    "La materia está bien facil, no batallas nada con esta profe, para los examenes deja 15 diapositivas pero si pone preguntas muy largas. Si es medio aburrido por que se la pasa hablando toda la clase y a veces llega de malas y te contesta de mala gana cuando le preguntas. Profe barco"
+  ],
+  "n_reviews": 5
+}

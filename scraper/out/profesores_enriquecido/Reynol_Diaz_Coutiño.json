@@ -1,0 +1,235 @@
+{
+  "professor_id": "Reynol_Diaz_Coutiño",
+  "nombre": "Reynol Diaz Coutiño",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 8.610321182641187,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.251364263297819,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.444,
+    "wilson_interval": [
+      0.188775429471914,
+      0.7333526542559703
+    ],
+    "n_recommendations": 9
+  },
+  "subject_normalization": {
+    "z_mean": -0.31,
+    "z_mean_decayed": 0.12,
+    "per_subject": [
+      {
+        "materia": "ECONOMÍA",
+        "z_decayed": 0.8223297470063812,
+        "n": 13
+      },
+      {
+        "materia": "ECONOMIA",
+        "z_decayed": -0.38750099160942797,
+        "n": 17
+      },
+      {
+        "materia": "ESTADÍSTICA INFERENCIAL I",
+        "z_decayed": -1.4048118849910223,
+        "n": 9
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "quieres",
+          "quieres aprender",
+          "pasas",
+          "si quieres",
+          "si"
+        ],
+        "weight": 0.19525043013139556
+      },
+      {
+        "id": 1,
+        "words": [
+          "quieres aprender",
+          "aprender",
+          "ganas",
+          "profesor",
+          "recomendable"
+        ],
+        "weight": 0.26089812573536225
+      },
+      {
+        "id": 2,
+        "words": [
+          "si",
+          "cuenta",
+          "muchisimo",
+          "profesor",
+          "te"
+        ],
+        "weight": 0.23314640010183765
+      }
+    ],
+    "sentiment": {
+      "overall": 0.2857142857142857,
+      "by_month": {
+        "2020-10": 0.0,
+        "2020-01": 0.0,
+        "2015-09": 1.0,
+        "2015-01": 1.0,
+        "2013-08": 0.0,
+        "2013-07": 0.0,
+        "2013-06": 0.0
+      }
+    },
+    "n_comments": 7
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        4.0,
+        6.0,
+        6.0,
+        8.0,
+        10.0,
+        6.0,
+        10.0,
+        10.0
+      ],
+      "ewma": [
+        4.0,
+        4.6,
+        5.02,
+        5.914,
+        7.139799999999999,
+        6.797859999999999,
+        7.758501999999999,
+        8.430951399999998
+      ],
+      "sigma": 1.2079365757243403
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 8.430951399999998,
+      "quality_band": [
+        6.0633957115802914,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2020-10-02T00:00:00",
+      "materia": "ECONOMÍA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": "El mejor profesor que he tenido, se le ven las ganas de enseñar, y todo el conocimiento que tiene en su haber, si de verdad quieres aprender y no estás tan menso, súper recomendado este profesor. No te arrepentirás aunque te repruebe"
+    },
+    {
+      "fecha_iso": "2020-09-04T00:00:00",
+      "materia": "ECONOMÍA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2020-01-07T00:00:00",
+      "materia": "ESTADÍSTICA INFERENCIAL I",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 24.0,
+      "recomienda": 0,
+      "comentario": "De los mejores profesores que tiene el tecnológico de Culiacán. SI quieres aprender carga con él, ten en cuenta que debes ponerle todo el empeño y estudiar muchísimo por que si no, no pasas. \n-\nReprobé pero no quita el hecho que aprendí mucho, cárgalo pero que los demás profes sean barcos. \nSaludos."
+    },
+    {
+      "fecha_iso": "2015-09-28T00:00:00",
+      "materia": "MAESTRIA EN ING. INDUSTRIAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Profesor dedicado a la comprensión, muy estricto pero a su vez muy accesible en asesoría y apoyo en la materia. Recomendable para estudiantes que deseen aprender."
+    },
+    {
+      "fecha_iso": "2015-01-15T00:00:00",
+      "materia": "ECONOMÍA AMBIENTAL",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 0,
+      "comentario": "Aterriza mucho los temas a la realidad, lo teórico queda muy claro, pero los problemas te los abienta y nunca los retoma, así que no sabes si está bien o mal. Toma mucho en cuenta los trabajos y los exámenes (en los cuales hay que esmerarse muchisimo y aveces no le atinas a lo que quería)"
+    },
+    {
+      "fecha_iso": "2015-01-15T00:00:00",
+      "materia": "ECONOMIA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2013-08-03T00:00:00",
+      "materia": "ECONOMIA",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": "SOLO recomendable al que le pondra ganas (yo pases con el :)"
+    },
+    {
+      "fecha_iso": "2013-07-19T00:00:00",
+      "materia": "ECONOMIA",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": "Si quieres aprender y le echas ganas muchas ganas pasas"
+    },
+    {
+      "fecha_iso": "2013-06-02T00:00:00",
+      "materia": "ECONOMIA",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 5.0,
+      "recomienda": 0,
+      "comentario": "es un cabron que te va a humillar."
+    }
+  ],
+  "comments_recent": [
+    "El mejor profesor que he tenido, se le ven las ganas de enseñar, y todo el conocimiento que tiene en su haber, si de verdad quieres aprender y no estás tan menso, súper recomendado este profesor. No te arrepentirás aunque te repruebe",
+    "De los mejores profesores que tiene el tecnológico de Culiacán. SI quieres aprender carga con él, ten en cuenta que debes ponerle todo el empeño y estudiar muchísimo por que si no, no pasas. \n-\nReprobé pero no quita el hecho que aprendí mucho, cárgalo pero que los demás profes sean barcos. \nSaludos.",
+    "Profesor dedicado a la comprensión, muy estricto pero a su vez muy accesible en asesoría y apoyo en la materia. Recomendable para estudiantes que deseen aprender.",
+    "Aterriza mucho los temas a la realidad, lo teórico queda muy claro, pero los problemas te los abienta y nunca los retoma, así que no sabes si está bien o mal. Toma mucho en cuenta los trabajos y los exámenes (en los cuales hay que esmerarse muchisimo y aveces no le atinas a lo que quería)",
+    "SOLO recomendable al que le pondra ganas (yo pases con el :)",
+    "Si quieres aprender y le echas ganas muchas ganas pasas",
+    "es un cabron que te va a humillar."
+  ],
+  "n_reviews": 9
+}

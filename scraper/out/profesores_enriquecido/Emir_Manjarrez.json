@@ -1,0 +1,213 @@
+{
+  "professor_id": "Emir_Manjarrez",
+  "nombre": "Emir Manjarrez",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 7.725000566171675,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.339760058979915,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.714,
+    "wilson_interval": [
+      0.35892909014821267,
+      0.9177828342909845
+    ],
+    "n_recommendations": 7
+  },
+  "subject_normalization": {
+    "z_mean": 0.45,
+    "z_mean_decayed": 0.42,
+    "per_subject": [
+      {
+        "materia": "POO",
+        "z_decayed": 0.8099480471214521,
+        "n": 62
+      },
+      {
+        "materia": "TESEBADA",
+        "z_decayed": 0.6522993986617689,
+        "n": 13
+      },
+      {
+        "materia": "FUNDAMENTOS DE PROGRAMACION",
+        "z_decayed": 0.497443889060346,
+        "n": 43
+      },
+      {
+        "materia": "FUNDAMENTOS DE PROGRAMACIÓN",
+        "z_decayed": -0.5373067644891709,
+        "n": 36
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "solo",
+          "falta",
+          "si",
+          "es",
+          "bien"
+        ],
+        "weight": 0.1695566278638957
+      },
+      {
+        "id": 1,
+        "words": [
+          "es",
+          "profesor",
+          "si",
+          "falta",
+          "solo"
+        ],
+        "weight": 0.24603761398063487
+      },
+      {
+        "id": 2,
+        "words": [
+          "es",
+          "solo",
+          "si",
+          "falta",
+          "profesor"
+        ],
+        "weight": 0.2188377297261994
+      }
+    ],
+    "sentiment": {
+      "overall": 0.0,
+      "by_month": {
+        "2018-11": 0.0,
+        "2018-08": 0.0,
+        "2018-01": 0.0
+      }
+    },
+    "n_comments": 6
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [
+      {
+        "from": "2018-11-13T00:00:00",
+        "to": "2018-11-13T00:00:00",
+        "count": 3
+      }
+    ],
+    "low_variance_flag": 0,
+    "trust_score": 0.7
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        10.0,
+        6.5,
+        7.333333333333333
+      ],
+      "ewma": [
+        10.0,
+        8.95,
+        8.464999999999998
+      ],
+      "sigma": 1.2261846124069993
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 8.464999999999998,
+      "quality_band": [
+        6.0616781596822795,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2018-11-13T00:00:00",
+      "materia": "FUNDAMENTOS DE PROGRAMACIÓN",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Sólo le falta explicar un poco más y llegar temprano"
+    },
+    {
+      "fecha_iso": "2018-11-13T00:00:00",
+      "materia": "FUNDAMENTOS DE PROGRAMACION",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2018-11-13T00:00:00",
+      "materia": "FUNDAMENTOS DE PROGRAMACION",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "solo saca presentate en los examenes y la haces"
+    },
+    {
+      "fecha_iso": "2018-08-08T00:00:00",
+      "materia": "ADMINISTRACIÓN DE BASE DE DATOS",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 0,
+      "comentario": "Este profe podrá ser una verga en click balance, pero como profesor vale verga"
+    },
+    {
+      "fecha_iso": "2018-08-05T00:00:00",
+      "materia": "TESEBADA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Bien pelado, falto el 95? del semestre y me paso con 100"
+    },
+    {
+      "fecha_iso": "2018-01-16T00:00:00",
+      "materia": "POO",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Si quieres pasar cargalo. De los 5 días de las semana falta 9. No aprenderás nada por que falta  mucho, pero en sí es un buen profesor y enseña muy bien."
+    },
+    {
+      "fecha_iso": "2018-01-15T00:00:00",
+      "materia": "POO",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Es el mejor maestro de programacion que he tenido, si tienen la oportunidad de cargar con el no lo piensen dos veces. Explica muy bien los temas y su forma de evaluar es muy justa."
+    }
+  ],
+  "comments_recent": [
+    "Sólo le falta explicar un poco más y llegar temprano",
+    "solo saca presentate en los examenes y la haces",
+    "Este profe podrá ser una verga en click balance, pero como profesor vale verga",
+    "Bien pelado, falto el 95? del semestre y me paso con 100",
+    "Si quieres pasar cargalo. De los 5 días de las semana falta 9. No aprenderás nada por que falta  mucho, pero en sí es un buen profesor y enseña muy bien.",
+    "Es el mejor maestro de programacion que he tenido, si tienen la oportunidad de cargar con el no lo piensen dos veces. Explica muy bien los temas y su forma de evaluar es muy justa."
+  ],
+  "n_reviews": 7
+}

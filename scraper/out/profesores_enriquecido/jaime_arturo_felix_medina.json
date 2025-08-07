@@ -1,0 +1,488 @@
+{
+  "professor_id": "jaime_arturo_felix_medina",
+  "nombre": "jaime arturo felix medina",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 9.46659288722135,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 8.651997921122593,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.964,
+    "wilson_interval": [
+      0.8228742388150134,
+      0.9936676435024582
+    ],
+    "n_recommendations": 28
+  },
+  "subject_normalization": {
+    "z_mean": 0.48,
+    "z_mean_decayed": 0.45,
+    "per_subject": [
+      {
+        "materia": "ENSAMBLADOR",
+        "z_decayed": 1.1547005383792506,
+        "n": 3
+      },
+      {
+        "materia": "MATEMATICAS DISCRETAS",
+        "z_decayed": 1.1470123623109691,
+        "n": 19
+      },
+      {
+        "materia": "FUNDAMENTOS DE PROGRAMACION",
+        "z_decayed": 1.1265641016954895,
+        "n": 43
+      },
+      {
+        "materia": "MATEMÁTICAS DISCRETAS",
+        "z_decayed": 0.6268223418864004,
+        "n": 28
+      },
+      {
+        "materia": "PROGRAMACIÓN",
+        "z_decayed": 0.6114556571931148,
+        "n": 10
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "profesor",
+          "es",
+          "explica bien",
+          "bien",
+          "explica"
+        ],
+        "weight": 0.09912265121756973
+      },
+      {
+        "id": 1,
+        "words": [
+          "es buen",
+          "es",
+          "buen",
+          "maestro",
+          "buen maestro"
+        ],
+        "weight": 0.13773137043223171
+      },
+      {
+        "id": 2,
+        "words": [
+          "explica",
+          "excelente",
+          "bien",
+          "excelente maestro",
+          "clases"
+        ],
+        "weight": 0.09596272804224083
+      },
+      {
+        "id": 3,
+        "words": [
+          "deja",
+          "aunque",
+          "faciles",
+          "facil",
+          "si"
+        ],
+        "weight": 0.1069816283185192
+      },
+      {
+        "id": 4,
+        "words": [
+          "xd",
+          "siempre",
+          "brinda ayuda",
+          "ayuda",
+          "brinda"
+        ],
+        "weight": 0.0781241525131483
+      }
+    ],
+    "sentiment": {
+      "overall": 0.25,
+      "by_month": {
+        "2024-12": 1.0,
+        "2023-08": 0.0,
+        "2022-05": 0.0,
+        "2022-03": 0.0,
+        "2022-02": 0.0,
+        "2022-01": 0.0,
+        "2021-10": 0.0,
+        "2021-06": 1.0,
+        "2021-05": 0.0,
+        "2020-08": 0.0,
+        "2020-06": 0.0,
+        "2020-01": 0.5,
+        "2019-11": 1.0,
+        "2017-10": 0.0,
+        "2017-03": 0.0,
+        "2015-06": 1.0,
+        "2015-01": 0.0,
+        "2014-10": 1.0,
+        "2013-06": 0.0,
+        "2012-02": 0.0,
+        "2011-08": 0.0
+      }
+    },
+    "n_comments": 24
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        6.0,
+        8.0,
+        7.0,
+        9.0,
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        9.0,
+        10.0,
+        9.5,
+        8.0,
+        9.0,
+        10.0,
+        10.0,
+        8.0,
+        10.0,
+        9.0,
+        10.0,
+        8.0,
+        9.0,
+        10.0,
+        10.0
+      ],
+      "ewma": [
+        6.0,
+        6.6,
+        6.719999999999999,
+        7.403999999999998,
+        8.182799999999999,
+        8.72796,
+        9.109572,
+        9.3767004,
+        9.56369028,
+        9.694583196,
+        9.4862082372,
+        9.64034576604,
+        9.598242036228,
+        9.118769425359599,
+        9.083138597751718,
+        9.358197018426203,
+        9.550737912898342,
+        9.08551653902884,
+        9.359861577320189,
+        9.251903104124132,
+        9.476332172886892,
+        9.033432521020824,
+        9.023402764714577,
+        9.316381935300203,
+        9.521467354710142
+      ],
+      "sigma": 0.7694341395143804
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 9.521467354710142,
+      "quality_band": [
+        8.013376441261956,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2024-12-15T00:00:00",
+      "materia": "MATEMATICAS DISCRETAS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Es uno de los profesores mas completos que he visto , explica muy bien, siempre pregunta si tienes dudas o comentarios, es un profesor que si viene a enseñar y tiene un \"humor\" interesante, excelente profesor"
+    },
+    {
+      "fecha_iso": "2023-08-11T00:00:00",
+      "materia": "LENGUAJES DE INTERFAZ",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Un profesor con mucho mucho conocimiento y explica muuy bien, nada mas que si puede aburrir pero si le prestas atencion vas a aprender mucho."
+    },
+    {
+      "fecha_iso": "2023-06-01T00:00:00",
+      "materia": "ESTRUCTURA DE DATOS Y LENGUAJES DE INTERFAZ",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2022-05-18T00:00:00",
+      "materia": "LENGUAJES DE INTERFAZ",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 1,
+      "comentario": "Buen maestro tiene amplio conocimiento, su manera de enseñar es buena, pero te puede aburrir."
+    },
+    {
+      "fecha_iso": "2022-03-15T00:00:00",
+      "materia": "ESTRUCTURA DE DATOS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Su clase es para dormirse pero explica todo muy bien de forma muy clara y entendible"
+    },
+    {
+      "fecha_iso": "2022-02-21T00:00:00",
+      "materia": "ESTRUCTURA DE DATOS",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Nostalgia pura"
+    },
+    {
+      "fecha_iso": "2022-01-19T00:00:00",
+      "materia": "MATEMATICAS DISCRETAS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "es un muy buen maestro sus examenes siempre son de lo visto en clase y muy sencillos, cargaria con el de nuevo sin pensarlo, lo recomiendo"
+    },
+    {
+      "fecha_iso": "2022-01-14T00:00:00",
+      "materia": "LENGUAJES DE INTERFAZ",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "es buen maestro en linea, publica el codigo despues de cada clase y te sirve para los examenes de ensamblador. Si te pones practicas ensamblador seguido, si pasas la materia"
+    },
+    {
+      "fecha_iso": "2021-10-18T00:00:00",
+      "materia": "LENGUAJES DE INTERFAZ",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Deja como dos ensayos en el semestre y algunas tareas en la plataforma, explica muy bien y no es estresante llevar con él si le llevas el ritmo"
+    },
+    {
+      "fecha_iso": "2021-06-15T00:00:00",
+      "materia": "LENGUAJES DE INTERFAZ",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Explica muy claro cualquier tema, sus exámenes son fáciles, la primera y última unidad la califica con un ensayo de 10 páginas y aunque puede ser tedioso, todo lo demás es fácil."
+    },
+    {
+      "fecha_iso": "2021-05-31T00:00:00",
+      "materia": "FUNDAMENTOS DE PROGRAMACION",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Buen maestro hace ver la programacion facil"
+    },
+    {
+      "fecha_iso": "2020-08-26T00:00:00",
+      "materia": "ESTRUCTURA DE DATOS",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Facil pasar con él, aprendes si le preguntas las dudas que tengas, deja proyectos en cds faciles, eso si las clases son muy aburridas aunque suele dejar salir temprano"
+    },
+    {
+      "fecha_iso": "2020-06-11T00:00:00",
+      "materia": "ESTRUCTURA DE DATOS",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "brinda ayuda si la necesitas, siempre pregunta por dudas pero ¿nadie dijo que sus clases son muy aburridas y para dormirse? XD"
+    },
+    {
+      "fecha_iso": "2020-01-13T00:00:00",
+      "materia": "LENGUAJES DE INTERFAZ",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Excelente maestro, explica todos los temas a profundidad. Tiende a llegar entre 15 a 25 minutos tarde. Toma lista durante los primeros días."
+    },
+    {
+      "fecha_iso": "2020-01-06T00:00:00",
+      "materia": "ESTRUCTURA DE DATOS",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "explica muy detallado y sus clases se entienden muy bien"
+    },
+    {
+      "fecha_iso": "2019-11-25T00:00:00",
+      "materia": "PROGRAMACION ORIENTADA OBJETOS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Excelente maestro, Sabe explicar bien y se entiende su manera de dar clases"
+    },
+    {
+      "fecha_iso": "2018-03-09T00:00:00",
+      "materia": "MATEMÁTICAS DISCRETAS",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2017-12-03T00:00:00",
+      "materia": "MATEMATICAS DISCRETAS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2017-10-09T00:00:00",
+      "materia": "MATEMÁTICAS DISCRETAS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 23.0,
+      "recomienda": 1,
+      "comentario": "Buenas clases y concisas"
+    },
+    {
+      "fecha_iso": "2017-10-09T00:00:00",
+      "materia": "MATEMÁTICAS DISCRETAS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Es un gran profesor que explica claramente."
+    },
+    {
+      "fecha_iso": "2017-03-31T00:00:00",
+      "materia": "TÓPICOS AVANZADOS DE PROG.",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": ":DD"
+    },
+    {
+      "fecha_iso": "2015-06-09T00:00:00",
+      "materia": "TÓPICOS AVANZADOS DE PROG.",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Excelente profesor, sus clases son diapositivas, programa las cosas en el momento, es abierto a dudas y aclaraciones, califica con proyectos. Si te evalua algo es porque te lo enseñó, te deja pasar sus diapos y sus ejemplos a tu USB. Nada más le faltó ver programacion movil."
+    },
+    {
+      "fecha_iso": "2015-01-10T00:00:00",
+      "materia": "PROGRAMACIONES",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Muy buen profesor con amplios conocimientos de lo que enseña, explica de mqnera clara y siempre brinda ayuda a quien la necesite. Ademas de todo propicia la investigacion para mayor entendimiento. Muy recomendado."
+    },
+    {
+      "fecha_iso": "2014-10-10T00:00:00",
+      "materia": "ENSAMBLADOR",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "LO RECOMIENDO AMPLIAMENTE, ES UN BUEN MAESTRO SABE MUCHO DEL TEMA, ES CLARO APRENDES MUCHO, ENSAMBLADOR ES EL NUMERO 1, SE LLEVA A PETTER."
+    },
+    {
+      "fecha_iso": "2014-05-15T00:00:00",
+      "materia": "SISTEMAS",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 7.5,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2013-06-18T00:00:00",
+      "materia": "---",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2012-02-17T00:00:00",
+      "materia": "PROGRAMACIÓN",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "explica muy bien, y siempre dispuesto a aclarar dudas"
+    },
+    {
+      "fecha_iso": "2011-08-17T00:00:00",
+      "materia": "CUALQUIERA DE SISTEMAS",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 0,
+      "comentario": "buen maestro si volveria a cargar con el aunke me aburra xd"
+    }
+  ],
+  "comments_recent": [
+    "Es uno de los profesores mas completos que he visto , explica muy bien, siempre pregunta si tienes dudas o comentarios, es un profesor que si viene a enseñar y tiene un \"humor\" interesante, excelente profesor",
+    "Un profesor con mucho mucho conocimiento y explica muuy bien, nada mas que si puede aburrir pero si le prestas atencion vas a aprender mucho.",
+    "Buen maestro tiene amplio conocimiento, su manera de enseñar es buena, pero te puede aburrir.",
+    "Su clase es para dormirse pero explica todo muy bien de forma muy clara y entendible",
+    "Nostalgia pura",
+    "es un muy buen maestro sus examenes siempre son de lo visto en clase y muy sencillos, cargaria con el de nuevo sin pensarlo, lo recomiendo",
+    "es buen maestro en linea, publica el codigo despues de cada clase y te sirve para los examenes de ensamblador. Si te pones practicas ensamblador seguido, si pasas la materia",
+    "Deja como dos ensayos en el semestre y algunas tareas en la plataforma, explica muy bien y no es estresante llevar con él si le llevas el ritmo",
+    "Explica muy claro cualquier tema, sus exámenes son fáciles, la primera y última unidad la califica con un ensayo de 10 páginas y aunque puede ser tedioso, todo lo demás es fácil."
+  ],
+  "n_reviews": 28
+}

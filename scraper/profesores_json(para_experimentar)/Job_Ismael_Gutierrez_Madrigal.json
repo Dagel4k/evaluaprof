@@ -1,0 +1,53 @@
+{
+  "nombre": "Job Ismael Gutierrez Madrigal",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "ciudad": "Ciudad: culiacan, sinaloa",
+  "departamento": "Departamento/Facultad: Metal Mecanica",
+  "calidad_general": 8.5,
+  "porcentaje_recomienda": 100,
+  "nivel_dificultad": 2.0,
+  "etiquetas": [
+    "BARCO (1)",
+    "POCOS EXÁMENES (1)",
+    "TOMARÍA SU CLASE OTRA VEZ (2)",
+    "DEJA TRABAJOS LARGOS (1)"
+  ],
+  "numero_calificaciones": 2,
+  "calificaciones": [
+    {
+      "fecha": "29/Nov/2018",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 9.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Metrologia y Normalizacion",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "9",
+      "interes_clase": "",
+      "comentario": "Muy buen maestro, con el que de verdad vas aprender, los exámenes son muy largos pero no tan complicados, pueda que lo mires muy enchuecado pero es bien compa.",
+      "etiquetas_comentario": [
+        "Deja trabajos largos",
+        "Tomaría su clase otra vez"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "28/Dic/2017",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 8.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Metrologia y normalizacion",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "N/A",
+      "interes_clase": "",
+      "comentario": "Es buen profe, te enseña lo que debes aprender y aparte practicas algunas veces. Los exámenes son largos pero sencillos. Al final te hace el paro.",
+      "etiquetas_comentario": [
+        "Barco",
+        "Pocos Exámenes",
+        "Tomaría su clase otra vez"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    }
+  ]
+}

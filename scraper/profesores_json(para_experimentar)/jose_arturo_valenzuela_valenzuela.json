@@ -1,0 +1,324 @@
+{
+  "nombre": "jose arturo valenzuela valenzuela",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "ciudad": "Ciudad: culiacan, sinaloa",
+  "departamento": "Departamento/Facultad: calculo integral",
+  "calidad_general": 4.3,
+  "porcentaje_recomienda": 21,
+  "nivel_dificultad": 6.5,
+  "etiquetas": [
+    "CALIFICA DURO (11)",
+    "ASISTENCIA OBLIGATORIA (4)",
+    "RESPETADO POR LOS ESTUDIANTES (1)",
+    "MUCHAS TAREAS (8)",
+    "DEJA TRABAJOS LARGOS (4)",
+    "LOS EXÁMENES SON DIFÍCILES (7)",
+    "LAS CLASES SON LARGAS (1)",
+    "LA PARTICIPACIÓN IMPORTA (1)",
+    "ASPECTOS DE CALIFICACIÓN CLAROS (1)"
+  ],
+  "numero_calificaciones": 18,
+  "calificaciones": [
+    {
+      "fecha": "03/Feb/2022",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 7.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Calculo Integral",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "9",
+      "interes_clase": "",
+      "comentario": "Descanse en paz",
+      "etiquetas_comentario": [
+        "Califica Duro",
+        "Aspectos de calificación claros",
+        "Los exámenes son difíciles"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "18/Oct/2021",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 8.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "calculo",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "9",
+      "interes_clase": "",
+      "comentario": "rip",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "18/Oct/2021",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Calculo",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "Descanse en paz, profesor",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "22/Sep/2021",
+      "tipo_calificacion": "REGULAR",
+      "puntaje_calidad_general": 4.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Algebra Lineal",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "N/A",
+      "interes_clase": "",
+      "comentario": "",
+      "etiquetas_comentario": [
+        "Califica Duro",
+        "Asistencia obligatoria",
+        "Deja trabajos largos"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "03/Jun/2021",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 2.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "algebra lineal",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "5",
+      "interes_clase": "",
+      "comentario": "",
+      "etiquetas_comentario": [
+        "Califica Duro",
+        "Deja trabajos largos",
+        "Los exámenes son difíciles"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "26/May/2021",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 3.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Calculo diferencial",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "7",
+      "interes_clase": "",
+      "comentario": "",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "01/Feb/2021",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 2.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Cálculo Diferencial",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "N/A",
+      "interes_clase": "",
+      "comentario": "El peor profesor que he tenido. Se ve que sabe mucho de la materia, pero no le importa si aprendes o no, el quiere terminar los temas y va en chinga, y no resuelve dudas porque ya lo deberías saber y si no sabes, se burla de ti y te humillara delante de todos. Jamás cargaría con el otra vez.",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "11/Nov/2020",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 3.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Cálculo Diferencial",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "23",
+      "interes_clase": "",
+      "comentario": "Hubo un gran problema con el porque no quiso escuchar nuestra opinión, incluso pusimos una queja en la escuela pero por ser de primer semestre no nos quisieron cambiar el profesor. No recomendaría estar en una clase para nada, quizá sea un buen ingeniero pero no es un buen maestro.",
+      "etiquetas_comentario": [
+        "Califica Duro",
+        "Muchas tareas",
+        "Asistencia obligatoria"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "11/Nov/2020",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 2.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Calculo integral",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "23",
+      "interes_clase": "",
+      "comentario": "Se ah tenido mucho problema con el, aunque el se auto describe como buen maestro me da pena ponerle tan mala calificación porque es su trabajo pero en realidad no es un buen maestro.",
+      "etiquetas_comentario": [
+        "Califica Duro",
+        "Muchas tareas",
+        "La Participación Importa"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "11/Nov/2020",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 2.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Calculo Diferencial",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "7.5",
+      "interes_clase": "",
+      "comentario": "",
+      "etiquetas_comentario": [
+        "Muchas tareas",
+        "Deja trabajos largos"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "15/Sep/2020",
+      "tipo_calificacion": "REGULAR",
+      "puntaje_calidad_general": 4.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Calculo diferencial",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "N/A",
+      "interes_clase": "",
+      "comentario": "Avanza rápido, se aferra a seguir avanzando sin importar que algunos se queden atrás , tareas :Los problemas son incoherentes,  pasar la materia en si, no es difícil si estudias por tu cuenta. Si pides ayuda te responde de mala gana, las tareas jamas sabrás si estas bien o mal. Jamas se equivoca",
+      "etiquetas_comentario": [
+        "Califica Duro"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "04/Jun/2019",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 3.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Ecuaciones diferenciales",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "22",
+      "interes_clase": "",
+      "comentario": "",
+      "etiquetas_comentario": [
+        "Muchas tareas",
+        "Los exámenes son difíciles"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "16/May/2019",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 3.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Ecuaciones diferenciales",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "23",
+      "interes_clase": "",
+      "comentario": "",
+      "etiquetas_comentario": [
+        "Califica Duro",
+        "Muchas tareas",
+        "Los exámenes son difíciles"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "05/Abr/2019",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 8.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Ecuaciones Diferenciales",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "Es muy buen maestro, pero la materia se complica porqué éste Maestro te pone muchas aplicaciones, Si quieres aprender te lo recomiendo, pero si quieres pasar ni lo pienses. Algunas alumnas le coquetean para pasar y caminan de las dos formas, no tiene Alma, le dicen el Diablo y es Cabron.",
+      "etiquetas_comentario": [
+        "Califica Duro",
+        "Muchas tareas",
+        "Las clases son largas"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "2"
+    },
+    {
+      "fecha": "03/Oct/2018",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 9.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Ecuaciones Diferenciales",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "8",
+      "interes_clase": "",
+      "comentario": "Excelente Maestro ????????? Sabe mucho y exige mucho, como Ingeniero es buena persona y se lleva muy bien con nosotros, pero no te confíes que por eso te va pasar, te equivocas, ponte a estudiar y entrega tareas y asiste a sus clases de lo contrario estás frito. Si quieres aprender lleva con el.",
+      "etiquetas_comentario": [
+        "Califica Duro",
+        "Asistencia obligatoria",
+        "Los exámenes son difíciles"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "2"
+    },
+    {
+      "fecha": "25/Oct/2017",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 2.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Calculo diferencial",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "21",
+      "interes_clase": "",
+      "comentario": "",
+      "etiquetas_comentario": [
+        "Califica Duro",
+        "Los exámenes son difíciles"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "1"
+    },
+    {
+      "fecha": "25/Oct/2017",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 3.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "---",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "24",
+      "interes_clase": "",
+      "comentario": "[Comentario esperando revisión]",
+      "etiquetas_comentario": [
+        "Muchas tareas"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "18/Oct/2017",
+      "tipo_calificacion": "REGULAR",
+      "puntaje_calidad_general": 4.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "---",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "24",
+      "interes_clase": "",
+      "comentario": "[Comentario esperando revisión]",
+      "etiquetas_comentario": [
+        "Califica Duro",
+        "Asistencia obligatoria",
+        "Respetado por los estudiantes"
+      ],
+      "votos_utiles": "1",
+      "votos_no_utiles": "0"
+    }
+  ]
+}

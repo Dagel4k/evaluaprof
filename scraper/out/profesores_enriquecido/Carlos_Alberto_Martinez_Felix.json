@@ -1,0 +1,91 @@
+{
+  "professor_id": "Carlos_Alberto_Martinez_Felix",
+  "nombre": "Carlos Alberto Martinez Felix",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 9.488209057284534,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.397993416888213,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 1.0,
+    "wilson_interval": [
+      0.3423719528896193,
+      1
+    ],
+    "n_recommendations": 2
+  },
+  "subject_normalization": {
+    "z_mean": 0.34,
+    "z_mean_decayed": 0.32,
+    "per_subject": [
+      {
+        "materia": "PROGRAMACIÓN",
+        "z_decayed": 1.2550931910806038,
+        "n": 10
+      },
+      {
+        "materia": "PROGRAMACION AVANZADA",
+        "z_decayed": -0.5773502691896268,
+        "n": 3
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [],
+    "sentiment": {
+      "overall": null,
+      "by_month": {}
+    },
+    "n_comments": 2
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": null,
+    "difficulty_trend": null,
+    "forecast": null,
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2021-12-14T00:00:00",
+      "materia": "PROGRAMACION AVANZADA",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Domina la programación (tiene doctorado), puntual, educado y siempre brinda ayuda. Eso si, los exámenes son complicados si no practicas y resuelves dudas. Trata de aprender python antes de llevar esta materia."
+    },
+    {
+      "fecha_iso": "2021-10-25T00:00:00",
+      "materia": "PROGRAMACIÓN",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Es puntual y claro. Se esfuerza en enseñar su materia. Buena imagen."
+    }
+  ],
+  "comments_recent": [
+    "Domina la programación (tiene doctorado), puntual, educado y siempre brinda ayuda. Eso si, los exámenes son complicados si no practicas y resuelves dudas. Trata de aprender python antes de llevar esta materia.",
+    "Es puntual y claro. Se esfuerza en enseñar su materia. Buena imagen."
+  ],
+  "n_reviews": 2
+}

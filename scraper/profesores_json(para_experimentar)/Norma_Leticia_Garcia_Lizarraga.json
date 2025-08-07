@@ -1,0 +1,35 @@
+{
+  "nombre": "Norma Leticia Garcia Lizarraga",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "ciudad": "Ciudad: culiacan, sinaloa",
+  "departamento": "Departamento/Facultad: Culiacan sinaloa",
+  "calidad_general": 3.0,
+  "porcentaje_recomienda": 0,
+  "nivel_dificultad": 8.0,
+  "etiquetas": [
+    "CALIFICA DURO (1)",
+    "MUCHAS TAREAS (1)",
+    "DEJA TRABAJOS LARGOS (1)"
+  ],
+  "numero_calificaciones": 1,
+  "calificaciones": [
+    {
+      "fecha": "09/Ago/2022",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 3.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Todo",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "8",
+      "interes_clase": "",
+      "comentario": "Es Orrible yo en todos los grados saco becas y me ba perfecto y con ella me fue de lo peor",
+      "etiquetas_comentario": [
+        "Califica Duro",
+        "Muchas tareas",
+        "Deja trabajos largos"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    }
+  ]
+}

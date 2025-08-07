@@ -1,0 +1,220 @@
+{
+  "professor_id": "Baltazar_Felix_franco",
+  "nombre": "Baltazar Felix franco",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 6.944328115360007,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 6.810348294274033,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.571,
+    "wilson_interval": [
+      0.2504542304090258,
+      0.8417830777373732
+    ],
+    "n_recommendations": 7
+  },
+  "subject_normalization": {
+    "z_mean": 0.15,
+    "z_mean_decayed": 0.21,
+    "per_subject": [
+      {
+        "materia": "---",
+        "z_decayed": 1.4344005554680677,
+        "n": 521
+      },
+      {
+        "materia": "ELECTROMAGNETISMO",
+        "z_decayed": 0.47254882554808864,
+        "n": 31
+      },
+      {
+        "materia": "DINÁMICA DE SISTEMAS",
+        "z_decayed": 0.13206763594884358,
+        "n": 4
+      },
+      {
+        "materia": "MECÁNICA CLÁSICA",
+        "z_decayed": -1.12089707663561,
+        "n": 3
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "quieres",
+          "quieres aprender",
+          "facil",
+          "si",
+          "es"
+        ],
+        "weight": 0.25390411578588074
+      },
+      {
+        "id": 1,
+        "words": [
+          "materia",
+          "es",
+          "si",
+          "bien",
+          "te"
+        ],
+        "weight": 0.12013770166752781
+      },
+      {
+        "id": 2,
+        "words": [
+          "cargues",
+          "quieres aprender",
+          "quieres",
+          "si quieres",
+          "aprender"
+        ],
+        "weight": 0.18473387920614323
+      }
+    ],
+    "sentiment": {
+      "overall": 0.0,
+      "by_month": {
+        "2025-06": 0.0,
+        "2021-03": 0.0,
+        "2019-01": 0.0,
+        "2014-03": -1.0,
+        "2012-10": 1.0,
+        "2012-01": 0.0,
+        "2011-07": 0.0
+      }
+    },
+    "n_comments": 7
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        4.0,
+        10.0,
+        7.0,
+        9.0,
+        5.0,
+        3.0,
+        8.0
+      ],
+      "ewma": [
+        4.0,
+        5.8,
+        6.16,
+        7.011999999999999,
+        6.4083999999999985,
+        5.3858799999999984,
+        6.170115999999998
+      ],
+      "sigma": 2.223336982824391
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 6.170115999999998,
+      "quality_band": [
+        1.8123755136641924,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2025-06-16T00:00:00",
+      "materia": "ELECTROMAGNETISMO",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 24.0,
+      "recomienda": 1,
+      "comentario": "Solo la unidad 2 y 3 califica con examenes y las demas unidades con puro plataforma, si en las primeras 3 unidades te fue bien, posiblemente te pongan buena calificacion en las ultimas unidades."
+    },
+    {
+      "fecha_iso": "2021-03-05T00:00:00",
+      "materia": "MECÁNICA CLÁSICA",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 0,
+      "comentario": "Es muy fácil pasar, todas sus tareas las encontré en youtube. Si quieres aprender, puede haber opciones mejores."
+    },
+    {
+      "fecha_iso": "2019-01-12T00:00:00",
+      "materia": "ELECTROMAGNETISMO",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 0,
+      "comentario": "Maestro barco. Facil su clase, pero si quieres aprender NO cargues con el"
+    },
+    {
+      "fecha_iso": "2014-03-30T00:00:00",
+      "materia": "DINÁMICA DE SISTEMAS",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Balta es una persona que no tiene control de sus grupos, cierto. Sin embargo si eres un alumno que realmente le interesa su clase te darás cuenta que si aprenderás y que el profe domina perfectamente sus temas, SI ENSEÑA, lo \"malo\" es que esta muy facil llevar la materia con él."
+    },
+    {
+      "fecha_iso": "2012-10-19T00:00:00",
+      "materia": "ELECTROMAGNETISMO",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Es un profesor que conoce mucho de la materia pero no explica muy bien, es un amor a la hora de calificar es lo bueno, pero si quieres aprender no cargues con él."
+    },
+    {
+      "fecha_iso": "2012-01-25T00:00:00",
+      "materia": "---",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2011-07-21T00:00:00",
+      "materia": "ELECTRICIDAD Y MAGNETISMO",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 0,
+      "comentario": "poes con el ya tienes asegurado un 90 o mas, pero no vas a aprender nada, no se le entiende nada"
+    }
+  ],
+  "comments_recent": [
+    "Solo la unidad 2 y 3 califica con examenes y las demas unidades con puro plataforma, si en las primeras 3 unidades te fue bien, posiblemente te pongan buena calificacion en las ultimas unidades.",
+    "Es muy fácil pasar, todas sus tareas las encontré en youtube. Si quieres aprender, puede haber opciones mejores.",
+    "Maestro barco. Facil su clase, pero si quieres aprender NO cargues con el",
+    "Balta es una persona que no tiene control de sus grupos, cierto. Sin embargo si eres un alumno que realmente le interesa su clase te darás cuenta que si aprenderás y que el profe domina perfectamente sus temas, SI ENSEÑA, lo \"malo\" es que esta muy facil llevar la materia con él.",
+    "Es un profesor que conoce mucho de la materia pero no explica muy bien, es un amor a la hora de calificar es lo bueno, pero si quieres aprender no cargues con él.",
+    "[Comentario esperando revisión]",
+    "poes con el ya tienes asegurado un 90 o mas, pero no vas a aprender nada, no se le entiende nada"
+  ],
+  "n_reviews": 7
+}

@@ -1,0 +1,364 @@
+{
+  "professor_id": "jose_arturo_valenzuela_valenzuela",
+  "nombre": "jose arturo valenzuela valenzuela",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 4.615016845842562,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 5.313425750094948,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.278,
+    "wilson_interval": [
+      0.12499569146355476,
+      0.5087307754619452
+    ],
+    "n_recommendations": 18
+  },
+  "subject_normalization": {
+    "z_mean": -1.07,
+    "z_mean_decayed": -1.03,
+    "per_subject": [
+      {
+        "materia": "CALCULO",
+        "z_decayed": 0.7695027830469351,
+        "n": 50
+      },
+      {
+        "materia": "---",
+        "z_decayed": -0.5138177746534162,
+        "n": 521
+      },
+      {
+        "materia": "CALCULO INTEGRAL",
+        "z_decayed": -0.8084779043358834,
+        "n": 84
+      },
+      {
+        "materia": "ECUACIONES DIFERENCIALES",
+        "z_decayed": -1.1127894924220483,
+        "n": 56
+      },
+      {
+        "materia": "CALCULO DIFERENCIAL",
+        "z_decayed": -1.3985398156574766,
+        "n": 110
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "te",
+          "tareas",
+          "materia",
+          "jamas",
+          "si"
+        ],
+        "weight": 0.09128097696796358
+      },
+      {
+        "id": 1,
+        "words": [
+          "esperando",
+          "esperando revision",
+          "comentario esperando",
+          "comentario",
+          "revision"
+        ],
+        "weight": 0.1260792998965593
+      },
+      {
+        "id": 2,
+        "words": [
+          "ingeniero es",
+          "profesor",
+          "descanse",
+          "descanse paz",
+          "paz"
+        ],
+        "weight": 0.13313747694231845
+      },
+      {
+        "id": 3,
+        "words": [
+          "problema",
+          "es",
+          "maestro",
+          "buen maestro",
+          "buen"
+        ],
+        "weight": 0.18144467537421174
+      },
+      {
+        "id": 4,
+        "words": [
+          "si",
+          "pasar",
+          "si quieres",
+          "quieres",
+          "te"
+        ],
+        "weight": 0.1545387457790114
+      }
+    ],
+    "sentiment": {
+      "overall": 0.0,
+      "by_month": {
+        "2022-02": 0.0,
+        "2021-10": 0.0,
+        "2021-02": 0.0,
+        "2020-11": 0.0,
+        "2020-09": -1.0,
+        "2019-04": 0.0,
+        "2018-10": 1.0,
+        "2017-10": 0.0
+      }
+    },
+    "n_comments": 11
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.018,
+    "bursts": [
+      {
+        "from": "2020-11-11T00:00:00",
+        "to": "2020-11-11T00:00:00",
+        "count": 3
+      }
+    ],
+    "low_variance_flag": 0,
+    "trust_score": 0.69
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        3.0,
+        9.0,
+        8.0,
+        3.0,
+        3.0,
+        4.0,
+        2.3333333333333335,
+        2.0,
+        3.0,
+        2.0,
+        4.0,
+        9.0,
+        7.0
+      ],
+      "ewma": [
+        3.0,
+        4.799999999999999,
+        5.759999999999999,
+        4.931999999999999,
+        4.352399999999999,
+        4.24668,
+        3.6726759999999996,
+        3.1708731999999995,
+        3.1196112399999993,
+        2.7837278679999993,
+        3.1486095075999994,
+        4.904026655319999,
+        5.532818658723999
+      ],
+      "sigma": 2.0215746554848493
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 5.532818658723999,
+      "quality_band": [
+        1.570532333973694,
+        9.495104983474302
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2022-02-03T00:00:00",
+      "materia": "CALCULO INTEGRAL",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Descanse en paz"
+    },
+    {
+      "fecha_iso": "2021-10-18T00:00:00",
+      "materia": "CALCULO",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "rip"
+    },
+    {
+      "fecha_iso": "2021-10-18T00:00:00",
+      "materia": "CALCULO",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Descanse en paz, profesor"
+    },
+    {
+      "fecha_iso": "2021-09-22T00:00:00",
+      "materia": "ALGEBRA LINEAL",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2021-06-03T00:00:00",
+      "materia": "ALGEBRA LINEAL",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 5.0,
+      "recomienda": 0,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2021-05-26T00:00:00",
+      "materia": "CALCULO DIFERENCIAL",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2021-02-01T00:00:00",
+      "materia": "CÁLCULO DIFERENCIAL",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "El peor profesor que he tenido. Se ve que sabe mucho de la materia, pero no le importa si aprendes o no, el quiere terminar los temas y va en chinga, y no resuelve dudas porque ya lo deberías saber y si no sabes, se burla de ti y te humillara delante de todos. Jamás cargaría con el otra vez."
+    },
+    {
+      "fecha_iso": "2020-11-11T00:00:00",
+      "materia": "CÁLCULO DIFERENCIAL",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": 23.0,
+      "recomienda": 0,
+      "comentario": "Hubo un gran problema con el porque no quiso escuchar nuestra opinión, incluso pusimos una queja en la escuela pero por ser de primer semestre no nos quisieron cambiar el profesor. No recomendaría estar en una clase para nada, quizá sea un buen ingeniero pero no es un buen maestro."
+    },
+    {
+      "fecha_iso": "2020-11-11T00:00:00",
+      "materia": "CALCULO INTEGRAL",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 23.0,
+      "recomienda": 0,
+      "comentario": "Se ah tenido mucho problema con el, aunque el se auto describe como buen maestro me da pena ponerle tan mala calificación porque es su trabajo pero en realidad no es un buen maestro."
+    },
+    {
+      "fecha_iso": "2020-11-11T00:00:00",
+      "materia": "CALCULO DIFERENCIAL",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 7.5,
+      "recomienda": 0,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2020-09-15T00:00:00",
+      "materia": "CALCULO DIFERENCIAL",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Avanza rápido, se aferra a seguir avanzando sin importar que algunos se queden atrás , tareas :Los problemas son incoherentes,  pasar la materia en si, no es difícil si estudias por tu cuenta. Si pides ayuda te responde de mala gana, las tareas jamas sabrás si estas bien o mal. Jamas se equivoca"
+    },
+    {
+      "fecha_iso": "2019-06-04T00:00:00",
+      "materia": "ECUACIONES DIFERENCIALES",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": 22.0,
+      "recomienda": 0,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2019-05-16T00:00:00",
+      "materia": "ECUACIONES DIFERENCIALES",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": 23.0,
+      "recomienda": 0,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2019-04-05T00:00:00",
+      "materia": "ECUACIONES DIFERENCIALES",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Es muy buen maestro, pero la materia se complica porqué éste Maestro te pone muchas aplicaciones, Si quieres aprender te lo recomiendo, pero si quieres pasar ni lo pienses. Algunas alumnas le coquetean para pasar y caminan de las dos formas, no tiene Alma, le dicen el Diablo y es Cabron."
+    },
+    {
+      "fecha_iso": "2018-10-03T00:00:00",
+      "materia": "ECUACIONES DIFERENCIALES",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 1,
+      "comentario": "Excelente Maestro ????????? Sabe mucho y exige mucho, como Ingeniero es buena persona y se lleva muy bien con nosotros, pero no te confíes que por eso te va pasar, te equivocas, ponte a estudiar y entrega tareas y asiste a sus clases de lo contrario estás frito. Si quieres aprender lleva con el."
+    },
+    {
+      "fecha_iso": "2017-10-25T00:00:00",
+      "materia": "CALCULO DIFERENCIAL",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 21.0,
+      "recomienda": 0,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2017-10-25T00:00:00",
+      "materia": "---",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": 24.0,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2017-10-18T00:00:00",
+      "materia": "---",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 24.0,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    }
+  ],
+  "comments_recent": [
+    "Descanse en paz",
+    "rip",
+    "Descanse en paz, profesor",
+    "El peor profesor que he tenido. Se ve que sabe mucho de la materia, pero no le importa si aprendes o no, el quiere terminar los temas y va en chinga, y no resuelve dudas porque ya lo deberías saber y si no sabes, se burla de ti y te humillara delante de todos. Jamás cargaría con el otra vez.",
+    "Hubo un gran problema con el porque no quiso escuchar nuestra opinión, incluso pusimos una queja en la escuela pero por ser de primer semestre no nos quisieron cambiar el profesor. No recomendaría estar en una clase para nada, quizá sea un buen ingeniero pero no es un buen maestro.",
+    "Se ah tenido mucho problema con el, aunque el se auto describe como buen maestro me da pena ponerle tan mala calificación porque es su trabajo pero en realidad no es un buen maestro."
+  ],
+  "n_reviews": 18
+}

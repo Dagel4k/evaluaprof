@@ -1,0 +1,158 @@
+{
+  "nombre": "francisco salazar",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "ciudad": "Ciudad: culiacan, sinaloa",
+  "departamento": "Departamento/Facultad: electrica",
+  "calidad_general": 9.4,
+  "porcentaje_recomienda": 100,
+  "nivel_dificultad": 2.9,
+  "etiquetas": [
+    "RESPETADO POR LOS ESTUDIANTES (2)",
+    "INSPIRACIONAL (1)",
+    "CLASES EXCELENTES (2)",
+    "ASISTENCIA OBLIGATORIA (2)",
+    "TOMARÍA SU CLASE OTRA VEZ (1)",
+    "DA BUENA RETROALIMENTACIÓN (1)"
+  ],
+  "numero_calificaciones": 9,
+  "calificaciones": [
+    {
+      "fecha": "12/Ene/2019",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 8.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Electromagnetismo",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "N/A",
+      "interes_clase": "",
+      "comentario": "Apodado \"Magneto\" es el dios del electromagnetismo. Domina todos los temas y aprenderas muchisimo, tienes que echarle muchas ganas en los examenes.",
+      "etiquetas_comentario": [
+        "Da buena retroalimentación",
+        "Asistencia obligatoria",
+        "Respetado por los estudiantes"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "11/Nov/2018",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 9.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Electromagnetismo",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "8.5",
+      "interes_clase": "",
+      "comentario": "Es el mejor maestro del Tec en sus materias, sabe muchísimo; sus clases son claras, te enseña con ejemplos reales y todos le tienen un respeto increíble. Le apodamos Magneto",
+      "etiquetas_comentario": [
+        "Asistencia obligatoria",
+        "Clases excelentes",
+        "Tomaría su clase otra vez"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "20/May/2017",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Elec. digital / Electro. / Elec. Analógi / Circ. Eléc.",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "9.5",
+      "interes_clase": "",
+      "comentario": "El mejor profesor del área de Tec. Probablemente sea el mejor profesor de la escuela, sabe muchísimo, sus clases son muy claras, aunque sus exámenes son algo largos, aprendes muchísimo, un profesor ejemplar.",
+      "etiquetas_comentario": [
+        "Respetado por los estudiantes",
+        "Inspiracional",
+        "Clases excelentes"
+      ],
+      "votos_utiles": "1",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "04/Ago/2016",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Circuitos Eléctricos",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "9",
+      "interes_clase": "",
+      "comentario": "Este profesor sabe un montón, es bien bueno para explicar, es bien serio pero no sangrón y da un montonal de chances también. Domina los temas perfectamente, recomendado macizo.",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "1"
+    },
+    {
+      "fecha": "11/Jun/2016",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Electromagnetismo",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "9",
+      "interes_clase": "",
+      "comentario": "",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "18/Ene/2016",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 9.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Electromagnetismo",
+      "asistencia": "",
+      "calificacion_recibida": "N/A",
+      "interes_clase": "N/A",
+      "comentario": "El mejor maestro del tec a mi ver,domina bien los temas y te explica muy bien, sus examenes no son complicados,aprendes mucho y pasas bien.e",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "14/Ene/2016",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 8.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Electrónica Analógica",
+      "asistencia": "",
+      "calificacion_recibida": "9.5",
+      "interes_clase": "9.5",
+      "comentario": "Es muy buen profesor y sabe mucho además de que se nota que le gusta.",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "31/May/2013",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Electromagnetismo.",
+      "asistencia": "",
+      "calificacion_recibida": "10",
+      "interes_clase": "10",
+      "comentario": "sin duda uno de los mejores profesores que se van a encontrar en la universidad, es muy bueno para explicar y sus examenes no son dificiles, es muy justo a la hora de calificar.",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "18/Jun/2012",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "electromagnetismo",
+      "asistencia": "",
+      "calificacion_recibida": "9",
+      "interes_clase": "9",
+      "comentario": "sin duda alguna este profesor te enseña muy bien , yo lleve con el electromagnetismo y aprendes mucho y es muy accesible ala hora de calificar sin duda alguna de los mejores",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "professor_id": "Jesús_nicomedes_leal_Leon",
+  "nombre": "Jesús nicomedes leal Leon",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 4.979560202054262,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 6.76970864304704,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.75,
+    "wilson_interval": [
+      0.30063605244263664,
+      0.9544139373553638
+    ],
+    "n_recommendations": 4
+  },
+  "subject_normalization": {
+    "z_mean": -0.6,
+    "z_mean_decayed": -0.76,
+    "per_subject": [
+      {
+        "materia": "INSTRUMENTACION",
+        "z_decayed": 0.577350269189626,
+        "n": 3
+      },
+      {
+        "materia": "INSTRUMENTACIÓN",
+        "z_decayed": -1.161895003862225,
+        "n": 4
+      },
+      {
+        "materia": "PRINCIPIOS ELECTRICOS",
+        "z_decayed": -1.228558305232401,
+        "n": 13
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [],
+    "sentiment": {
+      "overall": null,
+      "by_month": {}
+    },
+    "n_comments": 2
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        8.0,
+        8.0,
+        7.0,
+        2.0
+      ],
+      "ewma": [
+        8.0,
+        8.0,
+        7.699999999999999,
+        5.989999999999998
+      ],
+      "sigma": 1.9070985816155381
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 5.989999999999998,
+      "quality_band": [
+        2.252086780033544,
+        9.727913219966453
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2023-05-18T00:00:00",
+      "materia": "PRINCIPIOS ELECTRICOS",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 0,
+      "comentario": "Su clase es leer información y dejar practicas electronicas donde los materiales suelen ser costosos, le preguntas dudas y no suele saber, su examen lo hace como si enseñara bien los ejercicios que se hacen en clase, la asistencia y participación importan, no lo recomiendo"
+    },
+    {
+      "fecha_iso": "2021-12-19T00:00:00",
+      "materia": "INSTRUMENTACIÓN",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2021-08-07T00:00:00",
+      "materia": "INSTRUMENTACION",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Este profe se pasa de buena gente, el que repruebe con el mejor salgase de estudiar porque los examenes son super faciles. Eso si, trata de no dormirte en sus clases, el solo lee informacion."
+    },
+    {
+      "fecha_iso": "2013-11-18T00:00:00",
+      "materia": "INSTRUMENTACIÓN Y CONTROL",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": ""
+    }
+  ],
+  "comments_recent": [
+    "Su clase es leer información y dejar practicas electronicas donde los materiales suelen ser costosos, le preguntas dudas y no suele saber, su examen lo hace como si enseñara bien los ejercicios que se hacen en clase, la asistencia y participación importan, no lo recomiendo",
+    "Este profe se pasa de buena gente, el que repruebe con el mejor salgase de estudiar porque los examenes son super faciles. Eso si, trata de no dormirte en sus clases, el solo lee informacion."
+  ],
+  "n_reviews": 4
+}

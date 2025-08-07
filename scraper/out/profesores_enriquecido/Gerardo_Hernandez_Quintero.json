@@ -1,0 +1,504 @@
+{
+  "professor_id": "Gerardo_Hernandez_Quintero",
+  "nombre": "Gerardo Hernandez Quintero",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 8.148818099946732,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 8.144398025066463,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.8,
+    "wilson_interval": [
+      0.6269395261897257,
+      0.9049502189759876
+    ],
+    "n_recommendations": 30
+  },
+  "subject_normalization": {
+    "z_mean": 0.58,
+    "z_mean_decayed": 0.57,
+    "per_subject": [
+      {
+        "materia": "---",
+        "z_decayed": 1.4344005554680677,
+        "n": 521
+      },
+      {
+        "materia": "FUNDAMENTOS DE INVESTIGACION",
+        "z_decayed": 1.2125476939227626,
+        "n": 24
+      },
+      {
+        "materia": "TALLER DE ETICA",
+        "z_decayed": 0.8389352279619349,
+        "n": 11
+      },
+      {
+        "materia": "TALLER DE LIDERAZGO",
+        "z_decayed": 0.8236203337283544,
+        "n": 38
+      },
+      {
+        "materia": "TALLER DE ÉTICA",
+        "z_decayed": 0.8077614592374455,
+        "n": 22
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "profesor",
+          "profesor es",
+          "te",
+          "vas",
+          "es"
+        ],
+        "weight": 0.08602243825413193
+      },
+      {
+        "id": 1,
+        "words": [
+          "leer",
+          "tareas",
+          "relleno",
+          "clases",
+          "casi"
+        ],
+        "weight": 0.10282950592154723
+      },
+      {
+        "id": 2,
+        "words": [
+          "solo",
+          "bien",
+          "compa",
+          "bien compa",
+          "men"
+        ],
+        "weight": 0.08595604094580625
+      },
+      {
+        "id": 3,
+        "words": [
+          "da",
+          "si",
+          "100",
+          "seguro",
+          "100 seguro"
+        ],
+        "weight": 0.12012572870129576
+      },
+      {
+        "id": 4,
+        "words": [
+          "trabajos",
+          "bueno",
+          "clase",
+          "deja",
+          "maestro"
+        ],
+        "weight": 0.0810459683945956
+      }
+    ],
+    "sentiment": {
+      "overall": 0.11538461538461539,
+      "by_month": {
+        "2022-06": 0.0,
+        "2022-03": 0.0,
+        "2022-02": 0.0,
+        "2021-12": 0.0,
+        "2021-09": 0.0,
+        "2020-12": 1.0,
+        "2019-02": 0.0,
+        "2018-11": 0.5,
+        "2018-10": 1.0,
+        "2018-04": 0.0,
+        "2018-01": 0.0,
+        "2017-08": 0.0,
+        "2017-01": 0.0,
+        "2016-01": 0.0,
+        "2015-11": 0.0,
+        "2014-01": 0.0,
+        "2013-11": 0.0,
+        "2013-08": 0.0,
+        "2012-08": 0.0,
+        "2012-06": 0.0
+      }
+    },
+    "n_comments": 26
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [
+      {
+        "from": "2018-11-13T00:00:00",
+        "to": "2018-11-13T00:00:00",
+        "count": 3
+      }
+    ],
+    "low_variance_flag": 0,
+    "trust_score": 0.7
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        8.0,
+        9.75,
+        10.0,
+        9.333333333333334,
+        4.0,
+        10.0,
+        10.0,
+        6.0,
+        6.0,
+        8.0,
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        6.0,
+        10.0,
+        4.0,
+        10.0,
+        7.0,
+        8.0,
+        10.0,
+        6.0
+      ],
+      "ewma": [
+        8.0,
+        8.524999999999999,
+        8.967499999999998,
+        9.077249999999998,
+        7.554074999999998,
+        8.2878525,
+        8.801496749999998,
+        7.9610477249999985,
+        7.372733407499998,
+        7.560913385249998,
+        8.292639369674998,
+        8.804847558772497,
+        9.163393291140748,
+        9.414375303798522,
+        8.390062712658965,
+        8.873043898861276,
+        7.411130729202893,
+        8.187791510442025,
+        7.831454057309417,
+        7.882017840116591,
+        8.517412488081614,
+        7.76218874165713
+      ],
+      "sigma": 1.6738573103833634
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 7.76218874165713,
+      "quality_band": [
+        4.481428413305737,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2022-06-23T00:00:00",
+      "materia": "DESARROLLO SUSTENTABLE",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 0,
+      "comentario": "solo lees de un pdf, y si le sacas platica de donde eres o de los autos antiguos tellevas  toda la clase,sus examenes son de las preguntas de opcion multiple del libro."
+    },
+    {
+      "fecha_iso": "2022-03-26T00:00:00",
+      "materia": "FUNDAMENTOS DE INVESTIGACION",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Nostalgia pura del primer semestre de mi carrera, saludos al profe que es un autentico crack 100/10"
+    },
+    {
+      "fecha_iso": "2022-02-09T00:00:00",
+      "materia": "ETICA",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Su materia era de relleno con que entregues las tareas casi casi ya tienes 100 y sus clases son puro leer o comentar xd"
+    },
+    {
+      "fecha_iso": "2021-12-02T00:00:00",
+      "materia": "ÉTICA",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Te pone a leer demasiadoooooo pero fuera de eso todo bien los trabajos que dejan están fáciles y está chido que casi todo sea en equipo no dudo que en presenciales se agarraría un curon pero si realmente quieren aprender la materia no carguen con este profe"
+    },
+    {
+      "fecha_iso": "2021-09-20T00:00:00",
+      "materia": "DESARROLLO SUSTENTABLE",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Sus materias son de relleno, cargala si te la quieres pasar lite"
+    },
+    {
+      "fecha_iso": "2020-12-14T00:00:00",
+      "materia": "DESARROLLO SUSTENTABLE",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 0,
+      "comentario": "No dudo que sea una buena persona, pero como profesor no es tan bueno si lo que quieres es aprender. Su clase es básicamente echar el coto de que pasa en tu rancho. En las clases en linea como que no le sabia bien, además de que  su esposa tomo el control de su lista y nos quiso reprobar a todos."
+    },
+    {
+      "fecha_iso": "2019-04-11T00:00:00",
+      "materia": "DESARROLLO SUSTENTABLE",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2019-02-23T00:00:00",
+      "materia": "FUNDAMENTOS DE INVESTIGACION",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 0,
+      "comentario": "En sí no recomiendo que lo cargues en una materia importante, pues sus clases son muy relax y es muy facil pasar con él. Carga con el en materias de relleno. Su hora es para relajarse de todas las otras clases"
+    },
+    {
+      "fecha_iso": "2018-11-13T00:00:00",
+      "materia": "TALLER DE ETICA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Excelente Maestro"
+    },
+    {
+      "fecha_iso": "2018-11-13T00:00:00",
+      "materia": "TALLER DE ÉTICA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2018-11-13T00:00:00",
+      "materia": "TALLER DE ETICA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "es bien compa, con solo exponer sacas 10"
+    },
+    {
+      "fecha_iso": "2018-10-15T00:00:00",
+      "materia": "FUNDAMENTOS DE LA INVESTIGACIÓN",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "El maestro es muy bueno con los estudiantes, deja puros trabajos en clase y muy rara vez deja tarea."
+    },
+    {
+      "fecha_iso": "2018-04-17T00:00:00",
+      "materia": "TALLER DE LIDERAZGO",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "BIEN COMPA EL MEN"
+    },
+    {
+      "fecha_iso": "2018-01-16T00:00:00",
+      "materia": "CUALQUIER MATERIA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Lo mejor del Tec, deberían hacerle un homenaje a este men :v"
+    },
+    {
+      "fecha_iso": "2017-08-22T00:00:00",
+      "materia": "FUNDAMENTOS DE LA INV Y ANÁLISIS DE LA REALIDAD NAC",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Es un profe muy compa, siempre vas a sacar arriba de 90 en sus clases. Sus clases son casi puras participaciones de las tareas y no necesitas esforzarte mucho"
+    },
+    {
+      "fecha_iso": "2017-01-17T00:00:00",
+      "materia": "FUNDAMENTOS DE LA INVESTIGACIÓN CIENTIFICA",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 0,
+      "comentario": "Casi no sabe nada sobre el tema, falta demasiado, califica como el quiere, pero si no te interesa aprender carga con el casi siempre pone buenas calificaciónes."
+    },
+    {
+      "fecha_iso": "2016-01-17T00:00:00",
+      "materia": "DESARROLLO SUSTENTABLE",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 0,
+      "comentario": "Da materias irrelevantes, pero no me gusta que no sepa nada sobre la materia ni que muestre interés. 100 seguro, nada de aprendizaje."
+    },
+    {
+      "fecha_iso": "2016-01-15T00:00:00",
+      "materia": "DESARROLLO SUSTENTABLE",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2015-11-02T00:00:00",
+      "materia": "FUNDAMENTOS DE INVESTIGACION Y TALLER DE LIDERAZGO",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "es un exelente profesor se los recomiendo carguen con el 100 seguro carguen con el morros"
+    },
+    {
+      "fecha_iso": "2014-01-10T00:00:00",
+      "materia": "ANAL DE REA NAC Y DES SUSTENTABLE",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Es bien camarada dentro y fuera de la escuela, te das cuenta de que donde lo veas lo va saludando la gente, las materias que da no son muy relevantes así que se le perdona que no sea nada estricto. Asistí, sin mentirles, 20 clases en todo el semestre y me quedó 100, peleense por cargar con el."
+    },
+    {
+      "fecha_iso": "2013-11-14T00:00:00",
+      "materia": "ETICA Y DESARROLLO SUSTENTABLE",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "EN LO PERSONAL SOY DE LOS ALUMNOS QUE LE GUSTAN QUE LES EXIJAN. EL PROFESOR ES MUY BUENA ONDA Y SE LA LLEVA BIEN LIGHT, ES UN 100 REGALADO Y TE VAS A DIVERTIR MUCHO"
+    },
+    {
+      "fecha_iso": "2013-08-07T00:00:00",
+      "materia": "DESAROLLO SUSTENTABLE",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "poder cargar con el es el equivalente que en una sabrita te salgan 3 tazos, te relajas mucho en su hora, pero aprendes muy poco, con el es un 100 seguro, es diviertes mucho con el."
+    },
+    {
+      "fecha_iso": "2013-08-07T00:00:00",
+      "materia": "10",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Sin duda peleen por cargar con este profesor, es bien camarada y agarras cura, no vas a aprender mucho pero te desestresas y además que vas a sacar 100 con poco esfuerzo y faltando los días que quieras."
+    },
+    {
+      "fecha_iso": "2013-08-02T00:00:00",
+      "materia": "ANALISIS DE LA REALIDAD NACIONAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Agarraras cura, 100 seguro, un amor de persona, tiene un promedio de faltas de medio semestre, y si faltas mucho no hay problema."
+    },
+    {
+      "fecha_iso": "2012-08-16T00:00:00",
+      "materia": "ANALISIS DE LA RE. NA.",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "si eres un apretado come libros no agarres con este compa, si no jalate por el 100 seguro y pasartela bien con el vato este que aparte es bien camarada"
+    },
+    {
+      "fecha_iso": "2012-06-27T00:00:00",
+      "materia": "DESARROLLO SUSTENTABLE",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Pues si morros el profe es 100 seguro aparte que es compa, lo recomiendo, para las materias que da no importa si enseña o no."
+    },
+    {
+      "fecha_iso": "2012-06-14T00:00:00",
+      "materia": "---",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2012-06-14T00:00:00",
+      "materia": "FUNDAMENTOS DE INVESTIGACIÓN",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 6.0,
+      "recomienda": 1,
+      "comentario": "No lo recomiendo si eres de las personas que van al Tec a aprender, ya que a pesar de que asista todos los dias no enseña nada ni deja nada de trabajo, es 100 seguro pero de nada sirve si nos pasa de noche toda la materia."
+    },
+    {
+      "fecha_iso": "2012-06-11T00:00:00",
+      "materia": "ANÁLISIS DE LA REALIDAD NACIONAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 1,
+      "comentario": "Pues......... es un amor el hombre pero no aprendes NADA. te pone 100 al final. *fuente confiable."
+    },
+    {
+      "fecha_iso": "2012-02-03T00:00:00",
+      "materia": "ANALISIS DE LA REALIDAD NACIONAL",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": ""
+    }
+  ],
+  "comments_recent": [
+    "solo lees de un pdf, y si le sacas platica de donde eres o de los autos antiguos tellevas  toda la clase,sus examenes son de las preguntas de opcion multiple del libro.",
+    "Nostalgia pura del primer semestre de mi carrera, saludos al profe que es un autentico crack 100/10",
+    "Su materia era de relleno con que entregues las tareas casi casi ya tienes 100 y sus clases son puro leer o comentar xd",
+    "Te pone a leer demasiadoooooo pero fuera de eso todo bien los trabajos que dejan están fáciles y está chido que casi todo sea en equipo no dudo que en presenciales se agarraría un curon pero si realmente quieren aprender la materia no carguen con este profe",
+    "Sus materias son de relleno, cargala si te la quieres pasar lite",
+    "No dudo que sea una buena persona, pero como profesor no es tan bueno si lo que quieres es aprender. Su clase es básicamente echar el coto de que pasa en tu rancho. En las clases en linea como que no le sabia bien, además de que  su esposa tomo el control de su lista y nos quiso reprobar a todos.",
+    "En sí no recomiendo que lo cargues en una materia importante, pues sus clases son muy relax y es muy facil pasar con él. Carga con el en materias de relleno. Su hora es para relajarse de todas las otras clases",
+    "Excelente Maestro"
+  ],
+  "n_reviews": 30
+}

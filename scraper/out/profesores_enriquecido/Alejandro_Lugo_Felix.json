@@ -1,0 +1,159 @@
+{
+  "professor_id": "Alejandro_Lugo_Felix",
+  "nombre": "Alejandro Lugo Felix",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 6.937162542208057,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.451728066843904,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.8,
+    "wilson_interval": [
+      0.37552826411853885,
+      0.9637768390302125
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": null,
+    "z_mean_decayed": null,
+    "per_subject": []
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "ayuda",
+          "temas",
+          "clase",
+          "clases",
+          "es"
+        ],
+        "weight": 0.40223268140000956
+      },
+      {
+        "id": 1,
+        "words": [
+          "materia",
+          "maestro",
+          "vio",
+          "es",
+          "bien"
+        ],
+        "weight": 0.21023381044015094
+      }
+    ],
+    "sentiment": {
+      "overall": 0.2,
+      "by_month": {
+        "2025-05": 0.5,
+        "2019-12": 0.0,
+        "2018-10": 0.0,
+        "2017-08": 0.0
+      }
+    },
+    "n_comments": 5
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        10.0,
+        9.0,
+        10.0,
+        6.5
+      ],
+      "ewma": [
+        10.0,
+        9.7,
+        9.79,
+        8.802999999999999
+      ],
+      "sigma": 1.1383755604661698
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 8.802999999999999,
+      "quality_band": [
+        6.571783901486306,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2025-05-30T00:00:00",
+      "materia": "GESTIÓN DE LA PRODUCCIÓN I",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Se ve que sabe de los temas que presenta, pero sus clases no estan planeadas, es impuntual y en ocasiones no asiste. No vio todos los temas de la planeación, los cuales eran relevantes para la formación. Fuera de clase es una persona que se ve que ayuda a los alumnos con lo que puede."
+    },
+    {
+      "fecha_iso": "2025-05-30T00:00:00",
+      "materia": "GESTIÓN DE LA PRODUCCIÓN I",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 0,
+      "comentario": "Las clases fueron monótonas, sin un formulario claro y carentes de coherencia. Muchas veces llegó tarde y sin preparar la clase, solo a poner videos de Youtube"
+    },
+    {
+      "fecha_iso": "2019-12-19T00:00:00",
+      "materia": "PROYECTO INTEGRADOR SEIS SIGMA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "El mejor maestro para esta materia, tiene mucho dominio sobre green belt y yellow belt, sabe lo que dice, sus clases son muy divertidas, dinámicas y te ayuda en cualquier duda que tengas, su propósito es que aprendas y lo cumple, esta en uno aprender con el porque de que enseña, enseña."
+    },
+    {
+      "fecha_iso": "2018-10-11T00:00:00",
+      "materia": "PROYECTO INTEGRADOR SIX SIGMA",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": "Es muy buen maestro, domina muchos temas y si sabe muy bien de la materia. Examenes algo enrredosos pero todo se vio en las clases. El unico problema es que no planea bien sus clases y algunos trabajos de clase no se hacen como se debería y al final no los toma en cuenta. Ayuda mucho y es accesible"
+    },
+    {
+      "fecha_iso": "2017-08-05T00:00:00",
+      "materia": "PROYECTO INTEGRADOR SIX SIGMA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Con él esta muy bien"
+    }
+  ],
+  "comments_recent": [
+    "Se ve que sabe de los temas que presenta, pero sus clases no estan planeadas, es impuntual y en ocasiones no asiste. No vio todos los temas de la planeación, los cuales eran relevantes para la formación. Fuera de clase es una persona que se ve que ayuda a los alumnos con lo que puede.",
+    "Las clases fueron monótonas, sin un formulario claro y carentes de coherencia. Muchas veces llegó tarde y sin preparar la clase, solo a poner videos de Youtube",
+    "El mejor maestro para esta materia, tiene mucho dominio sobre green belt y yellow belt, sabe lo que dice, sus clases son muy divertidas, dinámicas y te ayuda en cualquier duda que tengas, su propósito es que aprendas y lo cumple, esta en uno aprender con el porque de que enseña, enseña.",
+    "Es muy buen maestro, domina muchos temas y si sabe muy bien de la materia. Examenes algo enrredosos pero todo se vio en las clases. El unico problema es que no planea bien sus clases y algunos trabajos de clase no se hacen como se debería y al final no los toma en cuenta. Ayuda mucho y es accesible",
+    "Con él esta muy bien"
+  ],
+  "n_reviews": 5
+}

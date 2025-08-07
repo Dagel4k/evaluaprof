@@ -1,0 +1,117 @@
+{
+  "professor_id": "Dazia_Alejandra_Urquidez_Rojo",
+  "nombre": "Dazia Alejandra Urquidez Rojo",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 4.461593211644144,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 6.44430161558912,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.333,
+    "wilson_interval": [
+      0.061490315276160515,
+      0.7923450448735121
+    ],
+    "n_recommendations": 3
+  },
+  "subject_normalization": {
+    "z_mean": -1.08,
+    "z_mean_decayed": -1.14,
+    "per_subject": [
+      {
+        "materia": "TALLER DE ÉTICA",
+        "z_decayed": -0.9163729921150738,
+        "n": 22
+      },
+      {
+        "materia": "ETICA",
+        "z_decayed": -1.5416619790975221,
+        "n": 31
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [],
+    "sentiment": {
+      "overall": null,
+      "by_month": {}
+    },
+    "n_comments": 2
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        8.0,
+        3.0
+      ],
+      "ewma": [
+        8.0,
+        6.5
+      ],
+      "sigma": 2.4748737341529163
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 6.5,
+      "quality_band": [
+        1.649247481060284,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2025-05-28T00:00:00",
+      "materia": "ETICA",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 0,
+      "comentario": "gracias por nadota"
+    },
+    {
+      "fecha_iso": "2025-05-05T00:00:00",
+      "materia": "TALLER DE ÉTICA",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 0,
+      "comentario": "De las peores maestras que he tenido, no carguen con ella es un dolor de cabeza"
+    },
+    {
+      "fecha_iso": "2024-11-06T00:00:00",
+      "materia": "TALLER DE ÉTICA",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 1,
+      "comentario": ""
+    }
+  ],
+  "comments_recent": [
+    "gracias por nadota",
+    "De las peores maestras que he tenido, no carguen con ella es un dolor de cabeza"
+  ],
+  "n_reviews": 3
+}

@@ -1,0 +1,561 @@
+{
+  "professor_id": "Hector_Perez_Soto",
+  "nombre": "Hector Perez Soto",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 9.151409073280544,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.994907295514967,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.824,
+    "wilson_interval": [
+      0.6648593225994784,
+      0.9165114439643032
+    ],
+    "n_recommendations": 34
+  },
+  "subject_normalization": {
+    "z_mean": 0.1,
+    "z_mean_decayed": 0.38,
+    "per_subject": [
+      {
+        "materia": "CALCULO",
+        "z_decayed": 0.9732685802932839,
+        "n": 50
+      },
+      {
+        "materia": "MATEMATICAS",
+        "z_decayed": 0.8169471328572092,
+        "n": 17
+      },
+      {
+        "materia": "CALCULO DIFERENCIAL",
+        "z_decayed": 0.7994552262027433,
+        "n": 110
+      },
+      {
+        "materia": "CALCULO INTEGRAL",
+        "z_decayed": 0.5152493264653966,
+        "n": 84
+      },
+      {
+        "materia": "CÁLCULO",
+        "z_decayed": 0.5097451910907641,
+        "n": 10
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "da muchas",
+          "te da",
+          "da",
+          "si",
+          "te"
+        ],
+        "weight": 0.09585743623581497
+      },
+      {
+        "id": 1,
+        "words": [
+          "aprendan",
+          "clases",
+          "buen",
+          "maestro",
+          "buen maestro"
+        ],
+        "weight": 0.12230714338795191
+      },
+      {
+        "id": 2,
+        "words": [
+          "tareas",
+          "es buen",
+          "buen",
+          "profesor",
+          "buen profesor"
+        ],
+        "weight": 0.1293324151148525
+      },
+      {
+        "id": 3,
+        "words": [
+          "comentario",
+          "esperando",
+          "esperando revision",
+          "comentario esperando",
+          "revision"
+        ],
+        "weight": 0.04901707912055543
+      },
+      {
+        "id": 4,
+        "words": [
+          "clase",
+          "facil pasar",
+          "bien",
+          "facil",
+          "es"
+        ],
+        "weight": 0.1826156287239122
+      }
+    ],
+    "sentiment": {
+      "overall": 0.030303030303030304,
+      "by_month": {
+        "2024-06": 0.0,
+        "2021-01": 0.0,
+        "2020-11": 1.0,
+        "2020-05": 0.0,
+        "2018-04": 0.0,
+        "2017-11": 0.0,
+        "2017-08": 0.0,
+        "2017-01": 0.0,
+        "2016-12": 0.0,
+        "2016-08": 0.0,
+        "2016-01": -1.0,
+        "2015-10": 0.0,
+        "2015-08": 0.0,
+        "2015-07": 0.0,
+        "2015-03": 0.0,
+        "2015-01": 0.0,
+        "2014-12": 0.0,
+        "2014-06": 0.0,
+        "2014-01": 0.0,
+        "2013-08": 0.0,
+        "2013-07": 0.0,
+        "2013-03": 0.0,
+        "2012-11": 0.0,
+        "2012-10": 0.0,
+        "2012-07": 1.0,
+        "2012-04": 0.0,
+        "2012-01": 0.0,
+        "2011-05": 0.0,
+        "2011-02": 0.0
+      }
+    },
+    "n_comments": 33
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.002,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        10.0,
+        2.0,
+        10.0,
+        10.0,
+        9.0,
+        8.0,
+        10.0,
+        9.0,
+        2.0,
+        9.0,
+        10.0,
+        9.0,
+        8.0,
+        9.0,
+        7.0,
+        9.5,
+        4.0,
+        6.0,
+        2.0,
+        10.0,
+        10.0,
+        10.0,
+        3.0,
+        9.5,
+        10.0,
+        8.0,
+        9.0,
+        10.0,
+        10.0,
+        10.0
+      ],
+      "ewma": [
+        10.0,
+        7.6,
+        8.32,
+        8.824,
+        8.8768,
+        8.61376,
+        9.029632,
+        9.0207424,
+        6.914519679999999,
+        7.540163775999998,
+        8.278114643199999,
+        8.494680250239998,
+        8.346276175167999,
+        8.542393322617599,
+        8.07967532583232,
+        8.505772728082624,
+        7.154040909657836,
+        6.807828636760485,
+        5.365480045732339,
+        6.7558360320126365,
+        7.7290852224088455,
+        8.410359655686191,
+        6.787251758980334,
+        7.601076231286234,
+        8.320753361900362,
+        8.224527353330252,
+        8.457169147331175,
+        8.920018403131822,
+        9.244012882192276,
+        9.470809017534593
+      ],
+      "sigma": 2.1343134192684072
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 9.470809017534593,
+      "quality_band": [
+        5.287554715768516,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2024-06-04T00:00:00",
+      "materia": "ECUACIONES DIFERENCIALES",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "2024, muy buen profesor. Solamente les pido para los siguientes alumnos intenten participar en clase y no se olviden en estudiar y repasar de los apuntes, fotos o videos de canales auxiliares. Con eso les irá bien y el profe estara contento con sus progresos"
+    },
+    {
+      "fecha_iso": "2021-01-21T00:00:00",
+      "materia": "CÁLCULO DIFERENCIAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Es muy buen maestro y se le entiende todo. Y es bien compa nomas no te burles de su risa porque se encabrona"
+    },
+    {
+      "fecha_iso": "2020-11-12T00:00:00",
+      "materia": "CALCULO DIFERENCIAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Es un excelente profesor, tomaria su clase sin pensarlo, es super buena onda, y hace la materia facil de ver."
+    },
+    {
+      "fecha_iso": "2020-05-23T00:00:00",
+      "materia": "CALCULO VECTORIAL",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Dentro de lo que cabe es un buen maestro, sus clases consisten en el explicando un procedimiento en el pizarron y el examen sera ese mismo problema  con otros valores, la tarea vale 30% y el examen 70% aunque no se fija si la tarea esta bien hecha. Es simpatico y amigable. no sean malos con el."
+    },
+    {
+      "fecha_iso": "2018-04-08T00:00:00",
+      "materia": "CALCUCLO VECTORIAL",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 1,
+      "comentario": "Ustedes no se burlen de su risa ni quieran hacerle bromas y ya pasan. Es bastante sentido y tambien le molesta que se la pasen platicando en su clase. Examenes parecidos a la tarea pero eso si deja bastante. Es facil pasar"
+    },
+    {
+      "fecha_iso": "2017-11-08T00:00:00",
+      "materia": "CALCULO DIFERENCIAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Muy buen profesor de calculo"
+    },
+    {
+      "fecha_iso": "2017-08-08T00:00:00",
+      "materia": "CÁLCULO VECTORIAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Es muy buena persona, algo inocente. Se entiende fácil su clase y te da muchas oportunidades para pasar. Fácil pasas."
+    },
+    {
+      "fecha_iso": "2017-08-02T00:00:00",
+      "materia": "ECUACIONES DIFERENCIALES",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "El profesor es muy buena persona. Te ayuda tanto en clase como fuera de. Para ED te da copia de los apuntes y te va explicando los temas, eso si, deja mucha tarea y aveces algo complicada, te recomiendo que esa la hagas con tiempo porque te quedaran dudas."
+    },
+    {
+      "fecha_iso": "2017-01-18T00:00:00",
+      "materia": "CÁLCULO DIFERENCIAL",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 0,
+      "comentario": "Es buena onda pero... Te pide que tú busques las cosas en las que tienes duda. No explica. Sólo llega, escribe hasta llenar el pintarrón y se sienta. La ventaja es que haces muchas recuperaciones."
+    },
+    {
+      "fecha_iso": "2016-12-05T00:00:00",
+      "materia": "ALGEBRA LINEAL, CALCULO VECTORIAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Buen profesor, la mayor dificultad son las tareas x:"
+    },
+    {
+      "fecha_iso": "2016-08-10T00:00:00",
+      "materia": "CALCULO VECTORIAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": "el mejor profesor que tiene el tec en cuestión de conocimientos de álgebra, explica super bien, sabe mucho, respétalo, te deja sacar libreta en sus exámenes y te regala muchos puntos, puedes pasar la unidad incluso con un 20 en el examen, las tareas te regalan automáticamente 20 puntos,"
+    },
+    {
+      "fecha_iso": "2016-01-14T00:00:00",
+      "materia": "CÁLCULO DIFERENCIAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": "Es buen profe, sus exámenes están dos tres y te da muchas oportunidades de repetir los exámenes si repruebas una unidad, si pones atención aprendes mucho y no te aburres. Pero eso si.. No le gusta para nada que el grupo platique si no si les hace el examen bien difícil. Recomendado"
+    },
+    {
+      "fecha_iso": "2015-10-21T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2015-08-27T00:00:00",
+      "materia": "CALCULO DIFERENCIAL",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 0,
+      "comentario": "Buen maestro pero algo confusas sus clases"
+    },
+    {
+      "fecha_iso": "2015-07-29T00:00:00",
+      "materia": "ECUACIONES DIFERENCIALES",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": "Si quieres pasar aunque sea sin saber es tu opción, tiene un sistema de dar copias para no tener que dar apuntes pero la verdad las clases eran muy tediosas, solo andar anotando lo de los apuntes al pizarron, deja muchas tareas q te sacan de onda pero al final es raro el que no pasa pues hace recuperaciones de a montón, y luego regala muchos puntos"
+    },
+    {
+      "fecha_iso": "2015-03-24T00:00:00",
+      "materia": "CALCULO INTEGRAL",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Es muy buen profesor, ayuda mucho y te da varias oportunidades para que no repruebes. Eso si hay que pasar siempre a la primera por que las recuperaciones las hace muy dificiles. Algo rara su musica y su risa pero es una buena persona que se preocupa por que sus alumnos aprendan."
+    },
+    {
+      "fecha_iso": "2015-03-08T00:00:00",
+      "materia": "CALCULO VECTORIAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 1,
+      "comentario": "buen maestro."
+    },
+    {
+      "fecha_iso": "2015-01-14T00:00:00",
+      "materia": "CALCULO VECTORIAL",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "El profesor es buena persona, es fácil pasar pero deja muchas tareas y para aprender bien, debes ir al corriente con ellas y poner mucha atención en clase, además de que al dar a tantos grupos, se confunde y en ocasiones no explica a un grupo lo que al otro sí."
+    },
+    {
+      "fecha_iso": "2014-12-28T00:00:00",
+      "materia": "CALCULO VECTORIAL",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Buen profesor, da muchas oportunidades, Medio incomodo con su musica en el celular y su risa extraña. Pero si se la llevan bien y le hechan ganas pasan sabiendo mucho."
+    },
+    {
+      "fecha_iso": "2014-06-19T00:00:00",
+      "materia": "ECUACIONES DIFERENCIALES",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 1,
+      "comentario": "este señor debe tener algo mal en la cabeza pero la verdad es buen profesor. facil de pasar.."
+    },
+    {
+      "fecha_iso": "2014-01-15T00:00:00",
+      "materia": "CALCULO VECTORIAL",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Pues es un maestro ni tan bueno ni tan malo para enseñar pero si te ayuda mucho para pasar, y también aprendes, recomendado."
+    },
+    {
+      "fecha_iso": "2013-11-14T00:00:00",
+      "materia": "CÁLCULO",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2013-08-19T00:00:00",
+      "materia": "CALCULO",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Recomendado clases interactivas y lo digo por la musica jaja. siempre se relaciona con los alumnos platica cotorrea etc no t abures en clases facil pasar solo si no bas pero trucha en examenes pasalos y los trabajos que los cuenta mcho es atdmdre el inge"
+    },
+    {
+      "fecha_iso": "2013-07-19T00:00:00",
+      "materia": "ECUACIONES DIFERENCIALES",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 2.5,
+      "recomienda": 0,
+      "comentario": "Esta tonto este maestro y es muy faltista, parece ser que es alcohólico, es muy ligth, y al final pasa a todo mundo, es muy llorón porque dice que no le pagan bien y además le esta pagando su plaza todavía a un tal Simon, pero eso no nos importa a nosotros, queremos que nos enseñe bien y por favor que alguien le diga que no ponga música con el celular y se rían con mas propiedad. Dicen que es hijo de Perez Vila y por eso es así, no se ni me interesa."
+    },
+    {
+      "fecha_iso": "2013-03-20T00:00:00",
+      "materia": "ECUACIONES DIFERENCIALES",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Es muy buen profesor el Ingeniero, es camarada y sus clases están a todo dar, pero si no estudias para sus exámenes te va abrochar, le gusta hacerlos difíciles, aunque te da muchas oportunidades para pasar.."
+    },
+    {
+      "fecha_iso": "2012-11-16T00:00:00",
+      "materia": "CALCULO",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "ES MUY BUEN PROFESOR"
+    },
+    {
+      "fecha_iso": "2012-11-08T00:00:00",
+      "materia": "CALCULO",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Muy buen maestro, me prende con sus canciones :$ estoy enamoradO de el"
+    },
+    {
+      "fecha_iso": "2012-10-24T00:00:00",
+      "materia": "MATE",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "gutem y buenas rolas"
+    },
+    {
+      "fecha_iso": "2012-07-11T00:00:00",
+      "materia": "MATEMATICAS 5",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Es un excelente maestro, te da muchas oportunidades para que pases los examenes y te explica cuantas veces sea necesario, lo recomiendo mucho."
+    },
+    {
+      "fecha_iso": "2012-04-26T00:00:00",
+      "materia": "ECUACIONES DIFERENCIALES",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "muy bien maestro pienso que toda aquella personaque no acredita con el es porque noquiere estudiar y no e importa la ingenieria."
+    },
+    {
+      "fecha_iso": "2012-01-10T00:00:00",
+      "materia": "CALCULO",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Muy buen profe :D"
+    },
+    {
+      "fecha_iso": "2012-01-09T00:00:00",
+      "materia": "MATEMATICAS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "muy buen maestro, los demas maestros  aprendan de el."
+    },
+    {
+      "fecha_iso": "2011-05-06T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2011-02-17T00:00:00",
+      "materia": "MATEMATICAS III",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Muy buen profesor la vd, lo recomiendo ampliamente, te explica muy bien, te da muchas facilidades para pasar, se preocupa por que el alumno aprenda y la vd que si aprendes mucho con el"
+    }
+  ],
+  "comments_recent": [
+    "2024, muy buen profesor. Solamente les pido para los siguientes alumnos intenten participar en clase y no se olviden en estudiar y repasar de los apuntes, fotos o videos de canales auxiliares. Con eso les irá bien y el profe estara contento con sus progresos",
+    "Es muy buen maestro y se le entiende todo. Y es bien compa nomas no te burles de su risa porque se encabrona",
+    "Es un excelente profesor, tomaria su clase sin pensarlo, es super buena onda, y hace la materia facil de ver.",
+    "Dentro de lo que cabe es un buen maestro, sus clases consisten en el explicando un procedimiento en el pizarron y el examen sera ese mismo problema  con otros valores, la tarea vale 30% y el examen 70% aunque no se fija si la tarea esta bien hecha. Es simpatico y amigable. no sean malos con el.",
+    "Ustedes no se burlen de su risa ni quieran hacerle bromas y ya pasan. Es bastante sentido y tambien le molesta que se la pasen platicando en su clase. Examenes parecidos a la tarea pero eso si deja bastante. Es facil pasar",
+    "Muy buen profesor de calculo",
+    "Es muy buena persona, algo inocente. Se entiende fácil su clase y te da muchas oportunidades para pasar. Fácil pasas.",
+    "El profesor es muy buena persona. Te ayuda tanto en clase como fuera de. Para ED te da copia de los apuntes y te va explicando los temas, eso si, deja mucha tarea y aveces algo complicada, te recomiendo que esa la hagas con tiempo porque te quedaran dudas.",
+    "Es buena onda pero... Te pide que tú busques las cosas en las que tienes duda. No explica. Sólo llega, escribe hasta llenar el pintarrón y se sienta. La ventaja es que haces muchas recuperaciones.",
+    "Buen profesor, la mayor dificultad son las tareas x:"
+  ],
+  "n_reviews": 34
+}

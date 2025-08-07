@@ -1,0 +1,114 @@
+{
+  "professor_id": "Irma_Yolanda_Gonzalez_Lizarraga",
+  "nombre": "Irma Yolanda Gonzalez Lizarraga",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 8.259425976340328,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.290455461742966,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 1.0,
+    "wilson_interval": [
+      0.4384939195509822,
+      1
+    ],
+    "n_recommendations": 3
+  },
+  "subject_normalization": {
+    "z_mean": 0.32,
+    "z_mean_decayed": 0.32,
+    "per_subject": [
+      {
+        "materia": "QUÍMICA DE LOS ALIMENTOS",
+        "z_decayed": 0.32025630761017393,
+        "n": 3
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [],
+    "sentiment": {
+      "overall": null,
+      "by_month": {}
+    },
+    "n_comments": 2
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        9.0,
+        9.0,
+        7.0
+      ],
+      "ewma": [
+        9.0,
+        9.0,
+        8.4
+      ],
+      "sigma": 0.8082903768654762
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 8.4,
+      "quality_band": [
+        6.815750861343667,
+        9.984249138656335
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2014-06-07T00:00:00",
+      "materia": "",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Perfeccionista"
+    },
+    {
+      "fecha_iso": "2014-01-22T00:00:00",
+      "materia": "QUÍMICA DE LOS ALIMENTOS",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2013-11-14T00:00:00",
+      "materia": "QUIMICA DE LOS ALIMENTOS",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 1,
+      "comentario": "Recomiendo poner atencion en sus clases y aclarar todas las dudas en el momento :)"
+    }
+  ],
+  "comments_recent": [
+    "Perfeccionista",
+    "Recomiendo poner atencion en sus clases y aclarar todas las dudas en el momento :)"
+  ],
+  "n_reviews": 3
+}

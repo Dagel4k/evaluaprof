@@ -1,0 +1,317 @@
+{
+  "professor_id": "IRVIN_HERBERTO_GIL_GAXIOLA",
+  "nombre": "IRVIN HERBERTO GIL GAXIOLA",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 7.814205250079232,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.51199656533298,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.769,
+    "wilson_interval": [
+      0.49743126004873084,
+      0.918206209075343
+    ],
+    "n_recommendations": 13
+  },
+  "subject_normalization": {
+    "z_mean": -0.16,
+    "z_mean_decayed": -0.19,
+    "per_subject": [
+      {
+        "materia": "TERMODINÁMICA",
+        "z_decayed": 1.2082221089070615,
+        "n": 14
+      },
+      {
+        "materia": "TERMODINAMICA",
+        "z_decayed": 1.046438857763486,
+        "n": 18
+      },
+      {
+        "materia": "BALANCE DE MATERIA",
+        "z_decayed": 0.40172999390802966,
+        "n": 4
+      },
+      {
+        "materia": "FENÓMENOS DE TRANSPORTE",
+        "z_decayed": 0.002221126154671212,
+        "n": 3
+      },
+      {
+        "materia": "BALANCE DE MATERIA Y ENERGÍA",
+        "z_decayed": -1.8879262184607348,
+        "n": 10
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "maestro da",
+          "te",
+          "maestro",
+          "buen maestro",
+          "buen"
+        ],
+        "weight": 0.15026289573709842
+      },
+      {
+        "id": 1,
+        "words": [
+          "clase",
+          "es",
+          "bien",
+          "explica",
+          "mal"
+        ],
+        "weight": 0.07483059068119396
+      },
+      {
+        "id": 2,
+        "words": [
+          "da muchas",
+          "muchas oportunidades",
+          "oportunidades",
+          "muchas",
+          "da"
+        ],
+        "weight": 0.1256537742602057
+      },
+      {
+        "id": 3,
+        "words": [
+          "te",
+          "es",
+          "problemas",
+          "teoria",
+          "practico"
+        ],
+        "weight": 0.10148295778373591
+      },
+      {
+        "id": 4,
+        "words": [
+          "cosas",
+          "dificil",
+          "clase",
+          "aprender",
+          "si"
+        ],
+        "weight": 0.14606911678349438
+      }
+    ],
+    "sentiment": {
+      "overall": 0.08333333333333333,
+      "by_month": {
+        "2025-06": 0.0,
+        "2023-03": -1.0,
+        "2021-06": -0.5,
+        "2021-03": 0.0,
+        "2020-09": 0.0,
+        "2020-08": 0.0,
+        "2020-06": 0.0,
+        "2019-12": 1.0,
+        "2019-02": 0.0,
+        "2016-02": 1.0,
+        "2015-01": 1.0
+      }
+    },
+    "n_comments": 12
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        10.0,
+        10.0,
+        10.0,
+        9.0,
+        3.0,
+        2.0,
+        10.0,
+        9.0,
+        9.5,
+        9.0,
+        2.0,
+        10.0
+      ],
+      "ewma": [
+        10.0,
+        10.0,
+        10.0,
+        9.7,
+        7.6899999999999995,
+        5.982999999999999,
+        7.188099999999999,
+        7.731669999999998,
+        8.262168999999998,
+        8.483518299999998,
+        6.538462809999998,
+        7.576923966999998
+      ],
+      "sigma": 2.5843923721487845
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 7.576923966999998,
+      "quality_band": [
+        2.5115149175883804,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2025-06-12T00:00:00",
+      "materia": "FENÓMENOS DE TRANSPORTE",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Súper buen maestro, explica de manera muy clara, definitivamente vas a aprender, aunque no califique asistencia es súper importante porq los exámenes parecidos a los problemas de clase además de q si ve q no faltas y demuestras interés t ayuda con puntos extra, muy buen maestro????????"
+    },
+    {
+      "fecha_iso": "2023-06-06T00:00:00",
+      "materia": "FENÓMENOS DE TRANSPORTE",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2023-03-25T00:00:00",
+      "materia": "FENOMENOS DE TRANSPORTE",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": "Una materia muy dificil, pero te ayuda mucho y da muchas oportunidades siempre y cuando asistas a clases."
+    },
+    {
+      "fecha_iso": "2021-06-22T00:00:00",
+      "materia": "BALANCE DE MATERIANCE",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 7.5,
+      "recomienda": 1,
+      "comentario": "Materia bastante difícil si quieres aprender cosas que si se aplican y no sólo teoría carga con este maestro, yo tomaría una clase de el nuevamente."
+    },
+    {
+      "fecha_iso": "2021-06-01T00:00:00",
+      "materia": "BALANCE DE MATERIA Y ENERGIA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 1,
+      "comentario": "buen maestro, da muchas oportunidades"
+    },
+    {
+      "fecha_iso": "2021-03-30T00:00:00",
+      "materia": "BALANCE DE MATERIA",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 7.5,
+      "recomienda": 1,
+      "comentario": "Buen maestro, da consejos útiles y sus clases están bien y la materia es complicada pero da muchas oportunidades."
+    },
+    {
+      "fecha_iso": "2020-09-28T00:00:00",
+      "materia": "BALANCE DE MATERIA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": "Buen maestro, da asesorias y sus problemas te hacen pensar mucho"
+    },
+    {
+      "fecha_iso": "2020-08-26T00:00:00",
+      "materia": "BALANCE DE MATERIA Y ENERGÍA",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Muy mal profe, no explica bien, hace lo que quiere"
+    },
+    {
+      "fecha_iso": "2020-06-16T00:00:00",
+      "materia": "BALANCE DE MATERIA Y ENERGÍA",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 0,
+      "comentario": "Muy mal profesor, no enseña nada, es muy bipolar, no volvería a tomar su clase"
+    },
+    {
+      "fecha_iso": "2019-12-05T00:00:00",
+      "materia": "OPERACIONES UNITARIAS 2",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 7.5,
+      "recomienda": 1,
+      "comentario": "Muchas oportunidades, las clases son problemas utiles y te da asesorias si le pides, excelente maestro"
+    },
+    {
+      "fecha_iso": "2019-02-22T00:00:00",
+      "materia": "BALANCE",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 1,
+      "comentario": "Muy buen maestro te dice las cosas como son"
+    },
+    {
+      "fecha_iso": "2016-02-28T00:00:00",
+      "materia": "TERMODINAMICA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "bueno, \n\npractico lo recomiendo."
+    },
+    {
+      "fecha_iso": "2015-01-15T00:00:00",
+      "materia": "TERMODINÁMICA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "sus clases no son nada tediosas es casi todo práctico con problemas, la teoría te tocará a ti. Hay que hecharle ganas con el pero también da muchas oportuniades. Muy recomendado!!"
+    }
+  ],
+  "comments_recent": [
+    "Súper buen maestro, explica de manera muy clara, definitivamente vas a aprender, aunque no califique asistencia es súper importante porq los exámenes parecidos a los problemas de clase además de q si ve q no faltas y demuestras interés t ayuda con puntos extra, muy buen maestro????????",
+    "Una materia muy dificil, pero te ayuda mucho y da muchas oportunidades siempre y cuando asistas a clases.",
+    "Materia bastante difícil si quieres aprender cosas que si se aplican y no sólo teoría carga con este maestro, yo tomaría una clase de el nuevamente.",
+    "buen maestro, da muchas oportunidades",
+    "Buen maestro, da consejos útiles y sus clases están bien y la materia es complicada pero da muchas oportunidades.",
+    "Buen maestro, da asesorias y sus problemas te hacen pensar mucho",
+    "Muy mal profe, no explica bien, hace lo que quiere",
+    "Muy mal profesor, no enseña nada, es muy bipolar, no volvería a tomar su clase",
+    "Muchas oportunidades, las clases son problemas utiles y te da asesorias si le pides, excelente maestro"
+  ],
+  "n_reviews": 13
+}

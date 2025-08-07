@@ -1,0 +1,86 @@
+{
+  "professor_id": "Maximiliano_López_Medina",
+  "nombre": "Maximiliano López Medina",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 7.716068084314724,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.06466008355488,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.5,
+    "wilson_interval": [
+      0.09452865480086611,
+      0.905471345199134
+    ],
+    "n_recommendations": 2
+  },
+  "subject_normalization": {
+    "z_mean": 0.61,
+    "z_mean_decayed": 0.61,
+    "per_subject": [
+      {
+        "materia": "CONTABILIDAD",
+        "z_decayed": 0.6141792448878419,
+        "n": 11
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [],
+    "sentiment": {
+      "overall": null,
+      "by_month": {}
+    },
+    "n_comments": 2
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": null,
+    "difficulty_trend": null,
+    "forecast": null,
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2022-06-17T00:00:00",
+      "materia": "CONTABILIDAD",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Este profe da cuando quiere y cuando no no da especialemente si hay partido del real madrid jajaja"
+    },
+    {
+      "fecha_iso": "2021-12-17T00:00:00",
+      "materia": "CONTABILIDAD FINANCIERA (LINEA)",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 0,
+      "comentario": "Este profe desaparece sin decir nada y aparece a la siguiente semana, falta demasiado, califica con unas investigaciones, toma muy en cuenta la asistencia y su clase es muy aburrida. Carga con el si quieres saber lo mínimo de la materia y tener clases libres"
+    }
+  ],
+  "comments_recent": [
+    "Este profe da cuando quiere y cuando no no da especialemente si hay partido del real madrid jajaja",
+    "Este profe desaparece sin decir nada y aparece a la siguiente semana, falta demasiado, califica con unas investigaciones, toma muy en cuenta la asistencia y su clase es muy aburrida. Carga con el si quieres saber lo mínimo de la materia y tener clases libres"
+  ],
+  "n_reviews": 2
+}

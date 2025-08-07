@@ -1,0 +1,388 @@
+{
+  "professor_id": "Jose_Octavio_Rodriguez_Obeso",
+  "nombre": "Jose Octavio Rodriguez Obeso",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 5.10090598280828,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 5.759197366755285,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.25,
+    "wilson_interval": [
+      0.11186005278940306,
+      0.4687050099580635
+    ],
+    "n_recommendations": 20
+  },
+  "subject_normalization": {
+    "z_mean": -0.16,
+    "z_mean_decayed": -0.16,
+    "per_subject": [
+      {
+        "materia": "---",
+        "z_decayed": 1.4344005554680677,
+        "n": 521
+      },
+      {
+        "materia": "CONTROL",
+        "z_decayed": -0.17905528794533287,
+        "n": 14
+      },
+      {
+        "materia": "PRINCIPIOS ELECTRICOS Y APLICACIONES DIGITALES",
+        "z_decayed": -0.28663189455354404,
+        "n": 6
+      },
+      {
+        "materia": "PRINCIPIOS ELECTRICOS",
+        "z_decayed": -0.28802293168179316,
+        "n": 13
+      },
+      {
+        "materia": "ELECTRONICA DIGITAL",
+        "z_decayed": -0.38351923245581143,
+        "n": 4
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "siempre",
+          "pone",
+          "tiene",
+          "si",
+          "te"
+        ],
+        "weight": 0.10937145955399315
+      },
+      {
+        "id": 1,
+        "words": [
+          "temas",
+          "ensenar",
+          "sabe ensenar",
+          "porque",
+          "sabe"
+        ],
+        "weight": 0.14846110502858315
+      },
+      {
+        "id": 2,
+        "words": [
+          "ensena",
+          "tareas",
+          "final",
+          "es",
+          "profesor"
+        ],
+        "weight": 0.08530953813359214
+      },
+      {
+        "id": 3,
+        "words": [
+          "copiados",
+          "da igual",
+          "igual",
+          "da",
+          "trabajos"
+        ],
+        "weight": 0.13338176816345587
+      },
+      {
+        "id": 4,
+        "words": [
+          "explicar",
+          "largas",
+          "clases",
+          "aburridas",
+          "entender"
+        ],
+        "weight": 0.11343083511221534
+      }
+    ],
+    "sentiment": {
+      "overall": 0.05,
+      "by_month": {
+        "2024-03": 0.0,
+        "2023-11": 1.0,
+        "2022-03": 1.0,
+        "2022-01": 0.0,
+        "2021-12": -1.0,
+        "2021-09": 0.0,
+        "2021-06": 1.0,
+        "2020-12": 0.0,
+        "2020-11": -0.5,
+        "2020-10": 0.0,
+        "2020-09": 0.0,
+        "2019-05": 0.0,
+        "2018-12": 0.0,
+        "2017-03": 0.0
+      }
+    },
+    "n_comments": 20
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        8.0,
+        6.0,
+        5.5,
+        4.0,
+        5.666666666666667,
+        4.0,
+        2.5,
+        4.0,
+        5.5,
+        7.0,
+        6.0,
+        6.0,
+        3.0,
+        7.0
+      ],
+      "ewma": [
+        8.0,
+        7.3999999999999995,
+        6.83,
+        5.981,
+        5.8867,
+        5.32069,
+        4.474482999999999,
+        4.332138099999999,
+        4.682496669999999,
+        5.377747669,
+        5.5644233683,
+        5.69509635781,
+        4.886567450467,
+        5.5205972153269
+      ],
+      "sigma": 1.2525237009052177
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 5.5205972153269,
+      "quality_band": [
+        3.065650761552673,
+        7.9755436691011266
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2024-03-01T00:00:00",
+      "materia": "CONTROL",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Pues le dicen tata, es el que mas experiencia tiene en control por la edad que tiene. Muy buena persona y si ve que te importó la clase te ayuda."
+    },
+    {
+      "fecha_iso": "2023-11-21T00:00:00",
+      "materia": "CONTROL",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": 23.0,
+      "recomienda": 0,
+      "comentario": "Esta cura el señor pero ya jubilenlo, si es verano y no quieres estar afuera del salon carga con el, es perfecto para ver series en su clase siempre y cuando no hagas mucho ruido"
+    },
+    {
+      "fecha_iso": "2022-03-15T00:00:00",
+      "materia": "PRINCIPIOS",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 7.5,
+      "recomienda": 0,
+      "comentario": "Deja los examenes de tarea y da varios dias de plazo, literal es conseguir los trabajos y le da igual que esten copiados con que entregues con tu letra, es bueno para cosas de relleno"
+    },
+    {
+      "fecha_iso": "2022-01-17T00:00:00",
+      "materia": "CONTROL",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 0,
+      "comentario": "Sus clases se sienten eternas, esta es una materia tediosa pero aparte de eso, el profesor la enseña de una manera que al final de la clase siento que ni el sabe que fuè lo que dijo, es alegre el profesor pero no siento que sepa expresar el contenido como deberia, ademas de sus tareas largas."
+    },
+    {
+      "fecha_iso": "2021-12-16T00:00:00",
+      "materia": "CONTROL DE MAQUINAS ELECTRICAS",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Esta dificil entenderle pero lo que enseña vale mucho si te dedicas a la automatizacion por ejemplo. Te recomiendo que pongas atencion desde el principio y que no faltes, porque si te pierdes un poquito ya no vuelves. En linea dejaba entregar trabajos copiados. Y en verano se pone muy estricto."
+    },
+    {
+      "fecha_iso": "2021-09-29T00:00:00",
+      "materia": "PRINCIPIOS ELECTRICOS Y APLICACIONES DIGITALES",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": "Literalmente el grupo entero se copio y pasaron los trabajos igualitos"
+    },
+    {
+      "fecha_iso": "2021-09-15T00:00:00",
+      "materia": "PRINCIPIOS ELECTRICOS",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 0,
+      "comentario": "pues la verdad para pasar tendras que pedir los trabajos copiados, le da igual si se los das identicos"
+    },
+    {
+      "fecha_iso": "2021-06-11T00:00:00",
+      "materia": "CONTROL 1",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": "Sus clases son muy confusas, casi no se le entiende y los trabajos te los califica con lupa. Al final del semestre deja un monton de tarea acumuladas y a veces (solo a veces) te pasa aunque se las entregues mal. No lo recomiendo, pero para control no hay ningun profesor bueno."
+    },
+    {
+      "fecha_iso": "2020-12-15T00:00:00",
+      "materia": "PRINCIPIOS ELECTRICOS",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 0,
+      "comentario": "Vale queso el viejo,no se le entiende nada y te pone lo que el quiere, aun que tengas los trabajos bien, si explica si le dices pero en ocasiones no se le entendía nada, además de que las clases se pasaba de la hora."
+    },
+    {
+      "fecha_iso": "2020-12-04T00:00:00",
+      "materia": "PRINCIPIOS ELECTRICOS Y APLICACIONES DIGITALES",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": "A nadie le importa una mierda su materia, la unica razon por la que la llevamos es para pasar las materias de relleno, no sabe ni explicar, las clases son aburridas y encima deja los trabajos y examenes super diferentes y dificiles. de haber sabido la daba de baja desde antes."
+    },
+    {
+      "fecha_iso": "2020-11-30T00:00:00",
+      "materia": "PRINCIPIOS ELECTRICOS",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": "Horrible, las clases son eternamente aburridas, largas y no le vas a entender nada"
+    },
+    {
+      "fecha_iso": "2020-11-12T00:00:00",
+      "materia": "PRINCIPIOS ELECTRICOS Y APLICACIONES DIGITALES",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 0,
+      "comentario": "Entenderás el 20% como mucho de sus clases, criterio de evaluación estricto, siempre se pasa mas de la hora de clases, si le dices que no entiendes volverá a explicar pero no cambiara la manera de hacerlo y seguirás sin entender, el proyecto final es obligatorio y no te da las bases para hacerlo."
+    },
+    {
+      "fecha_iso": "2020-10-09T00:00:00",
+      "materia": "PRINCIPIOS ELECTRICOS",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Por el amor a lo que mas creas no cargues con el, este señor tiene como 800 años y no sabe enseñar nada, califica como quiere y con cualquier  error  incluso ortográfico baja puntos o te dice que eres copion, incluso a veces en  los exámenes pone cosas que ni explica"
+    },
+    {
+      "fecha_iso": "2020-10-09T00:00:00",
+      "materia": "PRINCIPIOS ELECTRICOS",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 24.0,
+      "recomienda": 0,
+      "comentario": "Sin comentarios, muy especialito en las tareas un errorsito de dedo o que un titulo te hayas equivocado con una letra, si se da cuenta, un friego de puntos menos, ademas de que no se le entiende nada habeces,"
+    },
+    {
+      "fecha_iso": "2020-10-01T00:00:00",
+      "materia": "---",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2020-09-25T00:00:00",
+      "materia": "PRINCIPIOS ELECTRICOS",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 0,
+      "comentario": "se ve que sabe de los temas pero no sabe enseñar, clases para dormirse"
+    },
+    {
+      "fecha_iso": "2019-05-31T00:00:00",
+      "materia": "ELECTRONICA DIGITAL",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 6.5,
+      "recomienda": 0,
+      "comentario": "Este maestro no sabe explicar nada, decia que tenia como 10 años que no daba la materia, no te va a ayudar en nada, te va a mandar a leer libros en vez de explicarte, tienes que ser muy habil con los temas porque de otra manera no va a haber chance para que puedas entender, porque va muy rapido"
+    },
+    {
+      "fecha_iso": "2019-05-25T00:00:00",
+      "materia": "CONTROL/CONTROL DIGITAL",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Este profe sabe mucho. La asistencia es obligatoria porque con una falta te baja calificación, siempre toma lista al azar, por eso siempre debes asistir. Explica todos los temas de la materia pero a veces como que se le bota el chango. Si quieres pasar entrega todos los trabajos y participa."
+    },
+    {
+      "fecha_iso": "2018-12-17T00:00:00",
+      "materia": "CONTROL",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "este maestro sabe un chingo pero no sabe enseñar para nada es una lastima porque de que sabe mucho sabe, esta super facil pasar con el, solo reprueba a los que nunca fueron ni le entregaron nada, si fuiste todo el semestre y le entregaste los trabajos pasas porque pasas, hace machin paro"
+    },
+    {
+      "fecha_iso": "2017-03-27T00:00:00",
+      "materia": "ELECTRONICA DIGITAL",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": "Buen Profesor"
+    }
+  ],
+  "comments_recent": [
+    "Pues le dicen tata, es el que mas experiencia tiene en control por la edad que tiene. Muy buena persona y si ve que te importó la clase te ayuda.",
+    "Esta cura el señor pero ya jubilenlo, si es verano y no quieres estar afuera del salon carga con el, es perfecto para ver series en su clase siempre y cuando no hagas mucho ruido",
+    "Deja los examenes de tarea y da varios dias de plazo, literal es conseguir los trabajos y le da igual que esten copiados con que entregues con tu letra, es bueno para cosas de relleno",
+    "Sus clases se sienten eternas, esta es una materia tediosa pero aparte de eso, el profesor la enseña de una manera que al final de la clase siento que ni el sabe que fuè lo que dijo, es alegre el profesor pero no siento que sepa expresar el contenido como deberia, ademas de sus tareas largas.",
+    "Esta dificil entenderle pero lo que enseña vale mucho si te dedicas a la automatizacion por ejemplo. Te recomiendo que pongas atencion desde el principio y que no faltes, porque si te pierdes un poquito ya no vuelves. En linea dejaba entregar trabajos copiados. Y en verano se pone muy estricto.",
+    "Literalmente el grupo entero se copio y pasaron los trabajos igualitos",
+    "pues la verdad para pasar tendras que pedir los trabajos copiados, le da igual si se los das identicos",
+    "Sus clases son muy confusas, casi no se le entiende y los trabajos te los califica con lupa. Al final del semestre deja un monton de tarea acumuladas y a veces (solo a veces) te pasa aunque se las entregues mal. No lo recomiendo, pero para control no hay ningun profesor bueno.",
+    "Vale queso el viejo,no se le entiende nada y te pone lo que el quiere, aun que tengas los trabajos bien, si explica si le dices pero en ocasiones no se le entendía nada, además de que las clases se pasaba de la hora.",
+    "A nadie le importa una mierda su materia, la unica razon por la que la llevamos es para pasar las materias de relleno, no sabe ni explicar, las clases son aburridas y encima deja los trabajos y examenes super diferentes y dificiles. de haber sabido la daba de baja desde antes."
+  ],
+  "n_reviews": 20
+}

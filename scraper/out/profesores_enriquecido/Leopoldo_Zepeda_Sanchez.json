@@ -1,0 +1,534 @@
+{
+  "professor_id": "Leopoldo_Zepeda_Sanchez",
+  "nombre": "Leopoldo Zepeda Sanchez",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 7.333695250002122,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.622695837271129,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.727,
+    "wilson_interval": [
+      0.5578211674561319,
+      0.8493272734367718
+    ],
+    "n_recommendations": 33
+  },
+  "subject_normalization": {
+    "z_mean": 0.4,
+    "z_mean_decayed": 0.49,
+    "per_subject": [
+      {
+        "materia": "BASE DE DATOS",
+        "z_decayed": 0.9899494936611666,
+        "n": 10
+      },
+      {
+        "materia": "TALLER DE BASE DE DATOS",
+        "z_decayed": 0.8719898106568069,
+        "n": 22
+      },
+      {
+        "materia": "INFORMATICA",
+        "z_decayed": 0.8080084763427464,
+        "n": 4
+      },
+      {
+        "materia": "INFORMÁTICA",
+        "z_decayed": 0.5773502691896257,
+        "n": 3
+      },
+      {
+        "materia": "FUNDAMENTOS DE BD",
+        "z_decayed": 0.5435075620804782,
+        "n": 3
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "esperando",
+          "comentario esperando",
+          "revision",
+          "esperando revision",
+          "comentario"
+        ],
+        "weight": 0.19519131312517507
+      },
+      {
+        "id": 1,
+        "words": [
+          "es claro",
+          "claro",
+          "explica bien",
+          "bien",
+          "explica"
+        ],
+        "weight": 0.06818515055279031
+      },
+      {
+        "id": 2,
+        "words": [
+          "es",
+          "buen",
+          "ganas",
+          "te",
+          "si"
+        ],
+        "weight": 0.08130456432941675
+      },
+      {
+        "id": 3,
+        "words": [
+          "buen",
+          "es",
+          "es buen",
+          "buen profesor",
+          "profesor"
+        ],
+        "weight": 0.08034292378418925
+      },
+      {
+        "id": 4,
+        "words": [
+          "ve",
+          "te",
+          "datos",
+          "si",
+          "sabe"
+        ],
+        "weight": 0.05475669102884648
+      }
+    ],
+    "sentiment": {
+      "overall": 0.15625,
+      "by_month": {
+        "2024-06": 0.0,
+        "2024-05": 0.0,
+        "2023-08": 0.0,
+        "2023-05": 0.0,
+        "2023-01": 0.0,
+        "2022-12": 0.0,
+        "2021-07": 0.0,
+        "2020-05": 0.0,
+        "2018-10": 0.0,
+        "2015-08": 0.0,
+        "2015-01": 1.0,
+        "2013-06": 0.0,
+        "2012-08": 0.0,
+        "2011-12": -1.0,
+        "2011-11": 0.0,
+        "2011-10": 0.0,
+        "2011-05": 0.3333333333333333,
+        "2011-03": 1.0,
+        "2011-01": 0.3333333333333333,
+        "2010-12": 0.3333333333333333,
+        "2010-09": 0.5,
+        "2010-08": 0.0
+      }
+    },
+    "n_comments": 32
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.157,
+    "bursts": [
+      {
+        "from": "2023-01-18T00:00:00",
+        "to": "2023-01-19T00:00:00",
+        "count": 3
+      }
+    ],
+    "low_variance_flag": 0,
+    "trust_score": 0.62
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        7.0,
+        7.5,
+        7.333333333333333,
+        9.666666666666666,
+        10.0,
+        8.0,
+        4.0,
+        10.0,
+        10.0,
+        8.5,
+        9.0,
+        10.0,
+        8.0,
+        2.0,
+        10.0,
+        2.0,
+        3.5,
+        10.0,
+        10.0,
+        10.0,
+        2.0,
+        10.0
+      ],
+      "ewma": [
+        7.0,
+        7.1499999999999995,
+        7.204999999999998,
+        7.9434999999999985,
+        8.56045,
+        8.392315,
+        7.0746205,
+        7.9522343499999995,
+        8.566564045,
+        8.546594831499998,
+        8.682616382049998,
+        9.077831467434997,
+        8.754482027204498,
+        6.728137419043148,
+        7.7096961933302035,
+        5.996787335331142,
+        5.247751134731799,
+        6.673425794312259,
+        7.671398056018581,
+        8.369978639213006,
+        6.4589850474491035,
+        7.5212895332143725
+      ],
+      "sigma": 2.332920485420715
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 7.5212895332143725,
+      "quality_band": [
+        2.948765381789771,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2024-06-13T00:00:00",
+      "materia": "---",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2024-05-08T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2023-08-11T00:00:00",
+      "materia": "---",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2023-05-14T00:00:00",
+      "materia": "---",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2023-01-19T00:00:00",
+      "materia": "INFORMATICA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2023-01-18T00:00:00",
+      "materia": "---",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2023-01-18T00:00:00",
+      "materia": "INFORMÁTICA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "El mejor profesor"
+    },
+    {
+      "fecha_iso": "2022-12-23T00:00:00",
+      "materia": "---",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2022-12-12T00:00:00",
+      "materia": "---",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2021-07-02T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2020-05-05T00:00:00",
+      "materia": "---",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2018-10-23T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 1.0,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2015-08-22T00:00:00",
+      "materia": "TESEBADA Y METODOS AGILES",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "sin comentarios"
+    },
+    {
+      "fecha_iso": "2015-01-05T00:00:00",
+      "materia": "TALLER DE BASE DE DATOS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "En la materia de base de datos explica muy bien lo que explica es claro y sencillo, pero no enseña todo lo que viene en el plan pero todo muy bien explicado y examenes muy sencillos"
+    },
+    {
+      "fecha_iso": "2013-06-23T00:00:00",
+      "materia": "TALLER DE BD.",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "No es facil pasar con el, pero si le hechas ganas pasas y encima aprendes bastante! muy recomendado."
+    },
+    {
+      "fecha_iso": "2012-08-22T00:00:00",
+      "materia": "FUNDAMENTOS DE BD",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "BUEN PROFE SI TE DESCUIDAS TE AGARRA DE CARRILLA PERO SI LEE HECHAS GANAS TE PASA SE VE EXTRICTO PERO TE HACE ESTUDIAR MACHIN SU CLASE ESTA AL 100 POR CIENTO ENTENDIBLE"
+    },
+    {
+      "fecha_iso": "2012-08-08T00:00:00",
+      "materia": "FUNDAMENTO DE BASE DE DATOS",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "la verdad si les interesan las bases de datos, este es un buen profesor con el cual iniciar , es uno de los mejores pero eso si le tienen que hechar ganas.\nRecomendado si quieren aprender."
+    },
+    {
+      "fecha_iso": "2011-12-03T00:00:00",
+      "materia": "FUNDAMENTOS DE BD",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "la neta es muy buen maestro no tenga nada malo que decir de el, estoy en FBD y lo que eh aprendido me ayudara mucho en TBD yo lo recomiendo 100% los que les guste aprender ay esta el para echarles la mano!"
+    },
+    {
+      "fecha_iso": "2011-11-01T00:00:00",
+      "materia": "BASE DE DATOS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Es muy buen profesor,"
+    },
+    {
+      "fecha_iso": "2011-10-23T00:00:00",
+      "materia": "BD",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 3.0,
+      "recomienda": 0,
+      "comentario": "a mi me toco cuando apenas empezaba a dar clases , y la verdad era malon no preparaba sus clases , por lo que yo aprendi a estar en la biblioteca horas interminables =)"
+    },
+    {
+      "fecha_iso": "2011-05-16T00:00:00",
+      "materia": "TESEBADA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "si sabe!"
+    },
+    {
+      "fecha_iso": "2011-05-07T00:00:00",
+      "materia": "TALLER",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": "no sabe"
+    },
+    {
+      "fecha_iso": "2011-05-02T00:00:00",
+      "materia": "TALLER",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Explica muy bien es claro"
+    },
+    {
+      "fecha_iso": "2011-03-11T00:00:00",
+      "materia": "BASES DE DATOS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Domina la las BD0s, es muy claro"
+    },
+    {
+      "fecha_iso": "2011-01-30T00:00:00",
+      "materia": "TOPICOS AV. DE B.D.",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "MUY BUEN MAESTRO, TE HABLA POR LO CLARO DESDE EL PRINCIPIO."
+    },
+    {
+      "fecha_iso": "2011-01-18T00:00:00",
+      "materia": "TESEBADA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "UN EXELENTE PROFESOR, HACEN FALTA MAS CON EL"
+    },
+    {
+      "fecha_iso": "2011-01-06T00:00:00",
+      "materia": "TALLER DE BASE DE DATOS",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Explica muy bien, da suficientes oportunidades en los examenes y divierte con los comentarios que hace."
+    },
+    {
+      "fecha_iso": "2010-12-29T00:00:00",
+      "materia": "---",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2010-12-22T00:00:00",
+      "materia": "TESEBADA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "excelente"
+    },
+    {
+      "fecha_iso": "2010-12-07T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 5.0,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2010-09-28T00:00:00",
+      "materia": "---",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2010-09-21T00:00:00",
+      "materia": "TESEBADA",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Excelente profesor, si ayuda pero si te ve que le echas ganas y demuestras que sabes."
+    },
+    {
+      "fecha_iso": "2010-08-28T00:00:00",
+      "materia": "TALLER DE BASE DE DATOS",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 1,
+      "comentario": "Buén maestro, explica muy bien pero no ayuda mucho a sus alumnos."
+    }
+  ],
+  "comments_recent": [
+    "[Comentario esperando revisión]",
+    "[Comentario esperando revisión]",
+    "[Comentario esperando revisión]",
+    "[Comentario esperando revisión]",
+    "[Comentario esperando revisión]",
+    "El mejor profesor",
+    "[Comentario esperando revisión]",
+    "[Comentario esperando revisión]",
+    "[Comentario esperando revisión]"
+  ],
+  "n_reviews": 33
+}

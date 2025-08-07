@@ -1,0 +1,341 @@
+{
+  "professor_id": "Manuel_Acosta_Portillo",
+  "nombre": "Manuel Acosta Portillo",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 8.211883196956094,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 6.683689269333021,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.562,
+    "wilson_interval": [
+      0.3317819560677652,
+      0.7690163666481449
+    ],
+    "n_recommendations": 16
+  },
+  "subject_normalization": {
+    "z_mean": 0.08,
+    "z_mean_decayed": 0.55,
+    "per_subject": [
+      {
+        "materia": "ELECTRÓNICA DE POTENCIA",
+        "z_decayed": 0.8297022339981069,
+        "n": 6
+      },
+      {
+        "materia": "INSTRUMENTACIÓN",
+        "z_decayed": 0.800756827643289,
+        "n": 4
+      },
+      {
+        "materia": "INSTRUMENTACION",
+        "z_decayed": 0.577350269189626,
+        "n": 3
+      },
+      {
+        "materia": "ELECTRONICA ANALOGICA",
+        "z_decayed": 0.2973283509024863,
+        "n": 17
+      },
+      {
+        "materia": "ELECTRÓNICA ANALÓGICA",
+        "z_decayed": 0.28817187226283647,
+        "n": 19
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "porque",
+          "verdad",
+          "profesor",
+          "ensena",
+          "es"
+        ],
+        "weight": 0.11477941203706878
+      },
+      {
+        "id": 1,
+        "words": [
+          "recomiendo",
+          "hace",
+          "pases",
+          "posible",
+          "posible pases"
+        ],
+        "weight": 0.10321739260800943
+      },
+      {
+        "id": 2,
+        "words": [
+          "clases",
+          "alumnos",
+          "ensena",
+          "solo",
+          "maestro"
+        ],
+        "weight": 0.12058841771209136
+      },
+      {
+        "id": 3,
+        "words": [
+          "materias",
+          "es",
+          "ser",
+          "suficiente",
+          "clases"
+        ],
+        "weight": 0.16262693198654918
+      },
+      {
+        "id": 4,
+        "words": [
+          "demas materias",
+          "materia es",
+          "demas",
+          "materias",
+          "materia"
+        ],
+        "weight": 0.14627903151118815
+      }
+    ],
+    "sentiment": {
+      "overall": 0.10256410256410256,
+      "by_month": {
+        "2021-02": 0.0,
+        "2016-01": 0.0,
+        "2015-10": 0.0,
+        "2014-09": 0.0,
+        "2014-03": 0.6666666666666666,
+        "2014-01": -0.5,
+        "2013-12": 0.0,
+        "2013-11": 0.0,
+        "2013-10": 1.0,
+        "2013-08": 0.0
+      }
+    },
+    "n_comments": 13
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        2.0,
+        6.0,
+        4.0,
+        2.0,
+        2.0,
+        10.0,
+        10.0,
+        8.0,
+        8.0,
+        9.0,
+        8.5,
+        10.0
+      ],
+      "ewma": [
+        2.0,
+        3.1999999999999997,
+        3.4399999999999995,
+        3.0079999999999996,
+        2.7055999999999996,
+        4.89392,
+        6.425744,
+        6.898020799999999,
+        7.228614559999999,
+        7.7600301919999986,
+        7.982021134399998,
+        8.587414794079997
+      ],
+      "sigma": 1.7693727274162387
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 8.587414794079997,
+      "quality_band": [
+        5.11944424834417,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2021-02-09T00:00:00",
+      "materia": "INSTRUMENTACIÓN",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": "Es un profesor estricto pero es justo lo que necesitamos. Se esfuerza porque sus alumnos en verdad aprendan y tiene mucho conocimiento. Recomiendo llevar clase con el si te interesa tu educación!"
+    },
+    {
+      "fecha_iso": "2019-08-14T00:00:00",
+      "materia": "INSTRUMENTACION",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2019-08-04T00:00:00",
+      "materia": "INSTRUMENTACION Y CONTROL",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2018-08-08T00:00:00",
+      "materia": "INSTRUMENTACIÓN",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2016-01-15T00:00:00",
+      "materia": "ELECTRÓNICA ANALÓGICA Y DE POTENCIA",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Es bastante estricto en varios aspectos pero tiene la autoridad suficiente para controlar a un grupo. Las materias que da son un poco difíciles pero hallándole el lado las cosas salen."
+    },
+    {
+      "fecha_iso": "2015-10-11T00:00:00",
+      "materia": "INSTRUMENTACIÓN",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "En esta materia es todo lo contrario a todas las demás materias que imparte. Yo que llevé otras clases con él. En esta materia se me hizo demasiado fácil, altamente recomendado. Cumple con todo el programa e introduce un poco en LabVEW."
+    },
+    {
+      "fecha_iso": "2014-09-29T00:00:00",
+      "materia": "ELECTRONICA 1 Y 2",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "GRACIAS A LA DUREZA DE ENSEÑANZA DE ESTE PROFE Y AGRADECIDO ESTOY DE QUE ME HAYA DADO CLASES Y MUCHOS DE SUS CONOCIMIENTOS Y DUREZA, ALCANCE UN NIVEL DE APRENDIZAJE INTERMEDIO SUFICIENTE PARA IR AL CINVESTAD POSGRADO, INGLATERA ESPAÑA ITALIA. GRACIAS PROFE MUY AMABLE POR SER TAN DURO."
+    },
+    {
+      "fecha_iso": "2014-03-30T00:00:00",
+      "materia": "ELECTRÓNICA DE POTENCIA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Digan lo que digan este profesor es muy bueno, es dificil pasar porque hace examenes complicados y baja puntos de acuerdo a malas conductas dentro del aula o laboratorio. Ejemplo suena el celular y 10 puntos menos, pero en verdad es una excelente opción para aprender nota: estudia mucho del libro"
+    },
+    {
+      "fecha_iso": "2014-03-11T00:00:00",
+      "materia": "ELECTRONICA ANALOGICA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Es un profesor excelente exige mucho pero enseña muy bien. Lo recomiendo si quieren ser buenos ingenieros. Requisito para tomar  su materia, ser estudioso y disciplinado."
+    },
+    {
+      "fecha_iso": "2014-01-15T00:00:00",
+      "materia": "ELECTRONICA ANALOGICA",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "muy mal maestro, no enseña nada, las clases las dan los alumnos, ademas con un solo examen que repruebes no immporta es RC seguro, no importa que lo repruebes por poco"
+    },
+    {
+      "fecha_iso": "2014-01-13T00:00:00",
+      "materia": "ELECTRÓNICA ANALOGICA",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "pésimo maestro, solo busca reprobarte a como de lugar"
+    },
+    {
+      "fecha_iso": "2013-12-10T00:00:00",
+      "materia": "ELECTRONICA ANALOGICA",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "no enseña nada y reprobar es su mision, asume que todos dominamos los temas."
+    },
+    {
+      "fecha_iso": "2013-11-29T00:00:00",
+      "materia": "ELECTRONICA ANALOGICO",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 2.5,
+      "recomienda": 0,
+      "comentario": "No recomiendo para nada cargar con el, no aprendes nada y va a hacer lo posible para que no pases, no conviene para nada."
+    },
+    {
+      "fecha_iso": "2013-11-15T00:00:00",
+      "materia": "ELECTRONICA",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 4.5,
+      "recomienda": 0,
+      "comentario": "Hace lo posible para que no pases."
+    },
+    {
+      "fecha_iso": "2013-10-05T00:00:00",
+      "materia": "ELECTRÓNICA ANALÓGICA",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Su especialidad es en electrónica de potencia y en esa materia es excelente, pero en las demás materias parece que les aburre y casi no explica nada, le gusta que te pongas a leer mucho, solo resuelve dudas y tiene unos criterios muy especiales para evaluar cuidado!"
+    },
+    {
+      "fecha_iso": "2013-08-04T00:00:00",
+      "materia": "SIMULACIÓN",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 0.5,
+      "recomienda": 0,
+      "comentario": "Las clases las dimos nosotros, es un burro."
+    }
+  ],
+  "comments_recent": [
+    "Es un profesor estricto pero es justo lo que necesitamos. Se esfuerza porque sus alumnos en verdad aprendan y tiene mucho conocimiento. Recomiendo llevar clase con el si te interesa tu educación!",
+    "Es bastante estricto en varios aspectos pero tiene la autoridad suficiente para controlar a un grupo. Las materias que da son un poco difíciles pero hallándole el lado las cosas salen.",
+    "En esta materia es todo lo contrario a todas las demás materias que imparte. Yo que llevé otras clases con él. En esta materia se me hizo demasiado fácil, altamente recomendado. Cumple con todo el programa e introduce un poco en LabVEW.",
+    "GRACIAS A LA DUREZA DE ENSEÑANZA DE ESTE PROFE Y AGRADECIDO ESTOY DE QUE ME HAYA DADO CLASES Y MUCHOS DE SUS CONOCIMIENTOS Y DUREZA, ALCANCE UN NIVEL DE APRENDIZAJE INTERMEDIO SUFICIENTE PARA IR AL CINVESTAD POSGRADO, INGLATERA ESPAÑA ITALIA. GRACIAS PROFE MUY AMABLE POR SER TAN DURO.",
+    "Digan lo que digan este profesor es muy bueno, es dificil pasar porque hace examenes complicados y baja puntos de acuerdo a malas conductas dentro del aula o laboratorio. Ejemplo suena el celular y 10 puntos menos, pero en verdad es una excelente opción para aprender nota: estudia mucho del libro",
+    "Es un profesor excelente exige mucho pero enseña muy bien. Lo recomiendo si quieren ser buenos ingenieros. Requisito para tomar  su materia, ser estudioso y disciplinado.",
+    "muy mal maestro, no enseña nada, las clases las dan los alumnos, ademas con un solo examen que repruebes no immporta es RC seguro, no importa que lo repruebes por poco"
+  ],
+  "n_reviews": 16
+}

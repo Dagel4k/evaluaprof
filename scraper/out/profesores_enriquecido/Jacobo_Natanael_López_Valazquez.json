@@ -1,0 +1,550 @@
+{
+  "professor_id": "Jacobo_Natanael_López_Valazquez",
+  "nombre": "Jacobo Natanael López Valazquez",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 7.249357870930193,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.290361840969513,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.735,
+    "wilson_interval": [
+      0.5688253783710155,
+      0.8539897245844621
+    ],
+    "n_recommendations": 34
+  },
+  "subject_normalization": {
+    "z_mean": -0.16,
+    "z_mean_decayed": -0.07,
+    "per_subject": [
+      {
+        "materia": "---",
+        "z_decayed": 0.8351040924377042,
+        "n": 521
+      },
+      {
+        "materia": "PROGRAMACIÓN BÁSICA",
+        "z_decayed": 0.4368059973075529,
+        "n": 14
+      },
+      {
+        "materia": "METODOS NUMERICOS",
+        "z_decayed": -0.008071046984843053,
+        "n": 25
+      },
+      {
+        "materia": "MÉTODOS NUMÉRICOS",
+        "z_decayed": -0.5495381014968058,
+        "n": 24
+      },
+      {
+        "materia": "MÉTODOS NUMERICOS",
+        "z_decayed": -0.55132328533925,
+        "n": 3
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "si tienes",
+          "te",
+          "tienes",
+          "programar",
+          "si"
+        ],
+        "weight": 0.08231415421158435
+      },
+      {
+        "id": 1,
+        "words": [
+          "profe",
+          "actitud",
+          "materia",
+          "es",
+          "bien"
+        ],
+        "weight": 0.077757665219261
+      },
+      {
+        "id": 2,
+        "words": [
+          "ratanael",
+          "te",
+          "dice",
+          "ser",
+          "guasave"
+        ],
+        "weight": 0.10473533794382262
+      },
+      {
+        "id": 3,
+        "words": [
+          "religioso",
+          "lesbiano",
+          "es viejo",
+          "viejo",
+          "viejo lesbiano"
+        ],
+        "weight": 0.05840266760132778
+      },
+      {
+        "id": 4,
+        "words": [
+          "es",
+          "desagradable",
+          "persona",
+          "hace",
+          "clase"
+        ],
+        "weight": 0.12175529041141138
+      }
+    ],
+    "sentiment": {
+      "overall": 0.058823529411764705,
+      "by_month": {
+        "2025-05": 0.0,
+        "2025-02": 0.0,
+        "2024-10": 0.0,
+        "2024-08": 0.0,
+        "2023-06": 0.0,
+        "2022-05": 0.0,
+        "2022-04": 0.0,
+        "2022-03": 0.0,
+        "2022-02": 0.0,
+        "2021-09": 0.5,
+        "2021-05": 0.0,
+        "2020-06": 0.0,
+        "2020-01": 0.0,
+        "2019-11": 0.0,
+        "2019-09": 0.0,
+        "2019-08": 0.0,
+        "2019-06": 0.0,
+        "2019-01": 0.0,
+        "2018-10": 0.0,
+        "2018-08": 0.0,
+        "2018-02": 0.0,
+        "2016-12": 1.0,
+        "2016-06": 0.0,
+        "2015-01": 0.0,
+        "2013-08": 0.0,
+        "2012-10": 0.0
+      }
+    },
+    "n_comments": 34
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        7.0,
+        8.0,
+        3.0,
+        10.0,
+        10.0,
+        8.0,
+        8.0,
+        10.0,
+        8.5,
+        6.666666666666667,
+        7.0,
+        2.0,
+        5.0,
+        5.0,
+        9.0,
+        5.5,
+        9.0,
+        10.0,
+        10.0,
+        10.0,
+        8.0,
+        10.0,
+        9.0,
+        8.0,
+        7.0,
+        2.0
+      ],
+      "ewma": [
+        7.0,
+        7.299999999999999,
+        6.009999999999998,
+        7.206999999999998,
+        8.044899999999998,
+        8.031429999999999,
+        8.022000999999998,
+        8.615400699999999,
+        8.580780489999999,
+        8.006546342999998,
+        7.704582440099999,
+        5.993207708069999,
+        5.695245395648999,
+        5.486671776954299,
+        6.540670243868009,
+        6.228469170707605,
+        7.059928419495323,
+        7.941949893646726,
+        8.559364925552707,
+        8.991555447886896,
+        8.694088813520827,
+        9.085862169464578,
+        9.060103518625205,
+        8.742072463037642,
+        8.21945072412635,
+        6.353615506888445
+      ],
+      "sigma": 1.8105485520192774
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 6.353615506888445,
+      "quality_band": [
+        2.8049403449306607,
+        9.902290668846229
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2025-05-30T00:00:00",
+      "materia": "METODO NUMERICOS",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 0,
+      "comentario": "PURAS PNDJDS, ENSEÑA DLV EXPLICA NADA Y TE MANDA ALV, A LAS MUJERES LAS PASA Y SIEMPRE DICE DE CHISTE QUE ES DE GUADSAVE QUE CON ESO"
+    },
+    {
+      "fecha_iso": "2025-02-12T00:00:00",
+      "materia": "METODOS NUMERICOS",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 1,
+      "comentario": "Ratacuen por eso le decian Ratanael, Imaginate que te traen desde Guasave y te avientan en la peni por ser un bandido Dice haberse aventado 2 o 3 cholos alla en Guasave cuando estaba morro, si puedes carga con el te aseguro Consejos de vida y anecdotas buenas."
+    },
+    {
+      "fecha_iso": "2024-10-31T00:00:00",
+      "materia": "METODOS NUMERICOS",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "el Ratanael Agarra cura maziso comentarios muy funables y comicos, preguntale de su juventud en Guasave el como lo amarraron a un arbol por andar asaltando expendios y como paso de ser malandrin a ser un hijo de Dios . No apto para la generacion de cristal"
+    },
+    {
+      "fecha_iso": "2024-08-09T00:00:00",
+      "materia": "PROGRAMACIÓN BÁSICA",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": "Es una personalidad de esás que no encuentras a menudo pero quisieras en todas las materias. Aprendimos poco mientras él recordaba cómo programar, pero lo que enseññó lo hizo bien. El pedo fue que nunca tuvimos sala de cómputo, entonces todo fue a mano, y hubo problemas con la calificación."
+    },
+    {
+      "fecha_iso": "2023-06-01T00:00:00",
+      "materia": "METODOS NUMERICOS!!",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Es bien griton en las clases para explicar pero le da el toque, siempre trae toda la actitud"
+    },
+    {
+      "fecha_iso": "2022-05-23T00:00:00",
+      "materia": "MÉTODOS NUMÉRICOS",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Clase barco. La mitad de la clase es hablar sobre anécdotas de su vida y la otra mitad (o menos) es hablar sobre la clase. No deja exámenes y califica con proyectos de programación muy fáciles. Cienón fácil si asistes y entregas los trabajos"
+    },
+    {
+      "fecha_iso": "2022-04-07T00:00:00",
+      "materia": "METODOS NUMERICOS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "natagod"
+    },
+    {
+      "fecha_iso": "2022-03-15T00:00:00",
+      "materia": "METODOS NUMERICOS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Estaba medio acabando el examen y me dijo asi entregalo y me puso 100 XD"
+    },
+    {
+      "fecha_iso": "2022-02-02T00:00:00",
+      "materia": "METODOS NUMÉRICOS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Barcazo"
+    },
+    {
+      "fecha_iso": "2021-09-29T00:00:00",
+      "materia": "METODOS NUMERICOS",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": "Programas sencillos y hay dias que no da\nEs religioso pero nomas es seguirle la cura"
+    },
+    {
+      "fecha_iso": "2021-09-03T00:00:00",
+      "materia": "METODOS NUMERICOS",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Esta bueno para materias de relleno xd"
+    },
+    {
+      "fecha_iso": "2021-05-25T00:00:00",
+      "materia": "METODOS NUMERICOS",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "izi pisi crack, explica de forma clara, aprendes logica y no es nada estresante llevar con él, no entiendo porqué le tiran tanto hate xDDDDD"
+    },
+    {
+      "fecha_iso": "2021-05-02T00:00:00",
+      "materia": "METODOS NUMERICOS",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 0,
+      "comentario": "No lleves perfume en clase de natanael o se acercara a Olerte de una manera muy incomoda y mas si eres hombre, este profe no sabe nada de su materia, no sabe enseñar."
+    },
+    {
+      "fecha_iso": "2020-06-02T00:00:00",
+      "materia": "METODOS NUMERICOS",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Cienon jaja, la verdad es que si es fácil pasar con el, los examenes son bastante faciles, deja como un programa por semana. Solo necesitas saber programar hasta fundamentos y ya está. Sino aprenden es porque no quieren"
+    },
+    {
+      "fecha_iso": "2020-01-16T00:00:00",
+      "materia": "MÉTODOS NUMERICOS",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 0,
+      "comentario": "Hazte un favor y no cargues con el, cualquiera que lo recomiende es porque con el, sus exámenes son regalados y  ademas de eso, con puras tareas pasas. Pero el no sabe transmitir ningún conocimiento y siempre termina divagando o haciendo malos chistes"
+    },
+    {
+      "fecha_iso": "2020-01-13T00:00:00",
+      "materia": "---",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2019-11-02T00:00:00",
+      "materia": "MÉTODOS NUMÉRICOS",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 0,
+      "comentario": "Tu ya tienes que saber programar, el no te va a explicar todo solo lo que sabe (el diagrama de flujo), su mentalidad es a la antigua.\nQuiere cambiar tu manera de pensar sobre la vida, la Coca-Cola es del biablo.\nAprenderás algo bien\nES LO QUE HAY!!!"
+    },
+    {
+      "fecha_iso": "2019-09-30T00:00:00",
+      "materia": "MÉTODOS NUMÉRICOS",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 0,
+      "comentario": "Es de Guasave."
+    },
+    {
+      "fecha_iso": "2019-08-19T00:00:00",
+      "materia": "MÉTODOS NUMÉRICOS",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 0,
+      "comentario": "es bien especialito, si le contradices se ofende, pero es el único que le sabe al pedo."
+    },
+    {
+      "fecha_iso": "2019-08-08T00:00:00",
+      "materia": "MÉTODOS NUMÉRICOS",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Es un meme este profe, está bien para cursar ésta materia"
+    },
+    {
+      "fecha_iso": "2019-08-05T00:00:00",
+      "materia": "MÉTODOS NUMÉRICOS",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Es buen profesor, pero como persona no lo creo.\nExplica muy bien su clase y hace que la entiendas, pero el ambiente que genera es desagradable a causa de sus comentarios innecesarios."
+    },
+    {
+      "fecha_iso": "2019-06-12T00:00:00",
+      "materia": "MÉTODOS NUMERICOS",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 0,
+      "comentario": "Es una persona muy desagradable por los comentarios que hace en clase, su forma de dar clases no esta mal, si le pones atención si aprendes y pasas fácil, entregale todos los trabajos no importa que sean copiados, si al final debes una unidad te la pasa, si le tienes que echar ganitas. Suerte"
+    },
+    {
+      "fecha_iso": "2019-06-12T00:00:00",
+      "materia": "MÉTODOS NUMÉRICOS",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 7.5,
+      "recomienda": 0,
+      "comentario": "Es muy especializo, dice ayudar pero nunca dice las cosas de manera claras."
+    },
+    {
+      "fecha_iso": "2019-06-04T00:00:00",
+      "materia": "METODOS NUMERICOS",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Es un viejo lesbiano religioso"
+    },
+    {
+      "fecha_iso": "2019-01-30T00:00:00",
+      "materia": "MÉTODOS NUMÉRICOS",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Si bien, su materia es sencilla, su actitud misógina y religiosa extremista lo vuelve alguien detestable. Como que no conecta cerebro con boca."
+    },
+    {
+      "fecha_iso": "2019-01-15T00:00:00",
+      "materia": "METODOS NÚMERICOS",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "La materia debería de ser asistida por equipos de computo en la escuela,\nlo cual nunca fué así.  (Desde mi punto de vista no lo veo correcto).\nEs sumamente cerrado con lo que explica y revisa.\nDescuida demasiado su imagen púbica como docente.\nComo dato positivo es gracioso en clase.\n7/10"
+    },
+    {
+      "fecha_iso": "2018-10-15T00:00:00",
+      "materia": "METODOS NUMERICOS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "es un viejo lesbiano."
+    },
+    {
+      "fecha_iso": "2018-08-24T00:00:00",
+      "materia": "METODOS NUMÉRICOS",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Es shrek hecho maestro nada más le faltan las orejas y ser verde"
+    },
+    {
+      "fecha_iso": "2018-02-26T00:00:00",
+      "materia": "MÉTODOS NUMÉRICOS",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Es la persona más desagradable que conozco, hace comentarios machistas y homofobicos, tiene costumbres desagradables como tragarse las flemas haciendo mucho ruido, limpiarse la cerilla de oídos con una pluma  o sus lentes pero por lo menos sabe de lo que esta dando clase."
+    },
+    {
+      "fecha_iso": "2016-12-22T00:00:00",
+      "materia": "METODOS NUMERICOS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "excelente profesor, posee amplios conocimientos de programacion ademas que explica de una manera super clara cuantas veces necesites y cualquier duda que tengas te la responde, tambien ayuda mucho a sus alumnos si no faltan y le echan ganas, lo recomiendo al cien"
+    },
+    {
+      "fecha_iso": "2016-06-20T00:00:00",
+      "materia": "PROGRAMACIÓN BÁSICA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Si asistes y le pones atención si aprendes a programar y por consiguiente pasas los examenes ...\nla asistencia es muy importante"
+    },
+    {
+      "fecha_iso": "2015-01-08T00:00:00",
+      "materia": "METODOS NUMERICOS",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 0,
+      "comentario": "no me gusto, y si no tienes ni idea de programar mejor no vayas con el"
+    },
+    {
+      "fecha_iso": "2013-08-13T00:00:00",
+      "materia": "METODOS NUMERICOS",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "El profesor le pone muchas ganas a sus clases no pasa al que falta a la clase, ayuda al que asiste aunque repruebe, da muchas oportunidades de pasar"
+    },
+    {
+      "fecha_iso": "2012-10-30T00:00:00",
+      "materia": "PROGRAMACIÓN BÁSICA",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Si no sabes programar nada, échale muchas ganas o no cargues con él, el trabaja asumiendo que todo tienen conocimientos base de programación por lo que se te dificultará mucho la materia y no aprenderás gran cosa, si sabes programar no te preocupes que si pasas tienes buena calificación con él."
+    }
+  ],
+  "comments_recent": [
+    "PURAS PNDJDS, ENSEÑA DLV EXPLICA NADA Y TE MANDA ALV, A LAS MUJERES LAS PASA Y SIEMPRE DICE DE CHISTE QUE ES DE GUADSAVE QUE CON ESO",
+    "Ratacuen por eso le decian Ratanael, Imaginate que te traen desde Guasave y te avientan en la peni por ser un bandido Dice haberse aventado 2 o 3 cholos alla en Guasave cuando estaba morro, si puedes carga con el te aseguro Consejos de vida y anecdotas buenas.",
+    "el Ratanael Agarra cura maziso comentarios muy funables y comicos, preguntale de su juventud en Guasave el como lo amarraron a un arbol por andar asaltando expendios y como paso de ser malandrin a ser un hijo de Dios . No apto para la generacion de cristal",
+    "Es una personalidad de esás que no encuentras a menudo pero quisieras en todas las materias. Aprendimos poco mientras él recordaba cómo programar, pero lo que enseññó lo hizo bien. El pedo fue que nunca tuvimos sala de cómputo, entonces todo fue a mano, y hubo problemas con la calificación.",
+    "Es bien griton en las clases para explicar pero le da el toque, siempre trae toda la actitud",
+    "Clase barco. La mitad de la clase es hablar sobre anécdotas de su vida y la otra mitad (o menos) es hablar sobre la clase. No deja exámenes y califica con proyectos de programación muy fáciles. Cienón fácil si asistes y entregas los trabajos",
+    "natagod",
+    "Estaba medio acabando el examen y me dijo asi entregalo y me puso 100 XD",
+    "Barcazo",
+    "Programas sencillos y hay dias que no da\nEs religioso pero nomas es seguirle la cura"
+  ],
+  "n_reviews": 34
+}

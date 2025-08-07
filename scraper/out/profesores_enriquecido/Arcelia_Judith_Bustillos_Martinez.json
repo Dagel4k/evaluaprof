@@ -1,0 +1,442 @@
+{
+  "professor_id": "Arcelia_Judith_Bustillos_Martinez",
+  "nombre": "Arcelia Judith Bustillos Martinez",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 7.2799245078227015,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 5.8463506177252516,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.333,
+    "wilson_interval": [
+      0.17971978688379645,
+      0.5329404050591954
+    ],
+    "n_recommendations": 24
+  },
+  "subject_normalization": {
+    "z_mean": -0.2,
+    "z_mean_decayed": 0.01,
+    "per_subject": [
+      {
+        "materia": "ING. SOFTWARE",
+        "z_decayed": 1.3337718577107005,
+        "n": 5
+      },
+      {
+        "materia": "INGENIERÍA DE SOFTWARE",
+        "z_decayed": 1.1261829711306042,
+        "n": 8
+      },
+      {
+        "materia": "TALLER DE INVESTIGACION II",
+        "z_decayed": 1.1217185151295603,
+        "n": 5
+      },
+      {
+        "materia": "REDES",
+        "z_decayed": 0.7189420262655407,
+        "n": 21
+      },
+      {
+        "materia": "ING DE SOFTWARE",
+        "z_decayed": 0.5773502691896257,
+        "n": 3
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "comentario esperando",
+          "comentario",
+          "esperando",
+          "esperando revision",
+          "revision"
+        ],
+        "weight": 0.14880056208093867
+      },
+      {
+        "id": 1,
+        "words": [
+          "recomiendo",
+          "bien",
+          "dia",
+          "si",
+          "te"
+        ],
+        "weight": 0.08975586633478834
+      },
+      {
+        "id": 2,
+        "words": [
+          "clases",
+          "da",
+          "buena",
+          "buena profe",
+          "profe"
+        ],
+        "weight": 0.0674952968762964
+      },
+      {
+        "id": 3,
+        "words": [
+          "te",
+          "si",
+          "quiere",
+          "pasar",
+          "es"
+        ],
+        "weight": 0.07045918030739466
+      },
+      {
+        "id": 4,
+        "words": [
+          "profesora",
+          "da",
+          "clases",
+          "mala",
+          "maestra"
+        ],
+        "weight": 0.12258609615720154
+      }
+    ],
+    "sentiment": {
+      "overall": 0.05263157894736842,
+      "by_month": {
+        "2024-08": 0.0,
+        "2023-12": 0.0,
+        "2023-06": 0.0,
+        "2023-01": 0.0,
+        "2022-12": 0.0,
+        "2021-01": 1.0,
+        "2020-12": 0.0,
+        "2020-01": 0.0,
+        "2019-09": 0.0,
+        "2019-05": 0.0,
+        "2018-10": 0.0,
+        "2017-04": 0.0,
+        "2016-09": 0.0,
+        "2015-09": 0.0,
+        "2015-08": 0.0,
+        "2015-06": 0.0,
+        "2015-05": 0.0
+      }
+    },
+    "n_comments": 19
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.058,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 0.97
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        6.0,
+        10.0,
+        2.0,
+        2.0,
+        4.5,
+        3.0,
+        6.0,
+        2.0,
+        3.0,
+        2.0,
+        2.0,
+        3.0,
+        2.0,
+        4.0,
+        10.0,
+        10.0,
+        9.0,
+        9.0,
+        9.0,
+        4.0,
+        8.0,
+        10.0
+      ],
+      "ewma": [
+        6.0,
+        7.199999999999999,
+        5.639999999999999,
+        4.547999999999999,
+        4.533599999999999,
+        4.0735199999999985,
+        4.651463999999999,
+        3.8560247999999993,
+        3.599217359999999,
+        3.119452151999999,
+        2.783616506399999,
+        2.848531554479999,
+        2.5939720881359993,
+        3.0157804616951993,
+        5.111046323186639,
+        6.577732426230647,
+        7.304412698361453,
+        7.813088888853017,
+        8.16916222219711,
+        6.9184135555379775,
+        7.242889488876584,
+        8.070022642213608
+      ],
+      "sigma": 2.0691862506698913
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 8.070022642213608,
+      "quality_band": [
+        4.014417590900622,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2025-01-25T00:00:00",
+      "materia": "ING DE SOFTWARE",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2024-08-23T00:00:00",
+      "materia": "FUNDAMENTOS DE PROGRAMACION",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "brinda apoyo, asistencia obligatoria, respetada por los estudiantes"
+    },
+    {
+      "fecha_iso": "2023-12-12T00:00:00",
+      "materia": "PROYECTO INTEGRADOR",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 0,
+      "comentario": "Si adivinas lo que quiere al momento de revisar, te irá muy bien"
+    },
+    {
+      "fecha_iso": "2023-06-01T00:00:00",
+      "materia": "TALLER 2",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "De las mejores de sistemas, judithgod, siempre suele andar atareada asi que tenle paciencia"
+    },
+    {
+      "fecha_iso": "2023-01-12T00:00:00",
+      "materia": "TALLER DE INVESTIGACION II",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Muy buena profe, solo entrega las tareas, entrega los avances y la investigación final."
+    },
+    {
+      "fecha_iso": "2022-12-17T00:00:00",
+      "materia": "TALLER DE INV 2",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Buena profe"
+    },
+    {
+      "fecha_iso": "2021-01-20T00:00:00",
+      "materia": "REDES",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Excelente Profesora, detallada en sus materias y atencion a los alumnos."
+    },
+    {
+      "fecha_iso": "2020-12-12T00:00:00",
+      "materia": "TALLER DE INVESTIGACIÓN I",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Muy buena maestra, es muy amorosa. Me da mucha risa que se enoje cuando la llaman profesora porque prefiere que le digan maestra. Volveria a tomar clases con ella."
+    },
+    {
+      "fecha_iso": "2020-01-13T00:00:00",
+      "materia": "TALLER DE INVESTIGACIÓN I",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Tienes que estar adivinando que es lo que quiere."
+    },
+    {
+      "fecha_iso": "2020-01-10T00:00:00",
+      "materia": "TALLER DE INVESTIGACIÓN II",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 0,
+      "comentario": "La profesora no sabe ni que quiere. Si un día te dice que está bien, al día siguiente te dice que esta mal.  Como profesora la neta nomas no."
+    },
+    {
+      "fecha_iso": "2019-09-22T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2019-05-12T00:00:00",
+      "materia": "---",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2018-10-15T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2018-08-05T00:00:00",
+      "materia": "PROGRAMACIÓN BASICA",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 0,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2017-04-19T00:00:00",
+      "materia": "ING. DE SOFTWARE",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "no se las recomiendo, el segundo día tienen que traer su autobiografía, la van a presentar en proyector, también les hará diagnostico por cada unidad, sus exámenes son de 1 minuto para ganar ya que te los pone a través del proyector, ahí ya sabrán ustedes si quieren cargar con ella."
+    },
+    {
+      "fecha_iso": "2016-11-03T00:00:00",
+      "materia": "LA QUE SEA",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 0,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2016-09-15T00:00:00",
+      "materia": "ING. DE SOFTWARE",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 0,
+      "comentario": "SI QUIERE PASAR SIN APRENDER Y QUE NO TE IMPORTE NADA DE TU CARRERA VIDA ETC ELLA ES LA MEJOR OPCION"
+    },
+    {
+      "fecha_iso": "2015-09-28T00:00:00",
+      "materia": "INGENIERIA DE SOFTWARE",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": 4.0,
+      "recomienda": 0,
+      "comentario": "es una maestra que contesta en mala manera no sabes si anda de buena o de mala las clases las da con flojera y los trabajos que deja te lo dice el mismo dia que revisa. no la recomiendo la verdad."
+    },
+    {
+      "fecha_iso": "2015-08-22T00:00:00",
+      "materia": "LA QUE SEA",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "MALA MAESTRA ."
+    },
+    {
+      "fecha_iso": "2015-08-12T00:00:00",
+      "materia": "INGENIERIA DE SOFTWARE",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": "Es facil pasar con ella pero no aprendes mucho"
+    },
+    {
+      "fecha_iso": "2015-06-15T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2015-05-28T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 5.0,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2015-03-28T00:00:00",
+      "materia": "INGENIERÍA DE SOFTWARE",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2015-01-07T00:00:00",
+      "materia": "ING. SOFTWARE",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": ""
+    }
+  ],
+  "comments_recent": [
+    "brinda apoyo, asistencia obligatoria, respetada por los estudiantes",
+    "Si adivinas lo que quiere al momento de revisar, te irá muy bien",
+    "De las mejores de sistemas, judithgod, siempre suele andar atareada asi que tenle paciencia",
+    "Muy buena profe, solo entrega las tareas, entrega los avances y la investigación final.",
+    "Buena profe",
+    "Excelente Profesora, detallada en sus materias y atencion a los alumnos.",
+    "Muy buena maestra, es muy amorosa. Me da mucha risa que se enoje cuando la llaman profesora porque prefiere que le digan maestra. Volveria a tomar clases con ella.",
+    "Tienes que estar adivinando que es lo que quiere.",
+    "La profesora no sabe ni que quiere. Si un día te dice que está bien, al día siguiente te dice que esta mal.  Como profesora la neta nomas no."
+  ],
+  "n_reviews": 24
+}

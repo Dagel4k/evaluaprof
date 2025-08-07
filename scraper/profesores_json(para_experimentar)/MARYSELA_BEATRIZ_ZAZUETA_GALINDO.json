@@ -1,0 +1,49 @@
+{
+  "nombre": "MARYSELA BEATRIZ ZAZUETA GALINDO",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "ciudad": "Ciudad: culiacan, sinaloa",
+  "departamento": "Departamento/Facultad: Ingenieria Industrial",
+  "calidad_general": 9.5,
+  "porcentaje_recomienda": 100,
+  "nivel_dificultad": 1.0,
+  "etiquetas": [
+    "BARCO (1)",
+    "POCOS EXÁMENES (1)",
+    "DEJA TRABAJOS LARGOS (1)"
+  ],
+  "numero_calificaciones": 2,
+  "calificaciones": [
+    {
+      "fecha": "12/Ene/2020",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Taller de investigación",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "100 seguro con ella.",
+      "etiquetas_comentario": [
+        "Barco",
+        "Pocos Exámenes",
+        "Deja trabajos largos"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "09/Nov/2016",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 9.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Taller de investigación 1",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "9",
+      "interes_clase": "",
+      "comentario": "Facil pasar con esta maestra, falta pero cuando asiste es importante ir por que toma en cuenta la asistencia, es importante guardar los trabajos por que califica todo esta profe y si es algo exigente con las exposiciones",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    }
+  ]
+}

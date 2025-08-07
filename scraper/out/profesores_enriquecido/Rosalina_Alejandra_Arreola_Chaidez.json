@@ -1,0 +1,599 @@
+{
+  "professor_id": "Rosalina_Alejandra_Arreola_Chaidez",
+  "nombre": "Rosalina Alejandra Arreola Chaidez",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 5.236462229245015,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 5.95366502088872,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.342,
+    "wilson_interval": [
+      0.21212220026458956,
+      0.5010818837092545
+    ],
+    "n_recommendations": 38
+  },
+  "subject_normalization": {
+    "z_mean": 0.03,
+    "z_mean_decayed": -0.04,
+    "per_subject": [
+      {
+        "materia": "---",
+        "z_decayed": 1.4344005554680677,
+        "n": 521
+      },
+      {
+        "materia": "ING. DE SOFTWARE",
+        "z_decayed": 1.0914103126634984,
+        "n": 4
+      },
+      {
+        "materia": "SISTEMAS",
+        "z_decayed": 0.8581943515359346,
+        "n": 13
+      },
+      {
+        "materia": "FUNDAMENTOS",
+        "z_decayed": 0.8006407690254355,
+        "n": 3
+      },
+      {
+        "materia": "ADMINISTRACIÓN DE PROYECTOS",
+        "z_decayed": 0.7472647177570733,
+        "n": 9
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "dar",
+          "es",
+          "va",
+          "mas",
+          "clases"
+        ],
+        "weight": 0.08702685236120328
+      },
+      {
+        "id": 1,
+        "words": [
+          "alumnos",
+          "habla",
+          "temas",
+          "tecnologico",
+          "sabe"
+        ],
+        "weight": 0.10762533702447398
+      },
+      {
+        "id": 2,
+        "words": [
+          "departamento",
+          "lider",
+          "deben",
+          "es",
+          "mujer"
+        ],
+        "weight": 0.10848691238768898
+      },
+      {
+        "id": 3,
+        "words": [
+          "tec",
+          "saldana",
+          "director",
+          "ex director",
+          "ex"
+        ],
+        "weight": 0.048810385122358274
+      },
+      {
+        "id": 4,
+        "words": [
+          "aprendes",
+          "profe",
+          "buena maestra",
+          "maestra",
+          "buena"
+        ],
+        "weight": 0.0857021434406367
+      }
+    ],
+    "sentiment": {
+      "overall": 0.030303030303030304,
+      "by_month": {
+        "2024-06": 0.0,
+        "2021-12": 1.0,
+        "2021-08": 0.0,
+        "2020-12": 0.0,
+        "2018-12": 0.0,
+        "2018-11": 0.0,
+        "2018-03": 0.0,
+        "2017-05": 0.0,
+        "2017-01": 0.0,
+        "2016-09": 0.0,
+        "2016-08": 0.0,
+        "2016-07": 0.0,
+        "2016-03": 0.0,
+        "2015-12": 0.0,
+        "2015-08": 0.0,
+        "2015-05": 0.0,
+        "2015-03": 0.0,
+        "2014-11": 0.0,
+        "2014-10": 0.0,
+        "2014-09": 0.0,
+        "2014-04": 0.0,
+        "2014-03": 0.0,
+        "2014-01": 0.0,
+        "2013-09": 0.0,
+        "2013-08": 0.0,
+        "2013-06": 0.0
+      }
+    },
+    "n_comments": 33
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [
+      {
+        "from": "2018-11-13T00:00:00",
+        "to": "2018-11-13T00:00:00",
+        "count": 3
+      },
+      {
+        "from": "2018-11-13T00:00:00",
+        "to": "2018-11-13T00:00:00",
+        "count": 4
+      }
+    ],
+    "low_variance_flag": 0,
+    "trust_score": 0.7
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        4.0,
+        2.0,
+        2.0,
+        10.0,
+        10.0,
+        9.0,
+        4.666666666666667,
+        10.0,
+        2.0,
+        6.0,
+        10.0,
+        2.0,
+        10.0,
+        10.0,
+        2.0,
+        7.0,
+        2.0,
+        2.0,
+        10.0,
+        2.0,
+        7.0,
+        6.0,
+        8.0,
+        5.0,
+        6.0,
+        6.0,
+        6.0,
+        6.0,
+        2.0
+      ],
+      "ewma": [
+        4.0,
+        3.4,
+        2.98,
+        5.086,
+        6.5602,
+        7.29214,
+        6.504498,
+        7.553148599999999,
+        5.887204019999999,
+        5.921042813999999,
+        7.144729969799999,
+        5.601310978859999,
+        6.920917685201999,
+        7.8446423796413995,
+        6.091249665748979,
+        6.363874766024285,
+        5.054712336216999,
+        4.138298635351899,
+        5.896809044746329,
+        4.72776633132243,
+        5.409436431925701,
+        5.58660550234799,
+        6.310623851643593,
+        5.9174366961505145,
+        5.94220568730536,
+        5.959543981113751,
+        5.9716807867796255,
+        5.980176550745737,
+        4.786123585522016
+      ],
+      "sigma": 2.4706779034109814
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 4.786123585522016,
+      "quality_band": [
+        0.0,
+        9.62865227620754
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2024-06-08T00:00:00",
+      "materia": "PROYECTO",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 5.0,
+      "recomienda": 0,
+      "comentario": "Está mujer confundió a un alumno que jamás iba no entregó nada y yo que entregue todo iba cada mugre pseudo clase le entregué todo y me puso 5 mientras que al otro le puso 10 subió el último día la calificación a la plataforma le marque y me regaño por no decirle el mismo día ni su número tenia."
+    },
+    {
+      "fecha_iso": "2022-03-15T00:00:00",
+      "materia": "CULAZO EMPRESARIAL",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 0,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2021-12-12T00:00:00",
+      "materia": "CULTURA EMPRESARIAL",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 0,
+      "comentario": "Excelente profe para materias de relleno nada mas, copias y pegas todos los trabajos de moddle, te pone a dar su clase y no aprendes nada. asi que no te atrevas a cargar alguna materia importante con ella"
+    },
+    {
+      "fecha_iso": "2021-09-29T00:00:00",
+      "materia": "FUNDAMENTOS DE SOFTWARE",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 0,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2021-08-30T00:00:00",
+      "materia": "FUNDAMENTOS DE ING SOFTWARE",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 0,
+      "comentario": "recomendada para pasar facil los rellenos pero no para aprender"
+    },
+    {
+      "fecha_iso": "2020-12-07T00:00:00",
+      "materia": "INGENIERIA DE SOFTWARE",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 0,
+      "comentario": "Es buena para llevar materias de relleno, pero eso si, no tiene ni pta idea de lo que habla en clases, se ve que pone a investigar alumnos de los temas porque no sabe de la materia. Puedes copiar y pegar todos los trabajos del moodle e igual te va a poner 100, pelado para materias no importantes."
+    },
+    {
+      "fecha_iso": "2020-06-05T00:00:00",
+      "materia": "ADMINISTRACIÓN DE PROYECTOS",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2018-12-01T00:00:00",
+      "materia": "INVESTIGACIÓN",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 0,
+      "comentario": "Buena profe"
+    },
+    {
+      "fecha_iso": "2018-11-13T00:00:00",
+      "materia": "FUNDAMENTOS DE INVESTIGACIÓN",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 0,
+      "comentario": "Honestamente creo que no debería de dar clases y considerar tener más disciplina y valores respecto a su comportamiento con los alumnos, también creo que debería de utilizar otros métodos para que la clase este más  enfocada a lo que realmente debe de verse en ella, es muy mala la verdad."
+    },
+    {
+      "fecha_iso": "2018-11-13T00:00:00",
+      "materia": "FUNDAMENTOS DE LA INVESTIGACIÓN",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2018-11-13T00:00:00",
+      "materia": "INVESTIGACIÓN",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2018-11-13T00:00:00",
+      "materia": "FUNDAMENTOS DE INVESTIGACION",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 0,
+      "comentario": "no parece ni clases, parece mas hora libre"
+    },
+    {
+      "fecha_iso": "2018-03-15T00:00:00",
+      "materia": "ANÁLISIS Y DISEÑO ORIENTADO A OBJETOS",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "FATAL!! No tengo ni idea porque permiten que gente así esté frente a grupo. De verdad que la mujer no tiene ni idea de lo que habla. Llega, se sienta y pide cualquier estupidez y deja que corra el tiempo hasta que tenga que irse."
+    },
+    {
+      "fecha_iso": "2017-05-03T00:00:00",
+      "materia": "FUNDAMENTOS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Buena maestra, la recomiendo, aprendes, y es muy entretenidas sus clases"
+    },
+    {
+      "fecha_iso": "2017-01-04T00:00:00",
+      "materia": "COMPUTO MOVIL",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 0,
+      "comentario": "No sirve pa naaah"
+    },
+    {
+      "fecha_iso": "2016-09-21T00:00:00",
+      "materia": "NADA",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 2.5,
+      "recomienda": 0,
+      "comentario": "Lamentablemente forma parte del tec, hay que agradecerle esto a marcial y a saldaña de quien tambien se dice que fue su ex. Al final los alumnos pagan el plato..  Gente como ella desacredita al TEC"
+    },
+    {
+      "fecha_iso": "2016-08-08T00:00:00",
+      "materia": "ING. DE SOFTWARE",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "La maestra es buena onda, pero sus clases son de puro exponer, ella solo complementa lo que expones y a veces ni eso, sus exámenes son largos y difíciles pero nomas hace 2 en todo el semestre, te da oportunidades de subir calificación."
+    },
+    {
+      "fecha_iso": "2016-07-01T00:00:00",
+      "materia": "INVESTIGACIÓN",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 0,
+      "comentario": "INVOLUCRA ALUMNOS EN INVESTIGACIÓN IMPOSIBLE YA QUE NI ELLA MISMA SABE QUE ES ESO, NO SABE REDACTAR SUS ALUMNOS PURAS VERGUENZA HAN CAUSADO CUANDO PRESENTAN UN PROYECTO Y ELLOS MISMOS DICEN QUE NOS APOYA EN NADA SOLO SE LLEVA HABLAND POR TELÉFONO DURANTE LA CLASE"
+    },
+    {
+      "fecha_iso": "2016-03-31T00:00:00",
+      "materia": "TALLER 2",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Buena maestra, involucra a los alumnos en investigación"
+    },
+    {
+      "fecha_iso": "2015-12-12T00:00:00",
+      "materia": "TALLER I",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Buena maestra, atenta pero deja muchas tareas"
+    },
+    {
+      "fecha_iso": "2015-08-30T00:00:00",
+      "materia": "INVESTIGACION",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 0,
+      "comentario": "Cuando va a asistir a clases?"
+    },
+    {
+      "fecha_iso": "2015-05-31T00:00:00",
+      "materia": "INVESTIGACION",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Lider natural. Ahora que incursiona con exito en la investigacion ha logrado incorporar a grandes doctores en sus proyectos. Felicidades mtra. Rosalina, hoy por hoy un lider y felicidades a quienes confian en ella y la siguen."
+    },
+    {
+      "fecha_iso": "2015-03-05T00:00:00",
+      "materia": "VISITAS",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 0,
+      "comentario": "Visita mucho al ex director. En mexico"
+    },
+    {
+      "fecha_iso": "2014-11-04T00:00:00",
+      "materia": "NADA",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 0,
+      "comentario": "La ex del ex director Saldaña"
+    },
+    {
+      "fecha_iso": "2014-10-10T00:00:00",
+      "materia": "NADA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "mujer de mente cerrada y pierna abierta es la mejor definicion para esta \"mujer\"."
+    },
+    {
+      "fecha_iso": "2014-09-30T00:00:00",
+      "materia": "TONTERIAS",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 0,
+      "comentario": "Dicen que anda por el tecnológico del ItSMO."
+    },
+    {
+      "fecha_iso": "2014-09-22T00:00:00",
+      "materia": "NADA DE NADA",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 1.0,
+      "recomienda": 0,
+      "comentario": "Una \"persona\" sin ETICA, Sin Moral! Representa la ignorancia total y muchas cosas nocivas mas. Lamentablemente hecho raices en el tecnologico de culiacan"
+    },
+    {
+      "fecha_iso": "2014-09-16T00:00:00",
+      "materia": "ING. SOFTWARE",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 1.0,
+      "recomienda": 0,
+      "comentario": "PADRES DE FAMILIA. por favor involucrence un poco mas en los estudios de sus hijos. No es posible que este mujer este dandoles clases a sus hijos es un pecado. No sabe nada, vayan y vean como va vestida para que tengan idea. El TeC no es lo que era antes, mucho ojo con esta mujer"
+    },
+    {
+      "fecha_iso": "2014-04-23T00:00:00",
+      "materia": "JEFATURA DE SISTEMAS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Debe seguir desempeñando puestos en la institución, es dedicada, valiente e inteligente, el departamento lo manejo de manera inteligente y siempre lo tenia bien atendido. Mis respetos para esta maestra, el sindicato y administración la deben aprovechar"
+    },
+    {
+      "fecha_iso": "2014-04-16T00:00:00",
+      "materia": "LIDER",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Uns lider natural, fue lo mejor que le paso al departamento de sistemas, la siguieron los grandes (Dr. Zatarain, Maestra Ekaterine, Dra. Barron, Maestra Eli Barraza, Mario Bastidas, etc) gracias al apooyo incodincional de estas persanas el departamento tuvo muchos logros que ensaltaron a la instit."
+    },
+    {
+      "fecha_iso": "2014-03-14T00:00:00",
+      "materia": "---",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2014-01-22T00:00:00",
+      "materia": "SISTEMAS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "ES DE LAS MEJORES JEFES QUE HA TENIDO EL TECNOLOGICO, SE ENTREGO EN CUERPO Y ALMA EN REALIZAR BIEN SU TRABAJO AUN A COSTA DE SU PROPIA SALUD. ES UNA LIDER NATURAL Y JUSTA. UNA MUJER DE GRAN VALOR PARA LA INSTITUCION. LA DEBEN DE APOYAR EN TODO Y NO LA DEBEN DESAPROVECHAR."
+    },
+    {
+      "fecha_iso": "2013-09-03T00:00:00",
+      "materia": "MET. INV",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 0.5,
+      "recomienda": 0,
+      "comentario": "Nunca da clases recien acaba de iniciar el semestre y no se presenta a dar clases no"
+    },
+    {
+      "fecha_iso": "2013-08-21T00:00:00",
+      "materia": "ING. SOFTWARE",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Abre las piernas para explicar. Se recarga y sube la pierna a la pared y de esa forma enseña mas enseña todo es lo unico que hace por que de clases no sabe nada"
+    },
+    {
+      "fecha_iso": "2013-08-02T00:00:00",
+      "materia": "ING. SOFTWARE",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "DE LO PEOR ADEMAS DE QUE NO SABE NADA SE ATREVE A REPROBAR LA DEBERIAN DE CORRER"
+    },
+    {
+      "fecha_iso": "2013-08-02T00:00:00",
+      "materia": "ING DE SOFTWARE",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 0.5,
+      "recomienda": 0,
+      "comentario": "NO SABE DE LO QUE HABLA, SALI DEL TECNOLOGICO Y TUVE QUE REESTUDIAR LOS TEMAS PARA EMPEZAR A EMPRENDER"
+    },
+    {
+      "fecha_iso": "2013-06-23T00:00:00",
+      "materia": "PLANIF. Y MODELADO",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": 2.0,
+      "recomienda": 0,
+      "comentario": "MALISIMA MAESTRA, NO SABE NADA!!"
+    },
+    {
+      "fecha_iso": "2013-06-18T00:00:00",
+      "materia": "ING DEL SOFT",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 0,
+      "comentario": "casi no sabe de la materia que imparte, se le pasa leyendo diapositivas y poniendo a sus alumnos a exponer, por cierto te pide que subas tareas al moodle, si subes archivos en blanco o dañados no se da cuenta y te pone 100! jojo!"
+    }
+  ],
+  "comments_recent": [
+    "Está mujer confundió a un alumno que jamás iba no entregó nada y yo que entregue todo iba cada mugre pseudo clase le entregué todo y me puso 5 mientras que al otro le puso 10 subió el último día la calificación a la plataforma le marque y me regaño por no decirle el mismo día ni su número tenia.",
+    "Excelente profe para materias de relleno nada mas, copias y pegas todos los trabajos de moddle, te pone a dar su clase y no aprendes nada. asi que no te atrevas a cargar alguna materia importante con ella",
+    "recomendada para pasar facil los rellenos pero no para aprender",
+    "Es buena para llevar materias de relleno, pero eso si, no tiene ni pta idea de lo que habla en clases, se ve que pone a investigar alumnos de los temas porque no sabe de la materia. Puedes copiar y pegar todos los trabajos del moodle e igual te va a poner 100, pelado para materias no importantes.",
+    "Buena profe",
+    "Honestamente creo que no debería de dar clases y considerar tener más disciplina y valores respecto a su comportamiento con los alumnos, también creo que debería de utilizar otros métodos para que la clase este más  enfocada a lo que realmente debe de verse en ella, es muy mala la verdad."
+  ],
+  "n_reviews": 38
+}

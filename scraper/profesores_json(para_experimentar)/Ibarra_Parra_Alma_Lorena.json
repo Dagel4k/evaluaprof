@@ -1,0 +1,134 @@
+{
+  "nombre": "Ibarra Parra Alma Lorena",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "ciudad": "Ciudad: culiacan, sinaloa",
+  "departamento": "Departamento/Facultad: economico administrativas",
+  "calidad_general": 9.3,
+  "porcentaje_recomienda": 100,
+  "nivel_dificultad": 0.3,
+  "etiquetas": [
+    "ASPECTOS DE CALIFICACIÓN CLAROS (2)",
+    "TOMARÍA SU CLASE OTRA VEZ (1)",
+    "DA BUENA RETROALIMENTACIÓN (1)",
+    "LA PARTICIPACIÓN IMPORTA (2)",
+    "POCOS EXÁMENES (2)",
+    "ASISTENCIA OBLIGATORIA (2)",
+    "BARCO (1)"
+  ],
+  "numero_calificaciones": 7,
+  "calificaciones": [
+    {
+      "fecha": "15/Ene/2023",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 9.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Fundamentos de Investigación",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "No es profesora para la materia, su conocimiento la hace ver que sabe mucho de temas relacionados a empresarial y leyes, se podría desempeñar mejor en ellas.\nEso sí, no te carga con trabajos, en una linda persona y es fácil pasar con ella.\nSi cuentan asistencias.",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "13/Jun/2022",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Taller de investigación 1",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "Es muy fácil de pasar, si tienes la oportunidad carga con ella, siempre pregunta por la calificación que tienes antes de que las suba la plataforma.",
+      "etiquetas_comentario": [
+        "Barco",
+        "Asistencia obligatoria",
+        "Pocos Exámenes"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "03/Sep/2021",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 9.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Legislación laboral",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "9",
+      "interes_clase": "",
+      "comentario": "Muy fácil pasar, no te va a cargar la mano con trabajos o tareas. Es muy clara y sabe sobre los temas de la materia, si tienes la oportunidad carga con ella",
+      "etiquetas_comentario": [
+        "La Participación Importa",
+        "Asistencia obligatoria",
+        "Aspectos de calificación claros"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "15/Oct/2020",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 8.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Fundamentos de investigación",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "Sabe de la materia que da, su contenido es fácil, se aprende bien con ella.",
+      "etiquetas_comentario": [
+        "Da buena retroalimentación",
+        "La Participación Importa",
+        "Pocos Exámenes"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "08/Ago/2017",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 9.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "legislacion laboral",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "N/A",
+      "interes_clase": "",
+      "comentario": "super facil pasar con ella",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "23/Dic/2016",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Desarrollo Sustentable",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "Es esta materia es buena, se explica con claridad y atiende todas las dudas. Al ultimo toma en cuenta las asistencias, además es muy recomendada.",
+      "etiquetas_comentario": [
+        "Aspectos de calificación claros",
+        "Tomaría su clase otra vez"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "1"
+    },
+    {
+      "fecha": "22/Dic/2016",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Desarrollo sustentable",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "N/A",
+      "interes_clase": "",
+      "comentario": "es muy buena maestra y hace de su material algo muy facil, la recomiendo al cien",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    }
+  ]
+}

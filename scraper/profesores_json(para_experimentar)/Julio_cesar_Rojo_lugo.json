@@ -1,0 +1,31 @@
+{
+  "nombre": "Julio cesar Rojo lugo",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "ciudad": "Ciudad: culiacan, sinaloa",
+  "departamento": "Departamento/Facultad: Ingenieria industrial",
+  "calidad_general": 10.0,
+  "porcentaje_recomienda": 100,
+  "nivel_dificultad": 0.0,
+  "etiquetas": [
+    "BRINDA APOYO (1)"
+  ],
+  "numero_calificaciones": 1,
+  "calificaciones": [
+    {
+      "fecha": "29/Ene/2019",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Álgebra lineal.",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "9.5",
+      "interes_clase": "",
+      "comentario": "Es bastante bipolar pero no tienes que faltar si quieres pasar fasil ya que abeses deja el examen de la tarea cuándo anda de buenas o sí pasas el examen de ciencias básicas. A lo último si tienes las tres primeras unidades pasadas te regala las otras 2 para pasar.",
+      "etiquetas_comentario": [
+        "Brinda apoyo"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "1"
+    }
+  ]
+}

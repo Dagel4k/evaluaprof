@@ -1,0 +1,412 @@
+{
+  "professor_id": "Roberto_Leon_Piña",
+  "nombre": "Roberto Leon Piña",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 7.923324722784028,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.573416806537373,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.762,
+    "wilson_interval": [
+      0.5490841802765406,
+      0.8937214361088773
+    ],
+    "n_recommendations": 21
+  },
+  "subject_normalization": {
+    "z_mean": 0.21,
+    "z_mean_decayed": 0.31,
+    "per_subject": [
+      {
+        "materia": "DISEÑO",
+        "z_decayed": 0.6465379110279942,
+        "n": 5
+      },
+      {
+        "materia": "TERMOFLUIDOS",
+        "z_decayed": 0.26041054041400996,
+        "n": 3
+      },
+      {
+        "materia": "MECANISMOS",
+        "z_decayed": 0.25429889169137326,
+        "n": 27
+      },
+      {
+        "materia": "ANÁLISIS DE FLUIDOS",
+        "z_decayed": 0.16860677269838995,
+        "n": 8
+      },
+      {
+        "materia": "ANALISIS DE FLUIDOS",
+        "z_decayed": -0.3412427333484567,
+        "n": 8
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "si",
+          "aprender",
+          "buen",
+          "buen maestro",
+          "maestro"
+        ],
+        "weight": 0.07812736257026011
+      },
+      {
+        "id": 1,
+        "words": [
+          "siempre llega",
+          "llega",
+          "tarde",
+          "siempre",
+          "hayan"
+        ],
+        "weight": 0.09773346374173653
+      },
+      {
+        "id": 2,
+        "words": [
+          "profesores",
+          "si",
+          "es",
+          "bien",
+          "te"
+        ],
+        "weight": 0.1604706562029165
+      },
+      {
+        "id": 3,
+        "words": [
+          "si",
+          "carga",
+          "carga si",
+          "clase",
+          "profesor"
+        ],
+        "weight": 0.14293055881206349
+      },
+      {
+        "id": 4,
+        "words": [
+          "pasar",
+          "porque",
+          "parecer",
+          "es",
+          "examenes"
+        ],
+        "weight": 0.13442146783774883
+      }
+    ],
+    "sentiment": {
+      "overall": 0.15789473684210525,
+      "by_month": {
+        "2023-09": 0.0,
+        "2019-08": 1.0,
+        "2019-07": 0.0,
+        "2019-02": 0.0,
+        "2018-12": 0.0,
+        "2018-01": 0.0,
+        "2017-02": 0.0,
+        "2016-02": 0.0,
+        "2016-01": 1.0,
+        "2015-12": 0.0,
+        "2015-01": 0.0,
+        "2014-01": 0.0,
+        "2013-11": 0.0,
+        "2013-10": 1.0,
+        "2013-08": 0.0,
+        "2013-03": 0.0,
+        "2012-11": 0.0,
+        "2012-04": 0.0
+      }
+    },
+    "n_comments": 19
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        2.0,
+        5.0,
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        7.0,
+        7.0,
+        10.0,
+        9.0,
+        9.0,
+        6.0,
+        5.0,
+        8.0,
+        10.0,
+        10.0,
+        4.0,
+        7.0,
+        9.0,
+        8.0
+      ],
+      "ewma": [
+        2.0,
+        2.9,
+        5.029999999999999,
+        6.520999999999999,
+        7.564699999999999,
+        8.29529,
+        7.906703,
+        7.6346921000000005,
+        8.34428447,
+        8.540999129,
+        8.678699390299998,
+        7.875089573209999,
+        7.012562701246999,
+        7.308793890872899,
+        8.11615572361103,
+        8.68130900652772,
+        7.276916304569403,
+        7.193841413198582,
+        7.735688989239007,
+        7.814982292467304
+      ],
+      "sigma": 1.931277318123046
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 7.814982292467304,
+      "quality_band": [
+        4.029678748946134,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2023-09-02T00:00:00",
+      "materia": "DISEÑO",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": "un maestro muy peculiar"
+    },
+    {
+      "fecha_iso": "2019-08-08T00:00:00",
+      "materia": "DISEÑO MECANICO II",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Siempre llega tarde pero si da clases, es claro enseñando y ayuda a los alumnos fuera de clase si lo necesitan"
+    },
+    {
+      "fecha_iso": "2019-07-11T00:00:00",
+      "materia": "ANÁLISIS DE FLUIDOS",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Este compa está fácil a morir, pasa absolutamente a TODOS aunque no le hayan pasado ni un examen y nunca hayan ido, pero es súper impuntual, siempre llega de 30-40 minutos tarde y no deja entrar a nadie después que el, además de que no enseña la gran cosa."
+    },
+    {
+      "fecha_iso": "2019-02-10T00:00:00",
+      "materia": "MECANISMOS",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "es super impuntual siempre llega por lo menos media hora tarde y no enseña mucho pero pasa a todos aunque no le hayan pasado ni siquiera un examen"
+    },
+    {
+      "fecha_iso": "2018-12-17T00:00:00",
+      "materia": "MECANISMOS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": "Muy buen maestro, sus clases son muy claras y los exámenes si están algo complicados, es muy estricto pero al final sí da varias oportunidades para pasar pero le tienes que demostrar que sabes"
+    },
+    {
+      "fecha_iso": "2018-08-08T00:00:00",
+      "materia": "ANALISIS DE FLUIDOS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 7.5,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2018-01-19T00:00:00",
+      "materia": "ANALISIS DE FLUIDOS",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": "Creo que es un profesor que si eres un alumno que demuestra que le pone empeño en aprender, ser disciplinado y responsable no se te dificulta. La mayoría que se expresan mal de el son alumnos que no muestran interés en la clase y eso el lo nota. Lo recomiendo si eres disciplinado en clase."
+    },
+    {
+      "fecha_iso": "2017-02-18T00:00:00",
+      "materia": "MECANISMOS",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 0,
+      "comentario": "Muy mañoso y nunca admite ningún error. Los temas los da bien, te exige mucho más en el proyecto, así que aprendes por ti solo en base a su exigencia, si no te molesta llevarte con el, te irá bien, porque es muy favoritista y llevado con los alumnos, tiene reacciones y comportamientos erráticos."
+    },
+    {
+      "fecha_iso": "2016-02-05T00:00:00",
+      "materia": "ANALISIS DE FLUIDOS",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 25.0,
+      "recomienda": 0,
+      "comentario": "Es buen maestro, se preocupa por sus alumnos, hace la clase algo interesante,\ntiene un defecto la MADUREZ DE UN NIÑO\n\nes mejor pasar a la primera oportunidad con el ,\ny lleguen a un acuerdo grupal al principio de clase BIEN, no se les ocurra agarras examen y proyecto a la vez, eso nos paso NA."
+    },
+    {
+      "fecha_iso": "2016-01-14T00:00:00",
+      "materia": "ANÁLISIS DE FLUIDOS",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Buen profe de los pocos profesores que de verdad se preocupa por sus alumnos, claro lo demuestra a su manera pero lo hace, no lo dudes y carga con él, eso sí, vas a trabajar y estudiar mucho así que deja la flojera a un lado."
+    },
+    {
+      "fecha_iso": "2015-12-26T00:00:00",
+      "materia": "ANALISIS DE FLUIDOS Y MECANISMOS",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "En sus examenes es mejor pasar el de primera oportunidad porque es el pasable, los de recuperacion son bien cabrones pero si da muchas oportunidades. Todo el semestre estaras ocupado con el estudiando, proyectos, tareas, etc. A pesar de la dificultad vale la pena totalmente porque aprendes mucho."
+    },
+    {
+      "fecha_iso": "2015-12-09T00:00:00",
+      "materia": "ANÁLISIS DE FLUIDOS",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Uno de los mejores profesores que pueden encontrarse en el tecnológico, si no te molesta que tu promedio baje a cambio de aprender, debes cargar con el, es muy accesible si ve que tienes las intenciones de aprender, y en ocasiones se avienta unos discursos motivacionales bien efectivos."
+    },
+    {
+      "fecha_iso": "2015-01-14T00:00:00",
+      "materia": "ANALISIS DE FLUIDOS/MECANISMOS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Es uno de los mejores profesores que hay en el tec. A pesar de parecer un poco inmaduro sus clases son muy interesantes y dinamicas y te enseña a ser Responsable ( te genera algunos traumas pero valen la pena por que aprendes mucho)"
+    },
+    {
+      "fecha_iso": "2014-01-13T00:00:00",
+      "materia": "MECANICA DE FLUIDOS / MECANISMOS",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Un Profesor bastante preparado y con mucho potencial, sus clases son claras y bien explicadas. lamentablemente tiene la madurez de un niño califica como quiere, carga con el si estas dispuesto a esforzarte mucho y tener una calificación mediocre."
+    },
+    {
+      "fecha_iso": "2013-11-14T00:00:00",
+      "materia": "TERMOFLUIDOS",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "DATOS SOBRE EL :\nES EL REY DE LOS TORCUAS\nSUS \"letra s\" , \"signos de integral\" y \"numeros 5\" son exactamente iguales.\nSu caricatura de la infancia favorita, al parecer son \"los caballeros del zodiaco\",por lo tanto obviamente, incluira problemas relacionados a episodios de la serie en los examenes"
+    },
+    {
+      "fecha_iso": "2013-10-05T00:00:00",
+      "materia": "MECANISMOS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Este profe es un excelente maestro, te exige muchisimo y a veces se avienta unos rollos de comportamiento bien raros, no es nada facil, pero si estas en un grupo abierto al dialogo con él a pesar de reprobar te dará la oportunidad de presentar un trabajo de investigación para acreditar los parciales"
+    },
+    {
+      "fecha_iso": "2013-08-03T00:00:00",
+      "materia": "ANÁLISIS DE FLUIDOS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Muy buen maestro, si quieres aprender en serio"
+    },
+    {
+      "fecha_iso": "2013-03-06T00:00:00",
+      "materia": "DISEÑO",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "se agarra cura y aprendes"
+    },
+    {
+      "fecha_iso": "2012-11-22T00:00:00",
+      "materia": "DISEÑO II",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "exelente profesor"
+    },
+    {
+      "fecha_iso": "2012-04-26T00:00:00",
+      "materia": "TERMOFLUIDOS",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 7.5,
+      "recomienda": 0,
+      "comentario": "no le entendi nada. tuve que busca ayuda con otros profesores para poder creditar la materia. pienso que le falta mas formacion profesional."
+    },
+    {
+      "fecha_iso": "2011-07-21T00:00:00",
+      "materia": "TERMOFLUIDOS",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": ""
+    }
+  ],
+  "comments_recent": [
+    "un maestro muy peculiar",
+    "Siempre llega tarde pero si da clases, es claro enseñando y ayuda a los alumnos fuera de clase si lo necesitan",
+    "Este compa está fácil a morir, pasa absolutamente a TODOS aunque no le hayan pasado ni un examen y nunca hayan ido, pero es súper impuntual, siempre llega de 30-40 minutos tarde y no deja entrar a nadie después que el, además de que no enseña la gran cosa.",
+    "es super impuntual siempre llega por lo menos media hora tarde y no enseña mucho pero pasa a todos aunque no le hayan pasado ni siquiera un examen",
+    "Muy buen maestro, sus clases son muy claras y los exámenes si están algo complicados, es muy estricto pero al final sí da varias oportunidades para pasar pero le tienes que demostrar que sabes",
+    "Creo que es un profesor que si eres un alumno que demuestra que le pone empeño en aprender, ser disciplinado y responsable no se te dificulta. La mayoría que se expresan mal de el son alumnos que no muestran interés en la clase y eso el lo nota. Lo recomiendo si eres disciplinado en clase.",
+    "Muy mañoso y nunca admite ningún error. Los temas los da bien, te exige mucho más en el proyecto, así que aprendes por ti solo en base a su exigencia, si no te molesta llevarte con el, te irá bien, porque es muy favoritista y llevado con los alumnos, tiene reacciones y comportamientos erráticos.",
+    "Es buen maestro, se preocupa por sus alumnos, hace la clase algo interesante,\ntiene un defecto la MADUREZ DE UN NIÑO\n\nes mejor pasar a la primera oportunidad con el ,\ny lleguen a un acuerdo grupal al principio de clase BIEN, no se les ocurra agarras examen y proyecto a la vez, eso nos paso NA.",
+    "Buen profe de los pocos profesores que de verdad se preocupa por sus alumnos, claro lo demuestra a su manera pero lo hace, no lo dudes y carga con él, eso sí, vas a trabajar y estudiar mucho así que deja la flojera a un lado."
+  ],
+  "n_reviews": 21
+}

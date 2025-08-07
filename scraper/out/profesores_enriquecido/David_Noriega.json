@@ -1,0 +1,155 @@
+{
+  "professor_id": "David_Noriega",
+  "nombre": "David Noriega",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 9.79245387525062,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.76970864304704,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 1.0,
+    "wilson_interval": [
+      0.5100999795960008,
+      1
+    ],
+    "n_recommendations": 4
+  },
+  "subject_normalization": {
+    "z_mean": 0.26,
+    "z_mean_decayed": 0.26,
+    "per_subject": [
+      {
+        "materia": "INTERFACES",
+        "z_decayed": 0.26111648393354675,
+        "n": 4
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "es",
+          "clases",
+          "profesor",
+          "buen profesor",
+          "buen"
+        ],
+        "weight": 0.3001194495476466
+      },
+      {
+        "id": 1,
+        "words": [
+          "buen profesor",
+          "profesor",
+          "clases",
+          "bien",
+          "es"
+        ],
+        "weight": 0.3598870779332047
+      }
+    ],
+    "sentiment": {
+      "overall": 0.25,
+      "by_month": {
+        "2013-12": 0.0,
+        "2013-11": 0.0,
+        "2013-04": 1.0,
+        "2013-01": 0.0
+      }
+    },
+    "n_comments": 4
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        9.0,
+        10.0,
+        10.0,
+        10.0
+      ],
+      "ewma": [
+        9.0,
+        9.3,
+        9.51,
+        9.657
+      ],
+      "sigma": 0.29452037280975973
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 9.657,
+      "quality_band": [
+        9.079740069292871,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2013-12-04T00:00:00",
+      "materia": "PROGRAMACIÓN.",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Muy buen profesor, lastima que nunca llego a sus clases jajja"
+    },
+    {
+      "fecha_iso": "2013-11-14T00:00:00",
+      "materia": "ELECTRICIDAD Y MAGNETISMO",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Muy buen Profesor, Lo recomiendo (Y)"
+    },
+    {
+      "fecha_iso": "2013-04-27T00:00:00",
+      "materia": "DIODOS Y TRANSISTORES",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "excelente profesor, es uno de mis favoritos, me encanta como da las clases... explica muy bien"
+    },
+    {
+      "fecha_iso": "2013-01-09T00:00:00",
+      "materia": "INTERFACES",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "es bien camarada.. aparte que si pasas si pones de tu parte .. es muy facil pasar con el"
+    }
+  ],
+  "comments_recent": [
+    "Muy buen profesor, lastima que nunca llego a sus clases jajja",
+    "Muy buen Profesor, Lo recomiendo (Y)",
+    "excelente profesor, es uno de mis favoritos, me encanta como da las clases... explica muy bien",
+    "es bien camarada.. aparte que si pasas si pones de tu parte .. es muy facil pasar con el"
+  ],
+  "n_reviews": 4
+}

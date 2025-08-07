@@ -1,0 +1,169 @@
+{
+  "professor_id": "cinthia_lidieth_Rojas_Espinoza",
+  "nombre": "cinthia lidieth Rojas Espinoza",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 6.892267325545352,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 6.918394733510571,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.4,
+    "wilson_interval": [
+      0.11761823115925325,
+      0.769280067791163
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": -0.23,
+    "z_mean_decayed": -0.42,
+    "per_subject": [
+      {
+        "materia": "INVESTIGACION",
+        "z_decayed": 0.1587768372074889,
+        "n": 7
+      },
+      {
+        "materia": "FUNDAMENTOS DE INVESTIGACIÓN",
+        "z_decayed": -0.6139179179520315,
+        "n": 29
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "profesora",
+          "trabajos",
+          "quieres",
+          "examenes",
+          "es"
+        ],
+        "weight": 0.34872943518713195
+      },
+      {
+        "id": 1,
+        "words": [
+          "profesora",
+          "buena profesora",
+          "trabajos",
+          "falta",
+          "clases"
+        ],
+        "weight": 0.37273074275414686
+      }
+    ],
+    "sentiment": {
+      "overall": -0.25,
+      "by_month": {
+        "2016-11": 0.0,
+        "2015-06": 0.0,
+        "2013-11": -1.0,
+        "2013-08": 0.0
+      }
+    },
+    "n_comments": 4
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        6.0,
+        4.0,
+        9.5,
+        5.0
+      ],
+      "ewma": [
+        6.0,
+        5.3999999999999995,
+        6.629999999999999,
+        6.140999999999999
+      ],
+      "sigma": 1.9554812493774179
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 6.140999999999999,
+      "quality_band": [
+        2.3082567512202603,
+        9.973743248779737
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2016-11-05T00:00:00",
+      "materia": "FUNDAMENTOS DE INVESTIGACIÓN",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 0,
+      "comentario": "Se ha presentado solamente a cuatro clases y estoy a un mes de terminar el semestre. Ha calificado la primera unidad en base a las asistencias de esas cuatro clases y ha encargado un solo trabajo para obtener la calificación de la segunda unidad. Considero un exceso de falta de puntualidad/interés."
+    },
+    {
+      "fecha_iso": "2015-06-15T00:00:00",
+      "materia": "ING DE SISTEMAS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2015-06-08T00:00:00",
+      "materia": "INGENIERIA DE SISTEMAS",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "La verdad es una buena profesora y si se explica muy claramente, falta mucho por que aparte es la encargada del centro de información. Los examenes estan bien faciles si te la quieres llevar light ve con ella."
+    },
+    {
+      "fecha_iso": "2013-11-14T00:00:00",
+      "materia": "FUNDAMENTOS DE LA INV. Y SISTEMAS E TALLER DE INV 2",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "ANTES ERA BUENA PROFESORA PERO HA DECAIDO MUCHO YA NO VA A CLASES Y SUS TRABAJOS NO TIENEN NADA DE DIFICIL"
+    },
+    {
+      "fecha_iso": "2013-08-09T00:00:00",
+      "materia": "INVESTIGACION",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 0,
+      "comentario": "Es normal,dejar trabajos y los revisa, examenes no dificiles, ni complicados, a veces se ausenta, normal, ningun reto intelectual sus clases, no es injusta ni nada, repruebas por que quieres."
+    }
+  ],
+  "comments_recent": [
+    "Se ha presentado solamente a cuatro clases y estoy a un mes de terminar el semestre. Ha calificado la primera unidad en base a las asistencias de esas cuatro clases y ha encargado un solo trabajo para obtener la calificación de la segunda unidad. Considero un exceso de falta de puntualidad/interés.",
+    "La verdad es una buena profesora y si se explica muy claramente, falta mucho por que aparte es la encargada del centro de información. Los examenes estan bien faciles si te la quieres llevar light ve con ella.",
+    "ANTES ERA BUENA PROFESORA PERO HA DECAIDO MUCHO YA NO VA A CLASES Y SUS TRABAJOS NO TIENEN NADA DE DIFICIL",
+    "Es normal,dejar trabajos y los revisa, examenes no dificiles, ni complicados, a veces se ausenta, normal, ningun reto intelectual sus clases, no es injusta ni nada, repruebas por que quieres."
+  ],
+  "n_reviews": 5
+}

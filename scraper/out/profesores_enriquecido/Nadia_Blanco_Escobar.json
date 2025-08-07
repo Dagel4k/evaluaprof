@@ -1,0 +1,136 @@
+{
+  "professor_id": "Nadia_Blanco_Escobar",
+  "nombre": "Nadia Blanco Escobar",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 9.046244343315086,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.698280071618469,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 1.0,
+    "wilson_interval": [
+      0.5100999795960008,
+      1
+    ],
+    "n_recommendations": 4
+  },
+  "subject_normalization": {
+    "z_mean": 0.79,
+    "z_mean_decayed": 0.72,
+    "per_subject": [
+      {
+        "materia": "ETICA",
+        "z_decayed": 0.9903391521354943,
+        "n": 31
+      },
+      {
+        "materia": "INGENIERÍA DE CALIDAD",
+        "z_decayed": 0.7302967433402209,
+        "n": 5
+      },
+      {
+        "materia": "TALLER DE INVESTIGACIÓN I",
+        "z_decayed": 0.6454972243679028,
+        "n": 11
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [],
+    "sentiment": {
+      "overall": null,
+      "by_month": {}
+    },
+    "n_comments": 3
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        10.0,
+        10.0,
+        10.0,
+        8.0
+      ],
+      "ewma": [
+        10.0,
+        10.0,
+        10.0,
+        9.4
+      ],
+      "sigma": 0.7000000000000002
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 9.4,
+      "quality_band": [
+        8.028,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2020-12-02T00:00:00",
+      "materia": "TALLER DE INVESTIGACIÓN L Y LL",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Buena maestra si recomiendo cargar con ella"
+    },
+    {
+      "fecha_iso": "2019-01-15T00:00:00",
+      "materia": "TALLER DE INVESTIGACIÓN I",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Muy buena profesora. Explica bien los temas y hace la materia muy facil. Te da buena retroalimentación y si tienes duda te la brinda."
+    },
+    {
+      "fecha_iso": "2018-08-04T00:00:00",
+      "materia": "INGENIERÍA DE CALIDAD",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2015-01-09T00:00:00",
+      "materia": "ETICA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "..."
+    }
+  ],
+  "comments_recent": [
+    "Buena maestra si recomiendo cargar con ella",
+    "Muy buena profesora. Explica bien los temas y hace la materia muy facil. Te da buena retroalimentación y si tienes duda te la brinda.",
+    "..."
+  ],
+  "n_reviews": 4
+}

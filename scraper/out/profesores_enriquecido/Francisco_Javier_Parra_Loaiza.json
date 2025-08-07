@@ -1,0 +1,255 @@
+{
+  "professor_id": "Francisco_Javier_Parra_Loaiza",
+  "nombre": "Francisco Javier Parra Loaiza",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 8.446401052550232,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.738796050132928,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.8,
+    "wilson_interval": [
+      0.49015684672072346,
+      0.9433190520193067
+    ],
+    "n_recommendations": 10
+  },
+  "subject_normalization": {
+    "z_mean": -0.13,
+    "z_mean_decayed": -0.09,
+    "per_subject": [
+      {
+        "materia": "AJEDREZ",
+        "z_decayed": -0.04083754747299938,
+        "n": 9
+      },
+      {
+        "materia": "---",
+        "z_decayed": -0.2674937579460514,
+        "n": 521
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "da",
+          "medidas",
+          "te",
+          "pide",
+          "ajedrez"
+        ],
+        "weight": 0.14834155945040975
+      },
+      {
+        "id": 1,
+        "words": [
+          "comentario",
+          "esperando",
+          "esperando revision",
+          "comentario esperando",
+          "revision"
+        ],
+        "weight": 0.16682599330858602
+      },
+      {
+        "id": 2,
+        "words": [
+          "da",
+          "clases",
+          "buen",
+          "buen maestro",
+          "maestro"
+        ],
+        "weight": 0.16315738675693497
+      },
+      {
+        "id": 3,
+        "words": [
+          "da",
+          "buen",
+          "si",
+          "es",
+          "es buen"
+        ],
+        "weight": 0.140655586280987
+      }
+    ],
+    "sentiment": {
+      "overall": 0.125,
+      "by_month": {
+        "2023-03": 0.0,
+        "2023-02": 0.0,
+        "2022-06": 0.2
+      }
+    },
+    "n_comments": 8
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.036,
+    "bursts": [
+      {
+        "from": "2022-06-21T00:00:00",
+        "to": "2022-06-21T00:00:00",
+        "count": 3
+      },
+      {
+        "from": "2022-06-21T00:00:00",
+        "to": "2022-06-22T00:00:00",
+        "count": 4
+      },
+      {
+        "from": "2022-06-21T00:00:00",
+        "to": "2022-06-22T00:00:00",
+        "count": 5
+      }
+    ],
+    "low_variance_flag": 0,
+    "trust_score": 0.68
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        8.666666666666666,
+        10.0,
+        3.0,
+        10.0
+      ],
+      "ewma": [
+        8.666666666666666,
+        9.066666666666666,
+        7.246666666666666,
+        8.072666666666667
+      ],
+      "sigma": 2.7165942935145018
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 8.072666666666667,
+      "quality_band": [
+        2.748141851378243,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2023-03-13T00:00:00",
+      "materia": "AJEDREZ",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 23.0,
+      "recomienda": 1,
+      "comentario": "El mejor profe, Senpai y Conocedor de taikuando"
+    },
+    {
+      "fecha_iso": "2023-03-13T00:00:00",
+      "materia": "AJEDREZ",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Pide Ajedrez y gel antibacterial, es estricto en temas de comportamiento en clase, cuida las medidas de seguridad y higiene.\nTe agrega a un equipo de teams y aisgna tareas en él.\nPide un ajedrez por persona para las clases donde te da las coordenadas."
+    },
+    {
+      "fecha_iso": "2023-02-27T00:00:00",
+      "materia": "---",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2022-07-02T00:00:00",
+      "materia": "AJEDREZ",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2022-06-22T00:00:00",
+      "materia": "AJEDREZ",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Si lo recomiendo es buen profesor"
+    },
+    {
+      "fecha_iso": "2022-06-22T00:00:00",
+      "materia": "AJEDREZ",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2022-06-21T00:00:00",
+      "materia": "AJEDREZ",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 1,
+      "comentario": "muy buen maestro"
+    },
+    {
+      "fecha_iso": "2022-06-21T00:00:00",
+      "materia": "AJEDREZ",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Es un buen maestro, el enfoque que da a sus clases me parece muy bueno y te hace ver al ajedrez como algo además de un juego, brinca un gran apoyo y fue muy comprensible durante el curso"
+    },
+    {
+      "fecha_iso": "2022-06-21T00:00:00",
+      "materia": "AJEDREZ",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Si juegas Ajedrez, te pide que des de alta en Chees.com para participar en torneos virtuales, crea sesiones online para que juegues con otros compañeros, vez parte teórica y te pide que veas vídeos de ajedrez. Separa los grupo a consecuencia de que muchos cargan Ajedrez. Sigue medidas sanitarias."
+    },
+    {
+      "fecha_iso": "2022-06-17T00:00:00",
+      "materia": "---",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    }
+  ],
+  "comments_recent": [
+    "El mejor profe, Senpai y Conocedor de taikuando",
+    "Pide Ajedrez y gel antibacterial, es estricto en temas de comportamiento en clase, cuida las medidas de seguridad y higiene.\nTe agrega a un equipo de teams y aisgna tareas en él.\nPide un ajedrez por persona para las clases donde te da las coordenadas.",
+    "[Comentario esperando revisión]",
+    "Si lo recomiendo es buen profesor",
+    "muy buen maestro",
+    "Es un buen maestro, el enfoque que da a sus clases me parece muy bueno y te hace ver al ajedrez como algo además de un juego, brinca un gran apoyo y fue muy comprensible durante el curso",
+    "Si juegas Ajedrez, te pide que des de alta en Chees.com para participar en torneos virtuales, crea sesiones online para que juegues con otros compañeros, vez parte teórica y te pide que veas vídeos de ajedrez. Separa los grupo a consecuencia de que muchos cargan Ajedrez. Sigue medidas sanitarias.",
+    "[Comentario esperando revisión]"
+  ],
+  "n_reviews": 10
+}

@@ -1,0 +1,76 @@
+{
+  "professor_id": "Marcela_Bernal",
+  "nombre": "Marcela Bernal",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 2.0,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 6.5250837275144145,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.0,
+    "wilson_interval": [
+      0,
+      0.7934567085261071
+    ],
+    "n_recommendations": 1
+  },
+  "subject_normalization": {
+    "z_mean": -1.58,
+    "z_mean_decayed": -1.58,
+    "per_subject": [
+      {
+        "materia": "ANALISIS DE LA REALIDAD NACIONAL",
+        "z_decayed": -1.5790638438488862,
+        "n": 10
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [],
+    "sentiment": {
+      "overall": null,
+      "by_month": {}
+    },
+    "n_comments": 1
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": null,
+    "difficulty_trend": null,
+    "forecast": null,
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2013-08-09T00:00:00",
+      "materia": "ANALISIS DE LA REALIDAD NACIONAL",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 0,
+      "comentario": "Simplemente no es una maestra, no aprendes nada, no ves nada, no haces nada, mas que exponer un par de veces. Con eso y un trabajo al final te califica. Que pena que pongan a este tipo de personal a dar clases."
+    }
+  ],
+  "comments_recent": [
+    "Simplemente no es una maestra, no aprendes nada, no ves nada, no haces nada, mas que exponer un par de veces. Con eso y un trabajo al final te califica. Que pena que pongan a este tipo de personal a dar clases."
+  ],
+  "n_reviews": 1
+}

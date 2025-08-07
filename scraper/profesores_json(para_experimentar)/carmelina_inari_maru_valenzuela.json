@@ -1,0 +1,125 @@
+{
+  "nombre": "carmelina inari maru valenzuela",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "ciudad": "Ciudad: culiacan, sinaloa",
+  "departamento": "Departamento/Facultad: industrial",
+  "calidad_general": 4.9,
+  "porcentaje_recomienda": 29,
+  "nivel_dificultad": 5.7,
+  "etiquetas": [
+    "CALIFICA DURO (2)",
+    "LAS CLASES SON LARGAS (1)",
+    "LOS EXÁMENES SON DIFÍCILES (1)",
+    "MUCHAS TAREAS (1)",
+    "ASISTENCIA OBLIGATORIA (1)"
+  ],
+  "numero_calificaciones": 7,
+  "calificaciones": [
+    {
+      "fecha": "11/Jul/2024",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 2.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Industrial",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "De esta Maestra se sabe que en sus tiempos de estudiante era muy poco aplicada. Pobres nuevos alumnos.",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "19/Ene/2021",
+      "tipo_calificacion": "REGULAR",
+      "puntaje_calidad_general": 6.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "estudio del tranajo 1",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "8.5",
+      "interes_clase": "",
+      "comentario": "deja un proyecto  bien largo en la primera unidad y ni explica nada, es medio bipolar y deja puras exposiciones",
+      "etiquetas_comentario": [
+        "Califica Duro",
+        "Muchas tareas",
+        "Asistencia obligatoria"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "30/Ago/2017",
+      "tipo_calificacion": "REGULAR",
+      "puntaje_calidad_general": 4.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Estudio del trabajo 1",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "9",
+      "interes_clase": "",
+      "comentario": "No la volvería a cargar. Sabe del tema pero es CERO comprensible con los alumnos. En el primer proyecto  TODO te saldrá mal porque no explica bien como hacerlo. Absolutamente todo el semestre estarás presionado de si vas a pasar o no. Falta mucho y al final creo que ella califica como quiere.",
+      "etiquetas_comentario": [
+        "Califica Duro",
+        "Las clases son largas",
+        "Los exámenes son difíciles"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "14/Ene/2016",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 2.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "ESTUDIO",
+      "asistencia": "",
+      "calificacion_recibida": "N/A",
+      "interes_clase": "N/A",
+      "comentario": "no la carguen nunca",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "22/Sep/2014",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Maestria",
+      "asistencia": "",
+      "calificacion_recibida": "10",
+      "interes_clase": "10",
+      "comentario": "Es buena maestra aunque muy estricta",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "15/Ene/2014",
+      "tipo_calificacion": "REGULAR",
+      "puntaje_calidad_general": 5.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "estudio del trabajo I",
+      "asistencia": "",
+      "calificacion_recibida": "8",
+      "interes_clase": "8",
+      "comentario": "su clase trata de investigar y comentar en su clase el primer parcial exenta a quien participo mas, pero es muy floja para calificar, no ayuda al ultimo con puntos ni nada.lo que te sacas es lo que te pone.",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "04/Ago/2013",
+      "tipo_calificacion": "REGULAR",
+      "puntaje_calidad_general": 5.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "estudio del trabajo I",
+      "asistencia": "",
+      "calificacion_recibida": "8",
+      "interes_clase": "8",
+      "comentario": "si aprendes con la maestra, pero es muy especial y no te ayuda en nada al final.",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    }
+  ]
+}

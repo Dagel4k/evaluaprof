@@ -1,0 +1,332 @@
+{
+  "professor_id": "Jesús_Alberto_Albarran_Murguia",
+  "nombre": "Jesús Alberto Albarran Murguia",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 6.3575374928963395,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 6.751036840106342,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.533,
+    "wilson_interval": [
+      0.3011663015105079,
+      0.7519077474025356
+    ],
+    "n_recommendations": 15
+  },
+  "subject_normalization": {
+    "z_mean": -0.11,
+    "z_mean_decayed": -0.32,
+    "per_subject": [
+      {
+        "materia": "ELECTRICIDAD Y ELECTRÓNICA INDUSTRIAL",
+        "z_decayed": 0.5871381659170795,
+        "n": 9
+      },
+      {
+        "materia": "ELECTRICIDAD",
+        "z_decayed": -0.19781905683896664,
+        "n": 8
+      },
+      {
+        "materia": "ELECTRICIDAD Y ELECTRONICA INDUSTRIAL",
+        "z_decayed": -0.6405808626511149,
+        "n": 9
+      },
+      {
+        "materia": "CIRCUITOS",
+        "z_decayed": -0.970946667004732,
+        "n": 4
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "es facil",
+          "clases",
+          "verdad",
+          "maestro",
+          "es"
+        ],
+        "weight": 0.13765784947261847
+      },
+      {
+        "id": 1,
+        "words": [
+          "hace",
+          "te",
+          "casi nunca",
+          "casi",
+          "nunca"
+        ],
+        "weight": 0.16297594741351737
+      },
+      {
+        "id": 2,
+        "words": [
+          "si",
+          "falta",
+          "profesores si",
+          "profesores",
+          "mejor"
+        ],
+        "weight": 0.14597091789897418
+      },
+      {
+        "id": 3,
+        "words": [
+          "va",
+          "facil",
+          "porque",
+          "pone",
+          "bien"
+        ],
+        "weight": 0.09643914765960088
+      },
+      {
+        "id": 4,
+        "words": [
+          "semestre",
+          "solo",
+          "asi",
+          "aprendes",
+          "pasas"
+        ],
+        "weight": 0.09878816604896012
+      }
+    ],
+    "sentiment": {
+      "overall": 0.08333333333333333,
+      "by_month": {
+        "2021-12": 0.0,
+        "2015-09": 0.0,
+        "2015-05": 0.0,
+        "2013-08": 0.0,
+        "2013-06": 0.5,
+        "2013-02": 0.0,
+        "2012-12": 0.0,
+        "2012-10": 0.0,
+        "2012-08": 0.0,
+        "2012-06": 0.0,
+        "2012-01": 0.0
+      }
+    },
+    "n_comments": 12
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        2.0,
+        7.0,
+        8.0,
+        6.0,
+        2.0,
+        10.0,
+        8.0,
+        5.0,
+        5.0,
+        8.0,
+        8.0,
+        9.0,
+        8.0,
+        5.0
+      ],
+      "ewma": [
+        2.0,
+        3.5,
+        4.85,
+        5.194999999999999,
+        4.2364999999999995,
+        5.9655499999999995,
+        6.5758849999999995,
+        6.103119499999999,
+        5.772183649999999,
+        6.440528554999998,
+        6.908369988499999,
+        7.535858991949999,
+        7.675101294364998,
+        6.872570906055498
+      ],
+      "sigma": 1.9232765602680517
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 6.872570906055498,
+      "quality_band": [
+        3.1029488479301164,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2025-05-28T00:00:00",
+      "materia": "ELECTRICIDAD Y ELECTRONICA INDUSTRIAL",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 0,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2021-12-16T00:00:00",
+      "materia": "INSTALACIONES ELÉCTRICAS INDUSTRIALES.",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Falta mucho, es barquisimo y le vale todo. Eso si, es super facil pasar con el. De todas formas tratandose de materias importantes seria mejor cargarlas con profesores que si se empeñen que Ontiveros Mireles o ya de perdida Ochoa"
+    },
+    {
+      "fecha_iso": "2021-01-21T00:00:00",
+      "materia": "ELECTRICIDAD Y ELECTRÓNICA INDUSTRIAL",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2020-01-27T00:00:00",
+      "materia": "ELECTRICIDAD Y ELECTRÓNICA INDUSTRIAL",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2015-09-17T00:00:00",
+      "materia": "ELÉCTRICIDAD",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Falta mucho a clases pero se le entiende bien y es fácil pasar con él. Así como también hay mejores opciones es preferible cargar con él que con Barrantes."
+    },
+    {
+      "fecha_iso": "2015-05-10T00:00:00",
+      "materia": "ELECTRICIDAD Y ELECTRONICA INDUSTRIAL",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 0,
+      "comentario": "Creo que sale mejor cargar con otros profesores si quieres aprender realmente. Este profe no reprueba y los examenes salen faciles pero falta mucho y no le sacamos nada de provecho al plan de estudios, hay mejores opciones"
+    },
+    {
+      "fecha_iso": "2013-08-02T00:00:00",
+      "materia": "ELECTRICIDAD",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Casi nunca da clases, dará unas 9 en todo el semestre. La primera para presentarse, y después da una antes de cada examen para explicar todo el parcial que vendrá en el examen que son como 3, luego otra para una practica y la ultima para entregar un trabajo que te dejara de la practica."
+    },
+    {
+      "fecha_iso": "2013-06-18T00:00:00",
+      "materia": "ELEC.",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "este vato vale verga\nnunca va a las clases, pero te pasa con 100 hace examenes muy faciless"
+    },
+    {
+      "fecha_iso": "2013-06-18T00:00:00",
+      "materia": "ELECTRICIDAD Y ELECTRONICA INDUSTRIAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Ningún maestro es perfecto, a mi parecer enseña muy bien pero el defecto que tiene es que a veces te pone a pensar si se acuerda que tiene que dar clases, porque falta muchísimo, pero es fácil sacar 100."
+    },
+    {
+      "fecha_iso": "2013-02-10T00:00:00",
+      "materia": "ELECTRICIDAD Y ELECTRONICA INDUSTRIAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "es muy buen maestro la verdad yo. muuuuyy buenooo diria yo"
+    },
+    {
+      "fecha_iso": "2012-12-18T00:00:00",
+      "materia": "CIRCUITOS",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 0.5,
+      "recomienda": 0,
+      "comentario": "Es un huevon nunca se presenta a clases regularmente, pero se muestra muy prepotente y ofensivo. No debería tener grupos asignados. Es un miserable, déspota y engreído. Fuera del Tec este tipo de Maestros."
+    },
+    {
+      "fecha_iso": "2012-10-29T00:00:00",
+      "materia": "ELECTRICIDAD Y ELECTRÓNICA INDUSTRIAL",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 0,
+      "comentario": "Casi nunca asiste a clases, pero los exámenes los hace muy fáciles. No aprendes mucho pero pasas con 100"
+    },
+    {
+      "fecha_iso": "2012-08-16T00:00:00",
+      "materia": "ELECTRICIDAD Y ELEC",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "nunca va, y pone todo bien facil, sales bien porque sales bien, carga con el si quieres elevar tu promedio"
+    },
+    {
+      "fecha_iso": "2012-06-14T00:00:00",
+      "materia": "ELECTRICIDAD Y ELECTRONICA INDUSTRIAL",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "La verdad casi nunca va, pero los examenes son muy facilies y solo hace como dos en el semestre, te dice que vendra y es muy facil pasar ademas que no es exigente"
+    },
+    {
+      "fecha_iso": "2012-01-19T00:00:00",
+      "materia": "ELECTRICIDAD Y ELECTRONICA INDUSTRIAL",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": "en todo el semestre solo dio como 10 clases no sabes ke dia ira, los exmanes son de los pocos apuntes si los estudias pasas y todo lo deja al final asi k no cuenten k saldran antes. la vdd no aprendes nada."
+    }
+  ],
+  "comments_recent": [
+    "Falta mucho, es barquisimo y le vale todo. Eso si, es super facil pasar con el. De todas formas tratandose de materias importantes seria mejor cargarlas con profesores que si se empeñen que Ontiveros Mireles o ya de perdida Ochoa",
+    "Falta mucho a clases pero se le entiende bien y es fácil pasar con él. Así como también hay mejores opciones es preferible cargar con él que con Barrantes.",
+    "Creo que sale mejor cargar con otros profesores si quieres aprender realmente. Este profe no reprueba y los examenes salen faciles pero falta mucho y no le sacamos nada de provecho al plan de estudios, hay mejores opciones",
+    "Casi nunca da clases, dará unas 9 en todo el semestre. La primera para presentarse, y después da una antes de cada examen para explicar todo el parcial que vendrá en el examen que son como 3, luego otra para una practica y la ultima para entregar un trabajo que te dejara de la practica.",
+    "este vato vale verga\nnunca va a las clases, pero te pasa con 100 hace examenes muy faciless",
+    "Ningún maestro es perfecto, a mi parecer enseña muy bien pero el defecto que tiene es que a veces te pone a pensar si se acuerda que tiene que dar clases, porque falta muchísimo, pero es fácil sacar 100.",
+    "es muy buen maestro la verdad yo. muuuuyy buenooo diria yo"
+  ],
+  "n_reviews": 15
+}

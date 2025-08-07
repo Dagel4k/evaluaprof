@@ -1,0 +1,196 @@
+{
+  "professor_id": "Elias_Angulo_Angulo",
+  "nombre": "Elias Angulo Angulo",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 8.587290951355769,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.54849506266616,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.833,
+    "wilson_interval": [
+      0.4364905634363539,
+      0.9699474141282696
+    ],
+    "n_recommendations": 6
+  },
+  "subject_normalization": {
+    "z_mean": 0.59,
+    "z_mean_decayed": 0.61,
+    "per_subject": [
+      {
+        "materia": "PROBABILIDAD Y ESTADISTICA",
+        "z_decayed": 0.9251304240994335,
+        "n": 32
+      },
+      {
+        "materia": "PROBABILIDAD",
+        "z_decayed": 0.7599851569224803,
+        "n": 14
+      },
+      {
+        "materia": "ESTADISTICA",
+        "z_decayed": -0.4029401962844329,
+        "n": 10
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "profesor",
+          "es",
+          "buen maestro",
+          "maestro",
+          "buen"
+        ],
+        "weight": 0.19362011475747384
+      },
+      {
+        "id": 1,
+        "words": [
+          "maestro",
+          "es",
+          "profesor",
+          "explica",
+          "te"
+        ],
+        "weight": 0.23818252657145833
+      },
+      {
+        "id": 2,
+        "words": [
+          "explica",
+          "te",
+          "es",
+          "profesor",
+          "excelente"
+        ],
+        "weight": 0.18701265539213144
+      }
+    ],
+    "sentiment": {
+      "overall": 0.3333333333333333,
+      "by_month": {
+        "2011-12": 0.0,
+        "2011-10": 1.0,
+        "2011-05": 0.0,
+        "2011-04": 0.5
+      }
+    },
+    "n_comments": 6
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        10.0,
+        5.5,
+        10.0,
+        10.0
+      ],
+      "ewma": [
+        10.0,
+        8.65,
+        9.055,
+        9.3385
+      ],
+      "sigma": 1.8848084949140063
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 9.3385,
+      "quality_band": [
+        5.644275349968547,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2011-12-12T00:00:00",
+      "materia": "PROBABILIDAD Y ESTADISTICA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "es muy buen maestro"
+    },
+    {
+      "fecha_iso": "2011-10-28T00:00:00",
+      "materia": "PROBABILIDAD",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "excelente"
+    },
+    {
+      "fecha_iso": "2011-05-10T00:00:00",
+      "materia": "PROB. Y EST.",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 0,
+      "comentario": "buen maestro"
+    },
+    {
+      "fecha_iso": "2011-05-07T00:00:00",
+      "materia": "ESTADISTICA",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 1,
+      "comentario": "buen profesor"
+    },
+    {
+      "fecha_iso": "2011-04-30T00:00:00",
+      "materia": "PROBABILIDAD Y ESTADISTICA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Siempre explica cosas tan fácil que con abacos lo resuelves y en los examenes siempre lee revistas y no mira a los alumnos, asi que si no sabes NADA el de a lado te pasa todo, y con lo facil que esta pues pasas."
+    },
+    {
+      "fecha_iso": "2011-04-16T00:00:00",
+      "materia": "PROBABILIDAD",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Es un excelente profesor, explica te maravilla y te ayuda mucho."
+    }
+  ],
+  "comments_recent": [
+    "es muy buen maestro",
+    "excelente",
+    "buen maestro",
+    "buen profesor",
+    "Siempre explica cosas tan fácil que con abacos lo resuelves y en los examenes siempre lee revistas y no mira a los alumnos, asi que si no sabes NADA el de a lado te pasa todo, y con lo facil que esta pues pasas.",
+    "Es un excelente profesor, explica te maravilla y te ayuda mucho."
+  ],
+  "n_reviews": 6
+}

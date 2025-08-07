@@ -1,0 +1,115 @@
+{
+  "professor_id": "José_Antonio_Zárate",
+  "nombre": "José Antonio Zárate",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 4.417953559351628,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 6.44430161558912,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.333,
+    "wilson_interval": [
+      0.061490315276160515,
+      0.7923450448735121
+    ],
+    "n_recommendations": 3
+  },
+  "subject_normalization": {
+    "z_mean": -0.59,
+    "z_mean_decayed": -0.67,
+    "per_subject": [
+      {
+        "materia": "DESARROLLO SUSTENTABLE",
+        "z_decayed": -0.6686500471999889,
+        "n": 52
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [],
+    "sentiment": {
+      "overall": null,
+      "by_month": {}
+    },
+    "n_comments": 3
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        4.0,
+        8.0,
+        2.0
+      ],
+      "ewma": [
+        4.0,
+        5.199999999999999,
+        4.239999999999999
+      ],
+      "sigma": 2.525179861580821
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 4.239999999999999,
+      "quality_band": [
+        0.0,
+        9.189352528698407
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2013-12-03T00:00:00",
+      "materia": "DESARROLLO SUSTENTABLE",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 0,
+      "comentario": "NO ENTIENDO POR QUE DA CLASES EL VATO TIENE PARKINSON Y NO RAZONA SE LE OLVIDAN LAS COSAS LOS PONDRA A EXPONER TODO EL SEMESTRE PONLE QUE TE TOQUE UNA VES PERO SE VUELVEN MUY TEDIOSAS LAS CLASES Y FALTA MUCHO A FIN DE CUENTAS TE DEJA 85 Y NO TOMA EN CUENTA NADA Y NO APENDRES, UNA HORA DIARIA LIBRE"
+    },
+    {
+      "fecha_iso": "2013-02-11T00:00:00",
+      "materia": "DESARROLLO SUSTENTABLE",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "esta bien safado, te da la materia a su perspectiva que la verdad es muy interesante, es sensillo sacar el alta calificacion nomas asiste y el mismo te dira que calificacion quieres y esa es la que obtendras, claro siempre y cuando esta sea sustentable"
+    },
+    {
+      "fecha_iso": "2012-10-30T00:00:00",
+      "materia": "DESARROLLO SUSTENTABLE",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Su clase es de todo menos de desarrollo sustentable, no reprobarás pero tampoco tendrás una calificación que te llene, se la pasa criticando todo diciendo que el estudio no sirve etc etc... lo bueno es que no haces nada con él."
+    }
+  ],
+  "comments_recent": [
+    "NO ENTIENDO POR QUE DA CLASES EL VATO TIENE PARKINSON Y NO RAZONA SE LE OLVIDAN LAS COSAS LOS PONDRA A EXPONER TODO EL SEMESTRE PONLE QUE TE TOQUE UNA VES PERO SE VUELVEN MUY TEDIOSAS LAS CLASES Y FALTA MUCHO A FIN DE CUENTAS TE DEJA 85 Y NO TOMA EN CUENTA NADA Y NO APENDRES, UNA HORA DIARIA LIBRE",
+    "esta bien safado, te da la materia a su perspectiva que la verdad es muy interesante, es sensillo sacar el alta calificacion nomas asiste y el mismo te dira que calificacion quieres y esa es la que obtendras, claro siempre y cuando esta sea sustentable",
+    "Su clase es de todo menos de desarrollo sustentable, no reprobarás pero tampoco tendrás una calificación que te llene, se la pasa criticando todo diciendo que el estudio no sirve etc etc... lo bueno es que no haces nada con él."
+  ],
+  "n_reviews": 3
+}

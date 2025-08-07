@@ -1,0 +1,587 @@
+{
+  "professor_id": "Noe_De_la_Rocha_Soto",
+  "nombre": "Noe De la Rocha Soto",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 6.547034814581935,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 6.14116502088872,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.447,
+    "wilson_interval": [
+      0.3014616531155089,
+      0.6029397082091058
+    ],
+    "n_recommendations": 38
+  },
+  "subject_normalization": {
+    "z_mean": -0.44,
+    "z_mean_decayed": -0.26,
+    "per_subject": [
+      {
+        "materia": "MATEMATICAS I",
+        "z_decayed": 0.9805930739015237,
+        "n": 11
+      },
+      {
+        "materia": "MATEMATICAS",
+        "z_decayed": 0.8169471328572092,
+        "n": 17
+      },
+      {
+        "materia": "MATE",
+        "z_decayed": 0.12757297666876877,
+        "n": 7
+      },
+      {
+        "materia": "MATEMATICAS IV",
+        "z_decayed": 0.0,
+        "n": 5
+      },
+      {
+        "materia": "ALGEBRA",
+        "z_decayed": -0.06622661785325219,
+        "n": 4
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "tu cuenta",
+          "verdad",
+          "buen maestro",
+          "maestro",
+          "buen"
+        ],
+        "weight": 0.09027803676606774
+      },
+      {
+        "id": 1,
+        "words": [
+          "es",
+          "clase",
+          "si",
+          "te",
+          "da"
+        ],
+        "weight": 0.13290272297447164
+      },
+      {
+        "id": 2,
+        "words": [
+          "comentario esperando",
+          "esperando",
+          "esperando revision",
+          "comentario",
+          "revision"
+        ],
+        "weight": 0.053156164668214656
+      },
+      {
+        "id": 3,
+        "words": [
+          "sirve si",
+          "si sabe",
+          "sabe explica",
+          "verdad amigo",
+          "recomiendo"
+        ],
+        "weight": 0.06970167101779048
+      },
+      {
+        "id": 4,
+        "words": [
+          "pones",
+          "te",
+          "es",
+          "profesor es",
+          "profesor"
+        ],
+        "weight": 0.08380852168170015
+      }
+    ],
+    "sentiment": {
+      "overall": 0.06451612903225806,
+      "by_month": {
+        "2025-05": 0.0,
+        "2024-12": -1.0,
+        "2024-06": 0.0,
+        "2024-03": 0.0,
+        "2024-02": 0.0,
+        "2024-01": 0.0,
+        "2023-09": 0.0,
+        "2023-08": 0.0,
+        "2023-05": 0.0,
+        "2023-03": 0.0,
+        "2020-12": 1.0,
+        "2019-03": 0.0,
+        "2018-01": 0.5,
+        "2016-01": -1.0,
+        "2015-06": 0.0,
+        "2014-01": 0.0,
+        "2013-08": 0.0,
+        "2013-01": 1.0,
+        "2012-11": 0.0,
+        "2012-10": 0.0,
+        "2012-09": 0.0,
+        "2012-03": 1.0,
+        "2011-05": 0.0,
+        "2011-01": 0.0
+      }
+    },
+    "n_comments": 31
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.009,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        4.0,
+        6.8,
+        4.0,
+        3.0,
+        5.0,
+        10.0,
+        4.0,
+        4.0,
+        3.0,
+        4.0,
+        2.0,
+        2.0,
+        7.0,
+        10.0,
+        3.0,
+        10.0,
+        10.0,
+        10.0,
+        2.0,
+        7.0,
+        2.0,
+        10.0,
+        5.5,
+        10.0,
+        8.5,
+        7.0,
+        6.0,
+        5.0
+      ],
+      "ewma": [
+        4.0,
+        4.84,
+        4.588,
+        4.111599999999999,
+        4.378119999999999,
+        6.064684,
+        5.4452788,
+        5.0116951599999995,
+        4.408186612,
+        4.2857306284,
+        3.60001143988,
+        3.1200080079159997,
+        4.2840056055412,
+        5.99880392387884,
+        5.099162746715187,
+        6.569413922700631,
+        7.5985897458904414,
+        8.319012822123309,
+        6.423308975486315,
+        6.596316282840421,
+        5.217421397988294,
+        6.6521949785918055,
+        6.306536485014263,
+        7.4145755395099835,
+        7.740202877656988,
+        7.518142014359892,
+        7.062699410051924,
+        6.443889587036347
+      ],
+      "sigma": 2.1939621976260413
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 6.443889587036347,
+      "quality_band": [
+        2.143723679689306,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2025-05-28T00:00:00",
+      "materia": "CALCULO",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 0,
+      "comentario": "LE PEGA A SUS HIJOS"
+    },
+    {
+      "fecha_iso": "2024-12-15T00:00:00",
+      "materia": "CALCULO DIFERENCIAL",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 0,
+      "comentario": "Esta cabron, el profe la mayoria de veces explica eltema como si lo supieramos desde antes, solamente los que si saben ayudan al profe, aunque uno intente poner atencion, es complicado, el profe es bien buena onda, asi que uno si tiene que copear de vez en cuando para poder pasar la materia"
+    },
+    {
+      "fecha_iso": "2024-06-11T00:00:00",
+      "materia": "ÁLGEBRA LINEAL",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Te explica los temas de forma muuy resumida. Los exámenes están fáciles porque literal es lo que vimos en clase y los preexamenes son lo mismo, así que si repruebas los exámenes es porque de plano te hiciste wey. Eso si buenas pláticas de la vida, te inspira a ser chingón, como él dice."
+    },
+    {
+      "fecha_iso": "2024-03-07T00:00:00",
+      "materia": "ALGEBRA",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 1,
+      "comentario": "La hace de vrga y se cree mejor que todo el alumnado"
+    },
+    {
+      "fecha_iso": "2024-03-04T00:00:00",
+      "materia": "CALCULO DIFERENCIAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2024-02-21T00:00:00",
+      "materia": "CIENCIAS BASICAS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 1,
+      "comentario": "SU CLASE MUY COMPLETA ATRAPA COMPLETAMENTE EL INTERES DE LOS ALUMNOS DA EJEMPLOS REALES"
+    },
+    {
+      "fecha_iso": "2024-01-28T00:00:00",
+      "materia": "CALCULO",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 0,
+      "comentario": "Se ponia a decirnos que el estaba casi hasta arriba con la gente rica y nosotros hasta abajo, se la pasaba hablando de su moto de 400k pesos y una vez sacó una caguama en clase"
+    },
+    {
+      "fecha_iso": "2024-01-15T00:00:00",
+      "materia": "CALCULO DIFERENCIAL",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 1,
+      "comentario": "explica muy bien, las faltas no importan anoser que sea dia de examen o de participacion, los examenes son de lo visto en clase, tareas o de los PDF que manda que nadie ve NO REGALA CALIFICACION, te da 3 oportunidades para pasar, no es facil pero tampoco imposible\n tenerlo de segunda opc ta bien"
+    },
+    {
+      "fecha_iso": "2023-09-02T00:00:00",
+      "materia": "CALCULO",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": "muy buen maestro muy profesional"
+    },
+    {
+      "fecha_iso": "2023-08-29T00:00:00",
+      "materia": "CALCULO DIFERENCIAL",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Me grito, y me dijo cabron mientras me pedia mi nombre."
+    },
+    {
+      "fecha_iso": "2023-05-22T00:00:00",
+      "materia": "CALCUL INTREGRAL",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": "La verdad es muy mal profesor, neta que no organizo este semestre para nada es verdad que los examenes son sencillos pero debes de estudiar muy bien por tu cuenta, y si repruebas te da varias oportunidades pasar pero es solo porque le da hueva reprobar gente, califica como se le da la chingada gana"
+    },
+    {
+      "fecha_iso": "2023-03-17T00:00:00",
+      "materia": "CALCULO INTEGRAL",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 24.0,
+      "recomienda": 0,
+      "comentario": "MUY MAL SE PASA DE VRG Y NO DA SEGUNDA OPORTUNIDADES"
+    },
+    {
+      "fecha_iso": "2020-12-12T00:00:00",
+      "materia": "CALCULO DIFERENCIAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Excelente profesor"
+    },
+    {
+      "fecha_iso": "2019-08-08T00:00:00",
+      "materia": "CALCULO DIFERENCIAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2019-03-29T00:00:00",
+      "materia": "CALCULO",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 1,
+      "comentario": "buen maestro"
+    },
+    {
+      "fecha_iso": "2018-05-29T00:00:00",
+      "materia": "INTEGRAL",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 7.5,
+      "recomienda": 0,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2018-05-24T00:00:00",
+      "materia": "MATAMATICAS",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 0,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2018-02-16T00:00:00",
+      "materia": "ÁLGEBRA LINEAL",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2018-01-17T00:00:00",
+      "materia": "CALCULO DIFERENCIAL",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 0,
+      "comentario": "Falta bastante y cuando se presenta da la clase demasiado rápido. Si no tienes conocimientos previos de la materia es muy probable que repruebes."
+    },
+    {
+      "fecha_iso": "2018-01-14T00:00:00",
+      "materia": "CALCULO DIFERENCIAL",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": "El profesor es bueno, sabe mucho, si te le pones al tu por tu olvida pasar la materia, no tiene tiempo para los alumnos fuera de clase, si tienes duda te dice que si ya leíste y no comprendiste, te da una plataforma y un libro para que contestes, la verdad todo viene ahí, y te da muchas oportunidade"
+    },
+    {
+      "fecha_iso": "2016-01-15T00:00:00",
+      "materia": "CÁLCULO INTEGRAL",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 0,
+      "comentario": "Horrible"
+    },
+    {
+      "fecha_iso": "2015-06-11T00:00:00",
+      "materia": "CÁLCULO INTEGRAL",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 0,
+      "comentario": "Este profesor es un asco. No aprendes nada"
+    },
+    {
+      "fecha_iso": "2014-01-12T00:00:00",
+      "materia": "CALCULO I",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 0,
+      "comentario": "No me gusto su forma de dar clases, explica para tontos y ademas no se le entiende, esta muy ocupado y nunca atiende tiene otras cosas que hacer, no lo recomiendo"
+    },
+    {
+      "fecha_iso": "2013-08-04T00:00:00",
+      "materia": "CALCULO INTEGRAL",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": 3.0,
+      "recomienda": 0,
+      "comentario": "Sus clases son a base de exposiciones hechas por los alumnos, pocas veces se paró frente al pizarrón a explicar un tema, frecuentemente te da platicas y consejos, y existe una falta de seriedad en su clase. Tienes que estudiar por tu cuenta para poder hacer los exámenes, que por cierto son en equipo"
+    },
+    {
+      "fecha_iso": "2013-06-18T00:00:00",
+      "materia": "CALCULO DIFERENCIAL",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 5.0,
+      "recomienda": 0,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2013-01-14T00:00:00",
+      "materia": "CALCULO DIFERENCIAL",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 3.0,
+      "recomienda": 0,
+      "comentario": "La verdad ese profesor te da animos y luego te dice que eres una mierda, si pasas con el si pones atencion y sabes estudiar por tu lado pero como profesor no es bueno, pueden cargar con el pero los huevones reprobaran"
+    },
+    {
+      "fecha_iso": "2012-11-29T00:00:00",
+      "materia": "MATEMATICAS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Un día un compañero saco una mala calificación y le empezó a decir que si que le pasaba que si que eran esas calificaciones y de pronto dijo:\n\n-No, perdón aquí el que fallo fui yo- \n\nY desde ese día se dedico a ayudarle, preguntarle todos los días, clases extras y fue uno de los mejores ese semestre"
+    },
+    {
+      "fecha_iso": "2012-10-29T00:00:00",
+      "materia": "ÁLGEBRA LINEAL",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 0,
+      "comentario": "No maneja muy bien los temas en las clases."
+    },
+    {
+      "fecha_iso": "2012-10-24T00:00:00",
+      "materia": "MATE",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "SOMOS CHINGONES!"
+    },
+    {
+      "fecha_iso": "2012-09-05T00:00:00",
+      "materia": "CALCULO INTEGRAL",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 0,
+      "comentario": "La verdad ese amigo no sirve para nada, si sabe y explica mas o menos bien, pero igual no lo recomiendo, faltaba mucho y es algo llevado, y le gusta mucho el dinero"
+    },
+    {
+      "fecha_iso": "2012-03-30T00:00:00",
+      "materia": "CALCULO INTEGRAL",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 4.0,
+      "recomienda": 0,
+      "comentario": "La verdad ese amigo no sirve para nada, si sabe y explica mas o menos bien, pero igual no lo recomiendo, faltaba mucho y es algo llevado, que bueno que se fue a mochis"
+    },
+    {
+      "fecha_iso": "2011-05-25T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2011-05-10T00:00:00",
+      "materia": "MATEMATICAS IV",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 1,
+      "comentario": "buena onda."
+    },
+    {
+      "fecha_iso": "2011-05-09T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 0.5,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2011-05-06T00:00:00",
+      "materia": "MATEMATICAS I",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 1,
+      "comentario": "buen maestro"
+    },
+    {
+      "fecha_iso": "2011-05-06T00:00:00",
+      "materia": "MATEMATICAS IV",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 1,
+      "comentario": "buen maestro"
+    },
+    {
+      "fecha_iso": "2011-01-30T00:00:00",
+      "materia": "CALCULO",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 1.0,
+      "recomienda": 0,
+      "comentario": "LACRA"
+    },
+    {
+      "fecha_iso": "2011-01-22T00:00:00",
+      "materia": "CALCULO DIFERENCIAL",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": ""
+    }
+  ],
+  "comments_recent": [
+    "LE PEGA A SUS HIJOS",
+    "Esta cabron, el profe la mayoria de veces explica eltema como si lo supieramos desde antes, solamente los que si saben ayudan al profe, aunque uno intente poner atencion, es complicado, el profe es bien buena onda, asi que uno si tiene que copear de vez en cuando para poder pasar la materia",
+    "Te explica los temas de forma muuy resumida. Los exámenes están fáciles porque literal es lo que vimos en clase y los preexamenes son lo mismo, así que si repruebas los exámenes es porque de plano te hiciste wey. Eso si buenas pláticas de la vida, te inspira a ser chingón, como él dice.",
+    "La hace de vrga y se cree mejor que todo el alumnado",
+    "SU CLASE MUY COMPLETA ATRAPA COMPLETAMENTE EL INTERES DE LOS ALUMNOS DA EJEMPLOS REALES",
+    "Se ponia a decirnos que el estaba casi hasta arriba con la gente rica y nosotros hasta abajo, se la pasaba hablando de su moto de 400k pesos y una vez sacó una caguama en clase",
+    "explica muy bien, las faltas no importan anoser que sea dia de examen o de participacion, los examenes son de lo visto en clase, tareas o de los PDF que manda que nadie ve NO REGALA CALIFICACION, te da 3 oportunidades para pasar, no es facil pero tampoco imposible\n tenerlo de segunda opc ta bien",
+    "muy buen maestro muy profesional",
+    "Me grito, y me dijo cabron mientras me pedia mi nombre."
+  ],
+  "n_reviews": 38
+}

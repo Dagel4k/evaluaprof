@@ -1,0 +1,91 @@
+{
+  "professor_id": "Ignacio_Sánchez_Ochoa",
+  "nombre": "Ignacio Sánchez Ochoa",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 8.830296470061267,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.31466008355488,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 1.0,
+    "wilson_interval": [
+      0.3423719528896193,
+      1
+    ],
+    "n_recommendations": 2
+  },
+  "subject_normalization": {
+    "z_mean": 0.88,
+    "z_mean_decayed": 0.88,
+    "per_subject": [
+      {
+        "materia": "TALLER DE INVESTIGACIÓN",
+        "z_decayed": 0.8928660402432333,
+        "n": 9
+      },
+      {
+        "materia": "FUNDAMENTOS DE INVESTIGACION",
+        "z_decayed": 0.8752422814280783,
+        "n": 24
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [],
+    "sentiment": {
+      "overall": null,
+      "by_month": {}
+    },
+    "n_comments": 2
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": null,
+    "difficulty_trend": null,
+    "forecast": null,
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2025-06-01T00:00:00",
+      "materia": "FUNDAMENTOS DE INVESTIGACION",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "El ninja, porque si estas en el semestre de lluvias, olvídate de que vaya a dar clases, lo normal, da su clase (muchas veces se desvía), examenes sencillos, recalcar que enserio solo tuve maximo 10 clases (por no decir menos) de su materia, recomendado en esta materia de relleno, si toma lista"
+    },
+    {
+      "fecha_iso": "2024-06-05T00:00:00",
+      "materia": "TALLER DE INVESTIGACIÓN",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Un gran profesor, explicar muy bien y sus trabajos y exámenes son de lo que explica, sin duda alguna una gran recomendacion para taller."
+    }
+  ],
+  "comments_recent": [
+    "El ninja, porque si estas en el semestre de lluvias, olvídate de que vaya a dar clases, lo normal, da su clase (muchas veces se desvía), examenes sencillos, recalcar que enserio solo tuve maximo 10 clases (por no decir menos) de su materia, recomendado en esta materia de relleno, si toma lista",
+    "Un gran profesor, explicar muy bien y sus trabajos y exámenes son de lo que explica, sin duda alguna una gran recomendacion para taller."
+  ],
+  "n_reviews": 2
+}

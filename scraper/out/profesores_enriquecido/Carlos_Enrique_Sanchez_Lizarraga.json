@@ -1,0 +1,257 @@
+{
+  "professor_id": "Carlos_Enrique_Sanchez_Lizarraga",
+  "nombre": "Carlos Enrique Sanchez Lizarraga",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 9.960154970978868,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 8.19873268435045,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.889,
+    "wilson_interval": [
+      0.5649937852319398,
+      0.9801096286728695
+    ],
+    "n_recommendations": 9
+  },
+  "subject_normalization": {
+    "z_mean": 0.39,
+    "z_mean_decayed": 0.56,
+    "per_subject": [
+      {
+        "materia": "DIBUJO ASISTIDO POR COMPUTADORA",
+        "z_decayed": 0.7888106377466153,
+        "n": 15
+      },
+      {
+        "materia": "DINÁMICA",
+        "z_decayed": 0.4217411678366503,
+        "n": 11
+      },
+      {
+        "materia": "---",
+        "z_decayed": 0.23580762940734074,
+        "n": 521
+      },
+      {
+        "materia": "DINAMICA",
+        "z_decayed": 0.0,
+        "n": 4
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "cositas",
+          "entiende",
+          "clase",
+          "100",
+          "es"
+        ],
+        "weight": 0.15602257083118312
+      },
+      {
+        "id": 1,
+        "words": [
+          "examen",
+          "mejor",
+          "mejor profe",
+          "profe",
+          "te"
+        ],
+        "weight": 0.209435769599531
+      },
+      {
+        "id": 2,
+        "words": [
+          "claro",
+          "buen profesor",
+          "faciles",
+          "buen",
+          "examenes"
+        ],
+        "weight": 0.13243548362787153
+      },
+      {
+        "id": 3,
+        "words": [
+          "es",
+          "examen",
+          "profesor",
+          "decir",
+          "verdad"
+        ],
+        "weight": 0.14701111951565796
+      }
+    ],
+    "sentiment": {
+      "overall": 0.5555555555555556,
+      "by_month": {
+        "2025-01": 0.0,
+        "2024-08": 1.0,
+        "2022-08": 0.0,
+        "2022-06": 1.0,
+        "2019-08": 0.0,
+        "2018-12": 1.0,
+        "2018-06": 1.0,
+        "2015-08": 1.0,
+        "2015-01": 0.0
+      }
+    },
+    "n_comments": 9
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        6.0,
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        10.0
+      ],
+      "ewma": [
+        6.0,
+        7.199999999999999,
+        8.04,
+        8.628,
+        9.0396,
+        9.32772,
+        9.529404,
+        9.670582799999998,
+        9.769407959999999
+      ],
+      "sigma": 0.916940196725311
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 9.769407959999999,
+      "quality_band": [
+        7.97220517441839,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2025-01-14T00:00:00",
+      "materia": "DIBUJO ASISTIDO POR COMPUTADORA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "EL MEJOR PROFE DEL TEC\nSuper amable, explica muy bien y va a tu ritmo siempre, le interesa que aprendas y te ayuda muchisimo."
+    },
+    {
+      "fecha_iso": "2024-08-09T00:00:00",
+      "materia": "DIBUJO ASISTIDO POR COMPUTADORA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Es una increíble persona y profe, gran carisma y paciencia. Explica todo paso a paso, se asegura de que todos vayan bien. En examen revisa cada mínimo detalle, pero baja .1 decimas por error, y a decir verdad, es bastante fácil el examen si pusiste atención como para que algo te salga mal."
+    },
+    {
+      "fecha_iso": "2022-08-09T00:00:00",
+      "materia": "DINAMICA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "El mejor profe que existe, puro pendejo reprueba con el, da muchas oportunidades y te deja sacar libreta en el examen. Si tienes una duda pregúntale y el te la contesta sin problema, está muy preparado y DaVinci se la pela dibujando."
+    },
+    {
+      "fecha_iso": "2022-06-13T00:00:00",
+      "materia": "DINÁMICA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Su apodo es \"Cositas\" porque con cualquier error te baja la calificación, pero se entiende totalmente porque sus exámenes son demasiado fáciles, es 100 seguro, muy buen profesor y persona, amable y claro al explicar."
+    },
+    {
+      "fecha_iso": "2019-08-04T00:00:00",
+      "materia": "DINÁMICA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "No desaproveches la oportunidad de tener clase con el. Su apodo es 'Cositas', con eso te digo todo. Es un 100 seguro"
+    },
+    {
+      "fecha_iso": "2018-12-13T00:00:00",
+      "materia": "DINAMICA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Excelente profesor la verdad. No hay mas que decir."
+    },
+    {
+      "fecha_iso": "2018-06-02T00:00:00",
+      "materia": "DINÁMICA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Este profesor es muy amable, se le entiende, es accesible y muy comprensivo. La clase está para pasarla con 100."
+    },
+    {
+      "fecha_iso": "2015-08-05T00:00:00",
+      "materia": "DINÁMICA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "muy buen profesor, explica super claro y sus examenes son faciles"
+    },
+    {
+      "fecha_iso": "2015-01-16T00:00:00",
+      "materia": "---",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    }
+  ],
+  "comments_recent": [
+    "EL MEJOR PROFE DEL TEC\nSuper amable, explica muy bien y va a tu ritmo siempre, le interesa que aprendas y te ayuda muchisimo.",
+    "Es una increíble persona y profe, gran carisma y paciencia. Explica todo paso a paso, se asegura de que todos vayan bien. En examen revisa cada mínimo detalle, pero baja .1 decimas por error, y a decir verdad, es bastante fácil el examen si pusiste atención como para que algo te salga mal.",
+    "El mejor profe que existe, puro pendejo reprueba con el, da muchas oportunidades y te deja sacar libreta en el examen. Si tienes una duda pregúntale y el te la contesta sin problema, está muy preparado y DaVinci se la pela dibujando.",
+    "Su apodo es \"Cositas\" porque con cualquier error te baja la calificación, pero se entiende totalmente porque sus exámenes son demasiado fáciles, es 100 seguro, muy buen profesor y persona, amable y claro al explicar.",
+    "No desaproveches la oportunidad de tener clase con el. Su apodo es 'Cositas', con eso te digo todo. Es un 100 seguro",
+    "Excelente profesor la verdad. No hay mas que decir.",
+    "Este profesor es muy amable, se le entiende, es accesible y muy comprensivo. La clase está para pasarla con 100.",
+    "muy buen profesor, explica super claro y sus examenes son faciles",
+    "[Comentario esperando revisión]"
+  ],
+  "n_reviews": 9
+}

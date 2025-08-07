@@ -1,0 +1,76 @@
+{
+  "nombre": "José Tlaloc Dionisio Minjarez",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "ciudad": "Ciudad: culiacan, sinaloa",
+  "departamento": "Departamento/Facultad: Industrial",
+  "calidad_general": 10.0,
+  "porcentaje_recomienda": 100,
+  "nivel_dificultad": 0.7,
+  "etiquetas": [
+    "LA PARTICIPACIÓN IMPORTA (1)",
+    "BRINDA APOYO (1)",
+    "DEJA TRABAJOS LARGOS (2)",
+    "BARCO (1)",
+    "POCOS EXÁMENES (1)",
+    "MUY CÓMICO (1)",
+    "RESPETADO POR LOS ESTUDIANTES (1)",
+    "TOMARÍA SU CLASE OTRA VEZ (1)"
+  ],
+  "numero_calificaciones": 3,
+  "calificaciones": [
+    {
+      "fecha": "15/Mar/2024",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Taller De Música",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "En mi caso no es materia, es actividad complementaria, la verdad las clases de música si las hace muy interesantes, hay clases muy buenas o otras donde solo pone un video y después una explicación, sigue sin quitarle lo interesante, pero entre que los focos están apagados te da sueño",
+      "etiquetas_comentario": [
+        "Muy cómico",
+        "Respetado por los estudiantes",
+        "Tomaría su clase otra vez"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "05/Mar/2021",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Comunicación Humana",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "Buen profe, me gusta mucho su forma de enseñar. La teoría no la hace tan aburrida. Es muy accesible. Para reprobar con él, de plano apenas que no entregues ninguna tarea, aparte es una materia fácil.",
+      "etiquetas_comentario": [
+        "Barco",
+        "Pocos Exámenes",
+        "Deja trabajos largos"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "10/Ago/2020",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Taller de investigación 1",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "N/A",
+      "interes_clase": "",
+      "comentario": "Es el de la banda del tec, el vato sabe machín de la materia pero la verdad como que no se la complica mucho porque piensa que no nos interesa la clase y la vemos cómo relleno pero la verdad es que si es cierto jaja \nEs por eso que deja muchas exposiciones en todo el semestre",
+      "etiquetas_comentario": [
+        "La Participación Importa",
+        "Brinda apoyo",
+        "Deja trabajos largos"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    }
+  ]
+}

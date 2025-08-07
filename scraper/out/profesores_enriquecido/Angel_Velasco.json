@@ -1,0 +1,293 @@
+{
+  "professor_id": "Angel_Velasco",
+  "nombre": "Angel Velasco",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 6.51258137572341,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 5.894091476317074,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.182,
+    "wilson_interval": [
+      0.05136660067100062,
+      0.4769861375782449
+    ],
+    "n_recommendations": 11
+  },
+  "subject_normalization": {
+    "z_mean": -0.45,
+    "z_mean_decayed": -0.52,
+    "per_subject": [
+      {
+        "materia": "ANALISIS DE FLUIDOS",
+        "z_decayed": 0.0,
+        "n": 8
+      },
+      {
+        "materia": "DIBUJO (AUTOCAD)",
+        "z_decayed": 0.0,
+        "n": 3
+      },
+      {
+        "materia": "---",
+        "z_decayed": -0.063840602107841,
+        "n": 521
+      },
+      {
+        "materia": "ANÁLISIS DE FLUIDOS",
+        "z_decayed": -1.5369735979513093,
+        "n": 8
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "es",
+          "dificil",
+          "buena",
+          "buena calificacion",
+          "calificacion"
+        ],
+        "weight": 0.08881834563278389
+      },
+      {
+        "id": 1,
+        "words": [
+          "calificacion",
+          "materia",
+          "hace",
+          "examenes",
+          "mas"
+        ],
+        "weight": 0.1677895115225131
+      },
+      {
+        "id": 2,
+        "words": [
+          "explica bien",
+          "explica",
+          "hace",
+          "examen",
+          "hace examen"
+        ],
+        "weight": 0.13054503488162844
+      },
+      {
+        "id": 3,
+        "words": [
+          "es",
+          "exige",
+          "ensena",
+          "si",
+          "te"
+        ],
+        "weight": 0.0945946946364963
+      },
+      {
+        "id": 4,
+        "words": [
+          "maestro",
+          "proyecto",
+          "da",
+          "clase",
+          "es"
+        ],
+        "weight": 0.11385955047232872
+      }
+    ],
+    "sentiment": {
+      "overall": -0.18181818181818182,
+      "by_month": {
+        "2023-11": 0.0,
+        "2022-06": 0.0,
+        "2021-12": 0.0,
+        "2019-06": 0.0,
+        "2018-12": 0.0,
+        "2018-09": 0.0,
+        "2013-11": 0.0,
+        "2013-01": -1.0,
+        "2012-08": 0.0,
+        "2011-12": 0.0,
+        "2011-11": -1.0
+      }
+    },
+    "n_comments": 11
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        4.0,
+        4.0,
+        5.0,
+        4.0,
+        2.0,
+        2.0,
+        3.0,
+        6.0,
+        10.0,
+        9.0,
+        5.0
+      ],
+      "ewma": [
+        4.0,
+        4.0,
+        4.3,
+        4.21,
+        3.5469999999999997,
+        3.0828999999999995,
+        3.0580299999999996,
+        3.9406209999999993,
+        5.758434699999999,
+        6.730904289999998,
+        6.211633002999998
+      ],
+      "sigma": 1.7473168057028354
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 6.211633002999998,
+      "quality_band": [
+        2.786892063822441,
+        9.636373942177556
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2023-11-12T00:00:00",
+      "materia": "SISTEMAS DE GENERACION DE ENERGIA",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 0,
+      "comentario": "Es un tanto raro como da la clase, pero en general es buen maestro, prepárate a leer mucho y estudiar por tu cuenta y elige un buen proyecto grupal"
+    },
+    {
+      "fecha_iso": "2022-06-13T00:00:00",
+      "materia": "ANALISIS DE FLUIDOS",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "No se que hablan los que ponen mala referencia sobre el profe, hasta su nombre está mal escrito aquí, me imagino que personas no muy inteligentes han evaluado a este profesor, Velazco es uno de los profesores mas completos teórica y prácticamente, no hace exámenes y orienta la materia a lo aplicable"
+    },
+    {
+      "fecha_iso": "2021-12-25T00:00:00",
+      "materia": "GENERADORES DE VAPOR Y TURBINAS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "GRACIAS A SUS CLASES ESTUVE MAS PREPARADO Y PUDE APROBAR LOS EXAMENES PARA INGRESAR AL AREA DE GENERACION DE CFE"
+    },
+    {
+      "fecha_iso": "2019-06-06T00:00:00",
+      "materia": "FLUIDOS",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": "sismpre llega tarde , mete otros temas que no estan el programa no toma asistencia hace examen y no da los resusltados, al final te pide una bomba de ariete y un ejersicio de refigeracion si presentas eso en equipo pasas aunque no hallas ido nunca"
+    },
+    {
+      "fecha_iso": "2018-12-17T00:00:00",
+      "materia": "ANÁLISIS DE FLUIDOS",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 0,
+      "comentario": "No explica bien y exige mucho, por cada proyecto hace examen"
+    },
+    {
+      "fecha_iso": "2018-09-28T00:00:00",
+      "materia": "ANÁLISIS DE FLUIDOS",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Es una basura de maestro, no importa que tanto sepas o hagas, para el nada le convence y siempre te criticara y te hará sentir menos como si el fuera el mejor, no enseña nada, exige mucho y nada le convence"
+    },
+    {
+      "fecha_iso": "2013-11-14T00:00:00",
+      "materia": "MÁQUINAS HIDRÁULICAS Y TÉRMICAS",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Exige mucho y enseña poco, deja exposiciones de un día para otro, para que los alumnos den la clase por él. En mecánica/mecatrónica te va a toca con el sí o sí, al parecer lleva dando la misma materia más 30 años y él es el unico que la imparte(palntas térmicas/máq. hidr y termicas)."
+    },
+    {
+      "fecha_iso": "2013-01-09T00:00:00",
+      "materia": "DIBUJO (AUTOCAD)",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 0,
+      "comentario": "en si es un maestro dificil y no explica muy bien pero lo q cabe de cada quien sales de la materia con mucho conocimiento del programa y por la calificacion asiendo lo q te pide sales con buena calificacion"
+    },
+    {
+      "fecha_iso": "2012-08-09T00:00:00",
+      "materia": "---",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 7.5,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2011-12-31T00:00:00",
+      "materia": "DIBUJO (AUTOCAD)",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "nos exige mas que cualquier otro maestro de autocad y nos pone mas baja calificacion que los demas siendo que sabemos mucho mas. no lo recomiendo."
+    },
+    {
+      "fecha_iso": "2011-11-28T00:00:00",
+      "materia": "DIBUJO (AUTOCAD)",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "es bastante dificil entenderle, no puesdes pedirle ayuda si no le entindes, es bastante complicado pasar su materia con buena calificacion pues te pide cosas bastante dificiles de hacer en muy poco tiempo"
+    }
+  ],
+  "comments_recent": [
+    "Es un tanto raro como da la clase, pero en general es buen maestro, prepárate a leer mucho y estudiar por tu cuenta y elige un buen proyecto grupal",
+    "No se que hablan los que ponen mala referencia sobre el profe, hasta su nombre está mal escrito aquí, me imagino que personas no muy inteligentes han evaluado a este profesor, Velazco es uno de los profesores mas completos teórica y prácticamente, no hace exámenes y orienta la materia a lo aplicable",
+    "GRACIAS A SUS CLASES ESTUVE MAS PREPARADO Y PUDE APROBAR LOS EXAMENES PARA INGRESAR AL AREA DE GENERACION DE CFE",
+    "sismpre llega tarde , mete otros temas que no estan el programa no toma asistencia hace examen y no da los resusltados, al final te pide una bomba de ariete y un ejersicio de refigeracion si presentas eso en equipo pasas aunque no hallas ido nunca",
+    "No explica bien y exige mucho, por cada proyecto hace examen",
+    "Es una basura de maestro, no importa que tanto sepas o hagas, para el nada le convence y siempre te criticara y te hará sentir menos como si el fuera el mejor, no enseña nada, exige mucho y nada le convence",
+    "Exige mucho y enseña poco, deja exposiciones de un día para otro, para que los alumnos den la clase por él. En mecánica/mecatrónica te va a toca con el sí o sí, al parecer lleva dando la misma materia más 30 años y él es el unico que la imparte(palntas térmicas/máq. hidr y termicas).",
+    "en si es un maestro dificil y no explica muy bien pero lo q cabe de cada quien sales de la materia con mucho conocimiento del programa y por la calificacion asiendo lo q te pide sales con buena calificacion",
+    "[Comentario esperando revisión]",
+    "nos exige mas que cualquier otro maestro de autocad y nos pone mas baja calificacion que los demas siendo que sabemos mucho mas. no lo recomiendo."
+  ],
+  "n_reviews": 11
+}

@@ -1,0 +1,192 @@
+{
+  "professor_id": "Manuel_de_Jesus_Sandoval_Morales",
+  "nombre": "Manuel de Jesus Sandoval Morales",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 3.821112946286943,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 5.54849506266616,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.167,
+    "wilson_interval": [
+      0.030052585871730285,
+      0.563509436563646
+    ],
+    "n_recommendations": 6
+  },
+  "subject_normalization": {
+    "z_mean": -1.34,
+    "z_mean_decayed": -1.16,
+    "per_subject": [
+      {
+        "materia": "CALCULO INTEGRAL",
+        "z_decayed": 0.18231899244160182,
+        "n": 84
+      },
+      {
+        "materia": "CALCULO",
+        "z_decayed": -1.3346063893470288,
+        "n": 50
+      },
+      {
+        "materia": "ALGEBRA LINEAL",
+        "z_decayed": -2.0632490214712713,
+        "n": 35
+      },
+      {
+        "materia": "PROBABILIDAD Y ESTADISTICA",
+        "z_decayed": -2.150627869010371,
+        "n": 32
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "deberian",
+          "inepto",
+          "ensena",
+          "hace",
+          "maestro"
+        ],
+        "weight": 0.39935501088454783
+      },
+      {
+        "id": 1,
+        "words": [
+          "hace",
+          "maestro",
+          "deberian",
+          "inepto",
+          "es"
+        ],
+        "weight": 0.3468697631411261
+      }
+    ],
+    "sentiment": {
+      "overall": -0.25,
+      "by_month": {
+        "2017-05": 0.0,
+        "2015-01": 0.0,
+        "2013-07": -1.0,
+        "2013-06": 0.0
+      }
+    },
+    "n_comments": 4
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        8.0,
+        3.0
+      ],
+      "ewma": [
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        3.8,
+        3.5599999999999996
+      ],
+      "sigma": 1.7745609785709442
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 3.5599999999999996,
+      "quality_band": [
+        0.0818604820009492,
+        7.03813951799905
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2017-05-03T00:00:00",
+      "materia": "ALGEBRA LINEAL",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": "El profesor es un libro de matematicas con conceptos que no todos conocen, y hablando de ellos como si lo entendieramos igual que el, perdiendonos en el tema por querer averiguar que es cada cosa en vez de saber como resolver bien los ejercicios"
+    },
+    {
+      "fecha_iso": "2017-01-16T00:00:00",
+      "materia": "CALCULO INTEGRAL",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2016-01-14T00:00:00",
+      "materia": "VECTORIAL",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2015-01-25T00:00:00",
+      "materia": "ÁLGEBRA",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Maestro inepto, nos perjudica tenerlo como maestro. Deberían de despedirlo, no es justo. Que calidad de estudios nos ofrecen con esta persona que no hace su trabajo."
+    },
+    {
+      "fecha_iso": "2013-07-19T00:00:00",
+      "materia": "CALCULO",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 0.5,
+      "recomienda": 0,
+      "comentario": "Es un pésimo maestro, falta mucho y no enseña nada, es uno de los protegidos del Subdirector Academico y el Sindicato. Nos atraso el haber sido nuestro maestro porque ahora pagamos las consecuencias de lo que no aprendimos con el en otras materias. Lo reportamos para que lo corrieran, pero fue demasiado tarde el daño ya estaba hecho. Deberían correrlo por inepto al muy sinvergüenza."
+    },
+    {
+      "fecha_iso": "2013-06-08T00:00:00",
+      "materia": "PROBABILIDAD Y ESTADISTICA",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Mal maestro, no enseña con claridad, no hace ni examenes y te califica como le da la gana."
+    }
+  ],
+  "comments_recent": [
+    "El profesor es un libro de matematicas con conceptos que no todos conocen, y hablando de ellos como si lo entendieramos igual que el, perdiendonos en el tema por querer averiguar que es cada cosa en vez de saber como resolver bien los ejercicios",
+    "Maestro inepto, nos perjudica tenerlo como maestro. Deberían de despedirlo, no es justo. Que calidad de estudios nos ofrecen con esta persona que no hace su trabajo.",
+    "Es un pésimo maestro, falta mucho y no enseña nada, es uno de los protegidos del Subdirector Academico y el Sindicato. Nos atraso el haber sido nuestro maestro porque ahora pagamos las consecuencias de lo que no aprendimos con el en otras materias. Lo reportamos para que lo corrieran, pero fue demasiado tarde el daño ya estaba hecho. Deberían correrlo por inepto al muy sinvergüenza.",
+    "Mal maestro, no enseña con claridad, no hace ni examenes y te califica como le da la gana."
+  ],
+  "n_reviews": 6
+}

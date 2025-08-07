@@ -1,0 +1,112 @@
+{
+  "professor_id": "Juan_Hernandez",
+  "nombre": "Juan Hernandez",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 8.0,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.21353238481989,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.667,
+    "wilson_interval": [
+      0.20765495512648788,
+      0.9385096847238393
+    ],
+    "n_recommendations": 3
+  },
+  "subject_normalization": {
+    "z_mean": 0.23,
+    "z_mean_decayed": 0.23,
+    "per_subject": [
+      {
+        "materia": "TALLER DE SO",
+        "z_decayed": 1.5,
+        "n": 4
+      },
+      {
+        "materia": "POO",
+        "z_decayed": 0.08740446551670353,
+        "n": 62
+      },
+      {
+        "materia": "TESEBADA",
+        "z_decayed": -0.8894991799933217,
+        "n": 13
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [],
+    "sentiment": {
+      "overall": null,
+      "by_month": {}
+    },
+    "n_comments": 3
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [
+      {
+        "from": "2022-02-01T00:00:00",
+        "to": "2022-02-01T00:00:00",
+        "count": 3
+      }
+    ],
+    "low_variance_flag": 0,
+    "trust_score": 0.7
+  },
+  "trends_analysis": {
+    "quality_trend": null,
+    "difficulty_trend": null,
+    "forecast": null,
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2022-02-01T00:00:00",
+      "materia": "POO",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Al principio puede parecer loquito del centro pero no te asustes, solo trata de mostrate su aficion por linux, caguamea como albañil y picha empanadas de marlin, Juan ????"
+    },
+    {
+      "fecha_iso": "2022-02-01T00:00:00",
+      "materia": "TALLER DE SO",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Super interesante sus clases, Linus Torvalds dice que le dió clases cuando apenas era un embrión. Steve Wozniak le pidió clases, él solo le escupió y lo convirtió en un genio con un IQ mayor al promedio. Su mascota es un pingüino"
+    },
+    {
+      "fecha_iso": "2022-02-01T00:00:00",
+      "materia": "TESEBADA",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 0,
+      "comentario": "Este pseudoprofesor no es nada más que eso... un pendejazo. Pero muy buenos chistes se avienta el ingeniero."
+    }
+  ],
+  "comments_recent": [
+    "Al principio puede parecer loquito del centro pero no te asustes, solo trata de mostrate su aficion por linux, caguamea como albañil y picha empanadas de marlin, Juan ????",
+    "Super interesante sus clases, Linus Torvalds dice que le dió clases cuando apenas era un embrión. Steve Wozniak le pidió clases, él solo le escupió y lo convirtió en un genio con un IQ mayor al promedio. Su mascota es un pingüino",
+    "Este pseudoprofesor no es nada más que eso... un pendejazo. Pero muy buenos chistes se avienta el ingeniero."
+  ],
+  "n_reviews": 3
+}

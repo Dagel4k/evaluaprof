@@ -1,0 +1,162 @@
+{
+  "professor_id": "Jesús_Daniel_Calderon_Lomas",
+  "nombre": "Jesús Daniel Calderon Lomas",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 3.6909800825166728,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 6.651728066843904,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.4,
+    "wilson_interval": [
+      0.11761823115925325,
+      0.769280067791163
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": -0.77,
+    "z_mean_decayed": -0.77,
+    "per_subject": [
+      {
+        "materia": "MATEMATICAS V",
+        "z_decayed": -0.7676523704730557,
+        "n": 22
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "buen",
+          "buen maestro",
+          "maestro"
+        ],
+        "weight": 0.3597617361634418
+      },
+      {
+        "id": 1,
+        "words": [
+          "buen",
+          "buen maestro",
+          "maestro"
+        ],
+        "weight": 0.1443375672974065
+      }
+    ],
+    "sentiment": {
+      "overall": 0.25,
+      "by_month": {
+        "2021-03": 1.0,
+        "2014-04": 0.0,
+        "2012-06": 0.0,
+        "2011-05": 0.0
+      }
+    },
+    "n_comments": 4
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.167,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 0.92
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        6.0,
+        10.0,
+        3.0,
+        8.0,
+        3.0
+      ],
+      "ewma": [
+        6.0,
+        7.199999999999999,
+        5.9399999999999995,
+        6.558,
+        5.490599999999999
+      ],
+      "sigma": 2.474040135486892
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 5.490599999999999,
+      "quality_band": [
+        0.6414813344456904,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2021-03-12T00:00:00",
+      "materia": "MATEMATICAS 1 Y 2",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 0,
+      "comentario": "No es bueno y claro para explicar."
+    },
+    {
+      "fecha_iso": "2014-04-22T00:00:00",
+      "materia": "MATEMATICAS 2",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Buen maestro..!!"
+    },
+    {
+      "fecha_iso": "2012-06-21T00:00:00",
+      "materia": "MATEMATICAS II Y III",
+      "calidad": 3.0,
+      "dificultad": null,
+      "nota": 5.5,
+      "recomienda": 0,
+      "comentario": "NO SE LE ENTIENDE NAAAAADA.\nNO DOMINA LA MATERIA."
+    },
+    {
+      "fecha_iso": "2011-11-30T00:00:00",
+      "materia": "MATEMATICAS 2 Y 3",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2011-05-06T00:00:00",
+      "materia": "MATEMATICAS V",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 0,
+      "comentario": "buen maestro"
+    }
+  ],
+  "comments_recent": [
+    "No es bueno y claro para explicar.",
+    "Buen maestro..!!",
+    "NO SE LE ENTIENDE NAAAAADA.\nNO DOMINA LA MATERIA.",
+    "buen maestro"
+  ],
+  "n_reviews": 5
+}

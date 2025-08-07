@@ -1,0 +1,203 @@
+{
+  "professor_id": "Jose_Arturo_Patron_Arellanes",
+  "nombre": "Jose Arturo Patron Arellanes",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 4.896447621863093,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 6.104465941332856,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.286,
+    "wilson_interval": [
+      0.08221716570901548,
+      0.6410709098517873
+    ],
+    "n_recommendations": 7
+  },
+  "subject_normalization": {
+    "z_mean": -0.49,
+    "z_mean_decayed": -0.47,
+    "per_subject": [
+      {
+        "materia": "---",
+        "z_decayed": 0.30151346227393,
+        "n": 521
+      },
+      {
+        "materia": "MATEMATICAS I",
+        "z_decayed": -0.67887212808567,
+        "n": 11
+      },
+      {
+        "materia": "MATE",
+        "z_decayed": -1.3607784178001991,
+        "n": 7
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "comentario",
+          "comentario esperando",
+          "esperando",
+          "esperando revision",
+          "revision"
+        ],
+        "weight": 0.22271394678112474
+      },
+      {
+        "id": 1,
+        "words": [
+          "comentario",
+          "comentario esperando",
+          "esperando",
+          "esperando revision",
+          "revision"
+        ],
+        "weight": 0.036507232285710685
+      },
+      {
+        "id": 2,
+        "words": [
+          "comentario",
+          "comentario esperando",
+          "esperando",
+          "esperando revision",
+          "revision"
+        ],
+        "weight": 0.036507232285710865
+      }
+    ],
+    "sentiment": {
+      "overall": 0.14285714285714285,
+      "by_month": {
+        "2011-05": 0.25,
+        "2011-04": 0.0,
+        "2011-01": 0.0
+      }
+    },
+    "n_comments": 7
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.048,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 0.98
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        2.0,
+        5.0,
+        5.5
+      ],
+      "ewma": [
+        2.0,
+        2.9,
+        3.6799999999999997
+      ],
+      "sigma": 1.1402338941345909
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 3.6799999999999997,
+      "quality_band": [
+        1.4451415674962016,
+        5.914858432503798
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2011-05-25T00:00:00",
+      "materia": "---",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2011-05-10T00:00:00",
+      "materia": "MATEMATICAS I",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 0,
+      "comentario": "buena onda"
+    },
+    {
+      "fecha_iso": "2011-05-06T00:00:00",
+      "materia": "MATEMATICAS I",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 8.0,
+      "recomienda": 0,
+      "comentario": "bueno"
+    },
+    {
+      "fecha_iso": "2011-05-06T00:00:00",
+      "materia": "MATEMATICAS I",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": "alisten un buchanan"
+    },
+    {
+      "fecha_iso": "2011-04-30T00:00:00",
+      "materia": "MATE",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Pues sus materias estaban relativamente faciles. Solo ocupas guardar para pagarle el verano o para su buchanna's"
+    },
+    {
+      "fecha_iso": "2011-04-07T00:00:00",
+      "materia": "MATEMATIAS V",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Mis respetos pa este profesor... Como su apellido lo dice el es \"EL PATRON\" tiene bajo su control a todo el personal administrativo, lastima que ya se jubilo. Pero la plaza sigue siendo de Arturo esta cuidada por su la desendencia \"Patroncito Jr\"."
+    },
+    {
+      "fecha_iso": "2011-01-31T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 1.0,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    }
+  ],
+  "comments_recent": [
+    "[Comentario esperando revisión]",
+    "buena onda",
+    "bueno",
+    "alisten un buchanan",
+    "Pues sus materias estaban relativamente faciles. Solo ocupas guardar para pagarle el verano o para su buchanna's",
+    "Mis respetos pa este profesor... Como su apellido lo dice el es \"EL PATRON\" tiene bajo su control a todo el personal administrativo, lastima que ya se jubilo. Pero la plaza sigue siendo de Arturo esta cuidada por su la desendencia \"Patroncito Jr\".",
+    "[Comentario esperando revisión]"
+  ],
+  "n_reviews": 7
+}

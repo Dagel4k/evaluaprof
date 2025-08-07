@@ -1,0 +1,229 @@
+{
+  "professor_id": "IRMA_FRANCISCA_VALENZUELA_CHAIREZ",
+  "nombre": "IRMA FRANCISCA VALENZUELA CHAIREZ",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 9.909441399538109,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 8.209773389036586,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 1.0,
+    "wilson_interval": [
+      0.6755843804891231,
+      1
+    ],
+    "n_recommendations": 8
+  },
+  "subject_normalization": {
+    "z_mean": 0.82,
+    "z_mean_decayed": 1.31,
+    "per_subject": [
+      {
+        "materia": "TALLER DE ADMINISTRACIÓN",
+        "z_decayed": 1.9311535677731804,
+        "n": 22
+      },
+      {
+        "materia": "TALLER DE INVESTIGACIÓN 2",
+        "z_decayed": 0.7267220926874316,
+        "n": 5
+      },
+      {
+        "materia": "GESTIÓN DE COSTOS",
+        "z_decayed": 0.6370714624429672,
+        "n": 15
+      },
+      {
+        "materia": "CONTABILIDAD FINANCIERA",
+        "z_decayed": 0.6319077674270958,
+        "n": 13
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "explica",
+          "bien",
+          "nota",
+          "profesora",
+          "es"
+        ],
+        "weight": 0.23217889219741059
+      },
+      {
+        "id": 1,
+        "words": [
+          "trabajos",
+          "te",
+          "atencion",
+          "aprender",
+          "si"
+        ],
+        "weight": 0.26337044371859014
+      },
+      {
+        "id": 2,
+        "words": [
+          "es buena",
+          "tambien",
+          "te",
+          "trabajos",
+          "excelente"
+        ],
+        "weight": 0.18405671003469243
+      }
+    ],
+    "sentiment": {
+      "overall": 0.42857142857142855,
+      "by_month": {
+        "2025-05": 1.0,
+        "2021-10": 1.0,
+        "2021-02": 0.0,
+        "2019-08": 0.0,
+        "2019-01": 1.0,
+        "2018-08": 0.0,
+        "2018-06": 0.0
+      }
+    },
+    "n_comments": 7
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        9.5,
+        9.0,
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        10.0
+      ],
+      "ewma": [
+        9.5,
+        9.35,
+        9.544999999999998,
+        9.681499999999998,
+        9.77705,
+        9.843934999999998,
+        9.890754499999998
+      ],
+      "sigma": 0.25761943612931004
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 9.890754499999998,
+      "quality_band": [
+        9.38582040518655,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2025-05-31T00:00:00",
+      "materia": "TALLER DE ADMINISTRACIÓN",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Excelente profesora, explica los temas y las tareas son en moodle, tambien los examenes, deja mucho tiempo para hacerlos y te da muchas oportunidades, es buena onda con los alumnos, hasta puedes adelantar los trabajos para hacerlos desde el inicio."
+    },
+    {
+      "fecha_iso": "2021-10-25T00:00:00",
+      "materia": "GESTIÓN DE COSTOS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "La verdad no tengo queja, explica muy bien y de manera detallada y lo deja más claro en los ejemplos.\nA mi la verdad esta materia me aburre mucho, pero esto para nada es culpa de la profe, ella explica muy bien y nos pide participar de manera que estemos atentos a la clase."
+    },
+    {
+      "fecha_iso": "2021-02-25T00:00:00",
+      "materia": "CONTABILIDAD FINANCIERA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Un amor de persona, si quieres aprender pon atención, y si no, vas a pasar con 9, tareas y trabajos sencillos, muy buena persona se agarra cura, de las mejores maestras que me han dado."
+    },
+    {
+      "fecha_iso": "2019-08-05T00:00:00",
+      "materia": "CONTABILIDAD FINANCIERA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Es un amor de profesora. Sabe del tema perfectamente, además que se nota que le apasiona la materia. Hace que entiendas cuando no comprendes algo. Siempre está allí para ayudarte."
+    },
+    {
+      "fecha_iso": "2019-01-25T00:00:00",
+      "materia": "TALLER DE INVESTIGACIÓN 2",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Excelente maestra, no reprueba"
+    },
+    {
+      "fecha_iso": "2018-08-16T00:00:00",
+      "materia": "CONTABILIDAD FINANCIERA",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Un yate 5 estrellas para cursar materias de poco interes aunque si te interesa aprender, basta con poner atencion y preguntarle"
+    },
+    {
+      "fecha_iso": "2018-06-08T00:00:00",
+      "materia": "CONTABILIDAD FINACIERA",
+      "calidad": 9.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "Es buena profesora, se nota que sabe mucho de contabilidad, si pones atencion aprendes muy bien, y si no, tambien se pasa facil, solo con que entregues las tareas, siempre pasa a todos en los examenes, se nota que es una profesora que le da oportunidades a sus alumnos, carguen con ella."
+    },
+    {
+      "fecha_iso": "2018-06-08T00:00:00",
+      "materia": "CONTABILIDAD FINANCIERA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": ""
+    }
+  ],
+  "comments_recent": [
+    "Excelente profesora, explica los temas y las tareas son en moodle, tambien los examenes, deja mucho tiempo para hacerlos y te da muchas oportunidades, es buena onda con los alumnos, hasta puedes adelantar los trabajos para hacerlos desde el inicio.",
+    "La verdad no tengo queja, explica muy bien y de manera detallada y lo deja más claro en los ejemplos.\nA mi la verdad esta materia me aburre mucho, pero esto para nada es culpa de la profe, ella explica muy bien y nos pide participar de manera que estemos atentos a la clase.",
+    "Un amor de persona, si quieres aprender pon atención, y si no, vas a pasar con 9, tareas y trabajos sencillos, muy buena persona se agarra cura, de las mejores maestras que me han dado.",
+    "Es un amor de profesora. Sabe del tema perfectamente, además que se nota que le apasiona la materia. Hace que entiendas cuando no comprendes algo. Siempre está allí para ayudarte.",
+    "Excelente maestra, no reprueba",
+    "Un yate 5 estrellas para cursar materias de poco interes aunque si te interesa aprender, basta con poner atencion y preguntarle",
+    "Es buena profesora, se nota que sabe mucho de contabilidad, si pones atencion aprendes muy bien, y si no, tambien se pasa facil, solo con que entregues las tareas, siempre pasa a todos en los examenes, se nota que es una profesora que le da oportunidades a sus alumnos, carguen con ella."
+  ],
+  "n_reviews": 8
+}

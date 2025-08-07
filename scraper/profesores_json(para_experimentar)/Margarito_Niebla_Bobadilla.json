@@ -1,0 +1,136 @@
+{
+  "nombre": "Margarito Niebla Bobadilla",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "ciudad": "Ciudad: culiacan, sinaloa",
+  "departamento": "Departamento/Facultad: Económico-Administrativas",
+  "calidad_general": 6.9,
+  "porcentaje_recomienda": 71,
+  "nivel_dificultad": 1.1,
+  "etiquetas": [
+    "RESPETADO POR LOS ESTUDIANTES (3)",
+    "BRINDA APOYO (1)",
+    "CLASES EXCELENTES (1)",
+    "DA BUENA RETROALIMENTACIÓN (1)",
+    "PREPÁRATE PARA LEER (1)",
+    "CALIFICA DURO (1)",
+    "LA PARTICIPACIÓN IMPORTA (2)",
+    "LAS CLASES SON LARGAS (2)"
+  ],
+  "numero_calificaciones": 7,
+  "calificaciones": [
+    {
+      "fecha": "24/Dic/2022",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 8.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Analisis de la realidad nacional",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "9",
+      "interes_clase": "",
+      "comentario": "Si haces apuntes en sus clases ya pasaste, a pesar de que sus clases son muy largas tiene una manera de mantener la atención de los estudiantes muy fácilmente.\nTe motiva a ser mejor persona y mejor estudiante, recomendadisimo.",
+      "etiquetas_comentario": [
+        "La Participación Importa",
+        "Respetado por los estudiantes",
+        "Las clases son largas"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "04/Jun/2021",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 2.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Analisis",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "Califica como le da la gana, no da oportunidad de subir la calificación, los exámenes son preguntas abiertas y dificiles.",
+      "etiquetas_comentario": [
+        "Califica Duro",
+        "La Participación Importa",
+        "Las clases son largas"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "19/Ene/2021",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 9.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Etica",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "9",
+      "interes_clase": "",
+      "comentario": "Es buen maestro, ya es grande y sus clases las explica con ejemplos de la vida real. Los examenes los hace algo confusos y te baja la calificación, pero eso si, no reprueba a nadie.",
+      "etiquetas_comentario": [
+        "Da buena retroalimentación",
+        "Prepárate para leer",
+        "Respetado por los estudiantes"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "21/Sep/2020",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Admin",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "18/Ene/2016",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 8.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Desarrollo Profesional",
+      "asistencia": "",
+      "calificacion_recibida": "9",
+      "interes_clase": "9",
+      "comentario": "Buen maestro, a veces enfada  por que repite mucho, pero de tanto que repite se te queda pegado lo que dices",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "13/Jul/2015",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 9.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Finanzas",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "9",
+      "interes_clase": "",
+      "comentario": "Mucha paciencia",
+      "etiquetas_comentario": [
+        "Respetado por los estudiantes",
+        "Brinda apoyo",
+        "Clases excelentes"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "19/Jul/2013",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 2.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "---",
+      "asistencia": "",
+      "calificacion_recibida": "0.5",
+      "interes_clase": "0.5",
+      "comentario": "[Comentario esperando revisión]",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    }
+  ]
+}

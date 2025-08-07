@@ -1,0 +1,289 @@
+{
+  "professor_id": "ANGELINA_MACHADO",
+  "nombre": "ANGELINA MACHADO",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 8.775098744307305,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.17980576203136,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.727,
+    "wilson_interval": [
+      0.4343497069897538,
+      0.9025411942607853
+    ],
+    "n_recommendations": 11
+  },
+  "subject_normalization": {
+    "z_mean": 0.08,
+    "z_mean_decayed": 0.53,
+    "per_subject": [
+      {
+        "materia": "CIRCUITOS",
+        "z_decayed": 1.1004062226053628,
+        "n": 4
+      },
+      {
+        "materia": "ELECTROMAGNETISMO",
+        "z_decayed": 1.0620466622794649,
+        "n": 31
+      },
+      {
+        "materia": "ANÁLISIS DE CIRCUITOS ELÉCTRICOS",
+        "z_decayed": 0.8528028654224417,
+        "n": 5
+      },
+      {
+        "materia": "CIRCUITOS ELECTRICOS",
+        "z_decayed": -0.6069054018779234,
+        "n": 7
+      },
+      {
+        "materia": "---",
+        "z_decayed": -0.9627852966533862,
+        "n": 521
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "es maestra",
+          "es",
+          "materia",
+          "maestra",
+          "bien"
+        ],
+        "weight": 0.14287129326340484
+      },
+      {
+        "id": 1,
+        "words": [
+          "critica",
+          "hace",
+          "es",
+          "buena",
+          "profesora"
+        ],
+        "weight": 0.10965785415204388
+      },
+      {
+        "id": 2,
+        "words": [
+          "materia",
+          "valenzuela",
+          "hace",
+          "examenes",
+          "clase"
+        ],
+        "weight": 0.1254737590175423
+      },
+      {
+        "id": 3,
+        "words": [
+          "hace",
+          "gente",
+          "arturo valenzuela",
+          "arturo",
+          "valenzuela"
+        ],
+        "weight": 0.12247049308567605
+      },
+      {
+        "id": 4,
+        "words": [
+          "cierto",
+          "critica",
+          "es cierto",
+          "hace",
+          "comentario"
+        ],
+        "weight": 0.11007691680092128
+      }
+    ],
+    "sentiment": {
+      "overall": 0.09090909090909091,
+      "by_month": {
+        "2019-01": 0.0,
+        "2017-10": 0.0,
+        "2015-08": 0.0,
+        "2013-10": 0.0,
+        "2013-08": 1.0,
+        "2013-07": 0.0,
+        "2013-04": 0.0,
+        "2013-03": 0.0
+      }
+    },
+    "n_comments": 11
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        5.0,
+        2.0,
+        8.5,
+        10.0,
+        4.0,
+        8.0,
+        10.0,
+        10.0
+      ],
+      "ewma": [
+        5.0,
+        4.1,
+        5.42,
+        6.794,
+        5.9558,
+        6.56906,
+        7.598342,
+        8.3188394
+      ],
+      "sigma": 2.109357694578481
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 8.3188394,
+      "quality_band": [
+        4.184498318626177,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2019-01-12T00:00:00",
+      "materia": "CIRCUITOS ELECTRICOS 2",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 1,
+      "comentario": "superprofesora, resuelve todas las dudas que tengas (incluso de otras clases), tiene mucha paciencia para enseñar, hace ejercicios en clase y también los deja de tarea, los exámenes son igual que las tareas, incluso recomienda aplicaciones que permite usar en los exámenes"
+    },
+    {
+      "fecha_iso": "2017-10-31T00:00:00",
+      "materia": "ELECTROMAGNETISMO",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "falto una semana pero nos adelantamos rapido y acabamos el semestre antes"
+    },
+    {
+      "fecha_iso": "2017-10-06T00:00:00",
+      "materia": "ELECTROMAGNETISMO",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 9.0,
+      "recomienda": 1,
+      "comentario": "Esa profesora es un amor"
+    },
+    {
+      "fecha_iso": "2015-08-12T00:00:00",
+      "materia": "ELECTROMAGNETISMO",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 1,
+      "comentario": "Buena profesora"
+    },
+    {
+      "fecha_iso": "2013-10-02T00:00:00",
+      "materia": "CIRCUITOS ELECTRICOS",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Es una maestra muy argüendera que anda nada más interesada en sus asuntos políticos. como quiere ser directora del plantel, anda viendo como lograrlo."
+    },
+    {
+      "fecha_iso": "2013-08-02T00:00:00",
+      "materia": "CIRCUITOS ELECTRICOS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "excelente maestra, domina perfectamente la materia, se podría decir que cualquier pregunta que le hagas te la contestara y bien contestada, es una maestra bien hecha, su materia la simplifica para que todos entiendan y sus ejemplos son muy claros, además que sus exámenes son muy sencillos."
+    },
+    {
+      "fecha_iso": "2013-07-28T00:00:00",
+      "materia": "CIRCUITOS ELECTRICOS",
+      "calidad": 7.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Cero recomrndada se sale mucho de la clase para hablar mucho de su vida.. por ciertio tormentosa"
+    },
+    {
+      "fecha_iso": "2013-07-19T00:00:00",
+      "materia": "CIRCUITOS",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Muy buena maestra y se nota que domina bien la materia. Muy brava con los encargados del Laboratorio porque no le habren para darnos practicas y eso habla bien de ella. Lastima que las visitas industriales que nos programa no se las autoricen por broncas con el Director porque les dice sus verdades. Lo que critica es muy cierto y le doy la razón, como ella debemos terner una docena y verán como se compone la carrera."
+    },
+    {
+      "fecha_iso": "2013-04-05T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 2.0,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2013-03-20T00:00:00",
+      "materia": "ANÁLISIS DE CIRCUITOS ELÉCTRICOS",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Pues no se que la pasó a la persona del otro comentario, pero esta maestra resultó ser una muy buena alternativa para la materia, los exámenes los hace muy fáciles y en verdad aprendes, es cierto que a veces critica a algunos profes y que arturo valenzuela es de su gente pero eso no afecta nada."
+    },
+    {
+      "fecha_iso": "2013-03-15T00:00:00",
+      "materia": "MATERIALES",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 7.0,
+      "recomienda": 0,
+      "comentario": "SE LA LLEVA CRITICANDO A LOS MAESTROS Y AL SUBDIRECTOR ARRAMBI, POR ALGO LE DICEN LA TIBURON, ARTURO VALENZUELA, EL DIABLO SALAS, OBESO , ETC SON GENTE DE ELLA, CUIDADITO."
+    }
+  ],
+  "comments_recent": [
+    "superprofesora, resuelve todas las dudas que tengas (incluso de otras clases), tiene mucha paciencia para enseñar, hace ejercicios en clase y también los deja de tarea, los exámenes son igual que las tareas, incluso recomienda aplicaciones que permite usar en los exámenes",
+    "falto una semana pero nos adelantamos rapido y acabamos el semestre antes",
+    "Esa profesora es un amor",
+    "Buena profesora",
+    "Es una maestra muy argüendera que anda nada más interesada en sus asuntos políticos. como quiere ser directora del plantel, anda viendo como lograrlo.",
+    "excelente maestra, domina perfectamente la materia, se podría decir que cualquier pregunta que le hagas te la contestara y bien contestada, es una maestra bien hecha, su materia la simplifica para que todos entiendan y sus ejemplos son muy claros, además que sus exámenes son muy sencillos.",
+    "Cero recomrndada se sale mucho de la clase para hablar mucho de su vida.. por ciertio tormentosa",
+    "Muy buena maestra y se nota que domina bien la materia. Muy brava con los encargados del Laboratorio porque no le habren para darnos practicas y eso habla bien de ella. Lastima que las visitas industriales que nos programa no se las autoricen por broncas con el Director porque les dice sus verdades. Lo que critica es muy cierto y le doy la razón, como ella debemos terner una docena y verán como se compone la carrera.",
+    "[Comentario esperando revisión]",
+    "Pues no se que la pasó a la persona del otro comentario, pero esta maestra resultó ser una muy buena alternativa para la materia, los exámenes los hace muy fáciles y en verdad aprendes, es cierto que a veces critica a algunos profes y que arturo valenzuela es de su gente pero eso no afecta nada."
+  ],
+  "n_reviews": 11
+}

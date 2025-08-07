@@ -1,0 +1,50 @@
+{
+  "nombre": "Eddy Omar Ramirez Valverde",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "ciudad": "Ciudad: culiacan, sinaloa",
+  "departamento": "Departamento/Facultad: Eléctrica-Electrónica",
+  "calidad_general": 5.0,
+  "porcentaje_recomienda": 50,
+  "nivel_dificultad": 3.0,
+  "etiquetas": [
+    "BARCO (2)",
+    "MUCHAS TAREAS (2)"
+  ],
+  "numero_calificaciones": 2,
+  "calificaciones": [
+    {
+      "fecha": "12/Mar/2021",
+      "tipo_calificacion": "REGULAR",
+      "puntaje_calidad_general": 5.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "ELECTROMAGNETISMO",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "9.5",
+      "interes_clase": "",
+      "comentario": "El profe se ve que si sabe pero no enseña como debe ,deja muchas tareas y se apoya de las exposiciones de los alumnos para no tener que dar la clase",
+      "etiquetas_comentario": [
+        "Barco",
+        "Muchas tareas"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "17/Feb/2020",
+      "tipo_calificacion": "REGULAR",
+      "puntaje_calidad_general": 5.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Potencia",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "8",
+      "interes_clase": "",
+      "comentario": "",
+      "etiquetas_comentario": [
+        "Barco",
+        "Muchas tareas"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "professor_id": "Carlos_Sánchez",
+  "nombre": "Carlos Sánchez",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 9.416250169182176,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.698280071618469,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 1.0,
+    "wilson_interval": [
+      0.5100999795960008,
+      1
+    ],
+    "n_recommendations": 4
+  },
+  "subject_normalization": {
+    "z_mean": 0.64,
+    "z_mean_decayed": 0.68,
+    "per_subject": [
+      {
+        "materia": "DIBUJO",
+        "z_decayed": 1.131875256250057,
+        "n": 14
+      },
+      {
+        "materia": "DIBUJO ASISTIDO POR COMPUTADORA",
+        "z_decayed": 0.1982257557736558,
+        "n": 15
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [],
+    "sentiment": {
+      "overall": null,
+      "by_month": {}
+    },
+    "n_comments": 3
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        10.0,
+        10.0,
+        8.0,
+        10.0
+      ],
+      "ewma": [
+        10.0,
+        10.0,
+        9.4,
+        9.58
+      ],
+      "sigma": 0.7950471684120385
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 9.58,
+      "quality_band": [
+        8.021707549912405,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2017-01-12T00:00:00",
+      "materia": "DIBUJO",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "buen profe"
+    },
+    {
+      "fecha_iso": "2015-12-24T00:00:00",
+      "materia": "DIBUJO ASISTIDO POR COMPUTADORA",
+      "calidad": 8.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "es buen maestro, si tienes dudas te explica, lo recomiendo"
+    },
+    {
+      "fecha_iso": "2014-09-29T00:00:00",
+      "materia": "METAL METALICA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2012-10-30T00:00:00",
+      "materia": "DIBUJO ASISTIDO POR COMPUTADORA",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "Este arquitecto da sus clases con peritas y manzanas a veces aburren pero le entiendes todo muy bien y sus exámenes no son difíciles, al cometer un error no te bajará casi nada y terminarás aprendiendote el menú \"modify\" xD"
+    }
+  ],
+  "comments_recent": [
+    "buen profe",
+    "es buen maestro, si tienes dudas te explica, lo recomiendo",
+    "Este arquitecto da sus clases con peritas y manzanas a veces aburren pero le entiendes todo muy bien y sus exámenes no son difíciles, al cometer un error no te bajará casi nada y terminarás aprendiendote el menú \"modify\" xD"
+  ],
+  "n_reviews": 4
+}

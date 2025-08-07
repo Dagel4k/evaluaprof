@@ -1,0 +1,144 @@
+{
+  "professor_id": "Carlos_López_Piña",
+  "nombre": "Carlos López Piña",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 6.501645427784483,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 6.698280071618469,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.5,
+    "wilson_interval": [
+      0.15003570882017145,
+      0.8499642911798285
+    ],
+    "n_recommendations": 4
+  },
+  "subject_normalization": {
+    "z_mean": -0.36,
+    "z_mean_decayed": -0.18,
+    "per_subject": [
+      {
+        "materia": "---",
+        "z_decayed": 1.4344005554680677,
+        "n": 521
+      },
+      {
+        "materia": "PROBABILIDAD",
+        "z_decayed": 0.7599851569224804,
+        "n": 14
+      },
+      {
+        "materia": "PROBABILIDAD Y ESTADÍSTICA",
+        "z_decayed": -1.5908356622586108,
+        "n": 23
+      },
+      {
+        "materia": "CÁLCULO DIFERENCIAL",
+        "z_decayed": -2.045103454785238,
+        "n": 46
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [],
+    "sentiment": {
+      "overall": 0.0,
+      "by_month": {
+        "2024-10": 0.0,
+        "2024-02": 0.0,
+        "2024-01": 0.0
+      }
+    },
+    "n_comments": 4
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        2.0,
+        2.0,
+        10.0
+      ],
+      "ewma": [
+        2.0,
+        2.0,
+        4.4
+      ],
+      "sigma": 3.2331615074619044
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 4.4,
+      "quality_band": [
+        0.0,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2024-10-23T00:00:00",
+      "materia": "---",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2024-10-23T00:00:00",
+      "materia": "PROBABILIDAD",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 8.5,
+      "recomienda": 1,
+      "comentario": "El mejor profe del tec"
+    },
+    {
+      "fecha_iso": "2024-02-14T00:00:00",
+      "materia": "PROBABILIDAD Y ESTADÍSTICA",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "No se le puede llamar maestro a este wey. Solo va a leer diapositivas que parece que ni son suyas. Si le preguntas alguna duda, se enrreda y te dice que leas la diapositiva. no sabe nada de la materia, que asco."
+    },
+    {
+      "fecha_iso": "2024-01-18T00:00:00",
+      "materia": "CÁLCULO DIFERENCIAL",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 9.5,
+      "recomienda": 0,
+      "comentario": "El verdadero Rey de los Barcos"
+    }
+  ],
+  "comments_recent": [
+    "[Comentario esperando revisión]",
+    "El mejor profe del tec",
+    "No se le puede llamar maestro a este wey. Solo va a leer diapositivas que parece que ni son suyas. Si le preguntas alguna duda, se enrreda y te dice que leas la diapositiva. no sabe nada de la materia, que asco.",
+    "El verdadero Rey de los Barcos"
+  ],
+  "n_reviews": 4
+}

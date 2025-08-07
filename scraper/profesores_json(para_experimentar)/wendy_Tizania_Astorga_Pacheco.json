@@ -1,0 +1,88 @@
+{
+  "nombre": "wendy Tizania Astorga Pacheco",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "ciudad": "Ciudad: culiacan, sinaloa",
+  "departamento": "Departamento/Facultad: Sistemas",
+  "calidad_general": 3.5,
+  "porcentaje_recomienda": 25,
+  "nivel_dificultad": 5.5,
+  "etiquetas": [
+    "CALIFICA DURO (1)",
+    "MUCHAS TAREAS (3)",
+    "PREPÁRATE PARA LEER (2)",
+    "LA PARTICIPACIÓN IMPORTA (1)",
+    "MUY CÓMICO (1)",
+    "MUCHOS PROYECTOS GRUPALES (1)"
+  ],
+  "numero_calificaciones": 4,
+  "calificaciones": [
+    {
+      "fecha": "12/Mar/2024",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 2.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Taller de sistemas operativos",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "21",
+      "interes_clase": "",
+      "comentario": "Deja demasiada tarea, como si le pagaran más por dejar más. Te obliga a hacer cursitos inutiles que te dan un certificado que no tiene valor curricu. Cualquier cosa importante que diga en clase no la comparte por teams. Cae mal su forma de ser. No carguen con ella, al menos que sea su ultima opcion.",
+      "etiquetas_comentario": [
+        "Muy cómico",
+        "Muchas tareas",
+        "Muchos proyectos grupales"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "21/Mar/2023",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 2.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Redes de computadoras",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "8",
+      "interes_clase": "",
+      "comentario": "Poca calidad en las clases, de mis peores experiencias en profesores pero si es pasable su materia, no enseña bien el packet tracer asi que aprende por ti mismo yo escogería otro profesor definitivamente, gran parte de su clase casi casi es cotorreo personalmente no me gusta su humor :(",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "18/May/2022",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 8.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Taller de SO",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "8.5",
+      "interes_clase": "",
+      "comentario": "Es buena maestra, es sencillo con ella, deja bastantes tareas.",
+      "etiquetas_comentario": [
+        "Muchas tareas",
+        "Prepárate para leer",
+        "La Participación Importa"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "25/Ago/2021",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 2.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Arquitectura de computadoras",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "9",
+      "interes_clase": "",
+      "comentario": "Maestra estricta que no brinda apoyo y se mete en asuntos personales de alumnos.",
+      "etiquetas_comentario": [
+        "Califica Duro",
+        "Muchas tareas",
+        "Prepárate para leer"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    }
+  ]
+}

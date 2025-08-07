@@ -1,0 +1,167 @@
+{
+  "professor_id": "Reynold_Diaz",
+  "nombre": "Reynold Diaz",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 4.495750533233823,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 6.555422928761326,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.25,
+    "wilson_interval": [
+      0.045586062644636216,
+      0.6993639475573634
+    ],
+    "n_recommendations": 4
+  },
+  "subject_normalization": {
+    "z_mean": -0.06,
+    "z_mean_decayed": -0.31,
+    "per_subject": [
+      {
+        "materia": "---",
+        "z_decayed": 1.4344005554680677,
+        "n": 521
+      },
+      {
+        "materia": "INDUSTRIAL",
+        "z_decayed": 0.05307448924342758,
+        "n": 5
+      },
+      {
+        "materia": "MAESTRIA",
+        "z_decayed": -0.340511351991449,
+        "n": 15
+      },
+      {
+        "materia": "ECONOMÍA",
+        "z_decayed": -1.3894537104590579,
+        "n": 13
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "inferior",
+          "sentir",
+          "sentir inferior",
+          "es",
+          "metodo"
+        ],
+        "weight": 0.3355865529042803
+      },
+      {
+        "id": 1,
+        "words": [
+          "inferior",
+          "sentir",
+          "sentir inferior",
+          "metodo",
+          "es"
+        ],
+        "weight": 0.14407999265451174
+      }
+    ],
+    "sentiment": {
+      "overall": 0.25,
+      "by_month": {
+        "2016-10": 0.0,
+        "2016-01": 0.0,
+        "2014-03": 0.5
+      }
+    },
+    "n_comments": 4
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        8.0,
+        4.0,
+        2.0
+      ],
+      "ewma": [
+        8.0,
+        6.8,
+        5.359999999999999
+      ],
+      "sigma": 1.800148142052018
+    },
+    "difficulty_trend": null,
+    "forecast": {
+      "quality_next": 5.359999999999999,
+      "quality_band": [
+        1.831709641578044,
+        8.888290358421955
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2016-10-17T00:00:00",
+      "materia": "MAESTRIA",
+      "calidad": 2.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 0,
+      "comentario": "Odioso y siempre trata de hacer sentir inferior al alumno, lleno de complejos y una persona con un síndrome de inferioridad muy grande. Es discriminador y solo ayudará a quienes crea son tan inteligentes como él. Poco le importa los problemas que tengas o vayas a pasar por su método desconsiderado."
+    },
+    {
+      "fecha_iso": "2016-01-17T00:00:00",
+      "materia": "ECONOMÍA",
+      "calidad": 4.0,
+      "dificultad": null,
+      "nota": 7.5,
+      "recomienda": 0,
+      "comentario": "Es prepotente, su método de 'motivación' es hacer sentir inferior a los alumnos, tiene favoritismos, sus exámenes son complicados y su método de evaluación se basa en los exámenes.\nEs súmamente perfeccionista, si no sabes inglés, ni cargues con él."
+    },
+    {
+      "fecha_iso": "2014-03-24T00:00:00",
+      "materia": "---",
+      "calidad": 10.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 1,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2014-03-17T00:00:00",
+      "materia": "INDUSTRIAL",
+      "calidad": 6.0,
+      "dificultad": null,
+      "nota": 10.0,
+      "recomienda": 0,
+      "comentario": "Excelente profesor!"
+    }
+  ],
+  "comments_recent": [
+    "Odioso y siempre trata de hacer sentir inferior al alumno, lleno de complejos y una persona con un síndrome de inferioridad muy grande. Es discriminador y solo ayudará a quienes crea son tan inteligentes como él. Poco le importa los problemas que tengas o vayas a pasar por su método desconsiderado.",
+    "Es prepotente, su método de 'motivación' es hacer sentir inferior a los alumnos, tiene favoritismos, sus exámenes son complicados y su método de evaluación se basa en los exámenes.\nEs súmamente perfeccionista, si no sabes inglés, ni cargues con él.",
+    "[Comentario esperando revisión]",
+    "Excelente profesor!"
+  ],
+  "n_reviews": 4
+}

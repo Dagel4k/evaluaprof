@@ -1,0 +1,76 @@
+{
+  "professor_id": "Alfonso_Murgas_Calle",
+  "nombre": "Alfonso Murgas Calle",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "decay_analysis": {
+    "quality_decayed": 5.0,
+    "difficulty_decayed": null
+  },
+  "bayes_analysis": {
+    "quality_bayes": 6.797811000241688,
+    "difficulty_bayes": null
+  },
+  "recommendation_analysis": {
+    "rate": 0.0,
+    "wilson_interval": [
+      0,
+      0.7934567085261071
+    ],
+    "n_recommendations": 1
+  },
+  "subject_normalization": {
+    "z_mean": -0.16,
+    "z_mean_decayed": -0.16,
+    "per_subject": [
+      {
+        "materia": "FUNDAMENTOS DE INVESTIGACION",
+        "z_decayed": -0.15783057533948938,
+        "n": 24
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [],
+    "sentiment": {
+      "overall": null,
+      "by_month": {}
+    },
+    "n_comments": 1
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": null,
+    "difficulty_trend": null,
+    "forecast": null,
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2019-01-28T00:00:00",
+      "materia": "FUNDAMENTOS DE INVESTIGACION",
+      "calidad": 5.0,
+      "dificultad": null,
+      "nota": 7.5,
+      "recomienda": 0,
+      "comentario": "Comenzo como un profesor estricto, puso sus reglas y entendimos que se trabajaria sobre ellas. \nFalto un dia, luego dos, luego tres y despues queria darnos clases por internet. \nJamas entendimos como iba a calificar y paso a todo el grupo con 75 despues de pelear mucho."
+    }
+  ],
+  "comments_recent": [
+    "Comenzo como un profesor estricto, puso sus reglas y entendimos que se trabajaria sobre ellas. \nFalto un dia, luego dos, luego tres y despues queria darnos clases por internet. \nJamas entendimos como iba a calificar y paso a todo el grupo con 75 despues de pelear mucho."
+  ],
+  "n_reviews": 1
+}
