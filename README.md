@@ -390,9 +390,3 @@ Este proyecto es **open source** para uso educativo y de investigación.
 - Usa los datos de forma ética y responsable
 - No hagas scraping masivo sin permisos
 - Los análisis de IA son orientativos, no definitivos
-
----
-
-## 🚀 **EvaluaProf 2024** - *Análisis Inteligente de Profesores Universitarios*
-
-**Desarrollado con ❤️ para mejorar la educación universitaria mediante tecnología avanzada e inteligencia artificial** 
