@@ -13,6 +13,9 @@ dist
 dist-ssr
 *.local
 
+# Datos generados para build offline
+public/profesores_enriquecido/
+
 # Environment variables
 .env
 .env.local

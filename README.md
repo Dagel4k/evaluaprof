@@ -1,3 +1,49 @@
+# EvaluaProf - Monorepo
+
+Este repositorio contiene:
+
+- `faculty-pulse-app/`: Aplicación web (React + Vite + Capacitor Android)
+- `scraper/`: Herramientas de scraping y generación de datos/ PDFs (Python)
+
+## Requisitos generales
+
+- Node.js 18+ (recomendado 20)
+- npm 8+
+- Python 3.9+
+
+## Flujo de trabajo
+
+1) Obtener/actualizar datos con el `scraper/` (opcional):
+
+```bash
+cd scraper
+python -m venv .venv && source .venv/bin/activate  # en Windows: .venv\\Scripts\\activate
+pip install -r requirements.txt
+python setup.py  # instala playwright y dependencias
+python run_scraper.py  # genera JSONs en scraper/out/profesores_enriquecido/
+```
+
+2) Construir la app web y empaquetar datos embebidos:
+
+```bash
+cd ../faculty-pulse-app
+npm install --legacy-peer-deps
+cp env.example .env  # opcional, para VITE_OPENAI_API_KEY
+npm run build        # copia JSONs, build de producción y sync Android
+```
+
+3) Android (opcional):
+
+```bash
+npx cap open android       # abrir Android Studio
+npm run android:debug      # generar APK debug por CLI
+```
+
+Consulta documentación específica dentro de cada carpeta:
+
+- `faculty-pulse-app/README.md`
+- `scraper/README.md`
+
 # EvaluaProf - Sistema Avanzado de Análisis de Profesores Universitarios
 
 Sistema completo e inteligente para analizar y evaluar profesores universitarios con **IA integrada**, **análisis avanzado** y **interfaz completamente responsive**.

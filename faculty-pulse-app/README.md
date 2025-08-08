@@ -2,6 +2,81 @@
 
 Una plataforma moderna para analizar y visualizar perfiles académicos de profesores universitarios con análisis de inteligencia artificial.
 
+## Prerrequisitos
+
+- Node.js 18+ (recomendado 20)
+- npm 8+
+- Para Android: Android Studio (SDK + JDK 17), Gradle Wrapper se usa automáticamente
+
+## Inicio Rápido (Web)
+
+```bash
+# Clonar el repositorio
+git clone <repository-url>
+cd faculty-pulse-app
+
+# Instalar dependencias (evita conflictos de peer deps de react-wordcloud)
+npm install --legacy-peer-deps
+
+# Configurar variables de entorno
+cp env.example .env
+# Edita .env y coloca tu VITE_OPENAI_API_KEY si usarás IA
+
+# Ejecutar en modo desarrollo
+npm run dev
+```
+
+## Datos embebidos (JSON enriquecidos)
+
+La app puede funcionar 100% offline con los JSON enriquecidos incluidos dentro del build/APK.
+
+- Origen esperado de datos enriquecidos: `../scraper/out/profesores_enriquecido/*.json`
+- Al ejecutar `npm run build`, se ejecuta antes `scripts/prepare-professors.cjs` que:
+  - Copia los JSON a `public/profesores_enriquecido/`
+  - Genera `public/profesores_enriquecido/fileList.json`
+
+En producción, el loader lee desde `'/profesores_enriquecido/fileList.json'`. En desarrollo, si no existe, cae a `'/api/professors-list'` servido por Vite.
+
+Comandos útiles:
+
+```bash
+# Build de producción (copia JSON + genera lista + build + sync a Android)
+npm run build
+
+# Solo vista previa del build web
+npm run preview
+```
+
+## Android (Capacitor)
+
+Ya está configurado Capacitor con Android.
+
+### Requisitos Android
+- Instalar Android Studio (SDK Platform 35 y Build-Tools 34)
+- Aceptar licencias del SDK en la primera compilación
+
+### Comandos
+```bash
+# Abrir en Android Studio
+npx cap open android
+
+# Compilar APK debug por CLI
+npm run android:debug
+# APK resultante:
+# android/app/build/outputs/apk/debug/app-debug.apk
+
+# Compilar release (firma requerida)
+npm run android:release
+# APK resultante:
+# android/app/build/outputs/apk/release/app-release.apk
+```
+
+Para generar un AAB firmado, usa Android Studio: Build → Generate Signed Bundle/APK → Android App Bundle.
+
+### Notas para macOS
+- Todos los comandos anteriores funcionan en macOS sin cambios.
+- Asegúrate de tener Java 17 y Android Studio instalados.
+
 ## Características
 
 - 📊 **Análisis Visual**: Gráficos y estadísticas detalladas de calificaciones
@@ -89,23 +164,13 @@ Una vez configurada la API, tendrás acceso a:
 - **Estilo de Enseñanza**: Descripción del método pedagógico
 - **Consejos para Estudiantes**: Recomendaciones personalizadas
 
-## Instalación
+## Scripts disponibles
 
-```bash
-# Clonar el repositorio
-git clone <repository-url>
-cd faculty-pulse-app
-
-# Instalar dependencias
-npm install --legacy-peer-deps
-
-# Configurar variables de entorno
-cp env.example .env
-# Editar .env con tu API key de OpenAI
-
-# Ejecutar en modo desarrollo
-npm run dev
-```
+- `dev`: servidor de desarrollo
+- `build`: copia datos enriquecidos + build de producción + sync a Android
+- `preview`: previsualización del build
+- `android:debug`: genera APK de depuración
+- `android:release`: genera APK de release (firma requerida)
 
 ## Tecnologías Utilizadas
 
@@ -136,6 +201,11 @@ src/
 ├── types/              # Definiciones de TypeScript
 ├── hooks/              # Hooks personalizados
 └── lib/                # Utilidades y configuraciones
+
+public/
+└── profesores_enriquecido/
+    ├── fileList.json   # Lista generada automáticamente
+    └── *.json          # Datos embebidos
 ```
 
 ## Funcionalidades Principales

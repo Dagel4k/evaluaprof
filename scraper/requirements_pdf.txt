@@ -1,0 +1,22 @@
+# Requirements for PDF Generator
+# =============================
+
+# Core data processing
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Visualization and PDF generation
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Additional utilities
+pathlib2>=2.3.7  # For older Python versions if needed
+
+# Optional: For better font handling
+# fonttools>=4.38.0
+
+# Note: These packages should be installed with:
+# pip install -r requirements_pdf.txt
+
+
+

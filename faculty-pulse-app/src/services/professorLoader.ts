@@ -1,7 +1,8 @@
 import { Professor, ProfessorError, LoadResult } from '@/types/professor';
 
 export class ProfessorLoaderService {
-  private static readonly PROFESSORS_DIR = '/scraper/out/profesores_enriquecido/';
+  // En producción (APK), los JSON se sirven desde `public/profesores_enriquecido`
+  private static readonly PROFESSORS_DIR = '/profesores_enriquecido/';
 
   /**
    * Carga automáticamente todos los archivos JSON de profesores
@@ -11,16 +12,43 @@ export class ProfessorLoaderService {
   ): Promise<LoadResult> {
     try {
       console.log('Obteniendo lista de archivos JSON...');
-      const fileListResponse = await fetch('/api/professors-list');
-      
-      if (fileListResponse.ok) {
-        const fileList = await fileListResponse.json();
-        console.log(`Lista de archivos obtenida del servidor: ${fileList.length} archivos`);
-        return await this.loadProfessorsFromFiles(fileList, onProgress);
-      } else {
-        console.error('Error obteniendo lista de archivos:', fileListResponse.status);
+      // 1) Intentar lista pre-generada embebida en producción
+      //    `public/profesores_enriquecido/fileList.json`
+      const embeddedListUrl = `${this.PROFESSORS_DIR}fileList.json`;
+      let fileList: string[] | null = null;
+
+      try {
+        const embeddedResponse = await fetch(embeddedListUrl);
+        if (embeddedResponse.ok) {
+          fileList = await embeddedResponse.json();
+          console.log(`Lista embebida encontrada: ${fileList.length} archivos`);
+        } else {
+          console.warn('Lista embebida no disponible:', embeddedResponse.status);
+        }
+      } catch (e) {
+        console.warn('No se pudo cargar la lista embebida:', e);
+      }
+
+      // 2) Fallback a endpoint de desarrollo de Vite
+      if (!fileList) {
+        try {
+          const devResponse = await fetch('/api/professors-list');
+          if (devResponse.ok) {
+            fileList = await devResponse.json();
+            console.log(`Lista de desarrollo obtenida: ${fileList.length} archivos`);
+          } else {
+            console.error('Endpoint de desarrollo no disponible:', devResponse.status);
+          }
+        } catch (e) {
+          console.error('Error consultando endpoint de desarrollo:', e);
+        }
+      }
+
+      if (!fileList) {
         return { professors: [], errors: [] };
       }
+
+      return await this.loadProfessorsFromFiles(fileList, onProgress);
     } catch (error) {
       console.error('Error cargando profesores:', error);
       return { professors: [], errors: [] };

@@ -102,6 +102,8 @@ scraper/
 │   ├── nombre_apellido.json
 │   ├── otro_profesor.json
 │   └── ...
+├── out/
+│   └── profesores_enriquecido/   # JSON enriquecidos consumidos por la app (se copian al build)
 ├── logs/                   # Logs de ejecución
 ├── profesores_completos.json    # Archivo combinado
 ├── estadisticas_profesores.json # Reporte de estadísticas
@@ -112,6 +114,8 @@ scraper/
 ├── requirements.txt
 └── README.md
 ```
+
+Los JSON en `out/profesores_enriquecido/` son consumidos por la app React. Al ejecutar `npm run build` dentro de `faculty-pulse-app/` se copian automáticamente a `public/profesores_enriquecido/` y se genera `fileList.json`.
 
 ## 📄 Formato JSON
 
