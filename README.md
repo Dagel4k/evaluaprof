@@ -157,7 +157,7 @@ cd faculty-pulse-app/
 npm install
 npm run dev
 ```
-*La aplicación se ejecuta en http://localhost:8080*
+*La aplicación se ejecuta en http://localhost:8080 (una vez inicializado el proyecto evidentemente)*
 
 ### 3. Configuración de IA (En la Interfaz)
 
