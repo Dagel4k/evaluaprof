@@ -139,12 +139,14 @@ export const AIAnalysisModal: React.FC<AIAnalysisModalProps> = ({
 
           {/* Loading */}
           {isLoading && (
-            <div className="text-center py-8">
-              <Loader2 className="h-8 w-8 animate-spin mx-auto mb-4 text-blue-600" />
-              <p className="text-lg font-medium">Analizando datos del profesor...</p>
-              <p className="text-sm text-muted-foreground mt-2">
-                Esto puede tomar unos segundos
-              </p>
+            <div className="safe-y min-h-[40vh] flex items-center justify-center text-center py-6">
+              <div>
+                <Loader2 className="h-8 w-8 animate-spin mx-auto mb-4 text-blue-600" />
+                <p className="text-lg font-medium">Analizando datos del profesor...</p>
+                <p className="text-sm text-muted-foreground mt-2">
+                  Esto puede tomar unos segundos
+                </p>
+              </div>
             </div>
           )}
 

@@ -197,7 +197,7 @@ export const ProfessorProfile: React.FC<ProfessorProfileProps> = ({
               </div>
             </div>
 
-            <div className="flex gap-2">
+            <div className="flex gap-2 justify-center mt-2">
               <Button 
                 onClick={handleAIAnalysis}
                 className="gap-2 bg-gradient-to-r from-blue-600 to-purple-600 hover:opacity-90"
@@ -392,8 +392,8 @@ export const ProfessorProfile: React.FC<ProfessorProfileProps> = ({
           <div className="space-y-4">
             {professor.calificaciones.slice(0, 5).map((calificacion, index) => (
               <div key={index} className="border-l-4 border-primary pl-4">
-                <div className="flex items-center justify-between mb-2">
-                  <div className="flex items-center gap-4">
+                <div className="flex items-center justify-between mb-2 flex-wrap gap-2">
+                  <div className="flex items-center gap-4 flex-wrap min-w-0">
                     <Badge variant="outline">{calificacion.materia}</Badge>
                     <div className="flex items-center gap-1">
                       <Star className="h-4 w-4 text-yellow-500 fill-current" />
@@ -407,14 +407,14 @@ export const ProfessorProfile: React.FC<ProfessorProfileProps> = ({
                       </Badge>
                     )}
                   </div>
-                  <div className="flex items-center gap-1 text-sm text-muted-foreground">
+                  <div className="flex items-center gap-1 text-sm text-muted-foreground sm:ml-auto break-anywhere">
                     <Calendar className="h-4 w-4" />
-                    <span>{formatDate(calificacion.fecha)}</span>
+                    <span className="break-anywhere">{formatDate(calificacion.fecha)}</span>
                   </div>
                 </div>
                 <div className="space-y-2">
                   {calificacion.comentario && (
-                    <p className="text-foreground">{calificacion.comentario}</p>
+                    <p className="text-foreground whitespace-pre-wrap break-anywhere">{calificacion.comentario}</p>
                   )}
                   <div className="flex flex-wrap gap-2 text-xs text-muted-foreground">
                     {calificacion.asistencia && (

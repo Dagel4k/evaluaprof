@@ -120,3 +120,41 @@ All colors MUST be HSL.
     background-color: #ffffff !important;
   }
 }
+
+.safe-y {
+  /* iOS legacy syntax */
+  padding-top: max(constant(safe-area-inset-top), 24px);
+  padding-bottom: max(constant(safe-area-inset-bottom), 16px);
+  /* Modern syntax with fallback values to cover Android WebView */
+  padding-top: max(env(safe-area-inset-top, 24px), 24px);
+  padding-bottom: max(env(safe-area-inset-bottom, 16px), 16px);
+}
+
+/* Bottom nav helper to respect safe-area */
+.safe-bottom {
+  padding-bottom: max(env(safe-area-inset-bottom, 16px), 16px);
+}
+
+/* Ensure full-height works nicely on mobile with dynamic viewport */
+html, body, #root {
+  height: 100%;
+}
+
+/* Recharts label tweaks to reduce clipping around radar charts */
+.recharts-polar-angle-axis text {
+  dominant-baseline: middle;
+  text-anchor: middle;
+}
+
+@media (max-width: 420px) {
+  .recharts-polar-angle-axis text {
+    font-size: 10px !important;
+  }
+}
+
+/* Aggressive wrap utility to avoid horizontal overflow */
+.break-anywhere {
+  overflow-wrap: anywhere;
+  word-break: break-word;
+  hyphens: auto;
+}

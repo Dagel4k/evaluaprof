@@ -242,8 +242,8 @@ export const ProfessorList: React.FC<ProfessorListProps> = ({
 
   return (
     <div className="space-y-4 sm:space-y-6">
-      {/* Estadísticas de la Base de Datos */}
-      <DatabaseStats professors={professors} />
+      {/* Estadísticas de la Base de Datos (se muestran ahora en Inicio) */}
+      {/* <DatabaseStats professors={professors} /> */}
 
       <div className="flex flex-col lg:flex-row gap-4 sm:gap-6">
         {/* Barra de búsqueda */}

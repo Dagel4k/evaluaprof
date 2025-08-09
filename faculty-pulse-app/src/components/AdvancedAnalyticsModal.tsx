@@ -65,12 +65,12 @@ export const AdvancedAnalyticsModal: React.FC<AdvancedAnalyticsModalProps> = ({
 
   // Datos para el radar chart
   const radarData = [
-    { subject: 'Calidad', value: professor.calidad_general, fullMark: 10 },
-    { subject: 'Confiabilidad', value: trustScore * 10, fullMark: 10 },
-    { subject: 'Recomendación', value: professor.porcentaje_recomienda / 10, fullMark: 10 },
-    { subject: 'Sentiment', value: (sentimentScore + 1) * 5, fullMark: 10 },
-    { subject: 'Pronóstico', value: forecastQuality, fullMark: 10 },
-    { subject: 'Popularidad', value: Math.min(professor.numero_calificaciones / 10, 10), fullMark: 10 }
+    { subject: 'Calidad', full: 'Calidad', value: professor.calidad_general, fullMark: 10 },
+    { subject: 'Confianza', full: 'Confiabilidad', value: trustScore * 10, fullMark: 10 },
+    { subject: 'Recom.', full: 'Recomendación', value: professor.porcentaje_recomienda / 10, fullMark: 10 },
+    { subject: 'Sentim.', full: 'Sentimiento', value: (sentimentScore + 1) * 5, fullMark: 10 },
+    { subject: 'Pronóst.', full: 'Pronóstico', value: forecastQuality, fullMark: 10 },
+    { subject: 'Popular.', full: 'Popularidad', value: Math.min(professor.numero_calificaciones / 10, 10), fullMark: 10 }
   ];
 
   // Datos para gráfico de tendencias
@@ -106,7 +106,7 @@ export const AdvancedAnalyticsModal: React.FC<AdvancedAnalyticsModalProps> = ({
 
   return (
     <Dialog open={isOpen} onOpenChange={onClose}>
-      <DialogContent className="max-w-6xl max-h-[90vh] overflow-y-auto">
+      <DialogContent className="max-w-6xl h-[85vh] overflow-auto">
         <DialogHeader>
           <DialogTitle className="flex items-center gap-2">
             <BarChart3 className="h-6 w-6 text-purple-600" />
@@ -183,19 +183,26 @@ export const AdvancedAnalyticsModal: React.FC<AdvancedAnalyticsModalProps> = ({
             </div>
 
             {/* Radar Chart */}
-            <Card className="p-6">
+            <Card className="p-6 overflow-hidden">
               <h3 className="text-lg font-semibold mb-4 flex items-center gap-2">
                 <Activity className="h-5 w-5" />
                 Perfil Multidimensional
               </h3>
-              <ResponsiveContainer width="100%" height={400}>
-                <RadarChart data={radarData}>
+              <ResponsiveContainer width="100%" height={320}>
+                <RadarChart data={radarData} outerRadius="72%" margin={{ top: 40, right: 40, bottom: 40, left: 40 }}>
                   <PolarGrid />
-                  <PolarAngleAxis dataKey="subject" />
+                  <PolarAngleAxis 
+                    dataKey="subject" 
+                    tick={{ fill: 'hsl(var(--muted-foreground))', fontSize: 13 }}
+                    tickLine={false}
+                  />
                   <PolarRadiusAxis 
                     angle={90} 
                     domain={[0, 10]} 
                     tick={false}
+                  />
+                  <Tooltip 
+                    formatter={(value: any, _name: any, props: any) => [value, props.payload.full]}
                   />
                   <Radar
                     name="Profesor"
