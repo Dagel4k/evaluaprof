@@ -13,8 +13,8 @@ const ROLE_PERMISSIONS: Record<UserRole, AppFeature[]> = {
     'view-professors'
   ],
   'STUDENT_FREE': [
-    'view-professors'
-    // NO tiene access-scheduler
+    'view-professors',
+    'access-scheduler'
   ],
   'STUDENT_PRO': [
     'view-professors',

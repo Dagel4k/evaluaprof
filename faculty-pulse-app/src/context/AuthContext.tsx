@@ -44,8 +44,22 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
         setUser(session.user);
         await fetchProfile(session.user.id);
       } else {
-        console.log("⚠️ No active session on init");
-        setIsLoading(false);
+        // Critical Fix for OAuth Redirect:
+        // If we have a hash with access_token, DO NOT stop loading yet.
+        // We wait for the onAuthStateChange event to fire.
+        if (window.location.hash && window.location.hash.includes('access_token')) {
+          console.log("⏳ OAuth hash detected, waiting for Supabase to process...");
+          // We intentionally leave isLoading = true here.
+          // The onAuthStateChange listener will eventually fire 'SIGNED_IN' and turn it off.
+          // Safety timeout in case it fails:
+          setTimeout(() => {
+             console.warn("⚠️ OAuth processing timeout, forcing load state off.");
+             if (!session) setIsLoading(false); 
+          }, 5000);
+        } else {
+          console.log("⚠️ No active session on init");
+          setIsLoading(false);
+        }
       }
     };
 
