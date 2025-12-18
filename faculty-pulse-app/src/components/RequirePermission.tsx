@@ -11,11 +11,25 @@ interface RequirePermissionProps {
 }
 
 export const RequirePermission: React.FC<RequirePermissionProps> = ({ feature, children, redirectTo }) => {
-  const { profile, isLoading } = useAuth();
+  const { profile, isLoading, user } = useAuth();
 
-  if (isLoading) return null; // Or a loading spinner
+  // 1. Wait for auth check to complete
+  if (isLoading) {
+    // Optional: Return a spinner or skeleton here if checking takes too long
+    return null; 
+  }
 
-  if (!hasPermission(profile?.role, feature)) {
+  // 2. If no user, definitely redirect
+  if (!user) {
+    if (redirectTo) return <Navigate to={redirectTo} replace />;
+    // If no redirect provided (e.g. modal), return null or specific fallback
+    return null;
+  }
+
+  // 3. If user exists but profile failed to load (rare, but possible), treat as free tier
+  const safeRole = profile?.role || 'STUDENT_FREE';
+
+  if (!hasPermission(safeRole, feature)) {
     // Enterprise Gating: Show Lock Screen for scheduler, or redirect
     if (feature === 'access-scheduler') {
       return <PremiumLockScreen />;

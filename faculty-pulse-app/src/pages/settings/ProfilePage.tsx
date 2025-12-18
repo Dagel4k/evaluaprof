@@ -61,7 +61,23 @@ export const ProfilePage: React.FC = () => {
     navigate('/auth');
   };
 
-  if (!user) return null; // Or loading skeleton
+  // --- UNAUTHENTICATED STATE ---
+  if (!user) {
+    return (
+      <div className="container mx-auto max-w-2xl py-20 px-4 text-center space-y-6">
+        <div className="flex justify-center">
+          <Shield className="h-16 w-16 text-muted-foreground/50" />
+        </div>
+        <h1 className="text-2xl font-bold tracking-tight">Inicia sesión para ver tu perfil</h1>
+        <p className="text-muted-foreground">
+          Necesitas una cuenta para gestionar tu configuración y ver tu estado.
+        </p>
+        <Button onClick={() => navigate('/auth')} size="lg">
+          Iniciar Sesión / Registrarse
+        </Button>
+      </div>
+    );
+  }
 
   return (
     <div className="container mx-auto max-w-2xl py-10 px-4 space-y-8">
