@@ -81,7 +81,7 @@ const AppContent = () => {
           {/* Desktop Routes - Protected */}
           <Route path="/desktop" element={<DesktopLayout />}>
             <Route path="scheduler" element={
-              <RequirePermission feature="access-scheduler">
+              <RequirePermission feature="access-scheduler" redirectTo="/auth">
                 <SchedulerPage />
               </RequirePermission>
             } />
