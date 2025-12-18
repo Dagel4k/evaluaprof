@@ -15,7 +15,7 @@ import { Professor } from '@/types/professor';
 const MIN_REVIEWS = 3;
 
 export const EvaluatePage: React.FC = () => {
-  const { user, profile } = useAuth();
+  const { user, profile, refreshProfile } = useAuth();
   const navigate = useNavigate();
   const { toast } = useToast();
   
@@ -104,6 +104,8 @@ export const EvaluatePage: React.FC = () => {
         setCurrentEvalIndex(prev => prev + 1);
         setRating({ quality: 5, difficulty: 5, takeAgain: true, comment: '' });
       } else {
+        // Actualizar perfil localmente antes de mostrar DONE
+        await refreshProfile();
         // Finalizar todo
         setStep('DONE');
       }

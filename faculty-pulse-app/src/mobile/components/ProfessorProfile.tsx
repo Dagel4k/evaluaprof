@@ -27,14 +27,25 @@ export const ProfessorProfile: React.FC<ProfessorProfileProps> = ({
   const [showAnalysis, setShowAnalysis] = useState(false);
   const [showPrompt, setShowPrompt] = useState(false);
   
-  const { profile, user } = useAuth();
+  const { profile, user, refreshProfile } = useAuth();
   const navigate = useNavigate();
   const isPro = hasPermission(profile?.role, 'view-advanced-metrics');
   const evaluationsCount = profile?.evaluations_count || 0;
 
-  const handleAnalysisClick = () => {
+  const handleAnalysisClick = async () => {
     // 1. Pro Access or Sufficient Contributions
     if (isPro || evaluationsCount >= 3) {
+      setShowAnalysis(true);
+      return;
+    }
+
+    // Double check with server just in case state is stale
+    if (user) {
+      await refreshProfile();
+      // Re-read after refresh
+    }
+
+    if (isPro || (profile?.evaluations_count || 0) >= 3) {
       setShowAnalysis(true);
       return;
     }
