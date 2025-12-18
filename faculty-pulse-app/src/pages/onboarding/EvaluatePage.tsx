@@ -64,36 +64,56 @@ export const EvaluatePage: React.FC = () => {
 
   const submitEvaluation = async () => {
     if (!user) return;
-    setIsSubmitting(true);
     
+    // Validar longitud del comentario si el usuario escribió algo
+    if (rating.comment.length > 0 && rating.comment.length < 30) {
+      toast({ 
+        title: "Comentario muy corto", 
+        description: "Tu opinión debe tener al menos 30 caracteres para ayudar a otros estudiantes.", 
+        variant: "destructive" 
+      });
+      return;
+    }
+
+    setIsSubmitting(true);
     const professor = selectedProfessors[currentEvalIndex];
     
     try {
+      console.log('Enviando evaluación para:', professor.nombre);
       const { error } = await supabase.from('reviews').insert({
         user_id: user.id,
         professor_name: professor.nombre,
         university: professor.universidad,
-        subject: 'General', // Simplified for onboarding
+        subject: 'General', 
         quality_rating: rating.quality,
         difficulty_rating: rating.difficulty,
         take_again: rating.takeAgain,
-        comment: rating.comment || 'Evaluación rápida de onboarding',
+        comment: rating.comment.length >= 30 ? rating.comment : 'Evaluación rápida de onboarding (Completada para activar cuenta)',
         status: 'APPROVED'
       });
 
-      if (error) throw error;
+      if (error) {
+        console.error('Error de Supabase:', error);
+        throw error;
+      }
+
+      console.log('Evaluación guardada con éxito');
 
       if (currentEvalIndex < selectedProfessors.length - 1) {
-        // Next review
+        // Pasar al siguiente profesor
         setCurrentEvalIndex(prev => prev + 1);
-        setRating({ quality: 5, difficulty: 5, takeAgain: true, comment: '' }); // Reset form
+        setRating({ quality: 5, difficulty: 5, takeAgain: true, comment: '' });
       } else {
-        // All done
+        // Finalizar todo
         setStep('DONE');
-        // Update local profile state optimistically if possible, or wait for auth refresh
       }
     } catch (e: any) {
-      toast({ title: "Error", description: e.message, variant: "destructive" });
+      console.error('Excepción en submitEvaluation:', e);
+      toast({ 
+        title: "Error al enviar", 
+        description: e.message || "No se pudo guardar la evaluación. Intenta de nuevo.", 
+        variant: "destructive" 
+      });
     } finally {
       setIsSubmitting(false);
     }
@@ -247,12 +267,23 @@ export const EvaluatePage: React.FC = () => {
             </div>
 
             <div className="space-y-2">
-              <Label>Comentario (Opcional)</Label>
+              <div className="flex justify-between items-center">
+                <Label>Comentario (Opcional)</Label>
+                {rating.comment.length > 0 && (
+                  <span className={`text-[10px] ${rating.comment.length < 30 ? 'text-orange-500' : 'text-green-600'}`}>
+                    {rating.comment.length}/30 caracteres mín.
+                  </span>
+                )}
+              </div>
               <Input 
                 placeholder="Breve opinión..." 
                 value={rating.comment}
                 onChange={e => setRating({...rating, comment: e.target.value})}
+                className={rating.comment.length > 0 && rating.comment.length < 30 ? 'border-orange-300' : ''}
               />
+              {rating.comment.length > 0 && rating.comment.length < 30 && (
+                <p className="text-[10px] text-orange-500 italic">Escribe un poco más para ayudar a la comunidad.</p>
+              )}
             </div>
           </div>
 
