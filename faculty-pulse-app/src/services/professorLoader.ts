@@ -1,5 +1,9 @@
 import { Professor, ProfessorError, LoadResult } from '@/types/professor';
 import { normalizeSubject } from '@/shared/lib/formatters';
+import { get, set } from 'idb-keyval';
+
+const CACHE_KEY_PROFESSORS = 'professors_data_v2';
+const CACHE_KEY_META = 'professors_meta_v2';
 
 export class ProfessorLoaderService {
   // Directorio de datos respetando la base pública del build (soporta subrutas como GitHub Pages)
@@ -49,7 +53,39 @@ export class ProfessorLoaderService {
         return { professors: [], errors: [] };
       }
 
-      return await this.loadProfessorsFromFiles(fileList, onProgress);
+      // --- CACHE CHECK START ---
+      // Verificar si tenemos datos en caché y si coinciden con la lista actual
+      try {
+        const cachedMeta = await get(CACHE_KEY_META);
+        const cachedData = await get(CACHE_KEY_PROFESSORS);
+
+        // Si la caché existe y tiene el mismo número de archivos que la lista remota
+        // (Una validación simple pero efectiva para detectar cambios de cantidad)
+        if (cachedData && cachedMeta && cachedMeta.count === fileList.length) {
+          console.log('⚡️ Usando caché local de IndexedDB');
+          // Simular progreso rápido para UX
+          onProgress?.(fileList.length, fileList.length, cachedData.professors.length, cachedData.errors.length);
+          return cachedData as LoadResult;
+        }
+      } catch (err) {
+        console.warn('Error leyendo caché:', err);
+      }
+      // --- CACHE CHECK END ---
+
+      const result = await this.loadProfessorsFromFiles(fileList, onProgress);
+      
+      // Guardar en caché para la próxima
+      if (result.professors.length > 0) {
+        try {
+          await set(CACHE_KEY_PROFESSORS, result);
+          await set(CACHE_KEY_META, { count: fileList.length, timestamp: Date.now() });
+          console.log('💾 Datos guardados en caché local');
+        } catch (err) {
+          console.error('Error guardando en caché:', err);
+        }
+      }
+
+      return result;
     } catch (error) {
       console.error('Error cargando profesores:', error);
       return { professors: [], errors: [] };

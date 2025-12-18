@@ -91,10 +91,26 @@ export const ProfilePage: React.FC = () => {
               </Avatar>
               <div className="space-y-1">
                 <div className="font-medium truncate">{user.email}</div>
-                <Badge variant={profile?.role === 'STUDENT_PRO' ? 'default' : 'secondary'}>
-                  {profile?.role === 'STUDENT_PRO' ? 'PLAN PRO' : 'PLAN GRATUITO'}
-                </Badge>
+                <div className="flex gap-2">
+                  <Badge variant={profile?.role === 'STUDENT_PRO' ? 'default' : 'secondary'}>
+                    {profile?.role === 'STUDENT_PRO' ? 'PLAN PRO' : 'PLAN GRATUITO'}
+                  </Badge>
+                  <Badge variant="outline" className="text-green-600 border-green-200 bg-green-50">
+                    Activo
+                  </Badge>
+                </div>
               </div>
+            </div>
+
+            <div className="grid grid-cols-2 gap-4 text-sm mt-4 p-4 bg-muted/50 rounded-lg">
+               <div>
+                  <span className="text-muted-foreground block mb-1">ID de Usuario</span>
+                  <span className="font-mono text-xs text-foreground/80 break-all">{user.id}</span>
+               </div>
+               <div>
+                  <span className="text-muted-foreground block mb-1">Último Acceso</span>
+                  <span>{new Date(user.last_sign_in_at || Date.now()).toLocaleDateString()}</span>
+               </div>
             </div>
 
             <div className="space-y-2">
