@@ -1,4 +1,5 @@
 import { App as CapApp } from '@capacitor/app';
+import { Native } from '@/shared/lib/native';
 
 let installed = false;
 let lastBack = 0;
@@ -18,7 +19,7 @@ export function installBackHandler() {
         CapApp.exitApp();
       } else {
         lastBack = now;
-        // Optional toast here
+        Native.toast('Pulsa atrás de nuevo para salir');
       }
       return;
     }
@@ -40,6 +41,6 @@ export function installBackHandler() {
       return;
     }
 
-    // 4) Sin historial y no raíz: no hagas nada (bloquea cierre accidental)
+    // 4) Sin historial y no raíz: bloquea
   });
 } 

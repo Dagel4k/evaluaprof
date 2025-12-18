@@ -1,8 +1,12 @@
 import { Professor, ProfessorError, LoadResult } from '@/types/professor';
+import { normalizeSubject } from '@/shared/lib/formatters';
 
 export class ProfessorLoaderService {
-  // En producción (APK), los JSON se sirven desde `public/profesores_enriquecido`
-  private static readonly PROFESSORS_DIR = '/profesores_enriquecido/';
+  // Directorio de datos respetando la base pública del build (soporta subrutas como GitHub Pages)
+  private static getProfessorsDir(): string {
+    const base = import.meta.env.BASE_URL || '/';
+    return `${base}profesores_enriquecido/`;
+  }
 
   /**
    * Carga automáticamente todos los archivos JSON de profesores
@@ -11,17 +15,15 @@ export class ProfessorLoaderService {
     onProgress?: (current: number, total: number, loaded: number, errors: number) => void
   ): Promise<LoadResult> {
     try {
-      console.log('Obteniendo lista de archivos JSON...');
       // 1) Intentar lista pre-generada embebida en producción
       //    `public/profesores_enriquecido/fileList.json`
-      const embeddedListUrl = `${this.PROFESSORS_DIR}fileList.json`;
+      const embeddedListUrl = `${this.getProfessorsDir()}fileList.json`;
       let fileList: string[] | null = null;
 
       try {
         const embeddedResponse = await fetch(embeddedListUrl);
         if (embeddedResponse.ok) {
           fileList = await embeddedResponse.json();
-          console.log(`Lista embebida encontrada: ${fileList.length} archivos`);
         } else {
           console.warn('Lista embebida no disponible:', embeddedResponse.status);
         }
@@ -35,7 +37,6 @@ export class ProfessorLoaderService {
           const devResponse = await fetch('/api/professors-list');
           if (devResponse.ok) {
             fileList = await devResponse.json();
-            console.log(`Lista de desarrollo obtenida: ${fileList.length} archivos`);
           } else {
             console.error('Endpoint de desarrollo no disponible:', devResponse.status);
           }
@@ -66,8 +67,6 @@ export class ProfessorLoaderService {
     const errors: ProfessorError[] = [];
     const maxConcurrent = 5; // Reducir requests concurrentes para evitar sobrecarga
     
-    console.log(`Iniciando carga de ${fileList.length} archivos...`);
-    
     // Inicializar progreso
     onProgress?.(0, fileList.length, 0, 0);
     
@@ -75,9 +74,7 @@ export class ProfessorLoaderService {
       const batch = fileList.slice(i, i + maxConcurrent);
       const batchPromises = batch.map(async (filename) => {
         try {
-          console.log(`Intentando cargar: ${filename}`);
-          const response = await fetch(`${this.PROFESSORS_DIR}${filename}`);
-          console.log(`Respuesta para ${filename}:`, response.status, response.statusText);
+          const response = await fetch(`${this.getProfessorsDir()}${filename}`);
           
           if (response.ok) {
             const data = await response.json();
@@ -148,7 +145,6 @@ export class ProfessorLoaderService {
       }
     }
 
-    console.log(`Cargados ${professors.length} profesores y ${errors.length} errores`);
     return { professors, errors };
   }
 
@@ -184,7 +180,7 @@ export class ProfessorLoaderService {
         tipo_calificacion: review.calidad >= 8 ? 'BUENO' : review.calidad >= 6 ? 'REGULAR' : 'MALO',
         puntaje_calidad_general: review.calidad || 0,
         puntaje_facilidad: review.dificultad || null,
-        materia: review.materia || '',
+        materia: normalizeSubject(review.materia || ''),
         asistencia: null,
         calificacion_recibida: review.nota ? review.nota.toString() : null,
         interes_clase: null,
@@ -224,20 +220,4 @@ export class ProfessorLoaderService {
       return null;
     }
   }
-
-  /**
-   * Busca profesores por término de búsqueda
-   */
-  static async searchProfessors(searchTerm: string): Promise<Professor[]> {
-    const result = await this.loadAllProfessors();
-    
-    return result.professors.filter(professor => 
-      professor.nombre.toLowerCase().includes(searchTerm.toLowerCase()) ||
-      professor.universidad.toLowerCase().includes(searchTerm.toLowerCase()) ||
-      professor.departamento.toLowerCase().includes(searchTerm.toLowerCase()) ||
-      (professor.ciudad && professor.ciudad.toLowerCase().includes(searchTerm.toLowerCase()))
-    );
-  }
 }
-
-export const professorLoaderService = new ProfessorLoaderService();

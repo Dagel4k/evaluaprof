@@ -1,4 +1,5 @@
 import { Professor } from '@/types/professor';
+import { getDecryptedApiKey } from '@/shared/lib/secureStorage';
 
 export interface AIAnalysisResult {
   summary: string
@@ -18,16 +19,13 @@ export class AIAnalysisService {
     this.baseUrl = 'https://api.openai.com/v1/chat/completions';
   }
 
-  private getApiKey(): string {
-    const envApiKey = import.meta.env.VITE_OPENAI_API_KEY;
-    if (envApiKey) return envApiKey;
-    const storedApiKey = localStorage.getItem('openai_api_key');
-    const storedEnc = localStorage.getItem('openai_api_key_enc_v1');
-    return storedApiKey || (storedEnc ? '' : '');
+  private async resolveApiKey(): Promise<string> {
+    const key = await getDecryptedApiKey();
+    return key;
   }
 
   private async makeRequest(prompt: string): Promise<string> {
-    const apiKey = this.getApiKey();
+    const apiKey = await this.resolveApiKey();
     if (!apiKey) throw new Error('NO_API_KEY');
 
     const controller = new AbortController();
@@ -49,9 +47,10 @@ export class AIAnalysisService {
           temperature: 0.4,
           max_tokens: 600
         }),
-        // Explicitly avoid sending cookies
         credentials: 'omit',
-        referrerPolicy: 'no-referrer'
+        referrerPolicy: 'no-referrer',
+        cache: 'no-store',
+        mode: 'cors'
       });
 
       if (!response.ok) {

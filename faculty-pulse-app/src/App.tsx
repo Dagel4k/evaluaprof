@@ -1,16 +1,17 @@
-import { Toaster } from "@/components/ui/toaster";
-import { Toaster as Sonner } from "@/components/ui/sonner";
-import { TooltipProvider } from "@/components/ui/tooltip";
+import { Toaster } from "@/shared/ui/toaster";
+import { Toaster as Sonner } from "@/shared/ui/sonner";
+import { TooltipProvider } from "@/shared/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route, Navigate, useNavigate } from "react-router-dom";
-import Index from "./pages/Index";
-import NotFound from "./pages/NotFound";
-import Home from "./pages/Home";
-import BottomNav from "./components/BottomNav";
-import About from "./pages/About";
-import Startup from "./pages/Startup";
+import Index from "./mobile/pages/Index";
+import NotFound from "./mobile/pages/NotFound";
+import Home from "./mobile/pages/Home";
+import BottomNav from "./mobile/components/BottomNav";
+import About from "./mobile/pages/About";
+import Startup from "./mobile/pages/Startup";
 import { useEffect } from "react";
-import { toast as sonnerToast } from "@/components/ui/sonner";
+import { toast as sonnerToast } from "@/shared/ui/sonner";
+import { Native } from "@/shared/lib/native";
 // Dynamic import guard for Capacitor App
 declare global {
   interface Window { Capacitor?: any; __backOnce?: boolean; __trapPushed?: boolean }
@@ -18,28 +19,76 @@ declare global {
 
 const queryClient = new QueryClient();
 
+import { useLocation } from "react-router-dom";
+
+import DesktopLayout from "./desktop/components/DesktopLayout";
+import SchedulerPage from "./desktop/pages/SchedulerPage";
+
+const NavigationWrapper = () => {
+  const location = useLocation();
+  // Ocultar barra inferior solo durante arranque
+  if (location.pathname === '/startup') return null;
+  return <BottomNav />;
+};
+
+import { ProfessorProvider } from "@/mobile/context/ProfessorContext";
+import { AuthProvider } from "./context/AuthContext";
+import { AuthPage } from "./pages/AuthPage";
+import { TermsPage } from "./pages/legal/TermsPage";
+import { PrivacyPage } from "./pages/legal/PrivacyPage";
+import { CookieBanner } from "./components/CookieBanner";
+import { ProfilePage } from "./pages/settings/ProfilePage";
+import { EvaluatePage } from "./pages/onboarding/EvaluatePage";
+
+import { RequirePermission } from "./components/RequirePermission";
+
 const App = () => (
   <QueryClientProvider client={queryClient}>
     <TooltipProvider>
       <Toaster />
       <Sonner />
-      <div className="safe-y min-h-screen pb-20">
-        <BrowserRouter>
-          <BackHandler />
-          <Routes>
-            <Route path="/startup" element={<Startup />} />
-            <Route path="/home" element={<Home />} />
-            <Route path="/profesores" element={<Index />} />
-            <Route path="/profesores/:slug" element={<Index />} />
-            <Route path="/acerca" element={<About />} />
-            <Route path="/" element={<Navigate to="/startup" />} />
-            {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
-            <Route path="*" element={<NotFound />} />
-          </Routes>
-          {/* Ocultar barra inferior durante arranque */}
-          {window.location.pathname !== '/startup' && <BottomNav />}
-        </BrowserRouter>
-      </div>
+      <AuthProvider>
+        <ProfessorProvider>
+          <div className="safe-y min-h-screen pb-20">
+            <BrowserRouter>
+              <BackHandler />
+              <Routes>
+                <Route path="/auth" element={<AuthPage />} />
+                <Route path="/onboarding/evaluate" element={<EvaluatePage />} />
+                
+                {/* User Settings */}
+                <Route path="/settings/profile" element={<ProfilePage />} />
+
+                {/* Legal Routes */}
+                <Route path="/legal/terms" element={<TermsPage />} />
+                <Route path="/legal/privacy" element={<PrivacyPage />} />
+                
+                {/* Mobile Routes */}
+                <Route path="/startup" element={<Startup />} />
+                <Route path="/home" element={<Home />} />
+                <Route path="/profesores" element={<Index />} />
+                <Route path="/profesores/:slug" element={<Index />} />
+                <Route path="/acerca" element={<About />} />
+                <Route path="/" element={<Navigate to="/startup" />} />
+
+                {/* Desktop Routes - Protected */}
+                <Route path="/desktop" element={<DesktopLayout />}>
+                  <Route path="scheduler" element={
+                    <RequirePermission feature="access-scheduler">
+                      <SchedulerPage />
+                    </RequirePermission>
+                  } />
+                  <Route index element={<Navigate to="scheduler" replace />} />
+                </Route>
+
+                <Route path="*" element={<NotFound />} />
+              </Routes>
+              <NavigationWrapper />
+              <CookieBanner />
+            </BrowserRouter>
+          </div>
+        </ProfessorProvider>
+      </AuthProvider>
     </TooltipProvider>
   </QueryClientProvider>
 );
@@ -73,7 +122,8 @@ function BackHandler() {
           // No re-push: se permitirá cerrar app (WebView saldrá)
         } else {
           (window as any).__backOnce = true;
-          sonnerToast('Pulsa atrás de nuevo para salir', { position: 'bottom-center' });
+          // Toast nativo si es posible
+          Native.toast('Pulsa atrás de nuevo para salir');
           // Reponer el estado para que no salga
           setTimeout(() => {
             history.pushState(null, '', path);
