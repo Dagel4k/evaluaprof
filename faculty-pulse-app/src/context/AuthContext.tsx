@@ -28,27 +28,42 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
 
   useEffect(() => {
     // 1. Get initial session
-    supabase.auth.getSession().then(({ data: { session } }) => {
-      setSession(session);
-      setUser(session?.user ?? null);
-      if (session?.user) fetchProfile(session.user.id);
-      else setIsLoading(false);
-    });
+    const initSession = async () => {
+      // Check if we are returning from OAuth redirect
+      // Supabase handles the hash parsing automatically in getSession() usually,
+      // but explicitly checking helps debugging.
+      const { data: { session }, error } = await supabase.auth.getSession();
+      
+      if (error) {
+        console.error("Auth initialization error:", error);
+      }
+      
+      if (session) {
+        console.log("✅ Session found on init:", session.user.email);
+        setSession(session);
+        setUser(session.user);
+        await fetchProfile(session.user.id);
+      } else {
+        console.log("⚠️ No active session on init");
+        setIsLoading(false);
+      }
+    };
+
+    initSession();
 
     // 2. Listen for changes
-    const { data: { subscription } } = supabase.auth.onAuthStateChange(async (_event, session) => {
+    const { data: { subscription } } = supabase.auth.onAuthStateChange(async (event, session) => {
+      console.log(`Auth event: ${event}`, session?.user?.email);
+      
       setSession(session);
       setUser(session?.user ?? null);
       
       if (session?.user) {
-        // Enforce Single Session (Enterprise Requirement)
-        // We register this session as the "active" one.
-        // If another device logs in, this one should eventually be invalidated 
-        // (though real-time invalidation requires Realtime subscription which is Step 2)
-        await registerSession(session);
-        
-        await fetchProfile(session.user.id);
-      } else {
+        if (event === 'SIGNED_IN' || event === 'TOKEN_REFRESHED') {
+           await registerSession(session);
+           await fetchProfile(session.user.id);
+        }
+      } else if (event === 'SIGNED_OUT') {
         setProfile(null);
         setIsLoading(false);
       }

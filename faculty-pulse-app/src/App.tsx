@@ -32,15 +32,70 @@ const NavigationWrapper = () => {
 };
 
 import { ProfessorProvider } from "@/mobile/context/ProfessorContext";
-import { AuthProvider } from "./context/AuthContext";
+import { AuthProvider, useAuth } from "./context/AuthContext";
 import { AuthPage } from "./pages/AuthPage";
 import { TermsPage } from "./pages/legal/TermsPage";
 import { PrivacyPage } from "./pages/legal/PrivacyPage";
 import { CookieBanner } from "./components/CookieBanner";
 import { ProfilePage } from "./pages/settings/ProfilePage";
 import { EvaluatePage } from "./pages/onboarding/EvaluatePage";
+import { Loader2 } from "lucide-react";
 
 import { RequirePermission } from "./components/RequirePermission";
+
+// Wrapper to handle global auth loading state
+const AppContent = () => {
+  const { isLoading } = useAuth();
+  
+  if (isLoading) {
+     return (
+       <div className="min-h-screen flex items-center justify-center bg-background">
+         <Loader2 className="h-8 w-8 animate-spin text-primary" />
+       </div>
+     );
+  }
+
+  return (
+    <div className="safe-y min-h-screen pb-20">
+      <BrowserRouter>
+        <BackHandler />
+        <Routes>
+          <Route path="/auth" element={<AuthPage />} />
+          <Route path="/onboarding/evaluate" element={<EvaluatePage />} />
+          
+          {/* User Settings */}
+          <Route path="/settings/profile" element={<ProfilePage />} />
+
+          {/* Legal Routes */}
+          <Route path="/legal/terms" element={<TermsPage />} />
+          <Route path="/legal/privacy" element={<PrivacyPage />} />
+          
+          {/* Mobile Routes */}
+          <Route path="/startup" element={<Startup />} />
+          <Route path="/home" element={<Home />} />
+          <Route path="/profesores" element={<Index />} />
+          <Route path="/profesores/:slug" element={<Index />} />
+          <Route path="/acerca" element={<About />} />
+          <Route path="/" element={<Navigate to="/startup" />} />
+
+          {/* Desktop Routes - Protected */}
+          <Route path="/desktop" element={<DesktopLayout />}>
+            <Route path="scheduler" element={
+              <RequirePermission feature="access-scheduler">
+                <SchedulerPage />
+              </RequirePermission>
+            } />
+            <Route index element={<Navigate to="scheduler" replace />} />
+          </Route>
+
+          <Route path="*" element={<NotFound />} />
+        </Routes>
+        <NavigationWrapper />
+        <CookieBanner />
+      </BrowserRouter>
+    </div>
+  );
+};
 
 const App = () => (
   <QueryClientProvider client={queryClient}>
@@ -49,44 +104,7 @@ const App = () => (
       <Sonner />
       <AuthProvider>
         <ProfessorProvider>
-          <div className="safe-y min-h-screen pb-20">
-            <BrowserRouter>
-              <BackHandler />
-              <Routes>
-                <Route path="/auth" element={<AuthPage />} />
-                <Route path="/onboarding/evaluate" element={<EvaluatePage />} />
-                
-                {/* User Settings */}
-                <Route path="/settings/profile" element={<ProfilePage />} />
-
-                {/* Legal Routes */}
-                <Route path="/legal/terms" element={<TermsPage />} />
-                <Route path="/legal/privacy" element={<PrivacyPage />} />
-                
-                {/* Mobile Routes */}
-                <Route path="/startup" element={<Startup />} />
-                <Route path="/home" element={<Home />} />
-                <Route path="/profesores" element={<Index />} />
-                <Route path="/profesores/:slug" element={<Index />} />
-                <Route path="/acerca" element={<About />} />
-                <Route path="/" element={<Navigate to="/startup" />} />
-
-                {/* Desktop Routes - Protected */}
-                <Route path="/desktop" element={<DesktopLayout />}>
-                  <Route path="scheduler" element={
-                    <RequirePermission feature="access-scheduler">
-                      <SchedulerPage />
-                    </RequirePermission>
-                  } />
-                  <Route index element={<Navigate to="scheduler" replace />} />
-                </Route>
-
-                <Route path="*" element={<NotFound />} />
-              </Routes>
-              <NavigationWrapper />
-              <CookieBanner />
-            </BrowserRouter>
-          </div>
+           <AppContent />
         </ProfessorProvider>
       </AuthProvider>
     </TooltipProvider>
