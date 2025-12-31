@@ -43,13 +43,13 @@ const About: React.FC = () => {
             <Linkedin className="h-4 w-4" /> linkedin.com/in/daniel-pereda-chaidez
           </a>
           <a
-            href="https://danielpereda.com/"
+            href="https://daniel-pereda.dev/"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center justify-center gap-2 rounded-md border px-4 py-2 text-sm sm:text-base hover:bg-accent transition-colors"
             title="Sitio web"
           >
-            <Globe className="h-4 w-4" /> danielpereda.com
+            <Globe className="h-4 w-4" /> daniel-pereda.dev
           </a>
         </div>
       </Card>
