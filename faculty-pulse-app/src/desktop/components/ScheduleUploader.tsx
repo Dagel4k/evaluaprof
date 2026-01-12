@@ -3,10 +3,12 @@ import { Button } from '@/shared/ui/button';
 import { Card } from '@/shared/ui/card';
 import { Upload, Calendar, FileJson } from 'lucide-react';
 import { useToast } from '@/shared/hooks/use-toast';
-import { RawCourseEntry } from '@/adapters/scheduleAdapter';
+import { RawCourseEntry, adaptRawScheduleToCanonical } from '@/adapters/scheduleAdapter';
+import { CargaDisponible, isCargaDisponibleFormat, adaptCargaDisponibleToCanonical } from '@/adapters/cargaDisponibleAdapter';
+import { ScheduleData } from '@/types/canonical';
 
 interface ScheduleUploaderProps {
-  onScheduleLoaded: (schedule: RawCourseEntry[]) => void;
+  onScheduleLoaded: (data: ScheduleData) => void;
 }
 
 export const ScheduleUploader: React.FC<ScheduleUploaderProps> = ({ onScheduleLoaded }) => {
@@ -19,20 +21,38 @@ export const ScheduleUploader: React.FC<ScheduleUploaderProps> = ({ onScheduleLo
     reader.onload = (e) => {
       try {
         const json = JSON.parse(e.target?.result as string);
-        
-        // Simple validation: Check if it's an array and has expected fields
-        if (!Array.isArray(json)) {
-          throw new Error("El archivo debe ser un arreglo de materias JSON.");
-        }
-        if (json.length > 0 && (!json[0].clave || !json[0].materia)) {
-           throw new Error("El formato del JSON no parece ser un horario válido (faltan campos 'clave' o 'materia').");
+
+        let scheduleData: ScheduleData;
+        let itemCount = 0;
+
+        // Detectar formato y convertir
+        if (isCargaDisponibleFormat(json)) {
+          // Formato nuevo: CargaDisponible del portal universitario
+          scheduleData = adaptCargaDisponibleToCanonical(json);
+          itemCount = scheduleData.subjects.length;
+
+          toast({
+            title: "Carga disponible importada",
+            description: `Se cargaron ${itemCount} materias del portal universitario.`,
+          });
+        } else if (Array.isArray(json)) {
+          // Formato antiguo: RawCourseEntry[]
+          if (json.length > 0 && (!json[0].clave || !json[0].materia)) {
+            throw new Error("El formato del JSON no parece ser un horario válido (faltan campos 'clave' o 'materia').");
+          }
+
+          scheduleData = adaptRawScheduleToCanonical(json as RawCourseEntry[]);
+          itemCount = json.length;
+
+          toast({
+            title: "Horario cargado",
+            description: `Se importaron ${itemCount} materias correctamente.`,
+          });
+        } else {
+          throw new Error("Formato de archivo no reconocido. Debe ser un array de materias o un objeto CargaDisponible.");
         }
 
-        onScheduleLoaded(json as RawCourseEntry[]);
-        toast({
-          title: "Horario cargado",
-          description: `Se importaron ${json.length} materias correctamente.`,
-        });
+        onScheduleLoaded(scheduleData);
       } catch (error: any) {
         console.error('Error parsing schedule:', error);
         toast({
@@ -68,15 +88,15 @@ export const ScheduleUploader: React.FC<ScheduleUploaderProps> = ({ onScheduleLo
       processFile(file);
     } else if (file) {
       toast({
-         title: "Archivo inválido",
-         description: "Por favor arrastra un archivo .json",
-         variant: "destructive"
+        title: "Archivo inválido",
+        description: "Por favor arrastra un archivo .json",
+        variant: "destructive"
       });
     }
   };
 
   return (
-    <Card 
+    <Card
       className={`p-12 text-center border-dashed border-2 transition-all duration-200 ${isDragging ? 'border-primary bg-primary/5 scale-[1.02]' : 'hover:border-primary/50'}`}
       onDragOver={handleDragOver}
       onDragLeave={handleDragLeave}
@@ -86,17 +106,17 @@ export const ScheduleUploader: React.FC<ScheduleUploaderProps> = ({ onScheduleLo
         <div className={`p-6 rounded-full transition-colors ${isDragging ? 'bg-primary/20' : 'bg-muted'}`}>
           <Calendar className={`h-12 w-12 ${isDragging ? 'text-primary' : 'text-muted-foreground'}`} />
         </div>
-        
+
         <div className="space-y-2">
           <h3 className="text-xl font-semibold tracking-tight">Importar Horario</h3>
           <p className="text-sm text-muted-foreground leading-relaxed">
-            Arrastra tu archivo JSON descargado del portal universitario, 
+            Arrastra tu archivo JSON descargado del portal universitario,
             o selecciona el archivo manualmente.
           </p>
         </div>
 
         <div className="flex flex-col gap-3 w-full sm:w-auto">
-          <Button 
+          <Button
             onClick={() => fileInputRef.current?.click()}
             className="w-full sm:w-auto gap-2"
             size="lg"
@@ -105,7 +125,7 @@ export const ScheduleUploader: React.FC<ScheduleUploaderProps> = ({ onScheduleLo
             Seleccionar JSON
           </Button>
           <p className="text-xs text-muted-foreground">
-            Formato soportado: .json (Array de objetos)
+            Formatos soportados: Carga Disponible (portal) o Array JSON
           </p>
         </div>
 

@@ -1,5 +1,5 @@
 import React, { useEffect, useState, useMemo } from 'react';
-import { adaptRawScheduleToCanonical, RawCourseEntry } from '../../adapters/scheduleAdapter';
+import { adaptRawScheduleToCanonical } from '../../adapters/scheduleAdapter';
 import rawScheduleText from '../../mocks/raw-schedule.json?raw';
 import offeringData from '../../mocks/offering'; // Mock Offering with multiple groups
 import { ScheduleData, ProfessorMetrics, Subject, CourseGroup } from '../../types/canonical';
@@ -32,7 +32,7 @@ const SchedulerPage: React.FC = () => {
   const [loadingDB, setLoadingDB] = useState(true);
   const [showManualForm, setShowManualForm] = useState(false);
   const [hasStarted, setHasStarted] = useState(false);
-  
+
   // Modals
   const [showUpgradeModal, setShowUpgradeModal] = useState(false);
 
@@ -79,12 +79,29 @@ const SchedulerPage: React.FC = () => {
     setProfessorMap(newProfMap);
   };
 
-  const handleScheduleLoaded = (rawSchedule: RawCourseEntry[]) => {
-    const data = adaptRawScheduleToCanonical(rawSchedule);
+  const handleScheduleLoaded = (data: ScheduleData) => {
     setSubjects(data.subjects);
-    const ids = new Set(data.selectedGroups?.map(g => g.id));
-    setSelectedGroupIds(ids);
-    enrichGroups(data.selectedGroups || []);
+
+    // If there are selected groups (from loaded schedule), use them
+    // Otherwise, auto-select first group of each subject
+    if (data.selectedGroups && data.selectedGroups.length > 0) {
+      const ids = new Set(data.selectedGroups.map(g => g.id));
+      setSelectedGroupIds(ids);
+      enrichGroups(data.selectedGroups);
+    } else {
+      // Auto-select first group of each subject
+      const initialSelection = new Set<string>();
+      const allGroups: CourseGroup[] = [];
+      data.subjects.forEach(s => {
+        if (s.groups.length > 0) {
+          initialSelection.add(s.groups[0].id);
+          allGroups.push(...s.groups);
+        }
+      });
+      setSelectedGroupIds(initialSelection);
+      enrichGroups(allGroups);
+    }
+
     setHasStarted(true);
     setGeneratedSchedules([]); // Clear generator
   };
@@ -94,7 +111,7 @@ const SchedulerPage: React.FC = () => {
     // offeringData matches ScheduleData structure roughly but we need to ensure types
     const loadedSubjects = offeringData.subjects as Subject[];
     setSubjects(loadedSubjects);
-    
+
     // Auto-select first group of each to have a starting state
     const initialSelection = new Set<string>();
     const allGroups: CourseGroup[] = [];
@@ -104,12 +121,12 @@ const SchedulerPage: React.FC = () => {
         allGroups.push(...s.groups);
       }
     });
-    
+
     setSelectedGroupIds(initialSelection);
     enrichGroups(allGroups);
     setHasStarted(true);
     setGeneratedSchedules([]);
-    
+
     toast({
       title: "Oferta Demo Cargada",
       description: `Se cargaron ${loadedSubjects.length} materias con múltiples opciones.`,
@@ -119,10 +136,10 @@ const SchedulerPage: React.FC = () => {
   const generateSchedules = async () => {
     // 1. Check Login
     if (!user) {
-      toast({ 
-        title: "Inicia Sesión", 
-        description: "Crea una cuenta gratuita para usar esta función.", 
-        variant: "destructive" 
+      toast({
+        title: "Inicia Sesión",
+        description: "Crea una cuenta gratuita para usar esta función.",
+        variant: "destructive"
       });
       navigate('/auth');
       return;
@@ -136,7 +153,7 @@ const SchedulerPage: React.FC = () => {
 
     setIsGenerating(true);
     setGeneratedSchedules([]);
-    
+
     // Build metrics map for the worker
     const metrics: Record<string, GroupMetrics> = {};
     professorMap.forEach((p, groupId) => {
@@ -149,7 +166,7 @@ const SchedulerPage: React.FC = () => {
     try {
       const engine = new SchedulerEngine();
       const results = await engine.generateSchedules(subjects, metrics, preferences);
-      
+
       if (results.length > 0) {
         setGeneratedSchedules(results);
         setCurrentScheduleIndex(0);
@@ -184,7 +201,7 @@ const SchedulerPage: React.FC = () => {
     let newIndex = direction === 'next' ? currentScheduleIndex + 1 : currentScheduleIndex - 1;
     if (newIndex >= generatedSchedules.length) newIndex = 0;
     if (newIndex < 0) newIndex = generatedSchedules.length - 1;
-    
+
     setCurrentScheduleIndex(newIndex);
     applyGeneratedSchedule(generatedSchedules[newIndex]);
   };
@@ -265,10 +282,10 @@ const SchedulerPage: React.FC = () => {
     return (
       <div className="container mx-auto py-10 max-w-4xl space-y-8">
         <div className="text-center space-y-2">
-           <h1 className="text-3xl font-bold tracking-tight">Constructor de Horarios</h1>
-           <p className="text-muted-foreground">Analiza tu semestre con la inteligencia de EvaluaProf.</p>
+          <h1 className="text-3xl font-bold tracking-tight">Constructor de Horarios</h1>
+          <p className="text-muted-foreground">Analiza tu semestre con la inteligencia de EvaluaProf.</p>
         </div>
-        
+
         <ScheduleUploader onScheduleLoaded={handleScheduleLoaded} />
 
         <div className="flex flex-col sm:flex-row justify-center items-stretch sm:items-center gap-3 px-4">
@@ -277,7 +294,8 @@ const SchedulerPage: React.FC = () => {
           </Button>
           <Button variant="ghost" onClick={() => {
             const raw = JSON.parse(rawScheduleText);
-            handleScheduleLoaded(raw);
+            const data = adaptRawScheduleToCanonical(raw);
+            handleScheduleLoaded(data);
           }} className="text-muted-foreground h-12 sm:h-10">
             Ver Demo Simple
           </Button>
@@ -296,10 +314,10 @@ const SchedulerPage: React.FC = () => {
 
       {/* Comparison Modal Overlay */}
       {comparison && professorMap.get(comparison.idA) && professorMap.get(comparison.idB) && (
-        <ProfessorComparison 
-          profA={professorMap.get(comparison.idA)!} 
-          profB={professorMap.get(comparison.idB)!} 
-          onClose={() => setComparison(null)} 
+        <ProfessorComparison
+          profA={professorMap.get(comparison.idA)!}
+          profB={professorMap.get(comparison.idB)!}
+          onClose={() => setComparison(null)}
         />
       )}
 
@@ -313,13 +331,13 @@ const SchedulerPage: React.FC = () => {
 
       <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
         <div>
-           <h2 className="text-2xl font-bold tracking-tight">Mi Constructor de Horario</h2>
-           {generatedSchedules.length > 0 && (
-             <div className="text-sm text-green-600 font-medium flex items-center gap-2 mt-1">
-               <Zap className="h-3 w-3" />
-               Viendo opción {currentScheduleIndex + 1} de {generatedSchedules.length}
-             </div>
-           )}
+          <h2 className="text-2xl font-bold tracking-tight">Mi Constructor de Horario</h2>
+          {generatedSchedules.length > 0 && (
+            <div className="text-sm text-green-600 font-medium flex items-center gap-2 mt-1">
+              <Zap className="h-3 w-3" />
+              Viendo opción {currentScheduleIndex + 1} de {generatedSchedules.length}
+            </div>
+          )}
         </div>
 
         <div className="flex flex-col sm:flex-row flex-wrap gap-2 items-stretch sm:items-center w-full sm:w-auto">
@@ -355,9 +373,9 @@ const SchedulerPage: React.FC = () => {
                     <div className="grid gap-2">
                       <div className="grid grid-cols-3 items-center gap-4">
                         <Label htmlFor="focus">Prioridad</Label>
-                        <Select 
-                          value={preferences.focus} 
-                          onValueChange={(val: any) => setPreferences({...preferences, focus: val})}
+                        <Select
+                          value={preferences.focus}
+                          onValueChange={(val: any) => setPreferences({ ...preferences, focus: val })}
                         >
                           <SelectTrigger className="col-span-2 h-8">
                             <SelectValue />
@@ -371,10 +389,10 @@ const SchedulerPage: React.FC = () => {
                       </div>
                       <div className="flex items-center justify-between">
                         <Label htmlFor="compact">Horario Compacto</Label>
-                        <Switch 
-                          id="compact" 
+                        <Switch
+                          id="compact"
                           checked={preferences.compact}
-                          onCheckedChange={(c) => setPreferences({...preferences, compact: c})}
+                          onCheckedChange={(c) => setPreferences({ ...preferences, compact: c })}
                         />
                       </div>
                     </div>
@@ -382,9 +400,9 @@ const SchedulerPage: React.FC = () => {
                 </PopoverContent>
               </Popover>
 
-              <Button 
-                onClick={generateSchedules} 
-                disabled={isGenerating} 
+              <Button
+                onClick={generateSchedules}
+                disabled={isGenerating}
                 className="flex-1 sm:flex-none gap-2 bg-gradient-to-r from-indigo-500 to-purple-600 text-white hover:from-indigo-600 hover:to-purple-700 h-10"
               >
                 {isGenerating ? <Loader2 className="h-4 w-4 animate-spin" /> : <Zap className="h-4 w-4" />}
@@ -405,7 +423,7 @@ const SchedulerPage: React.FC = () => {
       </div>
 
       <div className="flex flex-col lg:grid lg:grid-cols-4 gap-6 h-full">
-        
+
         {/* Sidebar: Subjects & Selection */}
         <div className="lg:col-span-1 space-y-4 lg:h-[calc(100vh-180px)] lg:overflow-y-auto pr-1">
           <div className="p-4 border rounded-lg bg-card shadow-sm">
@@ -415,8 +433,8 @@ const SchedulerPage: React.FC = () => {
             {/* Mobile: Limit height / Desktop: Full */}
             <div className="space-y-3 max-h-[200px] lg:max-h-none overflow-y-auto">
               {subjects.map(subject => {
-                 const selectedGroup = subject.groups.find(g => selectedGroupIds.has(g.id));
-                 return (
+                const selectedGroup = subject.groups.find(g => selectedGroupIds.has(g.id));
+                return (
                   <div key={subject.id} className="space-y-1">
                     <div className="text-xs font-bold text-muted-foreground truncate" title={subject.name}>
                       {subject.name}
@@ -426,16 +444,15 @@ const SchedulerPage: React.FC = () => {
                         const isSelected = selectedGroupIds.has(group.id);
                         const hasConflict = conflicts.has(group.id);
                         const metrics = professorMap.get(group.id);
-                        
+
                         return (
                           <div key={group.id} className="flex items-center gap-1">
                             <button
                               onClick={() => toggleGroupSelection(subject.id, group.id)}
-                              className={`flex-1 text-left px-2 py-1 text-[10px] rounded border transition-colors flex justify-between items-center ${
-                                isSelected 
-                                  ? (hasConflict ? 'bg-red-500 border-red-600 text-white' : 'bg-primary border-primary text-primary-foreground') 
-                                  : 'bg-background hover:bg-muted'
-                              }`}
+                              className={`flex-1 text-left px-2 py-1 text-[10px] rounded border transition-colors flex justify-between items-center ${isSelected
+                                ? (hasConflict ? 'bg-red-500 border-red-600 text-white' : 'bg-primary border-primary text-primary-foreground')
+                                : 'bg-background hover:bg-muted'
+                                }`}
                             >
                               <span className="truncate mr-1">{group.groupCode} • {metrics ? (metrics.name || 'S/N').split(' ')[0] : (group.professorNames[0] || 'S/N')}</span>
                               {metrics && (
@@ -444,17 +461,17 @@ const SchedulerPage: React.FC = () => {
                                 </span>
                               )}
                             </button>
-                            
+
                             {!isSelected && selectedGroup && metrics && professorMap.get(selectedGroup.id) && (
-                               <Button 
-                                 variant="ghost" 
-                                 size="icon" 
-                                 className="h-6 w-6 shrink-0 text-muted-foreground hover:text-primary"
-                                 title="Comparar"
-                                 onClick={() => startComparison(selectedGroup.id, group.id)}
-                               >
-                                 <GitCompare className="h-3 w-3" />
-                               </Button>
+                              <Button
+                                variant="ghost"
+                                size="icon"
+                                className="h-6 w-6 shrink-0 text-muted-foreground hover:text-primary"
+                                title="Comparar"
+                                onClick={() => startComparison(selectedGroup.id, group.id)}
+                              >
+                                <GitCompare className="h-3 w-3" />
+                              </Button>
                             )}
                           </div>
                         );
@@ -475,8 +492,8 @@ const SchedulerPage: React.FC = () => {
               </div>
             </div>
             <div>
-               <h3 className="text-sm font-medium text-muted-foreground mb-1">Dificultad</h3>
-               <div className="text-2xl font-bold text-orange-600 dark:text-orange-400">{stats.difficulty}</div>
+              <h3 className="text-sm font-medium text-muted-foreground mb-1">Dificultad</h3>
+              <div className="text-2xl font-bold text-orange-600 dark:text-orange-400">{stats.difficulty}</div>
             </div>
             {conflicts.size > 0 && (
               <div className="col-span-2 p-2 bg-red-50 border border-red-200 rounded text-[10px] text-red-700 font-bold animate-pulse text-center">
@@ -484,22 +501,22 @@ const SchedulerPage: React.FC = () => {
               </div>
             )}
           </div>
-          
+
           <div className="p-4 border border-blue-200/20 rounded-lg bg-blue-500/10 text-blue-700 dark:text-blue-300 shadow-sm hidden lg:block">
-             <h3 className="font-semibold text-sm mb-2">💡 Recomendación AI</h3>
-             <p className="text-xs leading-relaxed opacity-90">
-               {Number(stats.score) > 8 
-                 ? "¡Excelente selección! Tienes profesores altamente calificados."
-                 : "Considera buscar alternativas para mejorar tu promedio de calidad."}
-             </p>
+            <h3 className="font-semibold text-sm mb-2">💡 Recomendación AI</h3>
+            <p className="text-xs leading-relaxed opacity-90">
+              {Number(stats.score) > 8
+                ? "¡Excelente selección! Tienes profesores altamente calificados."
+                : "Considera buscar alternativas para mejorar tu promedio de calidad."}
+            </p>
           </div>
         </div>
 
         {/* Main: Time Grid */}
         <div className="lg:col-span-3 min-h-[500px]">
-          <TimeGrid 
-            groups={selectedGroups} 
-            professorMap={professorMap} 
+          <TimeGrid
+            groups={selectedGroups}
+            professorMap={professorMap}
             conflictingGroupIds={Array.from(conflicts.keys())}
           />
         </div>
