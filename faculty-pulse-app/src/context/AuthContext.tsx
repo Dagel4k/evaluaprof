@@ -29,14 +29,17 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
-    // Definitive safety timeout: ensure app loads within 10s no matter what
+    // Definitive safety timeout: ensure app loads within 5s no matter what
     const safetyTimer = setTimeout(() => {
-      console.log("🕒 10s Safety Timeout: Forcing isLoading = false");
+      console.log("🕒 5s Safety Timeout Check...");
       setIsLoading(prev => {
-        if (prev) console.warn("⚠️ App was stuck in loading! Forcing resolution.");
+        if (prev) {
+          console.warn("⚠️ Auth flow still pending. Forcing UI to load.");
+          return false;
+        }
         return false;
       });
-    }, 10000);
+    }, 5000);
 
     // DEV MODE: Create mock user with full permissions
     if (import.meta.env.VITE_DEV_MODE === 'true') {
@@ -65,38 +68,9 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
       return; // Skip normal auth flow in dev mode
     }
 
-    // 1. Get initial session
-    const initSession = async () => {
-      console.log("🔍 Starting initSession...");
-      try {
-        const { data: { session }, error } = await supabase.auth.getSession();
-
-        if (error) {
-          console.error("❌ Auth initialization error:", error);
-          setIsLoading(false);
-          return;
-        }
-
-        if (session) {
-          console.log("✅ Session found on init:", session.user.email);
-          setSession(session);
-          setUser(session.user);
-          await fetchProfile(session.user.id);
-        } else {
-          if (window.location.hash && window.location.hash.includes('access_token')) {
-            console.log("⏳ OAuth hash detected, waiting for event...");
-          } else {
-            console.log("ℹ️ No session on init");
-            setIsLoading(false);
-          }
-        }
-      } catch (err) {
-        console.error("❌ Fatal error in initSession:", err);
-        setIsLoading(false);
-      }
-    };
-
-    initSession();
+    // 1. Initial State Check
+    // Rely primarily on onAuthStateChange for the first event
+    console.log("🚀 AuthProvider mounted. Hash present:", !!window.location.hash);
 
     // 2. Listen for changes
     const { data: { subscription } } = supabase.auth.onAuthStateChange(async (event, session) => {

@@ -5,6 +5,8 @@ const supabaseAnonKey = import.meta.env.VITE_SUPABASE_ANON_KEY;
 
 if (!supabaseUrl || !supabaseAnonKey) {
   console.warn('⚠️ Supabase credentials not found in environment variables.');
+} else {
+  console.log('🔌 Supabase client created. URL length:', supabaseUrl.length);
 }
 
 // Custom storage to handle environments where localStorage is blocked
