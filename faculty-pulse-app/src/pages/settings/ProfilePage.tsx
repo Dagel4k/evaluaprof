@@ -80,13 +80,13 @@ export const ProfilePage: React.FC = () => {
   }
 
   return (
-    <div className="container mx-auto max-w-2xl py-10 px-4 space-y-8">
-      <div className="flex items-center justify-between">
+    <div className="container mx-auto max-w-2xl py-6 sm:py-10 px-4 space-y-6 sm:y-8">
+      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
         <div>
-          <h1 className="text-3xl font-bold tracking-tight">Configuración</h1>
-          <p className="text-muted-foreground">Gestiona tu cuenta y seguridad.</p>
+          <h1 className="text-2xl sm:text-3xl font-bold tracking-tight">Configuración</h1>
+          <p className="text-sm sm:text-base text-muted-foreground">Gestiona tu cuenta y seguridad.</p>
         </div>
-        <Button variant="outline" onClick={handleSignOut} className="text-destructive hover:bg-destructive/10">
+        <Button variant="outline" onClick={handleSignOut} className="text-destructive hover:bg-destructive/10 w-full sm:w-auto">
           <LogOut className="h-4 w-4 mr-2" />
           Cerrar Sesión
         </Button>
@@ -100,14 +100,14 @@ export const ProfilePage: React.FC = () => {
             <CardDescription>Información visible en la plataforma.</CardDescription>
           </CardHeader>
           <CardContent className="space-y-6">
-            <div className="flex items-center gap-4">
-              <Avatar className="h-20 w-20">
+            <div className="flex flex-col sm:flex-row items-center sm:items-start md:items-center gap-4 text-center sm:text-left">
+              <Avatar className="h-20 w-20 shrink-0">
                 <AvatarImage src={profile?.avatar_url || ''} />
                 <AvatarFallback className="text-lg">{profile?.full_name?.[0] || user.email?.[0]}</AvatarFallback>
               </Avatar>
-              <div className="space-y-1">
-                <div className="font-medium truncate">{user.email}</div>
-                <div className="flex gap-2">
+              <div className="space-y-1 content-center min-w-0 flex-1">
+                <div className="font-medium truncate text-lg sm:text-base">{user.email}</div>
+                <div className="flex flex-wrap justify-center sm:justify-start gap-2">
                   <Badge variant={profile?.role === 'STUDENT_PRO' ? 'default' : 'secondary'}>
                     {profile?.role === 'STUDENT_PRO' ? 'PLAN PRO' : 'PLAN GRATUITO'}
                   </Badge>
@@ -118,27 +118,29 @@ export const ProfilePage: React.FC = () => {
               </div>
             </div>
 
-            <div className="grid grid-cols-2 gap-4 text-sm mt-4 p-4 bg-muted/50 rounded-lg">
-               <div>
-                  <span className="text-muted-foreground block mb-1">ID de Usuario</span>
-                  <span className="font-mono text-xs text-foreground/80 break-all">{user.id}</span>
-               </div>
-               <div>
-                  <span className="text-muted-foreground block mb-1">Último Acceso</span>
-                  <span>{new Date(user.last_sign_in_at || Date.now()).toLocaleDateString()}</span>
-               </div>
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 text-sm mt-4 p-4 bg-muted/50 rounded-lg">
+              <div>
+                <span className="text-muted-foreground block mb-1">ID de Usuario</span>
+                <span className="font-mono text-xs text-foreground/80 break-all">{user.id}</span>
+              </div>
+              <div>
+                <span className="text-muted-foreground block mb-1">Último Acceso</span>
+                <span>{new Date(user.last_sign_in_at || Date.now()).toLocaleDateString()}</span>
+              </div>
             </div>
 
             <div className="space-y-2">
               <label className="text-sm font-medium">Nombre Completo</label>
-              <div className="flex gap-2">
-                <Input 
-                  value={fullName} 
-                  onChange={(e) => setFullName(e.target.value)} 
+              <div className="flex flex-col sm:flex-row gap-2">
+                <Input
+                  value={fullName}
+                  onChange={(e) => setFullName(e.target.value)}
                   placeholder="Tu nombre"
+                  className="flex-1"
                 />
-                <Button onClick={handleUpdateProfile} disabled={isLoading}>
-                  {isLoading ? <Loader2 className="h-4 w-4 animate-spin" /> : <Save className="h-4 w-4" />}
+                <Button onClick={handleUpdateProfile} disabled={isLoading} className="shrink-0 w-full sm:w-auto">
+                  {isLoading ? <Loader2 className="h-4 w-4 animate-spin mr-2" /> : <Save className="h-4 w-4 mr-2" />}
+                  <span className="sm:hidden">Guardar</span>
                 </Button>
               </div>
             </div>
@@ -157,14 +159,15 @@ export const ProfilePage: React.FC = () => {
           <CardContent className="space-y-4">
             <div className="space-y-2">
               <label className="text-sm font-medium">Nueva Contraseña</label>
-              <div className="flex gap-2">
-                <Input 
-                  type="password" 
-                  value={newPassword} 
-                  onChange={(e) => setNewPassword(e.target.value)} 
+              <div className="flex flex-col sm:flex-row gap-2">
+                <Input
+                  type="password"
+                  value={newPassword}
+                  onChange={(e) => setNewPassword(e.target.value)}
                   placeholder="Mínimo 6 caracteres"
+                  className="flex-1"
                 />
-                <Button onClick={handleChangePassword} disabled={isLoading || !newPassword}>
+                <Button onClick={handleChangePassword} disabled={isLoading || !newPassword} className="shrink-0 w-full sm:w-auto">
                   Actualizar
                 </Button>
               </div>

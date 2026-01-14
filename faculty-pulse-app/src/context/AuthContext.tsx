@@ -9,6 +9,7 @@ interface Profile {
   role: 'STUDENT_FREE' | 'STUDENT_PRO' | 'ADMIN';
   evaluations_count?: number;
   access_count?: number;
+  avatar_url?: string;
 }
 
 interface AuthContextType {
