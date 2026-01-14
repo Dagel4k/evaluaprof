@@ -16,6 +16,7 @@ interface AuthContextType {
   user: User | null;
   profile: Profile | null;
   isLoading: boolean;
+  isLoggingOut: boolean;
   signOut: () => Promise<void>;
   refreshProfile: () => Promise<void>;
 }
@@ -27,6 +28,7 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
   const [user, setUser] = useState<User | null>(null);
   const [profile, setProfile] = useState<Profile | null>(null);
   const [isLoading, setIsLoading] = useState(true);
+  const [isLoggingOut, setIsLoggingOut] = useState(false);
 
   useEffect(() => {
     // Definitive safety timeout: ensure app loads within 5s no matter what
@@ -105,28 +107,47 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
   }, []);
 
   const fetchProfile = async (userId: string) => {
-    console.log(`📥 Fetching profile for ${userId}...`);
+    console.log(`📥 [fetchProfile] Fetching for ${userId}...`);
+
+    // Safety check: if fetch takes too long, we don't want to block forever
+    const fetchPromise = supabase
+      .from('profiles')
+      .select('*')
+      .eq('id', userId)
+      .single();
+
     try {
-      const { data, error } = await supabase
-        .from('profiles')
-        .select('*')
-        .eq('id', userId)
-        .single();
+      // 5 second timeout for DB call
+      const timeoutPromise = new Promise((_, reject) =>
+        setTimeout(() => reject(new Error("Supabase fetch timeout")), 5000)
+      );
+
+      const result = await Promise.race([fetchPromise, timeoutPromise]) as any;
+      const { data, error } = result;
 
       if (error) {
-        console.warn(`⚠️ Profile fetch returned error: ${error.message} (Code: ${error.code})`);
-        // If profile doesn't exist, we still need to stop loading
-        setIsLoading(false);
+        console.warn(`⚠️ [fetchProfile] DB error: ${error.message} (Code: ${error.code})`);
+
+        // If we have no profile, create a skeleton one so the app doesn't think we are a GUEST
+        if (!profile) {
+          console.log("ℹ️ [fetchProfile] Using skeleton profile as fallback");
+          setProfile({
+            id: userId,
+            email: user?.email || '',
+            full_name: '',
+            role: 'STUDENT_FREE' // Default to FREE for beta
+          } as Profile);
+        }
         return;
       }
 
       if (data) {
         let profileData = data as Profile;
-        console.log("✅ Profile loaded for:", profileData.email);
+        console.log("✅ [fetchProfile] Success. Role:", profileData.role);
 
         // --- AUTO-PRO LOGIC (Private Beta) ---
         if (profileData.role === 'STUDENT_FREE') {
-          console.log(`🚀 Private Beta: Auto-upgrading ${profileData.email} to PRO`);
+          console.log(`🚀 [fetchProfile] Private Beta: Auto-upgrading ${profileData.email} to PRO`);
           const { data: updated, error: updateError } = await supabase
             .from('profiles')
             .update({ role: 'STUDENT_PRO' })
@@ -135,19 +156,33 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
             .single();
 
           if (!updateError && updated) {
+            console.log("💎 [fetchProfile] Auto-upgrade successful");
             profileData = updated as Profile;
+          } else {
+            console.warn("❌ [fetchProfile] Auto-upgrade failed:", updateError);
           }
         }
 
         setProfile(profileData);
       } else {
-        console.log("ℹ️ No profile data returned (but no error)");
+        console.log("ℹ️ [fetchProfile] No data found for this ID");
+        // Row might not exist yet if registration just happened
+        setProfile({
+          id: userId,
+          email: user?.email || '',
+          full_name: '',
+          role: 'STUDENT_FREE'
+        } as Profile);
       }
-    } catch (e) {
-      console.error('❌ Exception in fetchProfile:', e);
+    } catch (e: any) {
+      console.error('❌ [fetchProfile] Exception:', e.message || e);
+      // Fallback
+      if (!profile) {
+        setProfile({ id: userId, email: user?.email || '', full_name: '', role: 'STUDENT_FREE' } as Profile);
+      }
     } finally {
       setIsLoading(false);
-      console.log("🏁 fetchProfile finished");
+      console.log("🏁 [fetchProfile] Execution completed");
     }
   };
 
@@ -179,31 +214,35 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
   };
 
   const signOut = async () => {
-    console.log("🚪 Starting signOut process...");
+    console.log("🚪 [signOut] Initiating process...");
+    setIsLoggingOut(true);
+
+    // 1. Clear local state IMMEDIATELY for snappy UI response
+    setProfile(null);
+    setUser(null);
+    setSession(null);
+
     try {
-      // 1. Clear local session from Supabase
-      const { error } = await supabase.auth.signOut();
-      if (error) console.warn("⚠️ Supabase signOut returned error:", error);
+      // 2. Clear remote session with a 3s safety timeout
+      const logoutPromise = supabase.auth.signOut();
+      const timeoutPromise = new Promise((_, reject) =>
+        setTimeout(() => reject(new Error("Supabase logout timeout")), 3000)
+      );
 
-      // 2. Clear local state immediately
-      setProfile(null);
-      setUser(null);
-      setSession(null);
+      await Promise.race([logoutPromise, timeoutPromise]);
+      console.log("✅ [signOut] Supabase session cleared");
+    } catch (e: any) {
+      console.warn("⚠️ [signOut] Partial logout (remote failed, but local cleared):", e.message || e);
+    } finally {
+      // 3. Ensure we stop the global loaders
+      setIsLoggingOut(false);
       setIsLoading(false);
-
-      console.log("✅ Sign out state cleared locally");
-    } catch (e) {
-      console.error("❌ Fatal error during signOut:", e);
-      // Ensure we at least clear local state
-      setProfile(null);
-      setUser(null);
-      setSession(null);
-      setIsLoading(false);
+      console.log("🏁 [signOut] Process finished");
     }
   };
 
   return (
-    <AuthContext.Provider value={{ session, user, profile, isLoading, signOut, refreshProfile }}>
+    <AuthContext.Provider value={{ session, user, profile, isLoading, isLoggingOut, signOut, refreshProfile }}>
       {children}
     </AuthContext.Provider>
   );

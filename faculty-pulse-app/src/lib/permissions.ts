@@ -48,9 +48,18 @@ export const hasPermission = (role: UserRole | undefined | null, feature: AppFea
     return true;
   }
 
-  // Default to GUEST if no role provided
+  // Default logic: 
+  // If no role is provided, it's GUEST.
+  // EXCEPT if we are in private beta, where we might want to be more lenient.
   const currentRole = role || 'GUEST';
-  return ROLE_PERMISSIONS[currentRole].includes(feature);
+
+  const permissions = ROLE_PERMISSIONS[currentRole];
+  if (!permissions) {
+    console.warn(`⚠️ Unknown role: ${currentRole}, defaulting to GUEST permissions`);
+    return ROLE_PERMISSIONS['GUEST'].includes(feature);
+  }
+
+  return permissions.includes(feature);
 };
 
 /**

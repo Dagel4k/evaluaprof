@@ -45,14 +45,34 @@ import { RequirePermission } from "./components/RequirePermission";
 
 // Wrapper to handle global auth loading state
 const AppContent = () => {
-  const { isLoading } = useAuth();
-  
+  const { isLoading, isLoggingOut } = useAuth();
+
   if (isLoading) {
-     return (
-       <div className="min-h-screen flex items-center justify-center bg-background">
-         <Loader2 className="h-8 w-8 animate-spin text-primary" />
-       </div>
-     );
+    return (
+      <div className="min-h-screen flex items-center justify-center bg-background">
+        <div className="flex flex-col items-center gap-4">
+          <Loader2 className="h-10 w-10 animate-spin text-primary" />
+          <p className="text-sm font-medium animate-pulse text-muted-foreground">Sincronizando acceso...</p>
+        </div>
+      </div>
+    );
+  }
+
+  if (isLoggingOut) {
+    return (
+      <div className="min-h-screen flex items-center justify-center bg-slate-950 text-white z-[9999]">
+        <div className="flex flex-col items-center gap-6 p-8 text-center animate-in fade-in zoom-in duration-300">
+          <div className="relative">
+            <div className="absolute inset-0 bg-primary/20 blur-3xl rounded-full" />
+            <Loader2 className="h-12 w-12 animate-spin text-primary relative" />
+          </div>
+          <div className="space-y-2">
+            <h1 className="text-xl font-bold tracking-tight">Cerrando sesión</h1>
+            <p className="text-sm text-slate-400 max-w-[200px]">Limpiando datos de sesión de forma segura...</p>
+          </div>
+        </div>
+      </div>
+    );
   }
 
   return (
@@ -62,14 +82,14 @@ const AppContent = () => {
         <Routes>
           <Route path="/auth" element={<AuthPage />} />
           <Route path="/onboarding/evaluate" element={<EvaluatePage />} />
-          
+
           {/* User Settings */}
           <Route path="/settings/profile" element={<ProfilePage />} />
 
           {/* Legal Routes */}
           <Route path="/legal/terms" element={<TermsPage />} />
           <Route path="/legal/privacy" element={<PrivacyPage />} />
-          
+
           {/* Mobile Routes */}
           <Route path="/startup" element={<Startup />} />
           <Route path="/home" element={<Home />} />
@@ -104,7 +124,7 @@ const App = () => (
       <Sonner />
       <AuthProvider>
         <ProfessorProvider>
-           <AppContent />
+          <AppContent />
         </ProfessorProvider>
       </AuthProvider>
     </TooltipProvider>
