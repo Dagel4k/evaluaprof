@@ -103,8 +103,14 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
 
       if (session?.user) {
         if (event === 'SIGNED_IN' || event === 'TOKEN_REFRESHED') {
-          await registerSession(session);
-          await fetchProfile(session.user.id);
+          try {
+            // These are background/tracking tasks, shouldn't block the UI
+            registerSession(session).catch(console.error);
+            await fetchProfile(session.user.id);
+          } catch (e) {
+            console.error("Error in auth session handler:", e);
+            setIsLoading(false);
+          }
         }
       } else if (event === 'SIGNED_OUT') {
         setProfile(null);
@@ -158,18 +164,23 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
 
 
   const registerSession = async (session: Session) => {
-    // Call the PostgreSQL function to mark this as the active session
-    // We use the access_token signature as a simple unique ID for this session
-    const tokenSignature = session.access_token.slice(-20);
-    const device = navigator.userAgent;
+    try {
+      // Call the PostgreSQL function to mark this as the active session
+      // We use the access_token signature as a simple unique ID for this session
+      const tokenSignature = session.access_token.slice(-20);
+      const device = navigator.userAgent;
 
-    await supabase.rpc('register_session', {
-      token_hash: tokenSignature,
-      device: device
-    });
+      await supabase.rpc('register_session', {
+        token_hash: tokenSignature,
+        device: device
+      });
 
-    // Increment access count for tracking (Private Beta)
-    await supabase.rpc('increment_access_count', { user_id: session.user.id });
+      // Increment access count for tracking (Private Beta)
+      // This might fail if the user hasn't run the SQL migration yet
+      await supabase.rpc('increment_access_count', { user_id: session.user.id });
+    } catch (e) {
+      console.warn("Tracking/registerSession failed (silent):", e);
+    }
   };
 
   const signOut = async () => {
