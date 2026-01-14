@@ -27,6 +27,7 @@ import { Label } from '@/shared/ui/label';
 import { Switch } from '@/shared/ui/switch';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/shared/ui/select';
 import { TooltipProvider } from '@/shared/ui/tooltip';
+import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/shared/ui/tabs';
 
 const SchedulerPage: React.FC = () => {
   const { user, profile } = useAuth();
@@ -430,13 +431,13 @@ const SchedulerPage: React.FC = () => {
           </div>
         )}
 
-        <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
-          <div>
-            <h2 className="text-2xl font-bold tracking-tight">Mi Constructor de Horario</h2>
+        <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-4 px-4 sm:px-0">
+          <div className="w-full sm:w-auto">
+            <h2 className="text-xl sm:text-2xl font-bold tracking-tight">Constructor de Horario</h2>
             {generatedSchedules.length > 0 && (
-              <div className="text-sm text-green-600 font-medium flex items-center gap-2 mt-1">
+              <div className="text-xs sm:text-sm text-green-600 font-medium flex items-center gap-2 mt-1">
                 <Zap className="h-3 w-3" />
-                Viendo opción {currentScheduleIndex + 1} de {generatedSchedules.length}
+                Viendo {currentScheduleIndex + 1} de {generatedSchedules.length} opciones
               </div>
             )}
           </div>
@@ -629,120 +630,48 @@ const SchedulerPage: React.FC = () => {
           </div>
         </div>
 
-        <div className="flex flex-col lg:grid lg:grid-cols-4 gap-6 h-full">
-          <div className="lg:col-span-1 space-y-4 lg:h-[calc(100vh-180px)] lg:overflow-y-auto pr-1">
-            <div className="space-y-3">
-              {(() => {
-                const disponibles = subjects.filter(s => !s.classification || s.classification === 'DISPONIBLE');
-                const isExpanded = expandedSections.has('disponibles');
-                if (disponibles.length === 0) return null;
-                return (
-                  <div className="border rounded-lg bg-card shadow-sm overflow-hidden">
-                    <button
-                      onClick={() => {
-                        const newSet = new Set(expandedSections);
-                        if (isExpanded) newSet.delete('disponibles');
-                        else newSet.add('disponibles');
-                        setExpandedSections(newSet);
-                      }}
-                      className="w-full p-3 flex items-center justify-between hover:bg-muted/50 transition-colors"
-                    >
-                      <div className="flex items-center gap-2">
-                        <MousePointer2 className="h-4 w-4 text-cyan-600 dark:text-cyan-400" />
-                        <h3 className="font-bold text-sm">Materias Disponibles</h3>
-                        <span className="text-xs text-muted-foreground">({disponibles.length})</span>
-                      </div>
-                      {isExpanded ? <ChevronUp className="h-4 w-4" /> : <ChevronDown className="h-4 w-4" />}
-                    </button>
-                    {isExpanded && (
-                      <div className="p-3 pt-0 space-y-2">
-                        {disponibles.map(subject => {
-                          const selectedGroup = subject.groups.find(g => selectedGroupIds.has(g.id));
-                          return (
-                            <SubjectCard
-                              key={subject.id}
-                              subject={subject}
-                              selectedGroupId={selectedGroup?.id}
-                              professorMap={professorMap}
-                              onGroupSelect={(groupId) => toggleGroupSelection(subject.id, groupId)}
-                              onCompare={startComparison}
-                              conflictingGroupIds={Array.from(conflicts.keys())}
-                            />
-                          );
-                        })}
-                      </div>
-                    )}
-                  </div>
-                );
-              })()}
+      </div>
 
-              {(() => {
-                const avance = subjects.filter(s => s.classification === 'AVANCE');
-                const isExpanded = expandedSections.has('avance');
-                if (avance.length === 0) return null;
-                return (
-                  <div className="border rounded-lg bg-card shadow-sm overflow-hidden">
-                    <button
-                      onClick={() => {
-                        const newSet = new Set(expandedSections);
-                        if (isExpanded) newSet.delete('avance');
-                        else newSet.add('avance');
-                        setExpandedSections(newSet);
-                      }}
-                      className="w-full p-3 flex items-center justify-between hover:bg-muted/50 transition-colors"
-                    >
-                      <div className="flex items-center gap-2">
-                        <MousePointer2 className="h-4 w-4 text-zinc-500" />
-                        <h3 className="font-bold text-sm">Materias de Avance</h3>
-                        <span className="text-xs text-muted-foreground">({avance.length})</span>
-                      </div>
-                      {isExpanded ? <ChevronUp className="h-4 w-4" /> : <ChevronDown className="h-4 w-4" />}
-                    </button>
-                    {isExpanded && (
-                      <div className="p-3 pt-0 space-y-2">
-                        {avance.map(subject => {
-                          const selectedGroup = subject.groups.find(g => selectedGroupIds.has(g.id));
-                          return (
-                            <SubjectCard
-                              key={subject.id}
-                              subject={subject}
-                              selectedGroupId={selectedGroup?.id}
-                              professorMap={professorMap}
-                              onGroupSelect={(groupId) => toggleGroupSelection(subject.id, groupId)}
-                              onCompare={startComparison}
-                              conflictingGroupIds={Array.from(conflicts.keys())}
-                            />
-                          );
-                        })}
-                      </div>
-                    )}
-                  </div>
-                );
-              })()}
-            </div>
+      {/* Responsive Layout: Tabs on mobile, Grid on desktop */}
+      <div className="lg:hidden px-4">
+        <Tabs defaultValue="grid" className="w-full">
+          <TabsList className="grid w-full grid-cols-2 mb-4">
+            <TabsTrigger value="list" className="text-xs">Materias ({subjects.length})</TabsTrigger>
+            <TabsTrigger value="grid" className="text-xs text-primary font-bold">Mi Calendario</TabsTrigger>
+          </TabsList>
 
-            <div className="p-4 border border-border rounded-lg bg-card text-card-foreground shadow-sm grid grid-cols-2 lg:grid-cols-1 gap-2">
-              <div>
-                <h3 className="text-sm font-medium text-muted-foreground mb-1">EvaluaProf Score</h3>
-                <div className="flex items-baseline gap-2">
-                  <div className="text-2xl font-bold text-green-600 dark:text-green-400">{stats.score}</div>
-                  <span className="text-sm text-muted-foreground">/ 10</span>
-                </div>
+          <TabsContent value="list" className="mt-0 space-y-6">
+            <div className="grid grid-cols-2 gap-3 mb-4">
+              <div className="p-3 border rounded-lg bg-card">
+                <p className="text-[10px] text-muted-foreground uppercase font-bold tracking-widest mb-1">Score Promedio</p>
+                <p className="text-lg font-bold text-green-600 dark:text-green-400">{stats.score}</p>
               </div>
-              <div>
-                <h3 className="text-sm font-medium text-muted-foreground mb-1">Dificultad</h3>
-                <div className="text-2xl font-bold text-orange-600 dark:text-orange-400">{stats.difficulty}</div>
+              <div className="p-3 border rounded-lg bg-card">
+                <p className="text-[10px] text-muted-foreground uppercase font-bold tracking-widest mb-1">Dificultad</p>
+                <p className="text-lg font-bold text-orange-600 dark:text-orange-400">{stats.difficulty}</p>
               </div>
-              {conflicts.size > 0 && (
-                <div className="col-span-2 p-2 bg-red-50 dark:bg-red-950/20 border border-red-200 dark:border-red-900/50 rounded text-[10px] text-red-700 dark:text-red-400 font-bold animate-pulse text-center flex items-center justify-center gap-1.5">
-                  <AlertTriangle className="h-3 w-3" />
-                  {conflicts.size} CONFLICTOS DETECTADOS
-                </div>
-              )}
             </div>
-          </div>
+            <div className="space-y-4">
+              <SubjectListContent
+                subjects={subjects}
+                expandedSections={expandedSections}
+                setExpandedSections={setExpandedSections}
+                selectedGroupIds={selectedGroupIds}
+                professorMap={professorMap}
+                toggleGroupSelection={toggleGroupSelection}
+                startComparison={startComparison}
+                conflicts={conflicts}
+              />
+            </div>
+          </TabsContent>
 
-          <div className="lg:col-span-3 min-h-[500px] flex flex-col gap-4">
+          <TabsContent value="grid" className="mt-0 space-y-4 overflow-hidden">
+            {conflicts.size > 0 && (
+              <div className="p-2.5 bg-red-600 text-white rounded-lg text-xs font-bold flex items-center justify-center gap-2 animate-pulse mb-2">
+                <AlertTriangle className="h-4 w-4" />
+                HAY {conflicts.size} CONFLICTOS EN TU HORARIO
+              </div>
+            )}
             {generatedSchedules.length > 0 && scheduleStatistics[currentScheduleIndex] && (
               <ScheduleStatsPanel
                 stats={scheduleStatistics[currentScheduleIndex]}
@@ -750,16 +679,171 @@ const SchedulerPage: React.FC = () => {
                 total={generatedSchedules.length}
               />
             )}
+            <div className="relative border rounded-xl overflow-hidden shadow-xl bg-background p-1">
+              <TimeGrid
+                groups={selectedGroups}
+                professorMap={professorMap}
+                conflictingGroupIds={Array.from(conflicts.keys())}
+              />
+            </div>
+          </TabsContent>
+        </Tabs>
+      </div>
 
-            <TimeGrid
-              groups={selectedGroups}
-              professorMap={professorMap}
-              conflictingGroupIds={Array.from(conflicts.keys())}
-            />
+      <div className="hidden lg:grid lg:grid-cols-4 gap-6 h-full">
+        <div className="lg:col-span-1 space-y-4 lg:h-[calc(100vh-180px)] lg:overflow-y-auto pr-1">
+          <SubjectListContent
+            subjects={subjects}
+            expandedSections={expandedSections}
+            setExpandedSections={setExpandedSections}
+            selectedGroupIds={selectedGroupIds}
+            professorMap={professorMap}
+            toggleGroupSelection={toggleGroupSelection}
+            startComparison={startComparison}
+            conflicts={conflicts}
+          />
+
+          <div className="p-4 border border-border rounded-lg bg-card text-card-foreground shadow-sm grid grid-cols-2 lg:grid-cols-1 gap-2">
+            <div>
+              <h3 className="text-sm font-medium text-muted-foreground mb-1">EvaluaProf Score</h3>
+              <div className="flex items-baseline gap-2">
+                <div className="text-2xl font-bold text-green-600 dark:text-green-400">{stats.score}</div>
+                <span className="text-sm text-muted-foreground">/ 10</span>
+              </div>
+            </div>
+            <div>
+              <h3 className="text-sm font-medium text-muted-foreground mb-1">Dificultad</h3>
+              <div className="text-2xl font-bold text-orange-600 dark:text-orange-400">{stats.difficulty}</div>
+            </div>
+            {conflicts.size > 0 && (
+              <div className="col-span-2 p-2 bg-red-50 dark:bg-red-950/20 border border-red-200 dark:border-red-900/50 rounded text-[10px] text-red-700 dark:text-red-400 font-bold animate-pulse text-center flex items-center justify-center gap-1.5">
+                <AlertTriangle className="h-3 w-3" />
+                {conflicts.size} CONFLICTOS DETECTADOS
+              </div>
+            )}
           </div>
+        </div>
+
+        <div className="lg:col-span-3 min-h-[500px] flex flex-col gap-4">
+          {generatedSchedules.length > 0 && scheduleStatistics[currentScheduleIndex] && (
+            <ScheduleStatsPanel
+              stats={scheduleStatistics[currentScheduleIndex]}
+              index={currentScheduleIndex}
+              total={generatedSchedules.length}
+            />
+          )}
+
+          <TimeGrid
+            groups={selectedGroups}
+            professorMap={professorMap}
+            conflictingGroupIds={Array.from(conflicts.keys())}
+          />
         </div>
       </div>
     </TooltipProvider>
+  );
+};
+
+const SubjectListContent: React.FC<{
+  subjects: Subject[];
+  expandedSections: Set<string>;
+  setExpandedSections: (s: Set<string>) => void;
+  selectedGroupIds: Set<string>;
+  professorMap: Map<string, ProfessorMetrics>;
+  toggleGroupSelection: (sid: string, gid: string) => void;
+  startComparison: (ga: string, gb: string) => void;
+  conflicts: Map<string, any>;
+}> = ({ subjects, expandedSections, setExpandedSections, selectedGroupIds, professorMap, toggleGroupSelection, startComparison, conflicts }) => {
+  return (
+    <div className="space-y-3">
+      {(() => {
+        const disponibles = subjects.filter(s => !s.classification || s.classification === 'DISPONIBLE');
+        const isExpanded = expandedSections.has('disponibles');
+        if (disponibles.length === 0) return null;
+        return (
+          <div className="border rounded-lg bg-card shadow-sm overflow-hidden">
+            <button
+              onClick={() => {
+                const newSet = new Set(expandedSections);
+                if (isExpanded) newSet.delete('disponibles');
+                else newSet.add('disponibles');
+                setExpandedSections(newSet);
+              }}
+              className="w-full p-3 flex items-center justify-between hover:bg-muted/50 transition-colors"
+            >
+              <div className="flex items-center gap-2">
+                <MousePointer2 className="h-4 w-4 text-cyan-600 dark:text-cyan-400" />
+                <h3 className="font-bold text-sm">Materias Disponibles</h3>
+                <span className="text-xs text-muted-foreground">({disponibles.length})</span>
+              </div>
+              {isExpanded ? <ChevronUp className="h-4 w-4" /> : <ChevronDown className="h-4 w-4" />}
+            </button>
+            {isExpanded && (
+              <div className="p-3 pt-0 space-y-2">
+                {disponibles.map(subject => {
+                  const selectedGroup = subject.groups.find(g => selectedGroupIds.has(g.id));
+                  return (
+                    <SubjectCard
+                      key={subject.id}
+                      subject={subject}
+                      selectedGroupId={selectedGroup?.id}
+                      professorMap={professorMap}
+                      onGroupSelect={(groupId) => toggleGroupSelection(subject.id, groupId)}
+                      onCompare={startComparison}
+                      conflictingGroupIds={Array.from(conflicts.keys())}
+                    />
+                  );
+                })}
+              </div>
+            )}
+          </div>
+        );
+      })()}
+
+      {(() => {
+        const avance = subjects.filter(s => s.classification === 'AVANCE');
+        const isExpanded = expandedSections.has('avance');
+        if (avance.length === 0) return null;
+        return (
+          <div className="border rounded-lg bg-card shadow-sm overflow-hidden">
+            <button
+              onClick={() => {
+                const newSet = new Set(expandedSections);
+                if (isExpanded) newSet.delete('avance');
+                else newSet.add('avance');
+                setExpandedSections(newSet);
+              }}
+              className="w-full p-3 flex items-center justify-between hover:bg-muted/50 transition-colors"
+            >
+              <div className="flex items-center gap-2">
+                <MousePointer2 className="h-4 w-4 text-zinc-500" />
+                <h3 className="font-bold text-sm">Materias de Avance</h3>
+                <span className="text-xs text-muted-foreground">({avance.length})</span>
+              </div>
+              {isExpanded ? <ChevronUp className="h-4 w-4" /> : <ChevronDown className="h-4 w-4" />}
+            </button>
+            {isExpanded && (
+              <div className="p-3 pt-0 space-y-2">
+                {avance.map(subject => {
+                  const selectedGroup = subject.groups.find(g => selectedGroupIds.has(g.id));
+                  return (
+                    <SubjectCard
+                      key={subject.id}
+                      subject={subject}
+                      selectedGroupId={selectedGroup?.id}
+                      professorMap={professorMap}
+                      onGroupSelect={(groupId) => toggleGroupSelection(subject.id, groupId)}
+                      onCompare={startComparison}
+                      conflictingGroupIds={Array.from(conflicts.keys())}
+                    />
+                  );
+                })}
+              </div>
+            )}
+          </div>
+        );
+      })()}
+    </div>
   );
 };
 

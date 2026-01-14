@@ -42,7 +42,7 @@ export const SubjectCard: React.FC<SubjectCardProps> = ({
         : null;
 
     return (
-        <Card className="p-3 space-y-2.5 shadow-sm border-zinc-200 dark:border-zinc-800">
+        <Card className="p-3 sm:p-4 space-y-2.5 shadow-sm border-zinc-200 dark:border-zinc-800">
             {/* Header */}
             <div className="space-y-1.5">
                 <div className="flex items-start justify-between gap-2">
@@ -95,7 +95,7 @@ export const SubjectCard: React.FC<SubjectCardProps> = ({
                             <button
                                 key={group.id}
                                 onClick={() => onGroupSelect(group.id)}
-                                className={`w-full text-left px-2.5 py-2 text-xs rounded-sm border transition-all ${isSelected
+                                className={`w-full text-left px-3 py-3 sm:py-2 text-xs rounded-lg border transition-all ${isSelected
                                     ? hasConflict
                                         ? 'bg-red-600 border-red-700 text-white shadow-sm'
                                         : 'bg-primary border-primary text-primary-foreground shadow-sm font-bold'

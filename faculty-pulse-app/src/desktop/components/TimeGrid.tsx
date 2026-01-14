@@ -43,16 +43,17 @@ const TimeGrid: React.FC<TimeGridProps> = ({ groups, professorMap, conflictingGr
   };
 
   return (
-    <div className="border border-border rounded-md overflow-hidden bg-card shadow-sm flex flex-col h-full">
-      <div className="overflow-x-auto flex-1">
-        <div className="min-w-[800px]">
-          <div className="grid grid-cols-6 border-b border-border bg-muted sticky top-0 z-10">
-            <div className="p-3 text-center text-[10px] font-bold text-muted-foreground border-r border-border uppercase tracking-widest">
-              Timeline
+    <div className="border border-border rounded-lg overflow-hidden bg-card shadow-sm flex flex-col h-full">
+      <div className="overflow-x-auto overflow-y-hidden flex-1 scrollbar-thin scrollbar-thumb-muted-foreground/20">
+        <div className="min-w-[650px] sm:min-w-[800px]">
+          <div className="grid grid-cols-6 border-b border-border bg-muted/50 sticky top-0 z-20 backdrop-blur-sm">
+            <div className="p-2 sm:p-3 text-center text-[9px] sm:text-[10px] font-bold text-muted-foreground border-r border-border uppercase tracking-widest">
+              Reloj
             </div>
             {DAYS.map(day => (
-              <div key={day.id} className="p-3 text-center text-xs font-bold border-r border-border last:border-r-0 uppercase tracking-widest text-zinc-600 dark:text-zinc-400">
-                {day.label}
+              <div key={day.id} className="p-2 sm:p-3 text-center text-[10px] sm:text-xs font-bold border-r border-border last:border-r-0 uppercase tracking-widest text-zinc-600 dark:text-zinc-400">
+                <span className="hidden sm:inline">{day.label}</span>
+                <span className="sm:hidden">{day.id === 'I' ? 'Miér' : day.label.substring(0, 3)}</span>
               </div>
             ))}
           </div>
@@ -61,7 +62,7 @@ const TimeGrid: React.FC<TimeGridProps> = ({ groups, professorMap, conflictingGr
             {HOURS.map(hour => (
               <React.Fragment key={hour}>
                 {/* Time Label */}
-                <div className="p-2 text-center text-[10px] font-mono font-medium text-muted-foreground border-r border-b border-border h-24 flex items-center justify-center bg-zinc-50/50 dark:bg-zinc-900/50">
+                <div className="p-2 text-center text-[9px] sm:text-[10px] font-mono font-medium text-muted-foreground border-r border-b border-border h-20 sm:h-24 flex items-center justify-center bg-zinc-50/50 dark:bg-zinc-900/50">
                   {hour.toString().padStart(2, '0')}:00
                 </div>
 
@@ -70,7 +71,7 @@ const TimeGrid: React.FC<TimeGridProps> = ({ groups, professorMap, conflictingGr
                   const eventData = getEvent(day.id, hour);
 
                   if (!eventData) {
-                    return <div key={`${day.id}-${hour}`} className="border-r border-b border-border last:border-r-0 p-1 h-24" />;
+                    return <div key={`${day.id}-${hour}`} className="border-r border-b border-border last:border-r-0 p-1 h-20 sm:h-24" />;
                   }
 
                   const { group, slot } = eventData;
@@ -78,35 +79,30 @@ const TimeGrid: React.FC<TimeGridProps> = ({ groups, professorMap, conflictingGr
                   const colorClass = getQualityColor(group, metrics?.globalScore);
 
                   return (
-                    <div key={`${day.id}-${hour}`} className="border-r border-b border-border last:border-r-0 relative p-1 h-24">
+                    <div key={`${day.id}-${hour}`} className="border-r border-b border-border last:border-r-0 relative p-1 h-20 sm:h-24">
                       <div
                         onClick={() => onGroupClick?.(group)}
-                        className={`absolute inset-1 border rounded p-2 text-[10px] overflow-hidden hover:brightness-95 active:scale-[0.98] transition-all cursor-pointer group ${colorClass} flex flex-col justify-between shadow-sm`}
+                        className={`absolute inset-0.5 sm:inset-1 border rounded-md p-1.5 sm:p-2 text-[9px] sm:text-[10px] overflow-hidden hover:brightness-95 active:scale-[0.98] transition-all cursor-pointer group ${colorClass} flex flex-col justify-between shadow-sm`}
                       >
-                        <div className="font-bold truncate leading-tight mb-1 uppercase tracking-tight">
+                        <div className="font-bold truncate leading-tight uppercase tracking-tighter sm:tracking-tight">
                           {group.subjectName}
                         </div>
 
-                        <div className="text-current/90 truncate flex justify-between items-center text-[11px]">
+                        <div className="text-current/90 truncate flex justify-between items-center text-[10px] sm:text-[11px]">
                           <span className="truncate mr-1 font-semibold">
                             {(() => {
-                              const fullName = metrics ? metrics.name : (group.professorNames[0]?.trim() || 'Unassigned');
+                              const fullName = metrics ? metrics.name : (group.professorNames[0]?.trim() || 'No asignado');
                               const parts = fullName.split(' ');
-                              return parts.length > 1 ? `${parts[0]} ${parts[1]}` : parts[0];
+                              return parts.length > 1 ? `${parts[parts.length - 1].length <= 2 ? parts[0] + ' ' + parts[parts.length - 2] : parts[0] + ' ' + parts[parts.length - 1]}` : parts[0];
                             })()}
                           </span>
-                          {metrics && (
-                            <span className="font-bold shrink-0 opacity-80" title="Quality Score">
-                              {metrics.globalScore.toFixed(1)}
-                            </span>
-                          )}
                         </div>
 
-                        <div className="mt-1 text-current/70 font-mono text-[9px] flex justify-between border-t border-current/20 pt-1">
-                          <span className="font-medium">{group.groupCode} • {slot.classroom}</span>
-                          {metrics && metrics.riskLevel === 'HIGH' && (
-                            <span title="High Risk" className="text-red-600 dark:text-red-400">
-                              <AlertTriangle className="h-3 w-3" />
+                        <div className="mt-1 text-current/70 font-mono text-[8px] sm:text-[9px] flex justify-between border-t border-current/20 pt-1">
+                          <span className="font-medium truncate">{group.groupCode} {slot.classroom && `• ${slot.classroom}`}</span>
+                          {metrics && (
+                            <span className="font-bold shrink-0 opacity-80 ml-1">
+                              {metrics.globalScore.toFixed(1)}
                             </span>
                           )}
                         </div>
