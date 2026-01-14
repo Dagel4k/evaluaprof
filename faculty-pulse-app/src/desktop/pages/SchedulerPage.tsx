@@ -79,10 +79,15 @@ const SchedulerPage: React.FC = () => {
           const allGroups = data.subjects.flatMap(s => s.groups);
           enrichGroups(allGroups);
 
-          toast({
-            title: "Carga Académica Cargada",
-            description: "Se ha pre-cargado la oferta institucional automáticamente.",
-          });
+          // Only show toast once per session
+          const hasShownToast = sessionStorage.getItem('evaluaprof_offering_loaded');
+          if (!hasShownToast) {
+            toast({
+              title: "Carga Académica",
+              description: "Se ha pre-cargado la oferta institucional automáticamente.",
+            });
+            sessionStorage.setItem('evaluaprof_offering_loaded', 'true');
+          }
         }
       } catch (e) {
         console.error('Preload failed:', e);
@@ -611,10 +616,10 @@ const SchedulerPage: React.FC = () => {
                 <Button
                   onClick={generateSchedules}
                   disabled={isGenerating}
-                  className="flex-1 sm:flex-none gap-2 bg-gradient-to-r from-indigo-500 to-purple-600 text-white hover:from-indigo-600 hover:to-purple-700 h-10"
+                  className="flex-1 sm:flex-none gap-2 bg-zinc-900 dark:bg-zinc-100 text-zinc-100 dark:text-zinc-900 border border-zinc-800 dark:border-zinc-200 hover:bg-zinc-800 dark:hover:bg-zinc-200 h-10 shadow-sm transition-all active:scale-[0.98] font-bold uppercase tracking-tight"
                 >
-                  {isGenerating ? <Loader2 className="h-4 w-4 animate-spin" /> : <Zap className="h-4 w-4" />}
-                  {isGenerating ? 'Generando...' : 'Auto-Generar'}
+                  {isGenerating ? <Loader2 className="h-4 w-4 animate-spin" /> : <Zap className="h-3.5 w-3.5 fill-current" />}
+                  {isGenerating ? 'Calculando...' : 'Auto-Generar'}
                 </Button>
               </div>
             )}
