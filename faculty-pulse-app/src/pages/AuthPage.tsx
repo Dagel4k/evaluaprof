@@ -60,15 +60,15 @@ export const AuthPage: React.FC = () => {
         password: data.password
       });
       if (error) throw error;
-      
+
       toast({ title: "Bienvenido de nuevo", description: "Sesión iniciada correctamente." });
       navigate('/home');
     } catch (error: any) {
       console.error(error);
       toast({
         title: "Error de acceso",
-        description: error.message === "Invalid login credentials" 
-          ? "Correo o contraseña incorrectos." 
+        description: error.message === "Invalid login credentials"
+          ? "Correo o contraseña incorrectos."
           : error.message,
         variant: "destructive"
       });
@@ -90,8 +90,8 @@ export const AuthPage: React.FC = () => {
       });
       if (error) throw error;
 
-      toast({ 
-        title: "¡Cuenta creada!", 
+      toast({
+        title: "¡Cuenta creada!",
         description: "Hemos enviado un enlace de confirmación a tu correo.",
         duration: 6000,
       });
@@ -121,7 +121,7 @@ export const AuthPage: React.FC = () => {
       toast({ title: "Recuperación", description: "Ingresa tu correo en el campo de login primero.", variant: "destructive" });
       return;
     }
-    
+
     setIsLoading(true);
     try {
       const { error } = await supabase.auth.resetPasswordForEmail(email, {
@@ -143,7 +143,7 @@ export const AuthPage: React.FC = () => {
       <div className="relative hidden h-full flex-col bg-muted p-10 text-white dark:border-r lg:flex">
         <div className="absolute inset-0 bg-primary/90" />
         <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1523050854058-8df90110c9f1?q=80&w=2070&auto=format&fit=crop')] bg-cover bg-center opacity-20 mix-blend-overlay" />
-        
+
         <div className="relative z-20 flex items-center gap-2 text-lg font-medium">
           <GraduationCap className="h-8 w-8" />
           <span className="text-2xl font-bold tracking-tight">EvaluaProf Pro</span>
@@ -166,6 +166,9 @@ export const AuthPage: React.FC = () => {
             <p className="text-sm text-muted-foreground">
               Ingresa a tu portal académico
             </p>
+            <div className="mt-2 inline-flex items-center rounded-full border border-primary/20 bg-primary/10 px-2.5 py-0.5 text-xs font-semibold text-primary animate-pulse mx-auto">
+              BETA PRIVADA: Acceso PRO Automático
+            </div>
           </div>
 
           <Tabs defaultValue="login" className="w-full">
@@ -207,7 +210,7 @@ export const AuthPage: React.FC = () => {
                       <p className="text-xs text-destructive ml-1">{loginForm.formState.errors.password.message}</p>
                     )}
                   </div>
-                  
+
                   <Button className="w-full" type="submit" disabled={isLoading}>
                     {isLoading && <Loader2 className="mr-2 h-4 w-4 animate-spin" />}
                     Acceder
@@ -223,7 +226,7 @@ export const AuthPage: React.FC = () => {
                       </AlertDescription>
                     </Alert>
                   ) : (
-                    <button 
+                    <button
                       type="button"
                       onClick={handleResetPassword}
                       className="text-xs text-primary hover:underline"

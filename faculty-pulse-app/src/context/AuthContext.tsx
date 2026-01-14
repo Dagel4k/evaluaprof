@@ -8,6 +8,7 @@ interface Profile {
   full_name: string;
   role: 'STUDENT_FREE' | 'STUDENT_PRO' | 'ADMIN';
   evaluations_count?: number;
+  access_count?: number;
 }
 
 interface AuthContextType {
@@ -123,7 +124,24 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
         .single();
 
       if (!error && data) {
-        setProfile(data as Profile);
+        let profileData = data as Profile;
+
+        // --- AUTO-PRO LOGIC (Private Beta) ---
+        if (profileData.role === 'STUDENT_FREE') {
+          console.log(`🚀 Private Beta: Auto-upgrading ${profileData.email} to PRO`);
+          const { data: updated, error: updateError } = await supabase
+            .from('profiles')
+            .update({ role: 'STUDENT_PRO' })
+            .eq('id', userId)
+            .select()
+            .single();
+
+          if (!updateError && updated) {
+            profileData = updated as Profile;
+          }
+        }
+
+        setProfile(profileData);
       }
     } catch (e) {
       console.error('Error fetching profile:', e);
@@ -149,6 +167,9 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
       token_hash: tokenSignature,
       device: device
     });
+
+    // Increment access count for tracking (Private Beta)
+    await supabase.rpc('increment_access_count', { user_id: session.user.id });
   };
 
   const signOut = async () => {
