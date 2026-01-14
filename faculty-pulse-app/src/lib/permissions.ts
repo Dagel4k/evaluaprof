@@ -15,7 +15,12 @@ const ROLE_PERMISSIONS: Record<UserRole, AppFeature[]> = {
   ],
   'STUDENT_FREE': [
     'view-professors',
-    'access-scheduler'
+    'view-advanced-metrics',
+    'access-scheduler',
+    'save-cloud-schedules',
+    'export-calendar',
+    'auto-generator',
+    'remove-ads'
   ],
   'STUDENT_PRO': [
     'view-professors',
