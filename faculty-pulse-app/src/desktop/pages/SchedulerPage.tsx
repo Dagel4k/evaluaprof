@@ -11,7 +11,8 @@ import { ScheduleUploader } from '../components/ScheduleUploader';
 import { ManualCourseForm } from '../components/ManualCourseForm';
 import { ProfessorComparison } from '../components/ProfessorComparison';
 import { Button } from '@/shared/ui/button';
-import { RefreshCcw, Plus, MousePointer2, GitCompare, Zap, ChevronLeft, ChevronRight, Loader2, Settings2, ChevronDown, ChevronUp, Lightbulb, AlertTriangle, Trash2 } from 'lucide-react';
+import { RefreshCcw, Plus, MousePointer2, GitCompare, Zap, ChevronLeft, ChevronRight, Loader2, Settings2, ChevronDown, ChevronUp, Lightbulb, AlertTriangle, Trash2, FileText } from 'lucide-react';
+import { generateEasySchedulesPDF } from '../lib/pdfGenerator';
 import { SubjectCard } from '../components/SubjectCard';
 import { ScheduleStatsPanel } from '../components/ScheduleStatsPanel';
 import { findAllConflicts } from '../../lib/conflictDetector';
@@ -44,6 +45,7 @@ const SchedulerPage: React.FC = () => {
 
   // Generator State
   const [isGenerating, setIsGenerating] = useState(false);
+  const [isGeneratingPDF, setIsGeneratingPDF] = useState(false);
   const [generatedSchedules, setGeneratedSchedules] = useState<CourseGroup[][]>([]);
   const [scheduleStatistics, setScheduleStatistics] = useState<ScheduleStatistics[]>([]);
   const [currentScheduleIndex, setCurrentScheduleIndex] = useState(0);
@@ -363,6 +365,66 @@ const SchedulerPage: React.FC = () => {
       title: "Lista Limpiada",
       description: "Se han eliminado todas las materias.",
     });
+  };
+
+  const handleDownloadPDFReport = async () => {
+    if (!user) {
+      toast({ title: "Requiere Cuenta", description: "Inicia sesión para descargar reportes.", variant: "destructive" });
+      return;
+    }
+
+    setIsGeneratingPDF(true);
+    try {
+      const metrics: Record<string, GroupMetrics> = {};
+      professorMap.forEach((p, groupId) => {
+        metrics[groupId] = {
+          quality: p.globalScore,
+          difficulty: p.difficulty,
+          trust: p.trust
+        };
+      });
+
+      const engine = new SchedulerEngine();
+      // Generate with DIFFICULTY focus and relaxed time constraints to find objective best
+      const customPrefs: GenerationPreferences = {
+        ...preferences,
+        focus: 'DIFFICULTY',
+        maxGapTolerance: 5, // Allow max gaps to find best profs regardless of schedule tightness?
+        // Actually, keep gap tolerance reasonable (e.g. 5 means basically ignore gaps)
+        // But let's respect the user's current ignore/include preferences, just force DIFFICULTY mode.
+        timeFilterMode: 'MINIMUM', // Relax rigid constraints
+      };
+
+      toast({ title: "Generando Reporte...", description: "Analizando miles de combinaciones para encontrar las más fáciles." });
+
+      const result = await engine.generateSchedules(subjects, metrics, customPrefs);
+
+      if (result.schedules.length > 0) {
+        // Deduplicar horarios
+        const uniqueSchedules: CourseGroup[][] = [];
+        const seenSignatures = new Set<string>();
+
+        result.schedules.forEach(schedule => {
+          // Ordenamos IDs para crear firma única
+          const signature = schedule.map(g => g.id).sort().join('|');
+          if (!seenSignatures.has(signature)) {
+            seenSignatures.add(signature);
+            uniqueSchedules.push(schedule);
+          }
+        });
+
+        generateEasySchedulesPDF({ schedules: uniqueSchedules, metrics });
+        toast({ title: "PDF Listo", description: `Descargando ${uniqueSchedules.length} horarios únicos.` });
+      } else {
+        toast({ title: "Sin Resultados", description: "No se encontraron horarios válidos para el reporte.", variant: "destructive" });
+      }
+      engine.terminate();
+    } catch (e) {
+      console.error(e);
+      toast({ title: "Error", description: "No se pudo generar el PDF.", variant: "destructive" });
+    } finally {
+      setIsGeneratingPDF(false);
+    }
   };
 
   const toggleGroupSelection = (subjectId: string, groupId: string) => {
@@ -777,6 +839,16 @@ const SchedulerPage: React.FC = () => {
             )}
 
             <div className="grid grid-cols-2 gap-2 sm:flex sm:items-center">
+              <Button
+                variant="outline"
+                size="sm"
+                onClick={handleDownloadPDFReport}
+                disabled={isGeneratingPDF || subjects.length === 0}
+                className="gap-2 h-10 sm:h-9 border-blue-200 text-blue-700 hover:bg-blue-50 dark:border-blue-900 dark:text-blue-300 dark:hover:bg-blue-900/20"
+              >
+                {isGeneratingPDF ? <Loader2 className="h-4 w-4 animate-spin" /> : <FileText className="h-4 w-4" />}
+                Reporte PDF
+              </Button>
               <Button variant="outline" size="sm" onClick={() => setShowManualForm(true)} className="gap-2 h-10 sm:h-9">
                 <Plus className="h-4 w-4" /> Materia
               </Button>
@@ -902,7 +974,7 @@ const SchedulerPage: React.FC = () => {
           />
         </div>
       </div>
-    </TooltipProvider>
+    </TooltipProvider >
   );
 };
 
