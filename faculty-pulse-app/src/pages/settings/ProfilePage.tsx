@@ -80,7 +80,7 @@ export const ProfilePage: React.FC = () => {
   }
 
   return (
-    <div className="container mx-auto max-w-2xl py-6 sm:py-10 px-4 space-y-6 sm:y-8">
+    <div className="container mx-auto max-w-2xl py-6 sm:py-10 px-5 sm:px-6 space-y-6 sm:y-8">
       <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
         <div>
           <h1 className="text-2xl sm:text-3xl font-bold tracking-tight">Configuración</h1>

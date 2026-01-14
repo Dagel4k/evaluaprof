@@ -307,6 +307,16 @@ const SchedulerPage: React.FC = () => {
     applyGeneratedSchedule(generatedSchedules[newIndex]);
   };
 
+  const clearResults = () => {
+    setGeneratedSchedules([]);
+    setScheduleStatistics([]);
+    setCurrentScheduleIndex(0);
+    toast({
+      title: "Resultados Limpiados",
+      description: "Se han borrado los horarios generados. Tu lista de materias sigue intacta.",
+    });
+  };
+
   const addManualSubject = (name: string, groups: CourseGroup[]) => {
     const newSubject: Subject = {
       id: uuidv4(),
@@ -628,7 +638,7 @@ const SchedulerPage: React.FC = () => {
               <Button variant="outline" size="sm" onClick={() => setShowManualForm(true)} className="gap-2 h-10 sm:h-9">
                 <Plus className="h-4 w-4" /> Materia
               </Button>
-              <Button variant="ghost" size="sm" onClick={() => setHasStarted(false)} className="gap-2 h-10 sm:h-9">
+              <Button variant="ghost" size="sm" onClick={clearResults} className="gap-2 h-10 sm:h-9">
                 <RefreshCcw className="h-4 w-4" /> Reset
               </Button>
             </div>

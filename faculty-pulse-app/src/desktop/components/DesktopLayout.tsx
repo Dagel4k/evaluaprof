@@ -27,7 +27,7 @@ const DesktopLayout: React.FC = () => {
             <h2 className="font-semibold text-sm sm:text-base text-muted-foreground lg:text-foreground">Constructor de Horario</h2>
           </div>
         </header>
-        <div className="p-0 sm:p-6">
+        <div className="p-0 sm:p-6 px-1 sm:px-6">
           <Outlet />
         </div>
       </main>
