@@ -15,8 +15,15 @@ interface ProfessorEntry {
         sentiment: number;
         trust: number;
         tags: any[];
+        subjects: string[];
+        forecast?: number;
+        consistency?: number;
+        qualityTrend: number[];
+        difficultyTrend: number[];
+        topComments: string[];
     };
     reviewCount: number;
+    percentile?: number;
 }
 
 function generateDB() {
@@ -46,7 +53,13 @@ function generateDB() {
                     wouldTakeAgain: data.recommendation_analysis?.rate || 0,
                     sentiment: data.nlp_analysis?.sentiment?.overall || 0,
                     trust: data.integrity_analysis?.trust_score || 1.0,
-                    tags: data.nlp_analysis?.topics?.flatMap((t: any) => t.words) || []
+                    tags: data.nlp_analysis?.topics?.flatMap((t: any) => t.words) || [],
+                    subjects: data.subject_normalization?.per_subject?.slice(0, 3).map((s: any) => s.materia) || [],
+                    forecast: data.trends_analysis?.forecast?.quality_next,
+                    consistency: data.integrity_analysis?.low_variance_flag === 1 ? 0.9 : 0.6,
+                    qualityTrend: data.trends_analysis?.quality_trend?.series || [],
+                    difficultyTrend: data.trends_analysis?.difficulty_trend?.series || [],
+                    topComments: data.reviews_public?.slice(0, 3).map((r: any) => r.comentario) || []
                 },
                 reviewCount: data.n_reviews || 0
             });
@@ -54,6 +67,12 @@ function generateDB() {
             console.error(`⚠️ Error processing ${file}:`, e);
         }
     }
+
+    // Calculate percentiles (sort descending: best first)
+    professors.sort((a, b) => b.metrics.quality - a.metrics.quality);
+    professors.forEach((p, idx) => {
+        p.percentile = 100 - (idx / (professors.length - 1)) * 100;
+    });
 
     fs.writeFileSync(dbPath, JSON.stringify(professors, null, 2));
     console.log(`✅ Database generated with ${professors.length} professors at ${dbPath}`);

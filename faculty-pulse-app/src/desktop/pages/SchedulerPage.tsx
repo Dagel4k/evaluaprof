@@ -11,7 +11,7 @@ import { ScheduleUploader } from '../components/ScheduleUploader';
 import { ManualCourseForm } from '../components/ManualCourseForm';
 import { ProfessorComparison } from '../components/ProfessorComparison';
 import { Button } from '@/shared/ui/button';
-import { RefreshCcw, Plus, MousePointer2, GitCompare, Zap, ChevronLeft, ChevronRight, Loader2, Settings2, ChevronDown, ChevronUp, Lightbulb, AlertTriangle } from 'lucide-react';
+import { RefreshCcw, Plus, MousePointer2, GitCompare, Zap, ChevronLeft, ChevronRight, Loader2, Settings2, ChevronDown, ChevronUp, Lightbulb, AlertTriangle, Trash2 } from 'lucide-react';
 import { SubjectCard } from '../components/SubjectCard';
 import { ScheduleStatsPanel } from '../components/ScheduleStatsPanel';
 import { findAllConflicts } from '../../lib/conflictDetector';
@@ -335,6 +335,36 @@ const SchedulerPage: React.FC = () => {
     setHasStarted(true);
   };
 
+  const removeSubject = (subjectId: string) => {
+    const subject = subjects.find(s => s.id === subjectId);
+    if (!subject) return;
+
+    // Remove from subjects list
+    setSubjects(prev => prev.filter(s => s.id !== subjectId));
+
+    // Remove any selected groups for this subject
+    const newSelected = new Set(selectedGroupIds);
+    subject.groups.forEach(g => newSelected.delete(g.id));
+    setSelectedGroupIds(newSelected);
+
+    toast({
+      title: "Materia Removida",
+      description: "La materia ha sido eliminada de tu lista.",
+    });
+  };
+
+  const removeAllSubjects = () => {
+    if (subjects.length === 0) return;
+    setSubjects([]);
+    setSelectedGroupIds(new Set());
+    setGeneratedSchedules([]);
+    setComparison(null);
+    toast({
+      title: "Lista Limpiada",
+      description: "Se han eliminado todas las materias.",
+    });
+  };
+
   const toggleGroupSelection = (subjectId: string, groupId: string) => {
     const newIds = new Set(selectedGroupIds);
     const subject = subjects.find(s => s.id === subjectId);
@@ -478,7 +508,7 @@ const SchedulerPage: React.FC = () => {
                       <Settings2 className="h-4 w-4" />
                     </Button>
                   </PopoverTrigger>
-                  <PopoverContent className="w-80">
+                  <PopoverContent className="w-96">
                     <div className="grid gap-4">
                       <div className="space-y-2">
                         <h4 className="font-medium leading-none">Preferencias</h4>
@@ -517,56 +547,168 @@ const SchedulerPage: React.FC = () => {
                               <SelectItem value="EXACT">Exacto</SelectItem>
                               <SelectItem value="MINIMUM">Mínimo</SelectItem>
                               <SelectItem value="CLOSEST">Más Cercano</SelectItem>
+                              <SelectItem value="SPLIT">Split (Mañana/Tarde)</SelectItem>
                             </SelectContent>
                           </Select>
                         </div>
 
-                        <div className="grid grid-cols-3 items-center gap-4">
-                          <Label htmlFor="startTime" className="text-sm">Inicio</Label>
-                          <Select
-                            value={preferences.preferredStartTime?.toString() || 'any'}
-                            onValueChange={(val) => setPreferences({
-                              ...preferences,
-                              preferredStartTime: val === 'any' ? undefined : parseInt(val)
-                            })}
-                          >
-                            <SelectTrigger className="col-span-2 h-8">
-                              <SelectValue />
-                            </SelectTrigger>
-                            <SelectContent>
-                              <SelectItem value="any">Cualquier hora</SelectItem>
-                              <SelectItem value="420">7:00 AM</SelectItem>
-                              <SelectItem value="480">8:00 AM</SelectItem>
-                              <SelectItem value="540">9:00 AM</SelectItem>
-                              <SelectItem value="600">10:00 AM</SelectItem>
-                              <SelectItem value="660">11:00 AM</SelectItem>
-                            </SelectContent>
-                          </Select>
-                        </div>
+                        {preferences.timeFilterMode === 'SPLIT' ? (
+                          <>
+                            <div className="space-y-3 pt-2">
+                              <div className="space-y-1.5 p-2 bg-zinc-50 dark:bg-zinc-900 rounded-md border border-zinc-200 dark:border-zinc-800">
+                                <Label className="text-xs font-bold text-muted-foreground uppercase tracking-wider">Bloque 1 (Principal)</Label>
+                                <div className="grid grid-cols-2 gap-2">
+                                  <div className="space-y-1">
+                                    <Label htmlFor="startTime" className="text-[10px]">Inicio</Label>
+                                    <Select
+                                      value={preferences.preferredStartTime?.toString() || 'any'}
+                                      onValueChange={(val) => setPreferences({
+                                        ...preferences,
+                                        preferredStartTime: val === 'any' ? undefined : parseInt(val)
+                                      })}
+                                    >
+                                      <SelectTrigger className="h-8 text-xs">
+                                        <SelectValue placeholder="Inicia" />
+                                      </SelectTrigger>
+                                      <SelectContent>
+                                        <SelectItem value="any">Cualquier hora</SelectItem>
+                                        <SelectItem value="420">7:00 AM</SelectItem>
+                                        <SelectItem value="480">8:00 AM</SelectItem>
+                                        <SelectItem value="540">9:00 AM</SelectItem>
+                                        <SelectItem value="600">10:00 AM</SelectItem>
+                                        <SelectItem value="660">11:00 AM</SelectItem>
+                                      </SelectContent>
+                                    </Select>
+                                  </div>
+                                  <div className="space-y-1">
+                                    <Label htmlFor="endTime" className="text-[10px]">Fin</Label>
+                                    <Select
+                                      value={preferences.preferredEndTime?.toString() || 'any'}
+                                      onValueChange={(val) => setPreferences({
+                                        ...preferences,
+                                        preferredEndTime: val === 'any' ? undefined : parseInt(val)
+                                      })}
+                                    >
+                                      <SelectTrigger className="h-8 text-xs">
+                                        <SelectValue placeholder="Termina" />
+                                      </SelectTrigger>
+                                      <SelectContent>
+                                        <SelectItem value="any">Cualquier hora</SelectItem>
+                                        <SelectItem value="720">12:00 PM</SelectItem>
+                                        <SelectItem value="780">1:00 PM</SelectItem>
+                                        <SelectItem value="840">2:00 PM</SelectItem>
+                                        <SelectItem value="900">3:00 PM</SelectItem>
+                                        <SelectItem value="960">4:00 PM</SelectItem>
+                                        <SelectItem value="1020">5:00 PM</SelectItem>
+                                      </SelectContent>
+                                    </Select>
+                                  </div>
+                                </div>
+                              </div>
 
-                        <div className="grid grid-cols-3 items-center gap-4">
-                          <Label htmlFor="endTime" className="text-sm">Fin</Label>
-                          <Select
-                            value={preferences.preferredEndTime?.toString() || 'any'}
-                            onValueChange={(val) => setPreferences({
-                              ...preferences,
-                              preferredEndTime: val === 'any' ? undefined : parseInt(val)
-                            })}
-                          >
-                            <SelectTrigger className="col-span-2 h-8">
-                              <SelectValue />
-                            </SelectTrigger>
-                            <SelectContent>
-                              <SelectItem value="any">Cualquier hora</SelectItem>
-                              <SelectItem value="900">3:00 PM</SelectItem>
-                              <SelectItem value="960">4:00 PM</SelectItem>
-                              <SelectItem value="1020">5:00 PM</SelectItem>
-                              <SelectItem value="1080">6:00 PM</SelectItem>
-                              <SelectItem value="1140">7:00 PM</SelectItem>
-                              <SelectItem value="1200">8:00 PM</SelectItem>
-                            </SelectContent>
-                          </Select>
-                        </div>
+                              <div className="space-y-1.5 p-2 bg-zinc-50 dark:bg-zinc-900 rounded-md border border-zinc-200 dark:border-zinc-800">
+                                <Label className="text-xs font-bold text-muted-foreground uppercase tracking-wider">Bloque 2 (Secundario)</Label>
+                                <div className="grid grid-cols-2 gap-2">
+                                  <div className="space-y-1">
+                                    <Label htmlFor="secStartTime" className="text-[10px]">Inicio</Label>
+                                    <Select
+                                      value={preferences.secondaryStartTime?.toString() || 'any'}
+                                      onValueChange={(val) => setPreferences({
+                                        ...preferences,
+                                        secondaryStartTime: val === 'any' ? undefined : parseInt(val)
+                                      })}
+                                    >
+                                      <SelectTrigger className="h-8 text-xs">
+                                        <SelectValue placeholder="Inicia" />
+                                      </SelectTrigger>
+                                      <SelectContent>
+                                        <SelectItem value="any">Cualquier hora</SelectItem>
+                                        <SelectItem value="720">12:00 PM</SelectItem>
+                                        <SelectItem value="780">1:00 PM</SelectItem>
+                                        <SelectItem value="840">2:00 PM</SelectItem>
+                                        <SelectItem value="900">3:00 PM</SelectItem>
+                                        <SelectItem value="960">4:00 PM</SelectItem>
+                                        <SelectItem value="1020">5:00 PM</SelectItem>
+                                      </SelectContent>
+                                    </Select>
+                                  </div>
+                                  <div className="space-y-1">
+                                    <Label htmlFor="secEndTime" className="text-[10px]">Fin</Label>
+                                    <Select
+                                      value={preferences.secondaryEndTime?.toString() || 'any'}
+                                      onValueChange={(val) => setPreferences({
+                                        ...preferences,
+                                        secondaryEndTime: val === 'any' ? undefined : parseInt(val)
+                                      })}
+                                    >
+                                      <SelectTrigger className="h-8 text-xs">
+                                        <SelectValue placeholder="Termina" />
+                                      </SelectTrigger>
+                                      <SelectContent>
+                                        <SelectItem value="any">Cualquier hora</SelectItem>
+                                        <SelectItem value="1020">5:00 PM</SelectItem>
+                                        <SelectItem value="1080">6:00 PM</SelectItem>
+                                        <SelectItem value="1140">7:00 PM</SelectItem>
+                                        <SelectItem value="1200">8:00 PM</SelectItem>
+                                        <SelectItem value="1260">9:00 PM</SelectItem>
+                                        <SelectItem value="1320">10:00 PM</SelectItem>
+                                      </SelectContent>
+                                    </Select>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </>
+                        ) : (
+                          <>
+                            <div className="grid grid-cols-3 items-center gap-4">
+                              <Label htmlFor="startTime" className="text-sm">Inicio</Label>
+                              <Select
+                                value={preferences.preferredStartTime?.toString() || 'any'}
+                                onValueChange={(val) => setPreferences({
+                                  ...preferences,
+                                  preferredStartTime: val === 'any' ? undefined : parseInt(val)
+                                })}
+                              >
+                                <SelectTrigger className="col-span-2 h-8">
+                                  <SelectValue />
+                                </SelectTrigger>
+                                <SelectContent>
+                                  <SelectItem value="any">Cualquier hora</SelectItem>
+                                  <SelectItem value="420">7:00 AM</SelectItem>
+                                  <SelectItem value="480">8:00 AM</SelectItem>
+                                  <SelectItem value="540">9:00 AM</SelectItem>
+                                  <SelectItem value="600">10:00 AM</SelectItem>
+                                  <SelectItem value="660">11:00 AM</SelectItem>
+                                </SelectContent>
+                              </Select>
+                            </div>
+
+                            <div className="grid grid-cols-3 items-center gap-4">
+                              <Label htmlFor="endTime" className="text-sm">Fin</Label>
+                              <Select
+                                value={preferences.preferredEndTime?.toString() || 'any'}
+                                onValueChange={(val) => setPreferences({
+                                  ...preferences,
+                                  preferredEndTime: val === 'any' ? undefined : parseInt(val)
+                                })}
+                              >
+                                <SelectTrigger className="col-span-2 h-8">
+                                  <SelectValue />
+                                </SelectTrigger>
+                                <SelectContent>
+                                  <SelectItem value="any">Cualquier hora</SelectItem>
+                                  <SelectItem value="900">3:00 PM</SelectItem>
+                                  <SelectItem value="960">4:00 PM</SelectItem>
+                                  <SelectItem value="1020">5:00 PM</SelectItem>
+                                  <SelectItem value="1080">6:00 PM</SelectItem>
+                                  <SelectItem value="1140">7:00 PM</SelectItem>
+                                  <SelectItem value="1200">8:00 PM</SelectItem>
+                                </SelectContent>
+                              </Select>
+                            </div>
+                          </>
+                        )}
 
                         <div className="space-y-2">
                           <div className="flex items-center justify-between">
@@ -638,6 +780,9 @@ const SchedulerPage: React.FC = () => {
               <Button variant="outline" size="sm" onClick={() => setShowManualForm(true)} className="gap-2 h-10 sm:h-9">
                 <Plus className="h-4 w-4" /> Materia
               </Button>
+              <Button variant="ghost" size="sm" onClick={removeAllSubjects} className="gap-2 h-10 sm:h-9 text-red-500 hover:text-red-600 hover:bg-red-50 dark:hover:bg-red-950/20">
+                <Trash2 className="h-4 w-4" /> Limpiar
+              </Button>
               <Button variant="ghost" size="sm" onClick={clearResults} className="gap-2 h-10 sm:h-9">
                 <RefreshCcw className="h-4 w-4" /> Reset
               </Button>
@@ -675,6 +820,7 @@ const SchedulerPage: React.FC = () => {
                 professorMap={professorMap}
                 toggleGroupSelection={toggleGroupSelection}
                 startComparison={startComparison}
+                onRemoveSubject={removeSubject}
                 conflicts={conflicts}
               />
             </div>
@@ -715,6 +861,7 @@ const SchedulerPage: React.FC = () => {
             professorMap={professorMap}
             toggleGroupSelection={toggleGroupSelection}
             startComparison={startComparison}
+            onRemoveSubject={removeSubject}
             conflicts={conflicts}
           />
 
@@ -767,8 +914,9 @@ const SubjectListContent: React.FC<{
   professorMap: Map<string, ProfessorMetrics>;
   toggleGroupSelection: (sid: string, gid: string) => void;
   startComparison: (ga: string, gb: string) => void;
+  onRemoveSubject: (id: string) => void;
   conflicts: Map<string, any>;
-}> = ({ subjects, expandedSections, setExpandedSections, selectedGroupIds, professorMap, toggleGroupSelection, startComparison, conflicts }) => {
+}> = ({ subjects, expandedSections, setExpandedSections, selectedGroupIds, professorMap, toggleGroupSelection, startComparison, onRemoveSubject, conflicts }) => {
   return (
     <div className="space-y-3">
       {(() => {
@@ -805,6 +953,7 @@ const SubjectListContent: React.FC<{
                       professorMap={professorMap}
                       onGroupSelect={(groupId) => toggleGroupSelection(subject.id, groupId)}
                       onCompare={startComparison}
+                      onRemove={onRemoveSubject}
                       conflictingGroupIds={Array.from(conflicts.keys())}
                     />
                   );
@@ -849,6 +998,7 @@ const SubjectListContent: React.FC<{
                       professorMap={professorMap}
                       onGroupSelect={(groupId) => toggleGroupSelection(subject.id, groupId)}
                       onCompare={startComparison}
+                      onRemove={onRemoveSubject}
                       conflictingGroupIds={Array.from(conflicts.keys())}
                     />
                   );

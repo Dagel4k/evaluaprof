@@ -2,7 +2,7 @@ import React from 'react';
 import { Subject, CourseGroup, ProfessorMetrics } from '@/types/canonical';
 import { Badge } from '@/shared/ui/badge';
 import { Card } from '@/shared/ui/card';
-import { BookOpen, Clock, Award, Users } from 'lucide-react';
+import { BookOpen, Clock, Award, Users, X } from 'lucide-react';
 import { Button } from '@/shared/ui/button';
 
 interface SubjectCardProps {
@@ -11,6 +11,7 @@ interface SubjectCardProps {
     professorMap: Map<string, ProfessorMetrics>;
     onGroupSelect: (groupId: string) => void;
     onCompare?: (groupAId: string, groupBId: string) => void;
+    onRemove?: (subjectId: string) => void;
     conflictingGroupIds: string[];
 }
 
@@ -35,6 +36,7 @@ export const SubjectCard: React.FC<SubjectCardProps> = ({
     professorMap,
     onGroupSelect,
     onCompare,
+    onRemove,
     conflictingGroupIds
 }) => {
     const classificationStyle = subject.classification
@@ -42,9 +44,22 @@ export const SubjectCard: React.FC<SubjectCardProps> = ({
         : null;
 
     return (
-        <Card className="p-3 sm:p-4 space-y-2.5 shadow-sm border-zinc-200 dark:border-zinc-800">
+        <Card className="p-3 sm:p-4 space-y-2.5 shadow-sm border-zinc-200 dark:border-zinc-800 relative group">
+            {onRemove && (
+                <button
+                    onClick={(e) => {
+                        e.stopPropagation();
+                        onRemove(subject.id);
+                    }}
+                    className="absolute top-2 right-2 p-1 text-zinc-400 hover:text-red-500 hover:bg-red-50 dark:hover:bg-red-950/20 rounded transition-colors opacity-0 group-hover:opacity-100 focus:opacity-100"
+                    title="Remover materia"
+                >
+                    <X className="h-3.5 w-3.5" />
+                </button>
+            )}
+
             {/* Header */}
-            <div className="space-y-1.5">
+            <div className="space-y-1.5 pr-6">
                 <div className="flex items-start justify-between gap-2">
                     <div className="flex-1 min-w-0">
                         <h4 className="font-bold text-xs uppercase tracking-tight leading-tight line-clamp-2" title={subject.name}>
@@ -126,3 +141,4 @@ export const SubjectCard: React.FC<SubjectCardProps> = ({
         </Card>
     );
 };
+

@@ -7,7 +7,9 @@ export type GenerationPreferences = {
   allowUnassignedProfessors: boolean; // Include groups without assigned professors
   preferredStartTime?: number; // Minutes from midnight (e.g., 540 = 9:00 AM)
   preferredEndTime?: number;   // Minutes from midnight (e.g., 1080 = 6:00 PM)
-  timeFilterMode: 'EXACT' | 'MINIMUM' | 'CLOSEST'; // How to apply time filters
+  secondaryStartTime?: number; // Optional: Start of second block for split schedules (e.g., 14:00)
+  secondaryEndTime?: number;   // Optional: End of second block (e.g., 17:00)
+  timeFilterMode: 'EXACT' | 'MINIMUM' | 'CLOSEST' | 'SPLIT'; // Added SPLIT mode
   applyGapFilterToFriday?: boolean; // Default false
 };
 
@@ -242,6 +244,26 @@ const meetsTimePreferences = (
 
     if (prefs.preferredEndTime !== undefined && latest > prefs.preferredEndTime) {
       return false;
+    }
+  } else if (prefs.timeFilterMode === 'SPLIT') {
+    // SPLIT: Must fall within EITHER Range 1 OR Range 2 (inclusive)
+    // Range 1: preferredStartTime -> preferredEndTime
+    // Range 2: secondaryStartTime -> secondaryEndTime
+    if (prefs.preferredStartTime === undefined || prefs.preferredEndTime === undefined ||
+      prefs.secondaryStartTime === undefined || prefs.secondaryEndTime === undefined) {
+      return true; // Fallback if not fully configured
+    }
+
+    // Check every slot of every group
+    for (const group of schedule) {
+      for (const slot of group.schedule) {
+        const inRange1 = slot.startTime >= prefs.preferredStartTime && slot.endTime <= prefs.preferredEndTime;
+        const inRange2 = slot.startTime >= prefs.secondaryStartTime && slot.endTime <= prefs.secondaryEndTime;
+
+        if (!inRange1 && !inRange2) {
+          return false; // Slot is outside both valid ranges (e.g., in the middle dead zone)
+        }
+      }
     }
   }
   // CLOSEST mode doesn't filter, it affects scoring instead
