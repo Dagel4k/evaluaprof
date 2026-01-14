@@ -29,6 +29,15 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
+    // Definitive safety timeout: ensure app loads within 10s no matter what
+    const safetyTimer = setTimeout(() => {
+      console.log("🕒 10s Safety Timeout: Forcing isLoading = false");
+      setIsLoading(prev => {
+        if (prev) console.warn("⚠️ App was stuck in loading! Forcing resolution.");
+        return false;
+      });
+    }, 10000);
+
     // DEV MODE: Create mock user with full permissions
     if (import.meta.env.VITE_DEV_MODE === 'true') {
       console.log('🔧 DEV MODE: Creating mock user with STUDENT_PRO role');
@@ -58,37 +67,32 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
 
     // 1. Get initial session
     const initSession = async () => {
-      // Check if we are returning from OAuth redirect
-      // Supabase handles the hash parsing automatically in getSession() usually,
-      // but explicitly checking helps debugging.
-      const { data: { session }, error } = await supabase.auth.getSession();
+      console.log("🔍 Starting initSession...");
+      try {
+        const { data: { session }, error } = await supabase.auth.getSession();
 
-      if (error) {
-        console.error("Auth initialization error:", error);
-      }
-
-      if (session) {
-        console.log("✅ Session found on init:", session.user.email);
-        setSession(session);
-        setUser(session.user);
-        await fetchProfile(session.user.id);
-      } else {
-        // Critical Fix for OAuth Redirect:
-        // If we have a hash with access_token, DO NOT stop loading yet.
-        // We wait for the onAuthStateChange event to fire.
-        if (window.location.hash && window.location.hash.includes('access_token')) {
-          console.log("⏳ OAuth hash detected, waiting for Supabase to process...");
-          // We intentionally leave isLoading = true here.
-          // The onAuthStateChange listener will eventually fire 'SIGNED_IN' and turn it off.
-          // Safety timeout in case it fails:
-          setTimeout(() => {
-            console.warn("⚠️ OAuth processing timeout, forcing load state off.");
-            if (!session) setIsLoading(false);
-          }, 5000);
-        } else {
-          console.log("⚠️ No active session on init");
+        if (error) {
+          console.error("❌ Auth initialization error:", error);
           setIsLoading(false);
+          return;
         }
+
+        if (session) {
+          console.log("✅ Session found on init:", session.user.email);
+          setSession(session);
+          setUser(session.user);
+          await fetchProfile(session.user.id);
+        } else {
+          if (window.location.hash && window.location.hash.includes('access_token')) {
+            console.log("⏳ OAuth hash detected, waiting for event...");
+          } else {
+            console.log("ℹ️ No session on init");
+            setIsLoading(false);
+          }
+        }
+      } catch (err) {
+        console.error("❌ Fatal error in initSession:", err);
+        setIsLoading(false);
       }
     };
 
@@ -96,32 +100,38 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
 
     // 2. Listen for changes
     const { data: { subscription } } = supabase.auth.onAuthStateChange(async (event, session) => {
-      console.log(`Auth event: ${event}`, session?.user?.email);
+      console.log(`🔔 Auth change event [${event}] for:`, session?.user?.email ?? 'none');
 
       setSession(session);
       setUser(session?.user ?? null);
 
       if (session?.user) {
-        if (event === 'SIGNED_IN' || event === 'TOKEN_REFRESHED') {
+        if (event === 'SIGNED_IN' || event === 'TOKEN_REFRESHED' || event === 'INITIAL_SESSION') {
+          console.log(`🔄 Processing ${event} for ${session.user.id}`);
           try {
-            // These are background/tracking tasks, shouldn't block the UI
-            registerSession(session).catch(console.error);
+            // Background tasks
+            registerSession(session).catch(e => console.warn("Tracking error:", e));
             await fetchProfile(session.user.id);
           } catch (e) {
-            console.error("Error in auth session handler:", e);
+            console.error("❌ Error in auth listener handler:", e);
             setIsLoading(false);
           }
         }
       } else if (event === 'SIGNED_OUT') {
+        console.log("👋 User signed out");
         setProfile(null);
         setIsLoading(false);
       }
     });
 
-    return () => subscription.unsubscribe();
+    return () => {
+      clearTimeout(safetyTimer);
+      subscription.unsubscribe();
+    };
   }, []);
 
   const fetchProfile = async (userId: string) => {
+    console.log(`📥 Fetching profile for ${userId}...`);
     try {
       const { data, error } = await supabase
         .from('profiles')
@@ -129,8 +139,16 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
         .eq('id', userId)
         .single();
 
-      if (!error && data) {
+      if (error) {
+        console.warn(`⚠️ Profile fetch returned error: ${error.message} (Code: ${error.code})`);
+        // If profile doesn't exist, we still need to stop loading
+        setIsLoading(false);
+        return;
+      }
+
+      if (data) {
         let profileData = data as Profile;
+        console.log("✅ Profile loaded for:", profileData.email);
 
         // --- AUTO-PRO LOGIC (Private Beta) ---
         if (profileData.role === 'STUDENT_FREE') {
@@ -148,11 +166,14 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
         }
 
         setProfile(profileData);
+      } else {
+        console.log("ℹ️ No profile data returned (but no error)");
       }
     } catch (e) {
-      console.error('Error fetching profile:', e);
+      console.error('❌ Exception in fetchProfile:', e);
     } finally {
       setIsLoading(false);
+      console.log("🏁 fetchProfile finished");
     }
   };
 
