@@ -1,46 +1,46 @@
 {
   "professor_id": "Karen_Colin_Ojeda",
   "nombre": "Karen Colin Ojeda",
-  "universidad": "Instituto Tecnologico de Culiacan",
+  "universidad": "Instituto Tecnológico de Culiacán",
   "decay_analysis": {
-    "quality_decayed": 7.9925117100166485,
-    "difficulty_decayed": null
+    "quality_decayed": 7.994949692769677,
+    "difficulty_decayed": 4.841584982971986
   },
   "bayes_analysis": {
-    "quality_bayes": 7.26970864304704,
-    "difficulty_bayes": null
+    "quality_bayes": 7.511704582921199,
+    "difficulty_bayes": 3.469436201780416
   },
   "recommendation_analysis": {
-    "rate": 0.75,
+    "rate": 0.8,
     "wilson_interval": [
-      0.30063605244263664,
-      0.9544139373553638
+      0.37552826411853885,
+      0.9637768390302125
     ],
-    "n_recommendations": 4
+    "n_recommendations": 5
   },
   "subject_normalization": {
-    "z_mean": 0.1,
-    "z_mean_decayed": 0.12,
+    "z_mean": 0.19,
+    "z_mean_decayed": 0.19,
     "per_subject": [
       {
         "materia": "CALCULO INTEGRAL",
-        "z_decayed": 0.8481796604891912,
-        "n": 84
+        "z_decayed": 0.8026622206675375,
+        "n": 22
       },
       {
         "materia": "CÁLCULO",
-        "z_decayed": 0.20989507868443216,
-        "n": 10
+        "z_decayed": 0.4588314677411235,
+        "n": 3
       },
       {
         "materia": "CÁLCULO DIFERENCIAL",
-        "z_decayed": 0.053218305514857574,
-        "n": 46
+        "z_decayed": 0.17488598109333608,
+        "n": 24
       },
       {
         "materia": "CALCULO DIFERENCIAL",
-        "z_decayed": -0.7028837334686546,
-        "n": 110
+        "z_decayed": -0.6421360028394748,
+        "n": 29
       }
     ]
   },
@@ -73,21 +73,39 @@
         9.0,
         5.0,
         8.0,
-        10.0
+        10.0,
+        8.0
       ],
       "ewma": [
         9.0,
         7.8,
         7.859999999999999,
-        8.501999999999999
+        8.501999999999999,
+        8.351399999999998
       ],
-      "sigma": 1.804258203990401
+      "sigma": 1.5627707803769564
     },
-    "difficulty_trend": null,
+    "difficulty_trend": {
+      "series": [
+        2.0,
+        8.0,
+        4.0,
+        6.0,
+        4.0
+      ],
+      "ewma": [
+        2.0,
+        3.8,
+        3.8599999999999994,
+        4.501999999999999,
+        4.351399999999999
+      ],
+      "sigma": 1.8712649497064813
+    },
     "forecast": {
-      "quality_next": 8.501999999999999,
+      "quality_next": 8.351399999999998,
       "quality_band": [
-        4.965653920178813,
+        5.288369270461164,
         10.0
       ],
       "confidence": 0.95
@@ -96,10 +114,19 @@
   },
   "reviews_public": [
     {
+      "fecha_iso": "2025-11-10T00:00:00",
+      "materia": "CÁLCULO DIFERENCIAL",
+      "calidad": 8.0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
       "fecha_iso": "2024-05-25T00:00:00",
       "materia": "CALCULO INTEGRAL",
       "calidad": 10.0,
-      "dificultad": null,
+      "dificultad": 6.0,
       "nota": null,
       "recomienda": 1,
       "comentario": "no creo que exista alguna profesora mejor que ella, sus clases son interesantes porque es muy buena explicando y siempre se asegura de que todos entiendan, resuelve dudas, es muy buena onda y amable, sin duda cargaría de nuevo con ella????. si te cae mal es pq eres un huevon de primera."
@@ -108,8 +135,8 @@
       "fecha_iso": "2024-03-06T00:00:00",
       "materia": "CÁLCULO DIFERENCIAL",
       "calidad": 8.0,
-      "dificultad": null,
-      "nota": 8.5,
+      "dificultad": 4.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "Algo exigente pero muy bien explicado todo lo que da"
     },
@@ -117,17 +144,17 @@
       "fecha_iso": "2024-01-16T00:00:00",
       "materia": "CALCULO DIFERENCIAL",
       "calidad": 5.0,
-      "dificultad": null,
-      "nota": 2.0,
-      "recomienda": 0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 0.5,
       "comentario": ""
     },
     {
       "fecha_iso": "2023-01-15T00:00:00",
       "materia": "CÁLCULO",
       "calidad": 9.0,
-      "dificultad": null,
-      "nota": 8.0,
+      "dificultad": 2.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "Es una alivio gigante si no traes base, ayuda muchísimo y es justa para calificar. Sus clases son claras y se esfuerza en buscar ejemplos que resulten de provecho.\nEstudia y pasas el examen.\nOjalá y le vaya bien en la vida."
     }
@@ -137,5 +164,5 @@
     "Algo exigente pero muy bien explicado todo lo que da",
     "Es una alivio gigante si no traes base, ayuda muchísimo y es justa para calificar. Sus clases son claras y se esfuerza en buscar ejemplos que resulten de provecho.\nEstudia y pasas el examen.\nOjalá y le vaya bien en la vida."
   ],
-  "n_reviews": 4
+  "n_reviews": 5
 }

@@ -1,31 +1,31 @@
 {
   "professor_id": "José_Antonio_Zárate",
   "nombre": "José Antonio Zárate",
-  "universidad": "Instituto Tecnologico de Culiacan",
+  "universidad": "Instituto Tecnológico de Culiacán",
   "decay_analysis": {
-    "quality_decayed": 4.417953559351628,
-    "difficulty_decayed": null
+    "quality_decayed": 4.417953559351629,
+    "difficulty_decayed": 0.5614853636493067
   },
   "bayes_analysis": {
-    "quality_bayes": 6.44430161558912,
-    "difficulty_bayes": null
+    "quality_bayes": 6.667351441832153,
+    "difficulty_bayes": 2.3108879251312486
   },
   "recommendation_analysis": {
-    "rate": 0.333,
+    "rate": 0.33,
     "wilson_interval": [
-      0.061490315276160515,
-      0.7923450448735121
+      0.06040692909929794,
+      0.790505138253368
     ],
     "n_recommendations": 3
   },
   "subject_normalization": {
-    "z_mean": -0.59,
-    "z_mean_decayed": -0.67,
+    "z_mean": -0.68,
+    "z_mean_decayed": -0.76,
     "per_subject": [
       {
         "materia": "DESARROLLO SUSTENTABLE",
-        "z_decayed": -0.6686500471999889,
-        "n": 52
+        "z_decayed": -0.7632819798218212,
+        "n": 27
       }
     ]
   },
@@ -66,7 +66,19 @@
       ],
       "sigma": 2.525179861580821
     },
-    "difficulty_trend": null,
+    "difficulty_trend": {
+      "series": [
+        2.0,
+        0.0,
+        0.0
+      ],
+      "ewma": [
+        2.0,
+        1.4,
+        0.9799999999999999
+      ],
+      "sigma": 0.7184242015225638
+    },
     "forecast": {
       "quality_next": 4.239999999999999,
       "quality_band": [
@@ -82,8 +94,8 @@
       "fecha_iso": "2013-12-03T00:00:00",
       "materia": "DESARROLLO SUSTENTABLE",
       "calidad": 2.0,
-      "dificultad": null,
-      "nota": 8.5,
+      "dificultad": 0.0,
+      "nota": null,
       "recomienda": 0,
       "comentario": "NO ENTIENDO POR QUE DA CLASES EL VATO TIENE PARKINSON Y NO RAZONA SE LE OLVIDAN LAS COSAS LOS PONDRA A EXPONER TODO EL SEMESTRE PONLE QUE TE TOQUE UNA VES PERO SE VUELVEN MUY TEDIOSAS LAS CLASES Y FALTA MUCHO A FIN DE CUENTAS TE DEJA 85 Y NO TOMA EN CUENTA NADA Y NO APENDRES, UNA HORA DIARIA LIBRE"
     },
@@ -91,8 +103,8 @@
       "fecha_iso": "2013-02-11T00:00:00",
       "materia": "DESARROLLO SUSTENTABLE",
       "calidad": 8.0,
-      "dificultad": null,
-      "nota": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "esta bien safado, te da la materia a su perspectiva que la verdad es muy interesante, es sensillo sacar el alta calificacion nomas asiste y el mismo te dira que calificacion quieres y esa es la que obtendras, claro siempre y cuando esta sea sustentable"
     },
@@ -100,9 +112,9 @@
       "fecha_iso": "2012-10-30T00:00:00",
       "materia": "DESARROLLO SUSTENTABLE",
       "calidad": 4.0,
-      "dificultad": null,
+      "dificultad": 2.0,
       "nota": null,
-      "recomienda": 0,
+      "recomienda": 0.5,
       "comentario": "Su clase es de todo menos de desarrollo sustentable, no reprobarás pero tampoco tendrás una calificación que te llene, se la pasa criticando todo diciendo que el estudio no sirve etc etc... lo bueno es que no haces nada con él."
     }
   ],

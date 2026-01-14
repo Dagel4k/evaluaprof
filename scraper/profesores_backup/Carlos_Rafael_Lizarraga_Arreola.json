@@ -1,0 +1,27 @@
+{
+  "nombre": "carlos rafael lizarraga arreola",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "ciudad": "Ciudad: culiacan, sinaloa",
+  "departamento": "Departamento/Facultad: mecanica",
+  "calidad_general": 8.0,
+  "porcentaje_recomienda": 100,
+  "nivel_dificultad": 4.0,
+  "etiquetas": [],
+  "numero_calificaciones": 1,
+  "calificaciones": [
+    {
+      "fecha": "21/Ene/2021",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 8.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "ciencia y engenieria de los materiales",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "9",
+      "interes_clase": "",
+      "comentario": "el profe enseña bien le hecha ganas y sabe lo que dice",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    }
+  ]
+}

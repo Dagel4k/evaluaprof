@@ -1,14 +1,14 @@
 {
   "professor_id": "Antonio_tony_Medina",
   "nombre": "Antonio (tony) Medina",
-  "universidad": "Instituto Tecnologico de Culiacan",
+  "universidad": "Instituto Tecnológico de Culiacán",
   "decay_analysis": {
     "quality_decayed": 10.0,
-    "difficulty_decayed": null
+    "difficulty_decayed": 1.0045173672668533
   },
   "bayes_analysis": {
-    "quality_bayes": 7.841137214475611,
-    "difficulty_bayes": null
+    "quality_bayes": 8.048254910272714,
+    "difficulty_bayes": 2.2886816447647313
   },
   "recommendation_analysis": {
     "rate": 1.0,
@@ -19,18 +19,18 @@
     "n_recommendations": 4
   },
   "subject_normalization": {
-    "z_mean": 0.91,
-    "z_mean_decayed": 0.92,
+    "z_mean": 0.97,
+    "z_mean_decayed": 0.97,
     "per_subject": [
       {
         "materia": "CALCULO",
-        "z_decayed": 1.0700898076746443,
-        "n": 50
+        "z_decayed": 1.0574338424286975,
+        "n": 11
       },
       {
         "materia": "CÁLCULO DIFERENCIAL",
-        "z_decayed": 0.7526588922815561,
-        "n": 46
+        "z_decayed": 0.8744299054666805,
+        "n": 24
       }
     ]
   },
@@ -78,7 +78,21 @@
       ],
       "sigma": 0.0
     },
-    "difficulty_trend": null,
+    "difficulty_trend": {
+      "series": [
+        0.0,
+        2.0,
+        2.0,
+        0.0
+      ],
+      "ewma": [
+        0.0,
+        0.6,
+        1.02,
+        0.714
+      ],
+      "sigma": 0.9550404877979433
+    },
     "forecast": {
       "quality_next": 10.0,
       "quality_band": [
@@ -94,7 +108,7 @@
       "fecha_iso": "2013-11-14T00:00:00",
       "materia": "CALCULO DIFERENCIAL/ PROBABILIDAD Y ESTADISTICA.",
       "calidad": 10.0,
-      "dificultad": null,
+      "dificultad": 0.0,
       "nota": null,
       "recomienda": 1,
       "comentario": "Se la Rifa el compilla."
@@ -103,8 +117,8 @@
       "fecha_iso": "2013-10-18T00:00:00",
       "materia": "CALCULO",
       "calidad": 10.0,
-      "dificultad": null,
-      "nota": 10.0,
+      "dificultad": 2.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "la neta este vato si sabe explicar no como otros profesores de calculo"
     },
@@ -112,8 +126,8 @@
       "fecha_iso": "2013-09-21T00:00:00",
       "materia": "CIENCIAS BASICAS",
       "calidad": 10.0,
-      "dificultad": null,
-      "nota": 10.0,
+      "dificultad": 2.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "Esta madre no califica con 11 =) este compa lo merece =)"
     },
@@ -121,8 +135,8 @@
       "fecha_iso": "2013-08-04T00:00:00",
       "materia": "CÁLCULO DIFERENCIAL",
       "calidad": 10.0,
-      "dificultad": null,
-      "nota": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "Muy bueno"
     }

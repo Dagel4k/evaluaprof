@@ -1,0 +1,70 @@
+{
+  "nombre": "jessica guadalupe beltran rami",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "ciudad": "Ciudad: culiacan, sinaloa",
+  "departamento": "Departamento/Facultad: ing. mecania",
+  "calidad_general": 7.0,
+  "porcentaje_recomienda": 67,
+  "nivel_dificultad": 2.7,
+  "etiquetas": [
+    "CALIFICA DURO (1)",
+    "MUCHAS TAREAS (1)",
+    "DEJA TRABAJOS LARGOS (1)",
+    "BARCO (1)",
+    "LA PARTICIPACIÓN IMPORTA (1)",
+    "BRINDA APOYO (1)"
+  ],
+  "numero_calificaciones": 3,
+  "calificaciones": [
+    {
+      "fecha": "14/Ene/2018",
+      "tipo_calificacion": "REGULAR",
+      "puntaje_calidad_general": 5.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Química",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "9.5",
+      "interes_clase": "",
+      "comentario": "",
+      "etiquetas_comentario": [
+        "Barco",
+        "La Participación Importa",
+        "Brinda apoyo"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "05/Ago/2015",
+      "tipo_calificacion": "REGULAR",
+      "puntaje_calidad_general": 6.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Química Analítica",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "8",
+      "interes_clase": "",
+      "comentario": "Muy buena profesora, se preocupa porque aprendas y entiendas de lo que se habla en las clases, la disciplina y la participación es muy importante y ademas de la puntualidad, la verdad es una buena maestra",
+      "etiquetas_comentario": [
+        "Califica Duro",
+        "Muchas tareas",
+        "Deja trabajos largos"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "18/Nov/2014",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "---------",
+      "asistencia": "",
+      "calificacion_recibida": "10",
+      "interes_clase": "10",
+      "comentario": "",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "1"
+    }
+  ]
+}

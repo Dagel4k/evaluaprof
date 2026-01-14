@@ -1,0 +1,41 @@
+{
+  "nombre": "Francisco Saldaña Ibarra",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "ciudad": "Ciudad: culiacan, sinaloa",
+  "departamento": "Departamento/Facultad: Económico-Administrativas",
+  "calidad_general": 6.0,
+  "porcentaje_recomienda": 50,
+  "nivel_dificultad": 4.0,
+  "etiquetas": [],
+  "numero_calificaciones": 2,
+  "calificaciones": [
+    {
+      "fecha": "21/Dic/2013",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "LIDERAZGO",
+      "asistencia": "",
+      "calificacion_recibida": "10",
+      "interes_clase": "10",
+      "comentario": "Fue el mejor director que ha tenido el instituto tecnológico de culiacán, con su aporte ayudo a que saliera nuestro tec de culiacan de la mediocridad con la que estaba y si con un director tenemos que ser agradecido es con el  ING. FRANCISCO RAFAEL SALDAÑA IBARRA.  GRACIAS :)",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "19/Jul/2013",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 2.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Liderazgo",
+      "asistencia": "",
+      "calificacion_recibida": "0.5",
+      "interes_clase": "0.5",
+      "comentario": "Malo, muy malo. Por eso ya no da clases el hovon desde hace mas de 25 años. Es un farsante y muy grosero. Es un vividor el muy corriente, pero esta amafiado con los del Sindicato. No sabe nada de Educacion en muy caon. Le dicen el YoYo.",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    }
+  ]
+}

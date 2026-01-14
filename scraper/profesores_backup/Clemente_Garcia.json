@@ -1,0 +1,54 @@
+{
+  "nombre": "Clemente Garcia",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "ciudad": "Ciudad: culiacan, sinaloa",
+  "departamento": "Departamento/Facultad: Sistemas",
+  "calidad_general": 10.0,
+  "porcentaje_recomienda": 100,
+  "nivel_dificultad": 6.0,
+  "etiquetas": [
+    "CALIFICA DURO (1)",
+    "DA BUENA RETROALIMENTACIÓN (2)",
+    "RESPETADO POR LOS ESTUDIANTES (2)",
+    "CLASES EXCELENTES (1)"
+  ],
+  "numero_calificaciones": 2,
+  "calificaciones": [
+    {
+      "fecha": "14/Dic/2023",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Tópicos Avanzados de Programación",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "De los mejores profesores que tiene sistemas, tiene un excelente dominio de los temas, si entiendes lo de las materias anteriores no se te deberia hacer dificil el curso, es mas la mala fama que le hacen los huevones que lo que es realmente, por lo que si te interesa aprender, debes de cargar con el",
+      "etiquetas_comentario": [
+        "Da buena retroalimentación",
+        "Respetado por los estudiantes",
+        "Clases excelentes"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "25/Ene/2023",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Topicos/Estructura",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "8",
+      "interes_clase": "",
+      "comentario": "El mejor profesor de programacion que tiene el TEC, es mas la \"mala fama\" que tiene que lo que es. Solo ve a todas las clases, has los trabajores y procura no hacer un cochinero en el examen y vas a pasar",
+      "etiquetas_comentario": [
+        "Califica Duro",
+        "Da buena retroalimentación",
+        "Respetado por los estudiantes"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    }
+  ]
+}

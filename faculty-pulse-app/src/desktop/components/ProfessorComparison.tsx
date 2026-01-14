@@ -11,9 +11,12 @@ interface ProfessorComparisonProps {
 }
 
 export const ProfessorComparison: React.FC<ProfessorComparisonProps> = ({ profA, profB, onClose }) => {
-  
+
   const renderMetric = (label: string, valA: number, valB: number, higherIsBetter: boolean, isPercentage = false) => {
-    const format = (v: number) => isPercentage ? `${v.toFixed(0)}%` : v.toFixed(1);
+    const format = (v: number) => {
+      if (label === "Dificultad" && v === 0) return "N/A";
+      return isPercentage ? `${v.toFixed(0)}%` : v.toFixed(1);
+    };
     const winA = higherIsBetter ? valA > valB : valA < valB;
     const winB = higherIsBetter ? valB > valA : valB < valA;
     const tie = valA === valB;
@@ -42,7 +45,7 @@ export const ProfessorComparison: React.FC<ProfessorComparisonProps> = ({ profA,
           <X className="h-4 w-4" />
         </Button>
       </div>
-      
+
       <div className="p-4 space-y-4">
         <div className="grid grid-cols-3 gap-2 text-center">
           <div className="font-bold text-sm truncate text-foreground" title={profA.name}>{profA.name.split(' ')[0]}</div>
@@ -52,18 +55,18 @@ export const ProfessorComparison: React.FC<ProfessorComparisonProps> = ({ profA,
 
         <div className="space-y-1">
           {renderMetric("Calidad General", profA.globalScore, profB.globalScore, true)}
-          {renderMetric("Dificultad", profA.difficulty, profB.difficulty, false)} 
+          {renderMetric("Dificultad", profA.difficulty, profB.difficulty, false)}
           {renderMetric("% Recomienda", profA.takeAgainPercent, profB.takeAgainPercent, true, true)}
           {renderMetric("Sentimiento AI", profA.sentimentScore, profB.sentimentScore, true)}
         </div>
 
         <div className="grid grid-cols-2 gap-2 mt-2">
-           <div className="text-xs text-center text-muted-foreground">
-             {profA.tags.slice(0, 2).map(t => <span key={t} className="block bg-secondary text-secondary-foreground rounded px-1 mb-1">{t}</span>)}
-           </div>
-           <div className="text-xs text-center text-muted-foreground">
-             {profB.tags.slice(0, 2).map(t => <span key={t} className="block bg-secondary text-secondary-foreground rounded px-1 mb-1">{t}</span>)}
-           </div>
+          <div className="text-xs text-center text-muted-foreground">
+            {profA.tags.slice(0, 2).map(t => <span key={t} className="block bg-secondary text-secondary-foreground rounded px-1 mb-1">{t}</span>)}
+          </div>
+          <div className="text-xs text-center text-muted-foreground">
+            {profB.tags.slice(0, 2).map(t => <span key={t} className="block bg-secondary text-secondary-foreground rounded px-1 mb-1">{t}</span>)}
+          </div>
         </div>
       </div>
     </Card>

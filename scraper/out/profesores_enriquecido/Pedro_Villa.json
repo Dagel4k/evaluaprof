@@ -1,41 +1,36 @@
 {
   "professor_id": "Pedro_Villa",
   "nombre": "Pedro Villa",
-  "universidad": "Instituto Tecnologico de Culiacan",
+  "universidad": "Instituto Tecnológico de Culiacán",
   "decay_analysis": {
-    "quality_decayed": 8.097782192114183,
-    "difficulty_decayed": null
+    "quality_decayed": 8.269681878011617,
+    "difficulty_decayed": 3.433604533994836
   },
   "bayes_analysis": {
-    "quality_bayes": 6.338796050132928,
-    "difficulty_bayes": null
+    "quality_bayes": 7.178371249587866,
+    "difficulty_bayes": 3.469436201780416
   },
   "recommendation_analysis": {
-    "rate": 0.5,
+    "rate": 0.4,
     "wilson_interval": [
-      0.2365895936154873,
-      0.7634104063845127
+      0.11761823115925325,
+      0.769280067791163
     ],
-    "n_recommendations": 10
+    "n_recommendations": 5
   },
   "subject_normalization": {
-    "z_mean": -0.62,
-    "z_mean_decayed": -0.22,
+    "z_mean": -0.51,
+    "z_mean_decayed": -0.29,
     "per_subject": [
       {
         "materia": "TALLER DE BASE DE DATOS",
-        "z_decayed": 1.1602387022306426,
-        "n": 22
-      },
-      {
-        "materia": "TALLER DE BD",
-        "z_decayed": 0.0,
-        "n": 6
+        "z_decayed": 0.6851064595573102,
+        "n": 8
       },
       {
         "materia": "SIMULACIÓN",
-        "z_decayed": -0.13635585780937481,
-        "n": 18
+        "z_decayed": 0.07319250547114019,
+        "n": 7
       },
       {
         "materia": "TALLER DE SO",
@@ -43,9 +38,9 @@
         "n": 4
       },
       {
-        "materia": "FUNDAMENTOS DE PROGRAMACIÓN",
-        "z_decayed": -0.8889984648820828,
-        "n": 36
+        "materia": "SIMULACION",
+        "z_decayed": -2.2803648875753537,
+        "n": 11
       }
     ]
   },
@@ -63,57 +58,24 @@
       {
         "id": 0,
         "words": [
-          "porque",
-          "si",
+          "clases",
+          "hace",
           "profesor",
-          "ta",
+          "si",
           "es"
         ],
-        "weight": 0.15322792060696908
+        "weight": 0.2973629433672219
       },
       {
         "id": 1,
         "words": [
-          "porque",
-          "si",
           "es",
+          "si",
+          "profesor",
           "clases",
           "hace"
         ],
-        "weight": 0.11077617361131528
-      },
-      {
-        "id": 2,
-        "words": [
-          "es",
-          "clases",
-          "pienso",
-          "porque",
-          "si"
-        ],
-        "weight": 0.1466115733588101
-      },
-      {
-        "id": 3,
-        "words": [
-          "profesor",
-          "ta",
-          "clases",
-          "pienso",
-          "porque"
-        ],
-        "weight": 0.17439263665798888
-      },
-      {
-        "id": 4,
-        "words": [
-          "porque",
-          "si",
-          "hace",
-          "es",
-          "profesor"
-        ],
-        "weight": 0.12340332673461984
+        "weight": 0.29243631811577864
       }
     ],
     "sentiment": {
@@ -123,13 +85,10 @@
         "2019-06": 0.0,
         "2014-03": 0.0,
         "2013-06": 0.0,
-        "2011-04": 0.0,
-        "2011-01": 0.0,
-        "2010-09": 0.0,
-        "2010-08": 0.0
+        "2011-04": 0.0
       }
     },
-    "n_comments": 10
+    "n_comments": 5
   },
   "integrity_analysis": {
     "dup_rate": 0.0,
@@ -140,32 +99,42 @@
   "trends_analysis": {
     "quality_trend": {
       "series": [
-        5.0,
         2.0,
-        5.0,
-        3.5,
         7.0,
         8.0,
         10.0,
         8.0
       ],
       "ewma": [
-        5.0,
-        4.1,
-        4.369999999999999,
-        4.108999999999999,
-        4.976299999999999,
-        5.88341,
-        7.118386999999999,
-        7.382870899999999
+        2.0,
+        3.5,
+        4.85,
+        6.395,
+        6.8765
       ],
-      "sigma": 1.628908184153116
+      "sigma": 1.6230160812511996
     },
-    "difficulty_trend": null,
+    "difficulty_trend": {
+      "series": [
+        8.0,
+        6.0,
+        6.0,
+        0.0,
+        4.0
+      ],
+      "ewma": [
+        8.0,
+        7.3999999999999995,
+        6.9799999999999995,
+        4.885999999999999,
+        4.6202
+      ],
+      "sigma": 1.919610243773459
+    },
     "forecast": {
-      "quality_next": 7.382870899999999,
+      "quality_next": 6.8765,
       "quality_band": [
-        4.190210859059892,
+        3.695388480747649,
         10.0
       ],
       "confidence": 0.95
@@ -177,8 +146,8 @@
       "fecha_iso": "2023-08-13T00:00:00",
       "materia": "TALLER DE SO",
       "calidad": 8.0,
-      "dificultad": null,
-      "nota": 9.5,
+      "dificultad": 4.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "Es un profesor que base muchisimo, probablemente sobrecalificado para cualquier materia que le den pero, no se organiza nada, no te dice como califica y al final te da todo de una,  aparenta ser barco pero no lo es tanto."
     },
@@ -186,8 +155,8 @@
       "fecha_iso": "2019-06-07T00:00:00",
       "materia": "TALLER DE BASE DE DATOS",
       "calidad": 10.0,
-      "dificultad": null,
-      "nota": 7.0,
+      "dificultad": 0.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "No sabía nada, no fui medio semestre, no entregué proyecto, no expuse y pasé con un cartón de cerveza indio."
     },
@@ -195,7 +164,7 @@
       "fecha_iso": "2014-03-22T00:00:00",
       "materia": "TALLER DE BD",
       "calidad": 8.0,
-      "dificultad": null,
+      "dificultad": 6.0,
       "nota": null,
       "recomienda": 1,
       "comentario": "si aprendes"
@@ -204,8 +173,8 @@
       "fecha_iso": "2013-06-14T00:00:00",
       "materia": "SIMULACIÓN",
       "calidad": 7.0,
-      "dificultad": null,
-      "nota": 9.5,
+      "dificultad": 6.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "Buen profesor, hace las clases entretenidas y explica de forma clara, si eres flojo es probable que repruebas."
     },
@@ -213,55 +182,10 @@
       "fecha_iso": "2011-04-26T00:00:00",
       "materia": "SIMULACION",
       "calidad": 2.0,
-      "dificultad": null,
+      "dificultad": 8.0,
       "nota": null,
       "recomienda": 0,
       "comentario": "pesimooooooo no se que hace impartiendo clases en el tec"
-    },
-    {
-      "fecha_iso": "2011-04-12T00:00:00",
-      "materia": "DESARROLO DE APLICACIONES PARA AMBIENTES DISFTRIBUIDOS",
-      "calidad": 5.0,
-      "dificultad": null,
-      "nota": 1.0,
-      "recomienda": 0,
-      "comentario": "yo pienso que este profesor.. no deberia de dar clases ya que humilla a los alumnos bajandole la moral y pisotiandolos.!!! porque para estooo.. ta locooooooooooo...!!!.. =D.."
-    },
-    {
-      "fecha_iso": "2011-01-15T00:00:00",
-      "materia": "APLICACIONES PARA AMB DISTRIBUIDOS",
-      "calidad": 8.0,
-      "dificultad": null,
-      "nota": 9.0,
-      "recomienda": 1,
-      "comentario": "Pienso que para llevar clases con el ya debes tener bien masticado algun lenguaje de programacion para poder defenderte un poco, es cierto que cuenta muchas anecdotas y en ocasiones seria mejor pasar mas tiempo aclarando los temas porque es exigente, pero si ayuda."
-    },
-    {
-      "fecha_iso": "2011-01-07T00:00:00",
-      "materia": "SIMULACION",
-      "calidad": 2.0,
-      "dificultad": null,
-      "nota": 1.0,
-      "recomienda": 0,
-      "comentario": "peter es compa lo que quieras tiene arranques de loco pero es un cabron a la hora de los examenes ta loco, examenes de 6 horas que estan dispuestos a reprobar"
-    },
-    {
-      "fecha_iso": "2010-09-21T00:00:00",
-      "materia": "---",
-      "calidad": 2.0,
-      "dificultad": null,
-      "nota": null,
-      "recomienda": 0,
-      "comentario": "[Comentario esperando revisión]"
-    },
-    {
-      "fecha_iso": "2010-08-29T00:00:00",
-      "materia": "FUNDAMENTOS DE PROGRAMACIÓN",
-      "calidad": 5.0,
-      "dificultad": null,
-      "nota": 9.5,
-      "recomienda": 0,
-      "comentario": "Es muy buena onda, divertido y ocurrente, pero siento que le falta explicar con mayor claridad."
     }
   ],
   "comments_recent": [
@@ -269,12 +193,7 @@
     "No sabía nada, no fui medio semestre, no entregué proyecto, no expuse y pasé con un cartón de cerveza indio.",
     "si aprendes",
     "Buen profesor, hace las clases entretenidas y explica de forma clara, si eres flojo es probable que repruebas.",
-    "pesimooooooo no se que hace impartiendo clases en el tec",
-    "yo pienso que este profesor.. no deberia de dar clases ya que humilla a los alumnos bajandole la moral y pisotiandolos.!!! porque para estooo.. ta locooooooooooo...!!!.. =D..",
-    "Pienso que para llevar clases con el ya debes tener bien masticado algun lenguaje de programacion para poder defenderte un poco, es cierto que cuenta muchas anecdotas y en ocasiones seria mejor pasar mas tiempo aclarando los temas porque es exigente, pero si ayuda.",
-    "peter es compa lo que quieras tiene arranques de loco pero es un cabron a la hora de los examenes ta loco, examenes de 6 horas que estan dispuestos a reprobar",
-    "[Comentario esperando revisión]",
-    "Es muy buena onda, divertido y ocurrente, pero siento que le falta explicar con mayor claridad."
+    "pesimooooooo no se que hace impartiendo clases en el tec"
   ],
-  "n_reviews": 10
+  "n_reviews": 5
 }

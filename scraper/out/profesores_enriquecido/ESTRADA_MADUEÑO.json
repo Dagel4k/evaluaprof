@@ -1,14 +1,14 @@
 {
   "professor_id": "ESTRADA_MADUEÑO",
   "nombre": "ESTRADA MADUEÑO",
-  "universidad": "Instituto Tecnologico de Culiacan",
+  "universidad": "Instituto Tecnológico de Culiacán",
   "decay_analysis": {
-    "quality_decayed": 6.645447563103493,
-    "difficulty_decayed": null
+    "quality_decayed": 6.6454475631034935,
+    "difficulty_decayed": 0.0
   },
   "bayes_analysis": {
-    "quality_bayes": 6.981326750221547,
-    "difficulty_bayes": null
+    "quality_bayes": 7.2229640619848325,
+    "difficulty_bayes": 2.3367952522255195
   },
   "recommendation_analysis": {
     "rate": 0.5,
@@ -19,13 +19,13 @@
     "n_recommendations": 2
   },
   "subject_normalization": {
-    "z_mean": -0.89,
-    "z_mean_decayed": -0.89,
+    "z_mean": -0.3,
+    "z_mean_decayed": -0.3,
     "per_subject": [
       {
         "materia": "ALGEBRA LINEAL",
-        "z_decayed": -0.892215793068658,
-        "n": 35
+        "z_decayed": -0.3009103772300182,
+        "n": 13
       }
     ]
   },
@@ -63,17 +63,17 @@
       "fecha_iso": "2016-08-09T00:00:00",
       "materia": "ALGEBRA LINEAL",
       "calidad": 6.0,
-      "dificultad": null,
-      "nota": 8.0,
-      "recomienda": 0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 0.5,
       "comentario": "afortunadamente ya se jubilo, es buen profesor, pero da la materia como si estuviera en la materia de métodos numéricos, esta loquito, exámenes de hasta 3 horas, conmigo fue muy injusto, no lo recomiendo, aclaro si explica bien"
     },
     {
       "fecha_iso": "2014-06-19T00:00:00",
       "materia": "PROGRAMACION Y METODOS NUMERICOS.",
       "calidad": 8.0,
-      "dificultad": null,
-      "nota": 9.0,
+      "dificultad": 0.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "Muy troll el señor pero al final de todo es buen profesor."
     }

@@ -1,20 +1,20 @@
 {
   "professor_id": "Rosy_Arely_Leal_Rendon",
   "nombre": "Rosy Arely Leal Rendon",
-  "universidad": "Instituto Tecnologico de Culiacan",
+  "universidad": "Instituto Tecnológico de Culiacán",
   "decay_analysis": {
-    "quality_decayed": 4.7145726506161765,
-    "difficulty_decayed": null
+    "quality_decayed": 4.714572650616176,
+    "difficulty_decayed": 2.686654057526497
   },
   "bayes_analysis": {
-    "quality_bayes": 6.318394733510571,
-    "difficulty_bayes": null
+    "quality_bayes": 6.511704582921199,
+    "difficulty_bayes": 2.402769535113749
   },
   "recommendation_analysis": {
-    "rate": 0.2,
+    "rate": 0.4,
     "wilson_interval": [
-      0.036223160969787456,
-      0.6244717358814612
+      0.11761823115925325,
+      0.769280067791163
     ],
     "n_recommendations": 5
   },
@@ -43,14 +43,14 @@
           "es",
           "si"
         ],
-        "weight": 0.364433854204544
+        "weight": 0.36443385420454416
       },
       {
         "id": 1,
         "words": [
           "te",
-          "profe",
           "preguntas",
+          "profe",
           "gana",
           "da"
         ],
@@ -93,7 +93,23 @@
       ],
       "sigma": 1.7387147805203704
     },
-    "difficulty_trend": null,
+    "difficulty_trend": {
+      "series": [
+        0.0,
+        2.0,
+        0.0,
+        4.0,
+        2.0
+      ],
+      "ewma": [
+        0.0,
+        0.6,
+        0.42,
+        1.494,
+        1.6458
+      ],
+      "sigma": 1.1824198103888484
+    },
     "forecast": {
       "quality_next": 5.1152,
       "quality_band": [
@@ -109,17 +125,17 @@
       "fecha_iso": "2025-06-09T00:00:00",
       "materia": "INGNIERÍA DE SERVICIOS",
       "calidad": 6.0,
-      "dificultad": null,
-      "nota": 9.5,
-      "recomienda": 0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 0.5,
       "comentario": "Actividades consisten en leer un caso en el aula, responder ciertas preguntas en la llbreta y TOMARLE foto lo más rápido posible y subirla a moodle porque solo tienes un día para subirlo sin recuperación. Fuera de eso todos los exámen los hace en moodle y son de los pdfs que te da la profe."
     },
     {
       "fecha_iso": "2024-12-04T00:00:00",
       "materia": "PLANEACIÓN ESTRATEGICA Y ING DE SERVICIOS",
       "calidad": 3.0,
-      "dificultad": null,
-      "nota": 8.5,
+      "dificultad": 4.0,
+      "nota": null,
       "recomienda": 0,
       "comentario": "Es una persona muy pedante, cero accesible y no notifica a la hora de subir trabajos, no la recomendaria para nada, tienes que estar viendo si viene de buenas o no, sus clases son aburridas y nada dinámicas"
     },
@@ -127,8 +143,8 @@
       "fecha_iso": "2017-12-11T00:00:00",
       "materia": "INGENIERIA DE SERVICIOS",
       "calidad": 8.0,
-      "dificultad": null,
-      "nota": 9.0,
+      "dificultad": 0.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "En esta materia si es mejor impartiendo. Domina bien los temas y deja trabajos en clase para reforzar lo que se vio. Los examenes es solo estudiar las diapositivas y están bien faciles. Si la quieres llevar tranquilo ese semestre y quieres aprender carga con ella. Asistencia obligatoria"
     },
@@ -136,8 +152,8 @@
       "fecha_iso": "2017-08-04T00:00:00",
       "materia": "GESTION",
       "calidad": 3.0,
-      "dificultad": null,
-      "nota": 7.0,
+      "dificultad": 2.0,
+      "nota": null,
       "recomienda": 0,
       "comentario": "No tiene palabra, califica como se le da la gana y no sabe explicar"
     },
@@ -145,9 +161,9 @@
       "fecha_iso": "2017-06-04T00:00:00",
       "materia": "GESTION DE LOS SISTEMAS DE CALIDAD",
       "calidad": 5.0,
-      "dificultad": null,
-      "nota": 9.0,
-      "recomienda": 0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 0.5,
       "comentario": "La materia está bien facil, no batallas nada con esta profe, para los examenes deja 15 diapositivas pero si pone preguntas muy largas. Si es medio aburrido por que se la pasa hablando toda la clase y a veces llega de malas y te contesta de mala gana cuando le preguntas. Profe barco"
     }
   ],

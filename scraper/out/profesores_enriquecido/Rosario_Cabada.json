@@ -1,14 +1,14 @@
 {
   "professor_id": "Rosario_Cabada",
   "nombre": "Rosario Cabada",
-  "universidad": "Instituto Tecnologico de Culiacan",
+  "universidad": "Instituto Tecnológico de Culiacán",
   "decay_analysis": {
     "quality_decayed": 6.999999999999999,
-    "difficulty_decayed": null
+    "difficulty_decayed": 4.0
   },
   "bayes_analysis": {
-    "quality_bayes": 6.9796291820598695,
-    "difficulty_bayes": null
+    "quality_bayes": 7.243233522165272,
+    "difficulty_bayes": 2.912867547882385
   },
   "recommendation_analysis": {
     "rate": 1.0,
@@ -19,13 +19,13 @@
     "n_recommendations": 1
   },
   "subject_normalization": {
-    "z_mean": -0.27,
-    "z_mean_decayed": -0.27,
+    "z_mean": -0.09,
+    "z_mean_decayed": -0.09,
     "per_subject": [
       {
         "materia": "MATEMÁTICAS DISCRETAS",
-        "z_decayed": -0.26648745535955687,
-        "n": 28
+        "z_decayed": -0.09433542482529524,
+        "n": 17
       }
     ]
   },
@@ -63,7 +63,7 @@
       "fecha_iso": "2013-01-25T00:00:00",
       "materia": "MATEMÁTICAS DISCRETAS",
       "calidad": 7.0,
-      "dificultad": null,
+      "dificultad": 4.0,
       "nota": null,
       "recomienda": 1,
       "comentario": "Buen maestro buena explicación, exámenes letra pequeñísima solo utilizaras  una hoja,, te ayuda si vas a conferencias!!  Volvería a cargar con el definitivamente :)"

@@ -1,0 +1,100 @@
+{
+  "nombre": "Alejandro Lugo Felix",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "ciudad": "Ciudad: culiacan, sinaloa",
+  "departamento": "Departamento/Facultad: Industrial",
+  "calidad_general": 8.4,
+  "porcentaje_recomienda": 60,
+  "nivel_dificultad": 2.4,
+  "etiquetas": [
+    "RESPETADO POR LOS ESTUDIANTES (1)",
+    "LAS CLASES SON LARGAS (1)",
+    "TOMARÍA SU CLASE OTRA VEZ (1)",
+    "BARCO (2)",
+    "POCOS EXÁMENES (1)",
+    "ASISTENCIA OBLIGATORIA (1)"
+  ],
+  "numero_calificaciones": 5,
+  "calificaciones": [
+    {
+      "fecha": "30/May/2025",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 8.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Gestión de la Producción I",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "N/A",
+      "interes_clase": "",
+      "comentario": "Se ve que sabe de los temas que presenta, pero sus clases no estan planeadas, es impuntual y en ocasiones no asiste. No vio todos los temas de la planeación, los cuales eran relevantes para la formación. Fuera de clase es una persona que se ve que ayuda a los alumnos con lo que puede.",
+      "etiquetas_comentario": [
+        "Barco",
+        "Asistencia obligatoria"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "30/May/2025",
+      "tipo_calificacion": "REGULAR",
+      "puntaje_calidad_general": 5.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Gestión de la Producción I",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "8.5",
+      "interes_clase": "",
+      "comentario": "Las clases fueron monótonas, sin un formulario claro y carentes de coherencia. Muchas veces llegó tarde y sin preparar la clase, solo a poner videos de Youtube",
+      "etiquetas_comentario": [
+        "Barco",
+        "Pocos Exámenes"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "19/Dic/2019",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Proyecto integrador Seis Sigma",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "9.5",
+      "interes_clase": "",
+      "comentario": "El mejor maestro para esta materia, tiene mucho dominio sobre green belt y yellow belt, sabe lo que dice, sus clases son muy divertidas, dinámicas y te ayuda en cualquier duda que tengas, su propósito es que aprendas y lo cumple, esta en uno aprender con el porque de que enseña, enseña.",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "11/Oct/2018",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 9.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Proyecto Integrador Six Sigma",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "8.5",
+      "interes_clase": "",
+      "comentario": "Es muy buen maestro, domina muchos temas y si sabe muy bien de la materia. Examenes algo enrredosos pero todo se vio en las clases. El unico problema es que no planea bien sus clases y algunos trabajos de clase no se hacen como se debería y al final no los toma en cuenta. Ayuda mucho y es accesible",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "05/Ago/2017",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Proyecto integrador six sigma",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "9.5",
+      "interes_clase": "",
+      "comentario": "Con él esta muy bien",
+      "etiquetas_comentario": [
+        "Respetado por los estudiantes",
+        "Las clases son largas",
+        "Tomaría su clase otra vez"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    }
+  ]
+}

@@ -1,36 +1,36 @@
 {
   "professor_id": "Gustavo_Gastelúm_Duarte",
   "nombre": "Gustavo Gastelúm Duarte",
-  "universidad": "Instituto Tecnologico de Culiacan",
+  "universidad": "Instituto Tecnológico de Culiacán",
   "decay_analysis": {
-    "quality_decayed": 9.706374071499427,
-    "difficulty_decayed": null
+    "quality_decayed": 9.710346183885116,
+    "difficulty_decayed": 0.6091937718117325
   },
   "bayes_analysis": {
-    "quality_bayes": 8.227424809650406,
-    "difficulty_bayes": null
+    "quality_bayes": 8.045037916254532,
+    "difficulty_bayes": 2.1361028684470824
   },
   "recommendation_analysis": {
     "rate": 1.0,
     "wilson_interval": [
-      0.7411599827511859,
+      0.565508505247919,
       1
     ],
-    "n_recommendations": 11
+    "n_recommendations": 5
   },
   "subject_normalization": {
-    "z_mean": 0.57,
+    "z_mean": 0.71,
     "z_mean_decayed": 0.72,
     "per_subject": [
       {
-        "materia": "DIBUJO ASISTIDO POR COMPUTADORA",
-        "z_decayed": 0.7888106377466154,
-        "n": 15
+        "materia": "DIBUJO INDUSTRIAL",
+        "z_decayed": 0.7481019954225723,
+        "n": 26
       },
       {
-        "materia": "DIBUJO INDUSTRIAL",
-        "z_decayed": 0.7101581254135845,
-        "n": 43
+        "materia": "DIBUJO ASISTIDO POR COMPUTADORA",
+        "z_decayed": 0.6117752903214984,
+        "n": 9
       }
     ]
   },
@@ -48,75 +48,37 @@
       {
         "id": 0,
         "words": [
-          "te pone",
-          "retarlo",
-          "dibujos",
-          "facil",
-          "es"
+          "autocad",
+          "recomendado",
+          "si",
+          "te",
+          "maestro"
         ],
-        "weight": 0.0977443476537114
+        "weight": 0.3867268871452227
       },
       {
         "id": 1,
         "words": [
-          "clases",
-          "trabajos",
-          "pone 100",
-          "solo",
-          "siempre"
-        ],
-        "weight": 0.18651268522509973
-      },
-      {
-        "id": 2,
-        "words": [
-          "buen profesor",
-          "materia",
-          "profesor ensena",
+          "profesor",
+          "buen",
           "ensena",
+          "trabajos",
           "bien"
         ],
-        "weight": 0.12161842310279583
-      },
-      {
-        "id": 3,
-        "words": [
-          "te",
-          "maestro",
-          "buen maestro",
-          "si te",
-          "si"
-        ],
-        "weight": 0.11558253215786914
-      },
-      {
-        "id": 4,
-        "words": [
-          "mientras",
-          "retarlo",
-          "maestro",
-          "dibujo",
-          "mejor"
-        ],
-        "weight": 0.09769357086830521
+        "weight": 0.2623436743803831
       }
     ],
     "sentiment": {
-      "overall": 0.1,
+      "overall": 0.2,
       "by_month": {
         "2024-02": 0.0,
         "2021-08": 0.0,
         "2021-03": 1.0,
         "2020-12": 0.0,
-        "2018-11": 0.0,
-        "2017-08": 0.0,
-        "2017-01": 0.0,
-        "2015-01": 0.0,
-        "2013-03": 0.0,
-        "2013-01": 0.0
+        "2018-11": 0.0
       }
     },
-    "n_comments": 10
+    "n_comments": 5
   },
   "integrity_analysis": {
     "dup_rate": 0.0,
@@ -127,12 +89,6 @@
   "trends_analysis": {
     "quality_trend": {
       "series": [
-        8.0,
-        8.0,
-        9.0,
-        10.0,
-        10.0,
-        10.0,
         10.0,
         8.0,
         10.0,
@@ -140,25 +96,35 @@
         10.0
       ],
       "ewma": [
-        8.0,
-        8.0,
-        8.299999999999999,
-        8.809999999999999,
-        9.166999999999998,
-        9.416899999999998,
-        9.591829999999998,
-        9.114280999999998,
-        9.3799967,
-        9.56599769,
-        9.696198382999999
+        10.0,
+        9.4,
+        9.58,
+        9.706,
+        9.7942
       ],
-      "sigma": 0.5991046069342605
+      "sigma": 0.7448273679182313
     },
-    "difficulty_trend": null,
+    "difficulty_trend": {
+      "series": [
+        0.0,
+        2.0,
+        2.0,
+        0.0,
+        0.0
+      ],
+      "ewma": [
+        0.0,
+        0.6,
+        1.02,
+        0.714,
+        0.49979999999999997
+      ],
+      "sigma": 0.9230373166887674
+    },
     "forecast": {
-      "quality_next": 9.696198382999999,
+      "quality_next": 9.7942,
       "quality_band": [
-        8.521953353408849,
+        8.334338358880267,
         10.0
       ],
       "confidence": 0.95
@@ -170,8 +136,8 @@
       "fecha_iso": "2024-02-20T00:00:00",
       "materia": "DIBUJO INDUSTRIAL",
       "calidad": 10.0,
-      "dificultad": null,
-      "nota": 9.5,
+      "dificultad": 0.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "El mejor maestro de dibujo del Tec"
     },
@@ -179,8 +145,8 @@
       "fecha_iso": "2021-08-12T00:00:00",
       "materia": "DIBUJO INDUSTRIAL",
       "calidad": 10.0,
-      "dificultad": null,
-      "nota": 9.0,
+      "dificultad": 0.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "Buen maestro, te permite entregar después trabajos y no es duro para calificar, y si te enseña bien el programa 10 de 10"
     },
@@ -188,8 +154,8 @@
       "fecha_iso": "2021-03-18T00:00:00",
       "materia": "DIBUJO ASISTIDO POR COMPUTADORA",
       "calidad": 10.0,
-      "dificultad": null,
-      "nota": 10.0,
+      "dificultad": 2.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "Es muy profesor 100% recomendado, eso si entrega todos los dibujos que hagas y casi siempre te pone 9 o 10 y mientras trabajas te pone música y aprendes mucho sobre el AutoCAD. Excelente maestro."
     },
@@ -197,8 +163,8 @@
       "fecha_iso": "2020-12-06T00:00:00",
       "materia": "DIBUJO MECANICO",
       "calidad": 8.0,
-      "dificultad": null,
-      "nota": 9.5,
+      "dificultad": 2.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "Muy buen maestro , en realidad si te ayuda y si aprendes a usar de buena manera AutoCad con el muy recomendado"
     },
@@ -206,64 +172,10 @@
       "fecha_iso": "2018-11-30T00:00:00",
       "materia": "DIBUJO INDUSTRIAL",
       "calidad": 10.0,
-      "dificultad": null,
-      "nota": 10.0,
-      "recomienda": 1,
-      "comentario": "Muy buen profesor, enseña demasiado bien su materia. No faltes a ninguna de sus clases y has los trabajos bien."
-    },
-    {
-      "fecha_iso": "2018-05-12T00:00:00",
-      "materia": "DIBUJO INDUSTRIAL",
-      "calidad": 10.0,
-      "dificultad": null,
+      "dificultad": 0.0,
       "nota": null,
       "recomienda": 1,
-      "comentario": ""
-    },
-    {
-      "fecha_iso": "2017-08-30T00:00:00",
-      "materia": "DIBUJO INDUSTRIAL",
-      "calidad": 10.0,
-      "dificultad": null,
-      "nota": 10.0,
-      "recomienda": 1,
-      "comentario": "Es muy buen profesor. Enseña en pasos sencillos, es muy flexible con los alumnos, sacar 100 es ley porque la materia es muy fácil. Te pone musica de Ricardo Arjona mientras usas AutoCad."
-    },
-    {
-      "fecha_iso": "2017-01-17T00:00:00",
-      "materia": "DIBUJO INDUSTRIAL",
-      "calidad": 10.0,
-      "dificultad": null,
-      "nota": 10.0,
-      "recomienda": 1,
-      "comentario": "Explica los contenidos de una manera que parece muy sencillo, aclara todas tus dudas, sus clases son muy agradables ya que siempre tiene una música de fondo muy relajante, es muy cómico, pero eso sí no faltes porque baja calificación. Casi siempre pone el 100 si no faltas y entregas el trabajo final"
-    },
-    {
-      "fecha_iso": "2015-01-17T00:00:00",
-      "materia": "DIBUJO INDUSTRIAL",
-      "calidad": 9.0,
-      "dificultad": null,
-      "nota": 10.0,
-      "recomienda": 1,
-      "comentario": "El mejor profesor para dibujo en mi opinión, facilisimo pasar con el mientras no faltes y con que trabajes un poco. No revisa trabajos, siempre asiste a clases pero se agarra cura con el. Muy a todo dar el arqui solo no trates de contestarle o retarlo, te ira muy mal. Casi siempre pone 100"
-    },
-    {
-      "fecha_iso": "2013-03-01T00:00:00",
-      "materia": "DIBUJO INDUSTRIAL",
-      "calidad": 8.0,
-      "dificultad": null,
-      "nota": 8.0,
-      "recomienda": 1,
-      "comentario": "esta facil es  puro hacer dibujos con el.\npero no debes faltar ni retarlo, igual te pasa si le cumples."
-    },
-    {
-      "fecha_iso": "2013-01-22T00:00:00",
-      "materia": "DIBUJO INDUSTRIAL",
-      "calidad": 8.0,
-      "dificultad": null,
-      "nota": 10.0,
-      "recomienda": 1,
-      "comentario": "Sus clases son de pura practica, no se ve nada de teoría. No califica los trabajos, solo con asistir y entregar los trabajos finales pasas, y por lo general pone 100. Nunca falta y siempre te tiene trabajando, solo utilizas un programa con el."
+      "comentario": "Muy buen profesor, enseña demasiado bien su materia. No faltes a ninguna de sus clases y has los trabajos bien."
     }
   ],
   "comments_recent": [
@@ -271,11 +183,7 @@
     "Buen maestro, te permite entregar después trabajos y no es duro para calificar, y si te enseña bien el programa 10 de 10",
     "Es muy profesor 100% recomendado, eso si entrega todos los dibujos que hagas y casi siempre te pone 9 o 10 y mientras trabajas te pone música y aprendes mucho sobre el AutoCAD. Excelente maestro.",
     "Muy buen maestro , en realidad si te ayuda y si aprendes a usar de buena manera AutoCad con el muy recomendado",
-    "Muy buen profesor, enseña demasiado bien su materia. No faltes a ninguna de sus clases y has los trabajos bien.",
-    "Es muy buen profesor. Enseña en pasos sencillos, es muy flexible con los alumnos, sacar 100 es ley porque la materia es muy fácil. Te pone musica de Ricardo Arjona mientras usas AutoCad.",
-    "Explica los contenidos de una manera que parece muy sencillo, aclara todas tus dudas, sus clases son muy agradables ya que siempre tiene una música de fondo muy relajante, es muy cómico, pero eso sí no faltes porque baja calificación. Casi siempre pone el 100 si no faltas y entregas el trabajo final",
-    "El mejor profesor para dibujo en mi opinión, facilisimo pasar con el mientras no faltes y con que trabajes un poco. No revisa trabajos, siempre asiste a clases pero se agarra cura con el. Muy a todo dar el arqui solo no trates de contestarle o retarlo, te ira muy mal. Casi siempre pone 100",
-    "esta facil es  puro hacer dibujos con el.\npero no debes faltar ni retarlo, igual te pasa si le cumples."
+    "Muy buen profesor, enseña demasiado bien su materia. No faltes a ninguna de sus clases y has los trabajos bien."
   ],
-  "n_reviews": 11
+  "n_reviews": 5
 }

@@ -1,31 +1,31 @@
 {
   "professor_id": "MARIO_ALBERTO_Bastidas_ortiz",
   "nombre": "MARIO ALBERTO Bastidas ortiz",
-  "universidad": "Instituto Tecnologico de Culiacan",
+  "universidad": "Instituto Tecnológico de Culiacán",
   "decay_analysis": {
     "quality_decayed": 4.0,
-    "difficulty_decayed": null
+    "difficulty_decayed": 6.0
   },
   "bayes_analysis": {
-    "quality_bayes": 6.706901909332597,
-    "difficulty_bayes": null
+    "quality_bayes": 6.9705062494379995,
+    "difficulty_bayes": 3.0946857297005668
   },
   "recommendation_analysis": {
-    "rate": 0.0,
+    "rate": 0.5,
     "wilson_interval": [
-      0,
-      0.7934567085261071
+      0.0546190651458835,
+      0.9453809348541165
     ],
     "n_recommendations": 1
   },
   "subject_normalization": {
-    "z_mean": -0.96,
-    "z_mean_decayed": -0.96,
+    "z_mean": -1.73,
+    "z_mean_decayed": -1.73,
     "per_subject": [
       {
         "materia": "MATEMATICAS DISCRETAS",
-        "z_decayed": -0.9620103683898447,
-        "n": 19
+        "z_decayed": -1.7251638983558855,
+        "n": 7
       }
     ]
   },
@@ -63,9 +63,9 @@
       "fecha_iso": "2024-10-15T00:00:00",
       "materia": "MATEMATICAS DISCRETAS",
       "calidad": 4.0,
-      "dificultad": null,
-      "nota": 7.0,
-      "recomienda": 0,
+      "dificultad": 6.0,
+      "nota": null,
+      "recomienda": 0.5,
       "comentario": "el examen vale 100% y no explica nada bien, el mismo se equivoca y lo corregimos diario."
     }
   ],

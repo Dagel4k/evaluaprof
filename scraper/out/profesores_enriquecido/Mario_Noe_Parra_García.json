@@ -1,14 +1,14 @@
 {
   "professor_id": "Mario_Noe_Parra_García",
   "nombre": "Mario Noe Parra García",
-  "universidad": "Instituto Tecnologico de Culiacan",
+  "universidad": "Instituto Tecnológico de Culiacán",
   "decay_analysis": {
     "quality_decayed": 7.0,
-    "difficulty_decayed": null
+    "difficulty_decayed": 0.0
   },
   "bayes_analysis": {
-    "quality_bayes": 6.9796291820598695,
-    "difficulty_bayes": null
+    "quality_bayes": 7.243233522165272,
+    "difficulty_bayes": 2.5492311842460214
   },
   "recommendation_analysis": {
     "rate": 1.0,
@@ -19,13 +19,13 @@
     "n_recommendations": 1
   },
   "subject_normalization": {
-    "z_mean": 0.5,
-    "z_mean_decayed": 0.5,
+    "z_mean": 0.56,
+    "z_mean_decayed": 0.56,
     "per_subject": [
       {
         "materia": "TALLER DE INVESTIGACION II",
-        "z_decayed": 0.49854156227980456,
-        "n": 5
+        "z_decayed": 0.5619514869490164,
+        "n": 4
       }
     ]
   },
@@ -63,7 +63,7 @@
       "fecha_iso": "2014-09-05T00:00:00",
       "materia": "TALLER DE INVESTIGACION II",
       "calidad": 7.0,
-      "dificultad": null,
+      "dificultad": 0.0,
       "nota": null,
       "recomienda": 1,
       "comentario": "El bato esta bien, no aprendes nada, pero el que no saca 100 con el es porque es CHAMPION"

@@ -1,0 +1,97 @@
+{
+  "nombre": "Rosy Arely Leal Rendon",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "ciudad": "Ciudad: culiacan, sinaloa",
+  "departamento": "Departamento/Facultad: Ingenieria Industrial",
+  "calidad_general": 5.0,
+  "porcentaje_recomienda": 40,
+  "nivel_dificultad": 1.6,
+  "etiquetas": [
+    "CALIFICA DURO (1)",
+    "BARCO (2)",
+    "LAS CLASES SON LARGAS (1)",
+    "MUCHOS EXÁMENES (1)",
+    "ASPECTOS DE CALIFICACIÓN CLAROS (1)"
+  ],
+  "numero_calificaciones": 5,
+  "calificaciones": [
+    {
+      "fecha": "09/Jun/2025",
+      "tipo_calificacion": "REGULAR",
+      "puntaje_calidad_general": 6.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Ingniería de servicios",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "9.5",
+      "interes_clase": "",
+      "comentario": "Actividades consisten en leer un caso en el aula, responder ciertas preguntas en la llbreta y TOMARLE foto lo más rápido posible y subirla a moodle porque solo tienes un día para subirlo sin recuperación. Fuera de eso todos los exámen los hace en moodle y son de los pdfs que te da la profe.",
+      "etiquetas_comentario": [
+        "Barco",
+        "Muchos Exámenes",
+        "Aspectos de calificación claros"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "04/Dic/2024",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 3.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Planeación estrategica y Ing de servicios",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "8.5",
+      "interes_clase": "",
+      "comentario": "Es una persona muy pedante, cero accesible y no notifica a la hora de subir trabajos, no la recomendaria para nada, tienes que estar viendo si viene de buenas o no, sus clases son aburridas y nada dinámicas",
+      "etiquetas_comentario": [
+        "Califica Duro",
+        "Barco",
+        "Las clases son largas"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "11/Dic/2017",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 8.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Ingenieria de Servicios",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "9",
+      "interes_clase": "",
+      "comentario": "En esta materia si es mejor impartiendo. Domina bien los temas y deja trabajos en clase para reforzar lo que se vio. Los examenes es solo estudiar las diapositivas y están bien faciles. Si la quieres llevar tranquilo ese semestre y quieres aprender carga con ella. Asistencia obligatoria",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "04/Ago/2017",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 3.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Gestion",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "7",
+      "interes_clase": "",
+      "comentario": "No tiene palabra, califica como se le da la gana y no sabe explicar",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "04/Jun/2017",
+      "tipo_calificacion": "REGULAR",
+      "puntaje_calidad_general": 5.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Gestion de los sistemas de calidad",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "9",
+      "interes_clase": "",
+      "comentario": "La materia está bien facil, no batallas nada con esta profe, para los examenes deja 15 diapositivas pero si pone preguntas muy largas. Si es medio aburrido por que se la pasa hablando toda la clase y a veces llega de malas y te contesta de mala gana cuando le preguntas. Profe barco",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    }
+  ]
+}

@@ -1,5 +1,5 @@
 import { CourseGroup, Subject } from '../types/canonical';
-import { GenerationPreferences, GroupMetrics } from '../workers/scheduler.worker';
+import { GenerationPreferences, GroupMetrics, ScheduleStatistics } from '../workers/scheduler.worker';
 
 export class SchedulerEngine {
   private worker: Worker | null = null;
@@ -11,18 +11,18 @@ export class SchedulerEngine {
   }
 
   public generateSchedules(
-    subjects: Subject[], 
+    subjects: Subject[],
     metrics: Record<string, GroupMetrics>,
     preferences: GenerationPreferences,
     onProgress?: (count: number) => void
-  ): Promise<CourseGroup[][]> {
+  ): Promise<{ schedules: CourseGroup[][], statistics: ScheduleStatistics[] }> {
     return new Promise((resolve, reject) => {
       if (!this.worker) return reject('Worker not initialized');
 
       this.worker.onmessage = (e) => {
-        const { type, schedules, count } = e.data;
+        const { type, schedules, statistics, count } = e.data;
         if (type === 'RESULT') {
-          resolve(schedules);
+          resolve({ schedules, statistics });
         } else if (type === 'PROGRESS') {
           onProgress?.(count);
         } else if (type === 'DONE') {

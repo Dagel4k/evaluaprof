@@ -1,14 +1,14 @@
 {
   "professor_id": "Ricardo_Bautista_Quintero",
   "nombre": "Ricardo Bautista Quintero",
-  "universidad": "Instituto Tecnologico de Culiacan",
+  "universidad": "Instituto Tecnológico de Culiacán",
   "decay_analysis": {
     "quality_decayed": 9.793457618074854,
-    "difficulty_decayed": null
+    "difficulty_decayed": 3.579401252447958
   },
   "bayes_analysis": {
-    "quality_bayes": 7.918394733510571,
-    "difficulty_bayes": null
+    "quality_bayes": 8.111704582921199,
+    "difficulty_bayes": 2.802769535113749
   },
   "recommendation_analysis": {
     "rate": 1.0,
@@ -19,13 +19,13 @@
     "n_recommendations": 5
   },
   "subject_normalization": {
-    "z_mean": 1.11,
-    "z_mean_decayed": 1.11,
+    "z_mean": 0.69,
+    "z_mean_decayed": 0.69,
     "per_subject": [
       {
         "materia": "MICROCONTROLADORES",
-        "z_decayed": 1.109464287749958,
-        "n": 18
+        "z_decayed": 0.6949955884209109,
+        "n": 5
       }
     ]
   },
@@ -70,7 +70,23 @@
       ],
       "sigma": 0.3485971887436844
     },
-    "difficulty_trend": null,
+    "difficulty_trend": {
+      "series": [
+        0.0,
+        0.0,
+        6.0,
+        4.0,
+        4.0
+      ],
+      "ewma": [
+        0.0,
+        0.0,
+        1.7999999999999998,
+        2.46,
+        2.9219999999999997
+      ],
+      "sigma": 1.7231264608263668
+    },
     "forecast": {
       "quality_next": 9.79,
       "quality_band": [
@@ -86,8 +102,8 @@
       "fecha_iso": "2015-11-27T00:00:00",
       "materia": "MICROCONTROLADORES",
       "calidad": 10.0,
-      "dificultad": null,
-      "nota": 10.0,
+      "dificultad": 4.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "Este profe es de lo mejor. Lástima que ya no dé microcontroladores, y ahora da otra maestra, Jaredt, que la verdad, no sabe programar; sólo sabe interpretar programas, y exponerlos con diapositivas. Esa maestra nada que ver con Bautista, ya que se desespera mucho y se estresa."
     },
@@ -95,7 +111,7 @@
       "fecha_iso": "2013-12-01T00:00:00",
       "materia": "MICROCONTROLADORES/ROBÓTICA 1",
       "calidad": 9.0,
-      "dificultad": null,
+      "dificultad": 4.0,
       "nota": null,
       "recomienda": 1,
       "comentario": "Sabe casi de todos los temas y materias, es de lo mejor que hay en el tec, su especialidad es la programación y la electrónica, muy recomendable para la materia de Microcontroladores, se nota que tiene doctorado no como Santiesteban Cos."
@@ -104,8 +120,8 @@
       "fecha_iso": "2013-08-04T00:00:00",
       "materia": "MICROCONTROLADORES Y ROBOTICA I - MECATRONICA",
       "calidad": 10.0,
-      "dificultad": null,
-      "nota": 10.0,
+      "dificultad": 6.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "Excelente maestro en todos los aspectos, de lo mejor del tec."
     },
@@ -113,7 +129,7 @@
       "fecha_iso": "2011-12-31T00:00:00",
       "materia": "MICROCONTROLADORES",
       "calidad": 10.0,
-      "dificultad": null,
+      "dificultad": 0.0,
       "nota": null,
       "recomienda": 1,
       "comentario": ""
@@ -122,8 +138,8 @@
       "fecha_iso": "2011-07-21T00:00:00",
       "materia": "MICROCONTROLADORES",
       "calidad": 10.0,
-      "dificultad": null,
-      "nota": 9.0,
+      "dificultad": 0.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": ""
     }

@@ -1,0 +1,119 @@
+{
+  "nombre": "Ignacio Juarez Ruelas",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "ciudad": "Ciudad: culiacan, sinaloa",
+  "departamento": "Departamento/Facultad: Sistemas",
+  "calidad_general": 9.7,
+  "porcentaje_recomienda": 100,
+  "nivel_dificultad": 1.3,
+  "etiquetas": [
+    "RESPETADO POR LOS ESTUDIANTES (3)",
+    "MUCHOS EXÁMENES (1)",
+    "BRINDA APOYO (2)",
+    "LOS EXÁMENES SON DIFÍCILES (1)",
+    "ASPECTOS DE CALIFICACIÓN CLAROS (1)",
+    "TOMARÍA SU CLASE OTRA VEZ (1)",
+    "CLASES EXCELENTES (1)"
+  ],
+  "numero_calificaciones": 6,
+  "calificaciones": [
+    {
+      "fecha": "15/Dic/2019",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Matematicas Discretas",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "Excelente profesor, sigue su programa muy bien, explica perfecto y lo repite las veces que sean solicitadas.",
+      "etiquetas_comentario": [
+        "Respetado por los estudiantes",
+        "Brinda apoyo",
+        "Clases excelentes"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "13/Nov/2018",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Matemáticas Discretas",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "N/A",
+      "interes_clase": "",
+      "comentario": "",
+      "etiquetas_comentario": [
+        "Respetado por los estudiantes",
+        "Aspectos de calificación claros",
+        "Tomaría su clase otra vez"
+      ],
+      "votos_utiles": "1",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "13/Nov/2018",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 8.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "matematicas discretas",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "8.5",
+      "interes_clase": "",
+      "comentario": "si buscar dormir en la escuela, esta clase es perfecta, en tan solo 10 minutos quedas dormido...",
+      "etiquetas_comentario": [
+        "Los exámenes son difíciles"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "17/Ene/2018",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Matemáticas Discretas",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "Unos de los mejores profesores que eh tenido. Te explica con calma y si no le entiendes vuelve a repetirlo. Si son buen grupo la tendrán fácil, pero deben hacer toda la tarea que les deja con tiempo porque si no estas se les acumularan y reprobaran.",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "16/Ene/2018",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Matemáticas Discretas",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "8.5",
+      "interes_clase": "",
+      "comentario": "Excelente profesor, paciente y todo entendible, si le pones atención claro, exámenes algo complicados, pero da ayuda si te lo mereces",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "28/Dic/2017",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Matematicas Discretas",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "Es un crack, los examenes los hace medio complicados, pero nada que no se haya visto en clases, siempre trata de ayudar a sus alumnos, solo no lo hagan enojar y veran que es buena gente, si no faltan nunca sube 10 puntos al final en la calificacion final",
+      "etiquetas_comentario": [
+        "Respetado por los estudiantes",
+        "Muchos Exámenes",
+        "Brinda apoyo"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    }
+  ]
+}

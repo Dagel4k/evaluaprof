@@ -1,36 +1,36 @@
 {
   "professor_id": "Lizbeth_Dagnino_Lopez",
   "nombre": "Lizbeth Dagnino Lopez",
-  "universidad": "Instituto Tecnologico de Culiacan",
+  "universidad": "Instituto Tecnológico de Culiacán",
   "decay_analysis": {
-    "quality_decayed": 6.516600547498665,
-    "difficulty_decayed": null
+    "quality_decayed": 6.5166005474986655,
+    "difficulty_decayed": 2.0
   },
   "bayes_analysis": {
-    "quality_bayes": 6.897993416888213,
-    "difficulty_bayes": null
+    "quality_bayes": 7.1396307286514995,
+    "difficulty_bayes": 2.670128585558853
   },
   "recommendation_analysis": {
-    "rate": 0.5,
+    "rate": 1.0,
     "wilson_interval": [
-      0.09452865480086611,
-      0.905471345199134
+      0.3423719528896193,
+      1
     ],
     "n_recommendations": 2
   },
   "subject_normalization": {
-    "z_mean": -0.22,
-    "z_mean_decayed": -0.21,
+    "z_mean": -0.11,
+    "z_mean_decayed": -0.1,
     "per_subject": [
       {
         "materia": "PROBABILIDAD Y ESTADÍSTICA",
-        "z_decayed": 0.1682614642773532,
-        "n": 23
+        "z_decayed": 0.33813212407775356,
+        "n": 8
       },
       {
         "materia": "PROBABILIDAD Y ESTADISTICA",
-        "z_decayed": -0.6127487224554687,
-        "n": 32
+        "z_decayed": -0.5663457609767676,
+        "n": 19
       }
     ]
   },
@@ -68,7 +68,7 @@
       "fecha_iso": "2024-08-20T00:00:00",
       "materia": "PROBABILIDAD Y ESTADÍSTICA",
       "calidad": 7.0,
-      "dificultad": null,
+      "dificultad": 2.0,
       "nota": null,
       "recomienda": 1,
       "comentario": "medio se hace bola ella sola pero mientras asistan no se les complicará nada pasar, sus exámenes son los ejercicios vistos en clases y con sus métodos, por eso importa asistir apesar de que no toma lista"
@@ -77,9 +77,9 @@
       "fecha_iso": "2024-06-11T00:00:00",
       "materia": "PROBABILIDAD Y ESTADISTICA",
       "calidad": 6.0,
-      "dificultad": null,
-      "nota": 8.5,
-      "recomienda": 0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 0.5,
       "comentario": "Las clases son algo confusas ella misma se confunde con los temas y termina dando informacion erronea, importa la participacion y firmas de trabajos mas que nada ya que valen 10%, al final si no pasas una unidad te la redondea pero si no pasas 2 nomas te hace examen de las 2, examenes faciles"
     }
   ],

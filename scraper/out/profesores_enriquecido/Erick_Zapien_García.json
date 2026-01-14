@@ -1,22 +1,22 @@
 {
   "professor_id": "Erick_Zapien_García",
   "nombre": "Erick Zapien García",
-  "universidad": "Instituto Tecnologico de Culiacan",
+  "universidad": "Instituto Tecnológico de Culiacán",
   "decay_analysis": {
-    "quality_decayed": 10.0,
-    "difficulty_decayed": null
+    "quality_decayed": 10.000000000000002,
+    "difficulty_decayed": 4.847066373650314
   },
   "bayes_analysis": {
-    "quality_bayes": 7.252356454787142,
-    "difficulty_bayes": null
+    "quality_bayes": 7.7229640619848325,
+    "difficulty_bayes": 3.0034619188921865
   },
   "recommendation_analysis": {
     "rate": 1.0,
     "wilson_interval": [
-      0.20654329147389294,
+      0.3423719528896193,
       1
     ],
-    "n_recommendations": 1
+    "n_recommendations": 2
   },
   "subject_normalization": {
     "z_mean": null,
@@ -54,11 +54,20 @@
   },
   "reviews_public": [
     {
+      "fecha_iso": "2025-08-22T00:00:00",
+      "materia": "INGLÉS",
+      "calidad": 10.0,
+      "dificultad": 6.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
       "fecha_iso": "2023-01-13T00:00:00",
       "materia": "INGLES",
       "calidad": 10.0,
-      "dificultad": null,
-      "nota": 8.5,
+      "dificultad": 2.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "Da bien las clases"
     }
@@ -66,5 +75,5 @@
   "comments_recent": [
     "Da bien las clases"
   ],
-  "n_reviews": 1
+  "n_reviews": 2
 }

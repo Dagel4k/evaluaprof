@@ -1,51 +1,46 @@
 {
   "professor_id": "Maria_Elena_Cardenas_Mozqueda",
   "nombre": "Maria Elena Cardenas Mozqueda",
-  "universidad": "Instituto Tecnologico de Culiacan",
+  "universidad": "Instituto Tecnológico de Culiacán",
   "decay_analysis": {
-    "quality_decayed": 8.094746577333778,
-    "difficulty_decayed": null
+    "quality_decayed": 7.019119109618339,
+    "difficulty_decayed": 3.8110070277514447
   },
   "bayes_analysis": {
-    "quality_bayes": 6.8691718236857975,
-    "difficulty_bayes": null
+    "quality_bayes": 7.511704582921199,
+    "difficulty_bayes": 2.9361028684470822
   },
   "recommendation_analysis": {
-    "rate": 0.571,
+    "rate": 0.5,
     "wilson_interval": [
-      0.2504542304090258,
-      0.8417830777373732
+      0.17042015582256811,
+      0.8295798441774319
     ],
-    "n_recommendations": 7
+    "n_recommendations": 5
   },
   "subject_normalization": {
-    "z_mean": 0.05,
-    "z_mean_decayed": 0.48,
+    "z_mean": 0.33,
+    "z_mean_decayed": -0.06,
     "per_subject": [
-      {
-        "materia": "FUNDAMENTOS DE PROGRAMACION",
-        "z_decayed": 1.1265641016954895,
-        "n": 43
-      },
       {
         "materia": "FLOJA",
         "z_decayed": 1.02469507659596,
         "n": 4
       },
       {
+        "materia": "FUNDAMENTOS DE PROGRAMACION",
+        "z_decayed": 0.8750404521393619,
+        "n": 15
+      },
+      {
         "materia": "FUNDAMENTOS DE PROGRAMACIÓN",
-        "z_decayed": 0.3127501703276842,
-        "n": 36
+        "z_decayed": 0.3230722262022712,
+        "n": 17
       },
       {
-        "materia": "PROGRAMACION",
-        "z_decayed": -0.7533536201771969,
-        "n": 20
-      },
-      {
-        "materia": "PROLOG",
-        "z_decayed": -0.7647191129018723,
-        "n": 9
+        "materia": "SIMULACION",
+        "z_decayed": -0.9601536368738331,
+        "n": 11
       }
     ]
   },
@@ -68,7 +63,7 @@
           "buena",
           "es"
         ],
-        "weight": 0.3550288812198544
+        "weight": 0.42579844934059397
       },
       {
         "id": 1,
@@ -78,7 +73,7 @@
           "buena",
           "ensena"
         ],
-        "weight": 0.27160524412031706
+        "weight": 0.32947018762708924
       }
     ],
     "sentiment": {
@@ -87,11 +82,10 @@
         "2023-05": 0.0,
         "2023-02": 0.0,
         "2023-01": 0.0,
-        "2019-11": 0.0,
-        "2016-05": 0.0
+        "2019-11": 0.0
       }
     },
-    "n_comments": 5
+    "n_comments": 4
   },
   "integrity_analysis": {
     "dup_rate": 0.0,
@@ -102,30 +96,42 @@
   "trends_analysis": {
     "quality_trend": {
       "series": [
-        6.0,
-        2.0,
-        4.0,
         10.0,
         8.0,
         10.0,
-        7.0
+        7.0,
+        5.0
       ],
       "ewma": [
-        6.0,
-        4.799999999999999,
-        4.559999999999999,
-        6.191999999999998,
-        6.734399999999999,
-        7.714079999999999,
-        7.499855999999999
+        10.0,
+        9.4,
+        9.58,
+        8.806,
+        7.664199999999999
       ],
-      "sigma": 2.1595458477423755
+      "sigma": 1.2801427295422956
     },
-    "difficulty_trend": null,
+    "difficulty_trend": {
+      "series": [
+        4.0,
+        2.0,
+        0.0,
+        4.0,
+        6.0
+      ],
+      "ewma": [
+        4.0,
+        3.4,
+        2.38,
+        2.8659999999999997,
+        3.8061999999999996
+      ],
+      "sigma": 1.8494740787586077
+    },
     "forecast": {
-      "quality_next": 7.499855999999999,
+      "quality_next": 7.664199999999999,
       "quality_band": [
-        3.267146138424944,
+        5.1551202500971005,
         10.0
       ],
       "confidence": 0.95
@@ -134,11 +140,20 @@
   },
   "reviews_public": [
     {
+      "fecha_iso": "2025-08-21T00:00:00",
+      "materia": "SIMULACION",
+      "calidad": 5.0,
+      "dificultad": 6.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": ""
+    },
+    {
       "fecha_iso": "2023-05-26T00:00:00",
       "materia": "FUNDAMENTOS DE PROGRAMACIÓN",
       "calidad": 7.0,
-      "dificultad": null,
-      "nota": 25.0,
+      "dificultad": 4.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "Es buena maestra pero recomiendo tener algo de base al entrar en su materia, por que si no te vas a perder. ( Me paso eso, por eso lo digo XD). \nPero es buena profe posdata me fui a RC"
     },
@@ -146,8 +161,8 @@
       "fecha_iso": "2023-02-01T00:00:00",
       "materia": "FUNDAMENTOS DE PROGRAMACIÓN",
       "calidad": 10.0,
-      "dificultad": null,
-      "nota": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "Me cayó muy bien, enseña bien más bases y siempre está atenta a todas las dudas"
     },
@@ -155,8 +170,8 @@
       "fecha_iso": "2023-01-07T00:00:00",
       "materia": "FLOJA",
       "calidad": 8.0,
-      "dificultad": null,
-      "nota": 10.0,
+      "dificultad": 2.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "Es escandalosamente flojo, este semestre los inicio 2 semanas de atraso, \n No entiendo por qué las autoridades no hacen algo con estos maestros flojos y eso que son ejemplo de uno."
     },
@@ -164,45 +179,17 @@
       "fecha_iso": "2019-11-13T00:00:00",
       "materia": "FUNDAMENTOS DE PROGRAMACION",
       "calidad": 10.0,
-      "dificultad": null,
-      "nota": 9.5,
+      "dificultad": 4.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "Es super buena profesora, para iniciar a programar ella te enseña una buena logica."
-    },
-    {
-      "fecha_iso": "2016-08-09T00:00:00",
-      "materia": "PROGRAMACION",
-      "calidad": 4.0,
-      "dificultad": null,
-      "nota": 8.5,
-      "recomienda": 0,
-      "comentario": ""
-    },
-    {
-      "fecha_iso": "2016-05-22T00:00:00",
-      "materia": "---",
-      "calidad": 2.0,
-      "dificultad": null,
-      "nota": 1.0,
-      "recomienda": 0,
-      "comentario": "[Comentario esperando revisión]"
-    },
-    {
-      "fecha_iso": "2016-01-10T00:00:00",
-      "materia": "PROLOG",
-      "calidad": 6.0,
-      "dificultad": null,
-      "nota": null,
-      "recomienda": 0,
-      "comentario": ""
     }
   ],
   "comments_recent": [
     "Es buena maestra pero recomiendo tener algo de base al entrar en su materia, por que si no te vas a perder. ( Me paso eso, por eso lo digo XD). \nPero es buena profe posdata me fui a RC",
     "Me cayó muy bien, enseña bien más bases y siempre está atenta a todas las dudas",
     "Es escandalosamente flojo, este semestre los inicio 2 semanas de atraso, \n No entiendo por qué las autoridades no hacen algo con estos maestros flojos y eso que son ejemplo de uno.",
-    "Es super buena profesora, para iniciar a programar ella te enseña una buena logica.",
-    "[Comentario esperando revisión]"
+    "Es super buena profesora, para iniciar a programar ella te enseña una buena logica."
   ],
-  "n_reviews": 7
+  "n_reviews": 5
 }

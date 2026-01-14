@@ -1,36 +1,36 @@
 {
   "professor_id": "Pedro_Rochin_Angulo",
   "nombre": "Pedro Rochin Angulo",
-  "universidad": "Instituto Tecnologico de Culiacan",
+  "universidad": "Instituto Tecnológico de Culiacán",
   "decay_analysis": {
-    "quality_decayed": 8.468183904076788,
-    "difficulty_decayed": null
+    "quality_decayed": 8.46818390407679,
+    "difficulty_decayed": 2.058622757134192
   },
   "bayes_analysis": {
-    "quality_bayes": 7.585061400177238,
-    "difficulty_bayes": null
+    "quality_bayes": 7.778371249587866,
+    "difficulty_bayes": 2.402769535113749
   },
   "recommendation_analysis": {
-    "rate": 0.8,
+    "rate": 1.0,
     "wilson_interval": [
-      0.37552826411853885,
-      0.9637768390302125
+      0.565508505247919,
+      1
     ],
     "n_recommendations": 5
   },
   "subject_normalization": {
-    "z_mean": 0.42,
-    "z_mean_decayed": 0.43,
+    "z_mean": 0.4,
+    "z_mean_decayed": 0.42,
     "per_subject": [
       {
         "materia": "TERMODINÁMICA",
-        "z_decayed": 0.8829315411243912,
-        "n": 14
+        "z_decayed": 0.9868408999590872,
+        "n": 8
       },
       {
         "materia": "TERMODINAMICA",
-        "z_decayed": 0.2050939078856696,
-        "n": 18
+        "z_decayed": 0.12868382330076042,
+        "n": 6
       }
     ]
   },
@@ -61,11 +61,11 @@
         "words": [
           "persona",
           "profesor",
-          "excelente maestro",
           "excelente",
+          "excelente maestro",
           "maestro"
         ],
-        "weight": 0.27846704657100146
+        "weight": 0.2784670465710014
       }
     ],
     "sentiment": {
@@ -101,7 +101,21 @@
       ],
       "sigma": 1.4248625664720562
     },
-    "difficulty_trend": null,
+    "difficulty_trend": {
+      "series": [
+        0.0,
+        0.0,
+        4.0,
+        2.0
+      ],
+      "ewma": [
+        0.0,
+        0.0,
+        1.2,
+        1.44
+      ],
+      "sigma": 1.3330666399946653
+    },
     "forecast": {
       "quality_next": 8.86,
       "quality_band": [
@@ -117,8 +131,8 @@
       "fecha_iso": "2014-01-29T00:00:00",
       "materia": "TERMODINAMICA",
       "calidad": 9.0,
-      "dificultad": null,
-      "nota": 8.0,
+      "dificultad": 2.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "muy buen profesor y muy buena persona c:"
     },
@@ -126,8 +140,8 @@
       "fecha_iso": "2014-01-07T00:00:00",
       "materia": "TERMODINÁMICA",
       "calidad": 9.0,
-      "dificultad": null,
-      "nota": 9.0,
+      "dificultad": 2.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "Es buen profesor, muuuuuy comprensivo y da muchas oportunidades para pasar, es claro y nunca se enoja (:"
     },
@@ -135,17 +149,17 @@
       "fecha_iso": "2013-11-29T00:00:00",
       "materia": "TERMODINAMICA",
       "calidad": 6.0,
-      "dificultad": null,
+      "dificultad": 4.0,
       "nota": null,
-      "recomienda": 0,
+      "recomienda": 0.5,
       "comentario": "es un muy buen profesor y persona"
     },
     {
       "fecha_iso": "2011-11-15T00:00:00",
       "materia": "OP",
       "calidad": 10.0,
-      "dificultad": null,
-      "nota": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "EXCELENTE MAESTRO"
     },
@@ -153,8 +167,8 @@
       "fecha_iso": "2011-03-11T00:00:00",
       "materia": "OPERACIONES UNITARIAS II",
       "calidad": 10.0,
-      "dificultad": null,
-      "nota": 8.5,
+      "dificultad": 0.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "Excelente maestro con experiencia, conocimientos y facilidad para enseñar, ojala todos fueran como él."
     }

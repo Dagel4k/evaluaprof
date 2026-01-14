@@ -1,14 +1,14 @@
 {
   "professor_id": "Rocio_Quiñones_Gamez",
   "nombre": "Rocio Quiñones Gamez",
-  "universidad": "Instituto Tecnologico de Culiacan",
+  "universidad": "Instituto Tecnológico de Culiacán",
   "decay_analysis": {
-    "quality_decayed": 2.5134874521295867,
-    "difficulty_decayed": null
+    "quality_decayed": 2.513487452129587,
+    "difficulty_decayed": 8.0
   },
   "bayes_analysis": {
-    "quality_bayes": 5.905840077127582,
-    "difficulty_bayes": null
+    "quality_bayes": 6.128889903370615,
+    "difficulty_bayes": 4.003195617438942
   },
   "recommendation_analysis": {
     "rate": 0.0,
@@ -19,18 +19,18 @@
     "n_recommendations": 3
   },
   "subject_normalization": {
-    "z_mean": -1.11,
-    "z_mean_decayed": -1.09,
+    "z_mean": -1.22,
+    "z_mean_decayed": -1.1,
     "per_subject": [
       {
         "materia": "QUÍMICA",
-        "z_decayed": -1.0437845848229201,
-        "n": 44
+        "z_decayed": -0.7678423075832703,
+        "n": 24
       },
       {
         "materia": "QUIMICA",
-        "z_decayed": -1.1378786355963753,
-        "n": 83
+        "z_decayed": -1.4511623355540038,
+        "n": 24
       }
     ]
   },
@@ -71,7 +71,19 @@
       ],
       "sigma": 0.4041451884327381
     },
-    "difficulty_trend": null,
+    "difficulty_trend": {
+      "series": [
+        8.0,
+        8.0,
+        8.0
+      ],
+      "ewma": [
+        8.0,
+        8.0,
+        8.0
+      ],
+      "sigma": 0.0
+    },
     "forecast": {
       "quality_next": 2.3,
       "quality_band": [
@@ -87,8 +99,8 @@
       "fecha_iso": "2021-09-07T00:00:00",
       "materia": "QUÍMICA",
       "calidad": 3.0,
-      "dificultad": null,
-      "nota": 9.0,
+      "dificultad": 8.0,
+      "nota": null,
       "recomienda": 0,
       "comentario": "Muy buena persona, pero muy mala enseñando. Sus clases son largas y no explica nada bien. \n\nEs una lastima porque la química me gusta mucho, pero ella hace que le pierda el amor a las clases de química."
     },
@@ -96,8 +108,8 @@
       "fecha_iso": "2020-01-11T00:00:00",
       "materia": "QUIMICA",
       "calidad": 2.0,
-      "dificultad": null,
-      "nota": 9.5,
+      "dificultad": 8.0,
+      "nota": null,
       "recomienda": 0,
       "comentario": "te dejara muuuuuuuuy confundido, pero si asistes pasaras la materia"
     },
@@ -105,8 +117,8 @@
       "fecha_iso": "2018-12-03T00:00:00",
       "materia": "QUIMICA",
       "calidad": 2.0,
-      "dificultad": null,
-      "nota": 7.0,
+      "dificultad": 8.0,
+      "nota": null,
       "recomienda": 0,
       "comentario": "No sabe dar clases, no explica , yo tuve que llevar química por mi cuenta y aprendí mas"
     }

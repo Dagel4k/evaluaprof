@@ -1,41 +1,31 @@
 {
   "professor_id": "DOUGLAS_ARMANDO_GARCIA_VALENZUELA",
   "nombre": "DOUGLAS ARMANDO GARCIA VALENZUELA",
-  "universidad": "Instituto Tecnologico de Culiacan",
+  "universidad": "Instituto Tecnológico de Culiacán",
   "decay_analysis": {
-    "quality_decayed": 4.93509842647195,
-    "difficulty_decayed": null
+    "quality_decayed": 4.8051152166601145,
+    "difficulty_decayed": 4.245604237673365
   },
   "bayes_analysis": {
-    "quality_bayes": 6.830311631718871,
-    "difficulty_bayes": null
+    "quality_bayes": 6.778371249587866,
+    "difficulty_bayes": 3.469436201780416
   },
   "recommendation_analysis": {
-    "rate": 0.556,
+    "rate": 0.56,
     "wilson_interval": [
-      0.26664734574402965,
-      0.8112245705280859
+      0.20569534675168283,
+      0.8621656738780675
     ],
-    "n_recommendations": 9
+    "n_recommendations": 5
   },
   "subject_normalization": {
-    "z_mean": 0.11,
-    "z_mean_decayed": 0.16,
+    "z_mean": 0.13,
+    "z_mean_decayed": 0.13,
     "per_subject": [
       {
-        "materia": "QUIMICA ANALITICA",
-        "z_decayed": 0.8436958338752908,
-        "n": 7
-      },
-      {
         "materia": "DESARROLLO SUSTENTABLE",
-        "z_decayed": 0.14553480445843067,
-        "n": 52
-      },
-      {
-        "materia": "---",
-        "z_decayed": -0.6631370651382045,
-        "n": 521
+        "z_decayed": 0.12782026869246874,
+        "n": 27
       }
     ]
   },
@@ -49,54 +39,12 @@
     "n_grades": 0
   },
   "nlp_analysis": {
-    "topics": [
-      {
-        "id": 0,
-        "words": [
-          "bien",
-          "tiene",
-          "clase",
-          "buen",
-          "es"
-        ],
-        "weight": 0.23402824441658357
-      },
-      {
-        "id": 1,
-        "words": [
-          "materia",
-          "clase",
-          "siempre",
-          "deja",
-          "tarea"
-        ],
-        "weight": 0.19796342609551937
-      },
-      {
-        "id": 2,
-        "words": [
-          "tiene",
-          "deja",
-          "tarea",
-          "es",
-          "materia"
-        ],
-        "weight": 0.17214385430193507
-      }
-    ],
+    "topics": [],
     "sentiment": {
-      "overall": 0.0,
-      "by_month": {
-        "2025-06": 0.0,
-        "2020-12": 0.0,
-        "2019-01": 0.0,
-        "2014-02": 0.0,
-        "2013-11": 0.0,
-        "2013-06": 0.0,
-        "2013-05": 0.0
-      }
+      "overall": null,
+      "by_month": {}
     },
-    "n_comments": 7
+    "n_comments": 3
   },
   "integrity_analysis": {
     "dup_rate": 0.0,
@@ -107,10 +55,6 @@
   "trends_analysis": {
     "quality_trend": {
       "series": [
-        3.0,
-        10.0,
-        8.0,
-        10.0,
         7.0,
         6.0,
         2.0,
@@ -118,23 +62,35 @@
         4.0
       ],
       "ewma": [
-        3.0,
-        5.1,
-        5.969999999999999,
-        7.178999999999999,
-        7.125299999999999,
-        6.787709999999999,
-        5.351396999999999,
-        6.745977899999999,
-        5.922184529999999
+        7.0,
+        6.699999999999999,
+        5.289999999999999,
+        6.702999999999999,
+        5.892099999999999
       ],
-      "sigma": 2.6710198665631655
+      "sigma": 2.47122454503835
     },
-    "difficulty_trend": null,
+    "difficulty_trend": {
+      "series": [
+        8.0,
+        2.0,
+        8.0,
+        2.0,
+        4.0
+      ],
+      "ewma": [
+        8.0,
+        6.199999999999999,
+        6.739999999999998,
+        5.317999999999998,
+        4.922599999999998
+      ],
+      "sigma": 2.279019059156812
+    },
     "forecast": {
-      "quality_next": 5.922184529999999,
+      "quality_next": 5.892099999999999,
       "quality_band": [
-        0.6869855915361951,
+        1.0484998917248332,
         10.0
       ],
       "confidence": 0.95
@@ -146,17 +102,17 @@
       "fecha_iso": "2025-06-12T00:00:00",
       "materia": "INGENIERÍA Y GESTIÓN AMBIENTAL",
       "calidad": 4.0,
-      "dificultad": null,
-      "nota": 24.0,
-      "recomienda": 0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 0.5,
       "comentario": "vimos dos temas en todo el semestre, se pasa de la hora de clase y siempre está enojado, deja demasiada tarea y no califica a tiempo"
     },
     {
       "fecha_iso": "2021-02-04T00:00:00",
       "materia": "GESTIÓN AMBIENTAL",
       "calidad": 10.0,
-      "dificultad": null,
-      "nota": 8.5,
+      "dificultad": 2.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": ""
     },
@@ -164,8 +120,8 @@
       "fecha_iso": "2020-12-09T00:00:00",
       "materia": "GESTIÓN DE RESIDUOS",
       "calidad": 2.0,
-      "dificultad": null,
-      "nota": 9.5,
+      "dificultad": 8.0,
+      "nota": null,
       "recomienda": 0,
       "comentario": "No es congruente lo que enseña con la materia"
     },
@@ -173,65 +129,25 @@
       "fecha_iso": "2019-01-12T00:00:00",
       "materia": "DESSARROLLO SUSTENTABLES",
       "calidad": 6.0,
-      "dificultad": null,
+      "dificultad": 2.0,
       "nota": null,
-      "recomienda": 0,
+      "recomienda": 0.5,
       "comentario": "Le toma mucha importancia a esta materia de relleno,deja mucha tarea y sus clases son muchos documentales. 100 seguro"
     },
     {
       "fecha_iso": "2016-12-15T00:00:00",
       "materia": "DESARROLLO SUSTENTABLE",
       "calidad": 7.0,
-      "dificultad": null,
-      "nota": 4.5,
-      "recomienda": 1,
-      "comentario": ""
-    },
-    {
-      "fecha_iso": "2014-02-28T00:00:00",
-      "materia": "QUIMICA ANALITICA",
-      "calidad": 10.0,
-      "dificultad": null,
-      "nota": 10.0,
-      "recomienda": 1,
-      "comentario": "Fui alumno del mto Douglas, el mto es estricto pero buen Mto. Lo que aprendi me sirbio en Termo y Valance. El pedo del año pasado fueron 2 ambientales que boicoteaban la clase, un Cedano y un tal Bladimir; estos vatos son unas lakras, al Cedano lo expulsaron por amenazar de muerte a un mto del Tek"
-    },
-    {
-      "fecha_iso": "2013-11-29T00:00:00",
-      "materia": "RC QUIMICA ANALITICA.",
-      "calidad": 8.0,
-      "dificultad": null,
+      "dificultad": 8.0,
       "nota": null,
       "recomienda": 1,
-      "comentario": "Es buen profesor, como todos los huamnos tiene sus defectos y aveces puede sacar de onda o caer mal, pero explica bien,nomas es entenderle."
-    },
-    {
-      "fecha_iso": "2013-06-14T00:00:00",
-      "materia": "ANÁLISIS QUÍMICO, DESARROLLO SUSTENTABLE",
-      "calidad": 10.0,
-      "dificultad": null,
-      "nota": 9.0,
-      "recomienda": 1,
-      "comentario": "Es uno de los mejores y auténticos maestros que tiene la carrera de Bioquímica, ya que no se presta a la simulación. Si bien es cierto que es exigente en su clase, domina excelentemente sus materias y siempre esta en la mejor disposición de dar asesorías; es el tipo de maestro que evalua a los alumnos de forma clara y objetiva. Recomiendo a todos aquellos alumnos llevar clase con el; si en realidad desean aprender."
-    },
-    {
-      "fecha_iso": "2013-05-31T00:00:00",
-      "materia": "---",
-      "calidad": 3.0,
-      "dificultad": null,
-      "nota": 2.0,
-      "recomienda": 0,
-      "comentario": "[Comentario esperando revisión]"
+      "comentario": ""
     }
   ],
   "comments_recent": [
     "vimos dos temas en todo el semestre, se pasa de la hora de clase y siempre está enojado, deja demasiada tarea y no califica a tiempo",
     "No es congruente lo que enseña con la materia",
-    "Le toma mucha importancia a esta materia de relleno,deja mucha tarea y sus clases son muchos documentales. 100 seguro",
-    "Fui alumno del mto Douglas, el mto es estricto pero buen Mto. Lo que aprendi me sirbio en Termo y Valance. El pedo del año pasado fueron 2 ambientales que boicoteaban la clase, un Cedano y un tal Bladimir; estos vatos son unas lakras, al Cedano lo expulsaron por amenazar de muerte a un mto del Tek",
-    "Es buen profesor, como todos los huamnos tiene sus defectos y aveces puede sacar de onda o caer mal, pero explica bien,nomas es entenderle.",
-    "Es uno de los mejores y auténticos maestros que tiene la carrera de Bioquímica, ya que no se presta a la simulación. Si bien es cierto que es exigente en su clase, domina excelentemente sus materias y siempre esta en la mejor disposición de dar asesorías; es el tipo de maestro que evalua a los alumnos de forma clara y objetiva. Recomiendo a todos aquellos alumnos llevar clase con el; si en realidad desean aprender.",
-    "[Comentario esperando revisión]"
+    "Le toma mucha importancia a esta materia de relleno,deja mucha tarea y sus clases son muchos documentales. 100 seguro"
   ],
-  "n_reviews": 9
+  "n_reviews": 5
 }

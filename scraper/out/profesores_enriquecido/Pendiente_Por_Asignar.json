@@ -1,14 +1,14 @@
 {
   "professor_id": "Pendiente_Por_Asignar",
   "nombre": "Pendiente Por Asignar",
-  "universidad": "Instituto Tecnologico de Culiacan",
+  "universidad": "Instituto Tecnológico de Culiacán",
   "decay_analysis": {
-    "quality_decayed": 10.0,
-    "difficulty_decayed": null
+    "quality_decayed": 9.999999999999998,
+    "difficulty_decayed": 0.0
   },
   "bayes_analysis": {
-    "quality_bayes": 7.481326750221547,
-    "difficulty_bayes": null
+    "quality_bayes": 7.7229640619848325,
+    "difficulty_bayes": 2.3367952522255195
   },
   "recommendation_analysis": {
     "rate": 1.0,
@@ -20,17 +20,17 @@
   },
   "subject_normalization": {
     "z_mean": 1.04,
-    "z_mean_decayed": 0.96,
+    "z_mean_decayed": 1.02,
     "per_subject": [
       {
         "materia": "CUALQUIERA",
-        "z_decayed": 1.2659242088545832,
-        "n": 6
+        "z_decayed": 1.0734900802433864,
+        "n": 5
       },
       {
         "materia": "TODAS",
-        "z_decayed": 0.819891591749923,
-        "n": 5
+        "z_decayed": 0.998625428903524,
+        "n": 4
       }
     ]
   },
@@ -68,8 +68,8 @@
       "fecha_iso": "2020-12-25T00:00:00",
       "materia": "TODAS",
       "calidad": 10.0,
-      "dificultad": null,
-      "nota": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "Muy recomendable... me dio las primeras dos semanas del semestre. Lamentablemente me lo cambiaron por otro profe, segun porque es muy solicitado entre los alumnos"
     },
@@ -77,8 +77,8 @@
       "fecha_iso": "2018-10-15T00:00:00",
       "materia": "CUALQUIERA",
       "calidad": 10.0,
-      "dificultad": null,
-      "nota": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "este bato, es un dios,lo amo, siempre lo estoy esperando al principio del semestre la neta, dura como 2 semanas llendo nomas pero lo disfruto mucho cuando me toca :) y la clase también."
     }

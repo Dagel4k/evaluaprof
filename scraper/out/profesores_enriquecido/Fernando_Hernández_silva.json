@@ -1,14 +1,14 @@
 {
   "professor_id": "Fernando_Hernández_silva",
   "nombre": "Fernando Hernández silva",
-  "universidad": "Instituto Tecnologico de Culiacan",
+  "universidad": "Instituto Tecnológico de Culiacán",
   "decay_analysis": {
     "quality_decayed": 8.092231825829243,
-    "difficulty_decayed": null
+    "difficulty_decayed": 1.5409458775323719
   },
   "bayes_analysis": {
-    "quality_bayes": 7.451728066843904,
-    "difficulty_bayes": null
+    "quality_bayes": 7.645037916254533,
+    "difficulty_bayes": 2.1361028684470824
   },
   "recommendation_analysis": {
     "rate": 1.0,
@@ -19,23 +19,18 @@
     "n_recommendations": 5
   },
   "subject_normalization": {
-    "z_mean": 0.31,
-    "z_mean_decayed": 0.19,
+    "z_mean": 0.19,
+    "z_mean_decayed": 0.22,
     "per_subject": [
       {
-        "materia": "IO2",
-        "z_decayed": 1.0440737953277488,
-        "n": 3
+        "materia": "SIMULACIÓN",
+        "z_decayed": 0.26481620782202525,
+        "n": 7
       },
       {
         "materia": "SIMULACION",
-        "z_decayed": 0.11779195769754906,
-        "n": 23
-      },
-      {
-        "materia": "SIMULACIÓN",
-        "z_decayed": -0.005216564811291654,
-        "n": 18
+        "z_decayed": -0.08001280307281936,
+        "n": 11
       }
     ]
   },
@@ -58,7 +53,7 @@
           "profesor",
           "mejor"
         ],
-        "weight": 0.34349362277106904
+        "weight": 0.3434936227710691
       },
       {
         "id": 1,
@@ -68,7 +63,7 @@
           "profesor",
           "es"
         ],
-        "weight": 0.39660809196395663
+        "weight": 0.3966080919639565
       }
     ],
     "sentiment": {
@@ -106,7 +101,23 @@
       ],
       "sigma": 1.2871161750207318
     },
-    "difficulty_trend": null,
+    "difficulty_trend": {
+      "series": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        4.0
+      ],
+      "ewma": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.2
+      ],
+      "sigma": 1.252198067399882
+    },
     "forecast": {
       "quality_next": 7.959699999999998,
       "quality_band": [
@@ -122,8 +133,8 @@
       "fecha_iso": "2019-06-06T00:00:00",
       "materia": "SIMULACIÓN",
       "calidad": 7.0,
-      "dificultad": null,
-      "nota": 23.0,
+      "dificultad": 4.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "Al principio no me convenció pero conforme avanzamos se portó mejor. Me arrepiento de no haber pedido sus asesorías antes pero en gral todo muy bien. L"
     },
@@ -131,8 +142,8 @@
       "fecha_iso": "2017-12-11T00:00:00",
       "materia": "SIMULACIÓN",
       "calidad": 8.0,
-      "dificultad": null,
-      "nota": 9.0,
+      "dificultad": 0.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "El profesor es un amor, es muy facil pasar con el y los examenes son de todo lo que se vio en clase y da muchas oportunidades para pasar. SIn embargo como que a veces batalla para explicar algunas cosas pero cuando no si es muy claro."
     },
@@ -140,8 +151,8 @@
       "fecha_iso": "2016-08-04T00:00:00",
       "materia": "IO2",
       "calidad": 10.0,
-      "dificultad": null,
-      "nota": 9.5,
+      "dificultad": 0.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "Es el mejor profesor, explica clarisimos los temas y los examenes no son nada dificiles."
     },
@@ -149,8 +160,8 @@
       "fecha_iso": "2016-07-29T00:00:00",
       "materia": "IO2, SIMUACION",
       "calidad": 10.0,
-      "dificultad": null,
-      "nota": 9.0,
+      "dificultad": 0.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "Simplemente el mejor."
     },
@@ -158,8 +169,8 @@
       "fecha_iso": "2015-06-16T00:00:00",
       "materia": "SIMULACION",
       "calidad": 7.0,
-      "dificultad": null,
-      "nota": 8.5,
+      "dificultad": 0.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": ""
     }

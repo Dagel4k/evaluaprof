@@ -1,0 +1,102 @@
+{
+  "nombre": "Fernando Hernández silva",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "ciudad": "Ciudad: culiacan, sinaloa",
+  "departamento": "Departamento/Facultad: Ing. Industrial",
+  "calidad_general": 8.4,
+  "porcentaje_recomienda": 100,
+  "nivel_dificultad": 0.8,
+  "etiquetas": [
+    "RESPETADO POR LOS ESTUDIANTES (1)",
+    "INSPIRACIONAL (1)",
+    "CLASES EXCELENTES (2)",
+    "TOMARÍA SU CLASE OTRA VEZ (1)",
+    "MUY CÓMICO (1)",
+    "ASISTENCIA OBLIGATORIA (1)",
+    "DA CRÉDITO EXTRA (1)"
+  ],
+  "numero_calificaciones": 5,
+  "calificaciones": [
+    {
+      "fecha": "06/Jun/2019",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 7.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Simulación",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "23",
+      "interes_clase": "",
+      "comentario": "Al principio no me convenció pero conforme avanzamos se portó mejor. Me arrepiento de no haber pedido sus asesorías antes pero en gral todo muy bien. L",
+      "etiquetas_comentario": [
+        "Muy cómico",
+        "Asistencia obligatoria",
+        "Da Crédito Extra"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "11/Dic/2017",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 8.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Simulación",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "9",
+      "interes_clase": "",
+      "comentario": "El profesor es un amor, es muy facil pasar con el y los examenes son de todo lo que se vio en clase y da muchas oportunidades para pasar. SIn embargo como que a veces batalla para explicar algunas cosas pero cuando no si es muy claro.",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "04/Ago/2016",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "io2",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "9.5",
+      "interes_clase": "",
+      "comentario": "Es el mejor profesor, explica clarisimos los temas y los examenes no son nada dificiles.",
+      "etiquetas_comentario": [
+        "Clases excelentes",
+        "Tomaría su clase otra vez"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "29/Jul/2016",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "IO2, Simuacion",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "9",
+      "interes_clase": "",
+      "comentario": "Simplemente el mejor.",
+      "etiquetas_comentario": [
+        "Respetado por los estudiantes",
+        "Inspiracional",
+        "Clases excelentes"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "16/Jun/2015",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 7.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Simulacion",
+      "asistencia": "",
+      "calificacion_recibida": "8.5",
+      "interes_clase": "8.5",
+      "comentario": "",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    }
+  ]
+}

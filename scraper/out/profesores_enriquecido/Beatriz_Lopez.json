@@ -1,14 +1,14 @@
 {
   "professor_id": "Beatriz_Lopez",
   "nombre": "Beatriz Lopez",
-  "universidad": "Instituto Tecnologico de Culiacan",
+  "universidad": "Instituto Tecnológico de Culiacán",
   "decay_analysis": {
     "quality_decayed": 10.0,
-    "difficulty_decayed": null
+    "difficulty_decayed": 0.0
   },
   "bayes_analysis": {
-    "quality_bayes": 7.252356454787142,
-    "difficulty_bayes": null
+    "quality_bayes": 7.515960794892544,
+    "difficulty_bayes": 2.5492311842460214
   },
   "recommendation_analysis": {
     "rate": 1.0,
@@ -19,13 +19,13 @@
     "n_recommendations": 1
   },
   "subject_normalization": {
-    "z_mean": 0.62,
-    "z_mean_decayed": 0.62,
+    "z_mean": 0.69,
+    "z_mean_decayed": 0.69,
     "per_subject": [
       {
         "materia": "CALCULO VECTORIAL",
-        "z_decayed": 0.6166598013093814,
-        "n": 57
+        "z_decayed": 0.6882256538212068,
+        "n": 21
       }
     ]
   },
@@ -63,8 +63,8 @@
       "fecha_iso": "2019-02-18T00:00:00",
       "materia": "CALCULO VECTORIAL",
       "calidad": 10.0,
-      "dificultad": null,
-      "nota": 8.0,
+      "dificultad": 0.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "Explicaciones claras, brinda mucho apoyo,sus clases no son aburridas."
     }

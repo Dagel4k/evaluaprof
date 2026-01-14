@@ -1,20 +1,20 @@
 {
   "professor_id": "Selene_Sarahí_Terrazas_Salas",
   "nombre": "Selene Sarahí Terrazas Salas",
-  "universidad": "Instituto Tecnologico de Culiacan",
+  "universidad": "Instituto Tecnológico de Culiacán",
   "decay_analysis": {
-    "quality_decayed": 8.104508886500238,
-    "difficulty_decayed": null
+    "quality_decayed": 8.10450888650024,
+    "difficulty_decayed": 2.0
   },
   "bayes_analysis": {
-    "quality_bayes": 7.231326750221547,
-    "difficulty_bayes": null
+    "quality_bayes": 7.4729640619848325,
+    "difficulty_bayes": 2.670128585558853
   },
   "recommendation_analysis": {
-    "rate": 1.0,
+    "rate": 0.5,
     "wilson_interval": [
-      0.3423719528896193,
-      1
+      0.09452865480086611,
+      0.905471345199134
     ],
     "n_recommendations": 2
   },
@@ -57,8 +57,8 @@
       "fecha_iso": "2023-03-21T00:00:00",
       "materia": "NIVEL 6",
       "calidad": 7.0,
-      "dificultad": null,
-      "nota": 8.0,
+      "dificultad": 2.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "Toma en cuenta que lo mas importante es la participación, si participas en clase todo bien pero si no te puede estresar el hecho de lo insistente que es la teacher en que participes, además participar te asegura pasar los exámenes que hallas reprobado si no participas según ella no te hará paro ????????"
     },
@@ -66,8 +66,8 @@
       "fecha_iso": "2021-08-30T00:00:00",
       "materia": "INGLÉS",
       "calidad": 10.0,
-      "dificultad": null,
-      "nota": 10.0,
+      "dificultad": 2.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "Enseña chido y si participas ayuda al final"
     }

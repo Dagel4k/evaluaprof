@@ -1,14 +1,14 @@
 {
   "professor_id": "Fernando_Lopez_Salas",
   "nombre": "Fernando Lopez Salas",
-  "universidad": "Instituto Tecnologico de Culiacan",
+  "universidad": "Instituto Tecnológico de Culiacán",
   "decay_analysis": {
     "quality_decayed": 6.013477657823693,
-    "difficulty_decayed": null
+    "difficulty_decayed": 2.0
   },
   "bayes_analysis": {
-    "quality_bayes": 6.81466008355488,
-    "difficulty_bayes": null
+    "quality_bayes": 7.056297395318166,
+    "difficulty_bayes": 2.670128585558853
   },
   "recommendation_analysis": {
     "rate": 0.5,
@@ -19,18 +19,13 @@
     "n_recommendations": 2
   },
   "subject_normalization": {
-    "z_mean": -1.62,
-    "z_mean_decayed": -1.62,
+    "z_mean": -0.8,
+    "z_mean_decayed": -0.8,
     "per_subject": [
       {
-        "materia": "CIRCUITOS HIDRAULICOS Y NEUMATICOS",
-        "z_decayed": -1.5000000000000002,
-        "n": 4
-      },
-      {
         "materia": "CIRCUITOS HIDRÁULICOS Y NEUMÁTICOS",
-        "z_decayed": -1.747505344419561,
-        "n": 8
+        "z_decayed": -0.8006407690254359,
+        "n": 3
       }
     ]
   },
@@ -68,7 +63,7 @@
       "fecha_iso": "2020-06-15T00:00:00",
       "materia": "CIRCUITOS HIDRAULICOS Y NEUMATICOS",
       "calidad": 8.0,
-      "dificultad": null,
+      "dificultad": 2.0,
       "nota": null,
       "recomienda": 1,
       "comentario": "es camarada, se agarra cura en las clases con el. los examenes son algo dificiles pero son cosas que si miras en clase, lo unico malo de el es que falta mucho por el puesto que tiene en el tec pero lo recomiendo"
@@ -77,9 +72,9 @@
       "fecha_iso": "2020-06-01T00:00:00",
       "materia": "CIRCUITOS HIDRÁULICOS Y NEUMÁTICOS",
       "calidad": 4.0,
-      "dificultad": null,
-      "nota": 9.5,
-      "recomienda": 0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 0.5,
       "comentario": "Da clases cuando quiere, manda PDFs y tareas a bruto como si fuéramos a aprender, es mayate de Piña, no lo carges, no es malo, pero existe Higuera."
     }
   ],

@@ -1,14 +1,14 @@
 {
   "professor_id": "Juan_Ramon_Sanchez_Acosta",
   "nombre": "Juan Ramon Sanchez Acosta",
-  "universidad": "Instituto Tecnologico de Culiacan",
+  "universidad": "Instituto Tecnológico de Culiacán",
   "decay_analysis": {
     "quality_decayed": 9.049058511371657,
-    "difficulty_decayed": null
+    "difficulty_decayed": 0.9509414886283439
   },
   "bayes_analysis": {
-    "quality_bayes": 7.31466008355488,
-    "difficulty_bayes": null
+    "quality_bayes": 7.556297395318166,
+    "difficulty_bayes": 2.503461918892186
   },
   "recommendation_analysis": {
     "rate": 1.0,
@@ -19,13 +19,13 @@
     "n_recommendations": 2
   },
   "subject_normalization": {
-    "z_mean": 1.14,
-    "z_mean_decayed": 1.12,
+    "z_mean": 1.09,
+    "z_mean_decayed": 1.07,
     "per_subject": [
       {
         "materia": "TALLER DE INVESTIGACION 2",
-        "z_decayed": 1.5518805795979709,
-        "n": 5
+        "z_decayed": 1.4527439954372794,
+        "n": 4
       },
       {
         "materia": "TALLER DE INVESTIGACIÓN 2",
@@ -68,7 +68,7 @@
       "fecha_iso": "2020-12-22T00:00:00",
       "materia": "TALLER DE INVESTIGACIÓN 2",
       "calidad": 10.0,
-      "dificultad": null,
+      "dificultad": 0.0,
       "nota": null,
       "recomienda": 1,
       "comentario": "El mejor profe para Taller 2, no te exige un proyecto super chingon y da buena calificación"
@@ -77,7 +77,7 @@
       "fecha_iso": "2020-09-10T00:00:00",
       "materia": "TALLER DE INVESTIGACION 2",
       "calidad": 8.0,
-      "dificultad": null,
+      "dificultad": 2.0,
       "nota": null,
       "recomienda": 1,
       "comentario": ""

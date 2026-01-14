@@ -1,14 +1,14 @@
 {
   "professor_id": "OMAR_ENRIQUE_MANJARREZ_VEGA",
   "nombre": "OMAR ENRIQUE MANJARREZ VEGA",
-  "universidad": "Instituto Tecnologico de Culiacan",
+  "universidad": "Instituto Tecnológico de Culiacán",
   "decay_analysis": {
-    "quality_decayed": 10.0,
-    "difficulty_decayed": null
+    "quality_decayed": 9.999999999999998,
+    "difficulty_decayed": 2.6111267374790694
   },
   "bayes_analysis": {
-    "quality_bayes": 7.841137214475611,
-    "difficulty_bayes": null
+    "quality_bayes": 8.048254910272714,
+    "difficulty_bayes": 2.7172530733361597
   },
   "recommendation_analysis": {
     "rate": 1.0,
@@ -43,16 +43,16 @@
           "mejores profesores",
           "profesores"
         ],
-        "weight": 0.30223413970356555
+        "weight": 0.30223413970356516
       },
       {
         "id": 1,
         "words": [
-          "mejores profesores",
           "mejores",
+          "mejores profesores",
           "profesores",
-          "es",
-          "duda"
+          "duda",
+          "es"
         ],
         "weight": 0.34602291374497196
       }
@@ -90,7 +90,21 @@
       ],
       "sigma": 0.0
     },
-    "difficulty_trend": null,
+    "difficulty_trend": {
+      "series": [
+        0.0,
+        4.0,
+        4.0,
+        2.0
+      ],
+      "ewma": [
+        0.0,
+        1.2,
+        2.04,
+        2.028
+      ],
+      "sigma": 1.424128739498879
+    },
     "forecast": {
       "quality_next": 10.0,
       "quality_band": [
@@ -106,8 +120,8 @@
       "fecha_iso": "2021-01-16T00:00:00",
       "materia": "MÁQUINAS ELECTRICAS",
       "calidad": 10.0,
-      "dificultad": null,
-      "nota": 9.0,
+      "dificultad": 2.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "Este profesor demuesta su dominio de los temas y es muy bueno para explicarlos, ademas de que tiene buena paciencia para cualquier duda y dar ejemplos reales de la industria, no la dude compa."
     },
@@ -115,8 +129,8 @@
       "fecha_iso": "2020-06-24T00:00:00",
       "materia": "ENERGIAS RENOVABLE (SOLAR-EOLICA)",
       "calidad": 10.0,
-      "dificultad": null,
-      "nota": 9.0,
+      "dificultad": 4.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "Lo recomiendo totalmente, de los mejores profesores del ITC"
     },
@@ -124,8 +138,8 @@
       "fecha_iso": "2019-05-06T00:00:00",
       "materia": "SISTEMAS FOTOVOLTAICOS",
       "calidad": 10.0,
-      "dificultad": null,
-      "nota": 9.0,
+      "dificultad": 4.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "explica claro, si tienes alguna duda siempre esta disponible para ayudarte, es de los mejores profesores de renovables."
     },
@@ -133,8 +147,8 @@
       "fecha_iso": "2019-01-15T00:00:00",
       "materia": "ENERGÍA EÓLICA",
       "calidad": 10.0,
-      "dificultad": null,
-      "nota": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "MUY BUEN MAESTRO"
     }

@@ -1,14 +1,14 @@
 {
   "professor_id": "Rosa_Olivia_Palazuelos_Trucios",
   "nombre": "Rosa Olivia Palazuelos Trucios",
-  "universidad": "Instituto Tecnologico de Culiacan",
+  "universidad": "Instituto Tecnológico de Culiacán",
   "decay_analysis": {
-    "quality_decayed": 9.999999999999998,
-    "difficulty_decayed": null
+    "quality_decayed": 10.0,
+    "difficulty_decayed": 2.0471637708618693
   },
   "bayes_analysis": {
-    "quality_bayes": 7.481326750221547,
-    "difficulty_bayes": null
+    "quality_bayes": 7.7229640619848325,
+    "difficulty_bayes": 2.670128585558853
   },
   "recommendation_analysis": {
     "rate": 1.0,
@@ -57,8 +57,8 @@
       "fecha_iso": "2020-06-24T00:00:00",
       "materia": "TERMODINAMICA- MECANICA DE FLUIDOS",
       "calidad": 10.0,
-      "dificultad": null,
-      "nota": 9.0,
+      "dificultad": 4.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "Excelente profesora y persona. La calidad de sus clases era excelente, te apoyaba y entendía en todas sus posibilidades, de las mejores maestras que he tenido. Se le notaba que le gustaba lo que hacia, comprensiva al máximo. DEP PROFESORA."
     },
@@ -66,8 +66,8 @@
       "fecha_iso": "2020-05-05T00:00:00",
       "materia": "TERMODINÁMICA Y MECÁNICA DE FLUIDOS",
       "calidad": 10.0,
-      "dificultad": null,
-      "nota": 8.5,
+      "dificultad": 0.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "Tuve la oportunidad de cursar dicha materia con ella, y simplemente fue un placer en toda la extensión de la palabra. Una gran persona, con una calidad humana impresionante, y un amor tremendo por enseñar.\nDescansé en paz ingeniera, donde quiera que esté, gracias por tanto... Se le va a extrañar."
     }

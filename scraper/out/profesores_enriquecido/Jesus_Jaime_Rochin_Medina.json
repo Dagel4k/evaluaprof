@@ -1,36 +1,36 @@
 {
   "professor_id": "Jesus_Jaime_Rochin_Medina",
   "nombre": "Jesus Jaime Rochin Medina",
-  "universidad": "Instituto Tecnologico de Culiacan",
+  "universidad": "Instituto Tecnológico de Culiacán",
   "decay_analysis": {
-    "quality_decayed": 9.935788651871132,
-    "difficulty_decayed": null
+    "quality_decayed": 9.927490509490784,
+    "difficulty_decayed": 3.386356321096417
   },
   "bayes_analysis": {
-    "quality_bayes": 8.16328947074462,
-    "difficulty_bayes": null
+    "quality_bayes": 8.111704582921199,
+    "difficulty_bayes": 3.0694362017804155
   },
   "recommendation_analysis": {
     "rate": 1.0,
     "wilson_interval": [
-      0.6456611570247934,
+      0.565508505247919,
       1
     ],
-    "n_recommendations": 7
+    "n_recommendations": 5
   },
   "subject_normalization": {
-    "z_mean": 0.71,
-    "z_mean_decayed": 0.75,
+    "z_mean": 0.92,
+    "z_mean_decayed": 0.98,
     "per_subject": [
       {
         "materia": "BIOQUIMICA",
-        "z_decayed": 0.8999999999999999,
-        "n": 10
+        "z_decayed": 1.127014325695366,
+        "n": 8
       },
       {
         "materia": "BIOQUÍMICA",
-        "z_decayed": 0.7041823890570352,
-        "n": 8
+        "z_decayed": 0.9215553488854545,
+        "n": 6
       }
     ]
   },
@@ -44,33 +44,12 @@
     "n_grades": 0
   },
   "nlp_analysis": {
-    "topics": [
-      {
-        "id": 0,
-        "words": [
-          "faltan",
-          "profe"
-        ],
-        "weight": 0.2831249588691854
-      },
-      {
-        "id": 1,
-        "words": [
-          "profe",
-          "faltan"
-        ],
-        "weight": 0.38641162014241426
-      }
-    ],
+    "topics": [],
     "sentiment": {
-      "overall": 0.25,
-      "by_month": {
-        "2019-08": 0.0,
-        "2018-06": 0.5,
-        "2018-03": 0.0
-      }
+      "overall": null,
+      "by_month": {}
     },
-    "n_comments": 4
+    "n_comments": 3
   },
   "integrity_analysis": {
     "dup_rate": 0.0,
@@ -81,28 +60,38 @@
   "trends_analysis": {
     "quality_trend": {
       "series": [
-        10.0,
-        10.0,
         9.5,
         10.0,
         10.0,
         10.0
       ],
       "ewma": [
-        10.0,
-        10.0,
-        9.85,
-        9.895,
-        9.926499999999999,
-        9.94855
+        9.5,
+        9.649999999999999,
+        9.754999999999999,
+        9.828499999999998
       ],
-      "sigma": 0.16683665789228308
+      "sigma": 0.14726018640488053
     },
-    "difficulty_trend": null,
+    "difficulty_trend": {
+      "series": [
+        4.0,
+        6.0,
+        0.0,
+        4.0
+      ],
+      "ewma": [
+        4.0,
+        4.6,
+        3.2199999999999998,
+        3.4539999999999997
+      ],
+      "sigma": 2.018311753256502
+    },
     "forecast": {
-      "quality_next": 9.94855,
+      "quality_next": 9.828499999999998,
       "quality_band": [
-        9.621550150531125,
+        9.539870034646432,
         10.0
       ],
       "confidence": 0.95
@@ -114,8 +103,8 @@
       "fecha_iso": "2024-03-23T00:00:00",
       "materia": "BIOQUÍMICA DEL NITRÓGENO",
       "calidad": 10.0,
-      "dificultad": null,
-      "nota": 7.5,
+      "dificultad": 4.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": ""
     },
@@ -123,7 +112,7 @@
       "fecha_iso": "2021-06-20T00:00:00",
       "materia": "BIOQUÍMICA",
       "calidad": 10.0,
-      "dificultad": null,
+      "dificultad": 0.0,
       "nota": null,
       "recomienda": 1,
       "comentario": ""
@@ -132,8 +121,8 @@
       "fecha_iso": "2019-08-03T00:00:00",
       "materia": "BIOQUIMICA",
       "calidad": 10.0,
-      "dificultad": null,
-      "nota": 7.0,
+      "dificultad": 6.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "Los que faltan ya están reprobados"
     },
@@ -141,8 +130,8 @@
       "fecha_iso": "2018-06-08T00:00:00",
       "materia": "BIOQUÍMICA",
       "calidad": 9.0,
-      "dificultad": null,
-      "nota": 7.0,
+      "dificultad": 4.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "Es muy buen profesor, solo que tienes que ser muy dedicado"
     },
@@ -150,35 +139,16 @@
       "fecha_iso": "2018-06-04T00:00:00",
       "materia": "BIOQUÍMICA 1",
       "calidad": 10.0,
-      "dificultad": null,
-      "nota": 9.0,
+      "dificultad": 4.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "El mejor profe que he tenido hasta la fecha, sabe mucho y se le facilita enseñarlo, le gusta que participen, sus exámenes son dificiles y los que faltan a clase RIP"
-    },
-    {
-      "fecha_iso": "2018-03-02T00:00:00",
-      "materia": "BIOQUÍMICA",
-      "calidad": 10.0,
-      "dificultad": null,
-      "nota": 7.0,
-      "recomienda": 1,
-      "comentario": "Besto waifu y besto profe"
-    },
-    {
-      "fecha_iso": "2018-01-14T00:00:00",
-      "materia": "BIOQUÍMICA 1",
-      "calidad": 10.0,
-      "dificultad": null,
-      "nota": 8.0,
-      "recomienda": 1,
-      "comentario": ""
     }
   ],
   "comments_recent": [
     "Los que faltan ya están reprobados",
     "Es muy buen profesor, solo que tienes que ser muy dedicado",
-    "El mejor profe que he tenido hasta la fecha, sabe mucho y se le facilita enseñarlo, le gusta que participen, sus exámenes son dificiles y los que faltan a clase RIP",
-    "Besto waifu y besto profe"
+    "El mejor profe que he tenido hasta la fecha, sabe mucho y se le facilita enseñarlo, le gusta que participen, sus exámenes son dificiles y los que faltan a clase RIP"
   ],
-  "n_reviews": 7
+  "n_reviews": 5
 }

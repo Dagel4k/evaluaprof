@@ -1,0 +1,112 @@
+{
+  "nombre": "Cesar Ortiz Franco",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "ciudad": "Ciudad: culiacan, sinaloa",
+  "departamento": "Departamento/Facultad: Eléctrica/Electrónica",
+  "calidad_general": 4.2,
+  "porcentaje_recomienda": 17,
+  "nivel_dificultad": 3.0,
+  "etiquetas": [
+    "BARCO (3)",
+    "DEJA TRABAJOS LARGOS (1)",
+    "HACE EXÁMENES SORPRESA (1)",
+    "ASISTENCIA OBLIGATORIA (1)"
+  ],
+  "numero_calificaciones": 6,
+  "calificaciones": [
+    {
+      "fecha": "09/Dic/2022",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 2.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Electrónica analógica",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "23",
+      "interes_clase": "",
+      "comentario": "Un reverendo idiota, no sabe absolutamente nada y llega media hora tarde pero tomando lista, tampoco te enseñará nada pero te traerá de su pendejo hasta el final del semestre, y te hará exámenes sorpresa sobre lo que no enseñó. Una completa basura.",
+      "etiquetas_comentario": [
+        "Barco",
+        "Hace exámenes sorpresa",
+        "Asistencia obligatoria"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "17/Jun/2021",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 2.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "máquinas eléctricas",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "8",
+      "interes_clase": "",
+      "comentario": "no sabe nada, se la lleva presumiendo sus disque viajes y trabajos que ha tenido, pero no te enseña la materia, te lleva por lo facil y cuando llega lo dificil es donde te troza y no explica porque ni el conoce",
+      "etiquetas_comentario": [
+        "Barco"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "14/Jun/2019",
+      "tipo_calificacion": "REGULAR",
+      "puntaje_calidad_general": 6.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Instrumentacion",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "N/A",
+      "interes_clase": "",
+      "comentario": "es compa el vato pero no enseña absolutamente nada, llega siempre media hora tarde, nomas se la pasa presumiendo que segun el sabe mucho y tiene mucha experiencia, esta facil pasar y sales mas o menos bien pero no aprendes nada y te trae como pendejo hasta el ULTIMO dia",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "1"
+    },
+    {
+      "fecha": "02/Feb/2017",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "maquina electrica",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "9",
+      "interes_clase": "",
+      "comentario": "Es muy claro y le gusta hacer muchas practicas con equipos reales.",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "07/Ene/2017",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 3.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Maquinas Electricas",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "9",
+      "interes_clase": "",
+      "comentario": "La mayor basura del tec, la verdad el mas grande desperdicio de tiempo que he pasado.",
+      "etiquetas_comentario": [
+        "Deja trabajos largos"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "12/Nov/2016",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 2.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Máquinas Eléctricas",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "23",
+      "interes_clase": "",
+      "comentario": "Una vil basura, no sabe absolutamente nada de la materia, un farsante de primera, que vergüenza que halla \"\"\"\"\"profesores\"\"\"\" así en el Tec, vilmente te miente en tu cara (por su nulo conocimiento del magnetismo y de máquinas eléctrica), faltista, grosero y bastante lloroncito por cualquier queja.",
+      "etiquetas_comentario": [
+        "Barco"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    }
+  ]
+}

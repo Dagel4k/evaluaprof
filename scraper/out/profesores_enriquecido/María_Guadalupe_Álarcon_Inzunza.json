@@ -1,51 +1,41 @@
 {
   "professor_id": "María_Guadalupe_Álarcon_Inzunza",
   "nombre": "María Guadalupe Álarcon Inzunza",
-  "universidad": "Instituto Tecnologico de Culiacan",
+  "universidad": "Instituto Tecnológico de Culiacán",
   "decay_analysis": {
-    "quality_decayed": 3.158479813906537,
-    "difficulty_decayed": null
+    "quality_decayed": 2.407249445545898,
+    "difficulty_decayed": 5.746766172800212
   },
   "bayes_analysis": {
-    "quality_bayes": 5.688796050132928,
-    "difficulty_bayes": null
+    "quality_bayes": 5.645037916254533,
+    "difficulty_bayes": 3.7361028684470825
   },
   "recommendation_analysis": {
-    "rate": 0.3,
+    "rate": 0.2,
     "wilson_interval": [
-      0.10778928748621182,
-      0.6032267800204347
+      0.036223160969787456,
+      0.6244717358814612
     ],
-    "n_recommendations": 10
+    "n_recommendations": 5
   },
   "subject_normalization": {
-    "z_mean": -1.13,
-    "z_mean_decayed": -1.48,
+    "z_mean": -1.56,
+    "z_mean_decayed": -1.58,
     "per_subject": [
-      {
-        "materia": "ENTORNO MACROECONÓMICO",
-        "z_decayed": -0.836438428130467,
-        "n": 3
-      },
-      {
-        "materia": "INGENIERÍA ECONÓMICA",
-        "z_decayed": -1.0156550643136635,
-        "n": 6
-      },
-      {
-        "materia": "ECONOMÍA",
-        "z_decayed": -1.020823134214818,
-        "n": 13
-      },
-      {
-        "materia": "ECONOMIA EMPRESARIAL",
-        "z_decayed": -1.1547005383792512,
-        "n": 3
-      },
       {
         "materia": "TALLER DE INVESTIGACIÓN 2",
         "z_decayed": -1.2298373876248845,
         "n": 5
+      },
+      {
+        "materia": "ADMINISTRACIÓN Y CONTABILIDAD",
+        "z_decayed": -1.6605351695102175,
+        "n": 5
+      },
+      {
+        "materia": "ECONOMIA",
+        "z_decayed": -1.804024529906538,
+        "n": 6
       }
     ]
   },
@@ -59,39 +49,12 @@
     "n_grades": 0
   },
   "nlp_analysis": {
-    "topics": [
-      {
-        "id": 0,
-        "words": [
-          "docente",
-          "habla",
-          "es",
-          "hacer"
-        ],
-        "weight": 0.24118331308073007
-      },
-      {
-        "id": 1,
-        "words": [
-          "hacer",
-          "habla",
-          "es",
-          "docente"
-        ],
-        "weight": 0.32598109997223723
-      }
-    ],
+    "topics": [],
     "sentiment": {
-      "overall": 0.0,
-      "by_month": {
-        "2024-08": 0.0,
-        "2024-05": 0.0,
-        "2022-09": 0.0,
-        "2021-09": 0.0,
-        "2021-02": 0.0
-      }
+      "overall": null,
+      "by_month": {}
     },
-    "n_comments": 5
+    "n_comments": 3
   },
   "integrity_analysis": {
     "dup_rate": 0.0,
@@ -102,10 +65,6 @@
   "trends_analysis": {
     "quality_trend": {
       "series": [
-        8.0,
-        7.5,
-        4.0,
-        5.0,
         2.0,
         3.0,
         3.0,
@@ -113,24 +72,36 @@
         2.0
       ],
       "ewma": [
-        8.0,
-        7.85,
-        6.694999999999999,
-        6.1865,
-        4.930549999999999,
-        4.351384999999999,
-        3.945969499999999,
-        3.3621786499999993,
-        2.9535250549999996
+        2.0,
+        2.3,
+        2.51,
+        2.3569999999999998,
+        2.2499
       ],
-      "sigma": 0.9657485977834909
+      "sigma": 0.4615186583443837
     },
-    "difficulty_trend": null,
+    "difficulty_trend": {
+      "series": [
+        4.0,
+        8.0,
+        4.0,
+        6.0,
+        6.0
+      ],
+      "ewma": [
+        4.0,
+        5.199999999999999,
+        4.839999999999999,
+        5.187999999999999,
+        5.431599999999999
+      ],
+      "sigma": 1.350589512768406
+    },
     "forecast": {
-      "quality_next": 2.9535250549999996,
+      "quality_next": 2.2499,
       "quality_band": [
-        1.0606578033443574,
-        4.846392306655642
+        1.3453234296450076,
+        3.154476570354992
       ],
       "confidence": 0.95
     },
@@ -141,8 +112,8 @@
       "fecha_iso": "2025-01-17T00:00:00",
       "materia": "ECONOMIA",
       "calidad": 2.0,
-      "dificultad": null,
-      "nota": 7.5,
+      "dificultad": 6.0,
+      "nota": null,
       "recomienda": 0,
       "comentario": ""
     },
@@ -150,8 +121,8 @@
       "fecha_iso": "2024-12-06T00:00:00",
       "materia": "ADMINISTRACIÓN Y CONTABILIDAD",
       "calidad": 2.0,
-      "dificultad": null,
-      "nota": 9.0,
+      "dificultad": 6.0,
+      "nota": null,
       "recomienda": 0,
       "comentario": ""
     },
@@ -159,8 +130,8 @@
       "fecha_iso": "2024-08-12T00:00:00",
       "materia": "TALLER DE INVESTIGACIÓN 2",
       "calidad": 3.0,
-      "dificultad": null,
-      "nota": 9.0,
+      "dificultad": 4.0,
+      "nota": null,
       "recomienda": 0,
       "comentario": "Es una aberración de docente, jamás me había tocado un docente de tan bajo nivel, no se le entiende nada, solo habla y habla de los temas los cuales aburren en cuestiones de segundos, todas las demás pésimas referencias son completamente acertadas."
     },
@@ -168,8 +139,8 @@
       "fecha_iso": "2024-05-10T00:00:00",
       "materia": "ENTORNO MACROECONÓMICO",
       "calidad": 3.0,
-      "dificultad": null,
-      "nota": 10.0,
+      "dificultad": 8.0,
+      "nota": null,
       "recomienda": 0,
       "comentario": "Baja autoestima, pareciera que es maestra porque quiere tener amigos, no la recomiendo, que pena tener este tipo de  “docente”."
     },
@@ -177,63 +148,16 @@
       "fecha_iso": "2022-09-04T00:00:00",
       "materia": "ECONOMIA EMPRESARIAL",
       "calidad": 2.0,
-      "dificultad": null,
-      "nota": 23.0,
+      "dificultad": 4.0,
+      "nota": null,
       "recomienda": 0,
       "comentario": "Es muy mala onda como persona, no ayuda a sus alumnos aunque le expliques la situación, no esta a disposición de hacer nada por ti y da favoritismo a los alumnos."
-    },
-    {
-      "fecha_iso": "2021-09-03T00:00:00",
-      "materia": "ECONOMÍA",
-      "calidad": 5.0,
-      "dificultad": null,
-      "nota": 10.0,
-      "recomienda": 0,
-      "comentario": "Mis respetos para lo responsable que es (nunca faltaron sus clases), pero es muy tedioso, habla toda la hora y en ocasiones te enreda al explicar. Sube los trabajos que debes hacer desde mucho tiempo antes y suele ser enredoso. Si tienes otra opción mejor"
-    },
-    {
-      "fecha_iso": "2021-02-01T00:00:00",
-      "materia": "INGENIERÍA ECONÓMICA",
-      "calidad": 4.0,
-      "dificultad": null,
-      "nota": 9.5,
-      "recomienda": 0,
-      "comentario": "No aprendí nada"
-    },
-    {
-      "fecha_iso": "2020-01-11T00:00:00",
-      "materia": "ECONOMÍA EMPRESARIAL",
-      "calidad": 8.0,
-      "dificultad": null,
-      "nota": 9.0,
-      "recomienda": 1,
-      "comentario": ""
-    },
-    {
-      "fecha_iso": "2020-01-11T00:00:00",
-      "materia": "ENTORNO MACROECONÓMICO",
-      "calidad": 7.0,
-      "dificultad": null,
-      "nota": 9.5,
-      "recomienda": 1,
-      "comentario": ""
-    },
-    {
-      "fecha_iso": "2019-08-04T00:00:00",
-      "materia": "INGENIERÍA ECONÓMICA",
-      "calidad": 8.0,
-      "dificultad": null,
-      "nota": 9.5,
-      "recomienda": 1,
-      "comentario": ""
     }
   ],
   "comments_recent": [
     "Es una aberración de docente, jamás me había tocado un docente de tan bajo nivel, no se le entiende nada, solo habla y habla de los temas los cuales aburren en cuestiones de segundos, todas las demás pésimas referencias son completamente acertadas.",
     "Baja autoestima, pareciera que es maestra porque quiere tener amigos, no la recomiendo, que pena tener este tipo de  “docente”.",
-    "Es muy mala onda como persona, no ayuda a sus alumnos aunque le expliques la situación, no esta a disposición de hacer nada por ti y da favoritismo a los alumnos.",
-    "Mis respetos para lo responsable que es (nunca faltaron sus clases), pero es muy tedioso, habla toda la hora y en ocasiones te enreda al explicar. Sube los trabajos que debes hacer desde mucho tiempo antes y suele ser enredoso. Si tienes otra opción mejor",
-    "No aprendí nada"
+    "Es muy mala onda como persona, no ayuda a sus alumnos aunque le expliques la situación, no esta a disposición de hacer nada por ti y da favoritismo a los alumnos."
   ],
-  "n_reviews": 10
+  "n_reviews": 5
 }

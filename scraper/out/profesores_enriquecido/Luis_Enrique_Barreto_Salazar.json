@@ -1,14 +1,14 @@
 {
   "professor_id": "Luis_Enrique_Barreto_Salazar",
   "nombre": "Luis Enrique Barreto Salazar",
-  "universidad": "Instituto Tecnologico de Culiacan",
+  "universidad": "Instituto Tecnológico de Culiacán",
   "decay_analysis": {
     "quality_decayed": 10.0,
-    "difficulty_decayed": null
+    "difficulty_decayed": 0.0
   },
   "bayes_analysis": {
-    "quality_bayes": 7.252356454787142,
-    "difficulty_bayes": null
+    "quality_bayes": 7.515960794892544,
+    "difficulty_bayes": 2.5492311842460214
   },
   "recommendation_analysis": {
     "rate": 1.0,
@@ -19,13 +19,13 @@
     "n_recommendations": 1
   },
   "subject_normalization": {
-    "z_mean": 0.9,
-    "z_mean_decayed": 0.9,
+    "z_mean": 1.0,
+    "z_mean_decayed": 1.0,
     "per_subject": [
       {
         "materia": "CONTROL DIGITAL",
-        "z_decayed": 0.8974859800027294,
-        "n": 9
+        "z_decayed": 1.0,
+        "n": 5
       }
     ]
   },
@@ -63,8 +63,8 @@
       "fecha_iso": "2024-07-01T00:00:00",
       "materia": "CONTROL DIGITAL",
       "calidad": 10.0,
-      "dificultad": null,
-      "nota": 7.5,
+      "dificultad": 0.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "10/10 puro control digital en verano chavales"
     }

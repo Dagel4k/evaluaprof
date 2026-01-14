@@ -1,0 +1,79 @@
+{
+  "nombre": "JUAN IRINEO MARTINEZ",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "ciudad": "Ciudad: culiacan, sinaloa",
+  "departamento": "Departamento/Facultad: ING. INDUSTRIAL",
+  "calidad_general": 7.3,
+  "porcentaje_recomienda": 75,
+  "nivel_dificultad": 2.0,
+  "etiquetas": [
+    "LAS CLASES SON LARGAS (1)",
+    "DEJA TRABAJOS LARGOS (2)",
+    "PREPÁRATE PARA LEER (1)"
+  ],
+  "numero_calificaciones": 4,
+  "calificaciones": [
+    {
+      "fecha": "04/Ene/2022",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 7.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Economia",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "N/A",
+      "interes_clase": "",
+      "comentario": "Es buen maestro sin embargo le falta transmitir más las cosas, deja muchas tareas y no califica a tiempo",
+      "etiquetas_comentario": [
+        "Prepárate para leer",
+        "Deja trabajos largos"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "29/May/2016",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 7.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Economia",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "9",
+      "interes_clase": "",
+      "comentario": "Le hace falta aun, si sabe del tema mas sin embargo le falla mucho a la hora de explicar pues parece que solo se aprende de memoria lo de los libros mas no con sus propias palabras. Deja muchas copias y largas pero esta facil de copiar en los examenes",
+      "etiquetas_comentario": [
+        "Las clases son largas",
+        "Deja trabajos largos"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "14/Nov/2013",
+      "tipo_calificacion": "REGULAR",
+      "puntaje_calidad_general": 5.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "ADMON. MANTENIMIENTO",
+      "asistencia": "",
+      "calificacion_recibida": "N/A",
+      "interes_clase": "N/A",
+      "comentario": "ES BUEN PROFE AUNQUE NO DIGO QUE EXCELENTE, EXPLICA BIEN PERO NO SOY MUY AMANTE DE SU FORMA DE EXPLICAR Y SENTI QUE MUCHAS COSAS LAS EVADÍA Y SOLO TE HABLA DE LO QUE EL SABE Y NO DE LO DEL CURSO",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "25/May/2011",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "MANTENIMIENTO",
+      "asistencia": "",
+      "calificacion_recibida": "10",
+      "interes_clase": "10",
+      "comentario": "MUY BUENO  DE SEGURO SALUDOS JUANITO FUE RESPONSABLE SIEMPRE CUANDO ESTUDIABAMOS EN EL ITC",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "1"
+    }
+  ]
+}

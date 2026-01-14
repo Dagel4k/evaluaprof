@@ -1,0 +1,90 @@
+{
+  "nombre": "Jesús nicomedes leal Leon",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "ciudad": "Ciudad: culiacan, sinaloa",
+  "departamento": "Departamento/Facultad: mecanica",
+  "calidad_general": 6.3,
+  "porcentaje_recomienda": 75,
+  "nivel_dificultad": 3.0,
+  "etiquetas": [
+    "PREPÁRATE PARA LEER (2)",
+    "LA PARTICIPACIÓN IMPORTA (1)",
+    "POCOS EXÁMENES (1)",
+    "ASPECTOS DE CALIFICACIÓN CLAROS (1)",
+    "BRINDA APOYO (1)",
+    "ASISTENCIA OBLIGATORIA (1)",
+    "LAS CLASES SON LARGAS (1)",
+    "MUCHOS PROYECTOS GRUPALES (1)"
+  ],
+  "numero_calificaciones": 4,
+  "calificaciones": [
+    {
+      "fecha": "18/May/2023",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 2.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Principios electricos",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "8",
+      "interes_clase": "",
+      "comentario": "Su clase es leer información y dejar practicas electronicas donde los materiales suelen ser costosos, le preguntas dudas y no suele saber, su examen lo hace como si enseñara bien los ejercicios que se hacen en clase, la asistencia y participación importan, no lo recomiendo",
+      "etiquetas_comentario": [
+        "Asistencia obligatoria",
+        "Las clases son largas",
+        "Muchos proyectos grupales"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "19/Dic/2021",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 7.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Instrumentación",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "9",
+      "interes_clase": "",
+      "comentario": "",
+      "etiquetas_comentario": [
+        "Prepárate para leer",
+        "Aspectos de calificación claros",
+        "Brinda apoyo"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "07/Ago/2021",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 8.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "instrumentacion",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "N/A",
+      "interes_clase": "",
+      "comentario": "Este profe se pasa de buena gente, el que repruebe con el mejor salgase de estudiar porque los examenes son super faciles. Eso si, trata de no dormirte en sus clases, el solo lee informacion.",
+      "etiquetas_comentario": [
+        "Prepárate para leer",
+        "La Participación Importa",
+        "Pocos Exámenes"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "18/Nov/2013",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 8.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "instrumentación y control",
+      "asistencia": "",
+      "calificacion_recibida": "N/A",
+      "interes_clase": "N/A",
+      "comentario": "",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    }
+  ]
+}

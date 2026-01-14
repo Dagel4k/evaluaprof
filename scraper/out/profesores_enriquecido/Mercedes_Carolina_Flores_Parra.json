@@ -1,51 +1,46 @@
 {
   "professor_id": "Mercedes_Carolina_Flores_Parra",
   "nombre": "Mercedes Carolina Flores Parra",
-  "universidad": "Instituto Tecnologico de Culiacan",
+  "universidad": "Instituto Tecnológico de Culiacán",
   "decay_analysis": {
-    "quality_decayed": 8.705495870864738,
-    "difficulty_decayed": null
+    "quality_decayed": 9.646525318697698,
+    "difficulty_decayed": 0.48176492366027973
   },
   "bayes_analysis": {
-    "quality_bayes": 7.685909608811241,
-    "difficulty_bayes": null
+    "quality_bayes": 8.045037916254532,
+    "difficulty_bayes": 2.0027695351137487
   },
   "recommendation_analysis": {
-    "rate": 0.769,
+    "rate": 0.65,
     "wilson_interval": [
-      0.49743126004873084,
-      0.918206209075343
+      0.2637430632333918,
+      0.9059094883409838
     ],
-    "n_recommendations": 13
+    "n_recommendations": 5
   },
   "subject_normalization": {
-    "z_mean": 0.76,
-    "z_mean_decayed": 0.83,
+    "z_mean": 0.87,
+    "z_mean_decayed": 0.89,
     "per_subject": [
       {
-        "materia": "QUIMICA",
-        "z_decayed": 1.3890491705440697,
-        "n": 83
+        "materia": "QUÍMICA",
+        "z_decayed": 1.1385248008993316,
+        "n": 24
       },
       {
-        "materia": "QUÍMICA",
-        "z_decayed": 1.0169324219711697,
-        "n": 44
+        "materia": "QUIMICA",
+        "z_decayed": 1.0589562989177865,
+        "n": 24
       },
       {
         "materia": "PROBABILIDAD Y ESTADISTICA",
-        "z_decayed": 0.9251304240994332,
-        "n": 32
+        "z_decayed": 0.9178707160657958,
+        "n": 19
       },
       {
         "materia": "FISICA GENERAL",
-        "z_decayed": 0.5987678452176556,
-        "n": 12
-      },
-      {
-        "materia": "---",
-        "z_decayed": -0.29578501207314345,
-        "n": 521
+        "z_decayed": 0.6982918226480316,
+        "n": 9
       }
     ]
   },
@@ -63,91 +58,82 @@
       {
         "id": 0,
         "words": [
-          "es buena",
-          "clases",
-          "examenes",
+          "maestra",
           "explica",
-          "es"
+          "temas",
+          "es",
+          "examenes"
         ],
-        "weight": 0.1851536024492313
+        "weight": 0.38723220417379717
       },
       {
         "id": 1,
         "words": [
-          "comentario esperando",
-          "esperando",
-          "comentario",
-          "esperando revision",
-          "revision"
-        ],
-        "weight": 0.21885128244460136
-      },
-      {
-        "id": 2,
-        "words": [
-          "clases",
+          "temas",
+          "explica",
           "da",
-          "buenas clases",
-          "da buenas",
-          "buenas"
+          "si",
+          "clases"
         ],
-        "weight": 0.2526627260253891
+        "weight": 0.2591047400719581
       }
     ],
     "sentiment": {
       "overall": 0.0,
       "by_month": {
+        "2025-12": 0.0,
         "2025-05": 0.0,
         "2025-03": 0.0,
-        "2023-01": 0.0,
-        "2021-11": 0.0,
-        "2021-09": 0.0,
-        "2018-06": 0.0
+        "2023-01": 0.0
       }
     },
-    "n_comments": 6
+    "n_comments": 4
   },
   "integrity_analysis": {
-    "dup_rate": 0.067,
+    "dup_rate": 0.0,
     "bursts": [],
     "low_variance_flag": 0,
-    "trust_score": 0.97
+    "trust_score": 1.0
   },
   "trends_analysis": {
     "quality_trend": {
       "series": [
-        7.0,
-        8.0,
-        10.0,
-        8.0,
-        10.0,
-        4.0,
-        10.0,
         10.0,
         9.0,
         9.0,
+        10.0,
         10.0
       ],
       "ewma": [
-        7.0,
-        7.299999999999999,
-        8.11,
-        8.077,
-        8.6539,
-        7.25773,
-        8.080411,
-        8.6562877,
-        8.759401389999999,
-        8.831580973,
-        9.182106681099999
+        10.0,
+        9.7,
+        9.489999999999998,
+        9.642999999999999,
+        9.7501
       ],
-      "sigma": 1.4276434928297956
+      "sigma": 0.4615186583443835
     },
-    "difficulty_trend": null,
+    "difficulty_trend": {
+      "series": [
+        0.0,
+        0.0,
+        2.0,
+        0.0,
+        0.0
+      ],
+      "ewma": [
+        0.0,
+        0.0,
+        0.6,
+        0.42,
+        0.294
+      ],
+      "sigma": 0.7295061343127965
+    },
     "forecast": {
-      "quality_next": 9.182106681099999,
+      "quality_next": 9.7501,
       "quality_band": [
-        6.3839254351536,
+        8.845523429645008,
         10.0
       ],
       "confidence": 0.95
@@ -156,11 +142,20 @@
   },
   "reviews_public": [
     {
+      "fecha_iso": "2025-12-05T00:00:00",
+      "materia": "FISICA GENERAL",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "La mejor maestra que he conocido, enseña los temas de una manera que entiendes y facil, es un amor de persona y los examenes son sencillos y cosas que ella misma ya puso en el pizarron, aparte que te da dia libres antes y despues de los examenes"
+    },
+    {
       "fecha_iso": "2025-05-31T00:00:00",
       "materia": "PROBABILIDAD Y ESTADISTICA",
       "calidad": 10.0,
-      "dificultad": null,
-      "nota": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "La profesora es muy amigable, sus temas son claros y lo que explica viene en los exámenes, las clases tienden a durar 40min, y deja una o dos por parcial máximo, Recomendada al 100%"
     },
@@ -168,8 +163,8 @@
       "fecha_iso": "2025-03-20T00:00:00",
       "materia": "QUÍMICA",
       "calidad": 9.0,
-      "dificultad": null,
-      "nota": 9.5,
+      "dificultad": 2.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "Es muy buena maestra, carguen con ella si quieren una materia tranquila, explica bien , los exámenes son fáciles, no es nada pesado y aprendes mucho."
     },
@@ -177,8 +172,8 @@
       "fecha_iso": "2023-01-10T00:00:00",
       "materia": "FISICA GENERAL",
       "calidad": 9.0,
-      "dificultad": null,
-      "nota": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "da buenas clases, si eres de sistemas carga con ella"
     },
@@ -186,100 +181,17 @@
       "fecha_iso": "2022-01-24T00:00:00",
       "materia": "QUIMICA",
       "calidad": 10.0,
-      "dificultad": null,
-      "nota": 9.0,
-      "recomienda": 1,
-      "comentario": ""
-    },
-    {
-      "fecha_iso": "2021-11-05T00:00:00",
-      "materia": "QUÍMICA",
-      "calidad": 10.0,
-      "dificultad": null,
-      "nota": 10.0,
-      "recomienda": 1,
-      "comentario": "Es buena maestra, da buenas clases."
-    },
-    {
-      "fecha_iso": "2021-09-06T00:00:00",
-      "materia": "---",
-      "calidad": 3.0,
-      "dificultad": null,
-      "nota": 10.0,
-      "recomienda": 0,
-      "comentario": "[Comentario esperando revisión]"
-    },
-    {
-      "fecha_iso": "2021-09-06T00:00:00",
-      "materia": "MERCEDES CAROLINA FLORES PARRA",
-      "calidad": 5.0,
-      "dificultad": null,
-      "nota": 9.5,
-      "recomienda": 0,
-      "comentario": ""
-    },
-    {
-      "fecha_iso": "2020-08-09T00:00:00",
-      "materia": "QUI",
-      "calidad": 10.0,
-      "dificultad": null,
-      "nota": 9.0,
-      "recomienda": 1,
-      "comentario": ""
-    },
-    {
-      "fecha_iso": "2018-06-08T00:00:00",
-      "materia": "---",
-      "calidad": 8.0,
-      "dificultad": null,
-      "nota": 10.0,
-      "recomienda": 1,
-      "comentario": "[Comentario esperando revisión]"
-    },
-    {
-      "fecha_iso": "2016-11-14T00:00:00",
-      "materia": "FENOMENOS DE TRANSPORTE 1",
-      "calidad": 10.0,
-      "dificultad": null,
+      "dificultad": 0.0,
       "nota": null,
-      "recomienda": 1,
-      "comentario": ""
-    },
-    {
-      "fecha_iso": "2016-09-27T00:00:00",
-      "materia": "REMEDIACION DE SUELOS",
-      "calidad": 10.0,
-      "dificultad": null,
-      "nota": null,
-      "recomienda": 1,
-      "comentario": ""
-    },
-    {
-      "fecha_iso": "2016-09-19T00:00:00",
-      "materia": "REMEDIACIÓN DE SUELOS CONTAMINADOS",
-      "calidad": 6.0,
-      "dificultad": null,
-      "nota": 8.5,
-      "recomienda": 0,
-      "comentario": ""
-    },
-    {
-      "fecha_iso": "2016-08-05T00:00:00",
-      "materia": "FISICOQUIMICA",
-      "calidad": 7.0,
-      "dificultad": null,
-      "nota": 8.5,
       "recomienda": 1,
       "comentario": ""
     }
   ],
   "comments_recent": [
+    "La mejor maestra que he conocido, enseña los temas de una manera que entiendes y facil, es un amor de persona y los examenes son sencillos y cosas que ella misma ya puso en el pizarron, aparte que te da dia libres antes y despues de los examenes",
     "La profesora es muy amigable, sus temas son claros y lo que explica viene en los exámenes, las clases tienden a durar 40min, y deja una o dos por parcial máximo, Recomendada al 100%",
     "Es muy buena maestra, carguen con ella si quieren una materia tranquila, explica bien , los exámenes son fáciles, no es nada pesado y aprendes mucho.",
-    "da buenas clases, si eres de sistemas carga con ella",
-    "Es buena maestra, da buenas clases.",
-    "[Comentario esperando revisión]",
-    "[Comentario esperando revisión]"
+    "da buenas clases, si eres de sistemas carga con ella"
   ],
-  "n_reviews": 13
+  "n_reviews": 5
 }

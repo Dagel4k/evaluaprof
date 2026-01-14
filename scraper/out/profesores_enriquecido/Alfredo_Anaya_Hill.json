@@ -1,14 +1,14 @@
 {
   "professor_id": "Alfredo_Anaya_Hill",
   "nombre": "Alfredo Anaya Hill",
-  "universidad": "Instituto Tecnologico de Culiacan",
+  "universidad": "Instituto Tecnológico de Culiacán",
   "decay_analysis": {
     "quality_decayed": 8.0,
-    "difficulty_decayed": null
+    "difficulty_decayed": 2.0
   },
   "bayes_analysis": {
-    "quality_bayes": 7.07053827296896,
-    "difficulty_bayes": null
+    "quality_bayes": 7.334142613074363,
+    "difficulty_bayes": 2.731049366064203
   },
   "recommendation_analysis": {
     "rate": 1.0,
@@ -19,13 +19,13 @@
     "n_recommendations": 1
   },
   "subject_normalization": {
-    "z_mean": 0.28,
-    "z_mean_decayed": 0.28,
+    "z_mean": 0.39,
+    "z_mean_decayed": 0.39,
     "per_subject": [
       {
         "materia": "CALCULO DIFERENCIAL",
-        "z_decayed": 0.2841444879979666,
-        "n": 110
+        "z_decayed": 0.3924164461796792,
+        "n": 29
       }
     ]
   },
@@ -63,8 +63,8 @@
       "fecha_iso": "2021-08-30T00:00:00",
       "materia": "CALCULO DIFERENCIAL",
       "calidad": 8.0,
-      "dificultad": null,
-      "nota": 9.0,
+      "dificultad": 2.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": ""
     }

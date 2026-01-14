@@ -1,14 +1,14 @@
 {
   "professor_id": "Russel_Zazueta",
   "nombre": "Russel Zazueta",
-  "universidad": "Instituto Tecnologico de Culiacan",
+  "universidad": "Instituto Tecnológico de Culiacán",
   "decay_analysis": {
-    "quality_decayed": 4.752692460051248,
-    "difficulty_decayed": null
+    "quality_decayed": 4.7526924600512475,
+    "difficulty_decayed": 0.0
   },
   "bayes_analysis": {
-    "quality_bayes": 6.4839943573327545,
-    "difficulty_bayes": null
+    "quality_bayes": 6.6911120531298565,
+    "difficulty_bayes": 2.0029673590504453
   },
   "recommendation_analysis": {
     "rate": 0.5,
@@ -19,23 +19,23 @@
     "n_recommendations": 4
   },
   "subject_normalization": {
-    "z_mean": -0.67,
-    "z_mean_decayed": -0.94,
+    "z_mean": -0.15,
+    "z_mean_decayed": -0.37,
     "per_subject": [
       {
         "materia": "REDES",
-        "z_decayed": 0.4108240150088804,
-        "n": 21
+        "z_decayed": 0.3624404613973183,
+        "n": 10
       },
       {
         "materia": "REDES DE COMPUTADORAS",
-        "z_decayed": -0.3854399911566025,
-        "n": 15
+        "z_decayed": 0.2029127820096271,
+        "n": 6
       },
       {
         "materia": "FUNDAMENTOS DE TELECOMUNICACIONES",
-        "z_decayed": -2.2606943887305295,
-        "n": 11
+        "z_decayed": -1.3391117724010384,
+        "n": 5
       }
     ]
   },
@@ -63,12 +63,12 @@
       {
         "id": 1,
         "words": [
-          "te",
           "si",
+          "te",
           "es",
           "materia"
         ],
-        "weight": 0.3973021250447718
+        "weight": 0.3973021250447717
       }
     ],
     "sentiment": {
@@ -104,7 +104,21 @@
       ],
       "sigma": 3.10332982455942
     },
-    "difficulty_trend": null,
+    "difficulty_trend": {
+      "series": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ewma": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sigma": 0.0
+    },
     "forecast": {
       "quality_next": 4.351999999999999,
       "quality_band": [
@@ -120,7 +134,7 @@
       "fecha_iso": "2020-01-13T00:00:00",
       "materia": "FUNDAMENTOS DE TELECOMUNICACIONES",
       "calidad": 2.0,
-      "dificultad": null,
+      "dificultad": 0.0,
       "nota": null,
       "recomienda": 0,
       "comentario": "Falta mucho, ni reprobando el global repruebas la materia con él."
@@ -129,8 +143,8 @@
       "fecha_iso": "2018-06-05T00:00:00",
       "materia": "REDES",
       "calidad": 9.0,
-      "dificultad": null,
-      "nota": 9.0,
+      "dificultad": 0.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "Sabe mucho y si le preguntas te explica. Pero es nuevo y no tiene mucha experiencia como maestro."
     },
@@ -138,8 +152,8 @@
       "fecha_iso": "2018-01-16T00:00:00",
       "materia": "REDES DE COMPUTADORAS",
       "calidad": 8.0,
-      "dificultad": null,
-      "nota": 9.0,
+      "dificultad": 0.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "es una materia barco, sino quieres batallar carga con el pero no aparenderas nada"
     },
@@ -147,8 +161,8 @@
       "fecha_iso": "2017-11-22T00:00:00",
       "materia": "REDES DE COMPUTADORAS",
       "calidad": 2.0,
-      "dificultad": null,
-      "nota": 9.5,
+      "dificultad": 0.0,
+      "nota": null,
       "recomienda": 0,
       "comentario": "Si lo ven corran, no comentan ese error y si te lo ponen dala de baja...., perdida de tiempo total..."
     }

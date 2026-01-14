@@ -1,36 +1,36 @@
 {
   "professor_id": "José_Andrés_Garcia_Soto",
   "nombre": "José Andrés Garcia Soto",
-  "universidad": "Instituto Tecnologico de Culiacan",
+  "universidad": "Instituto Tecnológico de Culiacán",
   "decay_analysis": {
     "quality_decayed": 10.0,
-    "difficulty_decayed": null
+    "difficulty_decayed": 0.0
   },
   "bayes_analysis": {
-    "quality_bayes": 7.841137214475611,
-    "difficulty_bayes": null
+    "quality_bayes": 8.048254910272714,
+    "difficulty_bayes": 2.0029673590504453
   },
   "recommendation_analysis": {
-    "rate": 1.0,
+    "rate": 0.75,
     "wilson_interval": [
-      0.5100999795960008,
-      1
+      0.30063605244263664,
+      0.9544139373553638
     ],
     "n_recommendations": 4
   },
   "subject_normalization": {
-    "z_mean": 0.92,
-    "z_mean_decayed": 0.99,
+    "z_mean": 0.88,
+    "z_mean_decayed": 0.95,
     "per_subject": [
       {
         "materia": "ETICA",
-        "z_decayed": 0.9903391521354942,
-        "n": 31
+        "z_decayed": 0.9598942503077836,
+        "n": 22
       },
       {
         "materia": "ADMINISTRACIÓN Y CONTABILIDAD",
-        "z_decayed": 0.6961075244319018,
-        "n": 7
+        "z_decayed": 0.629858167745255,
+        "n": 5
       }
     ]
   },
@@ -48,24 +48,24 @@
       {
         "id": 0,
         "words": [
-          "profe",
           "examenes",
+          "profe",
           "tareas",
           "semestre",
           "clases"
         ],
-        "weight": 0.42810455664335934
+        "weight": 0.428104556643359
       },
       {
         "id": 1,
         "words": [
           "inicio",
-          "cada",
-          "xd",
+          "semana",
           "semanas",
+          "xd",
           "mes"
         ],
-        "weight": 0.2375405076368637
+        "weight": 0.23754050763686357
       }
     ],
     "sentiment": {
@@ -101,7 +101,21 @@
       ],
       "sigma": 0.0
     },
-    "difficulty_trend": null,
+    "difficulty_trend": {
+      "series": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ewma": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sigma": 0.0
+    },
     "forecast": {
       "quality_next": 10.0,
       "quality_band": [
@@ -117,8 +131,8 @@
       "fecha_iso": "2021-11-18T00:00:00",
       "materia": "ETICA",
       "calidad": 10.0,
-      "dificultad": null,
-      "nota": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "Cuanta nostalgia este profe nada como los primeros semestres, como dice el man de abajo daba como 2 veces por semana al inicio del semestre y ya como al mes nomas revisaba unas tareas bien pedorras como cada 3 semanas xd los examenes son lo mas facil del universo"
     },
@@ -126,8 +140,8 @@
       "fecha_iso": "2021-08-27T00:00:00",
       "materia": "ETICA",
       "calidad": 10.0,
-      "dificultad": null,
-      "nota": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "Un dios generoso al inicio da clases como 2 dias a la semana y ya como a las 3 semanas de semestre da como una vez cada 15 dias XD esencial para salir temprano y relax en clases de relleno"
     },
@@ -135,8 +149,8 @@
       "fecha_iso": "2020-09-03T00:00:00",
       "materia": "ETICA",
       "calidad": 10.0,
-      "dificultad": null,
-      "nota": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "Dividió el grupo en dos, a mi me tocaba martes y jueves, iba como dos jueves el mes, revisó el ultimo trabajo en el estacionamiento XDXD"
     },
@@ -144,8 +158,8 @@
       "fecha_iso": "2012-10-30T00:00:00",
       "materia": "ADMINISTRACIÓN Y CONTABILIDAD",
       "calidad": 10.0,
-      "dificultad": null,
-      "nota": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "Este profe es un amor, no hace exámenes, no reprueba a nadie, no tienes clases en casi todo el semestre, con tan solo presentarle las tareas aseguras tener una muy buena calificación (arriba de 95) pero si te interesa aprender administración esta no es tu opción."
     }

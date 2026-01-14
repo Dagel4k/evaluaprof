@@ -1,14 +1,14 @@
 {
   "professor_id": "Jaredt_Torres_Lópes",
   "nombre": "Jaredt Torres Lópes",
-  "universidad": "Instituto Tecnologico de Culiacan",
+  "universidad": "Instituto Tecnológico de Culiacán",
   "decay_analysis": {
-    "quality_decayed": 6.43273448327939,
-    "difficulty_decayed": null
+    "quality_decayed": 6.432734483279387,
+    "difficulty_decayed": 4.575645954772891
   },
   "bayes_analysis": {
-    "quality_bayes": 6.518394733510571,
-    "difficulty_bayes": null
+    "quality_bayes": 6.711704582921199,
+    "difficulty_bayes": 3.3361028684470826
   },
   "recommendation_analysis": {
     "rate": 0.4,
@@ -19,28 +19,28 @@
     "n_recommendations": 5
   },
   "subject_normalization": {
-    "z_mean": -0.52,
-    "z_mean_decayed": -0.07,
+    "z_mean": -0.94,
+    "z_mean_decayed": -0.62,
     "per_subject": [
       {
         "materia": "PROGRAMACION",
-        "z_decayed": 0.4766114739896551,
-        "n": 20
+        "z_decayed": -0.33903175181040496,
+        "n": 6
       },
       {
         "materia": "PROGRAMACIÓN",
-        "z_decayed": -0.3540006436381189,
-        "n": 10
-      },
-      {
-        "materia": "MICROCONTROLADORES",
-        "z_decayed": -0.7060227285681553,
-        "n": 18
+        "z_decayed": -0.48222737532397647,
+        "n": 7
       },
       {
         "materia": "ELECTRICIDAD Y ELECTRÓNICA INDUSTRIAL",
-        "z_decayed": -1.4945294355141467,
-        "n": 9
+        "z_decayed": -1.467402817237783,
+        "n": 5
+      },
+      {
+        "materia": "MICROCONTROLADORES",
+        "z_decayed": -1.476865625394436,
+        "n": 5
       }
     ]
   },
@@ -64,7 +64,7 @@
           "venir",
           "clase"
         ],
-        "weight": 0.34646711020971693
+        "weight": 0.34646711020971666
       },
       {
         "id": 1,
@@ -75,7 +75,7 @@
           "explica",
           "es"
         ],
-        "weight": 0.30891406802160815
+        "weight": 0.30891406802160837
       }
     ],
     "sentiment": {
@@ -114,7 +114,23 @@
       ],
       "sigma": 2.014946224592607
     },
-    "difficulty_trend": null,
+    "difficulty_trend": {
+      "series": [
+        2.0,
+        2.0,
+        8.0,
+        6.0,
+        4.0
+      ],
+      "ewma": [
+        2.0,
+        2.0,
+        3.8,
+        4.459999999999999,
+        4.321999999999999
+      ],
+      "sigma": 1.8870836759402057
+    },
     "forecast": {
       "quality_next": 5.7677,
       "quality_band": [
@@ -130,8 +146,8 @@
       "fecha_iso": "2020-05-23T00:00:00",
       "materia": "PROGRAMACION",
       "calidad": 8.0,
-      "dificultad": null,
-      "nota": 10.0,
+      "dificultad": 4.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "Es muy buena maestra, como es la jefa del departamente a veces tiende a llegar tarde por estar ocupada, pero le pone mucho empeño a su trabajo y se esfuerza porque entiendas la clase, durante la cuarentena se esmero mucho con las clases en linea, su examen es facil y vale 70% lo demas es por tareas"
     },
@@ -139,17 +155,17 @@
       "fecha_iso": "2017-05-04T00:00:00",
       "materia": "PROGRAMACIÓN",
       "calidad": 5.0,
-      "dificultad": null,
-      "nota": 6.5,
-      "recomienda": 0,
+      "dificultad": 6.0,
+      "nota": null,
+      "recomienda": 0.5,
       "comentario": "Esta algo confusa su clase te pone lo que supuestamente va a venir en el examen y cuando llega sorpresa sale con otra cosa que Ni al caso"
     },
     {
       "fecha_iso": "2016-05-11T00:00:00",
       "materia": "ELECTRICIDAD Y ELECTRÓNICA INDUSTRIAL",
       "calidad": 2.0,
-      "dificultad": null,
-      "nota": 8.5,
+      "dificultad": 8.0,
+      "nota": null,
       "recomienda": 0,
       "comentario": "Explica muy raro, es demasiado basica, no merece"
     },
@@ -157,8 +173,8 @@
       "fecha_iso": "2014-12-05T00:00:00",
       "materia": "MICROOCONTROLADORES",
       "calidad": 8.0,
-      "dificultad": null,
-      "nota": 10.0,
+      "dificultad": 2.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "estoy seguro que será una de las mejores por ser nueva no se sabe desarrollar al explicar y se estresa porque quiere que aprendas, sus examines son faciles ya que lo que te dice apuntalo eso va venir y sus practicas son fáciles y de ahí es donde aprendes y esta bien buena"
     },
@@ -166,9 +182,9 @@
       "fecha_iso": "2014-11-09T00:00:00",
       "materia": "MICROCONTROLADORES",
       "calidad": 5.0,
-      "dificultad": null,
+      "dificultad": 2.0,
       "nota": null,
-      "recomienda": 0,
+      "recomienda": 0.5,
       "comentario": "A esta guapa maestra le falta mucho para desarrollar una buena clase, sabe lo elemental y simplemente no se desenvuelve bien, solo proyecta diapositivas en clase y platica de ellas, no las explica, lo bueno que le veo yo a su clase es que si exige las prácticas, de ahí aprendes por tu cuenta."
     }
   ],

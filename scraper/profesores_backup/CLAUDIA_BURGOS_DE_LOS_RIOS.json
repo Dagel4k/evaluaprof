@@ -1,0 +1,55 @@
+{
+  "nombre": "CLAUDIA BURGOS DE LOS RIOS",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "ciudad": "Ciudad: culiacan, sinaloa",
+  "departamento": "Departamento/Facultad:  LAE.",
+  "calidad_general": 9.5,
+  "porcentaje_recomienda": 100,
+  "nivel_dificultad": 0.0,
+  "etiquetas": [
+    "MUY CÓMICO (2)",
+    "ASISTENCIA OBLIGATORIA (1)",
+    "TOMARÍA SU CLASE OTRA VEZ (1)",
+    "DA BUENA RETROALIMENTACIÓN (1)",
+    "BRINDA APOYO (1)"
+  ],
+  "numero_calificaciones": 2,
+  "calificaciones": [
+    {
+      "fecha": "06/Mar/2024",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Desarrollo humano",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "Súper 10/10, su clase aparte de ser fácil ella la hace muy entendible y práctica, deja enseñanzas y súper buen apoyo en todo",
+      "etiquetas_comentario": [
+        "Muy cómico",
+        "Da buena retroalimentación",
+        "Brinda apoyo"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "29/Oct/2017",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 9.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "taller de ética",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "9.5",
+      "interes_clase": "",
+      "comentario": "es muy divertida su clase y aprendes muy bien",
+      "etiquetas_comentario": [
+        "Muy cómico",
+        "Asistencia obligatoria",
+        "Tomaría su clase otra vez"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    }
+  ]
+}

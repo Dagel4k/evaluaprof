@@ -1,27 +1,33 @@
 {
   "professor_id": "Nestor_Paul_Jacobo_Aispuro",
   "nombre": "Nestor Paul Jacobo Aispuro",
-  "universidad": "Instituto Tecnologico de Culiacan",
+  "universidad": "Instituto Tecnológico de Culiacán",
   "decay_analysis": {
-    "quality_decayed": 10.0,
-    "difficulty_decayed": null
+    "quality_decayed": 8.393320220793992,
+    "difficulty_decayed": 4.0
   },
   "bayes_analysis": {
-    "quality_bayes": 7.252356454787142,
-    "difficulty_bayes": null
+    "quality_bayes": 7.4729640619848325,
+    "difficulty_bayes": 3.0034619188921865
   },
   "recommendation_analysis": {
     "rate": 1.0,
     "wilson_interval": [
-      0.20654329147389294,
+      0.3423719528896193,
       1
     ],
-    "n_recommendations": 1
+    "n_recommendations": 2
   },
   "subject_normalization": {
-    "z_mean": null,
-    "z_mean_decayed": null,
-    "per_subject": []
+    "z_mean": -0.13,
+    "z_mean_decayed": -0.13,
+    "per_subject": [
+      {
+        "materia": "FUNDAMENTOS DE PROGRAMACION",
+        "z_decayed": -0.13462160802144044,
+        "n": 15
+      }
+    ]
   },
   "grades_analysis": {
     "grade_distribution": {
@@ -38,7 +44,7 @@
       "overall": null,
       "by_month": {}
     },
-    "n_comments": 1
+    "n_comments": 2
   },
   "integrity_analysis": {
     "dup_rate": 0.0,
@@ -54,17 +60,27 @@
   },
   "reviews_public": [
     {
+      "fecha_iso": "2025-10-27T00:00:00",
+      "materia": "FUNDAMENTOS DE PROGRAMACION",
+      "calidad": 7.0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Es un profesor que tiene mucha experiencia y enseña de manemera clara, me dio fundamentos de programacion y a veces se desvia del tema y explica cosas que no tiene nada que ver y te enredas, su examen es teorico y parctico, la teoria a veces te puede llegar a confundir por que no esta muy claro"
+    },
+    {
       "fecha_iso": "2025-05-29T00:00:00",
       "materia": "ADMINISTRACION DE REDES",
       "calidad": 10.0,
-      "dificultad": null,
+      "dificultad": 4.0,
       "nota": null,
       "recomienda": 1,
       "comentario": "si tiene la oportunidad de cargar con el,  será una clase normal, ni muy difícil ni muy fácil, sabe mucho del ámbito laboral y explica bien los temas, y las tareas son fáciles"
     }
   ],
   "comments_recent": [
+    "Es un profesor que tiene mucha experiencia y enseña de manemera clara, me dio fundamentos de programacion y a veces se desvia del tema y explica cosas que no tiene nada que ver y te enredas, su examen es teorico y parctico, la teoria a veces te puede llegar a confundir por que no esta muy claro",
     "si tiene la oportunidad de cargar con el,  será una clase normal, ni muy difícil ni muy fácil, sabe mucho del ámbito laboral y explica bien los temas, y las tareas son fáciles"
   ],
-  "n_reviews": 1
+  "n_reviews": 2
 }

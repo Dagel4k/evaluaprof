@@ -1,31 +1,31 @@
 {
   "professor_id": "ALAN_BRITO",
   "nombre": "ALAN BRITO",
-  "universidad": "Instituto Tecnologico de Culiacan",
+  "universidad": "Instituto Tecnológico de Culiacán",
   "decay_analysis": {
     "quality_decayed": 7.715065666569704,
-    "difficulty_decayed": null
+    "difficulty_decayed": 4.569868666860589
   },
   "bayes_analysis": {
-    "quality_bayes": 7.147993416888213,
-    "difficulty_bayes": null
+    "quality_bayes": 7.3896307286514995,
+    "difficulty_bayes": 3.0034619188921865
   },
   "recommendation_analysis": {
-    "rate": 0.5,
+    "rate": 1.0,
     "wilson_interval": [
-      0.09452865480086611,
-      0.905471345199134
+      0.3423719528896193,
+      1
     ],
     "n_recommendations": 2
   },
   "subject_normalization": {
-    "z_mean": 0.09,
-    "z_mean_decayed": -0.02,
+    "z_mean": 0.43,
+    "z_mean_decayed": 0.33,
     "per_subject": [
       {
         "materia": "POO",
-        "z_decayed": -0.015534271382739766,
-        "n": 62
+        "z_decayed": 0.3267685550685601,
+        "n": 16
       }
     ]
   },
@@ -63,17 +63,17 @@
       "fecha_iso": "2013-12-19T00:00:00",
       "materia": "POO",
       "calidad": 6.0,
-      "dificultad": null,
-      "nota": 10.0,
-      "recomienda": 0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 0.5,
       "comentario": "LO AMO"
     },
     {
       "fecha_iso": "2013-02-21T00:00:00",
       "materia": "POO",
       "calidad": 10.0,
-      "dificultad": null,
-      "nota": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": ""
     }

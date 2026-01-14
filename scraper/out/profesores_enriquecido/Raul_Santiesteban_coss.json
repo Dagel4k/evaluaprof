@@ -1,41 +1,36 @@
 {
   "professor_id": "Raul_Santiesteban_coss",
   "nombre": "Raul Santiesteban coss",
-  "universidad": "Instituto Tecnologico de Culiacan",
+  "universidad": "Instituto Tecnológico de Culiacán",
   "decay_analysis": {
-    "quality_decayed": 5.099025869955475,
-    "difficulty_decayed": null
+    "quality_decayed": 5.072979136738777,
+    "difficulty_decayed": 3.3675448792622507
   },
   "bayes_analysis": {
-    "quality_bayes": 6.045642411921092,
-    "difficulty_bayes": null
+    "quality_bayes": 6.378371249587866,
+    "difficulty_bayes": 3.2027695351137493
   },
   "recommendation_analysis": {
-    "rate": 0.143,
+    "rate": 0.43,
     "wilson_interval": [
-      0.02567895594897479,
-      0.5131345033190299
+      0.13266617599838842,
+      0.788162633266903
     ],
-    "n_recommendations": 7
+    "n_recommendations": 5
   },
   "subject_normalization": {
-    "z_mean": -0.27,
-    "z_mean_decayed": -0.21,
+    "z_mean": -0.22,
+    "z_mean_decayed": -0.18,
     "per_subject": [
       {
         "materia": "TERMODINÁMICA",
-        "z_decayed": -0.09294016222362007,
-        "n": 14
+        "z_decayed": 0.10964898888434302,
+        "n": 8
       },
       {
         "materia": "CONTROL",
-        "z_decayed": -0.23655159435527565,
-        "n": 14
-      },
-      {
-        "materia": "---",
-        "z_decayed": -0.36348883362302276,
-        "n": 521
+        "z_decayed": -0.25683464007793194,
+        "n": 13
       }
     ]
   },
@@ -53,27 +48,16 @@
       {
         "id": 0,
         "words": [
+          "ayuda",
+          "pone",
           "final",
-          "proyecto",
-          "clases",
-          "sabe",
-          "si"
+          "es",
+          "te"
         ],
-        "weight": 0.1664653344074259
+        "weight": 0.2969391618512308
       },
       {
         "id": 1,
-        "words": [
-          "solo",
-          "ayuda",
-          "pone",
-          "te",
-          "es"
-        ],
-        "weight": 0.21777975412628128
-      },
-      {
-        "id": 2,
         "words": [
           "si",
           "control",
@@ -81,7 +65,7 @@
           "puedes aprender",
           "aprender"
         ],
-        "weight": 0.24172746894158006
+        "weight": 0.3218884786199759
       }
     ],
     "sentiment": {
@@ -91,12 +75,10 @@
         "2017-06": 0.0,
         "2016-05": 0.0,
         "2014-11": 0.0,
-        "2013-12": 0.0,
-        "2013-08": 0.0,
-        "2011-07": 0.0
+        "2013-12": 0.0
       }
     },
-    "n_comments": 7
+    "n_comments": 5
   },
   "integrity_analysis": {
     "dup_rate": 0.0,
@@ -107,8 +89,6 @@
   "trends_analysis": {
     "quality_trend": {
       "series": [
-        4.0,
-        6.0,
         2.0,
         5.0,
         6.0,
@@ -116,22 +96,36 @@
         7.0
       ],
       "ewma": [
+        2.0,
+        2.9,
+        3.8299999999999996,
+        3.5809999999999995,
+        4.6067
+      ],
+      "sigma": 1.395122864840226
+    },
+    "difficulty_trend": {
+      "series": [
+        4.0,
+        6.0,
+        6.0,
+        2.0,
+        2.0
+      ],
+      "ewma": [
         4.0,
         4.6,
-        3.82,
-        4.1739999999999995,
-        4.721799999999999,
-        4.205259999999999,
-        5.043681999999999
+        5.02,
+        4.113999999999999,
+        3.479799999999999
       ],
-      "sigma": 1.4154558381237712
+      "sigma": 1.5235273177728055
     },
-    "difficulty_trend": null,
     "forecast": {
-      "quality_next": 5.043681999999999,
+      "quality_next": 4.6067,
       "quality_band": [
-        2.269388557277407,
-        7.81797544272259
+        1.872259184913157,
+        7.341140815086844
       ],
       "confidence": 0.95
     },
@@ -142,8 +136,8 @@
       "fecha_iso": "2018-01-19T00:00:00",
       "materia": "CONTROL",
       "calidad": 7.0,
-      "dificultad": null,
-      "nota": 10.0,
+      "dificultad": 2.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "Miren, este profesor le ayuda al que le interesa, tu estudia por tu cuenta, pariticpa, pregunta y vas a aprender de el, si tu ya sabes que no puedes aprender solo no esperes aprender mucho.\nHaz un proyecto que tenga control, presenta avances regularmente y te va ir muy bien en tu calificación."
     },
@@ -151,8 +145,8 @@
       "fecha_iso": "2017-06-12T00:00:00",
       "materia": "CONTROL",
       "calidad": 3.0,
-      "dificultad": null,
-      "nota": 7.0,
+      "dificultad": 2.0,
+      "nota": null,
       "recomienda": 0,
       "comentario": "De flojera su clase. Al final no importa si asististe o no porque con solo entregar el proyecto final y exponer, pasas. No necesitas más.\nSi pueden evitar su clase, háganlo porque ni van a aprender nada aunque si hacen el proyecto y exponen ya aseguran pasar. \nSabe mucho pero no sabe impartir clases"
     },
@@ -160,46 +154,28 @@
       "fecha_iso": "2016-05-04T00:00:00",
       "materia": "TERMODINÁMICA",
       "calidad": 6.0,
-      "dificultad": null,
-      "nota": 8.5,
-      "recomienda": 0,
+      "dificultad": 6.0,
+      "nota": null,
+      "recomienda": 1,
       "comentario": "Sus materias no son fáciles, sin embargo si tienes la dedicación y la proactividad necesaria, es una persona de la cual puedes aprender muchísimo, no solamente de matemáticas o control."
     },
     {
       "fecha_iso": "2014-11-09T00:00:00",
       "materia": "CONTROL",
       "calidad": 5.0,
-      "dificultad": null,
+      "dificultad": 6.0,
       "nota": null,
-      "recomienda": 0,
+      "recomienda": 0.5,
       "comentario": "Este doctor no es mala persona, simplemente maneja el nivel muy alto en ingeniería, da las clases como si fueras alumno de posgrado, te deja muy solo y la ayuda que te ofrece es muy poca por no decir nada, te evalúa con un proyecto final nada mas, al final te pone lo que quiere."
     },
     {
       "fecha_iso": "2013-12-01T00:00:00",
       "materia": "DINÁMICA DE SISTEMAS/CONTROL",
       "calidad": 2.0,
-      "dificultad": null,
-      "nota": 8.0,
+      "dificultad": 4.0,
+      "nota": null,
       "recomienda": 0,
       "comentario": "No ayuda ni explica absolutamente nada, sales de sus materias casi igual que como entraste, solo se sienta y pone ecuaciones que nadie entiende y que no explica, al parecer tiene muchos conocimientos pero la docencia no es lo suyo. Es muy probable que te mande a RC o Especial sin compasión."
-    },
-    {
-      "fecha_iso": "2013-08-04T00:00:00",
-      "materia": "CONTROL - MECATRONICA",
-      "calidad": 6.0,
-      "dificultad": null,
-      "nota": 10.0,
-      "recomienda": 0,
-      "comentario": "Si de verdad quieres ser ingeniero, tienes que tomar clases con el, los sistemas de control son su especialidad y sabe muchísimo, eso si, las clases son aburridas y todo el semestre lo debes de dedicar a un proyecto que vale casi toda la calificacion de semestre."
-    },
-    {
-      "fecha_iso": "2011-07-21T00:00:00",
-      "materia": "---",
-      "calidad": 4.0,
-      "dificultad": null,
-      "nota": 8.0,
-      "recomienda": 0,
-      "comentario": "[Comentario esperando revisión]"
     }
   ],
   "comments_recent": [
@@ -207,9 +183,7 @@
     "De flojera su clase. Al final no importa si asististe o no porque con solo entregar el proyecto final y exponer, pasas. No necesitas más.\nSi pueden evitar su clase, háganlo porque ni van a aprender nada aunque si hacen el proyecto y exponen ya aseguran pasar. \nSabe mucho pero no sabe impartir clases",
     "Sus materias no son fáciles, sin embargo si tienes la dedicación y la proactividad necesaria, es una persona de la cual puedes aprender muchísimo, no solamente de matemáticas o control.",
     "Este doctor no es mala persona, simplemente maneja el nivel muy alto en ingeniería, da las clases como si fueras alumno de posgrado, te deja muy solo y la ayuda que te ofrece es muy poca por no decir nada, te evalúa con un proyecto final nada mas, al final te pone lo que quiere.",
-    "No ayuda ni explica absolutamente nada, sales de sus materias casi igual que como entraste, solo se sienta y pone ecuaciones que nadie entiende y que no explica, al parecer tiene muchos conocimientos pero la docencia no es lo suyo. Es muy probable que te mande a RC o Especial sin compasión.",
-    "Si de verdad quieres ser ingeniero, tienes que tomar clases con el, los sistemas de control son su especialidad y sabe muchísimo, eso si, las clases son aburridas y todo el semestre lo debes de dedicar a un proyecto que vale casi toda la calificacion de semestre.",
-    "[Comentario esperando revisión]"
+    "No ayuda ni explica absolutamente nada, sales de sus materias casi igual que como entraste, solo se sienta y pone ecuaciones que nadie entiende y que no explica, al parecer tiene muchos conocimientos pero la docencia no es lo suyo. Es muy probable que te mande a RC o Especial sin compasión."
   ],
-  "n_reviews": 7
+  "n_reviews": 5
 }

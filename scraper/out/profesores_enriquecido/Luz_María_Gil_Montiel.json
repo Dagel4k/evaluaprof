@@ -1,4 +1,187 @@
 {
-  "professor_id": "Luz_María_Gil_Montiel",
-  "error": "No hay reseñas disponibles"
+  "professor_id": "Luz_María_Gil_montiel",
+  "nombre": "Luz María Gil Montiel",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 7.042277102595033,
+    "difficulty_decayed": 3.094050160509983
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.1117045829212,
+    "difficulty_bayes": 3.0694362017804155
+  },
+  "recommendation_analysis": {
+    "rate": 0.39,
+    "wilson_interval": [
+      0.11275591405332375,
+      0.7628322147921341
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": 0.21,
+    "z_mean_decayed": 0.29,
+    "per_subject": [
+      {
+        "materia": "QUÍMICA",
+        "z_decayed": 0.3948362677438878,
+        "n": 24
+      },
+      {
+        "materia": "QUIMICA",
+        "z_decayed": 0.21785878744485843,
+        "n": 24
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "deja",
+          "10",
+          "examen",
+          "examenes",
+          "si"
+        ],
+        "weight": 0.4142385485532848
+      },
+      {
+        "id": 1,
+        "words": [
+          "proyectos",
+          "equipo",
+          "es tan",
+          "tan",
+          "tan dificil"
+        ],
+        "weight": 0.34357252088626655
+      }
+    ],
+    "sentiment": {
+      "overall": -0.75,
+      "by_month": {
+        "2025-01": 0.0,
+        "2024-08": -1.0,
+        "2022-06": -1.0,
+        "2022-05": -1.0
+      }
+    },
+    "n_comments": 4
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        8.0,
+        5.0,
+        6.0,
+        7.0,
+        8.0
+      ],
+      "ewma": [
+        8.0,
+        7.1,
+        6.77,
+        6.838999999999999,
+        7.187299999999999
+      ],
+      "sigma": 1.1146873498878511
+    },
+    "difficulty_trend": {
+      "series": [
+        4.0,
+        4.0,
+        6.0,
+        2.0,
+        2.0
+      ],
+      "ewma": [
+        4.0,
+        4.0,
+        4.6,
+        3.82,
+        3.274
+      ],
+      "sigma": 1.2571345194528707
+    },
+    "forecast": {
+      "quality_next": 7.187299999999999,
+      "quality_band": [
+        5.002512794219811,
+        9.372087205780186
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2025-01-07T00:00:00",
+      "materia": "QUIMICA",
+      "calidad": 8.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Si eres de sistemas puede que la sufras un poco al principio pero tampoco es tan difícil, deja tarea mayormente en equipo por lo que si te consigues uno bueno será mas sencillo, los exámenes son largos pero si haces unos pocos apuntes pues se pasa fácil. poco estricta EN SISTEMAS"
+    },
+    {
+      "fecha_iso": "2024-08-09T00:00:00",
+      "materia": "QUÍMICA",
+      "calidad": 7.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Su voz es más sonmífero que la divina comedia, es difícil escuchar su voz bajita si te pones atrás. Los proyectos son sencillos, pero el examen son de 10 a 20 preguntas sobre las 50 diapositivas que leyó en clase. Sabe mucho de su materia, si preguntas dudas y pones atención te irá decente."
+    },
+    {
+      "fecha_iso": "2022-09-13T00:00:00",
+      "materia": "QUÍMICA",
+      "calidad": 6.0,
+      "dificultad": 6.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2022-06-17T00:00:00",
+      "materia": "QUIMICA",
+      "calidad": 5.0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": "No te duermas en su clase jajaja, es algo aburrida pero no es tan dificil solo elige un buen equipo para los proyectos y con eso estarás bien"
+    },
+    {
+      "fecha_iso": "2022-05-29T00:00:00",
+      "materia": "QUIMICA",
+      "calidad": 8.0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "En linea no se le entiende mucho pero en sus examenes salian las respuestas y entre varios podias sacar 10 en presencial es mucho mejor y sus examenes te deja sacar hojas y solo califica con un proyecto y el examen que no esta dificil si estudias"
+    }
+  ],
+  "comments_recent": [
+    "Si eres de sistemas puede que la sufras un poco al principio pero tampoco es tan difícil, deja tarea mayormente en equipo por lo que si te consigues uno bueno será mas sencillo, los exámenes son largos pero si haces unos pocos apuntes pues se pasa fácil. poco estricta EN SISTEMAS",
+    "Su voz es más sonmífero que la divina comedia, es difícil escuchar su voz bajita si te pones atrás. Los proyectos son sencillos, pero el examen son de 10 a 20 preguntas sobre las 50 diapositivas que leyó en clase. Sabe mucho de su materia, si preguntas dudas y pones atención te irá decente.",
+    "No te duermas en su clase jajaja, es algo aburrida pero no es tan dificil solo elige un buen equipo para los proyectos y con eso estarás bien",
+    "En linea no se le entiende mucho pero en sus examenes salian las respuestas y entre varios podias sacar 10 en presencial es mucho mejor y sus examenes te deja sacar hojas y solo califica con un proyecto y el examen que no esta dificil si estudias"
+  ],
+  "n_reviews": 5
 }

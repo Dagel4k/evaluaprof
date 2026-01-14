@@ -1,0 +1,109 @@
+{
+  "nombre": "Angelica Sanchez",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "ciudad": "Ciudad: culiacan, sinaloa",
+  "departamento": "Departamento/Facultad: Acosta",
+  "calidad_general": 8.8,
+  "porcentaje_recomienda": 80,
+  "nivel_dificultad": 0.0,
+  "etiquetas": [
+    "ASPECTOS DE CALIFICACIÓN CLAROS (1)",
+    "BARCO (4)",
+    "LA PARTICIPACIÓN IMPORTA (1)",
+    "BRINDA APOYO (4)",
+    "DA BUENA RETROALIMENTACIÓN (1)",
+    "TOMARÍA SU CLASE OTRA VEZ (1)",
+    "RESPETADO POR LOS ESTUDIANTES (1)"
+  ],
+  "numero_calificaciones": 5,
+  "calificaciones": [
+    {
+      "fecha": "31/May/2025",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Contabilidad Financiera",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "Respetos totales a la profesora, es muy buena persona y amable, yo falte por varios problemas a algunas de sus clases y me dio apoyo en su materia, los exámenes son fáciles y sus clases son interesantes, si eres de sistemas entiende que no es tan importante su materia, cargaría 1000 veces mas",
+      "etiquetas_comentario": [
+        "Barco",
+        "Respetado por los estudiantes",
+        "Brinda apoyo"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "22/May/2025",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 9.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Contabilidad y Costos",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "9",
+      "interes_clase": "",
+      "comentario": "Muy buena profe, si tienes duda de cierto procedimiento o cualquier tarea, no dudes en preguntarle al final de la clase para una explicación más clara. Llega como unos 10-20 minutos tarde a la clase. Consejo: Asiste a la mayoría de las clases y practica uno que otro ejercicio, y así la armas.",
+      "etiquetas_comentario": [
+        "Barco",
+        "Brinda apoyo",
+        "Tomaría su clase otra vez"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "20/Mar/2025",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Contabilidad",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "24",
+      "interes_clase": "",
+      "comentario": "Es muy buena persona, el problema es que en algunos casos dice una cosa y hace otra, lo cual a veces puede ser enredoso, pero si apoya mucho y se ve que sabe de lo que habla.",
+      "etiquetas_comentario": [
+        "Barco",
+        "Da buena retroalimentación",
+        "Brinda apoyo"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "10/Ago/2024",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 8.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Contabilidad financiera",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "Es una clase algo aburrida,  domina muy bien lo relacionado a la contabilidad, si te pierdes ella te ayuda sin problema, el problema que veo es que ya tiene edad y suele enredarse con la calificación y las tareas que deja (Abecés las olvida)",
+      "etiquetas_comentario": [
+        "Barco",
+        "La Participación Importa",
+        "Brinda apoyo"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "10/Ene/2020",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 7.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Taller de investigación",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "9.5",
+      "interes_clase": "",
+      "comentario": "Esta profe es un amor de persona y te dicta claramente los temas, pero creo que hay profes con las que puedes aprender mas, sus exámenes son muy fáciles y les puedes meter verbo, suele llegar 15 o 20 min tarde, deja tareas regularmente, pero en general si es buena maestra.",
+      "etiquetas_comentario": [
+        "Aspectos de calificación claros"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    }
+  ]
+}

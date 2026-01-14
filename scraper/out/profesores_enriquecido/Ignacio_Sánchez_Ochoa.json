@@ -1,14 +1,14 @@
 {
   "professor_id": "Ignacio_Sánchez_Ochoa",
   "nombre": "Ignacio Sánchez Ochoa",
-  "universidad": "Instituto Tecnologico de Culiacan",
+  "universidad": "Instituto Tecnológico de Culiacán",
   "decay_analysis": {
-    "quality_decayed": 8.830296470061267,
-    "difficulty_decayed": null
+    "quality_decayed": 8.830296470061265,
+    "difficulty_decayed": 0.0
   },
   "bayes_analysis": {
-    "quality_bayes": 7.31466008355488,
-    "difficulty_bayes": null
+    "quality_bayes": 7.556297395318166,
+    "difficulty_bayes": 2.3367952522255195
   },
   "recommendation_analysis": {
     "rate": 1.0,
@@ -19,18 +19,18 @@
     "n_recommendations": 2
   },
   "subject_normalization": {
-    "z_mean": 0.88,
-    "z_mean_decayed": 0.88,
+    "z_mean": 0.69,
+    "z_mean_decayed": 0.66,
     "per_subject": [
       {
         "materia": "TALLER DE INVESTIGACIÓN",
-        "z_decayed": 0.8928660402432333,
-        "n": 9
+        "z_decayed": 0.8944271909999159,
+        "n": 7
       },
       {
         "materia": "FUNDAMENTOS DE INVESTIGACION",
-        "z_decayed": 0.8752422814280783,
-        "n": 24
+        "z_decayed": 0.4910763221337785,
+        "n": 9
       }
     ]
   },
@@ -68,8 +68,8 @@
       "fecha_iso": "2025-06-01T00:00:00",
       "materia": "FUNDAMENTOS DE INVESTIGACION",
       "calidad": 8.0,
-      "dificultad": null,
-      "nota": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "El ninja, porque si estas en el semestre de lluvias, olvídate de que vaya a dar clases, lo normal, da su clase (muchas veces se desvía), examenes sencillos, recalcar que enserio solo tuve maximo 10 clases (por no decir menos) de su materia, recomendado en esta materia de relleno, si toma lista"
     },
@@ -77,8 +77,8 @@
       "fecha_iso": "2024-06-05T00:00:00",
       "materia": "TALLER DE INVESTIGACIÓN",
       "calidad": 10.0,
-      "dificultad": null,
-      "nota": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "Un gran profesor, explicar muy bien y sus trabajos y exámenes son de lo que explica, sin duda alguna una gran recomendacion para taller."
     }

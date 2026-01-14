@@ -1,41 +1,36 @@
 {
   "professor_id": "Sanchez_Higuera_Raul",
   "nombre": "Sanchez Higuera Raul",
-  "universidad": "Instituto Tecnologico de Culiacan",
+  "universidad": "Instituto Tecnológico de Culiacán",
   "decay_analysis": {
-    "quality_decayed": 5.342886317813515,
-    "difficulty_decayed": null
+    "quality_decayed": 6.202268969624664,
+    "difficulty_decayed": 7.094064344744367
   },
   "bayes_analysis": {
-    "quality_bayes": 6.0986622779254755,
-    "difficulty_bayes": null
+    "quality_bayes": 6.845037916254532,
+    "difficulty_bayes": 4.269436201780416
   },
   "recommendation_analysis": {
-    "rate": 0.375,
+    "rate": 0.5,
     "wilson_interval": [
-      0.13684175946152105,
-      0.6942621454161982
+      0.17042015582256811,
+      0.8295798441774319
     ],
-    "n_recommendations": 8
+    "n_recommendations": 5
   },
   "subject_normalization": {
-    "z_mean": -0.69,
-    "z_mean_decayed": -0.63,
+    "z_mean": -0.4,
+    "z_mean_decayed": -0.36,
     "per_subject": [
       {
         "materia": "DIBUJO INDUSTRIAL",
-        "z_decayed": -0.5244243403910164,
-        "n": 43
+        "z_decayed": -0.2023109331855558,
+        "n": 26
       },
       {
         "materia": "DIBUJO",
-        "z_decayed": -0.8347377178043925,
-        "n": 14
-      },
-      {
-        "materia": "---",
-        "z_decayed": -0.9627852966533861,
-        "n": 521
+        "z_decayed": -1.1848198161159786,
+        "n": 8
       }
     ]
   },
@@ -53,61 +48,31 @@
       {
         "id": 0,
         "words": [
-          "ayuda",
           "si",
-          "estricto",
-          "es estricto",
           "es"
         ],
-        "weight": 0.1306128295834767
+        "weight": 0.24714957656110678
       },
       {
         "id": 1,
         "words": [
-          "es estricto",
-          "ayuda",
-          "persona",
-          "es persona",
-          "te"
-        ],
-        "weight": 0.12401590956859507
-      },
-      {
-        "id": 2,
-        "words": [
-          "te",
-          "ayuda",
           "es",
-          "tiene",
           "si"
         ],
-        "weight": 0.18059786871959943
-      },
-      {
-        "id": 3,
-        "words": [
-          "ayuda",
-          "es persona",
-          "persona",
-          "es",
-          "tiene"
-        ],
-        "weight": 0.23097216524457218
+        "weight": 0.27331805997972947
       }
     ],
     "sentiment": {
-      "overall": 0.125,
+      "overall": 0.2,
       "by_month": {
         "2014-01": 0.0,
         "2013-08": 0.0,
         "2013-01": 1.0,
         "2012-08": 0.0,
-        "2012-06": 0.0,
-        "2012-01": 0.0,
-        "2011-12": 0.0
+        "2012-06": 0.0
       }
     },
-    "n_comments": 8
+    "n_comments": 5
   },
   "integrity_analysis": {
     "dup_rate": 0.0,
@@ -118,30 +83,42 @@
   "trends_analysis": {
     "quality_trend": {
       "series": [
-        2.0,
-        6.0,
-        4.5,
+        7.0,
         2.0,
         9.0,
         2.0,
         10.0
       ],
       "ewma": [
-        2.0,
-        3.1999999999999997,
-        3.59,
-        3.113,
-        4.879099999999999,
-        4.015369999999999,
-        5.810758999999999
+        7.0,
+        5.499999999999999,
+        6.549999999999999,
+        5.184999999999999,
+        6.629499999999998
       ],
-      "sigma": 2.4901587437657464
+      "sigma": 3.1467254090562147
     },
-    "difficulty_trend": null,
+    "difficulty_trend": {
+      "series": [
+        8.0,
+        8.0,
+        6.0,
+        8.0,
+        6.0
+      ],
+      "ewma": [
+        8.0,
+        8.0,
+        7.3999999999999995,
+        7.58,
+        7.106
+      ],
+      "sigma": 0.7888847824619256
+    },
     "forecast": {
-      "quality_next": 5.810758999999999,
+      "quality_next": 6.629499999999998,
       "quality_band": [
-        0.9300478622191362,
+        0.46191819824981817,
         10.0
       ],
       "confidence": 0.95
@@ -153,7 +130,7 @@
       "fecha_iso": "2014-01-11T00:00:00",
       "materia": "DIBUJO INDUSTRIAL",
       "calidad": 10.0,
-      "dificultad": null,
+      "dificultad": 6.0,
       "nota": null,
       "recomienda": 1,
       "comentario": "TE PONE A TRABAJAR, PERO APRENDES... DESPUES TE DAS CUENTA QUE OCUPAS LO QUE TE ENSEÑO."
@@ -162,7 +139,7 @@
       "fecha_iso": "2013-08-19T00:00:00",
       "materia": "DIBUJO INDUSTRIAL",
       "calidad": 2.0,
-      "dificultad": null,
+      "dificultad": 8.0,
       "nota": null,
       "recomienda": 0,
       "comentario": "El profe mas bipolar y mendigo que he tenido..."
@@ -171,8 +148,8 @@
       "fecha_iso": "2013-01-17T00:00:00",
       "materia": "DIBUJO INDUSTRIAL",
       "calidad": 9.0,
-      "dificultad": null,
-      "nota": 9.5,
+      "dificultad": 6.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "Excelente como profesor, como el pocos. Si, es muy estricto y la mayoria del tiempo muy llevado pero en lo personal a mi me ayudo MUCHISIMO, Es cuestión de hacerle caso, muy recomendado."
     },
@@ -180,8 +157,8 @@
       "fecha_iso": "2012-08-16T00:00:00",
       "materia": "DIBUJO",
       "calidad": 2.0,
-      "dificultad": null,
-      "nota": 1.0,
+      "dificultad": 8.0,
+      "nota": null,
       "recomienda": 0,
       "comentario": "culeron el vato si pueden no carguen con el, estan mejores las otras opciones para dibujo"
     },
@@ -189,37 +166,10 @@
       "fecha_iso": "2012-06-14T00:00:00",
       "materia": "DIBUJO INDUSTRIAL",
       "calidad": 7.0,
-      "dificultad": null,
-      "nota": 7.5,
+      "dificultad": 8.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "No tiene nada de respeto hacia sus estudiantes, es muy pesado y le encanta burlarse de los demás, lo cual llega a crear un temor hacia el que impide preguntarle cualquier duda que tengamos, a pesar enseña muy bien y al final ayuda a que todos pasen, eso si trabajaras mucho!!."
-    },
-    {
-      "fecha_iso": "2012-06-05T00:00:00",
-      "materia": "DIBUJO INDUSTRIAL",
-      "calidad": 2.0,
-      "dificultad": null,
-      "nota": null,
-      "recomienda": 0,
-      "comentario": "Es una persona que no tiene tacto para tratar al alumnado, no sabe respetar, le gusta ofender a sus alumnos con carrillas pesadas y ofensivas x.x si le caes mal se encarga de amolarte x.x"
-    },
-    {
-      "fecha_iso": "2012-01-12T00:00:00",
-      "materia": "DIBUJO",
-      "calidad": 6.0,
-      "dificultad": null,
-      "nota": 8.5,
-      "recomienda": 0,
-      "comentario": "Es estricto, de acuerdo con eso, pero se aprende mucho con el. Te ayuda si cumples con trabajos y tareas, ademas de que es una persona justa y ética"
-    },
-    {
-      "fecha_iso": "2011-12-31T00:00:00",
-      "materia": "---",
-      "calidad": 2.0,
-      "dificultad": null,
-      "nota": null,
-      "recomienda": 0,
-      "comentario": "[Comentario esperando revisión]"
     }
   ],
   "comments_recent": [
@@ -227,10 +177,7 @@
     "El profe mas bipolar y mendigo que he tenido...",
     "Excelente como profesor, como el pocos. Si, es muy estricto y la mayoria del tiempo muy llevado pero en lo personal a mi me ayudo MUCHISIMO, Es cuestión de hacerle caso, muy recomendado.",
     "culeron el vato si pueden no carguen con el, estan mejores las otras opciones para dibujo",
-    "No tiene nada de respeto hacia sus estudiantes, es muy pesado y le encanta burlarse de los demás, lo cual llega a crear un temor hacia el que impide preguntarle cualquier duda que tengamos, a pesar enseña muy bien y al final ayuda a que todos pasen, eso si trabajaras mucho!!.",
-    "Es una persona que no tiene tacto para tratar al alumnado, no sabe respetar, le gusta ofender a sus alumnos con carrillas pesadas y ofensivas x.x si le caes mal se encarga de amolarte x.x",
-    "Es estricto, de acuerdo con eso, pero se aprende mucho con el. Te ayuda si cumples con trabajos y tareas, ademas de que es una persona justa y ética",
-    "[Comentario esperando revisión]"
+    "No tiene nada de respeto hacia sus estudiantes, es muy pesado y le encanta burlarse de los demás, lo cual llega a crear un temor hacia el que impide preguntarle cualquier duda que tengamos, a pesar enseña muy bien y al final ayuda a que todos pasen, eso si trabajaras mucho!!."
   ],
-  "n_reviews": 8
+  "n_reviews": 5
 }

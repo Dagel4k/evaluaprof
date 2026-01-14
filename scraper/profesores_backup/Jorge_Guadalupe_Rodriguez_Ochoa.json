@@ -1,0 +1,49 @@
+{
+  "nombre": "Jorge Guadalupe Rodriguez Ochoa",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "ciudad": "Ciudad: culiacan, sinaloa",
+  "departamento": "Departamento/Facultad: ingenieria electrica",
+  "calidad_general": 7.5,
+  "porcentaje_recomienda": 100,
+  "nivel_dificultad": 4.0,
+  "etiquetas": [
+    "CALIFICA DURO (1)",
+    "LA PARTICIPACIÓN IMPORTA (1)",
+    "ASISTENCIA OBLIGATORIA (1)"
+  ],
+  "numero_calificaciones": 2,
+  "calificaciones": [
+    {
+      "fecha": "23/May/2020",
+      "tipo_calificacion": "REGULAR",
+      "puntaje_calidad_general": 5.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Legislacion en Materia Electrica",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "7",
+      "interes_clase": "",
+      "comentario": "Sabe mucho de la materia y tiene un gran conocimiento, pero  es demasiado arrogante y esta demasiado resentido con todos. Puede estar dando una clase exelente y de repente se va a desviar a hablar de como la CFE no sirve para nada y el es el mejor ingeniero de Sinaloa, 70 es lo maximo que sacas",
+      "etiquetas_comentario": [
+        "Califica Duro",
+        "La Participación Importa",
+        "Asistencia obligatoria"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "15/Dic/2016",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "instalaciones electricas",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "8",
+      "interes_clase": "",
+      "comentario": "de los mejores profesores de ing. electrica. aprendes bastante, si quieres ser un buen ingeniero cuando egreses, carga con el. muy recomendado",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    }
+  ]
+}

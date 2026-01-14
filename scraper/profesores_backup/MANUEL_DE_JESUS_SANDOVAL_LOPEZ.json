@@ -1,0 +1,66 @@
+{
+  "nombre": "MANUEL DE JESUS SANDOVAL LOPEZ",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "ciudad": "Ciudad: culiacan, sinaloa",
+  "departamento": "Departamento/Facultad: Ciencias Basicas",
+  "calidad_general": 3.7,
+  "porcentaje_recomienda": 33,
+  "nivel_dificultad": 6.0,
+  "etiquetas": [
+    "BARCO (1)",
+    "CALIFICA DURO (1)",
+    "ASISTENCIA OBLIGATORIA (1)",
+    "LAS CLASES SON LARGAS (1)"
+  ],
+  "numero_calificaciones": 3,
+  "calificaciones": [
+    {
+      "fecha": "05/Ago/2019",
+      "tipo_calificacion": "REGULAR",
+      "puntaje_calidad_general": 6.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Ecuaciones Diferenciales",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "9",
+      "interes_clase": "",
+      "comentario": "Es un profesor promedio, no es bueno ni malo.\nEs cierto que sus clases son tediosas y dicen que es malo para explicar (lo cual no es verdad). Sabe del tema pero en ocasiones se equivoca, por lo cual debes estar al pendiente de lo que hace para corregirlo. Es buena persona.",
+      "etiquetas_comentario": [
+        "Califica Duro",
+        "Asistencia obligatoria",
+        "Las clases son largas"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "08/Jun/2018",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 2.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Probabilidad y Estadistica",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "N/A",
+      "interes_clase": "",
+      "comentario": "Pesimo profesor super desinteresado por las clases, sus clases son muy malas si es que llega a ir, no explica nada, literal solo escribe en el pizarron y dicta lo que escribe, sus examenes son raros y no te dice cuanto sacaste solo si pasaste o no, evitenlo.",
+      "etiquetas_comentario": [],
+      "votos_utiles": "1",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "08/Jun/2018",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 3.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Probabilidad y estadistica",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "8.5",
+      "interes_clase": "",
+      "comentario": "",
+      "etiquetas_comentario": [
+        "Barco"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "1"
+    }
+  ]
+}

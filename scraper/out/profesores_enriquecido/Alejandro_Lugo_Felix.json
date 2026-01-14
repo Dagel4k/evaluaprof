@@ -1,27 +1,33 @@
 {
   "professor_id": "Alejandro_Lugo_Felix",
   "nombre": "Alejandro Lugo Felix",
-  "universidad": "Instituto Tecnologico de Culiacan",
+  "universidad": "Instituto Tecnológico de Culiacán",
   "decay_analysis": {
     "quality_decayed": 6.937162542208057,
-    "difficulty_decayed": null
+    "difficulty_decayed": 5.176430725196018
   },
   "bayes_analysis": {
-    "quality_bayes": 7.451728066843904,
-    "difficulty_bayes": null
+    "quality_bayes": 7.645037916254533,
+    "difficulty_bayes": 2.6694362017804156
   },
   "recommendation_analysis": {
-    "rate": 0.8,
+    "rate": 0.6,
     "wilson_interval": [
-      0.37552826411853885,
-      0.9637768390302125
+      0.23071993220883702,
+      0.8823817688407467
     ],
     "n_recommendations": 5
   },
   "subject_normalization": {
-    "z_mean": null,
-    "z_mean_decayed": null,
-    "per_subject": []
+    "z_mean": -0.29,
+    "z_mean_decayed": -0.46,
+    "per_subject": [
+      {
+        "materia": "PROYECTO INTEGRADOR SIX SIGMA",
+        "z_decayed": -0.4638110253364017,
+        "n": 3
+      }
+    ]
   },
   "grades_analysis": {
     "grade_distribution": {
@@ -37,7 +43,7 @@
       {
         "id": 0,
         "words": [
-          "ayuda",
+          "sabe",
           "temas",
           "clase",
           "clases",
@@ -48,13 +54,13 @@
       {
         "id": 1,
         "words": [
-          "materia",
           "maestro",
+          "materia",
           "vio",
           "es",
           "bien"
         ],
-        "weight": 0.21023381044015094
+        "weight": 0.21023381044015083
       }
     ],
     "sentiment": {
@@ -90,7 +96,21 @@
       ],
       "sigma": 1.1383755604661698
     },
-    "difficulty_trend": null,
+    "difficulty_trend": {
+      "series": [
+        0.0,
+        0.0,
+        0.0,
+        6.0
+      ],
+      "ewma": [
+        0.0,
+        0.0,
+        0.0,
+        1.7999999999999998
+      ],
+      "sigma": 2.1
+    },
     "forecast": {
       "quality_next": 8.802999999999999,
       "quality_band": [
@@ -106,7 +126,7 @@
       "fecha_iso": "2025-05-30T00:00:00",
       "materia": "GESTIÓN DE LA PRODUCCIÓN I",
       "calidad": 8.0,
-      "dificultad": null,
+      "dificultad": 6.0,
       "nota": null,
       "recomienda": 1,
       "comentario": "Se ve que sabe de los temas que presenta, pero sus clases no estan planeadas, es impuntual y en ocasiones no asiste. No vio todos los temas de la planeación, los cuales eran relevantes para la formación. Fuera de clase es una persona que se ve que ayuda a los alumnos con lo que puede."
@@ -115,17 +135,17 @@
       "fecha_iso": "2025-05-30T00:00:00",
       "materia": "GESTIÓN DE LA PRODUCCIÓN I",
       "calidad": 5.0,
-      "dificultad": null,
-      "nota": 8.5,
-      "recomienda": 0,
+      "dificultad": 6.0,
+      "nota": null,
+      "recomienda": 0.5,
       "comentario": "Las clases fueron monótonas, sin un formulario claro y carentes de coherencia. Muchas veces llegó tarde y sin preparar la clase, solo a poner videos de Youtube"
     },
     {
       "fecha_iso": "2019-12-19T00:00:00",
       "materia": "PROYECTO INTEGRADOR SEIS SIGMA",
       "calidad": 10.0,
-      "dificultad": null,
-      "nota": 9.5,
+      "dificultad": 0.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "El mejor maestro para esta materia, tiene mucho dominio sobre green belt y yellow belt, sabe lo que dice, sus clases son muy divertidas, dinámicas y te ayuda en cualquier duda que tengas, su propósito es que aprendas y lo cumple, esta en uno aprender con el porque de que enseña, enseña."
     },
@@ -133,8 +153,8 @@
       "fecha_iso": "2018-10-11T00:00:00",
       "materia": "PROYECTO INTEGRADOR SIX SIGMA",
       "calidad": 9.0,
-      "dificultad": null,
-      "nota": 8.5,
+      "dificultad": 0.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "Es muy buen maestro, domina muchos temas y si sabe muy bien de la materia. Examenes algo enrredosos pero todo se vio en las clases. El unico problema es que no planea bien sus clases y algunos trabajos de clase no se hacen como se debería y al final no los toma en cuenta. Ayuda mucho y es accesible"
     },
@@ -142,8 +162,8 @@
       "fecha_iso": "2017-08-05T00:00:00",
       "materia": "PROYECTO INTEGRADOR SIX SIGMA",
       "calidad": 10.0,
-      "dificultad": null,
-      "nota": 9.5,
+      "dificultad": 0.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "Con él esta muy bien"
     }

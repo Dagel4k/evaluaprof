@@ -1,36 +1,36 @@
 {
   "professor_id": "ISAAC_SALVADOR_GARCIA_CASTILLO",
   "nombre": "ISAAC SALVADOR GARCIA CASTILLO",
-  "universidad": "Instituto Tecnologico de Culiacan",
+  "universidad": "Instituto Tecnológico de Culiacán",
   "decay_analysis": {
-    "quality_decayed": 3.3059204540806464,
-    "difficulty_decayed": null
+    "quality_decayed": 3.305920454080646,
+    "difficulty_decayed": 4.08223863775806
   },
   "bayes_analysis": {
-    "quality_bayes": 6.136609307896813,
-    "difficulty_bayes": null
+    "quality_bayes": 6.359659134139846,
+    "difficulty_bayes": 3.0801186943620182
   },
   "recommendation_analysis": {
-    "rate": 0.0,
+    "rate": 0.333,
     "wilson_interval": [
-      0,
-      0.5615060804490177
+      0.061490315276160515,
+      0.7923450448735121
     ],
     "n_recommendations": 3
   },
   "subject_normalization": {
-    "z_mean": -1.24,
-    "z_mean_decayed": -1.25,
+    "z_mean": -0.91,
+    "z_mean_decayed": -0.89,
     "per_subject": [
       {
-        "materia": "FUNDAMENTOS DE INVESTIGACIÓN",
-        "z_decayed": -0.9498352692842753,
-        "n": 29
+        "materia": "FUNDAMENTOS DE LA INVESTIGACIÓN",
+        "z_decayed": -0.7284927963857741,
+        "n": 4
       },
       {
-        "materia": "FUNDAMENTOS DE LA INVESTIGACIÓN",
-        "z_decayed": -1.5221324792528108,
-        "n": 9
+        "materia": "FUNDAMENTOS DE INVESTIGACIÓN",
+        "z_decayed": -1.0837385102328023,
+        "n": 14
       }
     ]
   },
@@ -69,7 +69,17 @@
       ],
       "sigma": 0.49497474683058307
     },
-    "difficulty_trend": null,
+    "difficulty_trend": {
+      "series": [
+        2.0,
+        5.0
+      ],
+      "ewma": [
+        2.0,
+        2.9
+      ],
+      "sigma": 1.4849242404917498
+    },
     "forecast": {
       "quality_next": 3.6999999999999997,
       "quality_band": [
@@ -85,17 +95,17 @@
       "fecha_iso": "2024-01-16T00:00:00",
       "materia": "FUNDAMENTOS DE LA INVESTIGACIÓN",
       "calidad": 4.0,
-      "dificultad": null,
-      "nota": 10.0,
-      "recomienda": 0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 0.5,
       "comentario": "No le gusta su trabajo, es irrespetuoso, sus clases son presentaciones hechas por los alumnos, nunca explica con claridad los trabajos porque ni siquiera él sabe que se debe hacer."
     },
     {
       "fecha_iso": "2024-01-16T00:00:00",
       "materia": "EXPORTACIÓN Y FUNDAMENTOS",
       "calidad": 2.0,
-      "dificultad": null,
-      "nota": 7.0,
+      "dificultad": 8.0,
+      "nota": null,
       "recomienda": 0,
       "comentario": "No da clase solo pone a leer diapositivas y hace exámenes de ellas, no explica nada"
     },
@@ -103,9 +113,9 @@
       "fecha_iso": "2023-09-05T00:00:00",
       "materia": "FUNDAMENTOS DE INVESTIGACIÓN",
       "calidad": 4.0,
-      "dificultad": null,
-      "nota": 22.0,
-      "recomienda": 0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 0.5,
       "comentario": "Se la pasa hablando de su vida y no deja de dar consejos que nadie le pidio"
     }
   ],

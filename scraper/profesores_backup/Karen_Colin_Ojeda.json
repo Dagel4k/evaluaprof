@@ -1,0 +1,94 @@
+{
+  "nombre": "Karen Colin Ojeda",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "ciudad": "Ciudad: culiacan, sinaloa",
+  "departamento": "Departamento/Facultad: Ingeniería en sistemas",
+  "calidad_general": 8.0,
+  "porcentaje_recomienda": 75,
+  "nivel_dificultad": 5.0,
+  "etiquetas": [
+    "MUY CÓMICO (1)",
+    "DA BUENA RETROALIMENTACIÓN (2)",
+    "TOMARÍA SU CLASE OTRA VEZ (2)",
+    "CALIFICA DURO (2)",
+    "MUCHOS EXÁMENES (2)",
+    "LOS EXÁMENES SON DIFÍCILES (1)",
+    "LA PARTICIPACIÓN IMPORTA (1)",
+    "ASPECTOS DE CALIFICACIÓN CLAROS (1)"
+  ],
+  "numero_calificaciones": 4,
+  "calificaciones": [
+    {
+      "fecha": "25/May/2024",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Calculo Integral",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "N/A",
+      "interes_clase": "",
+      "comentario": "no creo que exista alguna profesora mejor que ella, sus clases son interesantes porque es muy buena explicando y siempre se asegura de que todos entiendan, resuelve dudas, es muy buena onda y amable, sin duda cargaría de nuevo con ella????. si te cae mal es pq eres un huevon de primera.",
+      "etiquetas_comentario": [
+        "Da buena retroalimentación",
+        "Aspectos de calificación claros",
+        "Tomaría su clase otra vez"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "06/Mar/2024",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 8.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Cálculo diferencial",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "8.5",
+      "interes_clase": "",
+      "comentario": "Algo exigente pero muy bien explicado todo lo que da",
+      "etiquetas_comentario": [
+        "Califica Duro",
+        "La Participación Importa",
+        "Muchos Exámenes"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "16/Ene/2024",
+      "tipo_calificacion": "REGULAR",
+      "puntaje_calidad_general": 5.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Calculo diferencial",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "2",
+      "interes_clase": "",
+      "comentario": "",
+      "etiquetas_comentario": [
+        "Califica Duro",
+        "Muchos Exámenes",
+        "Los exámenes son difíciles"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "15/Ene/2023",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 9.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Cálculo",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "8",
+      "interes_clase": "",
+      "comentario": "Es una alivio gigante si no traes base, ayuda muchísimo y es justa para calificar. Sus clases son claras y se esfuerza en buscar ejemplos que resulten de provecho.\nEstudia y pasas el examen.\nOjalá y le vaya bien en la vida.",
+      "etiquetas_comentario": [
+        "Muy cómico",
+        "Da buena retroalimentación",
+        "Tomaría su clase otra vez"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    }
+  ]
+}

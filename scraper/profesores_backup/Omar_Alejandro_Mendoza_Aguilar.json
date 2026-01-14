@@ -1,0 +1,54 @@
+{
+  "nombre": "Omar Alejandro Mendoza Aguilar",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "ciudad": "Ciudad: culiacan, sinaloa",
+  "departamento": "Departamento/Facultad: Ing. Industrial",
+  "calidad_general": 9.0,
+  "porcentaje_recomienda": 100,
+  "nivel_dificultad": 4.0,
+  "etiquetas": [
+    "DA BUENA RETROALIMENTACIÓN (2)",
+    "BRINDA APOYO (1)",
+    "LOS EXÁMENES SON DIFÍCILES (2)",
+    "CLASES EXCELENTES (1)"
+  ],
+  "numero_calificaciones": 2,
+  "calificaciones": [
+    {
+      "fecha": "29/Dic/2020",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Quimica",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "9",
+      "interes_clase": "",
+      "comentario": "Da muy buenas clases , en verdad las materias qye da son de las mas dificiles y aun asi las hace ver faciles poniendo atencion , los examenes son dificiles por las materias que parte.",
+      "etiquetas_comentario": [
+        "Da buena retroalimentación",
+        "Clases excelentes",
+        "Los exámenes son difíciles"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "21/Nov/2020",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 8.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Química",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "Creo que la dificultad de sus exámenes es porque su materia lo requiere. Realmente llegas a aprender con él. En general buen profesor.",
+      "etiquetas_comentario": [
+        "Da buena retroalimentación",
+        "Brinda apoyo",
+        "Los exámenes son difíciles"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    }
+  ]
+}

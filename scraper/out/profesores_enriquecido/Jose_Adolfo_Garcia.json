@@ -1,14 +1,14 @@
 {
   "professor_id": "Jose_Adolfo_Garcia",
   "nombre": "Jose Adolfo Garcia",
-  "universidad": "Instituto Tecnologico de Culiacan",
+  "universidad": "Instituto Tecnológico de Culiacán",
   "decay_analysis": {
     "quality_decayed": 10.0,
-    "difficulty_decayed": null
+    "difficulty_decayed": 0.0
   },
   "bayes_analysis": {
-    "quality_bayes": 7.252356454787142,
-    "difficulty_bayes": null
+    "quality_bayes": 7.515960794892544,
+    "difficulty_bayes": 2.5492311842460214
   },
   "recommendation_analysis": {
     "rate": 1.0,
@@ -57,8 +57,8 @@
       "fecha_iso": "2017-06-13T00:00:00",
       "materia": "CONTROL 2",
       "calidad": 10.0,
-      "dificultad": null,
-      "nota": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "Al morro le apesta el quequi pa control 2"
     }

@@ -3,13 +3,16 @@ import { adaptRawScheduleToCanonical } from '../../adapters/scheduleAdapter';
 import rawScheduleText from '../../mocks/raw-schedule.json?raw';
 import offeringData from '../../mocks/offering'; // Mock Offering with multiple groups
 import { ScheduleData, ProfessorMetrics, Subject, CourseGroup } from '../../types/canonical';
+import { GenerationPreferences, GroupMetrics, ScheduleStatistics } from '../../workers/scheduler.worker';
 import TimeGrid from '../components/TimeGrid';
 import { professorRepo } from '../services/professorRepository';
 import { ScheduleUploader } from '../components/ScheduleUploader';
 import { ManualCourseForm } from '../components/ManualCourseForm';
 import { ProfessorComparison } from '../components/ProfessorComparison';
 import { Button } from '@/shared/ui/button';
-import { RefreshCcw, Plus, MousePointer2, GitCompare, Zap, ChevronLeft, ChevronRight, Loader2, Settings2 } from 'lucide-react';
+import { RefreshCcw, Plus, MousePointer2, GitCompare, Zap, ChevronLeft, ChevronRight, Loader2, Settings2, ChevronDown, ChevronUp } from 'lucide-react';
+import { SubjectCard } from '../components/SubjectCard';
+import { ScheduleStatsPanel } from '../components/ScheduleStatsPanel';
 import { findAllConflicts } from '../../lib/conflictDetector';
 import { SchedulerEngine } from '../../lib/schedulerEngine';
 import { v4 as uuidv4 } from 'uuid';
@@ -39,14 +42,19 @@ const SchedulerPage: React.FC = () => {
   // Generator State
   const [isGenerating, setIsGenerating] = useState(false);
   const [generatedSchedules, setGeneratedSchedules] = useState<CourseGroup[][]>([]);
+  const [scheduleStatistics, setScheduleStatistics] = useState<ScheduleStatistics[]>([]);
   const [currentScheduleIndex, setCurrentScheduleIndex] = useState(0);
   const [preferences, setPreferences] = useState<GenerationPreferences>({
     focus: 'BALANCED',
-    compact: false
+    maxGapTolerance: 2, // Default: 2 hours tolerance
+    includeAvance: false, // By default, do NOT include Avance subjects
+    allowUnassignedProfessors: false, // By default, do NOT include unassigned professors
+    timeFilterMode: 'EXACT' // By default, exact time matching
   });
 
   // Comparison State
   const [comparison, setComparison] = useState<{ idA: string, idB: string } | null>(null);
+  const [expandedSections, setExpandedSections] = useState<Set<string>>(new Set(['disponibles', 'avance']));
 
   const { toast } = useToast();
 
@@ -83,20 +91,23 @@ const SchedulerPage: React.FC = () => {
     setSubjects(data.subjects);
 
     // If there are selected groups (from loaded schedule), use them
-    // Otherwise, auto-select first group of each subject
+    // Otherwise, auto-select first group of each DISPONIBLE subject only
+    // AVANCE subjects are optional and should not be auto-selected
     if (data.selectedGroups && data.selectedGroups.length > 0) {
       const ids = new Set(data.selectedGroups.map(g => g.id));
       setSelectedGroupIds(ids);
       enrichGroups(data.selectedGroups);
     } else {
-      // Auto-select first group of each subject
+      // Auto-select first group of each DISPONIBLE subject only
       const initialSelection = new Set<string>();
       const allGroups: CourseGroup[] = [];
       data.subjects.forEach(s => {
-        if (s.groups.length > 0) {
+        // Only auto-select DISPONIBLE subjects (required courses)
+        // AVANCE subjects are optional
+        if (s.groups.length > 0 && (!s.classification || s.classification === 'DISPONIBLE')) {
           initialSelection.add(s.groups[0].id);
-          allGroups.push(...s.groups);
         }
+        allGroups.push(...s.groups);
       });
       setSelectedGroupIds(initialSelection);
       enrichGroups(allGroups);
@@ -159,27 +170,63 @@ const SchedulerPage: React.FC = () => {
     professorMap.forEach((p, groupId) => {
       metrics[groupId] = {
         quality: p.globalScore,
-        difficulty: p.difficulty
+        difficulty: p.difficulty,
+        trust: p.trust
       };
     });
 
     try {
       const engine = new SchedulerEngine();
-      const results = await engine.generateSchedules(subjects, metrics, preferences);
+      const result = await engine.generateSchedules(subjects, metrics, preferences);
 
-      if (results.length > 0) {
-        setGeneratedSchedules(results);
+      if (result.schedules.length > 0) {
+        setGeneratedSchedules(result.schedules);
+        setScheduleStatistics(result.statistics);
         setCurrentScheduleIndex(0);
-        applyGeneratedSchedule(results[0]);
+        applyGeneratedSchedule(result.schedules[0]);
         toast({
           title: "¡Horarios Generados!",
-          description: `Se encontraron ${results.length} mejores combinaciones según tus preferencias.`,
+          description: `Se encontraron ${result.schedules.length} opciones.`,
         });
       } else {
+        // Generate detailed diagnostic message
+        const activeFilters: string[] = [];
+        const suggestions: string[] = [];
+
+        if (preferences.maxGapTolerance === 0) {
+          activeFilters.push('Sin gaps (tolerancia: 0h)');
+          suggestions.push('Aumenta la tolerancia a gaps');
+        }
+
+        if (!preferences.includeAvance) {
+          activeFilters.push('Materias de Avance excluidas');
+          suggestions.push('Activa "Incluir Materias de Avance"');
+        }
+
+        if (!preferences.allowUnassignedProfessors) {
+          activeFilters.push('Profesores no asignados excluidos');
+          suggestions.push('Activa "Permitir Profes No Asignados"');
+        }
+
+        if (preferences.preferredStartTime !== undefined && preferences.timeFilterMode === 'EXACT') {
+          const hour = Math.floor(preferences.preferredStartTime / 60);
+          activeFilters.push(`Inicio exacto a las ${hour}:00`);
+          suggestions.push('Cambia modo de horario a "Mínimo"');
+        }
+
+        const filterText = activeFilters.length > 0
+          ? `\n\nFiltros activos:\n• ${activeFilters.join('\n• ')}`
+          : '';
+
+        const suggestionText = suggestions.length > 0
+          ? `\n\nSugerencias:\n💡 ${suggestions.join('\n💡 ')}`
+          : '\n\nIntenta quitar algunas materias o relajar los filtros.';
+
         toast({
           title: "Sin resultados",
-          description: "No se encontraron combinaciones válidas. Intenta quitar materias.",
-          variant: "destructive"
+          description: `No se encontraron combinaciones válidas con los filtros actuales.${filterText}${suggestionText}`,
+          variant: "destructive",
+          duration: 8000
         });
       }
       engine.terminate();
@@ -248,22 +295,28 @@ const SchedulerPage: React.FC = () => {
   const stats = useMemo(() => {
     if (selectedGroups.length === 0) return { score: 0, count: 0, difficulty: 0 };
     let totalScore = 0;
+    let scoreCount = 0;
     let totalDiff = 0;
-    let count = 0;
+    let diffCount = 0;
 
     selectedGroups.forEach((g) => {
       const p = professorMap.get(g.id);
-      if (p && p.globalScore > 0) {
-        totalScore += p.globalScore;
-        totalDiff += p.difficulty;
-        count++;
+      if (p) {
+        if (p.globalScore > 0) {
+          totalScore += p.globalScore;
+          scoreCount++;
+        }
+        if (p.difficulty > 0) {
+          totalDiff += p.difficulty;
+          diffCount++;
+        }
       }
     });
 
     return {
-      score: count ? (totalScore / count).toFixed(1) : 'N/A',
-      difficulty: count ? (totalDiff / count).toFixed(1) : 'N/A',
-      count
+      score: scoreCount ? (totalScore / scoreCount).toFixed(1) : 'N/A',
+      difficulty: diffCount ? (totalDiff / diffCount).toFixed(1) : 'N/A',
+      count: selectedGroups.length
     };
   }, [selectedGroups, professorMap]);
 
@@ -387,12 +440,115 @@ const SchedulerPage: React.FC = () => {
                           </SelectContent>
                         </Select>
                       </div>
+
+                      <div className="grid grid-cols-3 items-center gap-4">
+                        <Label htmlFor="timeMode" className="text-sm">Modo Horario</Label>
+                        <Select
+                          value={preferences.timeFilterMode}
+                          onValueChange={(val: any) => setPreferences({ ...preferences, timeFilterMode: val })}
+                        >
+                          <SelectTrigger className="col-span-2 h-8">
+                            <SelectValue />
+                          </SelectTrigger>
+                          <SelectContent>
+                            <SelectItem value="EXACT">Exacto</SelectItem>
+                            <SelectItem value="MINIMUM">Mínimo</SelectItem>
+                            <SelectItem value="CLOSEST">Más Cercano</SelectItem>
+                          </SelectContent>
+                        </Select>
+                      </div>
+
+                      <div className="grid grid-cols-3 items-center gap-4">
+                        <Label htmlFor="startTime" className="text-sm">Inicio</Label>
+                        <Select
+                          value={preferences.preferredStartTime?.toString() || 'any'}
+                          onValueChange={(val) => setPreferences({
+                            ...preferences,
+                            preferredStartTime: val === 'any' ? undefined : parseInt(val)
+                          })}
+                        >
+                          <SelectTrigger className="col-span-2 h-8">
+                            <SelectValue />
+                          </SelectTrigger>
+                          <SelectContent>
+                            <SelectItem value="any">Cualquier hora</SelectItem>
+                            <SelectItem value="420">7:00 AM</SelectItem>
+                            <SelectItem value="480">8:00 AM</SelectItem>
+                            <SelectItem value="540">9:00 AM</SelectItem>
+                            <SelectItem value="600">10:00 AM</SelectItem>
+                            <SelectItem value="660">11:00 AM</SelectItem>
+                          </SelectContent>
+                        </Select>
+                      </div>
+
+                      <div className="grid grid-cols-3 items-center gap-4">
+                        <Label htmlFor="endTime" className="text-sm">Fin</Label>
+                        <Select
+                          value={preferences.preferredEndTime?.toString() || 'any'}
+                          onValueChange={(val) => setPreferences({
+                            ...preferences,
+                            preferredEndTime: val === 'any' ? undefined : parseInt(val)
+                          })}
+                        >
+                          <SelectTrigger className="col-span-2 h-8">
+                            <SelectValue />
+                          </SelectTrigger>
+                          <SelectContent>
+                            <SelectItem value="any">Cualquier hora</SelectItem>
+                            <SelectItem value="900">3:00 PM</SelectItem>
+                            <SelectItem value="960">4:00 PM</SelectItem>
+                            <SelectItem value="1020">5:00 PM</SelectItem>
+                            <SelectItem value="1080">6:00 PM</SelectItem>
+                            <SelectItem value="1140">7:00 PM</SelectItem>
+                            <SelectItem value="1200">8:00 PM</SelectItem>
+                          </SelectContent>
+                        </Select>
+                      </div>
+
+                      <div className="space-y-2">
+                        <div className="flex items-center justify-between">
+                          <Label htmlFor="gapTolerance" className="text-sm">
+                            Tolerancia a Gaps
+                          </Label>
+                          <span className="text-xs text-muted-foreground font-medium">
+                            {preferences.maxGapTolerance}h
+                          </span>
+                        </div>
+                        <input
+                          type="range"
+                          id="gapTolerance"
+                          min="0"
+                          max="5"
+                          step="0.5"
+                          value={preferences.maxGapTolerance}
+                          onChange={(e) => setPreferences({ ...preferences, maxGapTolerance: parseFloat(e.target.value) })}
+                          className="w-full h-2 bg-gray-200 dark:bg-gray-700 rounded-lg appearance-none cursor-pointer"
+                        />
+                        <div className="flex justify-between text-[10px] text-muted-foreground">
+                          <span>Muy Compacto</span>
+                          <span>Flexible</span>
+                        </div>
+                      </div>
                       <div className="flex items-center justify-between">
-                        <Label htmlFor="compact">Horario Compacto</Label>
+                        <Label htmlFor="includeAvance" className="text-sm">
+                          <span>Incluir Materias de Avance</span>
+                          <span className="block text-xs text-muted-foreground font-normal">Materias opcionales</span>
+                        </Label>
                         <Switch
-                          id="compact"
-                          checked={preferences.compact}
-                          onCheckedChange={(c) => setPreferences({ ...preferences, compact: c })}
+                          id="includeAvance"
+                          checked={preferences.includeAvance}
+                          onCheckedChange={(c) => setPreferences({ ...preferences, includeAvance: c })}
+                        />
+                      </div>
+                      <div className="flex items-center justify-between">
+                        <Label htmlFor="allowUnassigned" className="text-sm">
+                          <span>Permitir Profes No Asignados</span>
+                          <span className="block text-xs text-muted-foreground font-normal">Grupos sin profesor</span>
+                        </Label>
+                        <Switch
+                          id="allowUnassigned"
+                          checked={preferences.allowUnassignedProfessors}
+                          onCheckedChange={(c) => setPreferences({ ...preferences, allowUnassignedProfessors: c })}
                         />
                       </div>
                     </div>
@@ -426,61 +582,102 @@ const SchedulerPage: React.FC = () => {
 
         {/* Sidebar: Subjects & Selection */}
         <div className="lg:col-span-1 space-y-4 lg:h-[calc(100vh-180px)] lg:overflow-y-auto pr-1">
-          <div className="p-4 border rounded-lg bg-card shadow-sm">
-            <h3 className="font-bold mb-3 flex items-center gap-2">
-              <MousePointer2 className="h-4 w-4" /> Materias ({subjects.length})
-            </h3>
-            {/* Mobile: Limit height / Desktop: Full */}
-            <div className="space-y-3 max-h-[200px] lg:max-h-none overflow-y-auto">
-              {subjects.map(subject => {
-                const selectedGroup = subject.groups.find(g => selectedGroupIds.has(g.id));
-                return (
-                  <div key={subject.id} className="space-y-1">
-                    <div className="text-xs font-bold text-muted-foreground truncate" title={subject.name}>
-                      {subject.name}
+          <div className="space-y-3">
+            {/* Materias Disponibles */}
+            {(() => {
+              const disponibles = subjects.filter(s => !s.classification || s.classification === 'DISPONIBLE');
+              const isExpanded = expandedSections.has('disponibles');
+
+              if (disponibles.length === 0) return null;
+
+              return (
+                <div className="border rounded-lg bg-card shadow-sm overflow-hidden">
+                  <button
+                    onClick={() => {
+                      const newSet = new Set(expandedSections);
+                      if (isExpanded) newSet.delete('disponibles');
+                      else newSet.add('disponibles');
+                      setExpandedSections(newSet);
+                    }}
+                    className="w-full p-3 flex items-center justify-between hover:bg-muted/50 transition-colors"
+                  >
+                    <div className="flex items-center gap-2">
+                      <MousePointer2 className="h-4 w-4 text-blue-600 dark:text-blue-400" />
+                      <h3 className="font-bold text-sm">Materias Disponibles</h3>
+                      <span className="text-xs text-muted-foreground">({disponibles.length})</span>
                     </div>
-                    <div className="flex flex-col gap-1">
-                      {subject.groups.map(group => {
-                        const isSelected = selectedGroupIds.has(group.id);
-                        const hasConflict = conflicts.has(group.id);
-                        const metrics = professorMap.get(group.id);
+                    {isExpanded ? <ChevronUp className="h-4 w-4" /> : <ChevronDown className="h-4 w-4" />}
+                  </button>
 
+                  {isExpanded && (
+                    <div className="p-3 pt-0 space-y-2 max-h-[400px] overflow-y-auto">
+                      {disponibles.map(subject => {
+                        const selectedGroup = subject.groups.find(g => selectedGroupIds.has(g.id));
                         return (
-                          <div key={group.id} className="flex items-center gap-1">
-                            <button
-                              onClick={() => toggleGroupSelection(subject.id, group.id)}
-                              className={`flex-1 text-left px-2 py-1 text-[10px] rounded border transition-colors flex justify-between items-center ${isSelected
-                                ? (hasConflict ? 'bg-red-500 border-red-600 text-white' : 'bg-primary border-primary text-primary-foreground')
-                                : 'bg-background hover:bg-muted'
-                                }`}
-                            >
-                              <span className="truncate mr-1">{group.groupCode} • {metrics ? (metrics.name || 'S/N').split(' ')[0] : (group.professorNames[0] || 'S/N')}</span>
-                              {metrics && (
-                                <span className={`font-bold shrink-0 ${isSelected ? 'text-white/90' : (metrics.globalScore >= 8 ? 'text-green-600' : 'text-yellow-600')}`}>
-                                  {metrics.globalScore.toFixed(1)} ★
-                                </span>
-                              )}
-                            </button>
-
-                            {!isSelected && selectedGroup && metrics && professorMap.get(selectedGroup.id) && (
-                              <Button
-                                variant="ghost"
-                                size="icon"
-                                className="h-6 w-6 shrink-0 text-muted-foreground hover:text-primary"
-                                title="Comparar"
-                                onClick={() => startComparison(selectedGroup.id, group.id)}
-                              >
-                                <GitCompare className="h-3 w-3" />
-                              </Button>
-                            )}
-                          </div>
+                          <SubjectCard
+                            key={subject.id}
+                            subject={subject}
+                            selectedGroupId={selectedGroup?.id}
+                            professorMap={professorMap}
+                            onGroupSelect={(groupId) => toggleGroupSelection(subject.id, groupId)}
+                            onCompare={startComparison}
+                            conflictingGroupIds={Array.from(conflicts.keys())}
+                          />
                         );
                       })}
                     </div>
-                  </div>
-                );
-              })}
-            </div>
+                  )}
+                </div>
+              );
+            })()}
+
+            {/* Materias de Avance */}
+            {(() => {
+              const avance = subjects.filter(s => s.classification === 'AVANCE');
+              const isExpanded = expandedSections.has('avance');
+
+              if (avance.length === 0) return null;
+
+              return (
+                <div className="border rounded-lg bg-card shadow-sm overflow-hidden">
+                  <button
+                    onClick={() => {
+                      const newSet = new Set(expandedSections);
+                      if (isExpanded) newSet.delete('avance');
+                      else newSet.add('avance');
+                      setExpandedSections(newSet);
+                    }}
+                    className="w-full p-3 flex items-center justify-between hover:bg-muted/50 transition-colors"
+                  >
+                    <div className="flex items-center gap-2">
+                      <MousePointer2 className="h-4 w-4 text-purple-600 dark:text-purple-400" />
+                      <h3 className="font-bold text-sm">Materias de Avance</h3>
+                      <span className="text-xs text-muted-foreground">({avance.length})</span>
+                    </div>
+                    {isExpanded ? <ChevronUp className="h-4 w-4" /> : <ChevronDown className="h-4 w-4" />}
+                  </button>
+
+                  {isExpanded && (
+                    <div className="p-3 pt-0 space-y-2 max-h-[400px] overflow-y-auto">
+                      {avance.map(subject => {
+                        const selectedGroup = subject.groups.find(g => selectedGroupIds.has(g.id));
+                        return (
+                          <SubjectCard
+                            key={subject.id}
+                            subject={subject}
+                            selectedGroupId={selectedGroup?.id}
+                            professorMap={professorMap}
+                            onGroupSelect={(groupId) => toggleGroupSelection(subject.id, groupId)}
+                            onCompare={startComparison}
+                            conflictingGroupIds={Array.from(conflicts.keys())}
+                          />
+                        );
+                      })}
+                    </div>
+                  )}
+                </div>
+              );
+            })()}
           </div>
 
           <div className="p-4 border border-border rounded-lg bg-card text-card-foreground shadow-sm grid grid-cols-2 lg:grid-cols-1 gap-2">
@@ -511,6 +708,17 @@ const SchedulerPage: React.FC = () => {
             </p>
           </div>
         </div>
+
+        {/* Schedule Statistics Panel */}
+        {generatedSchedules.length > 0 && scheduleStatistics[currentScheduleIndex] && (
+          <div className="px-4 mb-4">
+            <ScheduleStatsPanel
+              stats={scheduleStatistics[currentScheduleIndex]}
+              index={currentScheduleIndex}
+              total={generatedSchedules.length}
+            />
+          </div>
+        )}
 
         {/* Main: Time Grid */}
         <div className="lg:col-span-3 min-h-[500px]">

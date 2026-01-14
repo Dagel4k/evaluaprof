@@ -1,31 +1,31 @@
 {
   "professor_id": "Joel_Josue_Ontiveros_Mireles",
   "nombre": "Joel Josue Ontiveros Mireles",
-  "universidad": "Instituto Tecnologico de Culiacan",
+  "universidad": "Instituto Tecnológico de Culiacán",
   "decay_analysis": {
-    "quality_decayed": 6.938735238823746,
-    "difficulty_decayed": null
+    "quality_decayed": 7.247363551729751,
+    "difficulty_decayed": 2.881384281348068
   },
   "bayes_analysis": {
-    "quality_bayes": 7.118394733510571,
-    "difficulty_bayes": null
+    "quality_bayes": 7.378371249587866,
+    "difficulty_bayes": 2.9361028684470822
   },
   "recommendation_analysis": {
-    "rate": 0.8,
+    "rate": 1.0,
     "wilson_interval": [
-      0.37552826411853885,
-      0.9637768390302125
+      0.565508505247919,
+      1
     ],
     "n_recommendations": 5
   },
   "subject_normalization": {
-    "z_mean": -0.15,
-    "z_mean_decayed": -0.15,
+    "z_mean": -0.26,
+    "z_mean_decayed": -0.26,
     "per_subject": [
       {
         "materia": "CALCULO INTEGRAL",
-        "z_decayed": -0.15061134158219291,
-        "n": 84
+        "z_decayed": -0.2568519106136121,
+        "n": 22
       }
     ]
   },
@@ -43,68 +43,83 @@
       {
         "id": 0,
         "words": [
-          "proyectos",
-          "tiempo",
-          "examenes",
+          "si",
           "te",
-          "si"
+          "bien",
+          "ta",
+          "ta bien"
         ],
-        "weight": 0.31613096261146306
+        "weight": 0.28364284459773553
       },
       {
         "id": 1,
         "words": [
+          "ta bien",
+          "bien",
           "examenes",
           "te",
-          "bien",
-          "ta bien",
-          "ta"
+          "si"
         ],
-        "weight": 0.3132926914621441
+        "weight": 0.38372919272134587
       }
     ],
     "sentiment": {
-      "overall": 0.2,
+      "overall": 0.0,
       "by_month": {
         "2025-06": 0.0,
         "2025-05": 0.0,
         "2022-06": 0.0,
-        "2021-08": 0.0,
-        "2021-06": 1.0
+        "2021-08": 0.0
       }
     },
-    "n_comments": 5
+    "n_comments": 4
   },
   "integrity_analysis": {
-    "dup_rate": 0.1,
+    "dup_rate": 0.167,
     "bursts": [],
     "low_variance_flag": 0,
-    "trust_score": 0.95
+    "trust_score": 0.92
   },
   "trends_analysis": {
     "quality_trend": {
       "series": [
-        7.0,
         10.0,
         7.0,
         6.0,
-        7.0
+        7.0,
+        8.0
       ],
       "ewma": [
-        7.0,
-        7.8999999999999995,
-        7.629999999999999,
-        7.140999999999999,
-        7.098699999999999
+        10.0,
+        9.1,
+        8.169999999999998,
+        7.818999999999999,
+        7.873299999999999
       ],
-      "sigma": 1.2357098235427277
+      "sigma": 1.1046299869186964
     },
-    "difficulty_trend": null,
+    "difficulty_trend": {
+      "series": [
+        4.0,
+        4.0,
+        2.0,
+        4.0,
+        2.0
+      ],
+      "ewma": [
+        4.0,
+        4.0,
+        3.4,
+        3.58,
+        3.106
+      ],
+      "sigma": 0.7888847824619257
+    },
     "forecast": {
-      "quality_next": 7.098699999999999,
+      "quality_next": 7.873299999999999,
       "quality_band": [
-        4.676708745856253,
-        9.520691254143745
+        5.708225225639353,
+        10.0
       ],
       "confidence": 0.95
     },
@@ -112,11 +127,20 @@
   },
   "reviews_public": [
     {
+      "fecha_iso": "2025-09-10T00:00:00",
+      "materia": "MECATRONICA CBTIS.",
+      "calidad": 8.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
       "fecha_iso": "2025-06-17T00:00:00",
       "materia": "CIRCUITOS ANALOGICOS",
       "calidad": 7.0,
-      "dificultad": null,
-      "nota": 8.5,
+      "dificultad": 4.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "Ta bien =)"
     },
@@ -124,17 +148,17 @@
       "fecha_iso": "2025-05-18T00:00:00",
       "materia": "MECATRÓNICA",
       "calidad": 6.0,
-      "dificultad": null,
-      "nota": 7.0,
-      "recomienda": 0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 0.5,
       "comentario": "Ta bien"
     },
     {
       "fecha_iso": "2022-06-17T00:00:00",
       "materia": "CALCULO INTEGRAL",
       "calidad": 7.0,
-      "dificultad": null,
-      "nota": 7.5,
+      "dificultad": 4.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "Cae muy bien algunos de sus examenes son dificiles pero si haces la tarea y te esperas hasta el ultimo minuto del examen puedes pasar ya que a veces te deja sacar la libreta"
     },
@@ -142,27 +166,17 @@
       "fecha_iso": "2021-08-22T00:00:00",
       "materia": "INSTALACIONES ELÉCTRICAS",
       "calidad": 10.0,
-      "dificultad": null,
-      "nota": 10.0,
+      "dificultad": 4.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "Muy buen profesor. A pesar de haber empezado tarde el semestre con él, vimos todos los temas a tiempo. Califica con exámenes y proyectos, los cuales no son cosa del otro mundo, pero si es muy meticuloso a la hora de revisar (si copias te vas a RC)."
-    },
-    {
-      "fecha_iso": "2021-06-11T00:00:00",
-      "materia": "INSTALACIONES ELECTRICAS",
-      "calidad": 7.0,
-      "dificultad": null,
-      "nota": 9.5,
-      "recomienda": 1,
-      "comentario": "Muy buen maestro. Explica super claro y entendible. Prefiere dejar proyectos a exámenes. Si te descubre copiando, desde ese momento estas reprobado. Se toma el tiempo de revisar cada trabajo que le entregues, y al final ayuda un poco con calificación a los que van a reprobar pero le echaron ganas."
     }
   ],
   "comments_recent": [
     "Ta bien =)",
     "Ta bien",
     "Cae muy bien algunos de sus examenes son dificiles pero si haces la tarea y te esperas hasta el ultimo minuto del examen puedes pasar ya que a veces te deja sacar la libreta",
-    "Muy buen profesor. A pesar de haber empezado tarde el semestre con él, vimos todos los temas a tiempo. Califica con exámenes y proyectos, los cuales no son cosa del otro mundo, pero si es muy meticuloso a la hora de revisar (si copias te vas a RC).",
-    "Muy buen maestro. Explica super claro y entendible. Prefiere dejar proyectos a exámenes. Si te descubre copiando, desde ese momento estas reprobado. Se toma el tiempo de revisar cada trabajo que le entregues, y al final ayuda un poco con calificación a los que van a reprobar pero le echaron ganas."
+    "Muy buen profesor. A pesar de haber empezado tarde el semestre con él, vimos todos los temas a tiempo. Califica con exámenes y proyectos, los cuales no son cosa del otro mundo, pero si es muy meticuloso a la hora de revisar (si copias te vas a RC)."
   ],
   "n_reviews": 5
 }

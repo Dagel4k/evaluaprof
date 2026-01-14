@@ -1,0 +1,124 @@
+{
+  "nombre": "GABRIEL FERNANDO LOPEZ ESCARREGA",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "ciudad": "Ciudad: culiacan, sinaloa",
+  "departamento": "Departamento/Facultad: Sistemas",
+  "calidad_general": 3.5,
+  "porcentaje_recomienda": 0,
+  "nivel_dificultad": 6.7,
+  "etiquetas": [
+    "PREPÁRATE PARA LEER (3)",
+    "ASISTENCIA OBLIGATORIA (1)",
+    "MUCHOS EXÁMENES (3)",
+    "CALIFICA DURO (4)",
+    "LOS EXÁMENES SON DIFÍCILES (3)",
+    "BARCO (1)"
+  ],
+  "numero_calificaciones": 6,
+  "calificaciones": [
+    {
+      "fecha": "02/Mar/2024",
+      "tipo_calificacion": "REGULAR",
+      "puntaje_calidad_general": 5.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Redes de computadora",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "23",
+      "interes_clase": "",
+      "comentario": "",
+      "etiquetas_comentario": [
+        "Califica Duro",
+        "Prepárate para leer",
+        "Los exámenes son difíciles"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "11/Dic/2023",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 2.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Telecomunicacion",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "7",
+      "interes_clase": "",
+      "comentario": "",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "11/Dic/2023",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 2.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Telecomunicaciones",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "25",
+      "interes_clase": "",
+      "comentario": "",
+      "etiquetas_comentario": [
+        "Califica Duro",
+        "Barco",
+        "Muchos Exámenes"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "05/Feb/2020",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 3.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Findamento de Telecomunicaciones",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "6.5",
+      "interes_clase": "",
+      "comentario": "Lo pero de lo pero, hace muy aburrida las clases y no da bien la materia como debe de ser",
+      "etiquetas_comentario": [
+        "Califica Duro",
+        "Prepárate para leer",
+        "Los exámenes son difíciles"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "18/Dic/2019",
+      "tipo_calificacion": "REGULAR",
+      "puntaje_calidad_general": 4.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Fundamentos de telecomunicaciones",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "9.5",
+      "interes_clase": "",
+      "comentario": "De los peores profesores con los que me a tocado cargar, en resumen, pide mucho más de lo que ofrece.",
+      "etiquetas_comentario": [
+        "Califica Duro",
+        "Muchos Exámenes",
+        "Los exámenes son difíciles"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "25/Nov/2019",
+      "tipo_calificacion": "REGULAR",
+      "puntaje_calidad_general": 5.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Fundamento Telecomunicaciones",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "5",
+      "interes_clase": "",
+      "comentario": "Hace aburridas sus clases y de la Unidad 3 - 5 son puras expocisiones y no le basta eso hace examen y pone 2 a 3 preguntas en 1 sola",
+      "etiquetas_comentario": [
+        "Prepárate para leer",
+        "Asistencia obligatoria",
+        "Muchos Exámenes"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    }
+  ]
+}

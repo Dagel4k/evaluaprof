@@ -1,14 +1,14 @@
 {
   "professor_id": "cesar_alejandro_espinoza",
   "nombre": "cesar alejandro espinoza",
-  "universidad": "Instituto Tecnologico de Culiacan",
+  "universidad": "Instituto Tecnológico de Culiacán",
   "decay_analysis": {
     "quality_decayed": 9.845682821800283,
-    "difficulty_decayed": null
+    "difficulty_decayed": 0.30863435639943504
   },
   "bayes_analysis": {
-    "quality_bayes": 7.521224692512197,
-    "difficulty_bayes": null
+    "quality_bayes": 7.74427451875523,
+    "difficulty_bayes": 2.464734078977403
   },
   "recommendation_analysis": {
     "rate": 1.0,
@@ -19,8 +19,8 @@
     "n_recommendations": 3
   },
   "subject_normalization": {
-    "z_mean": 0.49,
-    "z_mean_decayed": 0.94,
+    "z_mean": 1.1,
+    "z_mean_decayed": 1.11,
     "per_subject": [
       {
         "materia": "INDUSTRIAL",
@@ -29,13 +29,8 @@
       },
       {
         "materia": "CALCULO DIFERENCIAL",
-        "z_decayed": 0.9421633023090474,
-        "n": 110
-      },
-      {
-        "materia": "ESTADISTICA INFERENCIAL",
-        "z_decayed": -0.577350269189627,
-        "n": 3
+        "z_decayed": 1.0821180788591152,
+        "n": 29
       }
     ]
   },
@@ -76,7 +71,19 @@
       ],
       "sigma": 0.718424201522564
     },
-    "difficulty_trend": null,
+    "difficulty_trend": {
+      "series": [
+        4.0,
+        0.0,
+        0.0
+      ],
+      "ewma": [
+        4.0,
+        2.8,
+        1.9599999999999997
+      ],
+      "sigma": 1.4368484030451276
+    },
     "forecast": {
       "quality_next": 9.02,
       "quality_band": [
@@ -92,7 +99,7 @@
       "fecha_iso": "2021-09-02T00:00:00",
       "materia": "INDUSTRIAL",
       "calidad": 10.0,
-      "dificultad": null,
+      "dificultad": 0.0,
       "nota": null,
       "recomienda": 1,
       "comentario": ""
@@ -101,8 +108,8 @@
       "fecha_iso": "2018-08-06T00:00:00",
       "materia": "CALCULO DIFERENCIAL",
       "calidad": 10.0,
-      "dificultad": null,
-      "nota": 9.0,
+      "dificultad": 0.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": ""
     },
@@ -110,8 +117,8 @@
       "fecha_iso": "2015-05-12T00:00:00",
       "materia": "ESTADISTICA INFERENCIAL",
       "calidad": 8.0,
-      "dificultad": null,
-      "nota": 8.5,
+      "dificultad": 4.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "Se recomienda da mucha oportunidad y explica muy claro"
     }

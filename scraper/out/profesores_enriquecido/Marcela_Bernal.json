@@ -1,14 +1,14 @@
 {
   "professor_id": "Marcela_Bernal",
   "nombre": "Marcela Bernal",
-  "universidad": "Instituto Tecnologico de Culiacan",
+  "universidad": "Instituto Tecnológico de Culiacán",
   "decay_analysis": {
     "quality_decayed": 2.0,
-    "difficulty_decayed": null
+    "difficulty_decayed": 0.0
   },
   "bayes_analysis": {
-    "quality_bayes": 6.5250837275144145,
-    "difficulty_bayes": null
+    "quality_bayes": 6.788688067619817,
+    "difficulty_bayes": 2.5492311842460214
   },
   "recommendation_analysis": {
     "rate": 0.0,
@@ -19,13 +19,13 @@
     "n_recommendations": 1
   },
   "subject_normalization": {
-    "z_mean": -1.58,
-    "z_mean_decayed": -1.58,
+    "z_mean": -1.17,
+    "z_mean_decayed": -1.17,
     "per_subject": [
       {
         "materia": "ANALISIS DE LA REALIDAD NACIONAL",
-        "z_decayed": -1.5790638438488862,
-        "n": 10
+        "z_decayed": -1.1666666666666667,
+        "n": 4
       }
     ]
   },
@@ -63,8 +63,8 @@
       "fecha_iso": "2013-08-09T00:00:00",
       "materia": "ANALISIS DE LA REALIDAD NACIONAL",
       "calidad": 2.0,
-      "dificultad": null,
-      "nota": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
       "recomienda": 0,
       "comentario": "Simplemente no es una maestra, no aprendes nada, no ves nada, no haces nada, mas que exponer un par de veces. Con eso y un trabajo al final te califica. Que pena que pongan a este tipo de personal a dar clases."
     }

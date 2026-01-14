@@ -1,0 +1,49 @@
+{
+  "nombre": "Victor alejandro Gonzalez huitron",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "ciudad": "Ciudad: culiacan, sinaloa",
+  "departamento": "Departamento/Facultad: Metal mecanica",
+  "calidad_general": 10.0,
+  "porcentaje_recomienda": 100,
+  "nivel_dificultad": 0.0,
+  "etiquetas": [
+    "DA BUENA RETROALIMENTACIÓN (1)",
+    "INSPIRACIONAL (1)",
+    "BRINDA APOYO (1)"
+  ],
+  "numero_calificaciones": 2,
+  "calificaciones": [
+    {
+      "fecha": "12/Mar/2020",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Programación avanzada",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "Desgraciadamente este Doctor da clases al final de la carrera. Me hubiese gustado haber llevado más materias con él pero nimodo. Es un excelente profesor, brinda mucho apoyo, es cómico, habla con voz un poco atenuada pero explica muy clara todos los temas de la materia. Es una macana!",
+      "etiquetas_comentario": [
+        "Da buena retroalimentación",
+        "Inspiracional",
+        "Brinda apoyo"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "11/Ene/2020",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Programación avanzada",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "N/A",
+      "interes_clase": "",
+      "comentario": "Excelente maestro, es uno  de los maestros que más te ayudará a lo largo de la carrera, es muy accesible y siempre vera la forma de echarte la mano, súper recomendado es un amor",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    }
+  ]
+}

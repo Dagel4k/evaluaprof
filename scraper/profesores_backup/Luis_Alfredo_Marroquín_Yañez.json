@@ -1,0 +1,75 @@
+{
+  "nombre": "Luis Alfredo Marroquín Yañez",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "ciudad": "Ciudad: culiacan, sinaloa",
+  "departamento": "Departamento/Facultad: Habilidades directivas I",
+  "calidad_general": 9.0,
+  "porcentaje_recomienda": 100,
+  "nivel_dificultad": 0.0,
+  "etiquetas": [
+    "LA PARTICIPACIÓN IMPORTA (2)",
+    "ASISTENCIA OBLIGATORIA (1)",
+    "BRINDA APOYO (1)",
+    "BARCO (2)",
+    "INSPIRACIONAL (1)",
+    "MUY CÓMICO (1)",
+    "DA BUENA RETROALIMENTACIÓN (1)"
+  ],
+  "numero_calificaciones": 3,
+  "calificaciones": [
+    {
+      "fecha": "30/Dic/2024",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Desarrollo humano",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "24",
+      "interes_clase": "",
+      "comentario": "Sus clases es de puro habla, casi no hacemos trabajos y al final te va a poner una calificacion alta.",
+      "etiquetas_comentario": [
+        "Barco",
+        "Muy cómico",
+        "Da buena retroalimentación"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "18/Ene/2024",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 7.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Taller de Herramientas Intelectuales",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "Un poco barco pero sus clases son buenas si los alumnos participan, deja pocos trabajos y su clase es bastante fácil. En general es buen profe y te enseña bien la materia.",
+      "etiquetas_comentario": [
+        "Barco",
+        "La Participación Importa",
+        "Inspiracional"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "03/Sep/2021",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Habilidades directivas I",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "Una persona bastante comprensible que te apoyará en lo necesario, se esfuerza en que su materia no cause estrés, tareas sencillas y trata de hacer la clase muy amena, muy recomendado, participen y pónganle atención plebes:)",
+      "etiquetas_comentario": [
+        "La Participación Importa",
+        "Asistencia obligatoria",
+        "Brinda apoyo"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    }
+  ]
+}

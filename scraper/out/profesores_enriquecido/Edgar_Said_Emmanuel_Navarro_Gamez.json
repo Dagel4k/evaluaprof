@@ -1,14 +1,14 @@
 {
   "professor_id": "Edgar_Said_Emmanuel_Navarro_Gamez",
   "nombre": "Edgar Said Emmanuel Navarro Gamez",
-  "universidad": "Instituto Tecnologico de Culiacan",
+  "universidad": "Instituto Tecnológico de Culiacán",
   "decay_analysis": {
     "quality_decayed": 9.281074127442073,
-    "difficulty_decayed": null
+    "difficulty_decayed": 1.5531975758463064
   },
   "bayes_analysis": {
-    "quality_bayes": 7.412565785904183,
-    "difficulty_bayes": null
+    "quality_bayes": 7.619683481701285,
+    "difficulty_bayes": 2.8601102161933025
   },
   "recommendation_analysis": {
     "rate": 0.75,
@@ -19,23 +19,13 @@
     "n_recommendations": 4
   },
   "subject_normalization": {
-    "z_mean": 0.18,
-    "z_mean_decayed": 0.58,
+    "z_mean": 1.08,
+    "z_mean_decayed": 1.08,
     "per_subject": [
       {
-        "materia": "ESTADISTICA INFERENCIAL 1",
-        "z_decayed": 1.0151294522759395,
-        "n": 4
-      },
-      {
         "materia": "CALCULO DIFERENCIAL",
-        "z_decayed": 0.9421633023090473,
-        "n": 110
-      },
-      {
-        "materia": "ESTADÍSTICA Y CONTROL DE CALIDAD",
-        "z_decayed": -1.4142135623730951,
-        "n": 5
+        "z_decayed": 1.0821180788591152,
+        "n": 29
       }
     ]
   },
@@ -59,7 +49,7 @@
           "examenes te",
           "tienes"
         ],
-        "weight": 0.3278371798551227
+        "weight": 0.32783717985512295
       },
       {
         "id": 1,
@@ -70,7 +60,7 @@
           "califique",
           "bien"
         ],
-        "weight": 0.355930253802789
+        "weight": 0.35593025380278887
       }
     ],
     "sentiment": {
@@ -106,7 +96,21 @@
       ],
       "sigma": 1.76712223685856
     },
-    "difficulty_trend": null,
+    "difficulty_trend": {
+      "series": [
+        8.0,
+        4.0,
+        0.0,
+        0.0
+      ],
+      "ewma": [
+        8.0,
+        6.8,
+        4.76,
+        3.332
+      ],
+      "sigma": 1.9950695894295685
+    },
     "forecast": {
       "quality_next": 7.941999999999999,
       "quality_band": [
@@ -122,8 +126,8 @@
       "fecha_iso": "2025-05-31T00:00:00",
       "materia": "CALCULO DIFERENCIAL",
       "calidad": 10.0,
-      "dificultad": null,
-      "nota": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "clases sencillas, te obliga a participar, deja muchas tareas y siento que ni las revisa (solo con que las entregues esta bien), los examenes son en linea y no se como los califique pero hace el paro, aparte cae bien"
     },
@@ -131,8 +135,8 @@
       "fecha_iso": "2023-07-30T00:00:00",
       "materia": "INGENIERÍA DE LA CALIDAD",
       "calidad": 10.0,
-      "dificultad": null,
-      "nota": 9.0,
+      "dificultad": 0.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "Buen maestro, lo que vez en clases y deja de tareas es lo mismo que viene en los exámenes, te explica hasta que le entiendas al tema, la asistencia no es obligatoria solo con que pases el examen tienes para acreditar la materia."
     },
@@ -140,8 +144,8 @@
       "fecha_iso": "2022-01-17T00:00:00",
       "materia": "ESTADISTICA INFERENCIAL 1",
       "calidad": 10.0,
-      "dificultad": null,
-      "nota": 8.5,
+      "dificultad": 4.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "Excelente profesor, muy puntual deja muchos trabajos pero las mismas tareas suelen ser los examenes, te apoya si tienes dudas y trata de apoyarte siempre al momento de retroalimentacion"
     },
@@ -149,9 +153,9 @@
       "fecha_iso": "2021-06-03T00:00:00",
       "materia": "ESTADÍSTICA Y CONTROL DE CALIDAD",
       "calidad": 4.0,
-      "dificultad": null,
-      "nota": 24.0,
-      "recomienda": 0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 0.5,
       "comentario": "Muy vergas el akim nomas porque sube videos al youtube deja de dar clases mas de una semana, diganle que se ponga a trabajar al pinche webon vrga y que califique bien, califica con el culo mientras se mete un bong con el jimmy"
     }
   ],

@@ -1,14 +1,14 @@
 {
   "professor_id": "wendy_Tizania_Astorga_Pacheco",
   "nombre": "wendy Tizania Astorga Pacheco",
-  "universidad": "Instituto Tecnologico de Culiacan",
+  "universidad": "Instituto Tecnológico de Culiacán",
   "decay_analysis": {
-    "quality_decayed": 3.201948123282849,
-    "difficulty_decayed": null
+    "quality_decayed": 3.201948123282848,
+    "difficulty_decayed": 5.725352764621284
   },
   "bayes_analysis": {
-    "quality_bayes": 5.9839943573327545,
-    "difficulty_bayes": null
+    "quality_bayes": 6.1911120531298565,
+    "difficulty_bayes": 3.574395930479017
   },
   "recommendation_analysis": {
     "rate": 0.25,
@@ -19,8 +19,8 @@
     "n_recommendations": 4
   },
   "subject_normalization": {
-    "z_mean": -0.88,
-    "z_mean_decayed": -0.94,
+    "z_mean": -0.71,
+    "z_mean_decayed": -0.78,
     "per_subject": [
       {
         "materia": "TALLER DE SO",
@@ -29,18 +29,18 @@
       },
       {
         "materia": "ARQUITECTURA DE COMPUTADORAS",
-        "z_decayed": -0.7302967433402214,
-        "n": 5
-      },
-      {
-        "materia": "TALLER DE SISTEMAS OPERATIVOS",
-        "z_decayed": -1.0485032066517366,
-        "n": 8
+        "z_decayed": -0.5773502691896257,
+        "n": 3
       },
       {
         "materia": "REDES DE COMPUTADORAS",
-        "z_decayed": -1.239739004869834,
-        "n": 15
+        "z_decayed": -0.6358383670736646,
+        "n": 6
+      },
+      {
+        "materia": "TALLER DE SISTEMAS OPERATIVOS",
+        "z_decayed": -1.1094003924504583,
+        "n": 3
       }
     ]
   },
@@ -64,7 +64,7 @@
           "si",
           "es"
         ],
-        "weight": 0.3635510810523825
+        "weight": 0.3635510810523821
       },
       {
         "id": 1,
@@ -75,7 +75,7 @@
           "es",
           "maestra"
         ],
-        "weight": 0.2824009593543857
+        "weight": 0.28240095935438553
       }
     ],
     "sentiment": {
@@ -111,7 +111,21 @@
       ],
       "sigma": 2.5130779932186744
     },
-    "difficulty_trend": null,
+    "difficulty_trend": {
+      "series": [
+        8.0,
+        2.0,
+        4.0,
+        8.0
+      ],
+      "ewma": [
+        8.0,
+        6.199999999999999,
+        5.539999999999999,
+        6.277999999999999
+      ],
+      "sigma": 2.512688002916399
+    },
     "forecast": {
       "quality_next": 2.8819999999999997,
       "quality_band": [
@@ -127,8 +141,8 @@
       "fecha_iso": "2024-03-12T00:00:00",
       "materia": "TALLER DE SISTEMAS OPERATIVOS",
       "calidad": 2.0,
-      "dificultad": null,
-      "nota": 21.0,
+      "dificultad": 8.0,
+      "nota": null,
       "recomienda": 0,
       "comentario": "Deja demasiada tarea, como si le pagaran más por dejar más. Te obliga a hacer cursitos inutiles que te dan un certificado que no tiene valor curricu. Cualquier cosa importante que diga en clase no la comparte por teams. Cae mal su forma de ser. No carguen con ella, al menos que sea su ultima opcion."
     },
@@ -136,8 +150,8 @@
       "fecha_iso": "2023-03-21T00:00:00",
       "materia": "REDES DE COMPUTADORAS",
       "calidad": 2.0,
-      "dificultad": null,
-      "nota": 8.0,
+      "dificultad": 4.0,
+      "nota": null,
       "recomienda": 0,
       "comentario": "Poca calidad en las clases, de mis peores experiencias en profesores pero si es pasable su materia, no enseña bien el packet tracer asi que aprende por ti mismo yo escogería otro profesor definitivamente, gran parte de su clase casi casi es cotorreo personalmente no me gusta su humor :("
     },
@@ -145,8 +159,8 @@
       "fecha_iso": "2022-05-18T00:00:00",
       "materia": "TALLER DE SO",
       "calidad": 8.0,
-      "dificultad": null,
-      "nota": 8.5,
+      "dificultad": 2.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "Es buena maestra, es sencillo con ella, deja bastantes tareas."
     },
@@ -154,8 +168,8 @@
       "fecha_iso": "2021-08-25T00:00:00",
       "materia": "ARQUITECTURA DE COMPUTADORAS",
       "calidad": 2.0,
-      "dificultad": null,
-      "nota": 9.0,
+      "dificultad": 8.0,
+      "nota": null,
       "recomienda": 0,
       "comentario": "Maestra estricta que no brinda apoyo y se mete en asuntos personales de alumnos."
     }

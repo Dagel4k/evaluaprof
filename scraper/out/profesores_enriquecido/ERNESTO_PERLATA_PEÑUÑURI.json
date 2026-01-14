@@ -1,14 +1,14 @@
 {
   "professor_id": "ERNESTO_PERLATA_PEÑUÑURI",
   "nombre": "ERNESTO PERLATA PEÑUÑURI",
-  "universidad": "Instituto Tecnologico de Culiacan",
+  "universidad": "Instituto Tecnológico de Culiacán",
   "decay_analysis": {
     "quality_decayed": 10.0,
-    "difficulty_decayed": null
+    "difficulty_decayed": 0.0
   },
   "bayes_analysis": {
-    "quality_bayes": 7.252356454787142,
-    "difficulty_bayes": null
+    "quality_bayes": 7.515960794892544,
+    "difficulty_bayes": 2.5492311842460214
   },
   "recommendation_analysis": {
     "rate": 1.0,
@@ -24,8 +24,8 @@
     "per_subject": [
       {
         "materia": "ESTUDIO DEL TRABAJO",
-        "z_decayed": 1.0627378626481143,
-        "n": 13
+        "z_decayed": 1.061445555206044,
+        "n": 6
       }
     ]
   },
@@ -63,8 +63,8 @@
       "fecha_iso": "2020-05-27T00:00:00",
       "materia": "ESTUDIO DEL TRABAJO",
       "calidad": 10.0,
-      "dificultad": null,
-      "nota": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": ""
     }

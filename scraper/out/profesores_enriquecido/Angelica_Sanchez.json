@@ -1,41 +1,41 @@
 {
   "professor_id": "Angelica_Sanchez",
   "nombre": "Angelica Sanchez",
-  "universidad": "Instituto Tecnologico de Culiacan",
+  "universidad": "Instituto Tecnológico de Culiacán",
   "decay_analysis": {
-    "quality_decayed": 9.22673041509489,
-    "difficulty_decayed": null
+    "quality_decayed": 9.226730415094888,
+    "difficulty_decayed": 0.0
   },
   "bayes_analysis": {
-    "quality_bayes": 7.585061400177238,
-    "difficulty_bayes": null
+    "quality_bayes": 7.778371249587866,
+    "difficulty_bayes": 1.8694362017804156
   },
   "recommendation_analysis": {
-    "rate": 1.0,
+    "rate": 0.8,
     "wilson_interval": [
-      0.565508505247919,
-      1
+      0.37552826411853885,
+      0.9637768390302125
     ],
     "n_recommendations": 5
   },
   "subject_normalization": {
-    "z_mean": 0.27,
-    "z_mean_decayed": 0.45,
+    "z_mean": 0.19,
+    "z_mean_decayed": 0.39,
     "per_subject": [
       {
         "materia": "CONTABILIDAD",
-        "z_decayed": 0.6141792448878419,
-        "n": 11
+        "z_decayed": 0.6281087071082564,
+        "n": 10
       },
       {
         "materia": "CONTABILIDAD FINANCIERA",
-        "z_decayed": 0.4285702084893208,
-        "n": 13
+        "z_decayed": 0.335673555243372,
+        "n": 7
       },
       {
         "materia": "TALLER DE INVESTIGACIÓN",
-        "z_decayed": -0.31250311408513165,
-        "n": 9
+        "z_decayed": -0.4472135954999579,
+        "n": 7
       }
     ]
   },
@@ -53,24 +53,24 @@
       {
         "id": 0,
         "words": [
-          "buena persona",
-          "es buena",
+          "veces",
           "persona",
+          "es buena",
           "problema",
           "es"
         ],
-        "weight": 0.40729979377626035
+        "weight": 0.40729979377626063
       },
       {
         "id": 1,
         "words": [
           "clases",
-          "20",
           "profe",
           "tarde",
+          "20",
           "clase"
         ],
-        "weight": 0.3234471543865465
+        "weight": 0.32344715438654675
       }
     ],
     "sentiment": {
@@ -106,7 +106,21 @@
       ],
       "sigma": 0.7821097003191647
     },
-    "difficulty_trend": null,
+    "difficulty_trend": {
+      "series": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ewma": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sigma": 0.0
+    },
     "forecast": {
       "quality_next": 8.527,
       "quality_band": [
@@ -122,8 +136,8 @@
       "fecha_iso": "2025-05-31T00:00:00",
       "materia": "CONTABILIDAD FINANCIERA",
       "calidad": 10.0,
-      "dificultad": null,
-      "nota": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "Respetos totales a la profesora, es muy buena persona y amable, yo falte por varios problemas a algunas de sus clases y me dio apoyo en su materia, los exámenes son fáciles y sus clases son interesantes, si eres de sistemas entiende que no es tan importante su materia, cargaría 1000 veces mas"
     },
@@ -131,8 +145,8 @@
       "fecha_iso": "2025-05-22T00:00:00",
       "materia": "CONTABILIDAD Y COSTOS",
       "calidad": 9.0,
-      "dificultad": null,
-      "nota": 9.0,
+      "dificultad": 0.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "Muy buena profe, si tienes duda de cierto procedimiento o cualquier tarea, no dudes en preguntarle al final de la clase para una explicación más clara. Llega como unos 10-20 minutos tarde a la clase. Consejo: Asiste a la mayoría de las clases y practica uno que otro ejercicio, y así la armas."
     },
@@ -140,8 +154,8 @@
       "fecha_iso": "2025-03-20T00:00:00",
       "materia": "CONTABILIDAD",
       "calidad": 10.0,
-      "dificultad": null,
-      "nota": 24.0,
+      "dificultad": 0.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "Es muy buena persona, el problema es que en algunos casos dice una cosa y hace otra, lo cual a veces puede ser enredoso, pero si apoya mucho y se ve que sabe de lo que habla."
     },
@@ -149,8 +163,8 @@
       "fecha_iso": "2024-08-10T00:00:00",
       "materia": "CONTABILIDAD FINANCIERA",
       "calidad": 8.0,
-      "dificultad": null,
-      "nota": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "Es una clase algo aburrida,  domina muy bien lo relacionado a la contabilidad, si te pierdes ella te ayuda sin problema, el problema que veo es que ya tiene edad y suele enredarse con la calificación y las tareas que deja (Abecés las olvida)"
     },
@@ -158,8 +172,8 @@
       "fecha_iso": "2020-01-10T00:00:00",
       "materia": "TALLER DE INVESTIGACIÓN",
       "calidad": 7.0,
-      "dificultad": null,
-      "nota": 9.5,
+      "dificultad": 0.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "Esta profe es un amor de persona y te dicta claramente los temas, pero creo que hay profes con las que puedes aprender mas, sus exámenes son muy fáciles y les puedes meter verbo, suele llegar 15 o 20 min tarde, deja tareas regularmente, pero en general si es buena maestra."
     }

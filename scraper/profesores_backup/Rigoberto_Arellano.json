@@ -1,0 +1,150 @@
+{
+  "nombre": "Rigoberto Arellano",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "ciudad": "Ciudad: culiacan, sinaloa",
+  "departamento": "Departamento/Facultad: Piedrología y ciencias",
+  "calidad_general": 8.5,
+  "porcentaje_recomienda": 100,
+  "nivel_dificultad": 3.4,
+  "etiquetas": [
+    "CALIFICA DURO (4)",
+    "RESPETADO POR LOS ESTUDIANTES (4)",
+    "LOS EXÁMENES SON DIFÍCILES (1)",
+    "INSPIRACIONAL (2)",
+    "BRINDA APOYO (2)",
+    "CLASES EXCELENTES (2)",
+    "MUCHAS TAREAS (1)",
+    "LA PARTICIPACIÓN IMPORTA (1)",
+    "MUCHOS PROYECTOS GRUPALES (1)",
+    "HACE EXÁMENES SORPRESA (1)"
+  ],
+  "numero_calificaciones": 7,
+  "calificaciones": [
+    {
+      "fecha": "03/Jul/2020",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 8.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Programacion orientada al Criko",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "8",
+      "interes_clase": "",
+      "comentario": "",
+      "etiquetas_comentario": [
+        "Da buena retroalimentación",
+        "Respetado por los estudiantes",
+        "Tomaría su clase otra vez"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "24/Jun/2020",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Desarrollo sustentable",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "Rigo un mal profe?\nUna vez le dijeron \"G4Y\", el respondió: \"Te invito una piedra\". Otro día le gritaron \"J0D3T3\" y el respondió: \"bendiciones\". Un día se encontró a una alumna llorando con las muñecas cortadas y el le dijo: \"Échate un criko\".\nSi eso es ser mal profe, todos deberían serlo.",
+      "etiquetas_comentario": [
+        "Califica Duro",
+        "Hace exámenes sorpresa",
+        "Respetado por los estudiantes"
+      ],
+      "votos_utiles": "4",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "24/Jun/2020",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Quimica del criko",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "El mejor de todo el tec, carguen con el si o si",
+      "etiquetas_comentario": [
+        "Inspiracional",
+        "Brinda apoyo",
+        "Clases excelentes"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "1"
+    },
+    {
+      "fecha": "24/Jun/2020",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 9.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "ciencias del foko",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "9",
+      "interes_clase": "",
+      "comentario": "de las mejores mamadas que he visto",
+      "etiquetas_comentario": [
+        "Califica Duro",
+        "La Participación Importa",
+        "Muchos proyectos grupales"
+      ],
+      "votos_utiles": "2",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "24/Jun/2020",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Ingeniería de software",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "7",
+      "interes_clase": "",
+      "comentario": "La verdad el mejor profe que tiene el tec y que he tenido en mi vida, el piedras está siempre dispuesto a ayudarte y conseguirte criko barato a solo 5 pesitos.\nMuy claro todo",
+      "etiquetas_comentario": [
+        "Califica Duro",
+        "Muchas tareas",
+        "Respetado por los estudiantes"
+      ],
+      "votos_utiles": "2",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "24/Jun/2020",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Ciencias de la piedra",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "Excelente profesor sus enseñanzas y consejos me han ayudado en la escuela, en la ingeniería y en la vida. Sin duda alguna es todo un ejemplo a seguir.",
+      "etiquetas_comentario": [
+        "Inspiracional",
+        "Brinda apoyo",
+        "Clases excelentes"
+      ],
+      "votos_utiles": "1",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "24/Jun/2020",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 2.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "---",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "7",
+      "interes_clase": "",
+      "comentario": "[Comentario esperando revisión]",
+      "etiquetas_comentario": [
+        "Califica Duro",
+        "Respetado por los estudiantes",
+        "Los exámenes son difíciles"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    }
+  ]
+}

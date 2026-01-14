@@ -1,14 +1,14 @@
 {
   "professor_id": "Pancho_Diaz_Villegaz",
   "nombre": "Pancho Diaz Villegaz",
-  "universidad": "Instituto Tecnologico de Culiacan",
+  "universidad": "Instituto Tecnológico de Culiacán",
   "decay_analysis": {
     "quality_decayed": 10.0,
-    "difficulty_decayed": null
+    "difficulty_decayed": 0.0
   },
   "bayes_analysis": {
-    "quality_bayes": 7.252356454787142,
-    "difficulty_bayes": null
+    "quality_bayes": 7.515960794892544,
+    "difficulty_bayes": 2.5492311842460214
   },
   "recommendation_analysis": {
     "rate": 1.0,
@@ -19,13 +19,13 @@
     "n_recommendations": 1
   },
   "subject_normalization": {
-    "z_mean": 1.43,
-    "z_mean_decayed": 1.43,
+    "z_mean": 1.28,
+    "z_mean_decayed": 1.28,
     "per_subject": [
       {
         "materia": "---",
-        "z_decayed": 1.4344005554680677,
-        "n": 521
+        "z_decayed": 1.2772000982826541,
+        "n": 80
       }
     ]
   },
@@ -63,8 +63,8 @@
       "fecha_iso": "2020-02-17T00:00:00",
       "materia": "---",
       "calidad": 10.0,
-      "dificultad": null,
-      "nota": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "[Comentario esperando revisión]"
     }

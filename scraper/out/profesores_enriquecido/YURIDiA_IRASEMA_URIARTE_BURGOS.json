@@ -1,36 +1,36 @@
 {
   "professor_id": "YURIDiA_IRASEMA_URIARTE_BURGOS",
   "nombre": "YURIDiA IRASEMA URIARTE BURGOS",
-  "universidad": "Instituto Tecnologico de Culiacan",
+  "universidad": "Instituto Tecnológico de Culiacán",
   "decay_analysis": {
-    "quality_decayed": 6.374926660042008,
-    "difficulty_decayed": null
+    "quality_decayed": 6.374926660042009,
+    "difficulty_decayed": 2.896620173899217
   },
   "bayes_analysis": {
-    "quality_bayes": 6.751993923281428,
-    "difficulty_bayes": null
+    "quality_bayes": 6.975043749524461,
+    "difficulty_bayes": 2.9262725405158645
   },
   "recommendation_analysis": {
-    "rate": 0.667,
+    "rate": 0.67,
     "wilson_interval": [
-      0.20765495512648788,
-      0.9385096847238393
+      0.20949486174663193,
+      0.9395930709007021
     ],
     "n_recommendations": 3
   },
   "subject_normalization": {
-    "z_mean": -0.51,
-    "z_mean_decayed": -0.43,
+    "z_mean": -0.02,
+    "z_mean_decayed": 0.06,
     "per_subject": [
       {
         "materia": "TALLER DE ETICA",
-        "z_decayed": 0.06991126899682847,
-        "n": 11
+        "z_decayed": 0.5393598899705941,
+        "n": 5
       },
       {
         "materia": "LIDERAZGO",
-        "z_decayed": -1.0954451150103321,
-        "n": 5
+        "z_decayed": -0.5773502691896257,
+        "n": 3
       }
     ]
   },
@@ -69,7 +69,17 @@
       ],
       "sigma": 2.9698484809834995
     },
-    "difficulty_trend": null,
+    "difficulty_trend": {
+      "series": [
+        8.0,
+        1.0
+      ],
+      "ewma": [
+        8.0,
+        5.8999999999999995
+      ],
+      "sigma": 3.4648232278140823
+    },
     "forecast": {
       "quality_next": 3.8,
       "quality_band": [
@@ -85,8 +95,8 @@
       "fecha_iso": "2016-01-26T00:00:00",
       "materia": "TALLER DE ETICA",
       "calidad": 9.0,
-      "dificultad": null,
-      "nota": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "es muy buena maestra, falta frecuentemente y avisa antes de pero se preocupa por que aprendas, sus examenes son muy faciles y es muy paciente. generalmente da temarios sobre sus examenes y siempre toma en cuenta la opinion del grupo. Ademas de ser muy bonita"
     },
@@ -94,8 +104,8 @@
       "fecha_iso": "2016-01-14T00:00:00",
       "materia": "ETICA Y VALORES",
       "calidad": 7.0,
-      "dificultad": null,
-      "nota": 9.5,
+      "dificultad": 2.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "esta bien sabrosa"
     },
@@ -103,7 +113,7 @@
       "fecha_iso": "2015-03-15T00:00:00",
       "materia": "LIDERAZGO",
       "calidad": 2.0,
-      "dificultad": null,
+      "dificultad": 8.0,
       "nota": null,
       "recomienda": 0,
       "comentario": ""

@@ -1,14 +1,14 @@
 {
   "professor_id": "Samuel_Alfonso_Reyes",
   "nombre": "Samuel Alfonso Reyes",
-  "universidad": "Instituto Tecnologico de Culiacan",
+  "universidad": "Instituto Tecnológico de Culiacán",
   "decay_analysis": {
     "quality_decayed": 4.443341772332674,
-    "difficulty_decayed": null
+    "difficulty_decayed": 0.0
   },
   "bayes_analysis": {
-    "quality_bayes": 6.647993416888213,
-    "difficulty_bayes": null
+    "quality_bayes": 6.8896307286514995,
+    "difficulty_bayes": 2.3367952522255195
   },
   "recommendation_analysis": {
     "rate": 0.5,
@@ -19,13 +19,13 @@
     "n_recommendations": 2
   },
   "subject_normalization": {
-    "z_mean": -0.7,
-    "z_mean_decayed": -0.89,
+    "z_mean": -0.64,
+    "z_mean_decayed": -0.83,
     "per_subject": [
       {
         "materia": "CALCULO DIFERENCIAL",
-        "z_decayed": -0.8860295269417358,
-        "n": 110
+        "z_decayed": -0.8341000470727731,
+        "n": 29
       }
     ]
   },
@@ -63,8 +63,8 @@
       "fecha_iso": "2013-02-24T00:00:00",
       "materia": "CALCULO DIFERENCIAL",
       "calidad": 2.0,
-      "dificultad": null,
-      "nota": 8.5,
+      "dificultad": 0.0,
+      "nota": null,
       "recomienda": 0,
       "comentario": "Si quieres pasar sin aprender, esta es tu opcion, solo leeras un libro, iras al centro de ciencias y listo"
     },
@@ -72,8 +72,8 @@
       "fecha_iso": "2012-01-24T00:00:00",
       "materia": "CALCULO DIFERENCIAL",
       "calidad": 8.0,
-      "dificultad": null,
-      "nota": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "Lo remcomiendo si no quieres aprender nada y pasar"
     }

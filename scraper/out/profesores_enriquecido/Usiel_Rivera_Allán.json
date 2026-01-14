@@ -1,14 +1,14 @@
 {
   "professor_id": "Usiel_Rivera_Allán",
   "nombre": "Usiel Rivera Allán",
-  "universidad": "Instituto Tecnologico de Culiacan",
+  "universidad": "Instituto Tecnológico de Culiacán",
   "decay_analysis": {
     "quality_decayed": 10.0,
-    "difficulty_decayed": null
+    "difficulty_decayed": 0.0
   },
   "bayes_analysis": {
-    "quality_bayes": 7.675070846358351,
-    "difficulty_bayes": null
+    "quality_bayes": 7.898120672601384,
+    "difficulty_bayes": 2.157041771285095
   },
   "recommendation_analysis": {
     "rate": 1.0,
@@ -19,13 +19,13 @@
     "n_recommendations": 3
   },
   "subject_normalization": {
-    "z_mean": 1.09,
-    "z_mean_decayed": 1.09,
+    "z_mean": 1.16,
+    "z_mean_decayed": 1.16,
     "per_subject": [
       {
         "materia": "DESARROLLO SUSTENTABLE",
-        "z_decayed": 1.0915110334382296,
-        "n": 52
+        "z_decayed": 1.1631644451014658,
+        "n": 27
       }
     ]
   },
@@ -66,7 +66,19 @@
       ],
       "sigma": 0.0
     },
-    "difficulty_trend": null,
+    "difficulty_trend": {
+      "series": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ewma": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sigma": 0.0
+    },
     "forecast": {
       "quality_next": 10.0,
       "quality_band": [
@@ -82,8 +94,8 @@
       "fecha_iso": "2021-02-14T00:00:00",
       "materia": "DANZA",
       "calidad": 10.0,
-      "dificultad": null,
-      "nota": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": ""
     },
@@ -91,8 +103,8 @@
       "fecha_iso": "2020-01-16T00:00:00",
       "materia": "DANZA",
       "calidad": 10.0,
-      "dificultad": null,
-      "nota": 24.0,
+      "dificultad": 0.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "Muy buen profesor, explica el zapateado de 3 de manera concisa"
     },
@@ -100,8 +112,8 @@
       "fecha_iso": "2017-12-15T00:00:00",
       "materia": "DESARROLLO SUSTENTABLE",
       "calidad": 10.0,
-      "dificultad": null,
-      "nota": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "Explica de manera muy concisa los temas, no se complica mucho, muy buen profesor, exámenes fáciles, sí haces todos los trabajos y examen bien, 100 asegurado"
     }

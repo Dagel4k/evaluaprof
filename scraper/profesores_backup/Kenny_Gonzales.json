@@ -1,0 +1,55 @@
+{
+  "nombre": "Kenny Gonzales",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "ciudad": "Ciudad: culiacan, sinaloa",
+  "departamento": "Departamento/Facultad: ING. Industrial",
+  "calidad_general": 7.0,
+  "porcentaje_recomienda": 50,
+  "nivel_dificultad": 4.0,
+  "etiquetas": [
+    "DA BUENA RETROALIMENTACIÓN (1)",
+    "ASISTENCIA OBLIGATORIA (1)",
+    "POCOS EXÁMENES (2)",
+    "HACE EXÁMENES SORPRESA (1)",
+    "MUCHOS PROYECTOS GRUPALES (1)"
+  ],
+  "numero_calificaciones": 2,
+  "calificaciones": [
+    {
+      "fecha": "29/Nov/2021",
+      "tipo_calificacion": "REGULAR",
+      "puntaje_calidad_general": 5.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Mercadotecnia",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "8.5",
+      "interes_clase": "",
+      "comentario": "Virtuales rara vez entra a clases y toma lista a los 5 min, floja, no da tiempo considerable a entregar trabajos finales, examen final sorpresa, no es organizada, no es flexible, exigente y muchas tareas (cortas pero muchas sin aviso). Tienes que estar al pendiente de la plataforma todo el tiempo.",
+      "etiquetas_comentario": [
+        "Hace exámenes sorpresa",
+        "Pocos Exámenes",
+        "Muchos proyectos grupales"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "09/Ago/2019",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 9.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Mercadotecnia",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "9.5",
+      "interes_clase": "",
+      "comentario": "Ecxelente modo de enseñanza, estricta en la asistencia, pocos examenes, mucho trabajo en equipo, y muchas oportunidades de pasar",
+      "etiquetas_comentario": [
+        "Da buena retroalimentación",
+        "Asistencia obligatoria",
+        "Pocos Exámenes"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    }
+  ]
+}

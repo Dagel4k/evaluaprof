@@ -1,14 +1,14 @@
 {
   "professor_id": "Carlos_López_Piña",
   "nombre": "Carlos López Piña",
-  "universidad": "Instituto Tecnologico de Culiacan",
+  "universidad": "Instituto Tecnológico de Culiacán",
   "decay_analysis": {
     "quality_decayed": 6.501645427784483,
-    "difficulty_decayed": null
+    "difficulty_decayed": 1.7710673723473598
   },
   "bayes_analysis": {
-    "quality_bayes": 6.698280071618469,
-    "difficulty_bayes": null
+    "quality_bayes": 6.905397767415571,
+    "difficulty_bayes": 2.574395930479017
   },
   "recommendation_analysis": {
     "rate": 0.5,
@@ -19,28 +19,28 @@
     "n_recommendations": 4
   },
   "subject_normalization": {
-    "z_mean": -0.36,
-    "z_mean_decayed": -0.18,
+    "z_mean": -0.39,
+    "z_mean_decayed": -0.22,
     "per_subject": [
       {
         "materia": "---",
-        "z_decayed": 1.4344005554680677,
-        "n": 521
+        "z_decayed": 1.2772000982826541,
+        "n": 80
       },
       {
         "materia": "PROBABILIDAD",
-        "z_decayed": 0.7599851569224804,
-        "n": 14
+        "z_decayed": 0.6836559403266642,
+        "n": 7
       },
       {
         "materia": "PROBABILIDAD Y ESTADÍSTICA",
-        "z_decayed": -1.5908356622586108,
-        "n": 23
+        "z_decayed": -1.5940514420808383,
+        "n": 8
       },
       {
         "materia": "CÁLCULO DIFERENCIAL",
-        "z_decayed": -2.045103454785238,
-        "n": 46
+        "z_decayed": -1.9237457920266974,
+        "n": 24
       }
     ]
   },
@@ -85,7 +85,19 @@
       ],
       "sigma": 3.2331615074619044
     },
-    "difficulty_trend": null,
+    "difficulty_trend": {
+      "series": [
+        0.0,
+        8.0,
+        0.0
+      ],
+      "ewma": [
+        0.0,
+        2.4,
+        1.68
+      ],
+      "sigma": 3.8118411999102655
+    },
     "forecast": {
       "quality_next": 4.4,
       "quality_band": [
@@ -101,8 +113,8 @@
       "fecha_iso": "2024-10-23T00:00:00",
       "materia": "---",
       "calidad": 10.0,
-      "dificultad": null,
-      "nota": 8.5,
+      "dificultad": 0.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "[Comentario esperando revisión]"
     },
@@ -110,8 +122,8 @@
       "fecha_iso": "2024-10-23T00:00:00",
       "materia": "PROBABILIDAD",
       "calidad": 10.0,
-      "dificultad": null,
-      "nota": 8.5,
+      "dificultad": 0.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "El mejor profe del tec"
     },
@@ -119,7 +131,7 @@
       "fecha_iso": "2024-02-14T00:00:00",
       "materia": "PROBABILIDAD Y ESTADÍSTICA",
       "calidad": 2.0,
-      "dificultad": null,
+      "dificultad": 8.0,
       "nota": null,
       "recomienda": 0,
       "comentario": "No se le puede llamar maestro a este wey. Solo va a leer diapositivas que parece que ni son suyas. Si le preguntas alguna duda, se enrreda y te dice que leas la diapositiva. no sabe nada de la materia, que asco."
@@ -128,8 +140,8 @@
       "fecha_iso": "2024-01-18T00:00:00",
       "materia": "CÁLCULO DIFERENCIAL",
       "calidad": 2.0,
-      "dificultad": null,
-      "nota": 9.5,
+      "dificultad": 0.0,
+      "nota": null,
       "recomienda": 0,
       "comentario": "El verdadero Rey de los Barcos"
     }

@@ -1,51 +1,41 @@
 {
   "professor_id": "Ismael_Peña_Diaz",
   "nombre": "Ismael Peña Diaz",
-  "universidad": "Instituto Tecnologico de Culiacan",
+  "universidad": "Instituto Tecnológico de Culiacán",
   "decay_analysis": {
-    "quality_decayed": 4.049170031075041,
-    "difficulty_decayed": null
+    "quality_decayed": 2.8095335857553008,
+    "difficulty_decayed": 6.396008874799756
   },
   "bayes_analysis": {
-    "quality_bayes": 5.7293878696808065,
-    "difficulty_bayes": null
+    "quality_bayes": 5.845037916254532,
+    "difficulty_bayes": 3.869436201780416
   },
   "recommendation_analysis": {
-    "rate": 0.231,
+    "rate": 0.31,
     "wilson_interval": [
-      0.08179379092465712,
-      0.5025687399512693
+      0.07671673011706209,
+      0.7083900378887286
     ],
-    "n_recommendations": 13
+    "n_recommendations": 5
   },
   "subject_normalization": {
-    "z_mean": -0.17,
-    "z_mean_decayed": -0.37,
+    "z_mean": -1.13,
+    "z_mean_decayed": -1.05,
     "per_subject": [
       {
-        "materia": "FÍSICA",
-        "z_decayed": 0.8600218077759862,
-        "n": 27
+        "materia": "CUALQUIERA",
+        "z_decayed": -0.8783100656536798,
+        "n": 5
       },
       {
-        "materia": "---",
-        "z_decayed": 0.6425628414671417,
-        "n": 521
-      },
-      {
-        "materia": "PROPIEDADES DE LOS MATERIALES",
-        "z_decayed": -0.1870439207461091,
-        "n": 16
+        "materia": "TERMODINÁMICA",
+        "z_decayed": -1.0599402258819826,
+        "n": 8
       },
       {
         "materia": "FUNDAMENTOS DE TERMODINÁMICA",
-        "z_decayed": -0.33806170189140655,
-        "n": 9
-      },
-      {
-        "materia": "CUALQUIERA",
-        "z_decayed": -0.75955452531275,
-        "n": 6
+        "z_decayed": -1.4527439954372794,
+        "n": 4
       }
     ]
   },
@@ -63,57 +53,24 @@
       {
         "id": 0,
         "words": [
-          "comentario",
-          "revision",
-          "esperando revision",
-          "comentario esperando",
-          "esperando"
+          "examenes tienen",
+          "pasa",
+          "tienen",
+          "te",
+          "examenes"
         ],
-        "weight": 0.16389046893698841
+        "weight": 0.3852789702719869
       },
       {
         "id": 1,
         "words": [
-          "ensena",
           "te",
-          "solo",
-          "si",
-          "es"
-        ],
-        "weight": 0.08411254940822498
-      },
-      {
-        "id": 2,
-        "words": [
-          "si",
-          "clase",
-          "gusta dar",
-          "dar",
-          "gusta"
-        ],
-        "weight": 0.14227068487671019
-      },
-      {
-        "id": 3,
-        "words": [
-          "si",
+          "examenes",
           "ensena",
-          "materia",
-          "te",
-          "examenes"
+          "si",
+          "solo"
         ],
-        "weight": 0.17688361025143787
-      },
-      {
-        "id": 4,
-        "words": [
-          "es",
-          "pasa",
-          "examenes tienen",
-          "clases",
-          "tienen"
-        ],
-        "weight": 0.12062121327800676
+        "weight": 0.2641499810152447
       }
     ],
     "sentiment": {
@@ -122,57 +79,53 @@
         "2021-11": 0.0,
         "2020-06": 0.0,
         "2019-06": 0.0,
-        "2019-04": 0.0,
-        "2019-01": 0.0,
-        "2018-02": 0.0,
-        "2018-01": 0.0,
-        "2017-11": 0.0,
-        "2017-09": 0.0,
-        "2017-06": 0.0
+        "2019-04": 0.0
       }
     },
-    "n_comments": 11
+    "n_comments": 4
   },
   "integrity_analysis": {
-    "dup_rate": 0.055,
+    "dup_rate": 0.0,
     "bursts": [],
     "low_variance_flag": 0,
-    "trust_score": 0.97
+    "trust_score": 1.0
   },
   "trends_analysis": {
     "quality_trend": {
       "series": [
-        4.0,
-        5.0,
-        10.0,
-        6.5,
-        9.0,
-        2.0,
         2.0,
         6.0,
         3.0,
         2.0
       ],
       "ewma": [
-        4.0,
-        4.3,
-        6.01,
-        6.157,
-        7.0099,
-        5.50693,
-        4.454851,
-        4.9183957,
-        4.342876989999999,
-        3.640013892999999
+        2.0,
+        3.1999999999999997,
+        3.1399999999999997,
+        2.7979999999999996
       ],
-      "sigma": 2.2212452952325554
+      "sigma": 1.5947458522703026
     },
-    "difficulty_trend": null,
+    "difficulty_trend": {
+      "series": [
+        7.0,
+        2.0,
+        6.0,
+        8.0
+      ],
+      "ewma": [
+        7.0,
+        5.499999999999999,
+        5.649999999999999,
+        6.354999999999999
+      ],
+      "sigma": 2.1994142212568026
+    },
     "forecast": {
-      "quality_next": 3.640013892999999,
+      "quality_next": 2.7979999999999996,
       "quality_band": [
         0.0,
-        7.993654671655808
+        5.923701870449793
       ],
       "confidence": 0.95
     },
@@ -183,7 +136,7 @@
       "fecha_iso": "2021-11-29T00:00:00",
       "materia": "CUALQUIERA",
       "calidad": 2.0,
-      "dificultad": null,
+      "dificultad": 8.0,
       "nota": null,
       "recomienda": 0,
       "comentario": "Es una lástima que estos sean los \"profes jóvenes\" que van a vivir del tec mucho tiempo, 0% comprensible y muy exigente como si enseñara mucho, solo es un ing frustrado."
@@ -192,8 +145,8 @@
       "fecha_iso": "2020-06-24T00:00:00",
       "materia": "RESISTENCIA DE MATERIALES",
       "calidad": 3.0,
-      "dificultad": null,
-      "nota": 7.0,
+      "dificultad": 6.0,
+      "nota": null,
       "recomienda": 0,
       "comentario": "Es un maestro que basicamente no enseña nada, solo se la pasa haciendo bromas y burlandose de los alumnos. Se burla del poder que le otorga ser maestro y poder reprobarte. Sus examenes tienen un nivel de dificultad 100% mayor que sus clases. No hay mas que ser autodidactas"
     },
@@ -201,17 +154,17 @@
       "fecha_iso": "2019-06-05T00:00:00",
       "materia": "FUNDAMENTOS DE TERMODINÁMICA",
       "calidad": 6.0,
-      "dificultad": null,
-      "nota": 9.5,
-      "recomienda": 0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 0.5,
       "comentario": "El profesor es flojo y muy accesible, es fácil pesarla si estudias, normalmente saca sus exámenes de YouTube, siempre hace solamente 3 exámenes, si le pasas los 2 primeros te promedia y te libra a mitad de semestre, no enseña muy bien su materia, Le va a los tigres."
     },
     {
       "fecha_iso": "2019-04-29T00:00:00",
       "materia": "INGENIERIA DE LOS MATERIALES",
       "calidad": 2.0,
-      "dificultad": null,
-      "nota": 6.0,
+      "dificultad": 8.0,
+      "nota": null,
       "recomienda": 0,
       "comentario": "Ninguno pasa su materia, no le gusta dar clases, te dice que las asistencias no cuentan, pero al final resulta que si, le gusta reprobrar a todos por gusto. Sus examenes no tienen nada que ver con lo casi visto en clase (no explica nada). En pocas palabras es un p*****o para todo."
     },
@@ -219,80 +172,8 @@
       "fecha_iso": "2019-04-11T00:00:00",
       "materia": "TERMODINÁMICA",
       "calidad": 2.0,
-      "dificultad": null,
-      "nota": 7.5,
-      "recomienda": 0,
-      "comentario": ""
-    },
-    {
-      "fecha_iso": "2019-01-15T00:00:00",
-      "materia": "PROPIEDAD DE LOS MATERIALES",
-      "calidad": 2.0,
-      "dificultad": null,
-      "nota": 5.0,
-      "recomienda": 0,
-      "comentario": "Si no el peor de toda la facultad de industrial, no le gusta dar clase, reprueba al 80% del grupo. examen de 40 preguntas, NO AYUDA con calificación."
-    },
-    {
-      "fecha_iso": "2018-02-26T00:00:00",
-      "materia": "---",
-      "calidad": 9.0,
-      "dificultad": null,
-      "nota": 9.0,
-      "recomienda": 1,
-      "comentario": "[Comentario esperando revisión]"
-    },
-    {
-      "fecha_iso": "2018-01-09T00:00:00",
-      "materia": "---",
-      "calidad": 5.0,
-      "dificultad": null,
-      "nota": 8.0,
-      "recomienda": 0,
-      "comentario": "[Comentario esperando revisión]"
-    },
-    {
-      "fecha_iso": "2018-01-03T00:00:00",
-      "materia": "---",
-      "calidad": 8.0,
-      "dificultad": null,
-      "nota": 8.0,
-      "recomienda": 1,
-      "comentario": "[Comentario esperando revisión]"
-    },
-    {
-      "fecha_iso": "2017-11-15T00:00:00",
-      "materia": "FÍSICA",
-      "calidad": 10.0,
-      "dificultad": null,
-      "nota": 24.0,
-      "recomienda": 1,
-      "comentario": "Me reprobó el culero haha"
-    },
-    {
-      "fecha_iso": "2017-09-04T00:00:00",
-      "materia": "PROPIEDADES DE LOS MATERIALES",
-      "calidad": 5.0,
-      "dificultad": null,
-      "nota": 8.0,
-      "recomienda": 0,
-      "comentario": "No comentarios"
-    },
-    {
-      "fecha_iso": "2017-06-10T00:00:00",
-      "materia": "PROPIEDADES DE LOS MATERIALES",
-      "calidad": 5.0,
-      "dificultad": null,
-      "nota": 5.0,
-      "recomienda": 0,
-      "comentario": "sus exámenes son muy difíciles"
-    },
-    {
-      "fecha_iso": "2017-06-06T00:00:00",
-      "materia": "PROPIEDADES DE LOS MATERIALES",
-      "calidad": 3.0,
-      "dificultad": null,
-      "nota": 4.0,
+      "dificultad": 6.0,
+      "nota": null,
       "recomienda": 0,
       "comentario": ""
     }
@@ -301,12 +182,7 @@
     "Es una lástima que estos sean los \"profes jóvenes\" que van a vivir del tec mucho tiempo, 0% comprensible y muy exigente como si enseñara mucho, solo es un ing frustrado.",
     "Es un maestro que basicamente no enseña nada, solo se la pasa haciendo bromas y burlandose de los alumnos. Se burla del poder que le otorga ser maestro y poder reprobarte. Sus examenes tienen un nivel de dificultad 100% mayor que sus clases. No hay mas que ser autodidactas",
     "El profesor es flojo y muy accesible, es fácil pesarla si estudias, normalmente saca sus exámenes de YouTube, siempre hace solamente 3 exámenes, si le pasas los 2 primeros te promedia y te libra a mitad de semestre, no enseña muy bien su materia, Le va a los tigres.",
-    "Ninguno pasa su materia, no le gusta dar clases, te dice que las asistencias no cuentan, pero al final resulta que si, le gusta reprobrar a todos por gusto. Sus examenes no tienen nada que ver con lo casi visto en clase (no explica nada). En pocas palabras es un p*****o para todo.",
-    "Si no el peor de toda la facultad de industrial, no le gusta dar clase, reprueba al 80% del grupo. examen de 40 preguntas, NO AYUDA con calificación.",
-    "[Comentario esperando revisión]",
-    "[Comentario esperando revisión]",
-    "[Comentario esperando revisión]",
-    "Me reprobó el culero haha"
+    "Ninguno pasa su materia, no le gusta dar clases, te dice que las asistencias no cuentan, pero al final resulta que si, le gusta reprobrar a todos por gusto. Sus examenes no tienen nada que ver con lo casi visto en clase (no explica nada). En pocas palabras es un p*****o para todo."
   ],
-  "n_reviews": 13
+  "n_reviews": 5
 }

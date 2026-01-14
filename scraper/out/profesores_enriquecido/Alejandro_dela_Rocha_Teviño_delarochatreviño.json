@@ -1,14 +1,14 @@
 {
   "professor_id": "Alejandro_dela_Rocha_Teviño_delarochatreviño",
   "nombre": "Alejandro dela Rocha Teviño delarochatreviño",
-  "universidad": "Instituto Tecnologico de Culiacan",
+  "universidad": "Instituto Tecnológico de Culiacán",
   "decay_analysis": {
-    "quality_decayed": 9.34173385445992,
-    "difficulty_decayed": null
+    "quality_decayed": 9.341733854459921,
+    "difficulty_decayed": 1.8893002936683754
   },
   "bayes_analysis": {
-    "quality_bayes": 7.521224692512197,
-    "difficulty_bayes": null
+    "quality_bayes": 7.74427451875523,
+    "difficulty_bayes": 2.6185802328235566
   },
   "recommendation_analysis": {
     "rate": 1.0,
@@ -19,13 +19,13 @@
     "n_recommendations": 3
   },
   "subject_normalization": {
-    "z_mean": 1.14,
-    "z_mean_decayed": 1.14,
+    "z_mean": 1.06,
+    "z_mean_decayed": 1.06,
     "per_subject": [
       {
         "materia": "---",
-        "z_decayed": 1.4344005554680677,
-        "n": 521
+        "z_decayed": 1.2772000982826541,
+        "n": 80
       },
       {
         "materia": "INDUSTRIAL",
@@ -69,7 +69,17 @@
       ],
       "sigma": 0.24748737341529137
     },
-    "difficulty_trend": null,
+    "difficulty_trend": {
+      "series": [
+        6.0,
+        0.0
+      ],
+      "ewma": [
+        6.0,
+        4.199999999999999
+      ],
+      "sigma": 2.969848480983499
+    },
     "forecast": {
       "quality_next": 9.15,
       "quality_band": [
@@ -85,7 +95,7 @@
       "fecha_iso": "2014-01-15T00:00:00",
       "materia": "INDUSTRIAL",
       "calidad": 9.0,
-      "dificultad": null,
+      "dificultad": 0.0,
       "nota": null,
       "recomienda": 1,
       "comentario": "peladita!"
@@ -94,8 +104,8 @@
       "fecha_iso": "2014-01-10T00:00:00",
       "materia": "---",
       "calidad": 10.0,
-      "dificultad": null,
-      "nota": 9.0,
+      "dificultad": 0.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "[Comentario esperando revisión]"
     },
@@ -103,8 +113,8 @@
       "fecha_iso": "2013-10-15T00:00:00",
       "materia": "ADMINISTRACIONDEOPERACINESLL",
       "calidad": 9.0,
-      "dificultad": null,
-      "nota": 9.5,
+      "dificultad": 6.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": ""
     }

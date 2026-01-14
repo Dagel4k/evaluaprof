@@ -1,14 +1,14 @@
 {
   "professor_id": "Jesús_María_Moreno_López",
   "nombre": "Jesús María Moreno López",
-  "universidad": "Instituto Tecnologico de Culiacan",
+  "universidad": "Instituto Tecnológico de Culiacán",
   "decay_analysis": {
-    "quality_decayed": 9.69019394083185,
-    "difficulty_decayed": null
+    "quality_decayed": 9.690193940831852,
+    "difficulty_decayed": 1.858836355008895
   },
   "bayes_analysis": {
-    "quality_bayes": 7.598147769435274,
-    "difficulty_bayes": null
+    "quality_bayes": 7.821197595678307,
+    "difficulty_bayes": 2.6185802328235566
   },
   "recommendation_analysis": {
     "rate": 1.0,
@@ -60,7 +60,19 @@
       ],
       "sigma": 0.3592121007612816
     },
-    "difficulty_trend": null,
+    "difficulty_trend": {
+      "series": [
+        6.0,
+        0.0,
+        0.0
+      ],
+      "ewma": [
+        6.0,
+        4.199999999999999,
+        2.9399999999999995
+      ],
+      "sigma": 2.155272604567691
+    },
     "forecast": {
       "quality_next": 9.51,
       "quality_band": [
@@ -76,8 +88,8 @@
       "fecha_iso": "2013-12-10T00:00:00",
       "materia": "FLUIDOS",
       "calidad": 10.0,
-      "dificultad": null,
-      "nota": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "Chema es de los mejores maestros que tiene el tec"
     },
@@ -85,8 +97,8 @@
       "fecha_iso": "2013-11-18T00:00:00",
       "materia": "HIDRÁULICA",
       "calidad": 10.0,
-      "dificultad": null,
-      "nota": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "Muy buen maestro sin duda lo recomiendo"
     },
@@ -94,8 +106,8 @@
       "fecha_iso": "2013-08-07T00:00:00",
       "materia": "MECÁNICA DE FLUIDOS",
       "calidad": 9.0,
-      "dificultad": null,
-      "nota": 9.0,
+      "dificultad": 6.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "Chemita es uno de los mejores maestros que tiene el tecnológico!, a mi me encantó su clase. Aparte tiene muchísima experiencia."
     }

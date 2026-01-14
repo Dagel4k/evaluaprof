@@ -1,14 +1,14 @@
 {
   "professor_id": "Alvaro_Zazueta_Gambino",
   "nombre": "Alvaro Zazueta Gambino",
-  "universidad": "Instituto Tecnologico de Culiacan",
+  "universidad": "Instituto Tecnológico de Culiacán",
   "decay_analysis": {
     "quality_decayed": 10.0,
-    "difficulty_decayed": null
+    "difficulty_decayed": 1.9845970338629577
   },
   "bayes_analysis": {
-    "quality_bayes": 7.481326750221547,
-    "difficulty_bayes": null
+    "quality_bayes": 7.7229640619848325,
+    "difficulty_bayes": 2.670128585558853
   },
   "recommendation_analysis": {
     "rate": 1.0,
@@ -19,18 +19,18 @@
     "n_recommendations": 2
   },
   "subject_normalization": {
-    "z_mean": 0.85,
-    "z_mean_decayed": 0.85,
+    "z_mean": 0.98,
+    "z_mean_decayed": 0.98,
     "per_subject": [
       {
         "materia": "CALCULO DIFERENCIAL",
-        "z_decayed": 0.9421633023090474,
-        "n": 110
+        "z_decayed": 1.0821180788591152,
+        "n": 29
       },
       {
         "materia": "CÁLCULO DIFERENCIAL",
-        "z_decayed": 0.7526588922815561,
-        "n": 46
+        "z_decayed": 0.8744299054666805,
+        "n": 24
       }
     ]
   },
@@ -68,8 +68,8 @@
       "fecha_iso": "2023-01-30T00:00:00",
       "materia": "CALCULO DIFERENCIAL",
       "calidad": 10.0,
-      "dificultad": null,
-      "nota": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": ""
     },
@@ -77,8 +77,8 @@
       "fecha_iso": "2023-01-14T00:00:00",
       "materia": "CÁLCULO DIFERENCIAL",
       "calidad": 10.0,
-      "dificultad": null,
-      "nota": 9.5,
+      "dificultad": 4.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "Es un excelente profesor, es paciente y no le cuesta explicarte las veces necesarias para que entiendas sobre el tema, es bastante flexible y busca que tengas buena calificación. Una lastima que por el momento ya no imparta clases, dejo esta review por si vuelve y es una opcion para ustedes."
     }

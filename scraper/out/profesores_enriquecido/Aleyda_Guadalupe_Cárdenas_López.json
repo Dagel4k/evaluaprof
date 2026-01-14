@@ -1,51 +1,36 @@
 {
   "professor_id": "Aleyda_Guadalupe_Cárdenas_López",
   "nombre": "Aleyda Guadalupe Cárdenas López",
-  "universidad": "Instituto Tecnologico de Culiacan",
+  "universidad": "Instituto Tecnológico de Culiacán",
   "decay_analysis": {
-    "quality_decayed": 7.567316602401727,
-    "difficulty_decayed": null
+    "quality_decayed": 7.788512418740471,
+    "difficulty_decayed": 2.463672880636742
   },
   "bayes_analysis": {
-    "quality_bayes": 6.751234333459931,
-    "difficulty_bayes": null
+    "quality_bayes": 7.0450379162545325,
+    "difficulty_bayes": 3.2027695351137493
   },
   "recommendation_analysis": {
-    "rate": 0.455,
+    "rate": 0.55,
     "wilson_interval": [
-      0.21270957543988048,
-      0.7199122443100118
+      0.19962880334354857,
+      0.8569220471812433
     ],
-    "n_recommendations": 11
+    "n_recommendations": 5
   },
   "subject_normalization": {
-    "z_mean": -0.21,
-    "z_mean_decayed": -0.13,
+    "z_mean": 0.39,
+    "z_mean_decayed": 0.47,
     "per_subject": [
       {
-        "materia": "COMPUTACION",
-        "z_decayed": 0.8232906452954605,
-        "n": 4
-      },
-      {
         "materia": "TALLER DE ÉTICA",
-        "z_decayed": 0.8077614592374455,
-        "n": 22
+        "z_decayed": 0.9102499908660036,
+        "n": 16
       },
       {
-        "materia": "TALLER DE HERRAMIENTAS INTELECTUALES",
-        "z_decayed": -0.08642630870745126,
-        "n": 18
-      },
-      {
-        "materia": "ADMINISTRACIÓN Y CONTABILIDAD",
-        "z_decayed": -0.26170758070247274,
-        "n": 7
-      },
-      {
-        "materia": "ADMINISTRACION Y CONTABILIDAD",
-        "z_decayed": -0.2790468096271703,
-        "n": 3
+        "materia": "TALLER DE ETICA",
+        "z_decayed": -0.13483997249264792,
+        "n": 5
       }
     ]
   },
@@ -59,66 +44,12 @@
     "n_grades": 0
   },
   "nlp_analysis": {
-    "topics": [
-      {
-        "id": 0,
-        "words": [
-          "tiene",
-          "si",
-          "bien",
-          "tienes",
-          "es"
-        ],
-        "weight": 0.13189778935535024
-      },
-      {
-        "id": 1,
-        "words": [
-          "clases",
-          "profesora",
-          "100",
-          "materia",
-          "domina"
-        ],
-        "weight": 0.20897646244634355
-      },
-      {
-        "id": 2,
-        "words": [
-          "profesora",
-          "da",
-          "es",
-          "clases",
-          "maestra"
-        ],
-        "weight": 0.14957823439199747
-      },
-      {
-        "id": 3,
-        "words": [
-          "materia",
-          "sabe",
-          "da",
-          "si",
-          "clase"
-        ],
-        "weight": 0.15590526729535567
-      }
-    ],
+    "topics": [],
     "sentiment": {
-      "overall": 0.125,
-      "by_month": {
-        "2022-11": 0.0,
-        "2021-12": 0.0,
-        "2018-06": 0.0,
-        "2017-08": 0.0,
-        "2017-06": 1.0,
-        "2014-08": 0.0,
-        "2013-07": 0.0,
-        "2012-08": 0.0
-      }
+      "overall": null,
+      "by_month": {}
     },
-    "n_comments": 8
+    "n_comments": 3
   },
   "integrity_analysis": {
     "dup_rate": 0.0,
@@ -129,12 +60,6 @@
   "trends_analysis": {
     "quality_trend": {
       "series": [
-        5.0,
-        10.0,
-        2.0,
-        10.0,
-        6.0,
-        6.0,
         2.0,
         9.0,
         4.0,
@@ -142,25 +67,35 @@
         10.0
       ],
       "ewma": [
-        5.0,
-        6.5,
-        5.1499999999999995,
-        6.6049999999999995,
-        6.423499999999999,
-        6.296449999999998,
-        5.007514999999998,
-        6.205260499999998,
-        5.543682349999998,
-        6.280577644999998,
-        7.396404351499998
+        2.0,
+        4.1,
+        4.069999999999999,
+        5.248999999999999,
+        6.674299999999999
       ],
-      "sigma": 2.451472635646899
+      "sigma": 2.170942221248645
     },
-    "difficulty_trend": null,
+    "difficulty_trend": {
+      "series": [
+        8.0,
+        4.0,
+        6.0,
+        2.0,
+        0.0
+      ],
+      "ewma": [
+        8.0,
+        6.8,
+        6.56,
+        5.191999999999999,
+        3.6343999999999994
+      ],
+      "sigma": 1.6430747371924381
+    },
     "forecast": {
-      "quality_next": 7.396404351499998,
+      "quality_next": 6.674299999999999,
       "quality_band": [
-        2.591517985632077,
+        2.419253246352655,
         10.0
       ],
       "confidence": 0.95
@@ -172,8 +107,8 @@
       "fecha_iso": "2022-11-30T00:00:00",
       "materia": "TALLER DE ÉTICA",
       "calidad": 10.0,
-      "dificultad": null,
-      "nota": 9.0,
+      "dificultad": 0.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "La profesora es muy buena explicando, tienes que participar y tienes que venir todos los días para no perderte de las clases porque la asistencia es importante con ella."
     },
@@ -181,8 +116,8 @@
       "fecha_iso": "2021-12-18T00:00:00",
       "materia": "TALLER DE ETICA",
       "calidad": 8.0,
-      "dificultad": null,
-      "nota": 10.0,
+      "dificultad": 2.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "no me gustaban sus clases, pero no la considero mala maestra"
     },
@@ -190,16 +125,16 @@
       "fecha_iso": "2020-06-13T00:00:00",
       "materia": "CONTABILIDAD ORIENTADA A LOS NEGOCIOS",
       "calidad": 4.0,
-      "dificultad": null,
-      "nota": 9.5,
-      "recomienda": 0,
+      "dificultad": 6.0,
+      "nota": null,
+      "recomienda": 0.5,
       "comentario": ""
     },
     {
       "fecha_iso": "2018-06-13T00:00:00",
       "materia": "ADMINISTRACION Y CONTABILIDAD",
       "calidad": 9.0,
-      "dificultad": null,
+      "dificultad": 4.0,
       "nota": null,
       "recomienda": 1,
       "comentario": "Le da demasiada importancia a esta clase (siendo clase de relleno). Se enoja mucho pero la verdad que si aprendes mucho con ella. Los exámenes son largos y confusos."
@@ -208,74 +143,16 @@
       "fecha_iso": "2017-11-15T00:00:00",
       "materia": "CONTABILIDAD PINCHE CULERA",
       "calidad": 2.0,
-      "dificultad": null,
-      "nota": 24.0,
-      "recomienda": 0,
-      "comentario": ""
-    },
-    {
-      "fecha_iso": "2017-08-08T00:00:00",
-      "materia": "ADMINISTRACIÓN Y CONTABILIDAD",
-      "calidad": 6.0,
-      "dificultad": null,
-      "nota": 10.0,
-      "recomienda": 0,
-      "comentario": "Si sabes llevarte con ella será accesible contigo; tienes que mostrar interés, no saques el teléfono en su clase y mucho menos en un examen. Si sabe que estás interesado en la materia todo bien, pero tienes que echarle ganas porque califica muy raro. Sabe de la materia pero a veces se contradice."
-    },
-    {
-      "fecha_iso": "2017-06-20T00:00:00",
-      "materia": "ADMINISTRACION Y CONTABILIDAD",
-      "calidad": 6.0,
-      "dificultad": null,
-      "nota": 9.0,
-      "recomienda": 0,
-      "comentario": "Excelente profesora, domina perfectamente los temas, pero por lo mismo se necesita estudiar para saber de lo que esta hablando en las clases, terminando el curso vas a saber mucho de la materia"
-    },
-    {
-      "fecha_iso": "2014-08-17T00:00:00",
-      "materia": "ADMINISTRACIÓN Y CONTABILIDAD",
-      "calidad": 10.0,
-      "dificultad": null,
+      "dificultad": 8.0,
       "nota": null,
-      "recomienda": 1,
-      "comentario": "De las mejores maestras del tec. Creo que se están confundiendo los que escribieron antes aquí. A mi me dio la materia de contabilidad y administración y domina el tema en un 100%, recurre a la experiencia con sus negocios y siempre esta dispuesta a ayudar a los alumnos. Muy profesional muy satisfec"
-    },
-    {
-      "fecha_iso": "2013-07-19T00:00:00",
-      "materia": "ÉTICA",
-      "calidad": 2.0,
-      "dificultad": null,
-      "nota": 1.0,
       "recomienda": 0,
-      "comentario": "Esta fulana corriente no es maestra mas bien parece verdulera del mercadito, no sabe nada y se le nota el bajo nivel educativo y personal que tiene. Como es posible que este tipo de personas pretendan dar clases, es imperdonable. Simpre esta incapacitada y cuando llega a ir al salón dicta o nos da unos amarillentos apuntes del año de la canica. Por favor no permitan esto."
-    },
-    {
-      "fecha_iso": "2012-12-31T00:00:00",
-      "materia": "COMPUTACION",
-      "calidad": 10.0,
-      "dificultad": null,
-      "nota": 9.0,
-      "recomienda": 1,
       "comentario": ""
-    },
-    {
-      "fecha_iso": "2012-08-22T00:00:00",
-      "materia": "TALLER DE HERRAMIENTAS INTELECTUALES",
-      "calidad": 5.0,
-      "dificultad": null,
-      "nota": 1.5,
-      "recomienda": 0,
-      "comentario": "Es bien bipolar, te hace ver que tendras 100 al ultimo pero si no le caes bien te pone menos de lo que mereces y si le exijes que te enseñe los trabajos te dira que no los tiene, NUNCA LA CARGUEN."
     }
   ],
   "comments_recent": [
     "La profesora es muy buena explicando, tienes que participar y tienes que venir todos los días para no perderte de las clases porque la asistencia es importante con ella.",
     "no me gustaban sus clases, pero no la considero mala maestra",
-    "Le da demasiada importancia a esta clase (siendo clase de relleno). Se enoja mucho pero la verdad que si aprendes mucho con ella. Los exámenes son largos y confusos.",
-    "Si sabes llevarte con ella será accesible contigo; tienes que mostrar interés, no saques el teléfono en su clase y mucho menos en un examen. Si sabe que estás interesado en la materia todo bien, pero tienes que echarle ganas porque califica muy raro. Sabe de la materia pero a veces se contradice.",
-    "Excelente profesora, domina perfectamente los temas, pero por lo mismo se necesita estudiar para saber de lo que esta hablando en las clases, terminando el curso vas a saber mucho de la materia",
-    "De las mejores maestras del tec. Creo que se están confundiendo los que escribieron antes aquí. A mi me dio la materia de contabilidad y administración y domina el tema en un 100%, recurre a la experiencia con sus negocios y siempre esta dispuesta a ayudar a los alumnos. Muy profesional muy satisfec",
-    "Esta fulana corriente no es maestra mas bien parece verdulera del mercadito, no sabe nada y se le nota el bajo nivel educativo y personal que tiene. Como es posible que este tipo de personas pretendan dar clases, es imperdonable. Simpre esta incapacitada y cuando llega a ir al salón dicta o nos da unos amarillentos apuntes del año de la canica. Por favor no permitan esto."
+    "Le da demasiada importancia a esta clase (siendo clase de relleno). Se enoja mucho pero la verdad que si aprendes mucho con ella. Los exámenes son largos y confusos."
   ],
-  "n_reviews": 11
+  "n_reviews": 5
 }

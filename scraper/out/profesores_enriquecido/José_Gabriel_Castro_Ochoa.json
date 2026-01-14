@@ -1,14 +1,14 @@
 {
   "professor_id": "José_Gabriel_Castro_Ochoa",
   "nombre": "José Gabriel Castro Ochoa",
-  "universidad": "Instituto Tecnologico de Culiacan",
+  "universidad": "Instituto Tecnológico de Culiacán",
   "decay_analysis": {
     "quality_decayed": 9.0,
-    "difficulty_decayed": null
+    "difficulty_decayed": 2.0
   },
   "bayes_analysis": {
-    "quality_bayes": 7.161447363878051,
-    "difficulty_bayes": null
+    "quality_bayes": 7.425051703983454,
+    "difficulty_bayes": 2.731049366064203
   },
   "recommendation_analysis": {
     "rate": 1.0,
@@ -19,13 +19,13 @@
     "n_recommendations": 1
   },
   "subject_normalization": {
-    "z_mean": 1.49,
-    "z_mean_decayed": 1.49,
+    "z_mean": 1.06,
+    "z_mean_decayed": 1.06,
     "per_subject": [
       {
         "materia": "ÉTICA",
-        "z_decayed": 1.4946949435935875,
-        "n": 11
+        "z_decayed": 1.0606601717798212,
+        "n": 8
       }
     ]
   },
@@ -63,8 +63,8 @@
       "fecha_iso": "2020-11-09T00:00:00",
       "materia": "ÉTICA",
       "calidad": 9.0,
-      "dificultad": null,
-      "nota": 24.0,
+      "dificultad": 2.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": ""
     }

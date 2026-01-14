@@ -1,14 +1,14 @@
 {
   "professor_id": "Martha_Montero_Rosales",
   "nombre": "Martha Montero Rosales",
-  "universidad": "Instituto Tecnologico de Culiacan",
+  "universidad": "Instituto Tecnológico de Culiacán",
   "decay_analysis": {
     "quality_decayed": 8.062734824904691,
-    "difficulty_decayed": null
+    "difficulty_decayed": 1.937265175095309
   },
   "bayes_analysis": {
-    "quality_bayes": 7.31466008355488,
-    "difficulty_bayes": null
+    "quality_bayes": 7.556297395318166,
+    "difficulty_bayes": 2.503461918892186
   },
   "recommendation_analysis": {
     "rate": 1.0,
@@ -57,8 +57,8 @@
       "fecha_iso": "2023-06-30T00:00:00",
       "materia": "LOGÍSTICA Y CADENA DE SUMINISTROS",
       "calidad": 8.0,
-      "dificultad": null,
-      "nota": 9.0,
+      "dificultad": 2.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "es buena maestra, se fija mucho que no copees en los exámenes, los exámenes de recuperación son algo difíciles pero si entras todos los dias y no fallas te echa la mano y te toma en consideración, si eres muy flojo y casi no te gusta entrar no cargues con ella."
     },
@@ -66,8 +66,8 @@
       "fecha_iso": "2013-08-07T00:00:00",
       "materia": "METROLOGÌA Y NORMALIZACIÒN",
       "calidad": 10.0,
-      "dificultad": null,
-      "nota": 9.0,
+      "dificultad": 0.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "Es buena maestra, como tiene puesto en la dirección falta muchos días pero si aprendes, no esta amargada como otras, el único pero que le vi es que en los exámenes anda bien pilas para que nadie copie pero pues no están tan difíciles y si de plano truenas en la recuperación le sacas el 100 pelado."
     }

@@ -1,14 +1,14 @@
 {
   "professor_id": "CLAUDIA_BURGOS_DE_LOS_RIOS",
   "nombre": "CLAUDIA BURGOS DE LOS RIOS",
-  "universidad": "Instituto Tecnologico de Culiacan",
+  "universidad": "Instituto Tecnológico de Culiacán",
   "decay_analysis": {
     "quality_decayed": 9.900402516231393,
-    "difficulty_decayed": null
+    "difficulty_decayed": 0.0
   },
   "bayes_analysis": {
-    "quality_bayes": 7.397993416888213,
-    "difficulty_bayes": null
+    "quality_bayes": 7.6396307286514995,
+    "difficulty_bayes": 2.3367952522255195
   },
   "recommendation_analysis": {
     "rate": 1.0,
@@ -19,8 +19,8 @@
     "n_recommendations": 2
   },
   "subject_normalization": {
-    "z_mean": 0.6,
-    "z_mean_decayed": 0.77,
+    "z_mean": 0.64,
+    "z_mean_decayed": 0.78,
     "per_subject": [
       {
         "materia": "DESARROLLO HUMANO",
@@ -29,8 +29,8 @@
       },
       {
         "materia": "TALLER DE ÉTICA",
-        "z_decayed": 0.3944881545113107,
-        "n": 22
+        "z_decayed": 0.48189705398788424,
+        "n": 16
       }
     ]
   },
@@ -68,8 +68,8 @@
       "fecha_iso": "2024-03-06T00:00:00",
       "materia": "DESARROLLO HUMANO",
       "calidad": 10.0,
-      "dificultad": null,
-      "nota": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "Súper 10/10, su clase aparte de ser fácil ella la hace muy entendible y práctica, deja enseñanzas y súper buen apoyo en todo"
     },
@@ -77,8 +77,8 @@
       "fecha_iso": "2017-10-29T00:00:00",
       "materia": "TALLER DE ÉTICA",
       "calidad": 9.0,
-      "dificultad": null,
-      "nota": 9.5,
+      "dificultad": 0.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "es muy divertida su clase y aprendes muy bien"
     }

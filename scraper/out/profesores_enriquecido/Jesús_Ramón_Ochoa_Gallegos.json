@@ -1,31 +1,31 @@
 {
   "professor_id": "Jesús_Ramón_Ochoa_Gallegos",
   "nombre": "Jesús Ramón Ochoa Gallegos",
-  "universidad": "Instituto Tecnologico de Culiacan",
+  "universidad": "Instituto Tecnológico de Culiacán",
   "decay_analysis": {
-    "quality_decayed": 7.760655359417869,
-    "difficulty_decayed": null
+    "quality_decayed": 7.760655359417866,
+    "difficulty_decayed": 0.628190784316216
   },
   "bayes_analysis": {
-    "quality_bayes": 7.26970864304704,
-    "difficulty_bayes": null
+    "quality_bayes": 7.476826338844142,
+    "difficulty_bayes": 2.145824501907588
   },
   "recommendation_analysis": {
-    "rate": 0.75,
+    "rate": 0.5,
     "wilson_interval": [
-      0.30063605244263664,
-      0.9544139373553638
+      0.15003570882017145,
+      0.8499642911798285
     ],
     "n_recommendations": 4
   },
   "subject_normalization": {
-    "z_mean": 0.84,
-    "z_mean_decayed": 0.84,
+    "z_mean": 0.45,
+    "z_mean_decayed": 0.45,
     "per_subject": [
       {
         "materia": "AJEDREZ",
-        "z_decayed": 0.8432740427115684,
-        "n": 9
+        "z_decayed": 0.4472135954999564,
+        "n": 5
       }
     ]
   },
@@ -66,7 +66,19 @@
       ],
       "sigma": 1.97069996025101
     },
-    "difficulty_trend": null,
+    "difficulty_trend": {
+      "series": [
+        0.0,
+        0.0,
+        2.0
+      ],
+      "ewma": [
+        0.0,
+        0.0,
+        0.6
+      ],
+      "sigma": 0.8082903768654761
+    },
     "forecast": {
       "quality_next": 7.764999999999999,
       "quality_band": [
@@ -82,17 +94,17 @@
       "fecha_iso": "2015-01-09T00:00:00",
       "materia": "ING DE PRODUCTOS",
       "calidad": 5.0,
-      "dificultad": null,
-      "nota": 9.0,
-      "recomienda": 0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 0.5,
       "comentario": "No sabe explicar ni se le entiende a su letra, asiste diariamente excepto los viernes, las calificaciones consisten en los avances del proyecto y se pone exigente al revisar, no se hace nada en sus clases pero se awita si andas platicando, o en el celular o si te quiere salir antes de la hr."
     },
     {
       "fecha_iso": "2014-03-22T00:00:00",
       "materia": "PLANEACIÓN DE LA CALIDAD",
       "calidad": 10.0,
-      "dificultad": null,
-      "nota": 8.0,
+      "dificultad": 0.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "Excelente"
     },
@@ -100,8 +112,8 @@
       "fecha_iso": "2014-01-21T00:00:00",
       "materia": "AJEDREZ",
       "calidad": 10.0,
-      "dificultad": null,
-      "nota": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": ""
     },
@@ -109,7 +121,7 @@
       "fecha_iso": "2014-01-13T00:00:00",
       "materia": "TALLER 1 Y 2",
       "calidad": 7.0,
-      "dificultad": null,
+      "dificultad": 0.0,
       "nota": null,
       "recomienda": 1,
       "comentario": ""

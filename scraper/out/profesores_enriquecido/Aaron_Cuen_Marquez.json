@@ -1,14 +1,14 @@
 {
   "professor_id": "Aaron_Cuen_Marquez",
   "nombre": "Aaron Cuen Marquez",
-  "universidad": "Instituto Tecnologico de Culiacan",
+  "universidad": "Instituto Tecnológico de Culiacán",
   "decay_analysis": {
     "quality_decayed": 9.554995761484848,
-    "difficulty_decayed": null
+    "difficulty_decayed": 0.959820221367658
   },
   "bayes_analysis": {
-    "quality_bayes": 7.785061400177238,
-    "difficulty_bayes": null
+    "quality_bayes": 7.978371249587866,
+    "difficulty_bayes": 2.2694362017804157
   },
   "recommendation_analysis": {
     "rate": 1.0,
@@ -19,18 +19,18 @@
     "n_recommendations": 5
   },
   "subject_normalization": {
-    "z_mean": 1.05,
-    "z_mean_decayed": 1.06,
+    "z_mean": 0.71,
+    "z_mean_decayed": 0.73,
     "per_subject": [
       {
         "materia": "PROPIEDADES DE LOS MATERIALES",
-        "z_decayed": 1.7053996728712715,
-        "n": 16
+        "z_decayed": 1.1094003924504583,
+        "n": 3
       },
       {
         "materia": "PROPIEDAD DE LOS MATERIALES",
-        "z_decayed": 0.9390033438978467,
-        "n": 11
+        "z_decayed": 0.6622248427602981,
+        "n": 6
       }
     ]
   },
@@ -63,7 +63,7 @@
           "buen",
           "maestro"
         ],
-        "weight": 0.3806917887555893
+        "weight": 0.3806917887555892
       }
     ],
     "sentiment": {
@@ -99,7 +99,21 @@
       ],
       "sigma": 0.5039949363171555
     },
-    "difficulty_trend": null,
+    "difficulty_trend": {
+      "series": [
+        0.0,
+        3.0,
+        0.0,
+        0.0
+      ],
+      "ewma": [
+        0.0,
+        0.8999999999999999,
+        0.6299999999999999,
+        0.4409999999999999
+      ],
+      "sigma": 1.2565389966093372
+    },
     "forecast": {
       "quality_next": 9.240499999999999,
       "quality_band": [
@@ -115,8 +129,8 @@
       "fecha_iso": "2016-12-28T00:00:00",
       "materia": "PROPIEDAD DE LOS MATERIALES",
       "calidad": 10.0,
-      "dificultad": null,
-      "nota": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "MUY BUEN MAESTRO APRENDES PORQUE APRENDES SUS EXÁMENES FÁCILES!!!"
     },
@@ -124,8 +138,8 @@
       "fecha_iso": "2015-12-17T00:00:00",
       "materia": "PROPIEDAD DE LOS MATERIALES",
       "calidad": 10.0,
-      "dificultad": null,
-      "nota": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "Exelente profesor..... Lo recomiendo sabe dar muy bien la materia de Propiedad de Los Materiales.... Yo lo recomiendo!!! Lo quiero mucho profe...."
     },
@@ -133,8 +147,8 @@
       "fecha_iso": "2015-01-10T00:00:00",
       "materia": "PROPIEDAD DE LOS MATERIALES",
       "calidad": 10.0,
-      "dificultad": null,
-      "nota": 10.0,
+      "dificultad": 4.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "EXELENTE NO LO PUEDO DESCRIBIR DE SU EXELENCIA"
     },
@@ -142,7 +156,7 @@
       "fecha_iso": "2015-01-10T00:00:00",
       "materia": "PROPIEDADES DE LOS MATERIALES",
       "calidad": 9.0,
-      "dificultad": null,
+      "dificultad": 2.0,
       "nota": null,
       "recomienda": 1,
       "comentario": "Excelente maestro. .."
@@ -151,8 +165,8 @@
       "fecha_iso": "2014-09-10T00:00:00",
       "materia": "PROPIEDAD DE LOS MATERIALES",
       "calidad": 8.0,
-      "dificultad": null,
-      "nota": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "Muy Buen Profesor"
     }

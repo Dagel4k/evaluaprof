@@ -1,0 +1,361 @@
+{
+  "nombre": "Ignacio Manzo",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "ciudad": "Ciudad: culiacan, sinaloa",
+  "departamento": "Departamento/Facultad: Posgrado",
+  "calidad_general": 4.4,
+  "porcentaje_recomienda": 29,
+  "nivel_dificultad": 5.4,
+  "etiquetas": [
+    "MUCHAS TAREAS (3)",
+    "DEJA TRABAJOS LARGOS (3)",
+    "MUCHOS PROYECTOS GRUPALES (3)",
+    "CALIFICA DURO (7)",
+    "BARCO (1)",
+    "ASISTENCIA OBLIGATORIA (1)",
+    "POCOS EXÁMENES (2)",
+    "LOS EXÁMENES SON DIFÍCILES (4)",
+    "LA PARTICIPACIÓN IMPORTA (2)",
+    "TOMARÍA SU CLASE OTRA VEZ (2)"
+  ],
+  "numero_calificaciones": 21,
+  "calificaciones": [
+    {
+      "fecha": "15/Ene/2023",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 8.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Mecanismos",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "9.5",
+      "interes_clase": "",
+      "comentario": "Definitivamente ya no es el profe que era hace unos años, participa y sobresal en la clase y no harás ningún examen, en ocasiones falta a clases porque los alumnos lo invitan a viajes universitarios, visitas industriales. No deja tareas, no es exigente a excepción del momento de revisión de proyecto",
+      "etiquetas_comentario": [
+        "Da buena retroalimentación",
+        "La Participación Importa",
+        "Tomaría su clase otra vez"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "10/Ago/2020",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 8.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Diseño de Producto",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "Esta materia se califica con un proyecto y tareas (no hay exámenes). El profesor deja muchas lecturas sobre las necesidades del cliente, las entrevistas y métodos para hacer llegar tu producto. Sin embargo es muy perfeccionista y un poco exigente, de mi grupo reprobaron 13 de 23. Hay que esforzarse.",
+      "etiquetas_comentario": [
+        "Califica Duro",
+        "Muchas tareas",
+        "Prepárate para leer"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "12/Ene/2020",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 7.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Mecanismos",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "8",
+      "interes_clase": "",
+      "comentario": "Si todo el grupo se porta camarada con el, él también se portará camarada. Los exámenes son algo fáciles, si entregas todos los proyectos y pasas al menos un examen ya pasaste la materia. Es mas fácil que con Kevin",
+      "etiquetas_comentario": [
+        "Pocos Exámenes",
+        "Brinda apoyo",
+        "Muchos proyectos grupales"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "04/Ene/2020",
+      "tipo_calificacion": "REGULAR",
+      "puntaje_calidad_general": 6.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Mecanismos",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "8",
+      "interes_clase": "",
+      "comentario": "Como puntos positivos el maestro es organizado en su profesión. Planifica bien las clases y tiene fechas establecidas para cumplir con la clase.\nPor otra parte su manera de calificar es algo monótona debido a que sus exámenes son de 1 problema en el cual solo maneja (100,70) como calif.\n6.5/10",
+      "etiquetas_comentario": [
+        "Califica Duro"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "14/Dic/2019",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Mecanismos",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "9.5",
+      "interes_clase": "",
+      "comentario": "No se porque tiene mala fama este profesor, desconozco el modo de enseñar de los semestres pasados en el que yo cursé con el, a lo mejor lo regañaron los directivos o que se yo porque no fue el Manzo que me dijeron que iba a ser, muy buen profesor, lo recomiendo",
+      "etiquetas_comentario": [
+        "Califica Duro",
+        "Los exámenes son difíciles",
+        "Tomaría su clase otra vez"
+      ],
+      "votos_utiles": "1",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "19/Ago/2019",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 2.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "cualquiera materia",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "N/A",
+      "interes_clase": "",
+      "comentario": "UN PENDEJOOO",
+      "etiquetas_comentario": [
+        "La Participación Importa",
+        "Deja trabajos largos",
+        "Muchos proyectos grupales"
+      ],
+      "votos_utiles": "1",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "05/Ago/2018",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 2.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Ciencia e ingeniería de los materiales",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "N/A",
+      "interes_clase": "",
+      "comentario": "No sabe nada de la materia, y reprueba a muchos.\nEl peor profesor del tec.",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "13/Jun/2018",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 2.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Mecanismos",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "N/A",
+      "interes_clase": "",
+      "comentario": "No tiene criterio para calificar y además es un prepotente... No entiendo como este tipo da clase en el tec de culiacan.",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "1"
+    },
+    {
+      "fecha": "11/Jun/2018",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 2.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Procesos de fabricacion",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "8.5",
+      "interes_clase": "",
+      "comentario": "",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "11/Jun/2018",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 2.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Mecanismos",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "24",
+      "interes_clase": "",
+      "comentario": "",
+      "etiquetas_comentario": [
+        "Califica Duro",
+        "Muchas tareas",
+        "Los exámenes son difíciles"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "11/Mar/2018",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 2.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Mecanismos",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "21",
+      "interes_clase": "",
+      "comentario": "No enseña nada, vas a gastar dinero en proyectos que el no te dice cómo hacerlos hay que ver videos en youtube, y vas a reprobar",
+      "etiquetas_comentario": [
+        "Califica Duro",
+        "Los exámenes son difíciles"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "22/Dic/2017",
+      "tipo_calificacion": "REGULAR",
+      "puntaje_calidad_general": 4.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Mecanismos",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "N/A",
+      "interes_clase": "",
+      "comentario": "No sabe nada de nada, todo lo que explica esta mal y lo que pide ni el sabe hacerlo, al final no toma en cuenta los trabajos, unicamente los examenes y el proyecto, pero no es muy dificil con el, anque no aprendes nada, pero si ayuda si le echas ganas a las clases y te ve iniciativa.",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "22/Ago/2017",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 2.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "---",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "7",
+      "interes_clase": "",
+      "comentario": "[Comentario esperando revisión]",
+      "etiquetas_comentario": [
+        "Califica Duro",
+        "Los exámenes son difíciles"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "08/Ago/2017",
+      "tipo_calificacion": "REGULAR",
+      "puntaje_calidad_general": 5.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Metrología y Normalización",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "7",
+      "interes_clase": "",
+      "comentario": "Este profesor falta mucho, no deja claro lo que está explicando y a veces le da la clase a otros para que la den. Sinceramente, no lo recomiendo.",
+      "etiquetas_comentario": [
+        "Asistencia obligatoria",
+        "Pocos Exámenes",
+        "Deja trabajos largos"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "15/Dic/2016",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 2.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "procesos de fabricación",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "23",
+      "interes_clase": "",
+      "comentario": "Nomas no, de lo mas gacho",
+      "etiquetas_comentario": [
+        "Califica Duro",
+        "Barco"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "29/Ago/2016",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 3.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Procesos",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "8.5",
+      "interes_clase": "",
+      "comentario": "No explica nada y quiere que todo lo hagas por tu cuenta.",
+      "etiquetas_comentario": [
+        "Muchas tareas",
+        "Deja trabajos largos",
+        "Muchos proyectos grupales"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "18/Nov/2013",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 8.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "transferencia de calor",
+      "asistencia": "",
+      "calificacion_recibida": "8.5",
+      "interes_clase": "8.5",
+      "comentario": "Si da bien sus clases lo recomiendo",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "27/Oct/2013",
+      "tipo_calificacion": "REGULAR",
+      "puntaje_calidad_general": 4.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Metrologia y normalizacion",
+      "asistencia": "",
+      "calificacion_recibida": "3.5",
+      "interes_clase": "3.5",
+      "comentario": "Es una persona que falta mucho, sus clases son muy repetitivas, realmente no se aprende mucho de la materia, solo platica y da ejemplos de errores.",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "1"
+    },
+    {
+      "fecha": "09/Sep/2013",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 2.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "cero cero",
+      "asistencia": "",
+      "calificacion_recibida": "N/A",
+      "interes_clase": "N/A",
+      "comentario": "jajaja este we de en el tec jajaja y de jefe ...nombre en el tec van para atras son como el cangrejo....",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "04/Jul/2013",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 2.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "metodologia de la investigacion",
+      "asistencia": "",
+      "calificacion_recibida": "2.5",
+      "interes_clase": "2.5",
+      "comentario": "ES un maal maestro se ve que no tiene experiencia en la investigacion,deberian de poner a otro tipo de profesor que si sepai. además es bien despota y burlesco. Se cree lo que no es.",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "20/Mar/2013",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 8.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Taller de Investigación 1",
+      "asistencia": "",
+      "calificacion_recibida": "10",
+      "interes_clase": "10",
+      "comentario": "Es buen profesor pero la materia que me dió es muy aburrida, y sus clases no deberían dar para mucho lástima por él.",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    }
+  ]
+}

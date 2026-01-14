@@ -1,14 +1,14 @@
 {
   "professor_id": "Marcelo_López_Pérez",
   "nombre": "Marcelo López Pérez",
-  "universidad": "Instituto Tecnologico de Culiacan",
+  "universidad": "Instituto Tecnológico de Culiacán",
   "decay_analysis": {
     "quality_decayed": 10.0,
-    "difficulty_decayed": null
+    "difficulty_decayed": 2.0
   },
   "bayes_analysis": {
-    "quality_bayes": 7.252356454787142,
-    "difficulty_bayes": null
+    "quality_bayes": 7.515960794892544,
+    "difficulty_bayes": 2.731049366064203
   },
   "recommendation_analysis": {
     "rate": 1.0,
@@ -63,8 +63,8 @@
       "fecha_iso": "2020-12-02T00:00:00",
       "materia": "RELACIONES INDUSTRIALES",
       "calidad": 10.0,
-      "dificultad": null,
-      "nota": 9.5,
+      "dificultad": 2.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "Es muy buen maestro, sabe mucho pero deja muchas exposiciones, no hace exámenes."
     }

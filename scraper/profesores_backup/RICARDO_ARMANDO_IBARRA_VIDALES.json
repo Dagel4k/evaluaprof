@@ -1,0 +1,428 @@
+{
+  "nombre": "RICARDO ARMANDO IBARRA VIDALES",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "ciudad": "Ciudad: culiacan, sinaloa",
+  "departamento": "Departamento/Facultad: Ingenieria Industrial",
+  "calidad_general": 2.8,
+  "porcentaje_recomienda": 8,
+  "nivel_dificultad": 6.5,
+  "etiquetas": [
+    "CALIFICA DURO (5)",
+    "LOS EXÁMENES SON DIFÍCILES (7)",
+    "MUCHOS PROYECTOS GRUPALES (3)",
+    "BARCO (3)",
+    "LA PARTICIPACIÓN IMPORTA (3)",
+    "POCOS EXÁMENES (1)",
+    "MUCHOS EXÁMENES (6)",
+    "ASISTENCIA OBLIGATORIA (2)",
+    "BRINDA APOYO (1)",
+    "TOMARÍA SU CLASE OTRA VEZ (2)"
+  ],
+  "numero_calificaciones": 25,
+  "calificaciones": [
+    {
+      "fecha": "10/Ene/2020",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 2.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Taller de herramientas intelectuales",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "8.5",
+      "interes_clase": "",
+      "comentario": "Es un profesor que hace comentarios hirientes a sus alumnos, e incluso pasados de tono a las mujeres, a mi me tocó que hiciera comentarios refiriéndose a los pechos de una alumna, al final se pasa por donde quiere los exámenes y según tu ”actitud” te califica, puede que te vaya muy bien o muy mal.",
+      "etiquetas_comentario": [
+        "Barco",
+        "La Participación Importa",
+        "Asistencia obligatoria"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "10/Ene/2020",
+      "tipo_calificacion": "REGULAR",
+      "puntaje_calidad_general": 4.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Taller de herramientas intelectuales",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "9",
+      "interes_clase": "",
+      "comentario": "",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "04/Ago/2018",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 2.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Taller de Herr Intelectuales",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "7",
+      "interes_clase": "",
+      "comentario": "los alumnos dan las clases con las exposiciones y en el examen pone lo que el quiere.",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "04/Feb/2018",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 2.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Taller de herramientas",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "24",
+      "interes_clase": "",
+      "comentario": "Es una mierda de maestro",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "16/Ene/2018",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 2.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Herramientas intelectuales",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "7",
+      "interes_clase": "",
+      "comentario": "Este profe es pura exposición, sus exámenes nadie los pasa y sólo pasan mujeres",
+      "etiquetas_comentario": [
+        "Muchos Exámenes",
+        "Deja trabajos largos",
+        "Muchos proyectos grupales"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "18/Dic/2017",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 3.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Taller de herramientas",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "7",
+      "interes_clase": "",
+      "comentario": "Este bato es un imbecil, se la pasa de pendejo nomas en el salon mientras todo el semestre nomas se la pasa de webon, nos quiso ayudar al final segun el pero teniamos que ir a una estetica de una pariente suya a cortarnos el pelo y la vieja deja todo trasquilado",
+      "etiquetas_comentario": [
+        "Califica Duro",
+        "Muchos Exámenes",
+        "Deja trabajos largos"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "15/Dic/2017",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 2.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Herramientas intelectuales",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "24",
+      "interes_clase": "",
+      "comentario": "Muy muy mal profesor el peor de todo el Tec, la clase la dan los alumnos deja exposiciónes para todo el semestre y califica a como le da su gana, nunca por nada del mundo carguen con el",
+      "etiquetas_comentario": [
+        "Muchos Exámenes",
+        "Los exámenes son difíciles"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "03/Dic/2017",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 2.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Taller de administracion",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "N/A",
+      "interes_clase": "",
+      "comentario": "",
+      "etiquetas_comentario": [
+        "Califica Duro",
+        "Muchos Exámenes",
+        "Los exámenes son difíciles"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "17/Nov/2017",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 2.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Taller de administración",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "23",
+      "interes_clase": "",
+      "comentario": "Es un puto payaso huevon.",
+      "etiquetas_comentario": [
+        "Califica Duro",
+        "Deja trabajos largos",
+        "Los exámenes son difíciles"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "15/Nov/2017",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 2.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "herramientas rectales",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "24",
+      "interes_clase": "",
+      "comentario": "el bato pues vende pollos pero pa las clase es un cebo, no hace nadfa claifica pala verga como quiere a quien quiere, nos pone a noso5ttros dar la clase con su exposicion culera y el se la pasa concha nomas zorreando las panochasd del salon",
+      "etiquetas_comentario": [
+        "Inspiracional"
+      ],
+      "votos_utiles": "1",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "09/Nov/2017",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 2.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Taller de herramientas intelectuales",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "23",
+      "interes_clase": "",
+      "comentario": "Solo sirve para estar zorreando a las alumnas y no sabe nada de la materia somos los alumnos los que tenemos que dar la clase y en los examenes no viene nada de lo visto en clase, es un inutil.",
+      "etiquetas_comentario": [
+        "Muchos Exámenes",
+        "Los exámenes son difíciles"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "29/Oct/2017",
+      "tipo_calificacion": "REGULAR",
+      "puntaje_calidad_general": 5.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "taller de erramientas intelectuales",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "8",
+      "interes_clase": "",
+      "comentario": "siempre llega tarde",
+      "etiquetas_comentario": [
+        "Prepárate para leer",
+        "Muchos proyectos grupales"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "16/Oct/2017",
+      "tipo_calificacion": "REGULAR",
+      "puntaje_calidad_general": 6.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Taller de eramientas intelectuales",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "8",
+      "interes_clase": "",
+      "comentario": "Sempre llega tarde pero esplica bien los temas.",
+      "etiquetas_comentario": [
+        "La Participación Importa",
+        "Da Crédito Extra",
+        "Tomaría su clase otra vez"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "09/Oct/2017",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Matemáticas discretas",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "23",
+      "interes_clase": "",
+      "comentario": "Buen profesor, clases sencillas y consisas",
+      "etiquetas_comentario": [
+        "Asistencia obligatoria",
+        "Brinda apoyo",
+        "Tomaría su clase otra vez"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "30/Ago/2017",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 2.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Taller de Herramientas Intelectuales",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "8",
+      "interes_clase": "",
+      "comentario": "No sé como el tecnológico puede tener un maestro así. Prepotente, grosero, vulgar y abusivo. Te calificará como el quiera, no importa nada más que lo que el piensa. A las mujeres nos tomaba fotos con su iPad, hicimos una hoja donde firmamos de que no lo queríamos como maestro y no hicieron nada.",
+      "etiquetas_comentario": [
+        "Barco",
+        "Muchos Exámenes",
+        "Los exámenes son difíciles"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "29/Ago/2017",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 2.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Taller de Herramientas Intelectuales",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "1",
+      "interes_clase": "",
+      "comentario": "Este anciano es una vergüenza para el Tecnológico,no tiene ni idea de lo que hace ni de lo que dice,no lo carguen solo disfraza su tiempo para ir a zorrear a las mujeres y califica como se le da la gana,se burla de los alumnos e intenta ser cómico cuando solo cae pesado.",
+      "etiquetas_comentario": [
+        "Califica Duro",
+        "Los exámenes son difíciles"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "14/Sep/2016",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 3.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "herramientas intelectuales",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "7",
+      "interes_clase": "",
+      "comentario": "uno de los peores habla muy bajo no se le entiende,te pone falta aunque estes en la clase,\nno explica nada todo el semestre son puras exposiciones, ; sus examenes son abiertos no tienen que ver con la clase,,al final califica como se le da la gana pasa a los que le caen bien",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "11/May/2016",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 2.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Análisis de la Realidad Nacional",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "No haces nada, solo expones, es bien zorro, así que si eres mujeres nimodo, ayuda mas a las mujeres que a los hombres, al final te pone lo que quieras, pero pasas si te ve en la clase, con 70 pero pasas",
+      "etiquetas_comentario": [
+        "Barco",
+        "La Participación Importa",
+        "Pocos Exámenes"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "02/Feb/2016",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 2.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Analisis de la Realidad Nacional",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "8",
+      "interes_clase": "",
+      "comentario": "No merece que lo cargue nadie",
+      "etiquetas_comentario": [
+        "Califica Duro",
+        "Los exámenes son difíciles",
+        "Muchos proyectos grupales"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "20/Ene/2016",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 2.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "cualquier materia",
+      "asistencia": "",
+      "calificacion_recibida": "N/A",
+      "interes_clase": "N/A",
+      "comentario": "Es una burla a la educación. Con eso basta. Si lo ves y no tienes opción al momento de carga mejor ni lo cargues.",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "15/Dic/2015",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 2.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Taller de Herramientas Intelectuales",
+      "asistencia": "",
+      "calificacion_recibida": "N/A",
+      "interes_clase": "N/A",
+      "comentario": "No merece llamarse maestro, son puras exposiciones en el semestre, los examenes los hace bien raros, solo va a zorrear a las mujeres, es muy lepero, es raro que pases con el, tiene un margen de 80% del salón reprobado, excenta al final a quienes quiere, no lo recomiendo para nada",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "09/Dic/2015",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 2.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Fundamentos de investigacion",
+      "asistencia": "",
+      "calificacion_recibida": "N/A",
+      "interes_clase": "N/A",
+      "comentario": "No merece",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "29/Oct/2015",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 2.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Taller de Herramientas intelectuales",
+      "asistencia": "",
+      "calificacion_recibida": "N/A",
+      "interes_clase": "N/A",
+      "comentario": "Es el profesor más inútil que e llegado a conocer. No hace nada solo pone a exponer a los alumnos y califica como si verdaderamente enseñara bien en sus clases. Va a zorrear a clases nomas Profesor sin vergüenza.",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "15/May/2015",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 2.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Taller de liderazgo",
+      "asistencia": "",
+      "calificacion_recibida": "N/A",
+      "interes_clase": "N/A",
+      "comentario": "Es una basura este anciano senil, todo el semestre son puras exposiciones y para los exámenes te entrega un paquete como de 100 hojas para estudiar. A final de cuentas cargar con el es un desperdicio de tiempo",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "17/Ene/2015",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 2.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Taller de herramientas intelectuales",
+      "asistencia": "",
+      "calificacion_recibida": "8.5",
+      "interes_clase": "8.5",
+      "comentario": "No explica nada son puras exposiciones todo el semestre, le da igual que saques en los examenes pone lo que se le da la gana y aveces te deja 70. No se entiende su método de evaluación y al final de cuentas quien dio la clase todo el semestre fuiste tu.",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "nombre": "Mario Alain Urquídez González",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "ciudad": "Ciudad: culiacan, sinaloa",
+  "departamento": "Departamento/Facultad: Industrial",
+  "calidad_general": 7.4,
+  "porcentaje_recomienda": 40,
+  "nivel_dificultad": 3.2,
+  "etiquetas": [
+    "LA PARTICIPACIÓN IMPORTA (1)",
+    "POCOS EXÁMENES (1)",
+    "DEJA TRABAJOS LARGOS (1)",
+    "DA BUENA RETROALIMENTACIÓN (1)",
+    "BRINDA APOYO (2)",
+    "TOMARÍA SU CLASE OTRA VEZ (1)",
+    "PREPÁRATE PARA LEER (3)",
+    "ASISTENCIA OBLIGATORIA (1)",
+    "LOS EXÁMENES SON DIFÍCILES (1)",
+    "MUCHAS TAREAS (2)"
+  ],
+  "numero_calificaciones": 5,
+  "calificaciones": [
+    {
+      "fecha": "10/Ago/2023",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 8.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Estadística",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "9.5",
+      "interes_clase": "",
+      "comentario": "",
+      "etiquetas_comentario": [
+        "Califica Duro",
+        "Muchas tareas",
+        "Prepárate para leer"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "26/Ene/2023",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Six Sigma",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "Muy buen maestro, explica bien, si lo recomiendo para cargar con el.",
+      "etiquetas_comentario": [
+        "Muchas tareas",
+        "Prepárate para leer",
+        "Brinda apoyo"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "31/Ene/2021",
+      "tipo_calificacion": "REGULAR",
+      "puntaje_calidad_general": 6.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Etica",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "9",
+      "interes_clase": "",
+      "comentario": "Preparate para leer puras diapositivas, en el examen te cambiara de manera fea los significados.",
+      "etiquetas_comentario": [
+        "Prepárate para leer",
+        "Asistencia obligatoria",
+        "Los exámenes son difíciles"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "12/Dic/2020",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Metrología y Normalización",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "Realmente se prepará para su clase. Apesar de que usa diapositivas, es muy raro que lea durante la clase. Todas las dudas que tengas trata de responderlas, ya sea en la misma clase o en la siguiente. El único problema es que tarda mucho en dar calificaciones, pero de ahi en fuera muy buen profe.",
+      "etiquetas_comentario": [
+        "Da buena retroalimentación",
+        "Brinda apoyo",
+        "Tomaría su clase otra vez"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "23/May/2020",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 3.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Six sigma",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "24",
+      "interes_clase": "",
+      "comentario": "Ojalá que vea este mensaje. Está muy joven, poca experiencia y complejo de superioridad. Sus papás excelentes profesores pero él no heredó nada de ellos. Si desea continuar, por el bien de todos, mejore sus clases. Sí se puede cuando se quiere. *solo siganle el rollo*",
+      "etiquetas_comentario": [
+        "La Participación Importa",
+        "Pocos Exámenes",
+        "Deja trabajos largos"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    }
+  ]
+}

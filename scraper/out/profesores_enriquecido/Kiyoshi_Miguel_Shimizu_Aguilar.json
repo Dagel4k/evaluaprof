@@ -1,41 +1,36 @@
 {
   "professor_id": "Kiyoshi_Miguel_Shimizu_Aguilar",
   "nombre": "Kiyoshi Miguel Shimizu Aguilar",
-  "universidad": "Instituto Tecnologico de Culiacan",
+  "universidad": "Instituto Tecnológico de Culiacán",
   "decay_analysis": {
-    "quality_decayed": 7.1025318399222215,
-    "difficulty_decayed": null
+    "quality_decayed": 7.522381760960494,
+    "difficulty_decayed": 1.5246881471012341
   },
   "bayes_analysis": {
-    "quality_bayes": 6.986818882509327,
-    "difficulty_bayes": null
+    "quality_bayes": 7.311704582921199,
+    "difficulty_bayes": 2.402769535113749
   },
   "recommendation_analysis": {
-    "rate": 0.571,
+    "rate": 0.71,
     "wilson_interval": [
-      0.2504542304090258,
-      0.8417830777373732
+      0.3060474596471615,
+      0.9314661125569644
     ],
-    "n_recommendations": 7
+    "n_recommendations": 5
   },
   "subject_normalization": {
-    "z_mean": 0.23,
-    "z_mean_decayed": 0.26,
+    "z_mean": -0.05,
+    "z_mean_decayed": -0.05,
     "per_subject": [
       {
-        "materia": "PROGRAMACIÓN ORIENTADA A OBJETOS",
-        "z_decayed": 1.0600091373582223,
-        "n": 11
-      },
-      {
         "materia": "FUNDAMENTOS DE PROGRAMACION",
-        "z_decayed": 0.3120358428928809,
-        "n": 43
+        "z_decayed": 0.3177175315425884,
+        "n": 15
       },
       {
         "materia": "---",
-        "z_decayed": -0.9627852966533862,
-        "n": 521
+        "z_decayed": -1.1483431150731278,
+        "n": 80
       }
     ]
   },
@@ -54,28 +49,17 @@
         "id": 0,
         "words": [
           "pone",
-          "profe",
-          "te"
+          "profe"
         ],
-        "weight": 0.16998485166699726
+        "weight": 0.2493090663112242
       },
       {
         "id": 1,
         "words": [
-          "te",
-          "pone",
-          "profe"
-        ],
-        "weight": 0.19948253653783832
-      },
-      {
-        "id": 2,
-        "words": [
-          "te",
           "profe",
           "pone"
         ],
-        "weight": 0.1878523943070881
+        "weight": 0.266465633985104
       }
     ],
     "sentiment": {
@@ -85,42 +69,41 @@
         "2023-02": 0.0
       }
     },
-    "n_comments": 6
+    "n_comments": 5
   },
   "integrity_analysis": {
     "dup_rate": 0.0,
-    "bursts": [
-      {
-        "from": "2023-02-10T00:00:00",
-        "to": "2023-02-11T00:00:00",
-        "count": 3
-      },
-      {
-        "from": "2023-02-10T00:00:00",
-        "to": "2023-02-11T00:00:00",
-        "count": 4
-      }
-    ],
+    "bursts": [],
     "low_variance_flag": 0,
-    "trust_score": 0.7
+    "trust_score": 1.0
   },
   "trends_analysis": {
     "quality_trend": {
       "series": [
-        6.5,
+        6.75,
         10.0
       ],
       "ewma": [
-        6.5,
-        7.55
+        6.75,
+        7.725
       ],
-      "sigma": 1.7324116139070416
+      "sigma": 1.608667927199396
     },
-    "difficulty_trend": null,
+    "difficulty_trend": {
+      "series": [
+        2.0,
+        0.0
+      ],
+      "ewma": [
+        2.0,
+        1.4
+      ],
+      "sigma": 0.9899494936611665
+    },
     "forecast": {
-      "quality_next": 7.55,
+      "quality_next": 7.725,
       "quality_band": [
-        4.154473236742199,
+        4.572010862689183,
         10.0
       ],
       "confidence": 0.95
@@ -132,8 +115,8 @@
       "fecha_iso": "2023-09-14T00:00:00",
       "materia": "PROGRAMACIÓN ORIENTADA A OBJETOS",
       "calidad": 10.0,
-      "dificultad": null,
-      "nota": 4.5,
+      "dificultad": 0.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "EL PROFE MAAAAAS GOOOD DEL TEC, NO DUDES CARGAR CON EL"
     },
@@ -141,8 +124,8 @@
       "fecha_iso": "2023-02-27T00:00:00",
       "materia": "FUNDAMENTOS DE PROGRAMACION",
       "calidad": 10.0,
-      "dificultad": null,
-      "nota": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "pone casa pa la peda"
     },
@@ -150,8 +133,8 @@
       "fecha_iso": "2023-02-15T00:00:00",
       "materia": "FUNDAMENTOS DE PROGRAMACION",
       "calidad": 10.0,
-      "dificultad": null,
-      "nota": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "Es una v3rg4 de profe, el profe nomas te deja 2 examenes en todo el semestre, y te explica desde 0, aveces te pone programar a mano xd"
     },
@@ -159,37 +142,19 @@
       "fecha_iso": "2023-02-11T00:00:00",
       "materia": "FUNDAMENTOS DE PROGRAMACION",
       "calidad": 5.0,
-      "dificultad": null,
-      "nota": 10.0,
-      "recomienda": 0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 0.5,
       "comentario": "Nos enseño a hacer marihuana con usando maizena y JavaScript"
     },
     {
       "fecha_iso": "2023-02-11T00:00:00",
       "materia": "---",
       "calidad": 2.0,
-      "dificultad": null,
-      "nota": 10.0,
+      "dificultad": 8.0,
+      "nota": null,
       "recomienda": 0,
       "comentario": "[Comentario esperando revisión]"
-    },
-    {
-      "fecha_iso": "2023-02-10T00:00:00",
-      "materia": "FUNDAMENTOS DE PROGRAMACION",
-      "calidad": 10.0,
-      "dificultad": null,
-      "nota": 10.0,
-      "recomienda": 1,
-      "comentario": "Te pasa con ORAL"
-    },
-    {
-      "fecha_iso": "2023-02-10T00:00:00",
-      "materia": "FUNDAMENTOS DE PROGRAMACION",
-      "calidad": 2.0,
-      "dificultad": null,
-      "nota": 1.0,
-      "recomienda": 0,
-      "comentario": ""
     }
   ],
   "comments_recent": [
@@ -197,8 +162,7 @@
     "pone casa pa la peda",
     "Es una v3rg4 de profe, el profe nomas te deja 2 examenes en todo el semestre, y te explica desde 0, aveces te pone programar a mano xd",
     "Nos enseño a hacer marihuana con usando maizena y JavaScript",
-    "[Comentario esperando revisión]",
-    "Te pasa con ORAL"
+    "[Comentario esperando revisión]"
   ],
-  "n_reviews": 7
+  "n_reviews": 5
 }

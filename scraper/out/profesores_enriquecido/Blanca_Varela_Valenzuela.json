@@ -1,31 +1,31 @@
 {
   "professor_id": "Blanca_Varela_Valenzuela",
   "nombre": "Blanca Varela Valenzuela",
-  "universidad": "Instituto Tecnologico de Culiacan",
+  "universidad": "Instituto Tecnológico de Culiacán",
   "decay_analysis": {
-    "quality_decayed": 7.739133027982621,
-    "difficulty_decayed": null
+    "quality_decayed": 7.582071644039375,
+    "difficulty_decayed": 0.8939295877693281
   },
   "bayes_analysis": {
-    "quality_bayes": 7.23599506266616,
-    "difficulty_bayes": null
+    "quality_bayes": 7.311704582921199,
+    "difficulty_bayes": 2.1361028684470824
   },
   "recommendation_analysis": {
-    "rate": 0.667,
+    "rate": 0.67,
     "wilson_interval": [
-      0.2999883213415286,
-      0.903230667440783
+      0.2775114404152864,
+      0.9147614513690061
     ],
-    "n_recommendations": 6
+    "n_recommendations": 5
   },
   "subject_normalization": {
-    "z_mean": 0.63,
-    "z_mean_decayed": 0.65,
+    "z_mean": 0.2,
+    "z_mean_decayed": 0.26,
     "per_subject": [
       {
         "materia": "QUIMICA",
-        "z_decayed": 0.6540629482407315,
-        "n": 83
+        "z_decayed": 0.26175665138607845,
+        "n": 24
       }
     ]
   },
@@ -43,35 +43,24 @@
       {
         "id": 0,
         "words": [
-          "bien",
-          "tiene",
+          "facil",
           "es floja",
+          "bien",
           "floja",
           "es"
         ],
-        "weight": 0.2920711212386833
+        "weight": 0.439255185279466
       },
       {
         "id": 1,
         "words": [
-          "bien",
-          "materia",
+          "pasar",
+          "te",
           "buena",
           "buena maestra",
           "maestra"
         ],
-        "weight": 0.19993718885233033
-      },
-      {
-        "id": 2,
-        "words": [
-          "si",
-          "dicta",
-          "te",
-          "pasar",
-          "facil"
-        ],
-        "weight": 0.2443688530770001
+        "weight": 0.25578734333057457
       }
     ],
     "sentiment": {
@@ -81,11 +70,10 @@
         "2013-04": 0.0,
         "2013-03": 0.0,
         "2013-02": 0.0,
-        "2011-11": 0.0,
-        "2011-08": 0.0
+        "2011-11": 0.0
       }
     },
-    "n_comments": 6
+    "n_comments": 5
   },
   "integrity_analysis": {
     "dup_rate": 0.0,
@@ -96,7 +84,6 @@
   "trends_analysis": {
     "quality_trend": {
       "series": [
-        9.0,
         5.0,
         10.0,
         6.0,
@@ -104,20 +91,35 @@
         8.0
       ],
       "ewma": [
-        9.0,
-        7.8,
-        8.46,
-        7.722,
-        7.805400000000001,
-        7.86378
+        5.0,
+        6.5,
+        6.35,
+        6.844999999999999,
+        7.1915
       ],
-      "sigma": 1.5531805958312335
+      "sigma": 1.51084585580396
     },
-    "difficulty_trend": null,
+    "difficulty_trend": {
+      "series": [
+        0.0,
+        0.0,
+        0.0,
+        2.0,
+        2.0
+      ],
+      "ewma": [
+        0.0,
+        0.0,
+        0.0,
+        0.6,
+        1.02
+      ],
+      "sigma": 0.668490837633546
+    },
     "forecast": {
-      "quality_next": 7.86378,
+      "quality_next": 7.1915,
       "quality_band": [
-        4.819546032170782,
+        4.230242122624238,
         10.0
       ],
       "confidence": 0.95
@@ -129,8 +131,8 @@
       "fecha_iso": "2013-05-19T00:00:00",
       "materia": "QUÍMICA ORGÁNICA I",
       "calidad": 8.0,
-      "dificultad": null,
-      "nota": 8.5,
+      "dificultad": 2.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "Es muy floja, pero tiene un buen dominio de su materia, nunca lleva nada de apuntes y explica la clase muy bien. Su único defecto es que es muy descuidada en cuanto horarios, falta mucho y por eso es que la catalogan de floja, pero si explica bien y siempre está disponible para resolver dudas."
     },
@@ -138,8 +140,8 @@
       "fecha_iso": "2013-04-15T00:00:00",
       "materia": "QUIMICA",
       "calidad": 8.0,
-      "dificultad": null,
-      "nota": 10.0,
+      "dificultad": 2.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "muy buena maestra!"
     },
@@ -147,17 +149,17 @@
       "fecha_iso": "2013-03-01T00:00:00",
       "materia": "QUIMICA",
       "calidad": 6.0,
-      "dificultad": null,
-      "nota": 7.0,
-      "recomienda": 0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 0.5,
       "comentario": "es floja, te dicta mucho, pero pasas facil y puedes copiar.\nla recomiendo si quieren pasar facil"
     },
     {
       "fecha_iso": "2013-02-08T00:00:00",
       "materia": "QUIMICA",
       "calidad": 10.0,
-      "dificultad": null,
-      "nota": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "es un amor, la persona ke dijo que es floja es una mierda de estudiante o ingeniera, me dan asco los alumnos como tu que dicen eso de profes como esta ke tiene un panochon que me comeria a diario"
     },
@@ -165,19 +167,10 @@
       "fecha_iso": "2011-11-28T00:00:00",
       "materia": "QUIMICA",
       "calidad": 5.0,
-      "dificultad": null,
+      "dificultad": 0.0,
       "nota": null,
-      "recomienda": 0,
+      "recomienda": 0.5,
       "comentario": "pues cae muy bien y todo pero no es buena maestra, dicta como si no hubiera libros, te pone a hacer minimo 10 veces el mismo ejercicio y es bastate floja, es muy facil pasar su materia pero sales sin saber nada"
-    },
-    {
-      "fecha_iso": "2011-08-25T00:00:00",
-      "materia": "QUIMICA",
-      "calidad": 9.0,
-      "dificultad": null,
-      "nota": 8.5,
-      "recomienda": 1,
-      "comentario": "Es muy floja D:"
     }
   ],
   "comments_recent": [
@@ -185,8 +178,7 @@
     "muy buena maestra!",
     "es floja, te dicta mucho, pero pasas facil y puedes copiar.\nla recomiendo si quieren pasar facil",
     "es un amor, la persona ke dijo que es floja es una mierda de estudiante o ingeniera, me dan asco los alumnos como tu que dicen eso de profes como esta ke tiene un panochon que me comeria a diario",
-    "pues cae muy bien y todo pero no es buena maestra, dicta como si no hubiera libros, te pone a hacer minimo 10 veces el mismo ejercicio y es bastate floja, es muy facil pasar su materia pero sales sin saber nada",
-    "Es muy floja D:"
+    "pues cae muy bien y todo pero no es buena maestra, dicta como si no hubiera libros, te pone a hacer minimo 10 veces el mismo ejercicio y es bastate floja, es muy facil pasar su materia pero sales sin saber nada"
   ],
-  "n_reviews": 6
+  "n_reviews": 5
 }

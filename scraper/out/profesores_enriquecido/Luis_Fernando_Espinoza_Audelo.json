@@ -1,40 +1,30 @@
 {
   "professor_id": "Luis_Fernando_Espinoza_Audelo",
   "nombre": "Luis Fernando Espinoza Audelo",
-  "universidad": "Instituto Tecnologico de Culiacan",
+  "universidad": "Instituto Tecnológico de Culiacán",
   "decay_analysis": {
-    "quality_decayed": 6.200295436633887,
-    "difficulty_decayed": null
+    "quality_decayed": 6.371640087077887,
+    "difficulty_decayed": 2.091171063414438
   },
   "bayes_analysis": {
-    "quality_bayes": 6.457407117803445,
-    "difficulty_bayes": null
+    "quality_bayes": 6.845037916254532,
+    "difficulty_bayes": 2.5361028684470823
   },
   "recommendation_analysis": {
-    "rate": 0.286,
+    "rate": 0.43,
     "wilson_interval": [
-      0.08221716570901548,
-      0.6410709098517873
+      0.13266617599838842,
+      0.788162633266903
     ],
-    "n_recommendations": 7
+    "n_recommendations": 5
   },
   "subject_normalization": {
-    "z_mean": 0.43,
-    "z_mean_decayed": 0.56,
+    "z_mean": 0.0,
+    "z_mean_decayed": 0.25,
     "per_subject": [
       {
         "materia": "ADMINISTRACION",
-        "z_decayed": 0.9693333500002366,
-        "n": 15
-      },
-      {
-        "materia": "CALIDAD",
-        "z_decayed": 0.09225312080288818,
-        "n": 5
-      },
-      {
-        "materia": "ESTADISTICA Y PROBABILIDAD",
-        "z_decayed": -1.1470786693528088,
+        "z_decayed": 0.2521062447929386,
         "n": 3
       }
     ]
@@ -53,32 +43,20 @@
       {
         "id": 0,
         "words": [
-          "mal",
-          "llega",
           "clases",
-          "hora"
+          "hora",
+          "llega"
         ],
-        "weight": 0.1495094628876352
+        "weight": 0.37487167938602706
       },
       {
         "id": 1,
         "words": [
-          "clases",
           "hora",
           "llega",
-          "mal"
+          "clases"
         ],
-        "weight": 0.21298792437132538
-      },
-      {
-        "id": 2,
-        "words": [
-          "hora",
-          "mal",
-          "clases",
-          "llega"
-        ],
-        "weight": 0.25204938678769967
+        "weight": 0.27945967968971647
       }
     ],
     "sentiment": {
@@ -87,12 +65,10 @@
         "2021-12": 0.0,
         "2021-09": 0.0,
         "2021-06": 0.0,
-        "2020-11": 0.0,
-        "2020-08": 0.0,
-        "2018-10": 0.0
+        "2020-11": 0.0
       }
     },
-    "n_comments": 6
+    "n_comments": 4
   },
   "integrity_analysis": {
     "dup_rate": 0.0,
@@ -103,8 +79,6 @@
   "trends_analysis": {
     "quality_trend": {
       "series": [
-        4.0,
-        6.0,
         2.0,
         6.0,
         6.0,
@@ -112,22 +86,36 @@
         7.0
       ],
       "ewma": [
-        4.0,
-        4.6,
-        3.82,
-        4.474,
-        4.9318,
-        6.15226,
-        6.406582
+        2.0,
+        3.1999999999999997,
+        4.039999999999999,
+        5.527999999999999,
+        5.969599999999999
       ],
-      "sigma": 1.454836117624708
+      "sigma": 1.3820001273516587
     },
-    "difficulty_trend": null,
+    "difficulty_trend": {
+      "series": [
+        0.0,
+        2.0,
+        4.0,
+        2.0,
+        2.0
+      ],
+      "ewma": [
+        0.0,
+        0.6,
+        1.6199999999999999,
+        1.734,
+        1.8138
+      ],
+      "sigma": 1.0182734249699341
+    },
     "forecast": {
-      "quality_next": 6.406582,
+      "quality_next": 5.969599999999999,
       "quality_band": [
-        3.555103209455573,
-        9.258060790544427
+        3.260879750390748,
+        8.67832024960925
       ],
       "confidence": 0.95
     },
@@ -138,8 +126,8 @@
       "fecha_iso": "2023-04-27T00:00:00",
       "materia": "ADMINISTRACION",
       "calidad": 7.0,
-      "dificultad": null,
-      "nota": 9.0,
+      "dificultad": 2.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": ""
     },
@@ -147,8 +135,8 @@
       "fecha_iso": "2021-12-21T00:00:00",
       "materia": "CALIDAD",
       "calidad": 9.0,
-      "dificultad": null,
-      "nota": 8.5,
+      "dificultad": 2.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "Si es algo barco en si, pero tambien ayuda a la hora de calificar, los examanes de el son cosas que se ven en las pocas clases que dio, si te tocaron puros profes mamones y ocupan una light este es tu mejor opcion."
     },
@@ -156,55 +144,35 @@
       "fecha_iso": "2021-09-15T00:00:00",
       "materia": "ADMINISTRACION",
       "calidad": 6.0,
-      "dificultad": null,
-      "nota": 9.0,
-      "recomienda": 0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 0.5,
       "comentario": "Llega a la hora que quiere, nomas deja una exposicion en todo el semestre y todo lo demas pelado la verdad"
     },
     {
       "fecha_iso": "2021-06-02T00:00:00",
       "materia": "ADMINISTRACION",
       "calidad": 6.0,
-      "dificultad": null,
-      "nota": 8.0,
-      "recomienda": 0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 0.5,
       "comentario": "Facil pasar con el pero siempre llega re tarde  alas clases"
     },
     {
       "fecha_iso": "2020-11-15T00:00:00",
       "materia": "ESTADISTICA Y PROBABILIDAD",
       "calidad": 2.0,
-      "dificultad": null,
-      "nota": 8.0,
+      "dificultad": 0.0,
+      "nota": null,
       "recomienda": 0,
       "comentario": "Muy mal maestro"
-    },
-    {
-      "fecha_iso": "2020-08-26T00:00:00",
-      "materia": "ADMINISTRACION",
-      "calidad": 6.0,
-      "dificultad": null,
-      "nota": 9.5,
-      "recomienda": 0,
-      "comentario": "Cienon xD"
-    },
-    {
-      "fecha_iso": "2018-10-19T00:00:00",
-      "materia": "TALLAR DE ADMINISTRACION",
-      "calidad": 4.0,
-      "dificultad": null,
-      "nota": 8.5,
-      "recomienda": 0,
-      "comentario": "Muy mal profesor"
     }
   ],
   "comments_recent": [
     "Si es algo barco en si, pero tambien ayuda a la hora de calificar, los examanes de el son cosas que se ven en las pocas clases que dio, si te tocaron puros profes mamones y ocupan una light este es tu mejor opcion.",
     "Llega a la hora que quiere, nomas deja una exposicion en todo el semestre y todo lo demas pelado la verdad",
     "Facil pasar con el pero siempre llega re tarde  alas clases",
-    "Muy mal maestro",
-    "Cienon xD",
-    "Muy mal profesor"
+    "Muy mal maestro"
   ],
-  "n_reviews": 7
+  "n_reviews": 5
 }

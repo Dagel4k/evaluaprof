@@ -1,0 +1,47 @@
+{
+  "nombre": "Renato Vladimir Juarez Soto",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "ciudad": "Ciudad: culiacan, sinaloa",
+  "departamento": "Departamento/Facultad: Eléctrica / Electrónica",
+  "calidad_general": 7.5,
+  "porcentaje_recomienda": 50,
+  "nivel_dificultad": 0.0,
+  "etiquetas": [
+    "BARCO (2)"
+  ],
+  "numero_calificaciones": 2,
+  "calificaciones": [
+    {
+      "fecha": "16/Jun/2025",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 9.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Tecnologia de los materiales",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "24",
+      "interes_clase": "",
+      "comentario": "Muy facil pasar con el",
+      "etiquetas_comentario": [
+        "Barco"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "11/Jun/2021",
+      "tipo_calificacion": "REGULAR",
+      "puntaje_calidad_general": 6.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Tecnología de los Materiales",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "Es el profesor mas flojo que he conocido. Asistió 3 veces a clase. Desapareció. Luego volvió y dejo un trabajo, y después nos subió a todos calificaciones altas. Lo recomiendo para materias de relleno sin trascendencia. Pero seria fatal en una materia importante.",
+      "etiquetas_comentario": [
+        "Barco"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    }
+  ]
+}

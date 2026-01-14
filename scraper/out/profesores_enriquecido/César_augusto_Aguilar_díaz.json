@@ -1,14 +1,14 @@
 {
   "professor_id": "César_augusto_Aguilar_díaz",
   "nombre": "César augusto Aguilar díaz",
-  "universidad": "Instituto Tecnologico de Culiacan",
+  "universidad": "Instituto Tecnológico de Culiacán",
   "decay_analysis": {
-    "quality_decayed": 10.0,
-    "difficulty_decayed": null
+    "quality_decayed": 10.000000000000002,
+    "difficulty_decayed": 0.0
   },
   "bayes_analysis": {
-    "quality_bayes": 7.841137214475611,
-    "difficulty_bayes": null
+    "quality_bayes": 8.048254910272714,
+    "difficulty_bayes": 2.0029673590504453
   },
   "recommendation_analysis": {
     "rate": 1.0,
@@ -19,23 +19,18 @@
     "n_recommendations": 4
   },
   "subject_normalization": {
-    "z_mean": 1.27,
-    "z_mean_decayed": 1.14,
+    "z_mean": 0.92,
+    "z_mean_decayed": 0.94,
     "per_subject": [
       {
         "materia": "ELECTRONICA",
-        "z_decayed": 2.3197804597378138,
-        "n": 9
-      },
-      {
-        "materia": "CIRCUITOS ELECTRICOS",
-        "z_decayed": 0.774059314567555,
-        "n": 7
+        "z_decayed": 1.1547005383792512,
+        "n": 3
       },
       {
         "materia": "REDES",
-        "z_decayed": 0.7189420262655407,
-        "n": 21
+        "z_decayed": 0.691931789940335,
+        "n": 10
       }
     ]
   },
@@ -58,7 +53,7 @@
           "excelente maestro",
           "maestro"
         ],
-        "weight": 0.3046466369991015
+        "weight": 0.30464663699910133
       },
       {
         "id": 1,
@@ -104,7 +99,21 @@
       ],
       "sigma": 0.0
     },
-    "difficulty_trend": null,
+    "difficulty_trend": {
+      "series": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ewma": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sigma": 0.0
+    },
     "forecast": {
       "quality_next": 10.0,
       "quality_band": [
@@ -120,8 +129,8 @@
       "fecha_iso": "2024-10-15T00:00:00",
       "materia": "METAL MECANICA",
       "calidad": 10.0,
-      "dificultad": null,
-      "nota": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "ESTA HERMOSOOOOOOOOOOOOOOOOOOOO ME MIE"
     },
@@ -129,8 +138,8 @@
       "fecha_iso": "2022-10-22T00:00:00",
       "materia": "CIRCUITOS ELECTRICOS",
       "calidad": 10.0,
-      "dificultad": null,
-      "nota": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "Esta bien guapo, habla muy bonito, usa pantalones ajustados atte Jose Roberto"
     },
@@ -138,8 +147,8 @@
       "fecha_iso": "2020-06-11T00:00:00",
       "materia": "ELECTRONICA",
       "calidad": 10.0,
-      "dificultad": null,
-      "nota": 9.0,
+      "dificultad": 0.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "excelente maestro y muy guapo, no le puedes quitar la mirada."
     },
@@ -147,7 +156,7 @@
       "fecha_iso": "2020-01-11T00:00:00",
       "materia": "REDES",
       "calidad": 10.0,
-      "dificultad": null,
+      "dificultad": 0.0,
       "nota": null,
       "recomienda": 1,
       "comentario": "Excelente maestro, se preocupa porque sus alumnos aprendan y está fácil salir con buena calificación"

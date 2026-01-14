@@ -1,0 +1,152 @@
+{
+  "nombre": "ZURIEL DATHAN MORA FELIX",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "ciudad": "Ciudad: culiacan, sinaloa",
+  "departamento": "Departamento/Facultad: SISTEMAS COMPUTACIONALES",
+  "calidad_general": 3.8,
+  "porcentaje_recomienda": 38,
+  "nivel_dificultad": 6.0,
+  "etiquetas": [
+    "MUY CÓMICO (1)",
+    "DA BUENA RETROALIMENTACIÓN (1)",
+    "LA PARTICIPACIÓN IMPORTA (3)",
+    "CALIFICA DURO (3)",
+    "MUCHAS TAREAS (2)",
+    "ASISTENCIA OBLIGATORIA (3)",
+    "BARCO (1)"
+  ],
+  "numero_calificaciones": 8,
+  "calificaciones": [
+    {
+      "fecha": "27/May/2025",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 2.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "inteligencia artificial",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "8",
+      "interes_clase": "",
+      "comentario": "es de los peores profes que me han tocado, si tienen la oportunidad de cargar con el desaprovechenla",
+      "etiquetas_comentario": [
+        "Califica Duro",
+        "Asistencia obligatoria"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "11/Jul/2024",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 2.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Matemáticas Discretas",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "9",
+      "interes_clase": "",
+      "comentario": "No recomiendo al profesor, no enseña mucho y hace las clases complicadas \nCalifica mal e incluso se llega a equivocar mucho en los exámenes \nDice una cosa y hace otra completamente diferente",
+      "etiquetas_comentario": [
+        "Barco",
+        "La Participación Importa",
+        "Asistencia obligatoria"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "15/Feb/2022",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 2.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "---",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "24",
+      "interes_clase": "",
+      "comentario": "[Comentario esperando revisión]",
+      "etiquetas_comentario": [
+        "Califica Duro",
+        "Muchas tareas",
+        "Asistencia obligatoria"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "17/Dic/2021",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 2.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Estructura De Datos",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "8",
+      "interes_clase": "",
+      "comentario": "Si quieres sufrir a final de semestre con un maestro que no tiene ni la mas mínima idea de como calificar, este es tu profesor, el maestro nos reprobó a todos y no se le hizo nada extraño que nos faltaran 3 tareas que nunca asigno, además enseña horrible tendrás que investigar tu mismo",
+      "etiquetas_comentario": [
+        "Califica Duro",
+        "Muchas tareas",
+        "La Participación Importa"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "16/Ene/2017",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 8.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Curso propedéutico",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "9",
+      "interes_clase": "",
+      "comentario": "Era buena onda pero dejaba mucha tarea",
+      "etiquetas_comentario": [
+        "Muy cómico",
+        "Da buena retroalimentación",
+        "La Participación Importa"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "09/Dic/2015",
+      "tipo_calificacion": "REGULAR",
+      "puntaje_calidad_general": 6.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "PROLOG",
+      "asistencia": "",
+      "calificacion_recibida": "8",
+      "interes_clase": "8",
+      "comentario": "Esta bien facil, nomas que haskell esta cabron a lo que ensena, prolog esta bien facil con el.",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "11/Oct/2015",
+      "tipo_calificacion": "REGULAR",
+      "puntaje_calidad_general": 6.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Programación avanzada",
+      "asistencia": "",
+      "calificacion_recibida": "N/A",
+      "interes_clase": "N/A",
+      "comentario": "Este maestro no es ninguna eminencia. Pero es un buen maestro a secas. Tiene 2 caras. Generalmente es dominado por su lado amistoso, pero en tiempos de evaluación su lado poco amistoso lo domina. Aprendes más por tu cuenta cuando desarrollas el proyecto final que te exige.",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "08/Ago/2015",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 2.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "---",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "N/A",
+      "interes_clase": "",
+      "comentario": "[Comentario esperando revisión]",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    }
+  ]
+}

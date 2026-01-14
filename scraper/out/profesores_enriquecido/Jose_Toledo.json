@@ -1,14 +1,14 @@
 {
   "professor_id": "Jose_Toledo",
   "nombre": "Jose Toledo",
-  "universidad": "Instituto Tecnologico de Culiacan",
+  "universidad": "Instituto Tecnológico de Culiacán",
   "decay_analysis": {
     "quality_decayed": 10.0,
-    "difficulty_decayed": null
+    "difficulty_decayed": 0.0
   },
   "bayes_analysis": {
-    "quality_bayes": 7.481326750221547,
-    "difficulty_bayes": null
+    "quality_bayes": 7.7229640619848325,
+    "difficulty_bayes": 2.3367952522255195
   },
   "recommendation_analysis": {
     "rate": 1.0,
@@ -19,18 +19,13 @@
     "n_recommendations": 2
   },
   "subject_normalization": {
-    "z_mean": 1.87,
-    "z_mean_decayed": 1.77,
+    "z_mean": 1.0,
+    "z_mean_decayed": 1.0,
     "per_subject": [
       {
         "materia": "PRINCIPIOS ELECTRICOS",
-        "z_decayed": 2.6432618082272867,
-        "n": 13
-      },
-      {
-        "materia": "ELECTRONICA DIGITAL",
-        "z_decayed": 1.0914103126634984,
-        "n": 4
+        "z_decayed": 1.0,
+        "n": 3
       }
     ]
   },
@@ -68,7 +63,7 @@
       "fecha_iso": "2018-08-02T00:00:00",
       "materia": "ELECTRONICA DIGITAL",
       "calidad": 10.0,
-      "dificultad": null,
+      "dificultad": 0.0,
       "nota": null,
       "recomienda": 1,
       "comentario": "excelente maestro, sabe mucho , enseña claramente y si tienes alguna duda te la explica claramente ademas de que ayuda mucho a los alumnos para pasar"
@@ -77,8 +72,8 @@
       "fecha_iso": "2017-11-22T00:00:00",
       "materia": "PRINCIPIOS ELECTRICOS",
       "calidad": 10.0,
-      "dificultad": null,
-      "nota": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "Muy buen profesor, aunque te puedes llegar a dormir en sus clases. :)"
     }

@@ -1,31 +1,31 @@
 {
   "professor_id": "Jesús_Alberto_Osuna_Sanchez",
   "nombre": "Jesús Alberto Osuna Sanchez",
-  "universidad": "Instituto Tecnologico de Culiacan",
+  "universidad": "Instituto Tecnológico de Culiacán",
   "decay_analysis": {
     "quality_decayed": 6.0,
-    "difficulty_decayed": null
+    "difficulty_decayed": 4.0
   },
   "bayes_analysis": {
-    "quality_bayes": 6.888720091150779,
-    "difficulty_bayes": null
+    "quality_bayes": 7.152324431256181,
+    "difficulty_bayes": 2.912867547882385
   },
   "recommendation_analysis": {
-    "rate": 0.0,
+    "rate": 1.0,
     "wilson_interval": [
-      0,
-      0.7934567085261071
+      0.20654329147389294,
+      1
     ],
     "n_recommendations": 1
   },
   "subject_normalization": {
-    "z_mean": -0.61,
-    "z_mean_decayed": -0.61,
+    "z_mean": -0.57,
+    "z_mean_decayed": -0.57,
     "per_subject": [
       {
         "materia": "PROBABILIDAD Y ESTADISTICA",
-        "z_decayed": -0.6127487224554687,
-        "n": 32
+        "z_decayed": -0.5663457609767676,
+        "n": 19
       }
     ]
   },
@@ -63,9 +63,9 @@
       "fecha_iso": "2024-08-10T00:00:00",
       "materia": "PROBABILIDAD Y ESTADISTICA",
       "calidad": 6.0,
-      "dificultad": null,
-      "nota": 9.0,
-      "recomienda": 0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 0.5,
       "comentario": "Los exámenes abecés son copia de las tareas que deja además de ser muy sencillos, abecés puede ser confuso pero no esta mal."
     }
   ],

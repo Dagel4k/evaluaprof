@@ -1,0 +1,35 @@
+{
+  "nombre": "Eduardo Alejandro Cortez Esparza",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "ciudad": "Ciudad: culiacan, sinaloa",
+  "departamento": "Departamento/Facultad: Informática",
+  "calidad_general": 4.0,
+  "porcentaje_recomienda": 0,
+  "nivel_dificultad": 0.0,
+  "etiquetas": [
+    "BARCO (1)",
+    "MUY CÓMICO (1)",
+    "DA CRÉDITO EXTRA (1)"
+  ],
+  "numero_calificaciones": 1,
+  "calificaciones": [
+    {
+      "fecha": "24/Nov/2020",
+      "tipo_calificacion": "REGULAR",
+      "puntaje_calidad_general": 4.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Programación",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "8",
+      "interes_clase": "",
+      "comentario": "",
+      "etiquetas_comentario": [
+        "Barco",
+        "Muy cómico",
+        "Da Crédito Extra"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    }
+  ]
+}

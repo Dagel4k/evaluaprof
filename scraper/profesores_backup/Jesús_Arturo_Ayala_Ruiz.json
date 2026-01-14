@@ -1,0 +1,193 @@
+{
+  "nombre": "Jesús Arturo Ayala Ruiz",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "ciudad": "Ciudad: culiacan, sinaloa",
+  "departamento": "Departamento/Facultad: Ciencias Basicas",
+  "calidad_general": 6.7,
+  "porcentaje_recomienda": 82,
+  "nivel_dificultad": 3.6,
+  "etiquetas": [
+    "ASISTENCIA OBLIGATORIA (1)",
+    "DA CRÉDITO EXTRA (2)",
+    "POCOS EXÁMENES (2)",
+    "BRINDA APOYO (2)",
+    "TOMARÍA SU CLASE OTRA VEZ (1)",
+    "ASPECTOS DE CALIFICACIÓN CLAROS (1)",
+    "LOS EXÁMENES SON DIFÍCILES (1)",
+    "MUCHAS TAREAS (1)",
+    "LA PARTICIPACIÓN IMPORTA (1)"
+  ],
+  "numero_calificaciones": 11,
+  "calificaciones": [
+    {
+      "fecha": "13/Ago/2024",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 8.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "probabilidad y estadistica",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "7",
+      "interes_clase": "",
+      "comentario": "",
+      "etiquetas_comentario": [
+        "Muchas tareas",
+        "La Participación Importa",
+        "Pocos Exámenes"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "17/Jun/2022",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 7.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Fisica",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "7",
+      "interes_clase": "",
+      "comentario": "Al principio parece estricto pero al final te puede dar apoyo ya que da la opción de que te ponga 70 en todas las unidades si es que debes alguna unidad te da a elegir entre eso o hacer recuperación a menos que tu promedio te dé menor a 70 pq ahi si debes de presentar recuperación",
+      "etiquetas_comentario": [
+        "Aspectos de calificación claros",
+        "Brinda apoyo",
+        "Los exámenes son difíciles"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "12/Ene/2019",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Fisica",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "7",
+      "interes_clase": "",
+      "comentario": "Ayuda al final, no faltes y presenta hasta el ultimo examen, si aprendes aunque no pongas atención",
+      "etiquetas_comentario": [
+        "Da Crédito Extra",
+        "Brinda apoyo",
+        "Tomaría su clase otra vez"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "05/Ago/2016",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 7.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Probabilidad y Estadistica",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "5",
+      "interes_clase": "",
+      "comentario": "Profesor que casi nunca falta, con el ni se te ocurra falta una clase porque no vuelve a ver los temas, tareas son obligatorias si quieren pasar, suele ver los temas muy rapido, si le dicen que entendieron el tema entonces ENTENDIERON EL TEMA y no lo volvera a tocar. EL JUEGO SE LLAMA SIN LLORAR",
+      "etiquetas_comentario": [
+        "Asistencia obligatoria",
+        "Da Crédito Extra",
+        "Pocos Exámenes"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "14/Ene/2016",
+      "tipo_calificacion": "REGULAR",
+      "puntaje_calidad_general": 6.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Fisica",
+      "asistencia": "",
+      "calificacion_recibida": "7.5",
+      "interes_clase": "7.5",
+      "comentario": "No es dificil pasar con el, sus clases son puras diapositivas, hacer tareas es lo que cuenta, explica mas o menos, sus examenes son fáciles, si es que haces las tareas, es un profesor normal o promedio.",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "05/Jun/2013",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 2.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Arquitectura de computadoras",
+      "asistencia": "",
+      "calificacion_recibida": "9.5",
+      "interes_clase": "9.5",
+      "comentario": "Vale verga para explicar! No sabe programar y se cree bine chingon! XD ME LA PELA EN POO!! xD",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "09/Ene/2013",
+      "tipo_calificacion": "REGULAR",
+      "puntaje_calidad_general": 6.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "PROBABILIDAD Y ESTADISTICA",
+      "asistencia": "",
+      "calificacion_recibida": "7.5",
+      "interes_clase": "7.5",
+      "comentario": "Falta seguido y cuando va nos trae en chinga, en un solo dia ve varios temas seguidos por lo que a veces no queda claro, aparte que es muy burlesco y agresivo por lo que es dificil para que te resuelve las dudas, al final si aprendes.",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "30/Mar/2012",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 9.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Probabilidad y Estadistica",
+      "asistencia": "",
+      "calificacion_recibida": "8",
+      "interes_clase": "8",
+      "comentario": "Le hace falta experiencia, y es algo inmaduro, pero fuera de eso es un buen maestro",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "12/Abr/2011",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 8.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "probabilidad y estadística",
+      "asistencia": "",
+      "calificacion_recibida": "8.5",
+      "interes_clase": "8.5",
+      "comentario": "Este profesor explica muy bien y la mayoría de las veces deja hacer los exámenes en equipo y están bien peladoz.… awas con estadística porque los puede trozar si no se ponen ál ciien",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "07/Ene/2011",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 2.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "---",
+      "asistencia": "",
+      "calificacion_recibida": "2",
+      "interes_clase": "2",
+      "comentario": "[Comentario esperando revisión]",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "07/Ene/2011",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 8.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Física II",
+      "asistencia": "",
+      "calificacion_recibida": "9",
+      "interes_clase": "9",
+      "comentario": "Buen maestro, pero se le va el rollo cuando explica algunos temas, aunque te ayuda mucho para que pases la materia.",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    }
+  ]
+}

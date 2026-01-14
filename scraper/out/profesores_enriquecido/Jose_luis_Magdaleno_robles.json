@@ -1,14 +1,14 @@
 {
   "professor_id": "Jose_luis_Magdaleno_robles",
   "nombre": "Jose luis Magdaleno robles",
-  "universidad": "Instituto Tecnologico de Culiacan",
+  "universidad": "Instituto Tecnológico de Culiacán",
   "decay_analysis": {
     "quality_decayed": 10.0,
-    "difficulty_decayed": null
+    "difficulty_decayed": 2.0
   },
   "bayes_analysis": {
-    "quality_bayes": 7.481326750221547,
-    "difficulty_bayes": null
+    "quality_bayes": 7.7229640619848325,
+    "difficulty_bayes": 2.670128585558853
   },
   "recommendation_analysis": {
     "rate": 1.0,
@@ -19,18 +19,18 @@
     "n_recommendations": 2
   },
   "subject_normalization": {
-    "z_mean": 1.43,
-    "z_mean_decayed": 1.42,
+    "z_mean": 1.33,
+    "z_mean_decayed": 1.31,
     "per_subject": [
       {
         "materia": "CONTROL",
-        "z_decayed": 1.635108286647395,
-        "n": 14
+        "z_decayed": 1.592027071241926,
+        "n": 13
       },
       {
         "materia": "METROLOGIA Y NORMALIZACION",
-        "z_decayed": 1.2309998767333055,
-        "n": 15
+        "z_decayed": 1.0584754935143141,
+        "n": 9
       }
     ]
   },
@@ -68,8 +68,8 @@
       "fecha_iso": "2023-01-19T00:00:00",
       "materia": "METROLOGIA Y NORMALIZACION",
       "calidad": 10.0,
-      "dificultad": null,
-      "nota": 10.0,
+      "dificultad": 2.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "Es un gran profesor"
     },
@@ -77,8 +77,8 @@
       "fecha_iso": "2022-09-04T00:00:00",
       "materia": "CONTROL",
       "calidad": 10.0,
-      "dificultad": null,
-      "nota": 8.0,
+      "dificultad": 2.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "excelente profesor, explica todo muy claro y es flexible respecto a trabajos y exámenes"
     }

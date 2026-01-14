@@ -1,14 +1,14 @@
 {
   "professor_id": "Sigan_a_bosmarbunny_En_tiktok",
   "nombre": "Sigan a bosmarbunny En tiktok",
-  "universidad": "Instituto Tecnologico de Culiacan",
+  "universidad": "Instituto Tecnológico de Culiacán",
   "decay_analysis": {
     "quality_decayed": 2.0,
-    "difficulty_decayed": null
+    "difficulty_decayed": 8.0
   },
   "bayes_analysis": {
-    "quality_bayes": 6.5250837275144145,
-    "difficulty_bayes": null
+    "quality_bayes": 6.788688067619817,
+    "difficulty_bayes": 3.276503911518749
   },
   "recommendation_analysis": {
     "rate": 0.0,
@@ -57,7 +57,7 @@
       "fecha_iso": "2022-07-21T00:00:00",
       "materia": "USA",
       "calidad": 2.0,
-      "dificultad": null,
+      "dificultad": 8.0,
       "nota": null,
       "recomienda": 0,
       "comentario": "No lo sigan"

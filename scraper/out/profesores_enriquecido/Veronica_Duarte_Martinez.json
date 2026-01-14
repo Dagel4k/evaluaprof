@@ -1,36 +1,31 @@
 {
   "professor_id": "Veronica_Duarte_Martinez",
   "nombre": "Veronica Duarte Martinez",
-  "universidad": "Instituto Tecnologico de Culiacan",
+  "universidad": "Instituto Tecnológico de Culiacán",
   "decay_analysis": {
-    "quality_decayed": 10.000000000000002,
-    "difficulty_decayed": null
+    "quality_decayed": 10.0,
+    "difficulty_decayed": 0.39999999999999997
   },
   "bayes_analysis": {
-    "quality_bayes": 8.409259000139924,
-    "difficulty_bayes": null
+    "quality_bayes": 8.178371249587865,
+    "difficulty_bayes": 2.0027695351137487
   },
   "recommendation_analysis": {
     "rate": 1.0,
     "wilson_interval": [
-      0.7008472464490406,
+      0.565508505247919,
       1
     ],
-    "n_recommendations": 9
+    "n_recommendations": 5
   },
   "subject_normalization": {
-    "z_mean": 0.77,
-    "z_mean_decayed": 0.74,
+    "z_mean": 0.58,
+    "z_mean_decayed": 0.58,
     "per_subject": [
       {
-        "materia": "ÉTICA",
-        "z_decayed": 1.8600648186942417,
-        "n": 11
-      },
-      {
         "materia": "PLANEACIÓN FINANCIERA",
-        "z_decayed": 0.5872801368884135,
-        "n": 10
+        "z_decayed": 0.5773502691896257,
+        "n": 7
       }
     ]
   },
@@ -48,58 +43,33 @@
       {
         "id": 0,
         "words": [
-          "maestra",
-          "buena maestra",
-          "brinda",
-          "brinda apoyo",
-          "apoyo"
+          "mas",
+          "te",
+          "clara",
+          "explica",
+          "manera"
         ],
-        "weight": 0.11656561723050338
+        "weight": 0.33234744019093926
       },
       {
         "id": 1,
         "words": [
-          "clases",
+          "ayuda",
+          "es",
           "si",
-          "explica",
-          "bien",
-          "explica bien"
+          "buena",
+          "maestra"
         ],
-        "weight": 0.1671346658816091
-      },
-      {
-        "id": 2,
-        "words": [
-          "ayuda si",
-          "si",
-          "recomiendo",
-          "muchisimo",
-          "es"
-        ],
-        "weight": 0.21031279126866412
-      },
-      {
-        "id": 3,
-        "words": [
-          "aprendes",
-          "mas",
-          "explica",
-          "clara",
-          "manera"
-        ],
-        "weight": 0.17574007503218633
+        "weight": 0.3248738200591569
       }
     ],
     "sentiment": {
-      "overall": 0.2222222222222222,
+      "overall": 0.4,
       "by_month": {
-        "2024-07": 0.3333333333333333,
-        "2024-01": 0.0,
-        "2023-12": 0.0,
-        "2021-12": 0.0
+        "2024-07": 0.4
       }
     },
-    "n_comments": 9
+    "n_comments": 5
   },
   "integrity_analysis": {
     "dup_rate": 0.0,
@@ -118,41 +88,15 @@
         "from": "2024-07-23T00:00:00",
         "to": "2024-07-23T00:00:00",
         "count": 5
-      },
-      {
-        "from": "2024-07-23T00:00:00",
-        "to": "2024-07-23T00:00:00",
-        "count": 6
       }
     ],
     "low_variance_flag": 1,
     "trust_score": 0.5
   },
   "trends_analysis": {
-    "quality_trend": {
-      "series": [
-        10.0,
-        10.0,
-        10.0,
-        10.0
-      ],
-      "ewma": [
-        10.0,
-        10.0,
-        10.0,
-        10.0
-      ],
-      "sigma": 0.0
-    },
+    "quality_trend": null,
     "difficulty_trend": null,
-    "forecast": {
-      "quality_next": 10.0,
-      "quality_band": [
-        10.0,
-        10.0
-      ],
-      "confidence": 0.95
-    },
+    "forecast": null,
     "seasonality": {}
   },
   "reviews_public": [
@@ -160,8 +104,8 @@
       "fecha_iso": "2024-07-23T00:00:00",
       "materia": "PLANEACIÓN FINANCIERA",
       "calidad": 10.0,
-      "dificultad": null,
-      "nota": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "Muy buena maestra, en todos los aspectos. Siempre brinda su apoyo."
     },
@@ -169,8 +113,8 @@
       "fecha_iso": "2024-07-23T00:00:00",
       "materia": "PLANEACIÓN FINANCIERA",
       "calidad": 10.0,
-      "dificultad": null,
-      "nota": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "Es muy clara para explicar. Empieza con la práctica y deja al final la teoría, por lo que que aprendes más. Te ayuda si tienes una buena asistencia, recomendado. Si te sale, carga cualquier materia con ella"
     },
@@ -178,8 +122,8 @@
       "fecha_iso": "2024-07-23T00:00:00",
       "materia": "PLANEACIÓN FINANCIERA",
       "calidad": 10.0,
-      "dificultad": null,
-      "nota": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "Excelente profesora, explica todo perfectamente bien y en caso de no entender , te lo vuelve a explicar las veces necesarias, los exámenes son justos ya que no pone cosas que no miras en clases, aprendes demasiado y busca la manera de hacerte mirar y entender todo de la manera más sencilla posible."
     },
@@ -187,8 +131,8 @@
       "fecha_iso": "2024-07-23T00:00:00",
       "materia": "PLANEACIÓN FINANCIERA",
       "calidad": 10.0,
-      "dificultad": null,
-      "nota": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "Es una excelente maestra si explica bien y ayuda mucho"
     },
@@ -196,46 +140,10 @@
       "fecha_iso": "2024-07-23T00:00:00",
       "materia": "PLANEACIÓN FINANCIERA",
       "calidad": 10.0,
-      "dificultad": null,
-      "nota": 10.0,
+      "dificultad": 2.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "Explica de manera clara, detallada y con ejemplos de la vida real."
-    },
-    {
-      "fecha_iso": "2024-07-23T00:00:00",
-      "materia": "PLANEACIÓN FINANCIERA",
-      "calidad": 10.0,
-      "dificultad": null,
-      "nota": 10.0,
-      "recomienda": 1,
-      "comentario": "Es una de las mejores maestras que eh tenido en los pocos veranos en los que eh estado, la recomiendo muchísimo por si piensan cargar con ella :)"
-    },
-    {
-      "fecha_iso": "2024-01-18T00:00:00",
-      "materia": "ÉTICA",
-      "calidad": 10.0,
-      "dificultad": null,
-      "nota": 9.5,
-      "recomienda": 1,
-      "comentario": "Muy buena maestra, imparte muy bien su materia y te brinda apoyo en lo que necesites."
-    },
-    {
-      "fecha_iso": "2023-12-09T00:00:00",
-      "materia": "FUNDAMENTOS FINANCIEROS",
-      "calidad": 10.0,
-      "dificultad": null,
-      "nota": 10.0,
-      "recomienda": 1,
-      "comentario": "Muy buena maestra, la recomiendo mucho, ayuda si le preguntas, es buen rollo, es a todo dar, y sabe muchisimo."
-    },
-    {
-      "fecha_iso": "2021-12-21T00:00:00",
-      "materia": "CONTABILIDAD Y COSTOS",
-      "calidad": 10.0,
-      "dificultad": null,
-      "nota": 10.0,
-      "recomienda": 1,
-      "comentario": "Muy buena profe explica bien sus temas y si ve que le hechas ganas te sube la calificacion, muy responsable en sus clases, jamas falta al menos sea una emergencia para ella, recomendada."
     }
   ],
   "comments_recent": [
@@ -243,11 +151,7 @@
     "Es muy clara para explicar. Empieza con la práctica y deja al final la teoría, por lo que que aprendes más. Te ayuda si tienes una buena asistencia, recomendado. Si te sale, carga cualquier materia con ella",
     "Excelente profesora, explica todo perfectamente bien y en caso de no entender , te lo vuelve a explicar las veces necesarias, los exámenes son justos ya que no pone cosas que no miras en clases, aprendes demasiado y busca la manera de hacerte mirar y entender todo de la manera más sencilla posible.",
     "Es una excelente maestra si explica bien y ayuda mucho",
-    "Explica de manera clara, detallada y con ejemplos de la vida real.",
-    "Es una de las mejores maestras que eh tenido en los pocos veranos en los que eh estado, la recomiendo muchísimo por si piensan cargar con ella :)",
-    "Muy buena maestra, imparte muy bien su materia y te brinda apoyo en lo que necesites.",
-    "Muy buena maestra, la recomiendo mucho, ayuda si le preguntas, es buen rollo, es a todo dar, y sabe muchisimo.",
-    "Muy buena profe explica bien sus temas y si ve que le hechas ganas te sube la calificacion, muy responsable en sus clases, jamas falta al menos sea una emergencia para ella, recomendada."
+    "Explica de manera clara, detallada y con ejemplos de la vida real."
   ],
-  "n_reviews": 9
+  "n_reviews": 5
 }

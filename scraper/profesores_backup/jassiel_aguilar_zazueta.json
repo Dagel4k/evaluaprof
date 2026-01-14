@@ -1,0 +1,181 @@
+{
+  "nombre": "jassiel aguilar zazueta",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "ciudad": "Ciudad: culiacan, sinaloa",
+  "departamento": "Departamento/Facultad: ing. indistrial",
+  "calidad_general": 4.4,
+  "porcentaje_recomienda": 30,
+  "nivel_dificultad": 5.2,
+  "etiquetas": [
+    "CALIFICA DURO (5)",
+    "MUCHAS TAREAS (1)",
+    "LAS CLASES SON LARGAS (2)",
+    "ASISTENCIA OBLIGATORIA (4)",
+    "LOS EXÁMENES SON DIFÍCILES (1)",
+    "PREPÁRATE PARA LEER (1)",
+    "MUCHOS PROYECTOS GRUPALES (1)"
+  ],
+  "numero_calificaciones": 10,
+  "calificaciones": [
+    {
+      "fecha": "07/Dic/2022",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 2.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Administración de proyectos",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "23",
+      "interes_clase": "",
+      "comentario": "HORRIBLE! sin duda alguna el profesor más desagradables que me a tocado.Grosero, irrespetuoso,altanero y sádico, le gusta burlarse de sus alumnos, hace de todo menos dar una clase productiva. Una clase con el es para que te ofenda o agreda y de paso enterarte de su vida.",
+      "etiquetas_comentario": [
+        "Califica Duro",
+        "Asistencia obligatoria",
+        "Muchos proyectos grupales"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "25/Oct/2021",
+      "tipo_calificacion": "REGULAR",
+      "puntaje_calidad_general": 6.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Administración de proyectos",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "8",
+      "interes_clase": "",
+      "comentario": "La verdad no me gusta la dinámica donde nos quiere hacer a fuerzas decir el concepto que se está imaginando porque no leemos mentes y no lo sabemos todo.\nMe gusta que explique detalladamente y que sea estricto en cuestión de las fechas de entrega y la calidad de lo que entregamos.",
+      "etiquetas_comentario": [
+        "Califica Duro",
+        "Prepárate para leer",
+        "Asistencia obligatoria"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "01/Feb/2021",
+      "tipo_calificacion": "REGULAR",
+      "puntaje_calidad_general": 5.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Administración de proyectos",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "6.5",
+      "interes_clase": "",
+      "comentario": "",
+      "etiquetas_comentario": [
+        "Califica Duro",
+        "Asistencia obligatoria",
+        "Las clases son largas"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "09/Ago/2019",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 3.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Administración de Proyectos",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "7",
+      "interes_clase": "",
+      "comentario": "Habla de todo menos de la clase, asistencia obligatoria, no ayuda si te faltan 2 decimas, examenes confusos, proyecto facil, si quieres pasar no debes faltar ninguna clase",
+      "etiquetas_comentario": [
+        "Califica Duro",
+        "Asistencia obligatoria",
+        "Los exámenes son difíciles"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "12/Ene/2019",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 2.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Administración de Proyectos",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "6.5",
+      "interes_clase": "",
+      "comentario": "NO Da clases, solo habla de su vida que no es nada interesante, sus examenes como si fueras a solicitar un empleo, no ayuda si te faltan 2 décimas para llegar a 70, mucho ego, no sabe dar clases ni explicar, 50 min de platicas sin sentido.",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "20/Ene/2018",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 2.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Adm de proyectos",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "N/A",
+      "interes_clase": "",
+      "comentario": "",
+      "etiquetas_comentario": [
+        "Califica Duro",
+        "Muchas tareas",
+        "Las clases son largas"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "12/Dic/2017",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 2.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "administracion de operaciones",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "7",
+      "interes_clase": "",
+      "comentario": "las clases no son claras, exámenes muy confusos, a demás de que es un maestro que se burla de los alumnos mediante a su sarcasmo, y solo habla de su vida, y de sus ingresos, que según el son muchos.",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "23/Oct/2017",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 2.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "administracion de proyectos",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "Se pone a hablar de su vida y otras cosas menos de las clases. Es una lastima que esté ocupando lugar en esta materia habiendo mejores maestros. \nLiteral sus clases son : Hablar sobre el mismo, criticar a su patria y quejarse de la vida. y no ve nada de la clase.",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "10/Ene/2015",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Admon de proyectos",
+      "asistencia": "",
+      "calificacion_recibida": "9",
+      "interes_clase": "9",
+      "comentario": "Muy buen maestro, no te complica la materia, te enseña con lo de la vida real, solo no faltes mucho y examenes de opciones y acaso pocas preguntas abiertas.",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "1"
+    },
+    {
+      "fecha": "09/Ene/2015",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "admon proy",
+      "asistencia": "",
+      "calificacion_recibida": "9",
+      "interes_clase": "9",
+      "comentario": "buen maetro, practico, da oportunidades, buen maestro",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    }
+  ]
+}

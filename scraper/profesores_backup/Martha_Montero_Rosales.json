@@ -1,0 +1,49 @@
+{
+  "nombre": "Martha Montero Rosales",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "ciudad": "Ciudad: culiacan, sinaloa",
+  "departamento": "Departamento/Facultad: Ingeniería Industrial",
+  "calidad_general": 9.0,
+  "porcentaje_recomienda": 100,
+  "nivel_dificultad": 1.0,
+  "etiquetas": [
+    "CALIFICA DURO (1)",
+    "LA PARTICIPACIÓN IMPORTA (1)",
+    "ASISTENCIA OBLIGATORIA (1)"
+  ],
+  "numero_calificaciones": 2,
+  "calificaciones": [
+    {
+      "fecha": "30/Jun/2023",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 8.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "logística y cadena de suministros",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "9",
+      "interes_clase": "",
+      "comentario": "es buena maestra, se fija mucho que no copees en los exámenes, los exámenes de recuperación son algo difíciles pero si entras todos los dias y no fallas te echa la mano y te toma en consideración, si eres muy flojo y casi no te gusta entrar no cargues con ella.",
+      "etiquetas_comentario": [
+        "Califica Duro",
+        "La Participación Importa",
+        "Asistencia obligatoria"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "07/Ago/2013",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Metrologìa y Normalizaciòn",
+      "asistencia": "",
+      "calificacion_recibida": "9",
+      "interes_clase": "9",
+      "comentario": "Es buena maestra, como tiene puesto en la dirección falta muchos días pero si aprendes, no esta amargada como otras, el único pero que le vi es que en los exámenes anda bien pilas para que nadie copie pero pues no están tan difíciles y si de plano truenas en la recuperación le sacas el 100 pelado.",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    }
+  ]
+}

@@ -1,0 +1,159 @@
+{
+  "nombre": "Jose Ramon Garcia Villegas",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "ciudad": "Ciudad: culiacan, sinaloa",
+  "departamento": "Departamento/Facultad: ELECT. Y MAGNETISMO",
+  "calidad_general": 5.4,
+  "porcentaje_recomienda": 38,
+  "nivel_dificultad": 4.0,
+  "etiquetas": [
+    "CALIFICA DURO (2)",
+    "LA PARTICIPACIÓN IMPORTA (1)",
+    "ASPECTOS DE CALIFICACIÓN CLAROS (1)",
+    "BARCO (4)",
+    "MUY CÓMICO (1)",
+    "POCOS EXÁMENES (1)",
+    "MUCHAS TAREAS (1)",
+    "MUCHOS PROYECTOS GRUPALES (1)",
+    "DA BUENA RETROALIMENTACIÓN (2)",
+    "INSPIRACIONAL (1)"
+  ],
+  "numero_calificaciones": 8,
+  "calificaciones": [
+    {
+      "fecha": "04/Jun/2025",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Máquinas Eléctricas",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "9.5",
+      "interes_clase": "",
+      "comentario": "Muy buen profesor, te lleva a hacer varias prácticas con los motores. Te enseña los tipos de cableado ya aplicados. Cómo  proyecto final es comutar la inversión de un motor trifasico con un Arduino. Si es buena opción para maquinas. Aunque ojo, se enfoca más en la práctica el profe.",
+      "etiquetas_comentario": [
+        "Barco",
+        "Da buena retroalimentación",
+        "Brinda apoyo"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "13/Dic/2022",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "TRANSFORMADORES",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "8",
+      "interes_clase": "",
+      "comentario": "ES UN ING. DE EXPERIENCIA, TIENEN UN CV AMPLIO EN COMPAÑIAS QUE A TRABAJADO, LAS CLASES VAN TOMANDO APOYO DE HISTORIAS DE EXPERIENCIA PROFESIONAL, SE COMPLEMENTAN MUY BIEN, TOMARIA LA CLASE OTRA VEZ, SALUDOS.",
+      "etiquetas_comentario": [
+        "Da buena retroalimentación",
+        "Inspiracional",
+        "Brinda apoyo"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "16/Dic/2021",
+      "tipo_calificacion": "REGULAR",
+      "puntaje_calidad_general": 5.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Centrales Eléctricas.",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "Es barquisimo. Le interesa mas armar sus trenes que la clase. Con nosotros nos dividió en grupos y nos puso a exponer durante el semestre y las exposiciones le valían. Puso lo que quiso. Si quieres puntos extra podrias ofrecerte a ayudarlo dando un portafolio de evidencias al final del semestre.",
+      "etiquetas_comentario": [
+        "Barco",
+        "Muchas tareas",
+        "Muchos proyectos grupales"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "11/May/2021",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 3.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "electricidad",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "7",
+      "interes_clase": "",
+      "comentario": "",
+      "etiquetas_comentario": [
+        "Califica Duro",
+        "Barco",
+        "Pocos Exámenes"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "07/Jun/2019",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 3.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Análisis de circuitos",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "7",
+      "interes_clase": "",
+      "comentario": "Es una basura uno de los peores profesores del tec, si no eres de los que le andan mamando el boli te manda a global aunque hayas pasado los exámenes anteriores. Pide a sus alumnos que le hagan un favor o algo para que los pueda pasar con 70.",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "2"
+    },
+    {
+      "fecha": "05/Jun/2019",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 3.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Análisis de Circuitos Eléctricos",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "7",
+      "interes_clase": "",
+      "comentario": "Si lees esto aun estas a tiempo para NO con cargar con Villegas. Ejercicios inconclusos, no explica muy bien, si estudias pasas, al final si le haces la barba también te pasa, pero aun que salgas bien y no te ubique te manda a global, llega a tirar la platicada con las mujeres, a las cuales las pasa",
+      "etiquetas_comentario": [
+        "Barco",
+        "Muy cómico"
+      ],
+      "votos_utiles": "1",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "18/Ene/2018",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 7.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Transformadores",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "9",
+      "interes_clase": "",
+      "comentario": "",
+      "etiquetas_comentario": [
+        "Califica Duro",
+        "La Participación Importa",
+        "Aspectos de calificación claros"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "15/Feb/2017",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 2.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "electricidad y electrónica",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "9",
+      "interes_clase": "",
+      "comentario": "Una mierda de maestro",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "1"
+    }
+  ]
+}

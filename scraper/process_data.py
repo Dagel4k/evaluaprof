@@ -82,7 +82,8 @@ class DataProcessor:
         # Asegurar tipos de datos correctos
         cleaned["promedio_general"] = float(cleaned.get("promedio_general", 0.0))
         cleaned["porcentaje_recomienda"] = int(cleaned.get("porcentaje_recomienda", 0))
-        cleaned["dificultad_promedio"] = float(cleaned.get("dificultad_promedio", 0.0))
+        # Map nivel_dificultad from scraper to dificultad_promedio
+        cleaned["dificultad_promedio"] = float(cleaned.get("nivel_dificultad", cleaned.get("dificultad_promedio", 0.0)))
         cleaned["numero_calificaciones"] = int(cleaned.get("numero_calificaciones", 0))
         
         # Asegurar que las listas existan
@@ -101,7 +102,10 @@ class DataProcessor:
                 cleaned_review = {
                     "fecha": review.get("fecha", "Fecha no disponible"),
                     "materia": review.get("materia", "Materia no disponible"),
-                    "calificacion_general": float(review.get("calificacion_general", 0.0)),
+                    "puntaje_calidad_general": float(review.get("puntaje_calidad_general", 0.0)),
+                    "puntaje_facilidad": float(review.get("puntaje_facilidad", 0.0)),
+                    "tipo_calificacion": review.get("tipo_calificacion", "REGULAR"),
+                    "recomienda": review.get("recomienda", False),
                     "comentario": review.get("comentario", "").strip()
                 }
                 cleaned_reviews.append(cleaned_review)

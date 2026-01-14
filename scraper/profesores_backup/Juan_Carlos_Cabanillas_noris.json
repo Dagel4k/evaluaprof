@@ -1,0 +1,92 @@
+{
+  "nombre": "Juan Carlos Cabanillas Noris",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "ciudad": "Ciudad: culiacan, sinaloa",
+  "departamento": "Departamento/Facultad: Electronica",
+  "calidad_general": 9.5,
+  "porcentaje_recomienda": 75,
+  "nivel_dificultad": 1.0,
+  "etiquetas": [
+    "INSPIRACIONAL (2)",
+    "CLASES EXCELENTES (1)",
+    "TOMARÍA SU CLASE OTRA VEZ (1)",
+    "DA BUENA RETROALIMENTACIÓN (3)",
+    "MUCHAS TAREAS (1)",
+    "BRINDA APOYO (2)",
+    "RESPETADO POR LOS ESTUDIANTES (1)"
+  ],
+  "numero_calificaciones": 4,
+  "calificaciones": [
+    {
+      "fecha": "05/Jun/2022",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Programación Estructurada",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "N/A",
+      "interes_clase": "",
+      "comentario": "Es un profesor increíble. Lleve su materia en clases en línea, sin embargo sabía muy bien impartirla. Se apoya de diapositivas pero sus clases no las siento nada aburridas. Me gusta mucho su manera de trabajar, explicar y que te ayuda siempre en lo que necesites. A veces si faltaba una que otra vez.",
+      "etiquetas_comentario": [
+        "Da buena retroalimentación",
+        "Respetado por los estudiantes",
+        "Brinda apoyo"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "17/Ene/2022",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 9.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Microcontroladores",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "Este profesor se nota que sabe de la materia, y con sus diapositivas hace un buen trabajo de enseñarte lo que debes, sin embargo, al menos en mi caso no diò ni la mitad de la materia por faltar constantemente. Las veces que si dio era bueno pero siento que faltò exageradamente.",
+      "etiquetas_comentario": [
+        "Da buena retroalimentación",
+        "Brinda apoyo"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "16/Dic/2021",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Microcontroladores",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "Excelente profesor.  Llevé la materia en línea y aún así fueron bastante interesante sus clases. A pesar de que apoya bastante de diapositivas, estas resultan de mucha ayuda al momento de hacer las prácticas, las cuales sí son bastantes. También da muy buena retroalimentación. De lo mejor.",
+      "etiquetas_comentario": [
+        "Da buena retroalimentación",
+        "Muchas tareas",
+        "Inspiracional"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "24/Oct/2020",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 9.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Analisis numerico",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "Un profesor muy noble y muy inteligente, en palabras simples es un pan de dios. su clase consistió en practicar con matlab y ver diapositivas en lo que aprendíamos el método",
+      "etiquetas_comentario": [
+        "Inspiracional",
+        "Clases excelentes",
+        "Tomaría su clase otra vez"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    }
+  ]
+}

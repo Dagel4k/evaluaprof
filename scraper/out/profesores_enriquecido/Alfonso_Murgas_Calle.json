@@ -1,31 +1,31 @@
 {
   "professor_id": "Alfonso_Murgas_Calle",
   "nombre": "Alfonso Murgas Calle",
-  "universidad": "Instituto Tecnologico de Culiacan",
+  "universidad": "Instituto Tecnológico de Culiacán",
   "decay_analysis": {
     "quality_decayed": 5.0,
-    "difficulty_decayed": null
+    "difficulty_decayed": 8.0
   },
   "bayes_analysis": {
-    "quality_bayes": 6.797811000241688,
-    "difficulty_bayes": null
+    "quality_bayes": 7.06141534034709,
+    "difficulty_bayes": 3.276503911518749
   },
   "recommendation_analysis": {
-    "rate": 0.0,
+    "rate": 0.5,
     "wilson_interval": [
-      0,
-      0.7934567085261071
+      0.0546190651458835,
+      0.9453809348541165
     ],
     "n_recommendations": 1
   },
   "subject_normalization": {
-    "z_mean": -0.16,
-    "z_mean_decayed": -0.16,
+    "z_mean": -0.71,
+    "z_mean_decayed": -0.71,
     "per_subject": [
       {
         "materia": "FUNDAMENTOS DE INVESTIGACION",
-        "z_decayed": -0.15783057533948938,
-        "n": 24
+        "z_decayed": -0.7142928321945867,
+        "n": 9
       }
     ]
   },
@@ -63,9 +63,9 @@
       "fecha_iso": "2019-01-28T00:00:00",
       "materia": "FUNDAMENTOS DE INVESTIGACION",
       "calidad": 5.0,
-      "dificultad": null,
-      "nota": 7.5,
-      "recomienda": 0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 0.5,
       "comentario": "Comenzo como un profesor estricto, puso sus reglas y entendimos que se trabajaria sobre ellas. \nFalto un dia, luego dos, luego tres y despues queria darnos clases por internet. \nJamas entendimos como iba a calificar y paso a todo el grupo con 75 despues de pelear mucho."
     }
   ],

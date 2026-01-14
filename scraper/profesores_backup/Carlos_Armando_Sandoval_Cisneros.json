@@ -1,0 +1,74 @@
+{
+  "nombre": "Carlos Armando Sandoval Cisneros",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "ciudad": "Ciudad: culiacan, sinaloa",
+  "departamento": "Departamento/Facultad: Sistemas Computacionales",
+  "calidad_general": 8.4,
+  "porcentaje_recomienda": 100,
+  "nivel_dificultad": 1.3,
+  "etiquetas": [
+    "MUY CÓMICO (2)",
+    "RESPETADO POR LOS ESTUDIANTES (1)",
+    "TOMARÍA SU CLASE OTRA VEZ (3)",
+    "BARCO (1)",
+    "CLASES EXCELENTES (1)",
+    "BRINDA APOYO (1)"
+  ],
+  "numero_calificaciones": 3,
+  "calificaciones": [
+    {
+      "fecha": "10/Jun/2025",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 8.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Matemáticas discretas",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "8.5",
+      "interes_clase": "",
+      "comentario": "cae bien, no deja muchas tareas y los exámenes no son muy complicados, volvería a tomar clase con él.",
+      "etiquetas_comentario": [
+        "Muy cómico",
+        "Brinda apoyo",
+        "Tomaría su clase otra vez"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "10/Jun/2025",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Simulacion",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "9",
+      "interes_clase": "",
+      "comentario": "muy buen profe, le sabe a todo, es chistoson, te pude que seas puntual pero no lo cuenta, lo digo por experiencia propia, y sus trabajos no estan dificiles, pide hacer equipos, y esta sencillo",
+      "etiquetas_comentario": [
+        "Barco",
+        "Clases excelentes",
+        "Tomaría su clase otra vez"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "30/Ene/2025",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 7.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Sistemas Operativos",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "NOTA: se me asignó este profe en sistemas operativos después de que se jubilara Fidel Disposorio.\nBuena onda el profe y gracioso.\nAunque deje pocas tareas, tienes que ir a sus clases para estar al corriente de los temas para estar preparado en sus examenes, ya que los hace presencial.",
+      "etiquetas_comentario": [
+        "Muy cómico",
+        "Respetado por los estudiantes",
+        "Tomaría su clase otra vez"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    }
+  ]
+}

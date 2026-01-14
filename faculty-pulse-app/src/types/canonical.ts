@@ -22,6 +22,9 @@ export interface Subject {
   code: string; // Course code
   name: string;
   groups: CourseGroup[]; // All available options for this subject
+  classification?: 'DISPONIBLE' | 'AVANCE' | 'CURSADA'; // Subject classification
+  credits?: number; // Credit hours
+  hours?: number; // Weekly hours
 }
 
 export interface ProfessorMetrics {
@@ -31,13 +34,14 @@ export interface ProfessorMetrics {
   difficulty: number;
   takeAgainPercent: number;
   tags: string[];
-  sentimentScore: number; 
+  sentimentScore: number;
   riskLevel: 'LOW' | 'MEDIUM' | 'HIGH';
+  trust: number;
 }
 
 // Result of the adaptation process
 export interface ScheduleData {
   subjects: Subject[];
   // If we are loading a "selected" schedule, it might just be a list of selected groups
-  selectedGroups?: CourseGroup[]; 
+  selectedGroups?: CourseGroup[];
 }

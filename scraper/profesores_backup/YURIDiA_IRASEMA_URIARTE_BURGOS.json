@@ -1,0 +1,55 @@
+{
+  "nombre": "YURIDiA IRASEMA URIARTE BURGOS",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "ciudad": "Ciudad: culiacan, sinaloa",
+  "departamento": "Departamento/Facultad: TEC.DE CULIACAN",
+  "calidad_general": 6.0,
+  "porcentaje_recomienda": 67,
+  "nivel_dificultad": 3.3,
+  "etiquetas": [],
+  "numero_calificaciones": 3,
+  "calificaciones": [
+    {
+      "fecha": "26/Ene/2016",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 9.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "taller de etica",
+      "asistencia": "",
+      "calificacion_recibida": "10",
+      "interes_clase": "10",
+      "comentario": "es muy buena maestra, falta frecuentemente y avisa antes de pero se preocupa por que aprendas, sus examenes son muy faciles y es muy paciente. generalmente da temarios sobre sus examenes y siempre toma en cuenta la opinion del grupo. Ademas de ser muy bonita",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "14/Ene/2016",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 7.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Etica y valores",
+      "asistencia": "",
+      "calificacion_recibida": "9.5",
+      "interes_clase": "9.5",
+      "comentario": "esta bien sabrosa",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "15/Mar/2015",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 2.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "liderazgo",
+      "asistencia": "",
+      "calificacion_recibida": "N/A",
+      "interes_clase": "N/A",
+      "comentario": "",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    }
+  ]
+}

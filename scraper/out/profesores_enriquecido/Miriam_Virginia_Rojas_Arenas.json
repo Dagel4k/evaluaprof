@@ -1,20 +1,20 @@
 {
   "professor_id": "Miriam_Virginia_Rojas_Arenas",
   "nombre": "Miriam Virginia Rojas Arenas",
-  "universidad": "Instituto Tecnologico de Culiacan",
+  "universidad": "Instituto Tecnológico de Culiacán",
   "decay_analysis": {
     "quality_decayed": 5.247630472892115,
-    "difficulty_decayed": null
+    "difficulty_decayed": 0.8155593727376412
   },
   "bayes_analysis": {
-    "quality_bayes": 6.555422928761326,
-    "difficulty_bayes": null
+    "quality_bayes": 6.762540624558428,
+    "difficulty_bayes": 2.431538787621874
   },
   "recommendation_analysis": {
-    "rate": 0.5,
+    "rate": 0.25,
     "wilson_interval": [
-      0.15003570882017145,
-      0.8499642911798285
+      0.045586062644636216,
+      0.6993639475573634
     ],
     "n_recommendations": 4
   },
@@ -24,7 +24,7 @@
     "per_subject": [
       {
         "materia": "RELACIONES INDUSTRIALES",
-        "z_decayed": -0.7405489950538928,
+        "z_decayed": -0.7405489950538927,
         "n": 3
       }
     ]
@@ -43,24 +43,24 @@
       {
         "id": 0,
         "words": [
-          "leyendo diapositivas",
           "leyendo",
-          "diapositivas",
+          "leyendo diapositivas",
           "deja",
+          "diapositivas",
           "clases"
         ],
-        "weight": 0.3041486734107652
+        "weight": 0.30414867341076507
       },
       {
         "id": 1,
         "words": [
-          "leyendo diapositivas",
           "leyendo",
+          "leyendo diapositivas",
           "falta",
           "peor",
           "clase"
         ],
-        "weight": 0.34727420473731957
+        "weight": 0.3472742047373194
       }
     ],
     "sentiment": {
@@ -96,7 +96,21 @@
       ],
       "sigma": 1.558198532494068
     },
-    "difficulty_trend": null,
+    "difficulty_trend": {
+      "series": [
+        4.0,
+        0.0,
+        2.0,
+        0.0
+      ],
+      "ewma": [
+        4.0,
+        2.8,
+        2.5599999999999996,
+        1.7919999999999996
+      ],
+      "sigma": 1.255532821819751
+    },
     "forecast": {
       "quality_next": 5.8119999999999985,
       "quality_band": [
@@ -112,17 +126,17 @@
       "fecha_iso": "2018-06-06T00:00:00",
       "materia": "RELACIONES INDUSTRIALES",
       "calidad": 5.0,
-      "dificultad": null,
-      "nota": 9.0,
-      "recomienda": 0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 0.5,
       "comentario": "Las clases son ella leyendo diapositivas o en el peor de los casos su celular durante toda la hora. Falta hasta una semana entera pero cuando va deja demasiada tarea. Los examenes los saca de las diapositivas pero son como 50 y a final de semestre deja muchos trabajos que solo te quitan tiempo."
     },
     {
       "fecha_iso": "2015-01-09T00:00:00",
       "materia": "RELACIONES INDUSTRIALES",
       "calidad": 7.0,
-      "dificultad": null,
-      "nota": 9.0,
+      "dificultad": 2.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "Falta con regularidad, sus clases consisten en ella leyendo diapositivas y luego \"explicándolas\", así tema tras tema y al final del tema deja un trabajo practico, sus clases muy aburridas, calificaciones bajas y ves todo de manera superficial y rápida."
     },
@@ -130,8 +144,8 @@
       "fecha_iso": "2014-12-14T00:00:00",
       "materia": "LOGÍSTICA Y CADENA DE SUMINISTROS",
       "calidad": 3.0,
-      "dificultad": null,
-      "nota": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
       "recomienda": 0,
       "comentario": "No domina los temas de la asignatura, es algo exigente, la clase es súper aburrida y casi no falta, igual creo que es la opción menos peor."
     },
@@ -139,8 +153,8 @@
       "fecha_iso": "2014-01-17T00:00:00",
       "materia": "ADMINISTRACIÓN GERENCIAL",
       "calidad": 7.0,
-      "dificultad": null,
-      "nota": 8.5,
+      "dificultad": 4.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "Muy tediosa su clase por la materia que imparte"
     }

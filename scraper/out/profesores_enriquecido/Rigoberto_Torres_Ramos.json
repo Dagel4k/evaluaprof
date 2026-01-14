@@ -1,4 +1,192 @@
 {
   "professor_id": "Rigoberto_Torres_Ramos",
-  "error": "No hay reseñas disponibles"
+  "nombre": "Rigoberto Torres Ramos",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 6.03962310441468,
+    "difficulty_decayed": 2.599827777826599
+  },
+  "bayes_analysis": {
+    "quality_bayes": 6.645037916254533,
+    "difficulty_bayes": 2.6694362017804156
+  },
+  "recommendation_analysis": {
+    "rate": 0.69,
+    "wilson_interval": [
+      0.2916099621112714,
+      0.923283269882938
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": -0.98,
+    "z_mean_decayed": -0.9,
+    "per_subject": [
+      {
+        "materia": "CÁLCULO INTEGRAL",
+        "z_decayed": -0.7160940564439974,
+        "n": 10
+      },
+      {
+        "materia": "CALCULO INTEGRAL",
+        "z_decayed": -0.9631946648010453,
+        "n": 22
+      },
+      {
+        "materia": "ESTÁTICA",
+        "z_decayed": -1.2649110640673518,
+        "n": 5
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "nunca",
+          "mas",
+          "saca",
+          "clase",
+          "cosas"
+        ],
+        "weight": 0.2959594948008378
+      },
+      {
+        "id": 1,
+        "words": [
+          "falta",
+          "nunca",
+          "mas",
+          "saca",
+          "es"
+        ],
+        "weight": 0.3903689179669727
+      }
+    ],
+    "sentiment": {
+      "overall": 0.0,
+      "by_month": {
+        "2020-10": 0.0,
+        "2018-04": 0.0,
+        "2018-03": 0.0,
+        "2016-03": 0.0
+      }
+    },
+    "n_comments": 4
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        2.0,
+        7.0,
+        6.0,
+        5.0,
+        7.0
+      ],
+      "ewma": [
+        2.0,
+        3.5,
+        4.25,
+        4.475,
+        5.2325
+      ],
+      "sigma": 1.3540974854123318
+    },
+    "difficulty_trend": {
+      "series": [
+        0.0,
+        0.0,
+        4.0,
+        6.0,
+        2.0
+      ],
+      "ewma": [
+        0.0,
+        0.0,
+        1.2,
+        2.6399999999999997,
+        2.4479999999999995
+      ],
+      "sigma": 1.7891978090753407
+    },
+    "forecast": {
+      "quality_next": 5.2325,
+      "quality_band": [
+        2.5784689285918296,
+        7.88653107140817
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2020-10-15T00:00:00",
+      "materia": "CÁLCULO INTEGRAL",
+      "calidad": 7.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Se siente morro todavía, habla más de cosas personales en la clase que de la materia pero saca buenos temas, da mucho paro."
+    },
+    {
+      "fecha_iso": "2018-04-11T00:00:00",
+      "materia": "CALCULO INTEGRAL",
+      "calidad": 5.0,
+      "dificultad": 6.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": "Quiere resolver todo con V a la n, falta un chingo, se le va el avión hablando de otras cosas en lugar de la clase, y nunca trae borrador para pizarrón."
+    },
+    {
+      "fecha_iso": "2018-03-13T00:00:00",
+      "materia": "ESTÁTICA",
+      "calidad": 6.0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": "Rigo es un profesor que falta mucho a dar clases. Lo primero que dice es \"70 y nos vamos\". Si no tomas el 70, nunca faltes, échale ganas y trata de pasar sus exámenes, porque sus clases son confusas. No sabe comunicar sus conocimientos al alumno pero te vas a llevar bien con él. Es muy carrilludo."
+    },
+    {
+      "fecha_iso": "2017-08-09T00:00:00",
+      "materia": "INTEGRAL",
+      "calidad": 7.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2016-03-18T00:00:00",
+      "materia": "POLITICA",
+      "calidad": 2.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "ESTE PROFE ES MUY ROLLERO, NO AYUDA EN NADA, SACA MAS DE APURO UN PICADIENTES"
+    }
+  ],
+  "comments_recent": [
+    "Se siente morro todavía, habla más de cosas personales en la clase que de la materia pero saca buenos temas, da mucho paro.",
+    "Quiere resolver todo con V a la n, falta un chingo, se le va el avión hablando de otras cosas en lugar de la clase, y nunca trae borrador para pizarrón.",
+    "Rigo es un profesor que falta mucho a dar clases. Lo primero que dice es \"70 y nos vamos\". Si no tomas el 70, nunca faltes, échale ganas y trata de pasar sus exámenes, porque sus clases son confusas. No sabe comunicar sus conocimientos al alumno pero te vas a llevar bien con él. Es muy carrilludo.",
+    "ESTE PROFE ES MUY ROLLERO, NO AYUDA EN NADA, SACA MAS DE APURO UN PICADIENTES"
+  ],
+  "n_reviews": 5
 }

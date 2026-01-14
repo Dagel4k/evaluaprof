@@ -1,0 +1,55 @@
+{
+  "nombre": "Francisco Núñez López",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "ciudad": "Ciudad: culiacan, sinaloa",
+  "departamento": "Departamento/Facultad: Industrial",
+  "calidad_general": 4.5,
+  "porcentaje_recomienda": 50,
+  "nivel_dificultad": 3.0,
+  "etiquetas": [
+    "CALIFICA DURO (1)",
+    "ASISTENCIA OBLIGATORIA (2)",
+    "POCOS EXÁMENES (1)",
+    "INSPIRACIONAL (1)",
+    "LAS CLASES SON LARGAS (1)"
+  ],
+  "numero_calificaciones": 2,
+  "calificaciones": [
+    {
+      "fecha": "08/Dic/2022",
+      "tipo_calificacion": "REGULAR",
+      "puntaje_calidad_general": 6.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Taller de Liderazgo",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "8",
+      "interes_clase": "",
+      "comentario": "Sabe de lo que habla, explica bien, la asistencia es muy importante, solo debes entregar un proyecto por parcial no es 100% barco porque pasas fácil y aprendes que es lo importante, de que sirve una materia difícil si no aprendes nada",
+      "etiquetas_comentario": [
+        "Asistencia obligatoria",
+        "Inspiracional",
+        "Las clases son largas"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "23/Nov/2022",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 3.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Taller de Liderazgo",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "9.5",
+      "interes_clase": "",
+      "comentario": "Tira mucho rollo y le gusta hacerla de pedo, nunca falta a veces no se le entiende a los trabajos que deja.",
+      "etiquetas_comentario": [
+        "Califica Duro",
+        "Asistencia obligatoria",
+        "Pocos Exámenes"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    }
+  ]
+}

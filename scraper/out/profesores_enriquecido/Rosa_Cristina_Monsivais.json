@@ -1,51 +1,36 @@
 {
   "professor_id": "Rosa_Cristina_Monsivais",
   "nombre": "Rosa Cristina Monsivais",
-  "universidad": "Instituto Tecnologico de Culiacan",
+  "universidad": "Instituto Tecnológico de Culiacán",
   "decay_analysis": {
-    "quality_decayed": 4.716125526508434,
-    "difficulty_decayed": null
+    "quality_decayed": 3.854534130509959,
+    "difficulty_decayed": 5.712043417765283
   },
   "bayes_analysis": {
-    "quality_bayes": 6.598953087072111,
-    "difficulty_bayes": null
+    "quality_bayes": 6.0450379162545325,
+    "difficulty_bayes": 3.869436201780416
   },
   "recommendation_analysis": {
-    "rate": 0.538,
+    "rate": 0.54,
     "wilson_interval": [
-      0.29143432431832045,
-      0.7679424569851186
+      0.19363745331329416,
+      0.8516032271065394
     ],
-    "n_recommendations": 13
+    "n_recommendations": 5
   },
   "subject_normalization": {
-    "z_mean": 0.24,
-    "z_mean_decayed": -0.28,
+    "z_mean": -0.83,
+    "z_mean_decayed": -0.64,
     "per_subject": [
       {
-        "materia": "METROLOGIA Y NORMALIZACION",
-        "z_decayed": 1.2309998767333052,
-        "n": 15
-      },
-      {
-        "materia": "METROLOGÍA Y NORMALIZACIÓN",
-        "z_decayed": 0.5697376952245895,
-        "n": 12
-      },
-      {
-        "materia": "---",
-        "z_decayed": 0.5364655114681278,
-        "n": 521
-      },
-      {
         "materia": "METROLOGIA",
-        "z_decayed": -0.20438109892356202,
-        "n": 20
+        "z_decayed": -0.2660969657694014,
+        "n": 10
       },
       {
         "materia": "ESTUDIO DEL TRABAJO 2",
-        "z_decayed": -1.0568075042607028,
-        "n": 6
+        "z_decayed": -1.7320508075688774,
+        "n": 5
       }
     ]
   },
@@ -59,96 +44,28 @@
     "n_grades": 0
   },
   "nlp_analysis": {
-    "topics": [
-      {
-        "id": 0,
-        "words": [
-          "te",
-          "es",
-          "si",
-          "examenes",
-          "clases"
-        ],
-        "weight": 0.13071031837158217
-      },
-      {
-        "id": 1,
-        "words": [
-          "esperando revision",
-          "comentario",
-          "comentario esperando",
-          "esperando",
-          "revision"
-        ],
-        "weight": 0.10894896498931253
-      },
-      {
-        "id": 2,
-        "words": [
-          "80",
-          "te hara",
-          "hara",
-          "final",
-          "vas"
-        ],
-        "weight": 0.13207254651093456
-      },
-      {
-        "id": 3,
-        "words": [
-          "80",
-          "profesora",
-          "calificar",
-          "materia",
-          "hace"
-        ],
-        "weight": 0.11410661989755533
-      },
-      {
-        "id": 4,
-        "words": [
-          "practicas",
-          "es",
-          "explica",
-          "maestra",
-          "va"
-        ],
-        "weight": 0.14947213913208712
-      }
-    ],
+    "topics": [],
     "sentiment": {
-      "overall": 0.07692307692307693,
+      "overall": -0.2,
       "by_month": {
         "2019-08": 0.0,
         "2019-01": -1.0,
         "2018-06": 0.0,
         "2017-08": 0.0,
-        "2017-07": 0.0,
-        "2016-01": 0.0,
-        "2014-01": 1.0,
-        "2013-01": 0.0,
-        "2012-12": 0.0,
-        "2012-02": 0.0,
-        "2012-01": 1.0
+        "2017-07": 0.0
       }
     },
-    "n_comments": 13
+    "n_comments": 5
   },
   "integrity_analysis": {
-    "dup_rate": 0.013,
+    "dup_rate": 0.0,
     "bursts": [],
     "low_variance_flag": 0,
-    "trust_score": 0.99
+    "trust_score": 1.0
   },
   "trends_analysis": {
     "quality_trend": {
       "series": [
-        10.0,
-        10.0,
-        10.0,
-        7.0,
-        8.0,
-        6.0,
         5.0,
         2.0,
         2.0,
@@ -156,26 +73,36 @@
         7.0
       ],
       "ewma": [
-        10.0,
-        10.0,
-        10.0,
-        9.1,
-        8.77,
-        7.938999999999999,
-        7.057299999999999,
-        5.5401099999999985,
-        4.478076999999999,
-        3.734653899999999,
-        4.71425773
+        5.0,
+        4.1,
+        3.4699999999999998,
+        3.029,
+        4.2203
       ],
-      "sigma": 1.6147309790234483
+      "sigma": 1.9166704588947991
     },
-    "difficulty_trend": null,
+    "difficulty_trend": {
+      "series": [
+        6.0,
+        6.0,
+        8.0,
+        8.0,
+        2.0
+      ],
+      "ewma": [
+        6.0,
+        5.999999999999999,
+        6.6,
+        7.02,
+        5.513999999999999
+      ],
+      "sigma": 1.9372277098988646
+    },
     "forecast": {
-      "quality_next": 4.71425773,
+      "quality_next": 4.2203,
       "quality_band": [
-        1.5493850111140413,
-        7.879130448885959
+        0.46362590056619357,
+        7.976974099433806
       ],
       "confidence": 0.95
     },
@@ -186,8 +113,8 @@
       "fecha_iso": "2019-08-04T00:00:00",
       "materia": "METROLOGIA",
       "calidad": 7.0,
-      "dificultad": null,
-      "nota": 10.0,
+      "dificultad": 2.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "Casi no va, pero explica muy bien cuando va, solo haz todas las prácticas"
     },
@@ -195,8 +122,8 @@
       "fecha_iso": "2019-01-15T00:00:00",
       "materia": "ESTUDIO DE TRABAJO 2",
       "calidad": 2.0,
-      "dificultad": null,
-      "nota": 7.0,
+      "dificultad": 8.0,
+      "nota": null,
       "recomienda": 0,
       "comentario": "Hace demasiada difícil la materia."
     },
@@ -204,8 +131,8 @@
       "fecha_iso": "2018-06-11T00:00:00",
       "materia": "ESTUDIO DEL TRABAJO LL",
       "calidad": 2.0,
-      "dificultad": null,
-      "nota": 22.0,
+      "dificultad": 8.0,
+      "nota": null,
       "recomienda": 0,
       "comentario": "Al final vas a reprobar"
     },
@@ -213,7 +140,7 @@
       "fecha_iso": "2017-08-07T00:00:00",
       "materia": "ESTUDIO DEL TRABAJO 2",
       "calidad": 2.0,
-      "dificultad": null,
+      "dificultad": 6.0,
       "nota": null,
       "recomienda": 0,
       "comentario": "Esta profesora se la vive proyectandose en clase, no tiene seriedad al momento de calificar, hace que le ruegues por un mísero 70. El semestre pasado tuvo al 80% del grupo reprobado, no permite que le juzgues sus conocimientos y gusta de humillar a sus alumnos."
@@ -222,82 +149,10 @@
       "fecha_iso": "2017-07-14T00:00:00",
       "materia": "METROLOGIA",
       "calidad": 5.0,
-      "dificultad": null,
-      "nota": 8.0,
-      "recomienda": 0,
-      "comentario": "Mil copias y copias y copias ...si quieres aprender mejor buscate otro maestro no la recomiendo"
-    },
-    {
-      "fecha_iso": "2016-01-25T00:00:00",
-      "materia": "ESTUDIO DEL TRABAJO 1 Y 2",
-      "calidad": 2.0,
-      "dificultad": null,
+      "dificultad": 6.0,
       "nota": null,
-      "recomienda": 0,
-      "comentario": "MUY MALA MAESTRA"
-    },
-    {
-      "fecha_iso": "2016-01-17T00:00:00",
-      "materia": "ESTUDIO DEL TRABAJO 2",
-      "calidad": 10.0,
-      "dificultad": null,
-      "nota": 9.0,
-      "recomienda": 1,
-      "comentario": "Sus clases son dinámicas, claras y rápidas. Sin embargos sus exámenes son realmente complicados, es fácil no pasar si los repruebas."
-    },
-    {
-      "fecha_iso": "2014-01-11T00:00:00",
-      "materia": "METROLOGÍA Y NORMALIZACIÓN",
-      "calidad": 8.0,
-      "dificultad": null,
-      "nota": 7.0,
-      "recomienda": 1,
-      "comentario": "Sus clases son sencillas y objetivas, no le gusta ver los temas tediosos y aburridos, sus clases son agradables gracias a la forma en la que habla. Te hará aprenderte mil hojas para algunos exámenes y haces muchas practicas en el laboratorio. Es la mejor en Metro, aunque no sea excelente."
-    },
-    {
-      "fecha_iso": "2013-01-16T00:00:00",
-      "materia": "---",
-      "calidad": 8.0,
-      "dificultad": null,
-      "nota": 8.5,
-      "recomienda": 1,
-      "comentario": "[Comentario esperando revisión]"
-    },
-    {
-      "fecha_iso": "2013-01-09T00:00:00",
-      "materia": "---",
-      "calidad": 6.0,
-      "dificultad": null,
-      "nota": 4.0,
-      "recomienda": 0,
-      "comentario": "[Comentario esperando revisión]"
-    },
-    {
-      "fecha_iso": "2012-12-18T00:00:00",
-      "materia": "METROLOGÍA Y NORMALIZACIÓN",
-      "calidad": 10.0,
-      "dificultad": null,
-      "nota": 10.0,
-      "recomienda": 1,
-      "comentario": "EXCELENTE MAESTRA, LA MEJOR EN ESA MATERIA CARGUEN CON ELLA, TE VA A PONER A TRABAJAR DURANTE TODO EL SEMESTRE, PERO AL FINAL ES JUSTA AL CALIFICAR Y TE VA A SABER TU CALIFICACIÓN ES MUY BUENA ONDA. QUEDÉ MUY SATISFECHO CON ELLA. LO UNICO MALO ES QUE FALTA MUCHO POR SU PUESTO ADMON."
-    },
-    {
-      "fecha_iso": "2012-02-22T00:00:00",
-      "materia": "METROLOGIA",
-      "calidad": 10.0,
-      "dificultad": null,
-      "nota": 8.5,
-      "recomienda": 1,
-      "comentario": "Te hara sufrir pero lo vas a disfrutar, a final de semestre ese 80 tendra buen sabor."
-    },
-    {
-      "fecha_iso": "2012-01-06T00:00:00",
-      "materia": "METROLOGIA Y NORMALIZACION",
-      "calidad": 10.0,
-      "dificultad": null,
-      "nota": 10.0,
-      "recomienda": 1,
-      "comentario": "Excelente profesora, te exige mucho, sus clases son entretenidas y te explica con detalle. Tienes que esforzarte para examenes y trabajos, pero aprenderas mucho con ella.\n\nTotalmente recomendada"
+      "recomienda": 0.5,
+      "comentario": "Mil copias y copias y copias ...si quieres aprender mejor buscate otro maestro no la recomiendo"
     }
   ],
   "comments_recent": [
@@ -305,12 +160,7 @@
     "Hace demasiada difícil la materia.",
     "Al final vas a reprobar",
     "Esta profesora se la vive proyectandose en clase, no tiene seriedad al momento de calificar, hace que le ruegues por un mísero 70. El semestre pasado tuvo al 80% del grupo reprobado, no permite que le juzgues sus conocimientos y gusta de humillar a sus alumnos.",
-    "Mil copias y copias y copias ...si quieres aprender mejor buscate otro maestro no la recomiendo",
-    "MUY MALA MAESTRA",
-    "Sus clases son dinámicas, claras y rápidas. Sin embargos sus exámenes son realmente complicados, es fácil no pasar si los repruebas.",
-    "Sus clases son sencillas y objetivas, no le gusta ver los temas tediosos y aburridos, sus clases son agradables gracias a la forma en la que habla. Te hará aprenderte mil hojas para algunos exámenes y haces muchas practicas en el laboratorio. Es la mejor en Metro, aunque no sea excelente.",
-    "[Comentario esperando revisión]",
-    "[Comentario esperando revisión]"
+    "Mil copias y copias y copias ...si quieres aprender mejor buscate otro maestro no la recomiendo"
   ],
-  "n_reviews": 13
+  "n_reviews": 5
 }

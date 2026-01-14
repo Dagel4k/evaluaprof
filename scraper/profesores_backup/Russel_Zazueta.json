@@ -1,0 +1,85 @@
+{
+  "nombre": "Russel Zazueta",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "ciudad": "Ciudad: culiacan, sinaloa",
+  "departamento": "Departamento/Facultad: Medina",
+  "calidad_general": 5.3,
+  "porcentaje_recomienda": 50,
+  "nivel_dificultad": 0.0,
+  "etiquetas": [
+    "BARCO (4)",
+    "PREPÁRATE PARA LEER (1)",
+    "MUCHOS EXÁMENES (1)",
+    "TOMARÍA SU CLASE OTRA VEZ (1)"
+  ],
+  "numero_calificaciones": 4,
+  "calificaciones": [
+    {
+      "fecha": "13/Ene/2020",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 2.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Fundamentos de telecomunicaciones",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "N/A",
+      "interes_clase": "",
+      "comentario": "Falta mucho, ni reprobando el global repruebas la materia con él.",
+      "etiquetas_comentario": [
+        "Barco"
+      ],
+      "votos_utiles": "1",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "05/Jun/2018",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 9.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Redes",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "9",
+      "interes_clase": "",
+      "comentario": "Sabe mucho y si le preguntas te explica. Pero es nuevo y no tiene mucha experiencia como maestro.",
+      "etiquetas_comentario": [
+        "Barco",
+        "Tomaría su clase otra vez"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "16/Ene/2018",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 8.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Redes de computadoras",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "9",
+      "interes_clase": "",
+      "comentario": "es una materia barco, sino quieres batallar carga con el pero no aparenderas nada",
+      "etiquetas_comentario": [
+        "Barco"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "22/Nov/2017",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 2.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Redes de computadoras",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "9.5",
+      "interes_clase": "",
+      "comentario": "Si lo ven corran, no comentan ese error y si te lo ponen dala de baja...., perdida de tiempo total...",
+      "etiquetas_comentario": [
+        "Barco",
+        "Prepárate para leer",
+        "Muchos Exámenes"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    }
+  ]
+}

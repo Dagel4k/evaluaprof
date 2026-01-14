@@ -1,41 +1,41 @@
 {
   "professor_id": "Carolina_Arce_Caro",
   "nombre": "Carolina Arce Caro",
-  "universidad": "Instituto Tecnologico de Culiacan",
+  "universidad": "Instituto Tecnológico de Culiacán",
   "decay_analysis": {
-    "quality_decayed": 6.771114341378806,
-    "difficulty_decayed": null
+    "quality_decayed": 6.771114341378808,
+    "difficulty_decayed": 0.8330797900961927
   },
   "bayes_analysis": {
-    "quality_bayes": 7.051728066843904,
-    "difficulty_bayes": null
+    "quality_bayes": 7.245037916254533,
+    "difficulty_bayes": 2.0027695351137487
   },
   "recommendation_analysis": {
-    "rate": 0.6,
+    "rate": 0.2,
     "wilson_interval": [
-      0.23071993220883702,
-      0.8823817688407467
+      0.036223160969787456,
+      0.6244717358814612
     ],
     "n_recommendations": 5
   },
   "subject_normalization": {
-    "z_mean": 0.43,
-    "z_mean_decayed": 0.15,
+    "z_mean": 0.47,
+    "z_mean_decayed": 0.18,
     "per_subject": [
       {
         "materia": "DESARROLLO SUSTENTABLE",
-        "z_decayed": 1.0915110334382296,
-        "n": 52
+        "z_decayed": 1.1631644451014658,
+        "n": 27
       },
       {
         "materia": "TERMODINAMICA",
-        "z_decayed": 0.2543029610719578,
-        "n": 18
+        "z_decayed": 0.17777635181151674,
+        "n": 6
       },
       {
         "materia": "TERMODINÁMICA",
-        "z_decayed": -0.41823073000629046,
-        "n": 14
+        "z_decayed": -0.18274831480723838,
+        "n": 8
       }
     ]
   },
@@ -53,13 +53,13 @@
       {
         "id": 0,
         "words": [
-          "clases",
+          "trabajos",
           "carga",
           "esfuerzo",
           "quieres",
           "si quieres"
         ],
-        "weight": 0.32580083800420395
+        "weight": 0.3258008380042036
       },
       {
         "id": 1,
@@ -70,7 +70,7 @@
           "es buena",
           "buena"
         ],
-        "weight": 0.29935715100964
+        "weight": 0.29935715100963994
       }
     ],
     "sentiment": {
@@ -106,7 +106,21 @@
       ],
       "sigma": 1.3211700306924914
     },
-    "difficulty_trend": null,
+    "difficulty_trend": {
+      "series": [
+        0.0,
+        0.0,
+        0.0,
+        2.0
+      ],
+      "ewma": [
+        0.0,
+        0.0,
+        0.0,
+        0.6
+      ],
+      "sigma": 0.6999999999999998
+    },
     "forecast": {
       "quality_next": 7.609,
       "quality_band": [
@@ -122,8 +136,8 @@
       "fecha_iso": "2017-07-14T00:00:00",
       "materia": "TERMODINAMICA",
       "calidad": 7.0,
-      "dificultad": null,
-      "nota": 10.0,
+      "dificultad": 2.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "Si quieres pasar sin esfuerzo y sin saber nada carga con ella . simplemente no sabe."
     },
@@ -131,17 +145,17 @@
       "fecha_iso": "2016-01-14T00:00:00",
       "materia": "TERMODINÁMICA",
       "calidad": 5.0,
-      "dificultad": null,
-      "nota": 9.5,
-      "recomienda": 0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 0.5,
       "comentario": "Materias importantes como esta pasan a ser de \"relleno\" con esta profesora. Asiste a muy pocas clases, califica con exámenes de opción multiple, trabajos y tareas. Lo enseña prácticamente nada, si lo que quieres es un 100 sin esfuerzo es la opción."
     },
     {
       "fecha_iso": "2014-01-13T00:00:00",
       "materia": "TERMODINAMICA",
       "calidad": 10.0,
-      "dificultad": null,
-      "nota": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "Los alumnos tendemos a bautizar algunos cursos como \"materias de relleno\" por culpa de profesores como ella.\nasiste muy poco, las clases son burdas, los trabajos son de preescolar, los temas son mal desarrollados. carga con ella si quieres sacar 10 sin el mas mínimo esfuerzo y no aprender casi nada"
     },
@@ -149,17 +163,17 @@
       "fecha_iso": "2014-01-11T00:00:00",
       "materia": "TERMODINAMICA/TALLER DE INV.",
       "calidad": 4.0,
-      "dificultad": null,
-      "nota": 10.0,
-      "recomienda": 0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 0.5,
       "comentario": "Es buena persona, pero no sabe mucho de las materias, y si lo sabe no se esfuerza, conclusion si quieren aprender no la recomiendo para nada, sobre todo en Termodinamica por les va a ir mal despues!"
     },
     {
       "fecha_iso": "2013-01-26T00:00:00",
       "materia": "DESARROLLO SUSTENTABLE",
       "calidad": 10.0,
-      "dificultad": null,
-      "nota": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "Sencillo, no da materias complicadas, es muy buena onda si eres bueno o tienes disciplina en clase, inculca mucho las visitas a otros lugares. Muy buena profesora"
     }

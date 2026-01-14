@@ -1,14 +1,14 @@
 {
   "professor_id": "Yeratzy_Espinoza",
   "nombre": "Yeratzy Espinoza",
-  "universidad": "Instituto Tecnologico de Culiacan",
+  "universidad": "Instituto Tecnológico de Culiacán",
   "decay_analysis": {
     "quality_decayed": 9.865550522257996,
-    "difficulty_decayed": null
+    "difficulty_decayed": 1.60723889745685
   },
   "bayes_analysis": {
-    "quality_bayes": 7.918394733510571,
-    "difficulty_bayes": null
+    "quality_bayes": 8.111704582921199,
+    "difficulty_bayes": 2.5361028684470823
   },
   "recommendation_analysis": {
     "rate": 1.0,
@@ -19,23 +19,23 @@
     "n_recommendations": 5
   },
   "subject_normalization": {
-    "z_mean": 1.07,
-    "z_mean_decayed": 1.06,
+    "z_mean": 0.79,
+    "z_mean_decayed": 0.82,
     "per_subject": [
       {
         "materia": "PROGRAMACIÓN",
-        "z_decayed": 1.2550931910806038,
-        "n": 10
-      },
-      {
-        "materia": "FUNDAMENTOS DE BASE DE DATOS",
-        "z_decayed": 1.0718728374323334,
-        "n": 16
+        "z_decayed": 1.0521324552523126,
+        "n": 7
       },
       {
         "materia": "PROGRAMACIÓN AVANZADA",
-        "z_decayed": 0.8856148855400954,
-        "n": 6
+        "z_decayed": 0.7302967433402215,
+        "n": 5
+      },
+      {
+        "materia": "FUNDAMENTOS DE BASE DE DATOS",
+        "z_decayed": 0.6810009584979658,
+        "n": 9
       }
     ]
   },
@@ -59,18 +59,18 @@
           "es",
           "da"
         ],
-        "weight": 0.3712662479620741
+        "weight": 0.37126624796207375
       },
       {
         "id": 1,
         "words": [
-          "duda",
-          "cualquier duda",
           "cualquier",
+          "cualquier duda",
+          "duda",
           "es",
           "profe"
         ],
-        "weight": 0.32845070746842076
+        "weight": 0.3284507074684216
       }
     ],
     "sentiment": {
@@ -106,7 +106,21 @@
       ],
       "sigma": 0.20942316610155634
     },
-    "difficulty_trend": null,
+    "difficulty_trend": {
+      "series": [
+        4.0,
+        2.0,
+        2.0,
+        0.0
+      ],
+      "ewma": [
+        4.0,
+        3.4,
+        2.98,
+        2.086
+      ],
+      "sigma": 0.8728319807767511
+    },
     "forecast": {
       "quality_next": 9.926499999999999,
       "quality_band": [
@@ -122,8 +136,8 @@
       "fecha_iso": "2025-01-06T00:00:00",
       "materia": "PROGRAMACIÓN AVANZADA",
       "calidad": 10.0,
-      "dificultad": null,
-      "nota": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "Te ayuda demasiado en todos los aspectos de la materia y tiene muchísima paciencia para explicar cualquier duda a detalle."
     },
@@ -131,8 +145,8 @@
       "fecha_iso": "2024-06-11T00:00:00",
       "materia": "PROGRAMACIÓN",
       "calidad": 10.0,
-      "dificultad": null,
-      "nota": 9.5,
+      "dificultad": 2.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "Excelente profe, su prioridad es ayudarte, es una excelente persona, es super empática, exámenes fáciles, solo que tienes que preguntar cualquier duda  y querer aprender, tampoco la quieras pelada y en la mano"
     },
@@ -140,8 +154,8 @@
       "fecha_iso": "2022-06-11T00:00:00",
       "materia": "FUNDAMENTOS DE BASE DE DATOS",
       "calidad": 10.0,
-      "dificultad": null,
-      "nota": 9.0,
+      "dificultad": 0.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "La mejor profe del tec, esta en onda con la chaviza y dice \"UWU\","
     },
@@ -149,8 +163,8 @@
       "fecha_iso": "2022-06-08T00:00:00",
       "materia": "FUNDAMENTOS DE BASE DE DATOS",
       "calidad": 9.0,
-      "dificultad": null,
-      "nota": 9.5,
+      "dificultad": 4.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "Es muy buena profe, personalmente me ayudó mucho, siempre estaba dispuesta a atender las dudas y a pesar de que las clases pueden ser algo tediosas por la cantidad de información que da al final todo lo hace entendible gracias a las tareas y ejercicios que deja"
     },
@@ -158,8 +172,8 @@
       "fecha_iso": "2022-05-23T00:00:00",
       "materia": "FUND. DE BASE DE DATOS",
       "calidad": 10.0,
-      "dificultad": null,
-      "nota": 9.0,
+      "dificultad": 4.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "Da buenas clases, lo malo es que muchas veces se hace tediosa la clase porque explica demasiado. Te ayuda para pasar y da buena retroalimentación. Recomendada"
     }

@@ -1,14 +1,14 @@
 {
   "professor_id": "Rodrigo_Rojas",
   "nombre": "Rodrigo Rojas",
-  "universidad": "Instituto Tecnologico de Culiacan",
+  "universidad": "Instituto Tecnológico de Culiacán",
   "decay_analysis": {
     "quality_decayed": 9.79835163761272,
-    "difficulty_decayed": null
+    "difficulty_decayed": 2.084892396761564
   },
   "bayes_analysis": {
-    "quality_bayes": 7.555422928761326,
-    "difficulty_bayes": null
+    "quality_bayes": 7.762540624558428,
+    "difficulty_bayes": 2.574395930479017
   },
   "recommendation_analysis": {
     "rate": 1.0,
@@ -62,7 +62,21 @@
       ],
       "sigma": 0.9550404877979435
     },
-    "difficulty_trend": null,
+    "difficulty_trend": {
+      "series": [
+        0.0,
+        2.0,
+        4.0,
+        2.0
+      ],
+      "ewma": [
+        0.0,
+        0.6,
+        1.6199999999999999,
+        1.734
+      ],
+      "sigma": 1.0958447274439325
+    },
     "forecast": {
       "quality_next": 9.286,
       "quality_band": [
@@ -78,8 +92,8 @@
       "fecha_iso": "2022-11-06T00:00:00",
       "materia": "INGENIERIA DE ALIMENTOS",
       "calidad": 10.0,
-      "dificultad": null,
-      "nota": 8.0,
+      "dificultad": 2.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": ""
     },
@@ -87,8 +101,8 @@
       "fecha_iso": "2015-01-13T00:00:00",
       "materia": "FENÓMENOS DE TRANSPORTE I Y II",
       "calidad": 8.0,
-      "dificultad": null,
-      "nota": 8.5,
+      "dificultad": 4.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "Es buen profesor"
     },
@@ -96,8 +110,8 @@
       "fecha_iso": "2014-01-22T00:00:00",
       "materia": "INGENIERÍA DE ALIMENTOS",
       "calidad": 8.0,
-      "dificultad": null,
-      "nota": 9.5,
+      "dificultad": 2.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": ""
     },
@@ -105,8 +119,8 @@
       "fecha_iso": "2011-05-06T00:00:00",
       "materia": "INGENIERIA QUIMICA",
       "calidad": 10.0,
-      "dificultad": null,
-      "nota": 8.0,
+      "dificultad": 0.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "buen maestro"
     }

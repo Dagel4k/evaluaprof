@@ -1,41 +1,31 @@
 {
   "professor_id": "Rigoberto_Arellano",
   "nombre": "Rigoberto Arellano",
-  "universidad": "Instituto Tecnologico de Culiacan",
+  "universidad": "Instituto Tecnológico de Culiacán",
   "decay_analysis": {
-    "quality_decayed": 8.428039315544925,
-    "difficulty_decayed": null
+    "quality_decayed": 9.397567677744458,
+    "difficulty_decayed": 3.1979151523523917
   },
   "bayes_analysis": {
-    "quality_bayes": 7.575054176626973,
-    "difficulty_bayes": null
+    "quality_bayes": 7.978371249587866,
+    "difficulty_bayes": 2.9361028684470822
   },
   "recommendation_analysis": {
-    "rate": 0.857,
+    "rate": 1.0,
     "wilson_interval": [
-      0.4868654966809702,
-      0.9743210440510253
+      0.565508505247919,
+      1
     ],
-    "n_recommendations": 7
+    "n_recommendations": 5
   },
   "subject_normalization": {
-    "z_mean": 0.42,
-    "z_mean_decayed": 0.42,
+    "z_mean": 1.16,
+    "z_mean_decayed": 1.16,
     "per_subject": [
       {
-        "materia": "INGENIERÍA DE SOFTWARE",
-        "z_decayed": 1.1261829711306042,
-        "n": 8
-      },
-      {
         "materia": "DESARROLLO SUSTENTABLE",
-        "z_decayed": 1.0915110334382296,
-        "n": 52
-      },
-      {
-        "materia": "---",
-        "z_decayed": -0.9627852966533862,
-        "n": 521
+        "z_decayed": 1.1631644451014658,
+        "n": 27
       }
     ]
   },
@@ -53,44 +43,33 @@
       {
         "id": 0,
         "words": [
-          "criko",
           "mejor",
           "tec",
-          "profe",
-          "si"
+          "criko",
+          "si",
+          "profe"
         ],
-        "weight": 0.19902955909237252
+        "weight": 0.3742507206694278
       },
       {
         "id": 1,
         "words": [
-          "vida",
+          "profe",
+          "criko",
           "mejor",
           "tec",
-          "criko",
           "he"
         ],
-        "weight": 0.18687991532250814
-      },
-      {
-        "id": 2,
-        "words": [
-          "si",
-          "criko",
-          "profe",
-          "vida",
-          "es"
-        ],
-        "weight": 0.2693874107379262
+        "weight": 0.2779994018411672
       }
     ],
     "sentiment": {
-      "overall": 0.3333333333333333,
+      "overall": 0.25,
       "by_month": {
-        "2020-06": 0.3333333333333333
+        "2020-06": 0.25
       }
     },
-    "n_comments": 6
+    "n_comments": 4
   },
   "integrity_analysis": {
     "dup_rate": 0.0,
@@ -104,16 +83,6 @@
         "from": "2020-06-24T00:00:00",
         "to": "2020-06-24T00:00:00",
         "count": 4
-      },
-      {
-        "from": "2020-06-24T00:00:00",
-        "to": "2020-06-24T00:00:00",
-        "count": 5
-      },
-      {
-        "from": "2020-06-24T00:00:00",
-        "to": "2020-06-24T00:00:00",
-        "count": 6
       }
     ],
     "low_variance_flag": 0,
@@ -122,21 +91,31 @@
   "trends_analysis": {
     "quality_trend": {
       "series": [
-        8.5,
+        9.75,
         8.0
       ],
       "ewma": [
-        8.5,
-        8.35
+        9.75,
+        9.225
       ],
-      "sigma": 0.24748737341529137
+      "sigma": 0.8662058069535205
     },
-    "difficulty_trend": null,
+    "difficulty_trend": {
+      "series": [
+        3.5,
+        2.0
+      ],
+      "ewma": [
+        3.5,
+        3.05
+      ],
+      "sigma": 0.7424621202458748
+    },
     "forecast": {
-      "quality_next": 8.35,
+      "quality_next": 9.225,
       "quality_band": [
-        7.864924748106029,
-        8.83507525189397
+        7.5272366183710995,
+        10.0
       ],
       "confidence": 0.95
     },
@@ -147,8 +126,8 @@
       "fecha_iso": "2020-07-03T00:00:00",
       "materia": "PROGRAMACION ORIENTADA AL CRIKO",
       "calidad": 8.0,
-      "dificultad": null,
-      "nota": 8.0,
+      "dificultad": 2.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": ""
     },
@@ -156,8 +135,8 @@
       "fecha_iso": "2020-06-24T00:00:00",
       "materia": "DESARROLLO SUSTENTABLE",
       "calidad": 10.0,
-      "dificultad": null,
-      "nota": 10.0,
+      "dificultad": 6.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "Rigo un mal profe?\nUna vez le dijeron \"G4Y\", el respondió: \"Te invito una piedra\". Otro día le gritaron \"J0D3T3\" y el respondió: \"bendiciones\". Un día se encontró a una alumna llorando con las muñecas cortadas y el le dijo: \"Échate un criko\".\nSi eso es ser mal profe, todos deberían serlo."
     },
@@ -165,8 +144,8 @@
       "fecha_iso": "2020-06-24T00:00:00",
       "materia": "QUIMICA DEL CRIKO",
       "calidad": 10.0,
-      "dificultad": null,
-      "nota": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "El mejor de todo el tec, carguen con el si o si"
     },
@@ -174,8 +153,8 @@
       "fecha_iso": "2020-06-24T00:00:00",
       "materia": "CIENCIAS DEL FOKO",
       "calidad": 9.0,
-      "dificultad": null,
-      "nota": 9.0,
+      "dificultad": 8.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "de las mejores mamadas que he visto"
     },
@@ -183,37 +162,17 @@
       "fecha_iso": "2020-06-24T00:00:00",
       "materia": "INGENIERÍA DE SOFTWARE",
       "calidad": 10.0,
-      "dificultad": null,
-      "nota": 7.0,
+      "dificultad": 0.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "La verdad el mejor profe que tiene el tec y que he tenido en mi vida, el piedras está siempre dispuesto a ayudarte y conseguirte criko barato a solo 5 pesitos.\nMuy claro todo"
-    },
-    {
-      "fecha_iso": "2020-06-24T00:00:00",
-      "materia": "CIENCIAS DE LA PIEDRA",
-      "calidad": 10.0,
-      "dificultad": null,
-      "nota": 10.0,
-      "recomienda": 1,
-      "comentario": "Excelente profesor sus enseñanzas y consejos me han ayudado en la escuela, en la ingeniería y en la vida. Sin duda alguna es todo un ejemplo a seguir."
-    },
-    {
-      "fecha_iso": "2020-06-24T00:00:00",
-      "materia": "---",
-      "calidad": 2.0,
-      "dificultad": null,
-      "nota": 7.0,
-      "recomienda": 0,
-      "comentario": "[Comentario esperando revisión]"
     }
   ],
   "comments_recent": [
     "Rigo un mal profe?\nUna vez le dijeron \"G4Y\", el respondió: \"Te invito una piedra\". Otro día le gritaron \"J0D3T3\" y el respondió: \"bendiciones\". Un día se encontró a una alumna llorando con las muñecas cortadas y el le dijo: \"Échate un criko\".\nSi eso es ser mal profe, todos deberían serlo.",
     "El mejor de todo el tec, carguen con el si o si",
     "de las mejores mamadas que he visto",
-    "La verdad el mejor profe que tiene el tec y que he tenido en mi vida, el piedras está siempre dispuesto a ayudarte y conseguirte criko barato a solo 5 pesitos.\nMuy claro todo",
-    "Excelente profesor sus enseñanzas y consejos me han ayudado en la escuela, en la ingeniería y en la vida. Sin duda alguna es todo un ejemplo a seguir.",
-    "[Comentario esperando revisión]"
+    "La verdad el mejor profe que tiene el tec y que he tenido en mi vida, el piedras está siempre dispuesto a ayudarte y conseguirte criko barato a solo 5 pesitos.\nMuy claro todo"
   ],
-  "n_reviews": 7
+  "n_reviews": 5
 }

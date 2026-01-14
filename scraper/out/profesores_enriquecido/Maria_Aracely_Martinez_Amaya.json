@@ -1,51 +1,41 @@
 {
   "professor_id": "Maria_Aracely_Martinez_Amaya",
   "nombre": "Maria Aracely Martinez Amaya",
-  "universidad": "Instituto Tecnologico de Culiacan",
+  "universidad": "Instituto Tecnológico de Culiacán",
   "decay_analysis": {
-    "quality_decayed": 5.750430643982131,
-    "difficulty_decayed": null
+    "quality_decayed": 5.861406402399312,
+    "difficulty_decayed": 3.6166514871594573
   },
   "bayes_analysis": {
-    "quality_bayes": 6.320884500147698,
-    "difficulty_bayes": null
+    "quality_bayes": 6.845037916254532,
+    "difficulty_bayes": 2.9361028684470822
   },
   "recommendation_analysis": {
-    "rate": 0.375,
+    "rate": 0.38,
     "wilson_interval": [
-      0.13684175946152105,
-      0.6942621454161982
+      0.10797132315920568,
+      0.7563066355812937
     ],
-    "n_recommendations": 8
+    "n_recommendations": 5
   },
   "subject_normalization": {
-    "z_mean": -0.18,
-    "z_mean_decayed": 0.03,
+    "z_mean": -0.64,
+    "z_mean_decayed": -0.59,
     "per_subject": [
       {
-        "materia": "FUNDAMENTOS DE BASES DE DATOS",
-        "z_decayed": 0.7593381753215109,
-        "n": 15
-      },
-      {
         "materia": "---",
-        "z_decayed": 0.23580762940734074,
-        "n": 521
-      },
-      {
-        "materia": "SISTEMAS",
-        "z_decayed": 0.11442591353812454,
-        "n": 13
-      },
-      {
-        "materia": "TALLER DE SISTEMAS OPERATIVOS",
-        "z_decayed": -0.24964362063136586,
-        "n": 8
+        "z_decayed": 0.06442849160476306,
+        "n": 80
       },
       {
         "materia": "FUNDAMENTOS DE BASE DE DATOS",
-        "z_decayed": -0.2944844258253041,
-        "n": 16
+        "z_decayed": -0.6527580288197371,
+        "n": 9
+      },
+      {
+        "materia": "MÉTODOS NUMÉRICOS",
+        "z_decayed": -1.5825131361498892,
+        "n": 5
       }
     ]
   },
@@ -64,23 +54,23 @@
         "id": 0,
         "words": [
           "clara",
-          "criterios",
           "clara criterios",
+          "criterios",
           "es clara",
           "es"
         ],
-        "weight": 0.3327248989404394
+        "weight": 0.3327248989404393
       },
       {
         "id": 1,
         "words": [
-          "clara criterios",
+          "criterios",
           "es clara",
           "si",
           "enreda",
           "explica"
         ],
-        "weight": 0.2769776953098975
+        "weight": 0.27697769530989713
       }
     ],
     "sentiment": {
@@ -104,28 +94,38 @@
     "quality_trend": {
       "series": [
         6.0,
-        2.0,
-        6.0,
         7.0,
         6.0,
         5.5
       ],
       "ewma": [
         6.0,
-        4.799999999999999,
-        5.159999999999998,
-        5.711999999999999,
-        5.798399999999999,
-        5.708879999999999
+        6.299999999999999,
+        6.209999999999999,
+        5.996999999999998
       ],
-      "sigma": 1.4291195794147762
+      "sigma": 0.510260309384664
     },
-    "difficulty_trend": null,
+    "difficulty_trend": {
+      "series": [
+        4.0,
+        2.0,
+        0.0,
+        5.0
+      ],
+      "ewma": [
+        4.0,
+        3.4,
+        2.38,
+        3.166
+      ],
+      "sigma": 1.8295014803674432
+    },
     "forecast": {
-      "quality_next": 5.708879999999999,
+      "quality_next": 5.996999999999998,
       "quality_band": [
-        2.9078056243470374,
-        8.50995437565296
+        4.996889793606057,
+        6.997110206393939
       ],
       "confidence": 0.95
     },
@@ -136,8 +136,8 @@
       "fecha_iso": "2021-06-15T00:00:00",
       "materia": "FUNDAMENTOS DE BASES DE DATOS",
       "calidad": 7.0,
-      "dificultad": null,
-      "nota": 8.5,
+      "dificultad": 4.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "Casi nunca prepara las clases, es poco clara con los criterios de evaluación ya que los cambio luego de un tiempo. Deja muchos trabajos en equipo que al final siento que no contaron para nada. La materia no es difícil, pero califica estricto para lo poco que enseña."
     },
@@ -145,26 +145,26 @@
       "fecha_iso": "2021-06-09T00:00:00",
       "materia": "FUNDAMENTOS DE BASE DE DATOS",
       "calidad": 4.0,
-      "dificultad": null,
-      "nota": 8.5,
-      "recomienda": 0,
+      "dificultad": 6.0,
+      "nota": null,
+      "recomienda": 0.5,
       "comentario": "No explica bien, se enreda ella sola, dice una cosa y en la siguiente clase termina siendo otra. No es clara con los criterios de evauliacion. Nos amenazo con reprobarnos si no firmabamos evidencia docente, mal profe en general."
     },
     {
       "fecha_iso": "2019-10-01T00:00:00",
       "materia": "---",
       "calidad": 6.0,
-      "dificultad": null,
-      "nota": 23.0,
-      "recomienda": 0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 0.5,
       "comentario": "[Comentario esperando revisión]"
     },
     {
       "fecha_iso": "2019-08-08T00:00:00",
       "materia": "FUNDAMENTOS DE BASE DE DATOS",
       "calidad": 7.0,
-      "dificultad": null,
-      "nota": 9.0,
+      "dificultad": 2.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "La maestra se ve que sabe mas no domina el tema pero tampoco es exigente, no me animo a decir que es barco pero tampoco se complica, si repruebas es porque de plano no entrabas o no sabes nada"
     },
@@ -172,37 +172,10 @@
       "fecha_iso": "2017-08-02T00:00:00",
       "materia": "MÉTODOS NUMÉRICOS",
       "calidad": 6.0,
-      "dificultad": null,
-      "nota": 9.5,
-      "recomienda": 0,
-      "comentario": "Te enreda a la hora de explicar, algunas cosas suelen ser confusas. Te obliga a usar Matlab pero no te explica como usarlo y no da algoritmos de los métodos. Los exámenes no son tan largos y si le hechas ganas puedes pasar."
-    },
-    {
-      "fecha_iso": "2015-01-08T00:00:00",
-      "materia": "BASE DE DATOS",
-      "calidad": 2.0,
-      "dificultad": null,
+      "dificultad": 4.0,
       "nota": null,
-      "recomienda": 0,
-      "comentario": ""
-    },
-    {
-      "fecha_iso": "2013-06-18T00:00:00",
-      "materia": "SISTEMAS",
-      "calidad": 8.0,
-      "dificultad": null,
-      "nota": 8.5,
-      "recomienda": 1,
-      "comentario": ""
-    },
-    {
-      "fecha_iso": "2013-06-03T00:00:00",
-      "materia": "TALLER DE SISTEMAS OPERATIVOS",
-      "calidad": 4.0,
-      "dificultad": null,
-      "nota": 9.0,
-      "recomienda": 0,
-      "comentario": ""
+      "recomienda": 0.5,
+      "comentario": "Te enreda a la hora de explicar, algunas cosas suelen ser confusas. Te obliga a usar Matlab pero no te explica como usarlo y no da algoritmos de los métodos. Los exámenes no son tan largos y si le hechas ganas puedes pasar."
     }
   ],
   "comments_recent": [
@@ -212,5 +185,5 @@
     "La maestra se ve que sabe mas no domina el tema pero tampoco es exigente, no me animo a decir que es barco pero tampoco se complica, si repruebas es porque de plano no entrabas o no sabes nada",
     "Te enreda a la hora de explicar, algunas cosas suelen ser confusas. Te obliga a usar Matlab pero no te explica como usarlo y no da algoritmos de los métodos. Los exámenes no son tan largos y si le hechas ganas puedes pasar."
   ],
-  "n_reviews": 8
+  "n_reviews": 5
 }

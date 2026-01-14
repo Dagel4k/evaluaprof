@@ -1,0 +1,41 @@
+{
+  "nombre": "Jesus Eduardo Ochoa",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "ciudad": "Ciudad: culiacan, sinaloa",
+  "departamento": "Departamento/Facultad: Ciencias basicas",
+  "calidad_general": 4.0,
+  "porcentaje_recomienda": 50,
+  "nivel_dificultad": 6.0,
+  "etiquetas": [],
+  "numero_calificaciones": 2,
+  "calificaciones": [
+    {
+      "fecha": "20/Jun/2019",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 2.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Control digital",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "N/A",
+      "interes_clase": "",
+      "comentario": "este compa califica como le da la gana, practicamente te pone lo que se le antoja, puedes sacar un 100 perfecto y te pone un 80 nomas porque si, parece que ni revisa los examenes y trabajos",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "14/Jun/2019",
+      "tipo_calificacion": "REGULAR",
+      "puntaje_calidad_general": 6.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Control digital",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "N/A",
+      "interes_clase": "",
+      "comentario": "explica bien y enseña bien pero califica como le da la gana, puedes sacar 100 y te pone 80 ademas de que a veces ni siquiera quiere dar la clase y pasa a los alumnos a que la den, no esta muy dificil pero no sales muy bien",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    }
+  ]
+}

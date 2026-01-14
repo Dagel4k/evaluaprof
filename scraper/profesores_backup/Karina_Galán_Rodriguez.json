@@ -1,0 +1,53 @@
+{
+  "nombre": "Karina Galán Rodriguez",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "ciudad": "Ciudad: culiacan, sinaloa",
+  "departamento": "Departamento/Facultad: Económico/Administrativo",
+  "calidad_general": 5.0,
+  "porcentaje_recomienda": 0,
+  "nivel_dificultad": 2.0,
+  "etiquetas": [
+    "BARCO (2)",
+    "LAS CLASES SON LARGAS (1)",
+    "MUCHOS PROYECTOS GRUPALES (1)",
+    "PREPÁRATE PARA LEER (1)"
+  ],
+  "numero_calificaciones": 2,
+  "calificaciones": [
+    {
+      "fecha": "05/Mar/2021",
+      "tipo_calificacion": "REGULAR",
+      "puntaje_calidad_general": 6.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Taller de Ética",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "9.5",
+      "interes_clase": "",
+      "comentario": "Es fácil pasar porque deja tareas fáciles y son exámenes también son fáciles. No me cayó muy bien del todo pero se pudiera decir que explica más o menos bien.",
+      "etiquetas_comentario": [
+        "Barco",
+        "Prepárate para leer"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "02/Ene/2021",
+      "tipo_calificacion": "REGULAR",
+      "puntaje_calidad_general": 4.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Taller de Investigación 2",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "No tiene un buen conocimiento de la materia se confunde ella sola y explica de forma escueta. Lo único que te pide es que realices todos los puntos de la investigación y que se los revises en clase para pasar.",
+      "etiquetas_comentario": [
+        "Barco",
+        "Las clases son largas",
+        "Muchos proyectos grupales"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    }
+  ]
+}

@@ -1,14 +1,14 @@
 {
   "professor_id": "Omar_Alejandro_Mendoza_Aguilar",
   "nombre": "Omar Alejandro Mendoza Aguilar",
-  "universidad": "Instituto Tecnologico de Culiacan",
+  "universidad": "Instituto Tecnológico de Culiacán",
   "decay_analysis": {
     "quality_decayed": 9.01828934425949,
-    "difficulty_decayed": null
+    "difficulty_decayed": 3.9634213114810235
   },
   "bayes_analysis": {
-    "quality_bayes": 7.31466008355488,
-    "difficulty_bayes": null
+    "quality_bayes": 7.556297395318166,
+    "difficulty_bayes": 3.0034619188921865
   },
   "recommendation_analysis": {
     "rate": 1.0,
@@ -19,18 +19,18 @@
     "n_recommendations": 2
   },
   "subject_normalization": {
-    "z_mean": 1.0,
-    "z_mean_decayed": 1.01,
+    "z_mean": 0.94,
+    "z_mean_decayed": 0.94,
     "per_subject": [
       {
         "materia": "QUIMICA",
-        "z_decayed": 1.3890491705440697,
-        "n": 83
+        "z_decayed": 1.0589562989177865,
+        "n": 24
       },
       {
         "materia": "QUÍMICA",
-        "z_decayed": 0.6082485710119174,
-        "n": 44
+        "z_decayed": 0.8207969494855646,
+        "n": 24
       }
     ]
   },
@@ -68,8 +68,8 @@
       "fecha_iso": "2020-12-29T00:00:00",
       "materia": "QUIMICA",
       "calidad": 10.0,
-      "dificultad": null,
-      "nota": 9.0,
+      "dificultad": 2.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "Da muy buenas clases , en verdad las materias qye da son de las mas dificiles y aun asi las hace ver faciles poniendo atencion , los examenes son dificiles por las materias que parte."
     },
@@ -77,8 +77,8 @@
       "fecha_iso": "2020-11-21T00:00:00",
       "materia": "QUÍMICA",
       "calidad": 8.0,
-      "dificultad": null,
-      "nota": 10.0,
+      "dificultad": 6.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "Creo que la dificultad de sus exámenes es porque su materia lo requiere. Realmente llegas a aprender con él. En general buen profesor."
     }

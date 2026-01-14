@@ -1,14 +1,14 @@
 {
   "professor_id": "Graciela_Janneth_Del_Rincón_Sainz",
   "nombre": "Graciela Janneth Del Rincón Sainz",
-  "universidad": "Instituto Tecnologico de Culiacan",
+  "universidad": "Instituto Tecnológico de Culiacán",
   "decay_analysis": {
-    "quality_decayed": 8.394239584023675,
-    "difficulty_decayed": null
+    "quality_decayed": 8.394239584023673,
+    "difficulty_decayed": 4.8660751559014175
   },
   "bayes_analysis": {
-    "quality_bayes": 6.985061400177238,
-    "difficulty_bayes": null
+    "quality_bayes": 7.178371249587866,
+    "difficulty_bayes": 3.3361028684470826
   },
   "recommendation_analysis": {
     "rate": 0.6,
@@ -42,7 +42,7 @@
           "puedes",
           "es"
         ],
-        "weight": 0.29575863237301503
+        "weight": 0.29575863237301525
       },
       {
         "id": 1,
@@ -52,7 +52,7 @@
           "puedes",
           "maestra"
         ],
-        "weight": 0.28630319249886665
+        "weight": 0.2863031924988668
       }
     ],
     "sentiment": {
@@ -90,7 +90,23 @@
       ],
       "sigma": 1.534336641027646
     },
-    "difficulty_trend": null,
+    "difficulty_trend": {
+      "series": [
+        4.0,
+        4.0,
+        4.0,
+        4.0,
+        6.0
+      ],
+      "ewma": [
+        4.0,
+        4.0,
+        4.0,
+        4.0,
+        4.6
+      ],
+      "sigma": 0.6260990336999412
+    },
     "forecast": {
       "quality_next": 7.4982,
       "quality_band": [
@@ -106,8 +122,8 @@
       "fecha_iso": "2022-07-14T00:00:00",
       "materia": "GESTION DE PROYECTOS DE SOFTWARE",
       "calidad": 10.0,
-      "dificultad": null,
-      "nota": 9.0,
+      "dificultad": 6.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "La maestra esta sobre calificada para la materia, sabe mucho y explica muy claro. Entrega todas las tareas ya que en una recuperación ya no las acepta y solo subes promedio con el examen que tampoco puedes reprobar o no pasas la unidad. Al final solo es entregar el reporte del proyecto en equipo."
     },
@@ -115,8 +131,8 @@
       "fecha_iso": "2022-06-16T00:00:00",
       "materia": "GESTION DE PROY SOFTWARE",
       "calidad": 7.0,
-      "dificultad": null,
-      "nota": 8.0,
+      "dificultad": 4.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": ""
     },
@@ -124,8 +140,8 @@
       "fecha_iso": "2019-01-15T00:00:00",
       "materia": "GESTION DE PROYECTOS DE SW",
       "calidad": 8.0,
-      "dificultad": null,
-      "nota": 8.5,
+      "dificultad": 4.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "La maestra es un amor de profesora. Es tranquila y calmada. Explica bien los temas y si necesitas ayuda te la puede brindar. Es muy comprensiva.  Aunque eso si, su material esta en ingles y ahi es donde puedes batallar un poco."
     },
@@ -133,18 +149,18 @@
       "fecha_iso": "2011-03-21T00:00:00",
       "materia": "FUNDAMENTOS DE DESARROLLO DE SISTEMAS",
       "calidad": 4.0,
-      "dificultad": null,
-      "nota": 5.0,
-      "recomienda": 0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 0.5,
       "comentario": "ABURRIDAAAAAAAAAA\nLLEGA TARDE A LAS CLASES!!\nENTRA 40 MINUTOS DESPUES\nO SEA QUE LE PASA!"
     },
     {
       "fecha_iso": "2011-01-07T00:00:00",
       "materia": "FUNDAMENTOS DE DESARROLLO DE SISTEMAS",
       "calidad": 6.0,
-      "dificultad": null,
-      "nota": 7.0,
-      "recomienda": 0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 0.5,
       "comentario": "Muy aburrida maestra, y muy mala para explicar."
     }
   ],

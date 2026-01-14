@@ -1,0 +1,76 @@
+{
+  "professor_id": "Fausto_Eduardo_Guicho_Juárez",
+  "nombre": "Fausto Eduardo Guicho Juárez",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 8.0,
+    "difficulty_decayed": 4.0
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.334142613074363,
+    "difficulty_bayes": 2.912867547882385
+  },
+  "recommendation_analysis": {
+    "rate": 1.0,
+    "wilson_interval": [
+      0.20654329147389294,
+      1
+    ],
+    "n_recommendations": 1
+  },
+  "subject_normalization": {
+    "z_mean": -0.76,
+    "z_mean_decayed": -0.76,
+    "per_subject": [
+      {
+        "materia": "DIBUJO ASISTIDO POR COMPUTADORA",
+        "z_decayed": -0.7647191129018724,
+        "n": 9
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [],
+    "sentiment": {
+      "overall": null,
+      "by_month": {}
+    },
+    "n_comments": 1
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": null,
+    "difficulty_trend": null,
+    "forecast": null,
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2026-01-12T00:00:00",
+      "materia": "DIBUJO ASISTIDO POR COMPUTADORA",
+      "calidad": 8.0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Profe nuevo, explica muy claro lo que espera en los trabajos y logra que te guste el CAD. Da muchas oportunidades para recuperarte si repruebas alguna unidad, da consejos y platica. A veces explica rápido, pero te ayuda. De preferencia quedate toda la clase. Ojalá le den la base"
+    }
+  ],
+  "comments_recent": [
+    "Profe nuevo, explica muy claro lo que espera en los trabajos y logra que te guste el CAD. Da muchas oportunidades para recuperarte si repruebas alguna unidad, da consejos y platica. A veces explica rápido, pero te ayuda. De preferencia quedate toda la clase. Ojalá le den la base"
+  ],
+  "n_reviews": 1
+}

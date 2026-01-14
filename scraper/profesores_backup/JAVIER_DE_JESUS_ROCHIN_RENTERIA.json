@@ -1,0 +1,74 @@
+{
+  "nombre": "JAVIER DE JESUS ROCHIN RENTERIA",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "ciudad": "Ciudad: culiacan, sinaloa",
+  "departamento": "Departamento/Facultad: Sistemas",
+  "calidad_general": 9.7,
+  "porcentaje_recomienda": 100,
+  "nivel_dificultad": 0.7,
+  "etiquetas": [
+    "RESPETADO POR LOS ESTUDIANTES (3)",
+    "CLASES EXCELENTES (1)",
+    "TOMARÍA SU CLASE OTRA VEZ (2)",
+    "BARCO (1)",
+    "MUY CÓMICO (1)",
+    "INSPIRACIONAL (1)"
+  ],
+  "numero_calificaciones": 3,
+  "calificaciones": [
+    {
+      "fecha": "07/Ene/2025",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Cultura empresarial",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "9",
+      "interes_clase": "",
+      "comentario": "Muy buen profesor, me dio una materia aburrida y la hizo mas disfrutable ya que complementaba las clases con platica y practicas divertidas ya que se lleva bien con los alumnos, no es complicado solo los exámenes te pueden sorprender un poco",
+      "etiquetas_comentario": [
+        "Muy cómico",
+        "Respetado por los estudiantes",
+        "Inspiracional"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "18/Ene/2024",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 9.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Taller de Bases de Datos",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "9",
+      "interes_clase": "",
+      "comentario": "Las clases con este profesor siempre fueron muy cortas y directo al grano, aunque a paso lento. Es un profesor muy relajado, no es exigente al momento de evaluar y es muy flexible con todos en general. Sí toma asistencia pero es comprensivo con los que tuvieron algún problema para presentarse.",
+      "etiquetas_comentario": [
+        "Barco",
+        "Respetado por los estudiantes",
+        "Tomaría su clase otra vez"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "30/Nov/2023",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Taller de base de datos",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "8.5",
+      "interes_clase": "",
+      "comentario": "Es muy buen maestro se preocupa por los alumnos y es de los mejores profes que tiene el tec al nivel de victor batiz ojalá diera más materias para volver a cargar con el si tienen oportunidad carguen todas las materias posibles con el si les aparece en la carga Diosito los miró a los ojos",
+      "etiquetas_comentario": [
+        "Respetado por los estudiantes",
+        "Clases excelentes",
+        "Tomaría su clase otra vez"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    }
+  ]
+}

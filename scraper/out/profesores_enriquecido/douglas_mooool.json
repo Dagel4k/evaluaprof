@@ -1,41 +1,31 @@
 {
   "professor_id": "douglas_mooool",
   "nombre": "douglas mooool",
-  "universidad": "Instituto Tecnologico de Culiacan",
+  "universidad": "Instituto Tecnológico de Culiacán",
   "decay_analysis": {
-    "quality_decayed": 5.468092440892505,
-    "difficulty_decayed": null
+    "quality_decayed": 5.895872052138141,
+    "difficulty_decayed": 4.614622364083005
   },
   "bayes_analysis": {
-    "quality_bayes": 6.320884500147698,
-    "difficulty_bayes": null
+    "quality_bayes": 7.0450379162545325,
+    "difficulty_bayes": 3.2027695351137493
   },
   "recommendation_analysis": {
     "rate": 0.5,
     "wilson_interval": [
-      0.2152125268244419,
-      0.7847874731755581
+      0.17042015582256811,
+      0.8295798441774319
     ],
-    "n_recommendations": 8
+    "n_recommendations": 5
   },
   "subject_normalization": {
-    "z_mean": -0.31,
-    "z_mean_decayed": -0.06,
+    "z_mean": -1.15,
+    "z_mean_decayed": -1.15,
     "per_subject": [
       {
-        "materia": "QUÍMICA ANALÍTICA",
-        "z_decayed": 0.577350269189626,
-        "n": 3
-      },
-      {
-        "materia": "QUIMICA ANALITICA",
-        "z_decayed": 0.1254535861046142,
-        "n": 7
-      },
-      {
         "materia": "---",
-        "z_decayed": -0.9627852966533861,
-        "n": 521
+        "z_decayed": -1.1483431150731278,
+        "n": 80
       }
     ]
   },
@@ -54,34 +44,23 @@
         "id": 0,
         "words": [
           "buen",
-          "asco",
+          "es",
           "douglas",
           "mto douglas",
           "mto"
         ],
-        "weight": 0.15285187342166298
+        "weight": 0.3439035209361099
       },
       {
         "id": 1,
         "words": [
-          "comentario esperando",
-          "comentario",
-          "esperando revision",
-          "esperando",
-          "revision"
-        ],
-        "weight": 0.2256675867264305
-      },
-      {
-        "id": 2,
-        "words": [
+          "douglas",
           "mto douglas",
           "mto",
-          "asco",
           "buen",
           "es"
         ],
-        "weight": 0.2804267718562672
+        "weight": 0.2810417402707955
       }
     ],
     "sentiment": {
@@ -90,28 +69,20 @@
         "2014-02": 0.0,
         "2014-01": 0.0,
         "2013-12": 0.0,
-        "2013-05": 0.0,
-        "2011-11": 0.0
+        "2013-05": 0.0
       }
     },
-    "n_comments": 6
+    "n_comments": 4
   },
   "integrity_analysis": {
-    "dup_rate": 0.067,
-    "bursts": [
-      {
-        "from": "2011-11-14T00:00:00",
-        "to": "2011-11-14T00:00:00",
-        "count": 3
-      }
-    ],
+    "dup_rate": 0.0,
+    "bursts": [],
     "low_variance_flag": 0,
-    "trust_score": 0.67
+    "trust_score": 1.0
   },
   "trends_analysis": {
     "quality_trend": {
       "series": [
-        3.6666666666666665,
         2.0,
         10.0,
         9.0,
@@ -119,18 +90,33 @@
         2.0
       ],
       "ewma": [
-        3.6666666666666665,
-        3.1666666666666665,
-        5.216666666666667,
-        6.351666666666667,
-        7.446166666666667,
-        5.812316666666666
+        2.0,
+        4.4,
+        5.779999999999999,
+        7.045999999999999,
+        5.532199999999999
       ],
-      "sigma": 3.1026874331495384
+      "sigma": 3.5123175892848866
     },
-    "difficulty_trend": null,
+    "difficulty_trend": {
+      "series": [
+        8.0,
+        0.0,
+        4.0,
+        0.0,
+        8.0
+      ],
+      "ewma": [
+        8.0,
+        5.6,
+        5.119999999999999,
+        3.583999999999999,
+        4.908799999999999
+      ],
+      "sigma": 3.33953876575793
+    },
     "forecast": {
-      "quality_next": 5.812316666666666,
+      "quality_next": 5.532199999999999,
       "quality_band": [
         0.0,
         10.0
@@ -144,8 +130,8 @@
       "fecha_iso": "2016-03-17T00:00:00",
       "materia": "QUÍMICA ANALITICA",
       "calidad": 2.0,
-      "dificultad": null,
-      "nota": 7.5,
+      "dificultad": 8.0,
+      "nota": null,
       "recomienda": 0,
       "comentario": ""
     },
@@ -153,8 +139,8 @@
       "fecha_iso": "2014-02-28T00:00:00",
       "materia": "QUIMICA ANALITICA",
       "calidad": 10.0,
-      "dificultad": null,
-      "nota": 9.5,
+      "dificultad": 0.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "Fui alumno del mto Douglas, el mto es estricto pero buen Mto. Lo que aprendi me sirbio en Termo y Valance. El pedo del año pasado fueron 2 ambientales que boicoteaban la clase, un Cedano y un tal Bladimir; estos vatos son unas lakras, al Cedano lo expulsaron por amenazar de muerte a un mto del Tek"
     },
@@ -162,8 +148,8 @@
       "fecha_iso": "2014-01-29T00:00:00",
       "materia": "QUIMICA ANALITICA",
       "calidad": 9.0,
-      "dificultad": null,
-      "nota": 9.5,
+      "dificultad": 4.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "Es muy buen maestro, solo se le necesita poner atención,me reprobó una vez, pero ya en RC me di cuenta que el que estaba mal era yo :) hagan los problemas,practicas y reportes y ya esta facil."
     },
@@ -171,8 +157,8 @@
       "fecha_iso": "2013-12-15T00:00:00",
       "materia": "QUÍMICA ANALÍTICA",
       "calidad": 10.0,
-      "dificultad": null,
-      "nota": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "El Mto Douglas me impartió clases y fué padrino de mi generación, lo conozco mejor que Uds. Laboro en el área de A. de Alimentos. Admiro al Mto por su preparación, dedicación y gran ética. Siento asco por Uds (seguramente reprobaron). Terminarán como empleados en un SUBWAY  por imbéciles o  flojos."
     },
@@ -180,34 +166,7 @@
       "fecha_iso": "2013-05-31T00:00:00",
       "materia": "---",
       "calidad": 2.0,
-      "dificultad": null,
-      "nota": null,
-      "recomienda": 0,
-      "comentario": "[Comentario esperando revisión]"
-    },
-    {
-      "fecha_iso": "2011-11-14T00:00:00",
-      "materia": "QUIMICA ANALITICA",
-      "calidad": 7.0,
-      "dificultad": null,
-      "nota": 9.5,
-      "recomienda": 1,
-      "comentario": ""
-    },
-    {
-      "fecha_iso": "2011-11-14T00:00:00",
-      "materia": "QUIMICA ANALITICA",
-      "calidad": 2.0,
-      "dificultad": null,
-      "nota": null,
-      "recomienda": 0,
-      "comentario": "es una escoria de profesor, por maestros como la gente ya no quieres estudiar, no carguen con el es un asco, amargado, no sabe nada."
-    },
-    {
-      "fecha_iso": "2011-11-14T00:00:00",
-      "materia": "---",
-      "calidad": 2.0,
-      "dificultad": null,
+      "dificultad": 8.0,
       "nota": null,
       "recomienda": 0,
       "comentario": "[Comentario esperando revisión]"
@@ -217,9 +176,7 @@
     "Fui alumno del mto Douglas, el mto es estricto pero buen Mto. Lo que aprendi me sirbio en Termo y Valance. El pedo del año pasado fueron 2 ambientales que boicoteaban la clase, un Cedano y un tal Bladimir; estos vatos son unas lakras, al Cedano lo expulsaron por amenazar de muerte a un mto del Tek",
     "Es muy buen maestro, solo se le necesita poner atención,me reprobó una vez, pero ya en RC me di cuenta que el que estaba mal era yo :) hagan los problemas,practicas y reportes y ya esta facil.",
     "El Mto Douglas me impartió clases y fué padrino de mi generación, lo conozco mejor que Uds. Laboro en el área de A. de Alimentos. Admiro al Mto por su preparación, dedicación y gran ética. Siento asco por Uds (seguramente reprobaron). Terminarán como empleados en un SUBWAY  por imbéciles o  flojos.",
-    "[Comentario esperando revisión]",
-    "es una escoria de profesor, por maestros como la gente ya no quieres estudiar, no carguen con el es un asco, amargado, no sabe nada.",
     "[Comentario esperando revisión]"
   ],
-  "n_reviews": 8
+  "n_reviews": 5
 }

@@ -1,31 +1,31 @@
 {
   "professor_id": "Kevin_Kevin",
   "nombre": "Kevin Kevin",
-  "universidad": "Instituto Tecnologico de Culiacan",
+  "universidad": "Instituto Tecnológico de Culiacán",
   "decay_analysis": {
     "quality_decayed": 5.9120133938929635,
-    "difficulty_decayed": null
+    "difficulty_decayed": 4.041705725925691
   },
   "bayes_analysis": {
-    "quality_bayes": 6.985061400177238,
-    "difficulty_bayes": null
+    "quality_bayes": 7.178371249587866,
+    "difficulty_bayes": 3.0694362017804155
   },
   "recommendation_analysis": {
-    "rate": 0.4,
+    "rate": 0.8,
     "wilson_interval": [
-      0.11761823115925325,
-      0.769280067791163
+      0.37552826411853885,
+      0.9637768390302125
     ],
     "n_recommendations": 5
   },
   "subject_normalization": {
-    "z_mean": 0.35,
-    "z_mean_decayed": -0.05,
+    "z_mean": 0.22,
+    "z_mean_decayed": -0.17,
     "per_subject": [
       {
         "materia": "MECANISMOS",
-        "z_decayed": -0.04542412177963637,
-        "n": 27
+        "z_decayed": -0.16666851159139887,
+        "n": 16
       }
     ]
   },
@@ -44,12 +44,12 @@
         "id": 0,
         "words": [
           "examenes",
-          "faciles",
           "examenes faciles",
+          "faciles",
           "proyectos",
           "te"
         ],
-        "weight": 0.31612750896762454
+        "weight": 0.31612750896762437
       },
       {
         "id": 1,
@@ -60,7 +60,7 @@
           "bien",
           "aprendes"
         ],
-        "weight": 0.33920401178355186
+        "weight": 0.33920401178355236
       }
     ],
     "sentiment": {
@@ -98,7 +98,23 @@
       ],
       "sigma": 1.7225576332883608
     },
-    "difficulty_trend": null,
+    "difficulty_trend": {
+      "series": [
+        2.0,
+        2.0,
+        6.0,
+        2.0,
+        6.0
+      ],
+      "ewma": [
+        2.0,
+        2.0,
+        3.1999999999999997,
+        2.84,
+        3.7879999999999994
+      ],
+      "sigma": 1.5777695649238521
+    },
     "forecast": {
       "quality_next": 6.777999999999999,
       "quality_band": [
@@ -114,34 +130,34 @@
       "fecha_iso": "2019-06-06T00:00:00",
       "materia": "MECANISMOS",
       "calidad": 5.0,
-      "dificultad": null,
-      "nota": 7.0,
-      "recomienda": 0,
+      "dificultad": 6.0,
+      "nota": null,
+      "recomienda": 0.5,
       "comentario": "sus clases no son aburridas,te es algo duro pero te enseña muchas cosas del mundo laboral, deja 3 proyectos muy laboriosos pero sus examenes son faciles, reprueva a todo el grupo péro al final los pasa en el global"
     },
     {
       "fecha_iso": "2018-12-14T00:00:00",
       "materia": "MECANISMOS",
       "calidad": 6.0,
-      "dificultad": null,
-      "nota": 9.0,
-      "recomienda": 0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 1,
       "comentario": "No le gusta complicarse la vida, no le gusta que le rueguen y no ayuda con calificaciones si se lo pides, le tiene que nacer a él solito. Es muy claro con sus reglas y te encarga tres proyectos algo pesados a lo largo del semestre. Exámenes fáciles."
     },
     {
       "fecha_iso": "2014-08-18T00:00:00",
       "materia": "MECANISMOS",
       "calidad": 4.0,
-      "dificultad": null,
-      "nota": 5.0,
-      "recomienda": 0,
+      "dificultad": 6.0,
+      "nota": null,
+      "recomienda": 0.5,
       "comentario": ""
     },
     {
       "fecha_iso": "2013-12-01T00:00:00",
       "materia": "MECANISMOS",
       "calidad": 10.0,
-      "dificultad": null,
+      "dificultad": 2.0,
       "nota": null,
       "recomienda": 1,
       "comentario": "Explica muy bien los temas, no los hace muy compicados, aprendes mucho y pide prácticas con las que aprendes más. No está peleado con la vida como Tolosa, piña, fabio, velazco, gaspar pinto, entre muchos otros."
@@ -150,8 +166,8 @@
       "fecha_iso": "2013-11-14T00:00:00",
       "materia": "MECANISMOS",
       "calidad": 10.0,
-      "dificultad": null,
-      "nota": 9.0,
+      "dificultad": 2.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "El es Keven, y es super freson, pero el bato enseña machin, y aprendes bien, aparte el bato juega arrancones en el autodromo. WACHEN ESTE SENTRITA\nhttp://www.youtube.com/watch?v=e3TQXuBvtm0"
     }

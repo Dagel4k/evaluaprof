@@ -1,31 +1,31 @@
 {
   "professor_id": "Pedro_César_Reyes_Peña",
   "nombre": "Pedro César Reyes Peña",
-  "universidad": "Instituto Tecnologico de Culiacan",
+  "universidad": "Instituto Tecnológico de Culiacán",
   "decay_analysis": {
-    "quality_decayed": 9.526096502339838,
-    "difficulty_decayed": null
+    "quality_decayed": 9.468408012330928,
+    "difficulty_decayed": 0.0
   },
   "bayes_analysis": {
-    "quality_bayes": 7.92349506266616,
-    "difficulty_bayes": null
+    "quality_bayes": 7.978371249587866,
+    "difficulty_bayes": 1.8694362017804156
   },
   "recommendation_analysis": {
     "rate": 1.0,
     "wilson_interval": [
-      0.6096569663469354,
+      0.565508505247919,
       1
     ],
-    "n_recommendations": 6
+    "n_recommendations": 5
   },
   "subject_normalization": {
-    "z_mean": 1.28,
-    "z_mean_decayed": 1.29,
+    "z_mean": 1.1,
+    "z_mean_decayed": 1.12,
     "per_subject": [
       {
         "materia": "---",
-        "z_decayed": 1.2923962104853413,
-        "n": 521
+        "z_decayed": 1.1160251810370254,
+        "n": 80
       }
     ]
   },
@@ -47,11 +47,10 @@
         "2020-02": 0.0,
         "2019-08": 0.0,
         "2019-04": 0.0,
-        "2019-03": 0.0,
-        "2019-01": 0.0
+        "2019-03": 0.0
       }
     },
-    "n_comments": 6
+    "n_comments": 5
   },
   "integrity_analysis": {
     "dup_rate": 1.0,
@@ -65,7 +64,6 @@
         10.0,
         10.0,
         10.0,
-        10.0,
         7.0,
         10.0
       ],
@@ -73,17 +71,32 @@
         10.0,
         10.0,
         10.0,
-        10.0,
         9.1,
         9.37
       ],
-      "sigma": 0.9430535509715235
+      "sigma": 1.0457915662310535
     },
-    "difficulty_trend": null,
+    "difficulty_trend": {
+      "series": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ewma": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sigma": 0.0
+    },
     "forecast": {
       "quality_next": 9.37,
       "quality_band": [
-        7.5216150400958135,
+        7.3202485301871345,
         10.0
       ],
       "confidence": 0.95
@@ -95,8 +108,8 @@
       "fecha_iso": "2022-07-04T00:00:00",
       "materia": "---",
       "calidad": 10.0,
-      "dificultad": null,
-      "nota": 21.0,
+      "dificultad": 0.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "[Comentario esperando revisión]"
     },
@@ -104,8 +117,8 @@
       "fecha_iso": "2020-02-06T00:00:00",
       "materia": "---",
       "calidad": 7.0,
-      "dificultad": null,
-      "nota": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "[Comentario esperando revisión]"
     },
@@ -113,8 +126,8 @@
       "fecha_iso": "2019-08-07T00:00:00",
       "materia": "---",
       "calidad": 10.0,
-      "dificultad": null,
-      "nota": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "[Comentario esperando revisión]"
     },
@@ -122,8 +135,8 @@
       "fecha_iso": "2019-04-11T00:00:00",
       "materia": "---",
       "calidad": 10.0,
-      "dificultad": null,
-      "nota": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "[Comentario esperando revisión]"
     },
@@ -131,17 +144,8 @@
       "fecha_iso": "2019-03-27T00:00:00",
       "materia": "---",
       "calidad": 10.0,
-      "dificultad": null,
-      "nota": 10.0,
-      "recomienda": 1,
-      "comentario": "[Comentario esperando revisión]"
-    },
-    {
-      "fecha_iso": "2019-01-06T00:00:00",
-      "materia": "---",
-      "calidad": 10.0,
-      "dificultad": null,
-      "nota": 6.5,
+      "dificultad": 0.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "[Comentario esperando revisión]"
     }
@@ -151,8 +155,7 @@
     "[Comentario esperando revisión]",
     "[Comentario esperando revisión]",
     "[Comentario esperando revisión]",
-    "[Comentario esperando revisión]",
     "[Comentario esperando revisión]"
   ],
-  "n_reviews": 6
+  "n_reviews": 5
 }

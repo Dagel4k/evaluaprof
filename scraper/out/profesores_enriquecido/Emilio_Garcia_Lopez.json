@@ -1,14 +1,14 @@
 {
   "professor_id": "Emilio_Garcia_Lopez",
   "nombre": "Emilio Garcia Lopez",
-  "universidad": "Instituto Tecnologico de Culiacan",
+  "universidad": "Instituto Tecnológico de Culiacán",
   "decay_analysis": {
     "quality_decayed": 10.0,
-    "difficulty_decayed": null
+    "difficulty_decayed": 0.0
   },
   "bayes_analysis": {
-    "quality_bayes": 7.675070846358351,
-    "difficulty_bayes": null
+    "quality_bayes": 7.898120672601384,
+    "difficulty_bayes": 2.157041771285095
   },
   "recommendation_analysis": {
     "rate": 1.0,
@@ -19,13 +19,13 @@
     "n_recommendations": 3
   },
   "subject_normalization": {
-    "z_mean": 1.19,
-    "z_mean_decayed": 1.19,
+    "z_mean": 1.17,
+    "z_mean_decayed": 1.17,
     "per_subject": [
       {
         "materia": "PROCESOS DE FABRICACION",
-        "z_decayed": 1.1946912201998283,
-        "n": 16
+        "z_decayed": 1.1666666666666667,
+        "n": 4
       }
     ]
   },
@@ -66,7 +66,19 @@
       ],
       "sigma": 0.0
     },
-    "difficulty_trend": null,
+    "difficulty_trend": {
+      "series": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ewma": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sigma": 0.0
+    },
     "forecast": {
       "quality_next": 10.0,
       "quality_band": [
@@ -82,8 +94,8 @@
       "fecha_iso": "2019-08-09T00:00:00",
       "materia": "PROCESOS DE FABRICACION",
       "calidad": 10.0,
-      "dificultad": null,
-      "nota": 9.5,
+      "dificultad": 0.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "Buen profesor, podrían decir barco, pero la neta si enseña y aprendes, examenes un poco extensos pero nada de otro mundo"
     },
@@ -91,8 +103,8 @@
       "fecha_iso": "2019-05-26T00:00:00",
       "materia": "ESTADISTICA Y CONTROL DE CALIADAD",
       "calidad": 10.0,
-      "dificultad": null,
-      "nota": 9.0,
+      "dificultad": 0.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "La mera verga"
     },
@@ -100,8 +112,8 @@
       "fecha_iso": "2019-01-12T00:00:00",
       "materia": "INGENERIA DE SISTMAS",
       "calidad": 10.0,
-      "dificultad": null,
-      "nota": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "Excelente profesor, facil para pasar, buena persona."
     }

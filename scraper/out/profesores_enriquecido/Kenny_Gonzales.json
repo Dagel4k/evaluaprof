@@ -1,14 +1,14 @@
 {
   "professor_id": "Kenny_Gonzales",
   "nombre": "Kenny Gonzales",
-  "universidad": "Instituto Tecnologico de Culiacan",
+  "universidad": "Instituto Tecnológico de Culiacán",
   "decay_analysis": {
-    "quality_decayed": 6.240919644221452,
-    "difficulty_decayed": null
+    "quality_decayed": 6.240919644221454,
+    "difficulty_decayed": 4.759080355778547
   },
   "bayes_analysis": {
-    "quality_bayes": 6.981326750221547,
-    "difficulty_bayes": null
+    "quality_bayes": 7.2229640619848325,
+    "difficulty_bayes": 3.0034619188921865
   },
   "recommendation_analysis": {
     "rate": 0.5,
@@ -24,7 +24,7 @@
     "per_subject": [
       {
         "materia": "MERCADOTECNIA",
-        "z_decayed": -0.21570407814636364,
+        "z_decayed": -0.2157040781463638,
         "n": 9
       }
     ]
@@ -63,17 +63,17 @@
       "fecha_iso": "2021-11-29T00:00:00",
       "materia": "MERCADOTECNIA",
       "calidad": 5.0,
-      "dificultad": null,
-      "nota": 8.5,
-      "recomienda": 0,
+      "dificultad": 6.0,
+      "nota": null,
+      "recomienda": 0.5,
       "comentario": "Virtuales rara vez entra a clases y toma lista a los 5 min, floja, no da tiempo considerable a entregar trabajos finales, examen final sorpresa, no es organizada, no es flexible, exigente y muchas tareas (cortas pero muchas sin aviso). Tienes que estar al pendiente de la plataforma todo el tiempo."
     },
     {
       "fecha_iso": "2019-08-09T00:00:00",
       "materia": "MERCADOTECNIA",
       "calidad": 9.0,
-      "dificultad": null,
-      "nota": 9.5,
+      "dificultad": 2.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "Ecxelente modo de enseñanza, estricta en la asistencia, pocos examenes, mucho trabajo en equipo, y muchas oportunidades de pasar"
     }

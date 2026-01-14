@@ -73,13 +73,23 @@ class ProfessorAnalyzer:
         """Extract atomic review rows with proper recommendation mapping"""
         rows = []
         for cal in calificaciones:
+            # Determine recommendation: prioritize explicit tag OR 'BUENO' rating
             tipo = (cal.get('tipo_calificacion') or '').strip().upper()
-            recomienda = 1 if tipo == 'BUENO' else 0 if tipo else None
+            has_tag = cal.get('recomienda') is True
             
-            # Handle facilidad to difficulty conversion
+            if has_tag or tipo == 'BUENO':
+                recomienda = 1
+            elif tipo == 'REGULAR':
+                recomienda = 0.5  # Neutral for binary metric
+            elif tipo == 'MALO':
+                recomienda = 0
+            else:
+                recomienda = None
+            
+            # Handle facilidad to difficulty conversion: 10 - Ease = Hardness
             facilidad = cal.get('puntaje_facilidad')
             if facilidad is not None and facilidad not in (None, 0, '0', '0.0'):
-                dificultad = min(5.0, float(facilidad))
+                dificultad = 10.0 - float(facilidad)
             else:
                 dificultad = None
                 
@@ -233,12 +243,12 @@ class ProfessorAnalyzer:
                     if subject:
                         subject_data[subject]['quality'].append(quality)
                 
-                # Dificultad (misma escala que en _extract_rows): 0 => missing, clamp a 5.0
+                # Dificultad (10 - Ease = Hardness): 0 => missing
                 fac = review.get('puntaje_facilidad')
                 if fac is not None:
                     fac = float(fac)
-                    if fac > 0:
-                        diff = min(5.0, fac)
+                    if fac >= 0:
+                        diff = 10.0 - fac
                         all_difficulty.append(diff)
                         subject = (review.get('materia') or '').upper()
                         if subject:
@@ -296,14 +306,23 @@ class ProfessorAnalyzer:
         quality_bayes = self.bayesian_score(qualities, self.global_stats['mu_quality'])
         difficulty_bayes = self.bayesian_score(difficulties, self.global_stats['mu_difficulty'])
         
-        # 3. Intervalo de Wilson para recomendaciones (with proper n>0 guard)
+        # 3. Intervalo de Wilson para recomendaciones
         recommendations = [r['recomienda'] for r in reviews if r['recomienda'] is not None]
-        n = len(recommendations)
-        if n:
-            r = sum(recommendations)
-            p = r/n
-            low, high = self.wilson_interval(p, n, confidence=0.95)
-            recommendation_analysis = {'rate': round(p, 3), 'wilson_interval': [low, high], 'n_recommendations': n}
+        n_rec = len(recommendations)
+        
+        # Prioritize official rate from scraper if available and valid (> 0)
+        official_rate = data.get('porcentaje_recomienda')
+        if official_rate is not None and official_rate > 0:
+            p = official_rate / 100.0
+            # If we have official data, we use it, but Wilson interval still needs n
+            n_eff = max(n_rec, 1) # avoid div by zero
+            low, high = self.wilson_interval(p, n_eff, confidence=0.95)
+            recommendation_analysis = {'rate': round(p, 3), 'wilson_interval': [low, high], 'n_recommendations': n_rec}
+        elif n_rec:
+            r_sum = sum(recommendations)
+            p = r_sum / n_rec
+            low, high = self.wilson_interval(p, n_rec, confidence=0.95)
+            recommendation_analysis = {'rate': round(p, 3), 'wilson_interval': [low, high], 'n_recommendations': n_rec}
         else:
             recommendation_analysis = {'rate': None, 'wilson_interval': None, 'n_recommendations': 0}
         
@@ -876,7 +895,7 @@ class ProfessorAnalyzer:
 def main():
     analyzer = ProfessorAnalyzer(data_dir="profesores_json", out_dir="out")
     analyzer.load_all_data()
-    results = analyzer.analyze_all_professors()
+    results = analyzer.save_results()  # This now saves to advanced_analysis_results.json
     print("\nOK. Archivos generados en ./out")
     print(f"- Profesores: {results['list_min_len']} en indices/list-min.json")
     print(f"- Pareto: {len(results['pareto']['points'])} puntos, {len(results['pareto']['efficient_ids'])} eficientes")

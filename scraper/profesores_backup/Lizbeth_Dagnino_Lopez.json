@@ -1,0 +1,54 @@
+{
+  "nombre": "Lizbeth Dagnino Lopez",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "ciudad": "Ciudad: culiacan, sinaloa",
+  "departamento": "Departamento/Facultad: Probabilidad y estadistica",
+  "calidad_general": 6.5,
+  "porcentaje_recomienda": 100,
+  "nivel_dificultad": 2.0,
+  "etiquetas": [
+    "BARCO (1)",
+    "LA PARTICIPACIÓN IMPORTA (1)",
+    "DEJA TRABAJOS LARGOS (1)",
+    "BRINDA APOYO (1)",
+    "TOMARÍA SU CLASE OTRA VEZ (1)"
+  ],
+  "numero_calificaciones": 2,
+  "calificaciones": [
+    {
+      "fecha": "20/Ago/2024",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 7.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "probabilidad y estadística",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "N/A",
+      "interes_clase": "",
+      "comentario": "medio se hace bola ella sola pero mientras asistan no se les complicará nada pasar, sus exámenes son los ejercicios vistos en clases y con sus métodos, por eso importa asistir apesar de que no toma lista",
+      "etiquetas_comentario": [
+        "Brinda apoyo",
+        "Tomaría su clase otra vez"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "11/Jun/2024",
+      "tipo_calificacion": "REGULAR",
+      "puntaje_calidad_general": 6.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Probabilidad y estadistica",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "8.5",
+      "interes_clase": "",
+      "comentario": "Las clases son algo confusas ella misma se confunde con los temas y termina dando informacion erronea, importa la participacion y firmas de trabajos mas que nada ya que valen 10%, al final si no pasas una unidad te la redondea pero si no pasas 2 nomas te hace examen de las 2, examenes faciles",
+      "etiquetas_comentario": [
+        "Barco",
+        "La Participación Importa",
+        "Deja trabajos largos"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    }
+  ]
+}

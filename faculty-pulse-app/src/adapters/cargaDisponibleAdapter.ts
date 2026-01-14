@@ -85,7 +85,7 @@ const mapDayToDayOfWeek = (dia: string): DayOfWeek | null => {
     'VIE': 'V',
     'SAB': 'S',
   };
-  
+
   return dayMap[dia.toUpperCase()] || null;
 };
 
@@ -107,13 +107,16 @@ export const adaptCargaDisponibleToCanonical = (cargaData: CargaDisponible): Sch
       code: materia.claveMateria,
       name: materia.nombre || materia.aliasMateria,
       groups: [],
+      classification: materia.clasificacion as 'DISPONIBLE' | 'AVANCE' | 'CURSADA',
+      credits: materia.creditos,
+      hours: materia.horas,
     };
 
     // Procesar cada grupo de la materia
     materia.grupos.forEach((grupo) => {
       // Convertir horarios individuales a TimeSlots
       const schedule: TimeSlot[] = [];
-      
+
       grupo.horario.forEach((slot) => {
         const day = mapDayToDayOfWeek(slot.dia);
         if (day) {
@@ -127,8 +130,9 @@ export const adaptCargaDisponibleToCanonical = (cargaData: CargaDisponible): Sch
         }
       });
 
-      // Limpiar nombre del docente (remover espacios extras)
-      const professorName = grupo.docente.trim().replace(/\s+/g, ' ');
+      // Limpiar nombre del docente (remover espacios extras y detectar nombres vacíos)
+      const cleanedName = grupo.docente?.trim().replace(/\s+/g, ' ') || '';
+      const professorName = cleanedName.length > 0 ? cleanedName : '';
 
       // Crear el CourseGroup
       const courseGroup: CourseGroup = {
@@ -137,7 +141,7 @@ export const adaptCargaDisponibleToCanonical = (cargaData: CargaDisponible): Sch
         subjectName: subject.name,
         groupCode: grupo.claveGrupo,
         professorIds: [], // Se enlazará después con el repositorio de profesores
-        professorNames: professorName ? [professorName] : ['Sin asignar'],
+        professorNames: professorName ? [professorName] : [],
         schedule,
       };
 

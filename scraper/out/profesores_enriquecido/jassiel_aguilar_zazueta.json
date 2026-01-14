@@ -1,41 +1,31 @@
 {
   "professor_id": "jassiel_aguilar_zazueta",
   "nombre": "jassiel aguilar zazueta",
-  "universidad": "Instituto Tecnologico de Culiacan",
+  "universidad": "Instituto Tecnológico de Culiacán",
   "decay_analysis": {
-    "quality_decayed": 3.6405234169799665,
-    "difficulty_decayed": null
+    "quality_decayed": 3.6590303668344237,
+    "difficulty_decayed": 6.905469672562555
   },
   "bayes_analysis": {
-    "quality_bayes": 5.688796050132928,
-    "difficulty_bayes": null
+    "quality_bayes": 6.0450379162545325,
+    "difficulty_bayes": 4.136102868447082
   },
   "recommendation_analysis": {
-    "rate": 0.2,
+    "rate": 0.3,
     "wilson_interval": [
-      0.05668094798069332,
-      0.5098431532792765
+      0.07258233012539304,
+      0.7012142677754393
     ],
-    "n_recommendations": 10
+    "n_recommendations": 5
   },
   "subject_normalization": {
-    "z_mean": -0.54,
-    "z_mean_decayed": -0.64,
+    "z_mean": -0.55,
+    "z_mean_decayed": -0.54,
     "per_subject": [
       {
-        "materia": "ADMON DE PROYECTOS",
-        "z_decayed": 0.5773502691896257,
-        "n": 3
-      },
-      {
         "materia": "ADMINISTRACIÓN DE PROYECTOS",
-        "z_decayed": -0.6429581884084273,
-        "n": 9
-      },
-      {
-        "materia": "ADMINISTRACION DE PROYECTOS",
-        "z_decayed": -1.0552897060221726,
-        "n": 4
+        "z_decayed": -0.535512594402294,
+        "n": 8
       }
     ]
   },
@@ -53,61 +43,36 @@
       {
         "id": 0,
         "words": [
-          "menos",
-          "es",
+          "faltan",
+          "faltan decimas",
+          "te",
           "clase",
-          "clases",
-          "vida"
+          "si"
         ],
-        "weight": 0.1664115874616156
+        "weight": 0.40119900771306427
       },
       {
         "id": 1,
         "words": [
-          "da",
-          "te",
-          "maestro",
-          "buen maestro",
-          "buen"
-        ],
-        "weight": 0.15171860749455707
-      },
-      {
-        "id": 2,
-        "words": [
-          "te",
-          "alumnos",
           "dar",
+          "vida",
+          "menos",
           "clase",
           "gusta"
         ],
-        "weight": 0.11610857076888909
-      },
-      {
-        "id": 3,
-        "words": [
-          "faltan decimas",
-          "te faltan",
-          "si te",
-          "habla",
-          "si"
-        ],
-        "weight": 0.19607381479916214
+        "weight": 0.2902985173573118
       }
     ],
     "sentiment": {
-      "overall": 0.0,
+      "overall": -0.25,
       "by_month": {
         "2022-12": -1.0,
         "2021-10": 0.0,
         "2019-08": 0.0,
-        "2019-01": 0.0,
-        "2017-12": 0.0,
-        "2017-10": 0.0,
-        "2015-01": 0.5
+        "2019-01": 0.0
       }
     },
-    "n_comments": 8
+    "n_comments": 4
   },
   "integrity_analysis": {
     "dup_rate": 0.0,
@@ -118,10 +83,6 @@
   "trends_analysis": {
     "quality_trend": {
       "series": [
-        10.0,
-        2.0,
-        2.0,
-        2.0,
         2.0,
         3.0,
         5.0,
@@ -129,24 +90,36 @@
         2.0
       ],
       "ewma": [
-        10.0,
-        7.6,
-        5.919999999999999,
-        4.743999999999999,
-        3.920799999999999,
-        3.644559999999999,
-        4.051191999999999,
-        4.6358343999999985,
-        3.845084079999999
+        2.0,
+        2.3,
+        3.11,
+        3.9769999999999994,
+        3.3838999999999997
       ],
-      "sigma": 2.2806116344594805
+      "sigma": 1.412833221579957
     },
-    "difficulty_trend": null,
+    "difficulty_trend": {
+      "series": [
+        8.0,
+        6.0,
+        6.0,
+        6.0,
+        8.0
+      ],
+      "ewma": [
+        8.0,
+        7.3999999999999995,
+        6.9799999999999995,
+        6.685999999999999,
+        7.0802
+      ],
+      "sigma": 0.9104659730050321
+    },
     "forecast": {
-      "quality_next": 3.845084079999999,
+      "quality_next": 3.3838999999999997,
       "quality_band": [
-        0.0,
-        8.315082883540581
+        0.6147468857032838,
+        6.153053114296716
       ],
       "confidence": 0.95
     },
@@ -157,8 +130,8 @@
       "fecha_iso": "2022-12-07T00:00:00",
       "materia": "ADMINISTRACIÓN DE PROYECTOS",
       "calidad": 2.0,
-      "dificultad": null,
-      "nota": 23.0,
+      "dificultad": 8.0,
+      "nota": null,
       "recomienda": 0,
       "comentario": "HORRIBLE! sin duda alguna el profesor más desagradables que me a tocado.Grosero, irrespetuoso,altanero y sádico, le gusta burlarse de sus alumnos, hace de todo menos dar una clase productiva. Una clase con el es para que te ofenda o agreda y de paso enterarte de su vida."
     },
@@ -166,26 +139,26 @@
       "fecha_iso": "2021-10-25T00:00:00",
       "materia": "ADMINISTRACIÓN DE PROYECTOS",
       "calidad": 6.0,
-      "dificultad": null,
-      "nota": 8.0,
-      "recomienda": 0,
+      "dificultad": 6.0,
+      "nota": null,
+      "recomienda": 0.5,
       "comentario": "La verdad no me gusta la dinámica donde nos quiere hacer a fuerzas decir el concepto que se está imaginando porque no leemos mentes y no lo sabemos todo.\nMe gusta que explique detalladamente y que sea estricto en cuestión de las fechas de entrega y la calidad de lo que entregamos."
     },
     {
       "fecha_iso": "2021-02-01T00:00:00",
       "materia": "ADMINISTRACIÓN DE PROYECTOS",
       "calidad": 5.0,
-      "dificultad": null,
-      "nota": 6.5,
-      "recomienda": 0,
+      "dificultad": 6.0,
+      "nota": null,
+      "recomienda": 0.5,
       "comentario": ""
     },
     {
       "fecha_iso": "2019-08-09T00:00:00",
       "materia": "ADMINISTRACIÓN DE PROYECTOS",
       "calidad": 3.0,
-      "dificultad": null,
-      "nota": 7.0,
+      "dificultad": 6.0,
+      "nota": null,
       "recomienda": 0,
       "comentario": "Habla de todo menos de la clase, asistencia obligatoria, no ayuda si te faltan 2 decimas, examenes confusos, proyecto facil, si quieres pasar no debes faltar ninguna clase"
     },
@@ -193,66 +166,17 @@
       "fecha_iso": "2019-01-12T00:00:00",
       "materia": "ADMINISTRACIÓN DE PROYECTOS",
       "calidad": 2.0,
-      "dificultad": null,
-      "nota": 6.5,
-      "recomienda": 0,
-      "comentario": "NO Da clases, solo habla de su vida que no es nada interesante, sus examenes como si fueras a solicitar un empleo, no ayuda si te faltan 2 décimas para llegar a 70, mucho ego, no sabe dar clases ni explicar, 50 min de platicas sin sentido."
-    },
-    {
-      "fecha_iso": "2018-01-20T00:00:00",
-      "materia": "ADM DE PROYECTOS",
-      "calidad": 2.0,
-      "dificultad": null,
+      "dificultad": 8.0,
       "nota": null,
       "recomienda": 0,
-      "comentario": ""
-    },
-    {
-      "fecha_iso": "2017-12-12T00:00:00",
-      "materia": "ADMINISTRACION DE OPERACIONES",
-      "calidad": 2.0,
-      "dificultad": null,
-      "nota": 7.0,
-      "recomienda": 0,
-      "comentario": "las clases no son claras, exámenes muy confusos, a demás de que es un maestro que se burla de los alumnos mediante a su sarcasmo, y solo habla de su vida, y de sus ingresos, que según el son muchos."
-    },
-    {
-      "fecha_iso": "2017-10-23T00:00:00",
-      "materia": "ADMINISTRACION DE PROYECTOS",
-      "calidad": 2.0,
-      "dificultad": null,
-      "nota": 10.0,
-      "recomienda": 0,
-      "comentario": "Se pone a hablar de su vida y otras cosas menos de las clases. Es una lastima que esté ocupando lugar en esta materia habiendo mejores maestros. \nLiteral sus clases son : Hablar sobre el mismo, criticar a su patria y quejarse de la vida. y no ve nada de la clase."
-    },
-    {
-      "fecha_iso": "2015-01-10T00:00:00",
-      "materia": "ADMON DE PROYECTOS",
-      "calidad": 10.0,
-      "dificultad": null,
-      "nota": 9.0,
-      "recomienda": 1,
-      "comentario": "Muy buen maestro, no te complica la materia, te enseña con lo de la vida real, solo no faltes mucho y examenes de opciones y acaso pocas preguntas abiertas."
-    },
-    {
-      "fecha_iso": "2015-01-09T00:00:00",
-      "materia": "ADMON PROY",
-      "calidad": 10.0,
-      "dificultad": null,
-      "nota": 9.0,
-      "recomienda": 1,
-      "comentario": "buen maetro, practico, da oportunidades, buen maestro"
+      "comentario": "NO Da clases, solo habla de su vida que no es nada interesante, sus examenes como si fueras a solicitar un empleo, no ayuda si te faltan 2 décimas para llegar a 70, mucho ego, no sabe dar clases ni explicar, 50 min de platicas sin sentido."
     }
   ],
   "comments_recent": [
     "HORRIBLE! sin duda alguna el profesor más desagradables que me a tocado.Grosero, irrespetuoso,altanero y sádico, le gusta burlarse de sus alumnos, hace de todo menos dar una clase productiva. Una clase con el es para que te ofenda o agreda y de paso enterarte de su vida.",
     "La verdad no me gusta la dinámica donde nos quiere hacer a fuerzas decir el concepto que se está imaginando porque no leemos mentes y no lo sabemos todo.\nMe gusta que explique detalladamente y que sea estricto en cuestión de las fechas de entrega y la calidad de lo que entregamos.",
     "Habla de todo menos de la clase, asistencia obligatoria, no ayuda si te faltan 2 decimas, examenes confusos, proyecto facil, si quieres pasar no debes faltar ninguna clase",
-    "NO Da clases, solo habla de su vida que no es nada interesante, sus examenes como si fueras a solicitar un empleo, no ayuda si te faltan 2 décimas para llegar a 70, mucho ego, no sabe dar clases ni explicar, 50 min de platicas sin sentido.",
-    "las clases no son claras, exámenes muy confusos, a demás de que es un maestro que se burla de los alumnos mediante a su sarcasmo, y solo habla de su vida, y de sus ingresos, que según el son muchos.",
-    "Se pone a hablar de su vida y otras cosas menos de las clases. Es una lastima que esté ocupando lugar en esta materia habiendo mejores maestros. \nLiteral sus clases son : Hablar sobre el mismo, criticar a su patria y quejarse de la vida. y no ve nada de la clase.",
-    "Muy buen maestro, no te complica la materia, te enseña con lo de la vida real, solo no faltes mucho y examenes de opciones y acaso pocas preguntas abiertas.",
-    "buen maetro, practico, da oportunidades, buen maestro"
+    "NO Da clases, solo habla de su vida que no es nada interesante, sus examenes como si fueras a solicitar un empleo, no ayuda si te faltan 2 décimas para llegar a 70, mucho ego, no sabe dar clases ni explicar, 50 min de platicas sin sentido."
   ],
-  "n_reviews": 10
+  "n_reviews": 5
 }

@@ -1,31 +1,31 @@
 {
   "professor_id": "Francisco_Núñez_López",
   "nombre": "Francisco Núñez López",
-  "universidad": "Instituto Tecnologico de Culiacan",
+  "universidad": "Instituto Tecnológico de Culiacán",
   "decay_analysis": {
     "quality_decayed": 4.5108302364945105,
-    "difficulty_decayed": null
+    "difficulty_decayed": 2.9783395270109794
   },
   "bayes_analysis": {
-    "quality_bayes": 6.56466008355488,
-    "difficulty_bayes": null
+    "quality_bayes": 6.806297395318166,
+    "difficulty_bayes": 2.8367952522255195
   },
   "recommendation_analysis": {
-    "rate": 0.0,
+    "rate": 0.5,
     "wilson_interval": [
-      0,
-      0.6576280471103807
+      0.09452865480086611,
+      0.905471345199134
     ],
     "n_recommendations": 2
   },
   "subject_normalization": {
-    "z_mean": -1.18,
-    "z_mean_decayed": -1.17,
+    "z_mean": -0.42,
+    "z_mean_decayed": -0.42,
     "per_subject": [
       {
         "materia": "TALLER DE LIDERAZGO",
-        "z_decayed": -1.1740272201714055,
-        "n": 38
+        "z_decayed": -0.4151887022692391,
+        "n": 9
       }
     ]
   },
@@ -63,17 +63,17 @@
       "fecha_iso": "2022-12-08T00:00:00",
       "materia": "TALLER DE LIDERAZGO",
       "calidad": 6.0,
-      "dificultad": null,
-      "nota": 8.0,
-      "recomienda": 0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 0.5,
       "comentario": "Sabe de lo que habla, explica bien, la asistencia es muy importante, solo debes entregar un proyecto por parcial no es 100% barco porque pasas fácil y aprendes que es lo importante, de que sirve una materia difícil si no aprendes nada"
     },
     {
       "fecha_iso": "2022-11-23T00:00:00",
       "materia": "TALLER DE LIDERAZGO",
       "calidad": 3.0,
-      "dificultad": null,
-      "nota": 9.5,
+      "dificultad": 6.0,
+      "nota": null,
       "recomienda": 0,
       "comentario": "Tira mucho rollo y le gusta hacerla de pedo, nunca falta a veces no se le entiende a los trabajos que deja."
     }

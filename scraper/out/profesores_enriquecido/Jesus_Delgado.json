@@ -1,14 +1,14 @@
 {
   "professor_id": "Jesus_Delgado",
   "nombre": "Jesus Delgado",
-  "universidad": "Instituto Tecnologico de Culiacan",
+  "universidad": "Instituto Tecnológico de Culiacán",
   "decay_analysis": {
     "quality_decayed": 10.0,
-    "difficulty_decayed": null
+    "difficulty_decayed": 0.0
   },
   "bayes_analysis": {
-    "quality_bayes": 7.252356454787142,
-    "difficulty_bayes": null
+    "quality_bayes": 7.515960794892544,
+    "difficulty_bayes": 2.5492311842460214
   },
   "recommendation_analysis": {
     "rate": 1.0,
@@ -19,15 +19,9 @@
     "n_recommendations": 1
   },
   "subject_normalization": {
-    "z_mean": 1.57,
-    "z_mean_decayed": 1.57,
-    "per_subject": [
-      {
-        "materia": "PROGRAMACION BASICA",
-        "z_decayed": 1.5698598156852284,
-        "n": 9
-      }
-    ]
+    "z_mean": null,
+    "z_mean_decayed": null,
+    "per_subject": []
   },
   "grades_analysis": {
     "grade_distribution": {
@@ -63,8 +57,8 @@
       "fecha_iso": "2021-08-12T00:00:00",
       "materia": "PROGRAMACION BASICA",
       "calidad": 10.0,
-      "dificultad": null,
-      "nota": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "El profe la verdad da una clase muy buena muy grasoso. Pero huele a poposita"
     }

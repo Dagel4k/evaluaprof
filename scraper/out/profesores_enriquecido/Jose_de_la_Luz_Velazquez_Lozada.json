@@ -1,14 +1,14 @@
 {
   "professor_id": "Jose_de_la_Luz_Velazquez_Lozada",
   "nombre": "Jose de la Luz Velazquez Lozada",
-  "universidad": "Instituto Tecnologico de Culiacan",
+  "universidad": "Instituto Tecnológico de Culiacán",
   "decay_analysis": {
     "quality_decayed": 6.015868351323759,
-    "difficulty_decayed": null
+    "difficulty_decayed": 1.865753343296856
   },
   "bayes_analysis": {
-    "quality_bayes": 6.912565785904183,
-    "difficulty_bayes": null
+    "quality_bayes": 7.119683481701285,
+    "difficulty_bayes": 2.574395930479017
   },
   "recommendation_analysis": {
     "rate": 0.5,
@@ -19,18 +19,18 @@
     "n_recommendations": 4
   },
   "subject_normalization": {
-    "z_mean": -0.06,
-    "z_mean_decayed": -0.66,
+    "z_mean": -0.28,
+    "z_mean_decayed": -1.73,
     "per_subject": [
       {
         "materia": "DIBUJO",
-        "z_decayed": -0.1091290749175209,
-        "n": 14
+        "z_decayed": 0.0639754641023576,
+        "n": 8
       },
       {
         "materia": "DIBUJO ASISTIDO POR COMPUTADORA",
-        "z_decayed": -0.7888106377466154,
-        "n": 15
+        "z_decayed": -2.141213516125243,
+        "n": 9
       }
     ]
   },
@@ -73,7 +73,21 @@
       ],
       "sigma": 0.9905680188659433
     },
-    "difficulty_trend": null,
+    "difficulty_trend": {
+      "series": [
+        2.0,
+        4.0,
+        0.0,
+        2.0
+      ],
+      "ewma": [
+        2.0,
+        2.5999999999999996,
+        1.8199999999999996,
+        1.8739999999999997
+      ],
+      "sigma": 1.324973836219669
+    },
     "forecast": {
       "quality_next": 6.77,
       "quality_band": [
@@ -89,26 +103,26 @@
       "fecha_iso": "2025-06-16T00:00:00",
       "materia": "DIBUJO ASISTIDO POR COMPUTADORA",
       "calidad": 6.0,
-      "dificultad": null,
-      "nota": 24.0,
-      "recomienda": 0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 0.5,
       "comentario": "Como te mira te califica, pero si importa mucho que si le hagas sus trabajos y que si estes en sus clases."
     },
     {
       "fecha_iso": "2019-12-13T00:00:00",
       "materia": "DIBUJO",
       "calidad": 5.0,
-      "dificultad": null,
-      "nota": 8.0,
-      "recomienda": 0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 0.5,
       "comentario": "Califica segun sus propios criterios. cada dia es un examen, al final de la unidad te saca el promedio del dibujo que hayas hecho cada dias y el resultado es un tercio, el segundo tercio es algun trabajo que haya dejado, y la parte final la llama \"competencia general\" y califica si le caes bien o no"
     },
     {
       "fecha_iso": "2017-08-05T00:00:00",
       "materia": "DIBUJO",
       "calidad": 8.0,
-      "dificultad": null,
-      "nota": 7.5,
+      "dificultad": 4.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": ""
     },
@@ -116,8 +130,8 @@
       "fecha_iso": "2013-12-04T00:00:00",
       "materia": "DIBUJO",
       "calidad": 8.0,
-      "dificultad": null,
-      "nota": 7.0,
+      "dificultad": 2.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "Habla demasiado en la clase, se va todo en platica y nada de dibujar."
     }

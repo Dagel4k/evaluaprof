@@ -1,4 +1,70 @@
 {
   "professor_id": "Jesus_Esteban_Cardenas_Montelongo",
-  "error": "No hay reseñas disponibles"
+  "nombre": "Jesus Esteban Cardenas Montelongo",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 6.999999999999999,
+    "difficulty_decayed": 8.0
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.243233522165272,
+    "difficulty_bayes": 3.276503911518749
+  },
+  "recommendation_analysis": {
+    "rate": 1.0,
+    "wilson_interval": [
+      0.20654329147389294,
+      1
+    ],
+    "n_recommendations": 1
+  },
+  "subject_normalization": {
+    "z_mean": null,
+    "z_mean_decayed": null,
+    "per_subject": []
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [],
+    "sentiment": {
+      "overall": null,
+      "by_month": {}
+    },
+    "n_comments": 1
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": null,
+    "difficulty_trend": null,
+    "forecast": null,
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2025-11-28T00:00:00",
+      "materia": "NO ME ACUERDO",
+      "calidad": 7.0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Es malo para jugar al Uno, le gusta detonar al carlos, ta loco en el mario kart"
+    }
+  ],
+  "comments_recent": [
+    "Es malo para jugar al Uno, le gusta detonar al carlos, ta loco en el mario kart"
+  ],
+  "n_reviews": 1
 }

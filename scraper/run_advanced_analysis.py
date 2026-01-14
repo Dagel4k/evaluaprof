@@ -36,7 +36,7 @@ def check_dependencies():
 
 def check_data_directory():
     """Verifica que el directorio de datos existe"""
-    data_dir = "profesores_json copy"
+    data_dir = "profesores_json"
     if not os.path.exists(data_dir):
         print(f"❌ No se encontró el directorio de datos: {data_dir}")
         return False

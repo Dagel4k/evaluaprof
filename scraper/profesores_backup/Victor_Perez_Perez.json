@@ -1,0 +1,263 @@
+{
+  "nombre": "Victor Perez Perez",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "ciudad": "Ciudad: culiacan, sinaloa",
+  "departamento": "Departamento/Facultad: Mecanica",
+  "calidad_general": 7.6,
+  "porcentaje_recomienda": 73,
+  "nivel_dificultad": 3.2,
+  "etiquetas": [
+    "INSPIRACIONAL (1)",
+    "CLASES EXCELENTES (1)",
+    "TOMARÍA SU CLASE OTRA VEZ (2)",
+    "CALIFICA DURO (4)",
+    "MUCHAS TAREAS (5)",
+    "MUCHOS PROYECTOS GRUPALES (2)",
+    "PREPÁRATE PARA LEER (2)",
+    "DEJA TRABAJOS LARGOS (1)",
+    "LOS EXÁMENES SON DIFÍCILES (1)",
+    "MUY CÓMICO (1)"
+  ],
+  "numero_calificaciones": 15,
+  "calificaciones": [
+    {
+      "fecha": "04/Dic/2024",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 8.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Automatización y Redes Industriales",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "9",
+      "interes_clase": "",
+      "comentario": "No hay mejor profe para cargar especialidad que con él, si cargas Redes y Auto con otro profe no verás más que puras diapositivas en todo el semestre porque este profe es el que tiene a cargo el laboratorio de mecatrónica. Lo de pagarle es opcional, pero si se puede pasar sin hacerlo.",
+      "etiquetas_comentario": [
+        "Muy cómico",
+        "Asistencia obligatoria",
+        "Tomaría su clase otra vez"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "18/Ene/2024",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 9.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Redes y auto",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "9.5",
+      "interes_clase": "",
+      "comentario": "Cobra, pero puedes pasar sin pagar. La verdad si deja demasiada tarea, si tienes dudas trata de resolverlas o te da materiales para que puedas resolverlas. Si quieren dedicarse a la automatización sus clases serán las más importantes y útiles.",
+      "etiquetas_comentario": [
+        "Califica Duro",
+        "Muchas tareas"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "27/Mar/2023",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 2.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Redes Industriales",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "7",
+      "interes_clase": "",
+      "comentario": "Deja tanta tarea para que te provoque que le pagues por pasar la materia. Cargué con el porque decía pendiente por asignar. Su clases son puros videos de su canal que no explica de manera clara el cómo hacer lo proyectos. De 20 alumnos en el semestre solo quedaron 5. Cobra como 2500 ´por materia.",
+      "etiquetas_comentario": [
+        "Califica Duro",
+        "Muchas tareas",
+        "Muchos proyectos grupales"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "11/Jun/2022",
+      "tipo_calificacion": "REGULAR",
+      "puntaje_calidad_general": 6.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "automatizacion y redes",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "25",
+      "interes_clase": "",
+      "comentario": "pagale y pasaras el semestre",
+      "etiquetas_comentario": [
+        "Califica Duro"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "17/Jun/2021",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 8.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Redes industriales y automatización",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "N/A",
+      "interes_clase": "",
+      "comentario": "Es el profe bueno para ambas materias, aprendes porque aprendes. Esfuérzate desde el día 1 hasta el último. Si eres un flojo conformista es mejor que no cargues con el. Carga ambas materias con el porque 1 trabajo cuenta para ambas materias (redes y auto)",
+      "etiquetas_comentario": [
+        "Muchas tareas",
+        "Prepárate para leer",
+        "Los exámenes son difíciles"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "24/May/2021",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 8.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Automatizacion y Redes Industriales",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "N/A",
+      "interes_clase": "",
+      "comentario": "Solo te daré un consejo: cuando cargues con el trata te cargar ambas materias con el y corridas, ya que sus trabajos van tomados de la mano y unos trabajos de auto te sirven en redes y viceversa.",
+      "etiquetas_comentario": [
+        "Muchas tareas",
+        "Prepárate para leer",
+        "Deja trabajos largos"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "19/Mar/2021",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 2.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Automatización",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "24",
+      "interes_clase": "",
+      "comentario": "No sabe arreglar los problemas que se presentan, solo deja trabajos y al final los programas usados dan problemas (en linea, ojala en presencial no sea así)",
+      "etiquetas_comentario": [
+        "Califica Duro",
+        "Muchas tareas",
+        "Muchos proyectos grupales"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "20/Feb/2021",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Operaciones Internacionales",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "Excelente profesor! Excelente clase! Aprendes muchisimo",
+      "etiquetas_comentario": [
+        "Inspiracional",
+        "Clases excelentes",
+        "Tomaría su clase otra vez"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "14/Oct/2020",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Automatizacion",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "N/A",
+      "interes_clase": "",
+      "comentario": "Excelente maestro y persona, es uno de los maestros que mas te echaran la mano durante la carrera, siempre ve la forma de ayudar a sus alumnos",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "11/Ene/2020",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Automatizacion",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "N/A",
+      "interes_clase": "",
+      "comentario": "Es un amor este profe, es el profe que más te va echar la mano en la carrera, si le dices que solamente quieres liberar su materia ya sea porque estás haciendo residencias o porque solamente quieres liberarla te la libera y con buena calificación :) súper recomendado",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "14/Nov/2013",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 9.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Redes industriales",
+      "asistencia": "",
+      "calificacion_recibida": "N/A",
+      "interes_clase": "N/A",
+      "comentario": "Buen profesor, comprensivo con los estudiantes, de los pocos profesores del tec que no es mamón, loco, con trauma de la infancia, repugnante o que se ensañe con los alumnos. Muy recomendable.",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "14/Nov/2013",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "AUTOMATIZACION",
+      "asistencia": "",
+      "calificacion_recibida": "N/A",
+      "interes_clase": "N/A",
+      "comentario": "BEST PROFE EVER, TE DA UN CHINGO DE CHANSE, Y APRENDES PORQUE APRENDES, LOS EXAMENES NO ESTAN DIFICILES, Y AVECES LOS DEJA DE TAREA. ESO SI, TIENES QUE ENTREGAR LOS PROYECTOS, PERO POR LO GENERAL SON PROYECTOS DENTRO DEL LABORATORIO, ASI QUE NO SON DE ESOS PROYECTOS QUE TIENES QUE HACER TU",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "14/Nov/2013",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "automatización",
+      "asistencia": "",
+      "calificacion_recibida": "10",
+      "interes_clase": "10",
+      "comentario": "",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "07/Ago/2013",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 2.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "---",
+      "asistencia": "",
+      "calificacion_recibida": "N/A",
+      "interes_clase": "N/A",
+      "comentario": "[Comentario esperando revisión]",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "03/Jul/2011",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 9.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Control Digital",
+      "asistencia": "",
+      "calificacion_recibida": "10",
+      "interes_clase": "10",
+      "comentario": "",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    }
+  ]
+}

@@ -1,14 +1,14 @@
 {
   "professor_id": "Gerardo_Rojas",
   "nombre": "Gerardo Rojas",
-  "universidad": "Instituto Tecnologico de Culiacan",
+  "universidad": "Instituto Tecnológico de Culiacán",
   "decay_analysis": {
-    "quality_decayed": 9.662116454658536,
-    "difficulty_decayed": null
+    "quality_decayed": 9.662116454658538,
+    "difficulty_decayed": 1.0136506360243884
   },
   "bayes_analysis": {
-    "quality_bayes": 7.521224692512197,
-    "difficulty_bayes": null
+    "quality_bayes": 7.74427451875523,
+    "difficulty_bayes": 2.6185802328235566
   },
   "recommendation_analysis": {
     "rate": 1.0,
@@ -19,23 +19,23 @@
     "n_recommendations": 3
   },
   "subject_normalization": {
-    "z_mean": 0.72,
-    "z_mean_decayed": 0.74,
+    "z_mean": 1.17,
+    "z_mean_decayed": 1.22,
     "per_subject": [
       {
         "materia": "MATEMATICAS I",
-        "z_decayed": 0.9805930739015237,
-        "n": 11
+        "z_decayed": 1.3174650984805198,
+        "n": 4
       },
       {
         "materia": "ESTÁTICA",
-        "z_decayed": 0.7770928126270502,
-        "n": 8
+        "z_decayed": 1.2649110640673518,
+        "n": 5
       },
       {
         "materia": "ESTATICA",
-        "z_decayed": 0.3983453910460061,
-        "n": 25
+        "z_decayed": 0.939232002091115,
+        "n": 7
       }
     ]
   },
@@ -76,7 +76,19 @@
       ],
       "sigma": 0.9529602999775665
     },
-    "difficulty_trend": null,
+    "difficulty_trend": {
+      "series": [
+        0.0,
+        6.0,
+        0.0
+      ],
+      "ewma": [
+        0.0,
+        1.7999999999999998,
+        1.2599999999999998
+      ],
+      "sigma": 2.858880899932699
+    },
     "forecast": {
       "quality_next": 9.58,
       "quality_band": [
@@ -92,8 +104,8 @@
       "fecha_iso": "2016-01-13T00:00:00",
       "materia": "ESTÁTICA",
       "calidad": 10.0,
-      "dificultad": null,
-      "nota": 9.5,
+      "dificultad": 0.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "Rojitas se la rifa, el mejor."
     },
@@ -101,8 +113,8 @@
       "fecha_iso": "2011-12-15T00:00:00",
       "materia": "ESTATICA",
       "calidad": 8.0,
-      "dificultad": null,
-      "nota": 10.0,
+      "dificultad": 6.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "Se pone a hablar sobre que debemos estudiar para ser buenos ingenieros y puros de esos rollos, jaja pero es buen profesor y enseña de una forma para que todos le entiandan a la clase,deja tareas para practicar,excelente por algo es el jefe del dpto."
     },
@@ -110,8 +122,8 @@
       "fecha_iso": "2011-05-06T00:00:00",
       "materia": "MATEMATICAS I",
       "calidad": 10.0,
-      "dificultad": null,
-      "nota": 8.0,
+      "dificultad": 0.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "BUEN MAESTRO"
     }

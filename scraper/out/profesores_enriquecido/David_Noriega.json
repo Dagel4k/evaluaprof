@@ -1,14 +1,14 @@
 {
   "professor_id": "David_Noriega",
   "nombre": "David Noriega",
-  "universidad": "Instituto Tecnologico de Culiacan",
+  "universidad": "Instituto Tecnológico de Culiacán",
   "decay_analysis": {
-    "quality_decayed": 9.79245387525062,
-    "difficulty_decayed": null
+    "quality_decayed": 9.792453875250622,
+    "difficulty_decayed": 0.0
   },
   "bayes_analysis": {
-    "quality_bayes": 7.76970864304704,
-    "difficulty_bayes": null
+    "quality_bayes": 7.976826338844142,
+    "difficulty_bayes": 2.0029673590504453
   },
   "recommendation_analysis": {
     "rate": 1.0,
@@ -19,15 +19,9 @@
     "n_recommendations": 4
   },
   "subject_normalization": {
-    "z_mean": 0.26,
-    "z_mean_decayed": 0.26,
-    "per_subject": [
-      {
-        "materia": "INTERFACES",
-        "z_decayed": 0.26111648393354675,
-        "n": 4
-      }
-    ]
+    "z_mean": null,
+    "z_mean_decayed": null,
+    "per_subject": []
   },
   "grades_analysis": {
     "grade_distribution": {
@@ -46,10 +40,10 @@
           "es",
           "clases",
           "profesor",
-          "buen profesor",
-          "buen"
+          "buen",
+          "buen profesor"
         ],
-        "weight": 0.3001194495476466
+        "weight": 0.30011944954764647
       },
       {
         "id": 1,
@@ -60,7 +54,7 @@
           "bien",
           "es"
         ],
-        "weight": 0.3598870779332047
+        "weight": 0.35988707793320474
       }
     ],
     "sentiment": {
@@ -96,7 +90,21 @@
       ],
       "sigma": 0.29452037280975973
     },
-    "difficulty_trend": null,
+    "difficulty_trend": {
+      "series": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ewma": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sigma": 0.0
+    },
     "forecast": {
       "quality_next": 9.657,
       "quality_band": [
@@ -112,8 +120,8 @@
       "fecha_iso": "2013-12-04T00:00:00",
       "materia": "PROGRAMACIÓN.",
       "calidad": 10.0,
-      "dificultad": null,
-      "nota": 9.5,
+      "dificultad": 0.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "Muy buen profesor, lastima que nunca llego a sus clases jajja"
     },
@@ -121,7 +129,7 @@
       "fecha_iso": "2013-11-14T00:00:00",
       "materia": "ELECTRICIDAD Y MAGNETISMO",
       "calidad": 10.0,
-      "dificultad": null,
+      "dificultad": 0.0,
       "nota": null,
       "recomienda": 1,
       "comentario": "Muy buen Profesor, Lo recomiendo (Y)"
@@ -130,8 +138,8 @@
       "fecha_iso": "2013-04-27T00:00:00",
       "materia": "DIODOS Y TRANSISTORES",
       "calidad": 10.0,
-      "dificultad": null,
-      "nota": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "excelente profesor, es uno de mis favoritos, me encanta como da las clases... explica muy bien"
     },
@@ -139,8 +147,8 @@
       "fecha_iso": "2013-01-09T00:00:00",
       "materia": "INTERFACES",
       "calidad": 9.0,
-      "dificultad": null,
-      "nota": 9.0,
+      "dificultad": 0.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "es bien camarada.. aparte que si pasas si pones de tu parte .. es muy facil pasar con el"
     }

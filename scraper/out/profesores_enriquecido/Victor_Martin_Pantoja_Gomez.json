@@ -1,14 +1,14 @@
 {
   "professor_id": "Victor_Martin_Pantoja_Gomez",
   "nombre": "Victor Martin Pantoja Gomez",
-  "universidad": "Instituto Tecnologico de Culiacan",
+  "universidad": "Instituto Tecnológico de Culiacán",
   "decay_analysis": {
     "quality_decayed": 7.095084903684339,
-    "difficulty_decayed": null
+    "difficulty_decayed": 4.0
   },
   "bayes_analysis": {
-    "quality_bayes": 6.81466008355488,
-    "difficulty_bayes": null
+    "quality_bayes": 7.056297395318166,
+    "difficulty_bayes": 3.0034619188921865
   },
   "recommendation_analysis": {
     "rate": 0.5,
@@ -19,13 +19,13 @@
     "n_recommendations": 2
   },
   "subject_normalization": {
-    "z_mean": -0.17,
-    "z_mean_decayed": 0.18,
+    "z_mean": -0.22,
+    "z_mean_decayed": 0.16,
     "per_subject": [
       {
         "materia": "DESARROLLO SUSTENTABLE",
-        "z_decayed": 0.17551749066517003,
-        "n": 52
+        "z_decayed": 0.16063546912379906,
+        "n": 27
       }
     ]
   },
@@ -63,8 +63,8 @@
       "fecha_iso": "2022-03-27T00:00:00",
       "materia": "DESARROLLO SUSTENTABLE",
       "calidad": 9.0,
-      "dificultad": null,
-      "nota": 8.5,
+      "dificultad": 4.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": ""
     },
@@ -72,7 +72,7 @@
       "fecha_iso": "2020-01-12T00:00:00",
       "materia": "DESARROLLO SUSTENTABLE",
       "calidad": 3.0,
-      "dificultad": null,
+      "dificultad": 4.0,
       "nota": null,
       "recomienda": 0,
       "comentario": "Sinceramente el peor profesor que me he encontrado en mi vida, es la hipocresía y vale vergismo puro en persona, te hace hacer una página en Wix donde te calificará la tarea, tarea que ni el mismo entiende y explica como la quiere; y hace exámenes largos donde las respuestas las califica como quiere"

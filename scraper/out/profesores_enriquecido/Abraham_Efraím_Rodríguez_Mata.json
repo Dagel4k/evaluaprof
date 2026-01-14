@@ -1,14 +1,14 @@
 {
   "professor_id": "Abraham_Efraím_Rodríguez_Mata",
   "nombre": "Abraham Efraím Rodríguez Mata",
-  "universidad": "Instituto Tecnologico de Culiacan",
+  "universidad": "Instituto Tecnológico de Culiacán",
   "decay_analysis": {
     "quality_decayed": 2.0,
-    "difficulty_decayed": null
+    "difficulty_decayed": 8.0
   },
   "bayes_analysis": {
-    "quality_bayes": 6.5250837275144145,
-    "difficulty_bayes": null
+    "quality_bayes": 6.788688067619817,
+    "difficulty_bayes": 3.276503911518749
   },
   "recommendation_analysis": {
     "rate": 0.0,
@@ -19,13 +19,13 @@
     "n_recommendations": 1
   },
   "subject_normalization": {
-    "z_mean": -0.96,
-    "z_mean_decayed": -0.96,
+    "z_mean": -1.15,
+    "z_mean_decayed": -1.15,
     "per_subject": [
       {
         "materia": "---",
-        "z_decayed": -0.9627852966533863,
-        "n": 521
+        "z_decayed": -1.1483431150731278,
+        "n": 80
       }
     ]
   },
@@ -63,7 +63,7 @@
       "fecha_iso": "2021-01-06T00:00:00",
       "materia": "---",
       "calidad": 2.0,
-      "dificultad": null,
+      "dificultad": 8.0,
       "nota": null,
       "recomienda": 0,
       "comentario": "[Comentario esperando revisión]"

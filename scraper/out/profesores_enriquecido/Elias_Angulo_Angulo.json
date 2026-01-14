@@ -1,41 +1,41 @@
 {
   "professor_id": "Elias_Angulo_Angulo",
   "nombre": "Elias Angulo Angulo",
-  "universidad": "Instituto Tecnologico de Culiacan",
+  "universidad": "Instituto Tecnológico de Culiacán",
   "decay_analysis": {
-    "quality_decayed": 8.587290951355769,
-    "difficulty_decayed": null
+    "quality_decayed": 8.33115516426041,
+    "difficulty_decayed": 4.2810317191706915
   },
   "bayes_analysis": {
-    "quality_bayes": 7.54849506266616,
-    "difficulty_bayes": null
+    "quality_bayes": 7.578371249587866,
+    "difficulty_bayes": 3.3361028684470826
   },
   "recommendation_analysis": {
-    "rate": 0.833,
+    "rate": 1.0,
     "wilson_interval": [
-      0.4364905634363539,
-      0.9699474141282696
+      0.565508505247919,
+      1
     ],
-    "n_recommendations": 6
+    "n_recommendations": 5
   },
   "subject_normalization": {
-    "z_mean": 0.59,
-    "z_mean_decayed": 0.61,
+    "z_mean": 0.34,
+    "z_mean_decayed": 0.38,
     "per_subject": [
       {
         "materia": "PROBABILIDAD Y ESTADISTICA",
-        "z_decayed": 0.9251304240994335,
-        "n": 32
+        "z_decayed": 0.9178707160657958,
+        "n": 19
       },
       {
         "materia": "PROBABILIDAD",
-        "z_decayed": 0.7599851569224803,
-        "n": 14
+        "z_decayed": 0.6836559403266642,
+        "n": 7
       },
       {
         "materia": "ESTADISTICA",
-        "z_decayed": -0.4029401962844329,
-        "n": 10
+        "z_decayed": -1.154700538379252,
+        "n": 3
       }
     ]
   },
@@ -53,47 +53,32 @@
       {
         "id": 0,
         "words": [
-          "profesor",
-          "es",
+          "buen",
           "buen maestro",
-          "maestro",
-          "buen"
+          "maestro"
         ],
-        "weight": 0.19362011475747384
+        "weight": 0.25804049534609425
       },
       {
         "id": 1,
         "words": [
+          "buen maestro",
           "maestro",
-          "es",
-          "profesor",
-          "explica",
-          "te"
+          "buen"
         ],
-        "weight": 0.23818252657145833
-      },
-      {
-        "id": 2,
-        "words": [
-          "explica",
-          "te",
-          "es",
-          "profesor",
-          "excelente"
-        ],
-        "weight": 0.18701265539213144
+        "weight": 0.22783687395103952
       }
     ],
     "sentiment": {
-      "overall": 0.3333333333333333,
+      "overall": 0.2,
       "by_month": {
         "2011-12": 0.0,
         "2011-10": 1.0,
         "2011-05": 0.0,
-        "2011-04": 0.5
+        "2011-04": 0.0
       }
     },
-    "n_comments": 6
+    "n_comments": 5
   },
   "integrity_analysis": {
     "dup_rate": 0.0,
@@ -117,7 +102,21 @@
       ],
       "sigma": 1.8848084949140063
     },
-    "difficulty_trend": null,
+    "difficulty_trend": {
+      "series": [
+        8.0,
+        4.0,
+        4.0,
+        2.0
+      ],
+      "ewma": [
+        8.0,
+        6.8,
+        5.96,
+        4.771999999999999
+      ],
+      "sigma": 1.3143855345115956
+    },
     "forecast": {
       "quality_next": 9.3385,
       "quality_band": [
@@ -133,8 +132,8 @@
       "fecha_iso": "2011-12-12T00:00:00",
       "materia": "PROBABILIDAD Y ESTADISTICA",
       "calidad": 10.0,
-      "dificultad": null,
-      "nota": 9.0,
+      "dificultad": 2.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "es muy buen maestro"
     },
@@ -142,8 +141,8 @@
       "fecha_iso": "2011-10-28T00:00:00",
       "materia": "PROBABILIDAD",
       "calidad": 10.0,
-      "dificultad": null,
-      "nota": 10.0,
+      "dificultad": 4.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "excelente"
     },
@@ -151,8 +150,8 @@
       "fecha_iso": "2011-05-10T00:00:00",
       "materia": "PROB. Y EST.",
       "calidad": 3.0,
-      "dificultad": null,
-      "nota": 8.0,
+      "dificultad": 6.0,
+      "nota": null,
       "recomienda": 0,
       "comentario": "buen maestro"
     },
@@ -160,8 +159,8 @@
       "fecha_iso": "2011-05-07T00:00:00",
       "materia": "ESTADISTICA",
       "calidad": 8.0,
-      "dificultad": null,
-      "nota": 8.0,
+      "dificultad": 2.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "buen profesor"
     },
@@ -169,19 +168,10 @@
       "fecha_iso": "2011-04-30T00:00:00",
       "materia": "PROBABILIDAD Y ESTADISTICA",
       "calidad": 10.0,
-      "dificultad": null,
-      "nota": 10.0,
+      "dificultad": 8.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "Siempre explica cosas tan fácil que con abacos lo resuelves y en los examenes siempre lee revistas y no mira a los alumnos, asi que si no sabes NADA el de a lado te pasa todo, y con lo facil que esta pues pasas."
-    },
-    {
-      "fecha_iso": "2011-04-16T00:00:00",
-      "materia": "PROBABILIDAD",
-      "calidad": 10.0,
-      "dificultad": null,
-      "nota": 10.0,
-      "recomienda": 1,
-      "comentario": "Es un excelente profesor, explica te maravilla y te ayuda mucho."
     }
   ],
   "comments_recent": [
@@ -189,8 +179,7 @@
     "excelente",
     "buen maestro",
     "buen profesor",
-    "Siempre explica cosas tan fácil que con abacos lo resuelves y en los examenes siempre lee revistas y no mira a los alumnos, asi que si no sabes NADA el de a lado te pasa todo, y con lo facil que esta pues pasas.",
-    "Es un excelente profesor, explica te maravilla y te ayuda mucho."
+    "Siempre explica cosas tan fácil que con abacos lo resuelves y en los examenes siempre lee revistas y no mira a los alumnos, asi que si no sabes NADA el de a lado te pasa todo, y con lo facil que esta pues pasas."
   ],
-  "n_reviews": 6
+  "n_reviews": 5
 }

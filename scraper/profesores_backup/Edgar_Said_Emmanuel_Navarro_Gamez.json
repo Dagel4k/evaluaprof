@@ -1,0 +1,91 @@
+{
+  "nombre": "Edgar Said Emmanuel Navarro Gamez",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "ciudad": "Ciudad: culiacan, sinaloa",
+  "departamento": "Departamento/Facultad: Ciencias basicas",
+  "calidad_general": 8.5,
+  "porcentaje_recomienda": 75,
+  "nivel_dificultad": 3.0,
+  "etiquetas": [
+    "MUCHAS TAREAS (3)",
+    "MUCHOS EXÁMENES (1)",
+    "BRINDA APOYO (1)",
+    "TOMARÍA SU CLASE OTRA VEZ (2)",
+    "ASPECTOS DE CALIFICACIÓN CLAROS (1)",
+    "BARCO (1)",
+    "ASISTENCIA OBLIGATORIA (1)"
+  ],
+  "numero_calificaciones": 4,
+  "calificaciones": [
+    {
+      "fecha": "31/May/2025",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Calculo Diferencial",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "clases sencillas, te obliga a participar, deja muchas tareas y siento que ni las revisa (solo con que las entregues esta bien), los examenes son en linea y no se como los califique pero hace el paro, aparte cae bien",
+      "etiquetas_comentario": [
+        "Barco",
+        "Muchas tareas",
+        "Asistencia obligatoria"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "30/Jul/2023",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Ingeniería de la calidad",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "9",
+      "interes_clase": "",
+      "comentario": "Buen maestro, lo que vez en clases y deja de tareas es lo mismo que viene en los exámenes, te explica hasta que le entiendas al tema, la asistencia no es obligatoria solo con que pases el examen tienes para acreditar la materia.",
+      "etiquetas_comentario": [
+        "Aspectos de calificación claros",
+        "Tomaría su clase otra vez"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "17/Ene/2022",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "estadistica inferencial 1",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "8.5",
+      "interes_clase": "",
+      "comentario": "Excelente profesor, muy puntual deja muchos trabajos pero las mismas tareas suelen ser los examenes, te apoya si tienes dudas y trata de apoyarte siempre al momento de retroalimentacion",
+      "etiquetas_comentario": [
+        "Muchas tareas",
+        "Brinda apoyo",
+        "Tomaría su clase otra vez"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "03/Jun/2021",
+      "tipo_calificacion": "REGULAR",
+      "puntaje_calidad_general": 4.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Estadística y control de calidad",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "24",
+      "interes_clase": "",
+      "comentario": "Muy vergas el akim nomas porque sube videos al youtube deja de dar clases mas de una semana, diganle que se ponga a trabajar al pinche webon vrga y que califique bien, califica con el culo mientras se mete un bong con el jimmy",
+      "etiquetas_comentario": [
+        "Muchas tareas",
+        "Muchos Exámenes"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    }
+  ]
+}

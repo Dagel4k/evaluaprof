@@ -1,36 +1,31 @@
 {
   "professor_id": "Baltazar_Urquidez",
   "nombre": "Baltazar Urquidez",
-  "universidad": "Instituto Tecnologico de Culiacan",
+  "universidad": "Instituto Tecnológico de Culiacán",
   "decay_analysis": {
-    "quality_decayed": 8.343580866172704,
-    "difficulty_decayed": null
+    "quality_decayed": 8.404425878602732,
+    "difficulty_decayed": 1.306172027364738
   },
   "bayes_analysis": {
-    "quality_bayes": 7.3387960501329275,
-    "difficulty_bayes": null
+    "quality_bayes": 7.645037916254533,
+    "difficulty_bayes": 2.6694362017804156
   },
   "recommendation_analysis": {
-    "rate": 0.8,
+    "rate": 0.9,
     "wilson_interval": [
-      0.49015684672072346,
-      0.9433190520193067
+      0.46293644258926075,
+      0.9894703616090744
     ],
-    "n_recommendations": 10
+    "n_recommendations": 5
   },
   "subject_normalization": {
-    "z_mean": -0.26,
-    "z_mean_decayed": -0.26,
+    "z_mean": -0.67,
+    "z_mean_decayed": -1.21,
     "per_subject": [
       {
         "materia": "MICROBIOLOGÍA",
-        "z_decayed": -0.2519293903677123,
-        "n": 7
-      },
-      {
-        "materia": "---",
-        "z_decayed": -0.4330498537746954,
-        "n": 521
+        "z_decayed": -1.210168995362367,
+        "n": 5
       }
     ]
   },
@@ -44,81 +39,26 @@
     "n_grades": 0
   },
   "nlp_analysis": {
-    "topics": [
-      {
-        "id": 0,
-        "words": [
-          "te",
-          "es buen",
-          "buen maestro",
-          "buen",
-          "maestro"
-        ],
-        "weight": 0.1946957952537915
-      },
-      {
-        "id": 1,
-        "words": [
-          "comentario esperando",
-          "comentario",
-          "esperando revision",
-          "esperando",
-          "revision"
-        ],
-        "weight": 0.15690991899700152
-      },
-      {
-        "id": 2,
-        "words": [
-          "maestro",
-          "buen",
-          "buen maestro",
-          "es buen",
-          "es"
-        ],
-        "weight": 0.12921495090446822
-      },
-      {
-        "id": 3,
-        "words": [
-          "revision",
-          "buen maestro",
-          "buen",
-          "es buen",
-          "te"
-        ],
-        "weight": 0.16197686617679136
-      }
-    ],
+    "topics": [],
     "sentiment": {
-      "overall": 0.125,
+      "overall": 0.0,
       "by_month": {
         "2019-01": -1.0,
         "2014-02": 0.0,
-        "2013-11": 1.0,
-        "2013-08": 0.0,
-        "2012-06": 1.0,
-        "2012-04": 0.0,
-        "2011-09": 0.0,
-        "2011-04": 0.0
+        "2013-11": 1.0
       }
     },
-    "n_comments": 8
+    "n_comments": 3
   },
   "integrity_analysis": {
-    "dup_rate": 0.036,
+    "dup_rate": 0.0,
     "bursts": [],
     "low_variance_flag": 0,
-    "trust_score": 0.98
+    "trust_score": 1.0
   },
   "trends_analysis": {
     "quality_trend": {
       "series": [
-        2.0,
-        8.0,
-        5.0,
-        10.0,
-        10.0,
         7.0,
         9.0,
         8.0,
@@ -126,25 +66,36 @@
         8.0
       ],
       "ewma": [
-        2.0,
-        3.8,
-        4.16,
-        5.912,
-        7.1384,
-        7.0968800000000005,
-        7.667816,
-        7.767471199999999,
-        8.437229839999999,
-        8.306060888
+        7.0,
+        7.6,
+        7.719999999999999,
+        8.404,
+        8.2828
       ],
-      "sigma": 1.6986790389311064
+      "sigma": 0.8476058329199959
     },
-    "difficulty_trend": null,
+    "difficulty_trend": {
+      "series": [
+        4.0,
+        2.0,
+        2.0,
+        4.0,
+        0.0
+      ],
+      "ewma": [
+        4.0,
+        3.4,
+        2.98,
+        3.2859999999999996,
+        2.3001999999999994
+      ],
+      "sigma": 1.1805684596837236
+    },
     "forecast": {
-      "quality_next": 8.306060888,
+      "quality_next": 8.2828,
       "quality_band": [
-        4.97664997169503,
-        10.0
+        6.621492567476808,
+        9.944107432523191
       ],
       "confidence": 0.95
     },
@@ -155,8 +106,8 @@
       "fecha_iso": "2022-08-16T00:00:00",
       "materia": "MICROBIOLOGÍA",
       "calidad": 8.0,
-      "dificultad": null,
-      "nota": 9.0,
+      "dificultad": 0.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": ""
     },
@@ -164,8 +115,8 @@
       "fecha_iso": "2019-08-03T00:00:00",
       "materia": "MICROBIOLOGÍA",
       "calidad": 10.0,
-      "dificultad": null,
-      "nota": 9.5,
+      "dificultad": 4.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": ""
     },
@@ -173,8 +124,8 @@
       "fecha_iso": "2019-01-12T00:00:00",
       "materia": "MICOROBIOLOGÍA",
       "calidad": 8.0,
-      "dificultad": null,
-      "nota": 8.5,
+      "dificultad": 2.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "todas sus clases son habladas, si se te pasa una clase o algún dato será complicado, reparte copias de los temas un poco complejas. Las prácticas son lo más importante y valora más la participación que una asistencia. Ayuda bastante con los exámenes"
     },
@@ -182,7 +133,7 @@
       "fecha_iso": "2014-02-14T00:00:00",
       "materia": "CALIDAD DE ALIMENTOS",
       "calidad": 9.0,
-      "dificultad": null,
+      "dificultad": 2.0,
       "nota": null,
       "recomienda": 1,
       "comentario": "ES UN AMOR!!!"
@@ -191,66 +142,16 @@
       "fecha_iso": "2013-11-14T00:00:00",
       "materia": "TECNOLOGIA DE ALIMENTOS I",
       "calidad": 7.0,
-      "dificultad": null,
-      "nota": 8.0,
+      "dificultad": 4.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "Buen maestro, comprensivo y con muchos conocimientos, aun que a la mayoria de los alumnos no les llega la informacion xD"
-    },
-    {
-      "fecha_iso": "2013-08-03T00:00:00",
-      "materia": "TECNILOGIA DE LOS ALIMENTOS",
-      "calidad": 10.0,
-      "dificultad": null,
-      "nota": 10.0,
-      "recomienda": 1,
-      "comentario": "es buen maestro, siempre te apoya"
-    },
-    {
-      "fecha_iso": "2012-06-02T00:00:00",
-      "materia": "TECNOLOGIA DE ALIMENTOS",
-      "calidad": 10.0,
-      "dificultad": null,
-      "nota": 10.0,
-      "recomienda": 1,
-      "comentario": "Excelente maestro. Mucha disponibilidad para aclarar dudas sobre el tema."
-    },
-    {
-      "fecha_iso": "2012-04-27T00:00:00",
-      "materia": "---",
-      "calidad": 5.0,
-      "dificultad": null,
-      "nota": 2.5,
-      "recomienda": 0,
-      "comentario": "[Comentario esperando revisión]"
-    },
-    {
-      "fecha_iso": "2011-09-05T00:00:00",
-      "materia": "TECNOLOGIAS DE LOS ALIMENTOS 1",
-      "calidad": 8.0,
-      "dificultad": null,
-      "nota": 9.0,
-      "recomienda": 1,
-      "comentario": "es un buen maestro"
-    },
-    {
-      "fecha_iso": "2011-04-12T00:00:00",
-      "materia": "---",
-      "calidad": 2.0,
-      "dificultad": null,
-      "nota": 7.0,
-      "recomienda": 0,
-      "comentario": "[Comentario esperando revisión]"
     }
   ],
   "comments_recent": [
     "todas sus clases son habladas, si se te pasa una clase o algún dato será complicado, reparte copias de los temas un poco complejas. Las prácticas son lo más importante y valora más la participación que una asistencia. Ayuda bastante con los exámenes",
     "ES UN AMOR!!!",
-    "Buen maestro, comprensivo y con muchos conocimientos, aun que a la mayoria de los alumnos no les llega la informacion xD",
-    "es buen maestro, siempre te apoya",
-    "Excelente maestro. Mucha disponibilidad para aclarar dudas sobre el tema.",
-    "[Comentario esperando revisión]",
-    "es un buen maestro",
-    "[Comentario esperando revisión]"
+    "Buen maestro, comprensivo y con muchos conocimientos, aun que a la mayoria de los alumnos no les llega la informacion xD"
   ],
-  "n_reviews": 10
+  "n_reviews": 5
 }

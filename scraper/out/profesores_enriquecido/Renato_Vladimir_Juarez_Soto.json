@@ -1,14 +1,14 @@
 {
   "professor_id": "Renato_Vladimir_Juarez_Soto",
   "nombre": "Renato Vladimir Juarez Soto",
-  "universidad": "Instituto Tecnologico de Culiacan",
+  "universidad": "Instituto Tecnológico de Culiacán",
   "decay_analysis": {
-    "quality_decayed": 8.402307154485417,
-    "difficulty_decayed": null
+    "quality_decayed": 8.402307154485415,
+    "difficulty_decayed": 0.0
   },
   "bayes_analysis": {
-    "quality_bayes": 7.06466008355488,
-    "difficulty_bayes": null
+    "quality_bayes": 7.306297395318166,
+    "difficulty_bayes": 2.3367952522255195
   },
   "recommendation_analysis": {
     "rate": 0.5,
@@ -57,8 +57,8 @@
       "fecha_iso": "2025-06-16T00:00:00",
       "materia": "TECNOLOGIA DE LOS MATERIALES",
       "calidad": 9.0,
-      "dificultad": null,
-      "nota": 24.0,
+      "dificultad": 0.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "Muy facil pasar con el"
     },
@@ -66,9 +66,9 @@
       "fecha_iso": "2021-06-11T00:00:00",
       "materia": "TECNOLOGÍA DE LOS MATERIALES",
       "calidad": 6.0,
-      "dificultad": null,
-      "nota": 10.0,
-      "recomienda": 0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 0.5,
       "comentario": "Es el profesor mas flojo que he conocido. Asistió 3 veces a clase. Desapareció. Luego volvió y dejo un trabajo, y después nos subió a todos calificaciones altas. Lo recomiendo para materias de relleno sin trascendencia. Pero seria fatal en una materia importante."
     }
   ],

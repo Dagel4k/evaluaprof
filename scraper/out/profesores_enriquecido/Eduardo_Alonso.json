@@ -1,14 +1,14 @@
 {
   "professor_id": "Eduardo_Alonso",
   "nombre": "Eduardo Alonso",
-  "universidad": "Instituto Tecnologico de Culiacan",
+  "universidad": "Instituto Tecnológico de Culiacán",
   "decay_analysis": {
     "quality_decayed": 9.645370516243132,
-    "difficulty_decayed": null
+    "difficulty_decayed": 3.1265940929818616
   },
   "bayes_analysis": {
-    "quality_bayes": 7.698280071618469,
-    "difficulty_bayes": null
+    "quality_bayes": 7.905397767415571,
+    "difficulty_bayes": 2.8601102161933025
   },
   "recommendation_analysis": {
     "rate": 1.0,
@@ -62,7 +62,21 @@
       ],
       "sigma": 0.5890407456195201
     },
-    "difficulty_trend": null,
+    "difficulty_trend": {
+      "series": [
+        4.0,
+        2.0,
+        2.0,
+        4.0
+      ],
+      "ewma": [
+        4.0,
+        3.4,
+        2.98,
+        3.2859999999999996
+      ],
+      "sigma": 0.9550404877979434
+    },
     "forecast": {
       "quality_next": 9.314,
       "quality_band": [
@@ -78,8 +92,8 @@
       "fecha_iso": "2013-12-09T00:00:00",
       "materia": "GESTIÓN DE REDES",
       "calidad": 10.0,
-      "dificultad": null,
-      "nota": 10.0,
+      "dificultad": 4.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "Tiene mucha experiencia y muy actualizado, sabe de lo que te habla y te pobe ejemplos reales."
     },
@@ -87,8 +101,8 @@
       "fecha_iso": "2012-08-09T00:00:00",
       "materia": "SOR2",
       "calidad": 10.0,
-      "dificultad": null,
-      "nota": 10.0,
+      "dificultad": 2.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "Muy practico y claro, no se enreda y lo que le preguntas te lo contesta claro y un poco mas."
     },
@@ -96,8 +110,8 @@
       "fecha_iso": "2011-12-12T00:00:00",
       "materia": "SORII",
       "calidad": 10.0,
-      "dificultad": null,
-      "nota": 10.0,
+      "dificultad": 2.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "Es bien a toda madre, sus clases son muy practicas, poca teoría y sabe un chingo."
     },
@@ -105,8 +119,8 @@
       "fecha_iso": "2011-09-11T00:00:00",
       "materia": "SOR-II",
       "calidad": 8.0,
-      "dificultad": null,
-      "nota": 8.5,
+      "dificultad": 4.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": ""
     }

@@ -171,8 +171,9 @@ class MisProfesoresScraper:
                     return float(m.group()) if m else 0.0
 
                 # Extracción de datos
+                full_name = get_text('h2 b span', name)
                 data = {
-                    "nombre": name,
+                    "nombre": full_name, # Prefer full name from profile
                     "universidad": self.universidad,
                     "departamento": professor_info['departamento'],
                     "promedio_general": 0.0,
@@ -181,14 +182,14 @@ class MisProfesoresScraper:
                 }
 
                 # Promedio
-                for sel in ['.progress-circle .score', '.rating-circle .score', '.average-rating .score']:
+                for sel in ['.breakdown-container.quality .grade', '.progress-circle .score', '.rating-circle .score', '.average-rating .score']:
                     val = get_number(sel)
                     if val > 0:
                         data['promedio_general'] = val
                         break
                 
                 # Total reviews (para paginación)
-                for sel in ['.reviews-title span', '.total-reviews', '[data-testid="total-reviews"]']:
+                for sel in ['.table-toggle.rating-count', '.reviews-title span', '.total-reviews', '[data-testid="total-reviews"]']:
                     text = get_text(sel)
                     nums = re.findall(r'\d+', text)
                     if nums:
@@ -202,43 +203,83 @@ class MisProfesoresScraper:
                     return
 
                 # Otros datos (recomendación, dificultad)
-                # ... (simplificado para velocidad, se puede expandir si es crítico)
-                # Aquí extraemos las reviews de la primera página
-                
+                data['porcentaje_recomienda'] = get_number('.breakdown-section.takeAgain .grade')
+                data['nivel_dificultad'] = 0.0
+                for sel in ['.difficulty .grade', '.difficulty .number', '.difficulty-circle .score']:
+                    val = get_number(sel)
+                    if val > 0:
+                        data['nivel_dificultad'] = val
+                        break
+
                 reviews = []
                 
                 # Función para extraer reviews del soup actual
                 def parse_reviews(current_soup):
                     extracted = []
-                    for item in current_soup.select('.review, .rating-item, .comment'):
-                        comment = ""
-                        for c_sel in ['.comments p', '.comment', '.review-text']:
-                            c_el = item.select_one(c_sel)
-                            if c_el:
-                                comment = c_el.get_text(strip=True)
-                                break
-                        
-                        if not comment: 
+                    # Reviews are in a table with class tftable
+                    rows = current_soup.select('table.tftable tr') + current_soup.select('table.ratings-table tr')
+                    for item in rows:
+                        # Skip header or rows without rating
+                        rating_cell = item.select_one('td.rating')
+                        if not rating_cell:
                             continue
+                        
+                        # Comentario
+                        comment_cell = item.select_one('td.comments p.commentsParagraph') or item.select_one('td.comment')
+                        comment = comment_cell.get_text(strip=True) if comment_cell else ""
+                        
+                        # Fecha (puede estar en td.rating div.date)
+                        fecha = "Fecha no disponible"
+                        date_el = item.select_one('td.rating div.date')
+                        if date_el:
+                            fecha = date_el.get_text(strip=True)
+                        
+                        # Materia (td.class)
+                        materia = "Materia no disponible"
+                        class_cell = item.select_one('td.class')
+                        if class_cell:
+                            # Prefer span.response or direct text
+                            resp_el = class_cell.select_one('span.response')
+                            materia = resp_el.get_text(strip=True) if resp_el else class_cell.get_text(strip=True)
+                        
+                        # Extract metrics from breakdown
+                        quality = 0.0
+                        difficulty = 0.0
+                        
+                        # Match scores by descriptor if possible
+                        breakdown = item.select('td.rating .breakdown .break')
+                        for brk in breakdown:
+                            score_el = brk.select_one('.score')
+                            desc_el = brk.select_one('.descriptor')
+                            if score_el and desc_el:
+                                val = float(re.search(r'[\d.]+', score_el.get_text(strip=True)).group())
+                                desc = desc_el.get_text(strip=True).lower()
+                                if 'calidad' in desc: quality = val
+                                if 'facilidad' in desc: difficulty = val
+
+                        # Recommendation tags and rating type
+                        tags_el = item.select('.tagbox span')
+                        tags = [t.get_text(strip=True) for t in tags_el]
+                        recomienda = any("clase otra vez" in t.lower() for t in tags)
+                        
+                        tipo_el = item.select_one('.rating-type')
+                        tipo_calificacion = "REGULAR"
+                        if tipo_el:
+                            tipo_calificacion = tipo_el.get_text(strip=True)
+                        else:
+                            # Inferred from quality if missing
+                            if quality >= 8: tipo_calificacion = "BUENO"
+                            elif quality <= 4: tipo_calificacion = "MALO"
 
                         extracted.append({
-                            "fecha": "Fecha no disponible", # Simplificación, mejorar si se requiere
-                            "materia": "Materia no disponible",
-                            "calificacion_general": 0.0,
+                            "fecha": fecha,
+                            "materia": materia,
+                            "puntaje_calidad_general": quality,
+                            "puntaje_facilidad": difficulty,
+                            "tipo_calificacion": tipo_calificacion,
+                            "recomienda": recomienda,
                             "comentario": comment
                         })
-                        
-                        # Extraer metadatos de la review
-                        date_el = item.select_one('.date, .review-date')
-                        if date_el: extracted[-1]['fecha'] = date_el.get_text(strip=True)
-                        
-                        subj_el = item.select_one('.class, .subject')
-                        if subj_el: extracted[-1]['materia'] = subj_el.get_text(strip=True)
-                        
-                        rate_el = item.select_one('.review-grade, .score')
-                        if rate_el:
-                            m = re.search(r'[\d.]+', rate_el.get_text(strip=True))
-                            if m: extracted[-1]['calificacion_general'] = float(m.group())
 
                     return extracted
 
@@ -271,12 +312,26 @@ class MisProfesoresScraper:
 
                 data['calificaciones'] = reviews
                 
-                # Guardar
-                with open(filepath, 'w', encoding='utf-8') as f:
+                # Recalcular filepath si el nombre cambió a uno más completo
+                new_safe_name = self.normalize_filename(full_name)
+                new_filepath = os.path.join(self.output_dir, f"{new_safe_name}.json")
+                
+                # Sincronizar reviews extraídas
+                data['calificaciones'] = reviews
+                
+                # Guardar en la ruta correcta (la del nombre completo)
+                with open(new_filepath, 'w', encoding='utf-8') as f:
                     json.dump(data, f, ensure_ascii=False, indent=2)
                 
+                # Limpiar el archivo viejo si el nombre cambió significativamente (ej: era solo apellido)
+                if new_filepath != filepath and os.path.exists(filepath):
+                    try:
+                        os.remove(filepath)
+                        # print(f"🗑️ Eliminado archivo antiguo: {filepath}")
+                    except: pass
+
                 self.processed_count += 1
-                print(f"✅ Guardado: {name} ({len(reviews)} reviews)")
+                print(f"✅ Guardado: {full_name} ({len(reviews)} reviews)")
 
             except Exception as e:
                 self.error_count += 1

@@ -1,0 +1,128 @@
+{
+  "professor_id": "Xochitl_Magaly_Aguilar_Virgen",
+  "nombre": "Xochitl Magaly Aguilar Virgen",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 3.000980603914496,
+    "difficulty_decayed": 5.998038792171006
+  },
+  "bayes_analysis": {
+    "quality_bayes": 6.282736057216768,
+    "difficulty_bayes": 3.54165715590048
+  },
+  "recommendation_analysis": {
+    "rate": 0.167,
+    "wilson_interval": [
+      0.01765226206463418,
+      0.6900184582347109
+    ],
+    "n_recommendations": 3
+  },
+  "subject_normalization": {
+    "z_mean": -1.71,
+    "z_mean_decayed": -1.71,
+    "per_subject": [
+      {
+        "materia": "INVESTIGACION DE OPERACIONES",
+        "z_decayed": -1.6670614027120154,
+        "n": 12
+      },
+      {
+        "materia": "INVESTIGACIÓN DE OPERACIONES",
+        "z_decayed": -1.7901134983672007,
+        "n": 11
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [],
+    "sentiment": {
+      "overall": null,
+      "by_month": {}
+    },
+    "n_comments": 3
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        3.0,
+        3.0
+      ],
+      "ewma": [
+        3.0,
+        2.9999999999999996
+      ],
+      "sigma": 3.1401849173675503e-16
+    },
+    "difficulty_trend": {
+      "series": [
+        6.0,
+        6.0
+      ],
+      "ewma": [
+        6.0,
+        5.999999999999999
+      ],
+      "sigma": 6.280369834735101e-16
+    },
+    "forecast": {
+      "quality_next": 2.9999999999999996,
+      "quality_band": [
+        2.999999999999999,
+        3.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2025-11-29T00:00:00",
+      "materia": "INVESTIGACION DE OPERACIONES",
+      "calidad": 4.0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": "Che vieja apestosa, la neta no sabe explicar, te explica un trabajo en clase y luego el que te deja hacer a ti es 100% diferente alv, la unidad 4 y 5 con ella parece acertijo de lo enredoso que las hace ver, luego los examenes pues no estan tan dificiles pero X, que no vuelva a dar clases"
+    },
+    {
+      "fecha_iso": "2025-11-26T00:00:00",
+      "materia": "INVESTIGACIÓN DE OPERACIONES",
+      "calidad": 2.0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Clases de hueva, se enreda sola, se equivoca mucho y ni explicar sabe. Cuando da teoría nomas lee diapositivas y hasta ella misma se aburre"
+    },
+    {
+      "fecha_iso": "2025-09-29T00:00:00",
+      "materia": "INVESTIGACION DE OPERACIONES",
+      "calidad": 3.0,
+      "dificultad": 6.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "No sabe dar clases"
+    }
+  ],
+  "comments_recent": [
+    "Che vieja apestosa, la neta no sabe explicar, te explica un trabajo en clase y luego el que te deja hacer a ti es 100% diferente alv, la unidad 4 y 5 con ella parece acertijo de lo enredoso que las hace ver, luego los examenes pues no estan tan dificiles pero X, que no vuelva a dar clases",
+    "Clases de hueva, se enreda sola, se equivoca mucho y ni explicar sabe. Cuando da teoría nomas lee diapositivas y hasta ella misma se aburre",
+    "No sabe dar clases"
+  ],
+  "n_reviews": 3
+}

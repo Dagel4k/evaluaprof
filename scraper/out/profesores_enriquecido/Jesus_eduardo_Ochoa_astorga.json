@@ -1,14 +1,14 @@
 {
   "professor_id": "Jesus_eduardo_Ochoa_astorga",
   "nombre": "Jesus eduardo Ochoa astorga",
-  "universidad": "Instituto Tecnologico de Culiacan",
+  "universidad": "Instituto Tecnológico de Culiacán",
   "decay_analysis": {
     "quality_decayed": 8.823368922279947,
-    "difficulty_decayed": null
+    "difficulty_decayed": 8.0
   },
   "bayes_analysis": {
-    "quality_bayes": 7.231326750221547,
-    "difficulty_bayes": null
+    "quality_bayes": 7.4729640619848325,
+    "difficulty_bayes": 3.670128585558853
   },
   "recommendation_analysis": {
     "rate": 1.0,
@@ -19,18 +19,18 @@
     "n_recommendations": 2
   },
   "subject_normalization": {
-    "z_mean": 0.08,
-    "z_mean_decayed": 0.21,
+    "z_mean": 0.41,
+    "z_mean_decayed": 0.5,
     "per_subject": [
       {
         "materia": "ÁLGEBRA LINEAL",
-        "z_decayed": 0.6696164845116104,
-        "n": 23
+        "z_decayed": 0.8017837257372736,
+        "n": 7
       },
       {
         "materia": "ALGEBRA LINEAL",
-        "z_decayed": -0.5018713836011203,
-        "n": 35
+        "z_decayed": 0.025075864769168087,
+        "n": 13
       }
     ]
   },
@@ -68,8 +68,8 @@
       "fecha_iso": "2020-11-24T00:00:00",
       "materia": "ÁLGEBRA LINEAL",
       "calidad": 10.0,
-      "dificultad": null,
-      "nota": 10.0,
+      "dificultad": 8.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "Excelente profesor desearia que me volviera a dar clases y  asesorias"
     },
@@ -77,8 +77,8 @@
       "fecha_iso": "2019-08-19T00:00:00",
       "materia": "ALGEBRA LINEAL",
       "calidad": 7.0,
-      "dificultad": null,
-      "nota": 21.0,
+      "dificultad": 8.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "Se toma aveces las cosas personales"
     }

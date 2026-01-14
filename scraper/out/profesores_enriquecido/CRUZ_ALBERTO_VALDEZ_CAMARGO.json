@@ -1,31 +1,31 @@
 {
   "professor_id": "CRUZ_ALBERTO_VALDEZ_CAMARGO",
   "nombre": "CRUZ ALBERTO VALDEZ CAMARGO",
-  "universidad": "Instituto Tecnologico de Culiacan",
+  "universidad": "Instituto Tecnológico de Culiacán",
   "decay_analysis": {
-    "quality_decayed": 8.788053702571517,
-    "difficulty_decayed": null
+    "quality_decayed": 9.224983331807424,
+    "difficulty_decayed": 0.26376354230063526
   },
   "bayes_analysis": {
-    "quality_bayes": 7.608377190602788,
-    "difficulty_bayes": null
+    "quality_bayes": 7.978371249587866,
+    "difficulty_bayes": 2.0027695351137487
   },
   "recommendation_analysis": {
-    "rate": 0.727,
+    "rate": 0.82,
     "wilson_interval": [
-      0.4343497069897538,
-      0.9025411942607853
+      0.39206428037473734,
+      0.9698611629839307
     ],
-    "n_recommendations": 11
+    "n_recommendations": 5
   },
   "subject_normalization": {
-    "z_mean": 0.38,
-    "z_mean_decayed": 0.51,
+    "z_mean": 0.28,
+    "z_mean_decayed": 0.22,
     "per_subject": [
       {
         "materia": "MANTENIMIENTO",
-        "z_decayed": 0.5117301588946596,
-        "n": 22
+        "z_decayed": 0.22349512998432006,
+        "n": 7
       }
     ]
   },
@@ -43,76 +43,37 @@
       {
         "id": 0,
         "words": [
-          "jefe",
-          "mantenimiento",
+          "clases",
+          "da",
           "ser",
           "si",
           "te"
         ],
-        "weight": 0.1368054421378549
+        "weight": 0.42918834975991216
       },
       {
         "id": 1,
         "words": [
-          "te ensena",
-          "es",
-          "excelente",
-          "profesor",
-          "excelente profesor"
-        ],
-        "weight": 0.15244195988197606
-      },
-      {
-        "id": 2,
-        "words": [
-          "buen",
-          "solo",
-          "clase",
-          "es clase",
-          "es"
-        ],
-        "weight": 0.13970802497274512
-      },
-      {
-        "id": 3,
-        "words": [
-          "ensena",
-          "solo",
-          "nunca",
-          "bien",
-          "facil"
-        ],
-        "weight": 0.11503299486123245
-      },
-      {
-        "id": 4,
-        "words": [
-          "da",
           "si",
-          "materia",
-          "porque",
-          "bastante"
+          "da",
+          "bastante",
+          "es",
+          "clase"
         ],
-        "weight": 0.1369366860076434
+        "weight": 0.26547945433936576
       }
     ],
     "sentiment": {
-      "overall": 0.36363636363636365,
+      "overall": 0.2,
       "by_month": {
         "2024-03": 0.0,
         "2023-11": 0.0,
         "2023-02": 1.0,
         "2022-06": 0.0,
-        "2022-01": 0.0,
-        "2020-11": 1.0,
-        "2018-12": 0.0,
-        "2017-12": 0.0,
-        "2016-10": 0.0,
-        "2014-01": 1.0,
-        "2013-11": 1.0
+        "2022-01": 0.0
       }
     },
-    "n_comments": 11
+    "n_comments": 5
   },
   "integrity_analysis": {
     "dup_rate": 0.0,
@@ -125,12 +86,6 @@
       "series": [
         10.0,
         10.0,
-        2.0,
-        5.0,
-        10.0,
-        6.0,
-        10.0,
-        10.0,
         10.0,
         8.0,
         9.0
@@ -138,23 +93,33 @@
       "ewma": [
         10.0,
         10.0,
-        7.6,
-        6.819999999999999,
-        7.773999999999999,
-        7.241799999999999,
-        8.06926,
-        8.648482,
-        9.053937399999999,
-        8.737756179999998,
-        8.816429325999998
+        10.0,
+        9.4,
+        9.28
       ],
-      "sigma": 2.1795314424325443
+      "sigma": 0.6070255348830066
     },
-    "difficulty_trend": null,
+    "difficulty_trend": {
+      "series": [
+        2.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ewma": [
+        2.0,
+        1.4,
+        0.9799999999999999,
+        0.6859999999999998,
+        0.48019999999999985
+      ],
+      "sigma": 0.5259470391588872
+    },
     "forecast": {
-      "quality_next": 8.816429325999998,
+      "quality_next": 9.28,
       "quality_band": [
-        4.544547698832211,
+        8.090229951629306,
         10.0
       ],
       "confidence": 0.95
@@ -166,8 +131,8 @@
       "fecha_iso": "2024-03-01T00:00:00",
       "materia": "MANTENIMIENTO",
       "calidad": 9.0,
-      "dificultad": null,
-      "nota": 9.5,
+      "dificultad": 0.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "Con que te ubique ya pasaste, es como el Anaya de Mantenimiento, están de hueva sus clases porque en si la materia es mas administrativa que técnica. Te enseña a ser jefe, si le cae bien el grupo nunca dará los viernes. Tiene experiencia y lo que le preguntes te resolverá."
     },
@@ -175,8 +140,8 @@
       "fecha_iso": "2023-11-21T00:00:00",
       "materia": "MANTENIMIENTO",
       "calidad": 8.0,
-      "dificultad": null,
-      "nota": 23.0,
+      "dificultad": 0.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "Es una clase que entras a cotorrear la verdad, tengo como un mes sin sacar la libreta e igual no me he perdido ningun apunte."
     },
@@ -184,8 +149,8 @@
       "fecha_iso": "2023-02-05T00:00:00",
       "materia": "MANTENIMIENTO",
       "calidad": 10.0,
-      "dificultad": null,
-      "nota": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "A muchos les aburre este profe, pero a mí me encantaron sus clases, son algo fuera de lo común. Te explica en base a su experiencia, te hace ver a lo que te vas a enfrentar si decides dedicarte al mantenimiento y hasta te da consejos de como ser un buen jefe. Excelente clase."
     },
@@ -193,8 +158,8 @@
       "fecha_iso": "2022-06-23T00:00:00",
       "materia": "TRANSFERENCIA DE CALOR",
       "calidad": 10.0,
-      "dificultad": null,
-      "nota": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "Da clases bastante amenas y entendibles. Si no pasas con él es porque de plano estás muy verde en la materia y no pusiste interés."
     },
@@ -202,64 +167,10 @@
       "fecha_iso": "2022-01-17T00:00:00",
       "materia": "MANTENIMIENTO",
       "calidad": 10.0,
-      "dificultad": null,
-      "nota": 9.5,
-      "recomienda": 1,
-      "comentario": "Este profesor viene a enseñar, da una clase bastante activa y en una hora te dice todo lo que tenias que saber, este es de los que si te enseña todo el programa y aparte de claro, no deja casi tareas. Sus examenes pueden ser confusos pero nada malo, si quieres aprender, aqui esta."
-    },
-    {
-      "fecha_iso": "2020-11-04T00:00:00",
-      "materia": "MANTENIMIENTO",
-      "calidad": 6.0,
-      "dificultad": null,
-      "nota": 9.0,
-      "recomienda": 0,
-      "comentario": "El maestro es muy ambiguo en sus explicaciones.\nEs  el tipo de maestro que habla demasiado y al final no te dijo realmente nada.\nEj:\nMaestro: ¿Que pasa cuando falla un motor trifasico?\nClase: *Callada por un buen rato\nAlumno x: ¡Se repara!\nMaestro: ¡Excelente, eso es!\n Su clase es solo asistir."
-    },
-    {
-      "fecha_iso": "2018-12-17T00:00:00",
-      "materia": "MANTENIMIENTO",
-      "calidad": 10.0,
-      "dificultad": null,
+      "dificultad": 2.0,
       "nota": null,
       "recomienda": 1,
-      "comentario": "no enseña nada pero esta super facil pasar con el, solo reprueba a los que nunca van, con que vayas aunque no le pases ni un examen te pone minimo 90"
-    },
-    {
-      "fecha_iso": "2017-12-30T00:00:00",
-      "materia": "MANTENIMENTO",
-      "calidad": 5.0,
-      "dificultad": null,
-      "nota": 9.5,
-      "recomienda": 0,
-      "comentario": "Empiezó muy bien pero se aflojeró, se ven los temas light, está fácil."
-    },
-    {
-      "fecha_iso": "2016-10-24T00:00:00",
-      "materia": "MANTENIMIENTO",
-      "calidad": 2.0,
-      "dificultad": null,
-      "nota": 1.0,
-      "recomienda": 0,
-      "comentario": "no puedo expresar por este medio lo"
-    },
-    {
-      "fecha_iso": "2014-01-15T00:00:00",
-      "materia": "MANTENIMIENTO",
-      "calidad": 10.0,
-      "dificultad": null,
-      "nota": 10.0,
-      "recomienda": 1,
-      "comentario": "Excelente profesor y persona"
-    },
-    {
-      "fecha_iso": "2013-11-27T00:00:00",
-      "materia": "MANTENIMIENTO",
-      "calidad": 10.0,
-      "dificultad": null,
-      "nota": 10.0,
-      "recomienda": 1,
-      "comentario": "Es un excelente profesor."
+      "comentario": "Este profesor viene a enseñar, da una clase bastante activa y en una hora te dice todo lo que tenias que saber, este es de los que si te enseña todo el programa y aparte de claro, no deja casi tareas. Sus examenes pueden ser confusos pero nada malo, si quieres aprender, aqui esta."
     }
   ],
   "comments_recent": [
@@ -267,12 +178,7 @@
     "Es una clase que entras a cotorrear la verdad, tengo como un mes sin sacar la libreta e igual no me he perdido ningun apunte.",
     "A muchos les aburre este profe, pero a mí me encantaron sus clases, son algo fuera de lo común. Te explica en base a su experiencia, te hace ver a lo que te vas a enfrentar si decides dedicarte al mantenimiento y hasta te da consejos de como ser un buen jefe. Excelente clase.",
     "Da clases bastante amenas y entendibles. Si no pasas con él es porque de plano estás muy verde en la materia y no pusiste interés.",
-    "Este profesor viene a enseñar, da una clase bastante activa y en una hora te dice todo lo que tenias que saber, este es de los que si te enseña todo el programa y aparte de claro, no deja casi tareas. Sus examenes pueden ser confusos pero nada malo, si quieres aprender, aqui esta.",
-    "El maestro es muy ambiguo en sus explicaciones.\nEs  el tipo de maestro que habla demasiado y al final no te dijo realmente nada.\nEj:\nMaestro: ¿Que pasa cuando falla un motor trifasico?\nClase: *Callada por un buen rato\nAlumno x: ¡Se repara!\nMaestro: ¡Excelente, eso es!\n Su clase es solo asistir.",
-    "no enseña nada pero esta super facil pasar con el, solo reprueba a los que nunca van, con que vayas aunque no le pases ni un examen te pone minimo 90",
-    "Empiezó muy bien pero se aflojeró, se ven los temas light, está fácil.",
-    "no puedo expresar por este medio lo",
-    "Excelente profesor y persona"
+    "Este profesor viene a enseñar, da una clase bastante activa y en una hora te dice todo lo que tenias que saber, este es de los que si te enseña todo el programa y aparte de claro, no deja casi tareas. Sus examenes pueden ser confusos pero nada malo, si quieres aprender, aqui esta."
   ],
-  "n_reviews": 11
+  "n_reviews": 5
 }

@@ -1,31 +1,31 @@
 {
   "professor_id": "jose_balerio",
   "nombre": "jose balerio",
-  "universidad": "Instituto Tecnologico de Culiacan",
+  "universidad": "Instituto Tecnológico de Culiacán",
   "decay_analysis": {
-    "quality_decayed": 4.1105980650394764,
-    "difficulty_decayed": null
+    "quality_decayed": 4.110598065039477,
+    "difficulty_decayed": 4.944700967480261
   },
   "bayes_analysis": {
-    "quality_bayes": 6.481326750221547,
-    "difficulty_bayes": null
+    "quality_bayes": 6.7229640619848325,
+    "difficulty_bayes": 3.170128585558853
   },
   "recommendation_analysis": {
-    "rate": 0.0,
+    "rate": 0.5,
     "wilson_interval": [
-      0,
-      0.6576280471103807
+      0.09452865480086611,
+      0.905471345199134
     ],
     "n_recommendations": 2
   },
   "subject_normalization": {
-    "z_mean": -0.65,
-    "z_mean_decayed": -0.61,
+    "z_mean": -0.67,
+    "z_mean_decayed": -0.64,
     "per_subject": [
       {
         "materia": "METROLOGIA Y NORMALIZACION",
-        "z_decayed": -0.6121831035978712,
-        "n": 15
+        "z_decayed": -0.6416484027433665,
+        "n": 9
       }
     ]
   },
@@ -63,16 +63,16 @@
       "fecha_iso": "2015-01-10T00:00:00",
       "materia": "METROLOGIA Y NORMALIZACION",
       "calidad": 6.0,
-      "dificultad": null,
-      "nota": 8.0,
-      "recomienda": 0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 0.5,
       "comentario": ""
     },
     {
       "fecha_iso": "2014-09-15T00:00:00",
       "materia": "METROLOGIA Y NORMALIZACION",
       "calidad": 2.0,
-      "dificultad": null,
+      "dificultad": 6.0,
       "nota": null,
       "recomienda": 0,
       "comentario": ""

@@ -1,0 +1,76 @@
+{
+  "professor_id": "Catalina_de_la_luz_Sosa_Ochoa",
+  "nombre": "Catalina de la luz Sosa Ochoa",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 9.999999999999998,
+    "difficulty_decayed": 0.0
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.515960794892544,
+    "difficulty_bayes": 2.5492311842460214
+  },
+  "recommendation_analysis": {
+    "rate": 1.0,
+    "wilson_interval": [
+      0.20654329147389294,
+      1
+    ],
+    "n_recommendations": 1
+  },
+  "subject_normalization": {
+    "z_mean": 0.0,
+    "z_mean_decayed": 0.0,
+    "per_subject": [
+      {
+        "materia": "PROLOG",
+        "z_decayed": 0.0,
+        "n": 5
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [],
+    "sentiment": {
+      "overall": null,
+      "by_month": {}
+    },
+    "n_comments": 1
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": null,
+    "difficulty_trend": null,
+    "forecast": null,
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2026-01-06T00:00:00",
+      "materia": "PROLOG",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Es una de las mejores maestras que me han dado clase, es buena onda, enseña muy bien y hecha la mano si lo necesitas 10 de 10"
+    }
+  ],
+  "comments_recent": [
+    "Es una de las mejores maestras que me han dado clase, es buena onda, enseña muy bien y hecha la mano si lo necesitas 10 de 10"
+  ],
+  "n_reviews": 1
+}

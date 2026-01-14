@@ -1,14 +1,14 @@
 {
   "professor_id": "Isaac_Andrey_Estrada_Manjarrez",
   "nombre": "Isaac Andrey Estrada Manjarrez",
-  "universidad": "Instituto Tecnologico de Culiacan",
+  "universidad": "Instituto Tecnológico de Culiacán",
   "decay_analysis": {
-    "quality_decayed": 4.209613289086705,
-    "difficulty_decayed": null
+    "quality_decayed": 4.209613289086703,
+    "difficulty_decayed": 6.435536095832032
   },
   "bayes_analysis": {
-    "quality_bayes": 7.198280071618469,
-    "difficulty_bayes": null
+    "quality_bayes": 7.405397767415571,
+    "difficulty_bayes": 3.145824501907588
   },
   "recommendation_analysis": {
     "rate": 0.75,
@@ -19,18 +19,13 @@
     "n_recommendations": 4
   },
   "subject_normalization": {
-    "z_mean": 1.37,
-    "z_mean_decayed": 1.37,
+    "z_mean": 1.44,
+    "z_mean_decayed": 1.44,
     "per_subject": [
       {
         "materia": "ADMINISTRACIÓN DE PROYECTOS",
-        "z_decayed": 1.387777332977422,
-        "n": 9
-      },
-      {
-        "materia": "ADMINISTRACION DE PROYECTOS",
-        "z_decayed": 1.3568010505999364,
-        "n": 4
+        "z_decayed": 1.443350570570164,
+        "n": 8
       }
     ]
   },
@@ -73,7 +68,21 @@
       ],
       "sigma": 2.599363704191213
     },
-    "difficulty_trend": null,
+    "difficulty_trend": {
+      "series": [
+        4.0,
+        0.0,
+        4.0,
+        8.0
+      ],
+      "ewma": [
+        4.0,
+        2.8,
+        3.1599999999999997,
+        4.612
+      ],
+      "sigma": 2.550447542425969
+    },
     "forecast": {
       "quality_next": 7.389999999999999,
       "quality_band": [
@@ -89,7 +98,7 @@
       "fecha_iso": "2023-04-19T00:00:00",
       "materia": "ING INDUSTRIAL",
       "calidad": 2.0,
-      "dificultad": null,
+      "dificultad": 8.0,
       "nota": null,
       "recomienda": 0,
       "comentario": "ERA PROFESOR Y SE FUE A LA EMPRESA IPX COMETIENDO FRAUDE MILLONARIO JUNTO CON LOS DEMAS ACCIONISTAS."
@@ -98,8 +107,8 @@
       "fecha_iso": "2018-01-14T00:00:00",
       "materia": "ADM. DE PROYECTOS",
       "calidad": 9.0,
-      "dificultad": null,
-      "nota": 9.0,
+      "dificultad": 4.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": ""
     },
@@ -107,8 +116,8 @@
       "fecha_iso": "2017-08-30T00:00:00",
       "materia": "ADMINISTRACION DE PROYECTOS",
       "calidad": 10.0,
-      "dificultad": null,
-      "nota": 9.5,
+      "dificultad": 0.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "Maestro jóven con ideas innovadoras y creativas. Es  cuestión de poner atención (Que no es tan dificil por que la mayoria de los temas que abarca son interesantes). Se lleva con los alumnos pero se siente el respeto hacia él. Buen profe volvería a cargar con el :)"
     },
@@ -116,8 +125,8 @@
       "fecha_iso": "2016-11-01T00:00:00",
       "materia": "ADMINISTRACIÓN DE PROYECTOS",
       "calidad": 10.0,
-      "dificultad": null,
-      "nota": 9.5,
+      "dificultad": 4.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "Gran profesor. Muy joven y con ideas nuevas que se preocupa que el alumno realmente aprenda y sepa aplicar los conocimientos en la vida real. Muy buena onda pero eso si los trabajos muy largos y medio dificiles tampoco esperes que sera light todo el semestre. Recomendado"
     }

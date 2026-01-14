@@ -1,0 +1,83 @@
+{
+  "nombre": "Marco Antonio Zarate Sandoval",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "ciudad": "Ciudad: culiacan, sinaloa",
+  "departamento": "Departamento/Facultad: Economico Administrativo",
+  "calidad_general": 4.0,
+  "porcentaje_recomienda": 20,
+  "nivel_dificultad": 3.6,
+  "etiquetas": [],
+  "numero_calificaciones": 5,
+  "calificaciones": [
+    {
+      "fecha": "08/Ago/2017",
+      "tipo_calificacion": "REGULAR",
+      "puntaje_calidad_general": 4.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Taller de investigacion 2",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "7",
+      "interes_clase": "",
+      "comentario": "No sirve, falta todo el semestre, tienes que ir todos los dias para poder encontrarlo en algun dia y que te revise el trabajo, te reprueba porque se le da la gana, muy mal profesor.",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "12/Jun/2017",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 2.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Taller de liderazgo",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "23",
+      "interes_clase": "",
+      "comentario": "No te ayuda para nada, nunca va, no explica sus temas, te amenaza, en fin muy mal maestro evitenlo.",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "23/May/2017",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 2.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Taller de Investigación II",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "N/A",
+      "interes_clase": "",
+      "comentario": "Este señor que se hace llamar profesor nunca da una clase, va y se siente y pasa amenazando a los alumnos que los va a mandar a RC, sólo porque sí, jamas explica nada, casi no va, y todo trabajo que le lleves es mediocre, no se puede razonar con el profe así que aléjate de él.",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "09/Ago/2016",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 8.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "taller de investigación",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "no lo recomiendo, si quieres 100 y no batallar, carga con el, pero no aprenderás, puras exposiciones, falta mucho. super facil",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "15/Abr/2015",
+      "tipo_calificacion": "REGULAR",
+      "puntaje_calidad_general": 4.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Taller De Investigacion I",
+      "asistencia": "",
+      "calificacion_recibida": "2",
+      "interes_clase": "2",
+      "comentario": "Pasas Algo Facil, los temas los expones y no hay mucho de que hablar.",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    }
+  ]
+}

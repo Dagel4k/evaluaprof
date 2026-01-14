@@ -65,7 +65,7 @@ const TimeGrid: React.FC<TimeGridProps> = ({ groups, professorMap, conflictingGr
                 {/* Days Columns */}
                 {DAYS.map(day => {
                   const eventData = getEvent(day.id, hour);
-                  
+
                   if (!eventData) {
                     return <div key={`${day.id}-${hour}`} className="border-r border-b border-border last:border-r-0 p-1 h-24 bg-card/50" />;
                   }
@@ -76,16 +76,16 @@ const TimeGrid: React.FC<TimeGridProps> = ({ groups, professorMap, conflictingGr
 
                   return (
                     <div key={`${day.id}-${hour}`} className="border-r border-b border-border last:border-r-0 relative p-1 h-24">
-                      <div 
+                      <div
                         onClick={() => onGroupClick?.(group)}
                         className={`absolute inset-1 border rounded-lg p-2 text-[10px] sm:text-xs overflow-hidden hover:shadow-lg transition-all cursor-pointer group ${colorClass} flex flex-col justify-between`}
                       >
                         <div className="font-bold truncate leading-tight mb-1">
                           {group.subjectName}
                         </div>
-                        
+
                         <div className="text-current/80 truncate flex justify-between items-center">
-                          <span className="truncate mr-1 font-medium">{metrics ? metrics.name.split(' ')[0] : (group.professorNames[0] || 'S/N')}</span>
+                          <span className="truncate mr-1 font-medium">{metrics ? metrics.name.split(' ')[0] : ((group.professorNames[0]?.trim() || 'No Asignado'))}</span>
                           {metrics && (
                             <span className="font-bold shrink-0 text-[11px]" title="Calidad General">
                               {metrics.globalScore.toFixed(1)} ★

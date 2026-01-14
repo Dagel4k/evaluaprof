@@ -1,0 +1,66 @@
+{
+  "nombre": "Rocio Quiñones Gamez",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "ciudad": "Ciudad: culiacan, sinaloa",
+  "departamento": "Departamento/Facultad: Quimica",
+  "calidad_general": 2.4,
+  "porcentaje_recomienda": 0,
+  "nivel_dificultad": 8.0,
+  "etiquetas": [
+    "MUCHAS TAREAS (1)",
+    "PREPÁRATE PARA LEER (2)",
+    "LAS CLASES SON LARGAS (2)"
+  ],
+  "numero_calificaciones": 3,
+  "calificaciones": [
+    {
+      "fecha": "07/Sep/2021",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 3.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Química",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "9",
+      "interes_clase": "",
+      "comentario": "Muy buena persona, pero muy mala enseñando. Sus clases son largas y no explica nada bien. \n\nEs una lastima porque la química me gusta mucho, pero ella hace que le pierda el amor a las clases de química.",
+      "etiquetas_comentario": [
+        "Prepárate para leer",
+        "Las clases son largas"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "11/Ene/2020",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 2.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "quimica",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "9.5",
+      "interes_clase": "",
+      "comentario": "te dejara muuuuuuuuy confundido, pero si asistes pasaras la materia",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "03/Dic/2018",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 2.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Quimica",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "7",
+      "interes_clase": "",
+      "comentario": "No sabe dar clases, no explica , yo tuve que llevar química por mi cuenta y aprendí mas",
+      "etiquetas_comentario": [
+        "Muchas tareas",
+        "Prepárate para leer",
+        "Las clases son largas"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    }
+  ]
+}

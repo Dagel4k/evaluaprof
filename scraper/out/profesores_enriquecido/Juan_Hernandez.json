@@ -1,26 +1,26 @@
 {
   "professor_id": "Juan_Hernandez",
   "nombre": "Juan Hernandez",
-  "universidad": "Instituto Tecnologico de Culiacan",
+  "universidad": "Instituto Tecnológico de Culiacán",
   "decay_analysis": {
     "quality_decayed": 8.0,
-    "difficulty_decayed": null
+    "difficulty_decayed": 3.333333333333333
   },
   "bayes_analysis": {
-    "quality_bayes": 7.21353238481989,
-    "difficulty_bayes": null
+    "quality_bayes": 7.436582211062922,
+    "difficulty_bayes": 2.9262725405158645
   },
   "recommendation_analysis": {
-    "rate": 0.667,
+    "rate": 1.0,
     "wilson_interval": [
-      0.20765495512648788,
-      0.9385096847238393
+      0.4384939195509822,
+      1
     ],
     "n_recommendations": 3
   },
   "subject_normalization": {
-    "z_mean": 0.23,
-    "z_mean_decayed": 0.23,
+    "z_mean": 0.96,
+    "z_mean_decayed": 0.96,
     "per_subject": [
       {
         "materia": "TALLER DE SO",
@@ -29,13 +29,8 @@
       },
       {
         "materia": "POO",
-        "z_decayed": 0.08740446551670353,
-        "n": 62
-      },
-      {
-        "materia": "TESEBADA",
-        "z_decayed": -0.8894991799933217,
-        "n": 13
+        "z_decayed": 0.42992734325768545,
+        "n": 16
       }
     ]
   },
@@ -79,8 +74,8 @@
       "fecha_iso": "2022-02-01T00:00:00",
       "materia": "POO",
       "calidad": 8.0,
-      "dificultad": null,
-      "nota": 9.0,
+      "dificultad": 2.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "Al principio puede parecer loquito del centro pero no te asustes, solo trata de mostrate su aficion por linux, caguamea como albañil y picha empanadas de marlin, Juan ????"
     },
@@ -88,8 +83,8 @@
       "fecha_iso": "2022-02-01T00:00:00",
       "materia": "TALLER DE SO",
       "calidad": 10.0,
-      "dificultad": null,
-      "nota": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "Super interesante sus clases, Linus Torvalds dice que le dió clases cuando apenas era un embrión. Steve Wozniak le pidió clases, él solo le escupió y lo convirtió en un genio con un IQ mayor al promedio. Su mascota es un pingüino"
     },
@@ -97,9 +92,9 @@
       "fecha_iso": "2022-02-01T00:00:00",
       "materia": "TESEBADA",
       "calidad": 6.0,
-      "dificultad": null,
-      "nota": 10.0,
-      "recomienda": 0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 0.5,
       "comentario": "Este pseudoprofesor no es nada más que eso... un pendejazo. Pero muy buenos chistes se avienta el ingeniero."
     }
   ],

@@ -1,14 +1,14 @@
 {
   "professor_id": "Jesus_Armando_Lopez_Varela",
   "nombre": "Jesus Armando Lopez Varela",
-  "universidad": "Instituto Tecnologico de Culiacan",
+  "universidad": "Instituto Tecnológico de Culiacán",
   "decay_analysis": {
     "quality_decayed": 7.0,
-    "difficulty_decayed": null
+    "difficulty_decayed": 0.0
   },
   "bayes_analysis": {
-    "quality_bayes": 6.9796291820598695,
-    "difficulty_bayes": null
+    "quality_bayes": 7.243233522165272,
+    "difficulty_bayes": 2.5492311842460214
   },
   "recommendation_analysis": {
     "rate": 1.0,
@@ -19,13 +19,13 @@
     "n_recommendations": 1
   },
   "subject_normalization": {
-    "z_mean": -0.43,
-    "z_mean_decayed": -0.43,
+    "z_mean": -0.37,
+    "z_mean_decayed": -0.37,
     "per_subject": [
       {
         "materia": "TALLER DE ÉTICA",
-        "z_decayed": -0.43205845494095896,
-        "n": 22
+        "z_decayed": -0.3748088197683544,
+        "n": 16
       }
     ]
   },
@@ -63,8 +63,8 @@
       "fecha_iso": "2023-01-15T00:00:00",
       "materia": "TALLER DE ÉTICA",
       "calidad": 7.0,
-      "dificultad": null,
-      "nota": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "Sin problema te da muchas oportunidades para entregar trabajos o exámenes. Mínimamente te pone un 80.\nEl aspecto negativo es que al agarrar confianza con el grupo (hombres en específico) suele soltar chistes de mal gusto o incluso sexistas. Además, a veces se enreda en sus propios conceptos."
     }

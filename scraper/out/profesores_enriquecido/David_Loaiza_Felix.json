@@ -1,14 +1,14 @@
 {
   "professor_id": "David_Loaiza_Felix",
   "nombre": "David Loaiza Felix",
-  "universidad": "Instituto Tecnologico de Culiacan",
+  "universidad": "Instituto Tecnológico de Culiacán",
   "decay_analysis": {
     "quality_decayed": 6.2698274242291685,
-    "difficulty_decayed": null
+    "difficulty_decayed": 4.0
   },
   "bayes_analysis": {
-    "quality_bayes": 6.81466008355488,
-    "difficulty_bayes": null
+    "quality_bayes": 7.056297395318166,
+    "difficulty_bayes": 3.0034619188921865
   },
   "recommendation_analysis": {
     "rate": 0.5,
@@ -57,8 +57,8 @@
       "fecha_iso": "2020-09-18T00:00:00",
       "materia": "ING. ECONÓMICA",
       "calidad": 8.0,
-      "dificultad": null,
-      "nota": 8.0,
+      "dificultad": 4.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "las clases son algo aburridas pero  son muy claras y siempre ayuda.\nsi quieres aprender de la materia, no te lo recomiendo, en cambio si quieres una calificación fácil, adelante."
     },
@@ -66,9 +66,9 @@
       "fecha_iso": "2019-12-06T00:00:00",
       "materia": "INGENIERA ECONÓMICA",
       "calidad": 4.0,
-      "dificultad": null,
-      "nota": 7.0,
-      "recomienda": 0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 0.5,
       "comentario": "Su modo de enseñanza no es muy bueno, si da bien su programa de clases, sus diapositivas son claras, la asistencia no es obligatoria, la calificación son los exámenes, pero si asistes a todas las clases le entiendes fácilmente."
     }
   ],

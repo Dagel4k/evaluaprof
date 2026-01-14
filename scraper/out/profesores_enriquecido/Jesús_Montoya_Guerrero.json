@@ -1,36 +1,31 @@
 {
   "professor_id": "Jesús_Montoya_Guerrero",
   "nombre": "Jesús Montoya Guerrero",
-  "universidad": "Instituto Tecnologico de Culiacan",
+  "universidad": "Instituto Tecnológico de Culiacán",
   "decay_analysis": {
     "quality_decayed": 4.944510414498775,
-    "difficulty_decayed": null
+    "difficulty_decayed": 5.056481190422656
   },
   "bayes_analysis": {
-    "quality_bayes": 6.598147769435274,
-    "difficulty_bayes": null
+    "quality_bayes": 6.821197595678307,
+    "difficulty_bayes": 2.9262725405158645
   },
   "recommendation_analysis": {
-    "rate": 0.0,
+    "rate": 0.33,
     "wilson_interval": [
-      0,
-      0.5615060804490177
+      0.06040692909929794,
+      0.790505138253368
     ],
     "n_recommendations": 3
   },
   "subject_normalization": {
-    "z_mean": -0.54,
-    "z_mean_decayed": -0.53,
+    "z_mean": 0.0,
+    "z_mean_decayed": 0.0,
     "per_subject": [
       {
-        "materia": "SISTEMAS DE MANUFACTURA",
-        "z_decayed": -0.4539206495016019,
-        "n": 4
-      },
-      {
         "materia": "SISTEMAS",
-        "z_decayed": -0.6293425244596854,
-        "n": 13
+        "z_decayed": 0.0,
+        "n": 3
       }
     ]
   },
@@ -71,7 +66,19 @@
       ],
       "sigma": 0.8082903768654761
     },
-    "difficulty_trend": null,
+    "difficulty_trend": {
+      "series": [
+        0.0,
+        2.0,
+        8.0
+      ],
+      "ewma": [
+        0.0,
+        0.6,
+        2.82
+      ],
+      "sigma": 2.679577081058377
+    },
     "forecast": {
       "quality_next": 5.3999999999999995,
       "quality_band": [
@@ -87,27 +94,27 @@
       "fecha_iso": "2020-05-23T00:00:00",
       "materia": "SISTEMAS DE MANUFACTURA",
       "calidad": 4.0,
-      "dificultad": null,
-      "nota": 10.0,
-      "recomienda": 0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 0.5,
       "comentario": "Con el debido respeto q se merece, esta profesora ya no está para dar clases. Está chapada a la antigua, los groseros son sus favoritos. Sus chistes son malos y sus clases peor. Por favor,  échele ganas. Aunq la prefiero qe llevar con Samael, eso si qe no."
     },
     {
       "fecha_iso": "2019-09-19T00:00:00",
       "materia": "SISTEMAS",
       "calidad": 6.0,
-      "dificultad": null,
-      "nota": 10.0,
-      "recomienda": 0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 0.5,
       "comentario": "Sin palabras, los alumnos le faltan al respeto y no tiene seriedad en nada. Ya mejor que se jubile o que se ponga exigente porque no estamos para esta clase de profes"
     },
     {
       "fecha_iso": "2013-11-14T00:00:00",
       "materia": "ADMON. DE OPERACIONES",
       "calidad": 6.0,
-      "dificultad": null,
+      "dificultad": 0.0,
       "nota": null,
-      "recomienda": 0,
+      "recomienda": 0.5,
       "comentario": "ME CAE MUY BIEN ESTA PROFESORA PERO ENTRAR CON ELLA ES COMO NO APRENDER NADA. SOLO VAS A LEER DIAPOSITIVAS MUY RECARGADAS Y NO SABE EXPLICARLAS"
     }
   ],

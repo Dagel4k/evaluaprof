@@ -1,14 +1,14 @@
 {
   "professor_id": "Guillermo_Javier_Rubio_Astorga",
   "nombre": "Guillermo Javier Rubio Astorga",
-  "universidad": "Instituto Tecnologico de Culiacan",
+  "universidad": "Instituto Tecnológico de Culiacán",
   "decay_analysis": {
     "quality_decayed": 8.776532513980627,
-    "difficulty_decayed": null
+    "difficulty_decayed": 6.323131385423851
   },
   "bayes_analysis": {
-    "quality_bayes": 7.44430161558912,
-    "difficulty_bayes": null
+    "quality_bayes": 7.667351441832153,
+    "difficulty_bayes": 3.54165715590048
   },
   "recommendation_analysis": {
     "rate": 1.0,
@@ -19,13 +19,13 @@
     "n_recommendations": 3
   },
   "subject_normalization": {
-    "z_mean": 1.05,
-    "z_mean_decayed": 1.01,
+    "z_mean": 1.02,
+    "z_mean_decayed": 0.97,
     "per_subject": [
       {
         "materia": "CONTROL",
-        "z_decayed": 1.0053243629971822,
-        "n": 14
+        "z_decayed": 0.9699143708201523,
+        "n": 13
       }
     ]
   },
@@ -66,7 +66,19 @@
       ],
       "sigma": 1.212435565298214
     },
-    "difficulty_trend": null,
+    "difficulty_trend": {
+      "series": [
+        4.0,
+        6.0,
+        8.0
+      ],
+      "ewma": [
+        4.0,
+        4.6,
+        5.619999999999999
+      ],
+      "sigma": 1.1961605243444549
+    },
     "forecast": {
       "quality_next": 9.1,
       "quality_band": [
@@ -82,8 +94,8 @@
       "fecha_iso": "2022-12-02T00:00:00",
       "materia": "CONTROL",
       "calidad": 7.0,
-      "dificultad": null,
-      "nota": 8.0,
+      "dificultad": 8.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": ""
     },
@@ -91,8 +103,8 @@
       "fecha_iso": "2022-06-11T00:00:00",
       "materia": "CONTROL",
       "calidad": 10.0,
-      "dificultad": null,
-      "nota": 8.5,
+      "dificultad": 6.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "de los mejores maestro que he tenido en el tec, es exigente pero aprendes mucho"
     },
@@ -100,8 +112,8 @@
       "fecha_iso": "2021-06-18T00:00:00",
       "materia": "CONTROL 2",
       "calidad": 10.0,
-      "dificultad": null,
-      "nota": 9.0,
+      "dificultad": 4.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "Este es el verdadero filtro en eléctrica. \nLas clases son bastantes claras y el material didáctico dado es de gran ayuda. Los exámenes son bastante largos (12 horas como mínimo), pero todos tienen conexión con el anterior, lo cual los hace más \"sencillos\". Y no olvides ser un huevón exitoso."
     }

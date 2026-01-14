@@ -1,31 +1,31 @@
 {
   "professor_id": "nora_angelica_rangel_zambada",
   "nombre": "nora angelica rangel zambada",
-  "universidad": "Instituto Tecnologico de Culiacan",
+  "universidad": "Instituto Tecnológico de Culiacán",
   "decay_analysis": {
     "quality_decayed": 9.050878955959814,
-    "difficulty_decayed": null
+    "difficulty_decayed": 0.9491210440401869
   },
   "bayes_analysis": {
-    "quality_bayes": 7.367378538666044,
-    "difficulty_bayes": null
+    "quality_bayes": 7.5904283649090765,
+    "difficulty_bayes": 2.464734078977403
   },
   "recommendation_analysis": {
-    "rate": 0.667,
+    "rate": 1.0,
     "wilson_interval": [
-      0.20765495512648788,
-      0.9385096847238393
+      0.4384939195509822,
+      1
     ],
     "n_recommendations": 3
   },
   "subject_normalization": {
-    "z_mean": -0.17,
-    "z_mean_decayed": -0.17,
+    "z_mean": -0.22,
+    "z_mean_decayed": -0.22,
     "per_subject": [
       {
         "materia": "DESARROLLO SUSTENTABLE",
-        "z_decayed": -0.16979060520150235,
-        "n": 52
+        "z_decayed": -0.21729445677719697,
+        "n": 27
       }
     ]
   },
@@ -66,7 +66,19 @@
       ],
       "sigma": 1.436848403045128
     },
-    "difficulty_trend": null,
+    "difficulty_trend": {
+      "series": [
+        4.0,
+        0.0,
+        0.0
+      ],
+      "ewma": [
+        4.0,
+        2.8,
+        1.9599999999999997
+      ],
+      "sigma": 1.4368484030451276
+    },
     "forecast": {
       "quality_next": 8.04,
       "quality_band": [
@@ -82,8 +94,8 @@
       "fecha_iso": "2015-03-21T00:00:00",
       "materia": "DES. SUSTENTABLE",
       "calidad": 10.0,
-      "dificultad": null,
-      "nota": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "Un gran espiritu de servicio. Unica"
     },
@@ -91,8 +103,8 @@
       "fecha_iso": "2014-09-10T00:00:00",
       "materia": "INT. A LAS TICS",
       "calidad": 10.0,
-      "dificultad": null,
-      "nota": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "EXCELENTE"
     },
@@ -100,9 +112,9 @@
       "fecha_iso": "2013-08-07T00:00:00",
       "materia": "DESARROLLO SUSTENTABLE",
       "calidad": 6.0,
-      "dificultad": null,
-      "nota": 5.0,
-      "recomienda": 0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 0.5,
       "comentario": ""
     }
   ],

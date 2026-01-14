@@ -1,36 +1,36 @@
 {
   "professor_id": "Carlos_Gustavo_Quiñonez_Rodriguez",
   "nombre": "Carlos Gustavo Quiñonez Rodriguez",
-  "universidad": "Instituto Tecnologico de Culiacan",
+  "universidad": "Instituto Tecnológico de Culiacán",
   "decay_analysis": {
-    "quality_decayed": 2.7774202147610367,
-    "difficulty_decayed": null
+    "quality_decayed": 2.7774202147610354,
+    "difficulty_decayed": 4.726292622108111
   },
   "bayes_analysis": {
-    "quality_bayes": 5.841137214475611,
-    "difficulty_bayes": null
+    "quality_bayes": 6.048254910272713,
+    "difficulty_bayes": 3.0029673590504453
   },
   "recommendation_analysis": {
-    "rate": 0.0,
+    "rate": 0.25,
     "wilson_interval": [
-      0,
-      0.48990002040399916
+      0.045586062644636216,
+      0.6993639475573634
     ],
     "n_recommendations": 4
   },
   "subject_normalization": {
-    "z_mean": -1.22,
-    "z_mean_decayed": -1.27,
+    "z_mean": -1.28,
+    "z_mean_decayed": -1.37,
     "per_subject": [
       {
         "materia": "MERCADOTECNIA",
-        "z_decayed": -1.0836086474311224,
+        "z_decayed": -1.0836086474311226,
         "n": 9
       },
       {
         "materia": "DESARROLLO SUSTENTABLE",
-        "z_decayed": -1.4310922438412343,
-        "n": 52
+        "z_decayed": -1.5977533586558597,
+        "n": 27
       }
     ]
   },
@@ -73,7 +73,21 @@
       ],
       "sigma": 1.5900943368240765
     },
-    "difficulty_trend": null,
+    "difficulty_trend": {
+      "series": [
+        0.0,
+        4.0,
+        2.0,
+        8.0
+      ],
+      "ewma": [
+        0.0,
+        1.2,
+        1.44,
+        3.408
+      ],
+      "sigma": 2.1159306856952256
+    },
     "forecast": {
       "quality_next": 2.84,
       "quality_band": [
@@ -89,8 +103,8 @@
       "fecha_iso": "2016-05-11T00:00:00",
       "materia": "DESARROLLO SUSTENTABLE",
       "calidad": 2.0,
-      "dificultad": null,
-      "nota": 9.0,
+      "dificultad": 8.0,
+      "nota": null,
       "recomienda": 0,
       "comentario": "Es algo perezoso , la neta no merece, pero esta calmada la clase, te arriegas si quieres."
     },
@@ -98,16 +112,16 @@
       "fecha_iso": "2013-12-03T00:00:00",
       "materia": "MERCADOTECNIA",
       "calidad": 6.0,
-      "dificultad": null,
-      "nota": 8.5,
-      "recomienda": 0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 0.5,
       "comentario": "nomas asistir todos los dias, se exponen todas las unidades uno que otro examen, pero si no eres mujer sencillamente al vato no le interesa nada mas, te pone al final lo que a su criterio le paresca, si no le caes mal pasas"
     },
     {
       "fecha_iso": "2013-09-09T00:00:00",
       "materia": "MERCADOTECNIA",
       "calidad": 2.0,
-      "dificultad": null,
+      "dificultad": 4.0,
       "nota": null,
       "recomienda": 0,
       "comentario": ""
@@ -116,8 +130,8 @@
       "fecha_iso": "2013-08-07T00:00:00",
       "materia": "ECONOMIA / MERCADOTECNIA",
       "calidad": 2.0,
-      "dificultad": null,
-      "nota": 5.0,
+      "dificultad": 0.0,
+      "nota": null,
       "recomienda": 0,
       "comentario": "Miren la neta no vas a aprender mucho, vas a agarrar cura DIARIO el mismo profe te lo dice, expones cada semana y los examenes son abiertos de nivel medio, EL PROBLEMA es que te pone lo que quiera de calificacion y si reclamas te baja aun mas. Un bolado con este wey. Si buscas el 70 adelante."
     }

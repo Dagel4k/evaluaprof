@@ -1,14 +1,14 @@
 {
   "professor_id": "MONSERRAT_ROMERO_SERRANO",
   "nombre": "MONSERRAT ROMERO SERRANO",
-  "universidad": "Instituto Tecnologico de Culiacan",
+  "universidad": "Instituto Tecnológico de Culiacán",
   "decay_analysis": {
     "quality_decayed": 10.0,
-    "difficulty_decayed": null
+    "difficulty_decayed": 0.0
   },
   "bayes_analysis": {
-    "quality_bayes": 7.841137214475611,
-    "difficulty_bayes": null
+    "quality_bayes": 8.048254910272714,
+    "difficulty_bayes": 2.0029673590504453
   },
   "recommendation_analysis": {
     "rate": 1.0,
@@ -19,18 +19,18 @@
     "n_recommendations": 4
   },
   "subject_normalization": {
-    "z_mean": 0.66,
+    "z_mean": 0.67,
     "z_mean_decayed": 0.66,
     "per_subject": [
       {
-        "materia": "INVESTIGACION DE OPERACIONES",
-        "z_decayed": 0.6728624691859579,
-        "n": 16
+        "materia": "INVESTIGACIÓN DE OPERACIONES",
+        "z_decayed": 0.6712925618877001,
+        "n": 11
       },
       {
-        "materia": "INVESTIGACIÓN DE OPERACIONES",
-        "z_decayed": 0.6492344540642356,
-        "n": 15
+        "materia": "INVESTIGACION DE OPERACIONES",
+        "z_decayed": 0.6569492831038692,
+        "n": 12
       }
     ]
   },
@@ -71,7 +71,19 @@
       ],
       "sigma": 0.0
     },
-    "difficulty_trend": null,
+    "difficulty_trend": {
+      "series": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ewma": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sigma": 0.0
+    },
     "forecast": {
       "quality_next": 10.0,
       "quality_band": [
@@ -87,8 +99,8 @@
       "fecha_iso": "2019-01-28T00:00:00",
       "materia": "INVESTIGACION DE OPERACIONES",
       "calidad": 10.0,
-      "dificultad": null,
-      "nota": 9.0,
+      "dificultad": 0.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "Calificaciones muy justas incluso te apoya si algun tema no lo entiendes super recomendado ella les puede ayudar en su semestre siempre y cuando le cumplan a ella esta guapisima :D"
     },
@@ -96,8 +108,8 @@
       "fecha_iso": "2017-01-25T00:00:00",
       "materia": "INVESTIGACIÓN DE OPERACIONES",
       "calidad": 10.0,
-      "dificultad": null,
-      "nota": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "Muy buena profesora :)"
     },
@@ -105,8 +117,8 @@
       "fecha_iso": "2017-01-11T00:00:00",
       "materia": "INVESTIGACIÓN DE OPERACIONES",
       "calidad": 10.0,
-      "dificultad": null,
-      "nota": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "Una muy excelente profesora, explica las cosas de manera clara y precisa, te ayuda cuando lo necesitas, cae super bien,clases muy bien explicadas y examenes fáciles. Recomendada 100%"
     },
@@ -114,8 +126,8 @@
       "fecha_iso": "2016-12-28T00:00:00",
       "materia": "INGENIERIA DE SISTEMAS",
       "calidad": 10.0,
-      "dificultad": null,
-      "nota": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": ""
     }

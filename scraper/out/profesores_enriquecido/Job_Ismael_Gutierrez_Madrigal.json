@@ -1,31 +1,31 @@
 {
   "professor_id": "Job_Ismael_Gutierrez_Madrigal",
   "nombre": "Job Ismael Gutierrez Madrigal",
-  "universidad": "Instituto Tecnologico de Culiacan",
+  "universidad": "Instituto Tecnológico de Culiacán",
   "decay_analysis": {
-    "quality_decayed": 8.578996469947223,
-    "difficulty_decayed": null
+    "quality_decayed": 2.499059211101844,
+    "difficulty_decayed": 6.617603972266547
   },
   "bayes_analysis": {
-    "quality_bayes": 7.231326750221547,
-    "difficulty_bayes": null
+    "quality_bayes": 6.6911120531298565,
+    "difficulty_bayes": 3.2886816447647313
   },
   "recommendation_analysis": {
-    "rate": 1.0,
+    "rate": 0.5,
     "wilson_interval": [
-      0.3423719528896193,
-      1
+      0.15003570882017145,
+      0.8499642911798285
     ],
-    "n_recommendations": 2
+    "n_recommendations": 4
   },
   "subject_normalization": {
-    "z_mean": 0.76,
-    "z_mean_decayed": 0.79,
+    "z_mean": 0.63,
+    "z_mean_decayed": 0.65,
     "per_subject": [
       {
         "materia": "METROLOGIA Y NORMALIZACION",
-        "z_decayed": 0.7862739859707898,
-        "n": 15
+        "z_decayed": 0.6482671082166243,
+        "n": 9
       }
     ]
   },
@@ -39,12 +39,39 @@
     "n_grades": 0
   },
   "nlp_analysis": {
-    "topics": [],
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "es",
+          "examenes",
+          "examenes largos",
+          "largos",
+          "buen"
+        ],
+        "weight": 0.39060280809902687
+      },
+      {
+        "id": 1,
+        "words": [
+          "examenes",
+          "examenes largos",
+          "largos",
+          "debes",
+          "te"
+        ],
+        "weight": 0.31543176297434095
+      }
+    ],
     "sentiment": {
-      "overall": null,
-      "by_month": {}
+      "overall": 0.0,
+      "by_month": {
+        "2025-09": 0.0,
+        "2018-11": 0.0,
+        "2017-12": 0.0
+      }
     },
-    "n_comments": 2
+    "n_comments": 4
   },
   "integrity_analysis": {
     "dup_rate": 0.0,
@@ -53,18 +80,67 @@
     "trust_score": 1.0
   },
   "trends_analysis": {
-    "quality_trend": null,
-    "difficulty_trend": null,
-    "forecast": null,
+    "quality_trend": {
+      "series": [
+        8.0,
+        9.0,
+        2.0
+      ],
+      "ewma": [
+        8.0,
+        8.299999999999999,
+        6.409999999999998
+      ],
+      "sigma": 2.7703850514564454
+    },
+    "difficulty_trend": {
+      "series": [
+        2.0,
+        2.0,
+        7.0
+      ],
+      "ewma": [
+        2.0,
+        2.0,
+        3.5
+      ],
+      "sigma": 2.0207259421636903
+    },
+    "forecast": {
+      "quality_next": 6.409999999999998,
+      "quality_band": [
+        0.9800452991453659,
+        10.0
+      ],
+      "confidence": 0.95
+    },
     "seasonality": {}
   },
   "reviews_public": [
     {
+      "fecha_iso": "2025-09-17T00:00:00",
+      "materia": "METAFISICA",
+      "calidad": 2.0,
+      "dificultad": 6.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "SI FUERA HONESTO SERIA UN BUEN DOCENTE"
+    },
+    {
+      "fecha_iso": "2025-09-10T00:00:00",
+      "materia": "COBRANZA",
+      "calidad": 2.0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "TIENE UN ADEUDO EN LA APLICACION   APP: VeloCrédito  PAGA LO QUE DEBES      Y CONTESTA LOS MENSAJES  NO TE ESCONDAS"
+    },
+    {
       "fecha_iso": "2018-11-29T00:00:00",
       "materia": "METROLOGIA Y NORMALIZACION",
       "calidad": 9.0,
-      "dificultad": null,
-      "nota": 9.0,
+      "dificultad": 2.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "Muy buen maestro, con el que de verdad vas aprender, los exámenes son muy largos pero no tan complicados, pueda que lo mires muy enchuecado pero es bien compa."
     },
@@ -72,15 +148,17 @@
       "fecha_iso": "2017-12-28T00:00:00",
       "materia": "METROLOGIA Y NORMALIZACION",
       "calidad": 8.0,
-      "dificultad": null,
+      "dificultad": 2.0,
       "nota": null,
       "recomienda": 1,
       "comentario": "Es buen profe, te enseña lo que debes aprender y aparte practicas algunas veces. Los exámenes son largos pero sencillos. Al final te hace el paro."
     }
   ],
   "comments_recent": [
+    "SI FUERA HONESTO SERIA UN BUEN DOCENTE",
+    "TIENE UN ADEUDO EN LA APLICACION   APP: VeloCrédito  PAGA LO QUE DEBES      Y CONTESTA LOS MENSAJES  NO TE ESCONDAS",
     "Muy buen maestro, con el que de verdad vas aprender, los exámenes son muy largos pero no tan complicados, pueda que lo mires muy enchuecado pero es bien compa.",
     "Es buen profe, te enseña lo que debes aprender y aparte practicas algunas veces. Los exámenes son largos pero sencillos. Al final te hace el paro."
   ],
-  "n_reviews": 2
+  "n_reviews": 4
 }

@@ -1,31 +1,31 @@
 {
   "professor_id": "Simon_Mendoza",
   "nombre": "Simon Mendoza",
-  "universidad": "Instituto Tecnologico de Culiacan",
+  "universidad": "Instituto Tecnológico de Culiacán",
   "decay_analysis": {
     "quality_decayed": 4.396770683170743,
-    "difficulty_decayed": null
+    "difficulty_decayed": 1.7874841723026298
   },
   "bayes_analysis": {
-    "quality_bayes": 6.126851500189898,
-    "difficulty_bayes": null
+    "quality_bayes": 6.333969195987,
+    "difficulty_bayes": 2.431538787621874
   },
   "recommendation_analysis": {
-    "rate": 0.0,
+    "rate": 0.25,
     "wilson_interval": [
-      0,
-      0.48990002040399916
+      0.045586062644636216,
+      0.6993639475573634
     ],
     "n_recommendations": 4
   },
   "subject_normalization": {
-    "z_mean": -1.15,
-    "z_mean_decayed": -1.15,
+    "z_mean": -0.82,
+    "z_mean_decayed": -0.82,
     "per_subject": [
       {
         "materia": "ELECTRICIDAD",
-        "z_decayed": -1.1473505296660065,
-        "n": 8
+        "z_decayed": -0.8198915917499231,
+        "n": 5
       }
     ]
   },
@@ -73,7 +73,21 @@
       ],
       "sigma": 1.4162391511793953
     },
-    "difficulty_trend": null,
+    "difficulty_trend": {
+      "series": [
+        0.0,
+        0.0,
+        4.0,
+        2.0
+      ],
+      "ewma": [
+        0.0,
+        0.0,
+        1.2,
+        1.44
+      ],
+      "sigma": 1.3330666399946653
+    },
     "forecast": {
       "quality_next": 4.039999999999999,
       "quality_band": [
@@ -89,25 +103,25 @@
       "fecha_iso": "2014-07-09T00:00:00",
       "materia": "LIDER SINDICAL",
       "calidad": 6.0,
-      "dificultad": null,
-      "nota": 10.0,
-      "recomienda": 0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 0.5,
       "comentario": "Fue un gran político y un mal docente. Como político se reconoce su trayectoria y sus logros. Lo recuerdo como un hombre de palabra, quien ayudo a muchos fue un gran líder. DEP"
     },
     {
       "fecha_iso": "2014-06-04T00:00:00",
       "materia": "ELECTRIC",
       "calidad": 6.0,
-      "dificultad": null,
+      "dificultad": 4.0,
       "nota": null,
-      "recomienda": 0,
+      "recomienda": 0.5,
       "comentario": "YA SE MURIO DE TODOS MODOS!"
     },
     {
       "fecha_iso": "2013-11-14T00:00:00",
       "materia": "ELECTRICIDAD",
       "calidad": 2.0,
-      "dificultad": null,
+      "dificultad": 0.0,
       "nota": null,
       "recomienda": 0,
       "comentario": "DE LO PEOR DEL TEC"
@@ -116,7 +130,7 @@
       "fecha_iso": "2012-08-16T00:00:00",
       "materia": "ELECTRICIDAD",
       "calidad": 2.0,
-      "dificultad": null,
+      "dificultad": 0.0,
       "nota": null,
       "recomienda": 0,
       "comentario": "Pesimo como maestro, nunca asiste a clases, manda a otros a darnos clases, es un inepto no sabe nada, se la lleva en el Sindicato. Deberian correrlo del Tec. es una verguenza para la Institucion"

@@ -1,46 +1,41 @@
 {
   "professor_id": "Mario_Alain_Urquídez_González",
   "nombre": "Mario Alain Urquídez González",
-  "universidad": "Instituto Tecnologico de Culiacan",
+  "universidad": "Instituto Tecnológico de Culiacán",
   "decay_analysis": {
-    "quality_decayed": 7.993069980495419,
-    "difficulty_decayed": null
+    "quality_decayed": 7.99306998049542,
+    "difficulty_decayed": 2.777319495785307
   },
   "bayes_analysis": {
-    "quality_bayes": 7.118394733510571,
-    "difficulty_bayes": null
+    "quality_bayes": 7.311704582921199,
+    "difficulty_bayes": 2.9361028684470822
   },
   "recommendation_analysis": {
-    "rate": 0.6,
+    "rate": 0.4,
     "wilson_interval": [
-      0.23071993220883702,
-      0.8823817688407467
+      0.11761823115925325,
+      0.769280067791163
     ],
     "n_recommendations": 5
   },
   "subject_normalization": {
-    "z_mean": 0.0,
-    "z_mean_decayed": 0.16,
+    "z_mean": -0.08,
+    "z_mean_decayed": -0.55,
     "per_subject": [
       {
         "materia": "METROLOGÍA Y NORMALIZACIÓN",
-        "z_decayed": 1.023532631438318,
-        "n": 12
-      },
-      {
-        "materia": "ESTADÍSTICA",
-        "z_decayed": 0.25318484177091666,
-        "n": 6
-      },
-      {
-        "materia": "SIX SIGMA",
-        "z_decayed": -0.06703322014155225,
-        "n": 4
+        "z_decayed": 1.6116459280507605,
+        "n": 7
       },
       {
         "materia": "ETICA",
-        "z_decayed": -0.2756614134810139,
-        "n": 31
+        "z_decayed": -0.3396548885704467,
+        "n": 22
+      },
+      {
+        "materia": "ESTADÍSTICA",
+        "z_decayed": -1.5,
+        "n": 4
       }
     ]
   },
@@ -63,7 +58,7 @@
           "bien",
           "si"
         ],
-        "weight": 0.25148346723937776
+        "weight": 0.25148346723937753
       },
       {
         "id": 1,
@@ -73,7 +68,7 @@
           "buen",
           "diapositivas"
         ],
-        "weight": 0.3973021250447716
+        "weight": 0.3973021250447717
       }
     ],
     "sentiment": {
@@ -111,7 +106,23 @@
       ],
       "sigma": 2.066449701299308
     },
-    "difficulty_trend": null,
+    "difficulty_trend": {
+      "series": [
+        8.0,
+        2.0,
+        2.0,
+        0.0,
+        4.0
+      ],
+      "ewma": [
+        8.0,
+        6.199999999999999,
+        4.939999999999999,
+        3.457999999999999,
+        3.6205999999999987
+      ],
+      "sigma": 2.091730812509105
+    },
     "forecast": {
       "quality_next": 7.131299999999998,
       "quality_band": [
@@ -127,8 +138,8 @@
       "fecha_iso": "2023-08-10T00:00:00",
       "materia": "ESTADÍSTICA",
       "calidad": 8.0,
-      "dificultad": null,
-      "nota": 9.5,
+      "dificultad": 4.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": ""
     },
@@ -136,8 +147,8 @@
       "fecha_iso": "2023-01-26T00:00:00",
       "materia": "SIX SIGMA",
       "calidad": 10.0,
-      "dificultad": null,
-      "nota": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "Muy buen maestro, explica bien, si lo recomiendo para cargar con el."
     },
@@ -145,17 +156,17 @@
       "fecha_iso": "2021-01-31T00:00:00",
       "materia": "ETICA",
       "calidad": 6.0,
-      "dificultad": null,
-      "nota": 9.0,
-      "recomienda": 0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 0.5,
       "comentario": "Preparate para leer puras diapositivas, en el examen te cambiara de manera fea los significados."
     },
     {
       "fecha_iso": "2020-12-12T00:00:00",
       "materia": "METROLOGÍA Y NORMALIZACIÓN",
       "calidad": 10.0,
-      "dificultad": null,
-      "nota": 10.0,
+      "dificultad": 2.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "Realmente se prepará para su clase. Apesar de que usa diapositivas, es muy raro que lea durante la clase. Todas las dudas que tengas trata de responderlas, ya sea en la misma clase o en la siguiente. El único problema es que tarda mucho en dar calificaciones, pero de ahi en fuera muy buen profe."
     },
@@ -163,8 +174,8 @@
       "fecha_iso": "2020-05-23T00:00:00",
       "materia": "SIX SIGMA",
       "calidad": 3.0,
-      "dificultad": null,
-      "nota": 24.0,
+      "dificultad": 8.0,
+      "nota": null,
       "recomienda": 0,
       "comentario": "Ojalá que vea este mensaje. Está muy joven, poca experiencia y complejo de superioridad. Sus papás excelentes profesores pero él no heredó nada de ellos. Si desea continuar, por el bien de todos, mejore sus clases. Sí se puede cuando se quiere. *solo siganle el rollo*"
     }

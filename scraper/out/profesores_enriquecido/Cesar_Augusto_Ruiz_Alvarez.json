@@ -1,14 +1,14 @@
 {
   "professor_id": "Cesar_Augusto_Ruiz_Alvarez",
   "nombre": "Cesar Augusto Ruiz Alvarez",
-  "universidad": "Instituto Tecnologico de Culiacan",
+  "universidad": "Instituto Tecnológico de Culiacán",
   "decay_analysis": {
     "quality_decayed": 8.0,
-    "difficulty_decayed": null
+    "difficulty_decayed": 0.0
   },
   "bayes_analysis": {
-    "quality_bayes": 7.07053827296896,
-    "difficulty_bayes": null
+    "quality_bayes": 7.334142613074363,
+    "difficulty_bayes": 2.5492311842460214
   },
   "recommendation_analysis": {
     "rate": 1.0,
@@ -19,13 +19,13 @@
     "n_recommendations": 1
   },
   "subject_normalization": {
-    "z_mean": 0.25,
-    "z_mean_decayed": 0.25,
+    "z_mean": 0.13,
+    "z_mean_decayed": 0.13,
     "per_subject": [
       {
         "materia": "INGENIERÍA ECONÓMICA",
-        "z_decayed": 0.25318484177091666,
-        "n": 6
+        "z_decayed": 0.13483997249264854,
+        "n": 5
       }
     ]
   },
@@ -63,8 +63,8 @@
       "fecha_iso": "2017-12-18T00:00:00",
       "materia": "INGENIERÍA ECONÓMICA",
       "calidad": 8.0,
-      "dificultad": null,
-      "nota": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "Está facil pasar, los examenes son del ejercicio hecho un día antes del examen y está bien facil. Falta mucho y con las asistencias te deja 100. Si quieres aprender busca otros maestros si solo la quieres  llevar facil carga con el"
     }

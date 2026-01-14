@@ -1,14 +1,14 @@
 {
   "professor_id": "Elthon_Vega_Alvarez",
   "nombre": "Elthon Vega  Alvarez",
-  "universidad": "Instituto Tecnologico de Culiacan",
+  "universidad": "Instituto Tecnológico de Culiacán",
   "decay_analysis": {
-    "quality_decayed": 7.677446925836896,
-    "difficulty_decayed": null
+    "quality_decayed": 7.677446925836895,
+    "difficulty_decayed": 2.3225530741631055
   },
   "bayes_analysis": {
-    "quality_bayes": 7.147993416888213,
-    "difficulty_bayes": null
+    "quality_bayes": 7.3896307286514995,
+    "difficulty_bayes": 2.670128585558853
   },
   "recommendation_analysis": {
     "rate": 0.5,
@@ -19,8 +19,8 @@
     "n_recommendations": 2
   },
   "subject_normalization": {
-    "z_mean": -0.23,
-    "z_mean_decayed": -0.36,
+    "z_mean": -0.08,
+    "z_mean_decayed": -0.19,
     "per_subject": [
       {
         "materia": "FENÓMENOS DE TRANSPORTE",
@@ -29,8 +29,8 @@
       },
       {
         "materia": "BIOQUÍMICA",
-        "z_decayed": -1.0285114588061344,
-        "n": 8
+        "z_decayed": -0.7404360971988655,
+        "n": 6
       }
     ]
   },
@@ -68,17 +68,17 @@
       "fecha_iso": "2024-05-14T00:00:00",
       "materia": "BIOQUÍMICA",
       "calidad": 6.0,
-      "dificultad": null,
-      "nota": 8.0,
-      "recomienda": 0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 0.5,
       "comentario": ""
     },
     {
       "fecha_iso": "2023-06-06T00:00:00",
       "materia": "FENÓMENOS DE TRANSPORTE",
       "calidad": 10.0,
-      "dificultad": null,
-      "nota": 8.5,
+      "dificultad": 0.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "Excelente profesor la verdad, lo recomendaría 100%"
     }

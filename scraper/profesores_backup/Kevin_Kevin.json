@@ -1,0 +1,97 @@
+{
+  "nombre": "Kevin Kevin",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "ciudad": "Ciudad: culiacan, sinaloa",
+  "departamento": "Departamento/Facultad: Mecatronica",
+  "calidad_general": 7.0,
+  "porcentaje_recomienda": 80,
+  "nivel_dificultad": 3.6,
+  "etiquetas": [
+    "CALIFICA DURO (2)",
+    "DA CRÉDITO EXTRA (1)",
+    "TOMARÍA SU CLASE OTRA VEZ (1)",
+    "POCOS EXÁMENES (1)",
+    "ASPECTOS DE CALIFICACIÓN CLAROS (1)"
+  ],
+  "numero_calificaciones": 5,
+  "calificaciones": [
+    {
+      "fecha": "06/Jun/2019",
+      "tipo_calificacion": "REGULAR",
+      "puntaje_calidad_general": 5.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "mecanismos",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "7",
+      "interes_clase": "",
+      "comentario": "sus clases no son aburridas,te es algo duro pero te enseña muchas cosas del mundo laboral, deja 3 proyectos muy laboriosos pero sus examenes son faciles, reprueva a todo el grupo péro al final los pasa en el global",
+      "etiquetas_comentario": [
+        "Califica Duro",
+        "Pocos Exámenes",
+        "Aspectos de calificación claros"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "14/Dic/2018",
+      "tipo_calificacion": "REGULAR",
+      "puntaje_calidad_general": 6.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Mecanismos",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "9",
+      "interes_clase": "",
+      "comentario": "No le gusta complicarse la vida, no le gusta que le rueguen y no ayuda con calificaciones si se lo pides, le tiene que nacer a él solito. Es muy claro con sus reglas y te encarga tres proyectos algo pesados a lo largo del semestre. Exámenes fáciles.",
+      "etiquetas_comentario": [
+        "Califica Duro",
+        "Da Crédito Extra",
+        "Tomaría su clase otra vez"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "18/Ago/2014",
+      "tipo_calificacion": "REGULAR",
+      "puntaje_calidad_general": 4.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "mecanismos",
+      "asistencia": "",
+      "calificacion_recibida": "5",
+      "interes_clase": "5",
+      "comentario": "",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "01/Dic/2013",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Mecanismos",
+      "asistencia": "",
+      "calificacion_recibida": "N/A",
+      "interes_clase": "N/A",
+      "comentario": "Explica muy bien los temas, no los hace muy compicados, aprendes mucho y pide prácticas con las que aprendes más. No está peleado con la vida como Tolosa, piña, fabio, velazco, gaspar pinto, entre muchos otros.",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "14/Nov/2013",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "MECANISMOS",
+      "asistencia": "",
+      "calificacion_recibida": "9",
+      "interes_clase": "9",
+      "comentario": "El es Keven, y es super freson, pero el bato enseña machin, y aprendes bien, aparte el bato juega arrancones en el autodromo. WACHEN ESTE SENTRITA\nhttp://www.youtube.com/watch?v=e3TQXuBvtm0",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    }
+  ]
+}

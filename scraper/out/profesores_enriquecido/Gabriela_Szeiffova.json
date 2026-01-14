@@ -1,22 +1,22 @@
 {
   "professor_id": "Gabriela_Szeiffova",
   "nombre": "Gabriela Szeiffova",
-  "universidad": "Instituto Tecnologico de Culiacan",
+  "universidad": "Instituto Tecnológico de Culiacán",
   "decay_analysis": {
-    "quality_decayed": 8.18455004505699,
-    "difficulty_decayed": null
+    "quality_decayed": 8.669887943524321,
+    "difficulty_decayed": 1.3633639644773095
   },
   "bayes_analysis": {
-    "quality_bayes": 7.222113000156386,
-    "difficulty_bayes": null
+    "quality_bayes": 7.645037916254533,
+    "difficulty_bayes": 2.5361028684470823
   },
   "recommendation_analysis": {
-    "rate": 0.571,
+    "rate": 0.57,
     "wilson_interval": [
-      0.2504542304090258,
-      0.8417830777373732
+      0.21183736673309703,
+      0.8673338240016116
     ],
-    "n_recommendations": 7
+    "n_recommendations": 5
   },
   "subject_normalization": {
     "z_mean": null,
@@ -43,29 +43,18 @@
           "maestra",
           "si"
         ],
-        "weight": 0.17706674736421504
+        "weight": 0.3105428557459227
       },
       {
         "id": 1,
         "words": [
-          "materia",
-          "sacar",
           "si",
+          "maestra",
+          "es maestra",
           "es",
-          "bien"
-        ],
-        "weight": 0.20278130405944084
-      },
-      {
-        "id": 2,
-        "words": [
-          "es",
-          "barba",
-          "sacar",
-          "hacerle",
           "materia"
         ],
-        "weight": 0.2897906416609491
+        "weight": 0.25849721653864277
       }
     ],
     "sentiment": {
@@ -78,7 +67,7 @@
         "2013-12": 0.0
       }
     },
-    "n_comments": 7
+    "n_comments": 5
   },
   "integrity_analysis": {
     "dup_rate": 0.0,
@@ -89,26 +78,42 @@
   "trends_analysis": {
     "quality_trend": {
       "series": [
-        7.0,
+        10.0,
         10.0,
         2.0,
         10.0,
         10.0
       ],
       "ewma": [
-        7.0,
-        7.8999999999999995,
-        6.129999999999999,
-        7.290999999999999,
-        8.1037
+        10.0,
+        10.0,
+        7.6,
+        8.32,
+        8.824
       ],
-      "sigma": 2.7872522612781214
+      "sigma": 2.918024537251186
     },
-    "difficulty_trend": null,
+    "difficulty_trend": {
+      "series": [
+        4.0,
+        0.0,
+        6.0,
+        0.0,
+        0.0
+      ],
+      "ewma": [
+        4.0,
+        2.8,
+        3.76,
+        2.6319999999999997,
+        1.8423999999999996
+      ],
+      "sigma": 2.127817255311179
+    },
     "forecast": {
-      "quality_next": 8.1037,
+      "quality_next": 8.824,
       "quality_band": [
-        2.6406855678948817,
+        3.104671906987675,
         10.0
       ],
       "confidence": 0.95
@@ -120,8 +125,8 @@
       "fecha_iso": "2018-05-12T00:00:00",
       "materia": "ENERGÍAS RENOVABLES",
       "calidad": 10.0,
-      "dificultad": null,
-      "nota": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "Una docente bien preparada."
     },
@@ -129,8 +134,8 @@
       "fecha_iso": "2015-11-07T00:00:00",
       "materia": "DESARROLLO SUSTENTABLE Y TALLER DE INVESTIGACION 1",
       "calidad": 10.0,
-      "dificultad": null,
-      "nota": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "es la onda la maestra la neta, si le pides ayuda te la brinda sin problemas"
     },
@@ -138,8 +143,8 @@
       "fecha_iso": "2015-09-07T00:00:00",
       "materia": "BIOCOMBUSTIBLES",
       "calidad": 2.0,
-      "dificultad": null,
-      "nota": 3.0,
+      "dificultad": 6.0,
+      "nota": null,
       "recomienda": 0,
       "comentario": "No sabe absolutamente nada de la materia, no cumple el perfil de esta materia, no es bioquímica, ni química, debería dedicarse mas a fundamentos de investigación o algo parecido."
     },
@@ -147,8 +152,8 @@
       "fecha_iso": "2015-04-16T00:00:00",
       "materia": "TALLER DE INVESTIGACION 1 Y DESARROLLO SUSTENTABLE",
       "calidad": 10.0,
-      "dificultad": null,
-      "nota": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "Es una maestra muy profecional a demas de presentar una amplia experiencia el las industras a nivel internacional y siempre busca ayudarte si  la necesitas"
     },
@@ -156,28 +161,10 @@
       "fecha_iso": "2013-12-16T00:00:00",
       "materia": "ENERGÍAS RENOVABLES",
       "calidad": 10.0,
-      "dificultad": null,
-      "nota": 9.5,
+      "dificultad": 4.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "Es una maestra muy dura, guapa y responsable. Es la primera vez que veo a alguien tan profesional en su materia. Para sacar buen promedio no necesito hacerle la barba..."
-    },
-    {
-      "fecha_iso": "2013-12-04T00:00:00",
-      "materia": "FUND. DE INVEST.",
-      "calidad": 5.0,
-      "dificultad": null,
-      "nota": 7.0,
-      "recomienda": 0,
-      "comentario": "No es justa a la hora de calificar y no se explica muy bien en sus clases, pero da mucho chance de entregar tareas :D"
-    },
-    {
-      "fecha_iso": "2013-12-04T00:00:00",
-      "materia": "FUENTES DE ENERGÍA RENOVABLE",
-      "calidad": 6.0,
-      "dificultad": null,
-      "nota": 5.0,
-      "recomienda": 0,
-      "comentario": "Tienes que hacerle demasiado la barba para sacar un 100."
     }
   ],
   "comments_recent": [
@@ -185,9 +172,7 @@
     "es la onda la maestra la neta, si le pides ayuda te la brinda sin problemas",
     "No sabe absolutamente nada de la materia, no cumple el perfil de esta materia, no es bioquímica, ni química, debería dedicarse mas a fundamentos de investigación o algo parecido.",
     "Es una maestra muy profecional a demas de presentar una amplia experiencia el las industras a nivel internacional y siempre busca ayudarte si  la necesitas",
-    "Es una maestra muy dura, guapa y responsable. Es la primera vez que veo a alguien tan profesional en su materia. Para sacar buen promedio no necesito hacerle la barba...",
-    "No es justa a la hora de calificar y no se explica muy bien en sus clases, pero da mucho chance de entregar tareas :D",
-    "Tienes que hacerle demasiado la barba para sacar un 100."
+    "Es una maestra muy dura, guapa y responsable. Es la primera vez que veo a alguien tan profesional en su materia. Para sacar buen promedio no necesito hacerle la barba..."
   ],
-  "n_reviews": 7
+  "n_reviews": 5
 }

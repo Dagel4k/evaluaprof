@@ -1,46 +1,36 @@
 {
   "professor_id": "Joaquin_Guadalupe_Salazar_Araujo",
   "nombre": "Joaquin Guadalupe Salazar Araujo",
-  "universidad": "Instituto Tecnologico de Culiacan",
+  "universidad": "Instituto Tecnológico de Culiacán",
   "decay_analysis": {
-    "quality_decayed": 5.642719020189374,
-    "difficulty_decayed": null
+    "quality_decayed": 5.11650431106001,
+    "difficulty_decayed": 3.120319695064523
   },
   "bayes_analysis": {
-    "quality_bayes": 7.071036840106342,
-    "difficulty_bayes": null
+    "quality_bayes": 6.845037916254532,
+    "difficulty_bayes": 2.402769535113749
   },
   "recommendation_analysis": {
-    "rate": 0.533,
+    "rate": 0.53,
     "wilson_interval": [
-      0.3011663015105079,
-      0.7519077474025356
+      0.18772106627044435,
+      0.8462094440444308
     ],
-    "n_recommendations": 15
+    "n_recommendations": 5
   },
   "subject_normalization": {
-    "z_mean": 0.4,
-    "z_mean_decayed": -0.0,
+    "z_mean": 0.04,
+    "z_mean_decayed": -0.22,
     "per_subject": [
       {
-        "materia": "INVESTIGACION",
-        "z_decayed": 1.2702146976599116,
-        "n": 7
-      },
-      {
         "materia": "ARQUITECTURA DE COMPUTADORAS",
-        "z_decayed": 1.0954451150103321,
-        "n": 5
+        "z_decayed": 1.1547005383792512,
+        "n": 3
       },
       {
         "materia": "---",
-        "z_decayed": 0.31773181870772993,
-        "n": 521
-      },
-      {
-        "materia": "PROGRAMACIÓN WEB",
-        "z_decayed": -1.12089707663561,
-        "n": 3
+        "z_decayed": -0.5037749707141191,
+        "n": 80
       }
     ]
   },
@@ -54,99 +44,26 @@
     "n_grades": 0
   },
   "nlp_analysis": {
-    "topics": [
-      {
-        "id": 0,
-        "words": [
-          "comentario",
-          "comentario esperando",
-          "esperando revision",
-          "esperando",
-          "revision"
-        ],
-        "weight": 0.12900873491484335
-      },
-      {
-        "id": 1,
-        "words": [
-          "esperando",
-          "esperando revision",
-          "maestro",
-          "revision",
-          "si"
-        ],
-        "weight": 0.03349021046119576
-      },
-      {
-        "id": 2,
-        "words": [
-          "esperando",
-          "esperando revision",
-          "revision",
-          "si",
-          "maestro"
-        ],
-        "weight": 0.08453620869843223
-      },
-      {
-        "id": 3,
-        "words": [
-          "comentario",
-          "comentario esperando",
-          "esperando revision",
-          "esperando",
-          "revision"
-        ],
-        "weight": 0.3456849735470763
-      },
-      {
-        "id": 4,
-        "words": [
-          "comentario",
-          "comentario esperando",
-          "esperando revision",
-          "esperando",
-          "revision"
-        ],
-        "weight": 0.14617577157116754
-      }
-    ],
+    "topics": [],
     "sentiment": {
-      "overall": 0.15384615384615385,
+      "overall": 0.0,
       "by_month": {
-        "2024-06": 1.0,
+        "2024-06": 0.0,
         "2021-12": 0.0,
-        "2021-06": 0.0,
-        "2020-08": 0.0,
-        "2018-08": 0.0,
-        "2018-01": 0.0,
-        "2016-01": 0.0,
-        "2014-10": 0.0,
-        "2011-12": 1.0,
-        "2011-11": 0.0,
-        "2011-03": 0.0
+        "2021-06": 0.0
       }
     },
-    "n_comments": 13
+    "n_comments": 4
   },
   "integrity_analysis": {
-    "dup_rate": 0.359,
+    "dup_rate": 1.0,
     "bursts": [],
     "low_variance_flag": 0,
-    "trust_score": 0.82
+    "trust_score": 0.5
   },
   "trends_analysis": {
     "quality_trend": {
       "series": [
-        6.0,
-        6.0,
-        6.0,
-        9.0,
-        10.0,
-        10.0,
-        10.0,
-        8.0,
-        6.0,
         6.0,
         6.0,
         10.0,
@@ -155,26 +72,31 @@
       "ewma": [
         6.0,
         5.999999999999999,
-        5.999999999999999,
-        6.899999999999999,
-        7.829999999999998,
-        8.480999999999998,
-        8.936699999999998,
-        8.655689999999998,
-        7.8589829999999985,
-        7.301288099999998,
-        6.9109016699999986,
-        7.837631168999999,
-        6.086341818299998
+        7.199999999999999,
+        5.639999999999999
       ],
-      "sigma": 1.833407890324395
+      "sigma": 2.640277763165585
     },
-    "difficulty_trend": null,
+    "difficulty_trend": {
+      "series": [
+        0.0,
+        0.0,
+        0.0,
+        8.0
+      ],
+      "ewma": [
+        0.0,
+        0.0,
+        0.0,
+        2.4
+      ],
+      "sigma": 2.7999999999999994
+    },
     "forecast": {
-      "quality_next": 6.086341818299998,
+      "quality_next": 5.639999999999999,
       "quality_band": [
-        2.4928623532641843,
-        9.679821283335812
+        0.46505558419545157,
+        10.0
       ],
       "confidence": 0.95
     },
@@ -183,19 +105,19 @@
   "reviews_public": [
     {
       "fecha_iso": "2024-06-15T00:00:00",
-      "materia": "PROGRAMACIÓN WEB",
+      "materia": "---",
       "calidad": 2.0,
-      "dificultad": null,
-      "nota": 21.0,
+      "dificultad": 8.0,
+      "nota": null,
       "recomienda": 0,
-      "comentario": "No le sabe, sus clases las da con un guión que tiene en su libreta. No le hagan preguntas porque no le sabe y no te va a responde correctamente. Perfecto si quieres subir promedio."
+      "comentario": "[Comentario esperando revisión]"
     },
     {
       "fecha_iso": "2022-01-14T00:00:00",
       "materia": "ARQUITECTURA DE COMPUTADORAS",
       "calidad": 10.0,
-      "dificultad": null,
-      "nota": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": ""
     },
@@ -203,17 +125,17 @@
       "fecha_iso": "2021-12-23T00:00:00",
       "materia": "---",
       "calidad": 6.0,
-      "dificultad": null,
-      "nota": 10.0,
-      "recomienda": 0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 0.5,
       "comentario": "[Comentario esperando revisión]"
     },
     {
       "fecha_iso": "2021-06-18T00:00:00",
       "materia": "---",
       "calidad": 10.0,
-      "dificultad": null,
-      "nota": 9.5,
+      "dificultad": 0.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "[Comentario esperando revisión]"
     },
@@ -221,112 +143,17 @@
       "fecha_iso": "2021-06-14T00:00:00",
       "materia": "---",
       "calidad": 2.0,
-      "dificultad": null,
-      "nota": 10.0,
-      "recomienda": 0,
-      "comentario": "[Comentario esperando revisión]"
-    },
-    {
-      "fecha_iso": "2020-08-30T00:00:00",
-      "materia": "---",
-      "calidad": 6.0,
-      "dificultad": null,
-      "nota": 9.5,
-      "recomienda": 0,
-      "comentario": "[Comentario esperando revisión]"
-    },
-    {
-      "fecha_iso": "2018-08-24T00:00:00",
-      "materia": "---",
-      "calidad": 8.0,
-      "dificultad": null,
-      "nota": 10.0,
-      "recomienda": 1,
-      "comentario": "[Comentario esperando revisión]"
-    },
-    {
-      "fecha_iso": "2018-01-11T00:00:00",
-      "materia": "ARQUITECTURA DE COMPUTADORAS",
-      "calidad": 10.0,
-      "dificultad": null,
-      "nota": 9.0,
-      "recomienda": 1,
-      "comentario": "El profe es buena onda, sus examenes faciles, no toma lista y solo lee diapositivas, al final haces una practica de desarmar una compu. Eso si, lleva partes de computadoras a su clase para que las mires."
-    },
-    {
-      "fecha_iso": "2016-01-26T00:00:00",
-      "materia": "---",
-      "calidad": 10.0,
-      "dificultad": null,
-      "nota": 9.5,
-      "recomienda": 1,
-      "comentario": "[Comentario esperando revisión]"
-    },
-    {
-      "fecha_iso": "2014-10-15T00:00:00",
-      "materia": "WEB",
-      "calidad": 10.0,
-      "dificultad": null,
-      "nota": 10.0,
-      "recomienda": 1,
-      "comentario": "pelado tengo un 100"
-    },
-    {
-      "fecha_iso": "2012-11-06T00:00:00",
-      "materia": "PROWEB",
-      "calidad": 9.0,
-      "dificultad": null,
-      "nota": 9.0,
-      "recomienda": 1,
-      "comentario": ""
-    },
-    {
-      "fecha_iso": "2011-12-29T00:00:00",
-      "materia": "FUNDAMENTOS INVESTIGACION",
-      "calidad": 6.0,
-      "dificultad": null,
-      "nota": 8.5,
-      "recomienda": 0,
-      "comentario": "Buen Maestro, Llevo un Poco tarde pero\nmuy bueno"
-    },
-    {
-      "fecha_iso": "2011-11-09T00:00:00",
-      "materia": "INVESTIGACION",
-      "calidad": 10.0,
-      "dificultad": null,
-      "nota": 10.0,
-      "recomienda": 1,
-      "comentario": "un exelente maestro :D"
-    },
-    {
-      "fecha_iso": "2011-11-09T00:00:00",
-      "materia": "---",
-      "calidad": 2.0,
-      "dificultad": null,
-      "nota": 10.0,
-      "recomienda": 0,
-      "comentario": "[Comentario esperando revisión]"
-    },
-    {
-      "fecha_iso": "2011-03-21T00:00:00",
-      "materia": "---",
-      "calidad": 6.0,
-      "dificultad": null,
+      "dificultad": 0.0,
       "nota": null,
       "recomienda": 0,
       "comentario": "[Comentario esperando revisión]"
     }
   ],
   "comments_recent": [
-    "No le sabe, sus clases las da con un guión que tiene en su libreta. No le hagan preguntas porque no le sabe y no te va a responde correctamente. Perfecto si quieres subir promedio.",
     "[Comentario esperando revisión]",
     "[Comentario esperando revisión]",
     "[Comentario esperando revisión]",
-    "[Comentario esperando revisión]",
-    "[Comentario esperando revisión]",
-    "El profe es buena onda, sus examenes faciles, no toma lista y solo lee diapositivas, al final haces una practica de desarmar una compu. Eso si, lleva partes de computadoras a su clase para que las mires.",
-    "[Comentario esperando revisión]",
-    "pelado tengo un 100"
+    "[Comentario esperando revisión]"
   ],
-  "n_reviews": 15
+  "n_reviews": 5
 }

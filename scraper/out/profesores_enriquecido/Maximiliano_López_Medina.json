@@ -1,14 +1,14 @@
 {
   "professor_id": "Maximiliano_López_Medina",
   "nombre": "Maximiliano López Medina",
-  "universidad": "Instituto Tecnologico de Culiacan",
+  "universidad": "Instituto Tecnológico de Culiacán",
   "decay_analysis": {
     "quality_decayed": 7.716068084314724,
-    "difficulty_decayed": null
+    "difficulty_decayed": 0.9135727662741102
   },
   "bayes_analysis": {
-    "quality_bayes": 7.06466008355488,
-    "difficulty_bayes": null
+    "quality_bayes": 7.306297395318166,
+    "difficulty_bayes": 2.503461918892186
   },
   "recommendation_analysis": {
     "rate": 0.5,
@@ -19,13 +19,13 @@
     "n_recommendations": 2
   },
   "subject_normalization": {
-    "z_mean": 0.61,
-    "z_mean_decayed": 0.61,
+    "z_mean": 0.63,
+    "z_mean_decayed": 0.63,
     "per_subject": [
       {
         "materia": "CONTABILIDAD",
-        "z_decayed": 0.6141792448878419,
-        "n": 11
+        "z_decayed": 0.6281087071082564,
+        "n": 10
       }
     ]
   },
@@ -63,8 +63,8 @@
       "fecha_iso": "2022-06-17T00:00:00",
       "materia": "CONTABILIDAD",
       "calidad": 10.0,
-      "dificultad": null,
-      "nota": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "Este profe da cuando quiere y cuando no no da especialemente si hay partido del real madrid jajaja"
     },
@@ -72,9 +72,9 @@
       "fecha_iso": "2021-12-17T00:00:00",
       "materia": "CONTABILIDAD FINANCIERA (LINEA)",
       "calidad": 5.0,
-      "dificultad": null,
-      "nota": 10.0,
-      "recomienda": 0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 0.5,
       "comentario": "Este profe desaparece sin decir nada y aparece a la siguiente semana, falta demasiado, califica con unas investigaciones, toma muy en cuenta la asistencia y su clase es muy aburrida. Carga con el si quieres saber lo mínimo de la materia y tener clases libres"
     }
   ],

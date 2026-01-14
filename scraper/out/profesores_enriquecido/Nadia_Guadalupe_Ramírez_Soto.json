@@ -1,14 +1,14 @@
 {
   "professor_id": "Nadia_Guadalupe_Ramírez_Soto",
   "nombre": "Nadia Guadalupe Ramírez Soto",
-  "universidad": "Instituto Tecnologico de Culiacan",
+  "universidad": "Instituto Tecnológico de Culiacán",
   "decay_analysis": {
     "quality_decayed": 10.0,
-    "difficulty_decayed": null
+    "difficulty_decayed": 0.0
   },
   "bayes_analysis": {
-    "quality_bayes": 7.252356454787142,
-    "difficulty_bayes": null
+    "quality_bayes": 7.515960794892544,
+    "difficulty_bayes": 2.5492311842460214
   },
   "recommendation_analysis": {
     "rate": 1.0,
@@ -19,13 +19,13 @@
     "n_recommendations": 1
   },
   "subject_normalization": {
-    "z_mean": 0.65,
-    "z_mean_decayed": 0.65,
+    "z_mean": 0.67,
+    "z_mean_decayed": 0.67,
     "per_subject": [
       {
         "materia": "INVESTIGACIÓN DE OPERACIONES",
-        "z_decayed": 0.6492344540642356,
-        "n": 15
+        "z_decayed": 0.6712925618877001,
+        "n": 11
       }
     ]
   },
@@ -63,8 +63,8 @@
       "fecha_iso": "2017-02-02T00:00:00",
       "materia": "INVESTIGACIÓN DE OPERACIONES",
       "calidad": 10.0,
-      "dificultad": null,
-      "nota": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "Excelente profesora, estricta en tu manera de verte.. enseña muy bien y es paciente, explica hasta que entiendas, es un amor"
     }

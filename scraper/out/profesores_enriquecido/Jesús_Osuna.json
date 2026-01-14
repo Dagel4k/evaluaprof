@@ -1,14 +1,14 @@
 {
   "professor_id": "Jesús_Osuna",
   "nombre": "Jesús Osuna",
-  "universidad": "Instituto Tecnologico de Culiacan",
+  "universidad": "Instituto Tecnológico de Culiacán",
   "decay_analysis": {
     "quality_decayed": 3.4600716174729036,
-    "difficulty_decayed": null
+    "difficulty_decayed": 6.391169305089634
   },
   "bayes_analysis": {
-    "quality_bayes": 5.985061400177238,
-    "difficulty_bayes": null
+    "quality_bayes": 6.178371249587866,
+    "difficulty_bayes": 4.136102868447082
   },
   "recommendation_analysis": {
     "rate": 0.2,
@@ -19,18 +19,18 @@
     "n_recommendations": 5
   },
   "subject_normalization": {
-    "z_mean": -0.76,
-    "z_mean_decayed": -1.02,
+    "z_mean": -0.6,
+    "z_mean_decayed": -0.81,
     "per_subject": [
       {
         "materia": "PROBABILIDAD Y ESTADISTICA",
-        "z_decayed": 0.5406606374607077,
-        "n": 32
+        "z_decayed": 0.546816596805155,
+        "n": 19
       },
       {
         "materia": "BIOQUIMICA",
-        "z_decayed": -1.1120523625557408,
-        "n": 10
+        "z_decayed": -0.8886406402153243,
+        "n": 8
       }
     ]
   },
@@ -51,7 +51,7 @@
           "es",
           "maestro"
         ],
-        "weight": 0.28312495886918526
+        "weight": 0.2831249588691851
       },
       {
         "id": 1,
@@ -97,7 +97,23 @@
       ],
       "sigma": 1.9814757449941192
     },
-    "difficulty_trend": null,
+    "difficulty_trend": {
+      "series": [
+        6.0,
+        8.0,
+        8.0,
+        6.0,
+        6.0
+      ],
+      "ewma": [
+        6.0,
+        6.6,
+        7.02,
+        6.7139999999999995,
+        6.4998
+      ],
+      "sigma": 0.9230373166887674
+    },
     "forecast": {
       "quality_next": 4.400699999999999,
       "quality_band": [
@@ -113,7 +129,7 @@
       "fecha_iso": "2017-11-08T00:00:00",
       "materia": "BIOQUIMICA",
       "calidad": 3.0,
-      "dificultad": null,
+      "dificultad": 6.0,
       "nota": null,
       "recomienda": 0,
       "comentario": "Nunca llevare clase con el otra vez"
@@ -122,17 +138,17 @@
       "fecha_iso": "2017-07-14T00:00:00",
       "materia": "BIOQUIMICA",
       "calidad": 4.0,
-      "dificultad": null,
-      "nota": 8.0,
-      "recomienda": 0,
+      "dificultad": 6.0,
+      "nota": null,
+      "recomienda": 0.5,
       "comentario": "Simplemente mal maestro"
     },
     {
       "fecha_iso": "2013-12-31T00:00:00",
       "materia": "BIOQUIMICA",
       "calidad": 2.0,
-      "dificultad": null,
-      "nota": 0.5,
+      "dificultad": 8.0,
+      "nota": null,
       "recomienda": 0,
       "comentario": "ESTE ES UN HUEVON DE PRIMERA, LE DICEN EL YOYO,SE LA PASA PRESUMIENDO DE SU PUESTO QUE LE VIENE GUANGO,PUES NO HA HECHO NADA, NI SABE TRABAJAR, VEAN LOS RESULTADOS DE LIMPIEZA Y MANTENIMIENTO,SOLO LE INTERESA SUS LARGAS PLATICAS CON CAFECITO CON SU SECRE, ELLA ES LA JEFA,ES LA TIANGUERA."
     },
@@ -140,8 +156,8 @@
       "fecha_iso": "2013-08-04T00:00:00",
       "materia": "DISEÑO DE EXPERIMENTOS",
       "calidad": 2.0,
-      "dificultad": null,
-      "nota": 1.0,
+      "dificultad": 8.0,
+      "nota": null,
       "recomienda": 0,
       "comentario": "Este guevon no es maestro porque no se le entiende ni madres a este bato y desparrama mierda como si fuera la gran cacona. No se quien le regalo el titulo porque esta desgraciando a los alumnos. Falta mucho y no enseña nada."
     },
@@ -149,7 +165,7 @@
       "fecha_iso": "2011-11-10T00:00:00",
       "materia": "PROBABILIDAD Y ESTADISTICA",
       "calidad": 9.0,
-      "dificultad": null,
+      "dificultad": 6.0,
       "nota": null,
       "recomienda": 1,
       "comentario": ""

@@ -1,41 +1,36 @@
 {
   "professor_id": "Jesus_Guadalupe_Ruiz_Gomez",
   "nombre": "Jesus Guadalupe Ruiz Gomez",
-  "universidad": "Instituto Tecnologico de Culiacan",
+  "universidad": "Instituto Tecnológico de Culiacán",
   "decay_analysis": {
-    "quality_decayed": 5.299381917929507,
-    "difficulty_decayed": null
+    "quality_decayed": 5.622340403656139,
+    "difficulty_decayed": 3.5561029286566264
   },
   "bayes_analysis": {
-    "quality_bayes": 5.98932957155517,
-    "difficulty_bayes": null
+    "quality_bayes": 6.711704582921199,
+    "difficulty_bayes": 3.0694362017804155
   },
   "recommendation_analysis": {
-    "rate": 0.182,
+    "rate": 0.27,
     "wilson_interval": [
-      0.05136660067100062,
-      0.4769861375782449
+      0.060700304812506926,
+      0.6791657827734504
     ],
-    "n_recommendations": 11
+    "n_recommendations": 5
   },
   "subject_normalization": {
-    "z_mean": 0.2,
-    "z_mean_decayed": 0.22,
+    "z_mean": 0.88,
+    "z_mean_decayed": 0.76,
     "per_subject": [
       {
-        "materia": "ELECTRÓNICA ANALOGICA",
-        "z_decayed": 0.5,
-        "n": 4
+        "materia": "ELECTRONICA ANALOGICA",
+        "z_decayed": 1.1547005383792517,
+        "n": 3
       },
       {
         "materia": "ELECTRÓNICA ANALÓGICA",
-        "z_decayed": 0.20009984375628276,
-        "n": 19
-      },
-      {
-        "materia": "ELECTRONICA ANALOGICA",
-        "z_decayed": 0.1473895934195234,
-        "n": 17
+        "z_decayed": 0.6217318456303935,
+        "n": 7
       }
     ]
   },
@@ -54,74 +49,36 @@
         "id": 0,
         "words": [
           "pasa",
-          "si te",
-          "es",
+          "maestro",
           "te",
-          "si"
+          "si",
+          "es"
         ],
-        "weight": 0.0873201916347027
+        "weight": 0.3615111687868482
       },
       {
         "id": 1,
         "words": [
-          "clases",
-          "deja",
+          "profesor",
+          "profe",
           "califica",
-          "aburridas",
-          "examenes"
+          "solo",
+          "clases"
         ],
-        "weight": 0.10802497150986638
-      },
-      {
-        "id": 2,
-        "words": [
-          "dando",
-          "mi",
-          "maestro",
-          "es maestro",
-          "es"
-        ],
-        "weight": 0.15330984199556186
-      },
-      {
-        "id": 3,
-        "words": [
-          "hora",
-          "entregar",
-          "tienes",
-          "rc",
-          "deja"
-        ],
-        "weight": 0.12929429708816526
-      },
-      {
-        "id": 4,
-        "words": [
-          "diapositivas",
-          "antoje",
-          "amplificador",
-          "fuente",
-          "aprender"
-        ],
-        "weight": 0.1367902741359825
+        "weight": 0.28341561580965763
       }
     ],
     "sentiment": {
-      "overall": -0.1,
+      "overall": -0.2,
       "by_month": {
         "2022-11": 0.0,
         "2022-05": 0.0,
         "2022-02": -1.0,
         "2021-12": 0.0,
-        "2021-05": 0.0,
-        "2021-01": 0.0,
-        "2020-05": 0.0,
-        "2020-01": 1.0,
-        "2019-06": 0.0,
-        "2019-01": -1.0
+        "2021-05": 0.0
       }
     },
-    "n_comments": 10
+    "n_comments": 5
   },
   "integrity_analysis": {
     "dup_rate": 0.0,
@@ -132,12 +89,6 @@
   "trends_analysis": {
     "quality_trend": {
       "series": [
-        3.0,
-        6.0,
-        4.0,
-        5.0,
-        5.0,
-        5.0,
         4.0,
         4.0,
         9.0,
@@ -145,26 +96,36 @@
         4.0
       ],
       "ewma": [
-        3.0,
-        3.8999999999999995,
-        3.9299999999999997,
-        4.2509999999999994,
-        4.4757,
-        4.6329899999999995,
-        4.443092999999999,
-        4.310165099999999,
-        5.717115569999999,
-        6.101980898999999,
-        5.4713866292999995
+        4.0,
+        4.0,
+        5.5,
+        5.949999999999999,
+        5.364999999999999
       ],
-      "sigma": 1.2807708624621288
+      "sigma": 1.8156871977298292
     },
-    "difficulty_trend": null,
+    "difficulty_trend": {
+      "series": [
+        6.0,
+        4.0,
+        2.0,
+        0.0,
+        6.0
+      ],
+      "ewma": [
+        6.0,
+        5.3999999999999995,
+        4.379999999999999,
+        3.065999999999999,
+        3.946199999999999
+      ],
+      "sigma": 2.0402091971168055
+    },
     "forecast": {
-      "quality_next": 5.4713866292999995,
+      "quality_next": 5.364999999999999,
       "quality_band": [
-        2.9610757388742273,
-        7.981697519725772
+        1.8062530924495341,
+        8.923746907550465
       ],
       "confidence": 0.95
     },
@@ -175,17 +136,17 @@
       "fecha_iso": "2022-11-15T00:00:00",
       "materia": "ELECTRÓNICA ANALÓGICA",
       "calidad": 4.0,
-      "dificultad": null,
-      "nota": 8.0,
-      "recomienda": 0,
+      "dificultad": 6.0,
+      "nota": null,
+      "recomienda": 0.5,
       "comentario": "Este profesor les pedirá una fuente reguladora de voltaje y un amplificador, el los evaluará cómo se le antoje, no muestra entusiasmo al dar las clases, mayormente se la pasa leyendo diapositivas, si buscas aprender, no escojas este profe, pues solo te hará perder el tiempo."
     },
     {
       "fecha_iso": "2022-05-23T00:00:00",
       "materia": "PRINCIPIOS ELÉCTRICOS (SISTEMAS)",
       "calidad": 7.0,
-      "dificultad": null,
-      "nota": 9.5,
+      "dificultad": 0.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "Barquisimo para sistemas, clases aburridas, no deja casi tareas ni exámenes y casi casi califica con solo asistencia."
     },
@@ -193,8 +154,8 @@
       "fecha_iso": "2022-02-10T00:00:00",
       "materia": "ELECTRÓNICA ANALÓGICA",
       "calidad": 9.0,
-      "dificultad": null,
-      "nota": 10.0,
+      "dificultad": 2.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "Es buen profe, cuando explica teoría puede ser aburrido, si participas y le explicas bien las prácticas cuando la presentes, fácil te pasa. Muchos lo consideran mal maestro, pero es porque regaña mucho si te pregunta algo de la práctica que hiciste y no sabes. Es un indicador que solo copiaste."
     },
@@ -202,73 +163,19 @@
       "fecha_iso": "2021-12-15T00:00:00",
       "materia": "ELECTRÓNICA ANALOGICA",
       "calidad": 4.0,
-      "dificultad": null,
-      "nota": 22.0,
-      "recomienda": 0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 0.5,
       "comentario": "Sinceramente es un maestro cerrado de cabeza que no entiende problemas que puedas tener , en lo personal no califica correctamente y el cómo califique depende de su estado de ánimo , a mi me estuvo calificando y su computadora se apagó y dijo que no importaba"
     },
     {
       "fecha_iso": "2021-05-06T00:00:00",
       "materia": "ELECTRONICA ANALOGICA",
       "calidad": 4.0,
-      "dificultad": null,
-      "nota": 23.0,
-      "recomienda": 0,
+      "dificultad": 6.0,
+      "nota": null,
+      "recomienda": 0.5,
       "comentario": "Califica dlv, es el peor profesor que he tenido, no ayuda en nada y si se te va el internet le vale, se me fue el internet en mero del examen y no pude subirlo, pero si a el se le va el internet no pasa nada."
-    },
-    {
-      "fecha_iso": "2021-01-16T00:00:00",
-      "materia": "ELECTRÓNICA ANALÓGICA",
-      "calidad": 5.0,
-      "dificultad": null,
-      "nota": 9.0,
-      "recomienda": 0,
-      "comentario": "No lo haga compa, no es de mi interés hablar mal de un profesor, pero este es de los que solamente sigue dando clases para jubilarse, no aprenderas mucho y para calificar es básicamente lo que se le antoje ese dia."
-    },
-    {
-      "fecha_iso": "2020-05-23T00:00:00",
-      "materia": "ELECTRONICA ANALOGICA",
-      "calidad": 5.0,
-      "dificultad": null,
-      "nota": 7.0,
-      "recomienda": 0,
-      "comentario": "Nada que no se haya dicho, sus clases son largas y aburridas, de repente sientes que no estas aprendiendo nada. Solo nos dejo un examen, y deja uno que otro proyecto, es muy exigente a la hora de revisar, tienes que tener lo que le vas a entregar muy bien hecho. Tira paro a los RC"
-    },
-    {
-      "fecha_iso": "2020-01-12T00:00:00",
-      "materia": "ELECTRÓNICA ANALÓGICA",
-      "calidad": 5.0,
-      "dificultad": null,
-      "nota": 7.0,
-      "recomienda": 0,
-      "comentario": "Sus clases son puras diapositivas aburridas y no aprendes mucho con el. Pocos exámenes pero algo fáciles. Deja proyectos caros y los califica muy mal porque quiere todo perfecto. No cargues con el"
-    },
-    {
-      "fecha_iso": "2019-12-27T00:00:00",
-      "materia": "ELECTRONICA ANALOGICA",
-      "calidad": 4.0,
-      "dificultad": null,
-      "nota": 7.0,
-      "recomienda": 0,
-      "comentario": ""
-    },
-    {
-      "fecha_iso": "2019-06-06T00:00:00",
-      "materia": "ELECTRONICA ANALOGICA",
-      "calidad": 6.0,
-      "dificultad": null,
-      "nota": 7.5,
-      "recomienda": 0,
-      "comentario": "sus clases aburren hace solo un examen que esta facil deja dos proyectos una fuente de alimentacion y un amplificador, aparte te deja dos practicas una de diodos y otra de transistores que te la saca a ultima hora al final le tienes que entregar los reportes y las practicas , si no te manda a rc"
-    },
-    {
-      "fecha_iso": "2019-01-11T00:00:00",
-      "materia": "ELECTRONICA ANALOGICA",
-      "calidad": 3.0,
-      "dificultad": null,
-      "nota": 9.0,
-      "recomienda": 0,
-      "comentario": "No debería de estar dando clases ya, es un maestro que no tiene ganas de enseñar, pésimo si quieres aprender de su clase"
     }
   ],
   "comments_recent": [
@@ -276,11 +183,7 @@
     "Barquisimo para sistemas, clases aburridas, no deja casi tareas ni exámenes y casi casi califica con solo asistencia.",
     "Es buen profe, cuando explica teoría puede ser aburrido, si participas y le explicas bien las prácticas cuando la presentes, fácil te pasa. Muchos lo consideran mal maestro, pero es porque regaña mucho si te pregunta algo de la práctica que hiciste y no sabes. Es un indicador que solo copiaste.",
     "Sinceramente es un maestro cerrado de cabeza que no entiende problemas que puedas tener , en lo personal no califica correctamente y el cómo califique depende de su estado de ánimo , a mi me estuvo calificando y su computadora se apagó y dijo que no importaba",
-    "Califica dlv, es el peor profesor que he tenido, no ayuda en nada y si se te va el internet le vale, se me fue el internet en mero del examen y no pude subirlo, pero si a el se le va el internet no pasa nada.",
-    "No lo haga compa, no es de mi interés hablar mal de un profesor, pero este es de los que solamente sigue dando clases para jubilarse, no aprenderas mucho y para calificar es básicamente lo que se le antoje ese dia.",
-    "Nada que no se haya dicho, sus clases son largas y aburridas, de repente sientes que no estas aprendiendo nada. Solo nos dejo un examen, y deja uno que otro proyecto, es muy exigente a la hora de revisar, tienes que tener lo que le vas a entregar muy bien hecho. Tira paro a los RC",
-    "Sus clases son puras diapositivas aburridas y no aprendes mucho con el. Pocos exámenes pero algo fáciles. Deja proyectos caros y los califica muy mal porque quiere todo perfecto. No cargues con el",
-    "sus clases aburren hace solo un examen que esta facil deja dos proyectos una fuente de alimentacion y un amplificador, aparte te deja dos practicas una de diodos y otra de transistores que te la saca a ultima hora al final le tienes que entregar los reportes y las practicas , si no te manda a rc"
+    "Califica dlv, es el peor profesor que he tenido, no ayuda en nada y si se te va el internet le vale, se me fue el internet en mero del examen y no pude subirlo, pero si a el se le va el internet no pasa nada."
   ],
-  "n_reviews": 11
+  "n_reviews": 5
 }

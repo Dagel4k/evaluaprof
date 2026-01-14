@@ -1,31 +1,31 @@
 {
   "professor_id": "Marx_Vladimir_Mendoza",
   "nombre": "Marx Vladimir Mendoza",
-  "universidad": "Instituto Tecnologico de Culiacan",
+  "universidad": "Instituto Tecnológico de Culiacán",
   "decay_analysis": {
     "quality_decayed": 5.0,
-    "difficulty_decayed": null
+    "difficulty_decayed": 0.0
   },
   "bayes_analysis": {
-    "quality_bayes": 6.797811000241688,
-    "difficulty_bayes": null
+    "quality_bayes": 7.06141534034709,
+    "difficulty_bayes": 2.5492311842460214
   },
   "recommendation_analysis": {
-    "rate": 0.0,
+    "rate": 0.5,
     "wilson_interval": [
-      0,
-      0.7934567085261071
+      0.0546190651458835,
+      0.9453809348541165
     ],
     "n_recommendations": 1
   },
   "subject_normalization": {
-    "z_mean": -0.53,
-    "z_mean_decayed": -0.53,
+    "z_mean": -0.55,
+    "z_mean_decayed": -0.55,
     "per_subject": [
       {
         "materia": "ELECTRICIDAD Y ELECTRÓNICA INDUSTRIAL",
-        "z_decayed": -0.5337605126836239,
-        "n": 9
+        "z_decayed": -0.5502760564641687,
+        "n": 5
       }
     ]
   },
@@ -63,9 +63,9 @@
       "fecha_iso": "2013-08-09T00:00:00",
       "materia": "ELECTRICIDAD Y ELECTRÓNICA INDUSTRIAL",
       "calidad": 5.0,
-      "dificultad": null,
-      "nota": 2.0,
-      "recomienda": 0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 0.5,
       "comentario": "El tener una clase con el es como tener una clase libre, casi nunca va, y en las clases aprendes poco, solo te pone a hacer practicas sin explicarte que estás haciendo, apenas que lo preguntes, sus examenes es hacer de nuevo las practicas. Todos pasan, incluso los que nunca van. No Aprenderaz nada."
     }
   ],

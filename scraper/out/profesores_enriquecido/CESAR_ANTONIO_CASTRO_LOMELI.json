@@ -1,45 +1,30 @@
 {
   "professor_id": "CESAR_ANTONIO_CASTRO_LOMELI",
   "nombre": "CESAR ANTONIO CASTRO LOMELI",
-  "universidad": "Instituto Tecnologico de Culiacan",
+  "universidad": "Instituto Tecnológico de Culiacán",
   "decay_analysis": {
-    "quality_decayed": 8.826315610017271,
-    "difficulty_decayed": null
+    "quality_decayed": 9.06518108195428,
+    "difficulty_decayed": 2.687740992655842
   },
   "bayes_analysis": {
-    "quality_bayes": 7.671632772848116,
-    "difficulty_bayes": null
+    "quality_bayes": 7.645037916254533,
+    "difficulty_bayes": 3.0694362017804155
   },
   "recommendation_analysis": {
     "rate": 0.75,
     "wilson_interval": [
-      0.4676896608793401,
-      0.9110599603710388
+      0.3359821624467274,
+      0.9467720901772321
     ],
-    "n_recommendations": 12
+    "n_recommendations": 5
   },
   "subject_normalization": {
-    "z_mean": 0.26,
-    "z_mean_decayed": 0.33,
+    "z_mean": 0.5,
+    "z_mean_decayed": 0.5,
     "per_subject": [
       {
-        "materia": "SISTEMAS OPERATIVOS",
-        "z_decayed": 1.2346045621341613,
-        "n": 25
-      },
-      {
-        "materia": "PROGRAMACION",
-        "z_decayed": 1.091594021073081,
-        "n": 20
-      },
-      {
         "materia": "ALGORITMOS",
-        "z_decayed": 0.37796447300922703,
-        "n": 7
-      },
-      {
-        "materia": "COMPUTACION",
-        "z_decayed": -0.7977227278175224,
+        "z_decayed": 0.5,
         "n": 4
       }
     ]
@@ -58,74 +43,30 @@
       {
         "id": 0,
         "words": [
-          "mucha paciencia",
-          "mucha",
-          "maestro",
           "bueno",
           "es"
         ],
-        "weight": 0.20758072190414917
+        "weight": 0.2983039384213988
       },
       {
         "id": 1,
         "words": [
-          "mucha paciencia",
-          "mucha",
-          "mejores maestros",
-          "mejores",
-          "maestros"
-        ],
-        "weight": 0.12301017375024373
-      },
-      {
-        "id": 2,
-        "words": [
           "bueno",
-          "maestro",
-          "mucha",
-          "mucha paciencia",
-          "paciencia"
+          "es"
         ],
-        "weight": 0.12022751067506585
-      },
-      {
-        "id": 3,
-        "words": [
-          "mucha paciencia",
-          "mucha",
-          "bueno",
-          "maestro",
-          "explica"
-        ],
-        "weight": 0.12029162173973044
-      },
-      {
-        "id": 4,
-        "words": [
-          "mucha paciencia",
-          "mucha",
-          "bueno",
-          "maestro",
-          "ayuda"
-        ],
-        "weight": 0.12747724985672587
+        "weight": 0.11313708498984747
       }
     ],
     "sentiment": {
-      "overall": 0.3,
+      "overall": 0.6,
       "by_month": {
         "2018-06": 1.0,
         "2017-01": 0.0,
         "2016-12": 0.0,
-        "2015-04": 1.0,
-        "2014-08": 0.0,
-        "2013-10": 0.0,
-        "2013-05": 0.0,
-        "2013-01": 0.0,
-        "2012-06": 0.0
+        "2015-04": 1.0
       }
     },
-    "n_comments": 10
+    "n_comments": 5
   },
   "integrity_analysis": {
     "dup_rate": 0.0,
@@ -136,38 +77,38 @@
   "trends_analysis": {
     "quality_trend": {
       "series": [
-        10.0,
-        10.0,
-        10.0,
-        2.0,
-        5.0,
-        10.0,
-        10.0,
         6.0,
         10.0,
         10.0,
         10.0
       ],
       "ewma": [
-        10.0,
-        10.0,
-        10.0,
-        7.6,
-        6.819999999999999,
-        7.773999999999999,
-        8.441799999999999,
-        7.709259999999999,
-        8.396481999999999,
-        8.877537399999998,
-        9.214276179999999
+        6.0,
+        7.199999999999999,
+        8.04,
+        8.628
       ],
-      "sigma": 2.2163037743613136
+      "sigma": 1.1780814912390403
     },
-    "difficulty_trend": null,
+    "difficulty_trend": {
+      "series": [
+        6.0,
+        0.0,
+        6.0,
+        0.0
+      ],
+      "ewma": [
+        6.0,
+        4.199999999999999,
+        4.739999999999999,
+        3.317999999999999
+      ],
+      "sigma": 2.610624637897988
+    },
     "forecast": {
-      "quality_next": 9.214276179999999,
+      "quality_next": 8.628,
       "quality_band": [
-        4.870320782251824,
+        6.318960277171481,
         10.0
       ],
       "confidence": 0.95
@@ -179,8 +120,8 @@
       "fecha_iso": "2018-06-16T00:00:00",
       "materia": "ALGORITMOS",
       "calidad": 10.0,
-      "dificultad": null,
-      "nota": 8.5,
+      "dificultad": 0.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "El mejor maestro que he tenido, es bueno explicando las dudas"
     },
@@ -188,8 +129,8 @@
       "fecha_iso": "2017-01-24T00:00:00",
       "materia": "ANALISIS Y DISEÑO DE SISTEMAS",
       "calidad": 10.0,
-      "dificultad": null,
-      "nota": 9.0,
+      "dificultad": 6.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "Uno de los mejores maestros que me han dado clases"
     },
@@ -197,8 +138,8 @@
       "fecha_iso": "2016-12-08T00:00:00",
       "materia": "ALGORITMOS",
       "calidad": 10.0,
-      "dificultad": null,
-      "nota": 9.0,
+      "dificultad": 0.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "explica muy bien"
     },
@@ -206,7 +147,7 @@
       "fecha_iso": "2015-04-27T00:00:00",
       "materia": "ALGO",
       "calidad": 10.0,
-      "dificultad": null,
+      "dificultad": 4.0,
       "nota": null,
       "recomienda": 1,
       "comentario": "Excelente cuando se trata de explicar algo que no quedo muy claro, mucha paciencia"
@@ -215,73 +156,10 @@
       "fecha_iso": "2015-04-25T00:00:00",
       "materia": "0",
       "calidad": 2.0,
-      "dificultad": null,
+      "dificultad": 8.0,
       "nota": null,
       "recomienda": 0,
       "comentario": "ES UN ESTUPIDO BUENO PARA NADA"
-    },
-    {
-      "fecha_iso": "2014-08-22T00:00:00",
-      "materia": "ALGORITMOS",
-      "calidad": 10.0,
-      "dificultad": null,
-      "nota": 10.0,
-      "recomienda": 1,
-      "comentario": "De los mejores maestros"
-    },
-    {
-      "fecha_iso": "2013-10-01T00:00:00",
-      "materia": "SISTEMAS OPERATIVOS",
-      "calidad": 10.0,
-      "dificultad": null,
-      "nota": 9.5,
-      "recomienda": 1,
-      "comentario": "Ayuda a quien lo necesite y siempre dispuesto a ayudar"
-    },
-    {
-      "fecha_iso": "2013-05-22T00:00:00",
-      "materia": "COMPUTACION",
-      "calidad": 5.0,
-      "dificultad": null,
-      "nota": 6.0,
-      "recomienda": 0,
-      "comentario": "no lo quiere ni su familia , se trae problemas al instituto, ademas es afeminado"
-    },
-    {
-      "fecha_iso": "2013-01-02T00:00:00",
-      "materia": "COMPUTACION",
-      "calidad": 2.0,
-      "dificultad": null,
-      "nota": null,
-      "recomienda": 0,
-      "comentario": "es un idiota sirve para nada"
-    },
-    {
-      "fecha_iso": "2012-10-26T00:00:00",
-      "materia": "PROGRAMACION",
-      "calidad": 10.0,
-      "dificultad": null,
-      "nota": null,
-      "recomienda": 1,
-      "comentario": ""
-    },
-    {
-      "fecha_iso": "2012-07-04T00:00:00",
-      "materia": "TEORIA DE SISTEMAS",
-      "calidad": 10.0,
-      "dificultad": null,
-      "nota": 10.0,
-      "recomienda": 1,
-      "comentario": ""
-    },
-    {
-      "fecha_iso": "2012-06-08T00:00:00",
-      "materia": "ALGORITMOS Y PROGRAMACION",
-      "calidad": 10.0,
-      "dificultad": null,
-      "nota": 10.0,
-      "recomienda": 1,
-      "comentario": "MUY BUEN MAESTRO, EXPLICA DE MANERA CLARA Y AYUDA CON MUCHA PACIENCIA HASTA QUE ENTIENDES"
     }
   ],
   "comments_recent": [
@@ -289,11 +167,7 @@
     "Uno de los mejores maestros que me han dado clases",
     "explica muy bien",
     "Excelente cuando se trata de explicar algo que no quedo muy claro, mucha paciencia",
-    "ES UN ESTUPIDO BUENO PARA NADA",
-    "De los mejores maestros",
-    "Ayuda a quien lo necesite y siempre dispuesto a ayudar",
-    "no lo quiere ni su familia , se trae problemas al instituto, ademas es afeminado",
-    "es un idiota sirve para nada"
+    "ES UN ESTUPIDO BUENO PARA NADA"
   ],
-  "n_reviews": 12
+  "n_reviews": 5
 }

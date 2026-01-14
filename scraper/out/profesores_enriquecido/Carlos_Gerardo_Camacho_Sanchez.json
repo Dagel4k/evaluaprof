@@ -1,4 +1,197 @@
 {
-  "professor_id": "Carlos_Gerardo_Camacho_Sanchez",
-  "error": "No hay reseñas disponibles"
+  "professor_id": "Carlos_gerardo_Camacho_sanchez",
+  "nombre": "Carlos Gerardo Camacho Sanchez",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 5.31061362883967,
+    "difficulty_decayed": 5.833715875205797
+  },
+  "bayes_analysis": {
+    "quality_bayes": 6.778371249587866,
+    "difficulty_bayes": 3.7361028684470825
+  },
+  "recommendation_analysis": {
+    "rate": 0.59,
+    "wilson_interval": [
+      0.22434923932554016,
+      0.8774422916190852
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": -0.81,
+    "z_mean_decayed": -1.02,
+    "per_subject": [
+      {
+        "materia": "CÁLCULO INTEGRAL",
+        "z_decayed": 0.8183932073645681,
+        "n": 10
+      },
+      {
+        "materia": "ALGEBRA LINEAL",
+        "z_decayed": -0.9528828612283907,
+        "n": 13
+      },
+      {
+        "materia": "ÁLGEBRA LINEAL",
+        "z_decayed": -1.069044967649697,
+        "n": 7
+      },
+      {
+        "materia": "CALCULO INTEGRAL",
+        "z_decayed": -2.022708796082195,
+        "n": 22
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "porque",
+          "examen",
+          "largo",
+          "te",
+          "bien"
+        ],
+        "weight": 0.3093971507205814
+      },
+      {
+        "id": 1,
+        "words": [
+          "largo",
+          "te",
+          "porque",
+          "examen",
+          "ir"
+        ],
+        "weight": 0.2986987551762399
+      }
+    ],
+    "sentiment": {
+      "overall": 0.0,
+      "by_month": {
+        "2025-08": 0.0,
+        "2025-01": 0.0,
+        "2024-01": 0.0,
+        "2022-02": 0.0
+      }
+    },
+    "n_comments": 4
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        10.0,
+        2.0,
+        8.0,
+        5.0,
+        4.0
+      ],
+      "ewma": [
+        10.0,
+        7.6,
+        7.719999999999999,
+        6.903999999999999,
+        6.032799999999999
+      ],
+      "sigma": 2.348309104015057
+    },
+    "difficulty_trend": {
+      "series": [
+        4.0,
+        8.0,
+        2.0,
+        6.0,
+        8.0
+      ],
+      "ewma": [
+        4.0,
+        5.199999999999999,
+        4.239999999999999,
+        4.767999999999999,
+        5.737599999999999
+      ],
+      "sigma": 2.0128490932009786
+    },
+    "forecast": {
+      "quality_next": 6.032799999999999,
+      "quality_band": [
+        1.4301141561304878,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2025-09-23T00:00:00",
+      "materia": "ALGEBRA LINEAL",
+      "calidad": 4.0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2025-08-05T00:00:00",
+      "materia": "INTEGRAL",
+      "calidad": 5.0,
+      "dificultad": 6.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": "Reprobe porque me metieron miedo y deje de ir, pero los que nunca dejaron de ir con pasar 1 examen de los 5 ya pasaban xk regala la recuperacion"
+    },
+    {
+      "fecha_iso": "2025-01-10T00:00:00",
+      "materia": "ÁLGEBRA LINEAL",
+      "calidad": 8.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Conoce bien los temas y los ve completos, te explicará si le preguntas tu duda. Examen largo, equivocate en 1 o 2 preguntas y tu calificación parcial va por la cañería.\nSi puedes ir al día con los ejercicios, entenderles y hacer el preexamen en menos de 1 hora, aprobar no debería ser tu problema."
+    },
+    {
+      "fecha_iso": "2024-01-12T00:00:00",
+      "materia": "CALCULO INTEGRAL",
+      "calidad": 2.0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Necerio no cargues con el, se equivoca mucho y sus clases son muy tediosas, no lleva su clase preparada"
+    },
+    {
+      "fecha_iso": "2022-02-10T00:00:00",
+      "materia": "CÁLCULO INTEGRAL",
+      "calidad": 10.0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Explica muy bien, pero su examen es muy largo, literal tienes que contestar todo rápido y sin ningún error porque ni tiempo te dará para rectificar que todo está bien."
+    }
+  ],
+  "comments_recent": [
+    "Reprobe porque me metieron miedo y deje de ir, pero los que nunca dejaron de ir con pasar 1 examen de los 5 ya pasaban xk regala la recuperacion",
+    "Conoce bien los temas y los ve completos, te explicará si le preguntas tu duda. Examen largo, equivocate en 1 o 2 preguntas y tu calificación parcial va por la cañería.\nSi puedes ir al día con los ejercicios, entenderles y hacer el preexamen en menos de 1 hora, aprobar no debería ser tu problema.",
+    "Necerio no cargues con el, se equivoca mucho y sus clases son muy tediosas, no lleva su clase preparada",
+    "Explica muy bien, pero su examen es muy largo, literal tienes que contestar todo rápido y sin ningún error porque ni tiempo te dará para rectificar que todo está bien."
+  ],
+  "n_reviews": 5
 }

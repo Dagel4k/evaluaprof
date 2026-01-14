@@ -1,0 +1,184 @@
+{
+  "professor_id": "RICARDO_ALBERTO_GARCIA_OSUNA",
+  "nombre": "RICARDO ALBERTO GARCIA OSUNA",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 8.79859234491127,
+    "difficulty_decayed": 0.8466359078999397
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.311704582921199,
+    "difficulty_bayes": 2.402769535113749
+  },
+  "recommendation_analysis": {
+    "rate": 0.75,
+    "wilson_interval": [
+      0.3359821624467274,
+      0.9467720901772321
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": -0.23,
+    "z_mean_decayed": -0.13,
+    "per_subject": [
+      {
+        "materia": "METODOS NUMERICOS",
+        "z_decayed": 0.03863344404673564,
+        "n": 7
+      },
+      {
+        "materia": "FUNDAMENTOS DE PROGRAMACIÓN",
+        "z_decayed": -0.3206705462222812,
+        "n": 17
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "buen",
+          "programacion",
+          "profesor",
+          "si",
+          "te"
+        ],
+        "weight": 0.3145748386469676
+      },
+      {
+        "id": 1,
+        "words": [
+          "maestro",
+          "poo",
+          "tiene",
+          "recomendado",
+          "es"
+        ],
+        "weight": 0.30382445300220023
+      }
+    ],
+    "sentiment": {
+      "overall": 0.2,
+      "by_month": {
+        "2023-08": 1.0,
+        "2019-01": 0.0,
+        "2018-01": 0.0,
+        "2017-12": 0.0
+      }
+    },
+    "n_comments": 5
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        5.0,
+        7.0,
+        8.0,
+        10.0
+      ],
+      "ewma": [
+        5.0,
+        5.6,
+        6.319999999999999,
+        7.4239999999999995
+      ],
+      "sigma": 1.067800231004533
+    },
+    "difficulty_trend": {
+      "series": [
+        0.0,
+        2.0,
+        4.0,
+        0.0
+      ],
+      "ewma": [
+        0.0,
+        0.6,
+        1.6199999999999999,
+        1.134
+      ],
+      "sigma": 1.544886943004784
+    },
+    "forecast": {
+      "quality_next": 7.4239999999999995,
+      "quality_band": [
+        5.3311115472311155,
+        9.516888452768884
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2023-08-30T00:00:00",
+      "materia": "ESTRUCTURA DE DATOS.",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "LA VRD ES MUY BUEN MAESTRO TIENE SU MANERA DE ENSEÑAR PERO ES BUENO DE QUE APRENDES CON EL APRENDES RECOMENDADO PARA FUNDAMENTOS DE PROGRAMACION, POO Y ESTRUCTURA DE DATOS."
+    },
+    {
+      "fecha_iso": "2019-01-12T00:00:00",
+      "materia": "METODOS NUMERICOS",
+      "calidad": 8.0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Es camarada y vas aprender. Recomendado"
+    },
+    {
+      "fecha_iso": "2018-01-29T00:00:00",
+      "materia": "FUNDAMENTOS DE PROGRAMACIÓN",
+      "calidad": 7.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Ya había calificado anteriormente a este profesor, pero al entrar a POO me di cuenta que este maestro no te enseña lo suficiente, carguen con otro que si enseñe lo que debería porque luego van a andar batallando para acoplarse con los demás"
+    },
+    {
+      "fecha_iso": "2018-01-16T00:00:00",
+      "materia": "FUNDAMENTOS DE PROGRAMACIÓN",
+      "calidad": 7.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "A mi parecer buen profesor dando clases, ya que si lo entendía a sus clases, a pesar de que faltaba mucho, para ser mi primera clase de programación nada mal."
+    },
+    {
+      "fecha_iso": "2017-12-15T00:00:00",
+      "materia": "METODOS NUMERICOS",
+      "calidad": 5.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": "En todo el semestre nunca nos enseñó a hacer un código en computadora, no aprendí ninguna técnica de programación con el, lo único que tiene es que si haces todos los trabajos y tareas que te pide, te pone buena calificación"
+    }
+  ],
+  "comments_recent": [
+    "LA VRD ES MUY BUEN MAESTRO TIENE SU MANERA DE ENSEÑAR PERO ES BUENO DE QUE APRENDES CON EL APRENDES RECOMENDADO PARA FUNDAMENTOS DE PROGRAMACION, POO Y ESTRUCTURA DE DATOS.",
+    "Es camarada y vas aprender. Recomendado",
+    "Ya había calificado anteriormente a este profesor, pero al entrar a POO me di cuenta que este maestro no te enseña lo suficiente, carguen con otro que si enseñe lo que debería porque luego van a andar batallando para acoplarse con los demás",
+    "A mi parecer buen profesor dando clases, ya que si lo entendía a sus clases, a pesar de que faltaba mucho, para ser mi primera clase de programación nada mal.",
+    "En todo el semestre nunca nos enseñó a hacer un código en computadora, no aprendí ninguna técnica de programación con el, lo único que tiene es que si haces todos los trabajos y tareas que te pide, te pone buena calificación"
+  ],
+  "n_reviews": 5
+}

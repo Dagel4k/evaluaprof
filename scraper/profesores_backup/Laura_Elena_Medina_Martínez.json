@@ -1,0 +1,125 @@
+{
+  "nombre": "Laura Elena Medina Martínez",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "ciudad": "Ciudad: culiacan, sinaloa",
+  "departamento": "Departamento/Facultad: Ingeniería Industrial",
+  "calidad_general": 7.7,
+  "porcentaje_recomienda": 71,
+  "nivel_dificultad": 3.1,
+  "etiquetas": [
+    "CALIFICA DURO (1)",
+    "HACE EXÁMENES SORPRESA (1)",
+    "LA PARTICIPACIÓN IMPORTA (2)",
+    "MUCHAS TAREAS (1)",
+    "PREPÁRATE PARA LEER (1)"
+  ],
+  "numero_calificaciones": 7,
+  "calificaciones": [
+    {
+      "fecha": "23/Ene/2023",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 7.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Mercadotécnica",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "Nuca falta, siempre te pone a leer unas copias y después comentar lo que leíste, si no te gusta participar no creo que sea una opción, deja bastantes tareas pero fáciles, exámenes fáciles, la asistencia cuenta mucho ya que te califica con los trabajos en clase.",
+      "etiquetas_comentario": [
+        "Muchas tareas",
+        "Prepárate para leer",
+        "La Participación Importa"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "09/Ago/2019",
+      "tipo_calificacion": "REGULAR",
+      "puntaje_calidad_general": 6.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Gestión de Sistemas de la Calidad",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "7",
+      "interes_clase": "",
+      "comentario": "Tienes que participar siempre, debes llevarte muy bien, sus clases tratan de ella y su empresa de vestidos, no ayuda mucho solo a quien le agrada, asistencia OBLIGATORIA, examenes sorpresa, mucha tarea, enseña mas o menos por que en si la clase trata de la terea que lleves",
+      "etiquetas_comentario": [
+        "Califica Duro",
+        "Hace exámenes sorpresa",
+        "La Participación Importa"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "03/May/2017",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 9.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Logistica",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "9.5",
+      "interes_clase": "",
+      "comentario": "Está facil la materia, hace examenes sorpresa pero son preguntas faciles de lo que se vio durante el parcial. Tanto en el examen como en los examenes solo ocupas echarle verbo al contestar y ya con eso la maestra te lo pondrá como bien. Es muy buena onda y usa casos de la vida real para explicar",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "09/Ene/2015",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Gestión de la calidad",
+      "asistencia": "",
+      "calificacion_recibida": "10",
+      "interes_clase": "10",
+      "comentario": "Es buena onda aunque exigente y estricta, sus clases consisten en hacer participar a todos los alumnos y cada uno dar su punto de vista sobre el tema, explica claro, abarca todo los temas, asiste diariamente y cada cosa que no hagas y/o no asistas te baja de la calificación final, ocupas hacer TODO.",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "07/Ene/2015",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 3.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "gestión de la Calidad",
+      "asistencia": "",
+      "calificacion_recibida": "5",
+      "interes_clase": "5",
+      "comentario": "Es muy floja y exige demasiado",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "14/Dic/2014",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 9.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Gestión de los Sistemas de Calidad",
+      "asistencia": "",
+      "calificacion_recibida": "10",
+      "interes_clase": "10",
+      "comentario": "Recomendada para esta clase, es exigente, buena onda y aprendes sobre el contenido de la materia, básicamente califica con asistencia, trabajos y tareas bien elaborados.",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "17/Ene/2014",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Administración de la Productividad",
+      "asistencia": "",
+      "calificacion_recibida": "9",
+      "interes_clase": "9",
+      "comentario": "Aprendes mucho pero es exigente, cuenta mucho tus faltas, tareas y participación.",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    }
+  ]
+}

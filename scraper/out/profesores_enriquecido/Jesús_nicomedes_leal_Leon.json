@@ -1,14 +1,14 @@
 {
   "professor_id": "Jesús_nicomedes_leal_Leon",
   "nombre": "Jesús nicomedes leal Leon",
-  "universidad": "Instituto Tecnologico de Culiacan",
+  "universidad": "Instituto Tecnológico de Culiacán",
   "decay_analysis": {
-    "quality_decayed": 4.979560202054262,
-    "difficulty_decayed": null
+    "quality_decayed": 4.979560202054263,
+    "difficulty_decayed": 4.2477521556787705
   },
   "bayes_analysis": {
-    "quality_bayes": 6.76970864304704,
-    "difficulty_bayes": null
+    "quality_bayes": 6.976826338844142,
+    "difficulty_bayes": 2.8601102161933025
   },
   "recommendation_analysis": {
     "rate": 0.75,
@@ -19,23 +19,23 @@
     "n_recommendations": 4
   },
   "subject_normalization": {
-    "z_mean": -0.6,
-    "z_mean_decayed": -0.76,
+    "z_mean": -0.64,
+    "z_mean_decayed": -0.74,
     "per_subject": [
       {
         "materia": "INSTRUMENTACION",
-        "z_decayed": 0.577350269189626,
-        "n": 3
-      },
-      {
-        "materia": "INSTRUMENTACIÓN",
-        "z_decayed": -1.161895003862225,
+        "z_decayed": 0.5,
         "n": 4
       },
       {
         "materia": "PRINCIPIOS ELECTRICOS",
-        "z_decayed": -1.228558305232401,
-        "n": 13
+        "z_decayed": -1.0,
+        "n": 3
+      },
+      {
+        "materia": "INSTRUMENTACIÓN",
+        "z_decayed": -1.414213562373095,
+        "n": 4
       }
     ]
   },
@@ -78,7 +78,21 @@
       ],
       "sigma": 1.9070985816155381
     },
-    "difficulty_trend": null,
+    "difficulty_trend": {
+      "series": [
+        2.0,
+        0.0,
+        2.0,
+        8.0
+      ],
+      "ewma": [
+        2.0,
+        1.4,
+        1.5799999999999998,
+        3.506
+      ],
+      "sigma": 2.532810494292852
+    },
     "forecast": {
       "quality_next": 5.989999999999998,
       "quality_band": [
@@ -94,8 +108,8 @@
       "fecha_iso": "2023-05-18T00:00:00",
       "materia": "PRINCIPIOS ELECTRICOS",
       "calidad": 2.0,
-      "dificultad": null,
-      "nota": 8.0,
+      "dificultad": 8.0,
+      "nota": null,
       "recomienda": 0,
       "comentario": "Su clase es leer información y dejar practicas electronicas donde los materiales suelen ser costosos, le preguntas dudas y no suele saber, su examen lo hace como si enseñara bien los ejercicios que se hacen en clase, la asistencia y participación importan, no lo recomiendo"
     },
@@ -103,8 +117,8 @@
       "fecha_iso": "2021-12-19T00:00:00",
       "materia": "INSTRUMENTACIÓN",
       "calidad": 7.0,
-      "dificultad": null,
-      "nota": 9.0,
+      "dificultad": 2.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": ""
     },
@@ -112,7 +126,7 @@
       "fecha_iso": "2021-08-07T00:00:00",
       "materia": "INSTRUMENTACION",
       "calidad": 8.0,
-      "dificultad": null,
+      "dificultad": 0.0,
       "nota": null,
       "recomienda": 1,
       "comentario": "Este profe se pasa de buena gente, el que repruebe con el mejor salgase de estudiar porque los examenes son super faciles. Eso si, trata de no dormirte en sus clases, el solo lee informacion."
@@ -121,7 +135,7 @@
       "fecha_iso": "2013-11-18T00:00:00",
       "materia": "INSTRUMENTACIÓN Y CONTROL",
       "calidad": 8.0,
-      "dificultad": null,
+      "dificultad": 2.0,
       "nota": null,
       "recomienda": 1,
       "comentario": ""

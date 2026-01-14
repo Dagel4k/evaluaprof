@@ -1,51 +1,41 @@
 {
   "professor_id": "José_Ricardo_Torres_Rodriguez",
   "nombre": "José Ricardo Torres Rodriguez",
-  "universidad": "Instituto Tecnologico de Culiacan",
+  "universidad": "Instituto Tecnológico de Culiacán",
   "decay_analysis": {
-    "quality_decayed": 7.5494122084460855,
-    "difficulty_decayed": null
+    "quality_decayed": 7.549412208446086,
+    "difficulty_decayed": 2.717314252305207
   },
   "bayes_analysis": {
-    "quality_bayes": 7.251728066843905,
-    "difficulty_bayes": null
+    "quality_bayes": 7.445037916254533,
+    "difficulty_bayes": 2.6694362017804156
   },
   "recommendation_analysis": {
-    "rate": 0.8,
+    "rate": 0.6,
     "wilson_interval": [
-      0.37552826411853885,
-      0.9637768390302125
+      0.23071993220883702,
+      0.8823817688407467
     ],
     "n_recommendations": 5
   },
   "subject_normalization": {
-    "z_mean": 0.06,
-    "z_mean_decayed": 0.22,
+    "z_mean": -0.17,
+    "z_mean_decayed": 0.28,
     "per_subject": [
       {
-        "materia": "EQUIPOS MECANICOS",
-        "z_decayed": 1.0,
-        "n": 3
-      },
-      {
-        "materia": "MECANICA DE MATERIALES",
-        "z_decayed": 0.44721359549995837,
-        "n": 5
-      },
-      {
         "materia": "ESTATICA",
-        "z_decayed": 0.07709910794438833,
-        "n": 25
+        "z_decayed": 0.6533787840633843,
+        "n": 7
       },
       {
         "materia": "ESTÁTICA",
-        "z_decayed": -0.11101325894672145,
-        "n": 8
+        "z_decayed": 0.6324555320336759,
+        "n": 5
       },
       {
         "materia": "DINÁMICA",
-        "z_decayed": -1.1246431142310662,
-        "n": 11
+        "z_decayed": -1.7888543819998315,
+        "n": 5
       }
     ]
   },
@@ -74,7 +64,7 @@
           "es",
           "tambien"
         ],
-        "weight": 0.13966605837740906
+        "weight": 0.13966605837740917
       }
     ],
     "sentiment": {
@@ -112,7 +102,23 @@
       ],
       "sigma": 1.3969328802773595
     },
-    "difficulty_trend": null,
+    "difficulty_trend": {
+      "series": [
+        4.0,
+        0.0,
+        2.0,
+        2.0,
+        4.0
+      ],
+      "ewma": [
+        4.0,
+        2.8,
+        2.5599999999999996,
+        2.3919999999999995,
+        2.8743999999999996
+      ],
+      "sigma": 1.431314428069528
+    },
     "forecast": {
       "quality_next": 7.362599999999999,
       "quality_band": [
@@ -128,8 +134,8 @@
       "fecha_iso": "2021-12-21T00:00:00",
       "materia": "ESTATICA",
       "calidad": 7.0,
-      "dificultad": null,
-      "nota": 7.5,
+      "dificultad": 4.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "Es buen profesor pero algo barco (por lo menos conmigo lo fue) jamas me dio clases una semana entera, pero cuando daba era muy entendible y claro, sus examenes a mi parecer algo dificiles pero tambien eran examenes que se vieron problemas similares en clase."
     },
@@ -137,8 +143,8 @@
       "fecha_iso": "2020-12-19T00:00:00",
       "materia": "EQUIPOS MECANICOS",
       "calidad": 7.0,
-      "dificultad": null,
-      "nota": 9.0,
+      "dificultad": 2.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "Es bueno explicando y tiene gran conocimiento porque también trabaja en el campo. El único problema es que por sus otros trabajos suele faltar seguido (Aunque avisa) y sus aspectos para calificar no están claros, nunca sabes porque sacaste tal calificación. Además de que deja todo para el ultimo."
     },
@@ -146,8 +152,8 @@
       "fecha_iso": "2019-06-12T00:00:00",
       "materia": "ESTÁTICA",
       "calidad": 9.0,
-      "dificultad": null,
-      "nota": 9.0,
+      "dificultad": 2.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "Muy claras sus explicaciones, te da todas las oportunidades.\nTe ayuda bastante."
     },
@@ -155,8 +161,8 @@
       "fecha_iso": "2018-06-08T00:00:00",
       "materia": "MECANICA DE MATERIALES",
       "calidad": 10.0,
-      "dificultad": null,
-      "nota": 23.0,
+      "dificultad": 0.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "Volvería a cargar con el, vimos lo necesario nomas que no lo vimos completo por los puentes"
     },
@@ -164,9 +170,9 @@
       "fecha_iso": "2017-12-20T00:00:00",
       "materia": "DINÁMICA",
       "calidad": 6.0,
-      "dificultad": null,
+      "dificultad": 4.0,
       "nota": null,
-      "recomienda": 0,
+      "recomienda": 0.5,
       "comentario": ""
     }
   ],

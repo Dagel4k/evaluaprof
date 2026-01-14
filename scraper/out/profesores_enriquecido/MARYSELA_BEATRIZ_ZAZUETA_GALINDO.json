@@ -1,14 +1,14 @@
 {
   "professor_id": "MARYSELA_BEATRIZ_ZAZUETA_GALINDO",
   "nombre": "MARYSELA BEATRIZ ZAZUETA GALINDO",
-  "universidad": "Instituto Tecnologico de Culiacan",
+  "universidad": "Instituto Tecnológico de Culiacán",
   "decay_analysis": {
-    "quality_decayed": 9.75032964130503,
-    "difficulty_decayed": null
+    "quality_decayed": 9.750329641305028,
+    "difficulty_decayed": 0.4993407173899415
   },
   "bayes_analysis": {
-    "quality_bayes": 7.397993416888213,
-    "difficulty_bayes": null
+    "quality_bayes": 7.6396307286514995,
+    "difficulty_bayes": 2.503461918892186
   },
   "recommendation_analysis": {
     "rate": 1.0,
@@ -19,18 +19,18 @@
     "n_recommendations": 2
   },
   "subject_normalization": {
-    "z_mean": 0.22,
-    "z_mean_decayed": 0.56,
+    "z_mean": -0.13,
+    "z_mean_decayed": 0.38,
     "per_subject": [
       {
         "materia": "TALLER DE INVESTIGACIÓN",
-        "z_decayed": 0.8928660402432333,
-        "n": 9
+        "z_decayed": 0.8944271909999159,
+        "n": 7
       },
       {
         "materia": "TALLER DE INVESTIGACIÓN 1",
-        "z_decayed": -0.4472135954999584,
-        "n": 5
+        "z_decayed": -1.1547005383792506,
+        "n": 3
       }
     ]
   },
@@ -68,8 +68,8 @@
       "fecha_iso": "2020-01-12T00:00:00",
       "materia": "TALLER DE INVESTIGACIÓN",
       "calidad": 10.0,
-      "dificultad": null,
-      "nota": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "100 seguro con ella."
     },
@@ -77,8 +77,8 @@
       "fecha_iso": "2016-11-09T00:00:00",
       "materia": "TALLER DE INVESTIGACIÓN 1",
       "calidad": 9.0,
-      "dificultad": null,
-      "nota": 9.0,
+      "dificultad": 2.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "Facil pasar con esta maestra, falta pero cuando asiste es importante ir por que toma en cuenta la asistencia, es importante guardar los trabajos por que califica todo esta profe y si es algo exigente con las exposiciones"
     }

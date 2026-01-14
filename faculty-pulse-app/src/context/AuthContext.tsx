@@ -28,17 +28,44 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
+    // DEV MODE: Create mock user with full permissions
+    if (import.meta.env.VITE_DEV_MODE === 'true') {
+      console.log('🔧 DEV MODE: Creating mock user with STUDENT_PRO role');
+      const mockUser = {
+        id: 'dev-user-local',
+        email: 'dev@local.test',
+        aud: 'authenticated',
+        role: 'authenticated',
+        created_at: new Date().toISOString(),
+        app_metadata: {},
+        user_metadata: {}
+      } as User;
+
+      const mockProfile: Profile = {
+        id: 'dev-user-local',
+        email: 'dev@local.test',
+        full_name: 'Developer (Local)',
+        role: 'STUDENT_PRO',
+        evaluations_count: 0
+      };
+
+      setUser(mockUser);
+      setProfile(mockProfile);
+      setIsLoading(false);
+      return; // Skip normal auth flow in dev mode
+    }
+
     // 1. Get initial session
     const initSession = async () => {
       // Check if we are returning from OAuth redirect
       // Supabase handles the hash parsing automatically in getSession() usually,
       // but explicitly checking helps debugging.
       const { data: { session }, error } = await supabase.auth.getSession();
-      
+
       if (error) {
         console.error("Auth initialization error:", error);
       }
-      
+
       if (session) {
         console.log("✅ Session found on init:", session.user.email);
         setSession(session);
@@ -54,8 +81,8 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
           // The onAuthStateChange listener will eventually fire 'SIGNED_IN' and turn it off.
           // Safety timeout in case it fails:
           setTimeout(() => {
-             console.warn("⚠️ OAuth processing timeout, forcing load state off.");
-             if (!session) setIsLoading(false); 
+            console.warn("⚠️ OAuth processing timeout, forcing load state off.");
+            if (!session) setIsLoading(false);
           }, 5000);
         } else {
           console.log("⚠️ No active session on init");
@@ -69,14 +96,14 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
     // 2. Listen for changes
     const { data: { subscription } } = supabase.auth.onAuthStateChange(async (event, session) => {
       console.log(`Auth event: ${event}`, session?.user?.email);
-      
+
       setSession(session);
       setUser(session?.user ?? null);
-      
+
       if (session?.user) {
         if (event === 'SIGNED_IN' || event === 'TOKEN_REFRESHED') {
-           await registerSession(session);
-           await fetchProfile(session.user.id);
+          await registerSession(session);
+          await fetchProfile(session.user.id);
         }
       } else if (event === 'SIGNED_OUT') {
         setProfile(null);
@@ -94,7 +121,7 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
         .select('*')
         .eq('id', userId)
         .single();
-      
+
       if (!error && data) {
         setProfile(data as Profile);
       }

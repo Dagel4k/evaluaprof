@@ -1,14 +1,14 @@
 {
   "professor_id": "Nadia_Blanco_Escobar",
   "nombre": "Nadia Blanco Escobar",
-  "universidad": "Instituto Tecnologico de Culiacan",
+  "universidad": "Instituto Tecnológico de Culiacán",
   "decay_analysis": {
     "quality_decayed": 9.046244343315086,
-    "difficulty_decayed": null
+    "difficulty_decayed": 0.12354259993558832
   },
   "bayes_analysis": {
-    "quality_bayes": 7.698280071618469,
-    "difficulty_bayes": null
+    "quality_bayes": 7.905397767415571,
+    "difficulty_bayes": 2.145824501907588
   },
   "recommendation_analysis": {
     "rate": 1.0,
@@ -19,23 +19,18 @@
     "n_recommendations": 4
   },
   "subject_normalization": {
-    "z_mean": 0.79,
-    "z_mean_decayed": 0.72,
+    "z_mean": 0.48,
+    "z_mean_decayed": 0.19,
     "per_subject": [
       {
         "materia": "ETICA",
-        "z_decayed": 0.9903391521354943,
-        "n": 31
-      },
-      {
-        "materia": "INGENIERÍA DE CALIDAD",
-        "z_decayed": 0.7302967433402209,
-        "n": 5
+        "z_decayed": 0.9598942503077836,
+        "n": 22
       },
       {
         "materia": "TALLER DE INVESTIGACIÓN I",
-        "z_decayed": 0.6454972243679028,
-        "n": 11
+        "z_decayed": 0.0,
+        "n": 4
       }
     ]
   },
@@ -78,7 +73,21 @@
       ],
       "sigma": 0.7000000000000002
     },
-    "difficulty_trend": null,
+    "difficulty_trend": {
+      "series": [
+        2.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ewma": [
+        2.0,
+        1.4,
+        0.9799999999999999,
+        0.6859999999999998
+      ],
+      "sigma": 0.5890407456195199
+    },
     "forecast": {
       "quality_next": 9.4,
       "quality_band": [
@@ -94,8 +103,8 @@
       "fecha_iso": "2020-12-02T00:00:00",
       "materia": "TALLER DE INVESTIGACIÓN L Y LL",
       "calidad": 8.0,
-      "dificultad": null,
-      "nota": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "Buena maestra si recomiendo cargar con ella"
     },
@@ -103,8 +112,8 @@
       "fecha_iso": "2019-01-15T00:00:00",
       "materia": "TALLER DE INVESTIGACIÓN I",
       "calidad": 10.0,
-      "dificultad": null,
-      "nota": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "Muy buena profesora. Explica bien los temas y hace la materia muy facil. Te da buena retroalimentación y si tienes duda te la brinda."
     },
@@ -112,8 +121,8 @@
       "fecha_iso": "2018-08-04T00:00:00",
       "materia": "INGENIERÍA DE CALIDAD",
       "calidad": 10.0,
-      "dificultad": null,
-      "nota": 9.5,
+      "dificultad": 0.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": ""
     },
@@ -121,7 +130,7 @@
       "fecha_iso": "2015-01-09T00:00:00",
       "materia": "ETICA",
       "calidad": 10.0,
-      "dificultad": null,
+      "dificultad": 2.0,
       "nota": null,
       "recomienda": 1,
       "comentario": "..."

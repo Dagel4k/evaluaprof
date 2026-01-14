@@ -1,0 +1,241 @@
+{
+  "nombre": "Ricardo Dominguez",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "ciudad": "Ciudad: culiacan, sinaloa",
+  "departamento": "Departamento/Facultad: Mecanica",
+  "calidad_general": 9.3,
+  "porcentaje_recomienda": 93,
+  "nivel_dificultad": 3.1,
+  "etiquetas": [
+    "CALIFICA DURO (3)",
+    "PREPÁRATE PARA LEER (5)",
+    "INSPIRACIONAL (3)",
+    "TOMARÍA SU CLASE OTRA VEZ (2)",
+    "ASISTENCIA OBLIGATORIA (1)",
+    "CLASES EXCELENTES (1)",
+    "RESPETADO POR LOS ESTUDIANTES (1)",
+    "MUCHAS TAREAS (1)"
+  ],
+  "numero_calificaciones": 14,
+  "calificaciones": [
+    {
+      "fecha": "10/Ago/2020",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 7.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Selección de Materiales",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "8.5",
+      "interes_clase": "",
+      "comentario": "Amo a este profesor. Da mucha motivación, tiene buen humor y siempre aconseja aspirar a más. Esta materia la maneja dándote el material y tú tienes que aprender de manera autodidacta, pero si tienes problemas, él te ayudará. Impulsa a la investigación y el interés por la especialidad.",
+      "etiquetas_comentario": [
+        "Muchas tareas",
+        "Prepárate para leer",
+        "Inspiracional"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "08/Ago/2019",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Ingenieria de materiales",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "8",
+      "interes_clase": "",
+      "comentario": "Excelente maestro, sus examenes son de todo lo que dice en clase (tomar apuntes es muy importante), esta interesado por levantar la ing mecánica y por sus estudiantes",
+      "etiquetas_comentario": [
+        "Califica Duro",
+        "Prepárate para leer",
+        "Respetado por los estudiantes"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "03/Ago/2019",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 9.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Ingeniería en materiales no metálicos y metálicos",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "7.5",
+      "interes_clase": "",
+      "comentario": "Un Excelente  profesor, tiene un amplio conocimiento de lo que se requiere ya en la industria tiene un historial   en grandes industrias importantes, un profesor que te motiva y  te hace reflexionar de lo que necesita en la vida, poner mucha atención a todo lo que diga y recomienda, Enorme corazón",
+      "etiquetas_comentario": [
+        "Califica Duro",
+        "Prepárate para leer",
+        "Tomaría su clase otra vez"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "14/Ago/2018",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Materiales metalicos",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "8.5",
+      "interes_clase": "",
+      "comentario": "Arriba Pericos!!",
+      "etiquetas_comentario": [
+        "Asistencia obligatoria",
+        "Clases excelentes"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "13/Sep/2017",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 9.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Ingeniería de Materiales metálicos/no metálicos",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "7.5",
+      "interes_clase": "",
+      "comentario": "Excelente maestro, me gusta mucho que hace las clases bastante ligeras y con temas relacionados a la vida cotidiana. Siempre nos inspira a esforzarnos a tener iniciativa, además de que tiene muy buen humor, espero que todo lo que he aprendido no sean mentiras o le pocho las llantas.",
+      "etiquetas_comentario": [
+        "Prepárate para leer",
+        "Inspiracional",
+        "Tomaría su clase otra vez"
+      ],
+      "votos_utiles": "1",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "18/Ago/2016",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Materiales/Manufactura",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "9.5",
+      "interes_clase": "",
+      "comentario": "Le debo mi trabajo en la Ind. Aeronáutica. Me hizo leer mucho, me preguntaba casi a diario en clase, sus examenes requieren razonamiento. Tiene mucha experiencia y te puede conectar con la industria o la investigación. Es un ejemplo. Se frustra por no poder subir el nivel de la clase.",
+      "etiquetas_comentario": [
+        "Califica Duro",
+        "Prepárate para leer",
+        "Inspiracional"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "11/Jun/2015",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Ing. De materiales metalicos y no metalicos",
+      "asistencia": "",
+      "calificacion_recibida": "8.5",
+      "interes_clase": "8.5",
+      "comentario": "Excelente maestro , en el area de materiales es el mejor preparado y ayuda mucho a sus alumnos. Claro tienes que esforzarte con el, leer mucho y demostrar que aprendiste.",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "08/Ene/2015",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 9.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Ing. Materiales metalicos y no metalicos",
+      "asistencia": "",
+      "calificacion_recibida": "N/A",
+      "interes_clase": "N/A",
+      "comentario": "muy buen maestro, sabe lo que va a enseñar y domina la materia, te hace leer mucho, pero si pasas con 80 pero pasas",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "14/Nov/2013",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "automatización",
+      "asistencia": "",
+      "calificacion_recibida": "N/A",
+      "interes_clase": "N/A",
+      "comentario": "",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "06/Ago/2013",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "ing. de materiales metalicos",
+      "asistencia": "",
+      "calificacion_recibida": "N/A",
+      "interes_clase": "N/A",
+      "comentario": "muy buen maestro, un poco exigente te hara leer mucho pero aprenderas todo lo que debes saber como ingeniero",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "18/Ene/2013",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 8.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Ingenieria de Materiales Metalicos",
+      "asistencia": "",
+      "calificacion_recibida": "9",
+      "interes_clase": "9",
+      "comentario": "Muy buen maestro, con muy buena experiencia y su explicacion esta basada en ella, asi mismo nos da a conocer los problemas que posiblemente tengamos como ingenieros. En su materia hay que estudiar y leer, pero sobre todo, reflexionar.",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "25/Mar/2012",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 8.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Ingenieria de los no materiales metálicos",
+      "asistencia": "",
+      "calificacion_recibida": "N/A",
+      "interes_clase": "N/A",
+      "comentario": "Este profe se la rifa, enseña muy bien la maeteria, considero que es de los mejores en Mecánica. Sin embargo tendrás que echarle muchas ganas para poder pasar bien su materia.",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "01/Sep/2011",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Procesos de manufactura",
+      "asistencia": "",
+      "calificacion_recibida": "9",
+      "interes_clase": "9",
+      "comentario": "Excelente profesor, de los mejores profesores que tuve en mi formación en el área de la mecánica. Sabe que es lo que debe enseñarte, no solo para pasar exámenes sino para hacerle frente a la vida laboral en la industria. Sus examenes te ayudan mucho a reflexionar y analizar",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "20/Jun/2011",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 9.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Materiales",
+      "asistencia": "",
+      "calificacion_recibida": "N/A",
+      "interes_clase": "N/A",
+      "comentario": "",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    }
+  ]
+}

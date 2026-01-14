@@ -1,14 +1,14 @@
 {
   "professor_id": "Armando_Salazar_Lopez",
   "nombre": "Armando Salazar Lopez",
-  "universidad": "Instituto Tecnologico de Culiacan",
+  "universidad": "Instituto Tecnológico de Culiacán",
   "decay_analysis": {
     "quality_decayed": 10.0,
-    "difficulty_decayed": null
+    "difficulty_decayed": 0.0
   },
   "bayes_analysis": {
-    "quality_bayes": 7.252356454787142,
-    "difficulty_bayes": null
+    "quality_bayes": 7.515960794892544,
+    "difficulty_bayes": 2.5492311842460214
   },
   "recommendation_analysis": {
     "rate": 1.0,
@@ -19,13 +19,13 @@
     "n_recommendations": 1
   },
   "subject_normalization": {
-    "z_mean": 0.81,
-    "z_mean_decayed": 0.81,
+    "z_mean": 0.91,
+    "z_mean_decayed": 0.91,
     "per_subject": [
       {
         "materia": "TALLER DE ÉTICA",
-        "z_decayed": 0.8077614592374455,
-        "n": 22
+        "z_decayed": 0.9102499908660037,
+        "n": 16
       }
     ]
   },
@@ -63,8 +63,8 @@
       "fecha_iso": "2024-08-04T00:00:00",
       "materia": "TALLER DE ÉTICA",
       "calidad": 10.0,
-      "dificultad": null,
-      "nota": 9.5,
+      "dificultad": 0.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": "Sabe mucho y sabe de qué habla. Pero sus clases no son tan dinámicas. Se trata de escucharlo hablar por la hora completa. Pero el siempre deja un examen por unidad y te da con que estudiar. Si estudias eso pasas, si no ps no."
     }

@@ -1,0 +1,385 @@
+{
+  "nombre": "Norma Rebeca Godoy",
+  "universidad": "Instituto Tecnologico de Culiacan",
+  "ciudad": "Ciudad: culiacan, sinaloa",
+  "departamento": "Departamento/Facultad: Sistemas",
+  "calidad_general": 3.8,
+  "porcentaje_recomienda": 18,
+  "nivel_dificultad": 5.6,
+  "etiquetas": [
+    "LAS CLASES SON LARGAS (3)",
+    "DEJA TRABAJOS LARGOS (6)",
+    "MUCHOS PROYECTOS GRUPALES (4)",
+    "CALIFICA DURO (8)",
+    "ASISTENCIA OBLIGATORIA (2)",
+    "POCOS EXÁMENES (2)",
+    "MUCHAS TAREAS (3)",
+    "LOS EXÁMENES SON DIFÍCILES (3)",
+    "LA PARTICIPACIÓN IMPORTA (1)",
+    "DA BUENA RETROALIMENTACIÓN (1)"
+  ],
+  "numero_calificaciones": 22,
+  "calificaciones": [
+    {
+      "fecha": "07/Ago/2025",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 2.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Ingenieria de Software",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "10",
+      "interes_clase": "",
+      "comentario": "La maestra suele ser muy confusa, pide una cosa y al dia siguiente la cambia, es muy llevada y llega a ser algo molesta, sin embargo es poco probable que repruebes siempre y cuando pongas un minimo de esfuerzo.",
+      "etiquetas_comentario": [
+        "Asistencia obligatoria",
+        "Deja trabajos largos"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "06/Dic/2024",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 3.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Fundamentos de Programación",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "23",
+      "interes_clase": "",
+      "comentario": "Siempre da por hecho que sabes todo lo básico, 1 diagrama de flujo y se va directamente a programar en java sin explicar cosas como los tipos de datos, el ambiente siempre es tenso y no da casi nada de tiempo al hacer exámenes, además de hacerlo considerablemente extensos para lo que es fundamentos",
+      "etiquetas_comentario": [
+        "Muchos Exámenes",
+        "Los exámenes son difíciles"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "19/Ago/2024",
+      "tipo_calificacion": "REGULAR",
+      "puntaje_calidad_general": 4.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Programación",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "6",
+      "interes_clase": "",
+      "comentario": "Esta profe debería dar clase en el penal del altiplano. Si les toca con ella mejor dense de baja. Bipolar y con arranques de ira espontáneos",
+      "etiquetas_comentario": [
+        "Califica Duro",
+        "Los exámenes son difíciles"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "15/Dic/2023",
+      "tipo_calificacion": "REGULAR",
+      "puntaje_calidad_general": 5.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Pruebas de software",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "9.5",
+      "interes_clase": "",
+      "comentario": "Especificamente para la materia de pruebas de software no esta nada calificada para dar la materia, siempre te da los mismos ejemplos y cuando ya no sabe que dar en la clase, se pone a DICTAR. Usa material muy antiguo (libros del 2002)...",
+      "etiquetas_comentario": [
+        "Barco"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "11/Ago/2023",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Ing de Software",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "9.5",
+      "interes_clase": "",
+      "comentario": "Es bien facil pasar  con ella, solo es hacer lo que pide y listo, nomas que si tienes que tener  cuidado con  no caerle mal, te puede perjudicar un poco.",
+      "etiquetas_comentario": [
+        "Da buena retroalimentación",
+        "Aspectos de calificación claros",
+        "Muchos proyectos grupales"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "11/Jun/2022",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 2.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Pruebas de software",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "6.5",
+      "interes_clase": "",
+      "comentario": "personas como ella sobran en el mundo",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "07/Jun/2022",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 3.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Ingeniería de software",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "5",
+      "interes_clase": "",
+      "comentario": "Apoyo varios comentarios, si le caes mal date por reprobado, ni lo intentes, el proyecto final nos quitó 80 puntos por poner mal un párrafo en la página web, prepotente, si estudias y trabajas, ella te hará la vida imposible",
+      "etiquetas_comentario": [
+        "Califica Duro",
+        "Muchos proyectos grupales"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "18/May/2022",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 7.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Ingeniería de Software",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "9.5",
+      "interes_clase": "",
+      "comentario": "Creo que solo se trata de trabajar en su clase, no te pide nada del otro mundo, entrega el proyecto y muéstrale interés, recomiendo que cargues con ella si tuviste buenos profes de programación y bases de datos porque lo vas ocupar.",
+      "etiquetas_comentario": [
+        "Muchas tareas",
+        "La Participación Importa",
+        "Pocos Exámenes"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "01/Abr/2022",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 2.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Ing software",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "6.5",
+      "interes_clase": "",
+      "comentario": "una lastima no solo de maestra sino de persona tambien",
+      "etiquetas_comentario": [
+        "Califica Duro",
+        "Las clases son largas",
+        "Deja trabajos largos"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "10/Feb/2022",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 2.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Pruebas de software",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "7",
+      "interes_clase": "",
+      "comentario": "",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "09/Dic/2021",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 2.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Ingenieria en software",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "25",
+      "interes_clase": "",
+      "comentario": "Deja un programa al final que nisiquiera va con su materia, no explica nada, y con una tarea que te falte estás reprobado.  Los examenes de recuperación no sirven, ya que solo son del examen, el cual vale lo mismo que una tarea.",
+      "etiquetas_comentario": [
+        "Califica Duro",
+        "Muchas tareas",
+        "Los exámenes son difíciles"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "01/Dic/2021",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 2.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Ing Software",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "7",
+      "interes_clase": "",
+      "comentario": "Tiene problemas y quiere desquitar sus problemas con los alumnos",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "13/May/2021",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 2.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Ingenieria de Software",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "9",
+      "interes_clase": "",
+      "comentario": "Pesima maestra si quieres aprender no cargues con ella, las clases son tres días a la semana pero las dan los alumnos. Es muy prepotente e inflexible y si le caes mal te reprueba",
+      "etiquetas_comentario": [
+        "Califica Duro"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "11/Jun/2020",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 2.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Ingeniería de Software",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "7",
+      "interes_clase": "",
+      "comentario": "PESIMA profesora, un dia te dice que una cosa y al día siguiente te dice que eso no era y que esta todo mal. Tiene muy mala actitud, tiene favoritismos en clases, cero empatica y flexible, el ambiente en el aula es tenso, te habla con aires de superioridad.",
+      "etiquetas_comentario": [
+        "Califica Duro",
+        "Muchas tareas",
+        "Deja trabajos largos"
+      ],
+      "votos_utiles": "1",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "13/Ene/2020",
+      "tipo_calificacion": "REGULAR",
+      "puntaje_calidad_general": 6.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Ingeniería de Software",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "N/A",
+      "interes_clase": "",
+      "comentario": "Es un solo proyecto que se desarrolla durante todo el semestre por las etapas de la ingeniería de software, el problema viene de que el sistema que por lo regular es un sistema web, y la mayoría de alumnos no tienen esos conocimientos al llevar esta materia.\nLos exámenes son en Moodle.",
+      "etiquetas_comentario": [
+        "Califica Duro",
+        "Pocos Exámenes"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "24/Ago/2018",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 2.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Ingeniería de software",
+      "asistencia": "No obligatoria",
+      "calificacion_recibida": "7",
+      "interes_clase": "",
+      "comentario": "La doña te deja un proyecto de un sistema súper complejo y web sabiendo, que aun los alumnos no han llevado programación web y no se le entiende a lo que te pide, puedes pasar sin hacer nada, pero apenas con un equipo bien macana en web y si entregas todo sin errores y la documentación",
+      "etiquetas_comentario": [
+        "Las clases son largas",
+        "Deja trabajos largos",
+        "Muchos proyectos grupales"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "07/Ago/2018",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 3.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Ing. de Software",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "7.5",
+      "interes_clase": "",
+      "comentario": "La verdad es muy dificil con esta profesora, aveces ni ella sabe lo que quiere, toma por hecho que las cosas ya las sabes y no es tan flexible. Aveces ayuda pero te llega a enredar mas. Los examenes estan super raros pero son en linea.",
+      "etiquetas_comentario": [
+        "Asistencia obligatoria",
+        "Deja trabajos largos"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "01/Jun/2018",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 2.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Ingeneria en software",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "25",
+      "interes_clase": "",
+      "comentario": "La peor maestra que he tenido en mi vida, super prepotente y aplica el favoritismo con los alumnos que ella quiere, hipocrita y si le caes mal date por reprobado, no cargen con ella.",
+      "etiquetas_comentario": [
+        "Califica Duro"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "01/Jun/2018",
+      "tipo_calificacion": "REGULAR",
+      "puntaje_calidad_general": 5.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Pruebas de Software",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "8",
+      "interes_clase": "",
+      "comentario": "La peor maestrA que he tenido en los años de mi carrera, para nada la recomiendo. Es mala en su persona, muy prepotente y nada considerada con sus alumnos.\nLo que aprenderás sera por tu cuenta, ella da por entendido que ya sabes los temas de lo que habla.",
+      "etiquetas_comentario": [
+        "Deja trabajos largos",
+        "Muchos proyectos grupales"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "19/Abr/2016",
+      "tipo_calificacion": "MALO",
+      "puntaje_calidad_general": 2.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "Pruebas de Soft.",
+      "asistencia": "Obligatoria",
+      "calificacion_recibida": "25",
+      "interes_clase": "",
+      "comentario": "",
+      "etiquetas_comentario": [
+        "Las clases son largas"
+      ],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "23/May/2013",
+      "tipo_calificacion": "BUENO",
+      "puntaje_calidad_general": 10.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "---",
+      "asistencia": "",
+      "calificacion_recibida": "10",
+      "interes_clase": "10",
+      "comentario": "[Comentario esperando revisión]",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    },
+    {
+      "fecha": "14/Ago/2012",
+      "tipo_calificacion": "REGULAR",
+      "puntaje_calidad_general": 6.0,
+      "puntaje_facilidad": 0.0,
+      "materia": "---",
+      "asistencia": "",
+      "calificacion_recibida": "8.5",
+      "interes_clase": "8.5",
+      "comentario": "[Comentario esperando revisión]",
+      "etiquetas_comentario": [],
+      "votos_utiles": "0",
+      "votos_no_utiles": "0"
+    }
+  ]
+}

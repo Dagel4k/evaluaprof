@@ -1,14 +1,14 @@
 {
   "professor_id": "Fabio_Aguirre",
   "nombre": "Fabio Aguirre",
-  "universidad": "Instituto Tecnologico de Culiacan",
+  "universidad": "Instituto Tecnológico de Culiacán",
   "decay_analysis": {
-    "quality_decayed": 6.157556373653709,
-    "difficulty_decayed": null
+    "quality_decayed": 6.157556373653708,
+    "difficulty_decayed": 3.684887252692584
   },
   "bayes_analysis": {
-    "quality_bayes": 6.81466008355488,
-    "difficulty_bayes": null
+    "quality_bayes": 7.056297395318166,
+    "difficulty_bayes": 3.0034619188921865
   },
   "recommendation_analysis": {
     "rate": 0.5,
@@ -19,13 +19,13 @@
     "n_recommendations": 2
   },
   "subject_normalization": {
-    "z_mean": -0.36,
-    "z_mean_decayed": -0.36,
+    "z_mean": -0.54,
+    "z_mean_decayed": -0.54,
     "per_subject": [
       {
         "materia": "---",
-        "z_decayed": -0.36348883362302276,
-        "n": 521
+        "z_decayed": -0.5419573117341824,
+        "n": 80
       }
     ]
   },
@@ -63,8 +63,8 @@
       "fecha_iso": "2014-04-28T00:00:00",
       "materia": "CIRCUITOS NEUMATICOS",
       "calidad": 8.0,
-      "dificultad": null,
-      "nota": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": ""
     },
@@ -72,9 +72,9 @@
       "fecha_iso": "2013-11-14T00:00:00",
       "materia": "---",
       "calidad": 4.0,
-      "dificultad": null,
+      "dificultad": 8.0,
       "nota": null,
-      "recomienda": 0,
+      "recomienda": 0.5,
       "comentario": "[Comentario esperando revisión]"
     }
   ],

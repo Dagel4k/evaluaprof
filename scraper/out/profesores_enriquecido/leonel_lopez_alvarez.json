@@ -1,51 +1,46 @@
 {
   "professor_id": "leonel_lopez_alvarez",
   "nombre": "leonel lopez alvarez",
-  "universidad": "Instituto Tecnologico de Culiacan",
+  "universidad": "Instituto Tecnológico de Culiacán",
   "decay_analysis": {
-    "quality_decayed": 3.316595168579401,
-    "difficulty_decayed": null
+    "quality_decayed": 3.2660175998565992,
+    "difficulty_decayed": 0.09670205040814327
   },
   "bayes_analysis": {
-    "quality_bayes": 6.154217833481031,
-    "difficulty_bayes": null
+    "quality_bayes": 6.511704582921199,
+    "difficulty_bayes": 2.0027695351137487
   },
   "recommendation_analysis": {
-    "rate": 0.25,
+    "rate": 0.63,
     "wilson_interval": [
-      0.07147768885802765,
-      0.5907301208974108
+      0.25029729783836163,
+      0.8967349135260972
     ],
-    "n_recommendations": 8
+    "n_recommendations": 5
   },
   "subject_normalization": {
-    "z_mean": -0.56,
-    "z_mean_decayed": -1.13,
+    "z_mean": -0.76,
+    "z_mean_decayed": -1.31,
     "per_subject": [
       {
         "materia": "TALLER DE HERRAMIENTAS INTELECTUALES",
-        "z_decayed": 1.1581125366798473,
-        "n": 18
-      },
-      {
-        "materia": "ECONOMIA",
-        "z_decayed": 0.4,
-        "n": 17
-      },
-      {
-        "materia": "HERRAMIENTAS INTELECTUALES",
-        "z_decayed": 0.17848923519261878,
-        "n": 5
-      },
-      {
-        "materia": "ETICA",
-        "z_decayed": -0.592161554885141,
-        "n": 31
+        "z_decayed": 0.7807200583588265,
+        "n": 7
       },
       {
         "materia": "DINÁMICA SOCIAL",
         "z_decayed": -0.8006407690254359,
         "n": 3
+      },
+      {
+        "materia": "FUNDAMENTOS DE INVESTIGACIÓN",
+        "z_decayed": -1.4209016023052297,
+        "n": 14
+      },
+      {
+        "materia": "DESARROLLO SUSTENTABLE",
+        "z_decayed": -1.5977533586558597,
+        "n": 27
       }
     ]
   },
@@ -63,49 +58,36 @@
       {
         "id": 0,
         "words": [
-          "facil",
           "facil pasar",
           "materia",
-          "es",
-          "solo"
+          "pasar",
+          "solo",
+          "es"
         ],
-        "weight": 0.18381790922886496
+        "weight": 0.3139438204597796
       },
       {
         "id": 1,
         "words": [
-          "mano",
-          "telefono",
-          "falto",
-          "ensena",
-          "examenes"
-        ],
-        "weight": 0.21924610362820093
-      },
-      {
-        "id": 2,
-        "words": [
           "quieres",
-          "pasa",
-          "clase",
-          "sentado",
-          "pasa sentado"
+          "si quieres",
+          "examenes",
+          "solo",
+          "pasa"
         ],
-        "weight": 0.23769360514600324
+        "weight": 0.3146361290913382
       }
     ],
     "sentiment": {
-      "overall": 0.14285714285714285,
+      "overall": 0.25,
       "by_month": {
         "2025-04": 0.0,
         "2024-01": 1.0,
         "2021-09": 0.0,
-        "2016-01": 0.0,
-        "2015-01": 0.0,
-        "2013-06": 0.0
+        "2016-01": 0.0
       }
     },
-    "n_comments": 7
+    "n_comments": 4
   },
   "integrity_analysis": {
     "dup_rate": 0.0,
@@ -116,8 +98,6 @@
   "trends_analysis": {
     "quality_trend": {
       "series": [
-        9.0,
-        3.5,
         5.0,
         9.0,
         6.0,
@@ -125,22 +105,36 @@
         2.0
       ],
       "ewma": [
-        9.0,
-        7.35,
-        6.645,
-        7.3515,
-        6.94605,
-        5.762234999999999,
-        4.6335644999999985
+        5.0,
+        6.199999999999999,
+        6.139999999999999,
+        5.197999999999999,
+        4.238599999999999
       ],
-      "sigma": 1.86537611826898
+      "sigma": 2.0658456166906567
     },
-    "difficulty_trend": null,
+    "difficulty_trend": {
+      "series": [
+        0.0,
+        2.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ewma": [
+        0.0,
+        0.6,
+        0.42,
+        0.294,
+        0.20579999999999998
+      ],
+      "sigma": 0.7448273679182311
+    },
     "forecast": {
-      "quality_next": 4.6335644999999985,
+      "quality_next": 4.238599999999999,
       "quality_band": [
-        0.9774273081927976,
-        8.289701691807199
+        0.1895425912863118,
+        8.287657408713686
       ],
       "confidence": 0.95
     },
@@ -151,8 +145,8 @@
       "fecha_iso": "2025-04-02T00:00:00",
       "materia": "DESARROLLO SUSTENTABLE",
       "calidad": 2.0,
-      "dificultad": null,
-      "nota": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
       "recomienda": 0,
       "comentario": "Solo se la pasa hablando de Elon Musk y de Trump"
     },
@@ -160,8 +154,8 @@
       "fecha_iso": "2024-01-18T00:00:00",
       "materia": "FUNDAMENTOS DE INVESTIGACIÓN",
       "calidad": 3.0,
-      "dificultad": null,
-      "nota": 9.5,
+      "dificultad": 0.0,
+      "nota": null,
       "recomienda": 0,
       "comentario": "Literalmente solo habla en sus clases de cosas que nadie entiende cómo se relacionan a su materia. Como que quiere cocinar pero se le quema. Lo bueno que no le importa mucho si sacas tu teléfono, incluso en sus examenes. Es muy fácil pasar, solo haz los trabajos con ChatGPT, aunque son a mano muchos"
     },
@@ -169,17 +163,17 @@
       "fecha_iso": "2021-09-03T00:00:00",
       "materia": "DINÁMICA SOCIAL",
       "calidad": 6.0,
-      "dificultad": null,
-      "nota": 10.0,
-      "recomienda": 0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
       "comentario": "Fácil pasar con el, asegúrate de no cargar una materia importante porque explicar no es lo suyo, faltó a varias sesiones y lo tecnológico no es lo suyo. Se hace bolas sólo al evaluar. Recomendado si no quieres batallar"
     },
     {
       "fecha_iso": "2018-08-21T00:00:00",
       "materia": "TALLER DE HERRAMIENTAS INTELECTUALES",
       "calidad": 9.0,
-      "dificultad": null,
-      "nota": 10.0,
+      "dificultad": 2.0,
+      "nota": null,
       "recomienda": 1,
       "comentario": ""
     },
@@ -187,47 +181,17 @@
       "fecha_iso": "2016-01-18T00:00:00",
       "materia": "HERRAMIENTAS INTELECTUALES",
       "calidad": 5.0,
-      "dificultad": null,
-      "nota": 5.0,
-      "recomienda": 0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 0.5,
       "comentario": "La mayoría del tiempo se la pasa sentado viendo el celular, a veces no va y cuando va da como 15 minutos de clase, sus exámenes son unas pocas preguntas que te dicta y las apuntas en la libreta. Si quieres aprender hay otros profesores"
-    },
-    {
-      "fecha_iso": "2015-01-27T00:00:00",
-      "materia": "TALLER DE LIDERAZGO",
-      "calidad": 2.0,
-      "dificultad": null,
-      "nota": null,
-      "recomienda": 0,
-      "comentario": "Lleve taller de liderazgo con el. Muy facil pasar pero nomas no enseña nada. Se la pasa sentado con el teléfono en la mano toda la clase"
-    },
-    {
-      "fecha_iso": "2015-01-14T00:00:00",
-      "materia": "ETICA",
-      "calidad": 5.0,
-      "dificultad": null,
-      "nota": 8.5,
-      "recomienda": 0,
-      "comentario": "Faltó seguido, en las exposiciones miraba mas su telefono que la proyeccion, examenes faciles, de que pasas, pasas"
-    },
-    {
-      "fecha_iso": "2013-06-18T00:00:00",
-      "materia": "ECONOMIA",
-      "calidad": 9.0,
-      "dificultad": null,
-      "nota": null,
-      "recomienda": 1,
-      "comentario": "agusto con este bato, los examenes peladisimos, pero no enseña muy bien que digamos"
     }
   ],
   "comments_recent": [
     "Solo se la pasa hablando de Elon Musk y de Trump",
     "Literalmente solo habla en sus clases de cosas que nadie entiende cómo se relacionan a su materia. Como que quiere cocinar pero se le quema. Lo bueno que no le importa mucho si sacas tu teléfono, incluso en sus examenes. Es muy fácil pasar, solo haz los trabajos con ChatGPT, aunque son a mano muchos",
     "Fácil pasar con el, asegúrate de no cargar una materia importante porque explicar no es lo suyo, faltó a varias sesiones y lo tecnológico no es lo suyo. Se hace bolas sólo al evaluar. Recomendado si no quieres batallar",
-    "La mayoría del tiempo se la pasa sentado viendo el celular, a veces no va y cuando va da como 15 minutos de clase, sus exámenes son unas pocas preguntas que te dicta y las apuntas en la libreta. Si quieres aprender hay otros profesores",
-    "Lleve taller de liderazgo con el. Muy facil pasar pero nomas no enseña nada. Se la pasa sentado con el teléfono en la mano toda la clase",
-    "Faltó seguido, en las exposiciones miraba mas su telefono que la proyeccion, examenes faciles, de que pasas, pasas",
-    "agusto con este bato, los examenes peladisimos, pero no enseña muy bien que digamos"
+    "La mayoría del tiempo se la pasa sentado viendo el celular, a veces no va y cuando va da como 15 minutos de clase, sus exámenes son unas pocas preguntas que te dicta y las apuntas en la libreta. Si quieres aprender hay otros profesores"
   ],
-  "n_reviews": 8
+  "n_reviews": 5
 }
