@@ -15,14 +15,14 @@ export class SchedulerEngine {
     metrics: Record<string, GroupMetrics>,
     preferences: GenerationPreferences,
     onProgress?: (count: number) => void
-  ): Promise<{ schedules: CourseGroup[][], statistics: ScheduleStatistics[] }> {
+  ): Promise<{ schedules: CourseGroup[][], statistics: ScheduleStatistics[], diagnostics?: { rejectedByTime: number, totalCombinations: number } }> {
     return new Promise((resolve, reject) => {
       if (!this.worker) return reject('Worker not initialized');
 
       this.worker.onmessage = (e) => {
         const { type, schedules, statistics, count } = e.data;
         if (type === 'RESULT') {
-          resolve({ schedules, statistics });
+          resolve({ schedules, statistics, diagnostics: e.data.diagnostics });
         } else if (type === 'PROGRESS') {
           onProgress?.(count);
         } else if (type === 'DONE') {

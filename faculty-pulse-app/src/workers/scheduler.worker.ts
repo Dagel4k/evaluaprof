@@ -8,6 +8,7 @@ export type GenerationPreferences = {
   preferredStartTime?: number; // Minutes from midnight (e.g., 540 = 9:00 AM)
   preferredEndTime?: number;   // Minutes from midnight (e.g., 1080 = 6:00 PM)
   timeFilterMode: 'EXACT' | 'MINIMUM' | 'CLOSEST'; // How to apply time filters
+  applyGapFilterToFriday?: boolean; // Default false
 };
 
 export type GroupMetrics = {
@@ -27,6 +28,8 @@ export type ScheduleStatistics = {
   subjectsCount: number;
   explanation: string[];    // Reasons why this schedule was chosen
   recommendations: ScheduleRecommendation[];
+  difficultyContext?: string; // e.g., "Easiest within constraints"
+  difficultyDriver?: { name: string, score: number };
 };
 
 export type ScheduleRecommendation = {
@@ -50,7 +53,7 @@ export type WorkerMessage =
   | { type: 'STOP' };
 
 export type WorkerResponse =
-  | { type: 'RESULT', schedules: CourseGroup[][], statistics: ScheduleStatistics[] }
+  | { type: 'RESULT', schedules: CourseGroup[][], statistics: ScheduleStatistics[], diagnostics?: { rejectedByTime: number, totalCombinations: number } }
   | { type: 'PROGRESS', count: number }
   | { type: 'DONE', count: number };
 
@@ -72,11 +75,14 @@ const hasConflict = (newGroup: CourseGroup, currentSchedule: CourseGroup[]): boo
 };
 
 // Calculate gaps in minutes
-const calculateGaps = (schedule: CourseGroup[]): number => {
+const calculateGaps = (schedule: CourseGroup[], applyGapFilterToFriday: boolean = true): number => {
   let totalGaps = 0;
   const days = ['L', 'M', 'I', 'J', 'V', 'S'];
 
   days.forEach(day => {
+    // Skip Friday if the preference allows it
+    if (day === 'V' && !applyGapFilterToFriday) return;
+
     // Get all slots for this day
     const slots = schedule.flatMap(g => g.schedule.filter(s => s.day === day));
     if (slots.length < 2) return;
@@ -160,7 +166,7 @@ const calculateScore = (
   }
 
   // Gap penalty based on tolerance
-  const gaps = calculateGaps(schedule);
+  const gaps = calculateGaps(schedule, prefs.applyGapFilterToFriday ?? false);
   const gapHours = gaps / 60;
 
   if (gapHours > prefs.maxGapTolerance) {
@@ -213,7 +219,7 @@ const meetsTimePreferences = (
 
   // Strict gap filtering when tolerance is 0
   if (prefs.maxGapTolerance === 0) {
-    const gaps = calculateGaps(schedule);
+    const gaps = calculateGaps(schedule, prefs.applyGapFilterToFriday ?? false);
     if (gaps > 0) return false; // Reject any schedule with gaps
   }
 
@@ -248,15 +254,17 @@ const generateStatistics = (
   schedule: CourseGroup[],
   metrics: Record<string, GroupMetrics> | undefined,
   prefs: GenerationPreferences,
-  score: number
+  score: number,
+  globalBestEase: number // Minimum avgDifficulty found in the entire set
 ): ScheduleStatistics => {
   const { earliest, latest } = getScheduleTimeRange(schedule);
-  const gaps = calculateGaps(schedule);
+  const gaps = calculateGaps(schedule, prefs.applyGapFilterToFriday ?? false);
   const daysUsed = [...new Set(schedule.flatMap(g => g.schedule.map(s => s.day)))].sort();
 
   let totalQuality = 0;
   let totalDifficulty = 0;
   let count = 0;
+  let maxDiffProf = { name: '', score: 0 };
 
   if (metrics) {
     schedule.forEach(g => {
@@ -265,6 +273,10 @@ const generateStatistics = (
         totalQuality += m.quality;
         totalDifficulty += m.difficulty;
         count++;
+
+        if (m.difficulty > maxDiffProf.score) {
+          maxDiffProf = { name: g.professorNames[0] || 'Desconocido', score: m.difficulty };
+        }
       }
     });
   }
@@ -272,6 +284,20 @@ const generateStatistics = (
   const avgQuality = count > 0 ? totalQuality / count : 0;
   const avgDifficulty = count > 0 ? totalDifficulty / count : 0;
   const avgTrust = count > 0 ? (schedule.reduce((acc, g) => acc + (metrics?.[g.id]?.trust || 1), 0) / count) : 1.0;
+
+  // Contextual Difficulty Messaging
+  let difficultyContext = "";
+  if (count > 0) {
+    if (avgDifficulty <= globalBestEase + 0.1) {
+      difficultyContext = avgDifficulty < 4
+        ? "Óptimo: Este es uno de los horarios más fáciles que podemos generar."
+        : "Mejor Opción: Es el horario más fácil posible bajo estos filtros de tiempo.";
+    } else if (avgDifficulty > 7) {
+      difficultyContext = "Alta Dificultad: Estos filtros de tiempo fuerzan profesores más exigentes.";
+    } else {
+      difficultyContext = "Balanceado: Existen opciones con profesores más relajados pero en otros horarios.";
+    }
+  }
 
   // Generate recommendations
   const recommendations: ScheduleRecommendation[] = [];
@@ -339,17 +365,23 @@ const generateStatistics = (
     daysUsed,
     subjectsCount: schedule.length,
     explanation,
-    recommendations
+    recommendations,
+    difficultyContext,
+    difficultyDriver: maxDiffProf.score > 7 ? maxDiffProf : undefined
   };
 };
 
 // Algoritmo DFS
-const SEARCH_LIMIT = 2000; // Find more to allow sorting
-const RETURN_LIMIT = 20;   // Only return top results
+const SEARCH_LIMIT = 100000; // Deep search to find valid combos under strict stress
+const RETURN_LIMIT = 20;     // Only return top results
+const TIME_LIMIT = 3000;     // 3 seconds max for search
+let startTime = 0;
 let foundSchedules: CourseGroup[][] = [];
 let abort = false;
 
 let globalPrefs: GenerationPreferences;
+let rejectedByTimeCount = 0;
+let totalCombinationsFound = 0;
 
 const solve = (
   subjects: Subject[],
@@ -359,13 +391,22 @@ const solve = (
   if (abort) return;
   if (foundSchedules.length >= SEARCH_LIMIT) return;
 
+  // Time-based timeout
+  if (Date.now() - startTime > TIME_LIMIT) {
+    abort = true;
+    return;
+  }
+
   if (depth === subjects.length) {
+    totalCombinationsFound++;
     // Apply time preference filtering
     if (meetsTimePreferences(currentSchedule, globalPrefs)) {
       foundSchedules.push([...currentSchedule]);
-      if (foundSchedules.length % 50 === 0) {
+      if (foundSchedules.length % 500 === 0) {
         self.postMessage({ type: 'PROGRESS', count: foundSchedules.length });
       }
+    } else {
+      rejectedByTimeCount++;
     }
     return;
   }
@@ -397,6 +438,9 @@ self.onmessage = (e: MessageEvent<WorkerMessage>) => {
     const { subjects, metrics, preferences } = e.data;
     foundSchedules = [];
     abort = false;
+    rejectedByTimeCount = 0;
+    totalCombinationsFound = 0;
+    startTime = Date.now();
     globalPrefs = preferences; // Store for use in solve()
 
     // Filter out AVANCE subjects if not included in preferences
@@ -434,13 +478,32 @@ self.onmessage = (e: MessageEvent<WorkerMessage>) => {
 
     scoredSchedules.sort((a, b) => b.score - a.score);
 
+    // Find the global best ease for context
+    const allAvgDifficulties = scoredSchedules.map(ss => {
+      let totalD = 0; let cD = 0;
+      ss.schedule.forEach(g => {
+        const m = metrics[g.id];
+        if (m && m.difficulty > 0) { totalD += m.difficulty; cD++; }
+      });
+      return cD ? totalD / cD : 10;
+    });
+    const globalBestEase = allAvgDifficulties.length > 0 ? Math.min(...allAvgDifficulties) : 5;
+
     const bestSchedules = scoredSchedules.slice(0, RETURN_LIMIT);
     const schedules = bestSchedules.map(s => s.schedule);
     const statistics = bestSchedules.map(s =>
-      generateStatistics(s.schedule, metrics, preferences, s.score)
+      generateStatistics(s.schedule, metrics, preferences, s.score, globalBestEase)
     );
 
-    self.postMessage({ type: 'RESULT', schedules, statistics });
+    self.postMessage({
+      type: 'RESULT',
+      schedules,
+      statistics,
+      diagnostics: {
+        rejectedByTime: rejectedByTimeCount,
+        totalCombinations: totalCombinationsFound
+      }
+    });
     self.postMessage({ type: 'DONE', count: bestSchedules.length });
   }
 };
