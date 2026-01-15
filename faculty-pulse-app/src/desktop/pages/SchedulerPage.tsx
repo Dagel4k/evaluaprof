@@ -35,6 +35,7 @@ const SchedulerPage: React.FC = () => {
   const navigate = useNavigate();
   const [subjects, setSubjects] = useState<Subject[]>([]);
   const [selectedGroupIds, setSelectedGroupIds] = useState<Set<string>>(new Set());
+  const [excludedGroupIds, setExcludedGroupIds] = useState<Set<string>>(new Set());
   const [professorMap, setProfessorMap] = useState<Map<string, ProfessorMetrics>>(new Map());
   const [loadingDB, setLoadingDB] = useState(true);
   const [showManualForm, setShowManualForm] = useState(false);
@@ -69,8 +70,8 @@ const SchedulerPage: React.FC = () => {
       try {
         await professorRepo.load();
 
-        // Auto-preload campus schedule from cargadisponible.json
-        const response = await fetch('/cargadisponible.json');
+        // Auto-preload campus schedule from message.json
+        const response = await fetch('/message.json');
         if (response.ok) {
           const raw = await response.json();
           const data = adaptOfferingJsonToCanonical(raw);
@@ -198,8 +199,14 @@ const SchedulerPage: React.FC = () => {
     });
 
     try {
+      // Filter out excluded groups
+      const filteredSubjects = subjects.map(s => ({
+        ...s,
+        groups: s.groups.filter(g => !excludedGroupIds.has(g.id))
+      }));
+
       const engine = new SchedulerEngine();
-      let result = await engine.generateSchedules(subjects, metrics, preferences);
+      let result = await engine.generateSchedules(filteredSubjects, metrics, preferences);
 
       if (result.schedules.length === 0 && preferences.timeFilterMode === 'EXACT') {
         toast({
@@ -209,7 +216,7 @@ const SchedulerPage: React.FC = () => {
 
         const fallbackPrefs: GenerationPreferences = { ...preferences, timeFilterMode: 'MINIMUM' };
         setPreferences(fallbackPrefs);
-        result = await engine.generateSchedules(subjects, metrics, fallbackPrefs);
+        result = await engine.generateSchedules(filteredSubjects, metrics, fallbackPrefs);
       }
 
       if (result.schedules.length > 0) {
@@ -313,6 +320,7 @@ const SchedulerPage: React.FC = () => {
     setGeneratedSchedules([]);
     setScheduleStatistics([]);
     setCurrentScheduleIndex(0);
+    setExcludedGroupIds(new Set());
     toast({
       title: "Resultados Limpiados",
       description: "Se han borrado los horarios generados. Tu lista de materias sigue intacta.",
@@ -349,9 +357,47 @@ const SchedulerPage: React.FC = () => {
     subject.groups.forEach(g => newSelected.delete(g.id));
     setSelectedGroupIds(newSelected);
 
+    // Remove any excluded groups for this subject
+    const newExcluded = new Set(excludedGroupIds);
+    subject.groups.forEach(g => newExcluded.delete(g.id));
+    setExcludedGroupIds(newExcluded);
+
     toast({
       title: "Materia Removida",
       description: "La materia ha sido eliminada de tu lista.",
+    });
+  };
+
+  const removeGroup = (subjectId: string, groupId: string) => {
+    const subject = subjects.find(s => s.id === subjectId);
+    if (!subject) return;
+
+    // Add to excluded groups
+    const newExcluded = new Set(excludedGroupIds);
+    newExcluded.add(groupId);
+    setExcludedGroupIds(newExcluded);
+
+    // If this group was selected, deselect it
+    if (selectedGroupIds.has(groupId)) {
+      const newSelected = new Set(selectedGroupIds);
+      newSelected.delete(groupId);
+      setSelectedGroupIds(newSelected);
+    }
+
+    // Get professor name for toast
+    const group = subject.groups.find(g => g.id === groupId);
+    const metrics = professorMap.get(groupId);
+    const professorName = metrics?.name || group?.professorNames[0] || 'Profesor';
+
+    // Check if this is the last available group
+    const availableGroups = subject.groups.filter(g => !newExcluded.has(g.id));
+
+    toast({
+      title: "Profesor Removido",
+      description: availableGroups.length === 0
+        ? `${professorName} removido. ⚠️ No quedan opciones para ${subject.name}.`
+        : `${professorName} removido de ${subject.name}.`,
+      variant: availableGroups.length === 0 ? "destructive" : "default"
     });
   };
 
@@ -359,6 +405,7 @@ const SchedulerPage: React.FC = () => {
     if (subjects.length === 0) return;
     setSubjects([]);
     setSelectedGroupIds(new Set());
+    setExcludedGroupIds(new Set());
     setGeneratedSchedules([]);
     setComparison(null);
     toast({
@@ -397,7 +444,13 @@ const SchedulerPage: React.FC = () => {
 
       toast({ title: "Generando Reporte...", description: "Analizando miles de combinaciones para encontrar las más fáciles." });
 
-      const result = await engine.generateSchedules(subjects, metrics, customPrefs);
+      // Filter out excluded groups
+      const filteredSubjects = subjects.map(s => ({
+        ...s,
+        groups: s.groups.filter(g => !excludedGroupIds.has(g.id))
+      }));
+
+      const result = await engine.generateSchedules(filteredSubjects, metrics, customPrefs);
 
       if (result.schedules.length > 0) {
         // Deduplicar horarios
@@ -475,6 +528,37 @@ const SchedulerPage: React.FC = () => {
       count: selectedGroups.length
     };
   }, [selectedGroups, professorMap]);
+
+  const scheduleTimeRange = useMemo(() => {
+    if (selectedGroups.length === 0) return { earliest: null, latest: null };
+
+    let earliestTime = Infinity;
+    let latestTime = -Infinity;
+
+    // Iterar sobre los grupos SELECCIONADOS por el usuario
+    selectedGroups.forEach(group => {
+      group.schedule.forEach(slot => {
+        if (slot.startTime < earliestTime) earliestTime = slot.startTime;
+        if (slot.endTime > latestTime) latestTime = slot.endTime;
+      });
+    });
+
+    if (earliestTime === Infinity || latestTime === -Infinity) {
+      return { earliest: null, latest: null };
+    }
+
+    // Convertir minutos a formato HH:MM
+    const formatTime = (minutes: number) => {
+      const hours = Math.floor(minutes / 60);
+      const mins = minutes % 60;
+      return `${hours.toString().padStart(2, '0')}:${mins.toString().padStart(2, '0')}`;
+    };
+
+    return {
+      earliest: formatTime(earliestTime),
+      latest: formatTime(latestTime)
+    };
+  }, [selectedGroups]);
 
   if (loadingDB) {
     return (
@@ -838,7 +922,7 @@ const SchedulerPage: React.FC = () => {
               </div>
             )}
 
-            <div className="grid grid-cols-2 gap-2 sm:flex sm:items-center">
+            <div className="grid grid-cols-2 gap-2 sm:flex sm:items-center sm:flex-wrap">
               <Button
                 variant="outline"
                 size="sm"
@@ -858,6 +942,23 @@ const SchedulerPage: React.FC = () => {
               <Button variant="ghost" size="sm" onClick={clearResults} className="gap-2 h-10 sm:h-9">
                 <RefreshCcw className="h-4 w-4" /> Reset
               </Button>
+
+              {/* Campus Schedule Range */}
+              {scheduleTimeRange.earliest && scheduleTimeRange.latest && (
+                <div className="col-span-2 sm:col-span-1 flex items-center gap-3 px-3 py-2 bg-gradient-to-r from-blue-50 to-purple-50 dark:from-blue-950/20 dark:to-purple-950/20 border border-blue-200 dark:border-blue-900 rounded-md">
+                  <div className="flex items-center gap-1.5">
+                    <div className="w-2 h-2 rounded-full bg-blue-500"></div>
+                    <span className="text-xs font-medium text-muted-foreground">Primera:</span>
+                    <span className="text-sm font-bold text-blue-600 dark:text-blue-400">{scheduleTimeRange.earliest}</span>
+                  </div>
+                  <div className="w-px h-4 bg-border"></div>
+                  <div className="flex items-center gap-1.5">
+                    <div className="w-2 h-2 rounded-full bg-purple-500"></div>
+                    <span className="text-xs font-medium text-muted-foreground">Última:</span>
+                    <span className="text-sm font-bold text-purple-600 dark:text-purple-400">{scheduleTimeRange.latest}</span>
+                  </div>
+                </div>
+              )}
             </div>
           </div>
         </div>
@@ -889,10 +990,12 @@ const SchedulerPage: React.FC = () => {
                 expandedSections={expandedSections}
                 setExpandedSections={setExpandedSections}
                 selectedGroupIds={selectedGroupIds}
+                excludedGroupIds={excludedGroupIds}
                 professorMap={professorMap}
                 toggleGroupSelection={toggleGroupSelection}
                 startComparison={startComparison}
                 onRemoveSubject={removeSubject}
+                onRemoveGroup={removeGroup}
                 conflicts={conflicts}
               />
             </div>
@@ -930,10 +1033,12 @@ const SchedulerPage: React.FC = () => {
             expandedSections={expandedSections}
             setExpandedSections={setExpandedSections}
             selectedGroupIds={selectedGroupIds}
+            excludedGroupIds={excludedGroupIds}
             professorMap={professorMap}
             toggleGroupSelection={toggleGroupSelection}
             startComparison={startComparison}
             onRemoveSubject={removeSubject}
+            onRemoveGroup={removeGroup}
             conflicts={conflicts}
           />
 
@@ -983,12 +1088,14 @@ const SubjectListContent: React.FC<{
   expandedSections: Set<string>;
   setExpandedSections: (s: Set<string>) => void;
   selectedGroupIds: Set<string>;
+  excludedGroupIds: Set<string>;
   professorMap: Map<string, ProfessorMetrics>;
   toggleGroupSelection: (sid: string, gid: string) => void;
   startComparison: (ga: string, gb: string) => void;
   onRemoveSubject: (id: string) => void;
+  onRemoveGroup: (sid: string, gid: string) => void;
   conflicts: Map<string, any>;
-}> = ({ subjects, expandedSections, setExpandedSections, selectedGroupIds, professorMap, toggleGroupSelection, startComparison, onRemoveSubject, conflicts }) => {
+}> = ({ subjects, expandedSections, setExpandedSections, selectedGroupIds, excludedGroupIds, professorMap, toggleGroupSelection, startComparison, onRemoveSubject, onRemoveGroup, conflicts }) => {
   return (
     <div className="space-y-3">
       {(() => {
@@ -1017,15 +1124,21 @@ const SubjectListContent: React.FC<{
               <div className="p-3 pt-0 space-y-2">
                 {disponibles.map(subject => {
                   const selectedGroup = subject.groups.find(g => selectedGroupIds.has(g.id));
+                  // Filter out excluded groups
+                  const filteredSubject = {
+                    ...subject,
+                    groups: subject.groups.filter(g => !excludedGroupIds.has(g.id))
+                  };
                   return (
                     <SubjectCard
                       key={subject.id}
-                      subject={subject}
+                      subject={filteredSubject}
                       selectedGroupId={selectedGroup?.id}
                       professorMap={professorMap}
                       onGroupSelect={(groupId) => toggleGroupSelection(subject.id, groupId)}
                       onCompare={startComparison}
                       onRemove={onRemoveSubject}
+                      onRemoveGroup={onRemoveGroup}
                       conflictingGroupIds={Array.from(conflicts.keys())}
                     />
                   );
@@ -1062,15 +1175,21 @@ const SubjectListContent: React.FC<{
               <div className="p-3 pt-0 space-y-2">
                 {avance.map(subject => {
                   const selectedGroup = subject.groups.find(g => selectedGroupIds.has(g.id));
+                  // Filter out excluded groups
+                  const filteredSubject = {
+                    ...subject,
+                    groups: subject.groups.filter(g => !excludedGroupIds.has(g.id))
+                  };
                   return (
                     <SubjectCard
                       key={subject.id}
-                      subject={subject}
+                      subject={filteredSubject}
                       selectedGroupId={selectedGroup?.id}
                       professorMap={professorMap}
                       onGroupSelect={(groupId) => toggleGroupSelection(subject.id, groupId)}
                       onCompare={startComparison}
                       onRemove={onRemoveSubject}
+                      onRemoveGroup={onRemoveGroup}
                       conflictingGroupIds={Array.from(conflicts.keys())}
                     />
                   );

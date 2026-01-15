@@ -2,7 +2,7 @@ import { adaptCargaDisponibleToCanonical, isCargaDisponibleFormat } from './src/
 import * as fs from 'fs';
 import * as path from 'path';
 
-const cargaDataPath = path.join(__dirname, '..', 'cargadisponible.json');
+const cargaDataPath = path.join(__dirname, '..', 'message.json');
 const cargaData = JSON.parse(fs.readFileSync(cargaDataPath, 'utf-8'));
 
 console.log('=== Testing CargaDisponible Adapter ===\n');

@@ -90,11 +90,7 @@ const TimeGrid: React.FC<TimeGridProps> = ({ groups, professorMap, conflictingGr
 
                         <div className="text-current/90 truncate flex justify-between items-center text-[10px] sm:text-[11px]">
                           <span className="truncate mr-1 font-semibold">
-                            {(() => {
-                              const fullName = metrics ? metrics.name : (group.professorNames[0]?.trim() || 'No asignado');
-                              const parts = fullName.split(' ');
-                              return parts.length > 1 ? `${parts[parts.length - 1].length <= 2 ? parts[0] + ' ' + parts[parts.length - 2] : parts[0] + ' ' + parts[parts.length - 1]}` : parts[0];
-                            })()}
+                            {metrics ? metrics.name : (group.professorNames[0]?.trim() || 'No asignado')}
                           </span>
                         </div>
 

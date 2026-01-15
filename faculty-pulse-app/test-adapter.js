@@ -1,5 +1,5 @@
 import { adaptCargaDisponibleToCanonical, isCargaDisponibleFormat } from '../src/adapters/cargaDisponibleAdapter';
-import cargaData from '../cargadisponible.json';
+import cargaData from '../message.json';
 
 console.log('=== Testing CargaDisponible Adapter ===\n');
 

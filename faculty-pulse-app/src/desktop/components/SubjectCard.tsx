@@ -12,6 +12,7 @@ interface SubjectCardProps {
     onGroupSelect: (groupId: string) => void;
     onCompare?: (groupAId: string, groupBId: string) => void;
     onRemove?: (subjectId: string) => void;
+    onRemoveGroup?: (subjectId: string, groupId: string) => void;
     conflictingGroupIds: string[];
 }
 
@@ -37,6 +38,7 @@ export const SubjectCard: React.FC<SubjectCardProps> = ({
     onGroupSelect,
     onCompare,
     onRemove,
+    onRemoveGroup,
     conflictingGroupIds
 }) => {
     const classificationStyle = subject.classification
@@ -107,33 +109,43 @@ export const SubjectCard: React.FC<SubjectCardProps> = ({
                         const firstName = professorName.split(' ')[0];
 
                         return (
-                            <button
-                                key={group.id}
-                                onClick={() => onGroupSelect(group.id)}
-                                className={`w-full text-left px-3 py-3 sm:py-2 text-xs rounded-lg border transition-all ${isSelected
-                                    ? hasConflict
-                                        ? 'bg-red-600 border-red-700 text-white shadow-sm'
-                                        : 'bg-primary border-primary text-primary-foreground shadow-sm font-bold'
-                                    : 'bg-background hover:bg-zinc-100 dark:hover:bg-zinc-800 border-zinc-200 dark:border-zinc-800'
-                                    }`}
-                            >
-                                <div className="flex items-center justify-between gap-2">
-                                    <div className="flex items-center gap-2 min-w-0 flex-1">
-                                        <span className="font-mono text-[10px] shrink-0">{group.groupCode}</span>
-                                        <span className="text-[10px] opacity-90 truncate flex-1 uppercase tracking-tighter">
-                                            {(() => {
-                                                const parts = professorName.split(' ');
-                                                return parts.length > 1 ? `${parts[0]} ${parts[1]}` : parts[0];
-                                            })()}
-                                        </span>
-                                    </div>
-                                    {metrics && (
-                                        <div className={`flex items-center gap-0.5 shrink-0 font-mono ${isSelected ? 'text-white' : 'text-zinc-600 dark:text-zinc-400'}`}>
-                                            <span className="text-[10px]">{metrics.globalScore.toFixed(1)}</span>
+                            <div key={group.id} className="relative group/professor">
+                                <button
+                                    onClick={() => onGroupSelect(group.id)}
+                                    className={`w-full text-left px-3 py-3 sm:py-2 text-xs rounded-lg border transition-all ${isSelected
+                                        ? hasConflict
+                                            ? 'bg-red-600 border-red-700 text-white shadow-sm'
+                                            : 'bg-primary border-primary text-primary-foreground shadow-sm font-bold'
+                                        : 'bg-background hover:bg-zinc-100 dark:hover:bg-zinc-800 border-zinc-200 dark:border-zinc-800'
+                                        }`}
+                                >
+                                    <div className="flex items-center justify-between gap-2">
+                                        <div className="flex items-center gap-2 min-w-0 flex-1">
+                                            <span className="font-mono text-[10px] shrink-0">{group.groupCode}</span>
+                                            <span className="text-[10px] opacity-90 truncate flex-1 uppercase tracking-tighter">
+                                                {professorName}
+                                            </span>
                                         </div>
-                                    )}
-                                </div>
-                            </button>
+                                        {metrics && (
+                                            <div className={`flex items-center gap-0.5 shrink-0 font-mono ${isSelected ? 'text-white' : 'text-zinc-600 dark:text-zinc-400'}`}>
+                                                <span className="text-[10px]">{metrics.globalScore.toFixed(1)}</span>
+                                            </div>
+                                        )}
+                                    </div>
+                                </button>
+                                {onRemoveGroup && subject.groups.length > 1 && (
+                                    <button
+                                        onClick={(e) => {
+                                            e.stopPropagation();
+                                            onRemoveGroup(subject.id, group.id);
+                                        }}
+                                        className="absolute top-1 right-1 p-1 text-zinc-400 hover:text-red-500 hover:bg-red-50 dark:hover:bg-red-950/20 rounded transition-colors opacity-0 group-hover/professor:opacity-100 focus:opacity-100 z-10"
+                                        title={`Remover ${professorName}`}
+                                    >
+                                        <X className="h-3 w-3" />
+                                    </button>
+                                )}
+                            </div>
                         );
                     })}
                 </div>

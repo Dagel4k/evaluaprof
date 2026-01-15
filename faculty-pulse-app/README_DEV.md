@@ -60,7 +60,7 @@ Para probar con datos reales del portal universitario:
 
 1. Abre http://localhost:8080/
 2. Ve a "Constructor de Horarios"
-3. Arrastra el archivo `cargadisponible.json` (en la raíz del proyecto)
+3. Arrastra el archivo `message.json` (en la raíz del proyecto)
 4. ¡Listo! Todas las materias se cargarán automáticamente
 
 ---
