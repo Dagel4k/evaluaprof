@@ -1,0 +1,159 @@
+{
+  "professor_id": "Cesar_Alejandro_Espinoza_Torres",
+  "nombre": "Cesar Alejandro Espinoza Torres",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 8.593628740302677,
+    "difficulty_decayed": 2.5270407804422983
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.778371249587866,
+    "difficulty_bayes": 2.802769535113749
+  },
+  "recommendation_analysis": {
+    "rate": 0.92,
+    "wilson_interval": [
+      0.4820143151730107,
+      0.9930128292352413
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": 0.53,
+    "z_mean_decayed": 0.44,
+    "per_subject": [
+      {
+        "materia": "CALCULO INTEGRAL",
+        "z_decayed": 0.8026622206675375,
+        "n": 22
+      },
+      {
+        "materia": "CÁLCULO DIFERENCIAL",
+        "z_decayed": 0.5246579432800084,
+        "n": 24
+      },
+      {
+        "materia": "CALCULO DIFERENCIAL",
+        "z_decayed": 0.13463543188343846,
+        "n": 29
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [],
+    "sentiment": {
+      "overall": null,
+      "by_month": {}
+    },
+    "n_comments": 3
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        10.0,
+        10.0,
+        6.0,
+        9.0
+      ],
+      "ewma": [
+        10.0,
+        10.0,
+        8.8,
+        8.86
+      ],
+      "sigma": 1.4248625664720562
+    },
+    "difficulty_trend": {
+      "series": [
+        4.0,
+        2.0,
+        4.0,
+        2.0
+      ],
+      "ewma": [
+        4.0,
+        3.4,
+        3.58,
+        3.106
+      ],
+      "sigma": 0.8702082126326625
+    },
+    "forecast": {
+      "quality_next": 8.86,
+      "quality_band": [
+        6.0672693697147695,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2025-12-12T00:00:00",
+      "materia": "CÁLCULO DIFERENCIAL",
+      "calidad": 9.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2025-12-05T00:00:00",
+      "materia": "CÁLCULO DIFERENCIAL",
+      "calidad": 9.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Sin duda un profe que sabe explicar y que realmente se preocupa porque sus alumnos aprendan, explica todo de manera sencilla y rápida, ante cualquier duda siempre está dispuesto a volver a explicar si es necesario, un muy buen maestro la vdd"
+    },
+    {
+      "fecha_iso": "2024-05-15T00:00:00",
+      "materia": "CALCULO DIFERENCIAL",
+      "calidad": 6.0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2022-02-09T00:00:00",
+      "materia": "CALCULO DIFERENCIAL",
+      "calidad": 10.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Es muy buen profe da su clase en 15 min. o menos la inicia tarde nomas estate pendiente de cuando la inicie y prestale atención y con eso estarás bien en los examenes te pone ejercicios no tan dificiles y hasta algunos los copia y pega de alguna tarea anterior"
+    },
+    {
+      "fecha_iso": "2021-09-08T00:00:00",
+      "materia": "CALCULO INTEGRAL",
+      "calidad": 10.0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Lo mejor de lo mejor, se va directo al grano y sus clases son de 15 a 20m, las tareas y examenes no son tan dificiles pero si califica duro, no esperes que te pase si no haces nada"
+    }
+  ],
+  "comments_recent": [
+    "Sin duda un profe que sabe explicar y que realmente se preocupa porque sus alumnos aprendan, explica todo de manera sencilla y rápida, ante cualquier duda siempre está dispuesto a volver a explicar si es necesario, un muy buen maestro la vdd",
+    "Es muy buen profe da su clase en 15 min. o menos la inicia tarde nomas estate pendiente de cuando la inicie y prestale atención y con eso estarás bien en los examenes te pone ejercicios no tan dificiles y hasta algunos los copia y pega de alguna tarea anterior",
+    "Lo mejor de lo mejor, se va directo al grano y sus clases son de 15 a 20m, las tareas y examenes no son tan dificiles pero si califica duro, no esperes que te pase si no haces nada"
+  ],
+  "n_reviews": 5
+}

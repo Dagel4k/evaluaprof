@@ -1,0 +1,153 @@
+{
+  "professor_id": "Martha_Montoya",
+  "nombre": "Martha Montoya",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 9.877552286366617,
+    "difficulty_decayed": 3.537726700333156
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.845037916254532,
+    "difficulty_bayes": 2.5361028684470823
+  },
+  "recommendation_analysis": {
+    "rate": 0.89,
+    "wilson_interval": [
+      0.4536202552174038,
+      0.987476378875973
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": 0.45,
+    "z_mean_decayed": 0.45,
+    "per_subject": [
+      {
+        "materia": "MICROBIOLOGÍA",
+        "z_decayed": 0.44721359549995837,
+        "n": 5
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [],
+    "sentiment": {
+      "overall": null,
+      "by_month": {}
+    },
+    "n_comments": 3
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        9.0,
+        6.0,
+        10.0,
+        10.0,
+        10.0
+      ],
+      "ewma": [
+        9.0,
+        8.1,
+        8.669999999999998,
+        9.068999999999999,
+        9.348299999999998
+      ],
+      "sigma": 1.3544627746822726
+    },
+    "difficulty_trend": {
+      "series": [
+        2.0,
+        2.0,
+        2.0,
+        0.0,
+        4.0
+      ],
+      "ewma": [
+        2.0,
+        2.0,
+        2.0,
+        1.4,
+        2.1799999999999997
+      ],
+      "sigma": 1.144237737535343
+    },
+    "forecast": {
+      "quality_next": 9.348299999999998,
+      "quality_band": [
+        6.6935529616227445,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2023-09-15T00:00:00",
+      "materia": "MICROBIOLOGÍA",
+      "calidad": 10.0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2016-03-17T00:00:00",
+      "materia": "MICROBIOLOGIA",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2016-01-31T00:00:00",
+      "materia": "MICROBIOLOGÍA",
+      "calidad": 10.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Excelente Profesora se nota que aún  disfruta de explicar la materia :)"
+    },
+    {
+      "fecha_iso": "2013-07-25T00:00:00",
+      "materia": "BIOLOGIA I",
+      "calidad": 6.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": "BUENA MAESTRA, ALGO EXIGENTE, PERO BUENA :)"
+    },
+    {
+      "fecha_iso": "2013-05-31T00:00:00",
+      "materia": "BIOLOGIA 1,COMPORTAMIENTO ORGANIZACIONAL",
+      "calidad": 9.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "es buena maestra,algo exigente pero es buena en el fondo :), los que no pasan es porque de plano son unos flojos e idiotas."
+    }
+  ],
+  "comments_recent": [
+    "Excelente Profesora se nota que aún  disfruta de explicar la materia :)",
+    "BUENA MAESTRA, ALGO EXIGENTE, PERO BUENA :)",
+    "es buena maestra,algo exigente pero es buena en el fondo :), los que no pasan es porque de plano son unos flojos e idiotas."
+  ],
+  "n_reviews": 5
+}

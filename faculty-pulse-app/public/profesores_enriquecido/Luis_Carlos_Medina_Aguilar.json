@@ -1,0 +1,180 @@
+{
+  "professor_id": "Luis_Carlos_Medina_Aguilar",
+  "nombre": "Luis Carlos Medina Aguilar",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 10.0,
+    "difficulty_decayed": 1.5345318255953557
+  },
+  "bayes_analysis": {
+    "quality_bayes": 8.178371249587865,
+    "difficulty_bayes": 2.2694362017804157
+  },
+  "recommendation_analysis": {
+    "rate": 1.0,
+    "wilson_interval": [
+      0.565508505247919,
+      1
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": 0.8,
+    "z_mean_decayed": 0.91,
+    "per_subject": [
+      {
+        "materia": "ESTATICA",
+        "z_decayed": 1.5109384381465762,
+        "n": 7
+      },
+      {
+        "materia": "DINÁMICA",
+        "z_decayed": 0.44721359549995837,
+        "n": 5
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "da",
+          "oportunidades",
+          "solo"
+        ],
+        "weight": 0.27493700601708887
+      },
+      {
+        "id": 1,
+        "words": [
+          "solo",
+          "da",
+          "oportunidades"
+        ],
+        "weight": 0.13768295209617393
+      }
+    ],
+    "sentiment": {
+      "overall": 0.2,
+      "by_month": {
+        "2019-01": 0.5,
+        "2018-08": 0.0,
+        "2017-08": 0.0,
+        "2016-08": 0.0
+      }
+    },
+    "n_comments": 5
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 1,
+    "trust_score": 0.8
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        10.0,
+        10.0,
+        10.0,
+        10.0
+      ],
+      "ewma": [
+        10.0,
+        10.0,
+        10.0,
+        10.0
+      ],
+      "sigma": 0.0
+    },
+    "difficulty_trend": {
+      "series": [
+        0.0,
+        0.0,
+        0.0,
+        3.0
+      ],
+      "ewma": [
+        0.0,
+        0.0,
+        0.0,
+        0.8999999999999999
+      ],
+      "sigma": 1.05
+    },
+    "forecast": {
+      "quality_next": 10.0,
+      "quality_band": [
+        10.0,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2019-01-15T00:00:00",
+      "materia": "ESTATICA",
+      "calidad": 10.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "El maestro es bueno.\nDomina los temas que imparte, sabe como compartirte el conocimiento, es paciente y\nda oportunidades de mejora.\nSolo tiene el inconveniente que inicia clase demasiado temprano (20-25min).\n(entra con anticipación cuando hay salón solo).\nRecomendable, solo si no tienes clase antes."
+    },
+    {
+      "fecha_iso": "2019-01-07T00:00:00",
+      "materia": "ESTATICA/DINAMICA",
+      "calidad": 10.0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Es una vergota el wacho"
+    },
+    {
+      "fecha_iso": "2018-08-13T00:00:00",
+      "materia": "DINÁMICA",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Clases clarisimas, explicaciones perfectas, no le gusta que te aprendas nada de memoria sino que razones las cosas, que sepas de dónde vienen y por qué son asi. Estas clases son simplemente una joya y me atrevería a decir que es el mejor profesor que he tenido en mi vida como estudiante"
+    },
+    {
+      "fecha_iso": "2017-08-04T00:00:00",
+      "materia": "DINAMICA",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "es una eminencia, de los mejores maestros del tec, explica super bien tantas veces como lo necesites ademas de que da bastantes oportunidades de pasar porque sus examenes de recuperacion son solo para subir"
+    },
+    {
+      "fecha_iso": "2016-08-04T00:00:00",
+      "materia": "DINÁMICA",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Es una chola pa todo este profe."
+    }
+  ],
+  "comments_recent": [
+    "El maestro es bueno.\nDomina los temas que imparte, sabe como compartirte el conocimiento, es paciente y\nda oportunidades de mejora.\nSolo tiene el inconveniente que inicia clase demasiado temprano (20-25min).\n(entra con anticipación cuando hay salón solo).\nRecomendable, solo si no tienes clase antes.",
+    "Es una vergota el wacho",
+    "Clases clarisimas, explicaciones perfectas, no le gusta que te aprendas nada de memoria sino que razones las cosas, que sepas de dónde vienen y por qué son asi. Estas clases son simplemente una joya y me atrevería a decir que es el mejor profesor que he tenido en mi vida como estudiante",
+    "es una eminencia, de los mejores maestros del tec, explica super bien tantas veces como lo necesites ademas de que da bastantes oportunidades de pasar porque sus examenes de recuperacion son solo para subir",
+    "Es una chola pa todo este profe."
+  ],
+  "n_reviews": 5
+}

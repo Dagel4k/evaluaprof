@@ -1,0 +1,199 @@
+{
+  "professor_id": "Nadia_Camacho_Navarro",
+  "nombre": "Nadia Camacho Navarro",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 8.01029048942255,
+    "difficulty_decayed": 2.1074373431080855
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.378371249587866,
+    "difficulty_bayes": 2.6694362017804156
+  },
+  "recommendation_analysis": {
+    "rate": 0.8,
+    "wilson_interval": [
+      0.37552826411853885,
+      0.9637768390302125
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": 0.16,
+    "z_mean_decayed": 0.22,
+    "per_subject": [
+      {
+        "materia": "DIBUJO ASISTIDO POR COMPUTADORA",
+        "z_decayed": 0.6117752903214984,
+        "n": 9
+      },
+      {
+        "materia": "DIBUJO INDUSTRIAL",
+        "z_decayed": 0.11037570424267452,
+        "n": 26
+      },
+      {
+        "materia": "DIBUJO",
+        "z_decayed": 0.0867434716333994,
+        "n": 8
+      },
+      {
+        "materia": "CALCULO VECTORIAL",
+        "z_decayed": -0.01678599155661474,
+        "n": 21
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "buena maestra",
+          "maestra",
+          "bien",
+          "si",
+          "te"
+        ],
+        "weight": 0.3596482460289422
+      },
+      {
+        "id": 1,
+        "words": [
+          "te",
+          "te reprueba",
+          "mitad",
+          "si",
+          "es"
+        ],
+        "weight": 0.24712815643123215
+      }
+    ],
+    "sentiment": {
+      "overall": 0.2,
+      "by_month": {
+        "2017-01": 0.0,
+        "2016-08": 1.0,
+        "2015-11": 0.0,
+        "2015-05": 0.0,
+        "2015-01": 0.0
+      }
+    },
+    "n_comments": 5
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        3.0,
+        9.0,
+        8.0,
+        8.0,
+        10.0
+      ],
+      "ewma": [
+        3.0,
+        4.799999999999999,
+        5.759999999999999,
+        6.431999999999999,
+        7.502399999999999
+      ],
+      "sigma": 1.523212352891087
+    },
+    "difficulty_trend": {
+      "series": [
+        6.0,
+        2.0,
+        0.0,
+        4.0,
+        0.0
+      ],
+      "ewma": [
+        6.0,
+        4.799999999999999,
+        3.359999999999999,
+        3.5519999999999987,
+        2.486399999999999
+      ],
+      "sigma": 1.7370763115073558
+    },
+    "forecast": {
+      "quality_next": 7.502399999999999,
+      "quality_band": [
+        4.516903788333469,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2017-01-17T00:00:00",
+      "materia": "DIBUJO ASISTIDO POR COMPUTADORA",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Muy buena maestra, se cotorrea chido en su clase. si pones atención te va bien"
+    },
+    {
+      "fecha_iso": "2016-08-09T00:00:00",
+      "materia": "DIBUJO INDUSTRIAL",
+      "calidad": 8.0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Si le caes bien te ira genial, si le caes mal te reprueba, explica muy bien, pero si le falta que sea mas profesional, pero en términos generales buena maestra"
+    },
+    {
+      "fecha_iso": "2015-11-29T00:00:00",
+      "materia": "CALCULO VECTORIAL",
+      "calidad": 8.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Es la primera vez que imparte,esta materia y casi no la domina, explico de manera clara lo poco que nos explico pero vimos como la mitad de todo el plan de estudios. Si quieres pasar con ella fácil adelante pero si quieres aprender hay mejores opciones"
+    },
+    {
+      "fecha_iso": "2015-05-17T00:00:00",
+      "materia": "DIBUJO",
+      "calidad": 9.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Es de las pocas maestras que se preocupan por que el alumno realmente aprenda."
+    },
+    {
+      "fecha_iso": "2015-01-27T00:00:00",
+      "materia": "DIBUJO",
+      "calidad": 3.0,
+      "dificultad": 6.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "No hace recuperación, te reprueba por una cosita que te falte, en mi salón reprobó a la mitad, NO carguen con ella"
+    }
+  ],
+  "comments_recent": [
+    "Muy buena maestra, se cotorrea chido en su clase. si pones atención te va bien",
+    "Si le caes bien te ira genial, si le caes mal te reprueba, explica muy bien, pero si le falta que sea mas profesional, pero en términos generales buena maestra",
+    "Es la primera vez que imparte,esta materia y casi no la domina, explico de manera clara lo poco que nos explico pero vimos como la mitad de todo el plan de estudios. Si quieres pasar con ella fácil adelante pero si quieres aprender hay mejores opciones",
+    "Es de las pocas maestras que se preocupan por que el alumno realmente aprenda.",
+    "No hace recuperación, te reprueba por una cosita que te falte, en mi salón reprobó a la mitad, NO carguen con ella"
+  ],
+  "n_reviews": 5
+}

@@ -1,0 +1,159 @@
+{
+  "professor_id": "Leopoldo_Zepeda_Sanchez",
+  "nombre": "Leopoldo Zepeda Sanchez",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 8.074828771189713,
+    "difficulty_decayed": 1.9251712288102873
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.645037916254533,
+    "difficulty_bayes": 2.402769535113749
+  },
+  "recommendation_analysis": {
+    "rate": 0.76,
+    "wilson_interval": [
+      0.3436958140891173,
+      0.9503686086398004
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": 0.67,
+    "z_mean_decayed": 0.59,
+    "per_subject": [
+      {
+        "materia": "---",
+        "z_decayed": 0.5878917852693518,
+        "n": 80
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [],
+    "sentiment": {
+      "overall": 0.0,
+      "by_month": {
+        "2024-06": 0.0,
+        "2024-05": 0.0,
+        "2023-08": 0.0,
+        "2023-05": 0.0
+      }
+    },
+    "n_comments": 4
+  },
+  "integrity_analysis": {
+    "dup_rate": 1.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 0.5
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        10.0,
+        10.0,
+        10.0,
+        2.0,
+        10.0
+      ],
+      "ewma": [
+        10.0,
+        10.0,
+        10.0,
+        7.6,
+        8.32
+      ],
+      "sigma": 2.7887775099494756
+    },
+    "difficulty_trend": {
+      "series": [
+        0.0,
+        0.0,
+        0.0,
+        8.0,
+        0.0
+      ],
+      "ewma": [
+        0.0,
+        0.0,
+        0.0,
+        2.4,
+        1.68
+      ],
+      "sigma": 2.788777509949476
+    },
+    "forecast": {
+      "quality_next": 8.32,
+      "quality_band": [
+        2.8539960804990283,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2024-06-13T00:00:00",
+      "materia": "---",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2024-05-08T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2023-08-11T00:00:00",
+      "materia": "---",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2023-05-14T00:00:00",
+      "materia": "---",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2023-01-19T00:00:00",
+      "materia": "INFORMATICA",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": ""
+    }
+  ],
+  "comments_recent": [
+    "[Comentario esperando revisión]",
+    "[Comentario esperando revisión]",
+    "[Comentario esperando revisión]",
+    "[Comentario esperando revisión]"
+  ],
+  "n_reviews": 5
+}

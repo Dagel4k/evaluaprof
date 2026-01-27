@@ -1,0 +1,85 @@
+{
+  "professor_id": "ALAN_BRITO",
+  "nombre": "ALAN BRITO",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 7.715065666569704,
+    "difficulty_decayed": 4.569868666860589
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.3896307286514995,
+    "difficulty_bayes": 3.0034619188921865
+  },
+  "recommendation_analysis": {
+    "rate": 1.0,
+    "wilson_interval": [
+      0.3423719528896193,
+      1
+    ],
+    "n_recommendations": 2
+  },
+  "subject_normalization": {
+    "z_mean": 0.43,
+    "z_mean_decayed": 0.33,
+    "per_subject": [
+      {
+        "materia": "POO",
+        "z_decayed": 0.3267685550685601,
+        "n": 16
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [],
+    "sentiment": {
+      "overall": null,
+      "by_month": {}
+    },
+    "n_comments": 1
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": null,
+    "difficulty_trend": null,
+    "forecast": null,
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2013-12-19T00:00:00",
+      "materia": "POO",
+      "calidad": 6.0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": "LO AMO"
+    },
+    {
+      "fecha_iso": "2013-02-21T00:00:00",
+      "materia": "POO",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": ""
+    }
+  ],
+  "comments_recent": [
+    "LO AMO"
+  ],
+  "n_reviews": 2
+}

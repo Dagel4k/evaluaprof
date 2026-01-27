@@ -1,0 +1,184 @@
+{
+  "professor_id": "Juan_Núñez_Armenta",
+  "nombre": "Juan Núñez Armenta",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 8.823368035770047,
+    "difficulty_decayed": 3.2317918670955046
+  },
+  "bayes_analysis": {
+    "quality_bayes": 8.045037916254532,
+    "difficulty_bayes": 3.3361028684470826
+  },
+  "recommendation_analysis": {
+    "rate": 0.86,
+    "wilson_interval": [
+      0.42649276163301214,
+      0.9806733621454894
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": 0.59,
+    "z_mean_decayed": 0.59,
+    "per_subject": [
+      {
+        "materia": "CALCULO VECTORIAL",
+        "z_decayed": 0.6882256538212068,
+        "n": 21
+      },
+      {
+        "materia": "ECUACIONES DIFERENCIALES",
+        "z_decayed": 0.5587887775887984,
+        "n": 18
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "pasas",
+          "bien",
+          "explica",
+          "si",
+          "te"
+        ],
+        "weight": 0.42593451870292043
+      },
+      {
+        "id": 1,
+        "words": [
+          "calificar",
+          "clases explica",
+          "clases",
+          "veces",
+          "tec"
+        ],
+        "weight": 0.2345788729196827
+      }
+    ],
+    "sentiment": {
+      "overall": 0.0,
+      "by_month": {
+        "2023-05": 0.0,
+        "2019-08": 0.0,
+        "2018-01": 0.0,
+        "2017-03": 0.0
+      }
+    },
+    "n_comments": 5
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        10.0,
+        10.0,
+        10.0,
+        8.0
+      ],
+      "ewma": [
+        10.0,
+        10.0,
+        10.0,
+        9.4
+      ],
+      "sigma": 0.7000000000000002
+    },
+    "difficulty_trend": {
+      "series": [
+        8.0,
+        3.0,
+        6.0,
+        2.0
+      ],
+      "ewma": [
+        8.0,
+        6.5,
+        6.35,
+        5.044999999999999
+      ],
+      "sigma": 1.803632330419183
+    },
+    "forecast": {
+      "quality_next": 9.4,
+      "quality_band": [
+        8.028,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2023-05-25T00:00:00",
+      "materia": "LIDER SINDICAL",
+      "calidad": 8.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "EL PEOR LIDER SINDICAL DE LA HISTORIA DEL TEC. NOMAS HIZO EL RIDICULO EN LA ULTIMA REUNION. DEBERIA RENUNCIAR ESTE DIFAMADOR."
+    },
+    {
+      "fecha_iso": "2019-08-24T00:00:00",
+      "materia": "ECUACIONES DIFERENCIALES",
+      "calidad": 10.0,
+      "dificultad": 6.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Debe ser el mejor profesor de matemáticas del Tec de Culiacán. Claro para explicar, justo para calificar, no falla a clases, explica cuántas veces necesitas y de la mejor forma por lo que aprendes mucho con él. La materia es difícil, pero si le echas ganas, seguro pasas."
+    },
+    {
+      "fecha_iso": "2018-01-16T00:00:00",
+      "materia": "CALCULO VECTORIAL",
+      "calidad": 10.0,
+      "dificultad": 6.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Explica super bien, todo de manera muy clara, siempre pregunta si hay dudas y las trata de resolver lo maximo posible. Deja mucha tarea, pero te sirve de practica para el examen y la deja con mucho tiempo de anticipación. Con haber podido hacer la tarea pasas el examen, pero califica muy justo."
+    },
+    {
+      "fecha_iso": "2018-01-15T00:00:00",
+      "materia": "ECUACIONES DIFERENCIALES",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "De los mejores profesores del Tec. Sus exámenes son difíciles, pero no te pone nada que no te enseña en clase. Si le preguntas, te explica las veces que ocupes y siempre de buena gana y si no faltas a sus clases te ayuda al final. Ojalá hubiera más maestros así."
+    },
+    {
+      "fecha_iso": "2017-03-01T00:00:00",
+      "materia": "ECUACIONES DIFERENCIALES",
+      "calidad": 10.0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Las clases las explica muy bien, y los exámenes están difíciles y largos pero si el ve que le echas ganas te da oportunidades. Asiste todos los días y eso ayuda mucho al momento de calificar."
+    }
+  ],
+  "comments_recent": [
+    "EL PEOR LIDER SINDICAL DE LA HISTORIA DEL TEC. NOMAS HIZO EL RIDICULO EN LA ULTIMA REUNION. DEBERIA RENUNCIAR ESTE DIFAMADOR.",
+    "Debe ser el mejor profesor de matemáticas del Tec de Culiacán. Claro para explicar, justo para calificar, no falla a clases, explica cuántas veces necesitas y de la mejor forma por lo que aprendes mucho con él. La materia es difícil, pero si le echas ganas, seguro pasas.",
+    "Explica super bien, todo de manera muy clara, siempre pregunta si hay dudas y las trata de resolver lo maximo posible. Deja mucha tarea, pero te sirve de practica para el examen y la deja con mucho tiempo de anticipación. Con haber podido hacer la tarea pasas el examen, pero califica muy justo.",
+    "De los mejores profesores del Tec. Sus exámenes son difíciles, pero no te pone nada que no te enseña en clase. Si le preguntas, te explica las veces que ocupes y siempre de buena gana y si no faltas a sus clases te ayuda al final. Ojalá hubiera más maestros así.",
+    "Las clases las explica muy bien, y los exámenes están difíciles y largos pero si el ve que le echas ganas te da oportunidades. Asiste todos los días y eso ayuda mucho al momento de calificar."
+  ],
+  "n_reviews": 5
+}

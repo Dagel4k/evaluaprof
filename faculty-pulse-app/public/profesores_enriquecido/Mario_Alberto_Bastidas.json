@@ -1,0 +1,184 @@
+{
+  "professor_id": "Mario_Alberto_Bastidas",
+  "nombre": "Mario Alberto Bastidas",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 3.918808682303361,
+    "difficulty_decayed": 6.396425674741721
+  },
+  "bayes_analysis": {
+    "quality_bayes": 6.311704582921199,
+    "difficulty_bayes": 3.869436201780416
+  },
+  "recommendation_analysis": {
+    "rate": 0.5,
+    "wilson_interval": [
+      0.17042015582256811,
+      0.8295798441774319
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": -1.03,
+    "z_mean_decayed": -1.13,
+    "per_subject": [
+      {
+        "materia": "GRAFICACION",
+        "z_decayed": -1.1342742497519769,
+        "n": 7
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "te",
+          "ensena",
+          "es",
+          "califica",
+          "quiere"
+        ],
+        "weight": 0.26857886066583364
+      },
+      {
+        "id": 1,
+        "words": [
+          "quiere",
+          "califica",
+          "ensena",
+          "es",
+          "te"
+        ],
+        "weight": 0.3206596512986232
+      }
+    ],
+    "sentiment": {
+      "overall": -0.2,
+      "by_month": {
+        "2025-09": -1.0,
+        "2024-11": 0.0,
+        "2023-06": 0.0,
+        "2023-03": 0.0,
+        "2023-01": 0.0
+      }
+    },
+    "n_comments": 5
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        4.0,
+        6.0,
+        6.0,
+        4.0,
+        2.0
+      ],
+      "ewma": [
+        4.0,
+        4.6,
+        5.02,
+        4.7139999999999995,
+        3.8997999999999995
+      ],
+      "sigma": 1.3255662518335323
+    },
+    "difficulty_trend": {
+      "series": [
+        4.0,
+        6.0,
+        6.0,
+        6.0,
+        8.0
+      ],
+      "ewma": [
+        4.0,
+        4.6,
+        5.02,
+        5.313999999999999,
+        6.1198
+      ],
+      "sigma": 0.7129462027390285
+    },
+    "forecast": {
+      "quality_next": 3.8997999999999995,
+      "quality_band": [
+        1.3016901464062762,
+        6.497909853593723
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2025-09-10T00:00:00",
+      "materia": "GRAFICACIÓN",
+      "calidad": 2.0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Mal Profesor y horrible persona, la neta no carguen con el, es una cagada, califica como le dictan sus ****. Enseña algo que lo usaban en la era de hielo, quiere respeto y el no lo da. Mejor NO CARGUEEEN"
+    },
+    {
+      "fecha_iso": "2024-11-25T00:00:00",
+      "materia": "GRAFICACION",
+      "calidad": 4.0,
+      "dificultad": 6.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": "este profe se debió haber jubilado desde el 2010, no enseña nada el ruco."
+    },
+    {
+      "fecha_iso": "2023-06-06T00:00:00",
+      "materia": "GRAFICACION",
+      "calidad": 6.0,
+      "dificultad": 6.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": "es un pendejo, si te sale a las 7am, no cargues con el"
+    },
+    {
+      "fecha_iso": "2023-03-09T00:00:00",
+      "materia": "GRAFICACION",
+      "calidad": 6.0,
+      "dificultad": 6.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": "Aprendes pero a la hora de calificar es extremadamente exigente y califica como quiere"
+    },
+    {
+      "fecha_iso": "2023-01-14T00:00:00",
+      "materia": "GRAFICACIÓN",
+      "calidad": 4.0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": "Este maestro lleva dando clases por muchos años y se nota de las peores maneras. No te enseña lo que haces en los proyectos y te deja por tu cuenta, odia los celulares y lo tienes que llamar para cualquier aclaración, califica de manera muy dura sin justificación.\nEspero se jubile pronto xD"
+    }
+  ],
+  "comments_recent": [
+    "Mal Profesor y horrible persona, la neta no carguen con el, es una cagada, califica como le dictan sus ****. Enseña algo que lo usaban en la era de hielo, quiere respeto y el no lo da. Mejor NO CARGUEEEN",
+    "este profe se debió haber jubilado desde el 2010, no enseña nada el ruco.",
+    "es un pendejo, si te sale a las 7am, no cargues con el",
+    "Aprendes pero a la hora de calificar es extremadamente exigente y califica como quiere",
+    "Este maestro lleva dando clases por muchos años y se nota de las peores maneras. No te enseña lo que haces en los proyectos y te deja por tu cuenta, odia los celulares y lo tienes que llamar para cualquier aclaración, califica de manera muy dura sin justificación.\nEspero se jubile pronto xD"
+  ],
+  "n_reviews": 5
+}

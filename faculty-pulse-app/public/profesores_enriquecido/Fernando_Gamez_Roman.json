@@ -1,0 +1,192 @@
+{
+  "professor_id": "Fernando_Gamez_Roman",
+  "nombre": "Fernando Gamez Roman",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 5.2365922355525845,
+    "difficulty_decayed": 0.0
+  },
+  "bayes_analysis": {
+    "quality_bayes": 6.578371249587866,
+    "difficulty_bayes": 1.8694362017804156
+  },
+  "recommendation_analysis": {
+    "rate": 0.35,
+    "wilson_interval": [
+      0.09409051165901612,
+      0.7362569367666082
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": -0.52,
+    "z_mean_decayed": -0.49,
+    "per_subject": [
+      {
+        "materia": "FUNDAMENTOS DE INVESTIGACION",
+        "z_decayed": -0.08669160515324283,
+        "n": 9
+      },
+      {
+        "materia": "DESARROLLO SUSTENTABLE",
+        "z_decayed": -0.5624091822468626,
+        "n": 27
+      },
+      {
+        "materia": "FUNDAMENTOS DE LA INVESTIGACION",
+        "z_decayed": -1.3055824196677337,
+        "n": 4
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "profesor",
+          "toma",
+          "toma lista",
+          "trabajos",
+          "es"
+        ],
+        "weight": 0.4147129784699262
+      },
+      {
+        "id": 1,
+        "words": [
+          "100",
+          "clase",
+          "videos",
+          "es",
+          "si"
+        ],
+        "weight": 0.3038487781102077
+      }
+    ],
+    "sentiment": {
+      "overall": 0.0,
+      "by_month": {
+        "2025-09": 0.0,
+        "2025-05": 0.0,
+        "2025-03": 0.0,
+        "2024-12": 0.0
+      }
+    },
+    "n_comments": 4
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        6.0,
+        6.0,
+        2.0,
+        5.0,
+        7.0
+      ],
+      "ewma": [
+        6.0,
+        5.999999999999999,
+        4.799999999999999,
+        4.859999999999999,
+        5.501999999999999
+      ],
+      "sigma": 1.567924998206228
+    },
+    "difficulty_trend": {
+      "series": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ewma": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sigma": 0.0
+    },
+    "forecast": {
+      "quality_next": 5.501999999999999,
+      "quality_band": [
+        2.428867003515792,
+        8.575132996484205
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2025-09-04T00:00:00",
+      "materia": "FUNDAMENTOS DE INVESTIGACION",
+      "calidad": 7.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "gg papa, no entiendo nada, se la pasa preguntando cosas sobre el trabajo y si no hacemos nada no nos dice nada"
+    },
+    {
+      "fecha_iso": "2025-05-31T00:00:00",
+      "materia": "DESARROLLO SUSTENTABLE",
+      "calidad": 5.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": "Lo recomiendo para cualquiera que quiera pasar alguna materia de relleno, sus clases son aburridas y lentas, el profesor no toma lista, los trabajos y exámenes son fáciles, puedes faltar todo el semestre e ir solo a los exámenes y aun así te pondría mínimo 85/90"
+    },
+    {
+      "fecha_iso": "2025-03-20T00:00:00",
+      "materia": "DESAROLLO SUSTENTABLE",
+      "calidad": 2.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "los trabajos si son largos pero es literalmente porque lo obligan termina las clases media hora antes, es ver vídeos hacer cualquier cosita en clase y ya. Lo recomiendo solo si quieres pasar con 90 (el 100 se lo regala a los que les cae bien), fuera de eso pues no"
+    },
+    {
+      "fecha_iso": "2025-01-31T00:00:00",
+      "materia": "FUNDAMENTOS DE LA INVESTIGACION",
+      "calidad": 6.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2024-12-15T00:00:00",
+      "materia": "FUNDAMENTOS DE INVESTIGACION",
+      "calidad": 6.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": "Con todo respeto del mundo, esta clase es regalada, el profesor por su edad no puede manejarse al 100% sus trabajos son medio pesados pero faciles, solamente se ven videos, y no importa si no asistes, el profe no toma ni lista, pero es MUY facil aprobar con el"
+    }
+  ],
+  "comments_recent": [
+    "gg papa, no entiendo nada, se la pasa preguntando cosas sobre el trabajo y si no hacemos nada no nos dice nada",
+    "Lo recomiendo para cualquiera que quiera pasar alguna materia de relleno, sus clases son aburridas y lentas, el profesor no toma lista, los trabajos y exámenes son fáciles, puedes faltar todo el semestre e ir solo a los exámenes y aun así te pondría mínimo 85/90",
+    "los trabajos si son largos pero es literalmente porque lo obligan termina las clases media hora antes, es ver vídeos hacer cualquier cosita en clase y ya. Lo recomiendo solo si quieres pasar con 90 (el 100 se lo regala a los que les cae bien), fuera de eso pues no",
+    "Con todo respeto del mundo, esta clase es regalada, el profesor por su edad no puede manejarse al 100% sus trabajos son medio pesados pero faciles, solamente se ven videos, y no importa si no asistes, el profe no toma ni lista, pero es MUY facil aprobar con el"
+  ],
+  "n_reviews": 5
+}

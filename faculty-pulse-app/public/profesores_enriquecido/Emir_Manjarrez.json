@@ -1,0 +1,156 @@
+{
+  "professor_id": "Emir_Manjarrez",
+  "nombre": "Emir Manjarrez",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 7.016485754547524,
+    "difficulty_decayed": 2.073583443616588
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.178371249587866,
+    "difficulty_bayes": 2.5361028684470823
+  },
+  "recommendation_analysis": {
+    "rate": 0.86,
+    "wilson_interval": [
+      0.42649276163301214,
+      0.9806733621454894
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": -0.12,
+    "z_mean_decayed": -0.12,
+    "per_subject": [
+      {
+        "materia": "FUNDAMENTOS DE PROGRAMACION",
+        "z_decayed": 0.20193241203216034,
+        "n": 15
+      },
+      {
+        "materia": "FUNDAMENTOS DE PROGRAMACIÓN",
+        "z_decayed": -0.7749538200371794,
+        "n": 17
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [],
+    "sentiment": {
+      "overall": 0.0,
+      "by_month": {
+        "2018-11": 0.0,
+        "2018-08": 0.0
+      }
+    },
+    "n_comments": 4
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [
+      {
+        "from": "2018-11-13T00:00:00",
+        "to": "2018-11-13T00:00:00",
+        "count": 3
+      }
+    ],
+    "low_variance_flag": 0,
+    "trust_score": 0.7
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        6.5,
+        7.333333333333333
+      ],
+      "ewma": [
+        6.5,
+        6.75
+      ],
+      "sigma": 0.41247895569215254
+    },
+    "difficulty_trend": {
+      "series": [
+        0.0,
+        3.3333333333333335
+      ],
+      "ewma": [
+        0.0,
+        1.0
+      ],
+      "sigma": 1.649915822768611
+    },
+    "forecast": {
+      "quality_next": 6.75,
+      "quality_band": [
+        5.941541246843381,
+        7.558458753156619
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2018-11-13T00:00:00",
+      "materia": "FUNDAMENTOS DE PROGRAMACIÓN",
+      "calidad": 6.0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Sólo le falta explicar un poco más y llegar temprano"
+    },
+    {
+      "fecha_iso": "2018-11-13T00:00:00",
+      "materia": "FUNDAMENTOS DE PROGRAMACION",
+      "calidad": 8.0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2018-11-13T00:00:00",
+      "materia": "FUNDAMENTOS DE PROGRAMACION",
+      "calidad": 8.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "solo saca presentate en los examenes y la haces"
+    },
+    {
+      "fecha_iso": "2018-08-08T00:00:00",
+      "materia": "ADMINISTRACIÓN DE BASE DE DATOS",
+      "calidad": 3.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Este profe podrá ser una verga en click balance, pero como profesor vale verga"
+    },
+    {
+      "fecha_iso": "2018-08-05T00:00:00",
+      "materia": "TESEBADA",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Bien pelado, falto el 95? del semestre y me paso con 100"
+    }
+  ],
+  "comments_recent": [
+    "Sólo le falta explicar un poco más y llegar temprano",
+    "solo saca presentate en los examenes y la haces",
+    "Este profe podrá ser una verga en click balance, pero como profesor vale verga",
+    "Bien pelado, falto el 95? del semestre y me paso con 100"
+  ],
+  "n_reviews": 5
+}

@@ -1,0 +1,161 @@
+{
+  "professor_id": "Noe_De_la_Rocha_Soto",
+  "nombre": "Noe De la Rocha Soto",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 5.594278401783687,
+    "difficulty_decayed": 6.0
+  },
+  "bayes_analysis": {
+    "quality_bayes": 6.711704582921199,
+    "difficulty_bayes": 3.869436201780416
+  },
+  "recommendation_analysis": {
+    "rate": 0.32,
+    "wilson_interval": [
+      0.08093585143759412,
+      0.715481086673155
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": -0.49,
+    "z_mean_decayed": -0.5,
+    "per_subject": [
+      {
+        "materia": "CALCULO",
+        "z_decayed": -0.47306250845494385,
+        "n": 11
+      },
+      {
+        "materia": "CALCULO DIFERENCIAL",
+        "z_decayed": -0.4940315657270203,
+        "n": 29
+      },
+      {
+        "materia": "CÁLCULO DIFERENCIAL",
+        "z_decayed": -0.5246579432800084,
+        "n": 24
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [],
+    "sentiment": {
+      "overall": null,
+      "by_month": {}
+    },
+    "n_comments": 3
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [
+      {
+        "from": "2025-10-10T00:00:00",
+        "to": "2025-10-11T00:00:00",
+        "count": 3
+      }
+    ],
+    "low_variance_flag": 0,
+    "trust_score": 0.7
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        6.0,
+        5.0,
+        5.666666666666667
+      ],
+      "ewma": [
+        6.0,
+        5.699999999999999,
+        5.6899999999999995
+      ],
+      "sigma": 0.39758064637299717
+    },
+    "difficulty_trend": {
+      "series": [
+        6.0,
+        6.0,
+        6.0
+      ],
+      "ewma": [
+        6.0,
+        5.999999999999999,
+        5.999999999999999
+      ],
+      "sigma": 5.127900497022838e-16
+    },
+    "forecast": {
+      "quality_next": 5.6899999999999995,
+      "quality_band": [
+        4.910741933108925,
+        6.469258066891074
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2025-10-11T00:00:00",
+      "materia": "CÁLCULO DIFERENCIAL",
+      "calidad": 7.0,
+      "dificultad": 6.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2025-10-11T00:00:00",
+      "materia": "CÁLCULO DIFERENCIAL",
+      "calidad": 5.0,
+      "dificultad": 6.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2025-10-10T00:00:00",
+      "materia": "CALCULO DIFERENCIAL",
+      "calidad": 5.0,
+      "dificultad": 6.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": "la neta si te mete bien la verga, califica bien duro y hace como si ya supieras todo, explica el concepto y ya se va directamente a lo difícil, lo mas posible es que de ahuevo repruebes sus exámenes y tengas que volverlos a hacer, así que de ahuevo vas a estudiar, tienes que ser autodidacta."
+    },
+    {
+      "fecha_iso": "2025-05-28T00:00:00",
+      "materia": "CALCULO",
+      "calidad": 5.0,
+      "dificultad": 6.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": "LE PEGA A SUS HIJOS"
+    },
+    {
+      "fecha_iso": "2024-12-15T00:00:00",
+      "materia": "CALCULO DIFERENCIAL",
+      "calidad": 6.0,
+      "dificultad": 6.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": "Esta cabron, el profe la mayoria de veces explica eltema como si lo supieramos desde antes, solamente los que si saben ayudan al profe, aunque uno intente poner atencion, es complicado, el profe es bien buena onda, asi que uno si tiene que copear de vez en cuando para poder pasar la materia"
+    }
+  ],
+  "comments_recent": [
+    "la neta si te mete bien la verga, califica bien duro y hace como si ya supieras todo, explica el concepto y ya se va directamente a lo difícil, lo mas posible es que de ahuevo repruebes sus exámenes y tengas que volverlos a hacer, así que de ahuevo vas a estudiar, tienes que ser autodidacta.",
+    "LE PEGA A SUS HIJOS",
+    "Esta cabron, el profe la mayoria de veces explica eltema como si lo supieramos desde antes, solamente los que si saben ayudan al profe, aunque uno intente poner atencion, es complicado, el profe es bien buena onda, asi que uno si tiene que copear de vez en cuando para poder pasar la materia"
+  ],
+  "n_reviews": 5
+}

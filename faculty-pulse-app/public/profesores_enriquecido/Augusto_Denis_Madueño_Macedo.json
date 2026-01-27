@@ -1,0 +1,166 @@
+{
+  "professor_id": "Augusto_Denis_Madueño_Macedo",
+  "nombre": "Augusto Denis Madueño Macedo",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 3.8,
+    "difficulty_decayed": 7.6000000000000005
+  },
+  "bayes_analysis": {
+    "quality_bayes": 6.1117045829212,
+    "difficulty_bayes": 4.402769535113749
+  },
+  "recommendation_analysis": {
+    "rate": 0.13,
+    "wilson_interval": [
+      0.016927301813929777,
+      0.5645964043026102
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": -0.98,
+    "z_mean_decayed": -0.98,
+    "per_subject": [
+      {
+        "materia": "---",
+        "z_decayed": -0.6430216122906732,
+        "n": 80
+      },
+      {
+        "materia": "PROGRAMACIÓN",
+        "z_decayed": -1.0959713075544921,
+        "n": 7
+      },
+      {
+        "materia": "PROGRAMACION",
+        "z_decayed": -1.8646746349572285,
+        "n": 6
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "comentario",
+          "comentario esperando",
+          "esperando",
+          "esperando revision",
+          "revision"
+        ],
+        "weight": 0.42651990607971846
+      },
+      {
+        "id": 1,
+        "words": [
+          "comentario",
+          "comentario esperando",
+          "esperando",
+          "esperando revision",
+          "revision"
+        ],
+        "weight": 0.25155764746872644
+      }
+    ],
+    "sentiment": {
+      "overall": 0.0,
+      "by_month": {
+        "2021-01": 0.0
+      }
+    },
+    "n_comments": 4
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.5,
+    "bursts": [
+      {
+        "from": "2021-01-13T00:00:00",
+        "to": "2021-01-13T00:00:00",
+        "count": 3
+      },
+      {
+        "from": "2021-01-13T00:00:00",
+        "to": "2021-01-13T00:00:00",
+        "count": 4
+      },
+      {
+        "from": "2021-01-13T00:00:00",
+        "to": "2021-01-13T00:00:00",
+        "count": 5
+      }
+    ],
+    "low_variance_flag": 0,
+    "trust_score": 0.45
+  },
+  "trends_analysis": {
+    "quality_trend": null,
+    "difficulty_trend": null,
+    "forecast": null,
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2021-01-13T00:00:00",
+      "materia": "---",
+      "calidad": 3.0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2021-01-13T00:00:00",
+      "materia": "---",
+      "calidad": 6.0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2021-01-13T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2021-01-13T00:00:00",
+      "materia": "PROGRAMACIÓN",
+      "calidad": 3.0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "No tiene metodología de enseñanza"
+    },
+    {
+      "fecha_iso": "2021-01-13T00:00:00",
+      "materia": "PROGRAMACION",
+      "calidad": 5.0,
+      "dificultad": 6.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": ""
+    }
+  ],
+  "comments_recent": [
+    "[Comentario esperando revisión]",
+    "[Comentario esperando revisión]",
+    "[Comentario esperando revisión]",
+    "No tiene metodología de enseñanza"
+  ],
+  "n_reviews": 5
+}

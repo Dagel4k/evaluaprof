@@ -1,0 +1,189 @@
+{
+  "professor_id": "Gilberto_PEREZ_LUQUE",
+  "nombre": "Gilberto PEREZ LUQUE",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 7.613180692399962,
+    "difficulty_decayed": 3.675426731354159
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.445037916254533,
+    "difficulty_bayes": 2.9361028684470822
+  },
+  "recommendation_analysis": {
+    "rate": 0.53,
+    "wilson_interval": [
+      0.18772106627044435,
+      0.8462094440444308
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": -0.35,
+    "z_mean_decayed": -0.44,
+    "per_subject": [
+      {
+        "materia": "SISTEMAS PROGRAMABLES",
+        "z_decayed": -0.288074491886223,
+        "n": 3
+      },
+      {
+        "materia": "MICROCONTROLADORES",
+        "z_decayed": -0.6081211398682973,
+        "n": 5
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "es",
+          "te",
+          "proyectos",
+          "clase",
+          "si"
+        ],
+        "weight": 0.2665109629623814
+      },
+      {
+        "id": 1,
+        "words": [
+          "si",
+          "clase",
+          "proyectos",
+          "es",
+          "te"
+        ],
+        "weight": 0.2799121055203509
+      }
+    ],
+    "sentiment": {
+      "overall": 0.0,
+      "by_month": {
+        "2024-06": 0.0,
+        "2023-06": 0.0,
+        "2023-01": 0.0,
+        "2022-08": 0.0,
+        "2022-06": 0.0
+      }
+    },
+    "n_comments": 5
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        10.0,
+        10.0,
+        3.0,
+        9.0,
+        7.0
+      ],
+      "ewma": [
+        10.0,
+        10.0,
+        7.9,
+        8.23,
+        7.861000000000001
+      ],
+      "sigma": 2.2562249887810393
+    },
+    "difficulty_trend": {
+      "series": [
+        0.0,
+        0.0,
+        8.0,
+        2.0,
+        6.0
+      ],
+      "ewma": [
+        0.0,
+        0.0,
+        2.4,
+        2.28,
+        3.396
+      ],
+      "sigma": 2.5328472516123037
+    },
+    "forecast": {
+      "quality_next": 7.861000000000001,
+      "quality_band": [
+        3.4387990219891638,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2024-06-11T00:00:00",
+      "materia": "MICROCONTROLADORES",
+      "calidad": 7.0,
+      "dificultad": 6.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Recomendaciones, junta un equipo que sabes que trabaja, prepárate para gastar y estudia lenguaje máquina y Arduino, si conoces un poco de estos, la materia te será muy fácil, ya que el califica con proyectos en cada unidad, no importa si faltas, pero entrega todo, y es accesible con las entregas."
+    },
+    {
+      "fecha_iso": "2023-06-01T00:00:00",
+      "materia": "RELLENOS PROGRAMABLES",
+      "calidad": 9.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "GILBARCO TROZO LUQUE O GILBARCO P3N3  MUGR3"
+    },
+    {
+      "fecha_iso": "2023-01-12T00:00:00",
+      "materia": "SISTEMAS PROGRAMABLES",
+      "calidad": 3.0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Es uno de los peores profesores del tec, te hace ir al tec días que no toca clase y toma mas de la hora de clase. Todo para nada porque nadie le entiende y deja proyectos complejos que no explica bien. No pidas ayuda porque te dirá que ya lo vieron, es muy irresponsable y no cae bien."
+    },
+    {
+      "fecha_iso": "2022-08-09T00:00:00",
+      "materia": "SISTEMAS PROGRAMABLES",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "refacil pasar con el"
+    },
+    {
+      "fecha_iso": "2022-06-22T00:00:00",
+      "materia": "MICROCONTROLADORESS",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "si no sacas 100 en su clase, mejor cambiate de universidad"
+    }
+  ],
+  "comments_recent": [
+    "Recomendaciones, junta un equipo que sabes que trabaja, prepárate para gastar y estudia lenguaje máquina y Arduino, si conoces un poco de estos, la materia te será muy fácil, ya que el califica con proyectos en cada unidad, no importa si faltas, pero entrega todo, y es accesible con las entregas.",
+    "GILBARCO TROZO LUQUE O GILBARCO P3N3  MUGR3",
+    "Es uno de los peores profesores del tec, te hace ir al tec días que no toca clase y toma mas de la hora de clase. Todo para nada porque nadie le entiende y deja proyectos complejos que no explica bien. No pidas ayuda porque te dirá que ya lo vieron, es muy irresponsable y no cae bien.",
+    "refacil pasar con el",
+    "si no sacas 100 en su clase, mejor cambiate de universidad"
+  ],
+  "n_reviews": 5
+}

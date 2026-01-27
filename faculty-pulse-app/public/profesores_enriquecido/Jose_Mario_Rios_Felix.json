@@ -1,0 +1,199 @@
+{
+  "professor_id": "Jose_Mario_Rios_Felix",
+  "nombre": "Jose Mario Rios Felix",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 9.999999999999996,
+    "difficulty_decayed": 3.35780339350834
+  },
+  "bayes_analysis": {
+    "quality_bayes": 8.178371249587865,
+    "difficulty_bayes": 2.5361028684470823
+  },
+  "recommendation_analysis": {
+    "rate": 1.0,
+    "wilson_interval": [
+      0.565508505247919,
+      1
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": 0.81,
+    "z_mean_decayed": 0.86,
+    "per_subject": [
+      {
+        "materia": "FUNDAMENTOS DE PROGRAMACION",
+        "z_decayed": 0.875040452139362,
+        "n": 15
+      },
+      {
+        "materia": "TALLER DE BASES DE DATOS",
+        "z_decayed": 0.8660254037844387,
+        "n": 4
+      },
+      {
+        "materia": "FUNDAMENTOS DE BASE DE DATOS",
+        "z_decayed": 0.8302258023111966,
+        "n": 9
+      },
+      {
+        "materia": "TALLER DE BASE DE DATOS",
+        "z_decayed": 0.6851064595573102,
+        "n": 8
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "va ayudar",
+          "explica",
+          "profe",
+          "es",
+          "te"
+        ],
+        "weight": 0.3647833910018828
+      },
+      {
+        "id": 1,
+        "words": [
+          "va",
+          "va ayudar",
+          "si",
+          "mejor",
+          "es"
+        ],
+        "weight": 0.19597654777417362
+      }
+    ],
+    "sentiment": {
+      "overall": 0.2,
+      "by_month": {
+        "2025-05": -1.0,
+        "2018-08": 0.0,
+        "2018-01": 0.0,
+        "2017-11": 1.0,
+        "2017-01": 1.0
+      }
+    },
+    "n_comments": 5
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 1,
+    "trust_score": 0.8
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        10.0
+      ],
+      "ewma": [
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        10.0
+      ],
+      "sigma": 0.0
+    },
+    "difficulty_trend": {
+      "series": [
+        4.0,
+        0.0,
+        2.0,
+        0.0,
+        4.0
+      ],
+      "ewma": [
+        4.0,
+        2.8,
+        2.5599999999999996,
+        1.7919999999999996,
+        2.4543999999999997
+      ],
+      "sigma": 1.669769382878965
+    },
+    "forecast": {
+      "quality_next": 10.0,
+      "quality_band": [
+        10.0,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2025-05-25T00:00:00",
+      "materia": "FUNDAMENTOS DE PROGRAMACION",
+      "calidad": 10.0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Si estas en mi primer semestre y de pura casualidad te da, te va a ayudar bastante, es un profe que siempre es atento y demuestra tener un gran conocimiento en el tema, incluso te da consejos para el ambito laboral. Preparate para el examen final ya que, en mi caso, fue un poco complicado."
+    },
+    {
+      "fecha_iso": "2018-08-24T00:00:00",
+      "materia": "FUNDAMENTOS DE BASE DE DATOS",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "La verdad si enseña, es muy fácil pasar con el y el que quiere aprende, puedes pasar y saber poco, el es muy accesible, lastima que en la actualidad dejo de dar clases, esta mejor que con chayito y más fácil que esparza"
+    },
+    {
+      "fecha_iso": "2018-01-11T00:00:00",
+      "materia": "TALLER DE BASES DE DATOS",
+      "calidad": 10.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Es buen profe, te explica cosas que ocuparas en el futuro, te explica las cosas bien y si no entiendes te las puede volver a explicar. Es buena onda y pues sus examenes no estan tan dificiles."
+    },
+    {
+      "fecha_iso": "2017-11-22T00:00:00",
+      "materia": "TALLER DE BASE DE DATOS",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Profesor excelente, divertido y aunque no lo esperes, terminas aprendiendo xD"
+    },
+    {
+      "fecha_iso": "2017-01-17T00:00:00",
+      "materia": "LENGUAJES Y AUTOMATAS I",
+      "calidad": 10.0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Profe ,si lee esto, lo quiero un chingo, la neta plebes es su mejor opción sea la materia que les salga,es bien camarada, explica claro, esta joven asi que supongo que entiende como hacerlos entender a ustedes, te ayuda como ningun otro profe te va ayudar solo te pide que tambien pongas de tu parte."
+    }
+  ],
+  "comments_recent": [
+    "Si estas en mi primer semestre y de pura casualidad te da, te va a ayudar bastante, es un profe que siempre es atento y demuestra tener un gran conocimiento en el tema, incluso te da consejos para el ambito laboral. Preparate para el examen final ya que, en mi caso, fue un poco complicado.",
+    "La verdad si enseña, es muy fácil pasar con el y el que quiere aprende, puedes pasar y saber poco, el es muy accesible, lastima que en la actualidad dejo de dar clases, esta mejor que con chayito y más fácil que esparza",
+    "Es buen profe, te explica cosas que ocuparas en el futuro, te explica las cosas bien y si no entiendes te las puede volver a explicar. Es buena onda y pues sus examenes no estan tan dificiles.",
+    "Profesor excelente, divertido y aunque no lo esperes, terminas aprendiendo xD",
+    "Profe ,si lee esto, lo quiero un chingo, la neta plebes es su mejor opción sea la materia que les salga,es bien camarada, explica claro, esta joven asi que supongo que entiende como hacerlos entender a ustedes, te ayuda como ningun otro profe te va ayudar solo te pide que tambien pongas de tu parte."
+  ],
+  "n_reviews": 5
+}

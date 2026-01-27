@@ -1,0 +1,153 @@
+{
+  "professor_id": "ana_josefina_fajardo",
+  "nombre": "ana josefina fajardo",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 6.92744312540425,
+    "difficulty_decayed": 7.551397286200029
+  },
+  "bayes_analysis": {
+    "quality_bayes": 6.9117045829212,
+    "difficulty_bayes": 4.002769535113749
+  },
+  "recommendation_analysis": {
+    "rate": 0.6,
+    "wilson_interval": [
+      0.23071993220883702,
+      0.8823817688407467
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": 0.0,
+    "z_mean_decayed": 0.03,
+    "per_subject": [
+      {
+        "materia": "FINANZAS",
+        "z_decayed": 0.03447297812285003,
+        "n": 3
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [],
+    "sentiment": {
+      "overall": null,
+      "by_month": {}
+    },
+    "n_comments": 3
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        2.0,
+        8.0,
+        7.0,
+        4.0,
+        10.0
+      ],
+      "ewma": [
+        2.0,
+        3.8,
+        4.76,
+        4.532,
+        6.1724
+      ],
+      "sigma": 2.158400118606372
+    },
+    "difficulty_trend": {
+      "series": [
+        4.0,
+        4.0,
+        8.0,
+        8.0,
+        8.0
+      ],
+      "ewma": [
+        4.0,
+        4.0,
+        5.199999999999999,
+        6.039999999999999,
+        6.627999999999998
+      ],
+      "sigma": 1.2291968109298044
+    },
+    "forecast": {
+      "quality_next": 6.1724,
+      "quality_band": [
+        1.9419357675315103,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2025-12-04T00:00:00",
+      "materia": "FINANZAS",
+      "calidad": 10.0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Sus exámenes no son nada fáciles, no es flexible si tuviste un error. Si no le entiende a tu análisis valiste."
+    },
+    {
+      "fecha_iso": "2025-08-30T00:00:00",
+      "materia": "FINANZAS",
+      "calidad": 4.0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2024-06-07T00:00:00",
+      "materia": "FINANZAS",
+      "calidad": 7.0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2021-02-01T00:00:00",
+      "materia": "PLAN DE NEGOCIOS",
+      "calidad": 8.0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Es una maestra que explica muy bien, los temas los conoce y los interpreta a la vida real, en eso no hay problema para captar la información.\nEl problema es que tiene otros compromisos y siempre esta ocupada, lo que hace que ande a las carreras y te traiga apurado en el semestre."
+    },
+    {
+      "fecha_iso": "2020-01-17T00:00:00",
+      "materia": "PLAN DE NEGOCIOS",
+      "calidad": 2.0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "En general no la recomiendo, por el simple hecho de que las en las clases te da una breve y muy resumida clase de lo que tedras que hacer al final, no explica muy bien, se la pasa metida en su celular es una profesora muy ocupada y para terminarla de matar si tu proyecto no le gusta VALISTES VRG."
+    }
+  ],
+  "comments_recent": [
+    "Sus exámenes no son nada fáciles, no es flexible si tuviste un error. Si no le entiende a tu análisis valiste.",
+    "Es una maestra que explica muy bien, los temas los conoce y los interpreta a la vida real, en eso no hay problema para captar la información.\nEl problema es que tiene otros compromisos y siempre esta ocupada, lo que hace que ande a las carreras y te traiga apurado en el semestre.",
+    "En general no la recomiendo, por el simple hecho de que las en las clases te da una breve y muy resumida clase de lo que tedras que hacer al final, no explica muy bien, se la pasa metida en su celular es una profesora muy ocupada y para terminarla de matar si tu proyecto no le gusta VALISTES VRG."
+  ],
+  "n_reviews": 5
+}

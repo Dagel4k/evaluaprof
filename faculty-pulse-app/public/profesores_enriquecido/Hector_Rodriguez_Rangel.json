@@ -1,0 +1,180 @@
+{
+  "professor_id": "Hector_Rodriguez_Rangel",
+  "nombre": "Hector Rodriguez Rangel",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 9.222437866799096,
+    "difficulty_decayed": 2.777562133200904
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.9117045829212,
+    "difficulty_bayes": 2.802769535113749
+  },
+  "recommendation_analysis": {
+    "rate": 0.5,
+    "wilson_interval": [
+      0.17042015582256811,
+      0.8295798441774319
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": 0.58,
+    "z_mean_decayed": 0.58,
+    "per_subject": [
+      {
+        "materia": "INTELIGENCIA ARTIFICIAL",
+        "z_decayed": 0.5773502691896258,
+        "n": 5
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "porque",
+          "hacer",
+          "si",
+          "clase",
+          "te"
+        ],
+        "weight": 0.32716375813596643
+      },
+      {
+        "id": 1,
+        "words": [
+          "clases",
+          "es excelente",
+          "excelente",
+          "domina",
+          "temas"
+        ],
+        "weight": 0.31969985798568196
+      }
+    ],
+    "sentiment": {
+      "overall": 0.2,
+      "by_month": {
+        "2025-04": 1.0,
+        "2024-12": 0.0
+      }
+    },
+    "n_comments": 5
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [
+      {
+        "from": "2024-12-04T00:00:00",
+        "to": "2024-12-04T00:00:00",
+        "count": 3
+      },
+      {
+        "from": "2024-12-04T00:00:00",
+        "to": "2024-12-04T00:00:00",
+        "count": 4
+      }
+    ],
+    "low_variance_flag": 0,
+    "trust_score": 0.7
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        9.0,
+        10.0
+      ],
+      "ewma": [
+        9.0,
+        9.3
+      ],
+      "sigma": 0.49497474683058273
+    },
+    "difficulty_trend": {
+      "series": [
+        3.0,
+        2.0
+      ],
+      "ewma": [
+        3.0,
+        2.6999999999999997
+      ],
+      "sigma": 0.49497474683058307
+    },
+    "forecast": {
+      "quality_next": 9.3,
+      "quality_band": [
+        8.32984949621206,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2025-04-24T00:00:00",
+      "materia": "INTELIGENCIA ARTIFICIAL",
+      "calidad": 10.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Es un excelente profesor, te pide que usas chatGPT, no entiendo porque le tienen miedo, en 3 años no e conocido a nadie que repruebe con el, impone mucho pero aprendes demasiado sobre las nuevas tecnologias, eso si, nunca faltes a sus clases porque te movia a no volverlo hacer."
+    },
+    {
+      "fecha_iso": "2024-12-04T00:00:00",
+      "materia": "INTELIGENCIA ARTIFICIAL",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Es muy buen profe, domina muy bieen los temas"
+    },
+    {
+      "fecha_iso": "2024-12-04T00:00:00",
+      "materia": "TÓPICOS DE INTELIGENCIA ARTIFICIAL",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Es un excelente maestro, sus clases son muy dinámicas, no son aburridas. Domina los temas de los que habla y es muy comprensible."
+    },
+    {
+      "fecha_iso": "2024-12-04T00:00:00",
+      "materia": "TÓPICOS DE IA",
+      "calidad": 7.0,
+      "dificultad": 6.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Califica en equipos, ojo con quien te juntas. Deja tareas que tienen que hacer todos pero solo exponen 1 o 2.Si faltas, te deja una tarea solo para ti y quien sabe como le vas hacer para saber cual es esa tarea, tarea que aparte tienes que exponer en clase y si no la haces te deja otra mas difícil."
+    },
+    {
+      "fecha_iso": "2024-12-04T00:00:00",
+      "materia": "TOPICOS DE INTELIGENCIA ARTIFICIAL",
+      "calidad": 9.0,
+      "dificultad": 6.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Es muy buen profesor, le gusta hacer su clase un poco dinamica y promoviendo la participación, es estricto con la asistencia pero porque le gusta ver interes en su clase.  \nSi estas interesado en realmente aprender y no te molesta dedicarle tiempo a la materia, toma clase con él."
+    }
+  ],
+  "comments_recent": [
+    "Es un excelente profesor, te pide que usas chatGPT, no entiendo porque le tienen miedo, en 3 años no e conocido a nadie que repruebe con el, impone mucho pero aprendes demasiado sobre las nuevas tecnologias, eso si, nunca faltes a sus clases porque te movia a no volverlo hacer.",
+    "Es muy buen profe, domina muy bieen los temas",
+    "Es un excelente maestro, sus clases son muy dinámicas, no son aburridas. Domina los temas de los que habla y es muy comprensible.",
+    "Califica en equipos, ojo con quien te juntas. Deja tareas que tienen que hacer todos pero solo exponen 1 o 2.Si faltas, te deja una tarea solo para ti y quien sabe como le vas hacer para saber cual es esa tarea, tarea que aparte tienes que exponer en clase y si no la haces te deja otra mas difícil.",
+    "Es muy buen profesor, le gusta hacer su clase un poco dinamica y promoviendo la participación, es estricto con la asistencia pero porque le gusta ver interes en su clase.  \nSi estas interesado en realmente aprender y no te molesta dedicarle tiempo a la materia, toma clase con él."
+  ],
+  "n_reviews": 5
+}

@@ -1,0 +1,159 @@
+{
+  "professor_id": "jose_arturo_valenzuela_valenzuela",
+  "nombre": "jose arturo valenzuela valenzuela",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 6.331326361003007,
+    "difficulty_decayed": 4.731154955540555
+  },
+  "bayes_analysis": {
+    "quality_bayes": 6.9117045829212,
+    "difficulty_bayes": 3.469436201780416
+  },
+  "recommendation_analysis": {
+    "rate": 0.21,
+    "wilson_interval": [
+      0.039424082773621506,
+      0.6325809841825856
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": -0.26,
+    "z_mean_decayed": -0.23,
+    "per_subject": [
+      {
+        "materia": "CALCULO",
+        "z_decayed": 0.7513345722519693,
+        "n": 11
+      },
+      {
+        "materia": "CALCULO INTEGRAL",
+        "z_decayed": -0.2568519106136121,
+        "n": 22
+      },
+      {
+        "materia": "ALGEBRA LINEAL",
+        "z_decayed": -1.2617811328882662,
+        "n": 13
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [],
+    "sentiment": {
+      "overall": null,
+      "by_month": {}
+    },
+    "n_comments": 3
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        2.0,
+        4.0,
+        9.0,
+        7.0
+      ],
+      "ewma": [
+        2.0,
+        2.5999999999999996,
+        4.52,
+        5.263999999999999
+      ],
+      "sigma": 1.874676149810059
+    },
+    "difficulty_trend": {
+      "series": [
+        8.0,
+        8.0,
+        1.0,
+        6.0
+      ],
+      "ewma": [
+        8.0,
+        8.0,
+        5.8999999999999995,
+        5.929999999999999
+      ],
+      "sigma": 2.461887825768401
+    },
+    "forecast": {
+      "quality_next": 5.263999999999999,
+      "quality_band": [
+        1.5896347463722837,
+        8.938365253627715
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2022-02-03T00:00:00",
+      "materia": "CALCULO INTEGRAL",
+      "calidad": 7.0,
+      "dificultad": 6.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Descanse en paz"
+    },
+    {
+      "fecha_iso": "2021-10-18T00:00:00",
+      "materia": "CALCULO",
+      "calidad": 8.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "rip"
+    },
+    {
+      "fecha_iso": "2021-10-18T00:00:00",
+      "materia": "CALCULO",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Descanse en paz, profesor"
+    },
+    {
+      "fecha_iso": "2021-09-22T00:00:00",
+      "materia": "ALGEBRA LINEAL",
+      "calidad": 4.0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2021-06-03T00:00:00",
+      "materia": "ALGEBRA LINEAL",
+      "calidad": 2.0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": ""
+    }
+  ],
+  "comments_recent": [
+    "Descanse en paz",
+    "rip",
+    "Descanse en paz, profesor"
+  ],
+  "n_reviews": 5
+}

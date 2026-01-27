@@ -1,0 +1,168 @@
+{
+  "professor_id": "Guillermo_Beltrán_Morales",
+  "nombre": "Guillermo Beltrán Morales",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 5.166965986150286,
+    "difficulty_decayed": 5.663016351245057
+  },
+  "bayes_analysis": {
+    "quality_bayes": 6.845037916254532,
+    "difficulty_bayes": 3.602769535113749
+  },
+  "recommendation_analysis": {
+    "rate": 0.67,
+    "wilson_interval": [
+      0.2775114404152864,
+      0.9147614513690061
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": -0.26,
+    "z_mean_decayed": -0.62,
+    "per_subject": [
+      {
+        "materia": "FUNDAMENTOS DE INVESTIGACIÓN",
+        "z_decayed": 0.9392400422017619,
+        "n": 14
+      },
+      {
+        "materia": "FUNDAMENTOS DE LA INVESTIGACIÓN",
+        "z_decayed": 0.8609460320922785,
+        "n": 4
+      },
+      {
+        "materia": "INVESTIGACION",
+        "z_decayed": -0.8660254037844387,
+        "n": 4
+      },
+      {
+        "materia": "FUNDAMENTOS DE INVESTIGACION",
+        "z_decayed": -1.6285209425063716,
+        "n": 9
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [],
+    "sentiment": {
+      "overall": null,
+      "by_month": {}
+    },
+    "n_comments": 3
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        6.0,
+        10.0,
+        2.0,
+        10.0,
+        2.0
+      ],
+      "ewma": [
+        6.0,
+        7.199999999999999,
+        5.639999999999999,
+        6.947999999999999,
+        5.463599999999999
+      ],
+      "sigma": 3.2437450750636985
+    },
+    "difficulty_trend": {
+      "series": [
+        8.0,
+        0.0,
+        8.0,
+        2.0,
+        8.0
+      ],
+      "ewma": [
+        8.0,
+        5.6,
+        6.319999999999999,
+        5.023999999999999,
+        5.9167999999999985
+      ],
+      "sigma": 3.27647764039372
+    },
+    "forecast": {
+      "quality_next": 5.463599999999999,
+      "quality_band": [
+        0.0,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2020-07-24T00:00:00",
+      "materia": "FUNDAMENTOS DE INVESTIGACION",
+      "calidad": 2.0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Es una basura de maestro, no explica ni enseñada nada. Cuando llevas los avances para revisar solo te los regresa diciendo que estan mal y si le preguntas porque siempre te contesta \"chicos ustedes ya estan en la universidad, ya deberian de saber\" viejo pendejo"
+    },
+    {
+      "fecha_iso": "2019-02-01T00:00:00",
+      "materia": "FUNDAMENTOS DE LA INVESTIGACIÓN",
+      "calidad": 10.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2017-12-15T00:00:00",
+      "materia": "INVESTIGACION",
+      "calidad": 2.0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2016-12-06T00:00:00",
+      "materia": "FUNDAMENTOS DE INVESTIGACIÓN",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Es muy buen profesor, se le nota claramente que tiene dominio sobre sus temas de clases, sin embargo es demasiado extricto con su forma de calificar pero dejando de lado eso, es un excelente profesor. Lo recomiendo."
+    },
+    {
+      "fecha_iso": "2016-03-17T00:00:00",
+      "materia": "FUNDAMENTOS DE INVESTIGACION",
+      "calidad": 6.0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": "es buen profesor domina los temas bastante bien pero NO HACE EXAMENES DE RECUPERACION, SI REPRUEBAS UNA UNIDAD REPRUEBAS LA MATERIA, pasamos nomas la mitad por eso ademas de que es muy exigente al calificar, no lo recomiendo por su forma de calificar tan dura"
+    }
+  ],
+  "comments_recent": [
+    "Es una basura de maestro, no explica ni enseñada nada. Cuando llevas los avances para revisar solo te los regresa diciendo que estan mal y si le preguntas porque siempre te contesta \"chicos ustedes ya estan en la universidad, ya deberian de saber\" viejo pendejo",
+    "Es muy buen profesor, se le nota claramente que tiene dominio sobre sus temas de clases, sin embargo es demasiado extricto con su forma de calificar pero dejando de lado eso, es un excelente profesor. Lo recomiendo.",
+    "es buen profesor domina los temas bastante bien pero NO HACE EXAMENES DE RECUPERACION, SI REPRUEBAS UNA UNIDAD REPRUEBAS LA MATERIA, pasamos nomas la mitad por eso ademas de que es muy exigente al calificar, no lo recomiendo por su forma de calificar tan dura"
+  ],
+  "n_reviews": 5
+}

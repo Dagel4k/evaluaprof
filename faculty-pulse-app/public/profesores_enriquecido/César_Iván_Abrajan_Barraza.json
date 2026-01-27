@@ -1,0 +1,183 @@
+{
+  "professor_id": "César_Iván_Abrajan_Barraza",
+  "nombre": "César Iván Abrajan Barraza",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 7.393077746881083,
+    "difficulty_decayed": 2.559875234613949
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.378371249587866,
+    "difficulty_bayes": 2.802769535113749
+  },
+  "recommendation_analysis": {
+    "rate": 0.59,
+    "wilson_interval": [
+      0.22434923932554016,
+      0.8774422916190852
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": -0.03,
+    "z_mean_decayed": -0.07,
+    "per_subject": [
+      {
+        "materia": "CÁLCULO DIFERENCIAL",
+        "z_decayed": 0.1748859810933361,
+        "n": 24
+      },
+      {
+        "materia": "---",
+        "z_decayed": -0.23876441006470966,
+        "n": 80
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "tu",
+          "dia",
+          "practicas",
+          "seran",
+          "te"
+        ],
+        "weight": 0.303762671467534
+      },
+      {
+        "id": 1,
+        "words": [
+          "practicas",
+          "seran",
+          "dia",
+          "materia",
+          "tu"
+        ],
+        "weight": 0.3237302422368369
+      }
+    ],
+    "sentiment": {
+      "overall": 0.25,
+      "by_month": {
+        "2024-08": 0.0,
+        "2023-08": 1.0,
+        "2023-07": 0.0,
+        "2023-06": 0.0
+      }
+    },
+    "n_comments": 4
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        7.5,
+        10.0,
+        8.0,
+        5.0
+      ],
+      "ewma": [
+        7.5,
+        8.25,
+        8.174999999999999,
+        7.222499999999999
+      ],
+      "sigma": 1.6256093408831858
+    },
+    "difficulty_trend": {
+      "series": [
+        4.0,
+        4.0,
+        2.0,
+        0.0
+      ],
+      "ewma": [
+        4.0,
+        4.0,
+        3.4,
+        2.38
+      ],
+      "sigma": 1.1622248778384787
+    },
+    "forecast": {
+      "quality_next": 7.222499999999999,
+      "quality_band": [
+        4.0363056918689555,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2024-08-04T00:00:00",
+      "materia": "---",
+      "calidad": 5.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2023-08-10T00:00:00",
+      "materia": "CÁLCULO DIFERENCIAL",
+      "calidad": 8.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Es un profesor justo si le pones ganas vas a pasar la materia. Desde el primer día deja claro como va a calificar y asi lo hace, deja tarea pero es facil pero la mayor parte del tiempo tienes que aprender por tu cuenta"
+    },
+    {
+      "fecha_iso": "2023-07-03T00:00:00",
+      "materia": "SOFTWARE DE APLICACIÓN EJECUTIVO",
+      "calidad": 10.0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Estuvimos haciendo prácticas todo la asignatura, a la mayoría les agrado y nunca falto y te dice desde el principio el día que te entrega las calificaciones de cada unidad y cuantas tareas serán."
+    },
+    {
+      "fecha_iso": "2023-06-26T00:00:00",
+      "materia": "METODOLOGÍA PARA LA ADMINISTRACIÓN DE PROYECTO",
+      "calidad": 10.0,
+      "dificultad": 6.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Con lo que se ve en esta materia las prácticas profesionales les serán mas fáciles. Búsquenlo para que sea tu asesor, te revisa mucho el proyecto."
+    },
+    {
+      "fecha_iso": "2023-06-09T00:00:00",
+      "materia": "SOFTWARE APLICACIÓN EJECUTIVA",
+      "calidad": 5.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": ""
+    }
+  ],
+  "comments_recent": [
+    "[Comentario esperando revisión]",
+    "Es un profesor justo si le pones ganas vas a pasar la materia. Desde el primer día deja claro como va a calificar y asi lo hace, deja tarea pero es facil pero la mayor parte del tiempo tienes que aprender por tu cuenta",
+    "Estuvimos haciendo prácticas todo la asignatura, a la mayoría les agrado y nunca falto y te dice desde el principio el día que te entrega las calificaciones de cada unidad y cuantas tareas serán.",
+    "Con lo que se ve en esta materia las prácticas profesionales les serán mas fáciles. Búsquenlo para que sea tu asesor, te revisa mucho el proyecto."
+  ],
+  "n_reviews": 5
+}

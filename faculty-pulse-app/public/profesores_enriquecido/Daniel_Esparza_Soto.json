@@ -1,0 +1,188 @@
+{
+  "professor_id": "Daniel_Esparza_Soto",
+  "nombre": "Daniel Esparza Soto",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 6.983218887990232,
+    "difficulty_decayed": 4.939726848114863
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.311704582921199,
+    "difficulty_bayes": 3.3361028684470826
+  },
+  "recommendation_analysis": {
+    "rate": 0.75,
+    "wilson_interval": [
+      0.3359821624467274,
+      0.9467720901772321
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": -0.27,
+    "z_mean_decayed": -0.34,
+    "per_subject": [
+      {
+        "materia": "ALGEBRA",
+        "z_decayed": 0.5773502691896257,
+        "n": 3
+      },
+      {
+        "materia": "TALLER DE BASE DE DATOS",
+        "z_decayed": -0.5328605796556857,
+        "n": 8
+      },
+      {
+        "materia": "TALLER DE BASES DE DATOS",
+        "z_decayed": -0.8660254037844387,
+        "n": 4
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "profesor",
+          "exigente",
+          "es"
+        ],
+        "weight": 0.37570037989867644
+      },
+      {
+        "id": 1,
+        "words": [
+          "es",
+          "exigente",
+          "profesor"
+        ],
+        "weight": 0.3699093687078687
+      }
+    ],
+    "sentiment": {
+      "overall": -0.25,
+      "by_month": {
+        "2025-08": -1.0,
+        "2025-05": 0.0,
+        "2024-01": 0.0,
+        "2023-06": 0.0
+      }
+    },
+    "n_comments": 4
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        7.0,
+        10.0,
+        9.0,
+        5.0,
+        6.0
+      ],
+      "ewma": [
+        7.0,
+        7.8999999999999995,
+        8.229999999999999,
+        7.260999999999998,
+        6.882699999999998
+      ],
+      "sigma": 1.6491814599976553
+    },
+    "difficulty_trend": {
+      "series": [
+        6.0,
+        0.0,
+        2.0,
+        8.0,
+        6.0
+      ],
+      "ewma": [
+        6.0,
+        4.199999999999999,
+        3.5399999999999996,
+        4.878,
+        5.2146
+      ],
+      "sigma": 2.7250528714136903
+    },
+    "forecast": {
+      "quality_next": 6.882699999999998,
+      "quality_band": [
+        3.650304338404594,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2025-08-07T00:00:00",
+      "materia": "TALLER DE BASE DE DATOS",
+      "calidad": 6.0,
+      "dificultad": 6.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": "Con el profesor se aprende por que se aprende, pero se vuelve muy complicado en algunos temas y suele estar muy obsoleto en varias cosas, si cargas con el vas a aprender y es posible que repruebes, pero no es extremadamente complicado pasar con el."
+    },
+    {
+      "fecha_iso": "2025-05-22T00:00:00",
+      "materia": "FUNDAMENTOS DE BD",
+      "calidad": 5.0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": "Es bien mamon se burla de los alumnos y no te ayuda en nada, en el semestre quiso que fueramos a hacer examen a la hora que le dio la gana siendo que la clase era en linea"
+    },
+    {
+      "fecha_iso": "2024-01-26T00:00:00",
+      "materia": "TALLER DE BASES DE DATOS",
+      "calidad": 9.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Buen profesor, algo exigente pero solo hay que esforzarse"
+    },
+    {
+      "fecha_iso": "2023-10-30T00:00:00",
+      "materia": "ALGEBRA",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2023-06-01T00:00:00",
+      "materia": "TODAS LAS DE BASE DE DATOS",
+      "calidad": 7.0,
+      "dificultad": 6.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "es muy exigente , es el tigre de las base de datos"
+    }
+  ],
+  "comments_recent": [
+    "Con el profesor se aprende por que se aprende, pero se vuelve muy complicado en algunos temas y suele estar muy obsoleto en varias cosas, si cargas con el vas a aprender y es posible que repruebes, pero no es extremadamente complicado pasar con el.",
+    "Es bien mamon se burla de los alumnos y no te ayuda en nada, en el semestre quiso que fueramos a hacer examen a la hora que le dio la gana siendo que la clase era en linea",
+    "Buen profesor, algo exigente pero solo hay que esforzarse",
+    "es muy exigente , es el tigre de las base de datos"
+  ],
+  "n_reviews": 5
+}

@@ -1,0 +1,158 @@
+{
+  "professor_id": "Aleyda_Guadalupe_Cárdenas_López",
+  "nombre": "Aleyda Guadalupe Cárdenas López",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 7.788512418740471,
+    "difficulty_decayed": 2.463672880636742
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.0450379162545325,
+    "difficulty_bayes": 3.2027695351137493
+  },
+  "recommendation_analysis": {
+    "rate": 0.55,
+    "wilson_interval": [
+      0.19962880334354857,
+      0.8569220471812433
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": 0.39,
+    "z_mean_decayed": 0.47,
+    "per_subject": [
+      {
+        "materia": "TALLER DE ÉTICA",
+        "z_decayed": 0.9102499908660036,
+        "n": 16
+      },
+      {
+        "materia": "TALLER DE ETICA",
+        "z_decayed": -0.13483997249264792,
+        "n": 5
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [],
+    "sentiment": {
+      "overall": null,
+      "by_month": {}
+    },
+    "n_comments": 3
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        2.0,
+        9.0,
+        4.0,
+        8.0,
+        10.0
+      ],
+      "ewma": [
+        2.0,
+        4.1,
+        4.069999999999999,
+        5.248999999999999,
+        6.674299999999999
+      ],
+      "sigma": 2.170942221248645
+    },
+    "difficulty_trend": {
+      "series": [
+        8.0,
+        4.0,
+        6.0,
+        2.0,
+        0.0
+      ],
+      "ewma": [
+        8.0,
+        6.8,
+        6.56,
+        5.191999999999999,
+        3.6343999999999994
+      ],
+      "sigma": 1.6430747371924381
+    },
+    "forecast": {
+      "quality_next": 6.674299999999999,
+      "quality_band": [
+        2.419253246352655,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2022-11-30T00:00:00",
+      "materia": "TALLER DE ÉTICA",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "La profesora es muy buena explicando, tienes que participar y tienes que venir todos los días para no perderte de las clases porque la asistencia es importante con ella."
+    },
+    {
+      "fecha_iso": "2021-12-18T00:00:00",
+      "materia": "TALLER DE ETICA",
+      "calidad": 8.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "no me gustaban sus clases, pero no la considero mala maestra"
+    },
+    {
+      "fecha_iso": "2020-06-13T00:00:00",
+      "materia": "CONTABILIDAD ORIENTADA A LOS NEGOCIOS",
+      "calidad": 4.0,
+      "dificultad": 6.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2018-06-13T00:00:00",
+      "materia": "ADMINISTRACION Y CONTABILIDAD",
+      "calidad": 9.0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Le da demasiada importancia a esta clase (siendo clase de relleno). Se enoja mucho pero la verdad que si aprendes mucho con ella. Los exámenes son largos y confusos."
+    },
+    {
+      "fecha_iso": "2017-11-15T00:00:00",
+      "materia": "CONTABILIDAD PINCHE CULERA",
+      "calidad": 2.0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": ""
+    }
+  ],
+  "comments_recent": [
+    "La profesora es muy buena explicando, tienes que participar y tienes que venir todos los días para no perderte de las clases porque la asistencia es importante con ella.",
+    "no me gustaban sus clases, pero no la considero mala maestra",
+    "Le da demasiada importancia a esta clase (siendo clase de relleno). Se enoja mucho pero la verdad que si aprendes mucho con ella. Los exámenes son largos y confusos."
+  ],
+  "n_reviews": 5
+}

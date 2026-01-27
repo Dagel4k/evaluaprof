@@ -1,0 +1,178 @@
+{
+  "professor_id": "Luis_Fernando_Espinoza_Audelo",
+  "nombre": "Luis Fernando Espinoza Audelo",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 6.371640087077887,
+    "difficulty_decayed": 2.091171063414438
+  },
+  "bayes_analysis": {
+    "quality_bayes": 6.845037916254532,
+    "difficulty_bayes": 2.5361028684470823
+  },
+  "recommendation_analysis": {
+    "rate": 0.43,
+    "wilson_interval": [
+      0.13266617599838842,
+      0.788162633266903
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": 0.0,
+    "z_mean_decayed": 0.25,
+    "per_subject": [
+      {
+        "materia": "ADMINISTRACION",
+        "z_decayed": 0.2521062447929386,
+        "n": 3
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "clases",
+          "hora",
+          "llega"
+        ],
+        "weight": 0.37487167938602706
+      },
+      {
+        "id": 1,
+        "words": [
+          "hora",
+          "llega",
+          "clases"
+        ],
+        "weight": 0.27945967968971647
+      }
+    ],
+    "sentiment": {
+      "overall": 0.0,
+      "by_month": {
+        "2021-12": 0.0,
+        "2021-09": 0.0,
+        "2021-06": 0.0,
+        "2020-11": 0.0
+      }
+    },
+    "n_comments": 4
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        2.0,
+        6.0,
+        6.0,
+        9.0,
+        7.0
+      ],
+      "ewma": [
+        2.0,
+        3.1999999999999997,
+        4.039999999999999,
+        5.527999999999999,
+        5.969599999999999
+      ],
+      "sigma": 1.3820001273516587
+    },
+    "difficulty_trend": {
+      "series": [
+        0.0,
+        2.0,
+        4.0,
+        2.0,
+        2.0
+      ],
+      "ewma": [
+        0.0,
+        0.6,
+        1.6199999999999999,
+        1.734,
+        1.8138
+      ],
+      "sigma": 1.0182734249699341
+    },
+    "forecast": {
+      "quality_next": 5.969599999999999,
+      "quality_band": [
+        3.260879750390748,
+        8.67832024960925
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2023-04-27T00:00:00",
+      "materia": "ADMINISTRACION",
+      "calidad": 7.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2021-12-21T00:00:00",
+      "materia": "CALIDAD",
+      "calidad": 9.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Si es algo barco en si, pero tambien ayuda a la hora de calificar, los examanes de el son cosas que se ven en las pocas clases que dio, si te tocaron puros profes mamones y ocupan una light este es tu mejor opcion."
+    },
+    {
+      "fecha_iso": "2021-09-15T00:00:00",
+      "materia": "ADMINISTRACION",
+      "calidad": 6.0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": "Llega a la hora que quiere, nomas deja una exposicion en todo el semestre y todo lo demas pelado la verdad"
+    },
+    {
+      "fecha_iso": "2021-06-02T00:00:00",
+      "materia": "ADMINISTRACION",
+      "calidad": 6.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": "Facil pasar con el pero siempre llega re tarde  alas clases"
+    },
+    {
+      "fecha_iso": "2020-11-15T00:00:00",
+      "materia": "ESTADISTICA Y PROBABILIDAD",
+      "calidad": 2.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Muy mal maestro"
+    }
+  ],
+  "comments_recent": [
+    "Si es algo barco en si, pero tambien ayuda a la hora de calificar, los examanes de el son cosas que se ven en las pocas clases que dio, si te tocaron puros profes mamones y ocupan una light este es tu mejor opcion.",
+    "Llega a la hora que quiere, nomas deja una exposicion en todo el semestre y todo lo demas pelado la verdad",
+    "Facil pasar con el pero siempre llega re tarde  alas clases",
+    "Muy mal maestro"
+  ],
+  "n_reviews": 5
+}

@@ -1,0 +1,174 @@
+{
+  "professor_id": "Sánchez_Higuera_Jesús_Raúl",
+  "nombre": "Sánchez Higuera Jesús Raúl",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 9.1136156051725,
+    "difficulty_decayed": 2.2287651798579855
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.578371249587866,
+    "difficulty_bayes": 3.3361028684470826
+  },
+  "recommendation_analysis": {
+    "rate": 0.83,
+    "wilson_interval": [
+      0.4004968475975438,
+      0.9727387658660827
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": 0.17,
+    "z_mean_decayed": 0.47,
+    "per_subject": [
+      {
+        "materia": "DIBUJO INDUSTRIAL",
+        "z_decayed": 0.4654666790860318,
+        "n": 26
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "clases",
+          "diviertes",
+          "te",
+          "te diviertes",
+          "aprendes"
+        ],
+        "weight": 0.32636224316447365
+      },
+      {
+        "id": 1,
+        "words": [
+          "te",
+          "te diviertes",
+          "si",
+          "aprendes",
+          "cargar"
+        ],
+        "weight": 0.262568745062837
+      }
+    ],
+    "sentiment": {
+      "overall": 0.0,
+      "by_month": {
+        "2017-11": 0.0,
+        "2013-08": 0.0,
+        "2012-08": 0.0
+      }
+    },
+    "n_comments": 5
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        7.333333333333333,
+        9.0,
+        10.0
+      ],
+      "ewma": [
+        7.333333333333333,
+        7.833333333333332,
+        8.483333333333333
+      ],
+      "sigma": 0.7941335833146391
+    },
+    "difficulty_trend": {
+      "series": [
+        6.0,
+        4.0,
+        0.0
+      ],
+      "ewma": [
+        6.0,
+        5.3999999999999995,
+        3.7799999999999994
+      ],
+      "sigma": 1.9110555547480381
+    },
+    "forecast": {
+      "quality_next": 8.483333333333333,
+      "quality_band": [
+        6.9268315100366395,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2017-11-15T00:00:00",
+      "materia": "DIBUJO INDUSTRIAL",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "No pues, le ENCANTA la macana pero pues es buen profe, se acepta."
+    },
+    {
+      "fecha_iso": "2013-08-19T00:00:00",
+      "materia": "DIBUJO INDUSTRIAL",
+      "calidad": 9.0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Siempre me desian que era culero pero lo lleve y el profe es compa si no eres un webon clases claras aprendes te diviertes pilas con trabajos es exigente pero lo recomiendo la primera expresion que tendras esque es medio sangron y mamon pero tu ponte las pilas y pasaras bien"
+    },
+    {
+      "fecha_iso": "2012-08-08T00:00:00",
+      "materia": "DIBUJO INDUSTRIAL",
+      "calidad": 10.0,
+      "dificultad": 6.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Me dio clases hace tres semestres, es increíble, muchas personas piensan que es muy cruel y malo pero no tiene nada que ver, aprendes muchísimo y te diviertes en su clase."
+    },
+    {
+      "fecha_iso": "2012-08-08T00:00:00",
+      "materia": "DIBUJO INDUSTRIAL",
+      "calidad": 2.0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Mal profesor, es sierto que sabe mucho pero no sabe enseñar nada. A mi me trono y despues la llebe con lazaro y pase con 100 :D\nSolo ayuda a las chicas y no sirve de nada cargar con el porque esta mal de la cabeza, de seguro es algun tipo de trauma de identidad... Jamas lo recomendaria"
+    },
+    {
+      "fecha_iso": "2012-08-06T00:00:00",
+      "materia": "DIBUJO INDUSTRIAL",
+      "calidad": 10.0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "si de verdad quieres aprender, este es el maestro con el que quieres cargar. como todo lo que vale la pena NO ES FÁCIL, pero de que aprendes.. aprendes!"
+    }
+  ],
+  "comments_recent": [
+    "No pues, le ENCANTA la macana pero pues es buen profe, se acepta.",
+    "Siempre me desian que era culero pero lo lleve y el profe es compa si no eres un webon clases claras aprendes te diviertes pilas con trabajos es exigente pero lo recomiendo la primera expresion que tendras esque es medio sangron y mamon pero tu ponte las pilas y pasaras bien",
+    "Me dio clases hace tres semestres, es increíble, muchas personas piensan que es muy cruel y malo pero no tiene nada que ver, aprendes muchísimo y te diviertes en su clase.",
+    "Mal profesor, es sierto que sabe mucho pero no sabe enseñar nada. A mi me trono y despues la llebe con lazaro y pase con 100 :D\nSolo ayuda a las chicas y no sirve de nada cargar con el porque esta mal de la cabeza, de seguro es algun tipo de trauma de identidad... Jamas lo recomendaria",
+    "si de verdad quieres aprender, este es el maestro con el que quieres cargar. como todo lo que vale la pena NO ES FÁCIL, pero de que aprendes.. aprendes!"
+  ],
+  "n_reviews": 5
+}

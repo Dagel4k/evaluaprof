@@ -1,0 +1,163 @@
+{
+  "professor_id": "Jesus_Oralia_lopez_cardenas",
+  "nombre": "Jesus Oralia lopez cardenas",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 5.3171673242686035,
+    "difficulty_decayed": 0.551670399044645
+  },
+  "bayes_analysis": {
+    "quality_bayes": 6.778371249587866,
+    "difficulty_bayes": 2.1361028684470824
+  },
+  "recommendation_analysis": {
+    "rate": 0.43,
+    "wilson_interval": [
+      0.13266617599838842,
+      0.788162633266903
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": 0.19,
+    "z_mean_decayed": 0.75,
+    "per_subject": [
+      {
+        "materia": "CIENCIA E INGENIERIA DE MATERIALES",
+        "z_decayed": 1.0910894511799618,
+        "n": 3
+      },
+      {
+        "materia": "MECANICA",
+        "z_decayed": 0.32025630761017443,
+        "n": 3
+      },
+      {
+        "materia": "PROCESOS DE FABRICACION",
+        "z_decayed": -0.8333333333333333,
+        "n": 4
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [],
+    "sentiment": {
+      "overall": null,
+      "by_month": {}
+    },
+    "n_comments": 3
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        10.0,
+        4.0,
+        5.0,
+        5.0,
+        5.0
+      ],
+      "ewma": [
+        10.0,
+        8.2,
+        7.239999999999999,
+        6.568,
+        6.097599999999999
+      ],
+      "sigma": 1.560333256711527
+    },
+    "difficulty_trend": {
+      "series": [
+        0.0,
+        2.0,
+        0.0,
+        2.0,
+        0.0
+      ],
+      "ewma": [
+        0.0,
+        0.6,
+        0.42,
+        0.8939999999999999,
+        0.6257999999999999
+      ],
+      "sigma": 0.9117051102193077
+    },
+    "forecast": {
+      "quality_next": 6.097599999999999,
+      "quality_band": [
+        3.0393468168454065,
+        9.15585318315459
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2018-06-13T00:00:00",
+      "materia": "CIENCIA E INGENIERIA DE MATERIALES",
+      "calidad": 5.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": "No sabe mucho, le hace falta dominio del tema pero carga con ella si quieres pasar fácil y con buena calificación. No aprenderás mucho."
+    },
+    {
+      "fecha_iso": "2015-08-04T00:00:00",
+      "materia": "PROCESOS DE MANUFACTURA",
+      "calidad": 5.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": "No sirve de maestra, se nota que no sabe mas que los alumnos."
+    },
+    {
+      "fecha_iso": "2014-02-27T00:00:00",
+      "materia": "MECANICA",
+      "calidad": 5.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2013-01-14T00:00:00",
+      "materia": "PROCESOS DE FABRICACION",
+      "calidad": 4.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": "proyecta informacion que se encuantra muy facilmente en internet, en sus clases solo lee lo que dicen las diapositivas, trata de explicar pero no es clara al momento de hacerlo, reliza practicas, que son la parte mas amenas, no es muy dificil pasar con ella y no esta tan buena como algunos dicen"
+    },
+    {
+      "fecha_iso": "2012-12-31T00:00:00",
+      "materia": "MATEMATICAS",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": ""
+    }
+  ],
+  "comments_recent": [
+    "No sabe mucho, le hace falta dominio del tema pero carga con ella si quieres pasar fácil y con buena calificación. No aprenderás mucho.",
+    "No sirve de maestra, se nota que no sabe mas que los alumnos.",
+    "proyecta informacion que se encuantra muy facilmente en internet, en sus clases solo lee lo que dicen las diapositivas, trata de explicar pero no es clara al momento de hacerlo, reliza practicas, que son la parte mas amenas, no es muy dificil pasar con ella y no esta tan buena como algunos dicen"
+  ],
+  "n_reviews": 5
+}

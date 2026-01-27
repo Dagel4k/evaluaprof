@@ -25,7 +25,7 @@ export default defineConfig({
           try {
             const professorsDir = path.resolve(__dirname, '../scraper/out/profesores_enriquecido');
             console.log('Buscando archivos en:', professorsDir);
-            
+
             if (!fs.existsSync(professorsDir)) {
               console.error('Directorio no encontrado:', professorsDir);
               res.statusCode = 404;
@@ -33,13 +33,13 @@ export default defineConfig({
               res.end(JSON.stringify({ error: 'Directorio no encontrado' }));
               return;
             }
-            
+
             const files = fs.readdirSync(professorsDir)
               .filter(file => file.endsWith('.json'))
               .map(file => file);
-            
+
             console.log(`Encontrados ${files.length} archivos JSON:`, files);
-            
+
             res.setHeader('Content-Type', 'application/json');
             res.setHeader('Access-Control-Allow-Origin', '*');
             res.end(JSON.stringify(files));
@@ -55,31 +55,31 @@ export default defineConfig({
         server.middlewares.use('/scraper/out/profesores_enriquecido/', (req: Connect.IncomingMessage, res: ServerResponse, next: Connect.NextFunction) => {
           const url = req.url;
           console.log('URL original:', url);
-          
+
           if (!url) {
             console.log('URL vacía, pasando al siguiente middleware');
             return next();
           }
-          
+
           // Extraer el nombre del archivo de la URL
           // La URL será algo como: /scraper/out/profesores_enriquecido/Aaron_Cuen_Marquez.json
           const urlParts = url.split('/');
           const filename = urlParts[urlParts.length - 1]; // Obtener el último elemento
-          
+
           console.log('Nombre del archivo extraído:', filename);
-          
+
           // Decodificar caracteres especiales en el nombre del archivo
           const decodedFilename = decodeURIComponent(filename);
           console.log('Nombre del archivo decodificado:', decodedFilename);
-          
+
           // Construir la ruta completa
           const professorsDir = path.resolve(__dirname, '../scraper/out/profesores_enriquecido');
           const fullPath = path.join(professorsDir, decodedFilename);
-          
+
           console.log('Directorio de profesores:', professorsDir);
           console.log('Ruta completa del archivo:', fullPath);
           console.log('¿Existe el archivo?', fs.existsSync(fullPath));
-          
+
           // Verificar que el archivo existe y está dentro del directorio permitido
           if (fs.existsSync(fullPath) && fullPath.startsWith(professorsDir)) {
             try {
@@ -111,6 +111,7 @@ export default defineConfig({
   build: {
     outDir: "dist",
     sourcemap: false,
+    chunkSizeWarningLimit: 1000,
     rollupOptions: {
       output: {
         manualChunks: {

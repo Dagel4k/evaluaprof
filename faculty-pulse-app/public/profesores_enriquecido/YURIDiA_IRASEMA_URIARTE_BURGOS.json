@@ -1,0 +1,127 @@
+{
+  "professor_id": "YURIDiA_IRASEMA_URIARTE_BURGOS",
+  "nombre": "YURIDiA IRASEMA URIARTE BURGOS",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 6.374926660042009,
+    "difficulty_decayed": 2.896620173899217
+  },
+  "bayes_analysis": {
+    "quality_bayes": 6.975043749524461,
+    "difficulty_bayes": 2.9262725405158645
+  },
+  "recommendation_analysis": {
+    "rate": 0.67,
+    "wilson_interval": [
+      0.20949486174663193,
+      0.9395930709007021
+    ],
+    "n_recommendations": 3
+  },
+  "subject_normalization": {
+    "z_mean": -0.02,
+    "z_mean_decayed": 0.06,
+    "per_subject": [
+      {
+        "materia": "TALLER DE ETICA",
+        "z_decayed": 0.5393598899705941,
+        "n": 5
+      },
+      {
+        "materia": "LIDERAZGO",
+        "z_decayed": -0.5773502691896257,
+        "n": 3
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [],
+    "sentiment": {
+      "overall": null,
+      "by_month": {}
+    },
+    "n_comments": 2
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        2.0,
+        8.0
+      ],
+      "ewma": [
+        2.0,
+        3.8
+      ],
+      "sigma": 2.9698484809834995
+    },
+    "difficulty_trend": {
+      "series": [
+        8.0,
+        1.0
+      ],
+      "ewma": [
+        8.0,
+        5.8999999999999995
+      ],
+      "sigma": 3.4648232278140823
+    },
+    "forecast": {
+      "quality_next": 3.8,
+      "quality_band": [
+        0.0,
+        9.62090302272766
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2016-01-26T00:00:00",
+      "materia": "TALLER DE ETICA",
+      "calidad": 9.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "es muy buena maestra, falta frecuentemente y avisa antes de pero se preocupa por que aprendas, sus examenes son muy faciles y es muy paciente. generalmente da temarios sobre sus examenes y siempre toma en cuenta la opinion del grupo. Ademas de ser muy bonita"
+    },
+    {
+      "fecha_iso": "2016-01-14T00:00:00",
+      "materia": "ETICA Y VALORES",
+      "calidad": 7.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "esta bien sabrosa"
+    },
+    {
+      "fecha_iso": "2015-03-15T00:00:00",
+      "materia": "LIDERAZGO",
+      "calidad": 2.0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": ""
+    }
+  ],
+  "comments_recent": [
+    "es muy buena maestra, falta frecuentemente y avisa antes de pero se preocupa por que aprendas, sus examenes son muy faciles y es muy paciente. generalmente da temarios sobre sus examenes y siempre toma en cuenta la opinion del grupo. Ademas de ser muy bonita",
+    "esta bien sabrosa"
+  ],
+  "n_reviews": 3
+}

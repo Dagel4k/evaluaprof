@@ -1,0 +1,153 @@
+{
+  "professor_id": "Jesus_Raul_Sanchez_Higuera",
+  "nombre": "Jesus Raul Sanchez Higuera",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 6.372340667409006,
+    "difficulty_decayed": 3.988568625907945
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.0450379162545325,
+    "difficulty_bayes": 3.0694362017804155
+  },
+  "recommendation_analysis": {
+    "rate": 0.42,
+    "wilson_interval": [
+      0.12757383943276893,
+      0.7819447997275641
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": -0.34,
+    "z_mean_decayed": -0.41,
+    "per_subject": [
+      {
+        "materia": "DIBUJO INDUSTRIAL",
+        "z_decayed": -0.4086248704961268,
+        "n": 26
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [],
+    "sentiment": {
+      "overall": null,
+      "by_month": {}
+    },
+    "n_comments": 3
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        8.0,
+        10.0,
+        2.0,
+        6.0,
+        7.0
+      ],
+      "ewma": [
+        8.0,
+        8.6,
+        6.619999999999999,
+        6.433999999999999,
+        6.6038
+      ],
+      "sigma": 2.3198641270557205
+    },
+    "difficulty_trend": {
+      "series": [
+        0.0,
+        2.0,
+        8.0,
+        4.0,
+        4.0
+      ],
+      "ewma": [
+        0.0,
+        0.6,
+        2.82,
+        3.1739999999999995,
+        3.4217999999999993
+      ],
+      "sigma": 2.0651574584035957
+    },
+    "forecast": {
+      "quality_next": 6.6038,
+      "quality_band": [
+        2.056866310970787,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2025-01-15T00:00:00",
+      "materia": "DIBUJO INDUSTRIAL",
+      "calidad": 7.0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2024-01-12T00:00:00",
+      "materia": "DIBUJO INDUSTRIAL",
+      "calidad": 6.0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": "Es buen profesor, la materia con el la aprendes, es muy sarcástico, si no prácticas te irá mal, es estricto, si quieres tomar una clase de dibujo y quieres aprender, el es la única opción, no es apto para sensibles, puede llegar a humillarte si no haces lo más mínimo bien."
+    },
+    {
+      "fecha_iso": "2023-01-18T00:00:00",
+      "materia": "DIBUJO INDUSTRIAL",
+      "calidad": 2.0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2022-01-18T00:00:00",
+      "materia": "DIBUJO INDUSTRIAL",
+      "calidad": 10.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Muy buen profesor, de verdad se preocupa porque aprendamos. Procura hacer las cosas bien desde el inicio porque toma mucho en cuenta tu esfuerzo e interés. Entra a todas las clases y pon atención, con eso seguro pasas."
+    },
+    {
+      "fecha_iso": "2021-11-11T00:00:00",
+      "materia": "DIBUJO INDUSTRIAL",
+      "calidad": 8.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Es muy buen profe, si le pones atención y eres sincero en su materia, pasaras con un 100%, explica muy bien y es bastante respetuoso con todos los alumnos."
+    }
+  ],
+  "comments_recent": [
+    "Es buen profesor, la materia con el la aprendes, es muy sarcástico, si no prácticas te irá mal, es estricto, si quieres tomar una clase de dibujo y quieres aprender, el es la única opción, no es apto para sensibles, puede llegar a humillarte si no haces lo más mínimo bien.",
+    "Muy buen profesor, de verdad se preocupa porque aprendamos. Procura hacer las cosas bien desde el inicio porque toma mucho en cuenta tu esfuerzo e interés. Entra a todas las clases y pon atención, con eso seguro pasas.",
+    "Es muy buen profe, si le pones atención y eres sincero en su materia, pasaras con un 100%, explica muy bien y es bastante respetuoso con todos los alumnos."
+  ],
+  "n_reviews": 5
+}

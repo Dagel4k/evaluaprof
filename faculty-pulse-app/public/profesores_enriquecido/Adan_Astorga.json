@@ -1,0 +1,76 @@
+{
+  "professor_id": "Adan_Astorga",
+  "nombre": "Adan Astorga",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 10.0,
+    "difficulty_decayed": 0.0
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.515960794892544,
+    "difficulty_bayes": 2.5492311842460214
+  },
+  "recommendation_analysis": {
+    "rate": 1.0,
+    "wilson_interval": [
+      0.20654329147389294,
+      1
+    ],
+    "n_recommendations": 1
+  },
+  "subject_normalization": {
+    "z_mean": 0.74,
+    "z_mean_decayed": 0.74,
+    "per_subject": [
+      {
+        "materia": "ECONOMIA",
+        "z_decayed": 0.7428336299615155,
+        "n": 6
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [],
+    "sentiment": {
+      "overall": null,
+      "by_month": {}
+    },
+    "n_comments": 1
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": null,
+    "difficulty_trend": null,
+    "forecast": null,
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2019-01-12T00:00:00",
+      "materia": "ECONOMIA",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Buen maestro, sus clases interesantes y cortas, facilidad para pasar"
+    }
+  ],
+  "comments_recent": [
+    "Buen maestro, sus clases interesantes y cortas, facilidad para pasar"
+  ],
+  "n_reviews": 1
+}

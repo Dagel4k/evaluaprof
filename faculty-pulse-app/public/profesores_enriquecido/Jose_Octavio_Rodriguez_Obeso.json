@@ -1,0 +1,184 @@
+{
+  "professor_id": "Jose_Octavio_Rodriguez_Obeso",
+  "nombre": "Jose Octavio Rodriguez Obeso",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 4.846268662264517,
+    "difficulty_decayed": 3.431626815305826
+  },
+  "bayes_analysis": {
+    "quality_bayes": 6.578371249587866,
+    "difficulty_bayes": 3.0694362017804155
+  },
+  "recommendation_analysis": {
+    "rate": 0.33,
+    "wilson_interval": [
+      0.08523854863099392,
+      0.7224885595847136
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": -0.32,
+    "z_mean_decayed": -0.44,
+    "per_subject": [
+      {
+        "materia": "CONTROL",
+        "z_decayed": -0.4353930983368076,
+        "n": 13
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "hagas",
+          "mas",
+          "quieres",
+          "clase",
+          "si"
+        ],
+        "weight": 0.4058721821240524
+      },
+      {
+        "id": 1,
+        "words": [
+          "quieres",
+          "clases",
+          "tareas",
+          "si",
+          "examenes"
+        ],
+        "weight": 0.1919821076763966
+      }
+    ],
+    "sentiment": {
+      "overall": 0.4,
+      "by_month": {
+        "2026-01": 0.0,
+        "2024-03": 0.0,
+        "2023-11": 1.0,
+        "2022-03": 1.0,
+        "2022-01": 0.0
+      }
+    },
+    "n_comments": 5
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        6.0,
+        6.0,
+        3.0,
+        7.0,
+        4.0
+      ],
+      "ewma": [
+        6.0,
+        5.999999999999999,
+        5.1,
+        5.67,
+        5.169
+      ],
+      "sigma": 1.303218784395007
+    },
+    "difficulty_trend": {
+      "series": [
+        8.0,
+        2.0,
+        0.0,
+        4.0,
+        4.0
+      ],
+      "ewma": [
+        8.0,
+        6.199999999999999,
+        4.339999999999999,
+        4.237999999999999,
+        4.166599999999999
+      ],
+      "sigma": 2.267092065179533
+    },
+    "forecast": {
+      "quality_next": 5.169,
+      "quality_band": [
+        2.614691182585786,
+        7.723308817414213
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2026-01-12T00:00:00",
+      "materia": "CONTROL",
+      "calidad": 4.0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": "Si no quieres aprender control es el maestro ideal. No es necesario ir a sus clases y si lo haces solo guarda silencio. Los exámenes son regalados pero las tareas están difíciles. Por más esfuerzo que hagas en prestarle atención no podrás entender, no importa si eres un dios para el cálculo…"
+    },
+    {
+      "fecha_iso": "2024-03-01T00:00:00",
+      "materia": "CONTROL",
+      "calidad": 7.0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Pues le dicen tata, es el que mas experiencia tiene en control por la edad que tiene. Muy buena persona y si ve que te importó la clase te ayuda."
+    },
+    {
+      "fecha_iso": "2023-11-21T00:00:00",
+      "materia": "CONTROL",
+      "calidad": 3.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Esta cura el señor pero ya jubilenlo, si es verano y no quieres estar afuera del salon carga con el, es perfecto para ver series en su clase siempre y cuando no hagas mucho ruido"
+    },
+    {
+      "fecha_iso": "2022-03-15T00:00:00",
+      "materia": "PRINCIPIOS",
+      "calidad": 6.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": "Deja los examenes de tarea y da varios dias de plazo, literal es conseguir los trabajos y le da igual que esten copiados con que entregues con tu letra, es bueno para cosas de relleno"
+    },
+    {
+      "fecha_iso": "2022-01-17T00:00:00",
+      "materia": "CONTROL",
+      "calidad": 6.0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": "Sus clases se sienten eternas, esta es una materia tediosa pero aparte de eso, el profesor la enseña de una manera que al final de la clase siento que ni el sabe que fuè lo que dijo, es alegre el profesor pero no siento que sepa expresar el contenido como deberia, ademas de sus tareas largas."
+    }
+  ],
+  "comments_recent": [
+    "Si no quieres aprender control es el maestro ideal. No es necesario ir a sus clases y si lo haces solo guarda silencio. Los exámenes son regalados pero las tareas están difíciles. Por más esfuerzo que hagas en prestarle atención no podrás entender, no importa si eres un dios para el cálculo…",
+    "Pues le dicen tata, es el que mas experiencia tiene en control por la edad que tiene. Muy buena persona y si ve que te importó la clase te ayuda.",
+    "Esta cura el señor pero ya jubilenlo, si es verano y no quieres estar afuera del salon carga con el, es perfecto para ver series en su clase siempre y cuando no hagas mucho ruido",
+    "Deja los examenes de tarea y da varios dias de plazo, literal es conseguir los trabajos y le da igual que esten copiados con que entregues con tu letra, es bueno para cosas de relleno",
+    "Sus clases se sienten eternas, esta es una materia tediosa pero aparte de eso, el profesor la enseña de una manera que al final de la clase siento que ni el sabe que fuè lo que dijo, es alegre el profesor pero no siento que sepa expresar el contenido como deberia, ademas de sus tareas largas."
+  ],
+  "n_reviews": 5
+}

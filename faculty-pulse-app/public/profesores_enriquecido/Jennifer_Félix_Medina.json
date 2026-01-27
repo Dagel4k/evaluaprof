@@ -1,0 +1,163 @@
+{
+  "professor_id": "Jennifer_Félix_Medina",
+  "nombre": "Jennifer Félix Medina",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 6.21451933247384,
+    "difficulty_decayed": 3.1411344498409868
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.0450379162545325,
+    "difficulty_bayes": 2.802769535113749
+  },
+  "recommendation_analysis": {
+    "rate": 0.82,
+    "wilson_interval": [
+      0.39206428037473734,
+      0.9698611629839307
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": -0.06,
+    "z_mean_decayed": -0.31,
+    "per_subject": [
+      {
+        "materia": "QUÍMICA",
+        "z_decayed": 0.5030690980717976,
+        "n": 24
+      },
+      {
+        "materia": "BIOQUIMICA",
+        "z_decayed": 0.2901748026451339,
+        "n": 8
+      },
+      {
+        "materia": "TALLER DE INVESTIGACIÓN",
+        "z_decayed": -1.7888543819998317,
+        "n": 7
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [],
+    "sentiment": {
+      "overall": null,
+      "by_month": {}
+    },
+    "n_comments": 3
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        7.0,
+        6.0,
+        10.0,
+        4.0,
+        6.0
+      ],
+      "ewma": [
+        7.0,
+        6.699999999999999,
+        7.6899999999999995,
+        6.582999999999999,
+        6.408099999999999
+      ],
+      "sigma": 1.7523589221389548
+    },
+    "difficulty_trend": {
+      "series": [
+        4.0,
+        2.0,
+        0.0,
+        4.0,
+        4.0
+      ],
+      "ewma": [
+        4.0,
+        3.4,
+        2.38,
+        2.8659999999999997,
+        3.2062
+      ],
+      "sigma": 1.4878126118567485
+    },
+    "forecast": {
+      "quality_next": 6.408099999999999,
+      "quality_band": [
+        2.9734765126076477,
+        9.842723487392352
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2022-11-06T00:00:00",
+      "materia": "BIOQUIMICA",
+      "calidad": 6.0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": "Me toco cuando recien empezo a dar clases, se notaba que al inicio le daba mucho pavor callar a la gente y daba la clase sin llamarles la atención.\nNo fue nada agradable el ambiente que dejaba crear, pero a lo mejor tambien era la gente que no sabe que se venia a estudiar."
+    },
+    {
+      "fecha_iso": "2021-11-05T00:00:00",
+      "materia": "TALLER DE INVESTIGACIÓN",
+      "calidad": 4.0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2020-06-15T00:00:00",
+      "materia": "BIOQUIMICA",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Está maestra es super buena en lo que hace, sabe mucho y lo mas importante lo sabe transmitir, es agradable, pero si tienes que poner mucha atención porque la materia lo exige, tienes que comprender y relacionar muchas cosas, y me encanto que le preocupa el medio ambiente, 10/10."
+    },
+    {
+      "fecha_iso": "2018-12-03T00:00:00",
+      "materia": "QUÍMICA DE LOS ALIMENTOS",
+      "calidad": 6.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": "Da clases de pdf´s"
+    },
+    {
+      "fecha_iso": "2018-08-14T00:00:00",
+      "materia": "QUÍMICA",
+      "calidad": 7.0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": ""
+    }
+  ],
+  "comments_recent": [
+    "Me toco cuando recien empezo a dar clases, se notaba que al inicio le daba mucho pavor callar a la gente y daba la clase sin llamarles la atención.\nNo fue nada agradable el ambiente que dejaba crear, pero a lo mejor tambien era la gente que no sabe que se venia a estudiar.",
+    "Está maestra es super buena en lo que hace, sabe mucho y lo mas importante lo sabe transmitir, es agradable, pero si tienes que poner mucha atención porque la materia lo exige, tienes que comprender y relacionar muchas cosas, y me encanto que le preocupa el medio ambiente, 10/10.",
+    "Da clases de pdf´s"
+  ],
+  "n_reviews": 5
+}

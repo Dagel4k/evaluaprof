@@ -1,0 +1,168 @@
+{
+  "professor_id": "Kiyoshi_Miguel_Shimizu_Aguilar",
+  "nombre": "Kiyoshi Miguel Shimizu Aguilar",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 7.522381760960494,
+    "difficulty_decayed": 1.5246881471012341
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.311704582921199,
+    "difficulty_bayes": 2.402769535113749
+  },
+  "recommendation_analysis": {
+    "rate": 0.71,
+    "wilson_interval": [
+      0.3060474596471615,
+      0.9314661125569644
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": -0.05,
+    "z_mean_decayed": -0.05,
+    "per_subject": [
+      {
+        "materia": "FUNDAMENTOS DE PROGRAMACION",
+        "z_decayed": 0.3177175315425884,
+        "n": 15
+      },
+      {
+        "materia": "---",
+        "z_decayed": -1.1483431150731278,
+        "n": 80
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "pone",
+          "profe"
+        ],
+        "weight": 0.2493090663112242
+      },
+      {
+        "id": 1,
+        "words": [
+          "profe",
+          "pone"
+        ],
+        "weight": 0.266465633985104
+      }
+    ],
+    "sentiment": {
+      "overall": 0.0,
+      "by_month": {
+        "2023-09": 0.0,
+        "2023-02": 0.0
+      }
+    },
+    "n_comments": 5
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        6.75,
+        10.0
+      ],
+      "ewma": [
+        6.75,
+        7.725
+      ],
+      "sigma": 1.608667927199396
+    },
+    "difficulty_trend": {
+      "series": [
+        2.0,
+        0.0
+      ],
+      "ewma": [
+        2.0,
+        1.4
+      ],
+      "sigma": 0.9899494936611665
+    },
+    "forecast": {
+      "quality_next": 7.725,
+      "quality_band": [
+        4.572010862689183,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2023-09-14T00:00:00",
+      "materia": "PROGRAMACIÓN ORIENTADA A OBJETOS",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "EL PROFE MAAAAAS GOOOD DEL TEC, NO DUDES CARGAR CON EL"
+    },
+    {
+      "fecha_iso": "2023-02-27T00:00:00",
+      "materia": "FUNDAMENTOS DE PROGRAMACION",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "pone casa pa la peda"
+    },
+    {
+      "fecha_iso": "2023-02-15T00:00:00",
+      "materia": "FUNDAMENTOS DE PROGRAMACION",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Es una v3rg4 de profe, el profe nomas te deja 2 examenes en todo el semestre, y te explica desde 0, aveces te pone programar a mano xd"
+    },
+    {
+      "fecha_iso": "2023-02-11T00:00:00",
+      "materia": "FUNDAMENTOS DE PROGRAMACION",
+      "calidad": 5.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": "Nos enseño a hacer marihuana con usando maizena y JavaScript"
+    },
+    {
+      "fecha_iso": "2023-02-11T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    }
+  ],
+  "comments_recent": [
+    "EL PROFE MAAAAAS GOOOD DEL TEC, NO DUDES CARGAR CON EL",
+    "pone casa pa la peda",
+    "Es una v3rg4 de profe, el profe nomas te deja 2 examenes en todo el semestre, y te explica desde 0, aveces te pone programar a mano xd",
+    "Nos enseño a hacer marihuana con usando maizena y JavaScript",
+    "[Comentario esperando revisión]"
+  ],
+  "n_reviews": 5
+}

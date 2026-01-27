@@ -1,0 +1,169 @@
+{
+  "professor_id": "Miriam_Virginia_Rojas_Arenas",
+  "nombre": "Miriam Virginia Rojas Arenas",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 5.247630472892115,
+    "difficulty_decayed": 0.8155593727376412
+  },
+  "bayes_analysis": {
+    "quality_bayes": 6.762540624558428,
+    "difficulty_bayes": 2.431538787621874
+  },
+  "recommendation_analysis": {
+    "rate": 0.25,
+    "wilson_interval": [
+      0.045586062644636216,
+      0.6993639475573634
+    ],
+    "n_recommendations": 4
+  },
+  "subject_normalization": {
+    "z_mean": -0.53,
+    "z_mean_decayed": -0.74,
+    "per_subject": [
+      {
+        "materia": "RELACIONES INDUSTRIALES",
+        "z_decayed": -0.7405489950538927,
+        "n": 3
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "leyendo",
+          "leyendo diapositivas",
+          "deja",
+          "diapositivas",
+          "clases"
+        ],
+        "weight": 0.30414867341076507
+      },
+      {
+        "id": 1,
+        "words": [
+          "leyendo",
+          "leyendo diapositivas",
+          "falta",
+          "peor",
+          "clase"
+        ],
+        "weight": 0.3472742047373194
+      }
+    ],
+    "sentiment": {
+      "overall": 0.25,
+      "by_month": {
+        "2018-06": 0.0,
+        "2015-01": 1.0,
+        "2014-12": 0.0,
+        "2014-01": 0.0
+      }
+    },
+    "n_comments": 4
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        7.0,
+        3.0,
+        7.0,
+        5.0
+      ],
+      "ewma": [
+        7.0,
+        5.799999999999999,
+        6.159999999999998,
+        5.8119999999999985
+      ],
+      "sigma": 1.558198532494068
+    },
+    "difficulty_trend": {
+      "series": [
+        4.0,
+        0.0,
+        2.0,
+        0.0
+      ],
+      "ewma": [
+        4.0,
+        2.8,
+        2.5599999999999996,
+        1.7919999999999996
+      ],
+      "sigma": 1.255532821819751
+    },
+    "forecast": {
+      "quality_next": 5.8119999999999985,
+      "quality_band": [
+        2.7579308763116255,
+        8.866069123688371
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2018-06-06T00:00:00",
+      "materia": "RELACIONES INDUSTRIALES",
+      "calidad": 5.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": "Las clases son ella leyendo diapositivas o en el peor de los casos su celular durante toda la hora. Falta hasta una semana entera pero cuando va deja demasiada tarea. Los examenes los saca de las diapositivas pero son como 50 y a final de semestre deja muchos trabajos que solo te quitan tiempo."
+    },
+    {
+      "fecha_iso": "2015-01-09T00:00:00",
+      "materia": "RELACIONES INDUSTRIALES",
+      "calidad": 7.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Falta con regularidad, sus clases consisten en ella leyendo diapositivas y luego \"explicándolas\", así tema tras tema y al final del tema deja un trabajo practico, sus clases muy aburridas, calificaciones bajas y ves todo de manera superficial y rápida."
+    },
+    {
+      "fecha_iso": "2014-12-14T00:00:00",
+      "materia": "LOGÍSTICA Y CADENA DE SUMINISTROS",
+      "calidad": 3.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "No domina los temas de la asignatura, es algo exigente, la clase es súper aburrida y casi no falta, igual creo que es la opción menos peor."
+    },
+    {
+      "fecha_iso": "2014-01-17T00:00:00",
+      "materia": "ADMINISTRACIÓN GERENCIAL",
+      "calidad": 7.0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Muy tediosa su clase por la materia que imparte"
+    }
+  ],
+  "comments_recent": [
+    "Las clases son ella leyendo diapositivas o en el peor de los casos su celular durante toda la hora. Falta hasta una semana entera pero cuando va deja demasiada tarea. Los examenes los saca de las diapositivas pero son como 50 y a final de semestre deja muchos trabajos que solo te quitan tiempo.",
+    "Falta con regularidad, sus clases consisten en ella leyendo diapositivas y luego \"explicándolas\", así tema tras tema y al final del tema deja un trabajo practico, sus clases muy aburridas, calificaciones bajas y ves todo de manera superficial y rápida.",
+    "No domina los temas de la asignatura, es algo exigente, la clase es súper aburrida y casi no falta, igual creo que es la opción menos peor.",
+    "Muy tediosa su clase por la materia que imparte"
+  ],
+  "n_reviews": 4
+}

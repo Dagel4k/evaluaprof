@@ -1,0 +1,91 @@
+{
+  "professor_id": "CLAUDIA_BURGOS_DE_LOS_RIOS",
+  "nombre": "CLAUDIA BURGOS DE LOS RIOS",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 9.900402516231393,
+    "difficulty_decayed": 0.0
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.6396307286514995,
+    "difficulty_bayes": 2.3367952522255195
+  },
+  "recommendation_analysis": {
+    "rate": 1.0,
+    "wilson_interval": [
+      0.3423719528896193,
+      1
+    ],
+    "n_recommendations": 2
+  },
+  "subject_normalization": {
+    "z_mean": 0.64,
+    "z_mean_decayed": 0.78,
+    "per_subject": [
+      {
+        "materia": "DESARROLLO HUMANO",
+        "z_decayed": 0.8080084763427464,
+        "n": 4
+      },
+      {
+        "materia": "TALLER DE ÉTICA",
+        "z_decayed": 0.48189705398788424,
+        "n": 16
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [],
+    "sentiment": {
+      "overall": null,
+      "by_month": {}
+    },
+    "n_comments": 2
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": null,
+    "difficulty_trend": null,
+    "forecast": null,
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2024-03-06T00:00:00",
+      "materia": "DESARROLLO HUMANO",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Súper 10/10, su clase aparte de ser fácil ella la hace muy entendible y práctica, deja enseñanzas y súper buen apoyo en todo"
+    },
+    {
+      "fecha_iso": "2017-10-29T00:00:00",
+      "materia": "TALLER DE ÉTICA",
+      "calidad": 9.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "es muy divertida su clase y aprendes muy bien"
+    }
+  ],
+  "comments_recent": [
+    "Súper 10/10, su clase aparte de ser fácil ella la hace muy entendible y práctica, deja enseñanzas y súper buen apoyo en todo",
+    "es muy divertida su clase y aprendes muy bien"
+  ],
+  "n_reviews": 2
+}

@@ -1,0 +1,184 @@
+{
+  "professor_id": "Ivette_Joya_Hunton",
+  "nombre": "Ivette Joya Hunton",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 9.779645335355067,
+    "difficulty_decayed": 0.22035466464493242
+  },
+  "bayes_analysis": {
+    "quality_bayes": 8.045037916254532,
+    "difficulty_bayes": 2.0027695351137487
+  },
+  "recommendation_analysis": {
+    "rate": 0.9,
+    "wilson_interval": [
+      0.46293644258926075,
+      0.9894703616090744
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": 0.28,
+    "z_mean_decayed": 0.08,
+    "per_subject": [
+      {
+        "materia": "TALLER DE HERRAMIENTAS INTELECTUALES",
+        "z_decayed": 1.1222850838908132,
+        "n": 7
+      },
+      {
+        "materia": "FUNDAMENTOS DE INVESTIGACIÓN",
+        "z_decayed": 0.26491385805690715,
+        "n": 14
+      },
+      {
+        "materia": "TALLER DE INVESTIGACIÓN I",
+        "z_decayed": 0.0,
+        "n": 4
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "justa",
+          "clases",
+          "buena",
+          "es",
+          "te"
+        ],
+        "weight": 0.37259191999596475
+      },
+      {
+        "id": 1,
+        "words": [
+          "ademas",
+          "maestra es",
+          "momento",
+          "maestra",
+          "excelente"
+        ],
+        "weight": 0.2616661434385092
+      }
+    ],
+    "sentiment": {
+      "overall": 0.4,
+      "by_month": {
+        "2021-01": 1.0,
+        "2016-01": 0.3333333333333333,
+        "2013-08": 0.0
+      }
+    },
+    "n_comments": 5
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        10.0,
+        9.333333333333334,
+        10.0
+      ],
+      "ewma": [
+        10.0,
+        9.8,
+        9.86
+      ],
+      "sigma": 0.31765343332585577
+    },
+    "difficulty_trend": {
+      "series": [
+        0.0,
+        0.6666666666666666,
+        0.0
+      ],
+      "ewma": [
+        0.0,
+        0.19999999999999998,
+        0.13999999999999999
+      ],
+      "sigma": 0.31765343332585544
+    },
+    "forecast": {
+      "quality_next": 9.86,
+      "quality_band": [
+        9.237399270681323,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2021-01-16T00:00:00",
+      "materia": "TALLER DE INVESTIGACIÓN I",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Esta maestra es las pocas que te recuerdan que hay profesores que les importa que aprendas de la materia y da todo de su parte por ayudarte en cualquier momento, ademas de tener un excelente manejo del contenido y buen carácter."
+    },
+    {
+      "fecha_iso": "2016-01-25T00:00:00",
+      "materia": "TALLER DE INVESTIGACIÓN I",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Excelente maestra."
+    },
+    {
+      "fecha_iso": "2016-01-18T00:00:00",
+      "materia": "FUNDAMENTOS DE INVESTIGACIÓN",
+      "calidad": 8.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Es muy buena profe, prepara muy bien sus clases y si enseña bien, siempre va y es justa a la hora de calificar"
+    },
+    {
+      "fecha_iso": "2016-01-14T00:00:00",
+      "materia": "TALLER DE INVESTIGACIÓN I",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Muy buena profesora además de que es muy comprometida con la materia que de, ella no regala calificaciones ni te quita ni te pone, con respecto a los que otros dicen de que falta mucho cuando a mi me dio clases nunca faltó."
+    },
+    {
+      "fecha_iso": "2013-08-05T00:00:00",
+      "materia": "TALLER DE HERRAMIENTAS INTELECTUALES",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Muy buena maestra!\nes muy comprometida con sus clases,muy rara vez falta porque tiene un cargo administrativo y aveces tiene que dar la cara en reuniones o asi, pero se disculpa como mil veces por no haber asistido.\nes justa al momento de calif. ni regala calif. ni te quita, te deja lo q te ganaste"
+    }
+  ],
+  "comments_recent": [
+    "Esta maestra es las pocas que te recuerdan que hay profesores que les importa que aprendas de la materia y da todo de su parte por ayudarte en cualquier momento, ademas de tener un excelente manejo del contenido y buen carácter.",
+    "Excelente maestra.",
+    "Es muy buena profe, prepara muy bien sus clases y si enseña bien, siempre va y es justa a la hora de calificar",
+    "Muy buena profesora además de que es muy comprometida con la materia que de, ella no regala calificaciones ni te quita ni te pone, con respecto a los que otros dicen de que falta mucho cuando a mi me dio clases nunca faltó.",
+    "Muy buena maestra!\nes muy comprometida con sus clases,muy rara vez falta porque tiene un cargo administrativo y aveces tiene que dar la cara en reuniones o asi, pero se disculpa como mil veces por no haber asistido.\nes justa al momento de calif. ni regala calif. ni te quita, te deja lo q te ganaste"
+  ],
+  "n_reviews": 5
+}

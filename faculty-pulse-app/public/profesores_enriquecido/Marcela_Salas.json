@@ -1,0 +1,182 @@
+{
+  "professor_id": "Marcela_Salas",
+  "nombre": "Marcela Salas",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 3.780560558054378,
+    "difficulty_decayed": 4.469854907556472
+  },
+  "bayes_analysis": {
+    "quality_bayes": 6.1117045829212,
+    "difficulty_bayes": 3.3361028684470826
+  },
+  "recommendation_analysis": {
+    "rate": 0.4,
+    "wilson_interval": [
+      0.11761823115925325,
+      0.769280067791163
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": -0.9,
+    "z_mean_decayed": -0.94,
+    "per_subject": [
+      {
+        "materia": "INVESTIGACIÓN DE OPERACIONES II",
+        "z_decayed": -0.05307448924342757,
+        "n": 5
+      },
+      {
+        "materia": "INVESTIGACIÓN DE OPERACIONES",
+        "z_decayed": -1.3609805598922224,
+        "n": 11
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "califica",
+          "solo",
+          "maestra",
+          "alumnos",
+          "es"
+        ],
+        "weight": 0.3817886878195583
+      },
+      {
+        "id": 1,
+        "words": [
+          "maestra",
+          "solo",
+          "califica",
+          "te",
+          "si"
+        ],
+        "weight": 0.3906595225479666
+      }
+    ],
+    "sentiment": {
+      "overall": 0.0,
+      "by_month": {
+        "2025-06": 0.0,
+        "2025-01": 0.0,
+        "2024-10": 0.0
+      }
+    },
+    "n_comments": 4
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        2.0,
+        4.0,
+        5.5,
+        2.0
+      ],
+      "ewma": [
+        2.0,
+        2.5999999999999996,
+        3.4699999999999998,
+        3.029
+      ],
+      "sigma": 1.3782284220452479
+    },
+    "difficulty_trend": {
+      "series": [
+        2.0,
+        6.0,
+        4.0,
+        6.0
+      ],
+      "ewma": [
+        2.0,
+        3.1999999999999997,
+        3.4399999999999995,
+        4.207999999999999
+      ],
+      "sigma": 1.2555328218197512
+    },
+    "forecast": {
+      "quality_next": 3.029,
+      "quality_band": [
+        0.32767229279131405,
+        5.730327707208685
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2025-06-03T00:00:00",
+      "materia": "INVESTIGACIÓN DE OPERACIONES",
+      "calidad": 2.0,
+      "dificultad": 6.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Está señora, Califica de la patada los exámenes no son claros y si está preñada la cargues, te tratara como si tú la hubieras preñado y te reprobará, Hazme caso..no vale la pena, mejora cargarla con Edna ????????"
+    },
+    {
+      "fecha_iso": "2025-01-24T00:00:00",
+      "materia": "INVESTIGACIÓN DE OPERACIONES II",
+      "calidad": 6.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": "Parece que odia su trabajo y a todos los alumnos en general, es buena explicando pero pareciera que le cobran por contestar dudas. Y al final de cuentas no es clara con la manera en la que califica, solo te pone un numero, basado en quién sabe qué, igual que su papá y su hermano, pésimos maestros."
+    },
+    {
+      "fecha_iso": "2025-01-07T00:00:00",
+      "materia": "INVESTIGACIÓN DE OPERACIONES",
+      "calidad": 5.0,
+      "dificultad": 6.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": "No termine la segunda unidad de lo mal que me cayo la maestra... pero lo que estuve ahí me pareció que era muy irritable da la clase y no quiere volver a repetir, si te confundiste en algo es por su método de puras diapositivas ya que solo da las formulas y pocos ejemplos para ya soltarte muchaTarea"
+    },
+    {
+      "fecha_iso": "2024-12-13T00:00:00",
+      "materia": "INVESTIGACIÓN DE LAS OPERACIONES 2",
+      "calidad": 4.0,
+      "dificultad": 6.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2024-10-12T00:00:00",
+      "materia": "IO",
+      "calidad": 2.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "La profesora esta medio loca, enseña lo que se le pega la gana y ni siquiera lo explica bien, no la recomiendo,  se queja de todo,  es muy insensible con las situaciones por las que pasan algunos de sus alumnos llegando a burlarse. Es una mala maestra y una mala persona."
+    }
+  ],
+  "comments_recent": [
+    "Está señora, Califica de la patada los exámenes no son claros y si está preñada la cargues, te tratara como si tú la hubieras preñado y te reprobará, Hazme caso..no vale la pena, mejora cargarla con Edna ????????",
+    "Parece que odia su trabajo y a todos los alumnos en general, es buena explicando pero pareciera que le cobran por contestar dudas. Y al final de cuentas no es clara con la manera en la que califica, solo te pone un numero, basado en quién sabe qué, igual que su papá y su hermano, pésimos maestros.",
+    "No termine la segunda unidad de lo mal que me cayo la maestra... pero lo que estuve ahí me pareció que era muy irritable da la clase y no quiere volver a repetir, si te confundiste en algo es por su método de puras diapositivas ya que solo da las formulas y pocos ejemplos para ya soltarte muchaTarea",
+    "La profesora esta medio loca, enseña lo que se le pega la gana y ni siquiera lo explica bien, no la recomiendo,  se queja de todo,  es muy insensible con las situaciones por las que pasan algunos de sus alumnos llegando a burlarse. Es una mala maestra y una mala persona."
+  ],
+  "n_reviews": 5
+}

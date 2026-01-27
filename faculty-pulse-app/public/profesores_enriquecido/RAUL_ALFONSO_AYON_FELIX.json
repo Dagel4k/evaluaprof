@@ -1,0 +1,178 @@
+{
+  "professor_id": "RAUL_ALFONSO_AYON_FELIX",
+  "nombre": "RAUL ALFONSO AYON FELIX",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 4.2493689888132895,
+    "difficulty_decayed": 5.787771667493742
+  },
+  "bayes_analysis": {
+    "quality_bayes": 6.578371249587866,
+    "difficulty_bayes": 3.469436201780416
+  },
+  "recommendation_analysis": {
+    "rate": 0.55,
+    "wilson_interval": [
+      0.19962880334354857,
+      0.8569220471812433
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": -0.6,
+    "z_mean_decayed": -0.91,
+    "per_subject": [
+      {
+        "materia": "ETICA",
+        "z_decayed": -0.9084126443407505,
+        "n": 22
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "zorro",
+          "buen"
+        ],
+        "weight": 0.20547678092235735
+      },
+      {
+        "id": 1,
+        "words": [
+          "buen",
+          "zorro"
+        ],
+        "weight": 0.3021717366505255
+      }
+    ],
+    "sentiment": {
+      "overall": 0.0,
+      "by_month": {
+        "2024-08": 0.0,
+        "2024-02": 0.0,
+        "2023-09": 0.0,
+        "2022-06": 0.0,
+        "2021-11": 0.0
+      }
+    },
+    "n_comments": 5
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        8.0,
+        10.0,
+        3.0,
+        3.0,
+        2.0
+      ],
+      "ewma": [
+        8.0,
+        8.6,
+        6.92,
+        5.744,
+        4.620799999999999
+      ],
+      "sigma": 2.196048407481037
+    },
+    "difficulty_trend": {
+      "series": [
+        2.0,
+        0.0,
+        6.0,
+        8.0,
+        8.0
+      ],
+      "ewma": [
+        2.0,
+        1.4,
+        2.78,
+        4.346,
+        5.4422
+      ],
+      "sigma": 2.1977542282976046
+    },
+    "forecast": {
+      "quality_next": 4.620799999999999,
+      "quality_band": [
+        0.3165451213371666,
+        8.92505487866283
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2024-08-06T00:00:00",
+      "materia": "ETICA",
+      "calidad": 2.0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "zorro"
+    },
+    {
+      "fecha_iso": "2024-02-21T00:00:00",
+      "materia": "ETICA",
+      "calidad": 3.0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "MUY ZORRO LA VERDAD, SE INSINUA MUCHO A LAS MUCHACHAS"
+    },
+    {
+      "fecha_iso": "2023-09-02T00:00:00",
+      "materia": "ETICA",
+      "calidad": 3.0,
+      "dificultad": 6.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "no le interesa su clase"
+    },
+    {
+      "fecha_iso": "2022-06-18T00:00:00",
+      "materia": "ETICA",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "muy buen profe cargaria con el de nuevo"
+    },
+    {
+      "fecha_iso": "2021-11-27T00:00:00",
+      "materia": "ETICA",
+      "calidad": 8.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "es buen maestro, toma el tema de etica bien, anota los conseptos que diga sobre los temas  y ya"
+    }
+  ],
+  "comments_recent": [
+    "zorro",
+    "MUY ZORRO LA VERDAD, SE INSINUA MUCHO A LAS MUCHACHAS",
+    "no le interesa su clase",
+    "muy buen profe cargaria con el de nuevo",
+    "es buen maestro, toma el tema de etica bien, anota los conseptos que diga sobre los temas  y ya"
+  ],
+  "n_reviews": 5
+}

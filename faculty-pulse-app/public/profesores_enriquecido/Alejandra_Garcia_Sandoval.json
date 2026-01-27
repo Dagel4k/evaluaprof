@@ -1,0 +1,189 @@
+{
+  "professor_id": "Alejandra_Garcia_Sandoval",
+  "nombre": "Alejandra Garcia Sandoval",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 9.634825256600935,
+    "difficulty_decayed": 1.913132867109863
+  },
+  "bayes_analysis": {
+    "quality_bayes": 8.045037916254532,
+    "difficulty_bayes": 2.5361028684470823
+  },
+  "recommendation_analysis": {
+    "rate": 0.87,
+    "wilson_interval": [
+      0.43540359569738984,
+      0.9830726981860702
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": 0.49,
+    "z_mean_decayed": 0.5,
+    "per_subject": [
+      {
+        "materia": "PROGRAMACION",
+        "z_decayed": 0.6780635036208108,
+        "n": 6
+      },
+      {
+        "materia": "PRUEBAS DE SOFTWARE",
+        "z_decayed": 0.5773502691896257,
+        "n": 3
+      },
+      {
+        "materia": "FUNDAMENTOS DE PROGRAMACIÓN",
+        "z_decayed": 0.13361272759261705,
+        "n": 17
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "mas",
+          "siempre",
+          "aprender",
+          "pasar",
+          "te"
+        ],
+        "weight": 0.375127680253066
+      },
+      {
+        "id": 1,
+        "words": [
+          "aparte",
+          "maestra",
+          "si",
+          "te",
+          "explica"
+        ],
+        "weight": 0.2488745710490765
+      }
+    ],
+    "sentiment": {
+      "overall": 0.2,
+      "by_month": {
+        "2022-07": 1.0,
+        "2022-06": 0.0,
+        "2022-03": 0.0,
+        "2022-02": 0.0
+      }
+    },
+    "n_comments": 5
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        8.0,
+        10.0,
+        10.0,
+        10.0
+      ],
+      "ewma": [
+        8.0,
+        8.6,
+        9.02,
+        9.314
+      ],
+      "sigma": 0.5890407456195201
+    },
+    "difficulty_trend": {
+      "series": [
+        4.0,
+        4.0,
+        1.0,
+        0.0
+      ],
+      "ewma": [
+        4.0,
+        4.0,
+        3.0999999999999996,
+        2.1699999999999995
+      ],
+      "sigma": 1.2329740467665973
+    },
+    "forecast": {
+      "quality_next": 9.314,
+      "quality_band": [
+        8.15948013858574,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2022-07-14T00:00:00",
+      "materia": "PRUEBAS DE SOFTWARE",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Excelente maestra, siempre pregunta por dudas para aclarártelas, los exámenes son fáciles básicamente lo que se vio en clase tal cual en las diapositivas. Al final de cada unidad te deja una tarea que es pase al examen que es básicamente un estudio para pasar. Aprender de manera practica también."
+    },
+    {
+      "fecha_iso": "2022-06-11T00:00:00",
+      "materia": "PRUEBAS DE SOFTWARE",
+      "calidad": 10.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Qué lástima que no de más materias de la carrera para cargarlas todas con ella, es estricta y es necesario aprender con ella para pasar, no la haces tonta, no te descuides, aparte aprendes mucho sobre cosas importantes"
+    },
+    {
+      "fecha_iso": "2022-06-02T00:00:00",
+      "materia": "PRUEBA DE SOFTWARE",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Es una maestra muy amable y muy buena onda, te ayuda si no le entendiste, aparte que te explica de una forma en la que tu puedas entender"
+    },
+    {
+      "fecha_iso": "2022-03-26T00:00:00",
+      "materia": "PROGRAMACION",
+      "calidad": 10.0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Explica bien perro y ademas es linda y sabe mucho"
+    },
+    {
+      "fecha_iso": "2022-02-02T00:00:00",
+      "materia": "FUNDAMENTOS DE PROGRAMACIÓN",
+      "calidad": 8.0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Llevé el semestre pasado esta materia con ella, a mi parecer, tiene muy buenos conocimientos sobre la materia, siempre trata de que uno como alumno entienda los temas que se llevan a lo largo del curso, si es que no supiste algo, se para a explicarlo una vez más. Volvería a cargar con ella."
+    }
+  ],
+  "comments_recent": [
+    "Excelente maestra, siempre pregunta por dudas para aclarártelas, los exámenes son fáciles básicamente lo que se vio en clase tal cual en las diapositivas. Al final de cada unidad te deja una tarea que es pase al examen que es básicamente un estudio para pasar. Aprender de manera practica también.",
+    "Qué lástima que no de más materias de la carrera para cargarlas todas con ella, es estricta y es necesario aprender con ella para pasar, no la haces tonta, no te descuides, aparte aprendes mucho sobre cosas importantes",
+    "Es una maestra muy amable y muy buena onda, te ayuda si no le entendiste, aparte que te explica de una forma en la que tu puedas entender",
+    "Explica bien perro y ademas es linda y sabe mucho",
+    "Llevé el semestre pasado esta materia con ella, a mi parecer, tiene muy buenos conocimientos sobre la materia, siempre trata de que uno como alumno entienda los temas que se llevan a lo largo del curso, si es que no supiste algo, se para a explicarlo una vez más. Volvería a cargar con ella."
+  ],
+  "n_reviews": 5
+}

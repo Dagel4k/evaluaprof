@@ -1,0 +1,126 @@
+{
+  "professor_id": "Guillermo_Javier_Rubio_Astorga",
+  "nombre": "Guillermo Javier Rubio Astorga",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 8.776532513980627,
+    "difficulty_decayed": 6.323131385423851
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.667351441832153,
+    "difficulty_bayes": 3.54165715590048
+  },
+  "recommendation_analysis": {
+    "rate": 1.0,
+    "wilson_interval": [
+      0.4384939195509822,
+      1
+    ],
+    "n_recommendations": 3
+  },
+  "subject_normalization": {
+    "z_mean": 1.02,
+    "z_mean_decayed": 0.97,
+    "per_subject": [
+      {
+        "materia": "CONTROL",
+        "z_decayed": 0.9699143708201523,
+        "n": 13
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [],
+    "sentiment": {
+      "overall": null,
+      "by_month": {}
+    },
+    "n_comments": 2
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        10.0,
+        10.0,
+        7.0
+      ],
+      "ewma": [
+        10.0,
+        10.0,
+        9.1
+      ],
+      "sigma": 1.212435565298214
+    },
+    "difficulty_trend": {
+      "series": [
+        4.0,
+        6.0,
+        8.0
+      ],
+      "ewma": [
+        4.0,
+        4.6,
+        5.619999999999999
+      ],
+      "sigma": 1.1961605243444549
+    },
+    "forecast": {
+      "quality_next": 9.1,
+      "quality_band": [
+        6.723626292015501,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2022-12-02T00:00:00",
+      "materia": "CONTROL",
+      "calidad": 7.0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2022-06-11T00:00:00",
+      "materia": "CONTROL",
+      "calidad": 10.0,
+      "dificultad": 6.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "de los mejores maestro que he tenido en el tec, es exigente pero aprendes mucho"
+    },
+    {
+      "fecha_iso": "2021-06-18T00:00:00",
+      "materia": "CONTROL 2",
+      "calidad": 10.0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Este es el verdadero filtro en eléctrica. \nLas clases son bastantes claras y el material didáctico dado es de gran ayuda. Los exámenes son bastante largos (12 horas como mínimo), pero todos tienen conexión con el anterior, lo cual los hace más \"sencillos\". Y no olvides ser un huevón exitoso."
+    }
+  ],
+  "comments_recent": [
+    "de los mejores maestro que he tenido en el tec, es exigente pero aprendes mucho",
+    "Este es el verdadero filtro en eléctrica. \nLas clases son bastantes claras y el material didáctico dado es de gran ayuda. Los exámenes son bastante largos (12 horas como mínimo), pero todos tienen conexión con el anterior, lo cual los hace más \"sencillos\". Y no olvides ser un huevón exitoso."
+  ],
+  "n_reviews": 3
+}

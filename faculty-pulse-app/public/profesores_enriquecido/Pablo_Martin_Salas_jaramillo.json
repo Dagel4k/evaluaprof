@@ -1,0 +1,192 @@
+{
+  "professor_id": "Pablo_Martin_Salas_jaramillo",
+  "nombre": "Pablo Martin Salas jaramillo",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 6.585485425478123,
+    "difficulty_decayed": 2.760655256002879
+  },
+  "bayes_analysis": {
+    "quality_bayes": 6.578371249587866,
+    "difficulty_bayes": 3.2027695351137493
+  },
+  "recommendation_analysis": {
+    "rate": 0.4,
+    "wilson_interval": [
+      0.11761823115925325,
+      0.769280067791163
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": -0.52,
+    "z_mean_decayed": -0.03,
+    "per_subject": [
+      {
+        "materia": "METROLOGIA",
+        "z_decayed": 0.3043712918920131,
+        "n": 10
+      },
+      {
+        "materia": "METROLOGÍA Y NORMALIZACIÓN",
+        "z_decayed": -0.08058229640253825,
+        "n": 7
+      },
+      {
+        "materia": "METROLOGIA Y NORMALIZACION",
+        "z_decayed": -1.2509255832441892,
+        "n": 9
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "califica",
+          "califica final",
+          "clase",
+          "final",
+          "voz"
+        ],
+        "weight": 0.28272705395686076
+      },
+      {
+        "id": 1,
+        "words": [
+          "clase",
+          "final",
+          "voz",
+          "semestre",
+          "nunca"
+        ],
+        "weight": 0.3623378417287202
+      }
+    ],
+    "sentiment": {
+      "overall": -0.25,
+      "by_month": {
+        "2021-08": 0.0,
+        "2020-01": -1.0,
+        "2018-04": 0.0,
+        "2018-01": 0.0
+      }
+    },
+    "n_comments": 4
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        2.0,
+        2.0,
+        5.0,
+        7.0,
+        10.0
+      ],
+      "ewma": [
+        2.0,
+        2.0,
+        2.9,
+        4.13,
+        5.891
+      ],
+      "sigma": 1.8059023229399755
+    },
+    "difficulty_trend": {
+      "series": [
+        6.0,
+        8.0,
+        4.0,
+        2.0,
+        0.0
+      ],
+      "ewma": [
+        6.0,
+        6.6,
+        5.819999999999999,
+        4.673999999999999,
+        3.271799999999999
+      ],
+      "sigma": 1.9379544184526112
+    },
+    "forecast": {
+      "quality_next": 5.891,
+      "quality_band": [
+        2.351431447037648,
+        9.430568552962352
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2021-08-10T00:00:00",
+      "materia": "METROLOGIA",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "En paz descanse profe Jaramillo. Usted una persona con gran calidad humana.  Nunca olvidaré lo que hizo por mí, gracias a usted se me apoyó en mi prórroga, y en muchas cosas, al igual que a muchos otros estudiantes.  Usted tenía gran calidad de servicio.  Siempre trataba de darnos ánimos."
+    },
+    {
+      "fecha_iso": "2020-10-15T00:00:00",
+      "materia": "METROLOGÍA Y NORMALIZACIÓN",
+      "calidad": 7.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2020-01-28T00:00:00",
+      "materia": "METROLOGÍA",
+      "calidad": 5.0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": "La voz no le alcanza ya para dar clase y si no fuera poco, irresponsable y desorganizado. Califica hasta el final, si quieres pasar sin aprender nada carga con él."
+    },
+    {
+      "fecha_iso": "2018-04-11T00:00:00",
+      "materia": "METROLOGIA Y NORMALIZACION",
+      "calidad": 2.0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "esta perdiendo la voz de tanto tomar tonayán, le vale madres la clase, y califica todo al final del semestre."
+    },
+    {
+      "fecha_iso": "2018-01-29T00:00:00",
+      "materia": "METROLOGIA",
+      "calidad": 2.0,
+      "dificultad": 6.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Es bien pendejo, no sabe una mierda; una de dos, o llega media hora tarde o nunca llega, quiere calificar el semestre la ultima semana."
+    }
+  ],
+  "comments_recent": [
+    "En paz descanse profe Jaramillo. Usted una persona con gran calidad humana.  Nunca olvidaré lo que hizo por mí, gracias a usted se me apoyó en mi prórroga, y en muchas cosas, al igual que a muchos otros estudiantes.  Usted tenía gran calidad de servicio.  Siempre trataba de darnos ánimos.",
+    "La voz no le alcanza ya para dar clase y si no fuera poco, irresponsable y desorganizado. Califica hasta el final, si quieres pasar sin aprender nada carga con él.",
+    "esta perdiendo la voz de tanto tomar tonayán, le vale madres la clase, y califica todo al final del semestre.",
+    "Es bien pendejo, no sabe una mierda; una de dos, o llega media hora tarde o nunca llega, quiere calificar el semestre la ultima semana."
+  ],
+  "n_reviews": 5
+}

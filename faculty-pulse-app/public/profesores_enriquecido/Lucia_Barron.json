@@ -1,0 +1,189 @@
+{
+  "professor_id": "Lucia_Barron",
+  "nombre": "Lucia Barron",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 5.675724401547446,
+    "difficulty_decayed": 4.970541441499125
+  },
+  "bayes_analysis": {
+    "quality_bayes": 6.778371249587866,
+    "difficulty_bayes": 3.469436201780416
+  },
+  "recommendation_analysis": {
+    "rate": 0.53,
+    "wilson_interval": [
+      0.18772106627044435,
+      0.8462094440444308
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": -0.64,
+    "z_mean_decayed": -0.67,
+    "per_subject": [
+      {
+        "materia": "POO",
+        "z_decayed": -0.5239889825008462,
+        "n": 16
+      },
+      {
+        "materia": "FLOJA",
+        "z_decayed": -1.3174650984805198,
+        "n": 4
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "te",
+          "es",
+          "clases",
+          "dar",
+          "dar clases"
+        ],
+        "weight": 0.2587231468492001
+      },
+      {
+        "id": 1,
+        "words": [
+          "dar clases",
+          "clases",
+          "es",
+          "mano",
+          "te"
+        ],
+        "weight": 0.3030552301706367
+      }
+    ],
+    "sentiment": {
+      "overall": 0.0,
+      "by_month": {
+        "2024-08": 0.0,
+        "2024-01": 0.0,
+        "2023-10": 0.0,
+        "2023-05": 0.0,
+        "2023-01": 0.0
+      }
+    },
+    "n_comments": 5
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        4.0,
+        6.0,
+        8.0,
+        9.0,
+        2.0
+      ],
+      "ewma": [
+        4.0,
+        4.6,
+        5.619999999999999,
+        6.633999999999999,
+        5.2437999999999985
+      ],
+      "sigma": 2.348405920619346
+    },
+    "difficulty_trend": {
+      "series": [
+        6.0,
+        4.0,
+        2.0,
+        4.0,
+        8.0
+      ],
+      "ewma": [
+        6.0,
+        5.3999999999999995,
+        4.379999999999999,
+        4.265999999999999,
+        5.386199999999999
+      ],
+      "sigma": 1.8786209750771976
+    },
+    "forecast": {
+      "quality_next": 5.2437999999999985,
+      "quality_band": [
+        0.6409243955860804,
+        9.846675604413917
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2024-08-23T00:00:00",
+      "materia": "POO",
+      "calidad": 2.0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Persona soberbia y pedante, siempre llegaba tarde a las clases y si llegabas después con justificantes no te dejaba pasar. Tuve cita con el dr y llegué 5 minutos después de ella con mi justificante en mano y callada me CERRÓ LA PUERTA en la cara , la reporte y se indignó al punto de tomarme fotos"
+    },
+    {
+      "fecha_iso": "2024-01-17T00:00:00",
+      "materia": "POO",
+      "calidad": 9.0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Es una gran maestra para POO, tiene buen material y resuelve todas las dudas, sin embargo, no es una materia fácil y se ocupa poner atención, hacer los trabajos y proyectos, le gusta que tomen notas de clase de cada una de las clases, los exámenes son medianamente fáciles y te echa la mano"
+    },
+    {
+      "fecha_iso": "2023-10-09T00:00:00",
+      "materia": "AUDITORIA",
+      "calidad": 8.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "ella y su esposo son unos RATEROS deberian de hacerles una auditoria se siente empoderada por su amiga la directora se la pasan robando a lo lindo sin dar clases"
+    },
+    {
+      "fecha_iso": "2023-05-26T00:00:00",
+      "materia": "POO",
+      "calidad": 6.0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": "BARCÓN"
+    },
+    {
+      "fecha_iso": "2023-01-07T00:00:00",
+      "materia": "FLOJA",
+      "calidad": 4.0,
+      "dificultad": 6.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": "Es escandalosamente floja,  pone a dar clases a sus alumnos. \n No entiendo por qué las autoridades no hacen algo con estos maestros flojos y eso que son ejemplo de uno."
+    }
+  ],
+  "comments_recent": [
+    "Persona soberbia y pedante, siempre llegaba tarde a las clases y si llegabas después con justificantes no te dejaba pasar. Tuve cita con el dr y llegué 5 minutos después de ella con mi justificante en mano y callada me CERRÓ LA PUERTA en la cara , la reporte y se indignó al punto de tomarme fotos",
+    "Es una gran maestra para POO, tiene buen material y resuelve todas las dudas, sin embargo, no es una materia fácil y se ocupa poner atención, hacer los trabajos y proyectos, le gusta que tomen notas de clase de cada una de las clases, los exámenes son medianamente fáciles y te echa la mano",
+    "ella y su esposo son unos RATEROS deberian de hacerles una auditoria se siente empoderada por su amiga la directora se la pasan robando a lo lindo sin dar clases",
+    "BARCÓN",
+    "Es escandalosamente floja,  pone a dar clases a sus alumnos. \n No entiendo por qué las autoridades no hacen algo con estos maestros flojos y eso que son ejemplo de uno."
+  ],
+  "n_reviews": 5
+}

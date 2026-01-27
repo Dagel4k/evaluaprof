@@ -1,0 +1,189 @@
+{
+  "professor_id": "Alexis_Beltran_Heras",
+  "nombre": "Alexis Beltran Heras",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 9.999999999999998,
+    "difficulty_decayed": 0.4771352778481328
+  },
+  "bayes_analysis": {
+    "quality_bayes": 8.178371249587865,
+    "difficulty_bayes": 2.0027695351137487
+  },
+  "recommendation_analysis": {
+    "rate": 1.0,
+    "wilson_interval": [
+      0.565508505247919,
+      1
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": 1.05,
+    "z_mean_decayed": 1.08,
+    "per_subject": [
+      {
+        "materia": "---",
+        "z_decayed": 1.2772000982826541,
+        "n": 80
+      },
+      {
+        "materia": "CALCULO",
+        "z_decayed": 1.0574338424286975,
+        "n": 11
+      },
+      {
+        "materia": "ÁLGEBRA LINEAL",
+        "z_decayed": 0.8017837257372736,
+        "n": 7
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "alexis",
+          "dudas",
+          "maestro",
+          "si",
+          "te"
+        ],
+        "weight": 0.2824868959328205
+      },
+      {
+        "id": 1,
+        "words": [
+          "dudas",
+          "maestro",
+          "si",
+          "te",
+          "alexis"
+        ],
+        "weight": 0.22433353103523243
+      }
+    ],
+    "sentiment": {
+      "overall": 0.2,
+      "by_month": {
+        "2025-02": 0.0,
+        "2024-08": 0.0,
+        "2024-01": 0.0,
+        "2023-01": 0.5
+      }
+    },
+    "n_comments": 5
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 1,
+    "trust_score": 0.8
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        10.0,
+        10.0,
+        10.0,
+        10.0
+      ],
+      "ewma": [
+        10.0,
+        10.0,
+        10.0,
+        10.0
+      ],
+      "sigma": 0.0
+    },
+    "difficulty_trend": {
+      "series": [
+        0.0,
+        0.0,
+        2.0,
+        0.0
+      ],
+      "ewma": [
+        0.0,
+        0.0,
+        0.6,
+        0.42
+      ],
+      "sigma": 0.7950471684120383
+    },
+    "forecast": {
+      "quality_next": 10.0,
+      "quality_band": [
+        10.0,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2025-02-20T00:00:00",
+      "materia": "CALCULO",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Muy buen maestro, siemple explica de forma clara y si tienes dudas te resuelve con detalle y detenimiento para que logres comprender."
+    },
+    {
+      "fecha_iso": "2024-08-10T00:00:00",
+      "materia": "---",
+      "calidad": 10.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2024-01-23T00:00:00",
+      "materia": "ALGEBRA LINEAS Y ECUACIOES",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Alexis god"
+    },
+    {
+      "fecha_iso": "2023-01-19T00:00:00",
+      "materia": "ALGEBRA LINEAL, ECUACIONES DIFERENCIALES",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "El mejor profe"
+    },
+    {
+      "fecha_iso": "2023-01-16T00:00:00",
+      "materia": "ÁLGEBRA LINEAL",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Lo que sea que explique, lo entenderás a la primera, si no trabajas no te ayuda, normalmente no regala calificación, pero si te ayuda mucho con dudas incluso de otras clases (como calculo), excelente maestro, que impriman más Alexis porfa"
+    }
+  ],
+  "comments_recent": [
+    "Muy buen maestro, siemple explica de forma clara y si tienes dudas te resuelve con detalle y detenimiento para que logres comprender.",
+    "[Comentario esperando revisión]",
+    "Alexis god",
+    "El mejor profe",
+    "Lo que sea que explique, lo entenderás a la primera, si no trabajas no te ayuda, normalmente no regala calificación, pero si te ayuda mucho con dudas incluso de otras clases (como calculo), excelente maestro, que impriman más Alexis porfa"
+  ],
+  "n_reviews": 5
+}

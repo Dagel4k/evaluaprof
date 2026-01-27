@@ -1,0 +1,120 @@
+{
+  "professor_id": "Irma_Yolanda_Gonzalez_Lizarraga",
+  "nombre": "Irma Yolanda Gonzalez Lizarraga",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 8.25942597634033,
+    "difficulty_decayed": 5.349682635515677
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.513505287985999,
+    "difficulty_bayes": 3.3878110020543257
+  },
+  "recommendation_analysis": {
+    "rate": 1.0,
+    "wilson_interval": [
+      0.4384939195509822,
+      1
+    ],
+    "n_recommendations": 3
+  },
+  "subject_normalization": {
+    "z_mean": null,
+    "z_mean_decayed": null,
+    "per_subject": []
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [],
+    "sentiment": {
+      "overall": null,
+      "by_month": {}
+    },
+    "n_comments": 2
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        9.0,
+        9.0,
+        7.0
+      ],
+      "ewma": [
+        9.0,
+        9.0,
+        8.4
+      ],
+      "sigma": 0.8082903768654762
+    },
+    "difficulty_trend": {
+      "series": [
+        6.0,
+        4.0,
+        6.0
+      ],
+      "ewma": [
+        6.0,
+        5.3999999999999995,
+        5.579999999999999
+      ],
+      "sigma": 0.9529602999775664
+    },
+    "forecast": {
+      "quality_next": 8.4,
+      "quality_band": [
+        6.815750861343667,
+        9.984249138656335
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2014-06-07T00:00:00",
+      "materia": "",
+      "calidad": 7.0,
+      "dificultad": 6.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Perfeccionista"
+    },
+    {
+      "fecha_iso": "2014-01-22T00:00:00",
+      "materia": "QUÍMICA DE LOS ALIMENTOS",
+      "calidad": 9.0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2013-11-14T00:00:00",
+      "materia": "QUIMICA DE LOS ALIMENTOS",
+      "calidad": 9.0,
+      "dificultad": 6.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Recomiendo poner atencion en sus clases y aclarar todas las dudas en el momento :)"
+    }
+  ],
+  "comments_recent": [
+    "Perfeccionista",
+    "Recomiendo poner atencion en sus clases y aclarar todas las dudas en el momento :)"
+  ],
+  "n_reviews": 3
+}

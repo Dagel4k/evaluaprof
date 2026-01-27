@@ -1,0 +1,145 @@
+{
+  "professor_id": "Alfonzo_Bernal_Amador",
+  "nombre": "Alfonzo Bernal Amador",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 9.059647575348608,
+    "difficulty_decayed": 4.749150682682542
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.9117045829212,
+    "difficulty_bayes": 3.469436201780416
+  },
+  "recommendation_analysis": {
+    "rate": 0.97,
+    "wilson_interval": [
+      0.5326670635928218,
+      0.9989109313402218
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": 0.45,
+    "z_mean_decayed": 0.45,
+    "per_subject": [
+      {
+        "materia": "CALCULO VECTORIAL",
+        "z_decayed": 0.4471960913304164,
+        "n": 21
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [],
+    "sentiment": {
+      "overall": null,
+      "by_month": {}
+    },
+    "n_comments": 3
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        9.666666666666666,
+        9.0,
+        8.0
+      ],
+      "ewma": [
+        9.666666666666666,
+        9.466666666666665,
+        9.026666666666666
+      ],
+      "sigma": 0.5140399177467023
+    },
+    "difficulty_trend": {
+      "series": [
+        4.666666666666667,
+        6.0,
+        4.0
+      ],
+      "ewma": [
+        4.666666666666667,
+        5.066666666666666,
+        4.746666666666666
+      ],
+      "sigma": 0.8417266205269401
+    },
+    "forecast": {
+      "quality_next": 9.026666666666666,
+      "quality_band": [
+        8.01914842788313,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2023-06-01T00:00:00",
+      "materia": "RELLENO VECTORIAL",
+      "calidad": 8.0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2022-06-09T00:00:00",
+      "materia": "CALCULO VECTORIAL",
+      "calidad": 9.0,
+      "dificultad": 6.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2021-12-21T00:00:00",
+      "materia": "CALCULO VECTORIAL",
+      "calidad": 10.0,
+      "dificultad": 6.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Excelente maestro sin duda alguna cargen con el, son algo dificiles sus examenes pero siempre pone cosas que se vieron en clase y ademas ayuda y explica muy bien, excelente maestro."
+    },
+    {
+      "fecha_iso": "2021-12-17T00:00:00",
+      "materia": "CÁLCULO VECTORIAL (LINEA)",
+      "calidad": 10.0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Muy buen profesor pero muy desconfiado con los exámenes (al menos en línea). No deja tareas pero el examen cuenta el 100%, tienes que tener las asistencias mínimas, explica muy bien y en el examen tienes que hacer su mismo procedimiento de la clase, sino piensa que copiaste. Carga con el si puedes"
+    },
+    {
+      "fecha_iso": "2021-12-07T00:00:00",
+      "materia": "CALCULO VECTORIAL",
+      "calidad": 9.0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Es re pro dando clases, le deseo lo mejor en su futuro"
+    }
+  ],
+  "comments_recent": [
+    "Excelente maestro sin duda alguna cargen con el, son algo dificiles sus examenes pero siempre pone cosas que se vieron en clase y ademas ayuda y explica muy bien, excelente maestro.",
+    "Muy buen profesor pero muy desconfiado con los exámenes (al menos en línea). No deja tareas pero el examen cuenta el 100%, tienes que tener las asistencias mínimas, explica muy bien y en el examen tienes que hacer su mismo procedimiento de la clase, sino piensa que copiaste. Carga con el si puedes",
+    "Es re pro dando clases, le deseo lo mejor en su futuro"
+  ],
+  "n_reviews": 5
+}

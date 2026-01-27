@@ -1,0 +1,194 @@
+{
+  "professor_id": "jose_alessandri_pimienta_dominguez",
+  "nombre": "jose alessandri pimienta dominguez",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 9.562797212659422,
+    "difficulty_decayed": 1.2729867683904044
+  },
+  "bayes_analysis": {
+    "quality_bayes": 8.045037916254532,
+    "difficulty_bayes": 2.2694362017804157
+  },
+  "recommendation_analysis": {
+    "rate": 0.77,
+    "wilson_interval": [
+      0.3515051021514722,
+      0.9538694906824042
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": 0.64,
+    "z_mean_decayed": 0.62,
+    "per_subject": [
+      {
+        "materia": "CÁLCULO INTEGRAL",
+        "z_decayed": 0.8183932073645681,
+        "n": 10
+      },
+      {
+        "materia": "CALCULO INTEGRAL",
+        "z_decayed": 0.6730610892031808,
+        "n": 22
+      },
+      {
+        "materia": "CALCULO VECTORIAL",
+        "z_decayed": 0.33571983113229603,
+        "n": 21
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "tareas",
+          "va",
+          "profesor",
+          "si",
+          "te"
+        ],
+        "weight": 0.4015308034001297
+      },
+      {
+        "id": 1,
+        "words": [
+          "facil",
+          "es",
+          "proyecto",
+          "maestro",
+          "mi"
+        ],
+        "weight": 0.2803930471339874
+      }
+    ],
+    "sentiment": {
+      "overall": -0.2,
+      "by_month": {
+        "2025-12": 0.0,
+        "2025-09": 0.0,
+        "2025-06": 0.0,
+        "2025-05": -1.0,
+        "2024-06": 0.0
+      }
+    },
+    "n_comments": 5
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        10.0,
+        9.0,
+        10.0,
+        10.0,
+        9.0
+      ],
+      "ewma": [
+        10.0,
+        9.7,
+        9.79,
+        9.852999999999998,
+        9.597099999999998
+      ],
+      "sigma": 0.42880059701450957
+    },
+    "difficulty_trend": {
+      "series": [
+        0.0,
+        4.0,
+        0.0,
+        0.0,
+        2.0
+      ],
+      "ewma": [
+        0.0,
+        1.2,
+        0.84,
+        0.588,
+        1.0116
+      ],
+      "sigma": 1.4793563573392312
+    },
+    "forecast": {
+      "quality_next": 9.597099999999998,
+      "quality_band": [
+        8.756650829851559,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2025-12-05T00:00:00",
+      "materia": "CALCULO VECTORIAL",
+      "calidad": 9.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Respeto mucho a este profesor, sus clases son claras y va a lo que va, si cargas con el te recomiendo que hagas todas las tareas el mismo dia que las deja y entregues el trabajo en clase, de lo mejor de los profesores de calculo."
+    },
+    {
+      "fecha_iso": "2025-09-09T00:00:00",
+      "materia": "CÁLCULO INTEGRAL",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Es buen maestro y enseña bien, al final hacen un proyecto para la aplicación de la integral, en mi caso me ayudó bastante para ver la integral en la vida real"
+    },
+    {
+      "fecha_iso": "2025-06-16T00:00:00",
+      "materia": "CALCULO INTEGRAL",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Si le cumples con todo y te ve con brillo te exenta sin problema, lo unico pesado es cuando deje el proyecto pero con una buena organizacion se hace facil."
+    },
+    {
+      "fecha_iso": "2025-05-31T00:00:00",
+      "materia": "CALCULO INTEGRAL",
+      "calidad": 9.0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Al principio parecía un profesor complicado y que no te dejaría las cosas fáciles, conforme avanzan las clases ves que es un profesor tranquilo pero serio, si asistes y participas en clase te exenta de los exámenes, deja tareas sencillas y te ayuda si tienes problemas"
+    },
+    {
+      "fecha_iso": "2024-06-06T00:00:00",
+      "materia": "CALCULO INTEGRAL",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Este profesor es bueno pero siempre se va por lo mas fácil, si buscas un nivel mas difícil no cargues con el. Este maestro exenta a la mayoría, pero no a todos, y en mi semestre falto unas 13 veces aproximadamente. Cumple con todos los temas y deja tareas ????????."
+    }
+  ],
+  "comments_recent": [
+    "Respeto mucho a este profesor, sus clases son claras y va a lo que va, si cargas con el te recomiendo que hagas todas las tareas el mismo dia que las deja y entregues el trabajo en clase, de lo mejor de los profesores de calculo.",
+    "Es buen maestro y enseña bien, al final hacen un proyecto para la aplicación de la integral, en mi caso me ayudó bastante para ver la integral en la vida real",
+    "Si le cumples con todo y te ve con brillo te exenta sin problema, lo unico pesado es cuando deje el proyecto pero con una buena organizacion se hace facil.",
+    "Al principio parecía un profesor complicado y que no te dejaría las cosas fáciles, conforme avanzan las clases ves que es un profesor tranquilo pero serio, si asistes y participas en clase te exenta de los exámenes, deja tareas sencillas y te ayuda si tienes problemas",
+    "Este profesor es bueno pero siempre se va por lo mas fácil, si buscas un nivel mas difícil no cargues con el. Este maestro exenta a la mayoría, pero no a todos, y en mi semestre falto unas 13 veces aproximadamente. Cumple con todos los temas y deja tareas ????????."
+  ],
+  "n_reviews": 5
+}

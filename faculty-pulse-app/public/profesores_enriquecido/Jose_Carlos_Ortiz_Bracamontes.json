@@ -1,0 +1,189 @@
+{
+  "professor_id": "Jose_Carlos_Ortiz_Bracamontes",
+  "nombre": "Jose Carlos Ortiz Bracamontes",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 4.102062799173691,
+    "difficulty_decayed": 2.6768737786984613
+  },
+  "bayes_analysis": {
+    "quality_bayes": 6.311704582921199,
+    "difficulty_bayes": 2.6694362017804156
+  },
+  "recommendation_analysis": {
+    "rate": 0.4,
+    "wilson_interval": [
+      0.11761823115925325,
+      0.769280067791163
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": -0.69,
+    "z_mean_decayed": -0.87,
+    "per_subject": [
+      {
+        "materia": "MERCADOTECNIA",
+        "z_decayed": -0.3125031140851317,
+        "n": 9
+      },
+      {
+        "materia": "ANALISIS DE LA REALIDAD NACIONAL",
+        "z_decayed": -0.5,
+        "n": 4
+      },
+      {
+        "materia": "DESARROLLO HUMANO",
+        "z_decayed": -1.248740372529699,
+        "n": 4
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "clases",
+          "calificacion",
+          "pone",
+          "te pone",
+          "si"
+        ],
+        "weight": 0.36802805882507
+      },
+      {
+        "id": 1,
+        "words": [
+          "aunque",
+          "recomiendo",
+          "si",
+          "es",
+          "profesor"
+        ],
+        "weight": 0.26646363024302755
+      }
+    ],
+    "sentiment": {
+      "overall": 0.0,
+      "by_month": {
+        "2016-01": 0.0,
+        "2013-11": 0.0,
+        "2012-10": 0.0,
+        "2012-08": 0.0
+      }
+    },
+    "n_comments": 5
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        4.5,
+        4.0,
+        6.0,
+        3.0
+      ],
+      "ewma": [
+        4.5,
+        4.35,
+        4.844999999999999,
+        4.291499999999999
+      ],
+      "sigma": 1.0108291460479364
+    },
+    "difficulty_trend": {
+      "series": [
+        4.0,
+        0.0,
+        0.0,
+        4.0
+      ],
+      "ewma": [
+        4.0,
+        2.8,
+        1.9599999999999997,
+        2.5719999999999996
+      ],
+      "sigma": 1.9100809755958865
+    },
+    "forecast": {
+      "quality_next": 4.291499999999999,
+      "quality_band": [
+        2.310274873746044,
+        6.272725126253954
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2016-01-18T00:00:00",
+      "materia": "DESARROLLO HUMANO",
+      "calidad": 3.0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "No te enseña nada productivo y sus clases son muy aburridas, ademas que al final te ´pone la calificacion que se le antoja que normalmente de 85 no pasas"
+    },
+    {
+      "fecha_iso": "2013-11-14T00:00:00",
+      "materia": "MERCADOTECNIA",
+      "calidad": 6.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": "ES BUEN PROFESOR PERO SE LA LLEVA PURAS EXPOSICIONES Y TE CALIFICA LO QUE QUIERE"
+    },
+    {
+      "fecha_iso": "2012-10-24T00:00:00",
+      "materia": "DESARROLO HUMANO",
+      "calidad": 4.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": "es un malisimo profesor evaluando solo te pone calificacion buena si le estuviste lamiendo los ....todo el semestre y aunque hallas trabajado y cumplido con todo si no hiciste lo antes mencionado te pondra lo que te venga en gana, no sabe calificar para nada , eso si muy exigente pero al final hace lo que se le viene en gana..malisimo profesor no lo recomiendo para nada"
+    },
+    {
+      "fecha_iso": "2012-08-16T00:00:00",
+      "materia": "ANAL REA NAC",
+      "calidad": 5.0,
+      "dificultad": 6.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": "Muy mala eleccion de maestro, no lo agarres porque se te va hacer largo el semestre siendo una materia casi de relleno."
+    },
+    {
+      "fecha_iso": "2012-08-16T00:00:00",
+      "materia": "ANALISIS DE LA REALIDAD NACIONAL",
+      "calidad": 4.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": "Es un mal prof, si eres uno de los que te gusta trabajar las clases talves no te pareceran aburridas, aunk al momento de calificarte ahi si odiaras al profe,aunque todos los que son huevones lo odiaran de principio a fin y los exigira trabajar y aun asi te pone muy mala calificacion,NO LO RECOMIENDO"
+    }
+  ],
+  "comments_recent": [
+    "No te enseña nada productivo y sus clases son muy aburridas, ademas que al final te ´pone la calificacion que se le antoja que normalmente de 85 no pasas",
+    "ES BUEN PROFESOR PERO SE LA LLEVA PURAS EXPOSICIONES Y TE CALIFICA LO QUE QUIERE",
+    "es un malisimo profesor evaluando solo te pone calificacion buena si le estuviste lamiendo los ....todo el semestre y aunque hallas trabajado y cumplido con todo si no hiciste lo antes mencionado te pondra lo que te venga en gana, no sabe calificar para nada , eso si muy exigente pero al final hace lo que se le viene en gana..malisimo profesor no lo recomiendo para nada",
+    "Muy mala eleccion de maestro, no lo agarres porque se te va hacer largo el semestre siendo una materia casi de relleno.",
+    "Es un mal prof, si eres uno de los que te gusta trabajar las clases talves no te pareceran aburridas, aunk al momento de calificarte ahi si odiaras al profe,aunque todos los que son huevones lo odiaran de principio a fin y los exigira trabajar y aun asi te pone muy mala calificacion,NO LO RECOMIENDO"
+  ],
+  "n_reviews": 5
+}

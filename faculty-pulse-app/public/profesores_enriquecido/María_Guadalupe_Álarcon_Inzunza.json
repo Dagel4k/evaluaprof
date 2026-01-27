@@ -1,0 +1,163 @@
+{
+  "professor_id": "María_Guadalupe_Álarcon_Inzunza",
+  "nombre": "María Guadalupe Álarcon Inzunza",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 2.407249445545898,
+    "difficulty_decayed": 5.746766172800212
+  },
+  "bayes_analysis": {
+    "quality_bayes": 5.645037916254533,
+    "difficulty_bayes": 3.7361028684470825
+  },
+  "recommendation_analysis": {
+    "rate": 0.2,
+    "wilson_interval": [
+      0.036223160969787456,
+      0.6244717358814612
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": -1.56,
+    "z_mean_decayed": -1.58,
+    "per_subject": [
+      {
+        "materia": "TALLER DE INVESTIGACIÓN 2",
+        "z_decayed": -1.2298373876248845,
+        "n": 5
+      },
+      {
+        "materia": "ADMINISTRACIÓN Y CONTABILIDAD",
+        "z_decayed": -1.6605351695102175,
+        "n": 5
+      },
+      {
+        "materia": "ECONOMIA",
+        "z_decayed": -1.804024529906538,
+        "n": 6
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [],
+    "sentiment": {
+      "overall": null,
+      "by_month": {}
+    },
+    "n_comments": 3
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        2.0,
+        3.0,
+        3.0,
+        2.0,
+        2.0
+      ],
+      "ewma": [
+        2.0,
+        2.3,
+        2.51,
+        2.3569999999999998,
+        2.2499
+      ],
+      "sigma": 0.4615186583443837
+    },
+    "difficulty_trend": {
+      "series": [
+        4.0,
+        8.0,
+        4.0,
+        6.0,
+        6.0
+      ],
+      "ewma": [
+        4.0,
+        5.199999999999999,
+        4.839999999999999,
+        5.187999999999999,
+        5.431599999999999
+      ],
+      "sigma": 1.350589512768406
+    },
+    "forecast": {
+      "quality_next": 2.2499,
+      "quality_band": [
+        1.3453234296450076,
+        3.154476570354992
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2025-01-17T00:00:00",
+      "materia": "ECONOMIA",
+      "calidad": 2.0,
+      "dificultad": 6.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2024-12-06T00:00:00",
+      "materia": "ADMINISTRACIÓN Y CONTABILIDAD",
+      "calidad": 2.0,
+      "dificultad": 6.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2024-08-12T00:00:00",
+      "materia": "TALLER DE INVESTIGACIÓN 2",
+      "calidad": 3.0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Es una aberración de docente, jamás me había tocado un docente de tan bajo nivel, no se le entiende nada, solo habla y habla de los temas los cuales aburren en cuestiones de segundos, todas las demás pésimas referencias son completamente acertadas."
+    },
+    {
+      "fecha_iso": "2024-05-10T00:00:00",
+      "materia": "ENTORNO MACROECONÓMICO",
+      "calidad": 3.0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Baja autoestima, pareciera que es maestra porque quiere tener amigos, no la recomiendo, que pena tener este tipo de  “docente”."
+    },
+    {
+      "fecha_iso": "2022-09-04T00:00:00",
+      "materia": "ECONOMIA EMPRESARIAL",
+      "calidad": 2.0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Es muy mala onda como persona, no ayuda a sus alumnos aunque le expliques la situación, no esta a disposición de hacer nada por ti y da favoritismo a los alumnos."
+    }
+  ],
+  "comments_recent": [
+    "Es una aberración de docente, jamás me había tocado un docente de tan bajo nivel, no se le entiende nada, solo habla y habla de los temas los cuales aburren en cuestiones de segundos, todas las demás pésimas referencias son completamente acertadas.",
+    "Baja autoestima, pareciera que es maestra porque quiere tener amigos, no la recomiendo, que pena tener este tipo de  “docente”.",
+    "Es muy mala onda como persona, no ayuda a sus alumnos aunque le expliques la situación, no esta a disposición de hacer nada por ti y da favoritismo a los alumnos."
+  ],
+  "n_reviews": 5
+}

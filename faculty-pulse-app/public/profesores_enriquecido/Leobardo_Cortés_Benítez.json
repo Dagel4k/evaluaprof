@@ -1,0 +1,184 @@
+{
+  "professor_id": "Leobardo_Cortés_Benítez",
+  "nombre": "Leobardo Cortés Benítez",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 6.215249789926573,
+    "difficulty_decayed": 5.66499083031992
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.1117045829212,
+    "difficulty_bayes": 3.3361028684470826
+  },
+  "recommendation_analysis": {
+    "rate": 0.44,
+    "wilson_interval": [
+      0.13783432612193255,
+      0.7943046532483173
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": -1.74,
+    "z_mean_decayed": -1.74,
+    "per_subject": [
+      {
+        "materia": "ELECTRÓNICA DE POTENCIA",
+        "z_decayed": -1.7448954679793163,
+        "n": 5
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "accesible",
+          "maestros",
+          "ayuda",
+          "etica",
+          "es"
+        ],
+        "weight": 0.3259907679990783
+      },
+      {
+        "id": 1,
+        "words": [
+          "porque",
+          "accesible",
+          "tener",
+          "ensena",
+          "buen"
+        ],
+        "weight": 0.3136658956540732
+      }
+    ],
+    "sentiment": {
+      "overall": 0.0,
+      "by_month": {
+        "2024-02": 0.0,
+        "2021-12": 0.0,
+        "2020-08": 0.0,
+        "2019-06": 0.0,
+        "2017-06": 0.0
+      }
+    },
+    "n_comments": 5
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        10.0,
+        2.0,
+        9.0,
+        8.0,
+        5.0
+      ],
+      "ewma": [
+        10.0,
+        7.6,
+        8.02,
+        8.014,
+        7.109799999999999
+      ],
+      "sigma": 2.6304032177595893
+    },
+    "difficulty_trend": {
+      "series": [
+        0.0,
+        8.0,
+        4.0,
+        2.0,
+        8.0
+      ],
+      "ewma": [
+        0.0,
+        2.4,
+        2.88,
+        2.616,
+        4.231199999999999
+      ],
+      "sigma": 2.6316949610469678
+    },
+    "forecast": {
+      "quality_next": 7.109799999999999,
+      "quality_band": [
+        1.9542096931912045,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2024-02-10T00:00:00",
+      "materia": "ELECTRONICA DE POTENCIA APLICADA",
+      "calidad": 5.0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": "Es sin duda de los maestros con menos ética que he conocido. Se la pasaba burlándose de los estudiantes, se reía de ellos en la cara y se lavaba las manos cuando querías ayuda de su parte. En sus exámenes teóricos pone problemas que necesitas calculadora y el asume que puedes hacer todo con la mente"
+    },
+    {
+      "fecha_iso": "2021-12-16T00:00:00",
+      "materia": "ELECTRÓNICA INDUSTRIAL",
+      "calidad": 8.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Debe ser uno de los mejores maestros que hay en el tec. Se preocupa porque todos aprendan y hasta cambia la forma en que enseña para conseguirlo. Cada equipo debe tener una sesión con el explicando los proyectos que hicieron, asi que no sirve de nada copiar y por eso a muchos no les gusta."
+    },
+    {
+      "fecha_iso": "2020-08-10T00:00:00",
+      "materia": "ELECTRÓNICA DE POTENCIA APLICADA",
+      "calidad": 9.0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Modalidad en línea: Buen profesor y accesible. Es muy duro calificando y espera que se le trate con el debido respeto para tener una buena convivencia. Las tareas que suele dejar vienen en los libros que él recomienda."
+    },
+    {
+      "fecha_iso": "2019-06-10T00:00:00",
+      "materia": "ELECTRÓNICA DE POTENCIA",
+      "calidad": 2.0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Es un asco de maestro, su ética profesional nunca le permite ayudar a sus alumnos, nunca le pidas ayuda porque te hará sentir mal y no es accesible para nada, nunca está en su cubículo y le gusta reírse de los que repiten curso"
+    },
+    {
+      "fecha_iso": "2017-06-13T00:00:00",
+      "materia": "INLGES 3",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "buen teacher la neta enseña bien machin el verbo to be"
+    }
+  ],
+  "comments_recent": [
+    "Es sin duda de los maestros con menos ética que he conocido. Se la pasaba burlándose de los estudiantes, se reía de ellos en la cara y se lavaba las manos cuando querías ayuda de su parte. En sus exámenes teóricos pone problemas que necesitas calculadora y el asume que puedes hacer todo con la mente",
+    "Debe ser uno de los mejores maestros que hay en el tec. Se preocupa porque todos aprendan y hasta cambia la forma en que enseña para conseguirlo. Cada equipo debe tener una sesión con el explicando los proyectos que hicieron, asi que no sirve de nada copiar y por eso a muchos no les gusta.",
+    "Modalidad en línea: Buen profesor y accesible. Es muy duro calificando y espera que se le trate con el debido respeto para tener una buena convivencia. Las tareas que suele dejar vienen en los libros que él recomienda.",
+    "Es un asco de maestro, su ética profesional nunca le permite ayudar a sus alumnos, nunca le pidas ayuda porque te hará sentir mal y no es accesible para nada, nunca está en su cubículo y le gusta reírse de los que repiten curso",
+    "buen teacher la neta enseña bien machin el verbo to be"
+  ],
+  "n_reviews": 5
+}

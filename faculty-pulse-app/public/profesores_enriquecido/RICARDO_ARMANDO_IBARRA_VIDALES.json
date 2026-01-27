@@ -1,0 +1,183 @@
+{
+  "professor_id": "RICARDO_ARMANDO_IBARRA_VIDALES",
+  "nombre": "RICARDO ARMANDO IBARRA VIDALES",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 2.5520157281152254,
+    "difficulty_decayed": 6.343952815654323
+  },
+  "bayes_analysis": {
+    "quality_bayes": 5.645037916254533,
+    "difficulty_bayes": 4.136102868447082
+  },
+  "recommendation_analysis": {
+    "rate": 0.08,
+    "wilson_interval": [
+      0.006987170764758721,
+      0.5179856848269894
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": -1.21,
+    "z_mean_decayed": -1.23,
+    "per_subject": [
+      {
+        "materia": "TALLER DE HERRAMIENTAS",
+        "z_decayed": -1.0910894511799618,
+        "n": 3
+      },
+      {
+        "materia": "TALLER DE HERRAMIENTAS INTELECTUALES",
+        "z_decayed": -1.2686700948330931,
+        "n": 7
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "quiere",
+          "examenes",
+          "mujeres",
+          "pasa",
+          "es"
+        ],
+        "weight": 0.39403466911983087
+      },
+      {
+        "id": 1,
+        "words": [
+          "examenes",
+          "mujeres",
+          "pasa",
+          "alumnos",
+          "quiere"
+        ],
+        "weight": 0.30703982481278497
+      }
+    ],
+    "sentiment": {
+      "overall": 0.0,
+      "by_month": {
+        "2020-01": 0.0,
+        "2018-08": 0.0,
+        "2018-02": 0.0,
+        "2018-01": 0.0
+      }
+    },
+    "n_comments": 4
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        2.0,
+        2.0,
+        2.0,
+        3.0
+      ],
+      "ewma": [
+        2.0,
+        2.0,
+        2.0,
+        2.3
+      ],
+      "sigma": 0.3500000000000001
+    },
+    "difficulty_trend": {
+      "series": [
+        8.0,
+        8.0,
+        8.0,
+        5.0
+      ],
+      "ewma": [
+        8.0,
+        8.0,
+        8.0,
+        7.1
+      ],
+      "sigma": 1.0499999999999998
+    },
+    "forecast": {
+      "quality_next": 2.3,
+      "quality_band": [
+        1.6139999999999997,
+        2.9859999999999998
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2020-01-10T00:00:00",
+      "materia": "TALLER DE HERRAMIENTAS INTELECTUALES",
+      "calidad": 2.0,
+      "dificultad": 6.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Es un profesor que hace comentarios hirientes a sus alumnos, e incluso pasados de tono a las mujeres, a mi me tocó que hiciera comentarios refiriéndose a los pechos de una alumna, al final se pasa por donde quiere los exámenes y según tu ”actitud” te califica, puede que te vaya muy bien o muy mal."
+    },
+    {
+      "fecha_iso": "2020-01-10T00:00:00",
+      "materia": "TALLER DE HERRAMIENTAS INTELECTUALES",
+      "calidad": 4.0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2018-08-04T00:00:00",
+      "materia": "TALLER DE HERR INTELECTUALES",
+      "calidad": 2.0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "los alumnos dan las clases con las exposiciones y en el examen pone lo que el quiere."
+    },
+    {
+      "fecha_iso": "2018-02-04T00:00:00",
+      "materia": "TALLER DE HERRAMIENTAS",
+      "calidad": 2.0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Es una mierda de maestro"
+    },
+    {
+      "fecha_iso": "2018-01-16T00:00:00",
+      "materia": "HERRAMIENTAS INTELECTUALES",
+      "calidad": 2.0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Este profe es pura exposición, sus exámenes nadie los pasa y sólo pasan mujeres"
+    }
+  ],
+  "comments_recent": [
+    "Es un profesor que hace comentarios hirientes a sus alumnos, e incluso pasados de tono a las mujeres, a mi me tocó que hiciera comentarios refiriéndose a los pechos de una alumna, al final se pasa por donde quiere los exámenes y según tu ”actitud” te califica, puede que te vaya muy bien o muy mal.",
+    "los alumnos dan las clases con las exposiciones y en el examen pone lo que el quiere.",
+    "Es una mierda de maestro",
+    "Este profe es pura exposición, sus exámenes nadie los pasa y sólo pasan mujeres"
+  ],
+  "n_reviews": 5
+}

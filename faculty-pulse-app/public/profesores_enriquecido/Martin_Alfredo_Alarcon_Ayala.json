@@ -1,0 +1,184 @@
+{
+  "professor_id": "Martin_Alfredo_Alarcon_Ayala",
+  "nombre": "Martin Alfredo Alarcon Ayala",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 9.579363825475758,
+    "difficulty_decayed": 0.274019220680272
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.978371249587866,
+    "difficulty_bayes": 2.0027695351137487
+  },
+  "recommendation_analysis": {
+    "rate": 1.0,
+    "wilson_interval": [
+      0.565508505247919,
+      1
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": 0.42,
+    "z_mean_decayed": 0.41,
+    "per_subject": [
+      {
+        "materia": "MÁQUINAS ELÉCTRICAS",
+        "z_decayed": 0.5218521343178364,
+        "n": 8
+      },
+      {
+        "materia": "MAQUINAS ELECTRICAS",
+        "z_decayed": 0.09491579957524982,
+        "n": 3
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "maestro",
+          "es",
+          "excelente",
+          "si",
+          "te"
+        ],
+        "weight": 0.35043899435807563
+      },
+      {
+        "id": 1,
+        "words": [
+          "si",
+          "te",
+          "maestro",
+          "buen",
+          "buen maestro"
+        ],
+        "weight": 0.264716151623144
+      }
+    ],
+    "sentiment": {
+      "overall": 0.4,
+      "by_month": {
+        "2022-06": 0.0,
+        "2019-01": 0.0,
+        "2018-12": 0.5,
+        "2018-08": 1.0
+      }
+    },
+    "n_comments": 5
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        10.0,
+        10.0,
+        7.0,
+        10.0
+      ],
+      "ewma": [
+        10.0,
+        10.0,
+        9.1,
+        9.37
+      ],
+      "sigma": 1.1925707526180576
+    },
+    "difficulty_trend": {
+      "series": [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "ewma": [
+        0.0,
+        0.3,
+        0.21,
+        0.147
+      ],
+      "sigma": 0.4188463322031124
+    },
+    "forecast": {
+      "quality_next": 9.37,
+      "quality_band": [
+        7.032561324868606,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2022-06-23T00:00:00",
+      "materia": "CIRCUITOS Y MÁQUINAS ELÉCTRICAS",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Uno de los mejores maestros que me han tocado"
+    },
+    {
+      "fecha_iso": "2019-01-11T00:00:00",
+      "materia": "MAQUINAS ELECTRICAS",
+      "calidad": 7.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Es muy buen maestro, tiene vocación, si le pones atención aprenderás mucho y aparte te pondrá buena calificación, nomas que para subir calificación no se presta, lo que te sacaste si pasas eso te pondrá, Toma mucho en cuenta la asistencia"
+    },
+    {
+      "fecha_iso": "2018-12-17T00:00:00",
+      "materia": "MÁQUINAS ELÉCTRICAS",
+      "calidad": 10.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Muy buen maestro"
+    },
+    {
+      "fecha_iso": "2018-12-14T00:00:00",
+      "materia": "MÁQUINAS ELÉCTRICAS",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Excelente profesor; Stephen Chapman es su Dios. Dibuja muy bien y da clases muy claras. Los exámenes son sencillos y si le pides explicación, te la da sin dudarlo."
+    },
+    {
+      "fecha_iso": "2018-08-22T00:00:00",
+      "materia": "MÁQUINAS ELÉCTRICAS",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Excelente maestro. Experiencia en sus materias y calidad al dar clase. Si no te gusta la materia el hará que la ames."
+    }
+  ],
+  "comments_recent": [
+    "Uno de los mejores maestros que me han tocado",
+    "Es muy buen maestro, tiene vocación, si le pones atención aprenderás mucho y aparte te pondrá buena calificación, nomas que para subir calificación no se presta, lo que te sacaste si pasas eso te pondrá, Toma mucho en cuenta la asistencia",
+    "Muy buen maestro",
+    "Excelente profesor; Stephen Chapman es su Dios. Dibuja muy bien y da clases muy claras. Los exámenes son sencillos y si le pides explicación, te la da sin dudarlo.",
+    "Excelente maestro. Experiencia en sus materias y calidad al dar clase. Si no te gusta la materia el hará que la ames."
+  ],
+  "n_reviews": 5
+}

@@ -1,0 +1,164 @@
+{
+  "professor_id": "Jesus_Ramon_Villarreal_Madrid",
+  "nombre": "Jesus Ramon Villarreal Madrid",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 9.830658788582157,
+    "difficulty_decayed": 0.21330979254128501
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.445037916254533,
+    "difficulty_bayes": 2.802769535113749
+  },
+  "recommendation_analysis": {
+    "rate": 0.9,
+    "wilson_interval": [
+      0.46293644258926075,
+      0.9894703616090744
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": 0.05,
+    "z_mean_decayed": 0.99,
+    "per_subject": [
+      {
+        "materia": "MÉTODOS NUMÉRICOS",
+        "z_decayed": 1.055008757433259,
+        "n": 5
+      },
+      {
+        "materia": "METODOS NUMERICOS",
+        "z_decayed": -0.46344470185275616,
+        "n": 7
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [],
+    "sentiment": {
+      "overall": 0.0,
+      "by_month": {
+        "2022-02": 0.0,
+        "2019-11": 0.0,
+        "2011-05": 0.0,
+        "2011-04": 0.0
+      }
+    },
+    "n_comments": 4
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        7.0,
+        8.0,
+        4.0,
+        10.0,
+        10.0
+      ],
+      "ewma": [
+        7.0,
+        7.299999999999999,
+        6.309999999999999,
+        7.416999999999999,
+        8.191899999999999
+      ],
+      "sigma": 1.8854913927143768
+    },
+    "difficulty_trend": {
+      "series": [
+        6.0,
+        2.0,
+        6.0,
+        0.0,
+        0.0
+      ],
+      "ewma": [
+        6.0,
+        4.799999999999999,
+        5.159999999999998,
+        3.6119999999999988,
+        2.528399999999999
+      ],
+      "sigma": 1.927540824989188
+    },
+    "forecast": {
+      "quality_next": 8.191899999999999,
+      "quality_band": [
+        4.49633687027982,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2022-02-02T00:00:00",
+      "materia": "MÉTODOS NUMÉRICOS",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Dejo proyecto final a mediados de semestre y desapareció XD"
+    },
+    {
+      "fecha_iso": "2019-11-14T00:00:00",
+      "materia": "COMPUTACION 1,2, MÉTODOS NUMÉRICOS",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Yo no sé, preguntele a la maquina.\n\nEl mejor profe de el ramo"
+    },
+    {
+      "fecha_iso": "2011-05-07T00:00:00",
+      "materia": "METODOS NUMERICOS",
+      "calidad": 4.0,
+      "dificultad": 6.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": "no sabe"
+    },
+    {
+      "fecha_iso": "2011-04-07T00:00:00",
+      "materia": "METODOS NUMERICOS",
+      "calidad": 8.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Udnooo!! ta buena la tamboraa!! Miraaa!! Queee biiienn!! Usen la calculadora PORQ SE OXIDAA!! jaja como olvidar esas frases!! Carguen con el muchachos no la piensen."
+    },
+    {
+      "fecha_iso": "2011-02-20T00:00:00",
+      "materia": "LOGICA DE PROGRAMACION",
+      "calidad": 7.0,
+      "dificultad": 6.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": ""
+    }
+  ],
+  "comments_recent": [
+    "Dejo proyecto final a mediados de semestre y desapareció XD",
+    "Yo no sé, preguntele a la maquina.\n\nEl mejor profe de el ramo",
+    "no sabe",
+    "Udnooo!! ta buena la tamboraa!! Miraaa!! Queee biiienn!! Usen la calculadora PORQ SE OXIDAA!! jaja como olvidar esas frases!! Carguen con el muchachos no la piensen."
+  ],
+  "n_reviews": 5
+}

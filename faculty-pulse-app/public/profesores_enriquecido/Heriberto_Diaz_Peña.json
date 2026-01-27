@@ -1,0 +1,126 @@
+{
+  "professor_id": "Heriberto_Diaz_Peña",
+  "nombre": "Heriberto Diaz Peña",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 9.393867861998908,
+    "difficulty_decayed": 2.4245285520043676
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.74427451875523,
+    "difficulty_bayes": 2.7724263866697103
+  },
+  "recommendation_analysis": {
+    "rate": 1.0,
+    "wilson_interval": [
+      0.4384939195509822,
+      1
+    ],
+    "n_recommendations": 3
+  },
+  "subject_normalization": {
+    "z_mean": 0.65,
+    "z_mean_decayed": 0.65,
+    "per_subject": [
+      {
+        "materia": "PROBABILIDAD Y ESTADÍSTICA",
+        "z_decayed": 0.7245688373094719,
+        "n": 8
+      },
+      {
+        "materia": "ESTADÍSTICA INFERENCIAL",
+        "z_decayed": 0.5773502691896257,
+        "n": 3
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [],
+    "sentiment": {
+      "overall": null,
+      "by_month": {}
+    },
+    "n_comments": 1
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        8.0,
+        10.0
+      ],
+      "ewma": [
+        8.0,
+        8.6
+      ],
+      "sigma": 0.9899494936611668
+    },
+    "difficulty_trend": {
+      "series": [
+        8.0,
+        0.0
+      ],
+      "ewma": [
+        8.0,
+        5.6
+      ],
+      "sigma": 3.959797974644666
+    },
+    "forecast": {
+      "quality_next": 8.6,
+      "quality_band": [
+        6.659698992424113,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2019-01-15T00:00:00",
+      "materia": "ESTADÍSTICA INFERENCIAL",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2019-01-13T00:00:00",
+      "materia": "ESTADISTICA INERENCIAL",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2018-08-19T00:00:00",
+      "materia": "PROBABILIDAD Y ESTADÍSTICA",
+      "calidad": 8.0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "En clase explica muy bien pero en examen ni te dirige la palabra sus eexplicaciones son bastantes claras pero tus examenes muy enrredosos pero nada que no vieras en clase"
+    }
+  ],
+  "comments_recent": [
+    "En clase explica muy bien pero en examen ni te dirige la palabra sus eexplicaciones son bastantes claras pero tus examenes muy enrredosos pero nada que no vieras en clase"
+  ],
+  "n_reviews": 3
+}

@@ -1,0 +1,76 @@
+{
+  "professor_id": "Alfonso_Murgas_Calle",
+  "nombre": "Alfonso Murgas Calle",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 5.0,
+    "difficulty_decayed": 8.0
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.06141534034709,
+    "difficulty_bayes": 3.276503911518749
+  },
+  "recommendation_analysis": {
+    "rate": 0.5,
+    "wilson_interval": [
+      0.0546190651458835,
+      0.9453809348541165
+    ],
+    "n_recommendations": 1
+  },
+  "subject_normalization": {
+    "z_mean": -0.71,
+    "z_mean_decayed": -0.71,
+    "per_subject": [
+      {
+        "materia": "FUNDAMENTOS DE INVESTIGACION",
+        "z_decayed": -0.7142928321945867,
+        "n": 9
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [],
+    "sentiment": {
+      "overall": null,
+      "by_month": {}
+    },
+    "n_comments": 1
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": null,
+    "difficulty_trend": null,
+    "forecast": null,
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2019-01-28T00:00:00",
+      "materia": "FUNDAMENTOS DE INVESTIGACION",
+      "calidad": 5.0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": "Comenzo como un profesor estricto, puso sus reglas y entendimos que se trabajaria sobre ellas. \nFalto un dia, luego dos, luego tres y despues queria darnos clases por internet. \nJamas entendimos como iba a calificar y paso a todo el grupo con 75 despues de pelear mucho."
+    }
+  ],
+  "comments_recent": [
+    "Comenzo como un profesor estricto, puso sus reglas y entendimos que se trabajaria sobre ellas. \nFalto un dia, luego dos, luego tres y despues queria darnos clases por internet. \nJamas entendimos como iba a calificar y paso a todo el grupo con 75 despues de pelear mucho."
+  ],
+  "n_reviews": 1
+}

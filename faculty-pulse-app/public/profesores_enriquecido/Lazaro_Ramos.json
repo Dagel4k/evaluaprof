@@ -1,0 +1,182 @@
+{
+  "professor_id": "Lazaro_Ramos",
+  "nombre": "Lazaro Ramos",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 10.000000000000002,
+    "difficulty_decayed": 0.0
+  },
+  "bayes_analysis": {
+    "quality_bayes": 8.178371249587865,
+    "difficulty_bayes": 1.8694362017804156
+  },
+  "recommendation_analysis": {
+    "rate": 1.0,
+    "wilson_interval": [
+      0.565508505247919,
+      1
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": 0.75,
+    "z_mean_decayed": 0.75,
+    "per_subject": [
+      {
+        "materia": "DIBUJO INDUSTRIAL",
+        "z_decayed": 0.7481019954225724,
+        "n": 26
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "duda cargaria",
+          "toco",
+          "es",
+          "duda",
+          "te"
+        ],
+        "weight": 0.2988219106814371
+      },
+      {
+        "id": 1,
+        "words": [
+          "mejor",
+          "profesor",
+          "profesor tiene",
+          "recomendado",
+          "tiene"
+        ],
+        "weight": 0.3833844314034699
+      }
+    ],
+    "sentiment": {
+      "overall": 0.0,
+      "by_month": {
+        "2022-01": 0.0,
+        "2021-01": 0.0,
+        "2019-12": 0.0,
+        "2018-12": 0.0
+      }
+    },
+    "n_comments": 4
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 1,
+    "trust_score": 0.8
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        10.0
+      ],
+      "ewma": [
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        10.0
+      ],
+      "sigma": 0.0
+    },
+    "difficulty_trend": {
+      "series": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ewma": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sigma": 0.0
+    },
+    "forecast": {
+      "quality_next": 10.0,
+      "quality_band": [
+        10.0,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2023-12-05T00:00:00",
+      "materia": "DIBUJO INDUSTRIAL",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2022-01-20T00:00:00",
+      "materia": "DIBUJO INDUSTRIAL",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "es uno de los mejores maestro que me toco, explica de maravilla, te pone atención, es bastante accesible con los trabajos... sin duda cargaría otra vez con él"
+    },
+    {
+      "fecha_iso": "2021-01-20T00:00:00",
+      "materia": "DIBUJO INDUSTRIAL",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Este sin duda fue el mejor profe que me toco! Es bien buena onda y te escucha! Hace sus clases para que no te aburras, y si no puedes entregar el trabajo a tiempo le dices y te da chanza, sin duda cargaría con el de nuevo, profe favorito."
+    },
+    {
+      "fecha_iso": "2019-12-11T00:00:00",
+      "materia": "DIBUJO INDUSTRIAL",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "El mejor profesor que tiene el tec. Super recomendado. No lo dudes y carga con el."
+    },
+    {
+      "fecha_iso": "2018-12-07T00:00:00",
+      "materia": "DIBUJO INDUSTRIAL",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "No cualquiera tiene la certeza de estar con este profesor, tiene un gran conocimiento, sus clases son mas practicas que teóricas por lo que tiendes a entender mas y es bien sigue rollos (pistea sereno). Recomendado"
+    }
+  ],
+  "comments_recent": [
+    "es uno de los mejores maestro que me toco, explica de maravilla, te pone atención, es bastante accesible con los trabajos... sin duda cargaría otra vez con él",
+    "Este sin duda fue el mejor profe que me toco! Es bien buena onda y te escucha! Hace sus clases para que no te aburras, y si no puedes entregar el trabajo a tiempo le dices y te da chanza, sin duda cargaría con el de nuevo, profe favorito.",
+    "El mejor profesor que tiene el tec. Super recomendado. No lo dudes y carga con el.",
+    "No cualquiera tiene la certeza de estar con este profesor, tiene un gran conocimiento, sus clases son mas practicas que teóricas por lo que tiendes a entender mas y es bien sigue rollos (pistea sereno). Recomendado"
+  ],
+  "n_reviews": 5
+}

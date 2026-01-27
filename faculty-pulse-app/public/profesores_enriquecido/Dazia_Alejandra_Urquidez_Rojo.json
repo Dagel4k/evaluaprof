@@ -1,0 +1,182 @@
+{
+  "professor_id": "Dazia_Alejandra_Urquidez_Rojo",
+  "nombre": "Dazia Alejandra Urquidez Rojo",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 5.64274838534914,
+    "difficulty_decayed": 2.3573247243473876
+  },
+  "bayes_analysis": {
+    "quality_bayes": 6.711704582921199,
+    "difficulty_bayes": 2.6694362017804156
+  },
+  "recommendation_analysis": {
+    "rate": 0.4,
+    "wilson_interval": [
+      0.11761823115925325,
+      0.769280067791163
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": -0.8,
+    "z_mean_decayed": -0.79,
+    "per_subject": [
+      {
+        "materia": "TALLER DE ÉTICA",
+        "z_decayed": -0.588114943384858,
+        "n": 16
+      },
+      {
+        "materia": "ETICA",
+        "z_decayed": -1.639204027448677,
+        "n": 22
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "es",
+          "deja",
+          "deja exposiciones",
+          "exposiciones",
+          "unidad"
+        ],
+        "weight": 0.32006818785694335
+      },
+      {
+        "id": 1,
+        "words": [
+          "deja",
+          "deja exposiciones",
+          "exposiciones",
+          "unidad",
+          "es"
+        ],
+        "weight": 0.28383116717261486
+      }
+    ],
+    "sentiment": {
+      "overall": 0.0,
+      "by_month": {
+        "2026-01": 0.0,
+        "2025-12": 0.0,
+        "2025-05": 0.0
+      }
+    },
+    "n_comments": 4
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        8.0,
+        3.0,
+        7.0,
+        7.0
+      ],
+      "ewma": [
+        8.0,
+        6.5,
+        6.65,
+        6.755000000000001
+      ],
+      "sigma": 1.8549724840726523
+    },
+    "difficulty_trend": {
+      "series": [
+        0.0,
+        5.0,
+        2.0,
+        0.0
+      ],
+      "ewma": [
+        0.0,
+        1.5,
+        1.65,
+        1.1549999999999998
+      ],
+      "sigma": 1.9908765866656157
+    },
+    "forecast": {
+      "quality_next": 6.755000000000001,
+      "quality_band": [
+        3.1192539312176026,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2026-01-12T00:00:00",
+      "materia": "TALLER DE ÉTICA",
+      "calidad": 7.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Un examen por unidad de opción múltiple, se responde con sentido común. Deja exposiciones que deben seguir su formato (apa etc). Da bastante tiempo para entregar tareas. No falta, la asistencia cuenta para poder presentar examen. Su clase se basa en leer diapositivas, si entregas todo pasas."
+    },
+    {
+      "fecha_iso": "2025-12-05T00:00:00",
+      "materia": "TALLER DE ÉTICA",
+      "calidad": 7.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Es buena maestra, sus exámenes están peladisimos, deja exposiciones en cada unidad, pero te echa mucho la mano"
+    },
+    {
+      "fecha_iso": "2025-05-28T00:00:00",
+      "materia": "ETICA",
+      "calidad": 2.0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "gracias por nadota"
+    },
+    {
+      "fecha_iso": "2025-05-05T00:00:00",
+      "materia": "TALLER DE ÉTICA",
+      "calidad": 4.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": "De las peores maestras que he tenido, no carguen con ella es un dolor de cabeza"
+    },
+    {
+      "fecha_iso": "2024-11-06T00:00:00",
+      "materia": "TALLER DE ÉTICA",
+      "calidad": 8.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": ""
+    }
+  ],
+  "comments_recent": [
+    "Un examen por unidad de opción múltiple, se responde con sentido común. Deja exposiciones que deben seguir su formato (apa etc). Da bastante tiempo para entregar tareas. No falta, la asistencia cuenta para poder presentar examen. Su clase se basa en leer diapositivas, si entregas todo pasas.",
+    "Es buena maestra, sus exámenes están peladisimos, deja exposiciones en cada unidad, pero te echa mucho la mano",
+    "gracias por nadota",
+    "De las peores maestras que he tenido, no carguen con ella es un dolor de cabeza"
+  ],
+  "n_reviews": 5
+}

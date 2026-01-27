@@ -1,0 +1,187 @@
+{
+  "professor_id": "Jose_Ramon_Garcia_Villegas",
+  "nombre": "Jose Ramon Garcia Villegas",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 8.046072802141657,
+    "difficulty_decayed": 2.2477008927089344
+  },
+  "bayes_analysis": {
+    "quality_bayes": 6.9117045829212,
+    "difficulty_bayes": 2.9361028684470822
+  },
+  "recommendation_analysis": {
+    "rate": 0.38,
+    "wilson_interval": [
+      0.10797132315920568,
+      0.7563066355812937
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": 0.04,
+    "z_mean_decayed": 0.33,
+    "per_subject": [
+      {
+        "materia": "MÁQUINAS ELÉCTRICAS",
+        "z_decayed": 0.5218521343178363,
+        "n": 8
+      },
+      {
+        "materia": "ELECTRICIDAD",
+        "z_decayed": -0.447213595499958,
+        "n": 5
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "final",
+          "mas",
+          "si",
+          "aunque",
+          "te"
+        ],
+        "weight": 0.32614107884344246
+      },
+      {
+        "id": 1,
+        "words": [
+          "te",
+          "si",
+          "final",
+          "mas",
+          "clase"
+        ],
+        "weight": 0.34305429768962437
+      }
+    ],
+    "sentiment": {
+      "overall": 0.0,
+      "by_month": {
+        "2025-06": 0.0,
+        "2022-12": 0.0,
+        "2021-12": 0.0,
+        "2019-06": 0.0
+      }
+    },
+    "n_comments": 4
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        3.0,
+        3.0,
+        5.0,
+        10.0,
+        10.0
+      ],
+      "ewma": [
+        3.0,
+        2.9999999999999996,
+        3.5999999999999996,
+        5.52,
+        6.863999999999999
+      ],
+      "sigma": 1.9753002809699596
+    },
+    "difficulty_trend": {
+      "series": [
+        6.0,
+        8.0,
+        0.0,
+        0.0,
+        2.0
+      ],
+      "ewma": [
+        6.0,
+        6.6,
+        4.619999999999999,
+        3.233999999999999,
+        2.8637999999999995
+      ],
+      "sigma": 2.4392246243427436
+    },
+    "forecast": {
+      "quality_next": 6.863999999999999,
+      "quality_band": [
+        2.9924114492988783,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2025-06-04T00:00:00",
+      "materia": "MÁQUINAS ELÉCTRICAS",
+      "calidad": 10.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Muy buen profesor, te lleva a hacer varias prácticas con los motores. Te enseña los tipos de cableado ya aplicados. Cómo  proyecto final es comutar la inversión de un motor trifasico con un Arduino. Si es buena opción para maquinas. Aunque ojo, se enfoca más en la práctica el profe."
+    },
+    {
+      "fecha_iso": "2022-12-13T00:00:00",
+      "materia": "TRANSFORMADORES",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "ES UN ING. DE EXPERIENCIA, TIENEN UN CV AMPLIO EN COMPAÑIAS QUE A TRABAJADO, LAS CLASES VAN TOMANDO APOYO DE HISTORIAS DE EXPERIENCIA PROFESIONAL, SE COMPLEMENTAN MUY BIEN, TOMARIA LA CLASE OTRA VEZ, SALUDOS."
+    },
+    {
+      "fecha_iso": "2021-12-16T00:00:00",
+      "materia": "CENTRALES ELÉCTRICAS.",
+      "calidad": 5.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": "Es barquisimo. Le interesa mas armar sus trenes que la clase. Con nosotros nos dividió en grupos y nos puso a exponer durante el semestre y las exposiciones le valían. Puso lo que quiso. Si quieres puntos extra podrias ofrecerte a ayudarlo dando un portafolio de evidencias al final del semestre."
+    },
+    {
+      "fecha_iso": "2021-05-11T00:00:00",
+      "materia": "ELECTRICIDAD",
+      "calidad": 3.0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2019-06-07T00:00:00",
+      "materia": "ANÁLISIS DE CIRCUITOS",
+      "calidad": 3.0,
+      "dificultad": 6.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Es una basura uno de los peores profesores del tec, si no eres de los que le andan mamando el boli te manda a global aunque hayas pasado los exámenes anteriores. Pide a sus alumnos que le hagan un favor o algo para que los pueda pasar con 70."
+    }
+  ],
+  "comments_recent": [
+    "Muy buen profesor, te lleva a hacer varias prácticas con los motores. Te enseña los tipos de cableado ya aplicados. Cómo  proyecto final es comutar la inversión de un motor trifasico con un Arduino. Si es buena opción para maquinas. Aunque ojo, se enfoca más en la práctica el profe.",
+    "ES UN ING. DE EXPERIENCIA, TIENEN UN CV AMPLIO EN COMPAÑIAS QUE A TRABAJADO, LAS CLASES VAN TOMANDO APOYO DE HISTORIAS DE EXPERIENCIA PROFESIONAL, SE COMPLEMENTAN MUY BIEN, TOMARIA LA CLASE OTRA VEZ, SALUDOS.",
+    "Es barquisimo. Le interesa mas armar sus trenes que la clase. Con nosotros nos dividió en grupos y nos puso a exponer durante el semestre y las exposiciones le valían. Puso lo que quiso. Si quieres puntos extra podrias ofrecerte a ayudarlo dando un portafolio de evidencias al final del semestre.",
+    "Es una basura uno de los peores profesores del tec, si no eres de los que le andan mamando el boli te manda a global aunque hayas pasado los exámenes anteriores. Pide a sus alumnos que le hagan un favor o algo para que los pueda pasar con 70."
+  ],
+  "n_reviews": 5
+}

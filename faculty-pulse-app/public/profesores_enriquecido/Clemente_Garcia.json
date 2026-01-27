@@ -1,0 +1,80 @@
+{
+  "professor_id": "Clemente_Garcia",
+  "nombre": "Clemente Garcia",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 9.999999999999998,
+    "difficulty_decayed": 5.999999999999999
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.7229640619848325,
+    "difficulty_bayes": 3.3367952522255195
+  },
+  "recommendation_analysis": {
+    "rate": 1.0,
+    "wilson_interval": [
+      0.3423719528896193,
+      1
+    ],
+    "n_recommendations": 2
+  },
+  "subject_normalization": {
+    "z_mean": null,
+    "z_mean_decayed": null,
+    "per_subject": []
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [],
+    "sentiment": {
+      "overall": null,
+      "by_month": {}
+    },
+    "n_comments": 2
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": null,
+    "difficulty_trend": null,
+    "forecast": null,
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2023-12-14T00:00:00",
+      "materia": "TÓPICOS AVANZADOS DE PROGRAMACIÓN",
+      "calidad": 10.0,
+      "dificultad": 6.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "De los mejores profesores que tiene sistemas, tiene un excelente dominio de los temas, si entiendes lo de las materias anteriores no se te deberia hacer dificil el curso, es mas la mala fama que le hacen los huevones que lo que es realmente, por lo que si te interesa aprender, debes de cargar con el"
+    },
+    {
+      "fecha_iso": "2023-01-25T00:00:00",
+      "materia": "TOPICOS/ESTRUCTURA",
+      "calidad": 10.0,
+      "dificultad": 6.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "El mejor profesor de programacion que tiene el TEC, es mas la \"mala fama\" que tiene que lo que es. Solo ve a todas las clases, has los trabajores y procura no hacer un cochinero en el examen y vas a pasar"
+    }
+  ],
+  "comments_recent": [
+    "De los mejores profesores que tiene sistemas, tiene un excelente dominio de los temas, si entiendes lo de las materias anteriores no se te deberia hacer dificil el curso, es mas la mala fama que le hacen los huevones que lo que es realmente, por lo que si te interesa aprender, debes de cargar con el",
+    "El mejor profesor de programacion que tiene el TEC, es mas la \"mala fama\" que tiene que lo que es. Solo ve a todas las clases, has los trabajores y procura no hacer un cochinero en el examen y vas a pasar"
+  ],
+  "n_reviews": 2
+}

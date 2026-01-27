@@ -1,0 +1,194 @@
+{
+  "professor_id": "Elizabeth_Barraza_Garcia",
+  "nombre": "Elizabeth Barraza Garcia",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 9.061137721129185,
+    "difficulty_decayed": 2.2211823094315157
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.9117045829212,
+    "difficulty_bayes": 2.5361028684470823
+  },
+  "recommendation_analysis": {
+    "rate": 0.87,
+    "wilson_interval": [
+      0.43540359569738984,
+      0.9830726981860702
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": 0.74,
+    "z_mean_decayed": 0.73,
+    "per_subject": [
+      {
+        "materia": "CULTURA EMPRESARIAL",
+        "z_decayed": 0.851942751370597,
+        "n": 6
+      },
+      {
+        "materia": "DESARROLLO SUSTENTABLE",
+        "z_decayed": 0.8180497196318002,
+        "n": 27
+      },
+      {
+        "materia": "FLOJA",
+        "z_decayed": 0.43915503282683993,
+        "n": 4
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "es",
+          "es buena",
+          "maestra",
+          "te",
+          "buena"
+        ],
+        "weight": 0.27802122161513243
+      },
+      {
+        "id": 1,
+        "words": [
+          "floja",
+          "maestros",
+          "minutos",
+          "da",
+          "clases"
+        ],
+        "weight": 0.34568410480201206
+      }
+    ],
+    "sentiment": {
+      "overall": 0.2,
+      "by_month": {
+        "2023-01": 0.0,
+        "2022-08": 1.0,
+        "2022-06": 0.0,
+        "2022-05": 0.0,
+        "2021-05": 0.0
+      }
+    },
+    "n_comments": 5
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        10.0,
+        10.0,
+        9.0,
+        10.0,
+        7.0
+      ],
+      "ewma": [
+        10.0,
+        10.0,
+        9.7,
+        9.79,
+        8.953
+      ],
+      "sigma": 0.8880680154132339
+    },
+    "difficulty_trend": {
+      "series": [
+        0.0,
+        0.0,
+        4.0,
+        2.0,
+        4.0
+      ],
+      "ewma": [
+        0.0,
+        0.0,
+        1.2,
+        1.44,
+        2.208
+      ],
+      "sigma": 1.2304717794407152
+    },
+    "forecast": {
+      "quality_next": 8.953,
+      "quality_band": [
+        7.212386689790061,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2023-01-07T00:00:00",
+      "materia": "FLOJA",
+      "calidad": 7.0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Es escandalosamente floja, este semestre los inicio 1 semanas de atraso, da clases de 25 minutos ,\n termino el semestre 4 semanas antes de lo programado.\n No entiendo por qué las autoridades no hacen algo con estos maestros flojos y eso que son ejemplo de uno."
+    },
+    {
+      "fecha_iso": "2022-08-18T00:00:00",
+      "materia": "CULTURA EMPRESARIAL",
+      "calidad": 10.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Fue una maestra que para lo personal fue excelente, te enseña lo que es la vida laboral realmente, a problemas que te puedes enfrentar , ademas de darte consejos que te ayudaran con tu vida laboral. Si tienes la oportunidad de cargar con ella, es muy buena opcion."
+    },
+    {
+      "fecha_iso": "2022-06-17T00:00:00",
+      "materia": "DESARROLLO SUSTENTABLE",
+      "calidad": 9.0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Es buena maestra pero a veces se pasa un poco a la hora de calificar y te deja muchas exposiciones"
+    },
+    {
+      "fecha_iso": "2022-05-23T00:00:00",
+      "materia": "CULTURA EMPRESARIAL",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Buena profesora para esta materia de relleno"
+    },
+    {
+      "fecha_iso": "2021-05-20T00:00:00",
+      "materia": "CLASES A DISTANCIA",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Clases presenciales nunca Da. Llega tarde, sale a prepararse el cafecito, chismea y regresa y habla 10 minutos de su vida exitosa. \nPero en clases a distancias es una chingoneria, se atreve a insinuar que otros maestros no trabajan y ella si. Vieja floja da clases presenciales bien y depues habla."
+    }
+  ],
+  "comments_recent": [
+    "Es escandalosamente floja, este semestre los inicio 1 semanas de atraso, da clases de 25 minutos ,\n termino el semestre 4 semanas antes de lo programado.\n No entiendo por qué las autoridades no hacen algo con estos maestros flojos y eso que son ejemplo de uno.",
+    "Fue una maestra que para lo personal fue excelente, te enseña lo que es la vida laboral realmente, a problemas que te puedes enfrentar , ademas de darte consejos que te ayudaran con tu vida laboral. Si tienes la oportunidad de cargar con ella, es muy buena opcion.",
+    "Es buena maestra pero a veces se pasa un poco a la hora de calificar y te deja muchas exposiciones",
+    "Buena profesora para esta materia de relleno",
+    "Clases presenciales nunca Da. Llega tarde, sale a prepararse el cafecito, chismea y regresa y habla 10 minutos de su vida exitosa. \nPero en clases a distancias es una chingoneria, se atreve a insinuar que otros maestros no trabajan y ella si. Vieja floja da clases presenciales bien y depues habla."
+  ],
+  "n_reviews": 5
+}

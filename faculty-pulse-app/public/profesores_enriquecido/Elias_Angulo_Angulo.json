@@ -1,0 +1,185 @@
+{
+  "professor_id": "Elias_Angulo_Angulo",
+  "nombre": "Elias Angulo Angulo",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 8.33115516426041,
+    "difficulty_decayed": 4.2810317191706915
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.578371249587866,
+    "difficulty_bayes": 3.3361028684470826
+  },
+  "recommendation_analysis": {
+    "rate": 1.0,
+    "wilson_interval": [
+      0.565508505247919,
+      1
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": 0.34,
+    "z_mean_decayed": 0.38,
+    "per_subject": [
+      {
+        "materia": "PROBABILIDAD Y ESTADISTICA",
+        "z_decayed": 0.9178707160657958,
+        "n": 19
+      },
+      {
+        "materia": "PROBABILIDAD",
+        "z_decayed": 0.6836559403266642,
+        "n": 7
+      },
+      {
+        "materia": "ESTADISTICA",
+        "z_decayed": -1.154700538379252,
+        "n": 3
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "buen",
+          "buen maestro",
+          "maestro"
+        ],
+        "weight": 0.25804049534609425
+      },
+      {
+        "id": 1,
+        "words": [
+          "buen maestro",
+          "maestro",
+          "buen"
+        ],
+        "weight": 0.22783687395103952
+      }
+    ],
+    "sentiment": {
+      "overall": 0.2,
+      "by_month": {
+        "2011-12": 0.0,
+        "2011-10": 1.0,
+        "2011-05": 0.0,
+        "2011-04": 0.0
+      }
+    },
+    "n_comments": 5
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        10.0,
+        5.5,
+        10.0,
+        10.0
+      ],
+      "ewma": [
+        10.0,
+        8.65,
+        9.055,
+        9.3385
+      ],
+      "sigma": 1.8848084949140063
+    },
+    "difficulty_trend": {
+      "series": [
+        8.0,
+        4.0,
+        4.0,
+        2.0
+      ],
+      "ewma": [
+        8.0,
+        6.8,
+        5.96,
+        4.771999999999999
+      ],
+      "sigma": 1.3143855345115956
+    },
+    "forecast": {
+      "quality_next": 9.3385,
+      "quality_band": [
+        5.644275349968547,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2011-12-12T00:00:00",
+      "materia": "PROBABILIDAD Y ESTADISTICA",
+      "calidad": 10.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "es muy buen maestro"
+    },
+    {
+      "fecha_iso": "2011-10-28T00:00:00",
+      "materia": "PROBABILIDAD",
+      "calidad": 10.0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "excelente"
+    },
+    {
+      "fecha_iso": "2011-05-10T00:00:00",
+      "materia": "PROB. Y EST.",
+      "calidad": 3.0,
+      "dificultad": 6.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "buen maestro"
+    },
+    {
+      "fecha_iso": "2011-05-07T00:00:00",
+      "materia": "ESTADISTICA",
+      "calidad": 8.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "buen profesor"
+    },
+    {
+      "fecha_iso": "2011-04-30T00:00:00",
+      "materia": "PROBABILIDAD Y ESTADISTICA",
+      "calidad": 10.0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Siempre explica cosas tan fácil que con abacos lo resuelves y en los examenes siempre lee revistas y no mira a los alumnos, asi que si no sabes NADA el de a lado te pasa todo, y con lo facil que esta pues pasas."
+    }
+  ],
+  "comments_recent": [
+    "es muy buen maestro",
+    "excelente",
+    "buen maestro",
+    "buen profesor",
+    "Siempre explica cosas tan fácil que con abacos lo resuelves y en los examenes siempre lee revistas y no mira a los alumnos, asi que si no sabes NADA el de a lado te pasa todo, y con lo facil que esta pues pasas."
+  ],
+  "n_reviews": 5
+}

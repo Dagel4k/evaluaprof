@@ -1,0 +1,166 @@
+{
+  "professor_id": "aristeo_lopez_monroy",
+  "nombre": "aristeo lopez monroy",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 8.598530420688094,
+    "difficulty_decayed": 2.4375609023416795
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.778371249587866,
+    "difficulty_bayes": 2.5361028684470823
+  },
+  "recommendation_analysis": {
+    "rate": 0.83,
+    "wilson_interval": [
+      0.4004968475975438,
+      0.9727387658660827
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": 0.13,
+    "z_mean_decayed": 0.14,
+    "per_subject": [
+      {
+        "materia": "FORMULACIÓN Y EVALUACIÓN DE PROYECTOS",
+        "z_decayed": 0.5,
+        "n": 4
+      },
+      {
+        "materia": "---",
+        "z_decayed": -0.23876441006470966,
+        "n": 80
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [],
+    "sentiment": {
+      "overall": 0.0,
+      "by_month": {
+        "2014-06": 0.0,
+        "2014-01": 0.0,
+        "2013-11": 0.0,
+        "2012-05": 0.0,
+        "2012-03": 0.0
+      }
+    },
+    "n_comments": 5
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        10.0,
+        10.0,
+        5.0,
+        10.0,
+        9.0
+      ],
+      "ewma": [
+        10.0,
+        10.0,
+        8.5,
+        8.95,
+        8.964999999999998
+      ],
+      "sigma": 1.745514250872791
+    },
+    "difficulty_trend": {
+      "series": [
+        0.0,
+        0.0,
+        2.0,
+        6.0,
+        2.0
+      ],
+      "ewma": [
+        0.0,
+        0.0,
+        0.6,
+        2.2199999999999998,
+        2.154
+      ],
+      "sigma": 1.674811989448368
+    },
+    "forecast": {
+      "quality_next": 8.964999999999998,
+      "quality_band": [
+        5.543792068289328,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2014-06-21T00:00:00",
+      "materia": "ING ECONÓMICA",
+      "calidad": 9.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Muy recomendado"
+    },
+    {
+      "fecha_iso": "2014-01-17T00:00:00",
+      "materia": "FORMULACIÓN Y EVALUACIÓN DE PROYECTOS",
+      "calidad": 10.0,
+      "dificultad": 6.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Muy preparado, muy buen curriculum y muy buen dominio sobre sus materias."
+    },
+    {
+      "fecha_iso": "2013-11-14T00:00:00",
+      "materia": "---",
+      "calidad": 5.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2012-05-16T00:00:00",
+      "materia": "2002/ING ECONÓMICA",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Mis respetos para este maestro, conozco el nivel de preparación con el que cuenta, el dominio de los temas que imparte, transmiten seguridad al alumnado"
+    },
+    {
+      "fecha_iso": "2012-03-05T00:00:00",
+      "materia": "ING. ECONOMICA",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "EL ING.LOPEZ MONROY ES UNO DE LOS CATEDRATICOS MAS PREPARADOS DENTRO DE LA INSTITUCION Y ES PARA MI UN ORGULLO HABER CURSADO ALGUNAS ASIGNATURAS CON EL."
+    }
+  ],
+  "comments_recent": [
+    "Muy recomendado",
+    "Muy preparado, muy buen curriculum y muy buen dominio sobre sus materias.",
+    "[Comentario esperando revisión]",
+    "Mis respetos para este maestro, conozco el nivel de preparación con el que cuenta, el dominio de los temas que imparte, transmiten seguridad al alumnado",
+    "EL ING.LOPEZ MONROY ES UNO DE LOS CATEDRATICOS MAS PREPARADOS DENTRO DE LA INSTITUCION Y ES PARA MI UN ORGULLO HABER CURSADO ALGUNAS ASIGNATURAS CON EL."
+  ],
+  "n_reviews": 5
+}

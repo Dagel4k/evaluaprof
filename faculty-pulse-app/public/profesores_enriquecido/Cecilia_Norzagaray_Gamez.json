@@ -1,0 +1,192 @@
+{
+  "professor_id": "Cecilia_Norzagaray_Gamez",
+  "nombre": "Cecilia Norzagaray Gamez",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 8.88494282188763,
+    "difficulty_decayed": 1.2112093951993619
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.978371249587866,
+    "difficulty_bayes": 2.1361028684470824
+  },
+  "recommendation_analysis": {
+    "rate": 0.73,
+    "wilson_interval": [
+      0.3208342172265497,
+      0.9392996951874932
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": 0.48,
+    "z_mean_decayed": 0.37,
+    "per_subject": [
+      {
+        "materia": "PROBABILIDAD",
+        "z_decayed": 0.6836559403266642,
+        "n": 7
+      },
+      {
+        "materia": "ESTADÍSTICA",
+        "z_decayed": 0.5,
+        "n": 4
+      },
+      {
+        "materia": "PROBABILIDAD Y ESTADISTICA",
+        "z_decayed": 0.23467496017151793,
+        "n": 19
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "justa",
+          "tiene buen",
+          "realmente",
+          "caracter",
+          "tiene"
+        ],
+        "weight": 0.4169620344123667
+      },
+      {
+        "id": 1,
+        "words": [
+          "caracter",
+          "tiene",
+          "examen",
+          "profesora",
+          "si"
+        ],
+        "weight": 0.2667185082737316
+      }
+    ],
+    "sentiment": {
+      "overall": 0.25,
+      "by_month": {
+        "2022-03": 0.0,
+        "2017-08": 0.0,
+        "2017-06": 0.0,
+        "2015-07": 1.0
+      }
+    },
+    "n_comments": 4
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        10.0,
+        9.0,
+        10.0,
+        10.0,
+        8.0
+      ],
+      "ewma": [
+        10.0,
+        9.7,
+        9.79,
+        9.852999999999998,
+        9.297099999999999
+      ],
+      "sigma": 0.6519570169880833
+    },
+    "difficulty_trend": {
+      "series": [
+        0.0,
+        2.0,
+        0.0,
+        0.0,
+        2.0
+      ],
+      "ewma": [
+        0.0,
+        0.6,
+        0.42,
+        0.294,
+        0.8058
+      ],
+      "sigma": 0.8576011940290195
+    },
+    "forecast": {
+      "quality_next": 9.297099999999999,
+      "quality_band": [
+        8.019264246703356,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2022-03-30T00:00:00",
+      "materia": "PROBABILIDAD Y ESTADISTICA",
+      "calidad": 8.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "La profesora no cuenta asistencia, Trabajos, Participaciones, Solo califica con un Examen y si sales mal por mera casualidad, El rc es hasta el final de semestre"
+    },
+    {
+      "fecha_iso": "2020-01-30T00:00:00",
+      "materia": "PROBABILIDAD",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2017-08-30T00:00:00",
+      "materia": "PROBABILIDAD Y EST, ESTADISTICA INFERENCIAL 1, Y 2",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Es de las maestras con mejor calidad humana. Es realmente buena con los alumnos, explica claramente todos los temas, se ve que los estudia primero y los hace claros para nosotros. Le tengo mucho aprecio porque siempre estaba preocupada por que aprendieramos. De las mejores ?"
+    },
+    {
+      "fecha_iso": "2017-06-08T00:00:00",
+      "materia": "PROBABILIDAD Y ESTADISTICA",
+      "calidad": 9.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "una excelente profesora, no esta difícil pero tienes que prestarle atención, tiene un carácter demasiado agradable y es muy buena enseñando, es justa calificando, eso si, no se les ocurra copiar en un examen de ella porque aunque tiene buen carácter te manda directo a recursamiento."
+    },
+    {
+      "fecha_iso": "2015-07-17T00:00:00",
+      "materia": "ESTADÍSTICA",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Esta maestra es excelente, prepara muy bien sus clases, tiene muy buen carácter y es justa en las calificaciones, realmente me gusta."
+    }
+  ],
+  "comments_recent": [
+    "La profesora no cuenta asistencia, Trabajos, Participaciones, Solo califica con un Examen y si sales mal por mera casualidad, El rc es hasta el final de semestre",
+    "Es de las maestras con mejor calidad humana. Es realmente buena con los alumnos, explica claramente todos los temas, se ve que los estudia primero y los hace claros para nosotros. Le tengo mucho aprecio porque siempre estaba preocupada por que aprendieramos. De las mejores ?",
+    "una excelente profesora, no esta difícil pero tienes que prestarle atención, tiene un carácter demasiado agradable y es muy buena enseñando, es justa calificando, eso si, no se les ocurra copiar en un examen de ella porque aunque tiene buen carácter te manda directo a recursamiento.",
+    "Esta maestra es excelente, prepara muy bien sus clases, tiene muy buen carácter y es justa en las calificaciones, realmente me gusta."
+  ],
+  "n_reviews": 5
+}

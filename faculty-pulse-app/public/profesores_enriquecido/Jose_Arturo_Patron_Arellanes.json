@@ -1,0 +1,156 @@
+{
+  "professor_id": "Jose_Arturo_Patron_Arellanes",
+  "nombre": "Jose Arturo Patron Arellanes",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 4.821734151406678,
+    "difficulty_decayed": 5.1782658485933215
+  },
+  "bayes_analysis": {
+    "quality_bayes": 6.445037916254533,
+    "difficulty_bayes": 3.602769535113749
+  },
+  "recommendation_analysis": {
+    "rate": 0.57,
+    "wilson_interval": [
+      0.21183736673309703,
+      0.8673338240016116
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": -0.12,
+    "z_mean_decayed": -0.12,
+    "per_subject": [
+      {
+        "materia": "---",
+        "z_decayed": 1.2772000982826541,
+        "n": 80
+      },
+      {
+        "materia": "MATEMATICAS I",
+        "z_decayed": -0.43915503282684,
+        "n": 4
+      },
+      {
+        "materia": "MATE",
+        "z_decayed": -0.5773502691896257,
+        "n": 3
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [],
+    "sentiment": {
+      "overall": 0.2,
+      "by_month": {
+        "2011-05": 0.25,
+        "2011-04": 0.0
+      }
+    },
+    "n_comments": 5
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        2.0,
+        5.5
+      ],
+      "ewma": [
+        2.0,
+        3.05
+      ],
+      "sigma": 1.7324116139070416
+    },
+    "difficulty_trend": {
+      "series": [
+        8.0,
+        4.5
+      ],
+      "ewma": [
+        8.0,
+        6.949999999999999
+      ],
+      "sigma": 1.732411613907041
+    },
+    "forecast": {
+      "quality_next": 3.05,
+      "quality_band": [
+        0.0,
+        6.445526763257801
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2011-05-25T00:00:00",
+      "materia": "---",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2011-05-10T00:00:00",
+      "materia": "MATEMATICAS I",
+      "calidad": 4.0,
+      "dificultad": 6.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": "buena onda"
+    },
+    {
+      "fecha_iso": "2011-05-06T00:00:00",
+      "materia": "MATEMATICAS I",
+      "calidad": 6.0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": "bueno"
+    },
+    {
+      "fecha_iso": "2011-05-06T00:00:00",
+      "materia": "MATEMATICAS I",
+      "calidad": 2.0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "alisten un buchanan"
+    },
+    {
+      "fecha_iso": "2011-04-30T00:00:00",
+      "materia": "MATE",
+      "calidad": 2.0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Pues sus materias estaban relativamente faciles. Solo ocupas guardar para pagarle el verano o para su buchanna's"
+    }
+  ],
+  "comments_recent": [
+    "[Comentario esperando revisión]",
+    "buena onda",
+    "bueno",
+    "alisten un buchanan",
+    "Pues sus materias estaban relativamente faciles. Solo ocupas guardar para pagarle el verano o para su buchanna's"
+  ],
+  "n_reviews": 5
+}

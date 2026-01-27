@@ -1,0 +1,187 @@
+{
+  "professor_id": "Margarito_Niebla_Bobadilla",
+  "nombre": "Margarito Niebla Bobadilla",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 7.215669156347656,
+    "difficulty_decayed": 0.8251396128952931
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.311704582921199,
+    "difficulty_bayes": 2.1361028684470824
+  },
+  "recommendation_analysis": {
+    "rate": 0.71,
+    "wilson_interval": [
+      0.3060474596471615,
+      0.9314661125569644
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": 0.73,
+    "z_mean_decayed": 0.77,
+    "per_subject": [
+      {
+        "materia": "ANALISIS DE LA REALIDAD NACIONAL",
+        "z_decayed": 0.8333333333333334,
+        "n": 4
+      },
+      {
+        "materia": "ETICA",
+        "z_decayed": 0.635006965588226,
+        "n": 22
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "buen",
+          "buen maestro",
+          "maestro",
+          "te",
+          "clases"
+        ],
+        "weight": 0.42438398055465454
+      },
+      {
+        "id": 1,
+        "words": [
+          "buen maestro",
+          "maestro",
+          "si",
+          "calificacion",
+          "examenes"
+        ],
+        "weight": 0.27420592302686786
+      }
+    ],
+    "sentiment": {
+      "overall": 0.0,
+      "by_month": {
+        "2022-12": 0.0,
+        "2021-06": 0.0,
+        "2021-01": 0.0,
+        "2016-01": 0.0
+      }
+    },
+    "n_comments": 4
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        8.0,
+        10.0,
+        9.0,
+        2.0,
+        8.0
+      ],
+      "ewma": [
+        8.0,
+        8.6,
+        8.719999999999999,
+        6.703999999999999,
+        7.092799999999999
+      ],
+      "sigma": 2.4542238789482917
+    },
+    "difficulty_trend": {
+      "series": [
+        2.0,
+        0.0,
+        0.0,
+        0.0,
+        2.0
+      ],
+      "ewma": [
+        2.0,
+        1.4,
+        0.9799999999999999,
+        0.6859999999999998,
+        1.0801999999999998
+      ],
+      "sigma": 0.9104659730050322
+    },
+    "forecast": {
+      "quality_next": 7.092799999999999,
+      "quality_band": [
+        2.282521197261347,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2022-12-24T00:00:00",
+      "materia": "ANALISIS DE LA REALIDAD NACIONAL",
+      "calidad": 8.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Si haces apuntes en sus clases ya pasaste, a pesar de que sus clases son muy largas tiene una manera de mantener la atención de los estudiantes muy fácilmente.\nTe motiva a ser mejor persona y mejor estudiante, recomendadisimo."
+    },
+    {
+      "fecha_iso": "2021-06-04T00:00:00",
+      "materia": "ANALISIS",
+      "calidad": 2.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Califica como le da la gana, no da oportunidad de subir la calificación, los exámenes son preguntas abiertas y dificiles."
+    },
+    {
+      "fecha_iso": "2021-01-19T00:00:00",
+      "materia": "ETICA",
+      "calidad": 9.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Es buen maestro, ya es grande y sus clases las explica con ejemplos de la vida real. Los examenes los hace algo confusos y te baja la calificación, pero eso si, no reprueba a nadie."
+    },
+    {
+      "fecha_iso": "2020-09-21T00:00:00",
+      "materia": "ADMIN",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2016-01-18T00:00:00",
+      "materia": "DESARROLLO PROFESIONAL",
+      "calidad": 8.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Buen maestro, a veces enfada  por que repite mucho, pero de tanto que repite se te queda pegado lo que dices"
+    }
+  ],
+  "comments_recent": [
+    "Si haces apuntes en sus clases ya pasaste, a pesar de que sus clases son muy largas tiene una manera de mantener la atención de los estudiantes muy fácilmente.\nTe motiva a ser mejor persona y mejor estudiante, recomendadisimo.",
+    "Califica como le da la gana, no da oportunidad de subir la calificación, los exámenes son preguntas abiertas y dificiles.",
+    "Es buen maestro, ya es grande y sus clases las explica con ejemplos de la vida real. Los examenes los hace algo confusos y te baja la calificación, pero eso si, no reprueba a nadie.",
+    "Buen maestro, a veces enfada  por que repite mucho, pero de tanto que repite se te queda pegado lo que dices"
+  ],
+  "n_reviews": 5
+}

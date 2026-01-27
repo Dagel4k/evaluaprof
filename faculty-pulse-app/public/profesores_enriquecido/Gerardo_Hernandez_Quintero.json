@@ -1,0 +1,199 @@
+{
+  "professor_id": "Gerardo_Hernandez_Quintero",
+  "nombre": "Gerardo Hernandez Quintero",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 8.125924902790421,
+    "difficulty_decayed": 0.9108346168208983
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.578371249587866,
+    "difficulty_bayes": 2.1361028684470824
+  },
+  "recommendation_analysis": {
+    "rate": 0.83,
+    "wilson_interval": [
+      0.4004968475975438,
+      0.9727387658660827
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": 0.58,
+    "z_mean_decayed": 0.55,
+    "per_subject": [
+      {
+        "materia": "FUNDAMENTOS DE INVESTIGACION",
+        "z_decayed": 1.2946557583526888,
+        "n": 9
+      },
+      {
+        "materia": "DESARROLLO SUSTENTABLE",
+        "z_decayed": 0.3827510398488626,
+        "n": 27
+      },
+      {
+        "materia": "ÉTICA",
+        "z_decayed": 0.35355339059327373,
+        "n": 8
+      },
+      {
+        "materia": "ETICA",
+        "z_decayed": 0.3101196808686685,
+        "n": 22
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "leer",
+          "materia",
+          "relleno",
+          "te",
+          "si"
+        ],
+        "weight": 0.30449256663534713
+      },
+      {
+        "id": 1,
+        "words": [
+          "leer",
+          "materia",
+          "100",
+          "profe",
+          "casi"
+        ],
+        "weight": 0.3874193698878704
+      }
+    ],
+    "sentiment": {
+      "overall": 0.0,
+      "by_month": {
+        "2022-06": 0.0,
+        "2022-03": 0.0,
+        "2022-02": 0.0,
+        "2021-12": 0.0,
+        "2021-09": 0.0
+      }
+    },
+    "n_comments": 5
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        10.0,
+        7.0,
+        8.0,
+        10.0,
+        6.0
+      ],
+      "ewma": [
+        10.0,
+        9.1,
+        8.77,
+        9.139,
+        8.197299999999998
+      ],
+      "sigma": 1.326061494803314
+    },
+    "difficulty_trend": {
+      "series": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        4.0
+      ],
+      "ewma": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.2
+      ],
+      "sigma": 1.252198067399882
+    },
+    "forecast": {
+      "quality_next": 8.197299999999998,
+      "quality_band": [
+        5.598219470185503,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2022-06-23T00:00:00",
+      "materia": "DESARROLLO SUSTENTABLE",
+      "calidad": 6.0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": "solo lees de un pdf, y si le sacas platica de donde eres o de los autos antiguos tellevas  toda la clase,sus examenes son de las preguntas de opcion multiple del libro."
+    },
+    {
+      "fecha_iso": "2022-03-26T00:00:00",
+      "materia": "FUNDAMENTOS DE INVESTIGACION",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Nostalgia pura del primer semestre de mi carrera, saludos al profe que es un autentico crack 100/10"
+    },
+    {
+      "fecha_iso": "2022-02-09T00:00:00",
+      "materia": "ETICA",
+      "calidad": 8.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Su materia era de relleno con que entregues las tareas casi casi ya tienes 100 y sus clases son puro leer o comentar xd"
+    },
+    {
+      "fecha_iso": "2021-12-02T00:00:00",
+      "materia": "ÉTICA",
+      "calidad": 7.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Te pone a leer demasiadoooooo pero fuera de eso todo bien los trabajos que dejan están fáciles y está chido que casi todo sea en equipo no dudo que en presenciales se agarraría un curon pero si realmente quieren aprender la materia no carguen con este profe"
+    },
+    {
+      "fecha_iso": "2021-09-20T00:00:00",
+      "materia": "DESARROLLO SUSTENTABLE",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Sus materias son de relleno, cargala si te la quieres pasar lite"
+    }
+  ],
+  "comments_recent": [
+    "solo lees de un pdf, y si le sacas platica de donde eres o de los autos antiguos tellevas  toda la clase,sus examenes son de las preguntas de opcion multiple del libro.",
+    "Nostalgia pura del primer semestre de mi carrera, saludos al profe que es un autentico crack 100/10",
+    "Su materia era de relleno con que entregues las tareas casi casi ya tienes 100 y sus clases son puro leer o comentar xd",
+    "Te pone a leer demasiadoooooo pero fuera de eso todo bien los trabajos que dejan están fáciles y está chido que casi todo sea en equipo no dudo que en presenciales se agarraría un curon pero si realmente quieren aprender la materia no carguen con este profe",
+    "Sus materias son de relleno, cargala si te la quieres pasar lite"
+  ],
+  "n_reviews": 5
+}

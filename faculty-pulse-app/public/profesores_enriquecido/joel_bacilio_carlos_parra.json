@@ -1,0 +1,195 @@
+{
+  "professor_id": "joel_bacilio_carlos_parra",
+  "nombre": "joel bacilio carlos parra",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 9.270322448974714,
+    "difficulty_decayed": 1.2608870379224897
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.9117045829212,
+    "difficulty_bayes": 2.2694362017804157
+  },
+  "recommendation_analysis": {
+    "rate": 0.83,
+    "wilson_interval": [
+      0.4004968475975438,
+      0.9727387658660827
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": 0.57,
+    "z_mean_decayed": 0.58,
+    "per_subject": [
+      {
+        "materia": "CALCULO INTEGRAL",
+        "z_decayed": 0.8026622206675373,
+        "n": 22
+      },
+      {
+        "materia": "ELECTRÓNICA DE POTENCIA",
+        "z_decayed": 0.747812343419707,
+        "n": 5
+      },
+      {
+        "materia": "SISTEMAS PROGRAMABLES",
+        "z_decayed": 0.440225453162812,
+        "n": 3
+      },
+      {
+        "materia": "CALCULO DIFERENCIAL",
+        "z_decayed": 0.047565629839961196,
+        "n": 29
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "atencion",
+          "aprendes",
+          "es",
+          "facil"
+        ],
+        "weight": 0.30464663699910133
+      },
+      {
+        "id": 1,
+        "words": [
+          "aprendes",
+          "es",
+          "facil",
+          "atencion"
+        ],
+        "weight": 0.2994675525236685
+      }
+    ],
+    "sentiment": {
+      "overall": 0.25,
+      "by_month": {
+        "2022-06": 0.0,
+        "2021-08": 0.0,
+        "2020-12": 1.0,
+        "2020-09": 0.0
+      }
+    },
+    "n_comments": 4
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        7.0,
+        10.0,
+        10.0,
+        10.0,
+        9.0
+      ],
+      "ewma": [
+        7.0,
+        7.8999999999999995,
+        8.53,
+        8.971,
+        8.9797
+      ],
+      "sigma": 0.9168651198513335
+    },
+    "difficulty_trend": {
+      "series": [
+        0.0,
+        2.0,
+        2.0,
+        0.0,
+        2.0
+      ],
+      "ewma": [
+        0.0,
+        0.6,
+        1.02,
+        0.714,
+        1.0997999999999999
+      ],
+      "sigma": 0.8549092864158161
+    },
+    "forecast": {
+      "quality_next": 8.9797,
+      "quality_band": [
+        7.182644365091386,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2022-06-03T00:00:00",
+      "materia": "SISTEMAS PROGRAMABLES",
+      "calidad": 9.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "trocilio"
+    },
+    {
+      "fecha_iso": "2021-08-27T00:00:00",
+      "materia": "CALCULO INTEGRAL",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "pone una tarea en equipo que no revisa pero en realidad en examen es mas facil a la tarea, son los mismos problemas de las clases pero con otros numeros, prestas atencion y aprendes chilo, a veces no da en viernes"
+    },
+    {
+      "fecha_iso": "2020-12-22T00:00:00",
+      "materia": "ELECTRÓNICA DE POTENCIA",
+      "calidad": 10.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "De los mejores profes del tec, muy claro y es muy compa. Aprendes y agarras cura (solo debes aguantar carrilla). Volvería a cargar clase con el. Examenes fácil y proyectos sencillos."
+    },
+    {
+      "fecha_iso": "2020-09-25T00:00:00",
+      "materia": "CALCULO INTEGRAL",
+      "calidad": 10.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "un crack, ni sientes el semestre prestandole atencion"
+    },
+    {
+      "fecha_iso": "2020-06-05T00:00:00",
+      "materia": "CALCULO DIFERENCIAL",
+      "calidad": 7.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": ""
+    }
+  ],
+  "comments_recent": [
+    "trocilio",
+    "pone una tarea en equipo que no revisa pero en realidad en examen es mas facil a la tarea, son los mismos problemas de las clases pero con otros numeros, prestas atencion y aprendes chilo, a veces no da en viernes",
+    "De los mejores profes del tec, muy claro y es muy compa. Aprendes y agarras cura (solo debes aguantar carrilla). Volvería a cargar clase con el. Examenes fácil y proyectos sencillos.",
+    "un crack, ni sientes el semestre prestandole atencion"
+  ],
+  "n_reviews": 5
+}

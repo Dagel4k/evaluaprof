@@ -1,0 +1,189 @@
+{
+  "professor_id": "Heraclio_Heredia_Ureta",
+  "nombre": "Heraclio Heredia Ureta",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 6.586389343655879,
+    "difficulty_decayed": 5.0775261706575305
+  },
+  "bayes_analysis": {
+    "quality_bayes": 6.578371249587866,
+    "difficulty_bayes": 3.7361028684470825
+  },
+  "recommendation_analysis": {
+    "rate": 0.5,
+    "wilson_interval": [
+      0.17042015582256811,
+      0.8295798441774319
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": -0.17,
+    "z_mean_decayed": -0.71,
+    "per_subject": [
+      {
+        "materia": "MECANICA",
+        "z_decayed": 0.8006407690254359,
+        "n": 3
+      },
+      {
+        "materia": "---",
+        "z_decayed": -1.1483431150731278,
+        "n": 80
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "clases",
+          "maestro",
+          "si",
+          "estudias",
+          "es"
+        ],
+        "weight": 0.3279644789963294
+      },
+      {
+        "id": 1,
+        "words": [
+          "clases",
+          "maestro",
+          "ritmo",
+          "te",
+          "si"
+        ],
+        "weight": 0.2672925410384598
+      }
+    ],
+    "sentiment": {
+      "overall": 0.0,
+      "by_month": {
+        "2018-02": 0.0,
+        "2015-06": 0.0,
+        "2015-03": 0.0,
+        "2012-08": 0.0,
+        "2011-11": 0.0
+      }
+    },
+    "n_comments": 5
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        6.0,
+        2.0,
+        7.0,
+        2.0,
+        9.0
+      ],
+      "ewma": [
+        6.0,
+        4.799999999999999,
+        5.459999999999999,
+        4.421999999999999,
+        5.795399999999999
+      ],
+      "sigma": 2.564252474309033
+    },
+    "difficulty_trend": {
+      "series": [
+        4.0,
+        8.0,
+        4.0,
+        8.0,
+        4.0
+      ],
+      "ewma": [
+        4.0,
+        5.199999999999999,
+        4.839999999999999,
+        5.7879999999999985,
+        5.251599999999999
+      ],
+      "sigma": 1.8234102204386153
+    },
+    "forecast": {
+      "quality_next": 5.795399999999999,
+      "quality_band": [
+        0.7694651503542937,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2018-02-20T00:00:00",
+      "materia": "SIMULACION DE SISTEMAS DE ENERGIAS RENOVABLES",
+      "calidad": 9.0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "EL profesor siempre esta abierto a brindar ayuda si no le entiendes a los temas, pero tienes que acecharte a el, eso si, tienes que estudiar al ritmo de las lecciones o te perderás por que no se regresa en los temas"
+    },
+    {
+      "fecha_iso": "2015-06-17T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2015-03-08T00:00:00",
+      "materia": "DISEÑO DIGITAL L",
+      "calidad": 7.0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Pues es buen maestro para mi , es un poco especial pero si estudias al ritmo de las clases es facil pasar, si eres un huevon no lo carges."
+    },
+    {
+      "fecha_iso": "2012-08-17T00:00:00",
+      "materia": "DISEÑO DIGITAL",
+      "calidad": 2.0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Es el peor maestro de todos, si le caes mal te reprueba y te hace la vida imposible.. Por que dejan a personas como el dar clases? para nada recomendable."
+    },
+    {
+      "fecha_iso": "2011-11-28T00:00:00",
+      "materia": "MECANICA",
+      "calidad": 6.0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": "si pones atencion, en su clase tomas nota y estudias lo correspondiente no tendras muchos problemas, no es de los maestros que espera que comprendas de verdad lo poco que explica (casi nunca), si copiaste bien lo que puso en el pizarron y lo estudias para el examen te ira bien"
+    }
+  ],
+  "comments_recent": [
+    "EL profesor siempre esta abierto a brindar ayuda si no le entiendes a los temas, pero tienes que acecharte a el, eso si, tienes que estudiar al ritmo de las lecciones o te perderás por que no se regresa en los temas",
+    "[Comentario esperando revisión]",
+    "Pues es buen maestro para mi , es un poco especial pero si estudias al ritmo de las clases es facil pasar, si eres un huevon no lo carges.",
+    "Es el peor maestro de todos, si le caes mal te reprueba y te hace la vida imposible.. Por que dejan a personas como el dar clases? para nada recomendable.",
+    "si pones atencion, en su clase tomas nota y estudias lo correspondiente no tendras muchos problemas, no es de los maestros que espera que comprendas de verdad lo poco que explica (casi nunca), si copiaste bien lo que puso en el pizarron y lo estudias para el examen te ira bien"
+  ],
+  "n_reviews": 5
+}

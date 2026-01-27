@@ -1,0 +1,148 @@
+{
+  "professor_id": "NOEL_GARCIA_INZUNZA",
+  "nombre": "NOEL GARCIA INZUNZA",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 9.200000000000001,
+    "difficulty_decayed": 1.6
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.9117045829212,
+    "difficulty_bayes": 2.402769535113749
+  },
+  "recommendation_analysis": {
+    "rate": 1.0,
+    "wilson_interval": [
+      0.565508505247919,
+      1
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": null,
+    "z_mean_decayed": null,
+    "per_subject": []
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "examenes",
+          "da",
+          "bien",
+          "ser"
+        ],
+        "weight": 0.2946678619437985
+      },
+      {
+        "id": 1,
+        "words": [
+          "bien",
+          "ser",
+          "da",
+          "examenes"
+        ],
+        "weight": 0.2801633994613968
+      }
+    ],
+    "sentiment": {
+      "overall": 0.25,
+      "by_month": {
+        "2025-05": 0.25
+      }
+    },
+    "n_comments": 4
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [
+      {
+        "from": "2025-05-29T00:00:00",
+        "to": "2025-05-29T00:00:00",
+        "count": 3
+      },
+      {
+        "from": "2025-05-29T00:00:00",
+        "to": "2025-05-29T00:00:00",
+        "count": 4
+      },
+      {
+        "from": "2025-05-29T00:00:00",
+        "to": "2025-05-29T00:00:00",
+        "count": 5
+      }
+    ],
+    "low_variance_flag": 0,
+    "trust_score": 0.7
+  },
+  "trends_analysis": {
+    "quality_trend": null,
+    "difficulty_trend": null,
+    "forecast": null,
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2025-05-29T00:00:00",
+      "materia": "REDES EMERGENTES",
+      "calidad": 8.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2025-05-29T00:00:00",
+      "materia": "REDES EMERGENTES",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Exelente maestro, cargen con el"
+    },
+    {
+      "fecha_iso": "2025-05-29T00:00:00",
+      "materia": "TECNOLOGÍAS INALAMBRICAS",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Excelente profe, explica super bien y da muy bueno ejemplos, solo tienes que ponerle empeño y no ser flojo"
+    },
+    {
+      "fecha_iso": "2025-05-29T00:00:00",
+      "materia": "TECNOLOGÍAS INALÁMBRICAS",
+      "calidad": 10.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Si cumples con todo lo que solicita y estudias para los exámenes es fácil pasar. Las rúbricas de revisión son estrictas pero siempre las da a conocer al dejar los trabajos m."
+    },
+    {
+      "fecha_iso": "2025-05-29T00:00:00",
+      "materia": "TECNOLOGÍAS INALAMBRICAS",
+      "calidad": 8.0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Hecharle ganas y los exámenes pueden ser confusos pero todo bien"
+    }
+  ],
+  "comments_recent": [
+    "Exelente maestro, cargen con el",
+    "Excelente profe, explica super bien y da muy bueno ejemplos, solo tienes que ponerle empeño y no ser flojo",
+    "Si cumples con todo lo que solicita y estudias para los exámenes es fácil pasar. Las rúbricas de revisión son estrictas pero siempre las da a conocer al dejar los trabajos m.",
+    "Hecharle ganas y los exámenes pueden ser confusos pero todo bien"
+  ],
+  "n_reviews": 5
+}

@@ -1,0 +1,194 @@
+{
+  "professor_id": "Armando_Clemente_Camberos",
+  "nombre": "Armando Clemente Camberos",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 2.250883057946935,
+    "difficulty_decayed": 8.0
+  },
+  "bayes_analysis": {
+    "quality_bayes": 5.645037916254533,
+    "difficulty_bayes": 4.536102868447083
+  },
+  "recommendation_analysis": {
+    "rate": 0.21,
+    "wilson_interval": [
+      0.039424082773621506,
+      0.6325809841825856
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": -1.22,
+    "z_mean_decayed": -1.19,
+    "per_subject": [
+      {
+        "materia": "FÍSICA",
+        "z_decayed": -1.131504763712036,
+        "n": 6
+      },
+      {
+        "materia": "ELECTROMAGNETISMO",
+        "z_decayed": -1.1370202621592367,
+        "n": 15
+      },
+      {
+        "materia": "FISICA",
+        "z_decayed": -1.5652475842498526,
+        "n": 5
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "razon",
+          "solo",
+          "super",
+          "pasa",
+          "bien"
+        ],
+        "weight": 0.34861944046190374
+      },
+      {
+        "id": 1,
+        "words": [
+          "super",
+          "90",
+          "carguen",
+          "tiene",
+          "si"
+        ],
+        "weight": 0.28723165787582267
+      }
+    ],
+    "sentiment": {
+      "overall": 0.0,
+      "by_month": {
+        "2020-07": 0.0,
+        "2019-06": 0.0,
+        "2019-04": -1.0,
+        "2019-01": 1.0,
+        "2018-01": 0.0
+      }
+    },
+    "n_comments": 5
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        4.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0
+      ],
+      "ewma": [
+        4.0,
+        3.4,
+        2.98,
+        2.686,
+        2.4802
+      ],
+      "sigma": 0.5259470391588872
+    },
+    "difficulty_trend": {
+      "series": [
+        8.0,
+        8.0,
+        8.0,
+        8.0,
+        8.0
+      ],
+      "ewma": [
+        8.0,
+        8.0,
+        8.0,
+        8.0,
+        8.0
+      ],
+      "sigma": 0.0
+    },
+    "forecast": {
+      "quality_next": 2.4802,
+      "quality_band": [
+        1.449343803248581,
+        3.5110561967514187
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2020-07-21T00:00:00",
+      "materia": "ELECTROMAGNETISMO",
+      "calidad": 2.0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Viejo rabo verde"
+    },
+    {
+      "fecha_iso": "2019-06-06T00:00:00",
+      "materia": "ELECTROMAGNETISMO",
+      "calidad": 2.0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "La neta no carguen con el, si la tiene que llevar el otro semestre llévenla por que igual casi 90% que van a reprobar, y si la llevan ahorita y ya le pasaron el primer examen sigan yendo hasta el global si se van a global."
+    },
+    {
+      "fecha_iso": "2019-04-07T00:00:00",
+      "materia": "ELECTROMAGNETISMO",
+      "calidad": 2.0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Pésimo maestro, no sabe absolutamente nada y no enseña nada, rompe las reglas de las matemáticas a su antojo, te falta el respeto sin ninguna razón y es una mierda de persona super prepotente, solo se la lleva zorreando a las mujeres y son las que pasa mínimo con 90 sin que sepan nada"
+    },
+    {
+      "fecha_iso": "2019-01-31T00:00:00",
+      "materia": "FÍSICA",
+      "calidad": 2.0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "0 recomendado. No claro la forma de calificar, no maneja listas y pasa al que le cae bién. No duden en darlo de baja o ve buscando con quien hacer el RC."
+    },
+    {
+      "fecha_iso": "2018-01-16T00:00:00",
+      "materia": "FISICA",
+      "calidad": 4.0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": "No explica bien, los examenes los hace super confusos y a veces con temas no vistos, solo pasa a los que le caen bien y participan(en especial si son mujeres). Segun el siempre tiene la razon y nunca acepta cuando se equivoca, por favor nunca lo carguen, es por su bien si quieren aprender."
+    }
+  ],
+  "comments_recent": [
+    "Viejo rabo verde",
+    "La neta no carguen con el, si la tiene que llevar el otro semestre llévenla por que igual casi 90% que van a reprobar, y si la llevan ahorita y ya le pasaron el primer examen sigan yendo hasta el global si se van a global.",
+    "Pésimo maestro, no sabe absolutamente nada y no enseña nada, rompe las reglas de las matemáticas a su antojo, te falta el respeto sin ninguna razón y es una mierda de persona super prepotente, solo se la lleva zorreando a las mujeres y son las que pasa mínimo con 90 sin que sepan nada",
+    "0 recomendado. No claro la forma de calificar, no maneja listas y pasa al que le cae bién. No duden en darlo de baja o ve buscando con quien hacer el RC.",
+    "No explica bien, los examenes los hace super confusos y a veces con temas no vistos, solo pasa a los que le caen bien y participan(en especial si son mujeres). Segun el siempre tiene la razon y nunca acepta cuando se equivoca, por favor nunca lo carguen, es por su bien si quieren aprender."
+  ],
+  "n_reviews": 5
+}

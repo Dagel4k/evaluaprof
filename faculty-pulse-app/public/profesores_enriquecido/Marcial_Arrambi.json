@@ -1,0 +1,187 @@
+{
+  "professor_id": "Marcial_Arrambi",
+  "nombre": "Marcial Arrambi",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 10.0,
+    "difficulty_decayed": 5.693022211715952
+  },
+  "bayes_analysis": {
+    "quality_bayes": 8.178371249587865,
+    "difficulty_bayes": 3.469436201780416
+  },
+  "recommendation_analysis": {
+    "rate": 0.67,
+    "wilson_interval": [
+      0.2775114404152864,
+      0.9147614513690061
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": 0.72,
+    "z_mean_decayed": 0.72,
+    "per_subject": [
+      {
+        "materia": "ELECTRÓNICA DIGITAL",
+        "z_decayed": 0.8728715609439699,
+        "n": 3
+      },
+      {
+        "materia": "ECUACIONES DIFERENCIALES",
+        "z_decayed": 0.5587887775887984,
+        "n": 18
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "examenes dificiles",
+          "mejores",
+          "te",
+          "hace",
+          "es"
+        ],
+        "weight": 0.42862457515566477
+      },
+      {
+        "id": 1,
+        "words": [
+          "muchas",
+          "si",
+          "te hace",
+          "hace",
+          "profesor"
+        ],
+        "weight": 0.2609596974637429
+      }
+    ],
+    "sentiment": {
+      "overall": 0.5,
+      "by_month": {
+        "2025-08": 1.0,
+        "2025-06": 0.0,
+        "2017-08": 1.0,
+        "2016-11": 0.0
+      }
+    },
+    "n_comments": 4
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 1,
+    "trust_score": 0.8
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        10.0
+      ],
+      "ewma": [
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        10.0
+      ],
+      "sigma": 0.0
+    },
+    "difficulty_trend": {
+      "series": [
+        6.0,
+        6.0,
+        0.0,
+        6.0,
+        6.0
+      ],
+      "ewma": [
+        6.0,
+        5.999999999999999,
+        4.199999999999999,
+        4.739999999999999,
+        5.1179999999999986
+      ],
+      "sigma": 2.18851840293839
+    },
+    "forecast": {
+      "quality_next": 10.0,
+      "quality_band": [
+        10.0,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2025-08-21T00:00:00",
+      "materia": "ELECTRÓNICA DIGITAL",
+      "calidad": 10.0,
+      "dificultad": 6.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "El profesor sabe completamente la materia es demasiado bueno en lo que imparte y en sus clases te hace participar, además hace muchas prácticas que son muy largas, pero aprendes porque aprendes. Si le pones empeño a la materia vas a pasar porque valora mucho el esfuerzo"
+    },
+    {
+      "fecha_iso": "2025-06-17T00:00:00",
+      "materia": "ECUACIONES DIFERENCIALES",
+      "calidad": 10.0,
+      "dificultad": 6.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "No hay mucho que decir… \nEl maestro domina totalmente las materias de ciencias básicas y electrónica, es claramente uno de los mejores elementos del TEC. La verdad los exámenes son difíciles pero el les juro que toma mucho en cuenta lo que hace cada quien por esfuerzo propio y es súper motivacional."
+    },
+    {
+      "fecha_iso": "2019-04-13T00:00:00",
+      "materia": "ELECTRÓNICO",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2017-08-07T00:00:00",
+      "materia": "ANALISIS DE SEÑALES",
+      "calidad": 10.0,
+      "dificultad": 6.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "De los mejores profesores que tiene la institucion, es dedicado, y enseña muy bien, tienes que echarle muchas ganas ya que sus examenes son dificiles, pero si ve que te esfuerzas y participas te hace el paro."
+    },
+    {
+      "fecha_iso": "2016-11-06T00:00:00",
+      "materia": "......",
+      "calidad": 10.0,
+      "dificultad": 6.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Buen profesor"
+    }
+  ],
+  "comments_recent": [
+    "El profesor sabe completamente la materia es demasiado bueno en lo que imparte y en sus clases te hace participar, además hace muchas prácticas que son muy largas, pero aprendes porque aprendes. Si le pones empeño a la materia vas a pasar porque valora mucho el esfuerzo",
+    "No hay mucho que decir… \nEl maestro domina totalmente las materias de ciencias básicas y electrónica, es claramente uno de los mejores elementos del TEC. La verdad los exámenes son difíciles pero el les juro que toma mucho en cuenta lo que hace cada quien por esfuerzo propio y es súper motivacional.",
+    "De los mejores profesores que tiene la institucion, es dedicado, y enseña muy bien, tienes que echarle muchas ganas ya que sus examenes son dificiles, pero si ve que te esfuerzas y participas te hace el paro.",
+    "Buen profesor"
+  ],
+  "n_reviews": 5
+}

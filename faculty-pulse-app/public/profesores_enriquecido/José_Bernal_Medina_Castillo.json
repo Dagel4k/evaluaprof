@@ -1,0 +1,190 @@
+{
+  "professor_id": "José_Bernal_Medina_Castillo",
+  "nombre": "José Bernal Medina Castillo",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 5.51691773926689,
+    "difficulty_decayed": 0.12518637278965855
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.311704582921199,
+    "difficulty_bayes": 2.2694362017804157
+  },
+  "recommendation_analysis": {
+    "rate": 0.6,
+    "wilson_interval": [
+      0.23071993220883702,
+      0.8823817688407467
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": -0.32,
+    "z_mean_decayed": -0.15,
+    "per_subject": [
+      {
+        "materia": "INVESTIGACIÓN DE OPERACIONES",
+        "z_decayed": 0.6712925618877001,
+        "n": 11
+      },
+      {
+        "materia": "TALLER DE INVESTIGACION 2",
+        "z_decayed": -0.13206763594884358,
+        "n": 4
+      },
+      {
+        "materia": "INVESTIGACION DE OPERACIONES",
+        "z_decayed": -1.493066552508793,
+        "n": 12
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "senor",
+          "materia",
+          "final"
+        ],
+        "weight": 0.2589445214472986
+      },
+      {
+        "id": 1,
+        "words": [
+          "final",
+          "materia",
+          "senor"
+        ],
+        "weight": 0.23302453992051392
+      }
+    ],
+    "sentiment": {
+      "overall": 0.0,
+      "by_month": {
+        "2022-01": 0.0,
+        "2014-12": 0.0,
+        "2013-01": 0.0,
+        "2011-05": 0.0,
+        "2011-01": 0.0
+      }
+    },
+    "n_comments": 5
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        10.0,
+        4.0,
+        9.0,
+        9.0,
+        5.0
+      ],
+      "ewma": [
+        10.0,
+        8.2,
+        8.44,
+        8.607999999999999,
+        7.525599999999999
+      ],
+      "sigma": 2.1106295250469707
+    },
+    "difficulty_trend": {
+      "series": [
+        0.0,
+        6.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ewma": [
+        0.0,
+        1.7999999999999998,
+        1.2599999999999998,
+        0.8819999999999998,
+        0.6173999999999998
+      ],
+      "sigma": 2.234482103754693
+    },
+    "forecast": {
+      "quality_next": 7.525599999999999,
+      "quality_band": [
+        3.3887661309079364,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2022-01-17T00:00:00",
+      "materia": "TALLER DE INVESTIGACION 2",
+      "calidad": 5.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": "El titanic de la materia, no esperes aprender nada realmente, pero pasaras porque pasaras, califica como quiere el proyecto final pero pasas."
+    },
+    {
+      "fecha_iso": "2014-12-28T00:00:00",
+      "materia": "INVESTIGACION DE OP",
+      "calidad": 9.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Es un profe muy light, de esos que no toman lista, ni dejan tarea y al final acumulan varias faltas. Pero este señor enseña muy bien y al final te deja muy buena sensacion de que aprendiste lo necesario en la materia , Recomendadísimo"
+    },
+    {
+      "fecha_iso": "2013-01-16T00:00:00",
+      "materia": "INV. DE OPERACIONES",
+      "calidad": 9.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Facilisima la materia de IO con este señor"
+    },
+    {
+      "fecha_iso": "2011-05-07T00:00:00",
+      "materia": "INVESTIGACION DE OPERACIONES",
+      "calidad": 4.0,
+      "dificultad": 6.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": "no cargaciouen"
+    },
+    {
+      "fecha_iso": "2011-01-07T00:00:00",
+      "materia": "INVESTIGACIÓN DE OPERACIONES",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Muy buen maestro."
+    }
+  ],
+  "comments_recent": [
+    "El titanic de la materia, no esperes aprender nada realmente, pero pasaras porque pasaras, califica como quiere el proyecto final pero pasas.",
+    "Es un profe muy light, de esos que no toman lista, ni dejan tarea y al final acumulan varias faltas. Pero este señor enseña muy bien y al final te deja muy buena sensacion de que aprendiste lo necesario en la materia , Recomendadísimo",
+    "Facilisima la materia de IO con este señor",
+    "no cargaciouen",
+    "Muy buen maestro."
+  ],
+  "n_reviews": 5
+}

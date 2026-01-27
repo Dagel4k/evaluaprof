@@ -1,0 +1,197 @@
+{
+  "professor_id": "Jesus_Miguel_Castro_Montoya",
+  "nombre": "Jesus Miguel Castro Montoya",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 9.051514023031634,
+    "difficulty_decayed": 3.2222073471799506
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.845037916254532,
+    "difficulty_bayes": 2.9361028684470822
+  },
+  "recommendation_analysis": {
+    "rate": 0.86,
+    "wilson_interval": [
+      0.42649276163301214,
+      0.9806733621454894
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": 0.86,
+    "z_mean_decayed": 0.73,
+    "per_subject": [
+      {
+        "materia": "QUÍMICA",
+        "z_decayed": 1.4562526523130985,
+        "n": 24
+      },
+      {
+        "materia": "BIOQUÍMICA",
+        "z_decayed": 1.0366105360784115,
+        "n": 6
+      },
+      {
+        "materia": "ESTADÍSTICA",
+        "z_decayed": 0.5,
+        "n": 4
+      },
+      {
+        "materia": "MICROBIOLOGÍA",
+        "z_decayed": 0.44721359549995837,
+        "n": 5
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "profe",
+          "ser",
+          "buen",
+          "super",
+          "super buen"
+        ],
+        "weight": 0.32976725677479857
+      },
+      {
+        "id": 1,
+        "words": [
+          "gusta quimica",
+          "quimica",
+          "te gusta",
+          "te",
+          "si"
+        ],
+        "weight": 0.3167177372424788
+      }
+    ],
+    "sentiment": {
+      "overall": 0.5,
+      "by_month": {
+        "2025-06": 0.0,
+        "2024-03": 1.0,
+        "2023-11": 1.0,
+        "2023-01": 0.0
+      }
+    },
+    "n_comments": 4
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        10.0,
+        10.0,
+        5.0,
+        10.0,
+        10.0
+      ],
+      "ewma": [
+        10.0,
+        10.0,
+        8.5,
+        8.95,
+        9.264999999999999
+      ],
+      "sigma": 1.8237653357819918
+    },
+    "difficulty_trend": {
+      "series": [
+        4.0,
+        2.0,
+        6.0,
+        0.0,
+        4.0
+      ],
+      "ewma": [
+        4.0,
+        3.4,
+        4.18,
+        2.9259999999999997,
+        3.2481999999999998
+      ],
+      "sigma": 1.8563159558652724
+    },
+    "forecast": {
+      "quality_next": 9.264999999999999,
+      "quality_band": [
+        5.690419941867295,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2025-06-12T00:00:00",
+      "materia": "MICROBIOLOGÍA",
+      "calidad": 10.0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "El mejor de todos"
+    },
+    {
+      "fecha_iso": "2024-03-22T00:00:00",
+      "materia": "ESTADÍSTICA",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Súper buen profe, explica todo muy bien y las veces que se lo pidas, deja pocas tareas, o ejercicios que se hacen en clase. Los exámenes son fáciles. Excelente profesor se nota que ama lo que hace y excelente ser humano. Si tienen la oportunidad de cargar con el aprovechenla"
+    },
+    {
+      "fecha_iso": "2023-11-01T00:00:00",
+      "materia": "FUNDAMENTOS DE QUÍMICA",
+      "calidad": 5.0,
+      "dificultad": 6.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": "Si de verdad te gusta la química y le sabes el será perfecto, pero si no comprendes a la primera no vayas con el. Nos contó que la mayoría de sus alumnos siempre reprueban la unidad dos, por alguna razón es verdad, la mitad de mi salón le fue mal y eso que mi salón es muy aplicado."
+    },
+    {
+      "fecha_iso": "2023-01-15T00:00:00",
+      "materia": "QUÍMICA",
+      "calidad": 10.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Si no te gusta la química, este profe hace que te guste.\nSuper buen pedo, super buen maestro, pocos trabajos que pueden llegar a ser un poco \"tediosos\" pero que de una forma u otra se le pueden sacar provecho. Los exámenes son fáciles, ojo con el ultimo (no hay opción múltiple)"
+    },
+    {
+      "fecha_iso": "2022-06-10T00:00:00",
+      "materia": "BIOQUÍMICA",
+      "calidad": 10.0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": ""
+    }
+  ],
+  "comments_recent": [
+    "El mejor de todos",
+    "Súper buen profe, explica todo muy bien y las veces que se lo pidas, deja pocas tareas, o ejercicios que se hacen en clase. Los exámenes son fáciles. Excelente profesor se nota que ama lo que hace y excelente ser humano. Si tienen la oportunidad de cargar con el aprovechenla",
+    "Si de verdad te gusta la química y le sabes el será perfecto, pero si no comprendes a la primera no vayas con el. Nos contó que la mayoría de sus alumnos siempre reprueban la unidad dos, por alguna razón es verdad, la mitad de mi salón le fue mal y eso que mi salón es muy aplicado.",
+    "Si no te gusta la química, este profe hace que te guste.\nSuper buen pedo, super buen maestro, pocos trabajos que pueden llegar a ser un poco \"tediosos\" pero que de una forma u otra se le pueden sacar provecho. Los exámenes son fáciles, ojo con el ultimo (no hay opción múltiple)"
+  ],
+  "n_reviews": 5
+}

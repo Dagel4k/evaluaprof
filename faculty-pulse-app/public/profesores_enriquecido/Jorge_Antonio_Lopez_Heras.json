@@ -1,0 +1,149 @@
+{
+  "professor_id": "Jorge_Antonio_Lopez_Heras",
+  "nombre": "Jorge Antonio Lopez Heras",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 8.677202705222049,
+    "difficulty_decayed": 2.0915530781863585
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.711704582921199,
+    "difficulty_bayes": 2.6694362017804156
+  },
+  "recommendation_analysis": {
+    "rate": 0.71,
+    "wilson_interval": [
+      0.3060474596471615,
+      0.9314661125569644
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": 0.22,
+    "z_mean_decayed": 0.19,
+    "per_subject": [
+      {
+        "materia": "CALCULO DIFERENCIAL",
+        "z_decayed": 0.19282997259954582,
+        "n": 29
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [],
+    "sentiment": {
+      "overall": null,
+      "by_month": {}
+    },
+    "n_comments": 3
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        9.0,
+        8.0,
+        7.0,
+        10.0
+      ],
+      "ewma": [
+        9.0,
+        8.7,
+        8.19,
+        8.733
+      ],
+      "sigma": 1.0668265635362972
+    },
+    "difficulty_trend": {
+      "series": [
+        1.0,
+        8.0,
+        2.0,
+        0.0
+      ],
+      "ewma": [
+        1.0,
+        3.0999999999999996,
+        2.7699999999999996,
+        1.9389999999999996
+      ],
+      "sigma": 3.0090142765807317
+    },
+    "forecast": {
+      "quality_next": 8.733,
+      "quality_band": [
+        6.642019935468857,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2025-09-26T00:00:00",
+      "materia": "CÁLCULO DIFERENCIAL E INTEGRAL",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2024-12-30T00:00:00",
+      "materia": "CALCULO DIFERENCIAL",
+      "calidad": 7.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Es un profe medio barco, te va a quererte asustarte si no asistes tal dia o que el salon salio con promedio bajo, pero al final pasa a la mayoria, por mi punto de vista si explica bien los temas, pero algo que no me gusto es su forma de calificar que alguna veces lo pone casi la misma cal. a todos"
+    },
+    {
+      "fecha_iso": "2024-02-20T00:00:00",
+      "materia": "CALCULO INETGRAL",
+      "calidad": 8.0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "MEJOR PROFE DEL TEC DE CULIACAN, LO MEJOR QUE NOS A PASADO, TE DEJA COPIAR Y AL ULTIMO NO TE AYUDA A COPIAR"
+    },
+    {
+      "fecha_iso": "2024-01-31T00:00:00",
+      "materia": "CÁLCULO INTEGRAL Y DIFERENCIAL",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2024-01-30T00:00:00",
+      "materia": "CALCULO DIFERENCIAL",
+      "calidad": 8.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Es un maestro muy cómico, puntual y jamás falta. Le sabe a las matematicas pero si lo buscas en su departamento comprenderás mejor y te apoyará bastante. \n\nEs barco porque todos pasan pero aprendes si quieres."
+    }
+  ],
+  "comments_recent": [
+    "Es un profe medio barco, te va a quererte asustarte si no asistes tal dia o que el salon salio con promedio bajo, pero al final pasa a la mayoria, por mi punto de vista si explica bien los temas, pero algo que no me gusto es su forma de calificar que alguna veces lo pone casi la misma cal. a todos",
+    "MEJOR PROFE DEL TEC DE CULIACAN, LO MEJOR QUE NOS A PASADO, TE DEJA COPIAR Y AL ULTIMO NO TE AYUDA A COPIAR",
+    "Es un maestro muy cómico, puntual y jamás falta. Le sabe a las matematicas pero si lo buscas en su departamento comprenderás mejor y te apoyará bastante. \n\nEs barco porque todos pasan pero aprendes si quieres."
+  ],
+  "n_reviews": 5
+}

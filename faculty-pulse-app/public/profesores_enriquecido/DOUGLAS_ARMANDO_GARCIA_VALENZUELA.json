@@ -1,0 +1,153 @@
+{
+  "professor_id": "DOUGLAS_ARMANDO_GARCIA_VALENZUELA",
+  "nombre": "DOUGLAS ARMANDO GARCIA VALENZUELA",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 4.8051152166601145,
+    "difficulty_decayed": 4.245604237673365
+  },
+  "bayes_analysis": {
+    "quality_bayes": 6.778371249587866,
+    "difficulty_bayes": 3.469436201780416
+  },
+  "recommendation_analysis": {
+    "rate": 0.56,
+    "wilson_interval": [
+      0.20569534675168283,
+      0.8621656738780675
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": 0.13,
+    "z_mean_decayed": 0.13,
+    "per_subject": [
+      {
+        "materia": "DESARROLLO SUSTENTABLE",
+        "z_decayed": 0.12782026869246874,
+        "n": 27
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [],
+    "sentiment": {
+      "overall": null,
+      "by_month": {}
+    },
+    "n_comments": 3
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        7.0,
+        6.0,
+        2.0,
+        10.0,
+        4.0
+      ],
+      "ewma": [
+        7.0,
+        6.699999999999999,
+        5.289999999999999,
+        6.702999999999999,
+        5.892099999999999
+      ],
+      "sigma": 2.47122454503835
+    },
+    "difficulty_trend": {
+      "series": [
+        8.0,
+        2.0,
+        8.0,
+        2.0,
+        4.0
+      ],
+      "ewma": [
+        8.0,
+        6.199999999999999,
+        6.739999999999998,
+        5.317999999999998,
+        4.922599999999998
+      ],
+      "sigma": 2.279019059156812
+    },
+    "forecast": {
+      "quality_next": 5.892099999999999,
+      "quality_band": [
+        1.0484998917248332,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2025-06-12T00:00:00",
+      "materia": "INGENIERÍA Y GESTIÓN AMBIENTAL",
+      "calidad": 4.0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": "vimos dos temas en todo el semestre, se pasa de la hora de clase y siempre está enojado, deja demasiada tarea y no califica a tiempo"
+    },
+    {
+      "fecha_iso": "2021-02-04T00:00:00",
+      "materia": "GESTIÓN AMBIENTAL",
+      "calidad": 10.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2020-12-09T00:00:00",
+      "materia": "GESTIÓN DE RESIDUOS",
+      "calidad": 2.0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "No es congruente lo que enseña con la materia"
+    },
+    {
+      "fecha_iso": "2019-01-12T00:00:00",
+      "materia": "DESSARROLLO SUSTENTABLES",
+      "calidad": 6.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": "Le toma mucha importancia a esta materia de relleno,deja mucha tarea y sus clases son muchos documentales. 100 seguro"
+    },
+    {
+      "fecha_iso": "2016-12-15T00:00:00",
+      "materia": "DESARROLLO SUSTENTABLE",
+      "calidad": 7.0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": ""
+    }
+  ],
+  "comments_recent": [
+    "vimos dos temas en todo el semestre, se pasa de la hora de clase y siempre está enojado, deja demasiada tarea y no califica a tiempo",
+    "No es congruente lo que enseña con la materia",
+    "Le toma mucha importancia a esta materia de relleno,deja mucha tarea y sus clases son muchos documentales. 100 seguro"
+  ],
+  "n_reviews": 5
+}

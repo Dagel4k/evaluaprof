@@ -1,0 +1,184 @@
+{
+  "professor_id": "wendy_Tizania_Astorga_Pacheco",
+  "nombre": "wendy Tizania Astorga Pacheco",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 3.201948123282848,
+    "difficulty_decayed": 5.725352764621284
+  },
+  "bayes_analysis": {
+    "quality_bayes": 6.1911120531298565,
+    "difficulty_bayes": 3.574395930479017
+  },
+  "recommendation_analysis": {
+    "rate": 0.25,
+    "wilson_interval": [
+      0.045586062644636216,
+      0.6993639475573634
+    ],
+    "n_recommendations": 4
+  },
+  "subject_normalization": {
+    "z_mean": -0.71,
+    "z_mean_decayed": -0.78,
+    "per_subject": [
+      {
+        "materia": "TALLER DE SO",
+        "z_decayed": -0.5,
+        "n": 4
+      },
+      {
+        "materia": "ARQUITECTURA DE COMPUTADORAS",
+        "z_decayed": -0.5773502691896257,
+        "n": 3
+      },
+      {
+        "materia": "REDES DE COMPUTADORAS",
+        "z_decayed": -0.6358383670736646,
+        "n": 6
+      },
+      {
+        "materia": "TALLER DE SISTEMAS OPERATIVOS",
+        "z_decayed": -1.1094003924504583,
+        "n": 3
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "maestra",
+          "deja",
+          "clase",
+          "si",
+          "es"
+        ],
+        "weight": 0.3635510810523821
+      },
+      {
+        "id": 1,
+        "words": [
+          "clase",
+          "si",
+          "deja",
+          "es",
+          "maestra"
+        ],
+        "weight": 0.28240095935438553
+      }
+    ],
+    "sentiment": {
+      "overall": 0.0,
+      "by_month": {
+        "2024-03": 0.0,
+        "2023-03": 0.0,
+        "2022-05": 0.0,
+        "2021-08": 0.0
+      }
+    },
+    "n_comments": 4
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        2.0,
+        8.0,
+        2.0,
+        2.0
+      ],
+      "ewma": [
+        2.0,
+        3.8,
+        3.26,
+        2.8819999999999997
+      ],
+      "sigma": 2.5130779932186744
+    },
+    "difficulty_trend": {
+      "series": [
+        8.0,
+        2.0,
+        4.0,
+        8.0
+      ],
+      "ewma": [
+        8.0,
+        6.199999999999999,
+        5.539999999999999,
+        6.277999999999999
+      ],
+      "sigma": 2.512688002916399
+    },
+    "forecast": {
+      "quality_next": 2.8819999999999997,
+      "quality_band": [
+        0.0,
+        7.807632866708602
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2024-03-12T00:00:00",
+      "materia": "TALLER DE SISTEMAS OPERATIVOS",
+      "calidad": 2.0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Deja demasiada tarea, como si le pagaran más por dejar más. Te obliga a hacer cursitos inutiles que te dan un certificado que no tiene valor curricu. Cualquier cosa importante que diga en clase no la comparte por teams. Cae mal su forma de ser. No carguen con ella, al menos que sea su ultima opcion."
+    },
+    {
+      "fecha_iso": "2023-03-21T00:00:00",
+      "materia": "REDES DE COMPUTADORAS",
+      "calidad": 2.0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Poca calidad en las clases, de mis peores experiencias en profesores pero si es pasable su materia, no enseña bien el packet tracer asi que aprende por ti mismo yo escogería otro profesor definitivamente, gran parte de su clase casi casi es cotorreo personalmente no me gusta su humor :("
+    },
+    {
+      "fecha_iso": "2022-05-18T00:00:00",
+      "materia": "TALLER DE SO",
+      "calidad": 8.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Es buena maestra, es sencillo con ella, deja bastantes tareas."
+    },
+    {
+      "fecha_iso": "2021-08-25T00:00:00",
+      "materia": "ARQUITECTURA DE COMPUTADORAS",
+      "calidad": 2.0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Maestra estricta que no brinda apoyo y se mete en asuntos personales de alumnos."
+    }
+  ],
+  "comments_recent": [
+    "Deja demasiada tarea, como si le pagaran más por dejar más. Te obliga a hacer cursitos inutiles que te dan un certificado que no tiene valor curricu. Cualquier cosa importante que diga en clase no la comparte por teams. Cae mal su forma de ser. No carguen con ella, al menos que sea su ultima opcion.",
+    "Poca calidad en las clases, de mis peores experiencias en profesores pero si es pasable su materia, no enseña bien el packet tracer asi que aprende por ti mismo yo escogería otro profesor definitivamente, gran parte de su clase casi casi es cotorreo personalmente no me gusta su humor :(",
+    "Es buena maestra, es sencillo con ella, deja bastantes tareas.",
+    "Maestra estricta que no brinda apoyo y se mete en asuntos personales de alumnos."
+  ],
+  "n_reviews": 4
+}

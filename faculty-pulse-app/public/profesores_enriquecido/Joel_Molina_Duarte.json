@@ -1,0 +1,194 @@
+{
+  "professor_id": "Joel_Molina_Duarte",
+  "nombre": "Joel Molina Duarte",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 9.396373693546925,
+    "difficulty_decayed": 2.1623832958458085
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.978371249587866,
+    "difficulty_bayes": 2.6694362017804156
+  },
+  "recommendation_analysis": {
+    "rate": 1.0,
+    "wilson_interval": [
+      0.565508505247919,
+      1
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": 0.67,
+    "z_mean_decayed": 0.68,
+    "per_subject": [
+      {
+        "materia": "CÁLCULO INTEGRAL",
+        "z_decayed": 0.8183932073645681,
+        "n": 10
+      },
+      {
+        "materia": "CALCULO DIFERENCIAL",
+        "z_decayed": 0.7372672625193971,
+        "n": 29
+      },
+      {
+        "materia": "CÁLCULO VECTORIAL",
+        "z_decayed": 0.44721359549995787,
+        "n": 5
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "es excelente",
+          "excelente",
+          "claras",
+          "es",
+          "si"
+        ],
+        "weight": 0.28279264497050416
+      },
+      {
+        "id": 1,
+        "words": [
+          "dudas",
+          "flexible",
+          "accesible",
+          "gran",
+          "examen"
+        ],
+        "weight": 0.3768405586278753
+      }
+    ],
+    "sentiment": {
+      "overall": 0.2,
+      "by_month": {
+        "2026-01": 0.0,
+        "2024-09": 1.0,
+        "2024-08": 0.0,
+        "2024-06": 0.0,
+        "2024-01": 0.0
+      }
+    },
+    "n_comments": 5
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        8.0,
+        10.0,
+        10.0,
+        10.0,
+        9.0
+      ],
+      "ewma": [
+        8.0,
+        8.6,
+        9.02,
+        9.314,
+        9.2198
+      ],
+      "sigma": 0.6743769628331027
+    },
+    "difficulty_trend": {
+      "series": [
+        2.0,
+        2.0,
+        2.0,
+        6.0,
+        0.0
+      ],
+      "ewma": [
+        2.0,
+        2.0,
+        2.0,
+        3.1999999999999997,
+        2.2399999999999998
+      ],
+      "sigma": 1.7884965753391868
+    },
+    "forecast": {
+      "quality_next": 9.2198,
+      "quality_band": [
+        7.898021152847118,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2026-01-12T00:00:00",
+      "materia": "CALCULO DIFERENCIAL",
+      "calidad": 9.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Profe flexible y accesible, pocos trabajos, un examen y preexamen por unidad, faciles (parecidos a ejercicios en clase). Explica rápido, pero vuelve a explicar sin problema. Responde dudas, es buena onda y puntual."
+    },
+    {
+      "fecha_iso": "2024-09-20T00:00:00",
+      "materia": "CÁLCULO INTEGRAL Y CALCULÓ VECTORIAL",
+      "calidad": 10.0,
+      "dificultad": 6.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Es un excelente profesor, sus clases, son muy claras y no tiene problemas en explicar las veces que haga falta para que entiendas si tienes algún problema, es muy alegre y amable, tomaría su clase de nuevo si pudiera"
+    },
+    {
+      "fecha_iso": "2024-08-09T00:00:00",
+      "materia": "CÁLCULO INTEGRAL",
+      "calidad": 10.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Es una excelente persona, sincero y sabe demasiado de física y matemáticas. Enseña rápido entonces debes tener las bases claras y seguir el ritmo. Puede ser difícil si llegas sin saber nada, pero si sabes diferencial, y pones atención, aprenderás bastante bien."
+    },
+    {
+      "fecha_iso": "2024-06-05T00:00:00",
+      "materia": "CÁLCULO VECTORIAL",
+      "calidad": 10.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Un gran profesor, todo lo que explica viene en el exámen, las tareas y pre examen suelen ser fáciles, gran profesor."
+    },
+    {
+      "fecha_iso": "2024-01-17T00:00:00",
+      "materia": "ÁLEGEBRA LINEAL",
+      "calidad": 8.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Molina es uno de los mejores profesores que he podido toparme en el tecnológico. Tiene un gran dominio de los temas que te enseña y no duda en ayudarte y en responder todas las dudas que surjan. Va  rápido en los temas pero es muy accesible y flexible. Incluso sin muchas bases disruté su clase ."
+    }
+  ],
+  "comments_recent": [
+    "Profe flexible y accesible, pocos trabajos, un examen y preexamen por unidad, faciles (parecidos a ejercicios en clase). Explica rápido, pero vuelve a explicar sin problema. Responde dudas, es buena onda y puntual.",
+    "Es un excelente profesor, sus clases, son muy claras y no tiene problemas en explicar las veces que haga falta para que entiendas si tienes algún problema, es muy alegre y amable, tomaría su clase de nuevo si pudiera",
+    "Es una excelente persona, sincero y sabe demasiado de física y matemáticas. Enseña rápido entonces debes tener las bases claras y seguir el ritmo. Puede ser difícil si llegas sin saber nada, pero si sabes diferencial, y pones atención, aprenderás bastante bien.",
+    "Un gran profesor, todo lo que explica viene en el exámen, las tareas y pre examen suelen ser fáciles, gran profesor.",
+    "Molina es uno de los mejores profesores que he podido toparme en el tecnológico. Tiene un gran dominio de los temas que te enseña y no duda en ayudarte y en responder todas las dudas que surjan. Va  rápido en los temas pero es muy accesible y flexible. Incluso sin muchas bases disruté su clase ."
+  ],
+  "n_reviews": 5
+}

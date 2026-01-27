@@ -1,0 +1,177 @@
+{
+  "professor_id": "IRVIN_HERBERTO_GIL_GAXIOLA",
+  "nombre": "IRVIN HERBERTO GIL GAXIOLA",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 8.09292548526919,
+    "difficulty_decayed": 4.778733035054185
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.511704582921199,
+    "difficulty_bayes": 3.7361028684470825
+  },
+  "recommendation_analysis": {
+    "rate": 0.77,
+    "wilson_interval": [
+      0.3515051021514722,
+      0.9538694906824042
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": -0.29,
+    "z_mean_decayed": 0.0,
+    "per_subject": [
+      {
+        "materia": "FENÓMENOS DE TRANSPORTE",
+        "z_decayed": 0.00222112615467117,
+        "n": 3
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "da",
+          "da muchas",
+          "muchas",
+          "muchas oportunidades",
+          "oportunidades"
+        ],
+        "weight": 0.31327927427953756
+      },
+      {
+        "id": 1,
+        "words": [
+          "buen maestro",
+          "aprender",
+          "clase",
+          "maestro",
+          "si"
+        ],
+        "weight": 0.34492012199634525
+      }
+    ],
+    "sentiment": {
+      "overall": -0.5,
+      "by_month": {
+        "2025-06": 0.0,
+        "2023-03": -1.0,
+        "2021-06": -0.5
+      }
+    },
+    "n_comments": 4
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        9.5,
+        9.0,
+        2.0,
+        10.0
+      ],
+      "ewma": [
+        9.5,
+        9.35,
+        7.144999999999999,
+        8.0015
+      ],
+      "sigma": 3.029364575148832
+    },
+    "difficulty_trend": {
+      "series": [
+        6.0,
+        6.0,
+        8.0,
+        2.0
+      ],
+      "ewma": [
+        6.0,
+        5.999999999999999,
+        6.6,
+        5.219999999999999
+      ],
+      "sigma": 1.957915558274496
+    },
+    "forecast": {
+      "quality_next": 8.0015,
+      "quality_band": [
+        2.06394543270829,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2025-06-12T00:00:00",
+      "materia": "FENÓMENOS DE TRANSPORTE",
+      "calidad": 10.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Súper buen maestro, explica de manera muy clara, definitivamente vas a aprender, aunque no califique asistencia es súper importante porq los exámenes parecidos a los problemas de clase además de q si ve q no faltas y demuestras interés t ayuda con puntos extra, muy buen maestro????????"
+    },
+    {
+      "fecha_iso": "2023-06-06T00:00:00",
+      "materia": "FENÓMENOS DE TRANSPORTE",
+      "calidad": 2.0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2023-03-25T00:00:00",
+      "materia": "FENOMENOS DE TRANSPORTE",
+      "calidad": 9.0,
+      "dificultad": 6.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Una materia muy dificil, pero te ayuda mucho y da muchas oportunidades siempre y cuando asistas a clases."
+    },
+    {
+      "fecha_iso": "2021-06-22T00:00:00",
+      "materia": "BALANCE DE MATERIANCE",
+      "calidad": 9.0,
+      "dificultad": 6.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Materia bastante difícil si quieres aprender cosas que si se aplican y no sólo teoría carga con este maestro, yo tomaría una clase de el nuevamente."
+    },
+    {
+      "fecha_iso": "2021-06-01T00:00:00",
+      "materia": "BALANCE DE MATERIA Y ENERGIA",
+      "calidad": 10.0,
+      "dificultad": 6.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "buen maestro, da muchas oportunidades"
+    }
+  ],
+  "comments_recent": [
+    "Súper buen maestro, explica de manera muy clara, definitivamente vas a aprender, aunque no califique asistencia es súper importante porq los exámenes parecidos a los problemas de clase además de q si ve q no faltas y demuestras interés t ayuda con puntos extra, muy buen maestro????????",
+    "Una materia muy dificil, pero te ayuda mucho y da muchas oportunidades siempre y cuando asistas a clases.",
+    "Materia bastante difícil si quieres aprender cosas que si se aplican y no sólo teoría carga con este maestro, yo tomaría una clase de el nuevamente.",
+    "buen maestro, da muchas oportunidades"
+  ],
+  "n_reviews": 5
+}

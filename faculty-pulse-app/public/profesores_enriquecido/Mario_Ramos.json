@@ -1,0 +1,187 @@
+{
+  "professor_id": "Mario_Ramos",
+  "nombre": "Mario  Ramos",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 9.990816468045121,
+    "difficulty_decayed": 0.0
+  },
+  "bayes_analysis": {
+    "quality_bayes": 8.111704582921199,
+    "difficulty_bayes": 1.8694362017804156
+  },
+  "recommendation_analysis": {
+    "rate": 0.92,
+    "wilson_interval": [
+      0.4820143151730107,
+      0.9930128292352413
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": 0.52,
+    "z_mean_decayed": 0.69,
+    "per_subject": [
+      {
+        "materia": "REDES",
+        "z_decayed": 0.6919317899403351,
+        "n": 10
+      },
+      {
+        "materia": "PROGRAMACION",
+        "z_decayed": 0.16951587590520292,
+        "n": 6
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "alumno",
+          "ex",
+          "ex alumno",
+          "si",
+          "maestro"
+        ],
+        "weight": 0.4563266744851307
+      },
+      {
+        "id": 1,
+        "words": [
+          "toda experiencia",
+          "excelente maestro",
+          "soy",
+          "maestro",
+          "excelente"
+        ],
+        "weight": 0.30856033527964444
+      }
+    ],
+    "sentiment": {
+      "overall": 0.75,
+      "by_month": {
+        "2020-08": 1.0,
+        "2014-04": 0.0,
+        "2012-10": 1.0,
+        "2011-12": 1.0
+      }
+    },
+    "n_comments": 4
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        9.0,
+        10.0,
+        10.0,
+        10.0,
+        10.0
+      ],
+      "ewma": [
+        9.0,
+        9.3,
+        9.51,
+        9.657,
+        9.7599
+      ],
+      "sigma": 0.2629735195794434
+    },
+    "difficulty_trend": {
+      "series": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ewma": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sigma": 0.0
+    },
+    "forecast": {
+      "quality_next": 9.7599,
+      "quality_band": [
+        9.24447190162429,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2024-09-19T00:00:00",
+      "materia": "REDES",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2020-08-18T00:00:00",
+      "materia": "INFORMATICA",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "simplemente Excelente!!!"
+    },
+    {
+      "fecha_iso": "2014-04-29T00:00:00",
+      "materia": "LENG BASIC, SORTING & SEARCHING",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "de parte de su amigo y ex-alumno, un profesor como nunca lo habra, con toda la experiencia del mundo y sobre todo pionero en la informatica de todo el estado... si estamos hablando de mario ramos valenzuela... su amigo Flavio Cira."
+    },
+    {
+      "fecha_iso": "2012-10-31T00:00:00",
+      "materia": "REDES",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Excelente maestro, siempre explicaba muy bien la materia de redes y transmitia toda su experiencia a sus alumnos, no se guardaba nada...Dije si algun dia soy maestro quiero ser como él... Slaudos maestro!"
+    },
+    {
+      "fecha_iso": "2011-12-08T00:00:00",
+      "materia": "PROGRAMACION",
+      "calidad": 9.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "SOY EGRESADO DEL ITC Y EN MI GENERACION TODOS LO TENEMOS MUY PRESENTE UN EXCELENTE MAESTRO ACTUALMENTE SON ESCASOS, SALUDENMELO SU EX ALUMNO LIC. JORGE ALFREDO HERMOSILLO NAVA COMENTELE QUE SI NO SE ACUERDA DE MI NO HAY PROBLEMA PERO YO Y MI GENERACION SI LO TENEMOS PRESENTE...FELICIDADES MAESTRO..."
+    }
+  ],
+  "comments_recent": [
+    "simplemente Excelente!!!",
+    "de parte de su amigo y ex-alumno, un profesor como nunca lo habra, con toda la experiencia del mundo y sobre todo pionero en la informatica de todo el estado... si estamos hablando de mario ramos valenzuela... su amigo Flavio Cira.",
+    "Excelente maestro, siempre explicaba muy bien la materia de redes y transmitia toda su experiencia a sus alumnos, no se guardaba nada...Dije si algun dia soy maestro quiero ser como él... Slaudos maestro!",
+    "SOY EGRESADO DEL ITC Y EN MI GENERACION TODOS LO TENEMOS MUY PRESENTE UN EXCELENTE MAESTRO ACTUALMENTE SON ESCASOS, SALUDENMELO SU EX ALUMNO LIC. JORGE ALFREDO HERMOSILLO NAVA COMENTELE QUE SI NO SE ACUERDA DE MI NO HAY PROBLEMA PERO YO Y MI GENERACION SI LO TENEMOS PRESENTE...FELICIDADES MAESTRO..."
+  ],
+  "n_reviews": 5
+}

@@ -1,0 +1,189 @@
+{
+  "professor_id": "Jesus_Guadalupe_Ruiz_Gomez",
+  "nombre": "Jesus Guadalupe Ruiz Gomez",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 5.622340403656139,
+    "difficulty_decayed": 3.5561029286566264
+  },
+  "bayes_analysis": {
+    "quality_bayes": 6.711704582921199,
+    "difficulty_bayes": 3.0694362017804155
+  },
+  "recommendation_analysis": {
+    "rate": 0.27,
+    "wilson_interval": [
+      0.060700304812506926,
+      0.6791657827734504
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": 0.88,
+    "z_mean_decayed": 0.76,
+    "per_subject": [
+      {
+        "materia": "ELECTRONICA ANALOGICA",
+        "z_decayed": 1.1547005383792517,
+        "n": 3
+      },
+      {
+        "materia": "ELECTRÓNICA ANALÓGICA",
+        "z_decayed": 0.6217318456303935,
+        "n": 7
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "pasa",
+          "maestro",
+          "te",
+          "si",
+          "es"
+        ],
+        "weight": 0.3615111687868482
+      },
+      {
+        "id": 1,
+        "words": [
+          "profesor",
+          "profe",
+          "califica",
+          "solo",
+          "clases"
+        ],
+        "weight": 0.28341561580965763
+      }
+    ],
+    "sentiment": {
+      "overall": -0.2,
+      "by_month": {
+        "2022-11": 0.0,
+        "2022-05": 0.0,
+        "2022-02": -1.0,
+        "2021-12": 0.0,
+        "2021-05": 0.0
+      }
+    },
+    "n_comments": 5
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        4.0,
+        4.0,
+        9.0,
+        7.0,
+        4.0
+      ],
+      "ewma": [
+        4.0,
+        4.0,
+        5.5,
+        5.949999999999999,
+        5.364999999999999
+      ],
+      "sigma": 1.8156871977298292
+    },
+    "difficulty_trend": {
+      "series": [
+        6.0,
+        4.0,
+        2.0,
+        0.0,
+        6.0
+      ],
+      "ewma": [
+        6.0,
+        5.3999999999999995,
+        4.379999999999999,
+        3.065999999999999,
+        3.946199999999999
+      ],
+      "sigma": 2.0402091971168055
+    },
+    "forecast": {
+      "quality_next": 5.364999999999999,
+      "quality_band": [
+        1.8062530924495341,
+        8.923746907550465
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2022-11-15T00:00:00",
+      "materia": "ELECTRÓNICA ANALÓGICA",
+      "calidad": 4.0,
+      "dificultad": 6.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": "Este profesor les pedirá una fuente reguladora de voltaje y un amplificador, el los evaluará cómo se le antoje, no muestra entusiasmo al dar las clases, mayormente se la pasa leyendo diapositivas, si buscas aprender, no escojas este profe, pues solo te hará perder el tiempo."
+    },
+    {
+      "fecha_iso": "2022-05-23T00:00:00",
+      "materia": "PRINCIPIOS ELÉCTRICOS (SISTEMAS)",
+      "calidad": 7.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Barquisimo para sistemas, clases aburridas, no deja casi tareas ni exámenes y casi casi califica con solo asistencia."
+    },
+    {
+      "fecha_iso": "2022-02-10T00:00:00",
+      "materia": "ELECTRÓNICA ANALÓGICA",
+      "calidad": 9.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Es buen profe, cuando explica teoría puede ser aburrido, si participas y le explicas bien las prácticas cuando la presentes, fácil te pasa. Muchos lo consideran mal maestro, pero es porque regaña mucho si te pregunta algo de la práctica que hiciste y no sabes. Es un indicador que solo copiaste."
+    },
+    {
+      "fecha_iso": "2021-12-15T00:00:00",
+      "materia": "ELECTRÓNICA ANALOGICA",
+      "calidad": 4.0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": "Sinceramente es un maestro cerrado de cabeza que no entiende problemas que puedas tener , en lo personal no califica correctamente y el cómo califique depende de su estado de ánimo , a mi me estuvo calificando y su computadora se apagó y dijo que no importaba"
+    },
+    {
+      "fecha_iso": "2021-05-06T00:00:00",
+      "materia": "ELECTRONICA ANALOGICA",
+      "calidad": 4.0,
+      "dificultad": 6.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": "Califica dlv, es el peor profesor que he tenido, no ayuda en nada y si se te va el internet le vale, se me fue el internet en mero del examen y no pude subirlo, pero si a el se le va el internet no pasa nada."
+    }
+  ],
+  "comments_recent": [
+    "Este profesor les pedirá una fuente reguladora de voltaje y un amplificador, el los evaluará cómo se le antoje, no muestra entusiasmo al dar las clases, mayormente se la pasa leyendo diapositivas, si buscas aprender, no escojas este profe, pues solo te hará perder el tiempo.",
+    "Barquisimo para sistemas, clases aburridas, no deja casi tareas ni exámenes y casi casi califica con solo asistencia.",
+    "Es buen profe, cuando explica teoría puede ser aburrido, si participas y le explicas bien las prácticas cuando la presentes, fácil te pasa. Muchos lo consideran mal maestro, pero es porque regaña mucho si te pregunta algo de la práctica que hiciste y no sabes. Es un indicador que solo copiaste.",
+    "Sinceramente es un maestro cerrado de cabeza que no entiende problemas que puedas tener , en lo personal no califica correctamente y el cómo califique depende de su estado de ánimo , a mi me estuvo calificando y su computadora se apagó y dijo que no importaba",
+    "Califica dlv, es el peor profesor que he tenido, no ayuda en nada y si se te va el internet le vale, se me fue el internet en mero del examen y no pude subirlo, pero si a el se le va el internet no pasa nada."
+  ],
+  "n_reviews": 5
+}

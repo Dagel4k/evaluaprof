@@ -1,0 +1,182 @@
+{
+  "professor_id": "jassiel_aguilar_zazueta",
+  "nombre": "jassiel aguilar zazueta",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 3.6590303668344237,
+    "difficulty_decayed": 6.905469672562555
+  },
+  "bayes_analysis": {
+    "quality_bayes": 6.0450379162545325,
+    "difficulty_bayes": 4.136102868447082
+  },
+  "recommendation_analysis": {
+    "rate": 0.3,
+    "wilson_interval": [
+      0.07258233012539304,
+      0.7012142677754393
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": -0.55,
+    "z_mean_decayed": -0.54,
+    "per_subject": [
+      {
+        "materia": "ADMINISTRACIÓN DE PROYECTOS",
+        "z_decayed": -0.535512594402294,
+        "n": 8
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "faltan",
+          "faltan decimas",
+          "te",
+          "clase",
+          "si"
+        ],
+        "weight": 0.40119900771306427
+      },
+      {
+        "id": 1,
+        "words": [
+          "dar",
+          "vida",
+          "menos",
+          "clase",
+          "gusta"
+        ],
+        "weight": 0.2902985173573118
+      }
+    ],
+    "sentiment": {
+      "overall": -0.25,
+      "by_month": {
+        "2022-12": -1.0,
+        "2021-10": 0.0,
+        "2019-08": 0.0,
+        "2019-01": 0.0
+      }
+    },
+    "n_comments": 4
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        2.0,
+        3.0,
+        5.0,
+        6.0,
+        2.0
+      ],
+      "ewma": [
+        2.0,
+        2.3,
+        3.11,
+        3.9769999999999994,
+        3.3838999999999997
+      ],
+      "sigma": 1.412833221579957
+    },
+    "difficulty_trend": {
+      "series": [
+        8.0,
+        6.0,
+        6.0,
+        6.0,
+        8.0
+      ],
+      "ewma": [
+        8.0,
+        7.3999999999999995,
+        6.9799999999999995,
+        6.685999999999999,
+        7.0802
+      ],
+      "sigma": 0.9104659730050321
+    },
+    "forecast": {
+      "quality_next": 3.3838999999999997,
+      "quality_band": [
+        0.6147468857032838,
+        6.153053114296716
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2022-12-07T00:00:00",
+      "materia": "ADMINISTRACIÓN DE PROYECTOS",
+      "calidad": 2.0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "HORRIBLE! sin duda alguna el profesor más desagradables que me a tocado.Grosero, irrespetuoso,altanero y sádico, le gusta burlarse de sus alumnos, hace de todo menos dar una clase productiva. Una clase con el es para que te ofenda o agreda y de paso enterarte de su vida."
+    },
+    {
+      "fecha_iso": "2021-10-25T00:00:00",
+      "materia": "ADMINISTRACIÓN DE PROYECTOS",
+      "calidad": 6.0,
+      "dificultad": 6.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": "La verdad no me gusta la dinámica donde nos quiere hacer a fuerzas decir el concepto que se está imaginando porque no leemos mentes y no lo sabemos todo.\nMe gusta que explique detalladamente y que sea estricto en cuestión de las fechas de entrega y la calidad de lo que entregamos."
+    },
+    {
+      "fecha_iso": "2021-02-01T00:00:00",
+      "materia": "ADMINISTRACIÓN DE PROYECTOS",
+      "calidad": 5.0,
+      "dificultad": 6.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2019-08-09T00:00:00",
+      "materia": "ADMINISTRACIÓN DE PROYECTOS",
+      "calidad": 3.0,
+      "dificultad": 6.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Habla de todo menos de la clase, asistencia obligatoria, no ayuda si te faltan 2 decimas, examenes confusos, proyecto facil, si quieres pasar no debes faltar ninguna clase"
+    },
+    {
+      "fecha_iso": "2019-01-12T00:00:00",
+      "materia": "ADMINISTRACIÓN DE PROYECTOS",
+      "calidad": 2.0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "NO Da clases, solo habla de su vida que no es nada interesante, sus examenes como si fueras a solicitar un empleo, no ayuda si te faltan 2 décimas para llegar a 70, mucho ego, no sabe dar clases ni explicar, 50 min de platicas sin sentido."
+    }
+  ],
+  "comments_recent": [
+    "HORRIBLE! sin duda alguna el profesor más desagradables que me a tocado.Grosero, irrespetuoso,altanero y sádico, le gusta burlarse de sus alumnos, hace de todo menos dar una clase productiva. Una clase con el es para que te ofenda o agreda y de paso enterarte de su vida.",
+    "La verdad no me gusta la dinámica donde nos quiere hacer a fuerzas decir el concepto que se está imaginando porque no leemos mentes y no lo sabemos todo.\nMe gusta que explique detalladamente y que sea estricto en cuestión de las fechas de entrega y la calidad de lo que entregamos.",
+    "Habla de todo menos de la clase, asistencia obligatoria, no ayuda si te faltan 2 decimas, examenes confusos, proyecto facil, si quieres pasar no debes faltar ninguna clase",
+    "NO Da clases, solo habla de su vida que no es nada interesante, sus examenes como si fueras a solicitar un empleo, no ayuda si te faltan 2 décimas para llegar a 70, mucho ego, no sabe dar clases ni explicar, 50 min de platicas sin sentido."
+  ],
+  "n_reviews": 5
+}

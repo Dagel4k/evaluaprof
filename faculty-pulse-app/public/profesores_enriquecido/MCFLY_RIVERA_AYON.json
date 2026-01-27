@@ -1,0 +1,194 @@
+{
+  "professor_id": "MCFLY_RIVERA_AYON",
+  "nombre": "MCFLY RIVERA AYON",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 6.59131515506073,
+    "difficulty_decayed": 2.2455491748812064
+  },
+  "bayes_analysis": {
+    "quality_bayes": 6.511704582921199,
+    "difficulty_bayes": 3.2027695351137493
+  },
+  "recommendation_analysis": {
+    "rate": 0.32,
+    "wilson_interval": [
+      0.08093585143759412,
+      0.715481086673155
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": -0.41,
+    "z_mean_decayed": -0.05,
+    "per_subject": [
+      {
+        "materia": "ELECTRÓNICA DE POTENCIA",
+        "z_decayed": 0.4362238669948292,
+        "n": 5
+      },
+      {
+        "materia": "ELECTRONICA",
+        "z_decayed": -0.5773502691896257,
+        "n": 3
+      },
+      {
+        "materia": "MÁQUINAS ELÉCTRICAS",
+        "z_decayed": -1.0838467405062753,
+        "n": 8
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "lupa",
+          "deben",
+          "formato",
+          "trabajos lupa",
+          "trabajos"
+        ],
+        "weight": 0.2725206401346009
+      },
+      {
+        "id": 1,
+        "words": [
+          "lupa",
+          "es",
+          "te",
+          "si",
+          "tambien"
+        ],
+        "weight": 0.3330160273680619
+      }
+    ],
+    "sentiment": {
+      "overall": 0.2,
+      "by_month": {
+        "2025-11": 1.0,
+        "2023-01": 0.0,
+        "2021-08": 0.0,
+        "2021-06": 0.0,
+        "2021-01": 0.0
+      }
+    },
+    "n_comments": 5
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        2.0,
+        7.0,
+        2.0,
+        5.0,
+        9.0
+      ],
+      "ewma": [
+        2.0,
+        3.5,
+        3.05,
+        3.635,
+        5.2444999999999995
+      ],
+      "sigma": 2.1128778478653234
+    },
+    "difficulty_trend": {
+      "series": [
+        8.0,
+        2.0,
+        8.0,
+        2.0,
+        0.0
+      ],
+      "ewma": [
+        8.0,
+        6.199999999999999,
+        6.739999999999998,
+        5.317999999999998,
+        3.722599999999998
+      ],
+      "sigma": 2.4582513850296106
+    },
+    "forecast": {
+      "quality_next": 5.2444999999999995,
+      "quality_band": [
+        1.1032594181839661,
+        9.385740581816034
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2025-11-26T00:00:00",
+      "materia": "ELECTRÓNICA DE POTENCIA",
+      "calidad": 9.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Excelente profe para electrónica de potencia; vas a aprender mucho mediante las simulaciones de Simulink y las prácticas porque también te guía paso a paso las conexiones correspondientes. Ofrece ayuda en la clase; solamente que si califica a lupa el reporte. Pero es tu mejor opción para potencia."
+    },
+    {
+      "fecha_iso": "2023-01-15T00:00:00",
+      "materia": "MÁQUINAS ELÉCTRICAS",
+      "calidad": 5.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Definitivamente revisa los trabajos con lupa y siempre en el formato que el pide, no hace exámenes, todo lo califica con reportes de práctica por lo tanto estos deben ser de 100/100, la asistencia importa bastante."
+    },
+    {
+      "fecha_iso": "2021-08-27T00:00:00",
+      "materia": "MAQUINAS SÍNCRONAS Y DE C.D",
+      "calidad": 2.0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Que Dios te bendiga, y el diablo de pasada también, por si las moscas"
+    },
+    {
+      "fecha_iso": "2021-06-11T00:00:00",
+      "materia": "MAQUINAS SÍNCRONAS Y DE C.D.",
+      "calidad": 7.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Todo el semestre deja trabajos de investigacion que deben ir en un formato que el te da. Sus clases son muy teoricas y la mayoria de veces no estan preparadas. Se las da de correcto pero cambia las cosas de una y pone fechas de entrega bien apresuradas. Califica los trabajos con lupa."
+    },
+    {
+      "fecha_iso": "2021-01-17T00:00:00",
+      "materia": "ELECTRONICA",
+      "calidad": 2.0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Cómo ser humano es una mierda y lo que le sigue, y como maestro no sirve pa nada"
+    }
+  ],
+  "comments_recent": [
+    "Excelente profe para electrónica de potencia; vas a aprender mucho mediante las simulaciones de Simulink y las prácticas porque también te guía paso a paso las conexiones correspondientes. Ofrece ayuda en la clase; solamente que si califica a lupa el reporte. Pero es tu mejor opción para potencia.",
+    "Definitivamente revisa los trabajos con lupa y siempre en el formato que el pide, no hace exámenes, todo lo califica con reportes de práctica por lo tanto estos deben ser de 100/100, la asistencia importa bastante.",
+    "Que Dios te bendiga, y el diablo de pasada también, por si las moscas",
+    "Todo el semestre deja trabajos de investigacion que deben ir en un formato que el te da. Sus clases son muy teoricas y la mayoria de veces no estan preparadas. Se las da de correcto pero cambia las cosas de una y pone fechas de entrega bien apresuradas. Califica los trabajos con lupa.",
+    "Cómo ser humano es una mierda y lo que le sigue, y como maestro no sirve pa nada"
+  ],
+  "n_reviews": 5
+}

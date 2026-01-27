@@ -1,0 +1,189 @@
+{
+  "professor_id": "Gustavo_Gastelúm_Duarte",
+  "nombre": "Gustavo Gastelúm Duarte",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 9.710346183885116,
+    "difficulty_decayed": 0.6091937718117325
+  },
+  "bayes_analysis": {
+    "quality_bayes": 8.045037916254532,
+    "difficulty_bayes": 2.1361028684470824
+  },
+  "recommendation_analysis": {
+    "rate": 1.0,
+    "wilson_interval": [
+      0.565508505247919,
+      1
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": 0.71,
+    "z_mean_decayed": 0.72,
+    "per_subject": [
+      {
+        "materia": "DIBUJO INDUSTRIAL",
+        "z_decayed": 0.7481019954225723,
+        "n": 26
+      },
+      {
+        "materia": "DIBUJO ASISTIDO POR COMPUTADORA",
+        "z_decayed": 0.6117752903214984,
+        "n": 9
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "autocad",
+          "recomendado",
+          "si",
+          "te",
+          "maestro"
+        ],
+        "weight": 0.3867268871452227
+      },
+      {
+        "id": 1,
+        "words": [
+          "profesor",
+          "buen",
+          "ensena",
+          "trabajos",
+          "bien"
+        ],
+        "weight": 0.2623436743803831
+      }
+    ],
+    "sentiment": {
+      "overall": 0.2,
+      "by_month": {
+        "2024-02": 0.0,
+        "2021-08": 0.0,
+        "2021-03": 1.0,
+        "2020-12": 0.0,
+        "2018-11": 0.0
+      }
+    },
+    "n_comments": 5
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        10.0,
+        8.0,
+        10.0,
+        10.0,
+        10.0
+      ],
+      "ewma": [
+        10.0,
+        9.4,
+        9.58,
+        9.706,
+        9.7942
+      ],
+      "sigma": 0.7448273679182313
+    },
+    "difficulty_trend": {
+      "series": [
+        0.0,
+        2.0,
+        2.0,
+        0.0,
+        0.0
+      ],
+      "ewma": [
+        0.0,
+        0.6,
+        1.02,
+        0.714,
+        0.49979999999999997
+      ],
+      "sigma": 0.9230373166887674
+    },
+    "forecast": {
+      "quality_next": 9.7942,
+      "quality_band": [
+        8.334338358880267,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2024-02-20T00:00:00",
+      "materia": "DIBUJO INDUSTRIAL",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "El mejor maestro de dibujo del Tec"
+    },
+    {
+      "fecha_iso": "2021-08-12T00:00:00",
+      "materia": "DIBUJO INDUSTRIAL",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Buen maestro, te permite entregar después trabajos y no es duro para calificar, y si te enseña bien el programa 10 de 10"
+    },
+    {
+      "fecha_iso": "2021-03-18T00:00:00",
+      "materia": "DIBUJO ASISTIDO POR COMPUTADORA",
+      "calidad": 10.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Es muy profesor 100% recomendado, eso si entrega todos los dibujos que hagas y casi siempre te pone 9 o 10 y mientras trabajas te pone música y aprendes mucho sobre el AutoCAD. Excelente maestro."
+    },
+    {
+      "fecha_iso": "2020-12-06T00:00:00",
+      "materia": "DIBUJO MECANICO",
+      "calidad": 8.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Muy buen maestro , en realidad si te ayuda y si aprendes a usar de buena manera AutoCad con el muy recomendado"
+    },
+    {
+      "fecha_iso": "2018-11-30T00:00:00",
+      "materia": "DIBUJO INDUSTRIAL",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Muy buen profesor, enseña demasiado bien su materia. No faltes a ninguna de sus clases y has los trabajos bien."
+    }
+  ],
+  "comments_recent": [
+    "El mejor maestro de dibujo del Tec",
+    "Buen maestro, te permite entregar después trabajos y no es duro para calificar, y si te enseña bien el programa 10 de 10",
+    "Es muy profesor 100% recomendado, eso si entrega todos los dibujos que hagas y casi siempre te pone 9 o 10 y mientras trabajas te pone música y aprendes mucho sobre el AutoCAD. Excelente maestro.",
+    "Muy buen maestro , en realidad si te ayuda y si aprendes a usar de buena manera AutoCad con el muy recomendado",
+    "Muy buen profesor, enseña demasiado bien su materia. No faltes a ninguna de sus clases y has los trabajos bien."
+  ],
+  "n_reviews": 5
+}

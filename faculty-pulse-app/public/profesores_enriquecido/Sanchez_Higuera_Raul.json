@@ -1,0 +1,183 @@
+{
+  "professor_id": "Sanchez_Higuera_Raul",
+  "nombre": "Sanchez Higuera Raul",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 6.202268969624664,
+    "difficulty_decayed": 7.094064344744367
+  },
+  "bayes_analysis": {
+    "quality_bayes": 6.845037916254532,
+    "difficulty_bayes": 4.269436201780416
+  },
+  "recommendation_analysis": {
+    "rate": 0.5,
+    "wilson_interval": [
+      0.17042015582256811,
+      0.8295798441774319
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": -0.4,
+    "z_mean_decayed": -0.36,
+    "per_subject": [
+      {
+        "materia": "DIBUJO INDUSTRIAL",
+        "z_decayed": -0.2023109331855558,
+        "n": 26
+      },
+      {
+        "materia": "DIBUJO",
+        "z_decayed": -1.1848198161159786,
+        "n": 8
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "si",
+          "es"
+        ],
+        "weight": 0.24714957656110678
+      },
+      {
+        "id": 1,
+        "words": [
+          "es",
+          "si"
+        ],
+        "weight": 0.27331805997972947
+      }
+    ],
+    "sentiment": {
+      "overall": 0.2,
+      "by_month": {
+        "2014-01": 0.0,
+        "2013-08": 0.0,
+        "2013-01": 1.0,
+        "2012-08": 0.0,
+        "2012-06": 0.0
+      }
+    },
+    "n_comments": 5
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        7.0,
+        2.0,
+        9.0,
+        2.0,
+        10.0
+      ],
+      "ewma": [
+        7.0,
+        5.499999999999999,
+        6.549999999999999,
+        5.184999999999999,
+        6.629499999999998
+      ],
+      "sigma": 3.1467254090562147
+    },
+    "difficulty_trend": {
+      "series": [
+        8.0,
+        8.0,
+        6.0,
+        8.0,
+        6.0
+      ],
+      "ewma": [
+        8.0,
+        8.0,
+        7.3999999999999995,
+        7.58,
+        7.106
+      ],
+      "sigma": 0.7888847824619256
+    },
+    "forecast": {
+      "quality_next": 6.629499999999998,
+      "quality_band": [
+        0.46191819824981817,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2014-01-11T00:00:00",
+      "materia": "DIBUJO INDUSTRIAL",
+      "calidad": 10.0,
+      "dificultad": 6.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "TE PONE A TRABAJAR, PERO APRENDES... DESPUES TE DAS CUENTA QUE OCUPAS LO QUE TE ENSEÑO."
+    },
+    {
+      "fecha_iso": "2013-08-19T00:00:00",
+      "materia": "DIBUJO INDUSTRIAL",
+      "calidad": 2.0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "El profe mas bipolar y mendigo que he tenido..."
+    },
+    {
+      "fecha_iso": "2013-01-17T00:00:00",
+      "materia": "DIBUJO INDUSTRIAL",
+      "calidad": 9.0,
+      "dificultad": 6.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Excelente como profesor, como el pocos. Si, es muy estricto y la mayoria del tiempo muy llevado pero en lo personal a mi me ayudo MUCHISIMO, Es cuestión de hacerle caso, muy recomendado."
+    },
+    {
+      "fecha_iso": "2012-08-16T00:00:00",
+      "materia": "DIBUJO",
+      "calidad": 2.0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "culeron el vato si pueden no carguen con el, estan mejores las otras opciones para dibujo"
+    },
+    {
+      "fecha_iso": "2012-06-14T00:00:00",
+      "materia": "DIBUJO INDUSTRIAL",
+      "calidad": 7.0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "No tiene nada de respeto hacia sus estudiantes, es muy pesado y le encanta burlarse de los demás, lo cual llega a crear un temor hacia el que impide preguntarle cualquier duda que tengamos, a pesar enseña muy bien y al final ayuda a que todos pasen, eso si trabajaras mucho!!."
+    }
+  ],
+  "comments_recent": [
+    "TE PONE A TRABAJAR, PERO APRENDES... DESPUES TE DAS CUENTA QUE OCUPAS LO QUE TE ENSEÑO.",
+    "El profe mas bipolar y mendigo que he tenido...",
+    "Excelente como profesor, como el pocos. Si, es muy estricto y la mayoria del tiempo muy llevado pero en lo personal a mi me ayudo MUCHISIMO, Es cuestión de hacerle caso, muy recomendado.",
+    "culeron el vato si pueden no carguen con el, estan mejores las otras opciones para dibujo",
+    "No tiene nada de respeto hacia sus estudiantes, es muy pesado y le encanta burlarse de los demás, lo cual llega a crear un temor hacia el que impide preguntarle cualquier duda que tengamos, a pesar enseña muy bien y al final ayuda a que todos pasen, eso si trabajaras mucho!!."
+  ],
+  "n_reviews": 5
+}

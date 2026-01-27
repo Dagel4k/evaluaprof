@@ -1,0 +1,189 @@
+{
+  "professor_id": "Felipe_Edmundo",
+  "nombre": "Felipe Edmundo",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 7.801062885216314,
+    "difficulty_decayed": 1.1791804155795178
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.178371249587866,
+    "difficulty_bayes": 2.2694362017804157
+  },
+  "recommendation_analysis": {
+    "rate": 0.91,
+    "wilson_interval": [
+      0.4723989488415368,
+      0.9913180254617567
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": -0.38,
+    "z_mean_decayed": 0.1,
+    "per_subject": [
+      {
+        "materia": "POO",
+        "z_decayed": 0.3140878513577852,
+        "n": 16
+      },
+      {
+        "materia": "TOPICOS",
+        "z_decayed": -1.0,
+        "n": 3
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "pasar",
+          "te",
+          "quieres",
+          "si quieres",
+          "si"
+        ],
+        "weight": 0.23413506715818921
+      },
+      {
+        "id": 1,
+        "words": [
+          "si quieres",
+          "te",
+          "semestre",
+          "bien",
+          "profe"
+        ],
+        "weight": 0.3347495193267637
+      }
+    ],
+    "sentiment": {
+      "overall": 0.0,
+      "by_month": {
+        "2025-10": 0.0,
+        "2025-05": 0.0,
+        "2025-02": 0.0,
+        "2023-03": 0.0,
+        "2022-06": 0.0
+      }
+    },
+    "n_comments": 5
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        2.0,
+        8.0,
+        7.0,
+        8.0,
+        10.0
+      ],
+      "ewma": [
+        2.0,
+        3.8,
+        4.76,
+        5.731999999999999,
+        7.0123999999999995
+      ],
+      "sigma": 1.5305036661177913
+    },
+    "difficulty_trend": {
+      "series": [
+        0.0,
+        2.0,
+        4.0,
+        0.0,
+        0.0
+      ],
+      "ewma": [
+        0.0,
+        0.6,
+        1.6199999999999999,
+        1.134,
+        0.7937999999999998
+      ],
+      "sigma": 1.4878126118567485
+    },
+    "forecast": {
+      "quality_next": 7.0123999999999995,
+      "quality_band": [
+        4.012612814409128,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2025-10-15T00:00:00",
+      "materia": "POO",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "si quieres aprender lo vas a hacer y si no quieres no es problema de el no le importa te va a pasar siempre y cuando entregues la mayoria de cosas"
+    },
+    {
+      "fecha_iso": "2025-05-31T00:00:00",
+      "materia": "FUNDAMENTOS DE LA PROGRAMACION/POO",
+      "calidad": 8.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Barcomundo, godworld, deidadmundo, si quieres pasar carga con el, no le importa la asistencia para nada, eso si, califica tarde casi terminando el semestre, es camarada, casi no falta, sus examenes son en moodle y no te esta viendo si haces trampa ;) recomendado para el inicio de la carrera"
+    },
+    {
+      "fecha_iso": "2025-02-21T00:00:00",
+      "materia": "POO",
+      "calidad": 7.0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "La neta no tengo quejas con este profe, ta bien"
+    },
+    {
+      "fecha_iso": "2023-03-07T00:00:00",
+      "materia": "TOPICOS",
+      "calidad": 8.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Edbarco"
+    },
+    {
+      "fecha_iso": "2022-06-08T00:00:00",
+      "materia": "POO",
+      "calidad": 2.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "no sabe programar a la verga no aprendi nada hijo de su puta madre bien barco, ya al final del semestre pinche profe no supo de donde verga copio el codigo y mando a la verga todo nos puso examen teorico y en linea el verga."
+    }
+  ],
+  "comments_recent": [
+    "si quieres aprender lo vas a hacer y si no quieres no es problema de el no le importa te va a pasar siempre y cuando entregues la mayoria de cosas",
+    "Barcomundo, godworld, deidadmundo, si quieres pasar carga con el, no le importa la asistencia para nada, eso si, califica tarde casi terminando el semestre, es camarada, casi no falta, sus examenes son en moodle y no te esta viendo si haces trampa ;) recomendado para el inicio de la carrera",
+    "La neta no tengo quejas con este profe, ta bien",
+    "Edbarco",
+    "no sabe programar a la verga no aprendi nada hijo de su puta madre bien barco, ya al final del semestre pinche profe no supo de donde verga copio el codigo y mando a la verga todo nos puso examen teorico y en linea el verga."
+  ],
+  "n_reviews": 5
+}

@@ -1,0 +1,179 @@
+{
+  "professor_id": "Felipe_Muñiz_Ramos",
+  "nombre": "Felipe Muñiz Ramos",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 7.6999632804268865,
+    "difficulty_decayed": 0.8852644143690572
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.445037916254533,
+    "difficulty_bayes": 2.2694362017804157
+  },
+  "recommendation_analysis": {
+    "rate": 0.78,
+    "wilson_interval": [
+      0.35941209420164993,
+      0.9572726687371846
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": 0.11,
+    "z_mean_decayed": -0.13,
+    "per_subject": [
+      {
+        "materia": "POO",
+        "z_decayed": 0.7919714217904732,
+        "n": 16
+      },
+      {
+        "materia": "TOPICOS AVANZADOS DE PROGRAMACION",
+        "z_decayed": -0.5773502691896252,
+        "n": 3
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "buena onda",
+          "onda",
+          "solo",
+          "cualquier",
+          "es"
+        ],
+        "weight": 0.3124038105084946
+      },
+      {
+        "id": 1,
+        "words": [
+          "teoria",
+          "sabe",
+          "ve",
+          "solo",
+          "proyectos"
+        ],
+        "weight": 0.28374180099071594
+      }
+    ],
+    "sentiment": {
+      "overall": 0.4,
+      "by_month": {
+        "2020-09": 0.0,
+        "2018-08": 0.0,
+        "2017-08": 1.0
+      }
+    },
+    "n_comments": 5
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        9.0,
+        6.5,
+        8.0
+      ],
+      "ewma": [
+        9.0,
+        8.25,
+        8.174999999999999
+      ],
+      "sigma": 0.9638248457750682
+    },
+    "difficulty_trend": {
+      "series": [
+        2.0,
+        1.0,
+        0.0
+      ],
+      "ewma": [
+        2.0,
+        1.7,
+        1.19
+      ],
+      "sigma": 0.5980802621722272
+    },
+    "forecast": {
+      "quality_next": 8.174999999999999,
+      "quality_band": [
+        6.2859033022808655,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2020-09-03T00:00:00",
+      "materia": "TOPICOS AVANZADOS DE PROGRAMACION",
+      "calidad": 8.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "tienes que ser un pendejazo para reprobar con él, haces los 3 proyectos que pide y cienon"
+    },
+    {
+      "fecha_iso": "2018-08-24T00:00:00",
+      "materia": "TÓPICOS Y FUNDAMENTOS DE PROGRAMACIÓN",
+      "calidad": 4.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": "Pues se ve que el sabe de la materia, pero poco se le da explicar, ejemplo en la unidad de concurrencia dejo un proyecto y solo explico un poco las diapositivas  de (clemente) dijo que las copiáramos y ya con eso quería el proyecto, los proyectos no revisa el código, y puedes copiarlos y pasas"
+    },
+    {
+      "fecha_iso": "2018-08-16T00:00:00",
+      "materia": "POO",
+      "calidad": 9.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Muy buena onda, se agarra cura y todo, enseña bien y resuelve cualquier duda"
+    },
+    {
+      "fecha_iso": "2017-08-05T00:00:00",
+      "materia": "FUNDAMENTOS DE PROGRAMACIÓN & POO",
+      "calidad": 10.0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Excelente profesor, explica de maravilla, al principio del curso solo verá poca teoría y después se va con la práctica, exámenes cortos, y solo pone lo que enseñó. Super recomendado, es muy accesible y siempre está para brindarte ayuda en cualquier tema. Sus exámenes valen 100."
+    },
+    {
+      "fecha_iso": "2017-08-02T00:00:00",
+      "materia": "TÓPICOS AVANZADOS DE PROGRAMACIÓN",
+      "calidad": 8.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Muy buen profesor. Explica las cosas con claridad, casi no ve teoría es mas practico. Eso si, es carrilludo, pero muy buena onda. Hace que te de interés por la clase, ademas de que sabe mucho. No es tan estricto al momento de calificar, pero debes echarle ganas de todas maneras."
+    }
+  ],
+  "comments_recent": [
+    "tienes que ser un pendejazo para reprobar con él, haces los 3 proyectos que pide y cienon",
+    "Pues se ve que el sabe de la materia, pero poco se le da explicar, ejemplo en la unidad de concurrencia dejo un proyecto y solo explico un poco las diapositivas  de (clemente) dijo que las copiáramos y ya con eso quería el proyecto, los proyectos no revisa el código, y puedes copiarlos y pasas",
+    "Muy buena onda, se agarra cura y todo, enseña bien y resuelve cualquier duda",
+    "Excelente profesor, explica de maravilla, al principio del curso solo verá poca teoría y después se va con la práctica, exámenes cortos, y solo pone lo que enseñó. Super recomendado, es muy accesible y siempre está para brindarte ayuda en cualquier tema. Sus exámenes valen 100.",
+    "Muy buen profesor. Explica las cosas con claridad, casi no ve teoría es mas practico. Eso si, es carrilludo, pero muy buena onda. Hace que te de interés por la clase, ademas de que sabe mucho. No es tan estricto al momento de calificar, pero debes echarle ganas de todas maneras."
+  ],
+  "n_reviews": 5
+}

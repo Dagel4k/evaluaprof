@@ -1,0 +1,184 @@
+{
+  "professor_id": "Ricardo_Rafael_Quintero_Meza",
+  "nombre": "Ricardo Rafael Quintero Meza",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 10.000000000000002,
+    "difficulty_decayed": 1.0713047872893577
+  },
+  "bayes_analysis": {
+    "quality_bayes": 8.178371249587865,
+    "difficulty_bayes": 2.2694362017804157
+  },
+  "recommendation_analysis": {
+    "rate": 0.88,
+    "wilson_interval": [
+      0.4444444444444444,
+      0.9853420195439739
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": 0.54,
+    "z_mean_decayed": 0.54,
+    "per_subject": [
+      {
+        "materia": "MANTENIMIENTO",
+        "z_decayed": 0.5352602653821054,
+        "n": 7
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "excelente",
+          "excelente maestro",
+          "materia",
+          "tec",
+          "es"
+        ],
+        "weight": 0.30144939856864506
+      },
+      {
+        "id": 1,
+        "words": [
+          "tec",
+          "es",
+          "maestro",
+          "toda",
+          "git"
+        ],
+        "weight": 0.3181882339530095
+      }
+    ],
+    "sentiment": {
+      "overall": 0.4,
+      "by_month": {
+        "2023-06": 1.0,
+        "2023-01": 0.0,
+        "2022-11": 1.0,
+        "2022-10": 0.0,
+        "2022-07": 0.0
+      }
+    },
+    "n_comments": 5
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 1,
+    "trust_score": 0.8
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        10.0
+      ],
+      "ewma": [
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        10.0
+      ],
+      "sigma": 0.0
+    },
+    "difficulty_trend": {
+      "series": [
+        4.0,
+        2.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ewma": [
+        4.0,
+        3.4,
+        2.38,
+        1.666,
+        1.1662
+      ],
+      "sigma": 0.8682944016864326
+    },
+    "forecast": {
+      "quality_next": 10.0,
+      "quality_band": [
+        10.0,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2023-06-01T00:00:00",
+      "materia": "MANTENIMIENTO Y METODOS AGILES",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Excelente maestro muy inspiracional y es una absoluta maquina para git y software, si lo ven carguen hasta etica con el si es posible"
+    },
+    {
+      "fecha_iso": "2023-01-12T00:00:00",
+      "materia": "MÉTODOS AGILES",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Este profesor es de los TOP del tec, toda materia que imparte la tiene dominada, conoce de todo y te enseña como trabajar eficiente con diferentes tecnologias. ~Ricardogod"
+    },
+    {
+      "fecha_iso": "2022-11-25T00:00:00",
+      "materia": "MANTENIMIENTO",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Excelente maestro de los mejores del tec cargaria cualquier materia con el!"
+    },
+    {
+      "fecha_iso": "2022-10-13T00:00:00",
+      "materia": "MTTO DE SOFTWARE",
+      "calidad": 10.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "El dios del git"
+    },
+    {
+      "fecha_iso": "2022-07-14T00:00:00",
+      "materia": "MANTENIMIENTO DE SOFTWARE",
+      "calidad": 10.0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "El profe siempre va con toda la actitud a enseñar, aprenderás mucho pero principalmente a usar git y deja proyectos grupales e individuales en github.\nLos exámenes son fáciles, tal cual lo que se ve en clase. Sin duda cargare de nuevo con este maestro."
+    }
+  ],
+  "comments_recent": [
+    "Excelente maestro muy inspiracional y es una absoluta maquina para git y software, si lo ven carguen hasta etica con el si es posible",
+    "Este profesor es de los TOP del tec, toda materia que imparte la tiene dominada, conoce de todo y te enseña como trabajar eficiente con diferentes tecnologias. ~Ricardogod",
+    "Excelente maestro de los mejores del tec cargaria cualquier materia con el!",
+    "El dios del git",
+    "El profe siempre va con toda la actitud a enseñar, aprenderás mucho pero principalmente a usar git y deja proyectos grupales e individuales en github.\nLos exámenes son fáciles, tal cual lo que se ve en clase. Sin duda cargare de nuevo con este maestro."
+  ],
+  "n_reviews": 5
+}

@@ -1,0 +1,184 @@
+{
+  "professor_id": "Dolores_Cano",
+  "nombre": "Dolores Cano",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 5.016341017545687,
+    "difficulty_decayed": 3.784300408844787
+  },
+  "bayes_analysis": {
+    "quality_bayes": 6.645037916254533,
+    "difficulty_bayes": 3.0694362017804155
+  },
+  "recommendation_analysis": {
+    "rate": 0.39,
+    "wilson_interval": [
+      0.11275591405332375,
+      0.7628322147921341
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": 0.26,
+    "z_mean_decayed": 0.31,
+    "per_subject": [
+      {
+        "materia": "QUIMICA",
+        "z_decayed": 1.0589562989177865,
+        "n": 24
+      },
+      {
+        "materia": "QUIMICA DE ALIMENTOS",
+        "z_decayed": 0.11398822835817576,
+        "n": 3
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "dice",
+          "dice groserias",
+          "solo",
+          "groserias",
+          "clases"
+        ],
+        "weight": 0.3056106551933043
+      },
+      {
+        "id": 1,
+        "words": [
+          "solo",
+          "groserias",
+          "dice",
+          "dice groserias",
+          "profe"
+        ],
+        "weight": 0.2750250305757788
+      }
+    ],
+    "sentiment": {
+      "overall": 0.2,
+      "by_month": {
+        "2021-06": 0.0,
+        "2020-09": 0.0,
+        "2020-06": 0.0,
+        "2020-03": 0.5
+      }
+    },
+    "n_comments": 5
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        10.0,
+        2.0,
+        2.0,
+        3.0
+      ],
+      "ewma": [
+        10.0,
+        7.6,
+        5.919999999999999,
+        5.043999999999999
+      ],
+      "sigma": 2.413352578192143
+    },
+    "difficulty_trend": {
+      "series": [
+        0.0,
+        8.0,
+        6.0,
+        4.0
+      ],
+      "ewma": [
+        0.0,
+        2.4,
+        3.4799999999999995,
+        3.6359999999999992
+      ],
+      "sigma": 2.5721801388446077
+    },
+    "forecast": {
+      "quality_next": 5.043999999999999,
+      "quality_band": [
+        0.31382894674339834,
+        9.774171053256598
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2021-06-01T00:00:00",
+      "materia": "QUIMICA DE ALIMENTOS",
+      "calidad": 3.0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Nada de clases, solo se conecta algunas veces y habla cosas nada que ver, suelta groserías y habla mal de todos"
+    },
+    {
+      "fecha_iso": "2020-09-28T00:00:00",
+      "materia": "QUIMICA DE ALIMENTOS",
+      "calidad": 2.0,
+      "dificultad": 6.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Mala maestra seria decir poco, solo se queja durante las clases de todos y nos dice groserias, no recomiendo llevar clases con ella, pesima."
+    },
+    {
+      "fecha_iso": "2020-06-11T00:00:00",
+      "materia": "QUIMICA DE ALIMENTOS",
+      "calidad": 2.0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "otra vez hace de las suyas nos insulta nos dice groserías y la reportamos y no pasa nada, nunca tomaría una clase de ella."
+    },
+    {
+      "fecha_iso": "2020-03-17T00:00:00",
+      "materia": "QUIMICA DE LOS ALIMENTOS",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Es muy buena profe, me dio química de los alimentos todo muy claro, 100% recomendable"
+    },
+    {
+      "fecha_iso": "2020-03-15T00:00:00",
+      "materia": "QUIMICA",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Profe súper preparada"
+    }
+  ],
+  "comments_recent": [
+    "Nada de clases, solo se conecta algunas veces y habla cosas nada que ver, suelta groserías y habla mal de todos",
+    "Mala maestra seria decir poco, solo se queja durante las clases de todos y nos dice groserias, no recomiendo llevar clases con ella, pesima.",
+    "otra vez hace de las suyas nos insulta nos dice groserías y la reportamos y no pasa nada, nunca tomaría una clase de ella.",
+    "Es muy buena profe, me dio química de los alimentos todo muy claro, 100% recomendable",
+    "Profe súper preparada"
+  ],
+  "n_reviews": 5
+}

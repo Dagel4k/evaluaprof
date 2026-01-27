@@ -1,0 +1,174 @@
+{
+  "professor_id": "LORENZO_PEREZ_VILA",
+  "nombre": "LORENZO PEREZ VILA",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 3.0849997095707606,
+    "difficulty_decayed": 6.007638204547735
+  },
+  "bayes_analysis": {
+    "quality_bayes": 5.9117045829212,
+    "difficulty_bayes": 3.7361028684470825
+  },
+  "recommendation_analysis": {
+    "rate": 0.38,
+    "wilson_interval": [
+      0.10797132315920568,
+      0.7563066355812937
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": -0.98,
+    "z_mean_decayed": -0.98,
+    "per_subject": [
+      {
+        "materia": "INVESTIGACIÓN DE OPERACIONES II",
+        "z_decayed": -0.9818141822017817,
+        "n": 5
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "dar",
+          "profesor es",
+          "tiene",
+          "si",
+          "profesor"
+        ],
+        "weight": 0.2946241630954994
+      },
+      {
+        "id": 1,
+        "words": [
+          "mas",
+          "viejo",
+          "es incapaz",
+          "incapaz",
+          "semestre"
+        ],
+        "weight": 0.33492954619424226
+      }
+    ],
+    "sentiment": {
+      "overall": -0.4,
+      "by_month": {
+        "2021-08": -1.0,
+        "2020-09": 0.0,
+        "2020-01": -0.3333333333333333
+      }
+    },
+    "n_comments": 5
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        3.3333333333333335,
+        4.0,
+        2.0
+      ],
+      "ewma": [
+        3.3333333333333335,
+        3.533333333333333,
+        3.0733333333333333
+      ],
+      "sigma": 0.7896647202264834
+    },
+    "difficulty_trend": {
+      "series": [
+        4.0,
+        8.0,
+        8.0
+      ],
+      "ewma": [
+        4.0,
+        5.199999999999999,
+        6.039999999999999
+      ],
+      "sigma": 1.436848403045128
+    },
+    "forecast": {
+      "quality_next": 3.0733333333333333,
+      "quality_band": [
+        1.525590481689426,
+        4.621076184977241
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2021-08-25T00:00:00",
+      "materia": "ADMINISTRACIÓN DE OPERACIONES 2",
+      "calidad": 2.0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Este profesor ya no debería dar clase. No tiene paciencia. Si es dificil presencial no me lo imagino en virtual."
+    },
+    {
+      "fecha_iso": "2020-09-18T00:00:00",
+      "materia": "AO2",
+      "calidad": 4.0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": "Pérez Vila, o mejor conocido como Pérez viola.\nno recomiendo para nada a este profesor, es un genio pero no es capaz de transmitir ese conocimiento. si ya cargaste con el te recomiendo que no te sientes al frente."
+    },
+    {
+      "fecha_iso": "2020-01-12T00:00:00",
+      "materia": "INVESTIGACIÓN DE OPERACIONES II",
+      "calidad": 3.0,
+      "dificultad": 6.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Siendo claros, lleve el semestre con este profesor y no es un buen docente. Posee bastantes conocimientos pero es incapaz de transmitirlo. Ademas, de explotar muy fácilmente al exponerle una duda o pedir apoyo respecto a un tema. sin duda alguna no aprendí mucho por no decir nada."
+    },
+    {
+      "fecha_iso": "2020-01-11T00:00:00",
+      "materia": "INVESTIGACIÓN DE OPERACIONES II",
+      "calidad": 2.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Profesor más mediocre no puede haber. Muy viejo, lento, falta demasiado, enseña horrible y tiene problemas de ira, odio que esta página no me da suficientes caracteres para explicar porque es el peor profesor de mi vida, sin exagerar. Sería fácil pasar con él, suponiendo que subiera calificaciones."
+    },
+    {
+      "fecha_iso": "2020-01-10T00:00:00",
+      "materia": "IO II",
+      "calidad": 5.0,
+      "dificultad": 6.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": "No lo carguen ya es incapaz de dar clases, los hará vivir un semestre amargo y lleno de frustraciones... no vale la pena ya está muy viejo, más bien acabado."
+    }
+  ],
+  "comments_recent": [
+    "Este profesor ya no debería dar clase. No tiene paciencia. Si es dificil presencial no me lo imagino en virtual.",
+    "Pérez Vila, o mejor conocido como Pérez viola.\nno recomiendo para nada a este profesor, es un genio pero no es capaz de transmitir ese conocimiento. si ya cargaste con el te recomiendo que no te sientes al frente.",
+    "Siendo claros, lleve el semestre con este profesor y no es un buen docente. Posee bastantes conocimientos pero es incapaz de transmitirlo. Ademas, de explotar muy fácilmente al exponerle una duda o pedir apoyo respecto a un tema. sin duda alguna no aprendí mucho por no decir nada.",
+    "Profesor más mediocre no puede haber. Muy viejo, lento, falta demasiado, enseña horrible y tiene problemas de ira, odio que esta página no me da suficientes caracteres para explicar porque es el peor profesor de mi vida, sin exagerar. Sería fácil pasar con él, suponiendo que subiera calificaciones.",
+    "No lo carguen ya es incapaz de dar clases, los hará vivir un semestre amargo y lleno de frustraciones... no vale la pena ya está muy viejo, más bien acabado."
+  ],
+  "n_reviews": 5
+}

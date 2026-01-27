@@ -1,0 +1,189 @@
+{
+  "professor_id": "Everd_Luis_Cazares_Dominguez",
+  "nombre": "Everd Luis Cazares Dominguez",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 7.823776560223701,
+    "difficulty_decayed": 3.955727192407016
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.511704582921199,
+    "difficulty_bayes": 3.0694362017804155
+  },
+  "recommendation_analysis": {
+    "rate": 0.24,
+    "wilson_interval": [
+      0.0496313913601995,
+      0.6563041859108826
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": -0.35,
+    "z_mean_decayed": -0.4,
+    "per_subject": [
+      {
+        "materia": "INGENIERÍA ECONÓMICA",
+        "z_decayed": -0.2556775692740448,
+        "n": 5
+      },
+      {
+        "materia": "FORMULACIÓN Y EVALUACIÓN DE PROYECTOS",
+        "z_decayed": -0.577342929742604,
+        "n": 4
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "tareas",
+          "quieres",
+          "materia",
+          "si",
+          "es"
+        ],
+        "weight": 0.3526739366902333
+      },
+      {
+        "id": 1,
+        "words": [
+          "vas",
+          "si",
+          "es",
+          "mejor",
+          "profesor"
+        ],
+        "weight": 0.25946998089162193
+      }
+    ],
+    "sentiment": {
+      "overall": 0.4,
+      "by_month": {
+        "2025-05": 0.0,
+        "2025-01": 0.0,
+        "2024-08": 1.0,
+        "2024-06": 1.0,
+        "2024-03": 0.0
+      }
+    },
+    "n_comments": 5
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        10.0,
+        8.0,
+        9.0,
+        6.0,
+        7.0
+      ],
+      "ewma": [
+        10.0,
+        9.4,
+        9.28,
+        8.296,
+        7.9072
+      ],
+      "sigma": 0.9170468079656566
+    },
+    "difficulty_trend": {
+      "series": [
+        4.0,
+        0.0,
+        0.0,
+        6.0,
+        8.0
+      ],
+      "ewma": [
+        4.0,
+        2.8,
+        1.9599999999999997,
+        3.1719999999999997,
+        4.6204
+      ],
+      "sigma": 2.7695564179124426
+    },
+    "forecast": {
+      "quality_next": 7.9072,
+      "quality_band": [
+        6.109788256387313,
+        9.704611743612686
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2025-05-19T00:00:00",
+      "materia": "INGENIERÍA ECONÓMICA",
+      "calidad": 7.0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Sinceramente es un buen profesor. Pero su forma de enseñar me causa conflicto. Sus clases y su examen no tienen nada que ver. Todo mi grupo va reprobado.."
+    },
+    {
+      "fecha_iso": "2025-01-24T00:00:00",
+      "materia": "INGENIERÍA ECONOMICA",
+      "calidad": 6.0,
+      "dificultad": 6.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": "La materia no es difícil si vas todos los días, pones atención y la estudias,  y es muy bueno explicando, si sabe, pero las tareas y exámenes son demasiados largos y el tiempo para hacerlos no alcanza, ni él podría. Es 0 accesible, muy arrogante y apático, no recomiendo para nada."
+    },
+    {
+      "fecha_iso": "2024-08-12T00:00:00",
+      "materia": "FORMULACIÓN Y EVALUACIÓN DE PROYECTOS",
+      "calidad": 9.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Excelente calidad de profesor, tiene sus reglas como todos. Aprende a ser educado y profesional si no mejor no cargues con él, mono."
+    },
+    {
+      "fecha_iso": "2024-06-17T00:00:00",
+      "materia": "INGENIERÍA ECONÓMICA",
+      "calidad": 8.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Es un profesor que sabe mucho sobre los temas, muy claro en todas las explicaciones…. Solo que deja tareas sin avisar y sus exámenes no son de una hora.\nVas a aprender mucho, pero tienes que estar trucha si quieres pasar."
+    },
+    {
+      "fecha_iso": "2024-03-01T00:00:00",
+      "materia": "FORMULACIÓN Y EVALUACIÓN DE PROYECTOS",
+      "calidad": 10.0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "La neta la materia es relleno total, pero si quieres aprender sobre desarrollo de proyectos el es el mejor, si solo quieres pasar la materia porque es de relleno, carga en la tarde con pendiente. Todos los fines deja tareas y si es mamón pero te resuelve las dudas, nada del otro mundo."
+    }
+  ],
+  "comments_recent": [
+    "Sinceramente es un buen profesor. Pero su forma de enseñar me causa conflicto. Sus clases y su examen no tienen nada que ver. Todo mi grupo va reprobado..",
+    "La materia no es difícil si vas todos los días, pones atención y la estudias,  y es muy bueno explicando, si sabe, pero las tareas y exámenes son demasiados largos y el tiempo para hacerlos no alcanza, ni él podría. Es 0 accesible, muy arrogante y apático, no recomiendo para nada.",
+    "Excelente calidad de profesor, tiene sus reglas como todos. Aprende a ser educado y profesional si no mejor no cargues con él, mono.",
+    "Es un profesor que sabe mucho sobre los temas, muy claro en todas las explicaciones…. Solo que deja tareas sin avisar y sus exámenes no son de una hora.\nVas a aprender mucho, pero tienes que estar trucha si quieres pasar.",
+    "La neta la materia es relleno total, pero si quieres aprender sobre desarrollo de proyectos el es el mejor, si solo quieres pasar la materia porque es de relleno, carga en la tarde con pendiente. Todos los fines deja tareas y si es mamón pero te resuelve las dudas, nada del otro mundo."
+  ],
+  "n_reviews": 5
+}

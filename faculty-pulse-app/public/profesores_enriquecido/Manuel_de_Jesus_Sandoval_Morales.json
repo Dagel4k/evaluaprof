@@ -1,0 +1,163 @@
+{
+  "professor_id": "Manuel_de_Jesus_Sandoval_Morales",
+  "nombre": "Manuel de Jesus Sandoval Morales",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 3.9654330643193907,
+    "difficulty_decayed": 3.95777196174667
+  },
+  "bayes_analysis": {
+    "quality_bayes": 5.978371249587866,
+    "difficulty_bayes": 3.0694362017804155
+  },
+  "recommendation_analysis": {
+    "rate": 0.17,
+    "wilson_interval": [
+      0.02726123413391729,
+      0.5995031524024562
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": -0.86,
+    "z_mean_decayed": -0.72,
+    "per_subject": [
+      {
+        "materia": "CALCULO INTEGRAL",
+        "z_decayed": 0.09631946648010442,
+        "n": 22
+      },
+      {
+        "materia": "ALGEBRA LINEAL",
+        "z_decayed": -1.2788691032275767,
+        "n": 13
+      },
+      {
+        "materia": "CALCULO",
+        "z_decayed": -1.3913603189851287,
+        "n": 11
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [],
+    "sentiment": {
+      "overall": null,
+      "by_month": {}
+    },
+    "n_comments": 3
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        2.0,
+        2.0,
+        2.0,
+        8.0,
+        3.0
+      ],
+      "ewma": [
+        2.0,
+        2.0,
+        2.0,
+        3.8,
+        3.5599999999999996
+      ],
+      "sigma": 1.955995910016174
+    },
+    "difficulty_trend": {
+      "series": [
+        0.0,
+        8.0,
+        2.0,
+        0.0,
+        8.0
+      ],
+      "ewma": [
+        0.0,
+        2.4,
+        2.28,
+        1.5959999999999999,
+        3.5172
+      ],
+      "sigma": 3.186330122256637
+    },
+    "forecast": {
+      "quality_next": 3.5599999999999996,
+      "quality_band": [
+        0.0,
+        7.3937519836317005
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2017-05-03T00:00:00",
+      "materia": "ALGEBRA LINEAL",
+      "calidad": 3.0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "El profesor es un libro de matematicas con conceptos que no todos conocen, y hablando de ellos como si lo entendieramos igual que el, perdiendonos en el tema por querer averiguar que es cada cosa en vez de saber como resolver bien los ejercicios"
+    },
+    {
+      "fecha_iso": "2017-01-16T00:00:00",
+      "materia": "CALCULO INTEGRAL",
+      "calidad": 8.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2016-01-14T00:00:00",
+      "materia": "VECTORIAL",
+      "calidad": 2.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2015-01-25T00:00:00",
+      "materia": "ÁLGEBRA",
+      "calidad": 2.0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Maestro inepto, nos perjudica tenerlo como maestro. Deberían de despedirlo, no es justo. Que calidad de estudios nos ofrecen con esta persona que no hace su trabajo."
+    },
+    {
+      "fecha_iso": "2013-07-19T00:00:00",
+      "materia": "CALCULO",
+      "calidad": 2.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Es un pésimo maestro, falta mucho y no enseña nada, es uno de los protegidos del Subdirector Academico y el Sindicato. Nos atraso el haber sido nuestro maestro porque ahora pagamos las consecuencias de lo que no aprendimos con el en otras materias. Lo reportamos para que lo corrieran, pero fue demasiado tarde el daño ya estaba hecho. Deberían correrlo por inepto al muy sinvergüenza."
+    }
+  ],
+  "comments_recent": [
+    "El profesor es un libro de matematicas con conceptos que no todos conocen, y hablando de ellos como si lo entendieramos igual que el, perdiendonos en el tema por querer averiguar que es cada cosa en vez de saber como resolver bien los ejercicios",
+    "Maestro inepto, nos perjudica tenerlo como maestro. Deberían de despedirlo, no es justo. Que calidad de estudios nos ofrecen con esta persona que no hace su trabajo.",
+    "Es un pésimo maestro, falta mucho y no enseña nada, es uno de los protegidos del Subdirector Academico y el Sindicato. Nos atraso el haber sido nuestro maestro porque ahora pagamos las consecuencias de lo que no aprendimos con el en otras materias. Lo reportamos para que lo corrieran, pero fue demasiado tarde el daño ya estaba hecho. Deberían correrlo por inepto al muy sinvergüenza."
+  ],
+  "n_reviews": 5
+}

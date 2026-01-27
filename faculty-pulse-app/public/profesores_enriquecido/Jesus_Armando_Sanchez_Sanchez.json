@@ -1,0 +1,182 @@
+{
+  "professor_id": "Jesus_Armando_Sanchez_Sanchez",
+  "nombre": "Jesus Armando Sanchez Sanchez",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 2.0,
+    "difficulty_decayed": 5.033187097682537
+  },
+  "bayes_analysis": {
+    "quality_bayes": 5.511704582921199,
+    "difficulty_bayes": 3.469436201780416
+  },
+  "recommendation_analysis": {
+    "rate": 0.43,
+    "wilson_interval": [
+      0.13266617599838842,
+      0.788162633266903
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": -1.23,
+    "z_mean_decayed": -1.25,
+    "per_subject": [
+      {
+        "materia": "QUÍMICA",
+        "z_decayed": -1.0855701589970372,
+        "n": 24
+      },
+      {
+        "materia": "QUIMICA",
+        "z_decayed": -1.4511623355540038,
+        "n": 24
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "clase",
+          "es",
+          "peor",
+          "tenido"
+        ],
+        "weight": 0.20476954161918065
+      },
+      {
+        "id": 1,
+        "words": [
+          "peor",
+          "tenido",
+          "es",
+          "clase"
+        ],
+        "weight": 0.318120852523751
+      }
+    ],
+    "sentiment": {
+      "overall": 0.0,
+      "by_month": {
+        "2021-08": 0.0,
+        "2021-03": 0.0,
+        "2021-01": 0.0,
+        "2020-12": 0.0
+      }
+    },
+    "n_comments": 5
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 1,
+    "trust_score": 0.8
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        2.0,
+        2.0,
+        2.0,
+        2.0
+      ],
+      "ewma": [
+        2.0,
+        2.0,
+        2.0,
+        2.0
+      ],
+      "sigma": 0.0
+    },
+    "difficulty_trend": {
+      "series": [
+        0.0,
+        8.0,
+        0.0,
+        8.0
+      ],
+      "ewma": [
+        0.0,
+        2.4,
+        1.68,
+        3.5759999999999996
+      ],
+      "sigma": 3.4808328505306503
+    },
+    "forecast": {
+      "quality_next": 2.0,
+      "quality_band": [
+        2.0,
+        2.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2021-08-10T00:00:00",
+      "materia": "QUIMICA",
+      "calidad": 2.0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "El peor profesor que he tenido en mi vida. Es más, no creo que se le pueda llamar profesor. Un asco."
+    },
+    {
+      "fecha_iso": "2021-08-10T00:00:00",
+      "materia": "QUIMICA",
+      "calidad": 2.0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "uuuuh me recuerda ami infancia cuando estaba en el quinder y ise una obra jaaaaaaaaaa que risa armando con tus payasadas eres un naco estupido"
+    },
+    {
+      "fecha_iso": "2021-03-24T00:00:00",
+      "materia": "QUÍMICA",
+      "calidad": 2.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "No explica nada, nunca da clase solo deja trabajos y te pide expongas, con exponer un minuto ya te cuenta, no lo recomiendo a menos que quieras pasar sin hacer ni aprender nada"
+    },
+    {
+      "fecha_iso": "2021-01-26T00:00:00",
+      "materia": "QUÍMICA",
+      "calidad": 2.0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Había tenido maestros malos, pero este maestro es el peor de todos... No lo haga compa"
+    },
+    {
+      "fecha_iso": "2020-12-06T00:00:00",
+      "materia": "QUÍMICA",
+      "calidad": 2.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "realmente no sirve de nada su clase, es muy cómico y definitivamente no tomaría su clase de nuevo"
+    }
+  ],
+  "comments_recent": [
+    "El peor profesor que he tenido en mi vida. Es más, no creo que se le pueda llamar profesor. Un asco.",
+    "uuuuh me recuerda ami infancia cuando estaba en el quinder y ise una obra jaaaaaaaaaa que risa armando con tus payasadas eres un naco estupido",
+    "No explica nada, nunca da clase solo deja trabajos y te pide expongas, con exponer un minuto ya te cuenta, no lo recomiendo a menos que quieras pasar sin hacer ni aprender nada",
+    "Había tenido maestros malos, pero este maestro es el peor de todos... No lo haga compa",
+    "realmente no sirve de nada su clase, es muy cómico y definitivamente no tomaría su clase de nuevo"
+  ],
+  "n_reviews": 5
+}

@@ -15,7 +15,7 @@
     "preview": "vite preview",
     "android:debug": "cd android && ./gradlew assembleDebug",
     "android:release": "cd android && ./gradlew assembleRelease",
-    "build:seo": "vite build && node scripts/prerender.cjs"
+    "build:seo": "npm run prebuild && vite build && node scripts/prerender.cjs"
   },
   "keywords": [
     "profesores",

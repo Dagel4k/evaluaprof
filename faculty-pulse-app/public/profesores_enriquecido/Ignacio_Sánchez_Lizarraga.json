@@ -1,0 +1,169 @@
+{
+  "professor_id": "Ignacio_Sánchez_Lizarraga",
+  "nombre": "Ignacio Sánchez Lizarraga",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 9.54279933167355,
+    "difficulty_decayed": 0.6706815769095897
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.178371249587866,
+    "difficulty_bayes": 3.0694362017804155
+  },
+  "recommendation_analysis": {
+    "rate": 0.6,
+    "wilson_interval": [
+      0.23071993220883702,
+      0.8823817688407467
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": -0.15,
+    "z_mean_decayed": 0.41,
+    "per_subject": [
+      {
+        "materia": "PROBABILIDAD Y ESTADISTICA",
+        "z_decayed": 0.9178707160657957,
+        "n": 19
+      },
+      {
+        "materia": "ESTADÍSTICA",
+        "z_decayed": 0.5,
+        "n": 4
+      },
+      {
+        "materia": "PROBABILIDAD",
+        "z_decayed": -0.3703576582113391,
+        "n": 7
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [],
+    "sentiment": {
+      "overall": -0.25,
+      "by_month": {
+        "2013-02": 1.0,
+        "2012-06": 0.0,
+        "2011-02": -1.0,
+        "2011-01": -1.0
+      }
+    },
+    "n_comments": 4
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        2.0,
+        3.0,
+        10.0,
+        10.0,
+        10.0
+      ],
+      "ewma": [
+        2.0,
+        2.3,
+        4.609999999999999,
+        6.226999999999999,
+        7.358899999999999
+      ],
+      "sigma": 2.206951225559822
+    },
+    "difficulty_trend": {
+      "series": [
+        8.0,
+        6.0,
+        0.0,
+        4.0,
+        0.0
+      ],
+      "ewma": [
+        8.0,
+        7.3999999999999995,
+        5.18,
+        4.826,
+        3.3781999999999996
+      ],
+      "sigma": 2.0992330332766773
+    },
+    "forecast": {
+      "quality_next": 7.358899999999999,
+      "quality_band": [
+        3.0332755979027484,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2020-08-13T00:00:00",
+      "materia": "ESTADÍSTICA",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2013-02-05T00:00:00",
+      "materia": "PROBABILIDAD",
+      "calidad": 10.0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Es un excelente maestro, que trata de que todos los alumnos capten el contenido de sus clases, es muy claro en sus explicaciones"
+    },
+    {
+      "fecha_iso": "2012-06-27T00:00:00",
+      "materia": "PROBABILIDAD Y ESTADISTICA",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Al chile que yo que soy un burro y bien huevón para la escuela con ponerle atención pase con 95, explica bien y si anda de buenas te deja sacar la libreta en el examen. No reprueba."
+    },
+    {
+      "fecha_iso": "2011-02-17T00:00:00",
+      "materia": "PROBABILIDAD",
+      "calidad": 3.0,
+      "dificultad": 6.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "De lo peor, pesimo"
+    },
+    {
+      "fecha_iso": "2011-01-20T00:00:00",
+      "materia": "PROBABILIDAD",
+      "calidad": 2.0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Pésimo"
+    }
+  ],
+  "comments_recent": [
+    "Es un excelente maestro, que trata de que todos los alumnos capten el contenido de sus clases, es muy claro en sus explicaciones",
+    "Al chile que yo que soy un burro y bien huevón para la escuela con ponerle atención pase con 95, explica bien y si anda de buenas te deja sacar la libreta en el examen. No reprueba.",
+    "De lo peor, pesimo",
+    "Pésimo"
+  ],
+  "n_reviews": 5
+}

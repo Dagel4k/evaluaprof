@@ -1,0 +1,144 @@
+{
+  "professor_id": "David_Enrique_Castro_Palazuelos",
+  "nombre": "David Enrique Castro Palazuelos",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 7.948025720270531,
+    "difficulty_decayed": 4.30766122270937
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.476826338844142,
+    "difficulty_bayes": 3.0029673590504453
+  },
+  "recommendation_analysis": {
+    "rate": 1.0,
+    "wilson_interval": [
+      0.5100999795960008,
+      1
+    ],
+    "n_recommendations": 4
+  },
+  "subject_normalization": {
+    "z_mean": 0.94,
+    "z_mean_decayed": 0.94,
+    "per_subject": [
+      {
+        "materia": "ELECTRÓNICA ANALÓGICA",
+        "z_decayed": 0.9439589936570679,
+        "n": 7
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [],
+    "sentiment": {
+      "overall": 0.6666666666666666,
+      "by_month": {
+        "2022-12": 1.0,
+        "2021-12": 1.0,
+        "2020-03": 0.0
+      }
+    },
+    "n_comments": 3
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        10.0,
+        5.0,
+        10.0,
+        7.0
+      ],
+      "ewma": [
+        10.0,
+        8.5,
+        8.95,
+        8.364999999999998
+      ],
+      "sigma": 1.9644480777052877
+    },
+    "difficulty_trend": {
+      "series": [
+        0.0,
+        6.0,
+        0.0,
+        8.0
+      ],
+      "ewma": [
+        0.0,
+        1.7999999999999998,
+        1.2599999999999998,
+        3.2819999999999996
+      ],
+      "sigma": 2.990311187819756
+    },
+    "forecast": {
+      "quality_next": 8.364999999999998,
+      "quality_band": [
+        4.514681767697635,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2022-12-21T00:00:00",
+      "materia": "ELECTRÓNICA ANALÓGICA",
+      "calidad": 7.0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Bueno si quieres aprender pero como el dijo \"con otros profesores pasas, conmigo aprendes\" tienes que hecharle ganas todo el semestre y saber escoger tus compañeros de equipo porque las revisiones de práctica van a ser muy exigentes, te debes de saber todo lo que se vea en clase prácticamente."
+    },
+    {
+      "fecha_iso": "2021-12-24T00:00:00",
+      "materia": "PDS",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Excelente maestro"
+    },
+    {
+      "fecha_iso": "2020-03-02T00:00:00",
+      "materia": "PROCESAMIENTO DIGITAL DE SEÑALES",
+      "calidad": 5.0,
+      "dificultad": 6.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": "Es buen profe, pero no le interesa seguir tu nivel, ni repite detalles.Da justo los temas necesarios y sales sabiendo bastante, pero exige bastante y califica a veces injusto"
+    },
+    {
+      "fecha_iso": "2019-06-19T00:00:00",
+      "materia": "PDS",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": ""
+    }
+  ],
+  "comments_recent": [
+    "Bueno si quieres aprender pero como el dijo \"con otros profesores pasas, conmigo aprendes\" tienes que hecharle ganas todo el semestre y saber escoger tus compañeros de equipo porque las revisiones de práctica van a ser muy exigentes, te debes de saber todo lo que se vea en clase prácticamente.",
+    "Excelente maestro",
+    "Es buen profe, pero no le interesa seguir tu nivel, ni repite detalles.Da justo los temas necesarios y sales sabiendo bastante, pero exige bastante y califica a veces injusto"
+  ],
+  "n_reviews": 4
+}

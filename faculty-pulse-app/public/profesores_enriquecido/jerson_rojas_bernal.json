@@ -1,0 +1,192 @@
+{
+  "professor_id": "jerson_rojas_bernal",
+  "nombre": "jerson rojas bernal",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 9.056838728809229,
+    "difficulty_decayed": 2.0138557442052485
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.978371249587866,
+    "difficulty_bayes": 2.5361028684470823
+  },
+  "recommendation_analysis": {
+    "rate": 0.81,
+    "wilson_interval": [
+      0.38374242300666217,
+      0.9668728502470477
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": 0.64,
+    "z_mean_decayed": 0.58,
+    "per_subject": [
+      {
+        "materia": "CÁLCULO DIFERENCIAL",
+        "z_decayed": 0.8744299054666805,
+        "n": 24
+      },
+      {
+        "materia": "CALCULO INTEGRAL",
+        "z_decayed": 0.8026622206675375,
+        "n": 22
+      },
+      {
+        "materia": "CALCULO DIFERENCIAL",
+        "z_decayed": 0.3924164461796792,
+        "n": 29
+      },
+      {
+        "materia": "CÁLCULO INTEGRAL",
+        "z_decayed": 0.30689745276171293,
+        "n": 10
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "bien",
+          "explica bien",
+          "extra",
+          "puntos",
+          "puntos extra"
+        ],
+        "weight": 0.28219943254888713
+      },
+      {
+        "id": 1,
+        "words": [
+          "buen",
+          "buen profesor",
+          "profesor",
+          "profesor explica",
+          "rapido"
+        ],
+        "weight": 0.3600407032978158
+      }
+    ],
+    "sentiment": {
+      "overall": 0.25,
+      "by_month": {
+        "2022-04": 0.5,
+        "2022-03": 0.0,
+        "2022-02": 0.0
+      }
+    },
+    "n_comments": 4
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        10.0,
+        9.0,
+        10.0,
+        8.0
+      ],
+      "ewma": [
+        10.0,
+        9.7,
+        9.79,
+        9.252999999999998
+      ],
+      "sigma": 0.6694765990433617
+    },
+    "difficulty_trend": {
+      "series": [
+        0.0,
+        4.0,
+        2.0,
+        2.0
+      ],
+      "ewma": [
+        0.0,
+        1.2,
+        1.44,
+        1.608
+      ],
+      "sigma": 1.2633141599248647
+    },
+    "forecast": {
+      "quality_next": 9.252999999999998,
+      "quality_band": [
+        7.940825865875009,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2025-01-16T00:00:00",
+      "materia": "CALCULO DIFERENCIAL",
+      "calidad": 8.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2022-04-30T00:00:00",
+      "materia": "CALCULO INTEGRAL",
+      "calidad": 10.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Muy buen profesor, explica un poco rápido pero con que le pongas atención el tema te quedara claro. (AL FINAL LE REGALAREMOS UNA GORRA DE GALLO)."
+    },
+    {
+      "fecha_iso": "2022-04-30T00:00:00",
+      "materia": "CALCULO INTEGRAL",
+      "calidad": 10.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Muy buen profesor, explica de manera clara y resuelve dudas, aunque a veces puede ir un poco rápido, sin duda en una muy buena opción para cargar calculo."
+    },
+    {
+      "fecha_iso": "2022-03-29T00:00:00",
+      "materia": "CÁLCULO INTEGRAL",
+      "calidad": 9.0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Al chile en virtuales no vale pinga, pero en presencial otro pedo explica bien y resuelve dudas, además si haces ejercicios y participas puntos extra asegurados"
+    },
+    {
+      "fecha_iso": "2022-02-10T00:00:00",
+      "materia": "CÁLCULO DIFERENCIAL",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "El mejor profe que he tenido, explica bien, es cierto que llega tarde, pero explica un tema por clase y no como otros profes que te saturan de información. Da muchos puntos extra y sus exámenes son parecidos a la tarea que deja."
+    }
+  ],
+  "comments_recent": [
+    "Muy buen profesor, explica un poco rápido pero con que le pongas atención el tema te quedara claro. (AL FINAL LE REGALAREMOS UNA GORRA DE GALLO).",
+    "Muy buen profesor, explica de manera clara y resuelve dudas, aunque a veces puede ir un poco rápido, sin duda en una muy buena opción para cargar calculo.",
+    "Al chile en virtuales no vale pinga, pero en presencial otro pedo explica bien y resuelve dudas, además si haces ejercicios y participas puntos extra asegurados",
+    "El mejor profe que he tenido, explica bien, es cierto que llega tarde, pero explica un tema por clase y no como otros profes que te saturan de información. Da muchos puntos extra y sus exámenes son parecidos a la tarea que deja."
+  ],
+  "n_reviews": 5
+}

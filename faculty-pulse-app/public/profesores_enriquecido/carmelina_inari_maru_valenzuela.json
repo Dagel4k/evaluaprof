@@ -1,0 +1,189 @@
+{
+  "professor_id": "carmelina_inari_maru_valenzuela",
+  "nombre": "carmelina inari maru valenzuela",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 3.116999742287345,
+    "difficulty_decayed": 7.344011029207736
+  },
+  "bayes_analysis": {
+    "quality_bayes": 6.445037916254533,
+    "difficulty_bayes": 4.136102868447082
+  },
+  "recommendation_analysis": {
+    "rate": 0.29,
+    "wilson_interval": [
+      0.06853388744303547,
+      0.6939525403528386
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": -0.81,
+    "z_mean_decayed": -0.97,
+    "per_subject": [
+      {
+        "materia": "ESTUDIO DEL TRABAJO 1",
+        "z_decayed": -0.6092717958449424,
+        "n": 4
+      },
+      {
+        "materia": "INDUSTRIAL",
+        "z_decayed": -1.0084152956251229,
+        "n": 5
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "sabe",
+          "es",
+          "bien",
+          "explica",
+          "proyecto"
+        ],
+        "weight": 0.24747256732236825
+      },
+      {
+        "id": 1,
+        "words": [
+          "proyecto",
+          "es",
+          "alumnos",
+          "sabe",
+          "maestra"
+        ],
+        "weight": 0.3313966521255614
+      }
+    ],
+    "sentiment": {
+      "overall": 0.0,
+      "by_month": {
+        "2024-07": 0.0,
+        "2021-01": 0.0,
+        "2017-08": 0.0,
+        "2016-01": 0.0,
+        "2014-09": 0.0
+      }
+    },
+    "n_comments": 5
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        10.0,
+        2.0,
+        4.0,
+        6.0,
+        2.0
+      ],
+      "ewma": [
+        10.0,
+        7.6,
+        6.52,
+        6.363999999999999,
+        5.054799999999998
+      ],
+      "sigma": 2.2663802611212445
+    },
+    "difficulty_trend": {
+      "series": [
+        8.0,
+        8.0,
+        4.0,
+        6.0,
+        8.0
+      ],
+      "ewma": [
+        8.0,
+        8.0,
+        6.8,
+        6.56,
+        6.991999999999999
+      ],
+      "sigma": 1.4197960416904958
+    },
+    "forecast": {
+      "quality_next": 5.054799999999998,
+      "quality_band": [
+        0.6126946882023594,
+        9.496905311797637
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2024-07-11T00:00:00",
+      "materia": "INDUSTRIAL",
+      "calidad": 2.0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "De esta Maestra se sabe que en sus tiempos de estudiante era muy poco aplicada. Pobres nuevos alumnos."
+    },
+    {
+      "fecha_iso": "2021-01-19T00:00:00",
+      "materia": "ESTUDIO DEL TRANAJO 1",
+      "calidad": 6.0,
+      "dificultad": 6.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": "deja un proyecto  bien largo en la primera unidad y ni explica nada, es medio bipolar y deja puras exposiciones"
+    },
+    {
+      "fecha_iso": "2017-08-30T00:00:00",
+      "materia": "ESTUDIO DEL TRABAJO 1",
+      "calidad": 4.0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": "No la volvería a cargar. Sabe del tema pero es CERO comprensible con los alumnos. En el primer proyecto  TODO te saldrá mal porque no explica bien como hacerlo. Absolutamente todo el semestre estarás presionado de si vas a pasar o no. Falta mucho y al final creo que ella califica como quiere."
+    },
+    {
+      "fecha_iso": "2016-01-14T00:00:00",
+      "materia": "ESTUDIO",
+      "calidad": 2.0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "no la carguen nunca"
+    },
+    {
+      "fecha_iso": "2014-09-22T00:00:00",
+      "materia": "MAESTRIA",
+      "calidad": 10.0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Es buena maestra aunque muy estricta"
+    }
+  ],
+  "comments_recent": [
+    "De esta Maestra se sabe que en sus tiempos de estudiante era muy poco aplicada. Pobres nuevos alumnos.",
+    "deja un proyecto  bien largo en la primera unidad y ni explica nada, es medio bipolar y deja puras exposiciones",
+    "No la volvería a cargar. Sabe del tema pero es CERO comprensible con los alumnos. En el primer proyecto  TODO te saldrá mal porque no explica bien como hacerlo. Absolutamente todo el semestre estarás presionado de si vas a pasar o no. Falta mucho y al final creo que ella califica como quiere.",
+    "no la carguen nunca",
+    "Es buena maestra aunque muy estricta"
+  ],
+  "n_reviews": 5
+}

@@ -1,0 +1,151 @@
+{
+  "professor_id": "Clemente_Garcia_Gerardo",
+  "nombre": "Clemente Garcia Gerardo",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 5.626345791066813,
+    "difficulty_decayed": 5.451771106095144
+  },
+  "bayes_analysis": {
+    "quality_bayes": 6.578371249587866,
+    "difficulty_bayes": 3.7361028684470825
+  },
+  "recommendation_analysis": {
+    "rate": 0.67,
+    "wilson_interval": [
+      0.2775114404152864,
+      0.9147614513690061
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": -0.18,
+    "z_mean_decayed": -0.05,
+    "per_subject": [
+      {
+        "materia": "---",
+        "z_decayed": -0.04886081222270142,
+        "n": 80
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [],
+    "sentiment": {
+      "overall": 0.0,
+      "by_month": {
+        "2025-11": 0.0,
+        "2025-05": 0.0,
+        "2024-01": 0.0
+      }
+    },
+    "n_comments": 5
+  },
+  "integrity_analysis": {
+    "dup_rate": 1.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 0.5
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        4.0,
+        4.0,
+        10.0
+      ],
+      "ewma": [
+        4.0,
+        4.0,
+        5.8
+      ],
+      "sigma": 2.4248711305964283
+    },
+    "difficulty_trend": {
+      "series": [
+        6.0,
+        6.0,
+        4.0
+      ],
+      "ewma": [
+        6.0,
+        5.999999999999999,
+        5.3999999999999995
+      ],
+      "sigma": 0.8082903768654761
+    },
+    "forecast": {
+      "quality_next": 5.8,
+      "quality_band": [
+        1.0472525840310007,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2025-11-24T00:00:00",
+      "materia": "---",
+      "calidad": 10.0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2025-05-14T00:00:00",
+      "materia": "---",
+      "calidad": 6.0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2025-05-06T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2024-01-26T00:00:00",
+      "materia": "---",
+      "calidad": 6.0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2024-01-05T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    }
+  ],
+  "comments_recent": [
+    "[Comentario esperando revisión]",
+    "[Comentario esperando revisión]",
+    "[Comentario esperando revisión]",
+    "[Comentario esperando revisión]",
+    "[Comentario esperando revisión]"
+  ],
+  "n_reviews": 5
+}

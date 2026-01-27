@@ -1,0 +1,189 @@
+{
+  "professor_id": "Carlos_Aragón_Hernandez",
+  "nombre": "Carlos Aragón Hernandez",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 6.223794476860342,
+    "difficulty_decayed": 5.484137953197776
+  },
+  "bayes_analysis": {
+    "quality_bayes": 6.9117045829212,
+    "difficulty_bayes": 3.602769535113749
+  },
+  "recommendation_analysis": {
+    "rate": 0.71,
+    "wilson_interval": [
+      0.3060474596471615,
+      0.9314661125569644
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": -0.65,
+    "z_mean_decayed": -0.59,
+    "per_subject": [
+      {
+        "materia": "---",
+        "z_decayed": -0.23876441006470966,
+        "n": 80
+      },
+      {
+        "materia": "ÁLGEBRA LINEAL",
+        "z_decayed": -1.069044967649697,
+        "n": 7
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "es",
+          "te",
+          "eres",
+          "si eres",
+          "si"
+        ],
+        "weight": 0.32119093833891255
+      },
+      {
+        "id": 1,
+        "words": [
+          "bueno",
+          "explica",
+          "es",
+          "buen",
+          "maestro"
+        ],
+        "weight": 0.2899213192742037
+      }
+    ],
+    "sentiment": {
+      "overall": 0.4,
+      "by_month": {
+        "2013-11": 0.0,
+        "2013-08": 1.0,
+        "2012-12": 1.0,
+        "2012-08": 0.0,
+        "2012-05": 0.0
+      }
+    },
+    "n_comments": 5
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        8.0,
+        2.0,
+        8.0,
+        8.0,
+        5.0
+      ],
+      "ewma": [
+        8.0,
+        6.199999999999999,
+        6.739999999999998,
+        7.1179999999999986,
+        6.482599999999999
+      ],
+      "sigma": 2.2190345360088473
+    },
+    "difficulty_trend": {
+      "series": [
+        2.0,
+        8.0,
+        2.0,
+        6.0,
+        8.0
+      ],
+      "ewma": [
+        2.0,
+        3.8,
+        3.26,
+        4.081999999999999,
+        5.257399999999999
+      ],
+      "sigma": 2.172231265772593
+    },
+    "forecast": {
+      "quality_next": 6.482599999999999,
+      "quality_band": [
+        2.133292309422658,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2013-11-14T00:00:00",
+      "materia": "---",
+      "calidad": 5.0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2013-08-04T00:00:00",
+      "materia": "ECU. DIFERENCIALES MATE V",
+      "calidad": 8.0,
+      "dificultad": 6.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Si eres Bueno en mate y no se te dificulta si pasas, es buen profesor explica bien pero si hace examenes medio dificiles, pero todo lo enseña en clases, si no faltas haces tareas y pasas el examen te lo recomiendo, si eres mujer hay mas probabilidad de pasar"
+    },
+    {
+      "fecha_iso": "2012-12-17T00:00:00",
+      "materia": "ÁLGEBRA LINEAL",
+      "calidad": 8.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Mis respetos para Aragón es un excelente maestro, explica EXCELENTE de una manera muy calmada y precisa, es muy buena onda y compa PERO....................NO ES NADA ACCESIBLE y pss me pesa.. es lo unico \"no bueno\" de él. \n**pd. si ya pasaste con 70 no te deja subir."
+    },
+    {
+      "fecha_iso": "2012-08-16T00:00:00",
+      "materia": "CALCULO INT",
+      "calidad": 2.0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Si eres huevon y no quieres batallar no cargues con el"
+    },
+    {
+      "fecha_iso": "2012-05-16T00:00:00",
+      "materia": "MATEMÁTICAS 3",
+      "calidad": 8.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Buen maestro, razonable en la calificación final"
+    }
+  ],
+  "comments_recent": [
+    "[Comentario esperando revisión]",
+    "Si eres Bueno en mate y no se te dificulta si pasas, es buen profesor explica bien pero si hace examenes medio dificiles, pero todo lo enseña en clases, si no faltas haces tareas y pasas el examen te lo recomiendo, si eres mujer hay mas probabilidad de pasar",
+    "Mis respetos para Aragón es un excelente maestro, explica EXCELENTE de una manera muy calmada y precisa, es muy buena onda y compa PERO....................NO ES NADA ACCESIBLE y pss me pesa.. es lo unico \"no bueno\" de él. \n**pd. si ya pasaste con 70 no te deja subir.",
+    "Si eres huevon y no quieres batallar no cargues con el",
+    "Buen maestro, razonable en la calificación final"
+  ],
+  "n_reviews": 5
+}

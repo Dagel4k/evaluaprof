@@ -1,0 +1,76 @@
+{
+  "professor_id": "Mario_Noe_Parra_García",
+  "nombre": "Mario Noe Parra García",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 7.0,
+    "difficulty_decayed": 0.0
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.243233522165272,
+    "difficulty_bayes": 2.5492311842460214
+  },
+  "recommendation_analysis": {
+    "rate": 1.0,
+    "wilson_interval": [
+      0.20654329147389294,
+      1
+    ],
+    "n_recommendations": 1
+  },
+  "subject_normalization": {
+    "z_mean": 0.56,
+    "z_mean_decayed": 0.56,
+    "per_subject": [
+      {
+        "materia": "TALLER DE INVESTIGACION II",
+        "z_decayed": 0.5619514869490164,
+        "n": 4
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [],
+    "sentiment": {
+      "overall": null,
+      "by_month": {}
+    },
+    "n_comments": 1
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": null,
+    "difficulty_trend": null,
+    "forecast": null,
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2014-09-05T00:00:00",
+      "materia": "TALLER DE INVESTIGACION II",
+      "calidad": 7.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "El bato esta bien, no aprendes nada, pero el que no saca 100 con el es porque es CHAMPION"
+    }
+  ],
+  "comments_recent": [
+    "El bato esta bien, no aprendes nada, pero el que no saca 100 con el es porque es CHAMPION"
+  ],
+  "n_reviews": 1
+}

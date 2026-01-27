@@ -1,0 +1,183 @@
+{
+  "professor_id": "Jose_Antonio_Castro_Inzunza",
+  "nombre": "Jose Antonio Castro Inzunza",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 4.167825128533875,
+    "difficulty_decayed": 6.098176132749561
+  },
+  "bayes_analysis": {
+    "quality_bayes": 6.511704582921199,
+    "difficulty_bayes": 3.602769535113749
+  },
+  "recommendation_analysis": {
+    "rate": 0.54,
+    "wilson_interval": [
+      0.19363745331329416,
+      0.8516032271065394
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": -0.52,
+    "z_mean_decayed": -0.75,
+    "per_subject": [
+      {
+        "materia": "CALCULO INTEGRAL",
+        "z_decayed": 0.8026622206675375,
+        "n": 22
+      },
+      {
+        "materia": "MATE",
+        "z_decayed": -0.5773502691896257,
+        "n": 3
+      },
+      {
+        "materia": "CÁLCULO",
+        "z_decayed": -1.1470786693528088,
+        "n": 3
+      },
+      {
+        "materia": "---",
+        "z_decayed": -1.1483431150731278,
+        "n": 80
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "es",
+          "recomiendo"
+        ],
+        "weight": 0.23844024920514767
+      },
+      {
+        "id": 1,
+        "words": [
+          "recomiendo",
+          "es"
+        ],
+        "weight": 0.3062353260633648
+      }
+    ],
+    "sentiment": {
+      "overall": 0.2,
+      "by_month": {
+        "2016-02": 0.0,
+        "2013-02": 0.0,
+        "2012-08": 0.3333333333333333
+      }
+    },
+    "n_comments": 5
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        4.666666666666667,
+        9.0,
+        2.0
+      ],
+      "ewma": [
+        4.666666666666667,
+        5.966666666666667,
+        4.776666666666666
+      ],
+      "sigma": 2.9059447370545115
+    },
+    "difficulty_trend": {
+      "series": [
+        4.0,
+        6.0,
+        8.0
+      ],
+      "ewma": [
+        4.0,
+        4.6,
+        5.619999999999999
+      ],
+      "sigma": 1.1961605243444549
+    },
+    "forecast": {
+      "quality_next": 4.776666666666666,
+      "quality_band": [
+        0.0,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2016-02-09T00:00:00",
+      "materia": "CÁLCULO",
+      "calidad": 2.0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Es un imbécil."
+    },
+    {
+      "fecha_iso": "2013-02-26T00:00:00",
+      "materia": "MATEMÁTICAS",
+      "calidad": 9.0,
+      "dificultad": 6.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Recomiendo a Castro Inzunza porque es buen maestro."
+    },
+    {
+      "fecha_iso": "2012-08-16T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2012-08-16T00:00:00",
+      "materia": "MATE",
+      "calidad": 2.0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Si no le hechas las ganas truenas, no lo recomiendo"
+    },
+    {
+      "fecha_iso": "2012-08-06T00:00:00",
+      "materia": "CALCULO INTEGRAL",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Exigente, pero muy bueno para explicar"
+    }
+  ],
+  "comments_recent": [
+    "Es un imbécil.",
+    "Recomiendo a Castro Inzunza porque es buen maestro.",
+    "[Comentario esperando revisión]",
+    "Si no le hechas las ganas truenas, no lo recomiendo",
+    "Exigente, pero muy bueno para explicar"
+  ],
+  "n_reviews": 5
+}

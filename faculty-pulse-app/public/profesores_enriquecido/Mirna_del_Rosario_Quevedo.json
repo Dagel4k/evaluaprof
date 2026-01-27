@@ -1,0 +1,158 @@
+{
+  "professor_id": "Mirna_del_Rosario_Quevedo",
+  "nombre": "Mirna del Rosario Quevedo",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 2.2675797796838326,
+    "difficulty_decayed": 7.464840440632334
+  },
+  "bayes_analysis": {
+    "quality_bayes": 5.578371249587866,
+    "difficulty_bayes": 4.402769535113749
+  },
+  "recommendation_analysis": {
+    "rate": 0.03,
+    "wilson_interval": [
+      0.0010890686597781077,
+      0.4673329364071781
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": -1.44,
+    "z_mean_decayed": -1.42,
+    "per_subject": [
+      {
+        "materia": "FUNDAMENTOS DE BASE DE DATOS",
+        "z_decayed": -1.3910810416968775,
+        "n": 9
+      },
+      {
+        "materia": "BASE DE DATOS",
+        "z_decayed": -1.5,
+        "n": 4
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [],
+    "sentiment": {
+      "overall": null,
+      "by_month": {}
+    },
+    "n_comments": 3
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        3.0
+      ],
+      "ewma": [
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.3
+      ],
+      "sigma": 0.3130495168499706
+    },
+    "difficulty_trend": {
+      "series": [
+        8.0,
+        8.0,
+        8.0,
+        8.0,
+        6.0
+      ],
+      "ewma": [
+        8.0,
+        8.0,
+        8.0,
+        8.0,
+        7.3999999999999995
+      ],
+      "sigma": 0.6260990336999409
+    },
+    "forecast": {
+      "quality_next": 2.3,
+      "quality_band": [
+        1.6864229469740573,
+        2.9135770530259424
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2023-05-24T00:00:00",
+      "materia": "FUNDAMENTOS DE BASE DE DATOS",
+      "calidad": 3.0,
+      "dificultad": 6.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Una hora de dolor de oidos diaria.\nExamenes no claros al igual que los proyectos"
+    },
+    {
+      "fecha_iso": "2022-08-10T00:00:00",
+      "materia": "FUNDAMENTOS DE BASE DE DATOS",
+      "calidad": 2.0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Por favor no carguen con esta maestra de verdad que no sabe de base de datos, cuando calificaba los exámenes le pedía ayuda a los alumnos en el salón porque no sabía ni ella la respuesta, si quieren aprender elijan a otro maestro si pueden a Leopoldo o Batiz."
+    },
+    {
+      "fecha_iso": "2022-04-01T00:00:00",
+      "materia": "FUNDAMENTOS DE BASE DE DATO",
+      "calidad": 2.0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "es fijo la peor cosa que ha pisado el tec"
+    },
+    {
+      "fecha_iso": "2022-03-15T00:00:00",
+      "materia": "BASE DE DATOS",
+      "calidad": 2.0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2022-02-15T00:00:00",
+      "materia": "FUNDAMENTOS DE BASES DE DATOS",
+      "calidad": 2.0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": ""
+    }
+  ],
+  "comments_recent": [
+    "Una hora de dolor de oidos diaria.\nExamenes no claros al igual que los proyectos",
+    "Por favor no carguen con esta maestra de verdad que no sabe de base de datos, cuando calificaba los exámenes le pedía ayuda a los alumnos en el salón porque no sabía ni ella la respuesta, si quieren aprender elijan a otro maestro si pueden a Leopoldo o Batiz.",
+    "es fijo la peor cosa que ha pisado el tec"
+  ],
+  "n_reviews": 5
+}

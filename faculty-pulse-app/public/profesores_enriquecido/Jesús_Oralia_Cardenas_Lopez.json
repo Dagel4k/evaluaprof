@@ -1,0 +1,189 @@
+{
+  "professor_id": "Jesús_Oralia_Cardenas_Lopez",
+  "nombre": "Jesús Oralia Cardenas Lopez",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 5.121031304755779,
+    "difficulty_decayed": 4.2010711343965745
+  },
+  "bayes_analysis": {
+    "quality_bayes": 6.645037916254533,
+    "difficulty_bayes": 3.0694362017804155
+  },
+  "recommendation_analysis": {
+    "rate": 0.36,
+    "wilson_interval": [
+      0.09863789625328122,
+      0.7430197222773014
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": -0.23,
+    "z_mean_decayed": -0.26,
+    "per_subject": [
+      {
+        "materia": "PROCESOS DE FABRICACIÓN",
+        "z_decayed": -0.2154996714803863,
+        "n": 5
+      },
+      {
+        "materia": "TALLER DE INVESTIGACIÓN",
+        "z_decayed": -0.4472135954999579,
+        "n": 7
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "examenes",
+          "mas",
+          "clases",
+          "si",
+          "es"
+        ],
+        "weight": 0.3768768071961277
+      },
+      {
+        "id": 1,
+        "words": [
+          "si",
+          "porque",
+          "va",
+          "te",
+          "bien"
+        ],
+        "weight": 0.2397355654455681
+      }
+    ],
+    "sentiment": {
+      "overall": -0.4,
+      "by_month": {
+        "2025-01": -1.0,
+        "2024-06": 0.0,
+        "2023-11": -1.0,
+        "2023-01": 0.0,
+        "2022-12": 0.0
+      }
+    },
+    "n_comments": 5
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        7.0,
+        7.0,
+        2.0,
+        8.0,
+        3.0
+      ],
+      "ewma": [
+        7.0,
+        7.0,
+        5.499999999999999,
+        6.249999999999999,
+        5.274999999999999
+      ],
+      "sigma": 2.076535576386785
+    },
+    "difficulty_trend": {
+      "series": [
+        0.0,
+        4.0,
+        2.0,
+        4.0,
+        8.0
+      ],
+      "ewma": [
+        0.0,
+        1.2,
+        1.44,
+        2.208,
+        3.9455999999999998
+      ],
+      "sigma": 1.6470779556535873
+    },
+    "forecast": {
+      "quality_next": 5.274999999999999,
+      "quality_band": [
+        1.2049902702818995,
+        9.345009729718097
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2025-01-10T00:00:00",
+      "materia": "PROCESOS DE FABRICACIÓN",
+      "calidad": 3.0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "SI TIENES CHANCE Y OPORTUNIDAD NO LO HAGAS, neta no, que te cuenten los pobres que la agarraron y los mandó a RC, no sabe de los temas pero es muy estricta, si ella piensa algo es terca y no le gusta que la corrijan, sus exámenes difícil, recuperación es más fácil  (a veces) ruega que esté en línea"
+    },
+    {
+      "fecha_iso": "2024-06-05T00:00:00",
+      "materia": "PROCESOS DE FABRICACIÓN",
+      "calidad": 8.0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Es bastante criticada pero siento que no es tan mala como dicen, depende como se porte el grupo y que tan bien te vea en el salón, si entregas a tiempo y si preguntas, ella te puede ayudar, eso si estudia de todo en el examen nunca sabes que va venir"
+    },
+    {
+      "fecha_iso": "2023-11-12T00:00:00",
+      "materia": "PROCESOS DE MANOFACTURA",
+      "calidad": 2.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "No se porque ella esta dando clases, sus clases son malas, no domina los temas, le preguntas algo, no sabe que responder.\nSus exámenes son de lo mas confuso. En general una de las peores maestras que e tenido en toda la carrera. Si puedes mejor carga con otro la materia"
+    },
+    {
+      "fecha_iso": "2023-01-16T00:00:00",
+      "materia": "CIENCIA E INGENIERÍA DE MATERIALES",
+      "calidad": 7.0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Su forma de calificar es muy extraña, alguna cosa por más mínima y te reprueba tenga o no la razón, no gastes tu tiempo en alegar con ella, en recuperación y exámenes ayuda mucho, no toma asistencia, llega tarde a las clases, al menos a mi me gusto su clase xD"
+    },
+    {
+      "fecha_iso": "2022-12-21T00:00:00",
+      "materia": "TALLER DE INVESTIGACIÓN",
+      "calidad": 7.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Para taller de investigación está bien, solo no dejes el proyecto hasta el último porque te va llevar la chingada, mientras todo bien, solo se constante con la revisión del avance para que no te alcance al final con muchos errores"
+    }
+  ],
+  "comments_recent": [
+    "SI TIENES CHANCE Y OPORTUNIDAD NO LO HAGAS, neta no, que te cuenten los pobres que la agarraron y los mandó a RC, no sabe de los temas pero es muy estricta, si ella piensa algo es terca y no le gusta que la corrijan, sus exámenes difícil, recuperación es más fácil  (a veces) ruega que esté en línea",
+    "Es bastante criticada pero siento que no es tan mala como dicen, depende como se porte el grupo y que tan bien te vea en el salón, si entregas a tiempo y si preguntas, ella te puede ayudar, eso si estudia de todo en el examen nunca sabes que va venir",
+    "No se porque ella esta dando clases, sus clases son malas, no domina los temas, le preguntas algo, no sabe que responder.\nSus exámenes son de lo mas confuso. En general una de las peores maestras que e tenido en toda la carrera. Si puedes mejor carga con otro la materia",
+    "Su forma de calificar es muy extraña, alguna cosa por más mínima y te reprueba tenga o no la razón, no gastes tu tiempo en alegar con ella, en recuperación y exámenes ayuda mucho, no toma asistencia, llega tarde a las clases, al menos a mi me gusto su clase xD",
+    "Para taller de investigación está bien, solo no dejes el proyecto hasta el último porque te va llevar la chingada, mientras todo bien, solo se constante con la revisión del avance para que no te alcance al final con muchos errores"
+  ],
+  "n_reviews": 5
+}

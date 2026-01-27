@@ -1,0 +1,182 @@
+{
+  "professor_id": "Aida_Beatriz_Serrano_Munguia",
+  "nombre": "Aida Beatriz Serrano Munguia",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 4.872915963617584,
+    "difficulty_decayed": 4.8275774746302575
+  },
+  "bayes_analysis": {
+    "quality_bayes": 6.378371249587866,
+    "difficulty_bayes": 3.602769535113749
+  },
+  "recommendation_analysis": {
+    "rate": 0.33,
+    "wilson_interval": [
+      0.08523854863099392,
+      0.7224885595847136
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": -0.26,
+    "z_mean_decayed": -0.24,
+    "per_subject": [
+      {
+        "materia": "QUIMICA",
+        "z_decayed": -0.1961030183181086,
+        "n": 24
+      },
+      {
+        "materia": "QUÍMICA",
+        "z_decayed": -0.29201522524163315,
+        "n": 24
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "buena",
+          "perjudica",
+          "solo",
+          "te perjudica",
+          "tarea"
+        ],
+        "weight": 0.31845839081674143
+      },
+      {
+        "id": 1,
+        "words": [
+          "perjudica",
+          "solo",
+          "te perjudica",
+          "buena",
+          "si"
+        ],
+        "weight": 0.2975959032795398
+      }
+    ],
+    "sentiment": {
+      "overall": 0.0,
+      "by_month": {
+        "2024-12": 0.0,
+        "2024-02": 0.0,
+        "2022-01": 0.0
+      }
+    },
+    "n_comments": 4
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        4.5,
+        3.0,
+        5.0,
+        6.0
+      ],
+      "ewma": [
+        4.5,
+        4.05,
+        4.334999999999999,
+        4.8344999999999985
+      ],
+      "sigma": 0.957569873429611
+    },
+    "difficulty_trend": {
+      "series": [
+        6.0,
+        6.0,
+        4.0,
+        4.0
+      ],
+      "ewma": [
+        6.0,
+        5.999999999999999,
+        5.3999999999999995,
+        4.9799999999999995
+      ],
+      "sigma": 0.7081195755896975
+    },
+    "forecast": {
+      "quality_next": 4.8344999999999985,
+      "quality_band": [
+        2.9576630480779613,
+        6.711336951922036
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2024-12-30T00:00:00",
+      "materia": "QUIMICA",
+      "calidad": 6.0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": "Casi todo su material de clases son de presentaciones y casi no escribe en el pizarron, por mi parte a mi no me gusta ver solo diapositiva la verdad y casi no aprendi, aparte si no entregas una tarea bien, o no la entregas como te lo especifica te perjudica mucho en la calificacion."
+    },
+    {
+      "fecha_iso": "2024-02-19T00:00:00",
+      "materia": "QUÍMICA - MECÁNICA",
+      "calidad": 5.0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": "Solo se levanta tres veces en el semestre, deja mucha tarea en canvas en vez de teams retardando las cosas, no avisa algunas tareas, se omitió todo una unidad a base de tareas y, no tiene buena ortografía para escribir los exámenes impresos, una tarea no entregada te perjudica gravemente."
+    },
+    {
+      "fecha_iso": "2023-01-16T00:00:00",
+      "materia": "LO",
+      "calidad": 3.0,
+      "dificultad": 6.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2022-01-20T00:00:00",
+      "materia": "QUÍMICA",
+      "calidad": 2.0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "No te ayuda en ninguna duda"
+    },
+    {
+      "fecha_iso": "2022-01-18T00:00:00",
+      "materia": "QUÍMICA",
+      "calidad": 7.0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Es buena profesora. Sabe mucho de su materia, aunque eso hace que explique como si nosotros también supiéramos todo. Si pones atención y te aplicas, si aprendes con ella y pasas. Si buscas pasar fácil, no es para ti."
+    }
+  ],
+  "comments_recent": [
+    "Casi todo su material de clases son de presentaciones y casi no escribe en el pizarron, por mi parte a mi no me gusta ver solo diapositiva la verdad y casi no aprendi, aparte si no entregas una tarea bien, o no la entregas como te lo especifica te perjudica mucho en la calificacion.",
+    "Solo se levanta tres veces en el semestre, deja mucha tarea en canvas en vez de teams retardando las cosas, no avisa algunas tareas, se omitió todo una unidad a base de tareas y, no tiene buena ortografía para escribir los exámenes impresos, una tarea no entregada te perjudica gravemente.",
+    "No te ayuda en ninguna duda",
+    "Es buena profesora. Sabe mucho de su materia, aunque eso hace que explique como si nosotros también supiéramos todo. Si pones atención y te aplicas, si aprendes con ella y pasas. Si buscas pasar fácil, no es para ti."
+  ],
+  "n_reviews": 5
+}

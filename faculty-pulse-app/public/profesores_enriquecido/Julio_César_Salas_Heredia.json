@@ -1,0 +1,192 @@
+{
+  "professor_id": "Julio_César_Salas_Heredia",
+  "nombre": "Julio César Salas Heredia",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 4.195698825683604,
+    "difficulty_decayed": 4.446609736437897
+  },
+  "bayes_analysis": {
+    "quality_bayes": 6.445037916254533,
+    "difficulty_bayes": 3.3361028684470826
+  },
+  "recommendation_analysis": {
+    "rate": 0.47,
+    "wilson_interval": [
+      0.1537905559555692,
+      0.8122789337295556
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": -0.61,
+    "z_mean_decayed": -0.81,
+    "per_subject": [
+      {
+        "materia": "PROPIEDADES DE LOS MATERIALES",
+        "z_decayed": -0.2773500981126146,
+        "n": 3
+      },
+      {
+        "materia": "PROCESOS DE FABRICACIÓN",
+        "z_decayed": -0.7212443140862603,
+        "n": 5
+      },
+      {
+        "materia": "PROPIEDAD DE LOS MATERIALES",
+        "z_decayed": -1.5498260496951668,
+        "n": 6
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "tiene",
+          "examenes",
+          "te",
+          "deja",
+          "si"
+        ],
+        "weight": 0.42977144915608917
+      },
+      {
+        "id": 1,
+        "words": [
+          "si",
+          "te",
+          "tiene",
+          "examenes",
+          "facil"
+        ],
+        "weight": 0.3061372035207993
+      }
+    ],
+    "sentiment": {
+      "overall": 0.0,
+      "by_month": {
+        "2021-11": 0.0,
+        "2019-08": 0.0,
+        "2018-10": 0.0,
+        "2018-06": 0.0
+      }
+    },
+    "n_comments": 4
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        7.0,
+        7.0,
+        4.0,
+        3.0,
+        3.0
+      ],
+      "ewma": [
+        7.0,
+        7.0,
+        6.1,
+        5.17,
+        4.519
+      ],
+      "sigma": 1.0867102649740636
+    },
+    "difficulty_trend": {
+      "series": [
+        4.0,
+        2.0,
+        4.0,
+        8.0,
+        4.0
+      ],
+      "ewma": [
+        4.0,
+        3.4,
+        3.58,
+        4.906,
+        4.6342
+      ],
+      "sigma": 1.7083240348364828
+    },
+    "forecast": {
+      "quality_next": 4.519,
+      "quality_band": [
+        2.3890478806508355,
+        6.648952119349165
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2021-11-11T00:00:00",
+      "materia": "PROCESOS DE FABRICACIÓN",
+      "calidad": 3.0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "El hijo de perra deja tarea como si diera todos los días de la semana, sus tareas son resumenes de sus PDF de 10-25 hojas, a mano y en hoja blanca"
+    },
+    {
+      "fecha_iso": "2019-08-09T00:00:00",
+      "materia": "PROPIEDAD DE LOS MATERIALES",
+      "calidad": 3.0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Tiene poco criterio, a veces se puede volver un asunto de ‘suerte’ que pases con el, si no le has pasado un examen al final a cada uno les hace preguntas orales, ya depende de ti si contestas 2 de 4 el decide si te pone 70, te manda a rc o te saca del tec."
+    },
+    {
+      "fecha_iso": "2019-06-12T00:00:00",
+      "materia": "PROPIEDADES DE LOS MATERIALES",
+      "calidad": 4.0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2018-10-23T00:00:00",
+      "materia": "PROCESOS",
+      "calidad": 7.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "tiene ojos bonitos y explica facil y examenes facil tambien"
+    },
+    {
+      "fecha_iso": "2018-06-05T00:00:00",
+      "materia": "PROCESOS DE FABRICACIÓN",
+      "calidad": 7.0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "La neta el profe va muy poco y eso si, deja mucha teoría. Sus exámenes son abiertos en las primeras unidades y las últimas de opción múltiple. Es fácil sacar 100 porque te aprendes todo de memoria o si no un acordionazo no falla nomas pónganse truchas"
+    }
+  ],
+  "comments_recent": [
+    "El hijo de perra deja tarea como si diera todos los días de la semana, sus tareas son resumenes de sus PDF de 10-25 hojas, a mano y en hoja blanca",
+    "Tiene poco criterio, a veces se puede volver un asunto de ‘suerte’ que pases con el, si no le has pasado un examen al final a cada uno les hace preguntas orales, ya depende de ti si contestas 2 de 4 el decide si te pone 70, te manda a rc o te saca del tec.",
+    "tiene ojos bonitos y explica facil y examenes facil tambien",
+    "La neta el profe va muy poco y eso si, deja mucha teoría. Sus exámenes son abiertos en las primeras unidades y las últimas de opción múltiple. Es fácil sacar 100 porque te aprendes todo de memoria o si no un acordionazo no falla nomas pónganse truchas"
+  ],
+  "n_reviews": 5
+}

@@ -1,0 +1,179 @@
+{
+  "professor_id": "Sandra_Luz_Hernandez_Ocampo",
+  "nombre": "Sandra Luz Hernandez Ocampo",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 3.232352849998097,
+    "difficulty_decayed": 6.113930962539367
+  },
+  "bayes_analysis": {
+    "quality_bayes": 5.9117045829212,
+    "difficulty_bayes": 3.869436201780416
+  },
+  "recommendation_analysis": {
+    "rate": 0.07,
+    "wilson_interval": [
+      0.005452451545942955,
+      0.5082102339408467
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": -0.71,
+    "z_mean_decayed": -0.7,
+    "per_subject": [
+      {
+        "materia": "TALLER DE ADMINISTRACIÓN",
+        "z_decayed": -0.6996035753459032,
+        "n": 8
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "docente",
+          "dias",
+          "es",
+          "alumnos",
+          "profe"
+        ],
+        "weight": 0.2709698838856198
+      },
+      {
+        "id": 1,
+        "words": [
+          "clase",
+          "porque",
+          "docente",
+          "es",
+          "te"
+        ],
+        "weight": 0.29392984799026234
+      }
+    ],
+    "sentiment": {
+      "overall": 0.2,
+      "by_month": {
+        "2024-01": 0.0,
+        "2023-01": 0.5,
+        "2022-03": 0.0,
+        "2022-02": 0.0
+      }
+    },
+    "n_comments": 5
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        4.0,
+        3.0,
+        2.5,
+        4.0
+      ],
+      "ewma": [
+        4.0,
+        3.6999999999999997,
+        3.34,
+        3.5379999999999994
+      ],
+      "sigma": 0.6106070749672003
+    },
+    "difficulty_trend": {
+      "series": [
+        4.0,
+        6.0,
+        7.0,
+        6.0
+      ],
+      "ewma": [
+        4.0,
+        4.6,
+        5.32,
+        5.523999999999999
+      ],
+      "sigma": 0.784791267365618
+    },
+    "forecast": {
+      "quality_next": 3.5379999999999994,
+      "quality_band": [
+        2.341210133064287,
+        4.734789866935712
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2024-01-18T00:00:00",
+      "materia": "TALLER DE ADMINISTRACIÓN",
+      "calidad": 4.0,
+      "dificultad": 6.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": "Lo único que tiene de bueno es que explica ok. De ahí, todo es malo. Su carácter te pone de mal humor y odia los teléfonos. Recomiendo que trates de ser la persona más olvidable de su clase, porque una vez que te vea, te va a agarrar de torta participando. Examenes específicos, memoriza términos."
+    },
+    {
+      "fecha_iso": "2023-01-18T00:00:00",
+      "materia": "TALLER DE ADMINISTRACIÓN",
+      "calidad": 2.0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Es el tipico docente que te arruina la experiencia educativa, no ayuda en absolutamente nada, da un pdf de 20 hojas para estudiar unos dias antes del examen y es cuestion de suerte estudiar lo que vendra porque en clase no enseña nada, bajo mi experiencia el peor docente de la universidad"
+    },
+    {
+      "fecha_iso": "2023-01-13T00:00:00",
+      "materia": "TALLER DE ADMINISTRACIÓN",
+      "calidad": 3.0,
+      "dificultad": 6.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Una lastima que esta profe le toque a los de nuevo ingreso, ya que no pueden evitar que les toque, aun así, es una de las peores profes que e tenido el descaro de conocer, súper mal educada y grosera con los alumnos, ademas que no deja claro los días de evaluación"
+    },
+    {
+      "fecha_iso": "2022-03-29T00:00:00",
+      "materia": "TALLER DE ADMINISTRACIÓN",
+      "calidad": 3.0,
+      "dificultad": 6.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Todo se le olvida y se confunde con todo, huyan (ojo en virtuales, en presencial no se)."
+    },
+    {
+      "fecha_iso": "2022-02-09T00:00:00",
+      "materia": "TALLER DE ADMINISTRACIÓN",
+      "calidad": 4.0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": "Es una mala profe como docente está bien pero a veces se pone en una actitud que no se puede tolerar y yo considero que a veces puede llegarle a faltar al respeto a los alumnos le vale madres si pasas o no"
+    }
+  ],
+  "comments_recent": [
+    "Lo único que tiene de bueno es que explica ok. De ahí, todo es malo. Su carácter te pone de mal humor y odia los teléfonos. Recomiendo que trates de ser la persona más olvidable de su clase, porque una vez que te vea, te va a agarrar de torta participando. Examenes específicos, memoriza términos.",
+    "Es el tipico docente que te arruina la experiencia educativa, no ayuda en absolutamente nada, da un pdf de 20 hojas para estudiar unos dias antes del examen y es cuestion de suerte estudiar lo que vendra porque en clase no enseña nada, bajo mi experiencia el peor docente de la universidad",
+    "Una lastima que esta profe le toque a los de nuevo ingreso, ya que no pueden evitar que les toque, aun así, es una de las peores profes que e tenido el descaro de conocer, súper mal educada y grosera con los alumnos, ademas que no deja claro los días de evaluación",
+    "Todo se le olvida y se confunde con todo, huyan (ojo en virtuales, en presencial no se).",
+    "Es una mala profe como docente está bien pero a veces se pone en una actitud que no se puede tolerar y yo considero que a veces puede llegarle a faltar al respeto a los alumnos le vale madres si pasas o no"
+  ],
+  "n_reviews": 5
+}

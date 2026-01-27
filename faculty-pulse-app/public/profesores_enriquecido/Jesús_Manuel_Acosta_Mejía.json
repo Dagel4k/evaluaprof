@@ -1,0 +1,187 @@
+{
+  "professor_id": "Jesús_Manuel_Acosta_Mejía",
+  "nombre": "Jesús Manuel Acosta Mejía",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 6.922482383325043,
+    "difficulty_decayed": 5.531938442744729
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.1117045829212,
+    "difficulty_bayes": 3.7361028684470825
+  },
+  "recommendation_analysis": {
+    "rate": 0.65,
+    "wilson_interval": [
+      0.2637430632333918,
+      0.9059094883409838
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": -0.79,
+    "z_mean_decayed": -0.76,
+    "per_subject": [
+      {
+        "materia": "CONTABILIDAD FINANCIERA",
+        "z_decayed": -0.5624674164721305,
+        "n": 7
+      },
+      {
+        "materia": "CONTABILIDAD",
+        "z_decayed": -1.3347310026050452,
+        "n": 10
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "examenes",
+          "da",
+          "opcion",
+          "quieres",
+          "si quieres"
+        ],
+        "weight": 0.4034182098779062
+      },
+      {
+        "id": 1,
+        "words": [
+          "da",
+          "examenes",
+          "big",
+          "big show",
+          "show"
+        ],
+        "weight": 0.3618469471140964
+      }
+    ],
+    "sentiment": {
+      "overall": 0.0,
+      "by_month": {
+        "2025-10": 0.0,
+        "2025-09": 0.0,
+        "2025-06": 1.0,
+        "2025-05": -1.0
+      }
+    },
+    "n_comments": 4
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        7.0,
+        2.0,
+        5.0,
+        10.0,
+        10.0
+      ],
+      "ewma": [
+        7.0,
+        5.499999999999999,
+        5.35,
+        6.744999999999999,
+        7.721499999999999
+      ],
+      "sigma": 2.626416417859133
+    },
+    "difficulty_trend": {
+      "series": [
+        6.0,
+        8.0,
+        6.0,
+        4.0,
+        4.0
+      ],
+      "ewma": [
+        6.0,
+        6.6,
+        6.419999999999999,
+        5.693999999999999,
+        5.185799999999999
+      ],
+      "sigma": 1.192718494867921
+    },
+    "forecast": {
+      "quality_next": 7.721499999999999,
+      "quality_band": [
+        2.573723820996099,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2025-10-01T00:00:00",
+      "materia": "CONTABILIDAD FINANCIERA",
+      "calidad": 10.0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "El big show, es la mera vrg no cargues con el si no quieres batallar, hace exámenes en horarios tarde o muy temprano, te da lo opcion que sea presencial lo somete a votación"
+    },
+    {
+      "fecha_iso": "2025-09-30T00:00:00",
+      "materia": "GESTIONAR DE COSTOS",
+      "calidad": 10.0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Es un maestro que si no quieres estudiar salte y busca otra opción, pero vas aprender más que la otras opciones lo comento porque repetí el curso"
+    },
+    {
+      "fecha_iso": "2025-08-08T00:00:00",
+      "materia": "CONTABILIDAD",
+      "calidad": 5.0,
+      "dificultad": 6.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2025-06-03T00:00:00",
+      "materia": "CONTABILIDAD FINANCIERA",
+      "calidad": 2.0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "el peor profesor con el que pude tratar, si quieres hacerte la vida imposible, carga con el, exámenes a deshoras(3 am), califica como le da su gana y nunca es claro con sus clases, se burla de ti y es super soberbio"
+    },
+    {
+      "fecha_iso": "2025-05-25T00:00:00",
+      "materia": "CONTABILIDAD FINANCIERA",
+      "calidad": 7.0,
+      "dificultad": 6.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Big Show. Profe horrible, explica demasiado rápido pero si puedes seguirle el paso entonces aprendes una que otra cosa. Es muy exigente tanto con sus exámenes como con sus tareas, sus recuperaciones valen cada vez menos dependiendo del intento que hagas. Si tienen la oportunidad, evitenlo"
+    }
+  ],
+  "comments_recent": [
+    "El big show, es la mera vrg no cargues con el si no quieres batallar, hace exámenes en horarios tarde o muy temprano, te da lo opcion que sea presencial lo somete a votación",
+    "Es un maestro que si no quieres estudiar salte y busca otra opción, pero vas aprender más que la otras opciones lo comento porque repetí el curso",
+    "el peor profesor con el que pude tratar, si quieres hacerte la vida imposible, carga con el, exámenes a deshoras(3 am), califica como le da su gana y nunca es claro con sus clases, se burla de ti y es super soberbio",
+    "Big Show. Profe horrible, explica demasiado rápido pero si puedes seguirle el paso entonces aprendes una que otra cosa. Es muy exigente tanto con sus exámenes como con sus tareas, sus recuperaciones valen cada vez menos dependiendo del intento que hagas. Si tienen la oportunidad, evitenlo"
+  ],
+  "n_reviews": 5
+}

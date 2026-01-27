@@ -1,0 +1,74 @@
+{
+  "professor_id": "Eduardo_Alejandro_Cortez_Esparza",
+  "nombre": "Eduardo Alejandro Cortez Esparza",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 4.0,
+    "difficulty_decayed": 0.0
+  },
+  "bayes_analysis": {
+    "quality_bayes": 6.9705062494379995,
+    "difficulty_bayes": 2.5492311842460214
+  },
+  "recommendation_analysis": {
+    "rate": 0.5,
+    "wilson_interval": [
+      0.0546190651458835,
+      0.9453809348541165
+    ],
+    "n_recommendations": 1
+  },
+  "subject_normalization": {
+    "z_mean": -0.79,
+    "z_mean_decayed": -0.79,
+    "per_subject": [
+      {
+        "materia": "PROGRAMACIÓN",
+        "z_decayed": -0.7890993414392342,
+        "n": 7
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [],
+    "sentiment": {
+      "overall": null,
+      "by_month": {}
+    },
+    "n_comments": 0
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": null,
+    "difficulty_trend": null,
+    "forecast": null,
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2020-11-24T00:00:00",
+      "materia": "PROGRAMACIÓN",
+      "calidad": 4.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": ""
+    }
+  ],
+  "comments_recent": [],
+  "n_reviews": 1
+}

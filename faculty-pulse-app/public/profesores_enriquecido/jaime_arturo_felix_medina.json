@@ -1,0 +1,192 @@
+{
+  "professor_id": "jaime_arturo_felix_medina",
+  "nombre": "jaime arturo felix medina",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 9.532808545706297,
+    "difficulty_decayed": 0.9183613560559785
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.978371249587866,
+    "difficulty_bayes": 2.2694362017804157
+  },
+  "recommendation_analysis": {
+    "rate": 1.0,
+    "wilson_interval": [
+      0.565508505247919,
+      1
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": 0.67,
+    "z_mean_decayed": 0.81,
+    "per_subject": [
+      {
+        "materia": "ESTRUCTURA DE DATOS",
+        "z_decayed": 1.4887848894072557,
+        "n": 4
+      },
+      {
+        "materia": "MATEMATICAS DISCRETAS",
+        "z_decayed": 1.1731114508820022,
+        "n": 7
+      },
+      {
+        "materia": "LENGUAJES DE INTERFAZ",
+        "z_decayed": 0.21006469620768004,
+        "n": 3
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "si",
+          "aburrir",
+          "conocimiento",
+          "puede",
+          "puede aburrir"
+        ],
+        "weight": 0.3626651655006954
+      },
+      {
+        "id": 1,
+        "words": [
+          "si",
+          "bien",
+          "explica",
+          "es",
+          "explica bien"
+        ],
+        "weight": 0.36971166129649335
+      }
+    ],
+    "sentiment": {
+      "overall": 0.25,
+      "by_month": {
+        "2024-12": 1.0,
+        "2023-08": 0.0,
+        "2022-05": 0.0,
+        "2022-03": 0.0
+      }
+    },
+    "n_comments": 4
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        10.0,
+        8.0,
+        9.0,
+        10.0,
+        10.0
+      ],
+      "ewma": [
+        10.0,
+        9.4,
+        9.28,
+        9.495999999999999,
+        9.647199999999998
+      ],
+      "sigma": 0.7552072881004268
+    },
+    "difficulty_trend": {
+      "series": [
+        2.0,
+        2.0,
+        2.0,
+        0.0,
+        0.0
+      ],
+      "ewma": [
+        2.0,
+        2.0,
+        2.0,
+        1.4,
+        0.9799999999999999
+      ],
+      "sigma": 0.668490837633546
+    },
+    "forecast": {
+      "quality_next": 9.647199999999998,
+      "quality_band": [
+        8.166993715323162,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2024-12-15T00:00:00",
+      "materia": "MATEMATICAS DISCRETAS",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Es uno de los profesores mas completos que he visto , explica muy bien, siempre pregunta si tienes dudas o comentarios, es un profesor que si viene a enseñar y tiene un \"humor\" interesante, excelente profesor"
+    },
+    {
+      "fecha_iso": "2023-08-11T00:00:00",
+      "materia": "LENGUAJES DE INTERFAZ",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Un profesor con mucho mucho conocimiento y explica muuy bien, nada mas que si puede aburrir pero si le prestas atencion vas a aprender mucho."
+    },
+    {
+      "fecha_iso": "2023-06-01T00:00:00",
+      "materia": "ESTRUCTURA DE DATOS Y LENGUAJES DE INTERFAZ",
+      "calidad": 9.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2022-05-18T00:00:00",
+      "materia": "LENGUAJES DE INTERFAZ",
+      "calidad": 8.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Buen maestro tiene amplio conocimiento, su manera de enseñar es buena, pero te puede aburrir."
+    },
+    {
+      "fecha_iso": "2022-03-15T00:00:00",
+      "materia": "ESTRUCTURA DE DATOS",
+      "calidad": 10.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Su clase es para dormirse pero explica todo muy bien de forma muy clara y entendible"
+    }
+  ],
+  "comments_recent": [
+    "Es uno de los profesores mas completos que he visto , explica muy bien, siempre pregunta si tienes dudas o comentarios, es un profesor que si viene a enseñar y tiene un \"humor\" interesante, excelente profesor",
+    "Un profesor con mucho mucho conocimiento y explica muuy bien, nada mas que si puede aburrir pero si le prestas atencion vas a aprender mucho.",
+    "Buen maestro tiene amplio conocimiento, su manera de enseñar es buena, pero te puede aburrir.",
+    "Su clase es para dormirse pero explica todo muy bien de forma muy clara y entendible"
+  ],
+  "n_reviews": 5
+}

@@ -1,0 +1,187 @@
+{
+  "professor_id": "Rosa_Isabel_Bonilla_Guadamuz",
+  "nombre": "Rosa Isabel Bonilla Guadamuz",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 5.183109814641581,
+    "difficulty_decayed": 5.392914911394963
+  },
+  "bayes_analysis": {
+    "quality_bayes": 6.511704582921199,
+    "difficulty_bayes": 3.7361028684470825
+  },
+  "recommendation_analysis": {
+    "rate": 0.25,
+    "wilson_interval": [
+      0.05322790982276788,
+      0.6640178375532726
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": -0.37,
+    "z_mean_decayed": -0.32,
+    "per_subject": [
+      {
+        "materia": "QUÍMICA",
+        "z_decayed": 1.1385248008993316,
+        "n": 24
+      },
+      {
+        "materia": "QUIMICA",
+        "z_decayed": -0.5191165360229957,
+        "n": 24
+      },
+      {
+        "materia": "---",
+        "z_decayed": -1.1483431150731278,
+        "n": 80
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "te",
+          "peor",
+          "si",
+          "es"
+        ],
+        "weight": 0.32289233389466
+      },
+      {
+        "id": 1,
+        "words": [
+          "es",
+          "si",
+          "peor",
+          "te"
+        ],
+        "weight": 0.2781622532713517
+      }
+    ],
+    "sentiment": {
+      "overall": 0.2,
+      "by_month": {
+        "2016-08": 1.0,
+        "2016-03": 0.0,
+        "2016-02": 0.0,
+        "2016-01": 0.0
+      }
+    },
+    "n_comments": 5
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        2.0,
+        9.0,
+        2.0,
+        10.0
+      ],
+      "ewma": [
+        2.0,
+        4.1,
+        3.4699999999999998,
+        5.429
+      ],
+      "sigma": 3.2177083330635585
+    },
+    "difficulty_trend": {
+      "series": [
+        8.0,
+        4.0,
+        8.0,
+        0.0
+      ],
+      "ewma": [
+        8.0,
+        6.8,
+        7.16,
+        5.012
+      ],
+      "sigma": 2.6779063961734484
+    },
+    "forecast": {
+      "quality_next": 5.429,
+      "quality_band": [
+        0.0,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2016-08-09T00:00:00",
+      "materia": "QUIMICA",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Es de las mejores maestras del tec, para activarla en modo bueno debes sobarle la joroba y darle coricos, es muy comprensiva y si no le llevas la tarea no hay problema te da tiempo."
+    },
+    {
+      "fecha_iso": "2016-03-17T00:00:00",
+      "materia": "QUIMICA",
+      "calidad": 2.0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "la peor maestra que he tenido, no sabe nada y no enseña nada, lo que aprendas lo aprenderas por ti mismo ademas de que si no pones el concepto tal cual ella lo dijo y viene en el libro te lo pone todo mal, NO CARGUEN CON ELLA NO APRENDERAN NADA Y LES HARA LA VIDA IMPOSIBLE"
+    },
+    {
+      "fecha_iso": "2016-02-02T00:00:00",
+      "materia": "QUÍMICA",
+      "calidad": 9.0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Todos dicen que es la peor, pero en verdad no es tan mala, ponle atención a la clase y apunta todo y has trabajos, tienes que trabajar, los examenes estan peladisisimos la recomiendo la neta"
+    },
+    {
+      "fecha_iso": "2016-01-15T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2016-01-14T00:00:00",
+      "materia": "QUIMICA",
+      "calidad": 2.0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "no se arriesguen, podra saber de su materia pero es una pesima profesora. No explica bien y si le intentas preguntar algo dira que tus preguntas son estupidas"
+    }
+  ],
+  "comments_recent": [
+    "Es de las mejores maestras del tec, para activarla en modo bueno debes sobarle la joroba y darle coricos, es muy comprensiva y si no le llevas la tarea no hay problema te da tiempo.",
+    "la peor maestra que he tenido, no sabe nada y no enseña nada, lo que aprendas lo aprenderas por ti mismo ademas de que si no pones el concepto tal cual ella lo dijo y viene en el libro te lo pone todo mal, NO CARGUEN CON ELLA NO APRENDERAN NADA Y LES HARA LA VIDA IMPOSIBLE",
+    "Todos dicen que es la peor, pero en verdad no es tan mala, ponle atención a la clase y apunta todo y has trabajos, tienes que trabajar, los examenes estan peladisisimos la recomiendo la neta",
+    "[Comentario esperando revisión]",
+    "no se arriesguen, podra saber de su materia pero es una pesima profesora. No explica bien y si le intentas preguntar algo dira que tus preguntas son estupidas"
+  ],
+  "n_reviews": 5
+}

@@ -1,0 +1,173 @@
+{
+  "professor_id": "ANGELINA_MACHADO",
+  "nombre": "ANGELINA MACHADO",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 9.431622456177786,
+    "difficulty_decayed": 1.1632296357024974
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.645037916254533,
+    "difficulty_bayes": 2.2694362017804157
+  },
+  "recommendation_analysis": {
+    "rate": 0.73,
+    "wilson_interval": [
+      0.3208342172265497,
+      0.9392996951874932
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": 1.1,
+    "z_mean_decayed": 1.18,
+    "per_subject": [
+      {
+        "materia": "ELECTROMAGNETISMO",
+        "z_decayed": 1.1837545926600996,
+        "n": 15
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "es",
+          "profesora"
+        ],
+        "weight": 0.23844024920514775
+      },
+      {
+        "id": 1,
+        "words": [
+          "profesora",
+          "es"
+        ],
+        "weight": 0.3062353260633645
+      }
+    ],
+    "sentiment": {
+      "overall": 0.0,
+      "by_month": {
+        "2019-01": 0.0,
+        "2017-10": 0.0,
+        "2015-08": 0.0,
+        "2013-10": 0.0
+      }
+    },
+    "n_comments": 5
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        4.0,
+        8.0,
+        10.0,
+        10.0
+      ],
+      "ewma": [
+        4.0,
+        5.199999999999999,
+        6.639999999999999,
+        7.647999999999999
+      ],
+      "sigma": 1.4773814673265675
+    },
+    "difficulty_trend": {
+      "series": [
+        0.0,
+        4.0,
+        0.0,
+        2.0
+      ],
+      "ewma": [
+        0.0,
+        1.2,
+        0.84,
+        1.188
+      ],
+      "sigma": 1.5581985324940677
+    },
+    "forecast": {
+      "quality_next": 7.647999999999999,
+      "quality_band": [
+        4.7523323240399264,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2019-01-12T00:00:00",
+      "materia": "CIRCUITOS ELECTRICOS 2",
+      "calidad": 10.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "superprofesora, resuelve todas las dudas que tengas (incluso de otras clases), tiene mucha paciencia para enseñar, hace ejercicios en clase y también los deja de tarea, los exámenes son igual que las tareas, incluso recomienda aplicaciones que permite usar en los exámenes"
+    },
+    {
+      "fecha_iso": "2017-10-31T00:00:00",
+      "materia": "ELECTROMAGNETISMO",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "falto una semana pero nos adelantamos rapido y acabamos el semestre antes"
+    },
+    {
+      "fecha_iso": "2017-10-06T00:00:00",
+      "materia": "ELECTROMAGNETISMO",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Esa profesora es un amor"
+    },
+    {
+      "fecha_iso": "2015-08-12T00:00:00",
+      "materia": "ELECTROMAGNETISMO",
+      "calidad": 8.0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Buena profesora"
+    },
+    {
+      "fecha_iso": "2013-10-02T00:00:00",
+      "materia": "CIRCUITOS ELECTRICOS",
+      "calidad": 4.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": "Es una maestra muy argüendera que anda nada más interesada en sus asuntos políticos. como quiere ser directora del plantel, anda viendo como lograrlo."
+    }
+  ],
+  "comments_recent": [
+    "superprofesora, resuelve todas las dudas que tengas (incluso de otras clases), tiene mucha paciencia para enseñar, hace ejercicios en clase y también los deja de tarea, los exámenes son igual que las tareas, incluso recomienda aplicaciones que permite usar en los exámenes",
+    "falto una semana pero nos adelantamos rapido y acabamos el semestre antes",
+    "Esa profesora es un amor",
+    "Buena profesora",
+    "Es una maestra muy argüendera que anda nada más interesada en sus asuntos políticos. como quiere ser directora del plantel, anda viendo como lograrlo."
+  ],
+  "n_reviews": 5
+}

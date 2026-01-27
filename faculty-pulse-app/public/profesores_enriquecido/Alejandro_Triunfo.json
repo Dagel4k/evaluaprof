@@ -1,0 +1,184 @@
+{
+  "professor_id": "Alejandro_Triunfo",
+  "nombre": "Alejandro Triunfo",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 5.094603704660107,
+    "difficulty_decayed": 1.0368741223803055
+  },
+  "bayes_analysis": {
+    "quality_bayes": 6.711704582921199,
+    "difficulty_bayes": 2.2694362017804157
+  },
+  "recommendation_analysis": {
+    "rate": 0.4,
+    "wilson_interval": [
+      0.11761823115925325,
+      0.769280067791163
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": -1.09,
+    "z_mean_decayed": -1.09,
+    "per_subject": [
+      {
+        "materia": "ELECTRÓNICA DIGITAL",
+        "z_decayed": -1.0910894511799614,
+        "n": 3
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "tarea",
+          "profe",
+          "es",
+          "da",
+          "si"
+        ],
+        "weight": 0.3881770328652541
+      },
+      {
+        "id": 1,
+        "words": [
+          "profe",
+          "sabe",
+          "cualquier",
+          "te",
+          "materia"
+        ],
+        "weight": 0.273538659702785
+      }
+    ],
+    "sentiment": {
+      "overall": 0.0,
+      "by_month": {
+        "2025-09": 0.0,
+        "2024-03": 0.0,
+        "2023-12": 0.0,
+        "2023-11": 0.0,
+        "2023-06": 0.0
+      }
+    },
+    "n_comments": 5
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        7.0,
+        2.0,
+        9.0,
+        8.0,
+        2.0
+      ],
+      "ewma": [
+        7.0,
+        5.499999999999999,
+        6.549999999999999,
+        6.984999999999999,
+        5.489499999999999
+      ],
+      "sigma": 2.6914176190253345
+    },
+    "difficulty_trend": {
+      "series": [
+        0.0,
+        4.0,
+        2.0,
+        0.0,
+        0.0
+      ],
+      "ewma": [
+        0.0,
+        1.2,
+        1.44,
+        1.008,
+        0.7056
+      ],
+      "sigma": 1.5104145762008523
+    },
+    "forecast": {
+      "quality_next": 5.489499999999999,
+      "quality_band": [
+        0.21432146671034324,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2025-09-08T00:00:00",
+      "materia": "CUALQUIER MATERIA",
+      "calidad": 2.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Este profe en cualquier materia no enseña nada, si quieres pasar fácil y sin aprender, este maestro es el ideal ."
+    },
+    {
+      "fecha_iso": "2024-03-01T00:00:00",
+      "materia": "PLC",
+      "calidad": 8.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Si quieres pasar carga con el, debería de ser mas duro porque todas las materias que da son para que fuese profe filtro. Tanto en digital como en plc es lo mismo, deja exámenes de tarea y si copias todo según se da cuenta pero realmente nunca revisa nada."
+    },
+    {
+      "fecha_iso": "2023-12-26T00:00:00",
+      "materia": "PLC",
+      "calidad": 9.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Si repruebas con él es por huevon, da muchas oportunidades y ofrece asesorias, deja exámenes de tarea y los recibe con retraso, no ocupas ni asistir, sabe de su materia y los programas están bn pelucas, con aprender TIA PORTAL básico ya pasaste, nomas no cargues a las 7am pq nunca va ir"
+    },
+    {
+      "fecha_iso": "2023-11-21T00:00:00",
+      "materia": "ELECTRONICA DIGITAL",
+      "calidad": 2.0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Este pelon hijo de su madre es el profe más chillon del mundo, falta constantemente sin avisar pero si el salon comienza a hacerlo hace puchero y comienza a aumentar la dificultad, la neta no sabe nada y solo te quiere marear con los nombres de los componentes, mejor cualquier basura que el."
+    },
+    {
+      "fecha_iso": "2023-06-06T00:00:00",
+      "materia": "ELECTRÓNICA DIGITAL",
+      "calidad": 7.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "El profesor domina la materia en su totalidad, lo que le preguntes acerca del tema te sabrá responder con claridad, tiene experiencia laboral relacionado a lo que imparte como materia."
+    }
+  ],
+  "comments_recent": [
+    "Este profe en cualquier materia no enseña nada, si quieres pasar fácil y sin aprender, este maestro es el ideal .",
+    "Si quieres pasar carga con el, debería de ser mas duro porque todas las materias que da son para que fuese profe filtro. Tanto en digital como en plc es lo mismo, deja exámenes de tarea y si copias todo según se da cuenta pero realmente nunca revisa nada.",
+    "Si repruebas con él es por huevon, da muchas oportunidades y ofrece asesorias, deja exámenes de tarea y los recibe con retraso, no ocupas ni asistir, sabe de su materia y los programas están bn pelucas, con aprender TIA PORTAL básico ya pasaste, nomas no cargues a las 7am pq nunca va ir",
+    "Este pelon hijo de su madre es el profe más chillon del mundo, falta constantemente sin avisar pero si el salon comienza a hacerlo hace puchero y comienza a aumentar la dificultad, la neta no sabe nada y solo te quiere marear con los nombres de los componentes, mejor cualquier basura que el.",
+    "El profesor domina la materia en su totalidad, lo que le preguntes acerca del tema te sabrá responder con claridad, tiene experiencia laboral relacionado a lo que imparte como materia."
+  ],
+  "n_reviews": 5
+}

@@ -1,0 +1,153 @@
+{
+  "professor_id": "Rosalina_Alejandra_Arreola_Chaidez",
+  "nombre": "Rosalina Alejandra Arreola Chaidez",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 3.2919431292737285,
+    "difficulty_decayed": 0.19899974439393853
+  },
+  "bayes_analysis": {
+    "quality_bayes": 6.311704582921199,
+    "difficulty_bayes": 2.0027695351137487
+  },
+  "recommendation_analysis": {
+    "rate": 0.44,
+    "wilson_interval": [
+      0.13783432612193255,
+      0.7943046532483173
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": -0.85,
+    "z_mean_decayed": -1.19,
+    "per_subject": [
+      {
+        "materia": "CULTURA EMPRESARIAL",
+        "z_decayed": -1.1914925896510664,
+        "n": 6
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [],
+    "sentiment": {
+      "overall": null,
+      "by_month": {}
+    },
+    "n_comments": 3
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        6.0,
+        6.0,
+        6.0,
+        2.0,
+        2.0
+      ],
+      "ewma": [
+        6.0,
+        5.999999999999999,
+        5.999999999999999,
+        4.799999999999999,
+        3.959999999999999
+      ],
+      "sigma": 1.3369816752670918
+    },
+    "difficulty_trend": {
+      "series": [
+        2.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ewma": [
+        2.0,
+        1.4,
+        0.9799999999999999,
+        0.6859999999999998,
+        0.48019999999999985
+      ],
+      "sigma": 0.5259470391588872
+    },
+    "forecast": {
+      "quality_next": 3.959999999999999,
+      "quality_band": [
+        1.3395159164764991,
+        6.5804840835234995
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2025-12-05T00:00:00",
+      "materia": "CULTURA EMPRESARIAL",
+      "calidad": 2.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Por donde empiezo? primero, la primera semana falto, luego nos puso a hacer durante todo el semestre un proyecto de empresa y te lo hace ver como si con eso calificara, y hasta te dice que los examenes son protocolo, pero al final, lo que te pone son cal de los examenes jajaja, aparte falta muchoooo"
+    },
+    {
+      "fecha_iso": "2024-06-08T00:00:00",
+      "materia": "PROYECTO",
+      "calidad": 2.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Está mujer confundió a un alumno que jamás iba no entregó nada y yo que entregue todo iba cada mugre pseudo clase le entregué todo y me puso 5 mientras que al otro le puso 10 subió el último día la calificación a la plataforma le marque y me regaño por no decirle el mismo día ni su número tenia."
+    },
+    {
+      "fecha_iso": "2022-03-15T00:00:00",
+      "materia": "CULAZO EMPRESARIAL",
+      "calidad": 6.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2021-12-12T00:00:00",
+      "materia": "CULTURA EMPRESARIAL",
+      "calidad": 6.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": "Excelente profe para materias de relleno nada mas, copias y pegas todos los trabajos de moddle, te pone a dar su clase y no aprendes nada. asi que no te atrevas a cargar alguna materia importante con ella"
+    },
+    {
+      "fecha_iso": "2021-09-29T00:00:00",
+      "materia": "FUNDAMENTOS DE SOFTWARE",
+      "calidad": 6.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": ""
+    }
+  ],
+  "comments_recent": [
+    "Por donde empiezo? primero, la primera semana falto, luego nos puso a hacer durante todo el semestre un proyecto de empresa y te lo hace ver como si con eso calificara, y hasta te dice que los examenes son protocolo, pero al final, lo que te pone son cal de los examenes jajaja, aparte falta muchoooo",
+    "Está mujer confundió a un alumno que jamás iba no entregó nada y yo que entregue todo iba cada mugre pseudo clase le entregué todo y me puso 5 mientras que al otro le puso 10 subió el último día la calificación a la plataforma le marque y me regaño por no decirle el mismo día ni su número tenia.",
+    "Excelente profe para materias de relleno nada mas, copias y pegas todos los trabajos de moddle, te pone a dar su clase y no aprendes nada. asi que no te atrevas a cargar alguna materia importante con ella"
+  ],
+  "n_reviews": 5
+}

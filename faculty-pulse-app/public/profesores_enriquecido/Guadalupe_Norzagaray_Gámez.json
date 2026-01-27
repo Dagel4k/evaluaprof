@@ -1,0 +1,158 @@
+{
+  "professor_id": "Guadalupe_Norzagaray_Gámez",
+  "nombre": "Guadalupe Norzagaray Gámez",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 9.312261625919605,
+    "difficulty_decayed": 0.5625038733377692
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.511704582921199,
+    "difficulty_bayes": 2.1361028684470824
+  },
+  "recommendation_analysis": {
+    "rate": 1.0,
+    "wilson_interval": [
+      0.565508505247919,
+      1
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": 0.43,
+    "z_mean_decayed": 1.05,
+    "per_subject": [
+      {
+        "materia": "DINÁMICA SOCIAL",
+        "z_decayed": 1.062545023419449,
+        "n": 3
+      },
+      {
+        "materia": "TALLER DE LIDERAZGO",
+        "z_decayed": 0.47894747207139965,
+        "n": 9
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [],
+    "sentiment": {
+      "overall": null,
+      "by_month": {}
+    },
+    "n_comments": 3
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        7.0,
+        7.0,
+        6.0,
+        10.0,
+        10.0
+      ],
+      "ewma": [
+        7.0,
+        7.0,
+        6.699999999999999,
+        7.6899999999999995,
+        8.383
+      ],
+      "sigma": 1.2607619918128878
+    },
+    "difficulty_trend": {
+      "series": [
+        0.0,
+        0.0,
+        4.0,
+        0.0,
+        0.0
+      ],
+      "ewma": [
+        0.0,
+        0.0,
+        1.2,
+        0.84,
+        0.588
+      ],
+      "sigma": 1.459012268625593
+    },
+    "forecast": {
+      "quality_next": 8.383,
+      "quality_band": [
+        5.911906496046739,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2024-08-04T00:00:00",
+      "materia": "DINÁMICA SOCIAL",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "De verdad que si repruebas con ella es porque no venías y no entregaste nada. Es muy compasiva y amable, siempre brinda apoyo."
+    },
+    {
+      "fecha_iso": "2020-09-12T00:00:00",
+      "materia": "HABILIDADES DIRECTIVAS",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Super amable y buena maestra. Siempre te escucha y muy paciente."
+    },
+    {
+      "fecha_iso": "2020-03-05T00:00:00",
+      "materia": "COUNICACION HUMANA",
+      "calidad": 6.0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2015-06-16T00:00:00",
+      "materia": "DINÁMICA SOCIAL",
+      "calidad": 7.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2013-08-04T00:00:00",
+      "materia": "TALLER DE LIDERAZGO",
+      "calidad": 7.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Sus clases son a base de exposiciones y son dinámicas aunque muchas veces lo dinámico pasa a incoherente. Realiza actividades que son de ayuda para la materia. El grupo sacó calificaciones de 90 hacia arriba ya que las actividades para calificarnos fueron muy sencillas."
+    }
+  ],
+  "comments_recent": [
+    "De verdad que si repruebas con ella es porque no venías y no entregaste nada. Es muy compasiva y amable, siempre brinda apoyo.",
+    "Super amable y buena maestra. Siempre te escucha y muy paciente.",
+    "Sus clases son a base de exposiciones y son dinámicas aunque muchas veces lo dinámico pasa a incoherente. Realiza actividades que son de ayuda para la materia. El grupo sacó calificaciones de 90 hacia arriba ya que las actividades para calificarnos fueron muy sencillas."
+  ],
+  "n_reviews": 5
+}

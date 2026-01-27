@@ -1,0 +1,199 @@
+{
+  "professor_id": "Pedro_Villa",
+  "nombre": "Pedro Villa",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 8.269681878011617,
+    "difficulty_decayed": 3.433604533994836
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.178371249587866,
+    "difficulty_bayes": 3.469436201780416
+  },
+  "recommendation_analysis": {
+    "rate": 0.4,
+    "wilson_interval": [
+      0.11761823115925325,
+      0.769280067791163
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": -0.51,
+    "z_mean_decayed": -0.29,
+    "per_subject": [
+      {
+        "materia": "TALLER DE BASE DE DATOS",
+        "z_decayed": 0.6851064595573102,
+        "n": 8
+      },
+      {
+        "materia": "SIMULACIÓN",
+        "z_decayed": 0.07319250547114019,
+        "n": 7
+      },
+      {
+        "materia": "TALLER DE SO",
+        "z_decayed": -0.5,
+        "n": 4
+      },
+      {
+        "materia": "SIMULACION",
+        "z_decayed": -2.2803648875753537,
+        "n": 11
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "clases",
+          "hace",
+          "profesor",
+          "si",
+          "es"
+        ],
+        "weight": 0.2973629433672219
+      },
+      {
+        "id": 1,
+        "words": [
+          "es",
+          "si",
+          "profesor",
+          "clases",
+          "hace"
+        ],
+        "weight": 0.29243631811577864
+      }
+    ],
+    "sentiment": {
+      "overall": 0.0,
+      "by_month": {
+        "2023-08": 0.0,
+        "2019-06": 0.0,
+        "2014-03": 0.0,
+        "2013-06": 0.0,
+        "2011-04": 0.0
+      }
+    },
+    "n_comments": 5
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        2.0,
+        7.0,
+        8.0,
+        10.0,
+        8.0
+      ],
+      "ewma": [
+        2.0,
+        3.5,
+        4.85,
+        6.395,
+        6.8765
+      ],
+      "sigma": 1.6230160812511996
+    },
+    "difficulty_trend": {
+      "series": [
+        8.0,
+        6.0,
+        6.0,
+        0.0,
+        4.0
+      ],
+      "ewma": [
+        8.0,
+        7.3999999999999995,
+        6.9799999999999995,
+        4.885999999999999,
+        4.6202
+      ],
+      "sigma": 1.919610243773459
+    },
+    "forecast": {
+      "quality_next": 6.8765,
+      "quality_band": [
+        3.695388480747649,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2023-08-13T00:00:00",
+      "materia": "TALLER DE SO",
+      "calidad": 8.0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Es un profesor que base muchisimo, probablemente sobrecalificado para cualquier materia que le den pero, no se organiza nada, no te dice como califica y al final te da todo de una,  aparenta ser barco pero no lo es tanto."
+    },
+    {
+      "fecha_iso": "2019-06-07T00:00:00",
+      "materia": "TALLER DE BASE DE DATOS",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "No sabía nada, no fui medio semestre, no entregué proyecto, no expuse y pasé con un cartón de cerveza indio."
+    },
+    {
+      "fecha_iso": "2014-03-22T00:00:00",
+      "materia": "TALLER DE BD",
+      "calidad": 8.0,
+      "dificultad": 6.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "si aprendes"
+    },
+    {
+      "fecha_iso": "2013-06-14T00:00:00",
+      "materia": "SIMULACIÓN",
+      "calidad": 7.0,
+      "dificultad": 6.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Buen profesor, hace las clases entretenidas y explica de forma clara, si eres flojo es probable que repruebas."
+    },
+    {
+      "fecha_iso": "2011-04-26T00:00:00",
+      "materia": "SIMULACION",
+      "calidad": 2.0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "pesimooooooo no se que hace impartiendo clases en el tec"
+    }
+  ],
+  "comments_recent": [
+    "Es un profesor que base muchisimo, probablemente sobrecalificado para cualquier materia que le den pero, no se organiza nada, no te dice como califica y al final te da todo de una,  aparenta ser barco pero no lo es tanto.",
+    "No sabía nada, no fui medio semestre, no entregué proyecto, no expuse y pasé con un cartón de cerveza indio.",
+    "si aprendes",
+    "Buen profesor, hace las clases entretenidas y explica de forma clara, si eres flojo es probable que repruebas.",
+    "pesimooooooo no se que hace impartiendo clases en el tec"
+  ],
+  "n_reviews": 5
+}

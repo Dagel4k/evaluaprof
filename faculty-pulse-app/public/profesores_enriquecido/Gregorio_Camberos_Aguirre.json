@@ -1,0 +1,189 @@
+{
+  "professor_id": "Gregorio_Camberos_Aguirre",
+  "nombre": "Gregorio Camberos Aguirre",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 9.999999999999998,
+    "difficulty_decayed": 0.6802195170584601
+  },
+  "bayes_analysis": {
+    "quality_bayes": 8.178371249587865,
+    "difficulty_bayes": 2.1361028684470824
+  },
+  "recommendation_analysis": {
+    "rate": 0.97,
+    "wilson_interval": [
+      0.5326670635928218,
+      0.9989109313402218
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": 0.62,
+    "z_mean_decayed": 0.63,
+    "per_subject": [
+      {
+        "materia": "CONTROL ESTADÍSTICO DE CALIDAD",
+        "z_decayed": 0.9355285539274979,
+        "n": 5
+      },
+      {
+        "materia": "PROBABILIDAD Y ESTADISTICA",
+        "z_decayed": 0.9178707160657957,
+        "n": 19
+      },
+      {
+        "materia": "ESTADÍSTICA INFERENCIAL 1",
+        "z_decayed": 0.0,
+        "n": 3
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "mejor",
+          "100",
+          "100 recomendado",
+          "recomendado",
+          "materia"
+        ],
+        "weight": 0.33233854591513257
+      },
+      {
+        "id": 1,
+        "words": [
+          "es mejor",
+          "estadistica",
+          "encontrar",
+          "te",
+          "profesor"
+        ],
+        "weight": 0.26937381909788705
+      }
+    ],
+    "sentiment": {
+      "overall": 0.2,
+      "by_month": {
+        "2025-06": 0.0,
+        "2024-08": 0.0,
+        "2024-02": 0.0,
+        "2024-01": 0.5
+      }
+    },
+    "n_comments": 5
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 1,
+    "trust_score": 0.8
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        10.0,
+        10.0,
+        10.0,
+        10.0
+      ],
+      "ewma": [
+        10.0,
+        10.0,
+        10.0,
+        10.0
+      ],
+      "sigma": 0.0
+    },
+    "difficulty_trend": {
+      "series": [
+        2.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ewma": [
+        2.0,
+        1.4,
+        0.9799999999999999,
+        0.6859999999999998
+      ],
+      "sigma": 0.5890407456195199
+    },
+    "forecast": {
+      "quality_next": 10.0,
+      "quality_band": [
+        10.0,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2025-06-12T00:00:00",
+      "materia": "PROBABILIDAD Y ESTADISTICA",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "SI tiene la oportunidad de cargar con El Probabulidad y Estadistica, o cualquier materia e general, haganlo, es el mejor. 100% recomendado"
+    },
+    {
+      "fecha_iso": "2024-08-08T00:00:00",
+      "materia": "ESTADÍSTICA INFERENCIAL 1",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Es el mejor profesor de estadística que te vas a encontrar en el tec. GOD"
+    },
+    {
+      "fecha_iso": "2024-02-15T00:00:00",
+      "materia": "CONTROL ESTADÍSTICO DE LA CALIDAD",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Es de lo mejorcito en el Tec, no aburre para nada la materia, y se aprende porque se aprende"
+    },
+    {
+      "fecha_iso": "2024-01-31T00:00:00",
+      "materia": "ESTADISTICA INFERENCIAL II",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Excelente profesor, te motiva mucho a aprender de la clase, su manera de enseñar es excelente, la verdad no pasa el que no quiere."
+    },
+    {
+      "fecha_iso": "2024-01-17T00:00:00",
+      "materia": "CONTROL ESTADÍSTICO DE CALIDAD",
+      "calidad": 10.0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "El mejor maestro que te puedes encontrar para control. Es una materia muy importante y la hizo ver muy fácil. 100% recomendado."
+    }
+  ],
+  "comments_recent": [
+    "SI tiene la oportunidad de cargar con El Probabulidad y Estadistica, o cualquier materia e general, haganlo, es el mejor. 100% recomendado",
+    "Es el mejor profesor de estadística que te vas a encontrar en el tec. GOD",
+    "Es de lo mejorcito en el Tec, no aburre para nada la materia, y se aprende porque se aprende",
+    "Excelente profesor, te motiva mucho a aprender de la clase, su manera de enseñar es excelente, la verdad no pasa el que no quiere.",
+    "El mejor maestro que te puedes encontrar para control. Es una materia muy importante y la hizo ver muy fácil. 100% recomendado."
+  ],
+  "n_reviews": 5
+}

@@ -1,0 +1,189 @@
+{
+  "professor_id": "Yeratzy_Espinoza",
+  "nombre": "Yeratzy Espinoza",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 9.865550522257996,
+    "difficulty_decayed": 1.60723889745685
+  },
+  "bayes_analysis": {
+    "quality_bayes": 8.111704582921199,
+    "difficulty_bayes": 2.5361028684470823
+  },
+  "recommendation_analysis": {
+    "rate": 1.0,
+    "wilson_interval": [
+      0.565508505247919,
+      1
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": 0.79,
+    "z_mean_decayed": 0.82,
+    "per_subject": [
+      {
+        "materia": "PROGRAMACIÓN",
+        "z_decayed": 1.0521324552523126,
+        "n": 7
+      },
+      {
+        "materia": "PROGRAMACIÓN AVANZADA",
+        "z_decayed": 0.7302967433402215,
+        "n": 5
+      },
+      {
+        "materia": "FUNDAMENTOS DE BASE DE DATOS",
+        "z_decayed": 0.6810009584979658,
+        "n": 9
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "buena",
+          "clases",
+          "hace",
+          "es",
+          "da"
+        ],
+        "weight": 0.37126624796207375
+      },
+      {
+        "id": 1,
+        "words": [
+          "cualquier",
+          "cualquier duda",
+          "duda",
+          "es",
+          "profe"
+        ],
+        "weight": 0.3284507074684216
+      }
+    ],
+    "sentiment": {
+      "overall": 0.0,
+      "by_month": {
+        "2025-01": 0.0,
+        "2024-06": 1.0,
+        "2022-06": 0.0,
+        "2022-05": -1.0
+      }
+    },
+    "n_comments": 5
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        10.0,
+        9.5,
+        10.0,
+        10.0
+      ],
+      "ewma": [
+        10.0,
+        9.85,
+        9.895,
+        9.926499999999999
+      ],
+      "sigma": 0.20942316610155634
+    },
+    "difficulty_trend": {
+      "series": [
+        4.0,
+        2.0,
+        2.0,
+        0.0
+      ],
+      "ewma": [
+        4.0,
+        3.4,
+        2.98,
+        2.086
+      ],
+      "sigma": 0.8728319807767511
+    },
+    "forecast": {
+      "quality_next": 9.926499999999999,
+      "quality_band": [
+        9.516030594440949,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2025-01-06T00:00:00",
+      "materia": "PROGRAMACIÓN AVANZADA",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Te ayuda demasiado en todos los aspectos de la materia y tiene muchísima paciencia para explicar cualquier duda a detalle."
+    },
+    {
+      "fecha_iso": "2024-06-11T00:00:00",
+      "materia": "PROGRAMACIÓN",
+      "calidad": 10.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Excelente profe, su prioridad es ayudarte, es una excelente persona, es super empática, exámenes fáciles, solo que tienes que preguntar cualquier duda  y querer aprender, tampoco la quieras pelada y en la mano"
+    },
+    {
+      "fecha_iso": "2022-06-11T00:00:00",
+      "materia": "FUNDAMENTOS DE BASE DE DATOS",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "La mejor profe del tec, esta en onda con la chaviza y dice \"UWU\","
+    },
+    {
+      "fecha_iso": "2022-06-08T00:00:00",
+      "materia": "FUNDAMENTOS DE BASE DE DATOS",
+      "calidad": 9.0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Es muy buena profe, personalmente me ayudó mucho, siempre estaba dispuesta a atender las dudas y a pesar de que las clases pueden ser algo tediosas por la cantidad de información que da al final todo lo hace entendible gracias a las tareas y ejercicios que deja"
+    },
+    {
+      "fecha_iso": "2022-05-23T00:00:00",
+      "materia": "FUND. DE BASE DE DATOS",
+      "calidad": 10.0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Da buenas clases, lo malo es que muchas veces se hace tediosa la clase porque explica demasiado. Te ayuda para pasar y da buena retroalimentación. Recomendada"
+    }
+  ],
+  "comments_recent": [
+    "Te ayuda demasiado en todos los aspectos de la materia y tiene muchísima paciencia para explicar cualquier duda a detalle.",
+    "Excelente profe, su prioridad es ayudarte, es una excelente persona, es super empática, exámenes fáciles, solo que tienes que preguntar cualquier duda  y querer aprender, tampoco la quieras pelada y en la mano",
+    "La mejor profe del tec, esta en onda con la chaviza y dice \"UWU\",",
+    "Es muy buena profe, personalmente me ayudó mucho, siempre estaba dispuesta a atender las dudas y a pesar de que las clases pueden ser algo tediosas por la cantidad de información que da al final todo lo hace entendible gracias a las tareas y ejercicios que deja",
+    "Da buenas clases, lo malo es que muchas veces se hace tediosa la clase porque explica demasiado. Te ayuda para pasar y da buena retroalimentación. Recomendada"
+  ],
+  "n_reviews": 5
+}

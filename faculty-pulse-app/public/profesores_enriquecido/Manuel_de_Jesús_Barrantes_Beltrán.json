@@ -1,0 +1,184 @@
+{
+  "professor_id": "Manuel_de_Jesús_Barrantes_Beltrán",
+  "nombre": "Manuel de Jesús Barrantes Beltrán",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 6.478121782519862,
+    "difficulty_decayed": 0.7736025719002504
+  },
+  "bayes_analysis": {
+    "quality_bayes": 6.978371249587866,
+    "difficulty_bayes": 2.1361028684470824
+  },
+  "recommendation_analysis": {
+    "rate": 0.56,
+    "wilson_interval": [
+      0.20569534675168283,
+      0.8621656738780675
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": 0.67,
+    "z_mean_decayed": 0.67,
+    "per_subject": [
+      {
+        "materia": "ELECTRICIDAD",
+        "z_decayed": 0.6708203932499368,
+        "n": 5
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "hace examenes",
+          "solo",
+          "si",
+          "sabe",
+          "da"
+        ],
+        "weight": 0.3850140825438788
+      },
+      {
+        "id": 1,
+        "words": [
+          "si",
+          "materia",
+          "sabes",
+          "canvas",
+          "faciles"
+        ],
+        "weight": 0.25858662884871086
+      }
+    ],
+    "sentiment": {
+      "overall": 0.0,
+      "by_month": {
+        "2022-01": 0.0,
+        "2020-06": 0.0,
+        "2019-08": 0.0,
+        "2018-12": 0.0,
+        "2018-01": 0.0
+      }
+    },
+    "n_comments": 5
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        6.0,
+        10.0,
+        2.0,
+        7.0,
+        7.0
+      ],
+      "ewma": [
+        6.0,
+        7.199999999999999,
+        5.639999999999999,
+        6.047999999999999,
+        6.333599999999999
+      ],
+      "sigma": 2.3621394776769638
+    },
+    "difficulty_trend": {
+      "series": [
+        0.0,
+        0.0,
+        2.0,
+        2.0,
+        0.0
+      ],
+      "ewma": [
+        0.0,
+        0.0,
+        0.6,
+        1.02,
+        0.714
+      ],
+      "sigma": 0.8478037508763452
+    },
+    "forecast": {
+      "quality_next": 6.333599999999999,
+      "quality_band": [
+        1.7038066237531497,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2022-01-17T00:00:00",
+      "materia": "MANUFACTURA AVANZADA",
+      "calidad": 7.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Decente profesor, te da los conocimientos minimos requeridos para decir que sabes de la materia, pero se salta demasiada teoria/unidades, si no hay mas, no esta tan mal, tareas faciles y examenes largos pero opcion multiple."
+    },
+    {
+      "fecha_iso": "2020-06-15T00:00:00",
+      "materia": "MANUFACTURA",
+      "calidad": 7.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "los examenes los haces en canvas y son faciles de aprobar. mejor que balcazar."
+    },
+    {
+      "fecha_iso": "2019-08-04T00:00:00",
+      "materia": "ELECTRICIDAD Y ELECTRÓNICA IND",
+      "calidad": 2.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Solo da como 20 minutos de clase, no explica nada, hace exámenes en canvas y algunos son confusos"
+    },
+    {
+      "fecha_iso": "2018-12-17T00:00:00",
+      "materia": "MANUFACTURA AVANZADA",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "sabe mucho de su materia y esta super facil pasar con el pero casi no enseña nada porque le da hueva pero de que sabe un chingo sabe, los examenes son en linea y da 1 minutos por respuesta, pero le tomas foto y en la recuperacion ya sabes que viene porque es lo mismo"
+    },
+    {
+      "fecha_iso": "2018-01-09T00:00:00",
+      "materia": "ELECTRICIDAD",
+      "calidad": 6.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": "Da las clases muy cortas y solo lee las impositivas ni las explica , si quieres aprender no lo recomiendo ya que a veces ni el sabe que show jajaja. Hace los exámenes en una plataforma donde da 1 min por pregunta y tienes que ser muy hábil si quieres copiar . No enseña nada"
+    }
+  ],
+  "comments_recent": [
+    "Decente profesor, te da los conocimientos minimos requeridos para decir que sabes de la materia, pero se salta demasiada teoria/unidades, si no hay mas, no esta tan mal, tareas faciles y examenes largos pero opcion multiple.",
+    "los examenes los haces en canvas y son faciles de aprobar. mejor que balcazar.",
+    "Solo da como 20 minutos de clase, no explica nada, hace exámenes en canvas y algunos son confusos",
+    "sabe mucho de su materia y esta super facil pasar con el pero casi no enseña nada porque le da hueva pero de que sabe un chingo sabe, los examenes son en linea y da 1 minutos por respuesta, pero le tomas foto y en la recuperacion ya sabes que viene porque es lo mismo",
+    "Da las clases muy cortas y solo lee las impositivas ni las explica , si quieres aprender no lo recomiendo ya que a veces ni el sabe que show jajaja. Hace los exámenes en una plataforma donde da 1 min por pregunta y tienes que ser muy hábil si quieres copiar . No enseña nada"
+  ],
+  "n_reviews": 5
+}

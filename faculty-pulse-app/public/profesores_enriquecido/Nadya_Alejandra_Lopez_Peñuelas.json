@@ -1,0 +1,194 @@
+{
+  "professor_id": "Nadya_Alejandra_Lopez_Peñuelas",
+  "nombre": "Nadya Alejandra Lopez Peñuelas",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 7.684087252715548,
+    "difficulty_decayed": 1.4398977720475643
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.445037916254533,
+    "difficulty_bayes": 2.5361028684470823
+  },
+  "recommendation_analysis": {
+    "rate": 0.62,
+    "wilson_interval": [
+      0.24369336441870623,
+      0.8920286768407943
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": 0.28,
+    "z_mean_decayed": 0.35,
+    "per_subject": [
+      {
+        "materia": "CONTROL ESTADÍSTICO DE CALIDAD",
+        "z_decayed": 0.9355285539274979,
+        "n": 5
+      },
+      {
+        "materia": "METROLOGÍA Y NORMALIZACIÓN",
+        "z_decayed": 0.483493778415228,
+        "n": 7
+      },
+      {
+        "materia": "HIGIENE Y SEGURIDAD INDUSTRIAL",
+        "z_decayed": 0.11359821330719266,
+        "n": 8
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "semana",
+          "clase",
+          "trabajos",
+          "te",
+          "si"
+        ],
+        "weight": 0.39609258697494604
+      },
+      {
+        "id": 1,
+        "words": [
+          "maestra",
+          "tareas",
+          "canvas",
+          "califica canvas",
+          "califica"
+        ],
+        "weight": 0.278136527291262
+      }
+    ],
+    "sentiment": {
+      "overall": 0.0,
+      "by_month": {
+        "2024-01": 0.0,
+        "2023-01": 0.0,
+        "2022-12": 0.0,
+        "2021-01": 0.0,
+        "2019-06": 0.0
+      }
+    },
+    "n_comments": 5
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        10.0,
+        6.0,
+        5.0,
+        10.0,
+        8.0
+      ],
+      "ewma": [
+        10.0,
+        8.8,
+        7.66,
+        8.362,
+        8.2534
+      ],
+      "sigma": 1.8934808243021637
+    },
+    "difficulty_trend": {
+      "series": [
+        4.0,
+        2.0,
+        4.0,
+        0.0,
+        0.0
+      ],
+      "ewma": [
+        4.0,
+        3.4,
+        3.58,
+        2.506,
+        1.7541999999999998
+      ],
+      "sigma": 1.224919837377124
+    },
+    "forecast": {
+      "quality_next": 8.2534,
+      "quality_band": [
+        4.542177584367758,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2024-01-17T00:00:00",
+      "materia": "METROLOGÍA Y NORMALIZACIÓN",
+      "calidad": 8.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Llevé su clase en línea y honestamente me pareció muy bien. Es una profesora muy linda y accesible y todos pasamos bien. Deja tareas y trabajos algo  extensos y todo lo califica por canvas, tienes que leer bastante. Pero en general si cumples te va bien y no son nada del otro mundo."
+    },
+    {
+      "fecha_iso": "2023-01-19T00:00:00",
+      "materia": "HIGIENE Y SEGURIDAD INDUSTRIAL",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "La clase con quien la cargues van a dejar muchos trabajos y tareas, la maestra nadia es la mejor opción y más si la cargas en línea, ya que solo había clases 2 veces a la semana para aclarar dudas y explicación de las tareas, si participas y entregas todo 100 asegurado. Buena persona y accesible."
+    },
+    {
+      "fecha_iso": "2022-12-08T00:00:00",
+      "materia": "HIGIENE Y SEGURIDAD",
+      "calidad": 5.0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": "Si te gusta estar haciendo trabajos tontos toda la semana que no te serviran de nada en la vida cargala, si lo haces pasas fácil.\nSi odias ese tipo de clases como yo no la cargues y si la cargaste sin saberlo y no hiciste nada como yo no te preocupes, reprueba al 80% de la clase"
+    },
+    {
+      "fecha_iso": "2021-01-20T00:00:00",
+      "materia": "HIGIENE Y SEGURIDAD INDUSTRIAL",
+      "calidad": 6.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": "En línea dejaba los trabajos de la semana los Lunes y sólo daba clase una vez a la semana para aclarar dudas y explicar algunas cosas, por lo que en la hora de su clase podías adelantar los trabajos, a mi me gustó el hecho de que si da buen material, pero tu tienes que leer por tu cuenta"
+    },
+    {
+      "fecha_iso": "2019-06-07T00:00:00",
+      "materia": "CONTROL ESTADÍSTICO DE CALIDAD",
+      "calidad": 10.0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Muy buena maestra, casi todo lo califica en canvas, y puedes hacer las tareas y examenes en equipo."
+    }
+  ],
+  "comments_recent": [
+    "Llevé su clase en línea y honestamente me pareció muy bien. Es una profesora muy linda y accesible y todos pasamos bien. Deja tareas y trabajos algo  extensos y todo lo califica por canvas, tienes que leer bastante. Pero en general si cumples te va bien y no son nada del otro mundo.",
+    "La clase con quien la cargues van a dejar muchos trabajos y tareas, la maestra nadia es la mejor opción y más si la cargas en línea, ya que solo había clases 2 veces a la semana para aclarar dudas y explicación de las tareas, si participas y entregas todo 100 asegurado. Buena persona y accesible.",
+    "Si te gusta estar haciendo trabajos tontos toda la semana que no te serviran de nada en la vida cargala, si lo haces pasas fácil.\nSi odias ese tipo de clases como yo no la cargues y si la cargaste sin saberlo y no hiciste nada como yo no te preocupes, reprueba al 80% de la clase",
+    "En línea dejaba los trabajos de la semana los Lunes y sólo daba clase una vez a la semana para aclarar dudas y explicar algunas cosas, por lo que en la hora de su clase podías adelantar los trabajos, a mi me gustó el hecho de que si da buen material, pero tu tienes que leer por tu cuenta",
+    "Muy buena maestra, casi todo lo califica en canvas, y puedes hacer las tareas y examenes en equipo."
+  ],
+  "n_reviews": 5
+}

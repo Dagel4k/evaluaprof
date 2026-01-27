@@ -1,0 +1,189 @@
+{
+  "professor_id": "Samael_Mendívil_Méndez",
+  "nombre": "Samael Mendívil Méndez",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 6.724568769530026,
+    "difficulty_decayed": 4.20106355697005
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.178371249587866,
+    "difficulty_bayes": 3.0694362017804155
+  },
+  "recommendation_analysis": {
+    "rate": 0.85,
+    "wilson_interval": [
+      0.4177074104790401,
+      0.9781485431945032
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": 0.56,
+    "z_mean_decayed": 0.07,
+    "per_subject": [
+      {
+        "materia": "ADMINISTRACIÓN DE PROYECTOS",
+        "z_decayed": 1.443350570570164,
+        "n": 8
+      },
+      {
+        "materia": "ADMINISTRACIÓN DE LA PRODUCTIVIDAD",
+        "z_decayed": -0.31622776601683794,
+        "n": 6
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "examen",
+          "explicar",
+          "deja",
+          "si",
+          "es"
+        ],
+        "weight": 0.36212421979381143
+      },
+      {
+        "id": 1,
+        "words": [
+          "es",
+          "buen",
+          "buen profesor",
+          "paciente",
+          "profesor"
+        ],
+        "weight": 0.286500720324391
+      }
+    ],
+    "sentiment": {
+      "overall": 0.8,
+      "by_month": {
+        "2024-08": 1.0,
+        "2023-07": 0.0,
+        "2020-01": 1.0,
+        "2019-12": 1.0,
+        "2019-06": 1.0
+      }
+    },
+    "n_comments": 5
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        2.0,
+        10.0,
+        10.0,
+        7.0,
+        6.0
+      ],
+      "ewma": [
+        2.0,
+        4.4,
+        6.08,
+        6.356,
+        6.249199999999999
+      ],
+      "sigma": 2.624051487299744
+    },
+    "difficulty_trend": {
+      "series": [
+        8.0,
+        0.0,
+        0.0,
+        6.0,
+        4.0
+      ],
+      "ewma": [
+        8.0,
+        5.6,
+        3.9199999999999995,
+        4.543999999999999,
+        4.380799999999999
+      ],
+      "sigma": 2.9465409903817736
+    },
+    "forecast": {
+      "quality_next": 6.249199999999999,
+      "quality_band": [
+        1.1060590848925012,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2024-08-09T00:00:00",
+      "materia": "ESTADÍSTICA Y CONTROL DE CALIDAD",
+      "calidad": 6.0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": "Es buen profe, si explica lo que lee, y da ejemplos. El problema es que su voz y forma de explicar es aburridisima y monótona. El examen es de lo que explicó, y deja que uses  formulario, pero aún así son tantos casos y fórmulas que al final nunca deja claro cúal es la que debes usar."
+    },
+    {
+      "fecha_iso": "2023-07-30T00:00:00",
+      "materia": "ADMINISTRACIÓN DE LA PRODUCTIVIDAD",
+      "calidad": 7.0,
+      "dificultad": 6.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Deja muchos trabajos y da calificaciones muy bajas, no te dice que te salió mal al igual en los exámenes, no te los puede entregar solo te los muestra y con una calificación muy baja aunque esté bien todo el examen, no sabe reconocer errores, si cargas con él no esperes sacar más de 80"
+    },
+    {
+      "fecha_iso": "2020-01-12T00:00:00",
+      "materia": "ADMINISTRACIÓN DE OPERACIONES",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Muy buen profesor, muy paciente y comprensivo."
+    },
+    {
+      "fecha_iso": "2019-12-11T00:00:00",
+      "materia": "ADMINISTRACIÓN DE PROYECTOS",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Es muy buen profesor, sus clases son muy monótonas pero igual si aprendes y es muy comprensible y paciente."
+    },
+    {
+      "fecha_iso": "2019-06-12T00:00:00",
+      "materia": "ADMINISTRACION DE LA PRODUCTIVIDAD",
+      "calidad": 2.0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "demaciado exigente,  deja una infinidad de tareas como si solamente llevaras su materia, no es muy bueno explicando y materias faciles las vuelve dificiles y sobretodo tediosas puro explicar con diapositivas y muy matado si lo ven saquenle la vuelta xd"
+    }
+  ],
+  "comments_recent": [
+    "Es buen profe, si explica lo que lee, y da ejemplos. El problema es que su voz y forma de explicar es aburridisima y monótona. El examen es de lo que explicó, y deja que uses  formulario, pero aún así son tantos casos y fórmulas que al final nunca deja claro cúal es la que debes usar.",
+    "Deja muchos trabajos y da calificaciones muy bajas, no te dice que te salió mal al igual en los exámenes, no te los puede entregar solo te los muestra y con una calificación muy baja aunque esté bien todo el examen, no sabe reconocer errores, si cargas con él no esperes sacar más de 80",
+    "Muy buen profesor, muy paciente y comprensivo.",
+    "Es muy buen profesor, sus clases son muy monótonas pero igual si aprendes y es muy comprensible y paciente.",
+    "demaciado exigente,  deja una infinidad de tareas como si solamente llevaras su materia, no es muy bueno explicando y materias faciles las vuelve dificiles y sobretodo tediosas puro explicar con diapositivas y muy matado si lo ven saquenle la vuelta xd"
+  ],
+  "n_reviews": 5
+}

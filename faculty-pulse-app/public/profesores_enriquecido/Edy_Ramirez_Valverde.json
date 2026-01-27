@@ -1,0 +1,187 @@
+{
+  "professor_id": "Edy_Ramirez_Valverde",
+  "nombre": "Edy Ramirez Valverde",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 6.393107332883841,
+    "difficulty_decayed": 2.731112111098045
+  },
+  "bayes_analysis": {
+    "quality_bayes": 6.9117045829212,
+    "difficulty_bayes": 2.802769535113749
+  },
+  "recommendation_analysis": {
+    "rate": 0.6,
+    "wilson_interval": [
+      0.23071993220883702,
+      0.8823817688407467
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": 0.63,
+    "z_mean_decayed": 0.73,
+    "per_subject": [
+      {
+        "materia": "ELECTRICIDAD",
+        "z_decayed": 1.4161763857498668,
+        "n": 5
+      },
+      {
+        "materia": "ELECTROMAGNETISMO",
+        "z_decayed": 0.3758359864952836,
+        "n": 15
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "es",
+          "toma",
+          "asistencia",
+          "clase",
+          "si"
+        ],
+        "weight": 0.3499330540523178
+      },
+      {
+        "id": 1,
+        "words": [
+          "si",
+          "clase",
+          "toma",
+          "es plataforma",
+          "es"
+        ],
+        "weight": 0.4048507031222999
+      }
+    ],
+    "sentiment": {
+      "overall": 0.0,
+      "by_month": {
+        "2018-07": 0.0,
+        "2018-06": 0.0,
+        "2018-01": 0.0,
+        "2017-12": 0.0
+      }
+    },
+    "n_comments": 4
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        4.0,
+        7.0,
+        3.0,
+        8.0,
+        9.0
+      ],
+      "ewma": [
+        4.0,
+        4.9,
+        4.33,
+        5.430999999999999,
+        6.501699999999999
+      ],
+      "sigma": 1.7468077764883008
+    },
+    "difficulty_trend": {
+      "series": [
+        2.0,
+        4.0,
+        6.0,
+        0.0,
+        2.0
+      ],
+      "ewma": [
+        2.0,
+        2.5999999999999996,
+        3.619999999999999,
+        2.5339999999999994,
+        2.3737999999999992
+      ],
+      "sigma": 1.873041368470008
+    },
+    "forecast": {
+      "quality_next": 6.501699999999999,
+      "quality_band": [
+        3.0779567580829292,
+        9.925443241917069
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2019-01-12T00:00:00",
+      "materia": "ELECTROMAGNETISMO",
+      "calidad": 9.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2018-07-30T00:00:00",
+      "materia": "ELECTRICIDAD",
+      "calidad": 8.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Todo es por plataforma y si toma lista, pasas facilmente si sabes usar bien la pagina"
+    },
+    {
+      "fecha_iso": "2018-06-12T00:00:00",
+      "materia": "ELECTRICIDAD INDUSTRIAL",
+      "calidad": 3.0,
+      "dificultad": 6.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "En todo el semestre fue raro cuando el nos daba clase, todo es por plataforma y es muy impuntual, puede llegar hasta media hora tarde a clase y toma asistencia"
+    },
+    {
+      "fecha_iso": "2018-01-13T00:00:00",
+      "materia": "ELECTROMAGETISMO",
+      "calidad": 7.0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Todo es por plataforma"
+    },
+    {
+      "fecha_iso": "2017-12-09T00:00:00",
+      "materia": "ELECTROMAGNETISMO",
+      "calidad": 4.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": "Nah no mucho que decir, asistencia obligatoria, todas las tareas las dejara en la plataforma, y los examenes tambien son para subirse en la plataforma, no enseña casi nada en clase, si tienes el pdf de el ya chingaste."
+    }
+  ],
+  "comments_recent": [
+    "Todo es por plataforma y si toma lista, pasas facilmente si sabes usar bien la pagina",
+    "En todo el semestre fue raro cuando el nos daba clase, todo es por plataforma y es muy impuntual, puede llegar hasta media hora tarde a clase y toma asistencia",
+    "Todo es por plataforma",
+    "Nah no mucho que decir, asistencia obligatoria, todas las tareas las dejara en la plataforma, y los examenes tambien son para subirse en la plataforma, no enseña casi nada en clase, si tienes el pdf de el ya chingaste."
+  ],
+  "n_reviews": 5
+}

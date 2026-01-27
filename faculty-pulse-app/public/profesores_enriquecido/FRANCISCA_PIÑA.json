@@ -1,0 +1,194 @@
+{
+  "professor_id": "FRANCISCA_PIÑA",
+  "nombre": "FRANCISCA PIÑA",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 7.091208752115317,
+    "difficulty_decayed": 3.3155614552851094
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.311704582921199,
+    "difficulty_bayes": 2.9361028684470822
+  },
+  "recommendation_analysis": {
+    "rate": 0.82,
+    "wilson_interval": [
+      0.39206428037473734,
+      0.9698611629839307
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": 0.6,
+    "z_mean_decayed": 0.48,
+    "per_subject": [
+      {
+        "materia": "ANALISIS DE LA REALIDAD NACIONAL",
+        "z_decayed": 0.8333333333333334,
+        "n": 4
+      },
+      {
+        "materia": "DESARROLLO SUSTENTABLE",
+        "z_decayed": 0.4729349941621344,
+        "n": 27
+      },
+      {
+        "materia": "TALLER DE HERRAMIENTAS",
+        "z_decayed": 0.35530385978782225,
+        "n": 3
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "bien",
+          "porque",
+          "elegante",
+          "maestra",
+          "materia"
+        ],
+        "weight": 0.3902156883833679
+      },
+      {
+        "id": 1,
+        "words": [
+          "es buena",
+          "buena onda",
+          "da",
+          "examenes",
+          "falta"
+        ],
+        "weight": 0.30426996162891184
+      }
+    ],
+    "sentiment": {
+      "overall": -0.2,
+      "by_month": {
+        "2017-11": 0.0,
+        "2016-01": 0.0,
+        "2015-06": -1.0,
+        "2014-02": 0.0,
+        "2014-01": 0.0
+      }
+    },
+    "n_comments": 5
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        8.0,
+        7.0,
+        8.0,
+        8.0,
+        6.0
+      ],
+      "ewma": [
+        8.0,
+        7.699999999999999,
+        7.789999999999999,
+        7.853,
+        7.2970999999999995
+      ],
+      "sigma": 0.6519570169880833
+    },
+    "difficulty_trend": {
+      "series": [
+        4.0,
+        4.0,
+        0.0,
+        4.0,
+        4.0
+      ],
+      "ewma": [
+        4.0,
+        4.0,
+        2.8,
+        3.1599999999999997,
+        3.412
+      ],
+      "sigma": 1.459012268625593
+    },
+    "forecast": {
+      "quality_next": 7.2970999999999995,
+      "quality_band": [
+        6.019264246703356,
+        8.574935753296643
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2017-11-20T00:00:00",
+      "materia": "TALLER DE HERRAMIENTAS",
+      "calidad": 6.0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": "Buena maestra seria explica bien pues creo que ya tiene tiempo dando la materia, es muy propia con sus comentarios eso si siempre muy arreglada es elegante, los exámenes no son complicados"
+    },
+    {
+      "fecha_iso": "2016-01-31T00:00:00",
+      "materia": "DESARROLLO SUSTENTABLE",
+      "calidad": 8.0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Buena maestra es un poco seria explica bien pero muy apegada al programa, la materia es mucha teoria a veces hace actividades para hacer mas amena la clase y cuando falta avisa porque tiene algun evento del tec"
+    },
+    {
+      "fecha_iso": "2015-06-08T00:00:00",
+      "materia": "ANALISIS DE LA REALIDAD NACIONAL",
+      "calidad": 8.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Casi no da clases, falta mucho. Los examenes los saca de las copias que te deja y hace una exposición para evaluar un parcial lo malo que con una falta que tengas te bajara mucho la calificación. Pero es muy buena onda solamente estudienle para los examenes y 100 seguro"
+    },
+    {
+      "fecha_iso": "2014-02-18T00:00:00",
+      "materia": "ANALISIS DE LA REALIDAD",
+      "calidad": 7.0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Explica muy amena la clase y nos da tips para que la materia se nos haga mas fácil, es buena onda pero muy seria, es fácil la materia son temas aburridones pero esta bien."
+    },
+    {
+      "fecha_iso": "2014-01-20T00:00:00",
+      "materia": "TALLER DE HERRAMIENTAS",
+      "calidad": 8.0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "lo que pasa es que es una materia super sencilla de historia de mexico solo se trata de poner atencion cosas wu trata que ya hemos visto desde secundaria y preparatoria y algunos temas nuevos, con esa maestra entras porque entras esta guapa y muy elegante para vestir, es agradable, y educada"
+    }
+  ],
+  "comments_recent": [
+    "Buena maestra seria explica bien pues creo que ya tiene tiempo dando la materia, es muy propia con sus comentarios eso si siempre muy arreglada es elegante, los exámenes no son complicados",
+    "Buena maestra es un poco seria explica bien pero muy apegada al programa, la materia es mucha teoria a veces hace actividades para hacer mas amena la clase y cuando falta avisa porque tiene algun evento del tec",
+    "Casi no da clases, falta mucho. Los examenes los saca de las copias que te deja y hace una exposición para evaluar un parcial lo malo que con una falta que tengas te bajara mucho la calificación. Pero es muy buena onda solamente estudienle para los examenes y 100 seguro",
+    "Explica muy amena la clase y nos da tips para que la materia se nos haga mas fácil, es buena onda pero muy seria, es fácil la materia son temas aburridones pero esta bien.",
+    "lo que pasa es que es una materia super sencilla de historia de mexico solo se trata de poner atencion cosas wu trata que ya hemos visto desde secundaria y preparatoria y algunos temas nuevos, con esa maestra entras porque entras esta guapa y muy elegante para vestir, es agradable, y educada"
+  ],
+  "n_reviews": 5
+}

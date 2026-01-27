@@ -1,0 +1,158 @@
+{
+  "professor_id": "juan_pedro_campos_sauceda",
+  "nombre": "juan pedro campos sauceda",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 4.22527719001069,
+    "difficulty_decayed": 4.931856093203912
+  },
+  "bayes_analysis": {
+    "quality_bayes": 6.445037916254533,
+    "difficulty_bayes": 3.469436201780416
+  },
+  "recommendation_analysis": {
+    "rate": 0.41,
+    "wilson_interval": [
+      0.12255770838091476,
+      0.7756507606744599
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": -1.3,
+    "z_mean_decayed": -1.24,
+    "per_subject": [
+      {
+        "materia": "TERMODINÁMICA",
+        "z_decayed": -1.0599402258819826,
+        "n": 8
+      },
+      {
+        "materia": "TERMODINAMICA",
+        "z_decayed": -1.76524304532807,
+        "n": 6
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [],
+    "sentiment": {
+      "overall": null,
+      "by_month": {}
+    },
+    "n_comments": 3
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        2.0,
+        8.0,
+        2.0,
+        10.0,
+        2.0
+      ],
+      "ewma": [
+        2.0,
+        3.8,
+        3.26,
+        5.282,
+        4.2974
+      ],
+      "sigma": 3.202263429513568
+    },
+    "difficulty_trend": {
+      "series": [
+        8.0,
+        2.0,
+        8.0,
+        0.0,
+        6.0
+      ],
+      "ewma": [
+        8.0,
+        6.199999999999999,
+        6.739999999999998,
+        4.717999999999998,
+        5.102599999999999
+      ],
+      "sigma": 2.878858640503212
+    },
+    "forecast": {
+      "quality_next": 4.2974,
+      "quality_band": [
+        0.0,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2023-05-10T00:00:00",
+      "materia": "TERMODINÁMICA",
+      "calidad": 2.0,
+      "dificultad": 6.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "No tiene nada de paciencia, no se si era solo porque nosotros eramos poquitos pero en cada clase se ponia a hacernos preguntas  no te dejaba revisar los apuntes porque se supone que ya lo sabes y si nadie le contestaba se amaliyaba mucho y su clase es demasiado aburrida"
+    },
+    {
+      "fecha_iso": "2021-02-06T00:00:00",
+      "materia": "ASESOR DE MAESTRÍA",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Un hombre de pocas palabras, la comunicación fue difícil al principio, con el paso del tiempo hicimos una excelente amistad. No puedo decir nada malo de el por que siempre me ayudo al 100 %. Si lee este mensaje sabrá quien soy. Un fuerte abrazo para mi mentor."
+    },
+    {
+      "fecha_iso": "2020-11-12T00:00:00",
+      "materia": "TERMODINAMICA",
+      "calidad": 2.0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2019-08-04T00:00:00",
+      "materia": "FISICOQUIMICA",
+      "calidad": 8.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2019-01-15T00:00:00",
+      "materia": "TERMODINÁMICA",
+      "calidad": 2.0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Es una persona que no sabe nada, y si sabe no sabe explicar o enseñar, es entrometido en la vida personal. No debería enseñar, no debería llamarse doctor, no funciona como maestro y lejos está de ser investigador."
+    }
+  ],
+  "comments_recent": [
+    "No tiene nada de paciencia, no se si era solo porque nosotros eramos poquitos pero en cada clase se ponia a hacernos preguntas  no te dejaba revisar los apuntes porque se supone que ya lo sabes y si nadie le contestaba se amaliyaba mucho y su clase es demasiado aburrida",
+    "Un hombre de pocas palabras, la comunicación fue difícil al principio, con el paso del tiempo hicimos una excelente amistad. No puedo decir nada malo de el por que siempre me ayudo al 100 %. Si lee este mensaje sabrá quien soy. Un fuerte abrazo para mi mentor.",
+    "Es una persona que no sabe nada, y si sabe no sabe explicar o enseñar, es entrometido en la vida personal. No debería enseñar, no debería llamarse doctor, no funciona como maestro y lejos está de ser investigador."
+  ],
+  "n_reviews": 5
+}

@@ -1,0 +1,152 @@
+{
+  "professor_id": "Antonio_Sauceda_Pérez",
+  "nombre": "Antonio Sauceda Pérez",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 6.699807613293611,
+    "difficulty_decayed": 2.3787673640690516
+  },
+  "bayes_analysis": {
+    "quality_bayes": 6.0450379162545325,
+    "difficulty_bayes": 3.3361028684470826
+  },
+  "recommendation_analysis": {
+    "rate": 0.2,
+    "wilson_interval": [
+      0.036223160969787456,
+      0.6244717358814612
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": -1.15,
+    "z_mean_decayed": -1.15,
+    "per_subject": [
+      {
+        "materia": "---",
+        "z_decayed": -1.148343115073128,
+        "n": 80
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [],
+    "sentiment": {
+      "overall": 0.0,
+      "by_month": {
+        "2013-11": 0.0,
+        "2013-07": 0.0
+      }
+    },
+    "n_comments": 3
+  },
+  "integrity_analysis": {
+    "dup_rate": 1.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 0.5
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        2.0,
+        2.0,
+        2.0,
+        10.0
+      ],
+      "ewma": [
+        2.0,
+        2.0,
+        2.0,
+        4.4
+      ],
+      "sigma": 2.7999999999999994
+    },
+    "difficulty_trend": {
+      "series": [
+        8.0,
+        0.0,
+        6.0,
+        0.0
+      ],
+      "ewma": [
+        8.0,
+        5.6,
+        5.719999999999999,
+        4.003999999999999
+      ],
+      "sigma": 2.9289458854680124
+    },
+    "forecast": {
+      "quality_next": 4.4,
+      "quality_band": [
+        0.0,
+        9.887999999999998
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2021-08-20T00:00:00",
+      "materia": "GESTIÓN AMBIENTAL",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2019-09-17T00:00:00",
+      "materia": "POTABILIZACION DEL AGUA",
+      "calidad": 2.0,
+      "dificultad": 6.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2013-11-14T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2013-07-19T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2013-07-18T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    }
+  ],
+  "comments_recent": [
+    "[Comentario esperando revisión]",
+    "[Comentario esperando revisión]",
+    "[Comentario esperando revisión]"
+  ],
+  "n_reviews": 5
+}

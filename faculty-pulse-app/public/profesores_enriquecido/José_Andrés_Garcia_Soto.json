@@ -1,0 +1,174 @@
+{
+  "professor_id": "José_Andrés_Garcia_Soto",
+  "nombre": "José Andrés Garcia Soto",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 10.0,
+    "difficulty_decayed": 0.0
+  },
+  "bayes_analysis": {
+    "quality_bayes": 8.048254910272714,
+    "difficulty_bayes": 2.0029673590504453
+  },
+  "recommendation_analysis": {
+    "rate": 0.75,
+    "wilson_interval": [
+      0.30063605244263664,
+      0.9544139373553638
+    ],
+    "n_recommendations": 4
+  },
+  "subject_normalization": {
+    "z_mean": 0.88,
+    "z_mean_decayed": 0.95,
+    "per_subject": [
+      {
+        "materia": "ETICA",
+        "z_decayed": 0.9598942503077836,
+        "n": 22
+      },
+      {
+        "materia": "ADMINISTRACIÓN Y CONTABILIDAD",
+        "z_decayed": 0.629858167745255,
+        "n": 5
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "examenes",
+          "profe",
+          "tareas",
+          "semestre",
+          "clases"
+        ],
+        "weight": 0.428104556643359
+      },
+      {
+        "id": 1,
+        "words": [
+          "inicio",
+          "semana",
+          "semanas",
+          "xd",
+          "mes"
+        ],
+        "weight": 0.23754050763686357
+      }
+    ],
+    "sentiment": {
+      "overall": 0.0,
+      "by_month": {
+        "2021-11": 0.0,
+        "2021-08": 0.0,
+        "2020-09": 0.0,
+        "2012-10": 0.0
+      }
+    },
+    "n_comments": 4
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        10.0,
+        10.0,
+        10.0,
+        10.0
+      ],
+      "ewma": [
+        10.0,
+        10.0,
+        10.0,
+        10.0
+      ],
+      "sigma": 0.0
+    },
+    "difficulty_trend": {
+      "series": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ewma": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sigma": 0.0
+    },
+    "forecast": {
+      "quality_next": 10.0,
+      "quality_band": [
+        10.0,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2021-11-18T00:00:00",
+      "materia": "ETICA",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Cuanta nostalgia este profe nada como los primeros semestres, como dice el man de abajo daba como 2 veces por semana al inicio del semestre y ya como al mes nomas revisaba unas tareas bien pedorras como cada 3 semanas xd los examenes son lo mas facil del universo"
+    },
+    {
+      "fecha_iso": "2021-08-27T00:00:00",
+      "materia": "ETICA",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Un dios generoso al inicio da clases como 2 dias a la semana y ya como a las 3 semanas de semestre da como una vez cada 15 dias XD esencial para salir temprano y relax en clases de relleno"
+    },
+    {
+      "fecha_iso": "2020-09-03T00:00:00",
+      "materia": "ETICA",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Dividió el grupo en dos, a mi me tocaba martes y jueves, iba como dos jueves el mes, revisó el ultimo trabajo en el estacionamiento XDXD"
+    },
+    {
+      "fecha_iso": "2012-10-30T00:00:00",
+      "materia": "ADMINISTRACIÓN Y CONTABILIDAD",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Este profe es un amor, no hace exámenes, no reprueba a nadie, no tienes clases en casi todo el semestre, con tan solo presentarle las tareas aseguras tener una muy buena calificación (arriba de 95) pero si te interesa aprender administración esta no es tu opción."
+    }
+  ],
+  "comments_recent": [
+    "Cuanta nostalgia este profe nada como los primeros semestres, como dice el man de abajo daba como 2 veces por semana al inicio del semestre y ya como al mes nomas revisaba unas tareas bien pedorras como cada 3 semanas xd los examenes son lo mas facil del universo",
+    "Un dios generoso al inicio da clases como 2 dias a la semana y ya como a las 3 semanas de semestre da como una vez cada 15 dias XD esencial para salir temprano y relax en clases de relleno",
+    "Dividió el grupo en dos, a mi me tocaba martes y jueves, iba como dos jueves el mes, revisó el ultimo trabajo en el estacionamiento XDXD",
+    "Este profe es un amor, no hace exámenes, no reprueba a nadie, no tienes clases en casi todo el semestre, con tan solo presentarle las tareas aseguras tener una muy buena calificación (arriba de 95) pero si te interesa aprender administración esta no es tu opción."
+  ],
+  "n_reviews": 4
+}

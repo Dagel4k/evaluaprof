@@ -1,0 +1,184 @@
+{
+  "professor_id": "Rocio_Sainz_Gomez",
+  "nombre": "Rocio Sainz Gomez",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 7.415382863614161,
+    "difficulty_decayed": 4.294285257293311
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.245037916254533,
+    "difficulty_bayes": 3.469436201780416
+  },
+  "recommendation_analysis": {
+    "rate": 0.69,
+    "wilson_interval": [
+      0.2916099621112714,
+      0.923283269882938
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": 0.23,
+    "z_mean_decayed": 0.28,
+    "per_subject": [
+      {
+        "materia": "FÍSICA",
+        "z_decayed": 0.28254096878887563,
+        "n": 6
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "maestra",
+          "mal",
+          "si",
+          "es",
+          "te"
+        ],
+        "weight": 0.41794666507542627
+      },
+      {
+        "id": 1,
+        "words": [
+          "te",
+          "toda",
+          "bien",
+          "examenes",
+          "he"
+        ],
+        "weight": 0.2629796491185051
+      }
+    ],
+    "sentiment": {
+      "overall": 0.0,
+      "by_month": {
+        "2025-01": 0.0,
+        "2024-06": 0.0,
+        "2024-03": 0.0,
+        "2023-06": 0.0,
+        "2023-01": 0.0
+      }
+    },
+    "n_comments": 5
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        9.0,
+        5.0,
+        2.0,
+        10.0,
+        10.0
+      ],
+      "ewma": [
+        9.0,
+        7.8,
+        6.06,
+        7.241999999999999,
+        8.069399999999998
+      ],
+      "sigma": 2.945945721156451
+    },
+    "difficulty_trend": {
+      "series": [
+        6.0,
+        8.0,
+        8.0,
+        0.0,
+        2.0
+      ],
+      "ewma": [
+        6.0,
+        6.6,
+        7.02,
+        4.914,
+        4.0398
+      ],
+      "sigma": 2.60022358423271
+    },
+    "forecast": {
+      "quality_next": 8.069399999999998,
+      "quality_band": [
+        2.295346386533354,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2025-01-24T00:00:00",
+      "materia": "FÍSICA",
+      "calidad": 10.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Es una maestra estricta pero muy buena en su trabajo, sabe mucho y lo explica muy bien. Es una maestra para alumnos dedicados e interesados, si le echas ganas y te gusta aprender es muy buena opción. Todo lo q se ve en clase es exactamente igual a lo que viene el examen pero si hay que estudiar."
+    },
+    {
+      "fecha_iso": "2024-06-04T00:00:00",
+      "materia": "FÍSICA",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "De las mejores maestras que he tenido, enseña muy bien, debes de poner atención para no perderte, los exámenes son muy fáciles."
+    },
+    {
+      "fecha_iso": "2024-03-27T00:00:00",
+      "materia": "FÍSICA",
+      "calidad": 2.0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Pésima maestra, muy prepotente, es favoritista , te trata mal, no inspira confianza porque si le preguntas una duda te regaña y te hace sentir miserable con su actitud arrogante,  de lo peor del tec"
+    },
+    {
+      "fecha_iso": "2023-06-07T00:00:00",
+      "materia": "FÍSICA",
+      "calidad": 5.0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": "Es la persona menos accesible que he conocido en toda mi vida, a fin de cuentas puede que te ayude en algo, sin embargo toda la terapia psicológica que te mete y lo miserable que te hace sentir con su actitud y respuestas nadie te lo quita... Entiende muy bien sus temas y los logra explicar muy bien"
+    },
+    {
+      "fecha_iso": "2023-01-15T00:00:00",
+      "materia": "FÍSICA",
+      "calidad": 9.0,
+      "dificultad": 6.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Es MUY buena profesora; los temas los sabe explicar de forma que la clase no se torna muy pesada y se nota que sabe lo que está haciendo. Los exámenes son cortos pero matadores; pocas preguntas, si algo te salió mal en una toda la pregunta está mal. Asistencia obligatoria, ella nunca falta."
+    }
+  ],
+  "comments_recent": [
+    "Es una maestra estricta pero muy buena en su trabajo, sabe mucho y lo explica muy bien. Es una maestra para alumnos dedicados e interesados, si le echas ganas y te gusta aprender es muy buena opción. Todo lo q se ve en clase es exactamente igual a lo que viene el examen pero si hay que estudiar.",
+    "De las mejores maestras que he tenido, enseña muy bien, debes de poner atención para no perderte, los exámenes son muy fáciles.",
+    "Pésima maestra, muy prepotente, es favoritista , te trata mal, no inspira confianza porque si le preguntas una duda te regaña y te hace sentir miserable con su actitud arrogante,  de lo peor del tec",
+    "Es la persona menos accesible que he conocido en toda mi vida, a fin de cuentas puede que te ayude en algo, sin embargo toda la terapia psicológica que te mete y lo miserable que te hace sentir con su actitud y respuestas nadie te lo quita... Entiende muy bien sus temas y los logra explicar muy bien",
+    "Es MUY buena profesora; los temas los sabe explicar de forma que la clase no se torna muy pesada y se nota que sabe lo que está haciendo. Los exámenes son cortos pero matadores; pocas preguntas, si algo te salió mal en una toda la pregunta está mal. Asistencia obligatoria, ella nunca falta."
+  ],
+  "n_reviews": 5
+}

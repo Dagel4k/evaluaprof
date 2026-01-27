@@ -1,0 +1,180 @@
+{
+  "professor_id": "nora_esmeralda_cancela",
+  "nombre": "nora esmeralda cancela",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 7.418440188746038,
+    "difficulty_decayed": 2.5815598112539604
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.1117045829212,
+    "difficulty_bayes": 2.9361028684470822
+  },
+  "recommendation_analysis": {
+    "rate": 0.68,
+    "wilson_interval": [
+      0.284518913326845,
+      0.9190641485624058
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": -0.87,
+    "z_mean_decayed": -0.87,
+    "per_subject": [
+      {
+        "materia": "INVESTIGACION",
+        "z_decayed": -0.8660254037844387,
+        "n": 4
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "es peor",
+          "peor",
+          "es"
+        ],
+        "weight": 0.3448660664981906
+      },
+      {
+        "id": 1,
+        "words": [
+          "es",
+          "es peor",
+          "peor"
+        ],
+        "weight": 0.2977688695435128
+      }
+    ],
+    "sentiment": {
+      "overall": 0.0,
+      "by_month": {
+        "2025-11": 0.0,
+        "2024-09": 0.0,
+        "2024-02": 0.0,
+        "2023-09": 0.0,
+        "2023-06": 0.0
+      }
+    },
+    "n_comments": 5
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        2.0,
+        6.0,
+        10.0,
+        6.0,
+        10.0
+      ],
+      "ewma": [
+        2.0,
+        3.1999999999999997,
+        5.24,
+        5.468,
+        6.8276
+      ],
+      "sigma": 1.966431049388714
+    },
+    "difficulty_trend": {
+      "series": [
+        8.0,
+        4.0,
+        0.0,
+        4.0,
+        0.0
+      ],
+      "ewma": [
+        8.0,
+        6.8,
+        4.76,
+        4.532,
+        3.1723999999999997
+      ],
+      "sigma": 1.9664310493887143
+    },
+    "forecast": {
+      "quality_next": 6.8276,
+      "quality_band": [
+        2.973395143198121,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2025-11-01T00:00:00",
+      "materia": "CHISMOSA",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Es muy Toxica. No es sana su presencia y mucho menos convivir con ella."
+    },
+    {
+      "fecha_iso": "2024-09-02T00:00:00",
+      "materia": "NADA DE NADA",
+      "calidad": 6.0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": "llévensela a Culiacán . es de lo peor"
+    },
+    {
+      "fecha_iso": "2024-02-27T00:00:00",
+      "materia": "LO PIORSITO DEL TEC",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "es de lo peor por lo que dicen en sistemas"
+    },
+    {
+      "fecha_iso": "2023-09-17T00:00:00",
+      "materia": "CHISMES",
+      "calidad": 6.0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": "Liandra quien sabe. Chismosa SI y mucho. Es un buen ejemplo de como un ser humano no debe ser.  Sáquenle la vuelta"
+    },
+    {
+      "fecha_iso": "2023-06-24T00:00:00",
+      "materia": "INVESTIGACION",
+      "calidad": 2.0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Nomas aborto y se fue ya no quiso saber nada de nada"
+    }
+  ],
+  "comments_recent": [
+    "Es muy Toxica. No es sana su presencia y mucho menos convivir con ella.",
+    "llévensela a Culiacán . es de lo peor",
+    "es de lo peor por lo que dicen en sistemas",
+    "Liandra quien sabe. Chismosa SI y mucho. Es un buen ejemplo de como un ser humano no debe ser.  Sáquenle la vuelta",
+    "Nomas aborto y se fue ya no quiso saber nada de nada"
+  ],
+  "n_reviews": 5
+}

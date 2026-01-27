@@ -1,0 +1,79 @@
+{
+  "professor_id": "Omar_Ramos",
+  "nombre": "Omar Ramos",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 9.999999999999998,
+    "difficulty_decayed": 2.6512191684131325
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.7229640619848325,
+    "difficulty_bayes": 2.670128585558853
+  },
+  "recommendation_analysis": {
+    "rate": 1.0,
+    "wilson_interval": [
+      0.3423719528896193,
+      1
+    ],
+    "n_recommendations": 2
+  },
+  "subject_normalization": {
+    "z_mean": null,
+    "z_mean_decayed": null,
+    "per_subject": []
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [],
+    "sentiment": {
+      "overall": null,
+      "by_month": {}
+    },
+    "n_comments": 1
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": null,
+    "difficulty_trend": null,
+    "forecast": null,
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2025-08-16T00:00:00",
+      "materia": "CONMUTACION",
+      "calidad": 10.0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "El mejor profesor de redes, te ayuda con cualquier duda, pone ejemplos para la vida laboral, sabe muchísimo las clases se te pasan volando, si o si volvería a llevar con el cualquier materia. La participación la toma en cuenta para evaluarte pero no la exige en si."
+    },
+    {
+      "fecha_iso": "2023-09-04T00:00:00",
+      "materia": "REDED DE COMPUTSDORAS",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": ""
+    }
+  ],
+  "comments_recent": [
+    "El mejor profesor de redes, te ayuda con cualquier duda, pone ejemplos para la vida laboral, sabe muchísimo las clases se te pasan volando, si o si volvería a llevar con el cualquier materia. La participación la toma en cuenta para evaluarte pero no la exige en si."
+  ],
+  "n_reviews": 2
+}

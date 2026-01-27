@@ -1,0 +1,182 @@
+{
+  "professor_id": "OMAR_IVAN_GAXIOLA_SANCHEZ",
+  "nombre": "OMAR IVAN GAXIOLA SANCHEZ",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 9.148916554392377,
+    "difficulty_decayed": 0.22987763431193126
+  },
+  "bayes_analysis": {
+    "quality_bayes": 8.045037916254532,
+    "difficulty_bayes": 2.2694362017804157
+  },
+  "recommendation_analysis": {
+    "rate": 0.86,
+    "wilson_interval": [
+      0.42649276163301214,
+      0.9806733621454894
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": 0.22,
+    "z_mean_decayed": 0.22,
+    "per_subject": [
+      {
+        "materia": "ELECTRÓNICA DIGITAL",
+        "z_decayed": 0.21821789023599275,
+        "n": 3
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "bien",
+          "explica",
+          "maestro",
+          "es",
+          "sabe"
+        ],
+        "weight": 0.30104404582118915
+      },
+      {
+        "id": 1,
+        "words": [
+          "es",
+          "sabe",
+          "maestro",
+          "bien",
+          "explica"
+        ],
+        "weight": 0.26960019954094167
+      }
+    ],
+    "sentiment": {
+      "overall": 0.0,
+      "by_month": {
+        "2020-12": 1.0,
+        "2012-02": 0.0,
+        "2011-10": 0.0,
+        "2011-08": -1.0
+      }
+    },
+    "n_comments": 4
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        10.0,
+        10.0,
+        9.0,
+        10.0,
+        9.0
+      ],
+      "ewma": [
+        10.0,
+        10.0,
+        9.7,
+        9.79,
+        9.552999999999999
+      ],
+      "sigma": 0.3944423912309627
+    },
+    "difficulty_trend": {
+      "series": [
+        0.0,
+        0.0,
+        6.0,
+        0.0,
+        0.0
+      ],
+      "ewma": [
+        0.0,
+        0.0,
+        1.7999999999999998,
+        1.2599999999999998,
+        0.8819999999999998
+      ],
+      "sigma": 2.18851840293839
+    },
+    "forecast": {
+      "quality_next": 9.552999999999999,
+      "quality_band": [
+        8.779892913187313,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2020-12-14T00:00:00",
+      "materia": "ELECTRÓNICA DIGITAL",
+      "calidad": 9.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Es un excelente maestro 100% recomendado. Además de que sabe mucho del tema y sabe enseñar es muy respetuoso y sus clases se desarrollan muy bien. Hace exámenes solo las primeras unidades y lo demás lo califica con practicas de a una practica por semana. Pero si le entendiste, no hay que preocuparse"
+    },
+    {
+      "fecha_iso": "2014-05-22T00:00:00",
+      "materia": "DIGITALES",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2012-02-21T00:00:00",
+      "materia": "DIGITAL 2",
+      "calidad": 9.0,
+      "dificultad": 6.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "es buen maestro y buen amigo sabe bastante lo ke le preguntes te contesta y explica vien chilo"
+    },
+    {
+      "fecha_iso": "2011-10-05T00:00:00",
+      "materia": "INT.",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "esta buenisimo me encanta eres encantador."
+    },
+    {
+      "fecha_iso": "2011-08-03T00:00:00",
+      "materia": "INTERFACES",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "malo atu comerntario explica muy bien, aparte de inteligente guapisimo."
+    }
+  ],
+  "comments_recent": [
+    "Es un excelente maestro 100% recomendado. Además de que sabe mucho del tema y sabe enseñar es muy respetuoso y sus clases se desarrollan muy bien. Hace exámenes solo las primeras unidades y lo demás lo califica con practicas de a una practica por semana. Pero si le entendiste, no hay que preocuparse",
+    "es buen maestro y buen amigo sabe bastante lo ke le preguntes te contesta y explica vien chilo",
+    "esta buenisimo me encanta eres encantador.",
+    "malo atu comerntario explica muy bien, aparte de inteligente guapisimo."
+  ],
+  "n_reviews": 5
+}

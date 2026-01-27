@@ -1,0 +1,166 @@
+{
+  "professor_id": "Herminia_Verdugo_Bustamante",
+  "nombre": "Herminia Verdugo Bustamante",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 2.9998117614002195,
+    "difficulty_decayed": 3.9562517837400746
+  },
+  "bayes_analysis": {
+    "quality_bayes": 5.845037916254532,
+    "difficulty_bayes": 3.2027695351137493
+  },
+  "recommendation_analysis": {
+    "rate": 0.29,
+    "wilson_interval": [
+      0.06853388744303547,
+      0.6939525403528386
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": -1.34,
+    "z_mean_decayed": -1.33,
+    "per_subject": [
+      {
+        "materia": "ETICA",
+        "z_decayed": -0.9894294580095617,
+        "n": 22
+      },
+      {
+        "materia": "ÉTICA",
+        "z_decayed": -1.0607694981604285,
+        "n": 8
+      },
+      {
+        "materia": "TALLER DE ÉTICA",
+        "z_decayed": -2.516573504158951,
+        "n": 16
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [],
+    "sentiment": {
+      "overall": null,
+      "by_month": {}
+    },
+    "n_comments": 3
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [
+      {
+        "from": "2020-09-30T00:00:00",
+        "to": "2020-10-01T00:00:00",
+        "count": 3
+      },
+      {
+        "from": "2020-09-30T00:00:00",
+        "to": "2020-10-01T00:00:00",
+        "count": 4
+      }
+    ],
+    "low_variance_flag": 0,
+    "trust_score": 0.7
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        4.0,
+        2.6666666666666665,
+        3.0
+      ],
+      "ewma": [
+        4.0,
+        3.5999999999999996,
+        3.4199999999999995
+      ],
+      "sigma": 0.46744379737429786
+    },
+    "difficulty_trend": {
+      "series": [
+        2.0,
+        5.333333333333333,
+        2.0
+      ],
+      "ewma": [
+        2.0,
+        3.0,
+        2.6999999999999997
+      ],
+      "sigma": 1.5882671666292771
+    },
+    "forecast": {
+      "quality_next": 3.4199999999999995,
+      "quality_band": [
+        2.5038101571463756,
+        4.336189842853623
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2021-01-22T00:00:00",
+      "materia": "ÉTICA",
+      "calidad": 3.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2020-10-01T00:00:00",
+      "materia": "ETICA",
+      "calidad": 4.0,
+      "dificultad": 6.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2020-10-01T00:00:00",
+      "materia": "ÉTICA",
+      "calidad": 2.0,
+      "dificultad": 6.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "no es justa calificando, no califica debidamente ni acepta quejas, preguntas o aclaraciones  sobre las calificaciones y a quien quiera pedir alguna aclaración o buscar la razón de la injusta calificación la profesora le baja puntos al final"
+    },
+    {
+      "fecha_iso": "2020-10-01T00:00:00",
+      "materia": "TALLER DE ÉTICA",
+      "calidad": 2.0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "A mí parecer la profe no sigue una rúbrica para calificar y es muy injusta.\nJamás tomaría su clase nuevamente"
+    },
+    {
+      "fecha_iso": "2020-09-30T00:00:00",
+      "materia": "ÉTICA",
+      "calidad": 4.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": "Cuando uno tiene dudas por su calificación y pregunta\nDice:  - \"al final de la unidad\" .\n\nAl final de la unidad\n- termina la unidad y empieza otra.\nCasi me reprueba y eso que pasé el examen con una \"muy buena calificación\", entregué tareas,  asistí en tiempo y forma a sus clases ...  )':"
+    }
+  ],
+  "comments_recent": [
+    "no es justa calificando, no califica debidamente ni acepta quejas, preguntas o aclaraciones  sobre las calificaciones y a quien quiera pedir alguna aclaración o buscar la razón de la injusta calificación la profesora le baja puntos al final",
+    "A mí parecer la profe no sigue una rúbrica para calificar y es muy injusta.\nJamás tomaría su clase nuevamente",
+    "Cuando uno tiene dudas por su calificación y pregunta\nDice:  - \"al final de la unidad\" .\n\nAl final de la unidad\n- termina la unidad y empieza otra.\nCasi me reprueba y eso que pasé el examen con una \"muy buena calificación\", entregué tareas,  asistí en tiempo y forma a sus clases ...  )':"
+  ],
+  "n_reviews": 5
+}

@@ -1,0 +1,157 @@
+{
+  "professor_id": "Baltazar_Urquidez",
+  "nombre": "Baltazar Urquidez",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 8.404425878602732,
+    "difficulty_decayed": 1.306172027364738
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.645037916254533,
+    "difficulty_bayes": 2.6694362017804156
+  },
+  "recommendation_analysis": {
+    "rate": 0.9,
+    "wilson_interval": [
+      0.46293644258926075,
+      0.9894703616090744
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": -0.67,
+    "z_mean_decayed": -1.21,
+    "per_subject": [
+      {
+        "materia": "MICROBIOLOGÍA",
+        "z_decayed": -1.210168995362367,
+        "n": 5
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [],
+    "sentiment": {
+      "overall": 0.0,
+      "by_month": {
+        "2019-01": -1.0,
+        "2014-02": 0.0,
+        "2013-11": 1.0
+      }
+    },
+    "n_comments": 3
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        7.0,
+        9.0,
+        8.0,
+        10.0,
+        8.0
+      ],
+      "ewma": [
+        7.0,
+        7.6,
+        7.719999999999999,
+        8.404,
+        8.2828
+      ],
+      "sigma": 0.8476058329199959
+    },
+    "difficulty_trend": {
+      "series": [
+        4.0,
+        2.0,
+        2.0,
+        4.0,
+        0.0
+      ],
+      "ewma": [
+        4.0,
+        3.4,
+        2.98,
+        3.2859999999999996,
+        2.3001999999999994
+      ],
+      "sigma": 1.1805684596837236
+    },
+    "forecast": {
+      "quality_next": 8.2828,
+      "quality_band": [
+        6.621492567476808,
+        9.944107432523191
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2022-08-16T00:00:00",
+      "materia": "MICROBIOLOGÍA",
+      "calidad": 8.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2019-08-03T00:00:00",
+      "materia": "MICROBIOLOGÍA",
+      "calidad": 10.0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2019-01-12T00:00:00",
+      "materia": "MICOROBIOLOGÍA",
+      "calidad": 8.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "todas sus clases son habladas, si se te pasa una clase o algún dato será complicado, reparte copias de los temas un poco complejas. Las prácticas son lo más importante y valora más la participación que una asistencia. Ayuda bastante con los exámenes"
+    },
+    {
+      "fecha_iso": "2014-02-14T00:00:00",
+      "materia": "CALIDAD DE ALIMENTOS",
+      "calidad": 9.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "ES UN AMOR!!!"
+    },
+    {
+      "fecha_iso": "2013-11-14T00:00:00",
+      "materia": "TECNOLOGIA DE ALIMENTOS I",
+      "calidad": 7.0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Buen maestro, comprensivo y con muchos conocimientos, aun que a la mayoria de los alumnos no les llega la informacion xD"
+    }
+  ],
+  "comments_recent": [
+    "todas sus clases son habladas, si se te pasa una clase o algún dato será complicado, reparte copias de los temas un poco complejas. Las prácticas son lo más importante y valora más la participación que una asistencia. Ayuda bastante con los exámenes",
+    "ES UN AMOR!!!",
+    "Buen maestro, comprensivo y con muchos conocimientos, aun que a la mayoria de los alumnos no les llega la informacion xD"
+  ],
+  "n_reviews": 5
+}

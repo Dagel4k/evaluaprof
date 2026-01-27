@@ -1,0 +1,202 @@
+{
+  "professor_id": "Pedro_Valenzuela_Martinez",
+  "nombre": "Pedro Valenzuela Martinez",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 9.155025430622715,
+    "difficulty_decayed": 0.16318218753948582
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.645037916254533,
+    "difficulty_bayes": 2.1361028684470824
+  },
+  "recommendation_analysis": {
+    "rate": 0.5,
+    "wilson_interval": [
+      0.17042015582256811,
+      0.8295798441774319
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": 0.17,
+    "z_mean_decayed": 0.43,
+    "per_subject": [
+      {
+        "materia": "ALGEBRA LINEAL",
+        "z_decayed": 1.0030345907667269,
+        "n": 13
+      },
+      {
+        "materia": "INSTRUMENTACIÓN",
+        "z_decayed": 0.7071067811865475,
+        "n": 4
+      },
+      {
+        "materia": "INSTRUMENTACION",
+        "z_decayed": 0.5,
+        "n": 4
+      },
+      {
+        "materia": "CALCULO DIFERENCIAL",
+        "z_decayed": -0.29728518649975677,
+        "n": 29
+      },
+      {
+        "materia": "ÁLGEBRA LINEAL",
+        "z_decayed": -1.069044967649697,
+        "n": 7
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "falta",
+          "si",
+          "va",
+          "temas",
+          "te"
+        ],
+        "weight": 0.3655047355961658
+      },
+      {
+        "id": 1,
+        "words": [
+          "te",
+          "va",
+          "temas",
+          "si",
+          "falta"
+        ],
+        "weight": 0.4020029104866594
+      }
+    ],
+    "sentiment": {
+      "overall": 0.25,
+      "by_month": {
+        "2024-08": 1.0,
+        "2021-12": 0.0,
+        "2020-01": 0.0,
+        "2017-01": 0.0
+      }
+    },
+    "n_comments": 4
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        6.0,
+        10.0,
+        8.0,
+        8.0,
+        10.0
+      ],
+      "ewma": [
+        6.0,
+        7.199999999999999,
+        7.4399999999999995,
+        7.607999999999999,
+        8.325599999999998
+      ],
+      "sigma": 1.142553715148658
+    },
+    "difficulty_trend": {
+      "series": [
+        4.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ewma": [
+        4.0,
+        2.8,
+        1.9599999999999997,
+        1.3719999999999997,
+        0.9603999999999997
+      ],
+      "sigma": 1.0518940783177744
+    },
+    "forecast": {
+      "quality_next": 8.325599999999998,
+      "quality_band": [
+        6.0861947183086285,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2024-08-12T00:00:00",
+      "materia": "INSTRUMENTACIÓN",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "No va literalmente, esfuérzate por participar en las 5 clases que te dará en todo el semestre. Son puras prácticas de temas muy sencillos de electrónica y los exámenes los deja a lo último y solo son teóricos. No te quejes la neta porque el profe es excelente persona."
+    },
+    {
+      "fecha_iso": "2021-12-16T00:00:00",
+      "materia": "INSTRUMENTACION",
+      "calidad": 8.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Falta mucho (En serio, mucho) y hay temas que se le escapan. Cuando le preguntas nomas te dice \"eso se lo dejo a ustedes de tarea para que investiguen\". No se de ni uno, pero podria haber mejores maestros para instrumentacion si quieres aprender bien, igual pasar con el esta bastante sencillo"
+    },
+    {
+      "fecha_iso": "2020-01-13T00:00:00",
+      "materia": "ÁLGEBRA LINEAL",
+      "calidad": 8.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Falta mucho, pero los días que va si suele explicar temas aunque la clase dura en promedio 20 minutos."
+    },
+    {
+      "fecha_iso": "2017-10-09T00:00:00",
+      "materia": "ALGEBRA LINEAL",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2017-01-11T00:00:00",
+      "materia": "CALCULO DIFERENCIAL",
+      "calidad": 6.0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": "falta mucho"
+    }
+  ],
+  "comments_recent": [
+    "No va literalmente, esfuérzate por participar en las 5 clases que te dará en todo el semestre. Son puras prácticas de temas muy sencillos de electrónica y los exámenes los deja a lo último y solo son teóricos. No te quejes la neta porque el profe es excelente persona.",
+    "Falta mucho (En serio, mucho) y hay temas que se le escapan. Cuando le preguntas nomas te dice \"eso se lo dejo a ustedes de tarea para que investiguen\". No se de ni uno, pero podria haber mejores maestros para instrumentacion si quieres aprender bien, igual pasar con el esta bastante sencillo",
+    "Falta mucho, pero los días que va si suele explicar temas aunque la clase dura en promedio 20 minutos.",
+    "falta mucho"
+  ],
+  "n_reviews": 5
+}

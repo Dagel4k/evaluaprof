@@ -1,0 +1,153 @@
+{
+  "professor_id": "Jose_Luis_Velazquez_Felix",
+  "nombre": "Jose Luis Velazquez Felix",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 9.425460019579287,
+    "difficulty_decayed": 3.263602571616307
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.778371249587866,
+    "difficulty_bayes": 2.5361028684470823
+  },
+  "recommendation_analysis": {
+    "rate": 1.0,
+    "wilson_interval": [
+      0.565508505247919,
+      1
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": 0.55,
+    "z_mean_decayed": 0.59,
+    "per_subject": [
+      {
+        "materia": "ADMINISTRACIÓN DE LA PRODUCTIVIDAD",
+        "z_decayed": 0.592132353665901,
+        "n": 6
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [],
+    "sentiment": {
+      "overall": null,
+      "by_month": {}
+    },
+    "n_comments": 3
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        10.0,
+        5.0,
+        9.0,
+        10.0,
+        10.0
+      ],
+      "ewma": [
+        10.0,
+        8.5,
+        8.649999999999999,
+        9.055,
+        9.3385
+      ],
+      "sigma": 1.8184216232766264
+    },
+    "difficulty_trend": {
+      "series": [
+        0.0,
+        2.0,
+        0.0,
+        4.0,
+        4.0
+      ],
+      "ewma": [
+        0.0,
+        0.6,
+        0.42,
+        1.494,
+        2.2458
+      ],
+      "sigma": 1.224919837377124
+    },
+    "forecast": {
+      "quality_next": 9.3385,
+      "quality_band": [
+        5.774393618377812,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2025-07-02T00:00:00",
+      "materia": "ADMINISTRACIÓN DE LA PRODUCTIVIDAD",
+      "calidad": 10.0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Uno de los mejores maestros"
+    },
+    {
+      "fecha_iso": "2023-01-23T00:00:00",
+      "materia": "ADMINISTRACIÓN DE LA PRODUCTIVIDAD",
+      "calidad": 10.0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2021-01-25T00:00:00",
+      "materia": "ADMINISTRACIÓN DE LA PRODUCTIVIDAD",
+      "calidad": 9.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Uno de los mejores maestros del tec, recomendadisimo"
+    },
+    {
+      "fecha_iso": "2020-05-23T00:00:00",
+      "materia": "ADMÓN DE LA PRODUCTIVIDAD",
+      "calidad": 5.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": "Recomiendo participar en sus clases, son muy dinámicas y los exámenes verdaderamente sencillos si dominas los temas. Son temas básicos de la carrera. Buena onda pero es favoritista con la gente lamiscona."
+    },
+    {
+      "fecha_iso": "2016-04-29T00:00:00",
+      "materia": "ADMINISTRACIÓN DE LA PRODUCTIVIDAD",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": ""
+    }
+  ],
+  "comments_recent": [
+    "Uno de los mejores maestros",
+    "Uno de los mejores maestros del tec, recomendadisimo",
+    "Recomiendo participar en sus clases, son muy dinámicas y los exámenes verdaderamente sencillos si dominas los temas. Son temas básicos de la carrera. Buena onda pero es favoritista con la gente lamiscona."
+  ],
+  "n_reviews": 5
+}

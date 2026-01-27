@@ -1,0 +1,178 @@
+{
+  "professor_id": "Julio_Cesar_Salas_Rojas",
+  "nombre": "Julio Cesar Salas Rojas",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 3.8398478616783973,
+    "difficulty_decayed": 5.627196826420829
+  },
+  "bayes_analysis": {
+    "quality_bayes": 6.0450379162545325,
+    "difficulty_bayes": 3.869436201780416
+  },
+  "recommendation_analysis": {
+    "rate": 0.26,
+    "wilson_interval": [
+      0.056918143101913295,
+      0.6716377743790856
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": -0.58,
+    "z_mean_decayed": -0.58,
+    "per_subject": [
+      {
+        "materia": "ESTADÍSTICA INFERENCIAL 2",
+        "z_decayed": -0.5773502691896257,
+        "n": 3
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "peor",
+          "profesor",
+          "si"
+        ],
+        "weight": 0.2980063194281602
+      },
+      {
+        "id": 1,
+        "words": [
+          "si",
+          "profesor",
+          "peor"
+        ],
+        "weight": 0.2736334117578873
+      }
+    ],
+    "sentiment": {
+      "overall": 0.0,
+      "by_month": {
+        "2021-08": 0.0,
+        "2021-01": 0.0,
+        "2019-12": 0.0,
+        "2019-08": 0.0
+      }
+    },
+    "n_comments": 4
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        2.0,
+        2.0,
+        2.0,
+        10.0,
+        2.0
+      ],
+      "ewma": [
+        2.0,
+        2.0,
+        2.0,
+        4.4,
+        3.68
+      ],
+      "sigma": 2.788777509949476
+    },
+    "difficulty_trend": {
+      "series": [
+        8.0,
+        8.0,
+        8.0,
+        0.0,
+        6.0
+      ],
+      "ewma": [
+        8.0,
+        8.0,
+        8.0,
+        5.6,
+        5.719999999999999
+      ],
+      "sigma": 2.5385980382880624
+    },
+    "forecast": {
+      "quality_next": 3.68,
+      "quality_band": [
+        0.0,
+        9.146003919500973
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2021-08-09T00:00:00",
+      "materia": "ESTADÍSTICA INFERENCIAL 2",
+      "calidad": 2.0,
+      "dificultad": 6.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "No lo haga compa"
+    },
+    {
+      "fecha_iso": "2021-03-06T00:00:00",
+      "materia": "F",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2021-01-21T00:00:00",
+      "materia": "ESTADÍSTICA INFERENCIAL 2",
+      "calidad": 2.0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "El peor \"profesor\" que he tenido. Literalmente no explica nada. Eso si si eres morra ya pasaste aunque no sepas ni madres de estadística."
+    },
+    {
+      "fecha_iso": "2019-12-17T00:00:00",
+      "materia": "ESTADÍSTICA INFEERNCIAL 1",
+      "calidad": 2.0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Un asco de profesor, si se le puede llamar profesor a eso"
+    },
+    {
+      "fecha_iso": "2019-08-04T00:00:00",
+      "materia": "ESTADÍSTICA 1",
+      "calidad": 2.0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "De lo peor que tiene el tec. No entiendo como le dan una materia tan importante a un profesor tan vale madre que no enseña y que da 20 minutos de pura grilla."
+    }
+  ],
+  "comments_recent": [
+    "No lo haga compa",
+    "El peor \"profesor\" que he tenido. Literalmente no explica nada. Eso si si eres morra ya pasaste aunque no sepas ni madres de estadística.",
+    "Un asco de profesor, si se le puede llamar profesor a eso",
+    "De lo peor que tiene el tec. No entiendo como le dan una materia tan importante a un profesor tan vale madre que no enseña y que da 20 minutos de pura grilla."
+  ],
+  "n_reviews": 5
+}

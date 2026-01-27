@@ -1,0 +1,140 @@
+{
+  "professor_id": "Ernesto_Alonso_Contreras_Salazar",
+  "nombre": "Ernesto Alonso Contreras Salazar",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 6.186062555099756,
+    "difficulty_decayed": 4.14261866625643
+  },
+  "bayes_analysis": {
+    "quality_bayes": 6.476826338844142,
+    "difficulty_bayes": 3.2886816447647313
+  },
+  "recommendation_analysis": {
+    "rate": 0.25,
+    "wilson_interval": [
+      0.045586062644636216,
+      0.6993639475573634
+    ],
+    "n_recommendations": 4
+  },
+  "subject_normalization": {
+    "z_mean": -1.32,
+    "z_mean_decayed": -1.32,
+    "per_subject": [
+      {
+        "materia": "TALLER DE LIDERAZGO",
+        "z_decayed": -1.3171055481963494,
+        "n": 9
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [],
+    "sentiment": {
+      "overall": null,
+      "by_month": {}
+    },
+    "n_comments": 3
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        5.0,
+        2.0,
+        2.0,
+        9.0
+      ],
+      "ewma": [
+        5.0,
+        4.1,
+        3.4699999999999998,
+        5.129
+      ],
+      "sigma": 2.679109973479999
+    },
+    "difficulty_trend": {
+      "series": [
+        6.0,
+        2.0,
+        8.0,
+        2.0
+      ],
+      "ewma": [
+        6.0,
+        4.799999999999999,
+        5.759999999999999,
+        4.631999999999999
+      ],
+      "sigma": 2.397068209292343
+    },
+    "forecast": {
+      "quality_next": 5.129,
+      "quality_band": [
+        0.0,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2022-12-04T00:00:00",
+      "materia": "ING. DE SISTEMAS",
+      "calidad": 9.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2021-05-07T00:00:00",
+      "materia": "TALLER DE LIDERAZGO",
+      "calidad": 2.0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "es un dolor de hvs, su religión son los eneatipos, nos pedía grabarnos meditando (sesiones de 1hr)... totalmente innecesario, siempre estaba tratando de joder al grupo. \nA la hora de calificar era estricto.\nSe toma demasiado en serio la clase."
+    },
+    {
+      "fecha_iso": "2015-08-28T00:00:00",
+      "materia": "MAESTRÍA",
+      "calidad": 2.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Pésimo, deja mucho que desear, manipulador"
+    },
+    {
+      "fecha_iso": "2013-11-14T00:00:00",
+      "materia": "ING. DE PRODUCTOS Y SERVICIOS",
+      "calidad": 5.0,
+      "dificultad": 6.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": "Aprendes con el, ya que te presiona en extremo para que estudies. Es bipolar e irrespetuoso con los alumnos, no cumple lo que dice y siempre busca la manera de perjudicar al grupo. NO lo recomiendo si quieren un clase tranquila, clara y con un maestro de criterio."
+    }
+  ],
+  "comments_recent": [
+    "es un dolor de hvs, su religión son los eneatipos, nos pedía grabarnos meditando (sesiones de 1hr)... totalmente innecesario, siempre estaba tratando de joder al grupo. \nA la hora de calificar era estricto.\nSe toma demasiado en serio la clase.",
+    "Pésimo, deja mucho que desear, manipulador",
+    "Aprendes con el, ya que te presiona en extremo para que estudies. Es bipolar e irrespetuoso con los alumnos, no cumple lo que dice y siempre busca la manera de perjudicar al grupo. NO lo recomiendo si quieren un clase tranquila, clara y con un maestro de criterio."
+  ],
+  "n_reviews": 4
+}

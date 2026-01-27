@@ -1,0 +1,90 @@
+{
+  "professor_id": "Juan_Ramon_Sanchez_Acosta",
+  "nombre": "Juan Ramon Sanchez Acosta",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 9.049058511371657,
+    "difficulty_decayed": 0.9509414886283439
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.556297395318166,
+    "difficulty_bayes": 2.503461918892186
+  },
+  "recommendation_analysis": {
+    "rate": 1.0,
+    "wilson_interval": [
+      0.3423719528896193,
+      1
+    ],
+    "n_recommendations": 2
+  },
+  "subject_normalization": {
+    "z_mean": 1.09,
+    "z_mean_decayed": 1.07,
+    "per_subject": [
+      {
+        "materia": "TALLER DE INVESTIGACION 2",
+        "z_decayed": 1.4527439954372794,
+        "n": 4
+      },
+      {
+        "materia": "TALLER DE INVESTIGACIÓN 2",
+        "z_decayed": 0.7267220926874316,
+        "n": 5
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [],
+    "sentiment": {
+      "overall": null,
+      "by_month": {}
+    },
+    "n_comments": 1
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": null,
+    "difficulty_trend": null,
+    "forecast": null,
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2020-12-22T00:00:00",
+      "materia": "TALLER DE INVESTIGACIÓN 2",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "El mejor profe para Taller 2, no te exige un proyecto super chingon y da buena calificación"
+    },
+    {
+      "fecha_iso": "2020-09-10T00:00:00",
+      "materia": "TALLER DE INVESTIGACION 2",
+      "calidad": 8.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": ""
+    }
+  ],
+  "comments_recent": [
+    "El mejor profe para Taller 2, no te exige un proyecto super chingon y da buena calificación"
+  ],
+  "n_reviews": 2
+}

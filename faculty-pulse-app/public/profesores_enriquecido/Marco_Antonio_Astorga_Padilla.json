@@ -1,0 +1,153 @@
+{
+  "professor_id": "Marco_Antonio_Astorga_Padilla",
+  "nombre": "Marco Antonio Astorga Padilla",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 10.0,
+    "difficulty_decayed": 0.2606411330589053
+  },
+  "bayes_analysis": {
+    "quality_bayes": 8.178371249587865,
+    "difficulty_bayes": 2.1361028684470824
+  },
+  "recommendation_analysis": {
+    "rate": 0.82,
+    "wilson_interval": [
+      0.39206428037473734,
+      0.9698611629839307
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": 0.45,
+    "z_mean_decayed": 0.45,
+    "per_subject": [
+      {
+        "materia": "LEGISLACIÓN LABORAL",
+        "z_decayed": 0.4472135954999564,
+        "n": 5
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [],
+    "sentiment": {
+      "overall": null,
+      "by_month": {}
+    },
+    "n_comments": 3
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 1,
+    "trust_score": 0.8
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        10.0
+      ],
+      "ewma": [
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        10.0
+      ],
+      "sigma": 0.0
+    },
+    "difficulty_trend": {
+      "series": [
+        2.0,
+        2.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ewma": [
+        2.0,
+        2.0,
+        1.4,
+        0.9799999999999999,
+        0.6859999999999998
+      ],
+      "sigma": 0.6145984054649019
+    },
+    "forecast": {
+      "quality_next": 10.0,
+      "quality_band": [
+        10.0,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2025-08-18T00:00:00",
+      "materia": "LEGISLACIÓN LABORAL",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2024-11-22T00:00:00",
+      "materia": "MARCO LEGAL EJECUTIVO",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Gran maestro, sus clases si son algo aburridas por qué es pura teoría pero él las hace menos pesadas y cómicas, explica tal cual lo que pone en el examen, tiene mucha facilidad y explica y se le entiende muy bien"
+    },
+    {
+      "fecha_iso": "2022-01-27T00:00:00",
+      "materia": "LEGISLACIÓN LABORAL",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "excelente maestro"
+    },
+    {
+      "fecha_iso": "2020-06-13T00:00:00",
+      "materia": "LEGISLACIÓN LABORAL",
+      "calidad": 10.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2020-01-11T00:00:00",
+      "materia": "LEGISLACIÓN LABORAL",
+      "calidad": 10.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Sabe mucho y lo explica muy bien, si estudias los apuntes el examen es muy fácil, es muy buena persona y también maestro, lo super recomiendo!"
+    }
+  ],
+  "comments_recent": [
+    "Gran maestro, sus clases si son algo aburridas por qué es pura teoría pero él las hace menos pesadas y cómicas, explica tal cual lo que pone en el examen, tiene mucha facilidad y explica y se le entiende muy bien",
+    "excelente maestro",
+    "Sabe mucho y lo explica muy bien, si estudias los apuntes el examen es muy fácil, es muy buena persona y también maestro, lo super recomiendo!"
+  ],
+  "n_reviews": 5
+}

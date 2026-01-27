@@ -1,0 +1,159 @@
+{
+  "professor_id": "Francisco_Javier_Parra_Loaiza",
+  "nombre": "Francisco Javier Parra Loaiza",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 8.313316197010558,
+    "difficulty_decayed": 1.208145794412422
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.645037916254533,
+    "difficulty_bayes": 2.2694362017804157
+  },
+  "recommendation_analysis": {
+    "rate": 0.9,
+    "wilson_interval": [
+      0.46293644258926075,
+      0.9894703616090744
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": -0.26,
+    "z_mean_decayed": -0.22,
+    "per_subject": [
+      {
+        "materia": "AJEDREZ",
+        "z_decayed": -0.040906707225835524,
+        "n": 5
+      },
+      {
+        "materia": "---",
+        "z_decayed": -0.845150213403655,
+        "n": 80
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [],
+    "sentiment": {
+      "overall": 0.0,
+      "by_month": {
+        "2023-03": 0.0,
+        "2023-02": 0.0,
+        "2022-06": 0.0
+      }
+    },
+    "n_comments": 4
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        9.0,
+        10.0,
+        3.0,
+        10.0
+      ],
+      "ewma": [
+        9.0,
+        9.3,
+        7.41,
+        8.187
+      ],
+      "sigma": 2.7279672988020467
+    },
+    "difficulty_trend": {
+      "series": [
+        2.0,
+        0.0,
+        4.0,
+        0.0
+      ],
+      "ewma": [
+        2.0,
+        1.4,
+        2.1799999999999997,
+        1.5259999999999998
+      ],
+      "sigma": 1.5594087554796743
+    },
+    "forecast": {
+      "quality_next": 8.187,
+      "quality_band": [
+        2.840184094347988,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2023-03-13T00:00:00",
+      "materia": "AJEDREZ",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "El mejor profe, Senpai y Conocedor de taikuando"
+    },
+    {
+      "fecha_iso": "2023-03-13T00:00:00",
+      "materia": "AJEDREZ",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Pide Ajedrez y gel antibacterial, es estricto en temas de comportamiento en clase, cuida las medidas de seguridad y higiene.\nTe agrega a un equipo de teams y aisgna tareas en él.\nPide un ajedrez por persona para las clases donde te da las coordenadas."
+    },
+    {
+      "fecha_iso": "2023-02-27T00:00:00",
+      "materia": "---",
+      "calidad": 3.0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2022-07-02T00:00:00",
+      "materia": "AJEDREZ",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2022-06-22T00:00:00",
+      "materia": "AJEDREZ",
+      "calidad": 9.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Si lo recomiendo es buen profesor"
+    }
+  ],
+  "comments_recent": [
+    "El mejor profe, Senpai y Conocedor de taikuando",
+    "Pide Ajedrez y gel antibacterial, es estricto en temas de comportamiento en clase, cuida las medidas de seguridad y higiene.\nTe agrega a un equipo de teams y aisgna tareas en él.\nPide un ajedrez por persona para las clases donde te da las coordenadas.",
+    "[Comentario esperando revisión]",
+    "Si lo recomiendo es buen profesor"
+  ],
+  "n_reviews": 5
+}

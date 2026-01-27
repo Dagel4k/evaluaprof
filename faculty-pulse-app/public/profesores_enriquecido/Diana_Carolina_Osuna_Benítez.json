@@ -1,0 +1,197 @@
+{
+  "professor_id": "Diana_Carolina_Osuna_Benítez",
+  "nombre": "Diana Carolina Osuna Benítez",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 4.530947883751659,
+    "difficulty_decayed": 2.8167697419308944
+  },
+  "bayes_analysis": {
+    "quality_bayes": 6.311704582921199,
+    "difficulty_bayes": 3.0694362017804155
+  },
+  "recommendation_analysis": {
+    "rate": 0.38,
+    "wilson_interval": [
+      0.10797132315920568,
+      0.7563066355812937
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": -0.72,
+    "z_mean_decayed": -0.7,
+    "per_subject": [
+      {
+        "materia": "PROBABILIDAD Y ESTADÍSTICA",
+        "z_decayed": -0.564464532288005,
+        "n": 8
+      },
+      {
+        "materia": "PROBABILIDAD Y ESTADISTICA",
+        "z_decayed": -0.5663457609767676,
+        "n": 19
+      },
+      {
+        "materia": "ALGEBRA LINEAL",
+        "z_decayed": -0.6268966192292045,
+        "n": 13
+      },
+      {
+        "materia": "ALGEBRA",
+        "z_decayed": -1.1547005383792512,
+        "n": 3
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "menos",
+          "si",
+          "clases",
+          "examen",
+          "final"
+        ],
+        "weight": 0.30863751226306585
+      },
+      {
+        "id": 1,
+        "words": [
+          "final",
+          "menos",
+          "si",
+          "da",
+          "materia"
+        ],
+        "weight": 0.2560900082086557
+      }
+    ],
+    "sentiment": {
+      "overall": -0.25,
+      "by_month": {
+        "2025-09": -1.0,
+        "2024-12": 0.0,
+        "2024-08": 0.0,
+        "2024-06": 0.0
+      }
+    },
+    "n_comments": 4
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        4.0,
+        5.0,
+        2.0,
+        6.0,
+        5.0
+      ],
+      "ewma": [
+        4.0,
+        4.3,
+        3.61,
+        4.327,
+        4.5289
+      ],
+      "sigma": 1.2039895813502706
+    },
+    "difficulty_trend": {
+      "series": [
+        8.0,
+        0.0,
+        8.0,
+        2.0,
+        0.0
+      ],
+      "ewma": [
+        8.0,
+        5.6,
+        6.319999999999999,
+        5.023999999999999,
+        3.516799999999999
+      ],
+      "sigma": 2.9072835651171007
+    },
+    "forecast": {
+      "quality_next": 4.5289,
+      "quality_band": [
+        2.16908042055347,
+        6.88871957944653
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2025-09-13T00:00:00",
+      "materia": "ALGEBRA LINEAL",
+      "calidad": 5.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": "la materia no es muy dificil, y si se da a entender y en los examenes depende mucho de su modo pero normalmente se queda viendo el telefono y esta bn al menos para mi jajajaj"
+    },
+    {
+      "fecha_iso": "2024-12-30T00:00:00",
+      "materia": "PROBABILIDAD Y ESTADISTICA",
+      "calidad": 6.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": "Falta mucho y si asiste solo asiste menos de media hora de clases, al inicio del semestre nos explico como iba a calificar pero al final solo califica con el examen, ni vas a ver todas las unidades del sistema por sus faltas constantes"
+    },
+    {
+      "fecha_iso": "2024-08-20T00:00:00",
+      "materia": "ALGEBRA",
+      "calidad": 2.0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Pesima"
+    },
+    {
+      "fecha_iso": "2024-06-11T00:00:00",
+      "materia": "PROBABILIDAD Y ESTADÍSTICA",
+      "calidad": 5.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": "Mala profe. Te hace perder mucho tiempo, no va a clases y si va da 30 mins. No se nota que domine la materia. Llega, escribe el problema en el pizarrón, se sienta 20 mins y al final pregunta por respuestas. El exámen está regalado si sabes lo que se vio en clase. Profe machin barco"
+    },
+    {
+      "fecha_iso": "2022-06-22T00:00:00",
+      "materia": "PROBABILIDAD Y ESTADÍSTICA",
+      "calidad": 4.0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": ""
+    }
+  ],
+  "comments_recent": [
+    "la materia no es muy dificil, y si se da a entender y en los examenes depende mucho de su modo pero normalmente se queda viendo el telefono y esta bn al menos para mi jajajaj",
+    "Falta mucho y si asiste solo asiste menos de media hora de clases, al inicio del semestre nos explico como iba a calificar pero al final solo califica con el examen, ni vas a ver todas las unidades del sistema por sus faltas constantes",
+    "Pesima",
+    "Mala profe. Te hace perder mucho tiempo, no va a clases y si va da 30 mins. No se nota que domine la materia. Llega, escribe el problema en el pizarrón, se sienta 20 mins y al final pregunta por respuestas. El exámen está regalado si sabes lo que se vio en clase. Profe machin barco"
+  ],
+  "n_reviews": 5
+}

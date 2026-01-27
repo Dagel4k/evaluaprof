@@ -1,0 +1,187 @@
+{
+  "professor_id": "juan_leoncio_nuñez_armenta",
+  "nombre": "juan leoncio nuñez armenta",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 9.725168491717989,
+    "difficulty_decayed": 2.68371572257025
+  },
+  "bayes_analysis": {
+    "quality_bayes": 8.045037916254532,
+    "difficulty_bayes": 2.802769535113749
+  },
+  "recommendation_analysis": {
+    "rate": 0.83,
+    "wilson_interval": [
+      0.4004968475975438,
+      0.9727387658660827
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": 0.56,
+    "z_mean_decayed": 0.56,
+    "per_subject": [
+      {
+        "materia": "ALGEBRA",
+        "z_decayed": 0.5773502691896257,
+        "n": 3
+      },
+      {
+        "materia": "ECUACIONES DIFERENCIALES",
+        "z_decayed": 0.5587887775887983,
+        "n": 18
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "solo",
+          "clases",
+          "mejor",
+          "si",
+          "es"
+        ],
+        "weight": 0.3539331318824068
+      },
+      {
+        "id": 1,
+        "words": [
+          "clases",
+          "si",
+          "solo",
+          "bien",
+          "examen"
+        ],
+        "weight": 0.345043968438801
+      }
+    ],
+    "sentiment": {
+      "overall": 0.25,
+      "by_month": {
+        "2022-02": 0.0,
+        "2019-06": 0.0,
+        "2018-11": 0.0,
+        "2018-04": 1.0
+      }
+    },
+    "n_comments": 4
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        10.0,
+        8.0,
+        10.0,
+        10.0,
+        10.0
+      ],
+      "ewma": [
+        10.0,
+        9.4,
+        9.58,
+        9.706,
+        9.7942
+      ],
+      "sigma": 0.7448273679182313
+    },
+    "difficulty_trend": {
+      "series": [
+        0.0,
+        6.0,
+        0.0,
+        6.0,
+        2.0
+      ],
+      "ewma": [
+        0.0,
+        1.7999999999999998,
+        1.2599999999999998,
+        2.6819999999999995,
+        2.4773999999999994
+      ],
+      "sigma": 2.438317426423393
+    },
+    "forecast": {
+      "quality_next": 9.7942,
+      "quality_band": [
+        8.334338358880267,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2022-02-10T00:00:00",
+      "materia": "ECUACIONES DIFERENCIALES",
+      "calidad": 10.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Explica muy bien y siempre resuelve dudas, pero el examen vale 100% y está muy largo."
+    },
+    {
+      "fecha_iso": "2019-06-05T00:00:00",
+      "materia": "ECUACIONES DIFERENCIALES",
+      "calidad": 10.0,
+      "dificultad": 6.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "De lo mejor que existe en el Tecnológico, como dicen las leyendas es difícil, pero si haces lo que debes de hacer tienes la calificación que merece, excelentes clases, el profesor es muy respetuoso, un profesor como debería de ser, bueno explicando, y justo en calificación."
+    },
+    {
+      "fecha_iso": "2019-03-07T00:00:00",
+      "materia": "MATEMATICAS II",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2018-11-06T00:00:00",
+      "materia": "CALCULO VECTORIA",
+      "calidad": 8.0,
+      "dificultad": 6.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "asistí a todas y cada una de sus clases, le entrege todas las tareas, solo reprobe un examen y me mando a global, y ese si estuvo bastante cabron... obvio no pase.."
+    },
+    {
+      "fecha_iso": "2018-04-28T00:00:00",
+      "materia": "ALGEBRA",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Excelente maestro, se aprende mucho con el, solo que los exámenes son algo largos y en muchas ocasiones no te va alcanzar el tiempo.\nSi quieres un profe fácil no cargues con Leoncio, si quieres aprender machin y salir bien trozador es la mejor opción."
+    }
+  ],
+  "comments_recent": [
+    "Explica muy bien y siempre resuelve dudas, pero el examen vale 100% y está muy largo.",
+    "De lo mejor que existe en el Tecnológico, como dicen las leyendas es difícil, pero si haces lo que debes de hacer tienes la calificación que merece, excelentes clases, el profesor es muy respetuoso, un profesor como debería de ser, bueno explicando, y justo en calificación.",
+    "asistí a todas y cada una de sus clases, le entrege todas las tareas, solo reprobe un examen y me mando a global, y ese si estuvo bastante cabron... obvio no pase..",
+    "Excelente maestro, se aprende mucho con el, solo que los exámenes son algo largos y en muchas ocasiones no te va alcanzar el tiempo.\nSi quieres un profe fácil no cargues con Leoncio, si quieres aprender machin y salir bien trozador es la mejor opción."
+  ],
+  "n_reviews": 5
+}

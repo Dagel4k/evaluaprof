@@ -1,0 +1,85 @@
+{
+  "professor_id": "Eddy_Omar_Ramirez_Valverde",
+  "nombre": "Eddy Omar Ramirez Valverde",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 4.999999999999999,
+    "difficulty_decayed": 3.183227812081342
+  },
+  "bayes_analysis": {
+    "quality_bayes": 6.8896307286514995,
+    "difficulty_bayes": 2.8367952522255195
+  },
+  "recommendation_analysis": {
+    "rate": 0.5,
+    "wilson_interval": [
+      0.09452865480086611,
+      0.905471345199134
+    ],
+    "n_recommendations": 2
+  },
+  "subject_normalization": {
+    "z_mean": -0.22,
+    "z_mean_decayed": -0.22,
+    "per_subject": [
+      {
+        "materia": "ELECTROMAGNETISMO",
+        "z_decayed": -0.22334326578127864,
+        "n": 15
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [],
+    "sentiment": {
+      "overall": null,
+      "by_month": {}
+    },
+    "n_comments": 1
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": null,
+    "difficulty_trend": null,
+    "forecast": null,
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2021-03-12T00:00:00",
+      "materia": "ELECTROMAGNETISMO",
+      "calidad": 5.0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": "El profe se ve que si sabe pero no enseña como debe ,deja muchas tareas y se apoya de las exposiciones de los alumnos para no tener que dar la clase"
+    },
+    {
+      "fecha_iso": "2020-02-17T00:00:00",
+      "materia": "POTENCIA",
+      "calidad": 5.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": ""
+    }
+  ],
+  "comments_recent": [
+    "El profe se ve que si sabe pero no enseña como debe ,deja muchas tareas y se apoya de las exposiciones de los alumnos para no tener que dar la clase"
+  ],
+  "n_reviews": 2
+}

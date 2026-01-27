@@ -1,0 +1,184 @@
+{
+  "professor_id": "Maria_Lourdes_Armenta_Lindoro",
+  "nombre": "Maria Lourdes Armenta Lindoro",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 3.083013000340001,
+    "difficulty_decayed": 5.519979829424792
+  },
+  "bayes_analysis": {
+    "quality_bayes": 5.845037916254532,
+    "difficulty_bayes": 3.869436201780416
+  },
+  "recommendation_analysis": {
+    "rate": 0.06,
+    "wilson_interval": [
+      0.00408582524012088,
+      0.49826669014171043
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": -1.03,
+    "z_mean_decayed": -0.96,
+    "per_subject": [
+      {
+        "materia": "ESTRUCTURA DE DATOS",
+        "z_decayed": -0.3236488890015773,
+        "n": 4
+      },
+      {
+        "materia": "POO",
+        "z_decayed": -1.742337127939041,
+        "n": 16
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "examen",
+          "da",
+          "explica",
+          "suficiente",
+          "porque"
+        ],
+        "weight": 0.24619646763995787
+      },
+      {
+        "id": 1,
+        "words": [
+          "porque",
+          "explica",
+          "suficiente",
+          "da",
+          "examen"
+        ],
+        "weight": 0.3920329552609278
+      }
+    ],
+    "sentiment": {
+      "overall": 0.2,
+      "by_month": {
+        "2025-10": 0.0,
+        "2025-05": 1.0,
+        "2025-03": 0.0,
+        "2023-06": 0.0
+      }
+    },
+    "n_comments": 5
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        2.0,
+        4.0,
+        2.0,
+        3.0
+      ],
+      "ewma": [
+        2.0,
+        2.5999999999999996,
+        2.4199999999999995,
+        2.5939999999999994
+      ],
+      "sigma": 0.7790992662470341
+    },
+    "difficulty_trend": {
+      "series": [
+        8.0,
+        8.0,
+        6.0,
+        0.0
+      ],
+      "ewma": [
+        8.0,
+        8.0,
+        7.3999999999999995,
+        5.18
+      ],
+      "sigma": 2.447331880504427
+    },
+    "forecast": {
+      "quality_next": 2.5939999999999994,
+      "quality_band": [
+        1.0669654381558127,
+        4.121034561844186
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2025-10-27T00:00:00",
+      "materia": "ESTRUCTURA DE DATOS",
+      "calidad": 3.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Tuve que resumir con IA porque no me dejaba expresarme lo suficiente. La maestra quita tiempo de otras clases, no explica de forma clara y usa métodos anticuados. El grupo se queda callado porque casi nadie entiende. Usa herramientas que ni ella domina y solo da derecho a una falta."
+    },
+    {
+      "fecha_iso": "2025-05-22T00:00:00",
+      "materia": "POO (PROGRAMACIÓN ORIENTADA A OBJETOS)",
+      "calidad": 2.0,
+      "dificultad": 6.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Tendrás que investigar y practicar por tu cuenta. Los trabajos que deja en GitHub van a ocupar la mayoría de tus tardes. Ten muy buen ojo con los AppTest y el autograding (y NUNCA los modifiques) esta profe siempre se equivoca mucho en eso. Da 1 hr para examen teórico y práctico, y es presencial."
+    },
+    {
+      "fecha_iso": "2025-03-20T00:00:00",
+      "materia": "TUTORÍAS",
+      "calidad": 6.0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": "No sabe tomar lista bien (me reprobó por eso)"
+    },
+    {
+      "fecha_iso": "2025-03-20T00:00:00",
+      "materia": "POO",
+      "calidad": 2.0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "no se yo la califico porque un amigo me dijo que le pusiera 0 en todo"
+    },
+    {
+      "fecha_iso": "2023-06-05T00:00:00",
+      "materia": "FUNDAMENTOS EN PROGRAMACIÓN Y ALGORITMOS",
+      "calidad": 2.0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "No brinda la ayuda necesaria ante dudas, sus exámenes tienen poco que ver con los temas vistos por no decir que son diferentes, El material de estudio No tiene nada que ver con el examen. No explica lo suficiente para entender funciones en c."
+    }
+  ],
+  "comments_recent": [
+    "Tuve que resumir con IA porque no me dejaba expresarme lo suficiente. La maestra quita tiempo de otras clases, no explica de forma clara y usa métodos anticuados. El grupo se queda callado porque casi nadie entiende. Usa herramientas que ni ella domina y solo da derecho a una falta.",
+    "Tendrás que investigar y practicar por tu cuenta. Los trabajos que deja en GitHub van a ocupar la mayoría de tus tardes. Ten muy buen ojo con los AppTest y el autograding (y NUNCA los modifiques) esta profe siempre se equivoca mucho en eso. Da 1 hr para examen teórico y práctico, y es presencial.",
+    "No sabe tomar lista bien (me reprobó por eso)",
+    "no se yo la califico porque un amigo me dijo que le pusiera 0 en todo",
+    "No brinda la ayuda necesaria ante dudas, sus exámenes tienen poco que ver con los temas vistos por no decir que son diferentes, El material de estudio No tiene nada que ver con el examen. No explica lo suficiente para entender funciones en c."
+  ],
+  "n_reviews": 5
+}

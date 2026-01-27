@@ -1,0 +1,182 @@
+{
+  "professor_id": "Claudia_Gallardo_Amarillas",
+  "nombre": "Claudia Gallardo Amarillas",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 6.3471523563555765,
+    "difficulty_decayed": 4.474497113036819
+  },
+  "bayes_analysis": {
+    "quality_bayes": 6.978371249587866,
+    "difficulty_bayes": 3.3361028684470826
+  },
+  "recommendation_analysis": {
+    "rate": 0.44,
+    "wilson_interval": [
+      0.13783432612193255,
+      0.7943046532483173
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": -0.16,
+    "z_mean_decayed": -0.18,
+    "per_subject": [
+      {
+        "materia": "QUIMICA",
+        "z_decayed": 0.7287441371573895,
+        "n": 24
+      },
+      {
+        "materia": "BIOLOGIA",
+        "z_decayed": -0.5773502691896268,
+        "n": 3
+      },
+      {
+        "materia": "BIOLOGÍA",
+        "z_decayed": -0.8571515805994424,
+        "n": 4
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "examenes",
+          "ensena",
+          "contradice",
+          "ensena bien",
+          "bien"
+        ],
+        "weight": 0.29039297833964595
+      },
+      {
+        "id": 1,
+        "words": [
+          "bien",
+          "contradice",
+          "ensena",
+          "examenes",
+          "cosas"
+        ],
+        "weight": 0.3010107676478438
+      }
+    ],
+    "sentiment": {
+      "overall": 0.0,
+      "by_month": {
+        "2013-12": 0.0,
+        "2013-11": 0.0
+      }
+    },
+    "n_comments": 4
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        10.0,
+        2.0,
+        6.666666666666667
+      ],
+      "ewma": [
+        10.0,
+        7.6,
+        7.319999999999999
+      ],
+      "sigma": 3.0620351499059018
+    },
+    "difficulty_trend": {
+      "series": [
+        0.0,
+        8.0,
+        4.666666666666667
+      ],
+      "ewma": [
+        0.0,
+        2.4,
+        3.08
+      ],
+      "sigma": 2.886299694405611
+    },
+    "forecast": {
+      "quality_next": 7.319999999999999,
+      "quality_band": [
+        1.3184111061844321,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2013-12-11T00:00:00",
+      "materia": "BIOLOGIA",
+      "calidad": 9.0,
+      "dificultad": 6.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Me parece buena maestra, sabe mucho. solo que como a todos se le barren aveces. Da muchas oportunidades y exige lo que debe."
+    },
+    {
+      "fecha_iso": "2013-12-09T00:00:00",
+      "materia": "BIOLOGÍA",
+      "calidad": 3.0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "La verdad no enseña muy bien, es muy tonta para dar clases y en lo exámenes pone cosas que ni al caso con lo vito en clase (O MUY POCO)...\nEs la única con la que he reprobado y si estudio mucho pero me tuerce en los exámenes por que lo hace así bien feos :P"
+    },
+    {
+      "fecha_iso": "2013-12-08T00:00:00",
+      "materia": "QUIMICA",
+      "calidad": 8.0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Dentro de lo  que cabe enseña bien , pero en algunos temas se contradice mucho, pasa los temas muy rapido, siempre anda como amargada"
+    },
+    {
+      "fecha_iso": "2013-11-15T00:00:00",
+      "materia": "BIOLOGÍA",
+      "calidad": 2.0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Enseña cosas erróneas. \nEn los exámenes vienen cosas que no enseña. \nSe contradice demasiado."
+    },
+    {
+      "fecha_iso": "2013-08-19T00:00:00",
+      "materia": "QUIMICA",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": ""
+    }
+  ],
+  "comments_recent": [
+    "Me parece buena maestra, sabe mucho. solo que como a todos se le barren aveces. Da muchas oportunidades y exige lo que debe.",
+    "La verdad no enseña muy bien, es muy tonta para dar clases y en lo exámenes pone cosas que ni al caso con lo vito en clase (O MUY POCO)...\nEs la única con la que he reprobado y si estudio mucho pero me tuerce en los exámenes por que lo hace así bien feos :P",
+    "Dentro de lo  que cabe enseña bien , pero en algunos temas se contradice mucho, pasa los temas muy rapido, siempre anda como amargada",
+    "Enseña cosas erróneas. \nEn los exámenes vienen cosas que no enseña. \nSe contradice demasiado."
+  ],
+  "n_reviews": 5
+}

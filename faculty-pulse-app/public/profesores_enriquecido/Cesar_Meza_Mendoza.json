@@ -1,0 +1,159 @@
+{
+  "professor_id": "Cesar_Meza_Mendoza",
+  "nombre": "Cesar Meza Mendoza",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 5.663657107945248,
+    "difficulty_decayed": 7.690807346335688
+  },
+  "bayes_analysis": {
+    "quality_bayes": 6.711704582921199,
+    "difficulty_bayes": 4.402769535113749
+  },
+  "recommendation_analysis": {
+    "rate": 0.31,
+    "wilson_interval": [
+      0.07671673011706209,
+      0.7083900378887286
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": -0.44,
+    "z_mean_decayed": -0.42,
+    "per_subject": [
+      {
+        "materia": "CÁLCULO INTEGRAL",
+        "z_decayed": 0.8183932073645681,
+        "n": 10
+      },
+      {
+        "materia": "CALCULO",
+        "z_decayed": -0.6663742887004248,
+        "n": 11
+      },
+      {
+        "materia": "CALCULO INTEGRAL",
+        "z_decayed": -0.9631946648010452,
+        "n": 22
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [],
+    "sentiment": {
+      "overall": -0.3333333333333333,
+      "by_month": {
+        "2013-08": -1.0,
+        "2013-06": 0.0,
+        "2012-08": 0.0
+      }
+    },
+    "n_comments": 3
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        4.0,
+        7.5,
+        4.5
+      ],
+      "ewma": [
+        4.0,
+        5.05,
+        4.885
+      ],
+      "sigma": 1.5377445604954463
+    },
+    "difficulty_trend": {
+      "series": [
+        6.0,
+        8.0,
+        8.0
+      ],
+      "ewma": [
+        6.0,
+        6.6,
+        7.02
+      ],
+      "sigma": 0.718424201522564
+    },
+    "forecast": {
+      "quality_next": 4.885,
+      "quality_band": [
+        1.871020661428925,
+        7.898979338571074
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2013-08-06T00:00:00",
+      "materia": "CALCULO",
+      "calidad": 7.0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Se esfuerza porque aprendas muy bien, utiliza distintos métodos, pero a la hora del examen te lo pone muy complicado, y no pasas con tan buena calificación."
+    },
+    {
+      "fecha_iso": "2013-08-06T00:00:00",
+      "materia": "CALCULO",
+      "calidad": 2.0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2013-06-19T00:00:00",
+      "materia": "CÁLCULO INTEGRAL",
+      "calidad": 10.0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "SEGÚN YA SE JUBILÓ, SUERTE A LOS QUE NO LES TOCÓ , ES BUEN MAESTRO PERO TIENES QUE ESTUDIAR MUCHISIMO"
+    },
+    {
+      "fecha_iso": "2013-06-11T00:00:00",
+      "materia": "CALCULO INTEGRAL",
+      "calidad": 5.0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2012-08-16T00:00:00",
+      "materia": "CALCULO",
+      "calidad": 4.0,
+      "dificultad": 6.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": "no por nada le dicen \"meza me troza\" como ya mencionaron si nomas vas a dar el rol y no aprender no cargues con el, y si eres un matado pues caile con el"
+    }
+  ],
+  "comments_recent": [
+    "Se esfuerza porque aprendas muy bien, utiliza distintos métodos, pero a la hora del examen te lo pone muy complicado, y no pasas con tan buena calificación.",
+    "SEGÚN YA SE JUBILÓ, SUERTE A LOS QUE NO LES TOCÓ , ES BUEN MAESTRO PERO TIENES QUE ESTUDIAR MUCHISIMO",
+    "no por nada le dicen \"meza me troza\" como ya mencionaron si nomas vas a dar el rol y no aprender no cargues con el, y si eres un matado pues caile con el"
+  ],
+  "n_reviews": 5
+}

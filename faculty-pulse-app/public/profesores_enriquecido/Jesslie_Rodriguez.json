@@ -1,0 +1,158 @@
+{
+  "professor_id": "Jesslie_Rodriguez",
+  "nombre": "Jesslie Rodriguez",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 8.83582008891743,
+    "difficulty_decayed": 3.416360402801695
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.778371249587866,
+    "difficulty_bayes": 3.0694362017804155
+  },
+  "recommendation_analysis": {
+    "rate": 0.89,
+    "wilson_interval": [
+      0.4536202552174038,
+      0.987476378875973
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": 0.77,
+    "z_mean_decayed": 0.78,
+    "per_subject": [
+      {
+        "materia": "SIMULACIÓN",
+        "z_decayed": 1.0978875820671001,
+        "n": 7
+      },
+      {
+        "materia": "SIMULACION",
+        "z_decayed": 0.7142440835834258,
+        "n": 11
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [],
+    "sentiment": {
+      "overall": null,
+      "by_month": {}
+    },
+    "n_comments": 3
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        9.0,
+        8.0,
+        9.0,
+        9.0,
+        9.0
+      ],
+      "ewma": [
+        9.0,
+        8.7,
+        8.79,
+        8.852999999999998,
+        8.897099999999998
+      ],
+      "sigma": 0.37241368395911584
+    },
+    "difficulty_trend": {
+      "series": [
+        4.0,
+        4.0,
+        2.0,
+        6.0,
+        2.0
+      ],
+      "ewma": [
+        4.0,
+        4.0,
+        3.4,
+        4.18,
+        3.526
+      ],
+      "sigma": 1.3561368662491262
+    },
+    "forecast": {
+      "quality_next": 8.897099999999998,
+      "quality_band": [
+        8.167169179440132,
+        9.627030820559865
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2023-06-12T00:00:00",
+      "materia": "SIMULACION",
+      "calidad": 9.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2022-03-15T00:00:00",
+      "materia": "SIMULACION",
+      "calidad": 9.0,
+      "dificultad": 6.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2022-02-21T00:00:00",
+      "materia": "SIMULACION",
+      "calidad": 9.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "No te confies que porque es buena onda te va a regalar calificación, ideal para aprender"
+    },
+    {
+      "fecha_iso": "2021-09-29T00:00:00",
+      "materia": "SIMULACION",
+      "calidad": 8.0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Llevar con ella es para aprender mucha logica"
+    },
+    {
+      "fecha_iso": "2021-08-24T00:00:00",
+      "materia": "SIMULACIÓN",
+      "calidad": 9.0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Explica bien chilo, eso si pasar con ella no es regalado, deja muchas tareas. Aprendes mucha logica"
+    }
+  ],
+  "comments_recent": [
+    "No te confies que porque es buena onda te va a regalar calificación, ideal para aprender",
+    "Llevar con ella es para aprender mucha logica",
+    "Explica bien chilo, eso si pasar con ella no es regalado, deja muchas tareas. Aprendes mucha logica"
+  ],
+  "n_reviews": 5
+}

@@ -1,0 +1,189 @@
+{
+  "professor_id": "Norman_Salvador_Elenes_Uriarte",
+  "nombre": "Norman Salvador Elenes Uriarte",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 5.556897293885105,
+    "difficulty_decayed": 4.484067518130931
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.578371249587866,
+    "difficulty_bayes": 2.6694362017804156
+  },
+  "recommendation_analysis": {
+    "rate": 0.5,
+    "wilson_interval": [
+      0.17042015582256811,
+      0.8295798441774319
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": 0.04,
+    "z_mean_decayed": -1.1,
+    "per_subject": [
+      {
+        "materia": "PROGRAMACION",
+        "z_decayed": 0.6780635036208108,
+        "n": 6
+      },
+      {
+        "materia": "FUNDAMENTOS DE PROGRAMACIÓN",
+        "z_decayed": -1.2292370938520776,
+        "n": 17
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "es excelente",
+          "excelente profesor",
+          "profesor",
+          "tiene",
+          "es"
+        ],
+        "weight": 0.30324933955696987
+      },
+      {
+        "id": 1,
+        "words": [
+          "profesor",
+          "programacion",
+          "tiene",
+          "excelente",
+          "ser"
+        ],
+        "weight": 0.29209465439443194
+      }
+    ],
+    "sentiment": {
+      "overall": 0.6,
+      "by_month": {
+        "2024-11": 0.0,
+        "2021-03": 0.0,
+        "2015-07": 1.0,
+        "2015-03": 1.0,
+        "2014-03": 1.0
+      }
+    },
+    "n_comments": 5
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        10.0,
+        10.0,
+        10.0,
+        6.0,
+        5.0
+      ],
+      "ewma": [
+        10.0,
+        10.0,
+        10.0,
+        8.8,
+        7.66
+      ],
+      "sigma": 1.4961016008279655
+    },
+    "difficulty_trend": {
+      "series": [
+        4.0,
+        2.0,
+        0.0,
+        0.0,
+        6.0
+      ],
+      "ewma": [
+        4.0,
+        3.4,
+        2.38,
+        1.666,
+        2.9661999999999997
+      ],
+      "sigma": 2.1471001765171556
+    },
+    "forecast": {
+      "quality_next": 7.66,
+      "quality_band": [
+        4.7276408623771875,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2024-11-22T00:00:00",
+      "materia": "FUNDAMENTOS DE PROGRAMACIÓN",
+      "calidad": 5.0,
+      "dificultad": 6.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": "Tiene muy malas prácticas en programación. Recomiendo ampliamente leer las convenciones del código en Java de 1999 (incluso, ver videos más recientes para estar más actualizado).  Si estudian con él, mejor estudien por su cuenta. Ignorante y desconocido de las tecnologías actuales."
+    },
+    {
+      "fecha_iso": "2021-03-11T00:00:00",
+      "materia": "CORRUPCIÓN",
+      "calidad": 6.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": "resultó ser un corrupto el Sr. director Salvador Elenes."
+    },
+    {
+      "fecha_iso": "2015-07-01T00:00:00",
+      "materia": "PROGRAMACION",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Es un excelente profesor,sus técnicas de enseñanza son acordes al nivel)programación=, te explica bien. me quedaba con la boca abierta cuando usaba shorts cortos, que iba a correr, pues tiene unas piernotas de 10. es mi ídolo, me gustaría tenerlo cerca y abrazar y apretar sus piernas"
+    },
+    {
+      "fecha_iso": "2015-03-09T00:00:00",
+      "materia": "PROGRAMACION",
+      "calidad": 10.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Es excelente profesor, explica bien y aclara tus dudas. En lo particular considero que es excelente profesor. además tiene atractivo visual, me encantaba verlo con jeans pegados al cuerpo porque luce bien sus piernas que están preciosa."
+    },
+    {
+      "fecha_iso": "2014-03-06T00:00:00",
+      "materia": "LA QUE SEA",
+      "calidad": 10.0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Bueno Maestro, excelente persona y buen ser humano.."
+    }
+  ],
+  "comments_recent": [
+    "Tiene muy malas prácticas en programación. Recomiendo ampliamente leer las convenciones del código en Java de 1999 (incluso, ver videos más recientes para estar más actualizado).  Si estudian con él, mejor estudien por su cuenta. Ignorante y desconocido de las tecnologías actuales.",
+    "resultó ser un corrupto el Sr. director Salvador Elenes.",
+    "Es un excelente profesor,sus técnicas de enseñanza son acordes al nivel)programación=, te explica bien. me quedaba con la boca abierta cuando usaba shorts cortos, que iba a correr, pues tiene unas piernotas de 10. es mi ídolo, me gustaría tenerlo cerca y abrazar y apretar sus piernas",
+    "Es excelente profesor, explica bien y aclara tus dudas. En lo particular considero que es excelente profesor. además tiene atractivo visual, me encantaba verlo con jeans pegados al cuerpo porque luce bien sus piernas que están preciosa.",
+    "Bueno Maestro, excelente persona y buen ser humano.."
+  ],
+  "n_reviews": 5
+}

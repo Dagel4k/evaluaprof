@@ -1,0 +1,187 @@
+{
+  "professor_id": "Yunive_Salcido",
+  "nombre": "Yunive Salcido",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 6.513296276683758,
+    "difficulty_decayed": 3.322927651734686
+  },
+  "bayes_analysis": {
+    "quality_bayes": 6.978371249587866,
+    "difficulty_bayes": 2.9361028684470822
+  },
+  "recommendation_analysis": {
+    "rate": 0.71,
+    "wilson_interval": [
+      0.3060474596471615,
+      0.9314661125569644
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": -0.19,
+    "z_mean_decayed": -0.3,
+    "per_subject": [
+      {
+        "materia": "ADMINISTRACIÓN DE PROYECTOS",
+        "z_decayed": -0.11702842464082408,
+        "n": 8
+      },
+      {
+        "materia": "CONTROL ESTADÍSTICO DE CALIDAD",
+        "z_decayed": -0.36901205036941764,
+        "n": 5
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "si",
+          "bien",
+          "clase",
+          "final",
+          "tarde"
+        ],
+        "weight": 0.3218136661563897
+      },
+      {
+        "id": 1,
+        "words": [
+          "bien",
+          "clase",
+          "final",
+          "tarde",
+          "si"
+        ],
+        "weight": 0.2879365948396644
+      }
+    ],
+    "sentiment": {
+      "overall": 0.0,
+      "by_month": {
+        "2023-08": 0.0,
+        "2022-06": 1.0,
+        "2020-12": -1.0,
+        "2019-01": 0.0
+      }
+    },
+    "n_comments": 4
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        7.0,
+        5.0,
+        5.0,
+        10.0,
+        5.0
+      ],
+      "ewma": [
+        7.0,
+        6.3999999999999995,
+        5.9799999999999995,
+        7.185999999999999,
+        6.530199999999999
+      ],
+      "sigma": 1.798622886544036
+    },
+    "difficulty_trend": {
+      "series": [
+        2.0,
+        4.0,
+        4.0,
+        2.0,
+        4.0
+      ],
+      "ewma": [
+        2.0,
+        2.5999999999999996,
+        3.0199999999999996,
+        2.7139999999999995,
+        3.0997999999999992
+      ],
+      "sigma": 0.8549092864158162
+    },
+    "forecast": {
+      "quality_next": 6.530199999999999,
+      "quality_band": [
+        3.0048991423736884,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2023-08-10T00:00:00",
+      "materia": "ADMINISTRACION DE PROYECTOS",
+      "calidad": 5.0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": "Siempre faltaba o llegaba tarde, una vez llego 15 mins antes de que fuera la clase, como no nos daba los tiempos pensaba que estaba todo explicado, una cosita mal en el examen y vales, te contesta teams 1 dia despues y nos dejo trabajo final como si hubiera explicado todo super bien"
+    },
+    {
+      "fecha_iso": "2022-06-22T00:00:00",
+      "materia": "CONTROL ESTADÍSTICO",
+      "calidad": 10.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Excelente profesora, muy buena explicación de cómo se aplica la materia en campo laboral, muy clara con lo que trata de comunicar, pero si hace exámenes con frecuencia"
+    },
+    {
+      "fecha_iso": "2020-12-02T00:00:00",
+      "materia": "CONTROL ESTADÍSTICO DE CALIDAD",
+      "calidad": 5.0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": "Deja muchas tareas, no está difícil pero debes de entrar a todas sus clases, le importa mucho la asistencia y que entregues las tareas es importante."
+    },
+    {
+      "fecha_iso": "2019-01-31T00:00:00",
+      "materia": "ADMINISTRACIÓN DE PROYECTOS",
+      "calidad": 5.0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": "Falta mucho a clase (y cuando no falta llega media hora tarde) y al final quiere ver todo apresurado. Si enseña bien pero tiene un carácter bastante pesado y poca accesibilidad. Si puedes carga con alguien más."
+    },
+    {
+      "fecha_iso": "2018-01-13T00:00:00",
+      "materia": "CONTROL ESTADÍSTICO DE CALIDAD",
+      "calidad": 7.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": ""
+    }
+  ],
+  "comments_recent": [
+    "Siempre faltaba o llegaba tarde, una vez llego 15 mins antes de que fuera la clase, como no nos daba los tiempos pensaba que estaba todo explicado, una cosita mal en el examen y vales, te contesta teams 1 dia despues y nos dejo trabajo final como si hubiera explicado todo super bien",
+    "Excelente profesora, muy buena explicación de cómo se aplica la materia en campo laboral, muy clara con lo que trata de comunicar, pero si hace exámenes con frecuencia",
+    "Deja muchas tareas, no está difícil pero debes de entrar a todas sus clases, le importa mucho la asistencia y que entregues las tareas es importante.",
+    "Falta mucho a clase (y cuando no falta llega media hora tarde) y al final quiere ver todo apresurado. Si enseña bien pero tiene un carácter bastante pesado y poca accesibilidad. Si puedes carga con alguien más."
+  ],
+  "n_reviews": 5
+}

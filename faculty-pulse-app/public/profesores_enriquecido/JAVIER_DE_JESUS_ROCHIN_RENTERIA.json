@@ -1,0 +1,155 @@
+{
+  "professor_id": "JAVIER_DE_JESUS_ROCHIN_RENTERIA",
+  "nombre": "JAVIER DE JESUS ROCHIN RENTERIA",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 9.810822134540645,
+    "difficulty_decayed": 0.5294393846195808
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.976826338844142,
+    "difficulty_bayes": 2.145824501907588
+  },
+  "recommendation_analysis": {
+    "rate": 1.0,
+    "wilson_interval": [
+      0.5100999795960008,
+      1
+    ],
+    "n_recommendations": 4
+  },
+  "subject_normalization": {
+    "z_mean": 0.52,
+    "z_mean_decayed": 0.7,
+    "per_subject": [
+      {
+        "materia": "ÉTICA",
+        "z_decayed": 1.414213562373095,
+        "n": 8
+      },
+      {
+        "materia": "CULTURA EMPRESARIAL",
+        "z_decayed": 0.8519427513705972,
+        "n": 6
+      },
+      {
+        "materia": "TALLER DE BASE DE DATOS",
+        "z_decayed": 0.6851064595573101,
+        "n": 8
+      },
+      {
+        "materia": "TALLER DE BASES DE DATOS",
+        "z_decayed": -0.8660254037844387,
+        "n": 4
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [],
+    "sentiment": {
+      "overall": null,
+      "by_month": {}
+    },
+    "n_comments": 3
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        10.0,
+        9.0,
+        10.0,
+        10.0
+      ],
+      "ewma": [
+        10.0,
+        9.7,
+        9.79,
+        9.852999999999998
+      ],
+      "sigma": 0.4188463322031127
+    },
+    "difficulty_trend": {
+      "series": [
+        0.0,
+        0.0,
+        2.0,
+        0.0
+      ],
+      "ewma": [
+        0.0,
+        0.0,
+        0.6,
+        0.42
+      ],
+      "sigma": 0.7950471684120383
+    },
+    "forecast": {
+      "quality_next": 9.852999999999998,
+      "quality_band": [
+        9.032061188881897,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2025-12-12T00:00:00",
+      "materia": "ÉTICA",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2025-01-07T00:00:00",
+      "materia": "CULTURA EMPRESARIAL",
+      "calidad": 10.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Muy buen profesor, me dio una materia aburrida y la hizo mas disfrutable ya que complementaba las clases con platica y practicas divertidas ya que se lleva bien con los alumnos, no es complicado solo los exámenes te pueden sorprender un poco"
+    },
+    {
+      "fecha_iso": "2024-01-18T00:00:00",
+      "materia": "TALLER DE BASES DE DATOS",
+      "calidad": 9.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Las clases con este profesor siempre fueron muy cortas y directo al grano, aunque a paso lento. Es un profesor muy relajado, no es exigente al momento de evaluar y es muy flexible con todos en general. Sí toma asistencia pero es comprensivo con los que tuvieron algún problema para presentarse."
+    },
+    {
+      "fecha_iso": "2023-11-30T00:00:00",
+      "materia": "TALLER DE BASE DE DATOS",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Es muy buen maestro se preocupa por los alumnos y es de los mejores profes que tiene el tec al nivel de victor batiz ojalá diera más materias para volver a cargar con el si tienen oportunidad carguen todas las materias posibles con el si les aparece en la carga Diosito los miró a los ojos"
+    }
+  ],
+  "comments_recent": [
+    "Muy buen profesor, me dio una materia aburrida y la hizo mas disfrutable ya que complementaba las clases con platica y practicas divertidas ya que se lleva bien con los alumnos, no es complicado solo los exámenes te pueden sorprender un poco",
+    "Las clases con este profesor siempre fueron muy cortas y directo al grano, aunque a paso lento. Es un profesor muy relajado, no es exigente al momento de evaluar y es muy flexible con todos en general. Sí toma asistencia pero es comprensivo con los que tuvieron algún problema para presentarse.",
+    "Es muy buen maestro se preocupa por los alumnos y es de los mejores profes que tiene el tec al nivel de victor batiz ojalá diera más materias para volver a cargar con el si tienen oportunidad carguen todas las materias posibles con el si les aparece en la carga Diosito los miró a los ojos"
+  ],
+  "n_reviews": 4
+}

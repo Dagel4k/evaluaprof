@@ -1,0 +1,147 @@
+{
+  "professor_id": "Ariadna_Soto_Contreras",
+  "nombre": "Ariadna Soto Contreras",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 5.466530754069037,
+    "difficulty_decayed": 1.882092065958922
+  },
+  "bayes_analysis": {
+    "quality_bayes": 6.578371249587866,
+    "difficulty_bayes": 2.9361028684470822
+  },
+  "recommendation_analysis": {
+    "rate": 0.46,
+    "wilson_interval": [
+      0.14839677289346065,
+      0.8063625466867059
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": null,
+    "z_mean_decayed": null,
+    "per_subject": []
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [],
+    "sentiment": {
+      "overall": null,
+      "by_month": {}
+    },
+    "n_comments": 3
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        4.0,
+        2.0,
+        10.0,
+        5.0,
+        5.0
+      ],
+      "ewma": [
+        4.0,
+        3.4,
+        5.38,
+        5.266,
+        5.1861999999999995
+      ],
+      "sigma": 2.3386792785672856
+    },
+    "difficulty_trend": {
+      "series": [
+        8.0,
+        8.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ewma": [
+        8.0,
+        8.0,
+        5.6,
+        3.9199999999999995,
+        2.7439999999999993
+      ],
+      "sigma": 2.4583936218596074
+    },
+    "forecast": {
+      "quality_next": 5.1861999999999995,
+      "quality_band": [
+        0.6023886140081194,
+        9.770011385991879
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2023-01-23T00:00:00",
+      "materia": "ADMINISTRACIÓN DE LAS OPERACIONES 1",
+      "calidad": 5.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": "Bastante bipolar, sus exámenes no son difíciles pero a veces algo tardados, no explica mucho, sus clases son rápidas, el examen es el 100% de la calificación y solo hace 2 en todo el semestre."
+    },
+    {
+      "fecha_iso": "2021-10-27T00:00:00",
+      "materia": "ADMINISTRACIÓN DE OPERACIONES I",
+      "calidad": 5.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": "Dice que está abierta a contestar dudas por calificación y volver a checar exámenes pero cuando lo hice ni se dió el tiempo de revisarlo completamente. Nada comprensible y muy muy grosera. Si tienen oportunidad de agarrar con otro profesor diferente háganlo."
+    },
+    {
+      "fecha_iso": "2021-06-17T00:00:00",
+      "materia": "INGENIERÍA",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2020-07-09T00:00:00",
+      "materia": "ADMINIAT",
+      "calidad": 2.0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2019-04-12T00:00:00",
+      "materia": "MATEMATICAS",
+      "calidad": 4.0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": "La mujer es medio bipolar, si le caes bien te ayuda si no te hace la vida imposible,eso no esta bien."
+    }
+  ],
+  "comments_recent": [
+    "Bastante bipolar, sus exámenes no son difíciles pero a veces algo tardados, no explica mucho, sus clases son rápidas, el examen es el 100% de la calificación y solo hace 2 en todo el semestre.",
+    "Dice que está abierta a contestar dudas por calificación y volver a checar exámenes pero cuando lo hice ni se dió el tiempo de revisarlo completamente. Nada comprensible y muy muy grosera. Si tienen oportunidad de agarrar con otro profesor diferente háganlo.",
+    "La mujer es medio bipolar, si le caes bien te ayuda si no te hace la vida imposible,eso no esta bien."
+  ],
+  "n_reviews": 5
+}

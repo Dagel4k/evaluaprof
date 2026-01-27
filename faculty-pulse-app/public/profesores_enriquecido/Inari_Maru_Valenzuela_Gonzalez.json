@@ -1,0 +1,194 @@
+{
+  "professor_id": "Inari_Maru_Valenzuela_Gonzalez",
+  "nombre": "Inari Maru Valenzuela Gonzalez",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 5.201790560048127,
+    "difficulty_decayed": 5.372117699056118
+  },
+  "bayes_analysis": {
+    "quality_bayes": 6.245037916254533,
+    "difficulty_bayes": 4.002769535113749
+  },
+  "recommendation_analysis": {
+    "rate": 0.46,
+    "wilson_interval": [
+      0.14839677289346065,
+      0.8063625466867059
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": -0.3,
+    "z_mean_decayed": 0.07,
+    "per_subject": [
+      {
+        "materia": "ESTUDIO DEL TRABAJO I",
+        "z_decayed": 0.36813179521527334,
+        "n": 3
+      },
+      {
+        "materia": "ESTUDIO DEL TRABAJO 1",
+        "z_decayed": -0.6092717958449424,
+        "n": 4
+      },
+      {
+        "materia": "ESTUDIO DEL TRABAJO",
+        "z_decayed": -0.8981462390204988,
+        "n": 6
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "asi",
+          "estricta",
+          "es",
+          "si",
+          "te"
+        ],
+        "weight": 0.40465752529942495
+      },
+      {
+        "id": 1,
+        "words": [
+          "estricta",
+          "si",
+          "es",
+          "te",
+          "forma"
+        ],
+        "weight": 0.22807775507816758
+      }
+    ],
+    "sentiment": {
+      "overall": 0.0,
+      "by_month": {
+        "2021-04": 0.0,
+        "2020-05": 0.0,
+        "2020-01": 0.0,
+        "2019-05": 0.0,
+        "2016-01": 0.0
+      }
+    },
+    "n_comments": 5
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        2.0,
+        4.0,
+        2.0,
+        3.0,
+        10.0
+      ],
+      "ewma": [
+        2.0,
+        2.5999999999999996,
+        2.4199999999999995,
+        2.5939999999999994,
+        4.815799999999999
+      ],
+      "sigma": 2.266255724317095
+    },
+    "difficulty_trend": {
+      "series": [
+        8.0,
+        8.0,
+        8.0,
+        8.0,
+        0.0
+      ],
+      "ewma": [
+        8.0,
+        8.0,
+        8.0,
+        8.0,
+        5.6
+      ],
+      "sigma": 2.504396134799764
+    },
+    "forecast": {
+      "quality_next": 4.815799999999999,
+      "quality_band": [
+        0.37393878033849326,
+        9.257661219661506
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2021-04-19T00:00:00",
+      "materia": "ESTUDIO DEL TRABAJO I",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Muy buena maestra, aprende el que quiere. Estricta al calificar pero aún así te deja muy buena enseñanza. Los que reprueban o sacan mala calificación es porque no se ponen las pilas"
+    },
+    {
+      "fecha_iso": "2020-05-23T00:00:00",
+      "materia": "PLANEACION ESTRATEGICA",
+      "calidad": 3.0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "YO NO SE QUIEN LE DIJO QUE UN ENSAYO SE HACE DE ESA FORMA. MUY GROSERA, PREPONTE Y NADA ACCESIBLE. NO EXPLICA NI LOS TEMAS DE SU MATERIA MUCHO MENOS DA ASESORIA EXTRA. POR FAVOR  NO CARGUEN, CORRANLA!!!!!!!!!"
+    },
+    {
+      "fecha_iso": "2020-01-12T00:00:00",
+      "materia": "ESTUDIO DEL TRABAJO I",
+      "calidad": 2.0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "En serio no vayan a cargar con ella, o sea su pura forma de ser es muy mamona, si le preguntas algo se enoja, te grita, hasta te puede sacar de la clase sin motivo, las cosas no las repite, los proyectos los califica muy estrictamente, aparte expondran y  te pondra lo que quiera aunque merezcas mas"
+    },
+    {
+      "fecha_iso": "2019-05-06T00:00:00",
+      "materia": "ESTUDIO DEL TRABAJO 1",
+      "calidad": 4.0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": "es muy estricta y sus exámenes son un poco confusos. ademas de pedirte un acordion obligatorio para presentar su exámenes y si no lo hesite te reprueba.  así y  no se le ocurre aser las recuperaciones hasta el final en ultima semana de clases."
+    },
+    {
+      "fecha_iso": "2016-01-14T00:00:00",
+      "materia": "ESTUDIO DEL TRABAJO",
+      "calidad": 2.0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Si quiered morir carga con ella"
+    }
+  ],
+  "comments_recent": [
+    "Muy buena maestra, aprende el que quiere. Estricta al calificar pero aún así te deja muy buena enseñanza. Los que reprueban o sacan mala calificación es porque no se ponen las pilas",
+    "YO NO SE QUIEN LE DIJO QUE UN ENSAYO SE HACE DE ESA FORMA. MUY GROSERA, PREPONTE Y NADA ACCESIBLE. NO EXPLICA NI LOS TEMAS DE SU MATERIA MUCHO MENOS DA ASESORIA EXTRA. POR FAVOR  NO CARGUEN, CORRANLA!!!!!!!!!",
+    "En serio no vayan a cargar con ella, o sea su pura forma de ser es muy mamona, si le preguntas algo se enoja, te grita, hasta te puede sacar de la clase sin motivo, las cosas no las repite, los proyectos los califica muy estrictamente, aparte expondran y  te pondra lo que quiera aunque merezcas mas",
+    "es muy estricta y sus exámenes son un poco confusos. ademas de pedirte un acordion obligatorio para presentar su exámenes y si no lo hesite te reprueba.  así y  no se le ocurre aser las recuperaciones hasta el final en ultima semana de clases.",
+    "Si quiered morir carga con ella"
+  ],
+  "n_reviews": 5
+}

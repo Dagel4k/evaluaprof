@@ -1,0 +1,154 @@
+{
+  "professor_id": "Jesus_Antonio_Felix_de_la_Rocha",
+  "nombre": "Jesus Antonio Felix de la Rocha",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 9.462201812197266,
+    "difficulty_decayed": 1.4041101316745623
+  },
+  "bayes_analysis": {
+    "quality_bayes": 8.045037916254532,
+    "difficulty_bayes": 2.2694362017804157
+  },
+  "recommendation_analysis": {
+    "rate": 0.98,
+    "wilson_interval": [
+      0.5433835554357682,
+      0.9995046096022341
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": 0.59,
+    "z_mean_decayed": 0.58,
+    "per_subject": [
+      {
+        "materia": "ÁLGEBRA LINEAL",
+        "z_decayed": 0.8017837257372736,
+        "n": 7
+      },
+      {
+        "materia": "ECUACIONES DIFERENCIALES",
+        "z_decayed": 0.5587887775887984,
+        "n": 18
+      },
+      {
+        "materia": "CÁLCULO VECTORIAL",
+        "z_decayed": 0.44721359549995787,
+        "n": 5
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [],
+    "sentiment": {
+      "overall": null,
+      "by_month": {}
+    },
+    "n_comments": 2
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        10.0,
+        10.0,
+        9.0
+      ],
+      "ewma": [
+        10.0,
+        10.0,
+        9.7
+      ],
+      "sigma": 0.40414518843273767
+    },
+    "difficulty_trend": {
+      "series": [
+        0.0,
+        1.0,
+        2.0
+      ],
+      "ewma": [
+        0.0,
+        0.3,
+        0.8099999999999999
+      ],
+      "sigma": 0.5980802621722272
+    },
+    "forecast": {
+      "quality_next": 9.7,
+      "quality_band": [
+        8.907875430671833,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2025-06-28T00:00:00",
+      "materia": "MATEMATICAS 4",
+      "calidad": 8.0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2025-06-12T00:00:00",
+      "materia": "ECUACIONES DIFERENCIALES",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Gran maestro y gran persona, a pesar de solo convivir con el en clase es de esas personas que te motivan y sientes su genuinidad e interés porque te vaya bien, explica súper bien y te ayuda si eres constante en las clases, si pueden cargar con el no lo piensen dos veces"
+    },
+    {
+      "fecha_iso": "2024-01-26T00:00:00",
+      "materia": "ECUACIONES DIFERENCIALES",
+      "calidad": 10.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "excelente"
+    },
+    {
+      "fecha_iso": "2024-01-12T00:00:00",
+      "materia": "CÁLCULO VECTORIAL",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2023-08-10T00:00:00",
+      "materia": "ÁLGEBRA LINEAL",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": ""
+    }
+  ],
+  "comments_recent": [
+    "Gran maestro y gran persona, a pesar de solo convivir con el en clase es de esas personas que te motivan y sientes su genuinidad e interés porque te vaya bien, explica súper bien y te ayuda si eres constante en las clases, si pueden cargar con el no lo piensen dos veces",
+    "excelente"
+  ],
+  "n_reviews": 5
+}

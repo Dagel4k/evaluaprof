@@ -1,0 +1,197 @@
+{
+  "professor_id": "ZURIEL_DATHAN_MORA_FELIX",
+  "nombre": "ZURIEL DATHAN MORA FELIX",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 2.1368037644104763,
+    "difficulty_decayed": 6.579393012103244
+  },
+  "bayes_analysis": {
+    "quality_bayes": 5.9117045829212,
+    "difficulty_bayes": 3.869436201780416
+  },
+  "recommendation_analysis": {
+    "rate": 0.38,
+    "wilson_interval": [
+      0.10797132315920568,
+      0.7563066355812937
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": -1.29,
+    "z_mean_decayed": -1.49,
+    "per_subject": [
+      {
+        "materia": "ESTRUCTURA DE DATOS",
+        "z_decayed": -0.5825680002028392,
+        "n": 4
+      },
+      {
+        "materia": "---",
+        "z_decayed": -1.1483431150731278,
+        "n": 80
+      },
+      {
+        "materia": "MATEMÁTICAS DISCRETAS",
+        "z_decayed": -1.6980376468553153,
+        "n": 17
+      },
+      {
+        "materia": "INTELIGENCIA ARTIFICIAL",
+        "z_decayed": -1.7320508075688774,
+        "n": 5
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "es",
+          "si",
+          "ensena",
+          "profesor"
+        ],
+        "weight": 0.25543909219901384
+      },
+      {
+        "id": 1,
+        "words": [
+          "ensena",
+          "profesor",
+          "es",
+          "si"
+        ],
+        "weight": 0.300358158586106
+      }
+    ],
+    "sentiment": {
+      "overall": -0.2,
+      "by_month": {
+        "2025-05": 0.0,
+        "2024-07": 0.0,
+        "2022-02": 0.0,
+        "2021-12": -1.0,
+        "2017-01": 0.0
+      }
+    },
+    "n_comments": 5
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        8.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0
+      ],
+      "ewma": [
+        8.0,
+        6.199999999999999,
+        4.939999999999999,
+        4.057999999999999,
+        3.440599999999999
+      ],
+      "sigma": 1.5778411174766613
+    },
+    "difficulty_trend": {
+      "series": [
+        4.0,
+        4.0,
+        8.0,
+        8.0,
+        6.0
+      ],
+      "ewma": [
+        4.0,
+        4.0,
+        5.199999999999999,
+        6.039999999999999,
+        6.027999999999999
+      ],
+      "sigma": 1.3420152011061575
+    },
+    "forecast": {
+      "quality_next": 3.440599999999999,
+      "quality_band": [
+        0.34803140974574287,
+        6.533168590254255
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2025-05-27T00:00:00",
+      "materia": "INTELIGENCIA ARTIFICIAL",
+      "calidad": 2.0,
+      "dificultad": 6.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "es de los peores profes que me han tocado, si tienen la oportunidad de cargar con el desaprovechenla"
+    },
+    {
+      "fecha_iso": "2024-07-11T00:00:00",
+      "materia": "MATEMÁTICAS DISCRETAS",
+      "calidad": 2.0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "No recomiendo al profesor, no enseña mucho y hace las clases complicadas \nCalifica mal e incluso se llega a equivocar mucho en los exámenes \nDice una cosa y hace otra completamente diferente"
+    },
+    {
+      "fecha_iso": "2022-02-15T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2021-12-17T00:00:00",
+      "materia": "ESTRUCTURA DE DATOS",
+      "calidad": 2.0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Si quieres sufrir a final de semestre con un maestro que no tiene ni la mas mínima idea de como calificar, este es tu profesor, el maestro nos reprobó a todos y no se le hizo nada extraño que nos faltaran 3 tareas que nunca asigno, además enseña horrible tendrás que investigar tu mismo"
+    },
+    {
+      "fecha_iso": "2017-01-16T00:00:00",
+      "materia": "CURSO PROPEDÉUTICO",
+      "calidad": 8.0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Era buena onda pero dejaba mucha tarea"
+    }
+  ],
+  "comments_recent": [
+    "es de los peores profes que me han tocado, si tienen la oportunidad de cargar con el desaprovechenla",
+    "No recomiendo al profesor, no enseña mucho y hace las clases complicadas \nCalifica mal e incluso se llega a equivocar mucho en los exámenes \nDice una cosa y hace otra completamente diferente",
+    "[Comentario esperando revisión]",
+    "Si quieres sufrir a final de semestre con un maestro que no tiene ni la mas mínima idea de como calificar, este es tu profesor, el maestro nos reprobó a todos y no se le hizo nada extraño que nos faltaran 3 tareas que nunca asigno, además enseña horrible tendrás que investigar tu mismo",
+    "Era buena onda pero dejaba mucha tarea"
+  ],
+  "n_reviews": 5
+}

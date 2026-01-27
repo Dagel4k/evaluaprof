@@ -1,0 +1,177 @@
+{
+  "professor_id": "Alberto_Puerta_Rivera",
+  "nombre": "Alberto Puerta Rivera",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 10.000000000000004,
+    "difficulty_decayed": 0.0
+  },
+  "bayes_analysis": {
+    "quality_bayes": 8.178371249587865,
+    "difficulty_bayes": 1.8694362017804156
+  },
+  "recommendation_analysis": {
+    "rate": 1.0,
+    "wilson_interval": [
+      0.565508505247919,
+      1
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": 0.0,
+    "z_mean_decayed": 0.0,
+    "per_subject": [
+      {
+        "materia": "MECÁNICA DE MATERIALES",
+        "z_decayed": 0.0,
+        "n": 5
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "es",
+          "sabe",
+          "sabe materia",
+          "si",
+          "veces"
+        ],
+        "weight": 0.29852431493595716
+      },
+      {
+        "id": 1,
+        "words": [
+          "es mejor",
+          "tec",
+          "mejor",
+          "mejor profesor",
+          "profesor"
+        ],
+        "weight": 0.38545970497181054
+      }
+    ],
+    "sentiment": {
+      "overall": 0.08333333333333333,
+      "by_month": {
+        "2022-06": 0.0,
+        "2019-08": 0.0,
+        "2018-08": 0.16666666666666666
+      }
+    },
+    "n_comments": 4
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 1,
+    "trust_score": 0.8
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        10.0,
+        10.0,
+        10.0,
+        10.0
+      ],
+      "ewma": [
+        10.0,
+        10.0,
+        10.0,
+        10.0
+      ],
+      "sigma": 0.0
+    },
+    "difficulty_trend": {
+      "series": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ewma": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sigma": 0.0
+    },
+    "forecast": {
+      "quality_next": 10.0,
+      "quality_band": [
+        10.0,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2024-08-19T00:00:00",
+      "materia": "MECÁNICA DE MATERIALES",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2022-06-13T00:00:00",
+      "materia": "MECÁNICA DE MATERIALES",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Es el mejor profe del tec sin duda, sabe mucho sobre la materia, te ayuda y orienta en relación a las materias que siguen respecto a la que el imparte, hace exámenes en equipo al igual que las tareas. Si tienen la oportunidad de cargar con el, no la pienses dos veces"
+    },
+    {
+      "fecha_iso": "2019-08-04T00:00:00",
+      "materia": "MECÁNICA DE MATERIALES",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "El mejor profesor para esta materia, más fácil que con Correa."
+    },
+    {
+      "fecha_iso": "2018-08-22T00:00:00",
+      "materia": "MECÁNICA DE MATERIALES",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Sabe mucho de su materia, explica excelente y claro aunque si letra es difícil de entender a veces."
+    },
+    {
+      "fecha_iso": "2018-08-05T00:00:00",
+      "materia": "MECÁNICA DE MATERIALES",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Es el mejor profesor del Tec de Culiacan"
+    }
+  ],
+  "comments_recent": [
+    "Es el mejor profe del tec sin duda, sabe mucho sobre la materia, te ayuda y orienta en relación a las materias que siguen respecto a la que el imparte, hace exámenes en equipo al igual que las tareas. Si tienen la oportunidad de cargar con el, no la pienses dos veces",
+    "El mejor profesor para esta materia, más fácil que con Correa.",
+    "Sabe mucho de su materia, explica excelente y claro aunque si letra es difícil de entender a veces.",
+    "Es el mejor profesor del Tec de Culiacan"
+  ],
+  "n_reviews": 5
+}

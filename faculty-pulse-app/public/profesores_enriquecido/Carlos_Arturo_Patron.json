@@ -1,0 +1,199 @@
+{
+  "professor_id": "Carlos_Arturo_Patron",
+  "nombre": "Carlos Arturo Patron",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 3.506886377279191,
+    "difficulty_decayed": 6.493113622720811
+  },
+  "bayes_analysis": {
+    "quality_bayes": 5.9117045829212,
+    "difficulty_bayes": 4.136102868447082
+  },
+  "recommendation_analysis": {
+    "rate": 0.48,
+    "wilson_interval": [
+      0.15925912362477876,
+      0.8181205361653044
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": -1.61,
+    "z_mean_decayed": -1.49,
+    "per_subject": [
+      {
+        "materia": "CALCULO VECTORIAL",
+        "z_decayed": -1.1681919861855607,
+        "n": 21
+      },
+      {
+        "materia": "CALCULO DIFERENCIAL",
+        "z_decayed": -1.6766884518586287,
+        "n": 29
+      },
+      {
+        "materia": "CÁLCULO VECTORIAL",
+        "z_decayed": -1.788854381999832,
+        "n": 5
+      },
+      {
+        "materia": "ECUACIONES DIFERENCIALES",
+        "z_decayed": -2.4214180362181263,
+        "n": 18
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "pasa",
+          "pasa si",
+          "carga",
+          "es",
+          "si"
+        ],
+        "weight": 0.2479939135667668
+      },
+      {
+        "id": 1,
+        "words": [
+          "carga",
+          "es",
+          "pasa",
+          "pasa si",
+          "si"
+        ],
+        "weight": 0.27229267660820666
+      }
+    ],
+    "sentiment": {
+      "overall": 0.0,
+      "by_month": {
+        "2025-08": 0.0,
+        "2024-09": 0.0,
+        "2024-01": 0.0,
+        "2022-06": 0.0,
+        "2021-01": 0.0
+      }
+    },
+    "n_comments": 5
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        2.0,
+        2.0,
+        6.0,
+        2.0,
+        4.0
+      ],
+      "ewma": [
+        2.0,
+        2.0,
+        3.1999999999999997,
+        2.84,
+        3.1879999999999997
+      ],
+      "sigma": 1.3845709804845687
+    },
+    "difficulty_trend": {
+      "series": [
+        8.0,
+        8.0,
+        4.0,
+        8.0,
+        6.0
+      ],
+      "ewma": [
+        8.0,
+        8.0,
+        6.8,
+        7.16,
+        6.811999999999999
+      ],
+      "sigma": 1.3845709804845687
+    },
+    "forecast": {
+      "quality_next": 3.1879999999999997,
+      "quality_band": [
+        0.47424087825024497,
+        5.9017591217497545
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2025-08-02T00:00:00",
+      "materia": "CALCULO VECTORIAL",
+      "calidad": 4.0,
+      "dificultad": 6.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": "profe más batalloso, pero se pasa si le echas ganas"
+    },
+    {
+      "fecha_iso": "2024-09-19T00:00:00",
+      "materia": "CALCULO DIFERENCIAL",
+      "calidad": 2.0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "No vale verga w"
+    },
+    {
+      "fecha_iso": "2024-01-05T00:00:00",
+      "materia": "CALCULO VECTORIAL",
+      "calidad": 6.0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": "Pasé calculo integral con él y solo fui un mes a su clase, al ultimo nos pasó a todo el salón con 7. Pasé vectorial con él otra vez, pero esta vez si se puso las \"pilas\" y si daba clases, pero es malísimo para enseñar. Se pondrá \"estricto\" pero al ultimo te pasa con 7 si o si. Carga con el, confia."
+    },
+    {
+      "fecha_iso": "2022-06-15T00:00:00",
+      "materia": "ECUACIONES DIFERENCIALES",
+      "calidad": 2.0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "No explica bien, asiste cuando quiere, tiene mal bocabulario,"
+    },
+    {
+      "fecha_iso": "2021-01-21T00:00:00",
+      "materia": "CÁLCULO VECTORIAL",
+      "calidad": 2.0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Si quieres pasar sin aprender nada, carga con el. Cualquier otro es mejor opción."
+    }
+  ],
+  "comments_recent": [
+    "profe más batalloso, pero se pasa si le echas ganas",
+    "No vale verga w",
+    "Pasé calculo integral con él y solo fui un mes a su clase, al ultimo nos pasó a todo el salón con 7. Pasé vectorial con él otra vez, pero esta vez si se puso las \"pilas\" y si daba clases, pero es malísimo para enseñar. Se pondrá \"estricto\" pero al ultimo te pasa con 7 si o si. Carga con el, confia.",
+    "No explica bien, asiste cuando quiere, tiene mal bocabulario,",
+    "Si quieres pasar sin aprender nada, carga con el. Cualquier otro es mejor opción."
+  ],
+  "n_reviews": 5
+}

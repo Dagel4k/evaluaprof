@@ -1,0 +1,189 @@
+{
+  "professor_id": "jair_brandu_gutierrez",
+  "nombre": "jair brandu gutierrez",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 4.4055928436293055,
+    "difficulty_decayed": 4.652490823573386
+  },
+  "bayes_analysis": {
+    "quality_bayes": 6.378371249587866,
+    "difficulty_bayes": 3.3361028684470826
+  },
+  "recommendation_analysis": {
+    "rate": 0.14,
+    "wilson_interval": [
+      0.019326637854510508,
+      0.5735072383669879
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": -0.55,
+    "z_mean_decayed": -0.55,
+    "per_subject": [
+      {
+        "materia": "TALLER DE SISTEMAS OPERATIVOS",
+        "z_decayed": 0.2773500981126146,
+        "n": 3
+      },
+      {
+        "materia": "SISTEMAS OPERATIVOS",
+        "z_decayed": -0.8225960799346713,
+        "n": 7
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "linea es",
+          "diapositivas",
+          "examenes",
+          "presencial",
+          "linea"
+        ],
+        "weight": 0.33781516085971786
+      },
+      {
+        "id": 1,
+        "words": [
+          "linea",
+          "diapositivas",
+          "examenes",
+          "linea es",
+          "es"
+        ],
+        "weight": 0.2894736991790848
+      }
+    ],
+    "sentiment": {
+      "overall": -0.2,
+      "by_month": {
+        "2022-12": 0.0,
+        "2022-02": 0.0,
+        "2022-01": -1.0,
+        "2021-12": 0.0,
+        "2021-11": 0.0
+      }
+    },
+    "n_comments": 5
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        4.0,
+        7.0,
+        7.0,
+        3.0,
+        2.0
+      ],
+      "ewma": [
+        4.0,
+        4.9,
+        5.53,
+        4.771,
+        3.9396999999999998
+      ],
+      "sigma": 1.8347900283138665
+    },
+    "difficulty_trend": {
+      "series": [
+        6.0,
+        2.0,
+        0.0,
+        6.0,
+        8.0
+      ],
+      "ewma": [
+        6.0,
+        4.799999999999999,
+        3.359999999999999,
+        4.151999999999999,
+        5.306399999999999
+      ],
+      "sigma": 2.705380807206261
+    },
+    "forecast": {
+      "quality_next": 3.9396999999999998,
+      "quality_band": [
+        0.3435115445048216,
+        7.5358884554951775
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2022-12-01T00:00:00",
+      "materia": "TALLER SISTEMAS OPERATIVOS",
+      "calidad": 2.0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Este maestro no vale verga"
+    },
+    {
+      "fecha_iso": "2022-02-15T00:00:00",
+      "materia": "SISTEMAS OPERATIVOS",
+      "calidad": 3.0,
+      "dificultad": 6.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "En línea está muy fácil ya que los examenes son tal cual las diapositivas, no lo recomendaría de forma presencial"
+    },
+    {
+      "fecha_iso": "2022-01-14T00:00:00",
+      "materia": "SISTEMAS OPERATIVOS",
+      "calidad": 7.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "en linea es buen profesor, la materia no es dificil y sus diapositivas te dan toda la informacion que necesites para los examenes"
+    },
+    {
+      "fecha_iso": "2021-12-07T00:00:00",
+      "materia": "TALLER DE SISTEMAS OPERATIVOS",
+      "calidad": 7.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "En linea está pelado, recomendado en linea pero no en presencial"
+    },
+    {
+      "fecha_iso": "2021-11-22T00:00:00",
+      "materia": "SISTEMAS OPERATIVOS",
+      "calidad": 4.0,
+      "dificultad": 6.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": "la neta en linea es pasable porque puedes copiar para los examenes pero en presencial se ve que ni de pedo se hace... se ve que no le gusta su trabajo o esta amargado porque siempre da clases como de ahuevo"
+    }
+  ],
+  "comments_recent": [
+    "Este maestro no vale verga",
+    "En línea está muy fácil ya que los examenes son tal cual las diapositivas, no lo recomendaría de forma presencial",
+    "en linea es buen profesor, la materia no es dificil y sus diapositivas te dan toda la informacion que necesites para los examenes",
+    "En linea está pelado, recomendado en linea pero no en presencial",
+    "la neta en linea es pasable porque puedes copiar para los examenes pero en presencial se ve que ni de pedo se hace... se ve que no le gusta su trabajo o esta amargado porque siempre da clases como de ahuevo"
+  ],
+  "n_reviews": 5
+}

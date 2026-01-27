@@ -1,0 +1,189 @@
+{
+  "professor_id": "Blanca_Margarita_Cázares_García",
+  "nombre": "Blanca Margarita Cázares García",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 9.329618737381818,
+    "difficulty_decayed": 0.6318386601179026
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.978371249587866,
+    "difficulty_bayes": 2.1361028684470824
+  },
+  "recommendation_analysis": {
+    "rate": 0.81,
+    "wilson_interval": [
+      0.38374242300666217,
+      0.9668728502470477
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": 0.41,
+    "z_mean_decayed": 0.39,
+    "per_subject": [
+      {
+        "materia": "ALGEBRA LINEAL",
+        "z_decayed": 0.6770483487675406,
+        "n": 13
+      },
+      {
+        "materia": "INVESTIGACIÓN DE OPERACIONES",
+        "z_decayed": 0.6712925618877001,
+        "n": 11
+      },
+      {
+        "materia": "INVESTIGACIÓN DE OPERACIONES I",
+        "z_decayed": 0.02180260941392387,
+        "n": 5
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "dudas",
+          "ayuda",
+          "te ayuda",
+          "te",
+          "es"
+        ],
+        "weight": 0.36970010246127544
+      },
+      {
+        "id": 1,
+        "words": [
+          "buena",
+          "da",
+          "si",
+          "maestra",
+          "materia"
+        ],
+        "weight": 0.27102364247049204
+      }
+    ],
+    "sentiment": {
+      "overall": 0.4,
+      "by_month": {
+        "2024-01": 0.0,
+        "2023-06": 0.5,
+        "2022-06": 0.0,
+        "2021-08": 1.0
+      }
+    },
+    "n_comments": 5
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        10.0,
+        10.0,
+        8.5,
+        10.0
+      ],
+      "ewma": [
+        10.0,
+        10.0,
+        9.55,
+        9.685
+      ],
+      "sigma": 0.5962853763090289
+    },
+    "difficulty_trend": {
+      "series": [
+        0.0,
+        4.0,
+        0.0,
+        0.0
+      ],
+      "ewma": [
+        0.0,
+        1.2,
+        0.84,
+        0.588
+      ],
+      "sigma": 1.6753853288124496
+    },
+    "forecast": {
+      "quality_next": 9.685,
+      "quality_band": [
+        8.516280662434305,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2024-01-12T00:00:00",
+      "materia": "INVESTIGACIÓN DE OPERACIONES",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Me gustó mucho su clase"
+    },
+    {
+      "fecha_iso": "2023-06-08T00:00:00",
+      "materia": "ALGEBRA LINEAL",
+      "calidad": 9.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Es buena profe para ser la 1ra vez que imparte la materia de algebra lo hizo muy bien todo claro y te ayuda si le echas ganas y asistes regularmente y da varias oportunidades"
+    },
+    {
+      "fecha_iso": "2023-06-07T00:00:00",
+      "materia": "INVESTIGACIÓN DE OPERACIONES I",
+      "calidad": 8.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "La dinámica para ver los temas me parece muy ágil, sin embargo, no profundiza demasiado en los temas.\nEs muy comprensiva y realiza exámenes sencillos, a veces deja sacar apuntes o te ayuda con dudas de tu examen"
+    },
+    {
+      "fecha_iso": "2022-06-07T00:00:00",
+      "materia": "INVESTIGACIÓN DE OPERACIONES I",
+      "calidad": 10.0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Es super buena maestra, si tienes dudas te apoya, da facilidades para pasar y es muy accesible cuando tienes algún problema, no duden en cargar con ella."
+    },
+    {
+      "fecha_iso": "2021-08-24T00:00:00",
+      "materia": "INVESTIGACIÓN DE OPERACIONES 1",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "La mejor maestra para impartir esta materia. Clara, paciente y un amor de persona."
+    }
+  ],
+  "comments_recent": [
+    "Me gustó mucho su clase",
+    "Es buena profe para ser la 1ra vez que imparte la materia de algebra lo hizo muy bien todo claro y te ayuda si le echas ganas y asistes regularmente y da varias oportunidades",
+    "La dinámica para ver los temas me parece muy ágil, sin embargo, no profundiza demasiado en los temas.\nEs muy comprensiva y realiza exámenes sencillos, a veces deja sacar apuntes o te ayuda con dudas de tu examen",
+    "Es super buena maestra, si tienes dudas te apoya, da facilidades para pasar y es muy accesible cuando tienes algún problema, no duden en cargar con ella.",
+    "La mejor maestra para impartir esta materia. Clara, paciente y un amor de persona."
+  ],
+  "n_reviews": 5
+}

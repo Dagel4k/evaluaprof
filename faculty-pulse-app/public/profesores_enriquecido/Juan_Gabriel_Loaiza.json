@@ -1,0 +1,131 @@
+{
+  "professor_id": "Juan_Gabriel_Loaiza",
+  "nombre": "Juan Gabriel Loaiza",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 7.841677728950029,
+    "difficulty_decayed": 2.7588918513600342
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.436582211062922,
+    "difficulty_bayes": 2.7724263866697103
+  },
+  "recommendation_analysis": {
+    "rate": 1.0,
+    "wilson_interval": [
+      0.4384939195509822,
+      1
+    ],
+    "n_recommendations": 3
+  },
+  "subject_normalization": {
+    "z_mean": 0.18,
+    "z_mean_decayed": 0.14,
+    "per_subject": [
+      {
+        "materia": "MÉTODOS NUMÉRICOS",
+        "z_decayed": 0.395628284037472,
+        "n": 5
+      },
+      {
+        "materia": "MATEMÁTICAS DISCRETAS",
+        "z_decayed": 0.06395066158155722,
+        "n": 17
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [],
+    "sentiment": {
+      "overall": null,
+      "by_month": {}
+    },
+    "n_comments": 2
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        9.0,
+        8.0,
+        7.0
+      ],
+      "ewma": [
+        9.0,
+        8.7,
+        8.19
+      ],
+      "sigma": 0.5980802621722269
+    },
+    "difficulty_trend": {
+      "series": [
+        2.0,
+        4.0,
+        2.0
+      ],
+      "ewma": [
+        2.0,
+        2.5999999999999996,
+        2.4199999999999995
+      ],
+      "sigma": 0.9529602999775664
+    },
+    "forecast": {
+      "quality_next": 8.19,
+      "quality_band": [
+        7.017762686142435,
+        9.362237313857564
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2025-12-07T00:00:00",
+      "materia": "MATEMÁTICAS DISCRETAS",
+      "calidad": 7.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Es un buen maestro, solo que a veces se confunde hasta el mismo en la explicación y te puede llegar a enredar un poco, eso sí, te brinda apoyo en los exámenes y te permite sacar apuntes"
+    },
+    {
+      "fecha_iso": "2025-11-10T00:00:00",
+      "materia": "MATEMÁTICAS DISCRETAS",
+      "calidad": 8.0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2024-06-05T00:00:00",
+      "materia": "MÉTODOS NUMÉRICOS",
+      "calidad": 9.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Profesor sencillo para la materia, te deja entregar todo hasta el día del examen y te ayuda con los códigos y tareas"
+    }
+  ],
+  "comments_recent": [
+    "Es un buen maestro, solo que a veces se confunde hasta el mismo en la explicación y te puede llegar a enredar un poco, eso sí, te brinda apoyo en los exámenes y te permite sacar apuntes",
+    "Profesor sencillo para la materia, te deja entregar todo hasta el día del examen y te ayuda con los códigos y tareas"
+  ],
+  "n_reviews": 3
+}

@@ -1,0 +1,152 @@
+{
+  "professor_id": "Jesús_Alberto_Albarran_Murguia",
+  "nombre": "Jesús Alberto Albarran Murguia",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 6.380455555483831,
+    "difficulty_decayed": 3.49696537253211
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.378371249587866,
+    "difficulty_bayes": 2.2694362017804157
+  },
+  "recommendation_analysis": {
+    "rate": 0.67,
+    "wilson_interval": [
+      0.2775114404152864,
+      0.9147614513690061
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": 0.52,
+    "z_mean_decayed": 0.55,
+    "per_subject": [
+      {
+        "materia": "ELECTRICIDAD Y ELECTRÓNICA INDUSTRIAL",
+        "z_decayed": 0.5455021668374954,
+        "n": 5
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [],
+    "sentiment": {
+      "overall": null,
+      "by_month": {}
+    },
+    "n_comments": 2
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        8.0,
+        8.0,
+        9.0,
+        8.0,
+        5.0
+      ],
+      "ewma": [
+        8.0,
+        8.0,
+        8.299999999999999,
+        8.209999999999999,
+        7.246999999999999
+      ],
+      "sigma": 1.1141924429828087
+    },
+    "difficulty_trend": {
+      "series": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        6.0
+      ],
+      "ewma": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.7999999999999998
+      ],
+      "sigma": 1.8782971010998235
+    },
+    "forecast": {
+      "quality_next": 7.246999999999999,
+      "quality_band": [
+        5.063182811753694,
+        9.430817188246305
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2025-05-28T00:00:00",
+      "materia": "ELECTRICIDAD Y ELECTRONICA INDUSTRIAL",
+      "calidad": 5.0,
+      "dificultad": 6.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2021-12-16T00:00:00",
+      "materia": "INSTALACIONES ELÉCTRICAS INDUSTRIALES.",
+      "calidad": 8.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Falta mucho, es barquisimo y le vale todo. Eso si, es super facil pasar con el. De todas formas tratandose de materias importantes seria mejor cargarlas con profesores que si se empeñen que Ontiveros Mireles o ya de perdida Ochoa"
+    },
+    {
+      "fecha_iso": "2021-01-21T00:00:00",
+      "materia": "ELECTRICIDAD Y ELECTRÓNICA INDUSTRIAL",
+      "calidad": 9.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2020-01-27T00:00:00",
+      "materia": "ELECTRICIDAD Y ELECTRÓNICA INDUSTRIAL",
+      "calidad": 8.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2015-09-17T00:00:00",
+      "materia": "ELÉCTRICIDAD",
+      "calidad": 8.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Falta mucho a clases pero se le entiende bien y es fácil pasar con él. Así como también hay mejores opciones es preferible cargar con él que con Barrantes."
+    }
+  ],
+  "comments_recent": [
+    "Falta mucho, es barquisimo y le vale todo. Eso si, es super facil pasar con el. De todas formas tratandose de materias importantes seria mejor cargarlas con profesores que si se empeñen que Ontiveros Mireles o ya de perdida Ochoa",
+    "Falta mucho a clases pero se le entiende bien y es fácil pasar con él. Así como también hay mejores opciones es preferible cargar con él que con Barrantes."
+  ],
+  "n_reviews": 5
+}

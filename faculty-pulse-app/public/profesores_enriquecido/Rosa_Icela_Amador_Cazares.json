@@ -1,0 +1,150 @@
+{
+  "professor_id": "Rosa_Icela_Amador_Cazares",
+  "nombre": "Rosa Icela Amador Cazares",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 9.82441723382411,
+    "difficulty_decayed": 0.0
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.976826338844142,
+    "difficulty_bayes": 2.0029673590504453
+  },
+  "recommendation_analysis": {
+    "rate": 1.0,
+    "wilson_interval": [
+      0.5100999795960008,
+      1
+    ],
+    "n_recommendations": 4
+  },
+  "subject_normalization": {
+    "z_mean": 0.0,
+    "z_mean_decayed": 0.21,
+    "per_subject": [
+      {
+        "materia": "ESTUDIO DEL TRABAJO 2",
+        "z_decayed": 0.5773502691896257,
+        "n": 5
+      },
+      {
+        "materia": "ESTADISTICA",
+        "z_decayed": 0.5773502691896252,
+        "n": 3
+      },
+      {
+        "materia": "ESTUDIO DEL TRABAJO II",
+        "z_decayed": -1.1547005383792506,
+        "n": 3
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [],
+    "sentiment": {
+      "overall": null,
+      "by_month": {}
+    },
+    "n_comments": 3
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        9.0,
+        10.0,
+        10.0,
+        10.0
+      ],
+      "ewma": [
+        9.0,
+        9.3,
+        9.51,
+        9.657
+      ],
+      "sigma": 0.29452037280975973
+    },
+    "difficulty_trend": {
+      "series": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ewma": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sigma": 0.0
+    },
+    "forecast": {
+      "quality_next": 9.657,
+      "quality_band": [
+        9.079740069292871,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2018-08-05T00:00:00",
+      "materia": "ESTADISTICA",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2017-08-30T00:00:00",
+      "materia": "ESTUDIO DEL TRABAJO 2",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Es una muy buena profesora, te enseña lo que debe y sus clases son fáciles y sin mucha complicación. Volveria a cargar con ella. Además de ser una excelente persona y considerada con los alumnos."
+    },
+    {
+      "fecha_iso": "2016-06-20T00:00:00",
+      "materia": "ESTADISTICA Y CONTROL DE CALIDAD",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Es una gran profesora, explica muy bien y no exige demasiado solo lo que es importante de su materia...\ncargue con ella por que estaba maestro pendiente pero me toco muy buena suerte"
+    },
+    {
+      "fecha_iso": "2016-05-29T00:00:00",
+      "materia": "ESTUDIO DEL TRABAJO II",
+      "calidad": 9.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Buena maestra, explica de manera clara y examenes super sencillos. Nunca falta y siempre llega a la hora exacta de la clase. Cuidado con la ortografia por que checa mucho eso de los acentos y las puntuaciones"
+    }
+  ],
+  "comments_recent": [
+    "Es una muy buena profesora, te enseña lo que debe y sus clases son fáciles y sin mucha complicación. Volveria a cargar con ella. Además de ser una excelente persona y considerada con los alumnos.",
+    "Es una gran profesora, explica muy bien y no exige demasiado solo lo que es importante de su materia...\ncargue con ella por que estaba maestro pendiente pero me toco muy buena suerte",
+    "Buena maestra, explica de manera clara y examenes super sencillos. Nunca falta y siempre llega a la hora exacta de la clase. Cuidado con la ortografia por que checa mucho eso de los acentos y las puntuaciones"
+  ],
+  "n_reviews": 4
+}

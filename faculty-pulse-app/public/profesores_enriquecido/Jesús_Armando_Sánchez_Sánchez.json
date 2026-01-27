@@ -1,0 +1,151 @@
+{
+  "professor_id": "Jesús_Armando_Sánchez_Sánchez",
+  "nombre": "Jesús Armando Sánchez Sánchez",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 4.228727119659151,
+    "difficulty_decayed": 3.860709967591582
+  },
+  "bayes_analysis": {
+    "quality_bayes": 6.333969195987,
+    "difficulty_bayes": 3.145824501907588
+  },
+  "recommendation_analysis": {
+    "rate": 0.25,
+    "wilson_interval": [
+      0.045586062644636216,
+      0.6993639475573634
+    ],
+    "n_recommendations": 4
+  },
+  "subject_normalization": {
+    "z_mean": -0.71,
+    "z_mean_decayed": -0.66,
+    "per_subject": [
+      {
+        "materia": "CÁLCULO DIFERENCIAL",
+        "z_decayed": -0.4728257159133513,
+        "n": 24
+      },
+      {
+        "materia": "QUÍMICA",
+        "z_decayed": -1.0855701589970372,
+        "n": 24
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [],
+    "sentiment": {
+      "overall": -0.25,
+      "by_month": {
+        "2020-01": 0.0,
+        "2019-11": 0.0,
+        "2019-08": 0.0,
+        "2019-06": -1.0
+      }
+    },
+    "n_comments": 4
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        2.0,
+        2.0,
+        2.0,
+        10.0
+      ],
+      "ewma": [
+        2.0,
+        2.0,
+        2.0,
+        4.4
+      ],
+      "sigma": 2.7999999999999994
+    },
+    "difficulty_trend": {
+      "series": [
+        8.0,
+        0.0,
+        8.0,
+        0.0
+      ],
+      "ewma": [
+        8.0,
+        5.6,
+        6.319999999999999,
+        4.4239999999999995
+      ],
+      "sigma": 3.4808328505306507
+    },
+    "forecast": {
+      "quality_next": 4.4,
+      "quality_band": [
+        0.0,
+        9.887999999999998
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2020-01-18T00:00:00",
+      "materia": "CÁLCULO DIFERENCIAL",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "No lo haga compa"
+    },
+    {
+      "fecha_iso": "2019-11-01T00:00:00",
+      "materia": "CÁLCULO DIFERENCIAL",
+      "calidad": 2.0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "No mames, un asco de maestro. No se le entiende nada, no le gusta que le pregunten y cada rato se equivoca. Nunca llevare con el otra vez."
+    },
+    {
+      "fecha_iso": "2019-08-08T00:00:00",
+      "materia": "QUÍMICA",
+      "calidad": 2.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Pasas sin aprender nada"
+    },
+    {
+      "fecha_iso": "2019-06-01T00:00:00",
+      "materia": "PARA INUTILES",
+      "calidad": 2.0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "este profe es un inutil ,no entiendo como sigue aqui en el tec"
+    }
+  ],
+  "comments_recent": [
+    "No lo haga compa",
+    "No mames, un asco de maestro. No se le entiende nada, no le gusta que le pregunten y cada rato se equivoca. Nunca llevare con el otra vez.",
+    "Pasas sin aprender nada",
+    "este profe es un inutil ,no entiendo como sigue aqui en el tec"
+  ],
+  "n_reviews": 4
+}

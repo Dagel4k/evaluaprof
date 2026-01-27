@@ -1,0 +1,197 @@
+{
+  "professor_id": "Mercedes_Carolina_Flores_Parra",
+  "nombre": "Mercedes Carolina Flores Parra",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 9.646525318697698,
+    "difficulty_decayed": 0.48176492366027973
+  },
+  "bayes_analysis": {
+    "quality_bayes": 8.045037916254532,
+    "difficulty_bayes": 2.0027695351137487
+  },
+  "recommendation_analysis": {
+    "rate": 0.65,
+    "wilson_interval": [
+      0.2637430632333918,
+      0.9059094883409838
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": 0.87,
+    "z_mean_decayed": 0.89,
+    "per_subject": [
+      {
+        "materia": "QUÍMICA",
+        "z_decayed": 1.1385248008993316,
+        "n": 24
+      },
+      {
+        "materia": "QUIMICA",
+        "z_decayed": 1.0589562989177865,
+        "n": 24
+      },
+      {
+        "materia": "PROBABILIDAD Y ESTADISTICA",
+        "z_decayed": 0.9178707160657958,
+        "n": 19
+      },
+      {
+        "materia": "FISICA GENERAL",
+        "z_decayed": 0.6982918226480316,
+        "n": 9
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "maestra",
+          "explica",
+          "temas",
+          "es",
+          "examenes"
+        ],
+        "weight": 0.38723220417379717
+      },
+      {
+        "id": 1,
+        "words": [
+          "temas",
+          "explica",
+          "da",
+          "si",
+          "clases"
+        ],
+        "weight": 0.2591047400719581
+      }
+    ],
+    "sentiment": {
+      "overall": 0.0,
+      "by_month": {
+        "2025-12": 0.0,
+        "2025-05": 0.0,
+        "2025-03": 0.0,
+        "2023-01": 0.0
+      }
+    },
+    "n_comments": 4
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        10.0,
+        9.0,
+        9.0,
+        10.0,
+        10.0
+      ],
+      "ewma": [
+        10.0,
+        9.7,
+        9.489999999999998,
+        9.642999999999999,
+        9.7501
+      ],
+      "sigma": 0.4615186583443835
+    },
+    "difficulty_trend": {
+      "series": [
+        0.0,
+        0.0,
+        2.0,
+        0.0,
+        0.0
+      ],
+      "ewma": [
+        0.0,
+        0.0,
+        0.6,
+        0.42,
+        0.294
+      ],
+      "sigma": 0.7295061343127965
+    },
+    "forecast": {
+      "quality_next": 9.7501,
+      "quality_band": [
+        8.845523429645008,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2025-12-05T00:00:00",
+      "materia": "FISICA GENERAL",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "La mejor maestra que he conocido, enseña los temas de una manera que entiendes y facil, es un amor de persona y los examenes son sencillos y cosas que ella misma ya puso en el pizarron, aparte que te da dia libres antes y despues de los examenes"
+    },
+    {
+      "fecha_iso": "2025-05-31T00:00:00",
+      "materia": "PROBABILIDAD Y ESTADISTICA",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "La profesora es muy amigable, sus temas son claros y lo que explica viene en los exámenes, las clases tienden a durar 40min, y deja una o dos por parcial máximo, Recomendada al 100%"
+    },
+    {
+      "fecha_iso": "2025-03-20T00:00:00",
+      "materia": "QUÍMICA",
+      "calidad": 9.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Es muy buena maestra, carguen con ella si quieren una materia tranquila, explica bien , los exámenes son fáciles, no es nada pesado y aprendes mucho."
+    },
+    {
+      "fecha_iso": "2023-01-10T00:00:00",
+      "materia": "FISICA GENERAL",
+      "calidad": 9.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "da buenas clases, si eres de sistemas carga con ella"
+    },
+    {
+      "fecha_iso": "2022-01-24T00:00:00",
+      "materia": "QUIMICA",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": ""
+    }
+  ],
+  "comments_recent": [
+    "La mejor maestra que he conocido, enseña los temas de una manera que entiendes y facil, es un amor de persona y los examenes son sencillos y cosas que ella misma ya puso en el pizarron, aparte que te da dia libres antes y despues de los examenes",
+    "La profesora es muy amigable, sus temas son claros y lo que explica viene en los exámenes, las clases tienden a durar 40min, y deja una o dos por parcial máximo, Recomendada al 100%",
+    "Es muy buena maestra, carguen con ella si quieren una materia tranquila, explica bien , los exámenes son fáciles, no es nada pesado y aprendes mucho.",
+    "da buenas clases, si eres de sistemas carga con ella"
+  ],
+  "n_reviews": 5
+}

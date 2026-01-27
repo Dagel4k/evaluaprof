@@ -1,0 +1,136 @@
+{
+  "professor_id": "DINORAH_MEZA_GARCIA",
+  "nombre": "DINORAH MEZA GARCIA",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 10.0,
+    "difficulty_decayed": 0.14242253769912366
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.898120672601384,
+    "difficulty_bayes": 2.3108879251312486
+  },
+  "recommendation_analysis": {
+    "rate": 0.67,
+    "wilson_interval": [
+      0.20949486174663193,
+      0.9395930709007021
+    ],
+    "n_recommendations": 3
+  },
+  "subject_normalization": {
+    "z_mean": 1.03,
+    "z_mean_decayed": 1.18,
+    "per_subject": [
+      {
+        "materia": "TALLER DE ETICA",
+        "z_decayed": 1.2135597524338362,
+        "n": 5
+      },
+      {
+        "materia": "ETICA",
+        "z_decayed": 0.9598942503077836,
+        "n": 22
+      },
+      {
+        "materia": "TALLER DE ÉTICA",
+        "z_decayed": 0.9102499908660036,
+        "n": 16
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [],
+    "sentiment": {
+      "overall": null,
+      "by_month": {}
+    },
+    "n_comments": 2
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        10.0,
+        10.0,
+        10.0
+      ],
+      "ewma": [
+        10.0,
+        10.0,
+        10.0
+      ],
+      "sigma": 0.0
+    },
+    "difficulty_trend": {
+      "series": [
+        0.0,
+        2.0,
+        0.0
+      ],
+      "ewma": [
+        0.0,
+        0.6,
+        0.42
+      ],
+      "sigma": 0.9529602999775664
+    },
+    "forecast": {
+      "quality_next": 10.0,
+      "quality_band": [
+        10.0,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2024-12-30T00:00:00",
+      "materia": "TALLER DE ETICA",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Casi todo el semestre falto, pero habia comunicacion a mi salon, al final puso calificaciones altas."
+    },
+    {
+      "fecha_iso": "2017-10-09T00:00:00",
+      "materia": "TALLER DE ÉTICA",
+      "calidad": 10.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Buena profesora, solo que falta mucho"
+    },
+    {
+      "fecha_iso": "2017-03-02T00:00:00",
+      "materia": "ETICA",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": ""
+    }
+  ],
+  "comments_recent": [
+    "Casi todo el semestre falto, pero habia comunicacion a mi salon, al final puso calificaciones altas.",
+    "Buena profesora, solo que falta mucho"
+  ],
+  "n_reviews": 3
+}

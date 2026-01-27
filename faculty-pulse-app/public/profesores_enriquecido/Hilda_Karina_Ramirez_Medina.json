@@ -1,0 +1,158 @@
+{
+  "professor_id": "Hilda_Karina_Ramirez_Medina",
+  "nombre": "Hilda Karina Ramirez Medina",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 9.113492628596479,
+    "difficulty_decayed": 3.380002604443645
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.845037916254532,
+    "difficulty_bayes": 2.9361028684470822
+  },
+  "recommendation_analysis": {
+    "rate": 1.0,
+    "wilson_interval": [
+      0.565508505247919,
+      1
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": 0.57,
+    "z_mean_decayed": 0.71,
+    "per_subject": [
+      {
+        "materia": "BIOLOGÍA",
+        "z_decayed": 0.8589556903873333,
+        "n": 4
+      },
+      {
+        "materia": "BIOLOGIA",
+        "z_decayed": 0.5873112733804416,
+        "n": 3
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [],
+    "sentiment": {
+      "overall": null,
+      "by_month": {}
+    },
+    "n_comments": 3
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        8.0,
+        9.0,
+        10.0,
+        8.0,
+        10.0
+      ],
+      "ewma": [
+        8.0,
+        8.299999999999999,
+        8.809999999999999,
+        8.566999999999998,
+        8.996899999999998
+      ],
+      "sigma": 0.7334252463612091
+    },
+    "difficulty_trend": {
+      "series": [
+        4.0,
+        0.0,
+        4.0,
+        4.0,
+        4.0
+      ],
+      "ewma": [
+        4.0,
+        2.8,
+        3.1599999999999997,
+        3.412,
+        3.5884
+      ],
+      "sigma": 1.4896547358364622
+    },
+    "forecast": {
+      "quality_next": 8.996899999999998,
+      "quality_band": [
+        7.559386517132029,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2024-06-09T00:00:00",
+      "materia": "BIOLOGIA",
+      "calidad": 10.0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Una profesora que te invita a estudiar, a salir adelante. Su programa de PostGrado es excelente. Ojala hubiera mas profesoras como ellas. \nHubiera tenido mejor calificacion pero por flojo tuve  faltas a clases"
+    },
+    {
+      "fecha_iso": "2024-01-16T00:00:00",
+      "materia": "BIOLOGÍA",
+      "calidad": 8.0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Aprendí bastante con esta maestra solo que tienes que poner de tu parte y estudiar mucho los temas para los exámenes (abarca todo lo que se vio en clase)."
+    },
+    {
+      "fecha_iso": "2022-06-22T00:00:00",
+      "materia": "BIOLOGÍA, TALLER DE INVESTIGACIÓN",
+      "calidad": 10.0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2022-05-12T00:00:00",
+      "materia": "BIOLOGIA",
+      "calidad": 9.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Esta Maestra tiene Doctorado y si esta preparada!! no como otrassssss. Es dura, pero si ayuda mucho. Con esta si estamos aprendiendo."
+    },
+    {
+      "fecha_iso": "2020-09-30T00:00:00",
+      "materia": "BIOLOGÍA",
+      "calidad": 8.0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": ""
+    }
+  ],
+  "comments_recent": [
+    "Una profesora que te invita a estudiar, a salir adelante. Su programa de PostGrado es excelente. Ojala hubiera mas profesoras como ellas. \nHubiera tenido mejor calificacion pero por flojo tuve  faltas a clases",
+    "Aprendí bastante con esta maestra solo que tienes que poner de tu parte y estudiar mucho los temas para los exámenes (abarca todo lo que se vio en clase).",
+    "Esta Maestra tiene Doctorado y si esta preparada!! no como otrassssss. Es dura, pero si ayuda mucho. Con esta si estamos aprendiendo."
+  ],
+  "n_reviews": 5
+}

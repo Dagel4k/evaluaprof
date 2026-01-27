@@ -1,0 +1,172 @@
+{
+  "professor_id": "Jesús_Estrada_Manjarrez",
+  "nombre": "Jesús Estrada Manjarrez",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 10.0,
+    "difficulty_decayed": 1.6111185701179336
+  },
+  "bayes_analysis": {
+    "quality_bayes": 8.178371249587865,
+    "difficulty_bayes": 2.2694362017804157
+  },
+  "recommendation_analysis": {
+    "rate": 0.92,
+    "wilson_interval": [
+      0.4820143151730107,
+      0.9930128292352413
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": null,
+    "z_mean_decayed": null,
+    "per_subject": []
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "mejor",
+          "clases",
+          "si"
+        ],
+        "weight": 0.2869909974944894
+      },
+      {
+        "id": 1,
+        "words": [
+          "clases",
+          "si",
+          "mejor"
+        ],
+        "weight": 0.33033167377508177
+      }
+    ],
+    "sentiment": {
+      "overall": 0.25,
+      "by_month": {
+        "2024-08": 0.0,
+        "2022-02": 0.0,
+        "2021-08": 1.0,
+        "2019-08": 0.0
+      }
+    },
+    "n_comments": 4
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 1,
+    "trust_score": 0.8
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        10.0
+      ],
+      "ewma": [
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        10.0
+      ],
+      "sigma": 0.0
+    },
+    "difficulty_trend": {
+      "series": [
+        0.0,
+        0.0,
+        0.0,
+        4.0,
+        2.0
+      ],
+      "ewma": [
+        0.0,
+        0.0,
+        0.0,
+        1.2,
+        1.44
+      ],
+      "sigma": 1.2140510697660127
+    },
+    "forecast": {
+      "quality_next": 10.0,
+      "quality_band": [
+        10.0,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2024-08-10T00:00:00",
+      "materia": "QUÍMICA ORGÁNICA 1",
+      "calidad": 10.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "De los mejores maestros que he tenido, sabe escuchar, no juzga a ningún alumno, da lo mejor de sí por dar una buena clase, de vez en cuando hace juegos con los alumnos, clases didácticas. Muy buena persona en general."
+    },
+    {
+      "fecha_iso": "2022-06-22T00:00:00",
+      "materia": "QUÍMICA ANALÍTICA/QUÍMICA ORGÁNICA/ANÁLISIS INSTRUMENTA",
+      "calidad": 10.0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2022-02-02T00:00:00",
+      "materia": "QUIMICA IRGANICA II",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Es machin buen pedo, explica bien y califica justo"
+    },
+    {
+      "fecha_iso": "2021-08-18T00:00:00",
+      "materia": "QUÍMICA ORGÁNICA II",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Excelente profesor, el tiempo en sus clases pasan como si nada porque te ayuda a que te intereses, 10/10"
+    },
+    {
+      "fecha_iso": "2019-08-04T00:00:00",
+      "materia": "ANÁLISIS INSTRUMENTAL",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "El mejor"
+    }
+  ],
+  "comments_recent": [
+    "De los mejores maestros que he tenido, sabe escuchar, no juzga a ningún alumno, da lo mejor de sí por dar una buena clase, de vez en cuando hace juegos con los alumnos, clases didácticas. Muy buena persona en general.",
+    "Es machin buen pedo, explica bien y califica justo",
+    "Excelente profesor, el tiempo en sus clases pasan como si nada porque te ayuda a que te intereses, 10/10",
+    "El mejor"
+  ],
+  "n_reviews": 5
+}

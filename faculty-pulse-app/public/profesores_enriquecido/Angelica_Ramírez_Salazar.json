@@ -1,0 +1,180 @@
+{
+  "professor_id": "Angelica_Ramírez_Salazar",
+  "nombre": "Angelica Ramírez Salazar",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 10.0,
+    "difficulty_decayed": 0.7325453264430895
+  },
+  "bayes_analysis": {
+    "quality_bayes": 8.178371249587865,
+    "difficulty_bayes": 2.1361028684470824
+  },
+  "recommendation_analysis": {
+    "rate": 0.82,
+    "wilson_interval": [
+      0.39206428037473734,
+      0.9698611629839307
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": 1.12,
+    "z_mean_decayed": 1.22,
+    "per_subject": [
+      {
+        "materia": "REDES DE COMPUTADORAS",
+        "z_decayed": 1.5441788914646142,
+        "n": 6
+      },
+      {
+        "materia": "REDES",
+        "z_decayed": 0.691931789940335,
+        "n": 10
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "cisco",
+          "profesora",
+          "es",
+          "te"
+        ],
+        "weight": 0.3302588795348582
+      },
+      {
+        "id": 1,
+        "words": [
+          "te",
+          "es",
+          "profesora",
+          "cisco"
+        ],
+        "weight": 0.33564367808632023
+      }
+    ],
+    "sentiment": {
+      "overall": 0.5,
+      "by_month": {
+        "2023-08": 1.0,
+        "2022-05": 0.5,
+        "2022-02": 0.0
+      }
+    },
+    "n_comments": 4
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 1,
+    "trust_score": 0.8
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        10.0,
+        10.0,
+        10.0,
+        10.0
+      ],
+      "ewma": [
+        10.0,
+        10.0,
+        10.0,
+        10.0
+      ],
+      "sigma": 0.0
+    },
+    "difficulty_trend": {
+      "series": [
+        2.0,
+        0.0,
+        2.0,
+        0.0
+      ],
+      "ewma": [
+        2.0,
+        1.4,
+        1.5799999999999998,
+        1.1059999999999999
+      ],
+      "sigma": 0.8702082126326627
+    },
+    "forecast": {
+      "quality_next": 10.0,
+      "quality_band": [
+        10.0,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2023-08-11T00:00:00",
+      "materia": "REDES DE COMPUTADORAS",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Muy buena profesora, desde el inicio te deja todo muy claro con las fechas y como se va a calificar, solo es cuestion de ir al dia con las tareas y un cienazo"
+    },
+    {
+      "fecha_iso": "2022-09-15T00:00:00",
+      "materia": "CONMUTACION DE REDES",
+      "calidad": 10.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2022-05-26T00:00:00",
+      "materia": "CONMUTACION",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "La mejor profesora de redes. Es dueña de cisco"
+    },
+    {
+      "fecha_iso": "2022-05-12T00:00:00",
+      "materia": "CONMUTACIÓN Y ENRUTAMIENTO DE REDES DE DATOS",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Excelente maestra, te hace aprender para pasar y enseña bien perro, además si le echaste ganas al final es muy considerada contigo"
+    },
+    {
+      "fecha_iso": "2022-02-25T00:00:00",
+      "materia": "REDES",
+      "calidad": 10.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Califica con una tarea semanal, una practica por unidad y examenes en cisco regalados\nSiempre está abierta a resolver dudas"
+    }
+  ],
+  "comments_recent": [
+    "Muy buena profesora, desde el inicio te deja todo muy claro con las fechas y como se va a calificar, solo es cuestion de ir al dia con las tareas y un cienazo",
+    "La mejor profesora de redes. Es dueña de cisco",
+    "Excelente maestra, te hace aprender para pasar y enseña bien perro, además si le echaste ganas al final es muy considerada contigo",
+    "Califica con una tarea semanal, una practica por unidad y examenes en cisco regalados\nSiempre está abierta a resolver dudas"
+  ],
+  "n_reviews": 5
+}

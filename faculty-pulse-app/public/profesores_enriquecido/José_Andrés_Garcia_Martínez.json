@@ -1,0 +1,168 @@
+{
+  "professor_id": "José_Andrés_Garcia_Martínez",
+  "nombre": "José Andrés Garcia Martínez",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 8.99355300134857,
+    "difficulty_decayed": 0.16182570336116903
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.311704582921199,
+    "difficulty_bayes": 2.1361028684470824
+  },
+  "recommendation_analysis": {
+    "rate": 0.4,
+    "wilson_interval": [
+      0.11761823115925325,
+      0.769280067791163
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": 0.17,
+    "z_mean_decayed": 0.55,
+    "per_subject": [
+      {
+        "materia": "ETICA",
+        "z_decayed": 0.9598942503077836,
+        "n": 22
+      },
+      {
+        "materia": "ECONOMÍA",
+        "z_decayed": 0.5720775535473551,
+        "n": 10
+      },
+      {
+        "materia": "ÉTICA",
+        "z_decayed": 0.35355339059327373,
+        "n": 8
+      },
+      {
+        "materia": "INGENIERÍA ECONÓMICA",
+        "z_decayed": -1.2135597524338355,
+        "n": 5
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [],
+    "sentiment": {
+      "overall": null,
+      "by_month": {}
+    },
+    "n_comments": 3
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        6.0,
+        7.0,
+        4.0,
+        10.0,
+        10.0
+      ],
+      "ewma": [
+        6.0,
+        6.299999999999999,
+        5.609999999999999,
+        6.927,
+        7.8488999999999995
+      ],
+      "sigma": 1.8323733549689047
+    },
+    "difficulty_trend": {
+      "series": [
+        4.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ewma": [
+        4.0,
+        2.8,
+        1.9599999999999997,
+        1.3719999999999997,
+        0.9603999999999997
+      ],
+      "sigma": 1.0518940783177744
+    },
+    "forecast": {
+      "quality_next": 7.8488999999999995,
+      "quality_band": [
+        4.257448224260946,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2025-11-28T00:00:00",
+      "materia": "ECONOMÍA",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "El mejor profe del tec"
+    },
+    {
+      "fecha_iso": "2022-03-15T00:00:00",
+      "materia": "ETICA",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2020-11-23T00:00:00",
+      "materia": "ADMINSITRACION",
+      "calidad": 4.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": "mira crack si lo que quieres es que te dejen todos los trabajos del semestre y ni siquiera sepas quien es o su nombre y namas entregues todo y te ponga 100 este es tu maestro"
+    },
+    {
+      "fecha_iso": "2019-06-01T00:00:00",
+      "materia": "ÉTICA",
+      "calidad": 7.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Barco es la palabra correcta para definir a este maestro, es un TITANIC jajaj. Si quieres aprender alguna clase no lleves con él, carga con él materias de relleno como Ética o contabilidad, super relajante y es imposible reprobar con él a menos que seas un huevonazo"
+    },
+    {
+      "fecha_iso": "2018-01-20T00:00:00",
+      "materia": "INGENIERÍA ECONÓMICA",
+      "calidad": 6.0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": ""
+    }
+  ],
+  "comments_recent": [
+    "El mejor profe del tec",
+    "mira crack si lo que quieres es que te dejen todos los trabajos del semestre y ni siquiera sepas quien es o su nombre y namas entregues todo y te ponga 100 este es tu maestro",
+    "Barco es la palabra correcta para definir a este maestro, es un TITANIC jajaj. Si quieres aprender alguna clase no lleves con él, carga con él materias de relleno como Ética o contabilidad, super relajante y es imposible reprobar con él a menos que seas un huevonazo"
+  ],
+  "n_reviews": 5
+}

@@ -1,0 +1,194 @@
+{
+  "professor_id": "Aldo_Uriarte_Portillo",
+  "nombre": "Aldo Uriarte Portillo",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 9.003344736652219,
+    "difficulty_decayed": 4.371195800371617
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.9117045829212,
+    "difficulty_bayes": 3.3361028684470826
+  },
+  "recommendation_analysis": {
+    "rate": 0.93,
+    "wilson_interval": [
+      0.4917897660591533,
+      0.994547548454057
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": 0.51,
+    "z_mean_decayed": 0.42,
+    "per_subject": [
+      {
+        "materia": "MATEMÁTICAS DISCRETAS",
+        "z_decayed": 0.8678859083927168,
+        "n": 17
+      },
+      {
+        "materia": "FUNDAMENTOS DE PROGRAMACION",
+        "z_decayed": 0.5384864320857611,
+        "n": 15
+      },
+      {
+        "materia": "FUNDAMENTOS DE PROGRAMACIÓN",
+        "z_decayed": 0.13361272759261705,
+        "n": 17
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "es buen",
+          "es",
+          "explica bien",
+          "explica",
+          "bien"
+        ],
+        "weight": 0.41890098704951706
+      },
+      {
+        "id": 1,
+        "words": [
+          "es buen",
+          "ensena",
+          "profe",
+          "es",
+          "profesor"
+        ],
+        "weight": 0.23287304239040857
+      }
+    ],
+    "sentiment": {
+      "overall": 0.0,
+      "by_month": {
+        "2025-12": 0.0,
+        "2024-12": -1.0,
+        "2024-05": 1.0,
+        "2023-07": 0.0,
+        "2023-05": 0.0
+      }
+    },
+    "n_comments": 5
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        9.0,
+        10.0,
+        10.0,
+        9.0,
+        8.0
+      ],
+      "ewma": [
+        9.0,
+        9.3,
+        9.51,
+        9.357,
+        8.9499
+      ],
+      "sigma": 0.6627831259167658
+    },
+    "difficulty_trend": {
+      "series": [
+        4.0,
+        4.0,
+        6.0,
+        4.0,
+        4.0
+      ],
+      "ewma": [
+        4.0,
+        4.0,
+        4.6,
+        4.42,
+        4.294
+      ],
+      "sigma": 0.7295061343127967
+    },
+    "forecast": {
+      "quality_next": 8.9499,
+      "quality_band": [
+        7.650845073203138,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2025-12-09T00:00:00",
+      "materia": "FUNDAMENTOS DE PROGRAMACIÓN",
+      "calidad": 8.0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "El profe Aldo es un muy buen maestro de programación, te explica todo de forma sencilla y sus clases son muy prácticas, no enseña mucha teoría más que nada se enfoca en que le entiendas al tema a través de la práctica, sus exámenes no son muy difíciles solo tienes que leer muy bien el problema."
+    },
+    {
+      "fecha_iso": "2024-12-15T00:00:00",
+      "materia": "FUNDAMENTOS DE PROGRAMACION",
+      "calidad": 9.0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Es un buen profesor, Explica bien las cosas y siempre ayuda con los que tienen dudas.\nLo unico malo que le daria es que se estresa mucho el profe cuando le toca un grupo que no sabe mucho, se desorienta de vez en cuando pero enseña bien"
+    },
+    {
+      "fecha_iso": "2024-05-15T00:00:00",
+      "materia": "FUNDAMENTOS D PROGRAMACIÓN",
+      "calidad": 10.0,
+      "dificultad": 6.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "es un excelente profesor, solamente que deja muchas tareas y puede absorber demasiado tiempo hacerlas ya que son obligatorias."
+    },
+    {
+      "fecha_iso": "2023-07-01T00:00:00",
+      "materia": "MATEMÁTICAS DISCRETAS",
+      "calidad": 10.0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Volveria a cargar con el. Explica bien los temas."
+    },
+    {
+      "fecha_iso": "2023-05-10T00:00:00",
+      "materia": "MATEMÁTICAS DISCRETAS 2",
+      "calidad": 9.0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Explica bien, es accesible, practicamos bastante los ejercicios. Es un buen maestro. Recomendado."
+    }
+  ],
+  "comments_recent": [
+    "El profe Aldo es un muy buen maestro de programación, te explica todo de forma sencilla y sus clases son muy prácticas, no enseña mucha teoría más que nada se enfoca en que le entiendas al tema a través de la práctica, sus exámenes no son muy difíciles solo tienes que leer muy bien el problema.",
+    "Es un buen profesor, Explica bien las cosas y siempre ayuda con los que tienen dudas.\nLo unico malo que le daria es que se estresa mucho el profe cuando le toca un grupo que no sabe mucho, se desorienta de vez en cuando pero enseña bien",
+    "es un excelente profesor, solamente que deja muchas tareas y puede absorber demasiado tiempo hacerlas ya que son obligatorias.",
+    "Volveria a cargar con el. Explica bien los temas.",
+    "Explica bien, es accesible, practicamos bastante los ejercicios. Es un buen maestro. Recomendado."
+  ],
+  "n_reviews": 5
+}

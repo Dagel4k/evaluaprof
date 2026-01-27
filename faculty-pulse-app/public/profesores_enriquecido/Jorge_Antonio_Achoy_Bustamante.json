@@ -1,0 +1,161 @@
+{
+  "professor_id": "Jorge_Antonio_Achoy_Bustamante",
+  "nombre": "Jorge Antonio Achoy Bustamante",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 8.433171389468608,
+    "difficulty_decayed": 3.929433431563148
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.711704582921199,
+    "difficulty_bayes": 3.0694362017804155
+  },
+  "recommendation_analysis": {
+    "rate": 0.79,
+    "wilson_interval": [
+      0.3674190158174146,
+      0.9605759172263786
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": 0.76,
+    "z_mean_decayed": 0.58,
+    "per_subject": [
+      {
+        "materia": "PROBABILIDAD Y ESTADÍSTICA",
+        "z_decayed": 1.4974422637729086,
+        "n": 8
+      },
+      {
+        "materia": "---",
+        "z_decayed": 0.6708142949437086,
+        "n": 80
+      },
+      {
+        "materia": "PROBABILIDAD",
+        "z_decayed": 0.12064516593999962,
+        "n": 7
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [],
+    "sentiment": {
+      "overall": null,
+      "by_month": {}
+    },
+    "n_comments": 1
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        10.0,
+        8.0,
+        10.0,
+        7.0,
+        8.0
+      ],
+      "ewma": [
+        10.0,
+        9.4,
+        9.58,
+        8.806,
+        8.5642
+      ],
+      "sigma": 0.9316101158746612
+    },
+    "difficulty_trend": {
+      "series": [
+        0.0,
+        6.0,
+        2.0,
+        4.0,
+        6.0
+      ],
+      "ewma": [
+        0.0,
+        1.7999999999999998,
+        1.8599999999999999,
+        2.502,
+        3.5513999999999992
+      ],
+      "sigma": 1.7439680364043375
+    },
+    "forecast": {
+      "quality_next": 8.5642,
+      "quality_band": [
+        6.738244172885664,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2020-08-12T00:00:00",
+      "materia": "PROBABILIDAD",
+      "calidad": 8.0,
+      "dificultad": 6.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2020-01-11T00:00:00",
+      "materia": "PROBABILIDAD Y ESTADÍSTICA DESCRIPTIVA",
+      "calidad": 7.0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2019-08-04T00:00:00",
+      "materia": "ESTADISTICA Y PROBABILIDAD",
+      "calidad": 10.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2018-08-04T00:00:00",
+      "materia": "---",
+      "calidad": 8.0,
+      "dificultad": 6.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2018-05-12T00:00:00",
+      "materia": "PROBABILIDAD Y ESTADÍSTICA",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": ""
+    }
+  ],
+  "comments_recent": [
+    "[Comentario esperando revisión]"
+  ],
+  "n_reviews": 5
+}

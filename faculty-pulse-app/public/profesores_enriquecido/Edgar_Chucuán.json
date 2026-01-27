@@ -1,0 +1,188 @@
+{
+  "professor_id": "Edgar_Chucuán",
+  "nombre": "Edgar Chucuán",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 4.885535204633933,
+    "difficulty_decayed": 3.8463832755857044
+  },
+  "bayes_analysis": {
+    "quality_bayes": 6.978371249587866,
+    "difficulty_bayes": 2.802769535113749
+  },
+  "recommendation_analysis": {
+    "rate": 0.67,
+    "wilson_interval": [
+      0.2775114404152864,
+      0.9147614513690061
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": -0.2,
+    "z_mean_decayed": -1.13,
+    "per_subject": [
+      {
+        "materia": "FISICA GENERAL",
+        "z_decayed": 0.7888106377466155,
+        "n": 9
+      },
+      {
+        "materia": "FISICA",
+        "z_decayed": 0.6708203932499371,
+        "n": 5
+      },
+      {
+        "materia": "PROBABILIDAD Y ESTADISTICA",
+        "z_decayed": -2.050562238019331,
+        "n": 19
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "profe",
+          "tareas",
+          "te",
+          "bien",
+          "clases"
+        ],
+        "weight": 0.41542558272053465
+      },
+      {
+        "id": 1,
+        "words": [
+          "pone duda",
+          "califica",
+          "materia",
+          "bien",
+          "profesor"
+        ],
+        "weight": 0.2482384021001579
+      }
+    ],
+    "sentiment": {
+      "overall": 0.0,
+      "by_month": {
+        "2024-11": 0.0,
+        "2022-08": 0.0,
+        "2021-12": 0.0,
+        "2018-08": 0.0
+      }
+    },
+    "n_comments": 4
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        10.0,
+        5.0,
+        2.0,
+        5.0
+      ],
+      "ewma": [
+        10.0,
+        8.5,
+        6.549999999999999,
+        6.084999999999999
+      ],
+      "sigma": 2.1029874583553747
+    },
+    "difficulty_trend": {
+      "series": [
+        1.0,
+        0.0,
+        8.0,
+        4.0
+      ],
+      "ewma": [
+        1.0,
+        0.7,
+        2.8899999999999997,
+        3.223
+      ],
+      "sigma": 2.612762698116051
+    },
+    "forecast": {
+      "quality_next": 6.084999999999999,
+      "quality_band": [
+        1.9631445816234647,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2024-11-04T00:00:00",
+      "materia": "APLICACIÓN DE LAS LEYES",
+      "calidad": 5.0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": "Pone en duda tus creencias y explica muy bien, pero es un profesor que no está pendiente de sus estudiantes, no explica bien las actividades, califica cosas que no pidió en estas, a veces no asiste a clases y no explica las mismas cosas a todos sus grupos, siendo esta la misma materia."
+    },
+    {
+      "fecha_iso": "2022-08-11T00:00:00",
+      "materia": "PROBABILIDAD Y ESTADISTICA",
+      "calidad": 2.0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Nunca se presento ni en linea ni en presencial,  hasta nos tuvieron que cambiar de profesor"
+    },
+    {
+      "fecha_iso": "2021-12-17T00:00:00",
+      "materia": "FISICA ISC (LINEA)",
+      "calidad": 5.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": "Este profe da clases muy diferentes a los demás profesores, sus clases son más de entender la física y muy poco de aplicarla con formulas o problemas. Da clases dos días a la semana, las tareas son obligatorias (con eso califica) y al final desapareció 3 semanas. Carga si no te importa la materia"
+    },
+    {
+      "fecha_iso": "2018-08-09T00:00:00",
+      "materia": "FISICA GENERAL",
+      "calidad": 10.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Súper recomendado, el mejor profe. Sus clases son muy interesantes y te pone en duda todo lo que crees saber. Hace pocos exámenes y todos son de las tareas. \n\nSe la rifa bien machin. Carguen con el, se van a divertir."
+    },
+    {
+      "fecha_iso": "2018-08-04T00:00:00",
+      "materia": "FISICA",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": ""
+    }
+  ],
+  "comments_recent": [
+    "Pone en duda tus creencias y explica muy bien, pero es un profesor que no está pendiente de sus estudiantes, no explica bien las actividades, califica cosas que no pidió en estas, a veces no asiste a clases y no explica las mismas cosas a todos sus grupos, siendo esta la misma materia.",
+    "Nunca se presento ni en linea ni en presencial,  hasta nos tuvieron que cambiar de profesor",
+    "Este profe da clases muy diferentes a los demás profesores, sus clases son más de entender la física y muy poco de aplicarla con formulas o problemas. Da clases dos días a la semana, las tareas son obligatorias (con eso califica) y al final desapareció 3 semanas. Carga si no te importa la materia",
+    "Súper recomendado, el mejor profe. Sus clases son muy interesantes y te pone en duda todo lo que crees saber. Hace pocos exámenes y todos son de las tareas. \n\nSe la rifa bien machin. Carguen con el, se van a divertir."
+  ],
+  "n_reviews": 5
+}

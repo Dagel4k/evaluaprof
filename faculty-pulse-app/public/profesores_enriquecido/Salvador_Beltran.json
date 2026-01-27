@@ -1,0 +1,187 @@
+{
+  "professor_id": "Salvador_Beltran",
+  "nombre": "Salvador Beltran",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 6.532382977257285,
+    "difficulty_decayed": 7.185227711662952
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.245037916254533,
+    "difficulty_bayes": 3.469436201780416
+  },
+  "recommendation_analysis": {
+    "rate": 0.83,
+    "wilson_interval": [
+      0.4004968475975438,
+      0.9727387658660827
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": 0.43,
+    "z_mean_decayed": 0.08,
+    "per_subject": [
+      {
+        "materia": "FISICA GENERAL",
+        "z_decayed": 0.7888106377466155,
+        "n": 9
+      },
+      {
+        "materia": "---",
+        "z_decayed": 0.06442849160476306,
+        "n": 80
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "dificil",
+          "maestro",
+          "recomiendo",
+          "te"
+        ],
+        "weight": 0.2618532843408968
+      },
+      {
+        "id": 1,
+        "words": [
+          "maestro",
+          "recomiendo",
+          "te",
+          "dificil"
+        ],
+        "weight": 0.2611623230308352
+      }
+    ],
+    "sentiment": {
+      "overall": -0.4,
+      "by_month": {
+        "2024-01": 0.0,
+        "2020-12": -1.0,
+        "2015-03": -1.0,
+        "2015-01": 0.0,
+        "2013-06": 0.0
+      }
+    },
+    "n_comments": 5
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        10.0,
+        10.0,
+        2.0,
+        8.0,
+        6.0
+      ],
+      "ewma": [
+        10.0,
+        10.0,
+        7.6,
+        7.719999999999999,
+        7.203999999999999
+      ],
+      "sigma": 2.4685775661299365
+    },
+    "difficulty_trend": {
+      "series": [
+        2.0,
+        0.0,
+        8.0,
+        6.0,
+        8.0
+      ],
+      "ewma": [
+        2.0,
+        1.4,
+        3.38,
+        4.1659999999999995,
+        5.316199999999999
+      ],
+      "sigma": 2.3396596265269016
+    },
+    "forecast": {
+      "quality_next": 7.203999999999999,
+      "quality_band": [
+        2.3655879703853238,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2024-01-18T00:00:00",
+      "materia": "---",
+      "calidad": 6.0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2020-12-14T00:00:00",
+      "materia": "TEORÍA ELECTROMAGNÉTICA",
+      "calidad": 8.0,
+      "dificultad": 6.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "La verdad si esta difícil. De repente su forma de enseñar es muy compleja y necesitas varios conocimientos matemáticos para entenderle. Te recomiendo no faltar ni un día, apuntar todo y no confiarte porque le entiendas al principio. En general es buena maestro y quiere que sus estudiantes aprendan."
+    },
+    {
+      "fecha_iso": "2015-03-08T00:00:00",
+      "materia": "FISICA 1",
+      "calidad": 2.0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "muy dificil."
+    },
+    {
+      "fecha_iso": "2015-01-08T00:00:00",
+      "materia": "FISICA 1",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "EL mejor profe que e tenidoo!!!, explicaaa muy claramentee todo los temas y te aclara las dudas, muy bueen maestro :) lo recomiendo muchisimoo!! me sentia perdida en esa materia pero el me ayudo muchoo!"
+    },
+    {
+      "fecha_iso": "2013-06-19T00:00:00",
+      "materia": "FISICA GENERAL",
+      "calidad": 10.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "exelente profesor."
+    }
+  ],
+  "comments_recent": [
+    "[Comentario esperando revisión]",
+    "La verdad si esta difícil. De repente su forma de enseñar es muy compleja y necesitas varios conocimientos matemáticos para entenderle. Te recomiendo no faltar ni un día, apuntar todo y no confiarte porque le entiendas al principio. En general es buena maestro y quiere que sus estudiantes aprendan.",
+    "muy dificil.",
+    "EL mejor profe que e tenidoo!!!, explicaaa muy claramentee todo los temas y te aclara las dudas, muy bueen maestro :) lo recomiendo muchisimoo!! me sentia perdida en esa materia pero el me ayudo muchoo!",
+    "exelente profesor."
+  ],
+  "n_reviews": 5
+}

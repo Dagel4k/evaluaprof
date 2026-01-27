@@ -1,0 +1,168 @@
+{
+  "professor_id": "LUIS_RAMON_PALMA_LOPEZ",
+  "nombre": "LUIS RAMON PALMA LOPEZ",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 9.596663873636718,
+    "difficulty_decayed": 0.5377815018177073
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.978371249587866,
+    "difficulty_bayes": 2.1361028684470824
+  },
+  "recommendation_analysis": {
+    "rate": 0.94,
+    "wilson_interval": [
+      0.5017333098582897,
+      0.9959141747598791
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": 0.38,
+    "z_mean_decayed": 0.47,
+    "per_subject": [
+      {
+        "materia": "CALCULO INTEGRAL",
+        "z_decayed": 0.8026622206675375,
+        "n": 22
+      },
+      {
+        "materia": "CALCULO VECTORIAL",
+        "z_decayed": 0.6882256538212068,
+        "n": 21
+      },
+      {
+        "materia": "CÁLCULO VECTORIAL",
+        "z_decayed": 0.44721359549995787,
+        "n": 5
+      },
+      {
+        "materia": "CÁLCULO INTEGRAL",
+        "z_decayed": -0.7160940564439974,
+        "n": 10
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [],
+    "sentiment": {
+      "overall": null,
+      "by_month": {}
+    },
+    "n_comments": 3
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        7.0,
+        10.0,
+        10.0,
+        10.0,
+        10.0
+      ],
+      "ewma": [
+        7.0,
+        7.8999999999999995,
+        8.53,
+        8.971,
+        9.2797
+      ],
+      "sigma": 0.788920558738331
+    },
+    "difficulty_trend": {
+      "series": [
+        4.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ewma": [
+        4.0,
+        2.8,
+        1.9599999999999997,
+        1.3719999999999997,
+        0.9603999999999997
+      ],
+      "sigma": 1.0518940783177744
+    },
+    "forecast": {
+      "quality_next": 9.2797,
+      "quality_band": [
+        7.733415704872871,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2025-08-18T00:00:00",
+      "materia": "CALCULO VECTORIAL",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2025-01-16T00:00:00",
+      "materia": "CALCULO VECTORIAL",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Curse con el y es un gran maestro, te da muchas oportunidades y enseña muy bien. Lo que ves en clase es lo mismo que viene en el examen, ademas da un repaso de lo que vendra en este."
+    },
+    {
+      "fecha_iso": "2024-08-24T00:00:00",
+      "materia": "CÁLCULO VECTORIAL",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Palma, el mejor profesor y más preparado de todo el tec; aparte de que es un amor de persona y muy inteligente. Aprendes en una clase y si no el te ayuda con explicaciones...avanza rápido pero bien explicado."
+    },
+    {
+      "fecha_iso": "2024-06-04T00:00:00",
+      "materia": "CALCULO INTEGRAL",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2023-08-07T00:00:00",
+      "materia": "CÁLCULO INTEGRAL",
+      "calidad": 7.0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Si de verdad quieres aprender te recomiendo cargar con el. Te da muchas oportunidades y haces pre exámenes para que pases; pone pocos problemas, además,  te puede explicar las veces que sean necesarias hasta que le entiendas.\nTambién tienes que poner de tu parte porque la calificación no la regala"
+    }
+  ],
+  "comments_recent": [
+    "Curse con el y es un gran maestro, te da muchas oportunidades y enseña muy bien. Lo que ves en clase es lo mismo que viene en el examen, ademas da un repaso de lo que vendra en este.",
+    "Palma, el mejor profesor y más preparado de todo el tec; aparte de que es un amor de persona y muy inteligente. Aprendes en una clase y si no el te ayuda con explicaciones...avanza rápido pero bien explicado.",
+    "Si de verdad quieres aprender te recomiendo cargar con el. Te da muchas oportunidades y haces pre exámenes para que pases; pone pocos problemas, además,  te puede explicar las veces que sean necesarias hasta que le entiendas.\nTambién tienes que poner de tu parte porque la calificación no la regala"
+  ],
+  "n_reviews": 5
+}

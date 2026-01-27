@@ -1,0 +1,171 @@
+{
+  "professor_id": "Fernando_Taniyama",
+  "nombre": "Fernando Taniyama",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 8.955323916939921,
+    "difficulty_decayed": 0.34648738556403436
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.845037916254532,
+    "difficulty_bayes": 2.0027695351137487
+  },
+  "recommendation_analysis": {
+    "rate": 1.0,
+    "wilson_interval": [
+      0.565508505247919,
+      1
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": 0.13,
+    "z_mean_decayed": 0.13,
+    "per_subject": [
+      {
+        "materia": "ADMINISTRACIÓN Y CONTABILIDAD",
+        "z_decayed": 0.629858167745255,
+        "n": 5
+      },
+      {
+        "materia": "CONTABILIDAD",
+        "z_decayed": 0.4264552584592892,
+        "n": 10
+      },
+      {
+        "materia": "TALLER DE ETICA",
+        "z_decayed": -1.4832396974191318,
+        "n": 5
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [],
+    "sentiment": {
+      "overall": 0.0,
+      "by_month": {
+        "2021-09": 0.0,
+        "2019-09": 0.0,
+        "2019-04": 0.0,
+        "2019-01": 0.0,
+        "2016-06": 0.0
+      }
+    },
+    "n_comments": 5
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        10.0,
+        6.0,
+        10.0,
+        10.0,
+        9.0
+      ],
+      "ewma": [
+        10.0,
+        8.8,
+        9.16,
+        9.411999999999999,
+        9.2884
+      ],
+      "sigma": 1.451131707323633
+    },
+    "difficulty_trend": {
+      "series": [
+        0.0,
+        0.0,
+        2.0,
+        0.0,
+        0.0
+      ],
+      "ewma": [
+        0.0,
+        0.0,
+        0.6,
+        0.42,
+        0.294
+      ],
+      "sigma": 0.7295061343127965
+    },
+    "forecast": {
+      "quality_next": 9.2884,
+      "quality_band": [
+        6.444181853645679,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2021-09-02T00:00:00",
+      "materia": "CONTABILIDAD",
+      "calidad": 9.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Era un crack :c"
+    },
+    {
+      "fecha_iso": "2019-09-23T00:00:00",
+      "materia": "CONTABILIDAD",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Lo amamos todos"
+    },
+    {
+      "fecha_iso": "2019-04-11T00:00:00",
+      "materia": "CONTABILIDAD",
+      "calidad": 10.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "El mejor maestro de contabilidad que puedes tener. Se esfuerza porque pases los examenes y cuando los repruebas te da la oportunidad de pasar presentando trabajos. Llevale la corriente con lo que te pida, y no lo hagan enojar jeje"
+    },
+    {
+      "fecha_iso": "2019-01-31T00:00:00",
+      "materia": "TALLER DE ETICA",
+      "calidad": 6.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": "Es una hora libre este profesor"
+    },
+    {
+      "fecha_iso": "2016-06-20T00:00:00",
+      "materia": "ADMINISTRACIÓN Y CONTABILIDAD",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Aprendes poco, pero no te exige, deja pura investigacion y que expongas los que investigaste..."
+    }
+  ],
+  "comments_recent": [
+    "Era un crack :c",
+    "Lo amamos todos",
+    "El mejor maestro de contabilidad que puedes tener. Se esfuerza porque pases los examenes y cuando los repruebas te da la oportunidad de pasar presentando trabajos. Llevale la corriente con lo que te pida, y no lo hagan enojar jeje",
+    "Es una hora libre este profesor",
+    "Aprendes poco, pero no te exige, deja pura investigacion y que expongas los que investigaste..."
+  ],
+  "n_reviews": 5
+}

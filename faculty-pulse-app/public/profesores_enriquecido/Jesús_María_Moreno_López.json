@@ -1,0 +1,121 @@
+{
+  "professor_id": "Jesús_María_Moreno_López",
+  "nombre": "Jesús María Moreno López",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 9.690193940831852,
+    "difficulty_decayed": 1.858836355008895
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.821197595678307,
+    "difficulty_bayes": 2.6185802328235566
+  },
+  "recommendation_analysis": {
+    "rate": 1.0,
+    "wilson_interval": [
+      0.4384939195509822,
+      1
+    ],
+    "n_recommendations": 3
+  },
+  "subject_normalization": {
+    "z_mean": null,
+    "z_mean_decayed": null,
+    "per_subject": []
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [],
+    "sentiment": {
+      "overall": null,
+      "by_month": {}
+    },
+    "n_comments": 3
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        9.0,
+        10.0,
+        10.0
+      ],
+      "ewma": [
+        9.0,
+        9.3,
+        9.51
+      ],
+      "sigma": 0.3592121007612816
+    },
+    "difficulty_trend": {
+      "series": [
+        6.0,
+        0.0,
+        0.0
+      ],
+      "ewma": [
+        6.0,
+        4.199999999999999,
+        2.9399999999999995
+      ],
+      "sigma": 2.155272604567691
+    },
+    "forecast": {
+      "quality_next": 9.51,
+      "quality_band": [
+        8.805944282507888,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2013-12-10T00:00:00",
+      "materia": "FLUIDOS",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Chema es de los mejores maestros que tiene el tec"
+    },
+    {
+      "fecha_iso": "2013-11-18T00:00:00",
+      "materia": "HIDRÁULICA",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Muy buen maestro sin duda lo recomiendo"
+    },
+    {
+      "fecha_iso": "2013-08-07T00:00:00",
+      "materia": "MECÁNICA DE FLUIDOS",
+      "calidad": 9.0,
+      "dificultad": 6.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Chemita es uno de los mejores maestros que tiene el tecnológico!, a mi me encantó su clase. Aparte tiene muchísima experiencia."
+    }
+  ],
+  "comments_recent": [
+    "Chema es de los mejores maestros que tiene el tec",
+    "Muy buen maestro sin duda lo recomiendo",
+    "Chemita es uno de los mejores maestros que tiene el tecnológico!, a mi me encantó su clase. Aparte tiene muchísima experiencia."
+  ],
+  "n_reviews": 3
+}

@@ -1,0 +1,127 @@
+{
+  "professor_id": "Jesús_Montoya_Guerrero",
+  "nombre": "Jesús Montoya Guerrero",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 4.944510414498775,
+    "difficulty_decayed": 5.056481190422656
+  },
+  "bayes_analysis": {
+    "quality_bayes": 6.821197595678307,
+    "difficulty_bayes": 2.9262725405158645
+  },
+  "recommendation_analysis": {
+    "rate": 0.33,
+    "wilson_interval": [
+      0.06040692909929794,
+      0.790505138253368
+    ],
+    "n_recommendations": 3
+  },
+  "subject_normalization": {
+    "z_mean": 0.0,
+    "z_mean_decayed": 0.0,
+    "per_subject": [
+      {
+        "materia": "SISTEMAS",
+        "z_decayed": 0.0,
+        "n": 3
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [],
+    "sentiment": {
+      "overall": null,
+      "by_month": {}
+    },
+    "n_comments": 3
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        6.0,
+        6.0,
+        4.0
+      ],
+      "ewma": [
+        6.0,
+        5.999999999999999,
+        5.3999999999999995
+      ],
+      "sigma": 0.8082903768654761
+    },
+    "difficulty_trend": {
+      "series": [
+        0.0,
+        2.0,
+        8.0
+      ],
+      "ewma": [
+        0.0,
+        0.6,
+        2.82
+      ],
+      "sigma": 2.679577081058377
+    },
+    "forecast": {
+      "quality_next": 5.3999999999999995,
+      "quality_band": [
+        3.815750861343666,
+        6.984249138656333
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2020-05-23T00:00:00",
+      "materia": "SISTEMAS DE MANUFACTURA",
+      "calidad": 4.0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": "Con el debido respeto q se merece, esta profesora ya no está para dar clases. Está chapada a la antigua, los groseros son sus favoritos. Sus chistes son malos y sus clases peor. Por favor,  échele ganas. Aunq la prefiero qe llevar con Samael, eso si qe no."
+    },
+    {
+      "fecha_iso": "2019-09-19T00:00:00",
+      "materia": "SISTEMAS",
+      "calidad": 6.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": "Sin palabras, los alumnos le faltan al respeto y no tiene seriedad en nada. Ya mejor que se jubile o que se ponga exigente porque no estamos para esta clase de profes"
+    },
+    {
+      "fecha_iso": "2013-11-14T00:00:00",
+      "materia": "ADMON. DE OPERACIONES",
+      "calidad": 6.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": "ME CAE MUY BIEN ESTA PROFESORA PERO ENTRAR CON ELLA ES COMO NO APRENDER NADA. SOLO VAS A LEER DIAPOSITIVAS MUY RECARGADAS Y NO SABE EXPLICARLAS"
+    }
+  ],
+  "comments_recent": [
+    "Con el debido respeto q se merece, esta profesora ya no está para dar clases. Está chapada a la antigua, los groseros son sus favoritos. Sus chistes son malos y sus clases peor. Por favor,  échele ganas. Aunq la prefiero qe llevar con Samael, eso si qe no.",
+    "Sin palabras, los alumnos le faltan al respeto y no tiene seriedad en nada. Ya mejor que se jubile o que se ponga exigente porque no estamos para esta clase de profes",
+    "ME CAE MUY BIEN ESTA PROFESORA PERO ENTRAR CON ELLA ES COMO NO APRENDER NADA. SOLO VAS A LEER DIAPOSITIVAS MUY RECARGADAS Y NO SABE EXPLICARLAS"
+  ],
+  "n_reviews": 3
+}

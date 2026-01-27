@@ -1,0 +1,184 @@
+{
+  "professor_id": "Pedro_Rochin_Angulo",
+  "nombre": "Pedro Rochin Angulo",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 8.46818390407679,
+    "difficulty_decayed": 2.058622757134192
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.778371249587866,
+    "difficulty_bayes": 2.402769535113749
+  },
+  "recommendation_analysis": {
+    "rate": 1.0,
+    "wilson_interval": [
+      0.565508505247919,
+      1
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": 0.4,
+    "z_mean_decayed": 0.42,
+    "per_subject": [
+      {
+        "materia": "TERMODINÁMICA",
+        "z_decayed": 0.9868408999590872,
+        "n": 8
+      },
+      {
+        "materia": "TERMODINAMICA",
+        "z_decayed": 0.12868382330076042,
+        "n": 6
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "persona",
+          "buen",
+          "buen profesor",
+          "profesor",
+          "es"
+        ],
+        "weight": 0.3046393314274436
+      },
+      {
+        "id": 1,
+        "words": [
+          "persona",
+          "profesor",
+          "excelente",
+          "excelente maestro",
+          "maestro"
+        ],
+        "weight": 0.2784670465710014
+      }
+    ],
+    "sentiment": {
+      "overall": 0.6,
+      "by_month": {
+        "2014-01": 0.5,
+        "2013-11": 0.0,
+        "2011-11": 1.0,
+        "2011-03": 1.0
+      }
+    },
+    "n_comments": 5
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        10.0,
+        10.0,
+        6.0,
+        9.0
+      ],
+      "ewma": [
+        10.0,
+        10.0,
+        8.8,
+        8.86
+      ],
+      "sigma": 1.4248625664720562
+    },
+    "difficulty_trend": {
+      "series": [
+        0.0,
+        0.0,
+        4.0,
+        2.0
+      ],
+      "ewma": [
+        0.0,
+        0.0,
+        1.2,
+        1.44
+      ],
+      "sigma": 1.3330666399946653
+    },
+    "forecast": {
+      "quality_next": 8.86,
+      "quality_band": [
+        6.0672693697147695,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2014-01-29T00:00:00",
+      "materia": "TERMODINAMICA",
+      "calidad": 9.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "muy buen profesor y muy buena persona c:"
+    },
+    {
+      "fecha_iso": "2014-01-07T00:00:00",
+      "materia": "TERMODINÁMICA",
+      "calidad": 9.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Es buen profesor, muuuuuy comprensivo y da muchas oportunidades para pasar, es claro y nunca se enoja (:"
+    },
+    {
+      "fecha_iso": "2013-11-29T00:00:00",
+      "materia": "TERMODINAMICA",
+      "calidad": 6.0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": "es un muy buen profesor y persona"
+    },
+    {
+      "fecha_iso": "2011-11-15T00:00:00",
+      "materia": "OP",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "EXCELENTE MAESTRO"
+    },
+    {
+      "fecha_iso": "2011-03-11T00:00:00",
+      "materia": "OPERACIONES UNITARIAS II",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Excelente maestro con experiencia, conocimientos y facilidad para enseñar, ojala todos fueran como él."
+    }
+  ],
+  "comments_recent": [
+    "muy buen profesor y muy buena persona c:",
+    "Es buen profesor, muuuuuy comprensivo y da muchas oportunidades para pasar, es claro y nunca se enoja (:",
+    "es un muy buen profesor y persona",
+    "EXCELENTE MAESTRO",
+    "Excelente maestro con experiencia, conocimientos y facilidad para enseñar, ojala todos fueran como él."
+  ],
+  "n_reviews": 5
+}

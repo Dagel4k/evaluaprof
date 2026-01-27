@@ -1,0 +1,184 @@
+{
+  "professor_id": "Dagoberto_Tolosa_mata",
+  "nombre": "Dagoberto Tolosa Mata",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 9.555358164713322,
+    "difficulty_decayed": 5.106736993124907
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.9117045829212,
+    "difficulty_bayes": 3.602769535113749
+  },
+  "recommendation_analysis": {
+    "rate": 0.75,
+    "wilson_interval": [
+      0.3359821624467274,
+      0.9467720901772321
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": 0.0,
+    "z_mean_decayed": 0.35,
+    "per_subject": [
+      {
+        "materia": "DISEÑO DE ELEMENTOS MECÁNICOS",
+        "z_decayed": 0.3508719190022702,
+        "n": 4
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "te",
+          "mejor",
+          "materia",
+          "va",
+          "si"
+        ],
+        "weight": 0.37819977686622613
+      },
+      {
+        "id": 1,
+        "words": [
+          "profesor",
+          "clases",
+          "bien",
+          "bastante",
+          "examenes"
+        ],
+        "weight": 0.259443501808723
+      }
+    ],
+    "sentiment": {
+      "overall": 0.2,
+      "by_month": {
+        "2023-06": 1.0,
+        "2023-04": 0.0,
+        "2021-01": 0.0,
+        "2020-06": 0.0,
+        "2020-01": 0.0
+      }
+    },
+    "n_comments": 5
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        7.0,
+        10.0,
+        9.0,
+        10.0,
+        10.0
+      ],
+      "ewma": [
+        7.0,
+        7.8999999999999995,
+        8.229999999999999,
+        8.761,
+        9.1327
+      ],
+      "sigma": 0.7644471780312883
+    },
+    "difficulty_trend": {
+      "series": [
+        6.0,
+        4.0,
+        6.0,
+        6.0,
+        4.0
+      ],
+      "ewma": [
+        6.0,
+        5.3999999999999995,
+        5.579999999999999,
+        5.7059999999999995,
+        5.1941999999999995
+      ],
+      "sigma": 0.8576011940290195
+    },
+    "forecast": {
+      "quality_next": 9.1327,
+      "quality_band": [
+        7.634383531058675,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2023-06-06T00:00:00",
+      "materia": "DISEÑO DE ELEMENTOS MECÁNICOS",
+      "calidad": 10.0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Es el profe que mejor domina la materia sin duda alguna, no dudes en cargar con el si tu especialidad es DDP, te termina de sentar las bases de Mecánica de Materiales si no las tienes claras. Va un poco rápido en ocasiones, pero no es nada que no se puede comprender. Excelente calidad de profesor."
+    },
+    {
+      "fecha_iso": "2023-04-01T00:00:00",
+      "materia": "DISEÑO DE ELEMENTOS MECÁNICOS",
+      "calidad": 10.0,
+      "dificultad": 6.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Es el mejor profesor que imparte la materia, no dudes en cargar con él, siempre da aplicaciones acerca de la materia, sus exámenes son largos y a veces complicados, enseña muy bien y siempre va a clase a lo que va. Es especialista en el tema así que aprovéchalo. Deja usar cualquier cosa en el examen"
+    },
+    {
+      "fecha_iso": "2021-01-16T00:00:00",
+      "materia": "DISEÑO DE ELEMENTOS MECÁNICOS",
+      "calidad": 9.0,
+      "dificultad": 6.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Espera bastante de ti, pero es compa si le preguntas y tiene videos de sus clases por si ocupas repasar algún tema."
+    },
+    {
+      "fecha_iso": "2020-06-15T00:00:00",
+      "materia": "DISEÑO DE ELEMENTOS MECANICOS",
+      "calidad": 10.0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Este maestro merece dar clases en Harvard. Es de lo mejor del tec. Te motiva mucho a seguir adelante"
+    },
+    {
+      "fecha_iso": "2020-01-01T00:00:00",
+      "materia": "DISEÑO DE ELEMENTOS MECÁNICOS",
+      "calidad": 7.0,
+      "dificultad": 6.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Es muy buen profesor, explica súper bien. Hace tres exámenes y califica con el robot. Aporta bastante material, los exámenes son a libro abierto (y celular). Llevé tres clases con él y pues, bellísimo."
+    }
+  ],
+  "comments_recent": [
+    "Es el profe que mejor domina la materia sin duda alguna, no dudes en cargar con el si tu especialidad es DDP, te termina de sentar las bases de Mecánica de Materiales si no las tienes claras. Va un poco rápido en ocasiones, pero no es nada que no se puede comprender. Excelente calidad de profesor.",
+    "Es el mejor profesor que imparte la materia, no dudes en cargar con él, siempre da aplicaciones acerca de la materia, sus exámenes son largos y a veces complicados, enseña muy bien y siempre va a clase a lo que va. Es especialista en el tema así que aprovéchalo. Deja usar cualquier cosa en el examen",
+    "Espera bastante de ti, pero es compa si le preguntas y tiene videos de sus clases por si ocupas repasar algún tema.",
+    "Este maestro merece dar clases en Harvard. Es de lo mejor del tec. Te motiva mucho a seguir adelante",
+    "Es muy buen profesor, explica súper bien. Hace tres exámenes y califica con el robot. Aporta bastante material, los exámenes son a libro abierto (y celular). Llevé tres clases con él y pues, bellísimo."
+  ],
+  "n_reviews": 5
+}

@@ -1,0 +1,189 @@
+{
+  "professor_id": "Miriam_Carmina_Rojas_Salcido",
+  "nombre": "Miriam Carmina Rojas Salcido",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 7.7911860560873105,
+    "difficulty_decayed": 0.0
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.578371249587866,
+    "difficulty_bayes": 1.8694362017804156
+  },
+  "recommendation_analysis": {
+    "rate": 0.92,
+    "wilson_interval": [
+      0.4820143151730107,
+      0.9930128292352413
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": -0.16,
+    "z_mean_decayed": -0.27,
+    "per_subject": [
+      {
+        "materia": "ALGORITMOS Y LENGUAJES DE PROGRAMACIÓN",
+        "z_decayed": 0.15809350443590992,
+        "n": 4
+      },
+      {
+        "materia": "ALGORITMOS",
+        "z_decayed": -1.5,
+        "n": 4
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "examenes",
+          "mas",
+          "conocimientos",
+          "es",
+          "si"
+        ],
+        "weight": 0.37277041306467995
+      },
+      {
+        "id": 1,
+        "words": [
+          "si",
+          "buena",
+          "da",
+          "carga",
+          "bien"
+        ],
+        "weight": 0.2348927228124149
+      }
+    ],
+    "sentiment": {
+      "overall": -0.2,
+      "by_month": {
+        "2023-06": -1.0,
+        "2023-01": 0.0,
+        "2022-12": 0.0,
+        "2021-10": 0.0,
+        "2019-01": 0.0
+      }
+    },
+    "n_comments": 5
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        10.0,
+        10.0,
+        2.0,
+        10.0,
+        9.0
+      ],
+      "ewma": [
+        10.0,
+        10.0,
+        7.6,
+        8.32,
+        8.524
+      ],
+      "sigma": 2.830050741594574
+    },
+    "difficulty_trend": {
+      "series": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ewma": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sigma": 0.0
+    },
+    "forecast": {
+      "quality_next": 8.524,
+      "quality_band": [
+        2.9771005464746336,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2023-06-07T00:00:00",
+      "materia": "ALGORITMOS Y LENGUAJES DE PROGRAMACIÓN",
+      "calidad": 9.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Muy buena explicando los temas, trata de ir lo más lento posible por si hay personas que no tienen conocimientos previos de lo que se está hablando, sus exámenes son en línea y es bastante relajada"
+    },
+    {
+      "fecha_iso": "2023-01-19T00:00:00",
+      "materia": "ALGORITMOS Y LENGUAJES DE PROGRAMACIÓN",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Si buscas algo relajado, ella es la indicada. Si no sabes nada de programación, carga con ella porque enseña lo básico pero no más allá. No toma en cuenta las asistencias ni hace exámenes."
+    },
+    {
+      "fecha_iso": "2022-12-12T00:00:00",
+      "materia": "ALGORITMOS",
+      "calidad": 2.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "El hecho que ponga de examen los mismos ejercicio que hace en clase debe darles una idea de lo mediocre de está maestra, me pregunto que les está aportando a su formación profesional?, lo único que le interesa es el cheque quincenal que le pagan y a los alumnos les da miseria de conocimientos"
+    },
+    {
+      "fecha_iso": "2021-10-25T00:00:00",
+      "materia": "ALGORITMOS Y LENGUAJES DE PROGRAMACIÓN",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "De verdad explica muy bien, paso a paso y no tiene inconveniente en regresarse en algo en caso de que algún compañero no haya entendido."
+    },
+    {
+      "fecha_iso": "2019-01-31T00:00:00",
+      "materia": "DESAROLLO SUSTENTABLE",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Muy buena profe, si puedes carga con ella todo lo que puedas. Es super linda y da bien las clases"
+    }
+  ],
+  "comments_recent": [
+    "Muy buena explicando los temas, trata de ir lo más lento posible por si hay personas que no tienen conocimientos previos de lo que se está hablando, sus exámenes son en línea y es bastante relajada",
+    "Si buscas algo relajado, ella es la indicada. Si no sabes nada de programación, carga con ella porque enseña lo básico pero no más allá. No toma en cuenta las asistencias ni hace exámenes.",
+    "El hecho que ponga de examen los mismos ejercicio que hace en clase debe darles una idea de lo mediocre de está maestra, me pregunto que les está aportando a su formación profesional?, lo único que le interesa es el cheque quincenal que le pagan y a los alumnos les da miseria de conocimientos",
+    "De verdad explica muy bien, paso a paso y no tiene inconveniente en regresarse en algo en caso de que algún compañero no haya entendido.",
+    "Muy buena profe, si puedes carga con ella todo lo que puedas. Es super linda y da bien las clases"
+  ],
+  "n_reviews": 5
+}

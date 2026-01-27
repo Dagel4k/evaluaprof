@@ -1,0 +1,173 @@
+{
+  "professor_id": "Adriana_Gámez_López",
+  "nombre": "Adriana Gámez López",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 8.935226211547402,
+    "difficulty_decayed": 2.3003655160640544
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.445037916254533,
+    "difficulty_bayes": 2.9361028684470822
+  },
+  "recommendation_analysis": {
+    "rate": 0.78,
+    "wilson_interval": [
+      0.35941209420164993,
+      0.9572726687371846
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": 0.58,
+    "z_mean_decayed": 0.58,
+    "per_subject": [
+      {
+        "materia": "ESTUDIO DEL TRABAJO II",
+        "z_decayed": 0.5773502691896268,
+        "n": 3
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "examen",
+          "te",
+          "es"
+        ],
+        "weight": 0.29055296198289815
+      },
+      {
+        "id": 1,
+        "words": [
+          "es",
+          "examen",
+          "te"
+        ],
+        "weight": 0.3797942947232328
+      }
+    ],
+    "sentiment": {
+      "overall": 0.0,
+      "by_month": {
+        "2025-06": 0.0,
+        "2021-10": 0.0,
+        "2018-06": 0.0
+      }
+    },
+    "n_comments": 4
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        5.0,
+        10.0,
+        10.0,
+        9.0
+      ],
+      "ewma": [
+        5.0,
+        6.5,
+        7.55,
+        7.984999999999999
+      ],
+      "sigma": 1.5443357525702326
+    },
+    "difficulty_trend": {
+      "series": [
+        5.0,
+        2.0,
+        2.0,
+        2.0
+      ],
+      "ewma": [
+        5.0,
+        4.1,
+        3.4699999999999998,
+        3.029
+      ],
+      "sigma": 0.8835611184292798
+    },
+    "forecast": {
+      "quality_next": 7.984999999999999,
+      "quality_band": [
+        4.958101924962344,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2025-06-09T00:00:00",
+      "materia": "PDI",
+      "calidad": 9.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Ve pocos ejercicios en clase, asegúrate de preguntar tus dudas de ellos en clase, las cuales suelen ser super tranquilas, nunca te exige nada, solo en el examen se pone estricta al revisar pero mientras apuntes bien tus formulas y las comprendas todo bien"
+    },
+    {
+      "fecha_iso": "2022-01-19T00:00:00",
+      "materia": "PLANEACION Y DISEÑO DE INSTALACIONES",
+      "calidad": 10.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2021-10-25T00:00:00",
+      "materia": "ESTUDIO DEL TRABAJO II",
+      "calidad": 10.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "La verdad me encanta como explica, todo lo hace paso a paso y de manera muy detallada, me gusta que esté abierta a resolver cualquier duda."
+    },
+    {
+      "fecha_iso": "2018-06-12T00:00:00",
+      "materia": "ESTUDIÓ DE TRABAJO",
+      "calidad": 2.0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Es muy barco"
+    },
+    {
+      "fecha_iso": "2018-06-06T00:00:00",
+      "materia": "PLANEACIÓN Y DISEÑO DE INSTALACIONES",
+      "calidad": 8.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Es muy buena maestra, es clara a la hora de explicar los temas y si los domina a la perfección. Lo que te sacas en el examen te queda pero si eres constante y no faltas al final te puede echar una mano. Es muy bonita tambien recomendada"
+    }
+  ],
+  "comments_recent": [
+    "Ve pocos ejercicios en clase, asegúrate de preguntar tus dudas de ellos en clase, las cuales suelen ser super tranquilas, nunca te exige nada, solo en el examen se pone estricta al revisar pero mientras apuntes bien tus formulas y las comprendas todo bien",
+    "La verdad me encanta como explica, todo lo hace paso a paso y de manera muy detallada, me gusta que esté abierta a resolver cualquier duda.",
+    "Es muy barco",
+    "Es muy buena maestra, es clara a la hora de explicar los temas y si los domina a la perfección. Lo que te sacas en el examen te queda pero si eres constante y no faltas al final te puede echar una mano. Es muy bonita tambien recomendada"
+  ],
+  "n_reviews": 5
+}

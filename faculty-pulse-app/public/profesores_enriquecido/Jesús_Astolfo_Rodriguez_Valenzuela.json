@@ -1,0 +1,189 @@
+{
+  "professor_id": "Jesús_Astolfo_Rodriguez_Valenzuela",
+  "nombre": "Jesús Astolfo Rodriguez Valenzuela",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 8.598628249228756,
+    "difficulty_decayed": 2.5405527071886134
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.711704582921199,
+    "difficulty_bayes": 2.6694362017804156
+  },
+  "recommendation_analysis": {
+    "rate": 0.94,
+    "wilson_interval": [
+      0.5017333098582897,
+      0.9959141747598791
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": 0.56,
+    "z_mean_decayed": 0.56,
+    "per_subject": [
+      {
+        "materia": "PROGRAMACIÓN",
+        "z_decayed": 1.0521324552523126,
+        "n": 7
+      },
+      {
+        "materia": "FUNDAMENTOS DE PROGRAMACIÓN",
+        "z_decayed": 1.0421792752224135,
+        "n": 17
+      },
+      {
+        "materia": "POO",
+        "z_decayed": 0.10935118555032275,
+        "n": 16
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "bien",
+          "espero",
+          "alumnos",
+          "te",
+          "astolfo"
+        ],
+        "weight": 0.35179911266617103
+      },
+      {
+        "id": 1,
+        "words": [
+          "aprender",
+          "hacia",
+          "si te",
+          "te",
+          "si"
+        ],
+        "weight": 0.30749836993542906
+      }
+    ],
+    "sentiment": {
+      "overall": 0.6,
+      "by_month": {
+        "2019-05": 1.0,
+        "2018-12": 0.0,
+        "2018-10": 1.0,
+        "2018-09": 0.0
+      }
+    },
+    "n_comments": 5
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        6.0,
+        9.5,
+        10.0,
+        8.0
+      ],
+      "ewma": [
+        6.0,
+        7.049999999999999,
+        7.934999999999999,
+        7.9544999999999995
+      ],
+      "sigma": 1.2999045077107272
+    },
+    "difficulty_trend": {
+      "series": [
+        0.0,
+        3.0,
+        0.0,
+        6.0
+      ],
+      "ewma": [
+        0.0,
+        0.8999999999999999,
+        0.6299999999999999,
+        2.2409999999999997
+      ],
+      "sigma": 2.0084297971300864
+    },
+    "forecast": {
+      "quality_next": 7.9544999999999995,
+      "quality_band": [
+        5.406687164886974,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2019-05-28T00:00:00",
+      "materia": "POO",
+      "calidad": 8.0,
+      "dificultad": 6.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Muy Bueno para Haber aprendido Tantos Lenguajes por si solo."
+    },
+    {
+      "fecha_iso": "2018-12-16T00:00:00",
+      "materia": "PROGRAMACIÓN",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "El profesor Astolfo fue una leyenda que existió en sistemas amado por muchos, odiado por otros pero siempre hacia reír a los alumnos y aunque ya estaba algo obsoleto, si te daba las bases para aprender a programar. Donde quiera que este un abrazo!"
+    },
+    {
+      "fecha_iso": "2018-10-25T00:00:00",
+      "materia": "FUNDAMENTOS DE PROGRAMACIÓN",
+      "calidad": 10.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Excelente maestro"
+    },
+    {
+      "fecha_iso": "2018-10-11T00:00:00",
+      "materia": "DISEÑO ESTRUCTURADO DE ALGORITMOS, PROGRAMACIÓN, POO",
+      "calidad": 9.0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Soy ex del ITC, llevé varias materias con el Profr. Astolfo, todas las que pude, fue muy claro en sus clases, estricto con sus trabajos, si te veía ganas de aprender te hacía participar en todas las clases y por supuesto que aprendías, de los mejores maestros que tuve. Espero que esté muy bien."
+    },
+    {
+      "fecha_iso": "2018-09-29T00:00:00",
+      "materia": "POO",
+      "calidad": 6.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": "El viejo Astolfo se JUBILÓ finalmente del Instituto, FELICIDADES, deja muchos años de enseña. Seguramente habrá alumnos que lo extrañen, otros no tanto y algunos se alegrarán, así es la vida. Personalmente espero que le vaya bien en lo que emprenda que tenga muchos años de vida."
+    }
+  ],
+  "comments_recent": [
+    "Muy Bueno para Haber aprendido Tantos Lenguajes por si solo.",
+    "El profesor Astolfo fue una leyenda que existió en sistemas amado por muchos, odiado por otros pero siempre hacia reír a los alumnos y aunque ya estaba algo obsoleto, si te daba las bases para aprender a programar. Donde quiera que este un abrazo!",
+    "Excelente maestro",
+    "Soy ex del ITC, llevé varias materias con el Profr. Astolfo, todas las que pude, fue muy claro en sus clases, estricto con sus trabajos, si te veía ganas de aprender te hacía participar en todas las clases y por supuesto que aprendías, de los mejores maestros que tuve. Espero que esté muy bien.",
+    "El viejo Astolfo se JUBILÓ finalmente del Instituto, FELICIDADES, deja muchos años de enseña. Seguramente habrá alumnos que lo extrañen, otros no tanto y algunos se alegrarán, así es la vida. Personalmente espero que le vaya bien en lo que emprenda que tenga muchos años de vida."
+  ],
+  "n_reviews": 5
+}

@@ -1,0 +1,194 @@
+{
+  "professor_id": "jose_luis_cazarez_contreras",
+  "nombre": "Jose Luis Cazarez Contreras",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 7.407517996330253,
+    "difficulty_decayed": 4.529008899320787
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.445037916254533,
+    "difficulty_bayes": 3.2027695351137493
+  },
+  "recommendation_analysis": {
+    "rate": 0.78,
+    "wilson_interval": [
+      0.35941209420164993,
+      0.9572726687371846
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": 0.03,
+    "z_mean_decayed": -0.13,
+    "per_subject": [
+      {
+        "materia": "CALCULO",
+        "z_decayed": 1.0574338424286975,
+        "n": 11
+      },
+      {
+        "materia": "CALCULO VECTORIAL",
+        "z_decayed": 0.20837095130476418,
+        "n": 21
+      },
+      {
+        "materia": "CALCULO INTEGRAL",
+        "z_decayed": -0.7123855342581741,
+        "n": 22
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "largas",
+          "examenes",
+          "si",
+          "tareas",
+          "clase"
+        ],
+        "weight": 0.3121232160308485
+      },
+      {
+        "id": 1,
+        "words": [
+          "materia es",
+          "profesor",
+          "materia",
+          "examen",
+          "es"
+        ],
+        "weight": 0.2788662183013839
+      }
+    ],
+    "sentiment": {
+      "overall": -0.06666666666666667,
+      "by_month": {
+        "2025-08": -0.3333333333333333,
+        "2025-06": 0.0,
+        "2024-08": 0.0,
+        "2023-06": 0.0,
+        "2022-11": 0.0
+      }
+    },
+    "n_comments": 5
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        10.0,
+        10.0,
+        4.0,
+        7.0,
+        8.0
+      ],
+      "ewma": [
+        10.0,
+        10.0,
+        8.2,
+        7.84,
+        7.888
+      ],
+      "sigma": 1.8371926409606587
+    },
+    "difficulty_trend": {
+      "series": [
+        0.0,
+        4.0,
+        6.0,
+        4.0,
+        6.0
+      ],
+      "ewma": [
+        0.0,
+        1.2,
+        2.6399999999999997,
+        3.0479999999999996,
+        3.9335999999999993
+      ],
+      "sigma": 1.3654035711100216
+    },
+    "forecast": {
+      "quality_next": 7.888,
+      "quality_band": [
+        4.2871024237171085,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2025-08-07T00:00:00",
+      "materia": "CALCULO VECTORIAL",
+      "calidad": 8.0,
+      "dificultad": 6.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "El profesor es bueno, pero la materia es dificil, hace un pre examen que se parece al examen final que suele ser dificil and sometimes deja muy poco time between the homework, the pre exam y el examen, es una materia pesada pero el profesor es decente.\n????? ???? ???? ?? ??????"
+    },
+    {
+      "fecha_iso": "2025-06-12T00:00:00",
+      "materia": "CALCULO INTEGRAL",
+      "calidad": 7.0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "En general es buen profesor, ayuda a los que se les nota el interes en la clase, pero las tareas son muy largas y a veces vienen ejercicios mucho mas complejos de lo que se ve en la clase, los examenes algunos SI estan complicados. SI no llevas bases de calculo se te complicara."
+    },
+    {
+      "fecha_iso": "2024-08-19T00:00:00",
+      "materia": "CALCULO INTEGRAL",
+      "calidad": 4.0,
+      "dificultad": 6.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": "Domina el tema pero es fácil perderse en su clase, las tareas son largas y muy difíciles, no da retroalimentación de las tareas por qué las revisa después del examen, en los exámenes agrega ejercicios confusos. Si faltas un solo dia ya perdiste 1 o 2 temas."
+    },
+    {
+      "fecha_iso": "2023-06-01T00:00:00",
+      "materia": "CALCULO VECTORIAL",
+      "calidad": 10.0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Buen profesor, ayuda muchos a los alumnos, explica bien y no es duro al calificar. Como se puede esperar de la materia no es fácil. Si vas a su cubículo para revisar las tareas o lo que te salio mal en el examen te ayuda a resolverlo."
+    },
+    {
+      "fecha_iso": "2022-11-23T00:00:00",
+      "materia": "CALCULO",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "FORCEDAD"
+    }
+  ],
+  "comments_recent": [
+    "El profesor es bueno, pero la materia es dificil, hace un pre examen que se parece al examen final que suele ser dificil and sometimes deja muy poco time between the homework, the pre exam y el examen, es una materia pesada pero el profesor es decente.\n????? ???? ???? ?? ??????",
+    "En general es buen profesor, ayuda a los que se les nota el interes en la clase, pero las tareas son muy largas y a veces vienen ejercicios mucho mas complejos de lo que se ve en la clase, los examenes algunos SI estan complicados. SI no llevas bases de calculo se te complicara.",
+    "Domina el tema pero es fácil perderse en su clase, las tareas son largas y muy difíciles, no da retroalimentación de las tareas por qué las revisa después del examen, en los exámenes agrega ejercicios confusos. Si faltas un solo dia ya perdiste 1 o 2 temas.",
+    "Buen profesor, ayuda muchos a los alumnos, explica bien y no es duro al calificar. Como se puede esperar de la materia no es fácil. Si vas a su cubículo para revisar las tareas o lo que te salio mal en el examen te ayuda a resolverlo.",
+    "FORCEDAD"
+  ],
+  "n_reviews": 5
+}

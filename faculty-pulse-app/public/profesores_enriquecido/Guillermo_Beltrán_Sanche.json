@@ -1,0 +1,181 @@
+{
+  "professor_id": "Guillermo_Beltrán_Sanche",
+  "nombre": "Guillermo Beltrán Sanche",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 3.5394281430842485,
+    "difficulty_decayed": 6.403713255713587
+  },
+  "bayes_analysis": {
+    "quality_bayes": 6.178371249587866,
+    "difficulty_bayes": 3.869436201780416
+  },
+  "recommendation_analysis": {
+    "rate": 0.23,
+    "wilson_interval": [
+      0.04613050931759584,
+      0.648494897848528
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": -1.11,
+    "z_mean_decayed": -1.23,
+    "per_subject": [
+      {
+        "materia": "CALCULO INTEGRAL",
+        "z_decayed": -0.735491679612369,
+        "n": 22
+      },
+      {
+        "materia": "CALCULO DIFERENCIAL",
+        "z_decayed": -1.4116245709404245,
+        "n": 29
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "maestro",
+          "es"
+        ],
+        "weight": 0.28100337009995785
+      },
+      {
+        "id": 1,
+        "words": [
+          "es",
+          "maestro"
+        ],
+        "weight": 0.31634327683989877
+      }
+    ],
+    "sentiment": {
+      "overall": 0.0,
+      "by_month": {
+        "2017-11": 0.0,
+        "2015-09": 0.0,
+        "2015-08": 0.0,
+        "2015-03": 0.0
+      }
+    },
+    "n_comments": 4
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        10.0,
+        2.0,
+        2.0,
+        4.0,
+        2.0
+      ],
+      "ewma": [
+        10.0,
+        7.6,
+        5.919999999999999,
+        5.343999999999999,
+        4.340799999999999
+      ],
+      "sigma": 2.1873918277254307
+    },
+    "difficulty_trend": {
+      "series": [
+        0.0,
+        8.0,
+        8.0,
+        8.0,
+        6.0
+      ],
+      "ewma": [
+        0.0,
+        2.4,
+        4.08,
+        5.256,
+        5.4792
+      ],
+      "sigma": 2.3365009325912967
+    },
+    "forecast": {
+      "quality_next": 4.340799999999999,
+      "quality_band": [
+        0.0535120176581545,
+        8.628087982341842
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2017-11-15T00:00:00",
+      "materia": "CALCULO DIFERENCIAL",
+      "calidad": 2.0,
+      "dificultad": 6.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "tuve un examen de 4 hora hay nomas lo dejo"
+    },
+    {
+      "fecha_iso": "2017-08-05T00:00:00",
+      "materia": "CALCULO DIFERENCIAL",
+      "calidad": 4.0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2015-09-13T00:00:00",
+      "materia": "CALCULO INTEGRAL",
+      "calidad": 2.0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "El peor profesor que jamas pudo existir, no lo digo exagerando, de verdad, es como si no tuvieras un maestro al frente de la clase, no esperes una explicaacion, mucho menos clara, no califica de manera arbitraria, y no vengo aqui a quejarme porque me reprobo, el tipo es un asco, y todos lo saben."
+    },
+    {
+      "fecha_iso": "2015-08-07T00:00:00",
+      "materia": "CALCULO DIFERENCIAL",
+      "calidad": 2.0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "este pforesor es de los mas groseros y burlescos, se burla de los gays y piensa que cualquier persona con pelo largo es drogadicta,  no hace mas que contar su vida en clases, para aprender tendras que buscar todo por tu cuenta, al final le suplicaras o te mataras por un 70, hagas lo que hagas no es buena idea cargar con el"
+    },
+    {
+      "fecha_iso": "2015-03-08T00:00:00",
+      "materia": "CALCULO INTEGRAL",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "muy buen maestro."
+    }
+  ],
+  "comments_recent": [
+    "tuve un examen de 4 hora hay nomas lo dejo",
+    "El peor profesor que jamas pudo existir, no lo digo exagerando, de verdad, es como si no tuvieras un maestro al frente de la clase, no esperes una explicaacion, mucho menos clara, no califica de manera arbitraria, y no vengo aqui a quejarme porque me reprobo, el tipo es un asco, y todos lo saben.",
+    "este pforesor es de los mas groseros y burlescos, se burla de los gays y piensa que cualquier persona con pelo largo es drogadicta,  no hace mas que contar su vida en clases, para aprender tendras que buscar todo por tu cuenta, al final le suplicaras o te mataras por un 70, hagas lo que hagas no es buena idea cargar con el",
+    "muy buen maestro."
+  ],
+  "n_reviews": 5
+}

@@ -1,0 +1,189 @@
+{
+  "professor_id": "Edna_Rocio_Barajas_Olivas",
+  "nombre": "Edna Rocio Barajas Olivas",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 10.000000000000002,
+    "difficulty_decayed": 0.5095158101716757
+  },
+  "bayes_analysis": {
+    "quality_bayes": 8.178371249587865,
+    "difficulty_bayes": 2.1361028684470824
+  },
+  "recommendation_analysis": {
+    "rate": 1.0,
+    "wilson_interval": [
+      0.565508505247919,
+      1
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": 0.66,
+    "z_mean_decayed": 0.66,
+    "per_subject": [
+      {
+        "materia": "INVESTIGACIÓN DE OPERACIONES",
+        "z_decayed": 0.6712925618877001,
+        "n": 11
+      },
+      {
+        "materia": "INVESTIGACION DE OPERACIONES",
+        "z_decayed": 0.6569492831038692,
+        "n": 12
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "buena",
+          "pone",
+          "te pone",
+          "maestra",
+          "te"
+        ],
+        "weight": 0.33309774109383083
+      },
+      {
+        "id": 1,
+        "words": [
+          "duda",
+          "cargar",
+          "volveria cargar",
+          "excelente",
+          "si"
+        ],
+        "weight": 0.35461621516562747
+      }
+    ],
+    "sentiment": {
+      "overall": 0.6,
+      "by_month": {
+        "2025-10": 1.0,
+        "2024-12": 1.0,
+        "2023-01": 1.0,
+        "2022-06": 0.0,
+        "2022-04": 0.0
+      }
+    },
+    "n_comments": 5
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 1,
+    "trust_score": 0.8
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        10.0
+      ],
+      "ewma": [
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        10.0
+      ],
+      "sigma": 0.0
+    },
+    "difficulty_trend": {
+      "series": [
+        0.0,
+        2.0,
+        2.0,
+        0.0,
+        0.0
+      ],
+      "ewma": [
+        0.0,
+        0.6,
+        1.02,
+        0.714,
+        0.49979999999999997
+      ],
+      "sigma": 0.9230373166887674
+    },
+    "forecast": {
+      "quality_next": 10.0,
+      "quality_band": [
+        10.0,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2025-10-27T00:00:00",
+      "materia": "INVESTIGACION DE OPERACIONES",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Excelente profesora, si impartiera mas materias sin duda volveria a cargar con ella."
+    },
+    {
+      "fecha_iso": "2024-12-02T00:00:00",
+      "materia": "INVESTIGACIÓN DE OPERACIONES",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "RocíoGOD\nExcelente profe, falta si es necesario, pero se entiende porque es la coordinadora de sistemas. Hace que la materia sea fácil, si no entiendes vuelve a explicar y te ayuda si tienes algún problema. Si puedes carga con ella. La mejor profe del tec, sin duda yo volvería a cargar con ella."
+    },
+    {
+      "fecha_iso": "2023-01-10T00:00:00",
+      "materia": "INVESTIGACION DE OPERACIONES",
+      "calidad": 10.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "excelente maestra, te ayuda si lo necesitas y sus examenes son sobre lo que se ve en clase :D"
+    },
+    {
+      "fecha_iso": "2022-06-17T00:00:00",
+      "materia": "INVESTIGACION DE OPERACIONES",
+      "calidad": 10.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Es muy buena maestra, cae muy bien y si no pasas el examen la recuperacion te la pone facil se preocupa mucho por ayudarte a pasar además de que su hora se va muy rapido"
+    },
+    {
+      "fecha_iso": "2022-04-04T00:00:00",
+      "materia": "INVESTIGACION DE OPERACIONES",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "muy buena maestra, la cargare siempre que la vea, es muy atenta y te pone 100 en las tareas aunque te salgan mal, muy recomendada sus exámenes son de lo visto en clase"
+    }
+  ],
+  "comments_recent": [
+    "Excelente profesora, si impartiera mas materias sin duda volveria a cargar con ella.",
+    "RocíoGOD\nExcelente profe, falta si es necesario, pero se entiende porque es la coordinadora de sistemas. Hace que la materia sea fácil, si no entiendes vuelve a explicar y te ayuda si tienes algún problema. Si puedes carga con ella. La mejor profe del tec, sin duda yo volvería a cargar con ella.",
+    "excelente maestra, te ayuda si lo necesitas y sus examenes son sobre lo que se ve en clase :D",
+    "Es muy buena maestra, cae muy bien y si no pasas el examen la recuperacion te la pone facil se preocupa mucho por ayudarte a pasar además de que su hora se va muy rapido",
+    "muy buena maestra, la cargare siempre que la vea, es muy atenta y te pone 100 en las tareas aunque te salgan mal, muy recomendada sus exámenes son de lo visto en clase"
+  ],
+  "n_reviews": 5
+}

@@ -1,0 +1,179 @@
+{
+  "professor_id": "BENJAMIN_BERRELEZA_ALDAPA",
+  "nombre": "BENJAMIN BERRELEZA ALDAPA",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 9.55471997950929,
+    "difficulty_decayed": 0.7217688603762805
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.845037916254532,
+    "difficulty_bayes": 2.6694362017804156
+  },
+  "recommendation_analysis": {
+    "rate": 1.0,
+    "wilson_interval": [
+      0.565508505247919,
+      1
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": 0.55,
+    "z_mean_decayed": 0.55,
+    "per_subject": [
+      {
+        "materia": "PROBABILIDAD Y ESTADISTICA",
+        "z_decayed": 0.546816596805155,
+        "n": 19
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "da",
+          "da muchas",
+          "muchas oportunidades",
+          "oportunidades",
+          "muchas"
+        ],
+        "weight": 0.2618852634268172
+      },
+      {
+        "id": 1,
+        "words": [
+          "explica",
+          "deja",
+          "examenes",
+          "clases",
+          "es"
+        ],
+        "weight": 0.34943093645870577
+      }
+    ],
+    "sentiment": {
+      "overall": 0.2,
+      "by_month": {
+        "2025-08": 1.0,
+        "2023-01": 0.0,
+        "2018-06": 0.0,
+        "2013-01": 0.0
+      }
+    },
+    "n_comments": 5
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        9.5,
+        7.0,
+        9.0,
+        10.0
+      ],
+      "ewma": [
+        9.5,
+        8.75,
+        8.825,
+        9.177499999999998
+      ],
+      "sigma": 1.0997071106284018
+    },
+    "difficulty_trend": {
+      "series": [
+        4.0,
+        2.0,
+        2.0,
+        0.0
+      ],
+      "ewma": [
+        4.0,
+        3.4,
+        2.98,
+        2.086
+      ],
+      "sigma": 0.8728319807767511
+    },
+    "forecast": {
+      "quality_next": 9.177499999999998,
+      "quality_band": [
+        7.022074063168331,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2025-08-04T00:00:00",
+      "materia": "INVESTIGACION DE OPERACIONES 2",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Gran profesor, de los pocos profesores que siento que aprendí algo y lo puedo aplicar en la vida real, explica excelente, sus clases son muy buenas, lo recomiendo muchoo"
+    },
+    {
+      "fecha_iso": "2023-01-21T00:00:00",
+      "materia": "PRODUCTOS",
+      "calidad": 9.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Si deja un proyecto super extenso pero vale la pena porque se retoman muchas cosas de la carrera. Hay que leer e investigar pero da muchas oportunidades"
+    },
+    {
+      "fecha_iso": "2018-06-06T00:00:00",
+      "materia": "INGENIERIA EN PRODUCTOS",
+      "calidad": 7.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Las clases son el hablando y explicando diapositivas, los examenes son en canvas y todo los saca de un archivo en PDF. Falta demasiado hasta 2 semanas seguidas pero cuando va deja varios trabajos y es muy fijado a la hora de calificar. Sin embargo con tantas faltas no se aprende nada"
+    },
+    {
+      "fecha_iso": "2013-01-10T00:00:00",
+      "materia": "PROBABILIDAD Y ESTADISTICA, INVESTIGACION DE OPERACIONE",
+      "calidad": 10.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "esta facil siempre y cuando pongas atencion, toma mucho en cuenta las tareas (cada una hasta llegan a valer 2 puntos de calificacion final), explica muy bien y te da muchas oportunidades de pasar, solo en los examenes ponganse abusados por que le gusta mucho que se quebren la cabeza pensando I"
+    },
+    {
+      "fecha_iso": "2013-01-10T00:00:00",
+      "materia": "PROBABILIDAD Y ESTADISTICA",
+      "calidad": 9.0,
+      "dificultad": 6.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "eCHALE GANAS ES CUESTION DE ACTITUD.\nMUY BUEN MAESTRO PERO ES ALGO EXIGENTE."
+    }
+  ],
+  "comments_recent": [
+    "Gran profesor, de los pocos profesores que siento que aprendí algo y lo puedo aplicar en la vida real, explica excelente, sus clases son muy buenas, lo recomiendo muchoo",
+    "Si deja un proyecto super extenso pero vale la pena porque se retoman muchas cosas de la carrera. Hay que leer e investigar pero da muchas oportunidades",
+    "Las clases son el hablando y explicando diapositivas, los examenes son en canvas y todo los saca de un archivo en PDF. Falta demasiado hasta 2 semanas seguidas pero cuando va deja varios trabajos y es muy fijado a la hora de calificar. Sin embargo con tantas faltas no se aprende nada",
+    "esta facil siempre y cuando pongas atencion, toma mucho en cuenta las tareas (cada una hasta llegan a valer 2 puntos de calificacion final), explica muy bien y te da muchas oportunidades de pasar, solo en los examenes ponganse abusados por que le gusta mucho que se quebren la cabeza pensando I",
+    "eCHALE GANAS ES CUESTION DE ACTITUD.\nMUY BUEN MAESTRO PERO ES ALGO EXIGENTE."
+  ],
+  "n_reviews": 5
+}

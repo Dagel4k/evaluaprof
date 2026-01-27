@@ -1,0 +1,171 @@
+{
+  "professor_id": "José_Luis_Reyes_Sánchez",
+  "nombre": "José Luis Reyes Sánchez",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 7.146662296050173,
+    "difficulty_decayed": 1.2230348631364338
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.511704582921199,
+    "difficulty_bayes": 2.2694362017804157
+  },
+  "recommendation_analysis": {
+    "rate": 0.88,
+    "wilson_interval": [
+      0.4444444444444444,
+      0.9853420195439739
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": 0.13,
+    "z_mean_decayed": -0.08,
+    "per_subject": [
+      {
+        "materia": "MÉTODOS NUMÉRICOS",
+        "z_decayed": 0.395628284037472,
+        "n": 5
+      },
+      {
+        "materia": "PROYECTO INTEGRADOR",
+        "z_decayed": 0.12670457224644743,
+        "n": 4
+      },
+      {
+        "materia": "CUALQUIERA",
+        "z_decayed": -0.39036002917941315,
+        "n": 5
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [],
+    "sentiment": {
+      "overall": 0.0,
+      "by_month": {
+        "2025-02": 0.0,
+        "2023-10": 0.0,
+        "2022-12": -1.0,
+        "2021-12": 0.0,
+        "2021-06": 1.0
+      }
+    },
+    "n_comments": 5
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        10.0,
+        9.0,
+        7.0,
+        10.0,
+        4.0
+      ],
+      "ewma": [
+        10.0,
+        9.7,
+        8.889999999999999,
+        9.222999999999999,
+        7.6560999999999995
+      ],
+      "sigma": 1.7357048458767408
+    },
+    "difficulty_trend": {
+      "series": [
+        0.0,
+        4.0,
+        0.0,
+        0.0,
+        2.0
+      ],
+      "ewma": [
+        0.0,
+        1.2,
+        0.84,
+        0.588,
+        1.0116
+      ],
+      "sigma": 1.4793563573392312
+    },
+    "forecast": {
+      "quality_next": 7.6560999999999995,
+      "quality_band": [
+        4.254118502081587,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2025-02-20T00:00:00",
+      "materia": "CUALQUIERA",
+      "calidad": 4.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": "No vale madre como maestro, por algo lo obligaron a renunciar.\nTe sacaba de clase por bostezar y vendía wifi de la misma institución de  forma clandestina](le decían el caimán).\nA todos los de centro de computo del área de sistemas los trataba mal.\nSu mejor apodo puesto por alumnos fue el XBOX"
+    },
+    {
+      "fecha_iso": "2023-10-26T00:00:00",
+      "materia": "COPPEL",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Es un pendejo"
+    },
+    {
+      "fecha_iso": "2022-12-21T00:00:00",
+      "materia": "PROYECTO INTEGRADOR",
+      "calidad": 7.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Profe barco me dijo que me iba a reprobar por sus webos y me la pelo, lo más  difícil es pasar con moya"
+    },
+    {
+      "fecha_iso": "2021-12-09T00:00:00",
+      "materia": "MÉTODOS NUMÉRICOS",
+      "calidad": 9.0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Participa siempre que puedas..."
+    },
+    {
+      "fecha_iso": "2021-06-14T00:00:00",
+      "materia": "PROYECTO INTEGRADOR",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Excelente Profesor!!"
+    }
+  ],
+  "comments_recent": [
+    "No vale madre como maestro, por algo lo obligaron a renunciar.\nTe sacaba de clase por bostezar y vendía wifi de la misma institución de  forma clandestina](le decían el caimán).\nA todos los de centro de computo del área de sistemas los trataba mal.\nSu mejor apodo puesto por alumnos fue el XBOX",
+    "Es un pendejo",
+    "Profe barco me dijo que me iba a reprobar por sus webos y me la pelo, lo más  difícil es pasar con moya",
+    "Participa siempre que puedas...",
+    "Excelente Profesor!!"
+  ],
+  "n_reviews": 5
+}

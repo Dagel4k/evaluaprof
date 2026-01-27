@@ -1,0 +1,194 @@
+{
+  "professor_id": "Hector_Perez_Soto",
+  "nombre": "Hector Perez Soto",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 9.66071801133099,
+    "difficulty_decayed": 1.9063701243944113
+  },
+  "bayes_analysis": {
+    "quality_bayes": 8.111704582921199,
+    "difficulty_bayes": 2.402769535113749
+  },
+  "recommendation_analysis": {
+    "rate": 0.83,
+    "wilson_interval": [
+      0.4004968475975438,
+      0.9727387658660827
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": 0.68,
+    "z_mean_decayed": 0.45,
+    "per_subject": [
+      {
+        "materia": "CALCULO DIFERENCIAL",
+        "z_decayed": 1.0821180788591152,
+        "n": 29
+      },
+      {
+        "materia": "CÁLCULO DIFERENCIAL",
+        "z_decayed": 0.8744299054666806,
+        "n": 24
+      },
+      {
+        "materia": "ECUACIONES DIFERENCIALES",
+        "z_decayed": 0.32981482272320667,
+        "n": 18
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "bien",
+          "clase",
+          "buen",
+          "profesor",
+          "buen profesor"
+        ],
+        "weight": 0.23523469453769627
+      },
+      {
+        "id": 1,
+        "words": [
+          "buen",
+          "profesor",
+          "bien",
+          "clase",
+          "es"
+        ],
+        "weight": 0.2980002942646937
+      }
+    ],
+    "sentiment": {
+      "overall": 0.4,
+      "by_month": {
+        "2025-10": 0.0,
+        "2025-08": 1.0,
+        "2024-06": 0.0,
+        "2021-01": 0.0,
+        "2020-11": 1.0
+      }
+    },
+    "n_comments": 5
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        9.0
+      ],
+      "ewma": [
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        9.7
+      ],
+      "sigma": 0.31304951684997023
+    },
+    "difficulty_trend": {
+      "series": [
+        2.0,
+        0.0,
+        2.0,
+        0.0,
+        4.0
+      ],
+      "ewma": [
+        2.0,
+        1.4,
+        1.5799999999999998,
+        1.1059999999999999,
+        1.9741999999999997
+      ],
+      "sigma": 1.365904172334209
+    },
+    "forecast": {
+      "quality_next": 9.7,
+      "quality_band": [
+        9.086422946974057,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2025-10-09T00:00:00",
+      "materia": "ECUACIONES DIFERENCIALES",
+      "calidad": 9.0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Puro fokin Perez Sex0. Muy buen profesor, a lo mejor con los exámenes y tareas no duermes en 2 o 3 días por parcial pero de ahí en fuera todo fine. Tqm Perez Soto"
+    },
+    {
+      "fecha_iso": "2025-08-08T00:00:00",
+      "materia": "MATEMATICAS PROPEDEUTICO",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Se la rifa el viejo todo claro"
+    },
+    {
+      "fecha_iso": "2024-06-04T00:00:00",
+      "materia": "ECUACIONES DIFERENCIALES",
+      "calidad": 10.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "2024, muy buen profesor. Solamente les pido para los siguientes alumnos intenten participar en clase y no se olviden en estudiar y repasar de los apuntes, fotos o videos de canales auxiliares. Con eso les irá bien y el profe estara contento con sus progresos"
+    },
+    {
+      "fecha_iso": "2021-01-21T00:00:00",
+      "materia": "CÁLCULO DIFERENCIAL",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Es muy buen maestro y se le entiende todo. Y es bien compa nomas no te burles de su risa porque se encabrona"
+    },
+    {
+      "fecha_iso": "2020-11-12T00:00:00",
+      "materia": "CALCULO DIFERENCIAL",
+      "calidad": 10.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Es un excelente profesor, tomaria su clase sin pensarlo, es super buena onda, y hace la materia facil de ver."
+    }
+  ],
+  "comments_recent": [
+    "Puro fokin Perez Sex0. Muy buen profesor, a lo mejor con los exámenes y tareas no duermes en 2 o 3 días por parcial pero de ahí en fuera todo fine. Tqm Perez Soto",
+    "Se la rifa el viejo todo claro",
+    "2024, muy buen profesor. Solamente les pido para los siguientes alumnos intenten participar en clase y no se olviden en estudiar y repasar de los apuntes, fotos o videos de canales auxiliares. Con eso les irá bien y el profe estara contento con sus progresos",
+    "Es muy buen maestro y se le entiende todo. Y es bien compa nomas no te burles de su risa porque se encabrona",
+    "Es un excelente profesor, tomaria su clase sin pensarlo, es super buena onda, y hace la materia facil de ver."
+  ],
+  "n_reviews": 5
+}

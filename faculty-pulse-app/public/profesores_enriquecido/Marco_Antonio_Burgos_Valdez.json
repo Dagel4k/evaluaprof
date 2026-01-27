@@ -1,0 +1,154 @@
+{
+  "professor_id": "Marco_Antonio_Burgos_Valdez",
+  "nombre": "Marco Antonio Burgos Valdez",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 9.83278654987151,
+    "difficulty_decayed": 0.3344269002569803
+  },
+  "bayes_analysis": {
+    "quality_bayes": 8.111704582921199,
+    "difficulty_bayes": 2.0027695351137487
+  },
+  "recommendation_analysis": {
+    "rate": 0.92,
+    "wilson_interval": [
+      0.4820143151730107,
+      0.9930128292352413
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": 0.89,
+    "z_mean_decayed": 0.93,
+    "per_subject": [
+      {
+        "materia": "INVESTIGACIÓN DE OPERACIONES II",
+        "z_decayed": 1.0084152956251229,
+        "n": 5
+      },
+      {
+        "materia": "TALLER DE HERRAMIENTAS INTELECTUALES",
+        "z_decayed": 0.7807200583588265,
+        "n": 7
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [],
+    "sentiment": {
+      "overall": null,
+      "by_month": {}
+    },
+    "n_comments": 3
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        10.0,
+        9.5,
+        10.0,
+        10.0
+      ],
+      "ewma": [
+        10.0,
+        9.85,
+        9.895,
+        9.926499999999999
+      ],
+      "sigma": 0.20942316610155634
+    },
+    "difficulty_trend": {
+      "series": [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "ewma": [
+        0.0,
+        0.3,
+        0.21,
+        0.147
+      ],
+      "sigma": 0.4188463322031124
+    },
+    "forecast": {
+      "quality_next": 9.926499999999999,
+      "quality_band": [
+        9.516030594440949,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2023-01-19T00:00:00",
+      "materia": "INVESTIGACIÓN DE OPERACIONES II",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2022-01-31T00:00:00",
+      "materia": "INVESTIGACIÓN DE OPERACIONES 1",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "SUPER MAESTRAZO!\n\nSi tienes 100 veces la misma duda, son las mismas veces que te explicará hasta que entiendas!"
+    },
+    {
+      "fecha_iso": "2021-01-19T00:00:00",
+      "materia": "TALLER DE HERRAMIENTA INTELECTUAL",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2021-01-16T00:00:00",
+      "materia": "TALLER DE HERRAMIENTAS INTELECTUALES",
+      "calidad": 9.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Da clases muy buenas y se concentra mucho en que aprendamos de verdad, siempre esta disponible y dispuesto a ayudar. Es alguien de confianza."
+    },
+    {
+      "fecha_iso": "2019-03-30T00:00:00",
+      "materia": "INVESTIGACION DE OPERACIONES 1",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "El mejor maestro definitivamente, 100% recomendado, explica super bien solo que si va un poco rápido , es cuestión de practicar lo visto en clase. Es el mejor para IO mi mejor elección..."
+    }
+  ],
+  "comments_recent": [
+    "SUPER MAESTRAZO!\n\nSi tienes 100 veces la misma duda, son las mismas veces que te explicará hasta que entiendas!",
+    "Da clases muy buenas y se concentra mucho en que aprendamos de verdad, siempre esta disponible y dispuesto a ayudar. Es alguien de confianza.",
+    "El mejor maestro definitivamente, 100% recomendado, explica super bien solo que si va un poco rápido , es cuestión de practicar lo visto en clase. Es el mejor para IO mi mejor elección..."
+  ],
+  "n_reviews": 5
+}

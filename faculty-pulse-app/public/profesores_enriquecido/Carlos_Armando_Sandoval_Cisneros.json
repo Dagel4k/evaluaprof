@@ -1,0 +1,179 @@
+{
+  "professor_id": "Carlos_Armando_Sandoval_Cisneros",
+  "nombre": "Carlos Armando Sandoval Cisneros",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 8.570004977834877,
+    "difficulty_decayed": 0.9173170762437111
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.619683481701285,
+    "difficulty_bayes": 2.2886816447647313
+  },
+  "recommendation_analysis": {
+    "rate": 1.0,
+    "wilson_interval": [
+      0.5100999795960008,
+      1
+    ],
+    "n_recommendations": 4
+  },
+  "subject_normalization": {
+    "z_mean": 0.43,
+    "z_mean_decayed": 0.41,
+    "per_subject": [
+      {
+        "materia": "SIMULACION",
+        "z_decayed": 1.2401984476287014,
+        "n": 11
+      },
+      {
+        "materia": "SISTEMAS OPERATIVOS",
+        "z_decayed": 0.2658800376175965,
+        "n": 7
+      },
+      {
+        "materia": "MATEMÁTICAS DISCRETAS",
+        "z_decayed": 0.2264050195807088,
+        "n": 17
+      },
+      {
+        "materia": "LENGUAJES DE INTERFAZ",
+        "z_decayed": 0.0,
+        "n": 3
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "bien",
+          "deja",
+          "deja muchas",
+          "muchas",
+          "muchas tareas"
+        ],
+        "weight": 0.3753461729292753
+      },
+      {
+        "id": 1,
+        "words": [
+          "buen profe",
+          "cuenta",
+          "te",
+          "trabajos",
+          "profe"
+        ],
+        "weight": 0.40493205086985357
+      }
+    ],
+    "sentiment": {
+      "overall": 0.0,
+      "by_month": {
+        "2026-01": 0.0,
+        "2025-06": 0.0,
+        "2025-01": 0.0
+      }
+    },
+    "n_comments": 4
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        7.0,
+        9.0,
+        9.0
+      ],
+      "ewma": [
+        7.0,
+        7.6,
+        8.02
+      ],
+      "sigma": 0.718424201522564
+    },
+    "difficulty_trend": {
+      "series": [
+        2.0,
+        1.0,
+        0.0
+      ],
+      "ewma": [
+        2.0,
+        1.7,
+        1.19
+      ],
+      "sigma": 0.5980802621722272
+    },
+    "forecast": {
+      "quality_next": 8.02,
+      "quality_band": [
+        6.611888565015774,
+        9.428111434984224
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2026-01-08T00:00:00",
+      "materia": "LENGUAJES DE INTERFAZ",
+      "calidad": 9.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Buen profe, no deja muchas tareas. Cuenta chistes en sus clases, explica bien y si no le entiendes él te ayuda. La mayoría de los trabajos son en equipo y no califica duro, los exámenes son cortos y fáciles"
+    },
+    {
+      "fecha_iso": "2025-06-10T00:00:00",
+      "materia": "MATEMÁTICAS DISCRETAS",
+      "calidad": 8.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "cae bien, no deja muchas tareas y los exámenes no son muy complicados, volvería a tomar clase con él."
+    },
+    {
+      "fecha_iso": "2025-06-10T00:00:00",
+      "materia": "SIMULACION",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "muy buen profe, le sabe a todo, es chistoson, te pude que seas puntual pero no lo cuenta, lo digo por experiencia propia, y sus trabajos no estan dificiles, pide hacer equipos, y esta sencillo"
+    },
+    {
+      "fecha_iso": "2025-01-30T00:00:00",
+      "materia": "SISTEMAS OPERATIVOS",
+      "calidad": 7.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "NOTA: se me asignó este profe en sistemas operativos después de que se jubilara Fidel Disposorio.\nBuena onda el profe y gracioso.\nAunque deje pocas tareas, tienes que ir a sus clases para estar al corriente de los temas para estar preparado en sus examenes, ya que los hace presencial."
+    }
+  ],
+  "comments_recent": [
+    "Buen profe, no deja muchas tareas. Cuenta chistes en sus clases, explica bien y si no le entiendes él te ayuda. La mayoría de los trabajos son en equipo y no califica duro, los exámenes son cortos y fáciles",
+    "cae bien, no deja muchas tareas y los exámenes no son muy complicados, volvería a tomar clase con él.",
+    "muy buen profe, le sabe a todo, es chistoson, te pude que seas puntual pero no lo cuenta, lo digo por experiencia propia, y sus trabajos no estan dificiles, pide hacer equipos, y esta sencillo",
+    "NOTA: se me asignó este profe en sistemas operativos después de que se jubilara Fidel Disposorio.\nBuena onda el profe y gracioso.\nAunque deje pocas tareas, tienes que ir a sus clases para estar al corriente de los temas para estar preparado en sus examenes, ya que los hace presencial."
+  ],
+  "n_reviews": 4
+}

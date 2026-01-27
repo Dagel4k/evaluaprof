@@ -1,0 +1,194 @@
+{
+  "professor_id": "Flor_Salaiza",
+  "nombre": "Flor Salaiza",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 8.09275113902085,
+    "difficulty_decayed": 2.090164855623357
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.378371249587866,
+    "difficulty_bayes": 2.802769535113749
+  },
+  "recommendation_analysis": {
+    "rate": 0.71,
+    "wilson_interval": [
+      0.3060474596471615,
+      0.9314661125569644
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": 0.26,
+    "z_mean_decayed": 0.43,
+    "per_subject": [
+      {
+        "materia": "TALLER DE INVESTIGACIÓN",
+        "z_decayed": 0.894427190999916,
+        "n": 7
+      },
+      {
+        "materia": "TALLER DE INVESTIGACIÓN 2",
+        "z_decayed": 0.7267220926874316,
+        "n": 5
+      },
+      {
+        "materia": "TALLER DE INVESTIGACION II",
+        "z_decayed": -0.8429272304235245,
+        "n": 4
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "fomenta",
+          "lectura",
+          "fomenta lectura",
+          "sabe",
+          "es"
+        ],
+        "weight": 0.27835746380013726
+      },
+      {
+        "id": 1,
+        "words": [
+          "es",
+          "aprendes",
+          "califica",
+          "bien",
+          "te"
+        ],
+        "weight": 0.37650704182577277
+      }
+    ],
+    "sentiment": {
+      "overall": -0.2,
+      "by_month": {
+        "2021-01": 0.0,
+        "2020-08": 0.0,
+        "2019-06": -1.0,
+        "2018-06": 0.0,
+        "2017-06": 0.0
+      }
+    },
+    "n_comments": 5
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        8.0,
+        8.0,
+        2.0,
+        10.0,
+        10.0
+      ],
+      "ewma": [
+        8.0,
+        8.0,
+        6.199999999999999,
+        7.339999999999999,
+        8.137999999999998
+      ],
+      "sigma": 2.653389681143725
+    },
+    "difficulty_trend": {
+      "series": [
+        4.0,
+        2.0,
+        8.0,
+        0.0,
+        0.0
+      ],
+      "ewma": [
+        4.0,
+        3.4,
+        4.779999999999999,
+        3.345999999999999,
+        2.342199999999999
+      ],
+      "sigma": 2.550363826594159
+    },
+    "forecast": {
+      "quality_next": 8.137999999999998,
+      "quality_band": [
+        2.9373562249582967,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2021-01-16T00:00:00",
+      "materia": "TALLER DE INVESTIGACIÓN",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Siempre intenta que aprendamos, explica muy bien, fomenta la lectura y es estricta y deja tareas pero eso no le quita lo buena onda y servicial. Si quieren aprender ella es la opción, sabe mucho de todo."
+    },
+    {
+      "fecha_iso": "2020-08-28T00:00:00",
+      "materia": "TALLER DE INVESTIGACIÓN 2",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Es buena la Dra. Fomenta la lectura y sabe mucho de metodología de investigación."
+    },
+    {
+      "fecha_iso": "2019-06-14T00:00:00",
+      "materia": "TALLER DE INVESTIGACION II",
+      "calidad": 2.0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "no enseña nada y califica como le da la gana, por mas bien que este el trabajo siempre dira que esta mal aunque ya te haya dicho que esta bien, esta facil pasar pero no aprendes nada y sales pesimo"
+    },
+    {
+      "fecha_iso": "2018-06-10T00:00:00",
+      "materia": "TALLER DE INVESTIGACION",
+      "calidad": 8.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "todo el semestre es leer libros y una exposision, te la pasas agusto"
+    },
+    {
+      "fecha_iso": "2017-06-12T00:00:00",
+      "materia": "TALLER DE INVESTIGACIÓN II",
+      "calidad": 8.0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Muy buena profesora. Califica justo y aprendes mucho. Te fomenta el hábito de la lectura haciendo exámenes de algún libro, que dichos exámenes te pueden favorecer en tus calificaciones de las unidades.\nAl final tienes que entregar un informe final de algún proyecto que te deja desde el principio."
+    }
+  ],
+  "comments_recent": [
+    "Siempre intenta que aprendamos, explica muy bien, fomenta la lectura y es estricta y deja tareas pero eso no le quita lo buena onda y servicial. Si quieren aprender ella es la opción, sabe mucho de todo.",
+    "Es buena la Dra. Fomenta la lectura y sabe mucho de metodología de investigación.",
+    "no enseña nada y califica como le da la gana, por mas bien que este el trabajo siempre dira que esta mal aunque ya te haya dicho que esta bien, esta facil pasar pero no aprendes nada y sales pesimo",
+    "todo el semestre es leer libros y una exposision, te la pasas agusto",
+    "Muy buena profesora. Califica justo y aprendes mucho. Te fomenta el hábito de la lectura haciendo exámenes de algún libro, que dichos exámenes te pueden favorecer en tus calificaciones de las unidades.\nAl final tienes que entregar un informe final de algún proyecto que te deja desde el principio."
+  ],
+  "n_reviews": 5
+}

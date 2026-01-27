@@ -1,0 +1,183 @@
+{
+  "professor_id": "Leopoldo_Noel_Gaxiola_Sánchez",
+  "nombre": "Leopoldo Noel Gaxiola Sánchez",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 9.59277000780416,
+    "difficulty_decayed": 0.571125715650855
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.845037916254532,
+    "difficulty_bayes": 2.1361028684470824
+  },
+  "recommendation_analysis": {
+    "rate": 1.0,
+    "wilson_interval": [
+      0.565508505247919,
+      1
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": 0.48,
+    "z_mean_decayed": 0.73,
+    "per_subject": [
+      {
+        "materia": "CÁLCULO DIFERENCIAL",
+        "z_decayed": 0.8744299054666805,
+        "n": 24
+      },
+      {
+        "materia": "ELECTRÓNICA DE POTENCIA",
+        "z_decayed": 0.3935811620110143,
+        "n": 5
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "te",
+          "mas",
+          "profe"
+        ],
+        "weight": 0.2430170373549236
+      },
+      {
+        "id": 1,
+        "words": [
+          "profe",
+          "mas",
+          "te"
+        ],
+        "weight": 0.41471795526811256
+      }
+    ],
+    "sentiment": {
+      "overall": 0.0,
+      "by_month": {
+        "2022-12": 0.0,
+        "2018-02": 0.0,
+        "2017-10": 0.0,
+        "2017-08": 0.0
+      }
+    },
+    "n_comments": 4
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        8.0,
+        10.0,
+        8.0,
+        9.0,
+        10.0
+      ],
+      "ewma": [
+        8.0,
+        8.6,
+        8.42,
+        8.594,
+        9.015799999999999
+      ],
+      "sigma": 0.7325155343062701
+    },
+    "difficulty_trend": {
+      "series": [
+        0.0,
+        0.0,
+        2.0,
+        2.0,
+        0.0
+      ],
+      "ewma": [
+        0.0,
+        0.0,
+        0.6,
+        1.02,
+        0.714
+      ],
+      "sigma": 0.8478037508763452
+    },
+    "forecast": {
+      "quality_next": 9.015799999999999,
+      "quality_band": [
+        7.580069552759709,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2025-09-23T00:00:00",
+      "materia": "CÁLCULO DIFERENCIAL",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2022-12-02T00:00:00",
+      "materia": "ELECTRÓNICA DE POTENCIA",
+      "calidad": 9.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Sus clases son tranquilas, pero te hará escribir mucho pero sus apuntes te serán de mucha ayuda."
+    },
+    {
+      "fecha_iso": "2018-02-16T00:00:00",
+      "materia": "CIRCUITOS 1",
+      "calidad": 8.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Muy buen profe."
+    },
+    {
+      "fecha_iso": "2017-10-31T00:00:00",
+      "materia": "PROGRAMACION BASICA",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "A pesar de que nos dieron un profe 1 mes tarde, el profe alcanzo ver mas alla del programa y daba otras 7 materias diferentes"
+    },
+    {
+      "fecha_iso": "2017-08-09T00:00:00",
+      "materia": "ELECTRÓNICA DE POTENCIA",
+      "calidad": 8.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Es buena onda y te da chance de ponerte al corriente , el mismo nos dijo que no era su área pero me siento conforme con mi nivel, deja tareas y prácticas interesantes. Con más experiencia y será uno de los mejores profes."
+    }
+  ],
+  "comments_recent": [
+    "Sus clases son tranquilas, pero te hará escribir mucho pero sus apuntes te serán de mucha ayuda.",
+    "Muy buen profe.",
+    "A pesar de que nos dieron un profe 1 mes tarde, el profe alcanzo ver mas alla del programa y daba otras 7 materias diferentes",
+    "Es buena onda y te da chance de ponerte al corriente , el mismo nos dijo que no era su área pero me siento conforme con mi nivel, deja tareas y prácticas interesantes. Con más experiencia y será uno de los mejores profes."
+  ],
+  "n_reviews": 5
+}

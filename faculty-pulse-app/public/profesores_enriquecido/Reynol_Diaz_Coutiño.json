@@ -1,0 +1,187 @@
+{
+  "professor_id": "Reynol_Diaz_Coutiño",
+  "nombre": "Reynol Diaz Coutiño",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 8.80764260462841,
+    "difficulty_decayed": 5.977825965659974
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.645037916254533,
+    "difficulty_bayes": 4.002769535113749
+  },
+  "recommendation_analysis": {
+    "rate": 0.89,
+    "wilson_interval": [
+      0.4536202552174038,
+      0.987476378875973
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": 0.1,
+    "z_mean_decayed": 0.17,
+    "per_subject": [
+      {
+        "materia": "ECONOMÍA",
+        "z_decayed": 0.5720775535473551,
+        "n": 10
+      },
+      {
+        "materia": "ESTADÍSTICA INFERENCIAL I",
+        "z_decayed": -0.8488746876271654,
+        "n": 4
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "tiene",
+          "te",
+          "cuenta",
+          "muchisimo",
+          "si"
+        ],
+        "weight": 0.3520603673879592
+      },
+      {
+        "id": 1,
+        "words": [
+          "quieres aprender",
+          "tiene",
+          "te",
+          "aprender",
+          "profesor"
+        ],
+        "weight": 0.3271426110933999
+      }
+    ],
+    "sentiment": {
+      "overall": 0.5,
+      "by_month": {
+        "2020-10": 0.0,
+        "2020-01": 0.0,
+        "2015-09": 1.0,
+        "2015-01": 1.0
+      }
+    },
+    "n_comments": 4
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        6.0,
+        10.0,
+        6.0,
+        10.0,
+        10.0
+      ],
+      "ewma": [
+        6.0,
+        7.199999999999999,
+        6.839999999999999,
+        7.787999999999999,
+        8.4516
+      ],
+      "sigma": 1.5240973827154223
+    },
+    "difficulty_trend": {
+      "series": [
+        8.0,
+        6.0,
+        8.0,
+        2.0,
+        8.0
+      ],
+      "ewma": [
+        8.0,
+        7.3999999999999995,
+        7.58,
+        5.906,
+        6.5342
+      ],
+      "sigma": 2.07377988417286
+    },
+    "forecast": {
+      "quality_next": 8.4516,
+      "quality_band": [
+        5.464369129877772,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2020-10-02T00:00:00",
+      "materia": "ECONOMÍA",
+      "calidad": 10.0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "El mejor profesor que he tenido, se le ven las ganas de enseñar, y todo el conocimiento que tiene en su haber, si de verdad quieres aprender y no estás tan menso, súper recomendado este profesor. No te arrepentirás aunque te repruebe"
+    },
+    {
+      "fecha_iso": "2020-09-04T00:00:00",
+      "materia": "ECONOMÍA",
+      "calidad": 10.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2020-01-07T00:00:00",
+      "materia": "ESTADÍSTICA INFERENCIAL I",
+      "calidad": 6.0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": "De los mejores profesores que tiene el tecnológico de Culiacán. SI quieres aprender carga con él, ten en cuenta que debes ponerle todo el empeño y estudiar muchísimo por que si no, no pasas. \n-\nReprobé pero no quita el hecho que aprendí mucho, cárgalo pero que los demás profes sean barcos. \nSaludos."
+    },
+    {
+      "fecha_iso": "2015-09-28T00:00:00",
+      "materia": "MAESTRIA EN ING. INDUSTRIAL",
+      "calidad": 10.0,
+      "dificultad": 6.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Profesor dedicado a la comprensión, muy estricto pero a su vez muy accesible en asesoría y apoyo en la materia. Recomendable para estudiantes que deseen aprender."
+    },
+    {
+      "fecha_iso": "2015-01-15T00:00:00",
+      "materia": "ECONOMÍA AMBIENTAL",
+      "calidad": 6.0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": "Aterriza mucho los temas a la realidad, lo teórico queda muy claro, pero los problemas te los abienta y nunca los retoma, así que no sabes si está bien o mal. Toma mucho en cuenta los trabajos y los exámenes (en los cuales hay que esmerarse muchisimo y aveces no le atinas a lo que quería)"
+    }
+  ],
+  "comments_recent": [
+    "El mejor profesor que he tenido, se le ven las ganas de enseñar, y todo el conocimiento que tiene en su haber, si de verdad quieres aprender y no estás tan menso, súper recomendado este profesor. No te arrepentirás aunque te repruebe",
+    "De los mejores profesores que tiene el tecnológico de Culiacán. SI quieres aprender carga con él, ten en cuenta que debes ponerle todo el empeño y estudiar muchísimo por que si no, no pasas. \n-\nReprobé pero no quita el hecho que aprendí mucho, cárgalo pero que los demás profes sean barcos. \nSaludos.",
+    "Profesor dedicado a la comprensión, muy estricto pero a su vez muy accesible en asesoría y apoyo en la materia. Recomendable para estudiantes que deseen aprender.",
+    "Aterriza mucho los temas a la realidad, lo teórico queda muy claro, pero los problemas te los abienta y nunca los retoma, así que no sabes si está bien o mal. Toma mucho en cuenta los trabajos y los exámenes (en los cuales hay que esmerarse muchisimo y aveces no le atinas a lo que quería)"
+  ],
+  "n_reviews": 5
+}

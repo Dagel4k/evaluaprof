@@ -1,0 +1,184 @@
+{
+  "professor_id": "Jaime_Rochín_Angulo",
+  "nombre": "Jaime Rochín Angulo",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 7.10388087514423,
+    "difficulty_decayed": 3.3192018008011956
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.178371249587866,
+    "difficulty_bayes": 2.9361028684470822
+  },
+  "recommendation_analysis": {
+    "rate": 0.83,
+    "wilson_interval": [
+      0.4004968475975438,
+      0.9727387658660827
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": -0.85,
+    "z_mean_decayed": -0.85,
+    "per_subject": [
+      {
+        "materia": "ESTADÍSTICA INFERENCIAL I",
+        "z_decayed": -0.8488746876271654,
+        "n": 4
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "tambien",
+          "te da",
+          "es",
+          "industrial",
+          "te"
+        ],
+        "weight": 0.3925514708477552
+      },
+      {
+        "id": 1,
+        "words": [
+          "es",
+          "examenes",
+          "si",
+          "explicar",
+          "solo"
+        ],
+        "weight": 0.273978766585892
+      }
+    ],
+    "sentiment": {
+      "overall": 0.2,
+      "by_month": {
+        "2014-11": 0.0,
+        "2014-01": 0.0,
+        "2013-11": -1.0,
+        "2013-08": 1.0,
+        "2013-06": 1.0
+      }
+    },
+    "n_comments": 5
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        10.0,
+        5.0,
+        5.0,
+        6.0,
+        9.0
+      ],
+      "ewma": [
+        10.0,
+        8.5,
+        7.449999999999999,
+        7.014999999999999,
+        7.610499999999998
+      ],
+      "sigma": 1.9362460587435684
+    },
+    "difficulty_trend": {
+      "series": [
+        0.0,
+        4.0,
+        6.0,
+        2.0,
+        4.0
+      ],
+      "ewma": [
+        0.0,
+        1.2,
+        2.6399999999999997,
+        2.4479999999999995,
+        2.9135999999999997
+      ],
+      "sigma": 1.6783116849977537
+    },
+    "forecast": {
+      "quality_next": 7.610499999999998,
+      "quality_band": [
+        3.8154577248626045,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2014-11-13T00:00:00",
+      "materia": "ING. DE CALIDAD",
+      "calidad": 9.0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "MUY BUEN MAESTRO EXPLICA MUY BIEN, TE ENSEÑA A USAR SOFTWARE Y TE VUELVE A EXPLICAR SI NO LE ENTIENDES, RECOMENDADISIMO..."
+    },
+    {
+      "fecha_iso": "2014-01-11T00:00:00",
+      "materia": "ESTADÍSTICA INFERENCIAL I",
+      "calidad": 6.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": "Sus clases son claras y llenas de ejemplos. En todos los temas te da aplicaciones en el ámbito laboral, si te gusta Industrial sin duda te gustaran sus clases. Los exámenes los hace de ejercicios del libro. En calificación, aveces sube puntos. Tendrás que estudiar por tu cuenta también. Recomendado"
+    },
+    {
+      "fecha_iso": "2013-11-14T00:00:00",
+      "materia": "INGENIERIA DE CALIDAD",
+      "calidad": 5.0,
+      "dificultad": 6.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": "Es un pesimo profesor, es muy dificil que repruebes con el ya que es muy flojo, pero tecnicamente tu tienes que aprender solo porque el no te enseña absolutamente nada. Carguen con el solo si no hay otra opcion."
+    },
+    {
+      "fecha_iso": "2013-08-04T00:00:00",
+      "materia": "EST INF II",
+      "calidad": 5.0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": "Puro explicar por computadora, la neta no le entendí a nada y no le falté ni un solo día aún cuando el si faltaba mucho.\nLo bueno son los exámenes \"en equipo\", ni así pasé, en la recuperación me dejó de tarea el examen. Pasé con 90."
+    },
+    {
+      "fecha_iso": "2013-06-12T00:00:00",
+      "materia": "ESTADÍSTICA INFERENCIAL II",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Excelente, aplica mucho la Ing. Industrial en la materia y te da tips de ella. Califica con examenes y proyectos a la vez, también te enseña a utilizar software el cuál es MUY útil. Es medio flojo pero se nivela con el conocimiento que te deja. Uno de los mejores de industrial, RECOMENDADISIMO!"
+    }
+  ],
+  "comments_recent": [
+    "MUY BUEN MAESTRO EXPLICA MUY BIEN, TE ENSEÑA A USAR SOFTWARE Y TE VUELVE A EXPLICAR SI NO LE ENTIENDES, RECOMENDADISIMO...",
+    "Sus clases son claras y llenas de ejemplos. En todos los temas te da aplicaciones en el ámbito laboral, si te gusta Industrial sin duda te gustaran sus clases. Los exámenes los hace de ejercicios del libro. En calificación, aveces sube puntos. Tendrás que estudiar por tu cuenta también. Recomendado",
+    "Es un pesimo profesor, es muy dificil que repruebes con el ya que es muy flojo, pero tecnicamente tu tienes que aprender solo porque el no te enseña absolutamente nada. Carguen con el solo si no hay otra opcion.",
+    "Puro explicar por computadora, la neta no le entendí a nada y no le falté ni un solo día aún cuando el si faltaba mucho.\nLo bueno son los exámenes \"en equipo\", ni así pasé, en la recuperación me dejó de tarea el examen. Pasé con 90.",
+    "Excelente, aplica mucho la Ing. Industrial en la materia y te da tips de ella. Califica con examenes y proyectos a la vez, también te enseña a utilizar software el cuál es MUY útil. Es medio flojo pero se nivela con el conocimiento que te deja. Uno de los mejores de industrial, RECOMENDADISIMO!"
+  ],
+  "n_reviews": 5
+}

@@ -1,0 +1,161 @@
+{
+  "professor_id": "Jorge_Correa_Pérez",
+  "nombre": "Jorge Correa Pérez",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 2.0,
+    "difficulty_decayed": 8.0
+  },
+  "bayes_analysis": {
+    "quality_bayes": 5.511704582921199,
+    "difficulty_bayes": 4.536102868447083
+  },
+  "recommendation_analysis": {
+    "rate": 0.65,
+    "wilson_interval": [
+      0.2637430632333918,
+      0.9059094883409838
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": -0.78,
+    "z_mean_decayed": -0.78,
+    "per_subject": [
+      {
+        "materia": "ESTATICA",
+        "z_decayed": -0.7758873060752691,
+        "n": 7
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [],
+    "sentiment": {
+      "overall": 0.0,
+      "by_month": {
+        "2021-03": 0.0,
+        "2021-02": 0.0,
+        "2021-01": 0.0,
+        "2020-09": 0.0,
+        "2020-08": 0.0
+      }
+    },
+    "n_comments": 5
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 1,
+    "trust_score": 0.8
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0
+      ],
+      "ewma": [
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0
+      ],
+      "sigma": 0.0
+    },
+    "difficulty_trend": {
+      "series": [
+        8.0,
+        8.0,
+        8.0,
+        8.0,
+        8.0
+      ],
+      "ewma": [
+        8.0,
+        8.0,
+        8.0,
+        8.0,
+        8.0
+      ],
+      "sigma": 0.0
+    },
+    "forecast": {
+      "quality_next": 2.0,
+      "quality_band": [
+        2.0,
+        2.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2021-03-25T00:00:00",
+      "materia": "ESTATICA",
+      "calidad": 2.0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "El peor profesor con el que puedas cargar estatica, ni le sabe al Beer Johnston"
+    },
+    {
+      "fecha_iso": "2021-02-05T00:00:00",
+      "materia": "LA QUE DE",
+      "calidad": 2.0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "UN PENDEJO"
+    },
+    {
+      "fecha_iso": "2021-01-28T00:00:00",
+      "materia": "ESTATICA",
+      "calidad": 2.0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Enseña vergas este bato, nomás se la lleva zorreando morras"
+    },
+    {
+      "fecha_iso": "2020-09-24T00:00:00",
+      "materia": "ESTATICA",
+      "calidad": 2.0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Ojalá como calificas enseñarás viejo rabo verde"
+    },
+    {
+      "fecha_iso": "2020-08-08T00:00:00",
+      "materia": "ESTATICA",
+      "calidad": 2.0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Mil veces mejor puerta que este pendejo"
+    }
+  ],
+  "comments_recent": [
+    "El peor profesor con el que puedas cargar estatica, ni le sabe al Beer Johnston",
+    "UN PENDEJO",
+    "Enseña vergas este bato, nomás se la lleva zorreando morras",
+    "Ojalá como calificas enseñarás viejo rabo verde",
+    "Mil veces mejor puerta que este pendejo"
+  ],
+  "n_reviews": 5
+}

@@ -1,0 +1,182 @@
+{
+  "professor_id": "Bertha_Lucia_Patron_Arellano",
+  "nombre": "Bertha Lucia Patron Arellano",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 10.0,
+    "difficulty_decayed": 0.0
+  },
+  "bayes_analysis": {
+    "quality_bayes": 8.178371249587865,
+    "difficulty_bayes": 1.8694362017804156
+  },
+  "recommendation_analysis": {
+    "rate": 1.0,
+    "wilson_interval": [
+      0.565508505247919,
+      1
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": 0.96,
+    "z_mean_decayed": 0.97,
+    "per_subject": [
+      {
+        "materia": "ALGEBRA LINEAL",
+        "z_decayed": 1.0030345907667269,
+        "n": 13
+      },
+      {
+        "materia": "ÁLGEBRA LINEAL",
+        "z_decayed": 0.8017837257372736,
+        "n": 7
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "todas",
+          "deja",
+          "maestra",
+          "clases",
+          "te"
+        ],
+        "weight": 0.39941733192503237
+      },
+      {
+        "id": 1,
+        "words": [
+          "deja",
+          "maestra",
+          "clases",
+          "cada",
+          "si"
+        ],
+        "weight": 0.29422834175821966
+      }
+    ],
+    "sentiment": {
+      "overall": 0.25,
+      "by_month": {
+        "2025-06": 1.0,
+        "2022-12": 0.0,
+        "2022-08": 0.0
+      }
+    },
+    "n_comments": 4
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 1,
+    "trust_score": 0.8
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        10.0,
+        10.0,
+        10.0,
+        10.0
+      ],
+      "ewma": [
+        10.0,
+        10.0,
+        10.0,
+        10.0
+      ],
+      "sigma": 0.0
+    },
+    "difficulty_trend": {
+      "series": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ewma": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sigma": 0.0
+    },
+    "forecast": {
+      "quality_next": 10.0,
+      "quality_band": [
+        10.0,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2025-06-16T00:00:00",
+      "materia": "ALGEBRA LINEAL",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Muy buena maestra, sus clases son cortas pero la verdad si te deja muy en claro los temas vistos."
+    },
+    {
+      "fecha_iso": "2022-12-24T00:00:00",
+      "materia": "ALGEBRA LINEAL",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Normalmente solo da clases a un grupo a la vez y eso hace que le ponga demasiada atención a cada integrante del grupo, es demasiado comprensible con tareas, exámenes y actividades.\nTodas sus clases están bien preparadas y las lleva de manera directa y en un entorno de aprendizaje"
+    },
+    {
+      "fecha_iso": "2022-08-10T00:00:00",
+      "materia": "ÁLGEBRA LINEAL",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Verdaderamente una profesora que le gusta y se toma su trabajo en serio. Se encarga de que sus alumnos entiendan y apliquen su materia. Sus explicaciones son claras, completas y se detiene con cada tema a preguntar si alguien no entiende lo que se está viendo para explicarlo. Proactiva y eficiente."
+    },
+    {
+      "fecha_iso": "2022-08-10T00:00:00",
+      "materia": "ALGEBRA LINEAL",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "La mejor maestra del tec, explica muy bien y hace que te intereses en la clase, no te aburres. Participa en clase, eso puede ayudarte a subir calificación, deja tareas de lo visto en clase, entregalas todas ayuda mucho en el promedio y la asistencia también. Los exámenes son fáciles."
+    },
+    {
+      "fecha_iso": "2021-06-04T00:00:00",
+      "materia": "ALGEBRA LINEAL",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": ""
+    }
+  ],
+  "comments_recent": [
+    "Muy buena maestra, sus clases son cortas pero la verdad si te deja muy en claro los temas vistos.",
+    "Normalmente solo da clases a un grupo a la vez y eso hace que le ponga demasiada atención a cada integrante del grupo, es demasiado comprensible con tareas, exámenes y actividades.\nTodas sus clases están bien preparadas y las lleva de manera directa y en un entorno de aprendizaje",
+    "Verdaderamente una profesora que le gusta y se toma su trabajo en serio. Se encarga de que sus alumnos entiendan y apliquen su materia. Sus explicaciones son claras, completas y se detiene con cada tema a preguntar si alguien no entiende lo que se está viendo para explicarlo. Proactiva y eficiente.",
+    "La mejor maestra del tec, explica muy bien y hace que te intereses en la clase, no te aburres. Participa en clase, eso puede ayudarte a subir calificación, deja tareas de lo visto en clase, entregalas todas ayuda mucho en el promedio y la asistencia también. Los exámenes son fáciles."
+  ],
+  "n_reviews": 5
+}

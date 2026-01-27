@@ -1,0 +1,199 @@
+{
+  "professor_id": "Cesar_Ortiz_Franco",
+  "nombre": "Cesar Ortiz Franco",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 3.10093734119233,
+    "difficulty_decayed": 4.1941025886485885
+  },
+  "bayes_analysis": {
+    "quality_bayes": 6.378371249587866,
+    "difficulty_bayes": 2.802769535113749
+  },
+  "recommendation_analysis": {
+    "rate": 0.17,
+    "wilson_interval": [
+      0.02726123413391729,
+      0.5995031524024562
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": -1.4,
+    "z_mean_decayed": -1.39,
+    "per_subject": [
+      {
+        "materia": "ELECTRÓNICA ANALÓGICA",
+        "z_decayed": -0.9994859932839539,
+        "n": 7
+      },
+      {
+        "materia": "MAQUINAS ELECTRICAS",
+        "z_decayed": -1.044073795327749,
+        "n": 3
+      },
+      {
+        "materia": "INSTRUMENTACION",
+        "z_decayed": -1.5,
+        "n": 4
+      },
+      {
+        "materia": "MÁQUINAS ELÉCTRICAS",
+        "z_decayed": -2.047266065400742,
+        "n": 8
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "media hora",
+          "pendejo",
+          "llega",
+          "sabe",
+          "te"
+        ],
+        "weight": 0.4103454956117572
+      },
+      {
+        "id": 1,
+        "words": [
+          "te",
+          "presumiendo",
+          "ensena",
+          "facil",
+          "es"
+        ],
+        "weight": 0.292156102764736
+      }
+    ],
+    "sentiment": {
+      "overall": 0.0,
+      "by_month": {
+        "2022-12": 0.0,
+        "2021-06": -1.0,
+        "2019-06": 0.0,
+        "2017-02": 1.0,
+        "2017-01": 0.0
+      }
+    },
+    "n_comments": 5
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        3.0,
+        10.0,
+        6.0,
+        2.0,
+        2.0
+      ],
+      "ewma": [
+        3.0,
+        5.1,
+        5.369999999999999,
+        4.358999999999999,
+        3.651299999999999
+      ],
+      "sigma": 2.8388675150489147
+    },
+    "difficulty_trend": {
+      "series": [
+        2.0,
+        0.0,
+        0.0,
+        8.0,
+        4.0
+      ],
+      "ewma": [
+        2.0,
+        1.4,
+        0.9799999999999999,
+        3.086,
+        3.3602
+      ],
+      "sigma": 2.5230209448199195
+    },
+    "forecast": {
+      "quality_next": 3.651299999999999,
+      "quality_band": [
+        0.0,
+        9.215480329495872
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2022-12-09T00:00:00",
+      "materia": "ELECTRÓNICA ANALÓGICA",
+      "calidad": 2.0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Un reverendo idiota, no sabe absolutamente nada y llega media hora tarde pero tomando lista, tampoco te enseñará nada pero te traerá de su pendejo hasta el final del semestre, y te hará exámenes sorpresa sobre lo que no enseñó. Una completa basura."
+    },
+    {
+      "fecha_iso": "2021-06-17T00:00:00",
+      "materia": "MÁQUINAS ELÉCTRICAS",
+      "calidad": 2.0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "no sabe nada, se la lleva presumiendo sus disque viajes y trabajos que ha tenido, pero no te enseña la materia, te lleva por lo facil y cuando llega lo dificil es donde te troza y no explica porque ni el conoce"
+    },
+    {
+      "fecha_iso": "2019-06-14T00:00:00",
+      "materia": "INSTRUMENTACION",
+      "calidad": 6.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": "es compa el vato pero no enseña absolutamente nada, llega siempre media hora tarde, nomas se la pasa presumiendo que segun el sabe mucho y tiene mucha experiencia, esta facil pasar y sales mas o menos bien pero no aprendes nada y te trae como pendejo hasta el ULTIMO dia"
+    },
+    {
+      "fecha_iso": "2017-02-02T00:00:00",
+      "materia": "MAQUINA ELECTRICA",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Es muy claro y le gusta hacer muchas practicas con equipos reales."
+    },
+    {
+      "fecha_iso": "2017-01-07T00:00:00",
+      "materia": "MAQUINAS ELECTRICAS",
+      "calidad": 3.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "La mayor basura del tec, la verdad el mas grande desperdicio de tiempo que he pasado."
+    }
+  ],
+  "comments_recent": [
+    "Un reverendo idiota, no sabe absolutamente nada y llega media hora tarde pero tomando lista, tampoco te enseñará nada pero te traerá de su pendejo hasta el final del semestre, y te hará exámenes sorpresa sobre lo que no enseñó. Una completa basura.",
+    "no sabe nada, se la lleva presumiendo sus disque viajes y trabajos que ha tenido, pero no te enseña la materia, te lleva por lo facil y cuando llega lo dificil es donde te troza y no explica porque ni el conoce",
+    "es compa el vato pero no enseña absolutamente nada, llega siempre media hora tarde, nomas se la pasa presumiendo que segun el sabe mucho y tiene mucha experiencia, esta facil pasar y sales mas o menos bien pero no aprendes nada y te trae como pendejo hasta el ULTIMO dia",
+    "Es muy claro y le gusta hacer muchas practicas con equipos reales.",
+    "La mayor basura del tec, la verdad el mas grande desperdicio de tiempo que he pasado."
+  ],
+  "n_reviews": 5
+}

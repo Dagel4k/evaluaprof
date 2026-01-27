@@ -1,0 +1,176 @@
+{
+  "professor_id": "LILIANA_VEGA_ZAZUETA",
+  "nombre": "LILIANA VEGA ZAZUETA",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 9.101468318191344,
+    "difficulty_decayed": 0.45628938753071596
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.378371249587866,
+    "difficulty_bayes": 2.2694362017804157
+  },
+  "recommendation_analysis": {
+    "rate": 0.71,
+    "wilson_interval": [
+      0.3060474596471615,
+      0.9314661125569644
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": 0.58,
+    "z_mean_decayed": 0.58,
+    "per_subject": [
+      {
+        "materia": "INTELIGENCIA ARTIFICIAL",
+        "z_decayed": 0.5773502691896258,
+        "n": 5
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "deja",
+          "facil",
+          "semestre",
+          "es"
+        ],
+        "weight": 0.35736483900007093
+      },
+      {
+        "id": 1,
+        "words": [
+          "deja",
+          "facil",
+          "semestre",
+          "es"
+        ],
+        "weight": 0.12808417954712828
+      }
+    ],
+    "sentiment": {
+      "overall": 0.25,
+      "by_month": {
+        "2019-11": 0.0,
+        "2014-11": 1.0,
+        "2013-08": 0.0,
+        "2013-06": 0.0
+      }
+    },
+    "n_comments": 4
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        8.0,
+        5.0,
+        10.0,
+        10.0
+      ],
+      "ewma": [
+        8.0,
+        7.1,
+        7.97,
+        8.579
+      ],
+      "sigma": 1.8342883043113294
+    },
+    "difficulty_trend": {
+      "series": [
+        0.0,
+        3.0,
+        0.0,
+        0.0
+      ],
+      "ewma": [
+        0.0,
+        0.8999999999999999,
+        0.6299999999999999,
+        0.4409999999999999
+      ],
+      "sigma": 1.2565389966093372
+    },
+    "forecast": {
+      "quality_next": 8.579,
+      "quality_band": [
+        4.9837949235497945,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2019-11-27T00:00:00",
+      "materia": "CALIDAD DE SOFTWARE",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Muy buena maestra"
+    },
+    {
+      "fecha_iso": "2014-11-11T00:00:00",
+      "materia": "INTELIGENCIA ARTIFICIAL",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Excelente profesora, muy accesible."
+    },
+    {
+      "fecha_iso": "2013-08-28T00:00:00",
+      "materia": "PROGRAMACION WEB",
+      "calidad": 3.0,
+      "dificultad": 6.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2013-08-09T00:00:00",
+      "materia": "PROGRAMACION WEB",
+      "calidad": 7.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Pues es facil, sencillo, casi no se trabaja, ella dice \"el semestre es muy corto\", y se habienta un monologo del tema, y luego se sale del tema, al final deja un trabajo final algo regular."
+    },
+    {
+      "fecha_iso": "2013-06-18T00:00:00",
+      "materia": "I A",
+      "calidad": 8.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "la verdad esta facil pasar con ella, se la pasa diciendo todo el semestre que queda poco para que se termine jaja, deja como 4 tareas y con eso califica, es camarada, puedes faltar, y no hace examen"
+    }
+  ],
+  "comments_recent": [
+    "Muy buena maestra",
+    "Excelente profesora, muy accesible.",
+    "Pues es facil, sencillo, casi no se trabaja, ella dice \"el semestre es muy corto\", y se habienta un monologo del tema, y luego se sale del tema, al final deja un trabajo final algo regular.",
+    "la verdad esta facil pasar con ella, se la pasa diciendo todo el semestre que queda poco para que se termine jaja, deja como 4 tareas y con eso califica, es camarada, puedes faltar, y no hace examen"
+  ],
+  "n_reviews": 5
+}

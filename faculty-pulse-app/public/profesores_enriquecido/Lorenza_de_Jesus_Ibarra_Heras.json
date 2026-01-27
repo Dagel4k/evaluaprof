@@ -1,0 +1,197 @@
+{
+  "professor_id": "Lorenza_de_Jesus_Ibarra_Heras",
+  "nombre": "Lorenza de Jesus Ibarra Heras",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 5.355652777525773,
+    "difficulty_decayed": 3.850494582683799
+  },
+  "bayes_analysis": {
+    "quality_bayes": 6.578371249587866,
+    "difficulty_bayes": 3.2027695351137493
+  },
+  "recommendation_analysis": {
+    "rate": 0.3,
+    "wilson_interval": [
+      0.07258233012539304,
+      0.7012142677754393
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": -1.25,
+    "z_mean_decayed": -1.27,
+    "per_subject": [
+      {
+        "materia": "CALCULO",
+        "z_decayed": -0.779161778631672,
+        "n": 11
+      },
+      {
+        "materia": "CÁLCULO INTEGRAL",
+        "z_decayed": -1.2275898110468526,
+        "n": 10
+      },
+      {
+        "materia": "CALCULO INTEGRAL",
+        "z_decayed": -1.3163660418947618,
+        "n": 22
+      },
+      {
+        "materia": "CALCULO DIFERENCIAL",
+        "z_decayed": -1.6766884518586287,
+        "n": 29
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "tarea",
+          "bajito",
+          "examenes",
+          "habla",
+          "habla bajito"
+        ],
+        "weight": 0.4501051759218431
+      },
+      {
+        "id": 1,
+        "words": [
+          "bajito hace",
+          "hace",
+          "problemas",
+          "tarea",
+          "sola"
+        ],
+        "weight": 0.22697368337498156
+      }
+    ],
+    "sentiment": {
+      "overall": 0.0,
+      "by_month": {
+        "2020-08": 0.0,
+        "2020-01": 0.0,
+        "2019-01": 0.0,
+        "2018-10": 0.0
+      }
+    },
+    "n_comments": 4
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        4.0,
+        2.0,
+        10.0,
+        6.0,
+        4.0
+      ],
+      "ewma": [
+        4.0,
+        3.4,
+        5.38,
+        5.565999999999999,
+        5.096199999999999
+      ],
+      "sigma": 2.417950695940676
+    },
+    "difficulty_trend": {
+      "series": [
+        8.0,
+        4.0,
+        0.0,
+        2.0,
+        6.0
+      ],
+      "ewma": [
+        8.0,
+        6.8,
+        4.76,
+        3.932,
+        4.5524
+      ],
+      "sigma": 2.4178138621490284
+    },
+    "forecast": {
+      "quality_next": 5.096199999999999,
+      "quality_band": [
+        0.3570166359562741,
+        9.835383364043723
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2020-08-12T00:00:00",
+      "materia": "CALCULO INTEGRAL",
+      "calidad": 4.0,
+      "dificultad": 6.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": "Habla muy bajito, hace muchos problemas por si sola y si tienes dudas te confunde mucho más, no es accesible pero si sabes del tema está muy facil.\nTienes que investigar por tu cuenta y además deja mucha tarea pero los examenes están bien faciles."
+    },
+    {
+      "fecha_iso": "2020-01-13T00:00:00",
+      "materia": "CÁLCULO INTEGRAL",
+      "calidad": 6.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": "Habla muy bajito y hace muchos ejercicios en poco tiempo. Los exámenes no son tan complicados."
+    },
+    {
+      "fecha_iso": "2019-10-24T00:00:00",
+      "materia": "6-7 CÁLCULO INTEGRAL",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2019-01-31T00:00:00",
+      "materia": "CALCULO DIFERENCIAL",
+      "calidad": 2.0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Sabe mucho, pero no explica para nada. Le pides explicaciones y se enreda sola. No se las recomiendo. No aprendes nada a menos que tomes clases aparte"
+    },
+    {
+      "fecha_iso": "2018-10-10T00:00:00",
+      "materia": "CALCULO",
+      "calidad": 4.0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": "Como empezar esta profe se ve que quiere enseñar pero de verdad que no se le da eso. Habla muy bajito, hay veces que los alumnos la tienen que corregir \n\nPor suerte da examenes para recuperación pero tocó la desgracia de que los problemas que hubo en el examen son trabajos que ni de tarea vimos..."
+    }
+  ],
+  "comments_recent": [
+    "Habla muy bajito, hace muchos problemas por si sola y si tienes dudas te confunde mucho más, no es accesible pero si sabes del tema está muy facil.\nTienes que investigar por tu cuenta y además deja mucha tarea pero los examenes están bien faciles.",
+    "Habla muy bajito y hace muchos ejercicios en poco tiempo. Los exámenes no son tan complicados.",
+    "Sabe mucho, pero no explica para nada. Le pides explicaciones y se enreda sola. No se las recomiendo. No aprendes nada a menos que tomes clases aparte",
+    "Como empezar esta profe se ve que quiere enseñar pero de verdad que no se le da eso. Habla muy bajito, hay veces que los alumnos la tienen que corregir \n\nPor suerte da examenes para recuperación pero tocó la desgracia de que los problemas que hubo en el examen son trabajos que ni de tarea vimos..."
+  ],
+  "n_reviews": 5
+}

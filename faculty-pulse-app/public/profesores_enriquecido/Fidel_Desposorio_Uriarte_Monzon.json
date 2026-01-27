@@ -1,0 +1,178 @@
+{
+  "professor_id": "Fidel_Desposorio_Uriarte_Monzon",
+  "nombre": "Fidel Desposorio Uriarte Monzon",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 8.221246733097306,
+    "difficulty_decayed": 1.8545930621961724
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.578371249587866,
+    "difficulty_bayes": 2.402769535113749
+  },
+  "recommendation_analysis": {
+    "rate": 0.8,
+    "wilson_interval": [
+      0.37552826411853885,
+      0.9637768390302125
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": 0.73,
+    "z_mean_decayed": 0.72,
+    "per_subject": [
+      {
+        "materia": "SISTEMAS OPERATIVOS",
+        "z_decayed": 0.7202122699563184,
+        "n": 7
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "necesitas",
+          "cuenta",
+          "bien",
+          "tu",
+          "si"
+        ],
+        "weight": 0.33186366119305727
+      },
+      {
+        "id": 1,
+        "words": [
+          "tema",
+          "da",
+          "pdf",
+          "puedas",
+          "examenes"
+        ],
+        "weight": 0.2816922717830621
+      }
+    ],
+    "sentiment": {
+      "overall": 0.0,
+      "by_month": {
+        "2023-02": 0.0,
+        "2023-01": 0.0,
+        "2022-06": 0.0,
+        "2022-04": 0.0
+      }
+    },
+    "n_comments": 4
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        9.0,
+        7.5,
+        8.0,
+        9.0
+      ],
+      "ewma": [
+        9.0,
+        8.55,
+        8.385,
+        8.5695
+      ],
+      "sigma": 0.6281720007291001
+    },
+    "difficulty_trend": {
+      "series": [
+        0.0,
+        0.0,
+        2.0,
+        6.0
+      ],
+      "ewma": [
+        0.0,
+        0.0,
+        0.6,
+        2.2199999999999998
+      ],
+      "sigma": 1.7832834883999797
+    },
+    "forecast": {
+      "quality_next": 8.5695,
+      "quality_band": [
+        7.338282878570963,
+        9.800717121429036
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2023-02-24T00:00:00",
+      "materia": "MATE DISCRETAS",
+      "calidad": 9.0,
+      "dificultad": 6.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Lo que me gusta de este profe es que siempre tiene los pdf bien ordenados por temas para que puedas estudiar por tu cuenta y da muchas oportunidades si repruebas los examenes, no necesitas asisitr."
+    },
+    {
+      "fecha_iso": "2023-01-15T00:00:00",
+      "materia": "MATES DISCRETAS",
+      "calidad": 8.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Su clase consiste en leer un PDF, por lo que duerme. Pero es evidente que sabe mucho del tema y lo explica con claridad.\nDeja abiertos los exámenes unos días para que los hagas cuando puedas; bastante fáciles.\nPuedes pasar sin asistir, solo con aprobar los exámenes. Nunca da clases los viernes."
+    },
+    {
+      "fecha_iso": "2022-06-21T00:00:00",
+      "materia": "SISTEMAS OPERATIVOS",
+      "calidad": 7.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "No es necesario asistir a su clase, sinceramente para ser una materia que solo son conceptos largos y casi nada de práctica se me hace bastante bien, eso sí, necesitas poner atención a sus clases, por tu propia cuenta si quieres aprender del tema, si no puedes por ti mismo carga con otro maestro"
+    },
+    {
+      "fecha_iso": "2022-06-09T00:00:00",
+      "materia": "SISTEMAS OPERATIVOS",
+      "calidad": 8.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2022-04-07T00:00:00",
+      "materia": "SISTEMAS OPERATIVOS",
+      "calidad": 9.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "destrozorio"
+    }
+  ],
+  "comments_recent": [
+    "Lo que me gusta de este profe es que siempre tiene los pdf bien ordenados por temas para que puedas estudiar por tu cuenta y da muchas oportunidades si repruebas los examenes, no necesitas asisitr.",
+    "Su clase consiste en leer un PDF, por lo que duerme. Pero es evidente que sabe mucho del tema y lo explica con claridad.\nDeja abiertos los exámenes unos días para que los hagas cuando puedas; bastante fáciles.\nPuedes pasar sin asistir, solo con aprobar los exámenes. Nunca da clases los viernes.",
+    "No es necesario asistir a su clase, sinceramente para ser una materia que solo son conceptos largos y casi nada de práctica se me hace bastante bien, eso sí, necesitas poner atención a sus clases, por tu propia cuenta si quieres aprender del tema, si no puedes por ti mismo carga con otro maestro",
+    "destrozorio"
+  ],
+  "n_reviews": 5
+}

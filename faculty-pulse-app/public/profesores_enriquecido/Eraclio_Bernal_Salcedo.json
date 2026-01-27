@@ -1,0 +1,184 @@
+{
+  "professor_id": "Eraclio_Bernal_Salcedo",
+  "nombre": "Eraclio Bernal Salcedo",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 3.1259786221767363,
+    "difficulty_decayed": 6.389540117012975
+  },
+  "bayes_analysis": {
+    "quality_bayes": 6.0450379162545325,
+    "difficulty_bayes": 3.7361028684470825
+  },
+  "recommendation_analysis": {
+    "rate": 0.15,
+    "wilson_interval": [
+      0.021851456805496848,
+      0.5822925895209599
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": -1.44,
+    "z_mean_decayed": -1.43,
+    "per_subject": [
+      {
+        "materia": "CONTROL ESTADÍSTICO DE CALIDAD",
+        "z_decayed": -1.4032928308912467,
+        "n": 5
+      },
+      {
+        "materia": "CONTROL",
+        "z_decayed": -1.4740991400388201,
+        "n": 13
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "es",
+          "reprueba",
+          "solo te",
+          "solo",
+          "te"
+        ],
+        "weight": 0.2630395359626929
+      },
+      {
+        "id": 1,
+        "words": [
+          "solo",
+          "solo te",
+          "te",
+          "es",
+          "recomiendo"
+        ],
+        "weight": 0.3069017115971201
+      }
+    ],
+    "sentiment": {
+      "overall": 0.0,
+      "by_month": {
+        "2023-06": 0.0,
+        "2021-01": 0.0,
+        "2020-08": 0.0,
+        "2019-09": 0.0
+      }
+    },
+    "n_comments": 5
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        2.0,
+        2.0,
+        10.0,
+        2.0
+      ],
+      "ewma": [
+        2.0,
+        2.0,
+        4.4,
+        3.68
+      ],
+      "sigma": 3.180188673648153
+    },
+    "difficulty_trend": {
+      "series": [
+        8.0,
+        4.0,
+        0.0,
+        8.0
+      ],
+      "ewma": [
+        8.0,
+        6.8,
+        4.76,
+        5.731999999999999
+      ],
+      "sigma": 3.089773886009568
+    },
+    "forecast": {
+      "quality_next": 3.68,
+      "quality_band": [
+        0.0,
+        9.91316980035038
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2023-06-30T00:00:00",
+      "materia": "ADM. DE PRODUCTIVIDAD",
+      "calidad": 2.0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "te manda a rc aunque hayas pasado, no puedes hacer nada al respecto porque en finales no entrega ningún examen ni da aclaraciones, no cargues con el, solo te va a atrasar.\nreprueba grupos enteros por sus ganas."
+    },
+    {
+      "fecha_iso": "2023-06-07T00:00:00",
+      "materia": "ADMN DE  PDD",
+      "calidad": 2.0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "ES UN MAESTRO QUE NO SABE ENSEÑAR, SOLO LEE DIAPOSITIVAS Y CUANDO QUIERE EXPLICAR ALGO EN EXCEL SOLO TE CONFUNDE MAS, TODO ES JUEGO PARA EL Y TE REPRUEBA PARA QUE LLEVES VERANO"
+    },
+    {
+      "fecha_iso": "2021-01-20T00:00:00",
+      "materia": "CONTROL ESTADÍSTICO DE LA CALIDAD",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "lo funaron."
+    },
+    {
+      "fecha_iso": "2020-08-14T00:00:00",
+      "materia": "CONTROL ESTADÍSTICO DE CALIDAD",
+      "calidad": 2.0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "No lo recomiendo para nada. No tiene idea de la materia sus clases son puro dictar. Vas a pasar sin aprender nada"
+    },
+    {
+      "fecha_iso": "2019-09-19T00:00:00",
+      "materia": "CONTROL",
+      "calidad": 2.0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "No lo recomiendo para nada. Cargar con el es una pérdida de tiempo. Es de lo peor qué hay en el tec, prepotente como la chacala. Siempre anda buscando a los profes para que pasen a su hijo. No se dejen manipular"
+    }
+  ],
+  "comments_recent": [
+    "te manda a rc aunque hayas pasado, no puedes hacer nada al respecto porque en finales no entrega ningún examen ni da aclaraciones, no cargues con el, solo te va a atrasar.\nreprueba grupos enteros por sus ganas.",
+    "ES UN MAESTRO QUE NO SABE ENSEÑAR, SOLO LEE DIAPOSITIVAS Y CUANDO QUIERE EXPLICAR ALGO EN EXCEL SOLO TE CONFUNDE MAS, TODO ES JUEGO PARA EL Y TE REPRUEBA PARA QUE LLEVES VERANO",
+    "lo funaron.",
+    "No lo recomiendo para nada. No tiene idea de la materia sus clases son puro dictar. Vas a pasar sin aprender nada",
+    "No lo recomiendo para nada. Cargar con el es una pérdida de tiempo. Es de lo peor qué hay en el tec, prepotente como la chacala. Siempre anda buscando a los profes para que pasen a su hijo. No se dejen manipular"
+  ],
+  "n_reviews": 5
+}

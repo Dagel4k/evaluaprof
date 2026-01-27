@@ -1,0 +1,184 @@
+{
+  "professor_id": "Ramón_Zatarain_Cabada",
+  "nombre": "Ramón Zatarain Cabada",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 8.173665497043311,
+    "difficulty_decayed": 3.429779821277356
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.178371249587866,
+    "difficulty_bayes": 3.0694362017804155
+  },
+  "recommendation_analysis": {
+    "rate": 0.3,
+    "wilson_interval": [
+      0.07258233012539304,
+      0.7012142677754393
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": -0.45,
+    "z_mean_decayed": -0.45,
+    "per_subject": [
+      {
+        "materia": "TODAS",
+        "z_decayed": -0.4539206495016018,
+        "n": 4
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "solo",
+          "clases",
+          "estricto",
+          "clase",
+          "si"
+        ],
+        "weight": 0.3105177960717177
+      },
+      {
+        "id": 1,
+        "words": [
+          "examenes",
+          "explica",
+          "proyecto",
+          "tan",
+          "temas"
+        ],
+        "weight": 0.2823782142731388
+      }
+    ],
+    "sentiment": {
+      "overall": -0.2,
+      "by_month": {
+        "2023-01": 0.0,
+        "2021-12": 1.0,
+        "2019-01": -1.0,
+        "2018-05": -1.0,
+        "2016-11": 0.0
+      }
+    },
+    "n_comments": 5
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        3.0,
+        6.0,
+        8.0,
+        10.0,
+        8.0
+      ],
+      "ewma": [
+        3.0,
+        3.8999999999999995,
+        5.129999999999999,
+        6.590999999999999,
+        7.013699999999998
+      ],
+      "sigma": 1.3873716041493716
+    },
+    "difficulty_trend": {
+      "series": [
+        6.0,
+        2.0,
+        2.0,
+        6.0,
+        2.0
+      ],
+      "ewma": [
+        6.0,
+        4.799999999999999,
+        3.959999999999999,
+        4.571999999999999,
+        3.8003999999999993
+      ],
+      "sigma": 1.7098185728316322
+    },
+    "forecast": {
+      "quality_next": 7.013699999999998,
+      "quality_band": [
+        4.294451655867229,
+        9.732948344132767
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2023-01-07T00:00:00",
+      "materia": "FLOJO",
+      "calidad": 8.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Es escandalosamente flojo, \n No entiendo por qué las autoridades no hacen algo con estos maestros flojos y eso que son ejemplo de uno."
+    },
+    {
+      "fecha_iso": "2021-12-09T00:00:00",
+      "materia": "LENGUAJES Y AUTÓMATAS II",
+      "calidad": 10.0,
+      "dificultad": 6.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Sus clases son algo aburridas, pero explica muy claro los temas. Los exámenes son fáciles, son solo preguntas y ejercicios de lo mismo que se ve en clase. Donde si se complica es en el proyecto, pero no es tan estricto al revisar."
+    },
+    {
+      "fecha_iso": "2019-01-15T00:00:00",
+      "materia": "LENGUAJES Y AUTOMATAS II",
+      "calidad": 8.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Explica los temas de manera clara, sus examenes no son tan dificiles, lo complicado es el proyecto. Lo unico malo es que su clase se torna un poco aburrida. En lo general buen profesor."
+    },
+    {
+      "fecha_iso": "2018-05-02T00:00:00",
+      "materia": "TODAS",
+      "calidad": 6.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": "Pésimo docente, solo viene por el cheque, parece obligado a dar clase, no se sale del molde, no se actualiza, cada clase parece un deja vu(siempre dice lo mismo por que no sabe mas).Para culminar su clase es super aburrida y su mentalidad muy old school, si quieres aprender no cargues con el."
+    },
+    {
+      "fecha_iso": "2016-11-07T00:00:00",
+      "materia": "NADA",
+      "calidad": 3.0,
+      "dificultad": 6.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "falta casi todo el semestre eso si durante el sisei se vuelve el estricto y nos obliga a  ir a clases...eso si despues del sisei el faltara por que asistira a eventos academicos de gran nivel. si el nivel del evento es como su clase pues son basura, hechele ganas"
+    }
+  ],
+  "comments_recent": [
+    "Es escandalosamente flojo, \n No entiendo por qué las autoridades no hacen algo con estos maestros flojos y eso que son ejemplo de uno.",
+    "Sus clases son algo aburridas, pero explica muy claro los temas. Los exámenes son fáciles, son solo preguntas y ejercicios de lo mismo que se ve en clase. Donde si se complica es en el proyecto, pero no es tan estricto al revisar.",
+    "Explica los temas de manera clara, sus examenes no son tan dificiles, lo complicado es el proyecto. Lo unico malo es que su clase se torna un poco aburrida. En lo general buen profesor.",
+    "Pésimo docente, solo viene por el cheque, parece obligado a dar clase, no se sale del molde, no se actualiza, cada clase parece un deja vu(siempre dice lo mismo por que no sabe mas).Para culminar su clase es super aburrida y su mentalidad muy old school, si quieres aprender no cargues con el.",
+    "falta casi todo el semestre eso si durante el sisei se vuelve el estricto y nos obliga a  ir a clases...eso si despues del sisei el faltara por que asistira a eventos academicos de gran nivel. si el nivel del evento es como su clase pues son basura, hechele ganas"
+  ],
+  "n_reviews": 5
+}

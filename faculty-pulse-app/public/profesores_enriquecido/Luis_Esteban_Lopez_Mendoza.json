@@ -1,0 +1,163 @@
+{
+  "professor_id": "Luis_Esteban_Lopez_Mendoza",
+  "nombre": "Luis Esteban Lopez Mendoza",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 8.725142672783823,
+    "difficulty_decayed": 0.565993148311892
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.845037916254532,
+    "difficulty_bayes": 2.0027695351137487
+  },
+  "recommendation_analysis": {
+    "rate": 1.0,
+    "wilson_interval": [
+      0.565508505247919,
+      1
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": 0.66,
+    "z_mean_decayed": 0.56,
+    "per_subject": [
+      {
+        "materia": "FUNDAMENTOS DE PROGRAMACIÓN",
+        "z_decayed": 0.8051424857977716,
+        "n": 17
+      },
+      {
+        "materia": "FUNDAMENTOS DE PROGRAMACION",
+        "z_decayed": 0.5384864320857611,
+        "n": 15
+      },
+      {
+        "materia": "POO",
+        "z_decayed": 0.0678832647248977,
+        "n": 16
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [],
+    "sentiment": {
+      "overall": null,
+      "by_month": {}
+    },
+    "n_comments": 3
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        10.0,
+        10.0,
+        9.0,
+        7.0,
+        9.0
+      ],
+      "ewma": [
+        10.0,
+        10.0,
+        9.7,
+        8.889999999999999,
+        8.922999999999998
+      ],
+      "sigma": 0.8374059947241836
+    },
+    "difficulty_trend": {
+      "series": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.0
+      ],
+      "ewma": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.6
+      ],
+      "sigma": 0.626099033699941
+    },
+    "forecast": {
+      "quality_next": 8.922999999999998,
+      "quality_band": [
+        7.281684250340598,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2025-11-10T00:00:00",
+      "materia": "FUNDAMENTOS DE PROGRAMACIÓN",
+      "calidad": 9.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2025-09-10T00:00:00",
+      "materia": "POO",
+      "calidad": 7.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Es un buen profesor, pero considero si tu meta es realmente aprender y profundizar, mejor no cargues con el, yo cargue POO con el, y te digo que te topas con pared con otros profes mas adelante.\nSabe muy a secas, pero pasas sin problema alguno."
+    },
+    {
+      "fecha_iso": "2024-09-19T00:00:00",
+      "materia": "FUNDAMENTOS DE PROGRAMACION",
+      "calidad": 9.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Muy buen maestro, ayuda uno por uno en las dudas, aparte es divertido y claro y tiene muy buen gusto en la musica."
+    },
+    {
+      "fecha_iso": "2023-10-11T00:00:00",
+      "materia": "FUNDAMENTOS DE PROGRAMACIÓN",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2023-06-04T00:00:00",
+      "materia": "FUNDAMENTOS DE PROGRAMACIÓN",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Es uno de los mejores profes de fundamentos de programación."
+    }
+  ],
+  "comments_recent": [
+    "Es un buen profesor, pero considero si tu meta es realmente aprender y profundizar, mejor no cargues con el, yo cargue POO con el, y te digo que te topas con pared con otros profes mas adelante.\nSabe muy a secas, pero pasas sin problema alguno.",
+    "Muy buen maestro, ayuda uno por uno en las dudas, aparte es divertido y claro y tiene muy buen gusto en la musica.",
+    "Es uno de los mejores profes de fundamentos de programación."
+  ],
+  "n_reviews": 5
+}

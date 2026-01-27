@@ -1,0 +1,189 @@
+{
+  "professor_id": "Elizabeth_Ceceña_Niebla",
+  "nombre": "Elizabeth Ceceña Niebla",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 6.926399100030852,
+    "difficulty_decayed": 1.5970608197123242
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.245037916254533,
+    "difficulty_bayes": 2.402769535113749
+  },
+  "recommendation_analysis": {
+    "rate": 0.81,
+    "wilson_interval": [
+      0.38374242300666217,
+      0.9668728502470477
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": 0.21,
+    "z_mean_decayed": 0.09,
+    "per_subject": [
+      {
+        "materia": "SISTEMAS",
+        "z_decayed": 1.0,
+        "n": 3
+      },
+      {
+        "materia": "ESTRUCTURA DE DATOS",
+        "z_decayed": -0.5825680002028392,
+        "n": 4
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "buena",
+          "es buena",
+          "si",
+          "materia",
+          "es"
+        ],
+        "weight": 0.36160556939806787
+      },
+      {
+        "id": 1,
+        "words": [
+          "es",
+          "materia",
+          "es buena",
+          "si",
+          "buena"
+        ],
+        "weight": 0.2897136915987293
+      }
+    ],
+    "sentiment": {
+      "overall": 0.2,
+      "by_month": {
+        "2025-08": 0.0,
+        "2023-11": 1.0,
+        "2023-06": 0.0,
+        "2023-03": 0.0,
+        "2023-01": 0.0
+      }
+    },
+    "n_comments": 5
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        10.0,
+        10.0,
+        7.0,
+        2.0,
+        7.0
+      ],
+      "ewma": [
+        10.0,
+        10.0,
+        9.1,
+        6.969999999999999,
+        6.978999999999999
+      ],
+      "sigma": 2.189386946156389
+    },
+    "difficulty_trend": {
+      "series": [
+        4.0,
+        0.0,
+        2.0,
+        0.0,
+        2.0
+      ],
+      "ewma": [
+        4.0,
+        2.8,
+        2.5599999999999996,
+        1.7919999999999996,
+        1.8543999999999996
+      ],
+      "sigma": 1.262265341360524
+    },
+    "forecast": {
+      "quality_next": 6.978999999999999,
+      "quality_band": [
+        2.687801585533477,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2025-08-07T00:00:00",
+      "materia": "LENGUAJES Y AUTOMATAS 1",
+      "calidad": 7.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "La profesora hace su mejor esfuerzo por enseñar la materia, suele ser un poco confusa a la hora de explicar los temas pero no se complica demasiado, si te haces su amig@ ya estas del other side, es buena opcion cargarla."
+    },
+    {
+      "fecha_iso": "2023-11-22T00:00:00",
+      "materia": "ESTRUCTURA DE DATOS",
+      "calidad": 2.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Es increíble las veces que falta de lunes a jueves (ya que los viernes no da clases por así decretarlo ella) a dar clases todos los pretextos posibles los utiliza. No se como algunos compañeros dicen que es excelente, no transmite nada de la materia de Estructura de Datos. Ojalá y se la quitaran."
+    },
+    {
+      "fecha_iso": "2023-06-01T00:00:00",
+      "materia": "RELLENO Y AUTOMATAS 1",
+      "calidad": 7.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Barcona"
+    },
+    {
+      "fecha_iso": "2023-03-21T00:00:00",
+      "materia": "LENGUAJES Y AUTÓMATAS 1",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Los autómatas no los enseña bien por lo menos a fecha de hoy, estoy llevando autómatas 2 y los autómatas que aprendí con ella son un tanto diferentes sin embargo muy buena profe es buena onda (En si lo que es el analisis lexico y sintantico lo enseña a medias aprende por ti mismo o con Martín Nevar)"
+    },
+    {
+      "fecha_iso": "2023-01-18T00:00:00",
+      "materia": "SISTEMAS",
+      "calidad": 10.0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Es una maestra muy completa"
+    }
+  ],
+  "comments_recent": [
+    "La profesora hace su mejor esfuerzo por enseñar la materia, suele ser un poco confusa a la hora de explicar los temas pero no se complica demasiado, si te haces su amig@ ya estas del other side, es buena opcion cargarla.",
+    "Es increíble las veces que falta de lunes a jueves (ya que los viernes no da clases por así decretarlo ella) a dar clases todos los pretextos posibles los utiliza. No se como algunos compañeros dicen que es excelente, no transmite nada de la materia de Estructura de Datos. Ojalá y se la quitaran.",
+    "Barcona",
+    "Los autómatas no los enseña bien por lo menos a fecha de hoy, estoy llevando autómatas 2 y los autómatas que aprendí con ella son un tanto diferentes sin embargo muy buena profe es buena onda (En si lo que es el analisis lexico y sintantico lo enseña a medias aprende por ti mismo o con Martín Nevar)",
+    "Es una maestra muy completa"
+  ],
+  "n_reviews": 5
+}

@@ -1,0 +1,178 @@
+{
+  "professor_id": "Francisco_Arce_Mendoza",
+  "nombre": "Francisco Arce Mendoza",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 9.670119097908561,
+    "difficulty_decayed": 1.9828587240336428
+  },
+  "bayes_analysis": {
+    "quality_bayes": 8.045037916254532,
+    "difficulty_bayes": 2.6694362017804156
+  },
+  "recommendation_analysis": {
+    "rate": 0.94,
+    "wilson_interval": [
+      0.5017333098582897,
+      0.9959141747598791
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": 0.52,
+    "z_mean_decayed": 0.5,
+    "per_subject": [
+      {
+        "materia": "TERMODINAMICA",
+        "z_decayed": 0.6263765644712506,
+        "n": 6
+      },
+      {
+        "materia": "FUNDAMENTOS DE TERMODINÁMICA",
+        "z_decayed": 0.4784205335082688,
+        "n": 4
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "profe",
+          "profe gusta",
+          "excelente",
+          "explica",
+          "si"
+        ],
+        "weight": 0.42298474684440207
+      },
+      {
+        "id": 1,
+        "words": [
+          "gusta",
+          "hacen",
+          "profe",
+          "profe gusta",
+          "es"
+        ],
+        "weight": 0.3215989461013722
+      }
+    ],
+    "sentiment": {
+      "overall": 0.75,
+      "by_month": {
+        "2022-06": 0.5,
+        "2022-02": 1.0,
+        "2020-01": 1.0
+      }
+    },
+    "n_comments": 4
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        9.0,
+        10.0,
+        9.666666666666666
+      ],
+      "ewma": [
+        9.0,
+        9.3,
+        9.41
+      ],
+      "sigma": 0.35412385362144627
+    },
+    "difficulty_trend": {
+      "series": [
+        6.0,
+        0.0,
+        2.0
+      ],
+      "ewma": [
+        6.0,
+        4.199999999999999,
+        3.5399999999999996
+      ],
+      "sigma": 2.1247431217286787
+    },
+    "forecast": {
+      "quality_next": 9.41,
+      "quality_band": [
+        8.715917246901965,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2022-06-22T00:00:00",
+      "materia": "FUNDAMENTOS DE TERMODINÁMICA",
+      "calidad": 10.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Excelente profesor, explica con claridad los temas y le interesa si estás aprendiendo, deja muy buenos trabajos de estudio antes de los exámenes, si tienes oportunidad carga con él."
+    },
+    {
+      "fecha_iso": "2022-06-13T00:00:00",
+      "materia": "FUNDAMENTOS DE TERMODINÁMICA",
+      "calidad": 9.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Es muy buen profe, le gusta jugar con los alumnos que se hacen ver inseguros con respecto a la clase, pide un medidor de temperatura y humedad como proyecto final, si lo haces lo toma en cuenta y te sube bastante la calificación."
+    },
+    {
+      "fecha_iso": "2022-06-12T00:00:00",
+      "materia": "TERMODINAMMICA",
+      "calidad": 10.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2022-02-18T00:00:00",
+      "materia": "FUNDAMENTOS DE TERMODINÁMICA",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Excelente profe, le gusta que sus alumnos participen y si lo hacen, da puntos extras. Explica muy bien y si quedan dudas las resuelve muy bien."
+    },
+    {
+      "fecha_iso": "2020-01-04T00:00:00",
+      "materia": "TERMODINAMICA",
+      "calidad": 9.0,
+      "dificultad": 6.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "-Organizado\n-puntual\n -trabajo practico\n-Motivacional\n-Dedicado por su profesión \n-Brinda ayuda\n-Responsable\n\nPor esto y más se puede afirmar que es el mejor maestro impartiendo la materia."
+    }
+  ],
+  "comments_recent": [
+    "Excelente profesor, explica con claridad los temas y le interesa si estás aprendiendo, deja muy buenos trabajos de estudio antes de los exámenes, si tienes oportunidad carga con él.",
+    "Es muy buen profe, le gusta jugar con los alumnos que se hacen ver inseguros con respecto a la clase, pide un medidor de temperatura y humedad como proyecto final, si lo haces lo toma en cuenta y te sube bastante la calificación.",
+    "Excelente profe, le gusta que sus alumnos participen y si lo hacen, da puntos extras. Explica muy bien y si quedan dudas las resuelve muy bien.",
+    "-Organizado\n-puntual\n -trabajo practico\n-Motivacional\n-Dedicado por su profesión \n-Brinda ayuda\n-Responsable\n\nPor esto y más se puede afirmar que es el mejor maestro impartiendo la materia."
+  ],
+  "n_reviews": 5
+}

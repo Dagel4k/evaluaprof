@@ -1,0 +1,190 @@
+{
+  "professor_id": "Luis_Fernando_Ortega_López",
+  "nombre": "Luis Fernando Ortega López",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 2.2356257801402872,
+    "difficulty_decayed": 7.528748439719426
+  },
+  "bayes_analysis": {
+    "quality_bayes": 5.845037916254532,
+    "difficulty_bayes": 3.869436201780416
+  },
+  "recommendation_analysis": {
+    "rate": 0.2,
+    "wilson_interval": [
+      0.036223160969787456,
+      0.6244717358814612
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": -1.24,
+    "z_mean_decayed": -1.63,
+    "per_subject": [
+      {
+        "materia": "---",
+        "z_decayed": -0.5419573117341824,
+        "n": 80
+      },
+      {
+        "materia": "DIBUJO",
+        "z_decayed": -1.1848198161159786,
+        "n": 8
+      },
+      {
+        "materia": "DIBUJO INDUSTRIAL",
+        "z_decayed": -1.7212283413582894,
+        "n": 26
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "si",
+          "horrible",
+          "es"
+        ],
+        "weight": 0.20700614818663238
+      },
+      {
+        "id": 1,
+        "words": [
+          "es",
+          "horrible",
+          "si"
+        ],
+        "weight": 0.33634527470417375
+      }
+    ],
+    "sentiment": {
+      "overall": -0.4,
+      "by_month": {
+        "2025-11": -1.0,
+        "2021-03": -1.0,
+        "2019-01": 0.0,
+        "2014-08": 0.0,
+        "2013-06": 0.0
+      }
+    },
+    "n_comments": 5
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        4.0,
+        2.0,
+        5.0,
+        2.0,
+        2.0
+      ],
+      "ewma": [
+        4.0,
+        3.4,
+        3.88,
+        3.316,
+        2.9212
+      ],
+      "sigma": 1.0639086276555896
+    },
+    "difficulty_trend": {
+      "series": [
+        4.0,
+        8.0,
+        2.0,
+        8.0,
+        8.0
+      ],
+      "ewma": [
+        4.0,
+        5.199999999999999,
+        4.239999999999999,
+        5.367999999999999,
+        6.157599999999999
+      ],
+      "sigma": 2.1278172553111796
+    },
+    "forecast": {
+      "quality_next": 2.9212,
+      "quality_band": [
+        0.835939089795044,
+        5.0064609102049555
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2025-11-14T00:00:00",
+      "materia": "DIBUJO INDUSTRIAL",
+      "calidad": 2.0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "es horrible nunca tomen una clase con el de verdad no aprendes nada y el viejito es bien conteston"
+    },
+    {
+      "fecha_iso": "2021-03-08T00:00:00",
+      "materia": "DIBUJO",
+      "calidad": 2.0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "no mamen, si de por si no sabe explicar, califica horrible y aparte se traba."
+    },
+    {
+      "fecha_iso": "2019-01-30T00:00:00",
+      "materia": "DIBUJO INDUSTRIAL",
+      "calidad": 5.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": "La neta solo el pendejo que no intenta nada reprueba, si quieres estar copiando nms obviamente vas a reprobar \nEsta mejor que otros profes"
+    },
+    {
+      "fecha_iso": "2014-08-04T00:00:00",
+      "materia": "DIBUJO INDUSTRIAL",
+      "calidad": 2.0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "es un ascoooooooooooooooooooooooooooooooooooo pide dinerooooooooo"
+    },
+    {
+      "fecha_iso": "2013-06-18T00:00:00",
+      "materia": "---",
+      "calidad": 4.0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": "[Comentario esperando revisión]"
+    }
+  ],
+  "comments_recent": [
+    "es horrible nunca tomen una clase con el de verdad no aprendes nada y el viejito es bien conteston",
+    "no mamen, si de por si no sabe explicar, califica horrible y aparte se traba.",
+    "La neta solo el pendejo que no intenta nada reprueba, si quieres estar copiando nms obviamente vas a reprobar \nEsta mejor que otros profes",
+    "es un ascoooooooooooooooooooooooooooooooooooo pide dinerooooooooo",
+    "[Comentario esperando revisión]"
+  ],
+  "n_reviews": 5
+}

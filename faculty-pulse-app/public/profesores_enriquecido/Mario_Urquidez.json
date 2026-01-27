@@ -1,0 +1,182 @@
+{
+  "professor_id": "Mario_Urquidez",
+  "nombre": "Mario Urquidez",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 9.999999999999998,
+    "difficulty_decayed": 4.96250652066082
+  },
+  "bayes_analysis": {
+    "quality_bayes": 8.178371249587865,
+    "difficulty_bayes": 3.602769535113749
+  },
+  "recommendation_analysis": {
+    "rate": 0.94,
+    "wilson_interval": [
+      0.5017333098582897,
+      0.9959141747598791
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": 0.0,
+    "z_mean_decayed": 0.0,
+    "per_subject": [
+      {
+        "materia": "BALANCE DE MATERIA Y ENERGÍA",
+        "z_decayed": 0.0,
+        "n": 4
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "si",
+          "te",
+          "excelente",
+          "excelente maestro",
+          "maestro"
+        ],
+        "weight": 0.2988899715305304
+      },
+      {
+        "id": 1,
+        "words": [
+          "excelente maestro",
+          "maestro",
+          "excelente",
+          "si",
+          "te"
+        ],
+        "weight": 0.3835268579010031
+      }
+    ],
+    "sentiment": {
+      "overall": 0.75,
+      "by_month": {
+        "2019-08": 0.0,
+        "2019-06": 1.0,
+        "2019-01": 1.0,
+        "2016-08": 1.0
+      }
+    },
+    "n_comments": 4
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 1,
+    "trust_score": 0.8
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        10.0
+      ],
+      "ewma": [
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        10.0
+      ],
+      "sigma": 0.0
+    },
+    "difficulty_trend": {
+      "series": [
+        6.0,
+        6.0,
+        6.0,
+        2.0,
+        6.0
+      ],
+      "ewma": [
+        6.0,
+        5.999999999999999,
+        5.999999999999999,
+        4.799999999999999,
+        5.159999999999998
+      ],
+      "sigma": 1.394388754974738
+    },
+    "forecast": {
+      "quality_next": 10.0,
+      "quality_band": [
+        10.0,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2019-08-03T00:00:00",
+      "materia": "BALANCE DE MATERIA Y ENERGÍA",
+      "calidad": 10.0,
+      "dificultad": 6.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Es de los mejores maestros que hay, te explica tan bien que si le repruebas los exámenes te sientes mal contigo mismo"
+    },
+    {
+      "fecha_iso": "2019-06-29T00:00:00",
+      "materia": "BALANCE DE MATERIA Y ENERGÍA",
+      "calidad": 10.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Excelente Maestro.  Te hace pensar y aplicar lo aprendido."
+    },
+    {
+      "fecha_iso": "2019-01-12T00:00:00",
+      "materia": "BALANCE DE MATERIA Y ENERGÍA",
+      "calidad": 10.0,
+      "dificultad": 6.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Excelente profesor ???? con el aprendes muchísimo, si tienes la oportunidad de cargar con él, hazlo ????."
+    },
+    {
+      "fecha_iso": "2018-01-14T00:00:00",
+      "materia": "BALANCE DE MATERIA Y ENERGÍA",
+      "calidad": 10.0,
+      "dificultad": 6.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2016-08-09T00:00:00",
+      "materia": "BALANCE DE MATERIA Y ENERGIA",
+      "calidad": 10.0,
+      "dificultad": 6.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "excelente maestro:3"
+    }
+  ],
+  "comments_recent": [
+    "Es de los mejores maestros que hay, te explica tan bien que si le repruebas los exámenes te sientes mal contigo mismo",
+    "Excelente Maestro.  Te hace pensar y aplicar lo aprendido.",
+    "Excelente profesor ???? con el aprendes muchísimo, si tienes la oportunidad de cargar con él, hazlo ????.",
+    "excelente maestro:3"
+  ],
+  "n_reviews": 5
+}

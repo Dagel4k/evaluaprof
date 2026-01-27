@@ -1,0 +1,192 @@
+{
+  "professor_id": "Ekaterine_Katy_Peñuñury",
+  "nombre": "Ekaterine (Katy) Peñuñury",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 7.771864658856907,
+    "difficulty_decayed": 3.240338662120081
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.445037916254533,
+    "difficulty_bayes": 2.9361028684470822
+  },
+  "recommendation_analysis": {
+    "rate": 0.86,
+    "wilson_interval": [
+      0.42649276163301214,
+      0.9806733621454894
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": -0.19,
+    "z_mean_decayed": -0.18,
+    "per_subject": [
+      {
+        "materia": "INTELIGENCIA ARTIFICIAL",
+        "z_decayed": 0.0,
+        "n": 5
+      },
+      {
+        "materia": "TOPICOS",
+        "z_decayed": 0.0,
+        "n": 3
+      },
+      {
+        "materia": "TOPICOS AVANZADOS DE PROGRAMACION",
+        "z_decayed": -0.5773502691896252,
+        "n": 3
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "buena",
+          "ia",
+          "es",
+          "clases"
+        ],
+        "weight": 0.26480934761240743
+      },
+      {
+        "id": 1,
+        "words": [
+          "clases",
+          "es",
+          "buena",
+          "ia"
+        ],
+        "weight": 0.26835433123024743
+      }
+    ],
+    "sentiment": {
+      "overall": 0.0,
+      "by_month": {
+        "2023-05": 0.0,
+        "2023-01": 0.0,
+        "2022-12": 0.0,
+        "2022-09": 0.0,
+        "2022-07": 0.0
+      }
+    },
+    "n_comments": 5
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        8.0,
+        9.0,
+        8.0,
+        6.0,
+        8.0
+      ],
+      "ewma": [
+        8.0,
+        8.299999999999999,
+        8.209999999999999,
+        7.546999999999999,
+        7.682899999999998
+      ],
+      "sigma": 0.8541620174182413
+    },
+    "difficulty_trend": {
+      "series": [
+        2.0,
+        4.0,
+        4.0,
+        2.0,
+        4.0
+      ],
+      "ewma": [
+        2.0,
+        2.5999999999999996,
+        3.0199999999999996,
+        2.7139999999999995,
+        3.0997999999999992
+      ],
+      "sigma": 0.8549092864158162
+    },
+    "forecast": {
+      "quality_next": 7.682899999999998,
+      "quality_band": [
+        6.008742445860245,
+        9.35705755413975
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2023-05-26T00:00:00",
+      "materia": "IA",
+      "calidad": 8.0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "es muy exigente, no domina tanto ia aun pero en terminos de maestra es muy buena"
+    },
+    {
+      "fecha_iso": "2023-01-07T00:00:00",
+      "materia": "IA",
+      "calidad": 6.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": "Es escandalosamente floja, este semestre los inicio 2 semanas de atraso,  pone a dar clases a sus alumnos de maestria y no saben nada de inteligencia artificial. \n No entiendo por qué las autoridades no hacen algo con estos maestros flojos y eso que son ejemplo de uno."
+    },
+    {
+      "fecha_iso": "2022-12-17T00:00:00",
+      "materia": "INTELIGENCIA ARTIFICIAL",
+      "calidad": 8.0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "De las mas exigentes de sistemas, dificilmente le vas a sacar un 80 o un 90 pero algo te va a quedar, lastima que en ia el curso es muy extraño pero en general buena"
+    },
+    {
+      "fecha_iso": "2022-09-07T00:00:00",
+      "materia": "TOPICOS",
+      "calidad": 9.0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Niños"
+    },
+    {
+      "fecha_iso": "2022-07-14T00:00:00",
+      "materia": "TOPICOS AVANZADOS DE PROGRAMACION",
+      "calidad": 8.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "La profe tiene su carácter pero aprendes, siempre deja tarea al final de la clases. En cada unidad deja un proyecto y cada tarea que deja la tienes que añadir a tu proyecto. La asistencia es obligatoria y si no pones atención se enoja xd."
+    }
+  ],
+  "comments_recent": [
+    "es muy exigente, no domina tanto ia aun pero en terminos de maestra es muy buena",
+    "Es escandalosamente floja, este semestre los inicio 2 semanas de atraso,  pone a dar clases a sus alumnos de maestria y no saben nada de inteligencia artificial. \n No entiendo por qué las autoridades no hacen algo con estos maestros flojos y eso que son ejemplo de uno.",
+    "De las mas exigentes de sistemas, dificilmente le vas a sacar un 80 o un 90 pero algo te va a quedar, lastima que en ia el curso es muy extraño pero en general buena",
+    "Niños",
+    "La profe tiene su carácter pero aprendes, siempre deja tarea al final de la clases. En cada unidad deja un proyecto y cada tarea que deja la tienes que añadir a tu proyecto. La asistencia es obligatoria y si no pones atención se enoja xd."
+  ],
+  "n_reviews": 5
+}

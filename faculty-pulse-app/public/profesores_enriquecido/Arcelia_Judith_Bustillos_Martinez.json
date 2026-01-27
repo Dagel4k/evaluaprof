@@ -1,0 +1,169 @@
+{
+  "professor_id": "Arcelia_Judith_Bustillos_Martinez",
+  "nombre": "Arcelia Judith Bustillos Martinez",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 8.095688376047747,
+    "difficulty_decayed": 1.5470999977303548
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.511704582921199,
+    "difficulty_bayes": 2.402769535113749
+  },
+  "recommendation_analysis": {
+    "rate": 0.46,
+    "wilson_interval": [
+      0.14839677289346065,
+      0.8063625466867059
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": 0.01,
+    "z_mean_decayed": -0.08,
+    "per_subject": [
+      {
+        "materia": "TALLER DE INVESTIGACION II",
+        "z_decayed": 1.1239029738980328,
+        "n": 4
+      },
+      {
+        "materia": "FUNDAMENTOS DE PROGRAMACION",
+        "z_decayed": 0.20193241203216034,
+        "n": 15
+      },
+      {
+        "materia": "PROYECTO INTEGRADOR",
+        "z_decayed": -1.3055824196677337,
+        "n": 4
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [],
+    "sentiment": {
+      "overall": 0.0,
+      "by_month": {
+        "2024-08": 0.0,
+        "2023-12": 0.0,
+        "2023-06": 0.0,
+        "2023-01": 0.0
+      }
+    },
+    "n_comments": 4
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        9.0,
+        9.0,
+        4.0,
+        8.0,
+        10.0
+      ],
+      "ewma": [
+        9.0,
+        9.0,
+        7.5,
+        7.65,
+        8.355
+      ],
+      "sigma": 1.9121663107585594
+    },
+    "difficulty_trend": {
+      "series": [
+        0.0,
+        2.0,
+        4.0,
+        2.0,
+        0.0
+      ],
+      "ewma": [
+        0.0,
+        0.6,
+        1.6199999999999999,
+        1.734,
+        1.2138
+      ],
+      "sigma": 1.3751540888205946
+    },
+    "forecast": {
+      "quality_next": 8.355,
+      "quality_band": [
+        4.6071540309132235,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2025-01-25T00:00:00",
+      "materia": "ING DE SOFTWARE",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2024-08-23T00:00:00",
+      "materia": "FUNDAMENTOS DE PROGRAMACION",
+      "calidad": 8.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "brinda apoyo, asistencia obligatoria, respetada por los estudiantes"
+    },
+    {
+      "fecha_iso": "2023-12-12T00:00:00",
+      "materia": "PROYECTO INTEGRADOR",
+      "calidad": 4.0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": "Si adivinas lo que quiere al momento de revisar, te irá muy bien"
+    },
+    {
+      "fecha_iso": "2023-06-01T00:00:00",
+      "materia": "TALLER 2",
+      "calidad": 9.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "De las mejores de sistemas, judithgod, siempre suele andar atareada asi que tenle paciencia"
+    },
+    {
+      "fecha_iso": "2023-01-12T00:00:00",
+      "materia": "TALLER DE INVESTIGACION II",
+      "calidad": 9.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Muy buena profe, solo entrega las tareas, entrega los avances y la investigación final."
+    }
+  ],
+  "comments_recent": [
+    "brinda apoyo, asistencia obligatoria, respetada por los estudiantes",
+    "Si adivinas lo que quiere al momento de revisar, te irá muy bien",
+    "De las mejores de sistemas, judithgod, siempre suele andar atareada asi que tenle paciencia",
+    "Muy buena profe, solo entrega las tareas, entrega los avances y la investigación final."
+  ],
+  "n_reviews": 5
+}

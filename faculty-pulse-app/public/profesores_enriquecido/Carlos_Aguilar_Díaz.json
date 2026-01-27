@@ -1,0 +1,154 @@
+{
+  "professor_id": "Carlos_Aguilar_Díaz",
+  "nombre": "Carlos Aguilar Díaz",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 10.000000000000002,
+    "difficulty_decayed": 0.2358863719356416
+  },
+  "bayes_analysis": {
+    "quality_bayes": 8.178371249587865,
+    "difficulty_bayes": 2.0027695351137487
+  },
+  "recommendation_analysis": {
+    "rate": 0.81,
+    "wilson_interval": [
+      0.38374242300666217,
+      0.9668728502470477
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": 0.54,
+    "z_mean_decayed": 0.53,
+    "per_subject": [
+      {
+        "materia": "HIGIENE Y SEGURIDAD INDUSTRIAL",
+        "z_decayed": 0.634767008683778,
+        "n": 8
+      },
+      {
+        "materia": "ERGONOMÍA",
+        "z_decayed": 0.5,
+        "n": 4
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [],
+    "sentiment": {
+      "overall": null,
+      "by_month": {}
+    },
+    "n_comments": 3
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 1,
+    "trust_score": 0.8
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        10.0,
+        10.0,
+        10.0,
+        10.0
+      ],
+      "ewma": [
+        10.0,
+        10.0,
+        10.0,
+        10.0
+      ],
+      "sigma": 0.0
+    },
+    "difficulty_trend": {
+      "series": [
+        0.0,
+        2.0,
+        0.0,
+        0.0
+      ],
+      "ewma": [
+        0.0,
+        0.6,
+        0.42,
+        0.294
+      ],
+      "sigma": 0.8376926644062248
+    },
+    "forecast": {
+      "quality_next": 10.0,
+      "quality_band": [
+        10.0,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2023-01-19T00:00:00",
+      "materia": "ERGONOMÍA",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Buen profesor, explica claramente y sus exámenes son en plataforma lo que hace la materia sencilla."
+    },
+    {
+      "fecha_iso": "2023-01-19T00:00:00",
+      "materia": "HIGIENE Y SEGURIDAD I",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2020-06-14T00:00:00",
+      "materia": "HIGIENE Y SEGURIDAD",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Sabe demasiado de la materia, como sabe mucho de los temas pero el semestre te lo están dividiendo en 7 unidades tiene que brindarte casi la misma información una y otra vez para respetar los tiempos de evaluación, es por eso que muchos dicen que hace aburrida la materia.\n\nYo lo recomiendo"
+    },
+    {
+      "fecha_iso": "2020-01-25T00:00:00",
+      "materia": "HIGIENE Y SEGURIDAD INDUSTRIAL",
+      "calidad": 10.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2019-01-31T00:00:00",
+      "materia": "ERGONOMÍA",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Las clases son fáciles, la asistencia si la cuenta y los viernes si da clase. Es muy buena onda pero sus clases son medias aburridas aunque si te enseña bien"
+    }
+  ],
+  "comments_recent": [
+    "Buen profesor, explica claramente y sus exámenes son en plataforma lo que hace la materia sencilla.",
+    "Sabe demasiado de la materia, como sabe mucho de los temas pero el semestre te lo están dividiendo en 7 unidades tiene que brindarte casi la misma información una y otra vez para respetar los tiempos de evaluación, es por eso que muchos dicen que hace aburrida la materia.\n\nYo lo recomiendo",
+    "Las clases son fáciles, la asistencia si la cuenta y los viernes si da clase. Es muy buena onda pero sus clases son medias aburridas aunque si te enseña bien"
+  ],
+  "n_reviews": 5
+}

@@ -1,0 +1,180 @@
+{
+  "professor_id": "Rosalío_Zataraín_Cabada",
+  "nombre": "Rosalío Zataraín Cabada",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 8.615458433453671,
+    "difficulty_decayed": 5.097280345745681
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.711704582921199,
+    "difficulty_bayes": 3.3361028684470826
+  },
+  "recommendation_analysis": {
+    "rate": 0.58,
+    "wilson_interval": [
+      0.2180552002724359,
+      0.872426160567231
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": -0.09,
+    "z_mean_decayed": -0.03,
+    "per_subject": [
+      {
+        "materia": "MATEMÁTICAS DISCRETAS",
+        "z_decayed": -0.03189569468979082,
+        "n": 17
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "bien",
+          "atencion",
+          "examenes",
+          "si"
+        ],
+        "weight": 0.3489935595835983
+      },
+      {
+        "id": 1,
+        "words": [
+          "si",
+          "atencion",
+          "examenes",
+          "bien"
+        ],
+        "weight": 0.15877130023411348
+      }
+    ],
+    "sentiment": {
+      "overall": 0.0,
+      "by_month": {
+        "2025-12": 0.0,
+        "2025-06": 0.0,
+        "2023-11": 0.0,
+        "2023-08": 0.0
+      }
+    },
+    "n_comments": 4
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        9.0,
+        10.0,
+        4.0,
+        10.0,
+        10.0
+      ],
+      "ewma": [
+        9.0,
+        9.3,
+        7.71,
+        8.396999999999998,
+        8.877899999999999
+      ],
+      "sigma": 2.1252402104232835
+    },
+    "difficulty_trend": {
+      "series": [
+        0.0,
+        2.0,
+        8.0,
+        6.0,
+        6.0
+      ],
+      "ewma": [
+        0.0,
+        0.6,
+        2.82,
+        3.7739999999999996,
+        4.441799999999999
+      ],
+      "sigma": 1.9165160390667226
+    },
+    "forecast": {
+      "quality_next": 8.877899999999999,
+      "quality_band": [
+        4.712429187570363,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2025-12-05T00:00:00",
+      "materia": "LENGUAJES Y AUTÓMATAS 2",
+      "calidad": 10.0,
+      "dificultad": 6.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "El profesor explica muy bien los conceptos clave. No te dirá exactamente cómo programar el compilador, más bien te dará las ideas.\nPasar no es un problema si te gusta programar.\nLos exámenes son fáciles si pusiste atención en clase y no usaste IA para el compilador."
+    },
+    {
+      "fecha_iso": "2025-06-01T00:00:00",
+      "materia": "MATEMÁTICAS DISCRETAS",
+      "calidad": 10.0,
+      "dificultad": 6.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "NO recomendado para los que quieran algo ligero, no importa si no vas de martes a jueves, los lunes toma asistencia y entregas la tarea, las clases estan bien y los examenes también son sencillos si pones atencion, yo si pase con buena calificacion pero muchos otros si los reprobo xd"
+    },
+    {
+      "fecha_iso": "2025-01-16T00:00:00",
+      "materia": "MATEMÁTICAS DISCRETAS",
+      "calidad": 4.0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2023-11-15T00:00:00",
+      "materia": "LENGUAJES Y AUTOMATAS 1",
+      "calidad": 10.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Me gusto hacer el Scaner"
+    },
+    {
+      "fecha_iso": "2023-08-07T00:00:00",
+      "materia": "LENGUAJES Y AUTOMATAS 2",
+      "calidad": 9.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Trabajar en equipo"
+    }
+  ],
+  "comments_recent": [
+    "El profesor explica muy bien los conceptos clave. No te dirá exactamente cómo programar el compilador, más bien te dará las ideas.\nPasar no es un problema si te gusta programar.\nLos exámenes son fáciles si pusiste atención en clase y no usaste IA para el compilador.",
+    "NO recomendado para los que quieran algo ligero, no importa si no vas de martes a jueves, los lunes toma asistencia y entregas la tarea, las clases estan bien y los examenes también son sencillos si pones atencion, yo si pase con buena calificacion pero muchos otros si los reprobo xd",
+    "Me gusto hacer el Scaner",
+    "Trabajar en equipo"
+  ],
+  "n_reviews": 5
+}

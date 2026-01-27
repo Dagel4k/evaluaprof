@@ -1,0 +1,184 @@
+{
+  "professor_id": "Jacobo_Natanael_López_Valazquez",
+  "nombre": "Jacobo Natanael López Valazquez",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 6.705805934680656,
+    "difficulty_decayed": 2.8041297734194544
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.245037916254533,
+    "difficulty_bayes": 2.6694362017804156
+  },
+  "recommendation_analysis": {
+    "rate": 0.71,
+    "wilson_interval": [
+      0.3060474596471615,
+      0.9314661125569644
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": 0.49,
+    "z_mean_decayed": 0.47,
+    "per_subject": [
+      {
+        "materia": "METODOS NUMERICOS",
+        "z_decayed": 0.47483199527390024,
+        "n": 7
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "te",
+          "dice",
+          "siempre",
+          "bien",
+          "es"
+        ],
+        "weight": 0.3224709245204843
+      },
+      {
+        "id": 1,
+        "words": [
+          "dice",
+          "ratanael",
+          "guasave",
+          "ser",
+          "te"
+        ],
+        "weight": 0.3553224178357726
+      }
+    ],
+    "sentiment": {
+      "overall": 0.0,
+      "by_month": {
+        "2025-05": 0.0,
+        "2025-02": 0.0,
+        "2024-10": 0.0,
+        "2024-08": 0.0,
+        "2023-06": 0.0
+      }
+    },
+    "n_comments": 5
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        10.0,
+        9.0,
+        8.0,
+        7.0,
+        2.0
+      ],
+      "ewma": [
+        10.0,
+        9.7,
+        9.19,
+        8.533,
+        6.573099999999999
+      ],
+      "sigma": 1.759396883025544
+    },
+    "difficulty_trend": {
+      "series": [
+        0.0,
+        2.0,
+        2.0,
+        0.0,
+        8.0
+      ],
+      "ewma": [
+        0.0,
+        0.6,
+        1.02,
+        0.714,
+        2.8998
+      ],
+      "sigma": 2.2519959786820225
+    },
+    "forecast": {
+      "quality_next": 6.573099999999999,
+      "quality_band": [
+        3.124682109269933,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2025-05-30T00:00:00",
+      "materia": "METODO NUMERICOS",
+      "calidad": 2.0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "PURAS PNDJDS, ENSEÑA DLV EXPLICA NADA Y TE MANDA ALV, A LAS MUJERES LAS PASA Y SIEMPRE DICE DE CHISTE QUE ES DE GUADSAVE QUE CON ESO"
+    },
+    {
+      "fecha_iso": "2025-02-12T00:00:00",
+      "materia": "METODOS NUMERICOS",
+      "calidad": 7.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Ratacuen por eso le decian Ratanael, Imaginate que te traen desde Guasave y te avientan en la peni por ser un bandido Dice haberse aventado 2 o 3 cholos alla en Guasave cuando estaba morro, si puedes carga con el te aseguro Consejos de vida y anecdotas buenas."
+    },
+    {
+      "fecha_iso": "2024-10-31T00:00:00",
+      "materia": "METODOS NUMERICOS",
+      "calidad": 8.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "el Ratanael Agarra cura maziso comentarios muy funables y comicos, preguntale de su juventud en Guasave el como lo amarraron a un arbol por andar asaltando expendios y como paso de ser malandrin a ser un hijo de Dios . No apto para la generacion de cristal"
+    },
+    {
+      "fecha_iso": "2024-08-09T00:00:00",
+      "materia": "PROGRAMACIÓN BÁSICA",
+      "calidad": 9.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Es una personalidad de esás que no encuentras a menudo pero quisieras en todas las materias. Aprendimos poco mientras él recordaba cómo programar, pero lo que enseññó lo hizo bien. El pedo fue que nunca tuvimos sala de cómputo, entonces todo fue a mano, y hubo problemas con la calificación."
+    },
+    {
+      "fecha_iso": "2023-06-01T00:00:00",
+      "materia": "METODOS NUMERICOS!!",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Es bien griton en las clases para explicar pero le da el toque, siempre trae toda la actitud"
+    }
+  ],
+  "comments_recent": [
+    "PURAS PNDJDS, ENSEÑA DLV EXPLICA NADA Y TE MANDA ALV, A LAS MUJERES LAS PASA Y SIEMPRE DICE DE CHISTE QUE ES DE GUADSAVE QUE CON ESO",
+    "Ratacuen por eso le decian Ratanael, Imaginate que te traen desde Guasave y te avientan en la peni por ser un bandido Dice haberse aventado 2 o 3 cholos alla en Guasave cuando estaba morro, si puedes carga con el te aseguro Consejos de vida y anecdotas buenas.",
+    "el Ratanael Agarra cura maziso comentarios muy funables y comicos, preguntale de su juventud en Guasave el como lo amarraron a un arbol por andar asaltando expendios y como paso de ser malandrin a ser un hijo de Dios . No apto para la generacion de cristal",
+    "Es una personalidad de esás que no encuentras a menudo pero quisieras en todas las materias. Aprendimos poco mientras él recordaba cómo programar, pero lo que enseññó lo hizo bien. El pedo fue que nunca tuvimos sala de cómputo, entonces todo fue a mano, y hubo problemas con la calificación.",
+    "Es bien griton en las clases para explicar pero le da el toque, siempre trae toda la actitud"
+  ],
+  "n_reviews": 5
+}

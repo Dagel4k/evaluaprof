@@ -1,0 +1,174 @@
+{
+  "professor_id": "Jose_Raul_Noriega_Meza",
+  "nombre": "Jose Raul Noriega Meza",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 9.03795242347722,
+    "difficulty_decayed": 0.3848190306091111
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.845037916254532,
+    "difficulty_bayes": 2.0027695351137487
+  },
+  "recommendation_analysis": {
+    "rate": 1.0,
+    "wilson_interval": [
+      0.565508505247919,
+      1
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": null,
+    "z_mean_decayed": null,
+    "per_subject": []
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "verga",
+          "solo",
+          "ionic",
+          "php",
+          "es"
+        ],
+        "weight": 0.27400670202885324
+      },
+      {
+        "id": 1,
+        "words": [
+          "php",
+          "ionic",
+          "solo",
+          "maestro",
+          "verga"
+        ],
+        "weight": 0.3298488815009123
+      }
+    ],
+    "sentiment": {
+      "overall": 0.0,
+      "by_month": {
+        "2022-06": 0.0,
+        "2021-12": 0.0
+      }
+    },
+    "n_comments": 5
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [
+      {
+        "from": "2021-12-17T00:00:00",
+        "to": "2021-12-17T00:00:00",
+        "count": 3
+      },
+      {
+        "from": "2021-12-17T00:00:00",
+        "to": "2021-12-17T00:00:00",
+        "count": 4
+      }
+    ],
+    "low_variance_flag": 0,
+    "trust_score": 0.7
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        8.75,
+        10.0
+      ],
+      "ewma": [
+        8.75,
+        9.125
+      ],
+      "sigma": 0.6187184335382291
+    },
+    "difficulty_trend": {
+      "series": [
+        0.5,
+        0.0
+      ],
+      "ewma": [
+        0.5,
+        0.35
+      ],
+      "sigma": 0.24748737341529162
+    },
+    "forecast": {
+      "quality_next": 9.125,
+      "quality_band": [
+        7.912311870265071,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2022-06-24T00:00:00",
+      "materia": "JORANOME",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "JoraGOD"
+    },
+    {
+      "fecha_iso": "2021-12-17T00:00:00",
+      "materia": "TALLER DE JORANOME II",
+      "calidad": 9.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Maestrazo, es todo lo que puedo decir. Me enseñó PHP, Next JS, ionic y ensamblador SOLO EN LA UNIDAD 1. \nGracias a sus conocimientos me contrataron en Neoris y me ando ligando a la que me reclutó. ;-)"
+    },
+    {
+      "fecha_iso": "2021-12-17T00:00:00",
+      "materia": "CHAPULINEO II",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Este \"catedrático\" maestro solo nos platicaba de cómo le hacía para hablarle bonito a las novias de sus compas. Pero si lograba bajarles a las morras, como dicen los comentarios: \"UNA VERGA PA TODO\"."
+    },
+    {
+      "fecha_iso": "2021-12-17T00:00:00",
+      "materia": "IONIC",
+      "calidad": 6.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": "Anexo mi comentario. Haré referencia al primer comentario de este profesor: \"Una verga para todo\".\n\nSin duda este maestro me ayudó a reflexionar sobre la vida, el uso de PHP y su importancia, así mismo como usar ionic por encima de Flutter."
+    },
+    {
+      "fecha_iso": "2021-12-17T00:00:00",
+      "materia": "PHP",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Enseña muy bien, aprendí php con él, es el encargado del departamento Joranome y brinda buena atención"
+    }
+  ],
+  "comments_recent": [
+    "JoraGOD",
+    "Maestrazo, es todo lo que puedo decir. Me enseñó PHP, Next JS, ionic y ensamblador SOLO EN LA UNIDAD 1. \nGracias a sus conocimientos me contrataron en Neoris y me ando ligando a la que me reclutó. ;-)",
+    "Este \"catedrático\" maestro solo nos platicaba de cómo le hacía para hablarle bonito a las novias de sus compas. Pero si lograba bajarles a las morras, como dicen los comentarios: \"UNA VERGA PA TODO\".",
+    "Anexo mi comentario. Haré referencia al primer comentario de este profesor: \"Una verga para todo\".\n\nSin duda este maestro me ayudó a reflexionar sobre la vida, el uso de PHP y su importancia, así mismo como usar ionic por encima de Flutter.",
+    "Enseña muy bien, aprendí php con él, es el encargado del departamento Joranome y brinda buena atención"
+  ],
+  "n_reviews": 5
+}

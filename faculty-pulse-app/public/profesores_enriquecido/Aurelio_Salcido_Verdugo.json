@@ -1,0 +1,127 @@
+{
+  "professor_id": "Aurelio_Salcido_Verdugo",
+  "nombre": "Aurelio Salcido Verdugo",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 5.1898475477094035,
+    "difficulty_decayed": 0.0
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.359659134139846,
+    "difficulty_bayes": 2.157041771285095
+  },
+  "recommendation_analysis": {
+    "rate": 0.67,
+    "wilson_interval": [
+      0.20949486174663193,
+      0.9395930709007021
+    ],
+    "n_recommendations": 3
+  },
+  "subject_normalization": {
+    "z_mean": -0.73,
+    "z_mean_decayed": -1.57,
+    "per_subject": [
+      {
+        "materia": "HIGIENE Y SEGURIDAD INDUSTRIAL",
+        "z_decayed": -1.5698020299164173,
+        "n": 8
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [],
+    "sentiment": {
+      "overall": null,
+      "by_month": {}
+    },
+    "n_comments": 3
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        10.0,
+        10.0,
+        3.0
+      ],
+      "ewma": [
+        10.0,
+        10.0,
+        7.9
+      ],
+      "sigma": 2.8290163190291664
+    },
+    "difficulty_trend": {
+      "series": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ewma": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sigma": 0.0
+    },
+    "forecast": {
+      "quality_next": 7.9,
+      "quality_band": [
+        2.355128014702834,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2018-01-14T00:00:00",
+      "materia": "HIGIENE Y SEGURIDAD INDUSTRIAL",
+      "calidad": 3.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Solamente escribe en el pizarrón mapas conceptuales con una pésima caligrafía, se enoja si le preguntas qué dice. Aprendes más de las exposiciones de los alumnos. Si quieres aprender no cargues con él, tiempo desperdiciado."
+    },
+    {
+      "fecha_iso": "2013-12-03T00:00:00",
+      "materia": "HIGIENE Y SEGURIDAD INDUSTRIAL",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "altamente recomendado da clases nomas de lunes a miercoles aveces nomas lunes y martes pero enseña bien y no haces examenes nomas entregas los apuntes de la libreta, una exposicion."
+    },
+    {
+      "fecha_iso": "2013-08-07T00:00:00",
+      "materia": "HIGIENE Y SEG IND. / TALLER DE ETICA",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Puro transcribir del pizarrón y una explicación después, al final te pide una usb con diapositivas de todo el semestre, no hace exámenes y si acaso una exposición. Tiene convenio para faltar osea que da como 2 clases a la semana, nomas entregale la libreta, usb y no tengas tantas faltas y 100 pelado"
+    }
+  ],
+  "comments_recent": [
+    "Solamente escribe en el pizarrón mapas conceptuales con una pésima caligrafía, se enoja si le preguntas qué dice. Aprendes más de las exposiciones de los alumnos. Si quieres aprender no cargues con él, tiempo desperdiciado.",
+    "altamente recomendado da clases nomas de lunes a miercoles aveces nomas lunes y martes pero enseña bien y no haces examenes nomas entregas los apuntes de la libreta, una exposicion.",
+    "Puro transcribir del pizarrón y una explicación después, al final te pide una usb con diapositivas de todo el semestre, no hace exámenes y si acaso una exposición. Tiene convenio para faltar osea que da como 2 clases a la semana, nomas entregale la libreta, usb y no tengas tantas faltas y 100 pelado"
+  ],
+  "n_reviews": 3
+}

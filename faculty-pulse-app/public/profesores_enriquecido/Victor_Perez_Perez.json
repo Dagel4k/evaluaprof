@@ -1,0 +1,178 @@
+{
+  "professor_id": "Victor_Perez_Perez",
+  "nombre": "Victor Perez Perez",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 6.856218527971976,
+    "difficulty_decayed": 3.0988698612004293
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.0450379162545325,
+    "difficulty_bayes": 3.0694362017804155
+  },
+  "recommendation_analysis": {
+    "rate": 0.73,
+    "wilson_interval": [
+      0.3208342172265497,
+      0.9392996951874932
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": null,
+    "z_mean_decayed": null,
+    "per_subject": []
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "redes auto",
+          "si",
+          "porque",
+          "profe",
+          "es"
+        ],
+        "weight": 0.26860886868215267
+      },
+      {
+        "id": 1,
+        "words": [
+          "cobra",
+          "deja",
+          "tarea",
+          "te",
+          "semestre"
+        ],
+        "weight": 0.3717262740742773
+      }
+    ],
+    "sentiment": {
+      "overall": 0.2,
+      "by_month": {
+        "2024-12": 0.0,
+        "2024-01": 0.0,
+        "2023-03": 0.0,
+        "2022-06": 0.0,
+        "2021-06": 1.0
+      }
+    },
+    "n_comments": 5
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        8.0,
+        6.0,
+        2.0,
+        9.0,
+        8.0
+      ],
+      "ewma": [
+        8.0,
+        7.3999999999999995,
+        5.779999999999999,
+        6.745999999999999,
+        7.122199999999999
+      ],
+      "sigma": 2.305451376195126
+    },
+    "difficulty_trend": {
+      "series": [
+        4.0,
+        4.0,
+        8.0,
+        0.0,
+        2.0
+      ],
+      "ewma": [
+        4.0,
+        4.0,
+        5.199999999999999,
+        3.6399999999999992,
+        3.1479999999999992
+      ],
+      "sigma": 2.324708325790571
+    },
+    "forecast": {
+      "quality_next": 7.122199999999999,
+      "quality_band": [
+        2.603515302657553,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2024-12-04T00:00:00",
+      "materia": "AUTOMATIZACIÓN Y REDES INDUSTRIALES",
+      "calidad": 8.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "No hay mejor profe para cargar especialidad que con él, si cargas Redes y Auto con otro profe no verás más que puras diapositivas en todo el semestre porque este profe es el que tiene a cargo el laboratorio de mecatrónica. Lo de pagarle es opcional, pero si se puede pasar sin hacerlo."
+    },
+    {
+      "fecha_iso": "2024-01-18T00:00:00",
+      "materia": "REDES Y AUTO",
+      "calidad": 9.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Cobra, pero puedes pasar sin pagar. La verdad si deja demasiada tarea, si tienes dudas trata de resolverlas o te da materiales para que puedas resolverlas. Si quieren dedicarse a la automatización sus clases serán las más importantes y útiles."
+    },
+    {
+      "fecha_iso": "2023-03-27T00:00:00",
+      "materia": "REDES INDUSTRIALES",
+      "calidad": 2.0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Deja tanta tarea para que te provoque que le pagues por pasar la materia. Cargué con el porque decía pendiente por asignar. Su clases son puros videos de su canal que no explica de manera clara el cómo hacer lo proyectos. De 20 alumnos en el semestre solo quedaron 5. Cobra como 2500 ´por materia."
+    },
+    {
+      "fecha_iso": "2022-06-11T00:00:00",
+      "materia": "AUTOMATIZACION Y REDES",
+      "calidad": 6.0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": "pagale y pasaras el semestre"
+    },
+    {
+      "fecha_iso": "2021-06-17T00:00:00",
+      "materia": "REDES INDUSTRIALES Y AUTOMATIZACIÓN",
+      "calidad": 8.0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Es el profe bueno para ambas materias, aprendes porque aprendes. Esfuérzate desde el día 1 hasta el último. Si eres un flojo conformista es mejor que no cargues con el. Carga ambas materias con el porque 1 trabajo cuenta para ambas materias (redes y auto)"
+    }
+  ],
+  "comments_recent": [
+    "No hay mejor profe para cargar especialidad que con él, si cargas Redes y Auto con otro profe no verás más que puras diapositivas en todo el semestre porque este profe es el que tiene a cargo el laboratorio de mecatrónica. Lo de pagarle es opcional, pero si se puede pasar sin hacerlo.",
+    "Cobra, pero puedes pasar sin pagar. La verdad si deja demasiada tarea, si tienes dudas trata de resolverlas o te da materiales para que puedas resolverlas. Si quieren dedicarse a la automatización sus clases serán las más importantes y útiles.",
+    "Deja tanta tarea para que te provoque que le pagues por pasar la materia. Cargué con el porque decía pendiente por asignar. Su clases son puros videos de su canal que no explica de manera clara el cómo hacer lo proyectos. De 20 alumnos en el semestre solo quedaron 5. Cobra como 2500 ´por materia.",
+    "pagale y pasaras el semestre",
+    "Es el profe bueno para ambas materias, aprendes porque aprendes. Esfuérzate desde el día 1 hasta el último. Si eres un flojo conformista es mejor que no cargues con el. Carga ambas materias con el porque 1 trabajo cuenta para ambas materias (redes y auto)"
+  ],
+  "n_reviews": 5
+}

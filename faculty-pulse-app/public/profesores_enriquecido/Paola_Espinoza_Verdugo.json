@@ -1,0 +1,157 @@
+{
+  "professor_id": "Paola_Espinoza_Verdugo",
+  "nombre": "Paola Espinoza Verdugo",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 8.747096355806661,
+    "difficulty_decayed": 2.581059003651122
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.445037916254533,
+    "difficulty_bayes": 2.6694362017804156
+  },
+  "recommendation_analysis": {
+    "rate": 0.72,
+    "wilson_interval": [
+      0.31339647649023383,
+      0.9354272658188504
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": 0.6,
+    "z_mean_decayed": 0.76,
+    "per_subject": [
+      {
+        "materia": "QUIMICA",
+        "z_decayed": 0.9922410222968302,
+        "n": 24
+      },
+      {
+        "materia": "QUÍMICA",
+        "z_decayed": 0.1022203797017147,
+        "n": 24
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [],
+    "sentiment": {
+      "overall": null,
+      "by_month": {}
+    },
+    "n_comments": 2
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        7.0,
+        10.0,
+        10.0,
+        2.0,
+        10.0
+      ],
+      "ewma": [
+        7.0,
+        7.8999999999999995,
+        8.53,
+        6.570999999999999,
+        7.599699999999999
+      ],
+      "sigma": 2.865081717508246
+    },
+    "difficulty_trend": {
+      "series": [
+        2.0,
+        0.0,
+        0.0,
+        8.0,
+        2.0
+      ],
+      "ewma": [
+        2.0,
+        1.4,
+        0.9799999999999999,
+        3.086,
+        2.7601999999999998
+      ],
+      "sigma": 2.5988664236547443
+    },
+    "forecast": {
+      "quality_next": 7.599699999999999,
+      "quality_band": [
+        1.9841398336838365,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2025-05-31T00:00:00",
+      "materia": "QUIMICA",
+      "calidad": 10.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "La profesora explica los temas, resuelve ejercicios en clase y deja tareas, es el ciclo, los exámenes son en linea, no es obligatorio ir a todas sus clases pero si te conoce mejor, eso si, al menos en mi semestre falto 4 semanas enteras (1/4 de semestre), califica bien"
+    },
+    {
+      "fecha_iso": "2020-09-30T00:00:00",
+      "materia": "QUÍMICA",
+      "calidad": 2.0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2018-08-05T00:00:00",
+      "materia": "QUÍMICA",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2018-02-16T00:00:00",
+      "materia": "QUÍMICA",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2017-12-28T00:00:00",
+      "materia": "QUIMICA",
+      "calidad": 7.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Volvería a cargar con ella. Buena maestra y aparte está guapa."
+    }
+  ],
+  "comments_recent": [
+    "La profesora explica los temas, resuelve ejercicios en clase y deja tareas, es el ciclo, los exámenes son en linea, no es obligatorio ir a todas sus clases pero si te conoce mejor, eso si, al menos en mi semestre falto 4 semanas enteras (1/4 de semestre), califica bien",
+    "Volvería a cargar con ella. Buena maestra y aparte está guapa."
+  ],
+  "n_reviews": 5
+}

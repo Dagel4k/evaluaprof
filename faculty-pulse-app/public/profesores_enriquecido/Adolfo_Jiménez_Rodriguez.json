@@ -1,0 +1,189 @@
+{
+  "professor_id": "Adolfo_Jiménez_Rodriguez",
+  "nombre": "Adolfo Jiménez Rodriguez",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 10.000000000000002,
+    "difficulty_decayed": 0.33203548783642006
+  },
+  "bayes_analysis": {
+    "quality_bayes": 8.178371249587865,
+    "difficulty_bayes": 2.0027695351137487
+  },
+  "recommendation_analysis": {
+    "rate": 1.0,
+    "wilson_interval": [
+      0.565508505247919,
+      1
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": 0.85,
+    "z_mean_decayed": 1.02,
+    "per_subject": [
+      {
+        "materia": "TALLER DE ADMINISTRACIÓN",
+        "z_decayed": 1.2792382036506686,
+        "n": 8
+      },
+      {
+        "materia": "TALLER DE ÉTICA",
+        "z_decayed": 0.9102499908660036,
+        "n": 16
+      },
+      {
+        "materia": "ECONOMÍA",
+        "z_decayed": 0.572077553547355,
+        "n": 10
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "ejemplo",
+          "tema",
+          "sabe",
+          "vida",
+          "te"
+        ],
+        "weight": 0.3634694817249374
+      },
+      {
+        "id": 1,
+        "words": [
+          "domine",
+          "mejor",
+          "nunca",
+          "es",
+          "profesor"
+        ],
+        "weight": 0.4023937407280515
+      }
+    ],
+    "sentiment": {
+      "overall": 0.0,
+      "by_month": {
+        "2023-01": 0.0,
+        "2019-08": 0.0,
+        "2018-01": 0.0,
+        "2017-11": 0.0
+      }
+    },
+    "n_comments": 5
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 1,
+    "trust_score": 0.8
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        10.0,
+        10.0,
+        10.0,
+        10.0
+      ],
+      "ewma": [
+        10.0,
+        10.0,
+        10.0,
+        10.0
+      ],
+      "sigma": 0.0
+    },
+    "difficulty_trend": {
+      "series": [
+        0.0,
+        0.0,
+        2.0,
+        0.0
+      ],
+      "ewma": [
+        0.0,
+        0.0,
+        0.6,
+        0.42
+      ],
+      "sigma": 0.7950471684120383
+    },
+    "forecast": {
+      "quality_next": 10.0,
+      "quality_band": [
+        10.0,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2023-01-15T00:00:00",
+      "materia": "TALLER DE ADMINISTRACIÓN",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Muy buena onda, sabe mucho, explica claramente y te hace interesarte. Incluso te responde dudas fuera del tema: hipotecas, campo laboral, emprendimiento, impuestos, salarios... que te ayudan en la vida.\nCalifica con un ensayo de 10 pág. en cada unidad, para el cual el mismo te da la información."
+    },
+    {
+      "fecha_iso": "2019-08-03T00:00:00",
+      "materia": "ECONOMÍA",
+      "calidad": 10.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Muy buen profesor. Sus clases son muy entretenidas. Es muy interesante todo lo que dice, lo relaciona con cosas de la vida real. Un ejemplo de profesor, de lo que le preguntes te sabe responder. Tiene muy buen caracter , se nota que le gusta dar clases."
+    },
+    {
+      "fecha_iso": "2018-01-14T00:00:00",
+      "materia": "TALLER DE ÉTICA",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Exelente profesor, domina muy bien la materia y te inspira mucho, un gran ejemplo. No hay cosa que no comprendas de su clase y cualquier duda que tengas te la aclara y te habla más del tema.\nEso sí prepárate para exponer."
+    },
+    {
+      "fecha_iso": "2018-01-14T00:00:00",
+      "materia": "ECONOMÍA",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "El mejor profesor que hay para esta materia, tiene mucha labia para explicar, nunca te vas a aburrir, las evaluaciones son fáciles y no hay tema de esta materia que él no domine."
+    },
+    {
+      "fecha_iso": "2017-11-12T00:00:00",
+      "materia": "TALLER DE ÉTICA",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "No hay un tema que no domine este profesor, es el profesor mas inteligente que conozco, no toma asistencia nunca y aun asi cuenta con toda la clase presente porque es super interesante escucharlo hablar,el mejor profe del tec seguro que si"
+    }
+  ],
+  "comments_recent": [
+    "Muy buena onda, sabe mucho, explica claramente y te hace interesarte. Incluso te responde dudas fuera del tema: hipotecas, campo laboral, emprendimiento, impuestos, salarios... que te ayudan en la vida.\nCalifica con un ensayo de 10 pág. en cada unidad, para el cual el mismo te da la información.",
+    "Muy buen profesor. Sus clases son muy entretenidas. Es muy interesante todo lo que dice, lo relaciona con cosas de la vida real. Un ejemplo de profesor, de lo que le preguntes te sabe responder. Tiene muy buen caracter , se nota que le gusta dar clases.",
+    "Exelente profesor, domina muy bien la materia y te inspira mucho, un gran ejemplo. No hay cosa que no comprendas de su clase y cualquier duda que tengas te la aclara y te habla más del tema.\nEso sí prepárate para exponer.",
+    "El mejor profesor que hay para esta materia, tiene mucha labia para explicar, nunca te vas a aburrir, las evaluaciones son fáciles y no hay tema de esta materia que él no domine.",
+    "No hay un tema que no domine este profesor, es el profesor mas inteligente que conozco, no toma asistencia nunca y aun asi cuenta con toda la clase presente porque es super interesante escucharlo hablar,el mejor profe del tec seguro que si"
+  ],
+  "n_reviews": 5
+}

@@ -1,0 +1,182 @@
+{
+  "professor_id": "douglas_mooool",
+  "nombre": "douglas mooool",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 5.895872052138141,
+    "difficulty_decayed": 4.614622364083005
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.0450379162545325,
+    "difficulty_bayes": 3.2027695351137493
+  },
+  "recommendation_analysis": {
+    "rate": 0.5,
+    "wilson_interval": [
+      0.17042015582256811,
+      0.8295798441774319
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": -1.15,
+    "z_mean_decayed": -1.15,
+    "per_subject": [
+      {
+        "materia": "---",
+        "z_decayed": -1.1483431150731278,
+        "n": 80
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "buen",
+          "es",
+          "douglas",
+          "mto douglas",
+          "mto"
+        ],
+        "weight": 0.3439035209361099
+      },
+      {
+        "id": 1,
+        "words": [
+          "douglas",
+          "mto douglas",
+          "mto",
+          "buen",
+          "es"
+        ],
+        "weight": 0.2810417402707955
+      }
+    ],
+    "sentiment": {
+      "overall": 0.0,
+      "by_month": {
+        "2014-02": 0.0,
+        "2014-01": 0.0,
+        "2013-12": 0.0,
+        "2013-05": 0.0
+      }
+    },
+    "n_comments": 4
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        2.0,
+        10.0,
+        9.0,
+        10.0,
+        2.0
+      ],
+      "ewma": [
+        2.0,
+        4.4,
+        5.779999999999999,
+        7.045999999999999,
+        5.532199999999999
+      ],
+      "sigma": 3.5123175892848866
+    },
+    "difficulty_trend": {
+      "series": [
+        8.0,
+        0.0,
+        4.0,
+        0.0,
+        8.0
+      ],
+      "ewma": [
+        8.0,
+        5.6,
+        5.119999999999999,
+        3.583999999999999,
+        4.908799999999999
+      ],
+      "sigma": 3.33953876575793
+    },
+    "forecast": {
+      "quality_next": 5.532199999999999,
+      "quality_band": [
+        0.0,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2016-03-17T00:00:00",
+      "materia": "QUÍMICA ANALITICA",
+      "calidad": 2.0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2014-02-28T00:00:00",
+      "materia": "QUIMICA ANALITICA",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Fui alumno del mto Douglas, el mto es estricto pero buen Mto. Lo que aprendi me sirbio en Termo y Valance. El pedo del año pasado fueron 2 ambientales que boicoteaban la clase, un Cedano y un tal Bladimir; estos vatos son unas lakras, al Cedano lo expulsaron por amenazar de muerte a un mto del Tek"
+    },
+    {
+      "fecha_iso": "2014-01-29T00:00:00",
+      "materia": "QUIMICA ANALITICA",
+      "calidad": 9.0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Es muy buen maestro, solo se le necesita poner atención,me reprobó una vez, pero ya en RC me di cuenta que el que estaba mal era yo :) hagan los problemas,practicas y reportes y ya esta facil."
+    },
+    {
+      "fecha_iso": "2013-12-15T00:00:00",
+      "materia": "QUÍMICA ANALÍTICA",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "El Mto Douglas me impartió clases y fué padrino de mi generación, lo conozco mejor que Uds. Laboro en el área de A. de Alimentos. Admiro al Mto por su preparación, dedicación y gran ética. Siento asco por Uds (seguramente reprobaron). Terminarán como empleados en un SUBWAY  por imbéciles o  flojos."
+    },
+    {
+      "fecha_iso": "2013-05-31T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    }
+  ],
+  "comments_recent": [
+    "Fui alumno del mto Douglas, el mto es estricto pero buen Mto. Lo que aprendi me sirbio en Termo y Valance. El pedo del año pasado fueron 2 ambientales que boicoteaban la clase, un Cedano y un tal Bladimir; estos vatos son unas lakras, al Cedano lo expulsaron por amenazar de muerte a un mto del Tek",
+    "Es muy buen maestro, solo se le necesita poner atención,me reprobó una vez, pero ya en RC me di cuenta que el que estaba mal era yo :) hagan los problemas,practicas y reportes y ya esta facil.",
+    "El Mto Douglas me impartió clases y fué padrino de mi generación, lo conozco mejor que Uds. Laboro en el área de A. de Alimentos. Admiro al Mto por su preparación, dedicación y gran ética. Siento asco por Uds (seguramente reprobaron). Terminarán como empleados en un SUBWAY  por imbéciles o  flojos.",
+    "[Comentario esperando revisión]"
+  ],
+  "n_reviews": 5
+}

@@ -1,0 +1,192 @@
+{
+  "professor_id": "Jesús_Arturo_Ayala_Ruiz",
+  "nombre": "Jesús Arturo Ayala Ruiz",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 3.386679918275318,
+    "difficulty_decayed": 6.187118765729086
+  },
+  "bayes_analysis": {
+    "quality_bayes": 6.245037916254533,
+    "difficulty_bayes": 3.869436201780416
+  },
+  "recommendation_analysis": {
+    "rate": 0.64,
+    "wilson_interval": [
+      0.25698027772269855,
+      0.9013621037467189
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": -0.92,
+    "z_mean_decayed": -1.15,
+    "per_subject": [
+      {
+        "materia": "PROBABILIDAD Y ESTADISTICA",
+        "z_decayed": 0.17576247754451413,
+        "n": 19
+      },
+      {
+        "materia": "FISICA",
+        "z_decayed": -0.4472135954999577,
+        "n": 5
+      },
+      {
+        "materia": "FÍSICA GENERAL",
+        "z_decayed": -1.4877548972012633,
+        "n": 4
+      },
+      {
+        "materia": "FISICA GENERAL",
+        "z_decayed": -1.915682977384638,
+        "n": 9
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "profe",
+          "diapositivas",
+          "minutos",
+          "tarda",
+          "carguen"
+        ],
+        "weight": 0.42150811131086174
+      },
+      {
+        "id": 1,
+        "words": [
+          "profe",
+          "menos",
+          "si",
+          "da",
+          "te"
+        ],
+        "weight": 0.35717092652267257
+      }
+    ],
+    "sentiment": {
+      "overall": -0.25,
+      "by_month": {
+        "2025-11": 0.0,
+        "2025-10": -0.5,
+        "2022-06": 0.0
+      }
+    },
+    "n_comments": 4
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        7.0,
+        8.0,
+        2.0,
+        2.0
+      ],
+      "ewma": [
+        7.0,
+        7.299999999999999,
+        5.709999999999998,
+        4.596999999999999
+      ],
+      "sigma": 2.092757092927891
+    },
+    "difficulty_trend": {
+      "series": [
+        6.0,
+        4.0,
+        6.0,
+        8.0
+      ],
+      "ewma": [
+        6.0,
+        5.3999999999999995,
+        5.579999999999999,
+        6.305999999999999
+      ],
+      "sigma": 1.2752237712129848
+    },
+    "forecast": {
+      "quality_next": 4.596999999999999,
+      "quality_band": [
+        0.49519609786133234,
+        8.698803902138664
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2025-11-28T00:00:00",
+      "materia": "FÍSICA GENERAL",
+      "calidad": 2.0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "este profe pide que les rasquen la pancita para aprobar, no carguen con el si no estan dispuestos a rascarle la panzita"
+    },
+    {
+      "fecha_iso": "2025-10-22T00:00:00",
+      "materia": "FÍSICA GNERAL",
+      "calidad": 2.0,
+      "dificultad": 6.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "La verdad no se crean los demás comentarios, mucha gente se ha dejado engañar por estos y termina regandola. Tarda 20 minutos en llegar. Solo ve puras diapositivas y no enseña nada, deja trabajos y examenes dificiles y tiene una actitud pésima. NO CARGUEN CON EL."
+    },
+    {
+      "fecha_iso": "2025-10-04T00:00:00",
+      "materia": "FISICA GENERAL",
+      "calidad": 2.0,
+      "dificultad": 6.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "Un profe horrible. No sabe explicar, sus clases son únicamente diapositivas. Si le preguntas te responde \"lean el archivo que les mandé\". No da los viernes, siempre llega tarde al menos 10 minutos y tarda otros 10 en iniciar la clase, pero por eso siempre estamos atrasados. NO CARGUEN CON ÉL"
+    },
+    {
+      "fecha_iso": "2024-08-13T00:00:00",
+      "materia": "PROBABILIDAD Y ESTADISTICA",
+      "calidad": 8.0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2022-06-17T00:00:00",
+      "materia": "FISICA",
+      "calidad": 7.0,
+      "dificultad": 6.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Al principio parece estricto pero al final te puede dar apoyo ya que da la opción de que te ponga 70 en todas las unidades si es que debes alguna unidad te da a elegir entre eso o hacer recuperación a menos que tu promedio te dé menor a 70 pq ahi si debes de presentar recuperación"
+    }
+  ],
+  "comments_recent": [
+    "este profe pide que les rasquen la pancita para aprobar, no carguen con el si no estan dispuestos a rascarle la panzita",
+    "La verdad no se crean los demás comentarios, mucha gente se ha dejado engañar por estos y termina regandola. Tarda 20 minutos en llegar. Solo ve puras diapositivas y no enseña nada, deja trabajos y examenes dificiles y tiene una actitud pésima. NO CARGUEN CON EL.",
+    "Un profe horrible. No sabe explicar, sus clases son únicamente diapositivas. Si le preguntas te responde \"lean el archivo que les mandé\". No da los viernes, siempre llega tarde al menos 10 minutos y tarda otros 10 en iniciar la clase, pero por eso siempre estamos atrasados. NO CARGUEN CON ÉL",
+    "Al principio parece estricto pero al final te puede dar apoyo ya que da la opción de que te ponga 70 en todas las unidades si es que debes alguna unidad te da a elegir entre eso o hacer recuperación a menos que tu promedio te dé menor a 70 pq ahi si debes de presentar recuperación"
+  ],
+  "n_reviews": 5
+}

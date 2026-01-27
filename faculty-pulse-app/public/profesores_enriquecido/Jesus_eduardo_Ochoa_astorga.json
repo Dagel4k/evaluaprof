@@ -1,0 +1,91 @@
+{
+  "professor_id": "Jesus_eduardo_Ochoa_astorga",
+  "nombre": "Jesus eduardo Ochoa astorga",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 8.823368922279947,
+    "difficulty_decayed": 8.0
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.4729640619848325,
+    "difficulty_bayes": 3.670128585558853
+  },
+  "recommendation_analysis": {
+    "rate": 1.0,
+    "wilson_interval": [
+      0.3423719528896193,
+      1
+    ],
+    "n_recommendations": 2
+  },
+  "subject_normalization": {
+    "z_mean": 0.41,
+    "z_mean_decayed": 0.5,
+    "per_subject": [
+      {
+        "materia": "ÁLGEBRA LINEAL",
+        "z_decayed": 0.8017837257372736,
+        "n": 7
+      },
+      {
+        "materia": "ALGEBRA LINEAL",
+        "z_decayed": 0.025075864769168087,
+        "n": 13
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [],
+    "sentiment": {
+      "overall": null,
+      "by_month": {}
+    },
+    "n_comments": 2
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": null,
+    "difficulty_trend": null,
+    "forecast": null,
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2020-11-24T00:00:00",
+      "materia": "ÁLGEBRA LINEAL",
+      "calidad": 10.0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Excelente profesor desearia que me volviera a dar clases y  asesorias"
+    },
+    {
+      "fecha_iso": "2019-08-19T00:00:00",
+      "materia": "ALGEBRA LINEAL",
+      "calidad": 7.0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Se toma aveces las cosas personales"
+    }
+  ],
+  "comments_recent": [
+    "Excelente profesor desearia que me volviera a dar clases y  asesorias",
+    "Se toma aveces las cosas personales"
+  ],
+  "n_reviews": 2
+}

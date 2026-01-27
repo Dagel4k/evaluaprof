@@ -1,0 +1,194 @@
+{
+  "professor_id": "rene_benjamin_perez_cicairos",
+  "nombre": "rene benjamin perez cicairos",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 6.233028811500829,
+    "difficulty_decayed": 1.765266120536906
+  },
+  "bayes_analysis": {
+    "quality_bayes": 6.778371249587866,
+    "difficulty_bayes": 2.2694362017804157
+  },
+  "recommendation_analysis": {
+    "rate": 0.54,
+    "wilson_interval": [
+      0.19363745331329416,
+      0.8516032271065394
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": -0.05,
+    "z_mean_decayed": -0.02,
+    "per_subject": [
+      {
+        "materia": "PROBABILIDAD Y ESTADÍSTICA",
+        "z_decayed": 0.48125188105089683,
+        "n": 8
+      },
+      {
+        "materia": "PROBABILIDAD Y ESTADISTICA",
+        "z_decayed": -0.1952916417161267,
+        "n": 19
+      },
+      {
+        "materia": "CALCULO DIFERENCIAL",
+        "z_decayed": -0.29728518649975677,
+        "n": 29
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "camarada",
+          "es camarada",
+          "es barco",
+          "barco",
+          "es"
+        ],
+        "weight": 0.31657233401212426
+      },
+      {
+        "id": 1,
+        "words": [
+          "sabe ensenar",
+          "ensenar",
+          "da",
+          "bien",
+          "sabe"
+        ],
+        "weight": 0.31843942571689987
+      }
+    ],
+    "sentiment": {
+      "overall": 0.0,
+      "by_month": {
+        "2023-02": 0.0,
+        "2021-08": 0.0,
+        "2021-06": 0.0,
+        "2019-11": 0.0,
+        "2017-10": 0.0
+      }
+    },
+    "n_comments": 5
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        5.0,
+        3.0,
+        7.0,
+        8.0,
+        6.0
+      ],
+      "ewma": [
+        5.0,
+        4.4,
+        5.18,
+        6.026,
+        6.018199999999999
+      ],
+      "sigma": 1.4177907208047316
+    },
+    "difficulty_trend": {
+      "series": [
+        0.0,
+        2.0,
+        0.0,
+        0.0,
+        4.0
+      ],
+      "ewma": [
+        0.0,
+        0.6,
+        0.42,
+        0.294,
+        1.4058
+      ],
+      "sigma": 1.3039140339761666
+    },
+    "forecast": {
+      "quality_next": 6.018199999999999,
+      "quality_band": [
+        3.2393301872227256,
+        8.797069812777274
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2023-02-24T00:00:00",
+      "materia": "CALCULO DIFERENCIAL",
+      "calidad": 6.0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Es muy camarada y barco, aunque a la hora de calificar se hace bolas y luego explica muy rapido como que trae prisa el amigo, de ahi en fuera todo bien."
+    },
+    {
+      "fecha_iso": "2021-08-22T00:00:00",
+      "materia": "PROBABILIDAD Y ESTADÍSTICA",
+      "calidad": 8.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "(En presencial) Es un barco, pero siendo realista, a nadie le interesa la materia de probabilidad y estadística, así que para una materia así es muy buen profe. Todos pasan y es muy camarada, las pláticas fuera del aula se ponen buenas. Si trae hambre lo más seguro es que no de la clase."
+    },
+    {
+      "fecha_iso": "2021-06-18T00:00:00",
+      "materia": "PROBABILIDAD Y ESTADISTICA",
+      "calidad": 7.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Es barco, si te tocan varios maestros pesados para cargar y te sale el escogelo porque aunque sea barco  te pone hacer trabajos y da pocas clases, a pesar de que sean pocas le entiendes, pero es barco"
+    },
+    {
+      "fecha_iso": "2019-11-25T00:00:00",
+      "materia": "PROBABILIDAD Y ESTADISTICAS",
+      "calidad": 3.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "No sabe enseñar bien, no da la clase, falta demaciado y no da calificacion ni mucho menos hace RC ni Global"
+    },
+    {
+      "fecha_iso": "2017-10-25T00:00:00",
+      "materia": "PROBABILIDAD Y ESTADÍSTICA",
+      "calidad": 5.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": "No sabe enseñar bien, sabe mucho de ciencias y califica bien, es fácil pasar pero si quieres aprender no cargues con el."
+    }
+  ],
+  "comments_recent": [
+    "Es muy camarada y barco, aunque a la hora de calificar se hace bolas y luego explica muy rapido como que trae prisa el amigo, de ahi en fuera todo bien.",
+    "(En presencial) Es un barco, pero siendo realista, a nadie le interesa la materia de probabilidad y estadística, así que para una materia así es muy buen profe. Todos pasan y es muy camarada, las pláticas fuera del aula se ponen buenas. Si trae hambre lo más seguro es que no de la clase.",
+    "Es barco, si te tocan varios maestros pesados para cargar y te sale el escogelo porque aunque sea barco  te pone hacer trabajos y da pocas clases, a pesar de que sean pocas le entiendes, pero es barco",
+    "No sabe enseñar bien, no da la clase, falta demaciado y no da calificacion ni mucho menos hace RC ni Global",
+    "No sabe enseñar bien, sabe mucho de ciencias y califica bien, es fácil pasar pero si quieres aprender no cargues con el."
+  ],
+  "n_reviews": 5
+}

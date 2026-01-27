@@ -37,7 +37,7 @@ async function main() {
     const server = spawn('npm', ['run', 'preview', '--', '--port', PORT.toString()], {
         cwd: path.resolve(__dirname, '..'),
         stdio: 'inherit',
-        shell: true
+        shell: false
     });
 
     // Esperar a que el servidor arranque

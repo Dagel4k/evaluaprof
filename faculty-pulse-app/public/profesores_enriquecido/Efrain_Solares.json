@@ -1,0 +1,149 @@
+{
+  "professor_id": "Efrain_Solares",
+  "nombre": "Efrain Solares",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 7.999569241637964,
+    "difficulty_decayed": 2.6593094089165765
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.578371249587866,
+    "difficulty_bayes": 2.802769535113749
+  },
+  "recommendation_analysis": {
+    "rate": 0.75,
+    "wilson_interval": [
+      0.3359821624467274,
+      0.9467720901772321
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": -0.28,
+    "z_mean_decayed": -0.28,
+    "per_subject": [
+      {
+        "materia": "MATEMATICAS DISCRETAS",
+        "z_decayed": -0.2760262237369416,
+        "n": 7
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [],
+    "sentiment": {
+      "overall": null,
+      "by_month": {}
+    },
+    "n_comments": 3
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        10.0,
+        7.0,
+        10.0,
+        7.0
+      ],
+      "ewma": [
+        10.0,
+        9.1,
+        9.37,
+        8.658999999999999
+      ],
+      "sigma": 1.3053123189489937
+    },
+    "difficulty_trend": {
+      "series": [
+        4.0,
+        3.0,
+        0.0,
+        4.0
+      ],
+      "ewma": [
+        4.0,
+        3.6999999999999997,
+        2.59,
+        3.013
+      ],
+      "sigma": 1.5106639544694689
+    },
+    "forecast": {
+      "quality_next": 8.658999999999999,
+      "quality_band": [
+        6.100587854859971,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2022-02-25T00:00:00",
+      "materia": "MATEMATICAS DISCRETAS",
+      "calidad": 7.0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2021-12-23T00:00:00",
+      "materia": "ADMINISTRACION DE BASE DE DATOS",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Al principio parecía que no dominaba mucho la materia, parecían clases de fundamentos. No enseña nada practico, esa parte es de auto estudio y el proyecto final será sobre eso. En general es buen maestro, pero no lo recomiendo porque te vas sin saber casi nada practico."
+    },
+    {
+      "fecha_iso": "2021-09-30T00:00:00",
+      "materia": "MATEMATICAS DISCRETAS",
+      "calidad": 7.0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2021-09-03T00:00:00",
+      "materia": "MATEMATICAS DISCRETAS",
+      "calidad": 7.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "No está mal para las materias de relleno, es algo enredoso pero hace paro al final si asistes"
+    },
+    {
+      "fecha_iso": "2019-08-13T00:00:00",
+      "materia": "MATES DISCRETAS",
+      "calidad": 10.0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Por problemas del tec nos empezo a dar clases despues de 2 semanas, asi que vimos todo muy rapido y para ir asi de rapido explicaba muy claro, ayuda si tienes problemas y vuelve a explicar las veces que sean necesarias"
+    }
+  ],
+  "comments_recent": [
+    "Al principio parecía que no dominaba mucho la materia, parecían clases de fundamentos. No enseña nada practico, esa parte es de auto estudio y el proyecto final será sobre eso. En general es buen maestro, pero no lo recomiendo porque te vas sin saber casi nada practico.",
+    "No está mal para las materias de relleno, es algo enredoso pero hace paro al final si asistes",
+    "Por problemas del tec nos empezo a dar clases despues de 2 semanas, asi que vimos todo muy rapido y para ir asi de rapido explicaba muy claro, ayuda si tienes problemas y vuelve a explicar las veces que sean necesarias"
+  ],
+  "n_reviews": 5
+}

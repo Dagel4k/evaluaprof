@@ -1,0 +1,189 @@
+{
+  "professor_id": "Socorro_Adela_Beltran_Loaiza",
+  "nombre": "Socorro Adela Beltran Loaiza",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 8.149880412330727,
+    "difficulty_decayed": 1.3129586207133677
+  },
+  "bayes_analysis": {
+    "quality_bayes": 6.9117045829212,
+    "difficulty_bayes": 2.5361028684470823
+  },
+  "recommendation_analysis": {
+    "rate": 0.43,
+    "wilson_interval": [
+      0.13266617599838842,
+      0.788162633266903
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": -0.92,
+    "z_mean_decayed": -0.7,
+    "per_subject": [
+      {
+        "materia": "ADMINISTRACIÓN DEL MANTENIMIENTO",
+        "z_decayed": -0.6663405849135887,
+        "n": 3
+      },
+      {
+        "materia": "MANTENIMIENTO",
+        "z_decayed": -2.1897010856540677,
+        "n": 7
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "recomendable",
+          "aprender",
+          "semestre",
+          "si",
+          "trabajos"
+        ],
+        "weight": 0.2991298926058699
+      },
+      {
+        "id": 1,
+        "words": [
+          "si",
+          "te",
+          "deja",
+          "es facil",
+          "facil"
+        ],
+        "weight": 0.2583912107999137
+      }
+    ],
+    "sentiment": {
+      "overall": 0.0,
+      "by_month": {
+        "2023-08": 0.0,
+        "2020-12": 0.0,
+        "2019-10": 0.0,
+        "2017-05": 0.0,
+        "2013-12": 0.0
+      }
+    },
+    "n_comments": 5
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        2.0,
+        6.0,
+        4.0,
+        10.0,
+        9.0
+      ],
+      "ewma": [
+        2.0,
+        3.1999999999999997,
+        3.4399999999999995,
+        5.4079999999999995,
+        6.485599999999999
+      ],
+      "sigma": 1.847509510665642
+    },
+    "difficulty_trend": {
+      "series": [
+        0.0,
+        2.0,
+        8.0,
+        0.0,
+        0.0
+      ],
+      "ewma": [
+        0.0,
+        0.6,
+        2.82,
+        1.9739999999999998,
+        1.3817999999999997
+      ],
+      "sigma": 2.8512871703846314
+    },
+    "forecast": {
+      "quality_next": 6.485599999999999,
+      "quality_band": [
+        2.8644813590953406,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2023-08-13T00:00:00",
+      "materia": "ADMINISTRACIÓN DEL MANTENIMIENTO",
+      "calidad": 9.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Tienes que asistir por lo menos a la mayoría de las clases y te ayuda en pasar, si no asistes no te va tomar en consideración, el proyecto que deja es fácil y al final parece que es muy dura pero es muy abierta y da varias oportunidades en el proyecto y da varias oportunidades"
+    },
+    {
+      "fecha_iso": "2020-12-02T00:00:00",
+      "materia": "ADMINISTRACIÓN DEL MANTENIMIENTO",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Si es buena maestra, pero deja muchas tareas y aveces no se explica muy bien que es lo que quiere, pero es fácil de llevar."
+    },
+    {
+      "fecha_iso": "2019-10-28T00:00:00",
+      "materia": "ADMINISTRACIÓN DE MANTENIMIENTO",
+      "calidad": 4.0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": "Sus clases es leer sus diapositivas, bipolar, exige demasiado en sus trabajos cuando en clase no explica lo que es necesario llevar, no ayuda, solo grita y grita, nada recomendable, es un dolor de cabeza llevar clases con ella"
+    },
+    {
+      "fecha_iso": "2017-05-03T00:00:00",
+      "materia": "ADMINISTRACIÓN DE MANTENIMIENTO",
+      "calidad": 6.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": "Es exigente la maestra, es necesario echarle ganas en las revisiones de trabajos por que con eso se trabajara todo el semestre. Muy exigente en las exposiciones y agarra de baja a los grupos que no hacen bien los trabajos y exponen mal. Pero si se aprende y te motiva mucho a aprender por tu cuenta"
+    },
+    {
+      "fecha_iso": "2013-12-21T00:00:00",
+      "materia": "MANTENIMIENTO",
+      "calidad": 2.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "NO sabe nada esta mujer bipolar, cuidado si la contradices ya no te la acabas todo el semestre tener otra idea es fatal si ella no esta dispuesta, CERO clara con lo que \" EXPLICA\", Y RENCOROSA al ponerte calificacion, CERO recomendable para el que quiera aprender"
+    }
+  ],
+  "comments_recent": [
+    "Tienes que asistir por lo menos a la mayoría de las clases y te ayuda en pasar, si no asistes no te va tomar en consideración, el proyecto que deja es fácil y al final parece que es muy dura pero es muy abierta y da varias oportunidades en el proyecto y da varias oportunidades",
+    "Si es buena maestra, pero deja muchas tareas y aveces no se explica muy bien que es lo que quiere, pero es fácil de llevar.",
+    "Sus clases es leer sus diapositivas, bipolar, exige demasiado en sus trabajos cuando en clase no explica lo que es necesario llevar, no ayuda, solo grita y grita, nada recomendable, es un dolor de cabeza llevar clases con ella",
+    "Es exigente la maestra, es necesario echarle ganas en las revisiones de trabajos por que con eso se trabajara todo el semestre. Muy exigente en las exposiciones y agarra de baja a los grupos que no hacen bien los trabajos y exponen mal. Pero si se aprende y te motiva mucho a aprender por tu cuenta",
+    "NO sabe nada esta mujer bipolar, cuidado si la contradices ya no te la acabas todo el semestre tener otra idea es fatal si ella no esta dispuesta, CERO clara con lo que \" EXPLICA\", Y RENCOROSA al ponerte calificacion, CERO recomendable para el que quiera aprender"
+  ],
+  "n_reviews": 5
+}

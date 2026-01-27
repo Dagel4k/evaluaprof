@@ -1,0 +1,192 @@
+{
+  "professor_id": "Uziel_Francisco_Grajeda_Gonzalez",
+  "nombre": "Uziel Francisco Grajeda Gonzalez",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 6.4399929683962,
+    "difficulty_decayed": 2.500733446425456
+  },
+  "bayes_analysis": {
+    "quality_bayes": 6.9117045829212,
+    "difficulty_bayes": 2.802769535113749
+  },
+  "recommendation_analysis": {
+    "rate": 0.4,
+    "wilson_interval": [
+      0.11761823115925325,
+      0.769280067791163
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": -0.13,
+    "z_mean_decayed": -0.1,
+    "per_subject": [
+      {
+        "materia": "CONTROL",
+        "z_decayed": 0.14930912731079507,
+        "n": 13
+      },
+      {
+        "materia": "ESTÁTICA",
+        "z_decayed": 0.0,
+        "n": 5
+      },
+      {
+        "materia": "MECATRONICA APLICADA",
+        "z_decayed": -0.6460582824697987,
+        "n": 5
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "mucha",
+          "mucha teoria",
+          "sabe materia",
+          "final",
+          "solo"
+        ],
+        "weight": 0.30181161948955787
+      },
+      {
+        "id": 1,
+        "words": [
+          "mucha",
+          "mucha teoria",
+          "sabe materia",
+          "teoria",
+          "sabe"
+        ],
+        "weight": 0.44031518550073423
+      }
+    ],
+    "sentiment": {
+      "overall": 0.25,
+      "by_month": {
+        "2022-02": 0.0,
+        "2021-01": 0.0,
+        "2020-09": 1.0,
+        "2020-01": 0.0
+      }
+    },
+    "n_comments": 4
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        4.0,
+        8.0,
+        5.0,
+        6.0,
+        8.0
+      ],
+      "ewma": [
+        4.0,
+        5.199999999999999,
+        5.139999999999999,
+        5.397999999999999,
+        6.178599999999999
+      ],
+      "sigma": 1.26207278395503
+    },
+    "difficulty_trend": {
+      "series": [
+        6.0,
+        2.0,
+        0.0,
+        6.0,
+        0.0
+      ],
+      "ewma": [
+        6.0,
+        4.799999999999999,
+        3.359999999999999,
+        4.151999999999999,
+        2.906399999999999
+      ],
+      "sigma": 2.2677524803205484
+    },
+    "forecast": {
+      "quality_next": 6.178599999999999,
+      "quality_band": [
+        3.7049373434481403,
+        8.652262656551859
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2022-02-10T00:00:00",
+      "materia": "ESTÁTICA",
+      "calidad": 8.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "En clases en línea faltaba mucho, todos los problemas los sacaba de un solo libro, así que era fácil estudiar. Al final dio puntos extra a todos."
+    },
+    {
+      "fecha_iso": "2021-06-28T00:00:00",
+      "materia": "DINÁMICA DE SISTEMAS",
+      "calidad": 6.0,
+      "dificultad": 6.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2021-01-02T00:00:00",
+      "materia": "MECATRONICA APLICADA",
+      "calidad": 5.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": "Solo te pide un proyecto final con el que trabajas todo el curso, en realidad no te enseña nada en el semestre"
+    },
+    {
+      "fecha_iso": "2020-09-07T00:00:00",
+      "materia": "CONTROL",
+      "calidad": 8.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Sabe mucho de la materia, da mucha teoria pero cuando empiezan los ejercicios se vuelve muy claro todo. Es buen profe, los examenes estan 2/3 y al final hace paro"
+    },
+    {
+      "fecha_iso": "2020-01-01T00:00:00",
+      "materia": "CONTROL",
+      "calidad": 4.0,
+      "dificultad": 6.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": "La manera adecuada de describir a este profesor es: Mucha teoría, poca práctica. Sabe de la materia e incluso logra transmitir lo que sabe, se nota que se esfuerza pero honestamente, no le sale. No aporta ayuda en nada, exige más de lo que él puede dar y amenaza con reprobar, injustamente. F."
+    }
+  ],
+  "comments_recent": [
+    "En clases en línea faltaba mucho, todos los problemas los sacaba de un solo libro, así que era fácil estudiar. Al final dio puntos extra a todos.",
+    "Solo te pide un proyecto final con el que trabajas todo el curso, en realidad no te enseña nada en el semestre",
+    "Sabe mucho de la materia, da mucha teoria pero cuando empiezan los ejercicios se vuelve muy claro todo. Es buen profe, los examenes estan 2/3 y al final hace paro",
+    "La manera adecuada de describir a este profesor es: Mucha teoría, poca práctica. Sabe de la materia e incluso logra transmitir lo que sabe, se nota que se esfuerza pero honestamente, no le sale. No aporta ayuda en nada, exige más de lo que él puede dar y amenaza con reprobar, injustamente. F."
+  ],
+  "n_reviews": 5
+}

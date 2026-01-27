@@ -1,0 +1,179 @@
+{
+  "professor_id": "Jesús_Gabriel_Rangel_Peraza",
+  "nombre": "Jesús Gabriel Rangel Peraza",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 6.699124587789255,
+    "difficulty_decayed": 3.1381971947957497
+  },
+  "bayes_analysis": {
+    "quality_bayes": 6.778371249587866,
+    "difficulty_bayes": 2.802769535113749
+  },
+  "recommendation_analysis": {
+    "rate": 0.65,
+    "wilson_interval": [
+      0.2637430632333918,
+      0.9059094883409838
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": -0.85,
+    "z_mean_decayed": -0.85,
+    "per_subject": [
+      {
+        "materia": "---",
+        "z_decayed": -0.8471923909460654,
+        "n": 80
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "comentario",
+          "comentario esperando",
+          "esperando",
+          "esperando revision",
+          "revision"
+        ],
+        "weight": 0.3136070166577901
+      },
+      {
+        "id": 1,
+        "words": [
+          "es",
+          "excelente",
+          "excelente profesor",
+          "profesor",
+          "si"
+        ],
+        "weight": 0.2858304106852644
+      }
+    ],
+    "sentiment": {
+      "overall": 0.4,
+      "by_month": {
+        "2024-11": 1.0,
+        "2023-10": 1.0,
+        "2022-12": 0.0,
+        "2022-11": 0.0
+      }
+    },
+    "n_comments": 5
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.3,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 0.85
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        3.5,
+        2.0,
+        10.0,
+        10.0
+      ],
+      "ewma": [
+        3.5,
+        3.05,
+        5.135,
+        6.5945
+      ],
+      "sigma": 2.7889215470918742
+    },
+    "difficulty_trend": {
+      "series": [
+        2.0,
+        4.0,
+        0.0,
+        6.0
+      ],
+      "ewma": [
+        2.0,
+        2.5999999999999996,
+        1.8199999999999996,
+        3.0739999999999994
+      ],
+      "sigma": 2.0218693495541857
+    },
+    "forecast": {
+      "quality_next": 6.5945,
+      "quality_band": [
+        1.1282137676999264,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2024-11-26T00:00:00",
+      "materia": "MODELACIÓN Y CALIDAD DEL AGUA",
+      "calidad": 10.0,
+      "dificultad": 6.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Excelente profesor, entregado, algo exigente pero dispuesto también a brindar apoyo si es necesario. Deja buenos trabajos y califica rigurosamente."
+    },
+    {
+      "fecha_iso": "2023-10-29T00:00:00",
+      "materia": "CALIDAD",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Excelente profesor, lo recomiendo mucho, aprendes con facilidad, presta atención porque si habla rápido pero preciso, no faltes porque un día de falta es un día que no entiendes lo que pasa en clase, no toma asistencia pero sabe quien va y quien no."
+    },
+    {
+      "fecha_iso": "2022-12-09T00:00:00",
+      "materia": "---",
+      "calidad": 2.0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2022-11-30T00:00:00",
+      "materia": "---",
+      "calidad": 3.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "[Comentario esperando revisión]"
+    },
+    {
+      "fecha_iso": "2022-11-18T00:00:00",
+      "materia": "---",
+      "calidad": 4.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": "[Comentario esperando revisión]"
+    }
+  ],
+  "comments_recent": [
+    "Excelente profesor, entregado, algo exigente pero dispuesto también a brindar apoyo si es necesario. Deja buenos trabajos y califica rigurosamente.",
+    "Excelente profesor, lo recomiendo mucho, aprendes con facilidad, presta atención porque si habla rápido pero preciso, no faltes porque un día de falta es un día que no entiendes lo que pasa en clase, no toma asistencia pero sabe quien va y quien no.",
+    "[Comentario esperando revisión]",
+    "[Comentario esperando revisión]",
+    "[Comentario esperando revisión]"
+  ],
+  "n_reviews": 5
+}

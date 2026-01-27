@@ -1,0 +1,182 @@
+{
+  "professor_id": "Martha_Estela_Valenzuela_Tirado",
+  "nombre": "Martha Estela Valenzuela Tirado",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 8.511948758038066,
+    "difficulty_decayed": 2.6369400995270733
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.445037916254533,
+    "difficulty_bayes": 3.0694362017804155
+  },
+  "recommendation_analysis": {
+    "rate": 0.34,
+    "wilson_interval": [
+      0.08962376171920919,
+      0.7294135166014566
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": 0.78,
+    "z_mean_decayed": 0.78,
+    "per_subject": [
+      {
+        "materia": "PROYECTO INTEGRADOR",
+        "z_decayed": 0.7833494518006403,
+        "n": 4
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "examenes",
+          "si",
+          "diapositivas",
+          "es",
+          "bien"
+        ],
+        "weight": 0.37801430631246125
+      },
+      {
+        "id": 1,
+        "words": [
+          "memorizar",
+          "si",
+          "bien",
+          "tema",
+          "explica"
+        ],
+        "weight": 0.27159061216390173
+      }
+    ],
+    "sentiment": {
+      "overall": 0.25,
+      "by_month": {
+        "2025-11": 1.0,
+        "2024-07": 0.0,
+        "2023-06": 0.0,
+        "2022-12": 0.0
+      }
+    },
+    "n_comments": 4
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        5.0,
+        5.0,
+        9.0,
+        10.0,
+        10.0
+      ],
+      "ewma": [
+        5.0,
+        5.0,
+        6.199999999999999,
+        7.339999999999999,
+        8.137999999999998
+      ],
+      "sigma": 1.3838629989995401
+    },
+    "difficulty_trend": {
+      "series": [
+        6.0,
+        8.0,
+        2.0,
+        2.0,
+        0.0
+      ],
+      "ewma": [
+        6.0,
+        6.6,
+        5.219999999999999,
+        4.253999999999999,
+        2.977799999999999
+      ],
+      "sigma": 2.0205588454682526
+    },
+    "forecast": {
+      "quality_next": 8.137999999999998,
+      "quality_band": [
+        5.425628521960899,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2025-11-24T00:00:00",
+      "materia": "PROYECTO INTEGRADOR",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Explica muy claro, expone ejemplos de uso en la\nVida real, brinda apoyo y maneja el tema de manera extraordinaria, sin duda alguna aprenderás siempre y cuando estés en la disposición de hacerlo."
+    },
+    {
+      "fecha_iso": "2024-07-25T00:00:00",
+      "materia": "METODOS AGILES",
+      "calidad": 10.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Muy buena profesora, sus exámenes no son memorizar todas las diapositivas solo es entender el tema, es muy buena persona y amable."
+    },
+    {
+      "fecha_iso": "2023-06-01T00:00:00",
+      "materia": "INGENIERÍA DE SOFTWARE",
+      "calidad": 9.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Explica bastante bien los temas, se nota que sabe de lo que habla. Deja muy pocas tareas y los exámenes son bastante fáciles, si pusiste algo de atención durante el curso con un repaso rápido de las diapositivas pasas."
+    },
+    {
+      "fecha_iso": "2023-03-15T00:00:00",
+      "materia": "ING SW",
+      "calidad": 5.0,
+      "dificultad": 8.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": ""
+    },
+    {
+      "fecha_iso": "2022-12-02T00:00:00",
+      "materia": "FUNDAMENTO DE ING. DE SOFTWARE",
+      "calidad": 5.0,
+      "dificultad": 6.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": "- Debes de memorizar muy bien las diapositivas si quieres pasar el examen, de lo contrario es imposible.\n- Explica bien el tema aunque en el examen no te servira de nada.\n- Entrega las calificaciones hasta el final del semestre\n- Ella pedira que entres a teams para adelantar la clases."
+    }
+  ],
+  "comments_recent": [
+    "Explica muy claro, expone ejemplos de uso en la\nVida real, brinda apoyo y maneja el tema de manera extraordinaria, sin duda alguna aprenderás siempre y cuando estés en la disposición de hacerlo.",
+    "Muy buena profesora, sus exámenes no son memorizar todas las diapositivas solo es entender el tema, es muy buena persona y amable.",
+    "Explica bastante bien los temas, se nota que sabe de lo que habla. Deja muy pocas tareas y los exámenes son bastante fáciles, si pusiste algo de atención durante el curso con un repaso rápido de las diapositivas pasas.",
+    "- Debes de memorizar muy bien las diapositivas si quieres pasar el examen, de lo contrario es imposible.\n- Explica bien el tema aunque en el examen no te servira de nada.\n- Entrega las calificaciones hasta el final del semestre\n- Ella pedira que entres a teams para adelantar la clases."
+  ],
+  "n_reviews": 5
+}

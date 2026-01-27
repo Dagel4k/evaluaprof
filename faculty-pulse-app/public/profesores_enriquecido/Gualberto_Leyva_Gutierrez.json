@@ -1,0 +1,161 @@
+{
+  "professor_id": "Gualberto_Leyva_Gutierrez",
+  "nombre": "Gualberto Leyva Gutierrez",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 6.3728889507411,
+    "difficulty_decayed": 0.0
+  },
+  "bayes_analysis": {
+    "quality_bayes": 6.645037916254533,
+    "difficulty_bayes": 1.8694362017804156
+  },
+  "recommendation_analysis": {
+    "rate": 0.29,
+    "wilson_interval": [
+      0.06853388744303547,
+      0.6939525403528386
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": -1.29,
+    "z_mean_decayed": -1.04,
+    "per_subject": [
+      {
+        "materia": "ARQUITECTURA DE COMPUTADORAS",
+        "z_decayed": -0.5773502691896257,
+        "n": 3
+      },
+      {
+        "materia": "FUNDAMENTOS DE PROGRAMACION",
+        "z_decayed": -1.6743569336534712,
+        "n": 15
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [],
+    "sentiment": {
+      "overall": 0.0,
+      "by_month": {
+        "2022-06": 0.0,
+        "2022-05": 0.0,
+        "2019-11": 0.0,
+        "2019-01": 0.0
+      }
+    },
+    "n_comments": 5
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        3.0,
+        2.0,
+        6.0,
+        10.0
+      ],
+      "ewma": [
+        3.0,
+        2.6999999999999997,
+        3.6899999999999995,
+        5.582999999999999
+      ],
+      "sigma": 2.327717533694041
+    },
+    "difficulty_trend": {
+      "series": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ewma": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sigma": 0.0
+    },
+    "forecast": {
+      "quality_next": 5.582999999999999,
+      "quality_band": [
+        1.020673633959679,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2022-06-03T00:00:00",
+      "materia": "ARQUITECTURA",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "gualbarco"
+    },
+    {
+      "fecha_iso": "2022-05-18T00:00:00",
+      "materia": "ARQUITECTURA DE COMPUTADORAS",
+      "calidad": 2.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "No da clases, solo te pide diapositivas y ni las revisa le envié las mismas!  Si los créditos te alcanzan carga 8 materias, por esta no tendrás que preocuparte ya esta pasada"
+    },
+    {
+      "fecha_iso": "2022-05-10T00:00:00",
+      "materia": "ARQUITECTURA PA",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "ta bien concha"
+    },
+    {
+      "fecha_iso": "2019-11-25T00:00:00",
+      "materia": "FUNDAMENTOS DE PROGRAMACION",
+      "calidad": 2.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "No se aprende nada con el de Programacion y pero tantito que es Fundamenos"
+    },
+    {
+      "fecha_iso": "2019-01-11T00:00:00",
+      "materia": "FUNDAMENTOS DE PROGRAMACION",
+      "calidad": 3.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 0,
+      "comentario": "No tiene mucho interes por clase, falta mucho y casi no enseña"
+    }
+  ],
+  "comments_recent": [
+    "gualbarco",
+    "No da clases, solo te pide diapositivas y ni las revisa le envié las mismas!  Si los créditos te alcanzan carga 8 materias, por esta no tendrás que preocuparte ya esta pasada",
+    "ta bien concha",
+    "No se aprende nada con el de Programacion y pero tantito que es Fundamenos",
+    "No tiene mucho interes por clase, falta mucho y casi no enseña"
+  ],
+  "n_reviews": 5
+}

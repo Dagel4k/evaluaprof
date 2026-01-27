@@ -1,0 +1,184 @@
+{
+  "professor_id": "Luis_Ernesto_Lizarraga_Bolaños",
+  "nombre": "Luis Ernesto Lizarraga Bolaños",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 9.003524715655036,
+    "difficulty_decayed": 4.628814351111403
+  },
+  "bayes_analysis": {
+    "quality_bayes": 7.778371249587866,
+    "difficulty_bayes": 3.0694362017804155
+  },
+  "recommendation_analysis": {
+    "rate": 0.8,
+    "wilson_interval": [
+      0.37552826411853885,
+      0.9637768390302125
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": 0.32,
+    "z_mean_decayed": 0.25,
+    "per_subject": [
+      {
+        "materia": "ADMINISTRACIÓN DE REDES",
+        "z_decayed": 0.2455857426335604,
+        "n": 4
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "aprovechar",
+          "tienes",
+          "tareas",
+          "si",
+          "es"
+        ],
+        "weight": 0.39618529878395947
+      },
+      {
+        "id": 1,
+        "words": [
+          "casi",
+          "siempre llega",
+          "tarde",
+          "llega tarde",
+          "examenes"
+        ],
+        "weight": 0.30933575957891896
+      }
+    ],
+    "sentiment": {
+      "overall": 0.4,
+      "by_month": {
+        "2023-01": 0.0,
+        "2020-02": 0.0,
+        "2020-01": 1.0,
+        "2019-01": 1.0,
+        "2018-08": 0.0
+      }
+    },
+    "n_comments": 5
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [],
+    "low_variance_flag": 0,
+    "trust_score": 1.0
+  },
+  "trends_analysis": {
+    "quality_trend": {
+      "series": [
+        10.0,
+        10.0,
+        8.0,
+        6.0,
+        10.0
+      ],
+      "ewma": [
+        10.0,
+        10.0,
+        9.4,
+        8.379999999999999,
+        8.866
+      ],
+      "sigma": 1.3702274263785554
+    },
+    "difficulty_trend": {
+      "series": [
+        0.0,
+        2.0,
+        4.0,
+        6.0,
+        6.0
+      ],
+      "ewma": [
+        0.0,
+        0.6,
+        1.6199999999999999,
+        2.9339999999999997,
+        3.8537999999999997
+      ],
+      "sigma": 1.1682249646365208
+    },
+    "forecast": {
+      "quality_next": 8.866,
+      "quality_band": [
+        6.180354244298031,
+        10.0
+      ],
+      "confidence": 0.95
+    },
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2023-01-11T00:00:00",
+      "materia": "ADMINISTRACION DE REDES",
+      "calidad": 10.0,
+      "dificultad": 6.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Deja muchas tareas, siempre llega tarde, es exigente en los exámenes y no enseña casi nada. Algunas unidades son de 3 exámenes contando el de netacad y básicamente es memorizar todo para ir a hacerlos en el aula. Para aprovechar al maestro tienes que preguntar sobre el tema, si le sabe bastante."
+    },
+    {
+      "fecha_iso": "2020-02-23T00:00:00",
+      "materia": "ADMIN DE REDES",
+      "calidad": 6.0,
+      "dificultad": 6.0,
+      "nota": null,
+      "recomienda": 0.5,
+      "comentario": "Aprendes a machetearte  examenes de memoria y a hacer practicas con ayuda del yutub :v,  casi siempre LLEGA TARDE."
+    },
+    {
+      "fecha_iso": "2020-01-11T00:00:00",
+      "materia": "ADMINISTRACIÓN DE REDES",
+      "calidad": 8.0,
+      "dificultad": 4.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Bueno, si tienes intenciones de cargar con él debes tener dudas para que puedas sacarle provecho a su clase, él puede explicarte sin problemas, el chiste de aprovechar su clase es simple: muestra interés por su clase, la materia es buena pero de no ser así, lo sentirás como \"una clase más\", \"algo X\""
+    },
+    {
+      "fecha_iso": "2019-01-15T00:00:00",
+      "materia": "ADMINISTRACIÓN DE REDES",
+      "calidad": 10.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Es muy buen profesor, explica claro las cosas y si le pides ayuda te la brinda. Es muy comprensivo. Tienes que hacer las tareas para entender el tema y subir las tareas. Eso si, nunca llega a tiempo."
+    },
+    {
+      "fecha_iso": "2018-08-03T00:00:00",
+      "materia": "EL MEJOR DE LAS REDES",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Este profesor es un amor en todo su explendor, es el master de las redes, ademas conoce un poco de todo, siempre con el animo de ayudar a los alumnos, explica de manera clara y precisa, sumamente importante ENTREGAR TAREAS A TIEMPO, los examenes son los mismos.\n\nHizo que me gustaran las redes..."
+    }
+  ],
+  "comments_recent": [
+    "Deja muchas tareas, siempre llega tarde, es exigente en los exámenes y no enseña casi nada. Algunas unidades son de 3 exámenes contando el de netacad y básicamente es memorizar todo para ir a hacerlos en el aula. Para aprovechar al maestro tienes que preguntar sobre el tema, si le sabe bastante.",
+    "Aprendes a machetearte  examenes de memoria y a hacer practicas con ayuda del yutub :v,  casi siempre LLEGA TARDE.",
+    "Bueno, si tienes intenciones de cargar con él debes tener dudas para que puedas sacarle provecho a su clase, él puede explicarte sin problemas, el chiste de aprovechar su clase es simple: muestra interés por su clase, la materia es buena pero de no ser así, lo sentirás como \"una clase más\", \"algo X\"",
+    "Es muy buen profesor, explica claro las cosas y si le pides ayuda te la brinda. Es muy comprensivo. Tienes que hacer las tareas para entender el tema y subir las tareas. Eso si, nunca llega a tiempo.",
+    "Este profesor es un amor en todo su explendor, es el master de las redes, ademas conoce un poco de todo, siempre con el animo de ayudar a los alumnos, explica de manera clara y precisa, sumamente importante ENTREGAR TAREAS A TIEMPO, los examenes son los mismos.\n\nHizo que me gustaran las redes..."
+  ],
+  "n_reviews": 5
+}

@@ -1,0 +1,157 @@
+{
+  "professor_id": "Veronica_Duarte_Martinez",
+  "nombre": "Veronica Duarte Martinez",
+  "universidad": "Instituto Tecnológico de Culiacán",
+  "decay_analysis": {
+    "quality_decayed": 10.0,
+    "difficulty_decayed": 0.39999999999999997
+  },
+  "bayes_analysis": {
+    "quality_bayes": 8.178371249587865,
+    "difficulty_bayes": 2.0027695351137487
+  },
+  "recommendation_analysis": {
+    "rate": 1.0,
+    "wilson_interval": [
+      0.565508505247919,
+      1
+    ],
+    "n_recommendations": 5
+  },
+  "subject_normalization": {
+    "z_mean": 0.58,
+    "z_mean_decayed": 0.58,
+    "per_subject": [
+      {
+        "materia": "PLANEACIÓN FINANCIERA",
+        "z_decayed": 0.5773502691896257,
+        "n": 7
+      }
+    ]
+  },
+  "grades_analysis": {
+    "grade_distribution": {
+      "mean": null,
+      "std": null,
+      "histogram": null
+    },
+    "equity_index": null,
+    "n_grades": 0
+  },
+  "nlp_analysis": {
+    "topics": [
+      {
+        "id": 0,
+        "words": [
+          "mas",
+          "te",
+          "clara",
+          "explica",
+          "manera"
+        ],
+        "weight": 0.33234744019093926
+      },
+      {
+        "id": 1,
+        "words": [
+          "ayuda",
+          "es",
+          "si",
+          "buena",
+          "maestra"
+        ],
+        "weight": 0.3248738200591569
+      }
+    ],
+    "sentiment": {
+      "overall": 0.4,
+      "by_month": {
+        "2024-07": 0.4
+      }
+    },
+    "n_comments": 5
+  },
+  "integrity_analysis": {
+    "dup_rate": 0.0,
+    "bursts": [
+      {
+        "from": "2024-07-23T00:00:00",
+        "to": "2024-07-23T00:00:00",
+        "count": 3
+      },
+      {
+        "from": "2024-07-23T00:00:00",
+        "to": "2024-07-23T00:00:00",
+        "count": 4
+      },
+      {
+        "from": "2024-07-23T00:00:00",
+        "to": "2024-07-23T00:00:00",
+        "count": 5
+      }
+    ],
+    "low_variance_flag": 1,
+    "trust_score": 0.5
+  },
+  "trends_analysis": {
+    "quality_trend": null,
+    "difficulty_trend": null,
+    "forecast": null,
+    "seasonality": {}
+  },
+  "reviews_public": [
+    {
+      "fecha_iso": "2024-07-23T00:00:00",
+      "materia": "PLANEACIÓN FINANCIERA",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Muy buena maestra, en todos los aspectos. Siempre brinda su apoyo."
+    },
+    {
+      "fecha_iso": "2024-07-23T00:00:00",
+      "materia": "PLANEACIÓN FINANCIERA",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Es muy clara para explicar. Empieza con la práctica y deja al final la teoría, por lo que que aprendes más. Te ayuda si tienes una buena asistencia, recomendado. Si te sale, carga cualquier materia con ella"
+    },
+    {
+      "fecha_iso": "2024-07-23T00:00:00",
+      "materia": "PLANEACIÓN FINANCIERA",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Excelente profesora, explica todo perfectamente bien y en caso de no entender , te lo vuelve a explicar las veces necesarias, los exámenes son justos ya que no pone cosas que no miras en clases, aprendes demasiado y busca la manera de hacerte mirar y entender todo de la manera más sencilla posible."
+    },
+    {
+      "fecha_iso": "2024-07-23T00:00:00",
+      "materia": "PLANEACIÓN FINANCIERA",
+      "calidad": 10.0,
+      "dificultad": 0.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Es una excelente maestra si explica bien y ayuda mucho"
+    },
+    {
+      "fecha_iso": "2024-07-23T00:00:00",
+      "materia": "PLANEACIÓN FINANCIERA",
+      "calidad": 10.0,
+      "dificultad": 2.0,
+      "nota": null,
+      "recomienda": 1,
+      "comentario": "Explica de manera clara, detallada y con ejemplos de la vida real."
+    }
+  ],
+  "comments_recent": [
+    "Muy buena maestra, en todos los aspectos. Siempre brinda su apoyo.",
+    "Es muy clara para explicar. Empieza con la práctica y deja al final la teoría, por lo que que aprendes más. Te ayuda si tienes una buena asistencia, recomendado. Si te sale, carga cualquier materia con ella",
+    "Excelente profesora, explica todo perfectamente bien y en caso de no entender , te lo vuelve a explicar las veces necesarias, los exámenes son justos ya que no pone cosas que no miras en clases, aprendes demasiado y busca la manera de hacerte mirar y entender todo de la manera más sencilla posible.",
+    "Es una excelente maestra si explica bien y ayuda mucho",
+    "Explica de manera clara, detallada y con ejemplos de la vida real."
+  ],
+  "n_reviews": 5
+}
