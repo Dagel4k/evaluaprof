@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Helmet } from 'react-helmet-async';
 import { Professor } from '@/types/professor';
 import { Card } from '@/shared/ui/card';
 import { Button } from '@/shared/ui/button';
@@ -26,7 +27,7 @@ export const ProfessorProfile: React.FC<ProfessorProfileProps> = ({
 }) => {
   const [showAnalysis, setShowAnalysis] = useState(false);
   const [showPrompt, setShowPrompt] = useState(false);
-  
+
   const { profile, user, refreshProfile } = useAuth();
   const navigate = useNavigate();
   const isPro = hasPermission(profile?.role, 'view-advanced-metrics');
@@ -71,6 +72,72 @@ export const ProfessorProfile: React.FC<ProfessorProfileProps> = ({
 
   return (
     <div className="space-y-4 pb-20 animate-in slide-in-from-right-4 duration-300">
+      <Helmet>
+        <title>{`${professor.nombre} - Evaluaciones y Reseñas | EvaluaProf`}</title>
+        <meta name="description" content={`Lee reseñas, calificaciones y opiniones reales de estudiantes sobre ${professor.nombre}, profesor de ${professor.departamento || professor.universidad}. Nivel de dificultad: ${professor.nivel_dificultad}/10.`} />
+        <link rel="canonical" href={`https://evaluaprof.com/profesores/${professor.nombre.toLowerCase().replace(/ /g, '-').replace(/[^\w-]+/g, '')}`} />
+
+        {/* Open Graph / Facebook */}
+        <meta property="og:type" content="profile" />
+        <meta property="og:title" content={`${professor.nombre} - Evaluaciones y Reseñas`} />
+        <meta property="og:description" content={`Descubre qué dicen los estudiantes sobre ${professor.nombre}. Calidad general: ${professor.calidad_general}/10. Dificultad: ${professor.nivel_dificultad}/10.`} />
+        <meta property="og:site_name" content="EvaluaProf" />
+        <meta property="og:url" content={`https://evaluaprof.com/profesores/${professor.nombre.toLowerCase().replace(/ /g, '-').replace(/[^\w-]+/g, '')}`} />
+        <meta property="profile:first_name" content={professor.nombre.split(' ')[0]} />
+        <meta property="profile:last_name" content={professor.nombre.split(' ').slice(1).join(' ')} />
+
+        {/* Twitter */}
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:title" content={`${professor.nombre} - Opiniones de Alumnos`} />
+        <meta name="twitter:description" content={`¿Buscas referencias de ${professor.nombre}? Revisa ${professor.numero_calificaciones} evaluaciones de estudiantes reales.`} />
+
+        {/* Schema.org JSON-LD - Breadcrumb */}
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [{
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Inicio",
+              "item": "https://evaluaprof.com"
+            }, {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Profesores",
+              "item": "https://evaluaprof.com/profesores"
+            }, {
+              "@type": "ListItem",
+              "position": 3,
+              "name": professor.nombre,
+              "item": `https://evaluaprof.com/profesores/${professor.nombre.toLowerCase().replace(/ /g, '-').replace(/[^\w-]+/g, '')}`
+            }]
+          })}
+        </script>
+
+        {/* Schema.org JSON-LD - Person */}
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Person",
+            "name": professor.nombre,
+            "jobTitle": "Professor",
+            "url": `https://evaluaprof.com/profesores/${professor.nombre.toLowerCase().replace(/ /g, '-').replace(/[^\w-]+/g, '')}`,
+            "affiliation": {
+              "@type": "CollegeOrUniversity",
+              "name": professor.universidad || "Universidad"
+            },
+            "aggregateRating": {
+              "@type": "AggregateRating",
+              "ratingValue": professor.calidad_general,
+              "reviewCount": professor.numero_calificaciones || 1,
+              "bestRating": "10",
+              "worstRating": "0"
+            }
+          })}
+        </script>
+      </Helmet>
+
       {/* Navigation */}
       <div className="flex items-center justify-between sticky top-0 bg-background/95 backdrop-blur z-10 py-2">
         <Button variant="ghost" onClick={onBack} className="gap-2 pl-0 hover:pl-2 transition-all">
@@ -82,7 +149,12 @@ export const ProfessorProfile: React.FC<ProfessorProfileProps> = ({
         </Button>
       </div>
 
-      <ProfileHeader professor={professor} />
+      <ProfileHeader
+        professor={professor}
+        onBack={onBack}
+        onAIAnalysis={handleAnalysisClick}
+        onAdvancedAnalytics={() => { }}
+      />
 
       {/* Action Button - Intercepted */}
       <Card className="p-4 bg-gradient-to-r from-academic-primary/10 to-purple-500/10 border-academic-primary/20">
@@ -105,7 +177,7 @@ export const ProfessorProfile: React.FC<ProfessorProfileProps> = ({
       </Card>
 
       <ProfileStats professor={professor} />
-      
+
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         <ProfileCharts professor={professor} />
         <ProfileWordCloud professor={professor} />
