@@ -132,11 +132,11 @@ async function main() {
         console.log('✅ Sitemap generado en dist/sitemap.xml');
     } catch (err) {
         console.error('🔥 Error fatal:', err);
+        process.exit(1);
     } finally {
         if (browser) await browser.close();
         server.kill();
         console.log('🏁 Pre-rendering finalizado.');
-        process.exit(0);
     }
 }
 
