@@ -77,21 +77,39 @@ async function main() {
         await page.setRequestInterception(true);
 
         // Log de consola del navegador (CRÍTICO para ver errores de React/Fetch)
-        page.on('console', msg => console.log('PAGE LOG:', msg.text()));
+        // Log de consola mejorado para ver objetos reales
+        page.on('console', async msg => {
+            try {
+                const args = await Promise.all(msg.args().map(arg => arg.jsonValue().catch(() => 'JSHandle')));
+                console.log('PAGE LOG:', ...args);
+            } catch (e) {
+                console.log('PAGE LOG (Raw):', msg.text());
+            }
+        });
+
         page.on('pageerror', err => console.error('PAGE ERROR:', err.toString()));
+
         page.on('requestfailed', request => {
-            console.error(`REQUEST FAILED: ${request.url()} - ${request.failure().errorText}`);
+            console.error(`REQUEST FAILED [${request.resourceType()}]: ${request.url()} - ${request.failure()?.errorText || 'Unknown error'}`);
         });
 
         page.on('request', (req) => {
             const resourceType = req.resourceType();
-            // IMPORTANTE: Permitir estilos (stylesheet) para que no falle la hidratación o validación
-            // Bloquear solo multimedia pesado
+
+            // Explicitly allow critical resources
+            if (['document', 'script', 'xhr', 'fetch', 'stylesheet', 'other'].includes(resourceType)) {
+                req.continue();
+                return;
+            }
+
+            // Block heavy media to save bandwidth/time
             if (['image', 'font', 'media'].includes(resourceType)) {
                 req.abort();
-            } else {
-                req.continue();
+                return;
             }
+
+            // Fallback: allow everything else
+            req.continue();
         });
 
         const slugs = getProfessorSlugs();
