@@ -44,6 +44,13 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
       });
     }, 5000);
 
+    // 0. PRERENDER BYPASS (Critical for SEO build)
+    if (navigator.userAgent.includes('EvaluaProf-Prerender')) {
+      console.log('🤖 Prerender detected: Bypassing auth flow.');
+      setIsLoading(false);
+      return;
+    }
+
     // DEV MODE: Create mock user with full permissions
     if (import.meta.env.VITE_DEV_MODE === 'true') {
       console.log('🔧 DEV MODE: Creating mock user with STUDENT_PRO role');

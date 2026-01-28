@@ -73,6 +73,9 @@ async function main() {
 
         const page = await browser.newPage();
 
+        // Identificarse como el prerender para saltar auth
+        await page.setUserAgent('EvaluaProf-Prerender');
+
         // Optimizar carga y LOGGING para debug
         await page.setRequestInterception(true);
 
