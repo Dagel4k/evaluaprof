@@ -28,7 +28,7 @@ export const ProfessorProfile: React.FC<ProfessorProfileProps> = ({
   const [showAnalysis, setShowAnalysis] = useState(false);
   const [showPrompt, setShowPrompt] = useState(false);
 
-  const SITE_URL = import.meta.env.VITE_SITE_URL || 'https://evaluaprof.com';
+  const SITE_URL = import.meta.env.VITE_SITE_URL || 'https://evaluaprof-qcgd.vercel.app';
 
   const { profile, user, refreshProfile } = useAuth();
   const navigate = useNavigate();

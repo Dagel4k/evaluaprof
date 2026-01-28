@@ -125,7 +125,7 @@ async function main() {
 
         // Generar Sitemap
         console.log('🗺️ Generando Sitemap.xml...');
-        const SITE_URL = process.env.VITE_SITE_URL || 'https://evaluaprof.com';
+        const SITE_URL = process.env.VITE_SITE_URL || 'https://evaluaprof-qcgd.vercel.app';
         const sitemapContent = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
