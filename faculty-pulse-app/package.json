@@ -11,6 +11,7 @@
     "vercel-build": "npm run build:seo",
     "build:dev": "vite build --mode development",
     "postbuild": "npx cap sync android",
+    "postinstall": "npx puppeteer browsers install chrome",
     "lint": "eslint .",
     "preview": "vite preview",
     "android:debug": "cd android && ./gradlew assembleDebug",
