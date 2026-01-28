@@ -85,7 +85,9 @@ async function main() {
 
         page.on('request', (req) => {
             const resourceType = req.resourceType();
-            if (['image', 'stylesheet', 'font', 'media'].includes(resourceType)) {
+            // IMPORTANTE: Permitir estilos (stylesheet) para que no falle la hidratación o validación
+            // Bloquear solo multimedia pesado
+            if (['image', 'font', 'media'].includes(resourceType)) {
                 req.abort();
             } else {
                 req.continue();
