@@ -103,10 +103,26 @@ async function main() {
                     const url = `${BASE_URL}/profesores/${slug}`;
                     await page.goto(url, { waitUntil: 'networkidle0', timeout: 30000 });
 
-                    // Esperar un poco extra para asegurar que React terminó de hidratar y Helmet actuó
-                    await new Promise(r => setTimeout(r, 500));
+                    // Esperar a que el título cambie (indicador de que Helmet actuó y los datos cargaron)
+                    // El título debe contener "Evaluaciones" según ProfessorProfile.tsx
+                    try {
+                        await page.waitForFunction(
+                            () => document.title.includes('Evaluaciones'),
+                            { timeout: 10000 } // 10 segundos máximo para que cargue la metadata
+                        );
+                    } catch (e) {
+                        console.warn(`⚠️ Warning: Timeout esperando metadata para ${slug}. Título actual: "${await page.title()}". Capturando de todos modos...`);
+                    }
+
+                    // Pequeña espera adicional para asegurar que otros meta tags se actualicen
+                    await new Promise(r => setTimeout(r, 200));
 
                     const html = await page.content();
+
+                    // Validación básica de que no estamos guardando una página de error o loading infinito
+                    if (html.includes('Cargando datos...') && !html.includes('Evaluaciones')) {
+                        console.warn(`⚠️ Warning: ${slug} parece estar en estado de carga.`);
+                    }
 
                     // Guardar archivo
                     // Estructura: /profesores/[slug]/index.html (para URLs limpias)
