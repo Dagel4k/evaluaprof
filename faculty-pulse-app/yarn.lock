@@ -1337,6 +1337,14 @@
   resolved "https://registry.npmjs.org/@rollup/rollup-win32-x64-msvc/-/rollup-win32-x64-msvc-4.24.0.tgz"
   integrity sha512-fbMkAF7fufku0N2dE5TBXcNlg0pt0cJue4xBRE2Qc5Vqikxr4VCgKj/ht6SMdFcOacVA9rqF70APJ8RN/4vMJw==
 
+"@sparticuz/chromium@^143.0.4":
+  version "143.0.4"
+  resolved "https://registry.npmjs.org/@sparticuz/chromium/-/chromium-143.0.4.tgz"
+  integrity sha512-/6I7uQTRhRDD2/gGPQ1Gkf+Dqk0RYDACPJDZfSzz0OWk4JmUTonNHPXbrn6UIklOHlnDLf8xAAzkOZKB/cJpLA==
+  dependencies:
+    follow-redirects "^1.15.11"
+    tar-fs "^3.1.1"
+
 "@supabase/auth-js@2.88.0":
   version "2.88.0"
   resolved "https://registry.npmjs.org/@supabase/auth-js/-/auth-js-2.88.0.tgz"
@@ -2810,6 +2818,11 @@ flatted@^3.2.9:
   resolved "https://registry.npmjs.org/flatted/-/flatted-3.3.1.tgz"
   integrity sha512-X8cqMLLie7KsNUDSdzeN8FYK9rEt4Dt67OsG/DNGnYTSDBG4uFAJFBnUeiV+zCVAvwFy56IjM9sH51jVaEhNxw==
 
+follow-redirects@^1.15.11:
+  version "1.15.11"
+  resolved "https://registry.npmjs.org/follow-redirects/-/follow-redirects-1.15.11.tgz"
+  integrity sha512-deG2P0JfjrTxl50XGCDyfI97ZGVCxIpfKYmfyrQ54n5FO/0gfIES8C/Psl6kWVDolizcaaxZJnTS0QSMxvnsBQ==
+
 fontkit@^2.0.4:
   version "2.0.4"
   resolved "https://registry.npmjs.org/fontkit/-/fontkit-2.0.4.tgz"
@@ -3807,7 +3820,7 @@ punycode@^2.1.0:
   resolved "https://registry.npmjs.org/punycode/-/punycode-2.3.1.tgz"
   integrity sha512-vYt7UD1U9Wg6138shLtLOvdAu+8DsC/ilFtEVHcH+wydcSpNE20AfSOduf6MkRFahL5FY7X1oU7nKVZFtfq8Fg==
 
-puppeteer-core@24.36.1:
+puppeteer-core@^24.36.1, puppeteer-core@24.36.1:
   version "24.36.1"
   resolved "https://registry.npmjs.org/puppeteer-core/-/puppeteer-core-24.36.1.tgz"
   integrity sha512-L7ykMWc3lQf3HS7ME3PSjp7wMIjJeW6+bKfH/RSTz5l6VUDGubnrC2BKj3UvM28Y5PMDFW0xniJOZHBZPpW1dQ==

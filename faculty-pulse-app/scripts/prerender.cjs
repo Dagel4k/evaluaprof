@@ -46,10 +46,31 @@ async function main() {
 
     let browser;
     try {
-        browser = await puppeteer.launch({
+        let launchOptions = {
             headless: "new",
             args: ['--no-sandbox', '--disable-setuid-sandbox']
-        });
+        };
+
+        const chromium = require("@sparticuz/chromium");
+        const puppeteerCore = require("puppeteer-core");
+
+        // Detectar si estamos en Vercel (AWS Lambda environment)
+        if (process.env.VERCEL || process.env.AWS_LAMBDA_FUNCTION_VERSION) {
+            console.log('🚀 Usando @sparticuz/chromium para Vercel...');
+            launchOptions = {
+                args: chromium.args,
+                defaultViewport: chromium.defaultViewport,
+                executablePath: await chromium.executablePath(),
+                headless: chromium.headless,
+            };
+            browser = await puppeteerCore.launch(launchOptions);
+        } else {
+            console.log('💻 Usando Puppeteer local...');
+            // Fallback para local
+            const puppeteer = require('puppeteer');
+            browser = await puppeteer.launch(launchOptions);
+        }
+
         const page = await browser.newPage();
 
         // Optimizar carga
