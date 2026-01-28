@@ -28,6 +28,8 @@ export const ProfessorProfile: React.FC<ProfessorProfileProps> = ({
   const [showAnalysis, setShowAnalysis] = useState(false);
   const [showPrompt, setShowPrompt] = useState(false);
 
+  const SITE_URL = import.meta.env.VITE_SITE_URL || 'https://evaluaprof.com';
+
   const { profile, user, refreshProfile } = useAuth();
   const navigate = useNavigate();
   const isPro = hasPermission(profile?.role, 'view-advanced-metrics');
@@ -75,14 +77,14 @@ export const ProfessorProfile: React.FC<ProfessorProfileProps> = ({
       <Helmet>
         <title>{`${professor.nombre} - Evaluaciones y Reseñas | EvaluaProf`}</title>
         <meta name="description" content={`Lee reseñas, calificaciones y opiniones reales de estudiantes sobre ${professor.nombre}, profesor de ${professor.departamento || professor.universidad}. Nivel de dificultad: ${professor.nivel_dificultad}/10.`} />
-        <link rel="canonical" href={`https://evaluaprof.com/profesores/${professor.nombre.toLowerCase().replace(/ /g, '-').replace(/[^\w-]+/g, '')}`} />
+        <link rel="canonical" href={`${SITE_URL}/profesores/${professor.nombre.toLowerCase().replace(/ /g, '-').replace(/[^\w-]+/g, '')}`} />
 
         {/* Open Graph / Facebook */}
         <meta property="og:type" content="profile" />
         <meta property="og:title" content={`${professor.nombre} - Evaluaciones y Reseñas`} />
         <meta property="og:description" content={`Descubre qué dicen los estudiantes sobre ${professor.nombre}. Calidad general: ${professor.calidad_general}/10. Dificultad: ${professor.nivel_dificultad}/10.`} />
         <meta property="og:site_name" content="EvaluaProf" />
-        <meta property="og:url" content={`https://evaluaprof.com/profesores/${professor.nombre.toLowerCase().replace(/ /g, '-').replace(/[^\w-]+/g, '')}`} />
+        <meta property="og:url" content={`${SITE_URL}/profesores/${professor.nombre.toLowerCase().replace(/ /g, '-').replace(/[^\w-]+/g, '')}`} />
         <meta property="profile:first_name" content={professor.nombre.split(' ')[0]} />
         <meta property="profile:last_name" content={professor.nombre.split(' ').slice(1).join(' ')} />
 
@@ -100,17 +102,17 @@ export const ProfessorProfile: React.FC<ProfessorProfileProps> = ({
               "@type": "ListItem",
               "position": 1,
               "name": "Inicio",
-              "item": "https://evaluaprof.com"
+              "item": `${SITE_URL}`
             }, {
               "@type": "ListItem",
               "position": 2,
               "name": "Profesores",
-              "item": "https://evaluaprof.com/profesores"
+              "item": `${SITE_URL}/profesores`
             }, {
               "@type": "ListItem",
               "position": 3,
               "name": professor.nombre,
-              "item": `https://evaluaprof.com/profesores/${professor.nombre.toLowerCase().replace(/ /g, '-').replace(/[^\w-]+/g, '')}`
+              "item": `${SITE_URL}/profesores/${professor.nombre.toLowerCase().replace(/ /g, '-').replace(/[^\w-]+/g, '')}`
             }]
           })}
         </script>
@@ -122,7 +124,7 @@ export const ProfessorProfile: React.FC<ProfessorProfileProps> = ({
             "@type": "Person",
             "name": professor.nombre,
             "jobTitle": "Professor",
-            "url": `https://evaluaprof.com/profesores/${professor.nombre.toLowerCase().replace(/ /g, '-').replace(/[^\w-]+/g, '')}`,
+            "url": `${SITE_URL}/profesores/${professor.nombre.toLowerCase().replace(/ /g, '-').replace(/[^\w-]+/g, '')}`,
             "affiliation": {
               "@type": "CollegeOrUniversity",
               "name": professor.universidad || "Universidad"

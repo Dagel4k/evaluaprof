@@ -2,6 +2,7 @@ const puppeteer = require('puppeteer');
 const fs = require('fs');
 const path = require('path');
 const { spawn } = require('child_process');
+require('dotenv').config({ path: path.resolve(__dirname, '../.env') });
 
 const PORT = 4173; // Vite preview port by default
 const BASE_URL = `http://localhost:${PORT}`;
@@ -103,23 +104,24 @@ async function main() {
 
         // Generar Sitemap
         console.log('🗺️ Generando Sitemap.xml...');
+        const SITE_URL = process.env.VITE_SITE_URL || 'https://evaluaprof.com';
         const sitemapContent = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://evaluaprof.com/</loc>
+    <loc>${SITE_URL}/</loc>
     <lastmod>${new Date().toISOString().split('T')[0]}</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://evaluaprof.com/profesores</loc>
+    <loc>${SITE_URL}/profesores</loc>
     <lastmod>${new Date().toISOString().split('T')[0]}</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   ${slugs.map(slug => `
   <url>
-    <loc>https://evaluaprof.com/profesores/${slug}</loc>
+    <loc>${SITE_URL}/profesores/${slug}</loc>
     <lastmod>${new Date().toISOString().split('T')[0]}</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
