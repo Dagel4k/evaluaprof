@@ -73,8 +73,16 @@ async function main() {
 
         const page = await browser.newPage();
 
-        // Optimizar carga
+        // Optimizar carga y LOGGING para debug
         await page.setRequestInterception(true);
+
+        // Log de consola del navegador (CRÍTICO para ver errores de React/Fetch)
+        page.on('console', msg => console.log('PAGE LOG:', msg.text()));
+        page.on('pageerror', err => console.error('PAGE ERROR:', err.toString()));
+        page.on('requestfailed', request => {
+            console.error(`REQUEST FAILED: ${request.url()} - ${request.failure().errorText}`);
+        });
+
         page.on('request', (req) => {
             const resourceType = req.resourceType();
             if (['image', 'stylesheet', 'font', 'media'].includes(resourceType)) {
